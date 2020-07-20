@@ -1,0 +1,145 @@
+title:              Optikal Bahari
+description:        Terpercaya Semenjak Tahun 1978
+author:             Optikal Bahari
+email:              adhityadaniel@gmail.com
+baseurl:            ""
+url:                "https://optikalbahari.com"
+tagline:            Melayani Segala Kebutuhan Kacamata Anda
+subtitle:           Harga Bersahahat!
+permalink: 			/:title/
+
+# Social Profiles
+twitter_username:  OptikalBahari
+linkedin_username: OptikalBahari
+facebook_username: OptikalBahari 
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   G-FV2N66E55Q # out your google-analytics code
+
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+#  - jekyll-google-tag-manager
+#  - jekyll-press
+
+# google:
+#   tag_manager:
+#     container_id: GTM-W34TFKB
+
+
+# ###########################################################
+# # Site configuration for the WebP Generator Plugin
+# # The values here represent the defaults if nothing is set
+# webp:
+#   enabled: true
+#
+#   # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
+#   quality: 75
+#
+#   # List of directories containing images to optimize, nested directories will only be checked if `nested` is true
+#   # By default the generator will search for a folder called `/img` under the site root and process all jpg, png and tiff image files found there.
+#   img_dir: ["/img"]
+#   img_dir: ["/img/posts"]
+#   img_dir: ["/_site/img"]
+#   img_dir: ["/_site/img/posts"]
+#
+#   # Whether to search in nested directories or not
+#   nested: true
+#
+#   # add ".gif" to the format list to generate webp for animated gifs as well
+#   formats: [".jpeg", ".jpg", ".png", ".tiff"]
+#
+#   # File extensions for animated gif files
+#   gifs: [".gif"]
+#
+#   # Set to true to always regenerate existing webp files
+#   regenerate: false
+#
+#   # Local path to the WebP utilities to use (relative or absolute)
+#   # Omit or leave as nil to use the utilities shipped with the gem, override only to use your local install
+#   webp_path: nil
+#
+#   # List of files or directories to exclude
+#   # e.g. custom or hand generated webp conversion files
+#   exclude: []
+#
+#   # append '.webp' to filename after original extension rather than replacing it.
+#   # Default transforms `image.png` to `image.webp`, while changing to true transforms `image.png` to `image.png.webp`
+#   append_ext: false
+# ############################################################
+#
+# jekyll-press:
+#   exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+#   js_options: {}      # js minifier options
+#   css_options: {}     # css minifier options
+#   html_options: {}    # html minifier options
+
+
+
+
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# title: Your awesome title
+# email: your-email@example.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+# theme: minima
+# theme: jekyll-theme-clean-blog
+# plugins:
+#  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
