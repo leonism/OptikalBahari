@@ -14,7 +14,7 @@ background: '/assets/img/bg-profil.jpg'
 <h3>Sejarah</h3>
 
 <p class="aligncenter">
-<img data-src="/assets/img/profil/bandar-udara-kemayoran.jpeg" src="/assets/img/profil/bandar-udara-kemayoran.jpeg" class="rounded mx-auto d-block" alt="bandar-udara-kemayoran.jpeg" ></p>
+<img data-src="/assets/img/profil/bandar-udara-kemayoran.jpeg" src="/assets/img/profil/bandar-udara-kemayoran.jpeg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="bandar-udara-kemayoran.jpeg" ></p>
 
 <p>Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi selanjutnya dikeluarga kami.</p>
 
@@ -23,7 +23,7 @@ background: '/assets/img/bg-profil.jpg'
 <h3>Transformasi</h3>
 
 <p class="aligncenter">
-<img data-src="/assets/img/profil/jalan-h-jiung.jpg" src="/assets/img/profil/jalan-h-jiung.jpg" class="rounded mx-auto d-block" alt="jalan-h-jiung.jpg" ></p>
+<img data-src="/assets/img/profil/jalan-h-jiung.jpg" src="/assets/img/profil/jalan-h-jiung.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="jalan-h-jiung.jpg" ></p>
 
 <p>Seriring dengan perkembangan zaman, Optikal Bahari telah bertransformasi dengan banyak innovasi teknologi. Dimana di masa sebelumnya, semua proses pemesanan kacamata yang dimulai dari pemeriksaan dan pembuatan dilakukan secara manual dengan alat analog. Sementara sekarang sudah melibatkan banyak teknologi komputerisasi dalam proses pengerjaannya.</p>
 
@@ -32,7 +32,7 @@ background: '/assets/img/bg-profil.jpg'
 <h3>Paripurna</h3>
 
 <p class="aligncenter">
-<img data-src="/assets/img/profil/bandar-udara-kemayoran-80an.jpg" src="/assets/img/profil/bandar-udara-kemayoran-80an.jpg" class="rounded mx-auto d-block" alt="bandar-udara-kemayoran-80an" ></p>
+<img data-src="/assets/img/profil/bandar-udara-kemayoran-80an.jpg" src="/assets/img/profil/bandar-udara-kemayoran-80an.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="bandar-udara-kemayoran-80an" ></p>
 
 <p>Kami bangga menjadi bagian dari sejarah perubahan zaman di Kemayoran. Mulai dari era bandar udara Kemayoran masih beroperasi, lanjut ke periode bioskop Rahayu yang berubah nama menjadi Dwi Gita, sampai dengan sekarang dimana Kemayoran sudah dipenuhi dengan banyak apartemen, mall, ojek online dan bangunan tinggi yang menjulang lainnya.</p>
 

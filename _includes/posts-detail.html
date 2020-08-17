@@ -1,0 +1,15 @@
+{% for post in site.categories.Trend limit : 3 %}
+<div class="card bg-dark text-white mb-3">
+	{% if page.background %}
+  	<img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}">
+  	{% endif %}
+  	<div class="card-img-overlay">
+    <h5 class="card-title">{{ post.title }}</h5>
+    <p class="card-text">
+		{{ post.description | strip_html | truncate: 120 }}.
+	</p>
+	
+     <a class="btn btn-primary rounded" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya</a>
+  </div>
+</div>
+{% endfor %}

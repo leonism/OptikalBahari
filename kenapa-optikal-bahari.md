@@ -13,11 +13,6 @@ background: '/assets/img/posts/025.jpg'
 
 <h3>Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama</h3>
 
-<p class="aligncenter">
-<a href="{{"/promo-agustusan-kemerdekaan" | relative_url }}?utm_source=internal_banner&utm_medium=banner&utm_campaign=promo%20agustusan" title="promo-agustusan-kemerdekaan" id="promo-agustusan-kemerdekaan">
-<img data-src="/assets/img/posts/promo/" src="/assets/img/posts/promo/promo-agustus-merdeka.jpg" class="rounded mx-auto d-block" alt="promo-agustus-merdeka.jpg">
-</a></p>
-
 <p>Kamu sedang mencari tempat yang jual kacamata keren terbaik? Maka jawabanya adalah Optikal Bahari. Mengapa harus di sini? Tentu ada banyak sekali keunikan yang tidak akan kamu temui di tempat optik lain. Karena itu, tempat ini sangat cocok denganmu yang sedang membutuhkan kacamata.</p>
 
 <p>Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai gaya hidup.  Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi sebuah kebutuhan tersendiri, terutama untuk kalangan muda.</p>

@@ -17,23 +17,23 @@ background: '/assets/img/bg-testi.jpg'
 
 <h4>Halaman #1</h4>
 <p class="aligncenter">
-<img data-src="/assets/img/testimonial/testi-01.jpg" src="/assets/img/testimonial/testi-01.jpg" class="rounded mx-auto d-block" alt="testimonial/testi-01.jpg" ></p>
+<img data-src="/assets/img/testimonial/testi-01.jpg" src="/assets/img/testimonial/testi-01.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="testimonial/testi-01.jpg" ></p>
 
 <h4>Halaman #2</h4>
 <p class="aligncenter">
-<img data-src="/assets/img/testimonial/testi-02.jpg" src="/assets/img/testimonial/testi-02.jpg" class="rounded mx-auto d-block" alt="testimonial/testi-02.jpg" ></p>
+<img data-src="/assets/img/testimonial/testi-02.jpg" src="/assets/img/testimonial/testi-02.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="testimonial/testi-02.jpg" ></p>
 
 <h4>Halaman #3</h4>
 <p class="aligncenter">
-<img data-src="/assets/img/testimonial/testi-03.jpg" src="/assets/img/testimonial/testi-03.jpg" class="rounded mx-auto d-block" alt="testimonial/testi-03.jpg" ></p>
+<img data-src="/assets/img/testimonial/testi-03.jpg" src="/assets/img/testimonial/testi-03.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="testimonial/testi-03.jpg" ></p>
 
 <h4>Halaman #4</h4>
 <p class="aligncenter">
-<img data-src="/assets/img/testimonial/testi-04.jpg" src="/assets/img/testimonial/testi-04.jpg" class="rounded mx-auto d-block" alt="testimonial/testi-04.jpg" ></p>
+<img data-src="/assets/img/testimonial/testi-04.jpg" src="/assets/img/testimonial/testi-04.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="testimonial/testi-04.jpg" ></p>
 
 <h4>Halaman #5</h4>
 <p class="aligncenter">
-<img data-src="/assets/img/testimonial/testi-05.jpg" src="/assets/img/testimonial/testi-05.jpg" class="rounded mx-auto d-block" alt="testimonial/testi-05.jpg" ></p>
+<img data-src="/assets/img/testimonial/testi-05.jpg" src="/assets/img/testimonial/testi-05.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="testimonial/testi-05.jpg" ></p>
 
 
 <p>Untuk ulasan dari konsumen kami lainnya, silahkan melihat secara langsung melalui tautan berikut <a href="https://www.google.com/search?safe=strict&hl=en-ID&gl=id&sxsrf=ALeKk01mFygFLFgcGPbW4Gdwxhg_0kuUoQ%3A1594976814186&ei=LmoRX4LyCvjjz7sPoYOd-Ao&q=Bahari+Optical%2C+Jl.+Bend.+Jago+No.447%2C+RW.1%2C+Utan+Panjang%2C+Kec.+Kemayoran%2C+Kota+Jakarta+Pusat%2C+Daerah+Khusus+Ibukota+Jakarta+10650&oq=Bahari+Optical%2C+Jl.+Bend.+Jago+No.447%2C+RW.1%2C+Utan+Panjang%2C+Kec.+Kemayoran%2C+Kota+Jakarta+Pusat%2C+Daerah+Khusus+Ibukota+Jakarta+10650&gs_lcp=CgZwc3ktYWIQDFAAWABgrqenBWgAcAB4AIABAIgBAJIBAJgBAKoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiCwbzT99PqAhX48XMBHaFBB68Q4dUDCAw#lrd=0x2e69f5a43786850d:0x9802c727c074ae8c,1,,,">ini</a>. <em>(Optikal Bahari)</em></p>

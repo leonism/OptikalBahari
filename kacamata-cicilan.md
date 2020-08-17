@@ -14,7 +14,7 @@ background: '/assets/img/posts/024.jpg'
 <p>Kamu punya gangguan penglihatan dan butuh kacamata dan ingin beli kacamata yang bisa nyicil? Selamat kamu berada di tempat yang tepat. Optikal Bahari adalah salah satu tempat terbaik untuk kamu yang membutuhkan kacamata. Apalagi di sini kamu bisa membeli sebuah kacamata meski harus menyicil.</p>
 
 <p class="aligncenter">
-<img data-src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg" src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg" class="rounded mx-auto d-block" alt="kacamata-cicilan"></p>
+<img data-src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg" src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="kacamata-cicilan"></p>
 
 <p>Kacamata pada dasarnya memiliki harga yang bervariasi tergantung bentuk, model, kualitas dan bahannya. Harganya bisa mulai dari puluhan ribu hingga jutaan rupiah dan tentu ini akan sangat menyebalkan jika kamu membutuhkan sebuah kacamata. Apalagi untuk memperbaiki penglihatan yang kurang jelas karena adanya gangguan.</p>
 

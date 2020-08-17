@@ -20,28 +20,28 @@ background: '/assets/img/bg-about.jpg'
 <h3>Cepat & Akurat</h3>
 
 <p class="aligncenter">
-<img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" class="rounded mx-auto d-block" alt="periksa-mata-gratis-optikal-bahari-2.jpg"></p>
+<img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="periksa-mata-gratis-optikal-bahari-2.jpg"></p>
 
 <p>Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Optisien bertugas untuk membuat kacamata atau menyiapkan lensa kontak berdasarkan resep dari dokter mata. Selain membuat kacamata, optisien juga dapat melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.</p> 
 
 <h3>Phoropter</h3>
 
 <p class="aligncenter">
-<img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.jpg" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.jpg" class="rounded mx-auto d-block" alt="periksa-mata-gratis-optikal-bahari-12.jpg"></p>
+<img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.jpg" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="periksa-mata-gratis-optikal-bahari-12.jpg"></p>
 
 <p>Phoropter atau refraktor adalah alat pengujian oftalmik. Ini biasanya digunakan oleh profesional perawatan mata selama pemeriksaan mata, dan mengandung berbagai lensa yang digunakan untuk pembiasan mata selama pengujian penglihatan, untuk mengukur kesalahan bias seseorang dan menentukan resep kacamata. Ini juga digunakan untuk mengukur phorias dan duksi pasien, yang merupakan karakteristik dari binocularity.</p>
 
 <h3>Komputerisasi Digital</h3>
 
 <p class="aligncenter">
-<img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" class="rounded mx-auto d-block" alt="periksa-mata-gratis-optikal-bahari-10.jpg"></p>
+<img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="periksa-mata-gratis-optikal-bahari-10.jpg"></p>
 
 <p>Sudah menjadi komitmen kami untuk selalu memberikan pelayanan terbaik kepada konsumem kami. Silahkan datang ke tempat kami dan konsultasikan keluhan yang dirasakan yang berhubungan dengan keluhan terhadap daya penglihatan anda. Seiring dengan bertambahnya usia anda, semakin menurun kapasitas retina mata yang dapat menurunkan kapasitas penglihatan itu sendiri.</p>
 
 <h3>Auto Lens Meter</h3>
 
 <p class="aligncenter">
-<img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.jpg" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.jpg" class="rounded mx-auto d-block" alt="periksa-mata-gratis-optikal-bahari-11.jpg"></p>
+<img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.jpg" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="periksa-mata-gratis-optikal-bahari-11.jpg"></p>
 
 <p>Lensmeter atau lensometer, juga dikenal sebagai focimeter atau vertometer, adalah instrumen oftalmik. Hal ini terutama digunakan oleh dokter mata dan ahli kacamata untuk memverifikasi resep yang benar dalam sepasang kacamata, untuk mengarahkan dan menandai dengan tepat lensa yang belum dipotong, dan untuk mengkonfirmasi pemasangan lensa yang benar dalam bingkai kacamata. Pengukur lensa juga dapat memverifikasi kekuatan lensa kontak, jika dukungan lensa khusus digunakan.</p>
 	

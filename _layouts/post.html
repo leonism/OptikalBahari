@@ -36,12 +36,13 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 		  <!-- start banner kemerdekaan -->
 		  <p class="aligncenter">
 		  <a href="{{"/promo-agustusan-kemerdekaan" | relative_url }}?utm_source=internal_banner&utm_medium=banner&utm_campaign=promo%20agustusan" title="promo-agustusan-kemerdekaan" id="promo-agustusan-kemerdekaan">
-		  	<img data-src="/assets/img/posts/promo/" src="/assets/img/posts/promo/promo-agustus-merdeka.jpg" class="rounded mx-auto d-block" alt="promo-agustus-merdeka.jpg">
+		  	<img data-src="/assets/img/posts/promo/" src="/assets/img/posts/promo/promo-agustus-merdeka.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="promo-agustus-merdeka.jpg">
 		  </a></p>
 		  <!-- end banner kemerdekaan -->		  
         {{ content }}
         <hr>
-    {% include home-cards-category.html %}
+    	{% include posts-detail.html %}
+		
 		{% if page.comments %}
 		<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5" data-width="720">			
 		</div>

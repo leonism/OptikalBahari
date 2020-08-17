@@ -16,7 +16,7 @@ background: '/assets/img/bg-tips-kacamata.jpg'
 <p>Tentunya hal ini menjadi sedikit menyebalkan jika Kamu salah ketika memilih kacamata. Apalagi ketika sudah membeli kacamata dengan harga mahal namun kenyataannya malah terlihat tidak sesuai. Karena itu, Kamu perlu mengerti tips memilih kacamata yang bisa Kamu sesuaikan dengan bentuk wajah.</p>
 
 <p class="aligncenter">
-<img data-src="/assets/img/posts/tips-kacamata/tips-kacamata-2.jpg" src="/assets/img/posts/tips-kacamata/tips-kacamata-2.jpg" class="rounded mx-auto d-block" alt="tips-memilih-kacamata-sesuai-wajah"></p>
+<img data-src="/assets/img/posts/tips-kacamata/tips-kacamata-2.jpg" src="/assets/img/posts/tips-kacamata/tips-kacamata-2.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="tips-memilih-kacamata-sesuai-wajah"></p>
 
 <p>Kamu pasti tahu bahwa setiap orang memiliki bentuk wajah yang berbeda-beda dan tidak semua model kacamata bisa cocok dengan salah satu bentuk wajah. Penting sekali mengenali bentuk wajah untuk memilih sebuah kacamata. Lalu bagaimana caranya supaya memilih kacamata yang sesuai wajah?</p> 
 

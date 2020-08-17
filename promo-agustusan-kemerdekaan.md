@@ -14,7 +14,7 @@ background: '/assets/img/posts/020.jpg'
 <h3>Promo Kemerdekaan Agustusan 2020</h3>
 
 <p class="aligncenter">
-<img data-src="/assets/img/posts/promo/" src="/assets/img/posts/promo/promo-agustus-merdeka.jpg" class="rounded mx-auto d-block" alt="promo-agustus-merdeka.jpg"></p>
+<img data-src="/assets/img/posts/promo/" src="/assets/img/posts/promo/promo-agustus-merdeka.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="promo-agustus-merdeka.jpg"></p>
 
 <p>Dalam menyambut kemerdekaan Republik Indonesia yang ke 75 tahun pada tahun ini, Optikal Bahari turut ambil bagian dalam meriahkan semangat kemerdekaan dengan mengadakan <strong>"Promo Agustus Kemerdekaan"</strong>. Dapatkan discount dari setiap pembelian frame dan lensa di Optikal bahari sampai dengan potongan maksimal 40% dari nilai pembelian.</p>
 
