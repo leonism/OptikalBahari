@@ -1,0 +1,61 @@
+---
+layout: default
+title: Kabar Terdini Dan Terkini
+subtitle: "Terdini & Terkini"
+description: "Berita seputaran perkembangan produk dan layanan terbaru dari Optikal Bahari, maaupun hal lain yang masih berbau Bendungan Jago, Kemayoran secara umum"
+keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Optik, Kacamata, Gratis'
+---
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <h2 class="subheading">{{ page.subtitle }}</h2>
+            {% endif %}
+            <span class="meta">Posted by
+              <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
+              on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
+              content=page.content %}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>  
+  <div class="container">	  	  
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+		  <!-- start banner kemerdekaan -->
+		  <p class="aligncenter">
+		  <a href="{{"/promo-agustusan-kemerdekaan" | relative_url }}?utm_source=internal_banner&utm_medium=banner&utm_campaign=promo%20agustusan" title="promo-agustusan-kemerdekaan" id="promo-agustusan-kemerdekaan">
+		  	<img data-src="/assets/img/posts/promo/" src="/assets/img/posts/promo/promo-agustus-merdeka.jpg" class="rounded mx-auto d-block" alt="promo-agustus-merdeka.jpg">
+		  </a></p>
+		  <!-- end banner kemerdekaan -->		  
+        {{ content }}
+        <hr>
+    {% include home-cards-category.html %}
+		{% if page.comments %}
+		<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5" data-width="720">			
+		</div>
+		{% endif %}					
+        <div class="clearfix">
+          {% if page.previous.url %}
+          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          {% endif %}
+          {% if page.next.url %}
+          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          {% endif %}
+        </div>		
+      </div>
+    </div>
+  </div>

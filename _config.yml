@@ -1,0 +1,43 @@
+title:              Optikal Bahari
+description:        Optikal Bahari adalah Optik pertama dan terpercaya di Kemayoran. Kami melayani pembelian kacamata cicilan, tanpa DP dan tidak menerapkan sistem bunga atau riba, boleh bayar dengan KJP.
+author:             Optikal Bahari
+email:              adhityadaniel@gmail.com
+baseurl:            ""
+url:                "https://optikalbahari.com"
+tagline:            Melayani Segala Kebutuhan Kacamata Anda
+subtitle:           Harga Bersahahat!
+permalink: 			    /:title/
+# we don't put the Google Analtics tracking ID, since we're using GTM instead.
+
+# Social Profiles
+twitter_username:  OptikalBahari
+linkedin_username: OptikalBahari
+facebook_username: OptikalBahari 
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   G-FV2N66E55Q # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+  
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - .sass-cache/
+  - .jekyll-cache/
+  - .git
+  
+sass:
+    style: compressed
