@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: page
 title: Tips and Trik Dalam Memilih Kacamata
 subtitle: "Lengkap Semuanya Disini"
 description: "Kumpulan Artikel Tentang Tips & Trick Dalam Memilih Kacamata"
@@ -11,10 +11,8 @@ tags: [layanan, optikal]
 background: '/assets/img/posts/018.jpg'
 ---
 
-<h3>Tips & Triks Dalam Memilih Kacamata Yang Sesuai</h3>
-
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/tips-kacamata/tips-kacamata-2.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  <img src="/assets/img/posts/tips-kacamata/tips-kacamata.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">
     <h3 class="card-title">Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren</h3>
     <p class="card-text">Tentunya hal ini menjadi sedikit menyebalkan jika Kamu salah ketika memilih kacamata. Apalagi ketika sudah membeli kacamata dengan harga mahal namun kenyataannya malah terlihat tidak sesuai. Karena itu, Kamu perlu mengerti tips memilih kacamata yang bisa Kamu sesuaikan dengan bentuk wajah.</p>

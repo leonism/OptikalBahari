@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testimoni Pelanggan Kami
-subtitle: "40 Tahun Pengalaman Tidak Mengelabui Hasil"
+subtitle: "Karena 40+ Tahun Pengalaman Tidak Akan Mengelabui Hasil"
 description: "40 tahun lebih di bisnis ini, kami medapatkan banyak pelajaran berharga dalam melakukannya. Berikut adalah sebagian dari testimoni yang diberikan oleh para pelanggan kami, yang anda juga dapat lihat secara online di Google My Business Optikal Bahari secara online"
 keywords: 'Testimoni, Optikal Bahari, Kemayoran, Optik Kacamata, Gratis'
 lang: id-ID
@@ -10,7 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: '/assets/img/bg-testi.jpg'
 ---
-<h3>Pengakuan Konsumen Kami</h3>
+<h3>Testimoni Pelanggan dan Konsume Kami</h3>
 
 <p>Bukanlah hal mudah ditengah terpaan perubahan zaman dan derasnya arus informasi di jaman digital seperti sekarang ini, untuk dapat mempertahankan konsistensi layanan dan qualitas. Tapi 40 tahun lebih di bisnis ini, kami medapatkan banyak pelajaran berharga dalam melakukannya. Berikut adalah sebagian dari testimoni yang diberikan oleh para pelanggan kami, yang anda juga dapat lihat secara online di Google My Business Optikal Bahari secara online <a href="https://www.google.com/search?safe=strict&hl=en-ID&gl=id&sxsrf=ALeKk01mFygFLFgcGPbW4Gdwxhg_0kuUoQ%3A1594976814186&ei=LmoRX4LyCvjjz7sPoYOd-Ao&q=Bahari+Optical%2C+Jl.+Bend.+Jago+No.447%2C+RW.1%2C+Utan+Panjang%2C+Kec.+Kemayoran%2C+Kota+Jakarta+Pusat%2C+Daerah+Khusus+Ibukota+Jakarta+10650&oq=Bahari+Optical%2C+Jl.+Bend.+Jago+No.447%2C+RW.1%2C+Utan+Panjang%2C+Kec.+Kemayoran%2C+Kota+Jakarta+Pusat%2C+Daerah+Khusus+Ibukota+Jakarta+10650&gs_lcp=CgZwc3ktYWIQDFAAWABgrqenBWgAcAB4AIABAIgBAJIBAJgBAKoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiCwbzT99PqAhX48XMBHaFBB68Q4dUDCAw#lrd=0x2e69f5a43786850d:0x9802c727c074ae8c,1,,," title="Optikal Bahari Google My Busiess Review Page" class="GoogleMyBusiness" >disini</a>, dengan hasil 5 bintang, dari 57 ulasan konsumen.</p>
 
