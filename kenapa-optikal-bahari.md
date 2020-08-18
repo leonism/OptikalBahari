@@ -13,7 +13,7 @@ background: '/assets/img/posts/025.jpg'
 
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/tips-kacamata/tips-kacamata.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  <img src="/assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.jpg" class="card-img-top" alt="Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama">
   <div class="card-body">
     <h3 class="card-title">Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama</h3>
     <p class="card-text">Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai gaya hidup.  Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi sebuah kebutuhan tersendiri, terutama untuk kalangan muda.</p>
@@ -23,7 +23,7 @@ background: '/assets/img/posts/025.jpg'
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/tips-kacamata/tips-kacamata.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  <img src="/assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-7.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">
     <h3 class="card-title">Staff Ramah dan Banya Pilihan dari Tempat Jual Kacamata Keren Terbaik</h3>
     <p class="card-text">
@@ -39,7 +39,7 @@ background: '/assets/img/posts/025.jpg'
 
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/tips-kacamata/tips-kacamata.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  <img src="/assets/img/posts/005.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">
     <h3 class="card-title">Bisa Nyicil dan Bebas Riba di Tempat Jual Kacamata Keren Terbaik Ini</h3>
     <p class="card-text">
@@ -54,20 +54,7 @@ background: '/assets/img/posts/025.jpg'
 
 <p>Ini yang menjadikan Optikal Bahari sebagai tempat yang jual kacamata keren terbaik saat ini. Kamu bisa bernafas lega tanpa mengkhawatirkan bunga cicilan. Kamu juga bisa melunasi kacamata yang sudah kamu beli sesuai perjanjian. Namun tentu saja harus ada jaminan untuk bisa melakukannya, bukan?</p>
 
-<p>Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda mengenai <strong>"Promo Agustus Kemerdekaan"</strong> ini. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em></p>
+<p>Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em></p>
 
-	</div>
-</div>
-
-
-
-<div class="card shadow p-3 bg-white mb-5">
-  <div class="card-body">
-    <h3 class="card-title">Lokasi Kami</h3>
-    <p class="card-text">
-	<div class="mapouter"><div class="gmap_canvas">
-		<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=optikal%20bahari&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/"></a></div>
-		<style>.mapouter{position:relative;text-align:right;height:500px;width:350px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:350px;}</style>
-	</div></p>
 	</div>
 </div>
