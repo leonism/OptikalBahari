@@ -1,5 +1,5 @@
 <!-- Home Post List -->
-{% for post in site.posts limit : 5 %}
+{% for post in site.posts limit : 3 %}
 <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
         <h2 class="post-title">{{ post.title }}</h2>
@@ -18,5 +18,5 @@
 
 <!-- Pager -->
 <div class="clearfix">
-    <a class="btn btn-primary float-right" href="{{" /posts " | relative_url }}">Lihat Semua Berita &rarr;</a>
+    <a class="btn btn-primary float-right" href="{{"/posts " | relative_url }}">Lihat Semua Berita &rarr;</a>
 </div>

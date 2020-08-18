@@ -13,8 +13,6 @@ background: '/assets/img/bg-about.jpg'
 
 <h3>Periksa Mata</h3>
 
-<p class="aligncenter">
-
 <p>Menurut penelitian dari para Dokter, idealnya anda melakukan cek rutin ukuran mata anda per 6 bulan sekali agar selalu terdeteksi perubahan yang terjadi di ukuran mata anda. Maka jangan tunda-tunda lagi untuk memeriksa daya penglihatan anda di Optikal Bahari. Proses pemeriksaan dilakukan dengan cara digital dan sudah terkomputerisasi, yang menjanjikan hasil yang lebih akurat dibanding menggunakan alat pemeriksa analog.</p> 
 
 <h3>Cepat & Akurat</h3>
