@@ -1,6 +1,6 @@
 <section id="posts-category">
     <div class="card-deck mb-3">
-        {% for post in site.categories.Info limit : 3 %}
+        {% for post in site.categories.Lensa limit : 3 %}
         <div class="card shadow p-3 mb-5 bg-white">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
@@ -27,7 +27,7 @@
 
 <section id="posts-category">
     <div class="card-deck mb-3">
-        {% for post in site.categories.Lensa limit : 3 %}
+        {% for post in site.categories.Info limit : 3 %}
         <div class="card shadow p-3 mb-5 bg-white">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
