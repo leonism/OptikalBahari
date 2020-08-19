@@ -1,16 +1,11 @@
 <head>
-    {% include gtm-head.html %}
-	{% include google-optimize-anti-flicker.html %}
-	{% include google-adsense-head.html %}
     <html lang="id">
     <link rel="dns-prefetch" href="//optikalbahari.com">
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
-    <link rel="dns-prefetch" href="https://www.disqus.com/">
-    <link rel="dns-prefetch" href="https://www.disquscdn.com/">
-    <link rel="dns-prefetch" href="https://www.cloudflare.com">
-    <link rel="dns-prefetch" href="https://jhsforms.net/">
-    <link rel="dns-prefetch" href="//www.facebook.com">
+    <link rel="dns-prefetch" href="//googleapis.com/">
+    <link rel="dns-prefetch" href="//googletagmanager.com/">
+    <link rel="dns-prefetch" href="//cloudflare.com">
+    <link rel="dns-prefetch" href="//jhsforms.net/">
+    <link rel="dns-prefetch" href="//facebook.com">
     <link rel="dns-prefetch" href="//connect.facebook.net">
     <link rel="dns-prefetch" href="//static.ak.facebook.com">
     <link rel="dns-prefetch" href="//static.ak.fbcdn.net">
@@ -18,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
     <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="text/html; charset=UTF-8" /> {% seo title=true %}
+    <meta http-equiv="X-UA-Compatible" content="text/html; charset=UTF-8" />
+	{% seo title=true %}
     <meta itemprop="description" name="description" content="{% if page.description %}
 	{{ page.description | truncate: 160 }}
 	{% else %}

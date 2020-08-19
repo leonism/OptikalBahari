@@ -15,7 +15,7 @@ linkedin_username: OptikalBahari
 facebook_username: OptikalBahari 
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   G-FV2N66E55Q # out your google-analytics code
+# google_analytics:   G-FV2N66E55Q # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
@@ -38,6 +38,16 @@ exclude:
   - .sass-cache/
   - .jekyll-cache/
   - .git
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
   
 sass:
-    style: compressed
+style: compressed
