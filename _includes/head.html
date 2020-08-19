@@ -2,6 +2,7 @@
     <html lang="id">
     <link rel="dns-prefetch" href="//optikalbahari.com">
     <link rel="dns-prefetch" href="//googleapis.com/">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com/">
     <link rel="dns-prefetch" href="//googletagmanager.com/">
     <link rel="dns-prefetch" href="//cloudflare.com">
     <link rel="dns-prefetch" href="//jhsforms.net/">
@@ -15,8 +16,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="text/html; charset=UTF-8" />
 	{% seo title=true %}
-    <meta itemprop="description" name="description" content="{% if page.description %}
-	{{ page.description | truncate: 160 }}
+    <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}
 	{% else %}
 	{{ site.description | truncate: 160  }}
 	{% endif %}" />
