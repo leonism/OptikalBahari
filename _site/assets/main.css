@@ -88,11 +88,37 @@ footer .copyright { font-size: 14px; margin-bottom: 0; text-align: center; }
 
 .floatingWhatsApp { position: fixed; width: 60px; height: 60px; bottom: 10px; right: 10px; background-color: #25d366; color: #FFF; border-radius: 50px; text-align: center; font-size: 30px; box-shadow: 2px 2px 3px #999; z-index: 100; }
 
-.my-float { margin-top: 16px; }
+.my-float { margin-top: 17px; }
 
 .video-responsive { overflow: hidden; padding-bottom: 56.25%; position: relative; height: 0; }
 
 .video-responsive iframe { left: 0; top: 0; height: 100%; width: 100%; position: absolute; }
+
+.pinkBg { background-color: #25d366 !important; }
+
+.intro-banner-vdo-play-btn { height: 60px; width: 60px; border-radius: 100px; }
+
+.intro-banner-vdo-play-btn i { font-size: 30px; }
+
+.intro-banner-vdo-play-btn .ripple { position: absolute; width: 160px; height: 160px; z-index: -1; left: 50%; top: 50%; opacity: 0; margin: -80px 0 0 -80px; border-radius: 100px; -webkit-animation: ripple 1.8s infinite; animation: ripple 1.8s infinite; }
+
+@-webkit-keyframes ripple { 0% { opacity: 1;
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  100% { opacity: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes ripple { 0% { opacity: 1;
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  100% { opacity: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+.intro-banner-vdo-play-btn .ripple:nth-child(2) { animation-delay: .3s; -webkit-animation-delay: .3s; }
+
+.intro-banner-vdo-play-btn .ripple:nth-child(3) { animation-delay: .6s; -webkit-animation-delay: .6s; }
 
 .btn { font-size: 12px; font-weight: 800; padding: 15px 25px; letter-spacing: 1px; text-transform: uppercase; border-radius: 0; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
