@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/021.jpg
+background: '/assets/img/posts/021.jpg'
 ---
 
 <div class="card-deck mb-3">
