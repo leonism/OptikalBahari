@@ -19,9 +19,13 @@
 	
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 	  {% assign pagecontent_description = page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 160 %}
-	<meta name="description" content="{% if pagecontent_description.size > 10 %}{{ pagecontent_description }}{% else %}{{ site.description }}{% endif %}">
 	
-	
+	<meta name="description" content="{% if page.description.size > 10 %}
+	{{ page.description | truncate: 160 }}
+	{% else %}
+	{{ site.description | truncate: 160 }}
+	{% endif %}">
+		
     <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}
 	{% else %}
 	{{ site.description | truncate: 160  }}
