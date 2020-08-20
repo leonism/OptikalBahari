@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Kenapa Beli Kacamata Harus Di Optikal Bahari?
-subtitle: "Tempat Jual Kacamata Keren, Terbaik, Gak Pake Ribet dan Lama"
-description: "Optikal Bahari, tempat jual kacamata keren terbaik dengan beragam pelayanan menarik dan unik, salah satu yang paling menarik adalah bisa mencicil sebuah kacamata." 
+subtitle: Tempat Jual Kacamata Keren, Terbaik, Gak Pake Ribet dan Lama
+description: Optikal Bahari, tempat jual kacamata keren terbaik dengan beragam pelayanan menarik dan unik, salah satu yang paling menarik adalah bisa mencicil sebuah kacamata.
 keywords: 'optikal bahari, kemayoran, kacamata, info'
 lang: id-ID
 author: Optikal Bahari
