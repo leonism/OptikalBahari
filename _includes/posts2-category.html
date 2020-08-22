@@ -1,7 +1,7 @@
-<section id="posts-category1">
-	<div class="card-deckrow mb-3 card-deck">
+<section id="posts-category">
+	<div class="card-deck mb-3">
 		{% for post in site.categories.Lensa limit : 3 %}
-		<div class="card shadow p-0 mb-3 bg-white rounded">
+		<div class="card shadow p-3 mb-5 bg-white">
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 				{% if page.background %}
 				<img
@@ -9,46 +9,15 @@
 					class="card-img-top"
 					alt="{{ post.title }}"
 			/></a>
-			{% endif %}
-			<div class="card-body">
-				<h5 class="card-title">
-					{{ post.title | truncate: 50 }}
-				</h5>
-				<p class="card-text">
-					{{ post.description | strip_html | truncate: 100 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">Selengkapnya</a>
-				</p>
-			</div>
-			<div class="card-footer">
-				<small class="text-muted">
-					Posted by <em>{% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %}</em>, on {{ post.date
-					| date: '%b %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-				</small>
-			</div>
-		</div>
-		{% endfor %}
-	</div>
-</section>
 
-<section id="posts-category2">
-	<div class="card-deckrow mb-2 card-deck">
-		{% for post in site.categories.Info limit : 3 %}
-		<div class="card shadow p-0 mb-3 bg-white rounded">
-			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-				{% if page.background %}
-				<img
-					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-					class="card-img-top"
-					alt="{{ post.title }}"
-			/></a>
 			{% endif %}
 			<div class="card-body">
 				<h5 class="card-title">
-					{{ post.title | truncate: 50 }}
+					{{ post.title }}
 				</h5>
 				<p class="card-text">
-					{{ post.description | strip_html | truncate: 100 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">Selengkapnya</a>
+					{{ post.description | strip_html | truncate: 120 }}.
+					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya</a>
 				</p>
 			</div>
 			<div class="card-footer">
@@ -62,10 +31,10 @@
 	</div>
 </section>
 
-<section id="posts-category3">
-	<div class="card-deckrow mb-2 card-deck">
-		{% for post in site.categories.Trend limit : 3 %}
-		<div class="card shadow p-0 mb-3 bg-white rounded">
+<section id="posts-category">
+	<div class="card-deck mb-3">
+		{% for post in site.categories.Info limit : 3 %}
+		<div class="card shadow p-3 mb-5 bg-white">
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 				{% if page.background %}
 				<img
@@ -73,14 +42,48 @@
 					class="card-img-top"
 					alt="{{ post.title }}"
 			/></a>
+
 			{% endif %}
 			<div class="card-body">
 				<h5 class="card-title">
-					{{ post.title | truncate: 50 }}
+					{{ post.title }}
 				</h5>
 				<p class="card-text">
-					{{ post.description | strip_html | truncate: 100 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">Selengkapnya</a>
+					{{ post.description | strip_html | truncate: 120 }}.
+					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya</a>
+				</p>
+			</div>
+			<div class="card-footer">
+				<small class="text-muted">
+					Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} on {{ post.date | date:
+					'%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+				</small>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</section>
+
+<section id="posts-category">
+	<div class="card-deck mb-3">
+		{% for post in site.categories.Trend limit : 3 %}
+		<div class="card shadow p-3 mb-5 bg-white">
+			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+				{% if page.background %}
+				<img
+					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
+					class="card-img-top"
+					alt="{{ post.title }}"
+			/></a>
+
+			{% endif %}
+			<div class="card-body">
+				<h5 class="card-title">
+					{{ post.title }}
+				</h5>
+				<p class="card-text">
+					{{ post.description | strip_html | truncate: 120 }}.
+					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya</a>
 				</p>
 			</div>
 			<div class="card-footer">
