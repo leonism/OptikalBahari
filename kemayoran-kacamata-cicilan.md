@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Beli Kacamata Cicilan Di Kemayoran, Hanya Ada Di Optikal Bahari Bendungan Jago Jakarta Pusat
-subtitle: "Kacamata Cicilan Dengan Harga Terjangkau"
+subtitle: 'Kacamata Cicilan Dengan Harga Terjangkau'
 description: Optikal Bahari, menyediakan sistem pembayaran dengan cicilan untuk pembelian Kacamata & Lensa.
 keywords: 'Kacamata Cicilan, Cicilan, Lensa, Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
@@ -12,14 +12,16 @@ permalink: /kacamata-cicilan-kemayoran/
 background: /assets/img/posts/021.jpg
 ---
 
+<!-- @format -->
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
     <div class="card-body">
       <h3 class="card-title">Kacamata Yang Bisa Di Cicil</h3>
       <p class="card-text">Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kuran jelas? Banyak hal yang bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering main handphone, sampai dengan menurunnya kapasitas penglihatan seiring dengan bertambahnya usia. Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame bingkai kacamata dari mulai harga yang terjangkau sampai dengan harga menengah ke atas. Baca lebih lanjut untuk tahu alasan kenapa beli kacamata di Optikal Bahari.</p>
-  </div>
-   </div>
+    </div>
+    </div>
 </div>
 
 {% include home-cards.html %}

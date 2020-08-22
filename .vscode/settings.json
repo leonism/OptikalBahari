@@ -1,0 +1,12 @@
+{
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.withNodeModules": true,
+    "prettier.useTabs": true,
+    "workbench.colorCustomizations": {
+    
+    },
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.list.horizontalScrolling": true
+}

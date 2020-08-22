@@ -1,53 +1,53 @@
-title:              Optikal Bahari
-description:        Optikal Bahari adalah Optik pertama & terpercaya di Kemayoran. Melayani pembelian kacamata cicilan, tanpa DP, bunga & riba, bisa KJP.
-author:             Optikal Bahari
-email:              adhityadaniel@gmail.com
-baseurl:            ""
-url:                "https://optikalbahari.com"
-tagline:            Melayani Segala Kebutuhan Kacamata Anda
-subtitle:           Harga Bersahahat!
-permalink: 			    /:title/
+title: Optikal Bahari
+description: Optik pertama & terpercaya di Kemayoran. Melayani pembelian kacamata cicilan, tanpa DP, bunga/riba, bisa KJP.
+author: Optikal Bahari
+email: adhityadaniel@gmail.com
+baseurl: ''
+url: 'https://optikalbahari.com'
+tagline: Melayani Segala Kebutuhan Kacamata Anda
+subtitle: Harga Bersahahat!
+permalink: /:title/
 # we don't put the Google Analtics tracking ID, since we're using GTM instead.
 
 # Social Profiles
-twitter_username:  OptikalBahari
+twitter_username: OptikalBahari
 linkedin_username: OptikalBahari
-facebook_username: OptikalBahari 
+facebook_username: OptikalBahari
 
 # Add your google-analytics ID here to activate google analytics
 # google_analytics:   G-FV2N66E55Q # out your google-analytics code
 
 # Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+markdown: kramdown
+paginate: 5
+paginate_path: '/posts/page:num/'
 tag_page_layout: tag_page
 tag_page_dir: tag
 
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-archives
-  
+ - jekyll-feed
+ - jekyll-paginate
+ - jekyll-sitemap
+ - jekyll-seo-tag
+ - jekyll-archives
+
 exclude:
-  - package.json
-  - node_modules
-  - gulpfile.js
-  - .sass-cache/
-  - .jekyll-cache/
-  - .git
+ - package.json
+ - node_modules
+ - gulpfile.js
+ - .sass-cache/
+ - .jekyll-cache/
+ - .git
 
 compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: [html, head, body]
-  
+ clippings: all
+ comments: ['<!-- ', ' -->']
+ endings: all
+ ignore:
+  envs: [local]
+ blanklines: false
+ profile: false
+ startings: [html, head, body]
+
 sass:
-  style: compressed
+ style: compressed
