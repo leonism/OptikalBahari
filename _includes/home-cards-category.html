@@ -8,15 +8,15 @@
 					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
 					class="card-img-top"
 					alt="{{ post.title }}"
-			/></a>
-
+				/>
+			</a>
 			{% endif %}
 			<div class="card-body">
 				<h5 class="card-title">
-					{{ post.title }}
+					{{ post.title | truncatewords: 7 }}
 				</h5>
 				<p class="card-text">
-					{{ post.description | strip_html | truncatewords: 20 }}.
+					{{ post.description | strip_html | truncatewords: 12 }}.
 				</p>
 				<p class="card-text">
 					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
@@ -27,7 +27,7 @@
 			<div class="card-footer">
 				<small class="text-muted">
 					Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} on {{ post.date | date:
-					'%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+					'%b %d, %Y' }} &middot; {% include read_time.html content=post.content %}
 				</small>
 			</div>
 		</div>
