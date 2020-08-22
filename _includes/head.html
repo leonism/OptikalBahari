@@ -14,11 +14,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
 <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport">
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="text/html; charset=UTF-8" />
-<title>
-{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
-'</h4>', ': ' | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 160 %}
-</title>
+
+<title>{% if page.title and page.title != 'Home' %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+{% assign pagecontent_description = page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 160 %}
 
     <meta name="description" content=" {% if page.description.size > 10 %} {{ page.description | truncate: 160 }}
     {% else %}
