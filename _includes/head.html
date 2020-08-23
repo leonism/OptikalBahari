@@ -39,39 +39,45 @@
     <meta name="twitter:title" content="{{ page.title }}"> 
     {% else %}
     <meta name="twitter:title" content="{{ site.title }}"> 
-    {% endif %} 
+		{% endif %}
+		
     {% if page.url %}
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}"> 
-    {% endif %} 
+		{% endif %}
+		
     {% if page.description %}
     <meta name="twitter:description" content="{{ page.description }}"> 
     {% else %}
     <meta name="twitter:description" content="{{ site.description }}"> 
-    {% endif %} 
+		{% endif %}
+		
     {% if page.image %}
     <meta name="twitter:image:src" content="{{ site.url }}{{ page.background }}"> 
     {% else %}
     <meta name="twitter:image:src" content="{{ site.url }}{{ page.background }}"> 
     {% endif %} 
-    {% if page.title %}
     <!-- end twitter integration -->
 	
-    <!-- start facebook integration -->
+		<!-- start facebook integration -->		
+		{% if page.title %}
     <meta property='og:title' content="{{ page.title }}" /> 
     {% else %}
     <meta property='og:title' content="{{ site.title }}" /> 
     {% endif %} 
-    {% if page.image %}
+		
+		{% if page.image %}
     <meta property='og:image' content="{{ site.url }}{{ page.background }}" /> 
     {% else %}
     <meta property='og:image' content="{{ site.url }}{{ page.background }}" /> 
     {% endif %} 
-    {% if page.description %}
+		
+		{% if page.description %}
     <meta property='og:description' content="{{ page.description }}"> 
     {% else %}
     <meta property='og:description' content="{{ site.description }}"> 
     {% endif %}
-    <meta property='og:url' content="{{ site.url }}{{ page.url }}" />
+		
+		<meta property='og:url' content="{{ site.url }}{{ page.url }}" />
     <meta property='og:image' content="{{ site.url }}{{ page.background }}" />
     <!-- end facebook integration -->
 	
