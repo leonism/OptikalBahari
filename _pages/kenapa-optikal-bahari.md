@@ -8,9 +8,9 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [promo, discount, kacamata, lensa, bingkai]
-background: '/assets/img/posts/025.jpg'
+background: /assets/img/posts/025.jpg
+permalink: /periksa-mata-kemayoran/
 ---
-
 
 <div class="card shadow p-3 bg-white mb-5">
   <img src="/assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.jpg" class="card-img-top" alt="Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama">
@@ -34,9 +34,9 @@ background: '/assets/img/posts/025.jpg'
 
 <p>Selain itu, di sini kamu bisa memilih beragam lensa kacamata sesuai kebutuhan. Tentu setiap gangguan penglihatan memiliki lensa yang cocok. Misalnya presbiopia akan lebih cocok untuk memakai lensa kacamata trifokal. Karena itu kamu tidak perlu khawatir lagi tentang pilihan model kacamata.</p>
 
-	</div>
-</div>
+    </div>
 
+</div>
 
 <div class="card shadow p-3 bg-white mb-5">
   <img src="/assets/img/posts/005.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
@@ -56,5 +56,6 @@ background: '/assets/img/posts/025.jpg'
 
 <p>Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em></p>
 
-	</div>
+    </div>
+
 </div>

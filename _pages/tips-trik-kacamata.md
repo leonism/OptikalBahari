@@ -1,14 +1,15 @@
 ---
 layout: page
 title: Tips and Trik Dalam Memilih Kacamata
-subtitle: "Lengkap Semuanya Disini"
-description: "Kumpulan Artikel Tentang Tips & Trick Dalam Memilih Kacamata"
+subtitle: 'Lengkap Semuanya Disini'
+description: 'Kumpulan Artikel Tentang Tips & Trick Dalam Memilih Kacamata'
 keywords: 'Tip, Tricks, Kacamata'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: '/assets/img/posts/018.jpg'
+background: /assets/img/posts/018.jpg
+permalink: /tips-trik-kacamata/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">

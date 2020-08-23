@@ -1,14 +1,15 @@
 ---
-layout: post 
+layout: post
 title: Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren
 subtitle: Cara Yang Benar Dan Selalu Stylish
-description: "Tips memilih kacamata sesuai wajah tidak boleh sembarangan karena bisa merusak penampilan, karena itu setidaknya mengenali bentuk wajah Kamu"
+description: 'Tips memilih kacamata sesuai wajah tidak boleh sembarangan karena bisa merusak penampilan, karena itu setidaknya mengenali bentuk wajah Kamu'
 keywords: 'Tips Kacamata, Wajah, Tips Kacamata, Memilih Kacamata'
 lang: id-ID
 author: Optikal Bahari
 categories: [Trend]
 tags: [layanan, optikal]
-background: '/assets/img/bg-tips-kacamata.jpg'
+background: /assets/img/bg-tips-kacamata.jpg
+permalink: /tips-kacamata/
 ---
 
 <h3>Sesuaikan Dengan Bentuk Wajah</h3>
@@ -18,11 +19,11 @@ background: '/assets/img/bg-tips-kacamata.jpg'
 <p class="aligncenter">
 <img data-src="/assets/img/posts/tips-kacamata/tips-kacamata-2.jpg" src="/assets/img/posts/tips-kacamata/tips-kacamata-2.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="tips-memilih-kacamata-sesuai-wajah"></p>
 
-<p>Kamu pasti tahu bahwa setiap orang memiliki bentuk wajah yang berbeda-beda dan tidak semua model kacamata bisa cocok dengan salah satu bentuk wajah. Penting sekali mengenali bentuk wajah untuk memilih sebuah kacamata. Lalu bagaimana caranya supaya memilih kacamata yang sesuai wajah?</p> 
+<p>Kamu pasti tahu bahwa setiap orang memiliki bentuk wajah yang berbeda-beda dan tidak semua model kacamata bisa cocok dengan salah satu bentuk wajah. Penting sekali mengenali bentuk wajah untuk memilih sebuah kacamata. Lalu bagaimana caranya supaya memilih kacamata yang sesuai wajah?</p>
 
 <h3>Tips Memilih Kacamata Sesuai Wajah dengan Bentuk Wajah Bulat dan Kotak</h3>
 
-<p>Mungkin ini bisa jadi tips memilih kacamata sesuai bentuk wajah terbaik yang Kamu baca, apalagi jika Kamu memiliki bentuk wajah bulat. Bentuk wajah seperti ini biasanya bisa dilihat dari pipi yang lebih tembam serta memiliki bagian dagu setengah lingkaran dengan karakter yang cukup presisi.</p> 
+<p>Mungkin ini bisa jadi tips memilih kacamata sesuai bentuk wajah terbaik yang Kamu baca, apalagi jika Kamu memiliki bentuk wajah bulat. Bentuk wajah seperti ini biasanya bisa dilihat dari pipi yang lebih tembam serta memiliki bagian dagu setengah lingkaran dengan karakter yang cukup presisi.</p>
 
 <p>Wajah bulat lebih cocok memakai frame kacamata kaku atau bentuk menyiku. Frame yang cukup tebal sangat cocok untuk bentuk wajah seperti ini. Kacamata yang Kamu pakai bisa lebih terlihat menarik. Selain itu, tips memilih kacamata sesuai wajah ini juga untuk memberikan keseimbangan terhadap wajah bulat yang Kamu miliki.</p>
 

@@ -1,14 +1,15 @@
 ---
 layout: page
 title: Di Optikal Bahari Bisa Beli Kacamata yang Bisa Nyicil
-subtitle: "Program Kacamata Cicilan Tanpa Bunga"
+subtitle: 'Program Kacamata Cicilan Tanpa Bunga'
 description: Ini adalah salah satu keunikan jika kamu membeli kacamata di Optikal Bahari, yaitu aman dari riba atau DP. Biasanya sistem cicil akan dibebankan sebuah bunga yang mesti kamu bayarkan. Namun di sini kamu bisa bernafas dengan lega, tidak ada sistem bunga yang akan kamu terima.
 keywords: 'kacamata cicilan, tanpa bunga, tanpa DP, bayar KJP'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata, cicilan, tanpa bunga, tanpa DB, bayar KJP]
-background: '/assets/img/posts/024.jpg'
+background: /assets/img/posts/024.jpg
+permalink: /kacamata-cicilan/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
@@ -21,7 +22,6 @@ background: '/assets/img/posts/024.jpg'
 </div>
 </div>
 
-
 <div class="card shadow p-3 bg-white mb-5">
   <img src="/assets/img/bg-kontak.jpg" class="card-img-top" alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
@@ -30,7 +30,6 @@ background: '/assets/img/posts/024.jpg'
 	<p>Ketika kamu beli kacamata yang bisa nyicil, tentu kamu juga harus pahami risiko apa saja nantinya. Ada banyak sekali faktor risiko yang akan terjadi ketika kamu salah membeli sebuah kacamata, atau tidak mampu melunasinya. Karena itu, penting sekali memperhatikan risiko apa saja yang akan terjadi.</p><p>Karena itu, setidaknya pilihlah kacamata dengan bijak dan benar. Pilih kacamata hanya karena kamu membutuhkan benda tersebut untuk membantu penglihatan. Biasanya pihak optik juga akan meminta sebuah jaminan jika kamu ingin membelinya secara nyicil, misalnya fotocopy KTP atau tanda pengenal yang lain.</p>
 </div>
 </div>
-
 
 <div class="card shadow p-3 bg-white mb-5">
   <img src="/assets/img/bg-tips-kacamata.jpg" class="card-img-top" alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">

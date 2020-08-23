@@ -8,7 +8,8 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info, Promo]
 tags: [promo, discount, kacamata, lensa, bingkai]
-background: '/assets/img/posts/020.jpg'
+background: /assets/img/posts/020.jpg
+permalink: /promo-agustusan-kemerdekaan/
 ---
 
 <h3>Promo Kemerdekaan Agustusan 2020</h3>

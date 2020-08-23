@@ -1,15 +1,16 @@
 ---
 layout: page
 title: Sekapur Sirih
-subtitle: "Dan Dengarkan Kami Bercerita"
-description: "Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi selanjutnya dikeluarga kami."
+subtitle: 'Dan Dengarkan Kami Bercerita'
+description: 'Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi selanjutnya dikeluarga kami.'
 keywords: 'Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: '/assets/img/bg-profil.jpg'
-image: '/assets/img/profil/bandar-udara-kemayoran-80an.jpg'
+background: /assets/img/bg-profil.jpg
+image: /assets/img/profil/bandar-udara-kemayoran-80an.jpg
+permalink: /profil/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
@@ -21,7 +22,6 @@ image: '/assets/img/profil/bandar-udara-kemayoran-80an.jpg'
 	</div>
 </div>
 
-
 <div class="card shadow p-3 bg-white mb-5">
   <img src="/assets/img/profil/jalan-h-jiung.jpg" class="card-img-top" alt="jalan h jiung">
   <div class="card-body">
@@ -30,7 +30,6 @@ image: '/assets/img/profil/bandar-udara-kemayoran-80an.jpg'
 		<p>Tapi banyak dari semua perubahan tersebut dilakukan tanpa harus mengorbankan nilai keterjangkau dari pelayanan kami. Kami berprinsip, harus tetap dapat memberikan dampak positif, dan disaat bersamaan harus bisa menjangkau banyak kalangan disekitaran tempat kami melakukan usaha. Semoga hasilnya dapat dirasakan oleh masyarakat sekitar, <em>Insya Allah</em>.</p>		
 	</div>
 </div>
-
 
 <div class="card shadow p-3 bg-white mb-5">
   <img src="/assets/img/profil/bandar-udara-kemayoran-80an.jpg" class="card-img-top" alt="bandar-udara-kemayoran-80an.jpg">

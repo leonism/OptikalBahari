@@ -15,7 +15,7 @@ linkedin_username: OptikalBahari
 facebook_username: OptikalBahari
 
 # Add your google-analytics ID here to activate google analytics
-# google_analytics:   G-FV2N66E55Q # out your google-analytics code
+# google_analytics: G-FV2N66E55Q # out your google-analytics code
 
 # Build settings
 markdown: kramdown
@@ -30,6 +30,8 @@ plugins:
  - jekyll-sitemap
  - jekyll-seo-tag
  - jekyll-archives
+
+include: ['_pages']
 
 exclude:
  - package.json

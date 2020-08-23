@@ -8,8 +8,8 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-permalink: /optik-murah-kemayoran/
 background: /assets/img/posts/021.jpg
+permalink: /optik-murah-kemayoran/
 ---
 
 <div class="card-deck mb-3">

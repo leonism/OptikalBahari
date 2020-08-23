@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Periksa Mata Gratis - Fasilitas & Layanan Kami 
+title: Periksa Mata Gratis - Fasilitas & Layanan Kami
 subtitle: Periksa Mata Gratis di Optikal Bahari
 description: Menurut penelitian dari para Dokter Mata, idealnya anda melakukan cek rutin ukuran mata anda per 6 bulan sekali agar selalu terdeteksi perubahan yang terjadi di ukuran mata anda
 keywords: 'Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
@@ -8,7 +8,9 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: '/assets/img/posts/021.jpg'
+background: /assets/img/posts/021.jpg
+comments: false
+permalink: /periksa-mata/
 ---
 
 <div class="card-deck mb-3">
@@ -50,7 +52,6 @@ background: '/assets/img/posts/021.jpg'
 	</div>
    </div>
 </div>
-
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
