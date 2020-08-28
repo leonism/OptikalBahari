@@ -22,6 +22,8 @@ permalink: /kemayoran/
 	</div>
 </div>
 
+{% include home-cards.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
   <img src="/assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-7.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">
