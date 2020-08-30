@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Page Header -->
-{% include navbar.html %}{% if page.background %}
+{% include navbar.html %} {% if page.background %}
 <header
 	class="masthead"
 	style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')"
@@ -24,10 +24,9 @@ layout: default
 			</div>
 		</div>
 	</header>
-</header>
-<main>
-	<div class="container">
-		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+	<!-- </header> -->
+	<main>
+		<div class="container">
 			<!-- <div class="row"> -->
 			<!-- <div class="col-lg-8 col-md-10 mx-auto"> -->
 			{{ content }} {% include home-cards.html %} {% include home-card-glasses.html %} {% include
@@ -35,5 +34,5 @@ layout: default
 			<!-- </div> -->
 			<!-- </div> -->
 		</div>
-	</div>
-</main>
+	</main>
+</header>

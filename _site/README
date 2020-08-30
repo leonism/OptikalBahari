@@ -6,3 +6,6 @@
 - Jadi cara kerja Jekyll itu bakalan copy semua files yg ada di root folder.
 - Semua file/folder kecuali file yg depannya ada "_" atau "."
 - dan define file scss didalam directory _scss yg didalamnya bakalan import scss files lainnya.
+
+
+bundle exec jekyll serve --livereload

@@ -19,37 +19,37 @@ permalink: /periksa-mata/
     <div class="card-body">
       <h3 class="card-title">Periksakan Mata Anda Secara Rutin</h3>
       <p class="card-text">Menurut penelitian dari para Dokter, idealnya anda melakukan cek rutin ukuran mata anda per 6 bulan sekali agar selalu terdeteksi perubahan yang terjadi di ukuran mata anda. Maka jangan tunda-tunda lagi untuk memeriksa daya penglihatan anda di Optikal Bahari. Proses pemeriksaan dilakukan dengan cara digital dan sudah terkomputerisasi, yang menjanjikan hasil yang lebih akurat dibanding menggunakan alat pemeriksa analog.</p>
-  </div>
+    </div>
    </div>
 </div>
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
-    <div class="card-body">
+      <div class="card-body">
       <h3 class="card-title">Hasil Pemeriksaan Cepat & Akurat</h3>
       <p class="card-text">Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Optisien bertugas untuk membuat kacamata atau menyiapkan lensa kontak berdasarkan resep dari dokter mata. Selain membuat kacamata, optisien juga dapat melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.</p>
-	</div>
+      </div>
    </div>
 </div>
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
-    <div class="card-body">
+      <div class="card-body">
       <h3 class="card-title">Menggunakan Alat Phoropter</h3>
       <p class="card-text">Phoropter atau refraktor adalah alat pengujian oftalmik. Ini biasanya digunakan oleh profesional perawatan mata selama pemeriksaan mata, dan mengandung berbagai lensa yang digunakan untuk pembiasan mata selama pengujian penglihatan, untuk mengukur kesalahan bias seseorang dan menentukan resep kacamata. Ini juga digunakan untuk mengukur phorias dan duksi pasien, yang merupakan karakteristik dari binocularity.</p>
-	</div>
+      </div>
    </div>
 </div>
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
-    <div class="card-body">
+      <div class="card-body">
       <h3 class="card-title">Pemeriksaan Menggunakan Komputerisasi Digital</h3>
       <p class="card-text">Sudah menjadi komitmen kami untuk selalu memberikan pelayanan terbaik kepada konsumem kami. Silahkan datang ke tempat kami dan konsultasikan keluhan yang dirasakan yang berhubungan dengan keluhan terhadap daya penglihatan anda. Seiring dengan bertambahnya usia anda, semakin menurun kapasitas retina mata yang dapat menurunkan kapasitas penglihatan itu sendiri.</p>
-	</div>
+      </div>
    </div>
 </div>
 

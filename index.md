@@ -9,12 +9,3 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/bg-index.jpg
 ---
-
-<!-- <h2>Promo Agustusan Kemerdekaan</h2>
-<p class="aligncenter">
-	<a href="{{"/promo-agustusan-kemerdekaan" | relative_url }}?utm_source=internal_banner&utm_medium=banner&utm_campaign=promo%20agustusan"
-		title="promo-agustusan-kemerdekaan" id="promo-agustusan-kemerdekaan">
-		<img data-src="/assets/img/posts/promo/" src="/assets/img/posts/promo/promo-agustus-merdeka.jpg"
-			class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="promo-agustus-merdeka.jpg">
-	</a>
-</p> -->

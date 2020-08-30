@@ -1,21 +1,15 @@
 ---
 layout: default
-#
-#
-#
-#
-#
-#
-#
 # page is for static pages, such as about, location, contact, ect
 ---
 
 <!-- Page Header -->
-{% include navbar.html %}{% if page.background %}
+{% include navbar.html %}
+{% if page.background %}
 <header
 	class="masthead"
 	style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')"
->
+</header>
 	{% else %}
 	<header class="masthead">
 		{% endif %}
