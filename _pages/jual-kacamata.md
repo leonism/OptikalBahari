@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Kenapa Warga Kemayoran Harus Beli Kacamata di Optikal Bahari?
+title: Jual Kacamata & Lensa Terlengkap Di Kemayoran, Hanya Ada Di Optikal Bahari.
 subtitle: Berikut Alasan Kenapa Optikal Bahari Cocok Untuk Warga Kemayoran.
-description: Berikut alasan Kenapa Warga Kemayoran Harus Beli Kacamata Di Optikal Bahari Saja.
+description: Jual Koleksi Lengkap Kacamata & Lensa, Hanya di Optikal Bahari Kemayoran.
 keywords: 'optikal bahari, kemayoran, kacamata, info'
 lang: id-ID
 author: Optikal Bahari
