@@ -23,6 +23,8 @@ permalink: /periksa-mata/
    </div>
 </div>
 
+{% include home-cards.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
