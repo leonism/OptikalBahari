@@ -41,6 +41,7 @@ exclude:
  - .jekyll-cache/
  - .git
 
+# html compression
 compress_html:
  clippings: all
  comments: ['<!-- ', ' -->']
@@ -51,5 +52,6 @@ compress_html:
  profile: false
  startings: [html, head, body]
 
+# css compression
 sass:
  style: compressed

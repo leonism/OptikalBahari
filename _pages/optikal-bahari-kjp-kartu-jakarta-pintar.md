@@ -9,7 +9,7 @@ date: '2019-08-19 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, fasilitas]
-background: /assets/img/posts/001.jpg
+background: /assets/img/posts/015.jpg
 comments: false
 permalink: /optikal-bahari-kjp-kartu-jakarta-pintar/
 ---
