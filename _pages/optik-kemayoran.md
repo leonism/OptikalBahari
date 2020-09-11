@@ -29,6 +29,8 @@ permalink: /optik-kemayoran/
   </div>
 </div>
 
+{% include home-cards.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
   <img src="/assets/img/bg-about.jpg" class="card-img-top" alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
