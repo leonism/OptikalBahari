@@ -24,11 +24,6 @@
     {{ site.description | truncate: 160 }}
     {% endif %}" />
 
-    <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}
-    {% else %}
-    {{ site.description | truncate: 160  }}
-    {% endif %}" />
-
     <meta name="keywords" content="{{ page.keywords normalize_whitespace | truncate: 160 | escape }}" itemprop="keywords" />
 
     <!-- start twitter integration -->
