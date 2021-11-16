@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren
+title: Tips Memilih Kacamata Sesuai Wajah Supaya Keren
 subtitle: Cara Yang Benar Dan Selalu Stylish
 description: 'Tips memilih kacamata sesuai wajah tidak boleh sembarangan karena bisa merusak penampilan, karena itu setidaknya mengenali bentuk wajah Kamu'
 keywords: 'Tips Kacamata, Wajah, Tips Kacamata, Memilih Kacamata'
