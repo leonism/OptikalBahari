@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Beli Kacamata Cicilan Di Kemayoran, Hanya Ada Di Optikal Bahari Bendungan Jago Jakarta Pusat
+title: Kacamata Cicilan Di Kemayoran, Optikal Bahari Bendungan Jago
 subtitle: 'Kacamata Cicilan Dengan Harga Terjangkau'
 description: Optikal Bahari, menyediakan sistem pembayaran dengan cicilan untuk pembelian Kacamata & Lensa.
 keywords: 'Kacamata Cicilan, Cicilan, Lensa, Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
