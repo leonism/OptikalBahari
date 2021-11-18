@@ -2,7 +2,7 @@
 layout: page
 title: Kacamata Cicilan Di Kemayoran, Optikal Bahari Bendungan Jago
 subtitle: 'Kacamata Cicilan Dengan Harga Terjangkau'
-description: Optikal Bahari, menyediakan sistem pembayaran dengan cicilan untuk pembelian Kacamata & Lensa.
+description: Beli kacamata di optikal bahari dengan sistem cicilan tanpa bunga, bergaransi, dijamin puas dan terima pemabayaran menggunakan KJP
 keywords: 'Kacamata Cicilan, Cicilan, Lensa, Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
 author: Optikal Bahari

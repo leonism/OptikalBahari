@@ -2,7 +2,7 @@
 layout: page
 title: Kenapa Warga Kemayoran Harus Beli Kacamata di Optikal Bahari?
 subtitle: Berikut Alasan Kenapa Optikal Bahari Cocok Untuk Warga Kemayoran.
-description: Berikut alasan Kenapa Warga Kemayoran Harus Beli Kacamata Di Optikal Bahari Saja.
+description: Berikut alasan Beberapa Alasan Kenapa Warga Kemayoran Harus Beli Kacamata Di Optikal Bahari Saja Dan Bukan Di Tempat Optik yang lian.
 keywords: 'optikal bahari, kemayoran, kacamata, info'
 lang: id-ID
 author: Optikal Bahari
