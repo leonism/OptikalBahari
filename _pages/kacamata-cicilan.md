@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Di Optikal Bahari Beli Kacamata Bisa Bayar Pake Cicilan
+title: Beli Kacamata Bisa Bayar Pake Cicilan
 subtitle: 'Program Kacamata Cicilan Tanpa Bunga'
 description: Ini adalah salah satu keunikan jika kamu membeli kacamata di Optikal Bahari, yaitu aman dari riba atau DP. Biasanya sistem cicil akan dibebankan sebuah bunga yang mesti kamu bayarkan. Namun di sini kamu bisa bernafas dengan lega, tidak ada sistem bunga yang akan kamu terima.
 keywords: 'kacamata cicilan, tanpa bunga, tanpa DP, bayar KJP'

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Toko Kacamata Di Kemayoran, Bendungan Jago, Jakarta Pusat
+title: Kacamata Di Kemayoran, Bendungan Jago, Jakarta Pusat
 subtitle: 'Toko Optik Kacamata, Frame Murah Dan Terjangkau'
 description: Toko Kacamata & Optik murah dengan koleksi lensa dan frame paling lengkap dan terjangkau di Kemayoran.
 keywords: Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo

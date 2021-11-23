@@ -2,7 +2,7 @@
 layout: page
 title: Optik Periksa Mata Gratis Di Jakarta
 subtitle: 'Optik Periksa Mata Gratis Di Jakarta'
-description: Kacamata Murah Terdekat
+description: Dapatkan Kacamata Murah Di Optik Terdekat Di Kemayoran, Jakarta Pusat. Buktikan sendiri.
 keywords: 'kacamata murah terdekat, kacamata murah, kacamata terdekat'
 lang: id-ID
 author: Optikal Bahari

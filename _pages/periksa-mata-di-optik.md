@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Periksa Mata di Optik Gratis Hanya Di Optikal Bahari, Kemayoran - Jakarta Pusat.
+title: Periksa Mata di Optik Gratis Hanya Di Optikal Bahari
 subtitle: Segera Periksakan Mata Anda
 description: Periksa mata gratis menggunakan sistem komputerisasi, menerima pembayaran KJP, bergaransi dan ada cicilan 0%.
 keywords: 'Periksa Mata, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
