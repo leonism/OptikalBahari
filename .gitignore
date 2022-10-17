@@ -5,12 +5,14 @@
 .sass
 .jekyll-cache/
 .git
-Gemfile.lock
-Gemfile
+# Gemfile.lock
+# Gemfile
 node_modules
 _.scss
 optikalbahari.code-workspace
 LICENSE
+package-lock.json
+package.json
 
 ### Gulp ###
 package.json
