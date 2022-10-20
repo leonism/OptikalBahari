@@ -5,6 +5,7 @@
 .sass
 .jekyll-cache/
 .git
+.vscode
 # Gemfile.lock
 # Gemfile
 node_modules
