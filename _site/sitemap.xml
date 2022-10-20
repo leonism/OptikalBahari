@@ -68,6 +68,9 @@
 <loc>http://localhost:4000/404/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/cek-mata-gratis/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/frame-kacamata-minus/</loc>
 </url>
 <url>
@@ -128,6 +131,9 @@
 <loc>http://localhost:4000/kontak/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/kredit-kacamata-terdekat/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/lokasi/</loc>
 </url>
 <url>
@@ -138,6 +144,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/optik-periksa-mata-gratis-di-jakarta/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/optik-periksa-mata-gratis-terdekat/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/optikal-bahari-kjp-kartu-jakarta-pintar/</loc>
