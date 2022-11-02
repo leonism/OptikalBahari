@@ -12,15 +12,15 @@ background: /assets/img/posts/021.jpg
 permalink: /cek-mata-gratis/
 ---
 
-<div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+
+<div class="card shadow p-3 mb-5 bg-white rounded">
+    <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
     <div class="card-body">
       <h3 class="card-title">Cek Mata Gratis</h3>
-      <p class="card-text">Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kuran jelas? Banyak hal yang bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering main handphone, sampai dengan menurunnya kapasitas penglihatan seiring dengan bertambahnya usia. Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame bingkai kacamata dari mulai harga yang terjangkau sampai dengan harga menengah ke atas. Baca lebih lanjut untuk tahu alasan kenapa beli kacamata di Optikal Bahari.</p>
-  </div>
-   </div>
+      <p class="card-text">Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kurang jelas? Banyak hal yang bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering main handphone, sampai dengan menurunnya kapasitas penglihatan seiring dengan bertambahnya usia. Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame bingkai kacamata dari mulai harga yang terjangkau sampai dengan harga menengah ke atas. Baca lebih lanjut untuk tahu alasan kenapa beli kacamata di Optikal Bahari.</p>
+    </div>
 </div>
+
 
 {% include home-cards.html %}
 
@@ -66,3 +66,27 @@ permalink: /cek-mata-gratis/
         {% endfor %}
     </div>
 </section>
+
+
+<div class="mapouter">
+				<div class="gmap_canvas">
+					<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=optikal%20bahari&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+					</iframe>
+					<a href="https://www.whatismyip-address.com/divi-discount/"></a>
+					</div>
+					<style>
+						.mapouter {
+							position:relative;
+							text-align:right;
+							height:500px;
+							width:600px;
+							}
+						.gmap_canvas {
+							overflow:hidden;
+							background:none!important;
+							height:500px;
+							width:500px;
+							}
+					</style>
+				</div>
+			</div>	
