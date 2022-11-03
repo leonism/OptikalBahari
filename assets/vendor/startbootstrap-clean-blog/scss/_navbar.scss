@@ -1,7 +1,8 @@
 // Styling for the navbar
 #mainNav {
 	// start added lines
-	margin-top: 0;
+	// margin-top: 0;
+	margin: 0;
 	position: absolute;
 	border-bottom: 1px solid $gray-200;
 	background-color: white;
@@ -12,6 +13,7 @@
 		// end added lines
 		font-weight: 800;
 		color: $gray-800;
+		// color:red;
 	}
 	.navbar-toggler {
 		font-size: 12px;
