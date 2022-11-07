@@ -16,7 +16,7 @@ permalink: /optik-kemayoran/
   <img src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg" class="card-img-top" alt="kacamata cicilan">
   <div class="card-body">
     <h3 class="card-title">
-    Loaksi Kami Yang Mudah Di Jangkau Di Jalan Bendungan Jago.
+    Lokasi Kami Yang Mudah Di Jangkau Di Jalan Bendungan Jago.
     </h3>
     <p class="card-text">
     Kalo kamu kebetulan tinggal atau sedang berada di daerah Kemayoran atau sekitarnya, dan kebetulan sedang mempertimbangkan utuk membeli Kacamata berhubung mungkin ukuran kamu sudah berubah atau butuh model baru karena model lama mungkin sudah bosan, mungkin boleh dicoba untuk mampir ke Optikal Bahari, di <a href="{{"/lokasi" | relative_url }}" title="Optikal Bahari, Jakarta Pusat">Jalan Bendungan Jago No 447 Kemayoran</a>, Jakarta Pusat.</p>
