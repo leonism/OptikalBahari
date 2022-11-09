@@ -2,7 +2,7 @@
 layout: testimoni
 title: Testimoni Pelanggan Kami
 subtitle: "Karena 40+ Tahun Pengalaman Tidak Akan Mengelabui Hasil"
-description: "40 tahun lebih di bisnis ini, kami medapatkan banyak pelajaran berharga dalam melakukannya. Berikut adalah sebagian dari testimoni yang diberikan oleh para pelanggan kami, yang anda juga dapat lihat secara online di Google My Business Optikal Bahari secara online"
+description: "Berikut adalah sebagian dari testimoni yang diberikan oleh para pelanggan kami"
 keywords: "Testimoni, Optikal Bahari, Kemayoran, Optik Kacamata, Gratis"
 lang: id-ID
 author: Optikal Bahari
