@@ -2,16 +2,16 @@
 layout: default
 title: Kabar Terdini Dan Terkini
 subtitle: 'Terdini & Terkini'
-description: 'Berita seputaran perkembangan produk dan layanan terbaru dari Optikal Bahari, maaupun hal lain yang masih berbau Bendungan Jago, Kemayoran secara umum'
+description: 'Berita seputaran perkembangan produk dan layanan terbaru dari Optikal Bahari'
 keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Optik, Kacamata, Gratis'
 ---
 
 <!-- Page Header -->
-{% include navbar.html %} {% if page.background %}
+{% include navbar.html %}
+{% if page.background %}
 <header
 	class="masthead"
-	style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')"
->
+	style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
 	{% else %}
 	<header class="masthead">
 		{% endif %}
@@ -23,8 +23,7 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 						{% if page.subtitle %}
 						<h2 class="subheading">{{ page.subtitle }}</h2>
 						{% endif %}
-						<span class="meta"
-							>Posted by
+						<span class="meta">Posted by
 							<a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
 							on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=page.content %}
 						</span>
@@ -41,7 +40,6 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 				{% include posts-detail.html %} {% if page.comments %}
 				<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5" data-width="720"></div>
 				{% endif %}
-
 				<div class="clearfix">
 					{% if page.previous.url %}
 					<a
@@ -59,11 +57,12 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 						data-toggle="tooltip"
 						data-placement="top"
 						title="{{ page.next.title }}"
-						>Next<span class="d-none d-md-inline"> Post</span> &rarr;</a
-					>
+						>Next<span class="d-none d-md-inline"> Post</span> &rarr;
+						</a>
 					{% endif %}
 				</div>
 			</div>
 		</div>
 	</div>
-</header>
+	{% include home-cards-google-reviews.html%}
+	<!-- </header> -->

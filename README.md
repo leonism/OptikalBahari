@@ -141,3 +141,17 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 ## Copyright and License
 
 Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/gh-pages/LICENSE) license.
+
+## My Own Notes
+
+1. Point the main link-css in the "_site/assets" to "main.css"
+2. Create "_sass" folder in the root directory
+3. In that "_sass" folder has a ".scss" file that imported the "theme.scss"
+4. Create the theme styling in the "theme.scss" file.
+
+- Jadi cara kerja Jekyll itu bakalan copy semua files yg ada di root folder.
+- Semua file/folder kecuali file yg depannya ada "_" atau "."
+- dan define file scss didalam directory _scss yg didalamnya bakalan import scss files lainnya.
+
+
+bundle exec jekyll serve --livereload
