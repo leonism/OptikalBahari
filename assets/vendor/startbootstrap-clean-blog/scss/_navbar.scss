@@ -27,7 +27,7 @@
 			> a {
 				font-size: 12px;
 				font-weight: 800;
-				letter-spacing: 1px;
+				letter-spacing: 2px;
 				text-transform: uppercase;
 			}
 		}
@@ -50,7 +50,7 @@
 					color: $white;
 					&:focus,
 					&:hover {
-						color: fade-out($white, 0.2);
+						color: fade-out($white, 0.1);
 					}
 				}
 			}
@@ -70,7 +70,7 @@
 		&.is-fixed {
 			/* when the user scrolls down, we hide the header right above the viewport */
 			position: fixed;
-			top: -67px;
+			top: -70px;
 			-webkit-transition: -webkit-transform 0.2s;
 			-moz-transition: -moz-transform 0.2s;
 			transition: transform 0.2s;
