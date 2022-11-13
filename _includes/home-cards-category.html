@@ -1,5 +1,5 @@
 <section id="posts-category">
-	<div class="card-deckrow mb-3 card-deck">
+	<div class="card-deckrow mb-3 card-deck bg-white rounded hover-zoomin">
 		{% for post in site.categories.Lensa limit : 3 %}
 		<div class="card shadow p-0 mb-3 bg-white rounded">
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -15,9 +15,8 @@
 				<h5 class="card-title">{{ post.title | truncatewords: 7 }}</h5>
 				<p class="card-text">{{ post.description | strip_html | truncatewords: 12 }}.</p>
 				<p class="card-text">
-					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-						>Selengkapnya</a
-					>
+					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya
+					</a>
 				</p>
 			</div>
 			<div class="card-footer">

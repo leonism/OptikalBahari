@@ -110,3 +110,7 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+
+# jekyll cache
+.jekyll-cache
