@@ -3,7 +3,7 @@ layout: page
 title: Bendungan Jago 447, Kemayoran Jakarta Pusat | Optikal Bahari
 subtitle: Segera kunjungi kami dan dapatkan pemeriksaan kacamata gratis.
 description: Bahari Optical Jl. Bend. Jago No.447, RW.1, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10650
-keywords: Lokasi, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Optik
+keywords: Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Optik
 lang: id-ID
 background: /assets/img/bg-index-arch-3.jpg
 comments: false
