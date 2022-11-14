@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Periksa Mata Gratis Di Optikal Bahari, Kemayoran
+title: Periksa Mata Gratis, Kemayoran Jakarta Pusat
 subtitle: Segera Periksakan Mata Anda
-description: Periksa mata gratis di Optikal Bahari, menerima Program KJP dan ada cicilan.
+description: Periksa mata gratis di Optikal Bahari dengan alat komputer, menerima Program KJP dan ada cicilan.
 keywords: 'Periksa Mata, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
 lang: id-ID
 author: Optikal Bahari
@@ -10,7 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/021.jpg
 comments: false
-permalink: /periksa-mata-gratis/
+permalink: /periksa-mata-gratis-dimana/
 ---
 
 <div class="card-deck mb-3">

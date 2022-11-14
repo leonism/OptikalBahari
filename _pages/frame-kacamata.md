@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Frame Kacamata Di Kemayoran, Optikal Bahari Bendungan Jago Jakarta Pusat
+title: Frame Kacamata Di Kemayoran, Bendungan Jago JakPus
 subtitle: Frame & Kacamata Terabru, Murah Dan Terjangkau
 description: Dapatkan koleksi Frame Kacamata Minus dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas.
 keywords: 'frame kacamata online, frame murah, kacamata, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'

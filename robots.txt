@@ -2,8 +2,8 @@
 layout: none
 ---
 
-User-agent: Googlebot
-Disallow: /cdn-cgi/
+User-agent: *
+Disallow: /cgi-bin/
 
 User-agent: *
 Allow: /
