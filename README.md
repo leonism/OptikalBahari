@@ -155,3 +155,5 @@ Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https:/
 
 
 bundle exec jekyll serve --livereload
+
+https://stevenwestmoreland.com/2021/01/using-tailwind-css-with-jekyll.html
