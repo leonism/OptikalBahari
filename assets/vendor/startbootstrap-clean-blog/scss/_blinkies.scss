@@ -35,7 +35,6 @@
 //    animation:ripple 1.8s
 //}
 
-
 .intro-banner-vdo-play-btn .ripple{
     position:absolute;
     width:160px;
@@ -44,10 +43,10 @@
     left:50%;
     top:50%;
     opacity:0;
-    margin:-70px 0 0 -80px;
+    margin:-80px 0 0 -80px;
     border-radius:100px;
     -webkit-animation:ripple 1.8s infinite;
-    animation:ripple 1.8s infinite
+    animation:ripple 1.8s normal;
 }
 
 
