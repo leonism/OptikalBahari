@@ -40,7 +40,7 @@
 			color: $white;
 			&:focus,
 			&:hover {
-				color: fade-out($white, 0.2);
+				color: fade-out($white, 0.1);
 			}
 		}
 		.navbar-nav {
