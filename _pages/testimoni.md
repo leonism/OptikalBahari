@@ -1,5 +1,5 @@
 ---
-layout: testimoni
+layout: page
 title: Testimoni Pelanggan Kami
 subtitle: "Karena 40+ Tahun Pengalaman Tidak Akan Mengelabui Hasil"
 description: "Berikut adalah sebagian dari testimoni yang diberikan oleh para pelanggan kami"

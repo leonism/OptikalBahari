@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Layanan Periksa Mata Gratis, Dgn Alat Komputerisasi
+title: Periksa Mata Gratis Dengan Komputer
 subtitle: Segera Periksakan Mata Anda
 description: Layanan periksa mata gratis dengan komputerisasi, kami memberikan layanan pembayaran KJP dan ada program cicilan tanpa bunga.
 keywords: 'Periksa Mata, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
