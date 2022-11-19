@@ -25,3 +25,11 @@
   font-size: 16px;
   padding: 25px 35px;
 }
+
+.card-text {
+  line-height: 1.5;
+  margin: 20px 0;
+  a {
+    text-decoration: underline;
+  }
+}

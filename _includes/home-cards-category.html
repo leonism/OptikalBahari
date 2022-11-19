@@ -12,10 +12,15 @@
 			</a>
 			{% endif %}
 			<div class="card-body">
-				<h5 class="card-title">{{ post.title | truncatewords: 7 }}</h5>
-				<p class="card-text">{{ post.description | strip_html | truncatewords: 12 }}.</p>
+				<h5 class="card-title">
+					{{ post.title | truncatewords: 7 }}
+				</h5>
 				<p class="card-text">
-					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya
+					{{ post.description | strip_html | truncatewords: 12 }}.
+				</p>
+				<p>
+					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" role="button" title="{{ post.title }}">
+					Selengkapnya
 					</a>
 				</p>
 			</div>

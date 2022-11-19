@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Layanan Periksa Mata Gratis Dengan Alat Komputerisasi Hanya Di Optikal Bahari
+title: Periksa Mata Gratis Dengan Alat Komputerisasi
 subtitle: Segera Periksakan Mata Anda
 description: Periksa mata gratis hanya di Optikal Bahari, menerima Program KJP dan ada cicilan.
 keywords: 'Periksa Mata, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
