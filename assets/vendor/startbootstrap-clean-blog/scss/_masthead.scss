@@ -31,7 +31,7 @@ header.masthead {
     h1 {
       font-size: 45px;
       margin-top: 0;
-      text-shadow: 3px 2px 2px rgba(44,35,35,0.6);
+      text-shadow: 4px 2px 2px rgba(44,35,35,0.6);
     }
     .subheading {
       font-size: 24px;
@@ -39,7 +39,7 @@ header.masthead {
       line-height: 1.1;
       display: block;
       margin: 10px 0 0;
-      text-shadow: 2px 1px 1px rgba(44,35,35,0.6);
+      text-shadow: 3px 2px 2px rgba(44,35,35,0.6);
       @include sans-serif-font;
     }
     @media only screen and (min-width: 768px) {
