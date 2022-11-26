@@ -49,6 +49,11 @@
 		{% else %}
 		<meta name="twitter:image:src" content="{{ site.url }}{{ page.background }}">
 		{% endif %}
+		{% if page.title %}
+		<meta property='twitter:image:alt' content="{{ page.title }}" />
+		{% else %}
+		<meta property='twitter:image:alt' content="{{ site.title }}" />
+		{% endif %}
 		<!-- end twitter integration -->
 		
 		<!-- start facebook integration -->
@@ -69,6 +74,11 @@
 		{% endif %}
 		<meta property='og:url' content="{{ site.url }}{{ page.url }}" />
 		<meta property='og:image' content="{{ site.url }}{{ page.background }}" />
+		{% if page.title %}
+		<meta property='og:image:alt' content="{{ page.title }}" />
+		{% else %}
+		<meta property='og:image:alt' content="{{ site.title }}" />
+		{% endif %}
 		<!-- end facebook integration -->
 
 <!-- 
