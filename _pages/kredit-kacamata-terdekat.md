@@ -45,7 +45,7 @@ permalink: /kredit-kacamata-terdekat/
 			<h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
 			<p class="card-text">
 				Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak
-				kemudahan untuk memilii kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang
+				kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang
 				kami berikan, kamu juga bisa bergabung dengan Fanpage
 				<a
 					href="https://www.facebook.com/optikalbahari"

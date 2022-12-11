@@ -19,12 +19,11 @@
 		<title>
 			{% if page.title and page.title != 'Home' %}{{ page.title }} | {% endif %}{{ site.title }}
 		</title>
-		<meta name="description" content="
-												{% if page.description.size > 10 %} {{ page.description | truncate: 160 }}
-												{% else %}
-												{{ site.description | truncate: 160 }}
-				{% endif %}"
-				/>
+		<meta name="description" content="{% if page.description.size > 10 %} 
+			{{ page.description | truncate: 160 }}
+				{% else %}
+			{{ site.description | truncate: 160 }}
+				{% endif %}" />
 		<meta name="keywords" content="{{ page.keywords normalize_whitespace | truncate: 160 | escape }}" itemprop="keywords" />
 		
 		<!-- start twitter integration -->
