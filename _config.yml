@@ -10,6 +10,8 @@ url: 'https://optikalbahari.com'
 tagline: Melayani Segala Kebutuhan Kacamata Anda
 subtitle: Harga Bersahahat!
 permalink: /:title/
+# Add your google-analytics ID here to activate google analytics
+# google_analytics: G-FV2N66E55Q # out your google-analytics code
 # we don't put the Google Analtics tracking ID, since we're using GTM instead.
 
 # Social Profiles
@@ -17,8 +19,6 @@ twitter_username: OptikalBahari
 facebook_username: OptikalBahari
 # linkedin_username: OptikalBahari
 
-# Add your google-analytics ID here to activate google analytics
-# google_analytics: G-FV2N66E55Q # out your google-analytics code
 
 # Build settings
 markdown: kramdown
