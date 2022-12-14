@@ -27,6 +27,17 @@ layout: default
 	</header>
 	<!-- end page header -->
 	<!-- <main> -->
+		<div itemscope itemtype="https://schema.org/WebSite">
+			<meta itemprop="url" content="{{ site.url }}" />			
+			{% if page.title %}
+			<meta itemprop="name" content="{{ page.title }}" />
+			{% else %}
+			<meta itemprop="name" content="{{ site.title }}" />
+			{% endif %}
+			<meta itemprop="alternateName" content="OB" />
+		</div>		
+		{% include json-ld.html %}
+
 		<div class="container">
 			<!-- <div class="row"> -->
 			<!-- <div class="col-lg-8 col-md-10 mx-auto"> -->

@@ -59,7 +59,9 @@
     <!-- end twitter integration -->
 	
 	<!-- start facebook integration -->		
+	<meta property='og:site_name' content="{{ site.title }}" />	
 	<meta property='og:type' content="article" />
+
 	{% if page.title %}
     <meta property='og:title' content="{{ page.title }}" /> 
     {% else %}
@@ -105,7 +107,7 @@
 {% include gtm-head.html %}
 {% include google-optimize-anti-flicker.html %}
 </head>
-
+<!-- {% include json-ld.html %} -->
 <!-- start the google fonts importing, so that it would make less hit request to the network, and cache them  -->
 
 <style>
