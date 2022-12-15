@@ -1,9 +1,9 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-8 mx-auto">
+      <div class="col-lg-8 col-md-8 mx-auto mb-0">
         <ul class="list-inline text-center">
-          {% if site.email %}
+          <!-- {% if site.email %}
           <li class="list-inline-item">
             <a href="mailto:{{ site.email | encode_email }}">
               <span class="fa-stack fa-lg">
@@ -14,7 +14,7 @@
               </span>
             </a>
           </li>
-          {% endif %}
+          {% endif %} -->
           {% if site.twitter_username %}
           <li class="list-inline-item">
             <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -76,11 +76,13 @@
           <a href="{{"/lokasi/" | relative_url }}" title="Lokasi Optikal Bahari">Lokasi</a> |
           <a href="{{"/kontak/" | relative_url }}" title="Kontak Optikal Bahari">Kontak</a> |
           <a href="{{"/kenapa-optikal-bahari/" | relative_url }}" title="Kenapa Optikal Bahari">Kenapa Optikal Bahari<a><br />
-              <a href="https://search.google.com/local/reviews?placeid=ChIJDYWGN6T1aS4RjK50wCfHApg" title="Check out OPTIK BAHARI ⭐⭐⭐⭐⭐ (SEJAK 1978) OPTIK TERDEKAT REKOMENDASI on Google!">Check out OPTIK BAHARI ⭐⭐⭐⭐⭐ (SEJAK 1978) OPTIK TERDEKAT REKOMENDASI on
-                Google!</a>
-              <br />
-              Hak Cipta &copy; {{ site.author }} {{ 'now' | date: "%Y" }}
-              </p>
+          <a href="https://search.google.com/local/reviews?placeid=ChIJDYWGN6T1aS4RjK50wCfHApg" title="Check out OPTIK BAHARI ⭐⭐⭐⭐⭐ (SEJAK 1978) OPTIK TERDEKAT REKOMENDASI on Google!">Check out OPTIK BAHARI ⭐⭐⭐⭐⭐ (SEJAK 1978) OPTIK TERDEKAT REKOMENDASI on
+            Google!
+          </a>
+        </p>
+        <p>
+          Hak Cipta &copy; {{ site.author }} {{ 'now' | date: "%Y" }}
+        </p>
       </div>
     </div>
   </div>
