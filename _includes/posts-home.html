@@ -3,11 +3,13 @@
 		{% for post in site.posts limit : 3 %}
 		<div class="card">
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-				            {% if page.background %}<img
+				 {% if page.background %}
+				 <img
 					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
 					class="card-img-top"
 					alt="{{ post.title }}"
-			/></a>
+				/>
+			</a>
 			{% endif %}
 			<div class="card-body">
 				<h5 class="card-title">{{ post.title }}</h5>
