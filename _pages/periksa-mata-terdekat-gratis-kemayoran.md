@@ -55,7 +55,7 @@ permalink: /periksa-mata-terdekat-gratis-kemayoran/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+		  <img itemprop="image" src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
     <div class="card-body">
       <h3 class="card-title">Auto Lens Meter</h3>
       <p class="card-text">Lensmeter atau lensometer, juga dikenal sebagai focimeter atau vertometer, adalah instrumen oftalmik. Hal ini terutama digunakan oleh dokter mata dan ahli kacamata untuk memverifikasi resep yang benar dalam sepasang kacamata, untuk mengarahkan dan menandai dengan tepat lensa yang belum dipotong, dan untuk mengkonfirmasi pemasangan lensa yang benar dalam bingkai kacamata. Pengukur lensa juga dapat memverifikasi kekuatan lensa kontak, jika dukungan lensa khusus digunakan.</p>

@@ -33,14 +33,14 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 			</div>
 		</div>
 	</header>
-	{% include json-ld.html %}
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-10 mx-auto">
 				{{ content }}
 				<hr />
-				{% include posts-detail.html %} {% if page.comments %}
-				<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5" data-width="720"></div>
+				{% include posts-detail.html %} 
+				{% if page.comments %}
+					<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5" data-width="720"></div>
 				{% endif %}
 				<div class="clearfix">
 					{% if page.previous.url %}
@@ -61,10 +61,10 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 						data-placement="top"
 						title="{{ page.next.title }}"
 						>Next<span class="d-none d-md-inline"> Post</span> &rarr;
-						</a>
+					</a>
 					{% endif %}
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- </header> -->
+<!-- </header> -->

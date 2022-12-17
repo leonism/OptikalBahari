@@ -4,17 +4,8 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
-	{% include head.html %}
-	<div itemscope itemtype="https://schema.org/Optician>
-		<meta itemprop="url" content="{{ site.url }}" />
-		{% if page.title %}
-		<meta itemprop="name" content="{{ page.title }}" />
-		{% else %}
-		<meta itemprop="name" content="{{ site.title }}" />
-		{% endif %}
-		<meta itemprop="alternateName" content="OB" />
-	</div>
-	{% include json-ld.html %}
+	{% include head.html %}		
+	{% include richsnippet-json-ld-smallbusiness.html %}	
 	<body>
 		{% include fb-comments-bodytag.html %}
 		{% include gtm-body.html %}

@@ -95,12 +95,11 @@
 <!-- end styling integration -->
 
 
-<link rel="canonical" href="{{ page.url | replace:'index.html ',' ' | absolute_url "}}">
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
-<link rel="icon" href="{{" /assets/favicon-96x96.png" | relative_url }}" type="assets" sizes="96x96">
+<link rel="canonical" href="{{ page.url | replace:'index.html ',' ' | absolute_url "}}" />
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{"/feed.xml" | relative_url }}" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{"/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+<link rel="sitemap" type="application/xml" title="Sitemap" href="{{"/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
 {% include fb-card.html %}
 {% include gtm-head.html %}
 </head>
