@@ -154,6 +154,13 @@ Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https:/
 - dan define file scss didalam directory _scss yg didalamnya bakalan import scss files lainnya.
 
 
-bundle exec jekyll serve --livereload
+- bundle exec jekyll serve --livereload
 
 https://stevenwestmoreland.com/2021/01/using-tailwind-css-with-jekyll.html
+
+<img itemprop="image" src="{{" {% thumbnail /assets/img/bg-about.jpg 348x232 %}" | relative_url "}}" class="card-img-top img-fluid" alt="Periksa Mata Gratis"></a>
+<img itemprop="image" src="{{"/assets/img/bg-about.jpg" | relative_url "}}" class="card-img-top img-fluid" alt="Periksa Mata Gratis"></a>        
+<img itemprop="image" src={{ "{% thumbnail /assets/img/bg-about.jpg 348x232 " }}%} class="card-img-top img-fluid" alt="Periksa Mata Gratis"></a>        
+
+<img itemprop="image" src="{{"{{ "{% thumbnail /assets/img/bg-about.jpg 348x232 " }}%} | relative_url "}}" class="card-img-top img-fluid" alt="Periksa Mata Gratis"></a>        
+{{ "{% thumbnail path/to/image.jpg 50x50 " }}%}

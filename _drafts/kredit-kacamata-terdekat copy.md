@@ -12,15 +12,9 @@ background: /assets/img/posts/021.jpg
 permalink: /kredit-kacamata-terdekat/
 ---
 
-<div class="card-deck mb-3">
-	<div class="card shadow p-3 mb-5 bg-white rounded">
-		<img
-			src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg' | relative_url }}"
-			class="card-img-top"
-			alt="tips-kacamata-2.jpg"
-		/>
-		<div class="card-body">
-			<h3 class="card-title">Kredit Kacamata Terdekat</h3>
+
+<div class="card shadow p-3 bg-white mb-5">	
+		<h3 class="card-title">Kredit Kacamata Terdekat</h3>
 			<p class="card-text">
 				Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kurang jelas? Banyak hal yang
 				bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering
@@ -28,6 +22,11 @@ permalink: /kredit-kacamata-terdekat/
 				kami menyediakan beragam jenis tipe Lensa dan Frame bingkai kacamata dari mulai harga yang terjangkau sampai dengan
 				harga menengah ke atas. Baca lebih lanjut untuk tahu alasan kenapa beli kacamata di Optikal Bahari.
 			</p>
+		<img
+			src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg' | relative_url }}"
+			class="card-img-top"
+			alt="tips-kacamata-2.jpg"
+		/>
 
 			<p>
 				Di Optikal Bahari, kamu bisa membeli kacamata dengan cara cicilan. Dengan cara ini, kamu tidak perlu mengeluarkan uang sekaligus untuk membeli kacamata yang kamu inginkan. Kamu bisa membelinya dengan menyicil dalam jangka waktu yang telah ditentukan.
@@ -66,16 +65,9 @@ permalink: /kredit-kacamata-terdekat/
 			<p>
 				Jika kamu masih bingung tentang pilihan kacamata yang tepat, jangan ragu untuk bertanya kepada staff optik di Optikal Bahari. Mereka pasti akan dengan senang hati memberikan informasi yang kamu butuhkan dan membantumu untuk memilih kacamata yang sesuai dengan kebutuhanmu. Jadi, pastikan untuk membeli kacamata dengan cara cicilan yang tepat di Optikal Bahari dan aman dari riba atau DP.
 			</p>
-
-<div class="card-deck mb-3">
-	
-		<img
-			src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg' | relative_url }}"
-			class="card-img-top"
-			alt="tips-kacamata-2.jpg"
-		/>
-		<div class="card-body">
+		
 			<h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
+			<img src="{{'/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg' | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg" />
 			<p class="card-text">
 				Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak
 				kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang
@@ -97,6 +89,3 @@ permalink: /kredit-kacamata-terdekat/
 					>+6281932235445</a
 				>. <em>(Optikal Bahari)</em>
 			</p>
-	</div>		
-</div>
-
