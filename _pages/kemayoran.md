@@ -7,18 +7,44 @@ keywords: 'optikal bahari, kemayoran, kacamata, info'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
-tags: [promo, discount, kacamata, lensa, bingkai]
-background: /assets/img/posts/025.jpg
+tags: [kemayoran, jakarta pusat, kacamata, lensa, bingkai]
+background: /assets/img/posts/037.jpg
 permalink: /kemayoran/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
+  <img src="/assets/img/posts/032.jpg" class="card-img-top" alt="Kenapa Beli Kacamata Di Optikal Bahari?">
+  <div class="card-body">
+    <h3 class="card-title">
+      Kenapa Beli Kacamata Di Optikal Bahari?
+    </h3>
+    <p class="card-text">
+      Pertama, Optikal Bahari menawarkan layanan periksa mata yang cepat dan akurat dengan menggunakan alat komputer terbaru. Ini akan membantu Anda mengetahui tingkat kebutuhan penglihatan Anda dan membantu dalam menentukan jenis kacamata yang sesuai. Kami juga memiliki tim dokter mata yang terlatih dan berpengalaman yang siap membantu Anda dengan masalah penglihatan Anda.
+    </p>
+    <p>
+      Kedua, Optikal Bahari menyediakan beragam pilihan tipe Lensa dan Frame bingkai kacamata yang cocok untuk setiap kebutuhan dan gaya. Kami menawarkan harga yang terjangkau hingga harga menengah ke atas, sehingga Anda dapat memilih yang sesuai dengan budget Anda.
+    </p>
+    <p>
+      Ketiga, Optikal Bahari juga menyediakan layanan kredit yang memudahkan Anda dalam membeli kacamata tanpa perlu mengeluarkan uang muka atau menanggung bunga. Anda bahkan tidak perlu membawa credit card saat berkunjung ke Optikal Bahari.
+    </p>
+    <p>
+      Keempat, staff ramah kami akan selalu siap untuk melayani Anda dengan pelayanan terbaik. Kami akan membantu Anda dalam menemukan frame kacamata yang sesuai dengan kebutuhan dan gaya Anda, serta membantu Anda dalam memilih tipe Lensa yang terbaik. Jadi, jangan ragu untuk mengunjungi Optikal Bahari dan periksakan kebutuhan penglihatan Anda dengan kami.
+    </p>
+</div>
+</div>
+
+<div class="card shadow p-3 bg-white mb-5">
   <img src="/assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.jpg" class="card-img-top" alt="Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama">
   <div class="card-body">
-    <h3 class="card-title">Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama</h3>
-    <p class="card-text">Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai gaya hidup.  Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi sebuah kebutuhan tersendiri, terutama untuk kalangan muda.</p>
-	<p>Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai gaya hidup.  Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi sebuah kebutuhan tersendiri, terutama untuk kalangan muda.</p>
-	<p>Apalagi karena gaya hidup yang terlalu lama berhadapan dengan gadget, mata jelas mengalami penurunan kinerja. Ini yang membuat banyak anak muda sekarang sangat membutuhkan sebuah kacamata. Jika kamu adalah salah satunya, maka memilih Optikal Bahari adalah pilihan paling bijak yang bisa kamu pilih.</p>
+    <h3 class="card-title">Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama</h3>    
+    <p class="card-text">
+      Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai gaya hidup.  Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi sebuah kebutuhan tersendiri, terutama untuk kalangan muda.
+    </p>
+	  <p>
+      Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai gaya hidup.  Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi sebuah kebutuhan tersendiri, terutama untuk kalangan muda.
+    </p>
+	  <p>
+      Apalagi karena gaya hidup yang terlalu lama berhadapan dengan gadget, mata jelas mengalami penurunan kinerja. Ini yang membuat banyak anak muda sekarang sangat membutuhkan sebuah kacamata. Jika kamu adalah salah satunya, maka memilih Optikal Bahari adalah pilihan paling bijak yang bisa kamu pilih.</p>
 	</div>
 </div>
 
@@ -26,18 +52,30 @@ permalink: /kemayoran/
 
 <div class="card shadow p-3 bg-white mb-5">
   <img src="/assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-7.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  
   <div class="card-body">
-    <h3 class="card-title">Staff Ramah dan Banya Pilihan dari Tempat Jual Kacamata Keren Terbaik</h3>
+    
+    <h3 class="card-title">
+      Staff Ramah dan Banya Pilihan dari Tempat Jual Kacamata Keren Terbaik
+    </h3>
+    
     <p class="card-text">
-		Ketika kamu menuju ke tempat optik lalu mendapati staff yang kurang ramah tentu kamu akan berpikir ulang. Bisa saja kamu tidak jadi membeli sebuah kacamata hanya karena staff optik yang kurang ramah. Bahkan bisa saja tempat optik tersebut tidak akan pernah kamu rekomendasikan kepada teman-temanmu.</p>
-<p>Namun di sini sangat berbeda, di Optikal Bahari ada banyak sekali staff ramah yang akan membantumu. Kamu bisa bertanya apa saja terkait masalah kacamata atau gangguan penglihatan yang kamu alami. Tidak salah memang jika Optikal Bahari menjadi tempat jual kacamata keren terbaik.</p>
+		  Ketika kamu menuju ke tempat optik lalu mendapati staff yang kurang ramah tentu kamu akan berpikir ulang. Bisa saja kamu tidak jadi membeli sebuah kacamata hanya karena staff optik yang kurang ramah. Bahkan bisa saja tempat optik tersebut tidak akan pernah kamu rekomendasikan kepada teman-temanmu.
+    </p>
 
-<p>Di sini kamu bisa mendapatkan banyak sekali model kacamata, mulai dari yang sederhana hingga berkelas. Ada banyak selai pilihan frame dan tentunya ini bisa kamu sesuaikan dengan bentuk wajahmu. Apalagi jika kamu mencari kacamata bukan hanya untuk memperbaiki penglihatan, tapi juga untuk tampil menawan.</p>
+    <p>
+      Namun di sini sangat berbeda, di Optikal Bahari ada banyak sekali staff ramah yang akan membantumu. Kamu bisa bertanya apa saja terkait masalah kacamata atau gangguan penglihatan yang kamu alami. Tidak salah memang jika Optikal Bahari menjadi tempat jual kacamata keren terbaik.
+    </p>
 
-<p>Selain itu, di sini kamu bisa memilih beragam lensa kacamata sesuai kebutuhan. Tentu setiap gangguan penglihatan memiliki lensa yang cocok. Misalnya presbiopia akan lebih cocok untuk memakai lensa kacamata trifokal. Karena itu kamu tidak perlu khawatir lagi tentang pilihan model kacamata.</p>
+    <p>
+      Di sini kamu bisa mendapatkan banyak sekali model kacamata, mulai dari yang sederhana hingga berkelas. Ada banyak selai pilihan frame dan tentunya ini bisa kamu sesuaikan dengan bentuk wajahmu. Apalagi jika kamu mencari kacamata bukan hanya untuk memperbaiki penglihatan, tapi juga untuk tampil menawan.
+    </p>
 
-</div>
+    <p>
+      Selain itu, di sini kamu bisa memilih beragam lensa kacamata sesuai kebutuhan. Tentu setiap gangguan penglihatan memiliki lensa yang cocok. Misalnya presbiopia akan lebih cocok untuk memakai lensa kacamata trifokal. Karena itu kamu tidak perlu khawatir lagi tentang pilihan model kacamata.
+    </p>
 
+  ****</div>
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">

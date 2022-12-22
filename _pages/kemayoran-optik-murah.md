@@ -14,12 +14,20 @@ permalink: /optik-murah-kemayoran/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-7.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
-    <div class="card-body">
-      <h3 class="card-title">Optikal Bahari Terjangkau Untuk Semua Kalangan</h3>
-      <p class="card-text">Sedang mempertimbangkan untuk membeli kacamata baru? Atau mungkin butuh lensa atau bingkai kacamata/frame pengganti karena ukuran mata yang sudah berubah? Atau mungkin sudah bosan dengan model kacamata yang digunakan sekarang? Jangan ragu lagi, segera datang ke Optikal Bahari. Hanya di Optikal Bahari yang koleksi lensa dan frame paling lengkap dengan harga terjangkau. Optikal Bahari juga memberikan layanan Periksa Mata Gratis, pembayaran secara cicilan dan pembayaran menggunakan KJP. Lanjut baca semua keunggulan yang ditawarkan oleh Optikal Bahari.</p>
-      </div>
-      </div>
+        <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-7.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+        <div class="card-body">
+        <h3 class="card-title">Optikal Bahari Terjangkau Untuk Semua Kalangan</h3>
+        <p class="card-text">
+            Sedang mempertimbangkan untuk membeli kacamata baru? Atau mungkin butuh lensa atau bingkai kacamata atuu frame pengganti karena ukuran mata yang sudah berubah? Atau mungkin sudah bosan dengan model kacamata yang digunakan sekarang? Jangan ragu lagi, segera datang ke Optikal Bahari. Hanya di Optikal Bahari yang koleksi lensa dan frame paling lengkap dengan harga terjangkau. 
+        </p>
+        <p>
+            Selain itu, Optikal Bahari juga memberikan layanan periksa mata gratis, sehingga Anda dapat memastikan bahwa penglihatan Anda selalu dalam keadaan yang optimal. Di samping itu, kami juga menyediakan pembayaran cicilan dan pembayaran menggunakan KJP, sehingga Anda tidak perlu khawatir tentang biaya pembelian kacamata. Jangan ragu untuk berkunjung ke Optikal Bahari dan temukan keunggulan lain yang ditawarkan oleh kami.
+        </p>
+        <p>
+            Optikal Bahari merupakan tempat yang tepat untuk membeli kacamata, terlepas dari kebutuhan apa yang Anda cari. Kami menyediakan beragam pilihan lensa dan frame bingkai kacamata yang sesuai dengan kebutuhan dan gaya Anda, dengan harga yang terjangkau. Selain itu, Optikal Bahari juga memberikan layanan periksa mata gratis, sehingga Anda dapat memastikan bahwa penglihatan Anda selalu dalam keadaan yang optimal. Di samping itu, kami juga menyediakan pembayaran cicilan dan pembayaran menggunakan KJP, sehingga Anda tidak perlu khawatir tentang biaya pembelian kacamata. Jangan ragu untuk berkunjung ke Optikal Bahari dan temukan keunggulan lain yang ditawarkan oleh kami.
+        </p>
+        </div>
+  </div>
 </div>
 
 {% include home-cards.html %}
