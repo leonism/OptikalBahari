@@ -7,14 +7,15 @@
 				<img itemprop="image"
 					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
 					class="card-img-top img-fluid"
-					alt="{{ post.title }}" />
+					alt="{{ post.title }}" 
+				/>
 			</a>
 			{% endif %}
 			<div class="card-body">
 				<h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-				<p class="card-text">
-					{{ post.description | strip_html | truncate: 100 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">Selengkapnya</a>
+				<p>
+					{{ post.description | strip_html | truncate: 100 }}
+					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">Lebih Lanjut</a>
 				</p>
 			</div>
 			<div class="card-footer">
@@ -38,13 +39,14 @@
 					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
 					class="card-img-top img-fluid"
 					alt="{{ post.title }}"
-			/></a>
+				/>
+			</a>
 			{% endif %}
 			<div class="card-body">
 				<h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-				<p class="card-text">
+				<p>
 					{{ post.description | strip_html | truncate: 100 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">Selengkapnya</a>
+					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">Lebih Lanjut</a>
 				</p>
 			</div>
 			<div class="card-footer">
@@ -68,13 +70,14 @@
 					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
 					class="card-img-top img-fluid"
 					alt="{{ post.title }}"
-			/></a>
+				/>
+			</a>
 			{% endif %}
 			<div class="card-body">
 				<h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-				<p class="card-text">
+				<p>
 					{{ post.description | strip_html | truncate: 100 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">Selengkapnya</a>
+					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">Lebih Lanjut</a>
 				</p>
 			</div>
 			<div class="card-footer">

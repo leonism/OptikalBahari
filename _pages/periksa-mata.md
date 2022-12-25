@@ -30,7 +30,11 @@ permalink: /periksa-mata/
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
       <div class="card-body">
       <h3 class="card-title">Hasil Pemeriksaan Cepat & Akurat</h3>
-      <p class="card-text">Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Optisien bertugas untuk membuat kacamata atau menyiapkan lensa kontak berdasarkan resep dari dokter mata. Selain membuat kacamata, optisien juga dapat melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.</p>
+      <p class="card-text">
+        Di Optikal Bahari, proses pemeriksaan mata melalui 2 tahapan. Tahapan pertama melalui autorefractometer atau yang biasa dikenal dengan alat pemeriksa otomatis. Dan untuk lebih memperdalam hasil analisa tersebut, ditahapan kedua kami menggunakan alat Phoroptor, dimana prosesnya pasien diminta untuk menyebutkan angka dan tulisan yang tertera dimedia gmabar. Melalui hasil pembandingan dengan proses sebelumnya, tersebut hasil dari pemeriksaan menjadi lebih akurat berhubung telah melalui 2 proses validasi langsung dari system dan pasiennya.
+      </p>
+      <p>
+        Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Optisien kami lebih lanjut bertugas untuk membuat kacamata atau menyiapkan lensa kontak berdasarkan resep dari dokter mata. Selain membuat kacamata, optisien juga dapat melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.</p>
       </div>
    </div>
 </div>
