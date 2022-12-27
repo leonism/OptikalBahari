@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/bg-profil.jpg
+background: /assets/img/posts/050.jpg
 image: /assets/img/profil/bandar-udara-kemayoran-80an.jpg
 permalink: /profil/
 ---

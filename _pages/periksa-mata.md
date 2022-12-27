@@ -18,23 +18,45 @@ permalink: /periksa-mata/
 		  <img itemprop="image" src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
     <div class="card-body">
       <h3 class="card-title">Periksakan Mata Anda Secara Rutin</h3>
-      <p class="card-text">Menurut penelitian dari para Dokter, idealnya anda melakukan cek rutin ukuran mata anda per 6 bulan sekali agar selalu terdeteksi perubahan yang terjadi di ukuran mata anda. Maka jangan tunda-tunda lagi untuk memeriksa daya penglihatan anda di Optikal Bahari. Proses pemeriksaan dilakukan dengan cara digital dan sudah terkomputerisasi, yang menjanjikan hasil yang lebih akurat dibanding menggunakan alat pemeriksa analog.</p>
+      <p class="card-text">
+        Di Optikal Bahari, proses pemeriksaan mata akan melalui 2 tahapan. Tahapan pertama adalah melalui mesin autorefractometer atau yang biasa dikenal dengan alat pemeriksaan mata otomatis.Lebih lanjut, guna untuk lebih memperdalam hasil pemeriksaan, ditahapan kedua kami menggunakan alat Phoroptor, dimana prosesnya pasien diminta untuk menyebutkan angka dan tulisan yang tertera dimedia gambar yang terpampang. Selanjutnya, staff kami akan melakukan pembandingan hasil dari proses sebelumnya. Hasil akhir dari pemeriksaan akan menjadi lebih akurat berhubung telah melalui 2 proses validasi langsung dari system dan pasiennya.
+      </p>
+      <p>
+        Dengan demikian, pemeriksaan mata yang dilakukan di Optikal Bahari dijamin cepat, akurat, dan terpercaya. Selain itu, kami juga menyediakan berbagai pilihan lensa dan frame yang sesuai dengan kebutuhan Anda sehari-hari. Jika Anda mengalami gangguan refraksi mata minus, plus, atau silinder, maka disarankan untuk memakai kacamata agar dapat membantu penglihatan mata anda.
+      </p>
     </div>
    </div>
 </div>
-
-{% include home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
       <div class="card-body">
-      <h3 class="card-title">Hasil Pemeriksaan Cepat & Akurat</h3>
+      <h3 class="card-title">Periksa Mata Cepat & Akurat</h3>
       <p class="card-text">
-        Di Optikal Bahari, proses pemeriksaan mata melalui 2 tahapan. Tahapan pertama melalui autorefractometer atau yang biasa dikenal dengan alat pemeriksa otomatis. Dan untuk lebih memperdalam hasil analisa tersebut, ditahapan kedua kami menggunakan alat Phoroptor, dimana prosesnya pasien diminta untuk menyebutkan angka dan tulisan yang tertera dimedia gmabar. Melalui hasil pembandingan dengan proses sebelumnya, tersebut hasil dari pemeriksaan menjadi lebih akurat berhubung telah melalui 2 proses validasi langsung dari system dan pasiennya.
+        Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Optisien kami lebih lanjut bertugas untuk membuat kacamata atau menyiapkan lensa kontak berdasarkan resep dari dokter mata. Selain membuat kacamata, optisien juga dapat melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.
       </p>
       <p>
-        Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Optisien kami lebih lanjut bertugas untuk membuat kacamata atau menyiapkan lensa kontak berdasarkan resep dari dokter mata. Selain membuat kacamata, optisien juga dapat melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.</p>
+        Para staff kami juga bertugas untuk memberikan saran tentang pemeliharaan dan penggunaan kacamata, serta memberikan pelatihan kepada Anda tentang cara memakai dan merawat kacamata anda. Selain itu, staff kami juga dapat memberikan informasi tentang berbagai jenis lensa yang tersedia, seperti lensa anti-refleksi, lensa yang dapat menyerap sinar UV, dan lensa yang dapat membantu mencegah kerusakan mata akibat layar gadget.
+      </p>
+      <p>
+        Para staff kami juga bertanggung jawab untuk memastikan bahwa kacamata yang disiapkan sesuai dengan spesifikasi yang diberikan dan memenuhi standar kualitas yang telah ditetapkan. Maka dari itu, pastikan untuk memeriksa mata secara teratur dan jangan ragu untuk bertanya kepada staff kami terkait masalah yang sedang dialami oleh mata Anda. Dengan demikian, Anda dapat memastikan bahwa mata Anda terjaga kesehatannya dan dapat melakukan aktivitas dengan lebih aman dan nyaman.
+      </p>
+      </div>
+   </div>
+</div>
+
+<div class="card-deck mb-3">
+  <div class="card shadow p-3 mb-5 bg-white rounded">
+		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+      <div class="card-body">
+      <h3 class="card-title">Periksa Mata Dengan Komputerisasi Digital</h3>
+      <p class="card-text">
+        Mengutamakan pelayanan terbaik bagi konsumen merupakan komitmen utama kami di Optikal Bahari. Kami memahami bahwa masalah penglihatan dapat mengganggu kegiatan sehari-hari, sehingga kami selalu siap untuk menjadi solusi bagi Anda. Jika Anda memiliki keluhan terkait penglihatan, jangan ragu untuk datang ke tempat kami dan konsultasikan masalah yang Anda alami. Kami akan memberikan saran dan solusi terbaik bagi Anda.
+      </p>
+      <p>
+        Selain itu, kami juga memahami bahwa seiring dengan bertambahnya usia, kapasitas retina mata dapat menurun dan berpengaruh pada kapasitas penglihatan. Oleh karena itu, kami sangat menyarankan Anda untuk rutin memeriksa daya penglihatan Anda setiap enam bulan sekali. Dengan demikian, Anda dapat terhindar dari masalah penglihatan yang lebih parah di masa yang akan datang. Di Optikal Bahari, kami menggunakan alat pemeriksaan digital yang telah terkomputerisasi untuk menjamin hasil yang akurat dan terpercaya. Jadi, jangan ragu untuk berkonsultasi dengan kami dan kami akan senantiasa memberikan pelayanan terbaik bagi Anda.
+      </p>
       </div>
    </div>
 </div>
@@ -44,17 +66,9 @@ permalink: /periksa-mata/
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
       <div class="card-body">
       <h3 class="card-title">Menggunakan Alat Phoropter</h3>
-      <p class="card-text">Phoropter atau refraktor adalah alat pengujian oftalmik. Ini biasanya digunakan oleh profesional perawatan mata selama pemeriksaan mata, dan mengandung berbagai lensa yang digunakan untuk pembiasan mata selama pengujian penglihatan, untuk mengukur kesalahan bias seseorang dan menentukan resep kacamata. Ini juga digunakan untuk mengukur phorias dan duksi pasien, yang merupakan karakteristik dari binocularity.</p>
-      </div>
-   </div>
-</div>
-
-<div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
-      <div class="card-body">
-      <h3 class="card-title">Pemeriksaan Menggunakan Komputerisasi Digital</h3>
-      <p class="card-text">Sudah menjadi komitmen kami untuk selalu memberikan pelayanan terbaik kepada konsumem kami. Silahkan datang ke tempat kami dan konsultasikan keluhan yang dirasakan yang berhubungan dengan keluhan terhadap daya penglihatan anda. Seiring dengan bertambahnya usia anda, semakin menurun kapasitas retina mata yang dapat menurunkan kapasitas penglihatan itu sendiri.</p>
+      <p class="card-text">
+        Phoropter atau refraktor adalah alat untuk pengujian oftalmik. Alat ini biasanya digunakan oleh para profesional perawatan mata selama proses pemeriksaan dimana didalamnya terdapat berbagai lensa dengan berbagai macam ukuran yang digunakan untuk melakukan pembiasan mata selama pengujian daya penglihatan Anda, tujuannya adalah untuk mengukur kesalahan bias seseorang dan menentukan resep kacamata. Alat ini juga digunakan untuk mengukur phorias dan duksi pasien, yang merupakan karakteristik dari binocularity.
+      </p>
       </div>
    </div>
 </div>
@@ -63,9 +77,15 @@ permalink: /periksa-mata/
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
     <div class="card-body">
-      <h3 class="card-title">Auto Lens Meter</h3>
-      <p class="card-text">Lensmeter atau lensometer, juga dikenal sebagai focimeter atau vertometer, adalah instrumen oftalmik. Hal ini terutama digunakan oleh dokter mata dan ahli kacamata untuk memverifikasi resep yang benar dalam sepasang kacamata, untuk mengarahkan dan menandai dengan tepat lensa yang belum dipotong, dan untuk mengkonfirmasi pemasangan lensa yang benar dalam bingkai kacamata. Pengukur lensa juga dapat memverifikasi kekuatan lensa kontak, jika dukungan lensa khusus digunakan.</p>
-	  <p>Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em></p>
-	</div>
+      <h3 class="card-title">Autorefractometer atau Auto Lens Meter</h3>
+      <p class="card-text">
+        Lensmeter atau lensometer, juga dikenal sebagai focimeter atau vertometer, adalah instrumen oftalmik. Hal ini terutama digunakan oleh dokter mata dan ahli kacamata untuk memverifikasi resep yang benar dalam kacamata yang digunakan, tujuannya untuk mengarahkan dan menandai dengan tepat lensa yang belum dipotong, dan untuk mengkonfirmasi pemasangan lensa yang benar dalam bingkai kacamata. Pengukur lensa juga dapat memverifikasi kekuatan lensa kontak, jika dukungan lensa khusus digunakan.
+      </p>
+	    <p>
+        Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
+    </p>
+	  </div>
    </div>
 </div>
+
+{% include home-cards.html %}

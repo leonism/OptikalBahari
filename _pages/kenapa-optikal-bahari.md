@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [promo, discount, kacamata, lensa, bingkai]
-background: /assets/img/posts/025.jpg
+background: /assets/img/posts/050.jpg
 permalink: /kenapa-optikal-bahari/
 ---
 

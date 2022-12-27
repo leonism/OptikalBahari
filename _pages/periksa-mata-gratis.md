@@ -33,7 +33,9 @@ permalink: /periksa-mata-gratis/
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
       <div class="card-body">
       <h3 class="card-title">Hasil Pemeriksaan Cepat & Akurat</h3>
-      <p class="card-text">Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Optisien bertugas untuk membuat kacamata atau menyiapkan lensa kontak berdasarkan resep dari dokter mata. Selain membuat kacamata, optisien juga dapat melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.</p>
+      <p class="card-text">
+        Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Optisien bertugas untuk membuat kacamata atau menyiapkan lensa kontak berdasarkan resep dari dokter mata. Selain membuat kacamata, optisien juga dapat melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.
+      </p>
       <p>
         Optisien kami juga bertugas untuk memberikan saran tentang pemeliharaan dan penggunaan kacamata, serta memberikan pelatihan kepada Anda tentang cara memakai dan merawat lensa kontak. Selain itu, optisien juga dapat memberikan informasi tentang berbagai jenis lensa yang tersedia, seperti lensa anti-refleksi, lensa yang dapat menyerap sinar UV, dan lensa yang dapat membantu mencegah kerusakan mata akibat layar gadget.
       </p>
