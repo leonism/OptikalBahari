@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Toko Kacamata Murah Di Jakarta
-subtitle: 'Periksa mata gratis di Optikal Bahari'
+subtitle: 'Dan Dapatkan Layanan Periksa Mata Gratis'
 description: "Temukan toko kacamata murah di Jakarta hanya di Optikal Bahari. Kami menawarkan berbagai pilihan lensa dan frame dengan harga terjangkau dan kualitas terbaik"
 keywords: 'kacamata murah, periksa mata, periksa mata gratis, periksa mata jakarta'
 lang: id-ID
@@ -16,8 +16,14 @@ permalink: /toko-kacamata-murah-di-jakarta/
 <div class="card shadow p-3 mb-5 bg-white rounded">
     <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
     <div class="card-body">
-      <h3 class="card-title">Cek Mata Gratis</h3>
-      <p class="card-text">Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kurang jelas? Banyak hal yang bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering main handphone, sampai dengan menurunnya kapasitas penglihatan seiring dengan bertambahnya usia. Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame bingkai kacamata dari mulai harga yang terjangkau sampai dengan harga menengah ke atas. Baca lebih lanjut untuk tahu alasan kenapa beli kacamata di Optikal Bahari.</p>
+      <h3 class="card-title">Toko Kacamata Murah Di Jakarta</h3>
+      <p class="card-text">
+            Jika Anda sedang mencari toko kacamata dengan harga terjangkau di Jakarta, datanglah ke Optikal Bahari. Kami memiliki berbagai pilihan lensa dan frame yang dapat Anda pilih sesuai dengan kebutuhan dan keinginan Anda. Selain harga yang terjangkau, kami juga menjamin kualitas produk yang kami tawarkan. Jangan ragu untuk datang ke Optikal Bahari dan melihat sendiri pilihan kacamata yang kami tawarkan. Kami yakin bahwa kami dapat memenuhi kebutuhan Anda terkait kacamata dengan harga yang terjangkau di Jakarta.
+        </p>
+        <p>
+            Kami memiliki berbagai pilihan lensa dan frame yang dapat dipilih sesuai dengan kebutuhan dan keinginan Anda, dengan harga yang beragam. Namun, kualitas produk yang kami tawarkan tidak perlu diragukan lagi, kami yakin bahwa kacamata yang kami tawarkan akan memenuhi kebutuhan dan keinginan Anda.
+            Jangan lupa juga bahwasannya kami menawarkan layanan periksa mata gratis, kacamata bergaransi, bisa membayar melalui cicilan dengan bungan 0% dan tanpa credit card, segera hubungin kami untuk informasi lebih lanjut.
+        </p>
     </div>
 </div>
 
