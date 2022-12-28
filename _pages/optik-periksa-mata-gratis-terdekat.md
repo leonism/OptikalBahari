@@ -2,7 +2,7 @@
 layout: page
 title: Optik Periksa Mata Gratis Terdekat
 subtitle: Segera Periksakan Mata Anda
-description: Periksa mata gratis hanya di Optikal Bahari, menerima Program KJP dan ada cicilan.
+description: "Memberikan Layanan Periksa Mata Gratis Hanya di Optikal Bahari. Kami menyediakan kacamata cicilan, harga murah, Bunga 0%, tanpa Credit Card dan menerima KJP"
 keywords: 'Periksa Mata, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
 lang: id-ID
 author: Optikal Bahari

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Optik Periksa Mata Gratis Di Jakarta
-subtitle: 'Optik Periksa Mata Gratis Di Jakarta'
-description: Periksa mata gratis dengan komputer di Jakarta
+title: Optik Periksa Mata Gratis Di Jakarta Hanya Di Optikal Bahari
+subtitle: 'Dan Dapatkan Banyak Kemudahan Lainnya'
+description: "Optik terpercaya di Jakarta menyediakan layanan periksa mata gratis. Pilihan kacamata harga terjangkau, cicilan bunga 0% tanpa Credit Card,  Menerima KJP."
 keywords: 'periksa mata, periksa mata gratis, periksa mata jakarta'
 lang: id-ID
 author: Optikal Bahari
@@ -30,9 +30,8 @@ permalink: /optik-periksa-mata-gratis-di-jakarta/
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text">Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
-    <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond
-    yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
-    <em>(Optikal Bahari)</em></p>
+        <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari"  class="FacebookPage">Facebook @optikalbahari</a> supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
+        <em>(Optikal Bahari)</em></p>
 	</div>
    </div>
 </div>

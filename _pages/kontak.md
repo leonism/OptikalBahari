@@ -2,7 +2,7 @@
 layout: post
 title: Kontak Kami
 subtitle: 'Kunjungan Anda Berharga Buat Kami'
-description: 'Silahkan menghubungi kami di nomor HP/WA ini +6281932235445.'
+description: 'Kumpulan Artikel Tentang Tips & Trick Dalam Memilih Kacamata, Kesehatan Mata, Merk Beserta Berbagai Keunggulan dari tiap Merk Tersebut hanya untuk Anda'
 keywords: 'Lokasi, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Optik, Kacamata, Gratis'
 lang: id-ID
 author: Optikal Bahari

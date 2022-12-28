@@ -2,7 +2,7 @@
 layout: page
 title: Tips and Trik Dalam Memilih Kacamata
 subtitle: 'Lengkap Semuanya Disini'
-description: 'Kumpulan Artikel Tentang Tips & Trick Dalam Memilih Kacamata'
+description: 'Kumpulan Artikel Tentang Tips & Trick Dalam Memilih Kacamata, Kesehatan Mata, Merk Beserta Berbagai Keunggulan dari tiap Merk Tersebut hanya untuk Anda'
 keywords: 'Tip, Tricks, Kacamata'
 lang: id-ID
 author: Optikal Bahari

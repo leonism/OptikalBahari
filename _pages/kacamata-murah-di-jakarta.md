@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Optik Periksa Mata Gratis Di Jakarta
-subtitle: 'Optik Periksa Mata Gratis Di Jakarta'
-description: Kacamata Murah Di Jakarta
-keywords: 'Kacamata Murah Di Jakarta'
+title: Kacamata Murah Hanya di Optik Bahari, Jakarta
+subtitle: 'Dan Dapatkan Periksa Mata Gratis Dengan Proses Kompterisasi'
+description: "Dapatkan kacamata murah di Jakarta hanya di Optikal Bahari. Kami menyediakan berbagai pilihan lensa dan frame dengan harga terjangkau dan kualitas terbaik."
+keywords: 'Kacamata Murah, Kacamata, Murah, Jakarta'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/021.jpg
+background: /assets/img/posts/049.jpg
 permalink: /kacamata-murah-di-jakarta/
 ---
 
@@ -22,11 +22,10 @@ permalink: /kacamata-murah-di-jakarta/
 		<div class="card-body">
 			<h3 class="card-title">Kacamata Murah Di Jakarta</h3>
 			<p class="card-text">
-				Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kuran jelas? Banyak hal yang
-				bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering
-				main handphone, sampai dengan menurunnya kapasitas penglihatan seiring dengan bertambahnya usia. Di Optikal Bahari
-				kami menyediakan beragam jenis tipe Lensa dan Frame bingkai kacamata dari mulai harga yang terjangkau sampai dengan
-				harga menengah ke atas. Baca lebih lanjut untuk tahu alasan kenapa beli kacamata di Optikal Bahari.
+				Jika Anda sedang mencari kacamata dengan harga terjangkau di Jakarta, datanglah ke Optikal Bahari. Kami memiliki berbagai pilihan lensa dan frame dengan harga yang terjangkau, namun tidak mengurangi kualitas produk yang kami tawarkan. Kami yakin bahwa kacamata yang kami tawarkan akan memenuhi kebutuhan dan keinginan Anda. Jangan ragu untuk datang dan melihat sendiri pilihan kacamata yang kami tawarkan di Optikal Bahari.
+			</p>
+			<p>
+				Kami juga selalu memberikan pelayanan terbaik kepada pelanggan kami, dengan tim optisien yang terlatih dan profesional yang siap membantu Anda memilih kacamata yang tepat sesuai kebutuhan dan keinginan Anda. Kami selalu memberikan yang terbaik untuk memastikan bahwa Anda mendapatkan kacamata yang terbaik yang akan membantu Anda dalam kegiatan sehari-hari. Jadi, jangan ragu untuk datang ke Optikal Bahari dan dapatkan kacamata murah di Jakarta dengan kualitas terbaik hanya di sini.
 			</p>
 		</div>
 	</div>
@@ -44,9 +43,10 @@ permalink: /kacamata-murah-di-jakarta/
 		<div class="card-body">
 			<h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
 			<p class="card-text">
-				Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak
-				kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang
-				kami berikan, kamu juga bisa bergabung dengan Fanpage
+				Jangan lewatkan kesempatan untuk memeriksa mata Anda secara gratis di Optikal Bahari di Kemayoran. Kami menyediakan pilihan pembayaran cicilan dengan harga yang terjangkau, bunga 0%, dan tidak memerlukan Credit Card. Kami juga menerima Program KJP. Jadi, jangan ragu untuk datang ke Optikal Bahari dan periksa keadaan mata Anda sekarang juga. Kami siap membantu Anda dalam merawat mata dan memenuhi kebutuhan kacamata Anda.
+			</p>
+			<p class="card-text">
+				Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
 				<a
 					href="https://www.facebook.com/optikalbahari"
 					id="FBClick"
