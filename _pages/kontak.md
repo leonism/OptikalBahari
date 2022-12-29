@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Kontak Kami
-subtitle: 'Kunjungan Anda Berharga Buat Kami'
-description: 'Kumpulan Artikel Tentang Tips & Trick Dalam Memilih Kacamata, Kesehatan Mata, Merk Beserta Berbagai Keunggulan dari tiap Merk Tersebut hanya untuk Anda'
+title: Hubungi Kontak Kami
+subtitle: 'Hubungi Kami Melalui Kontak Dibawah ini'
+description: 'Hubungi Kami Melalui Kontak Ini, Atau Untuk Respond Lebih Cepat, Silahkan Menghubungi Kami Melalui WhatsApp Kami'
 keywords: 'Lokasi, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Optik, Kacamata, Gratis'
 lang: id-ID
 author: Optikal Bahari

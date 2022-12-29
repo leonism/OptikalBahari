@@ -2,7 +2,7 @@
 layout: page
 title: Tips and Trik Dalam Memilih Kacamata
 subtitle: 'Lengkap Semuanya Disini'
-description: 'Kumpulan Artikel Tentang Tips & Trick Dalam Memilih Kacamata, Kesehatan Mata, Merk Beserta Berbagai Keunggulan dari tiap Merk Tersebut hanya untuk Anda'
+description: 'Tertarik untuk memiliki kacamata yang terlihat keren dan sesuai dengan wajahmu? Baca artikel ini untuk mengetahui tips memilih kacamata yang sesuai dengan bentuk wajahmu agar terlihat lebih seimbang dan menarik'
 keywords: 'Tip, Tricks, Kacamata'
 lang: id-ID
 author: Optikal Bahari
@@ -15,8 +15,11 @@ permalink: /tips-trik-kacamata/
 <div class="card shadow p-3 bg-white mb-5">
   <img src="/assets/img/posts/tips-kacamata/tips-kacamata.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">
-    <h3 class="card-title">Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren</h3>
-    <p class="card-text">Tentunya hal ini menjadi sedikit menyebalkan jika Kamu salah ketika memilih kacamata. Apalagi ketika sudah membeli kacamata dengan harga mahal namun kenyataannya malah terlihat tidak sesuai. Karena itu, Kamu perlu mengerti tips memilih kacamata yang bisa Kamu sesuaikan dengan bentuk wajah.</p>
+    <h3 class="card-title">
+      Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren
+    </h3>
+    <p class="card-text">
+      Tentunya hal ini menjadi sedikit menyebalkan jika Kamu salah ketika memilih kacamata. Apalagi ketika sudah membeli kacamata dengan harga mahal namun kenyataannya malah terlihat tidak sesuai. Karena itu, Kamu perlu mengerti tips memilih kacamata yang bisa Kamu sesuaikan dengan bentuk wajah.</p>
     <p class="card-text">
     	<a class="btn btn-primary rounded-pill" href="{{"/tips-kacamata/" | relative_url }}" title="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">Selanjutnya</a>
     </p>
