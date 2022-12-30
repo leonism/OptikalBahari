@@ -44,7 +44,7 @@ permalink: /periksa-mata/
         Para staff kami juga bertugas untuk memberikan saran tentang pemeliharaan dan penggunaan kacamata, serta memberikan pelatihan kepada Anda tentang cara memakai dan merawat kacamata anda. Selain itu, staff kami juga dapat memberikan informasi tentang berbagai jenis lensa yang tersedia, seperti lensa anti-refleksi, lensa yang dapat menyerap sinar UV, dan lensa yang dapat membantu mencegah kerusakan mata akibat layar gadget.
       </p>
       <p>
-        Para staff kami juga bertanggung jawab untuk memastikan bahwa kacamata yang disiapkan sesuai dengan spesifikasi yang diberikan dan memenuhi standar kualitas yang telah ditetapkan. Maka dari itu, pastikan untuk memeriksa mata secara teratur dan jangan ragu untuk bertanya kepada staff kami terkait masalah yang sedang dialami oleh mata Anda. Dengan demikian, Anda dapat memastikan bahwa mata Anda terjaga kesehatannya dan dapat melakukan aktivitas dengan lebih aman dan nyaman.
+        Team ahli kami juga bertanggung jawab untuk memastikan bahwa kacamata yang disiapkan sesuai dengan spesifikasi yang diberikan dan memenuhi standar kualitas yang telah ditetapkan. Maka dari itu, pastikan untuk memeriksa mata secara teratur dan jangan ragu untuk bertanya kepada staff kami terkait masalah yang sedang dialami oleh mata Anda. Dengan demikian, Anda dapat memastikan bahwa mata Anda terjaga kesehatannya dan dapat melakukan aktivitas dengan lebih aman dan nyaman.
       </p>
       </div>
    </div>
@@ -53,8 +53,8 @@ permalink: /periksa-mata/
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" | relative_url }}" class="card-img-top" 
-      title="periksa-mata-gratis"
-      alt="tips-kacamata-2.jpg">
+      title="Periksa Mata Dengan Komputerisasi Digital"
+      alt="Periksa Mata Dengan Komputerisasi Digital">
       <div class="card-body">
       <h3 class="card-title">Periksa Mata Dengan Komputerisasi Digital</h3>
       <p class="card-text">
@@ -70,12 +70,12 @@ permalink: /periksa-mata/
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.jpg" | relative_url }}" class="card-img-top"
-      title="periksa-mata-gratis"
-      alt="tips-kacamata-2.jpg">
+      title="Menggunakan Alat Phoropter"
+      alt="Menggunakan Alat Phoropter">
       <div class="card-body">
       <h3 class="card-title">Menggunakan Alat Phoropter</h3>
       <p class="card-text">
-        Kami menggunakan alat Phoropter atau Refraktor, alat ini biasanya digunakan oleh para profesional perawatan mata selama proses pemeriksaan, dimana didalam unit Phoropter ini terdapat berbagai lensa dengan berbagai macam ukuran yang digunakan untuk melakukan pembiasan ke mata selama pengujian daya penglihatan Anda. Tujuannya adalah untuk mengukur kesalahan bias seseorang dan pada akhirnya digunakan untuk menentukan resep kacamata yang sesuai untuk Anda. Selain itu, alat ini juga digunakan untuk mengukur phorias dan duksi pasien, yang mana merupakan karakteristik dari binocularity itu sendiri.
+        Kami menggunakan alat Phoropter atau Refraktor, alat ini biasanya digunakan oleh para profesional dan para ahli untuk proses periksa mata Anda, dimana didalam setiap unit Phoropter ini, terdapat berbagai macam lensa dengan berbagai macam ukuran yang digunakan agar dapat melakukan proses pembiasan ke mata selama pengukuran daya penglihatan mata Anda terjadi. Tujuannya adalah untuk mengukur tingkat kesalahan bias mata seseorang, yang pada akhirnya informasi tersebut akan digunakan untuk menentukan resep kacamata yang sesuai untuk ukuran Anda.
       </p>
       </div>
    </div>
@@ -83,17 +83,30 @@ permalink: /periksa-mata/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.jpg" | relative_url }}" class="card-img-top"
+      title="Autorefractometer atau Auto Lens Meter"
+      alt="Autorefractometer atau Auto Lens Meter">
     <div class="card-body">
       <h3 class="card-title">Autorefractometer atau Auto Lens Meter</h3>
       <p class="card-text">
-        Lensmeter atau lensometer, juga dikenal sebagai focimeter atau vertometer, adalah instrumen oftalmik. Hal ini terutama digunakan oleh dokter mata dan ahli kacamata untuk memverifikasi resep yang benar dalam kacamata yang digunakan, tujuannya untuk mengarahkan dan menandai dengan tepat lensa yang belum dipotong, dan untuk mengkonfirmasi pemasangan lensa yang benar dalam bingkai kacamata. Pengukur lensa juga dapat memverifikasi kekuatan lensa kontak, jika dukungan lensa khusus digunakan.
-      </p>
-	    <p>
-        Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
-    </p>
+        Lensmeter atau lensometer, juga dikenal sebagai focimeter atau vertometer, adalah instrumen oftalmik yang juga biasa digunakan dalam proses periksa mata. Alat ini terutama digunakan oleh para dokter mata dan ahli kacamata untuk memverifikasi ukuran kacamata terhadap dalam resep yang akan digunakan. Tujuan pemakaian instrumen ini adalah untuk mengarahkan dan menandai lensa yang belum dipotong, disaat bersamaan juga untuk mengkonfirmasi pemasangan lensa yang benar dalam bingkai kacamata.
+      </p>          
 	  </div>
    </div>
 </div>
+
+<div class="card-deck mb-3">
+  <div class="card shadow p-3 mb-5 bg-white rounded">
+        <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.jpg" | relative_url }}"            class="card-img-top"
+        title="Segera Kunjungi Optikal Bahari"
+        alt="Segera Kunjungi Optikal Bahari">
+      <div class="card-body">  
+        <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
+	      <p class="card-text">
+	  		  Segera rencanakan kunjungan anda ke Optikal Bahari untuk pemeriksaan mata dan staff ramah kami siap untuk melayani anda. Kami berlokasi di Jl. Bend. Jago No.447, RW.1, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10650. Kami memberikan layanan <a href="{{"/periksa-mata/" | relative_url }}" title="pemeriksaan mata gratis">pemeriksaan mata gratis</a>, proses cepat dan akurat dengan alat komputerisasi digital, ada <a href="{{"/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan">program cicilan ringan</a> dan tidak memberatkan, bisa melakukan <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="bayar kacamata bayar dengan KJP">pembayaran melalui KJP</a> dan juga service kacamata.Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
+	  	  </p>
+      </div>
+  </div>    
+</div>    
 
 {% include home-cards.html %}

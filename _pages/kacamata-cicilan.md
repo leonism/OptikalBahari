@@ -2,8 +2,8 @@
 layout: page
 title: Program Kacamata Bayar Cara Cicilan
 subtitle: 'Kacamata Cicilan Tanpa Bunga'
-description: Hanya di Optikal Bahari yang memberikan program kacamata cicilan tanpa bunga, tanpa credit card dan cicilan ringan.
-keywords: 'kacamata cicilan, tanpa bunga, tanpa DP, cicilan ringan'
+description: Hanya di Optikal Bahari yang memberikan program kacamata cicilan tanpa bunga 0%, tanpa credit card, tanpa DP, bergaransi dengan cicilan ringan.
+keywords: 'kacamata cicilan, tanpa bunga, tanpa credit card, bunga 0% tanpa DP, cicilan ringan'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -16,7 +16,7 @@ permalink: /kacamata-cicilan/
 <img src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg" class="card-img-top" alt="kacamata cicilan">
   <div class="card-body">
     <h3 class="card-title">
-      Program Kacamata Cicilan Dan Tanpa Bunga
+      Kacamata Cicilan & Tanpa Bunga
     </h3>
     <p class="card-text">
       Kamu punya gangguan penglihatan dan butuh kacamata, sedang mencari kacamata yang bisa nyicil? Selamat kamu berada di tempat yang tepat. Optikal Bahari adalah salah satu tempat terbaik untuk kamu yang sedang membutuhkan kacamata. Apalagi di sini kamu bisa membeli sebuah kacamata meski harus menyicil.
