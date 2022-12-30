@@ -15,11 +15,13 @@ permalink: /periksa-mata/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img itemprop="image" src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+		  <img itemprop="image" src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg" | relative_url }}" class="card-img-top"
+      title="periksa-mata-gratis"
+      alt="tips-kacamata-2.jpg">
     <div class="card-body">
       <h3 class="card-title">Periksakan Mata Anda Secara Rutin</h3>
       <p class="card-text">
-        Di Optikal Bahari, proses pemeriksaan mata akan melalui 2 tahapan. Tahapan pertama adalah melalui mesin autorefractometer atau yang biasa dikenal dengan alat pemeriksaan mata otomatis.Lebih lanjut, guna untuk lebih memperdalam hasil pemeriksaan, ditahapan kedua kami menggunakan alat Phoroptor, dimana prosesnya pasien diminta untuk menyebutkan angka dan tulisan yang tertera dimedia gambar yang terpampang. Selanjutnya, staff kami akan melakukan pembandingan hasil dari proses sebelumnya. Hasil akhir dari pemeriksaan akan menjadi lebih akurat berhubung telah melalui 2 proses validasi langsung dari system dan pasiennya.
+        Di Optikal Bahari, proses pemeriksaan mata akan melalui 2 tahapan. Tahapan pertama adalah melalui mesin autorefractometer atau yang biasa dikenal dengan alat pemeriksaan mata otomatis. Lebih lanjut, guna untuk lebih memastikan hasil pemeriksaan ditahapan pertama, ditahapan selanjutnya kami menggunakan alat Phoroptor, dimana didalam prosesnya pasien diminta untuk menyebutkan angka dan tulisan yang tertera dimedia gambar yang terpampang. Selanjutnya, staff kami akan melakukan pembandingan hasil dari proses sebelumnya. Hasil akhir dari pemeriksaan akan menjadi lebih akurat berhubung telah melalui 2 proses validasi langsung dari system dan pasiennya.
       </p>
       <p>
         Dengan demikian, pemeriksaan mata yang dilakukan di Optikal Bahari dijamin cepat, akurat, dan terpercaya. Selain itu, kami juga menyediakan berbagai pilihan lensa dan frame yang sesuai dengan kebutuhan Anda sehari-hari. Jika Anda mengalami gangguan refraksi mata minus, plus, atau silinder, maka disarankan untuk memakai kacamata agar dapat membantu penglihatan mata anda.
@@ -30,7 +32,9 @@ permalink: /periksa-mata/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.jpg" | relative_url }}" class="card-img-top" 
+      title="periksa-mata-gratis"
+      alt="periksa-mata-gratis.jpg">
       <div class="card-body">
       <h3 class="card-title">Periksa Mata Cepat & Akurat</h3>
       <p class="card-text">
@@ -48,7 +52,9 @@ permalink: /periksa-mata/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" | relative_url }}" class="card-img-top" 
+      title="periksa-mata-gratis"
+      alt="tips-kacamata-2.jpg">
       <div class="card-body">
       <h3 class="card-title">Periksa Mata Dengan Komputerisasi Digital</h3>
       <p class="card-text">
@@ -63,11 +69,13 @@ permalink: /periksa-mata/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.jpg" | relative_url }}" class="card-img-top"
+      title="periksa-mata-gratis"
+      alt="tips-kacamata-2.jpg">
       <div class="card-body">
       <h3 class="card-title">Menggunakan Alat Phoropter</h3>
       <p class="card-text">
-        Phoropter atau refraktor adalah alat untuk pengujian oftalmik. Alat ini biasanya digunakan oleh para profesional perawatan mata selama proses pemeriksaan dimana didalamnya terdapat berbagai lensa dengan berbagai macam ukuran yang digunakan untuk melakukan pembiasan mata selama pengujian daya penglihatan Anda, tujuannya adalah untuk mengukur kesalahan bias seseorang dan menentukan resep kacamata. Alat ini juga digunakan untuk mengukur phorias dan duksi pasien, yang merupakan karakteristik dari binocularity.
+        Kami menggunakan alat Phoropter atau Refraktor, alat ini biasanya digunakan oleh para profesional perawatan mata selama proses pemeriksaan, dimana didalam unit Phoropter ini terdapat berbagai lensa dengan berbagai macam ukuran yang digunakan untuk melakukan pembiasan ke mata selama pengujian daya penglihatan Anda. Tujuannya adalah untuk mengukur kesalahan bias seseorang dan pada akhirnya digunakan untuk menentukan resep kacamata yang sesuai untuk Anda. Selain itu, alat ini juga digunakan untuk mengukur phorias dan duksi pasien, yang mana merupakan karakteristik dari binocularity itu sendiri.
       </p>
       </div>
    </div>
