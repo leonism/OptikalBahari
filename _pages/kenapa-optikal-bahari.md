@@ -13,7 +13,10 @@ permalink: /kenapa-optikal-bahari/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.jpg" class="card-img-top" alt="Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama">
+  <img src="/assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.jpg" 
+    class="card-img-top" 
+    title="Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama"
+    alt="Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama">
   <div class="card-body">
     <h3 class="card-title">
       Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama
@@ -31,7 +34,10 @@ permalink: /kenapa-optikal-bahari/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-7.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  <img src="/assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-7.jpg" 
+  title="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren"
+  class="card-img-top" 
+  alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">
     <h3 class="card-title">Staff Ramah dan Banya Pilihan dari Tempat Jual Kacamata Keren Terbaik</h3>
     <p class="card-text">
@@ -50,23 +56,35 @@ permalink: /kenapa-optikal-bahari/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/005.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  <img src="/assets/img/posts/005.jpg"
+    title="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren" 
+    class="card-img-top" 
+    alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">
     <h3 class="card-title">Bisa Nyicil dan Bebas Riba di Tempat Jual Kacamata Keren Terbaik Ini</h3>
     <p class="card-text">
 		  Ketika kamu benar-benar membutuhkan sebuah kacamata, ini bisa menjadi solusi paling mudah. kamu bisa mencicil kacamata yang kamu butuhkan saat ini dengan sangat gampang. Apalagi kamu tidak perlu membayar nominal DP untuk bisa menikmati layanan unik satu ini, nyicil sebuah kacamata.
 	  </p>
 
-<p>Namun di sini sangat berbeda, di Optikal Bahari ada banyak sekali staff ramah yang akan membantumu. Kamu bisa bertanya apa saja terkait masalah kacamata atau gangguan penglihatan yang kamu alami. Tidak salah memang jika Optikal Bahari menjadi tempat jual kacamata keren terbaik.</p>
+<p>
+  Namun di sini sangat berbeda, di Optikal Bahari ada banyak sekali staff ramah yang akan membantumu. Kamu bisa bertanya apa saja terkait masalah kacamata atau gangguan penglihatan yang kamu alami. Tidak salah memang jika Optikal Bahari menjadi tempat jual kacamata keren terbaik.
+</p>
 
-<p>Mungkin tidak ada tempat optik yang memberikan kemudahan seperti ini kepada pelanggannya. Karena itu juga tujuan utama kami untuk memberikan kenyamanan akan tetap tercapai. Kamu bisa mendapatkan kacamata tanpa berpikir panjang harganya terlalu mahal yang kamu tidak dapat melunasinya saat itu juga.</p>
+<p>
+  Mungkin tidak ada tempat optik yang memberikan kemudahan seperti ini kepada pelanggannya. Karena itu juga tujuan utama kami untuk memberikan kenyamanan akan tetap tercapai. Kamu bisa mendapatkan kacamata tanpa berpikir panjang harganya terlalu mahal yang kamu tidak dapat melunasinya saat itu juga.
+</p>
 
-<p>Ini adalah salah satu paling penting ketika kamu ingin berhijrah, yaitu menghindari riba. Meskipun kamu bisa mencicil sebuah kacamata, kamu tetap tidak akan dibebankan sebuah bunga. Menarik bukan? Tentu saja sangat menarik karena kamu hanya perlu melunasi kacamata tersebut sesuai nominal harga aslinya.</p>
+<p>
+  Ini adalah salah satu paling penting ketika kamu ingin berhijrah, yaitu menghindari riba. Meskipun kamu bisa mencicil sebuah kacamata, kamu tetap tidak akan dibebankan sebuah bunga. Menarik bukan? Tentu saja sangat menarik karena kamu hanya perlu melunasi kacamata tersebut sesuai nominal harga aslinya.
+</p>
 
-<p>Ini yang menjadikan Optikal Bahari sebagai tempat yang jual kacamata keren terbaik saat ini. Kamu bisa bernafas lega tanpa mengkhawatirkan bunga cicilan. Kamu juga bisa melunasi kacamata yang sudah kamu beli sesuai perjanjian. Namun tentu saja harus ada jaminan untuk bisa melakukannya, bukan?</p>
+<p>
+  Ini yang menjadikan Optikal Bahari sebagai tempat yang jual kacamata keren terbaik saat ini. Kamu bisa bernafas lega tanpa mengkhawatirkan bunga cicilan. Kamu juga bisa melunasi kacamata yang sudah kamu beli sesuai perjanjian. Namun tentu saja harus ada jaminan untuk bisa melakukannya, bukan?
+</p>
 
-<p>Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em></p>
+<p>
+  Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
+</p>
 
 </div>
-
 </div>
