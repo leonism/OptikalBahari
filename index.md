@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Pertama Di Kemayoran, Terpercaya Sejak 1978
-descriptions: Optikal Bahari, Optik pertama & terpercaya di Kemayoran. Melayani pembelian kacamata cicilan/kredit, bergaransi, tanpa DP, bunga 0% dan bisa bayar dengan KJP.
-keywords: Optikal Bahari, Kemayoran Kemayoran, Periksa Mata Gratis, Optik, Bendungan Jago, Optik KJP
+descriptions: Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Tanpa Credit Card, Bunga 0%, Tanpa Riba & Menerima KJP
+keywords: Optikal Bahari, Kemayoran, Periksa Mata Gratis, Optik, Bendungan Jago, Optik KJP, Kacamata Cicilan
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
