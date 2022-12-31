@@ -13,7 +13,10 @@ permalink: /kacamata-cicilan/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-<img src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg" class="card-img-top" alt="kacamata cicilan">
+<img src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg" 
+      class="card-img-top"
+      title="kacamata cicilan"
+      alt="kacamata cicilan">
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Cicilan & Tanpa Bunga

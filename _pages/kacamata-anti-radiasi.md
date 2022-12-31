@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Periksa Mata Gratis Dengan Komputer
+title: Kacamata Anti Radiasi
 subtitle: Segera Periksakan Mata Anda
 description: Layanan periksa mata gratis dengan komputerisasi, kami memberikan layanan pembayaran KJP dan ada program cicilan tanpa bunga.
 keywords: 'Periksa Mata, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
@@ -10,7 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/028.jpg
 comments: false
-permalink: /periksa-mata/
+permalink: /kacamata-anti-radiasi/
 ---
 
 <div class="card-deck mb-3">

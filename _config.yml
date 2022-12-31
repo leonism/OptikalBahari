@@ -1,5 +1,5 @@
 title: Optikal Bahari
-description: Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Tanpa Credit Card, Bunga 0%, Tanpa Riba & Menerima KJP
+description: Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Tanpa Credit Card, Tanpa Riba, Bunga 0% & Menerima KJP
 author: Optikal Bahari
 author_name: Optikal Bahari
 author_first_name: Optikal
@@ -15,8 +15,9 @@ permalink: /:title/
 # we don't put the Google Analtics tracking ID, since we're using GTM instead.
 
 # Social Profiles
-twitter_username: OptikalBahari
-facebook_username: OptikalBahari
+twitter_username: optikalbahari
+facebook_username: optikalbahari
+pinterest_username: optikalbahari
 # linkedin_username: OptikalBahari
 
 

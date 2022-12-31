@@ -14,7 +14,9 @@ permalink: /kacamata-murah-jakarta/
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">		  
-        <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+        <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}" class="card-img-top"
+        title="kacamata murah dan terjangkau"
+        alt="tips-kacamata-2.jpg">
             <div class="card-body">
                 <h3 class="card-title">
                     Kacamata Murah Dan Terjangkau
