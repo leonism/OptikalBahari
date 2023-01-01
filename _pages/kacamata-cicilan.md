@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Program Kacamata Bayar Cara Cicilan
-subtitle: 'Kacamata Cicilan Tanpa Bunga'
+subtitle: 'Kacamata Cicilan Tanpa Bunga, Tanpa Credit Card, Tanpa Denda dan Tanpa Riba'
 description: Hanya di Optikal Bahari yang memberikan program kacamata cicilan, bergaransi, tanpa DP, tanpa bunga (0%), tanpa credit card, bebas riba & cicilan ringan
 keywords: 'kacamata cicilan, tanpa bunga, tanpa credit card, bunga 0% tanpa DP, cicilan ringan'
 lang: id-ID
