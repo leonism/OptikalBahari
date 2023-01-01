@@ -13,7 +13,7 @@ permalink: /kacamata-cicilan/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-<img src="/assets/img/posts/052.jpg" 
+<img src="/assets/img/posts/054.jpg" 
       class="card-img-top"
       title="kacamata cicilan di optikal bahari"
       alt="kacamata cicilan">
@@ -56,7 +56,7 @@ permalink: /kacamata-cicilan/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/054.jpg"
+  <img src="/assets/img/posts/052.jpg"
     title="kacamata cicilan murah di jakarta"
     class="card-img-top" 
     alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
