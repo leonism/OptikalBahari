@@ -2,7 +2,7 @@
 layout: page
 title: Program Kacamata Bayar Cara Cicilan
 subtitle: 'Kacamata Cicilan Tanpa Bunga'
-description: Hanya di Optikal Bahari yang memberikan program kacamata cicilan tanpa bunga 0%, tanpa credit card, tanpa DP, bergaransi dengan cicilan ringan.
+description: Hanya di Optikal Bahari yang memberikan program kacamata cicilan, bergaransi, tanpa DP, tanpa bunga (0%), tanpa credit card, bebas riba & cicilan ringan
 keywords: 'kacamata cicilan, tanpa bunga, tanpa credit card, bunga 0% tanpa DP, cicilan ringan'
 lang: id-ID
 author: Optikal Bahari
@@ -13,9 +13,9 @@ permalink: /kacamata-cicilan/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-<img src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg" 
+<img src="/assets/img/posts/052.jpg" 
       class="card-img-top"
-      title="kacamata cicilan"
+      title="kacamata cicilan di optikal bahari"
       alt="kacamata cicilan">
   <div class="card-body">
     <h3 class="card-title">
@@ -28,13 +28,16 @@ permalink: /kacamata-cicilan/
       Kacamata pada dasarnya memiliki harga yang bervariasi tergantung bentuk, model, kualitas dan bahannya. Harganya bisa mulai dari puluhan ribu hingga jutaan rupiah dan tentu ini akan sangat menyebalkan jika kamu membutuhkan sebuah kacamata. Apalagi untuk memperbaiki penglihatan yang kurang jelas karena adanya gangguan.
     </p>    
     <p>
-      Tenang saja, di sini kamu bisa membeli sebuah kacamata impian tanpa pikir panjang. Kamu bisa mencicil kacamata yang kamu inginkan saat ini. Tentu saja jangan memilih kacamata hanya untuk bergaya ala anak-anak gaul karena pilihlah kacamata yang sesuai dengan kebutuhanmu saat ini.
+      Tenang saja, di sini kamu bisa membeli sebuah kacamata impian tanpa pikir panjang. Kamu bisa mencicil kacamata yang kamu inginkan saat ini. Dan tidak hanya itu saja, hanya di Optikal Bahari kamu bisa mendapatkan periksa mata gratis dengan komputer, cicilan tanpa credit card dan dengan jaminan garansi 100% diganti.
     </p>
   </div>
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/bg-kontak.jpg" class="card-img-top" alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+  <img src="/assets/img/posts/053.jpg"  
+        title="kacamata cicilan di optikal bahari"
+        class="card-img-top" 
+        alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
     <h3 class="card-title">Kacamata Cicilan Sesuai Kebutuhan</h3>
     <p class="card-text">
@@ -53,7 +56,10 @@ permalink: /kacamata-cicilan/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/bg-tips-kacamata.jpg" class="card-img-top" alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  <img src="/assets/img/posts/054.jpg"
+    title="kacamata cicilan murah di jakarta"
+    class="card-img-top" 
+    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
   <div class="card-body">
     <h3 class="card-title">Aman dari Riba ketika Beli Kacamata</h3>
     <p class="card-text">
