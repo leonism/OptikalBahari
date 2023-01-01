@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Bendungan Jago 447, Kemayoran Jakarta Pusat
-subtitle: Segera kunjungi kami dan dapatkan pemeriksaan kacamata gratis.
-description: Bahari Optical Jl. Bend. Jago No.447, RW.1, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10650
+subtitle: Segera Kunjungi Kami dan Dapatkan Pemeriksaan Kacamata Gratis.
+description: Lokasi Bahari Optical Jl. Bend. Jago No.447, RW.1, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10650
 keywords: Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Optik
 lang: id-ID
 background: /assets/img/bg-index-arch-5.jpg
@@ -21,7 +21,7 @@ permalink: /lokasi/
 	  		Segera rencanakan kunjungan anda ke Optikal Bahari untuk pemeriksaan mata dan staff ramah kami siap untuk melayani anda. Kami berlokasi di Jl. Bend. Jago No.447, RW.1, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10650. Kami memberikan layanan <a href="{{"/periksa-mata/" | relative_url }}" title="pemeriksaan mata gratis">pemeriksaan mata gratis</a>, proses cepat dan akurat dengan alat komputerisasi digital, ada <a href="{{"/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan">program cicilan ringan</a> dan tidak memberatkan, bisa melakukan <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="bayar kacamata bayar dengan KJP">pembayaran melalui KJP</a> dan juga service kacamata.Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
 	  	</p>
 		<h3 class="card-title">
-	  	Lokasi Kami
+	  		Lokasi Kami
 	  	</h3>
 		<div class="container-fluid">
     		<div class="map-responsive">
