@@ -2,13 +2,13 @@
 layout: page
 title: Periksa Mata di Optik Gratis Hanya Di Optikal Bahari
 subtitle: Segera Periksakan Mata Anda
-description: Periksa mata gratis menggunakan sistem komputerisasi, menerima pembayaran KJP, bergaransi dan ada cicilan 0%.
+description: Dapatkan periksa mata gratis menggunakan sistem komputerisasi di Optikal Bahari, menerima KJP, bergaransi, cicilan 0%, tanpa credit card & aman tanpa bunga.
 keywords: 'Periksa Mata, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/021.jpg
+background: /assets/img/posts/049.jpg
 comments: false
 permalink: /periksa-mata-di-optik/
 ---
@@ -17,8 +17,11 @@ permalink: /periksa-mata-di-optik/
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img itemprop="image" src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
     <div class="card-body">
-      <h3 class="card-title">Periksakan Mata Anda Secara Rutin</h3>
-      <p class="card-text">Menurut penelitian dari para Dokter, idealnya anda melakukan cek rutin ukuran mata anda per 6 bulan sekali agar selalu terdeteksi perubahan yang terjadi di ukuran mata anda. Maka jangan tunda-tunda lagi untuk memeriksa daya penglihatan anda di Optikal Bahari. Proses pemeriksaan dilakukan dengan cara digital dan sudah terkomputerisasi, yang menjanjikan hasil yang lebih akurat dibanding menggunakan alat pemeriksa analog.</p>
+      <h3 class="card-title">
+        Periksakan Mata Anda Secara Rutin
+      </h3>
+      <p class="card-text">
+        Menurut penelitian dari para Dokter, idealnya anda melakukan cek rutin ukuran mata anda per 6 bulan sekali agar selalu terdeteksi perubahan yang terjadi di ukuran mata anda. Maka jangan tunda-tunda lagi untuk memeriksa daya penglihatan anda di Optikal Bahari. Proses pemeriksaan dilakukan dengan cara digital dan sudah terkomputerisasi, yang menjanjikan hasil yang lebih akurat dibanding menggunakan alat pemeriksa analog.</p>
     </div>
    </div>
 </div>
@@ -27,8 +30,12 @@ permalink: /periksa-mata-di-optik/
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
       <div class="card-body">
-      <h3 class="card-title">Hasil Pemeriksaan Cepat & Akurat</h3>
-      <p class="card-text">Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Optisien bertugas untuk membuat kacamata atau menyiapkan lensa kontak berdasarkan resep dari dokter mata. Selain membuat kacamata, optisien juga dapat melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.</p>
+      <h3 class="card-title">
+        Hasil Pemeriksaan Cepat & Akurat
+      </h3>
+      <p class="card-text">
+        Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Optisien bertugas untuk membuat kacamata atau menyiapkan lensa kontak berdasarkan resep dari dokter mata. Selain membuat kacamata, optisien juga dapat melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.
+      </p>
       </div>
    </div>
 </div>
