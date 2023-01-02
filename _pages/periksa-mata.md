@@ -16,7 +16,8 @@ permalink: /periksa-mata/
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		<img itemprop="image" 
-        src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg" | relative_url }}" class="card-img-top"
+        src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg" | relative_url }}" 
+        class="card-img-top"
         title="periksa-mata-gratis"
         alt="tips-kacamata-2.jpg">
     <div class="card-body">
@@ -35,7 +36,8 @@ permalink: /periksa-mata/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.jpg" | relative_url }}" class="card-img-top" 
+		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.jpg" | relative_url }}" 
+      class="card-img-top" 
       title="periksa-mata-gratis"
       alt="periksa-mata-gratis.jpg">
       <div class="card-body">
@@ -46,7 +48,7 @@ permalink: /periksa-mata/
         Dan seiring dengan perkembang dunia teknologi, proses periksa mata sudah menjadi jauh lebih mudah dan menjadi lebih cepat, walaupun tentunya tetap dengan hasil yang tetap akurat dan terpercaya. Para staff kami, lebih lanjut bertugas untuk membuat kacamata berdasarkan resep periksa mata sebelumnya. Selain membuat kacamata, staff kami juga akan melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok digunakan atau perlu diganti.
       </p>
       <p>
-        Para staff kami juga bertugas untuk memberikan saran tentang cara pemeliharaan dan penggunaan kacamata disaat bersamaan juga memberikan pelatihan kepada Anda tentang cara memakai dan merawat kacamata. Selain itu, staff kami juga dapat memberikan informasi tentang berbagai jenis lensa yang tersedia, seperti lensa anti-refleksi, lensa yang dapat menyerap sinar UV atau lensa yang dapat membantu mencegah penurunan daya penglihatan mata akibat layar gadget.
+        Para staff kami juga bertugas untuk memberikan saran cara pemeliharaan dan penggunaan kacamata disaat bersamaan juga memberikan pelatihan kepada Anda tentang cara memakai dan merawat kacamata. Selain itu, staff kami juga dapat memberikan informasi tentang berbagai jenis lensa yang tersedia, seperti lensa anti-refleksi, lensa yang dapat menyerap sinar UV atau lensa yang dapat membantu mencegah penurunan daya penglihatan mata akibat layar gadget.
       </p>
       <p>
         Para staff kami juga bertanggung jawab untuk memastikan bahwa kacamata yang disiapkan sesuai dengan spesifikasi yang diberikan dan memenuhi standar kualitas yang telah ditetapkan. Maka dari itu, pastikan untuk memeriksa mata and secara teratur dan jangan ragu untuk bertanya kepada staff kami terkait masalah yang sedang dialami oleh mata Anda. Dengan demikian, Anda dapat memastikan bahwa mata Anda terjaga kesehatannya dan dapat melakukan aktivitas dengan lebih aman dan nyaman.
@@ -83,7 +85,7 @@ permalink: /periksa-mata/
       alt="Menggunakan Alat Phoropter">
       <div class="card-body">
       <h3 class="card-title">
-        Menggunakan Alat Phoropter
+        Alat Periksa Mata Phoropter
       </h3>
       <p class="card-text">
         Berikutnya, kami juga menggunakan alat yang disebut dengan Phoropter atau Refraktor, alat ini biasanya digunakan oleh para profesional dan para ahli mata untuk proses periksa mata Anda. Dimana didalam setiap unit Phoropter ini, terdapat berbagai macam lensa dengan berbagai macam ukuran yang digunakan agar dapat melakukan proses pembiasan ke mata Anda selama proses pemeriksaan daya penglihatan mata Anda terjadi. Tujuannya dari proses ini adalah untuk mengukur tingkat kesalahan bias mata seseorang, yang pada akhirnya informasi tersebut akan digunakan untuk menentukan resep kacamata yang sesuai untuk ukuran Anda.
@@ -100,10 +102,10 @@ permalink: /periksa-mata/
       alt="Autorefractometer atau Auto Lens Meter">
     <div class="card-body">
       <h3 class="card-title">
-        Autorefractometer atau Auto Lens Meter
+        Alat Periksa Mata Autorefractometer atau Auto Lens Meter
       </h3>
       <p class="card-text">
-        Lensmeter atau lensometer, juga dikenal sebagai focimeter atau vertometer, instrumen ini juga yang juga banyak digunakan dalam proses periksa mata. Alat ini banyak digunakan oleh para dokter mata dan ahli kacamata untuk memvalidasi ukuran daya penglihatan dimana selanjutnya hasil dari validasi tersebut akan digunakan menjadi resep kacamata Anda. Tujuan dari penggunaan instrumen ini adalah untuk mengarahkan dan menandai lensa yang akan digunakan, sebelum pada akhirnya lensa akan dipotong sesuai dengan ukuran bingkai yang akan digunakan.
+        Autorefractometer atau lensometer, juga dikenal sebagai focimeter atau vertometer, instrumen ini yang juga banyak digunakan dalam proses periksa mata. Alat ini banyak digunakan oleh para dokter mata dan ahli kacamata untuk memvalidasi kemampuan daya penglihatan mata Anda, dimana hasil dari validasi tersebut pada akhirnya akan digunakan menjadi resep kacamata Anda. Tujuan dari penggunaan instrumen ini adalah untuk mengarahkan dan menandai lensa yang akan digunakan, sebelum pada akhirnya lensa akan dipotong sesuai dengan ukuran bingkai yang akan digunakan.
       </p>          
 	  </div>
    </div>
@@ -111,7 +113,8 @@ permalink: /periksa-mata/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.jpg" | relative_url }}"            class="card-img-top"
+        <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.jpg" | relative_url }}"            
+        class="card-img-top"
         title="Segera Kunjungi Optikal Bahari"
         alt="Segera Kunjungi Optikal Bahari">
       <div class="card-body">  
