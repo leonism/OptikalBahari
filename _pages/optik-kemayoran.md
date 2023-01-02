@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Optikal Bahari, Optik Terdekat Di Kemayoran, Jakarta Pusat
-subtitle: Layanan Lengkap Periksa Mata Gratis, Cicilan Bunga 0% Tanpa Credit Card & Bergaransi
-description: Berlokasi di Kemayoran Jakarta Pusat, Optikal Bahari melayanani periksa mata gratis, dengan berbagai pilihan bingkai dan frame kacamata.
-keywords: 'kacamata, kemayoran, kacamata cicialn, kacamata murah, tanpa bunga, tanpa DP, bayar KJP'
+title: Optik Di Kemayoran, Terdekat Dengan Berbagai Fasilitas Terbaik
+subtitle: Layanan Lengkap Periksa Mata Gratis, Cicilan Tanpa Bunga, Tanpa Credit Card, Tanpa Denda & Bergaransi
+description: Optik Berlokasi di Kemayoran Jakarta Pusat, Optikal Bahari melayani periksa mata gratis dan memberikan cicilan dengan berbagai pilihan bingkai dan frame kacamata.
+keywords: 'optik kemayoran, kacamata kemayoran, kacamata cicialn, kacamata murah, tanpa bunga, tanpa DP, bayar KJP'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -13,10 +13,13 @@ permalink: /optik-kemayoran/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg" class="card-img-top" alt="kacamata cicilan">
+  <img src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg"
+  title="kacamata-cicilan"
+  class="card-img-top" 
+  alt="kacamata cicilan">
   <div class="card-body">
     <h3 class="card-title">
-      Lokasi Mudah Di Jangkau, Jalan Bendungan Jago No.447
+      Lokasi Mudah Di Jangkau, Jalan Bendungan Jago No.447, Kemayoran.
     </h3>
     <p class="card-text">
       Kalo kamu kebetulan tinggal atau sedang berada di daerah Kemayoran atau sekitarnya, dan kebetulan sedang mempertimbangkan utuk membeli Kacamata berhubung mungkin ukuran kamu sudah berubah atau butuh model baru karena model lama mungkin sudah bosan, mungkin boleh dicoba untuk mampir ke Optikal Bahari, di <a href="{{"/lokasi" | relative_url }}" title="Optikal Bahari, Kemayoran, Jakarta Pusat">Jalan Bendungan Jago No 447 Kemayoran</a>, Jakarta Pusat.

@@ -19,7 +19,7 @@ permalink: /kemayoran/
       Kenapa Beli Kacamata Di Optikal Bahari?
     </h3>
     <p class="card-text">
-      Pertama, Optikal Bahari menawarkan layanan periksa mata yang cepat dan akurat dengan menggunakan alat komputer terbaru. Ini akan membantu Anda mengetahui tingkat kebutuhan penglihatan Anda dan membantu dalam menentukan jenis kacamata yang sesuai. Kami juga memiliki staf ahli yang terlatih dan berpengalaman yang siap membantu Anda dengan masalah penglihatan Anda.
+      Sebagai warga Kemayoran, Jakarta Pusat, berikut ini adalah beberapa keuntungan sekiranya anda membeli kacamata di Kemayoran. Pertama, Optikal Bahari menawarkan layanan periksa mata yang cepat dan akurat dengan menggunakan alat komputer terbaru. Ini akan membantu Anda mengetahui tingkat kebutuhan penglihatan Anda dan membantu dalam menentukan jenis kacamata yang sesuai. Kami juga memiliki staf ahli yang terlatih dan berpengalaman yang siap membantu Anda dengan masalah penglihatan Anda.
     </p>
     <p>
       Kedua, Optikal Bahari menyediakan beragam pilihan tipe Lensa dan Frame bingkai kacamata yang cocok untuk setiap kebutuhan dan gaya. Kami menawarkan harga yang terjangkau hingga harga menengah ke atas, sehingga Anda dapat memilih yang sesuai dengan budget Anda.
