@@ -87,9 +87,9 @@ permalink: /periksa-mata/
       <h3 class="card-title">
         Alat Periksa Mata Phoropter
       </h3>
-      <p class="card-text">
-        Berikutnya, kami juga menggunakan alat yang disebut dengan Phoropter atau Refraktor, alat ini biasanya digunakan oleh para profesional dan para ahli mata untuk proses periksa mata Anda. Dimana didalam setiap unit Phoropter ini, terdapat berbagai macam lensa dengan berbagai macam ukuran yang digunakan agar dapat melakukan proses pembiasan ke mata Anda selama proses pemeriksaan daya penglihatan mata Anda terjadi. Tujuannya dari proses ini adalah untuk mengukur tingkat kesalahan bias mata seseorang, yang pada akhirnya informasi tersebut akan digunakan untuk menentukan resep kacamata yang sesuai untuk ukuran Anda.
-      </p>
+        <p class="card-text">
+          Berikutnya, kami juga menggunakan alat yang disebut dengan Phoropter atau Refraktor, alat ini biasanya digunakan oleh para profesional dan para ahli mata untuk proses periksa mata Anda. Dimana didalam setiap unit Phoropter ini, terdapat berbagai macam lensa dengan berbagai macam ukuran yang digunakan agar dapat melakukan proses pembiasan ke mata Anda selama proses pemeriksaan daya penglihatan mata Anda terjadi. Tujuannya dari proses ini adalah untuk mengukur tingkat kesalahan bias mata seseorang, yang pada akhirnya informasi tersebut akan digunakan untuk menentukan resep kacamata yang sesuai untuk ukuran Anda.
+        </p>
       </div>
    </div>
 </div>
@@ -100,13 +100,13 @@ permalink: /periksa-mata/
       class="card-img-top"
       title="Autorefractometer atau Auto Lens Meter"
       alt="Autorefractometer atau Auto Lens Meter">
-    <div class="card-body">
-      <h3 class="card-title">
-        Alat Periksa Mata Autorefractometer atau Auto Lens Meter
-      </h3>
-      <p class="card-text">
-        Autorefractometer atau lensometer, juga dikenal sebagai focimeter atau vertometer, instrumen ini yang juga banyak digunakan dalam proses periksa mata. Alat ini banyak digunakan oleh para dokter mata dan ahli kacamata untuk memvalidasi kemampuan daya penglihatan mata Anda, dimana hasil dari validasi tersebut pada akhirnya akan digunakan menjadi resep kacamata Anda. Tujuan dari penggunaan instrumen ini adalah untuk mengarahkan dan menandai lensa yang akan digunakan, sebelum pada akhirnya lensa akan dipotong sesuai dengan ukuran bingkai yang akan digunakan.
-      </p>          
+      <div class="card-body">
+        <h3 class="card-title">
+          Alat Periksa Mata Autorefractometer atau Auto Lens Meter
+        </h3>
+        <p class="card-text">
+          Autorefractometer atau lensometer, juga dikenal sebagai focimeter atau vertometer, instrumen ini yang juga banyak digunakan dalam proses periksa mata. Alat ini banyak digunakan oleh para dokter mata dan ahli kacamata untuk memvalidasi kemampuan daya penglihatan mata Anda, dimana hasil dari validasi tersebut pada akhirnya akan digunakan menjadi resep kacamata Anda. Tujuan dari penggunaan instrumen ini adalah untuk mengarahkan dan menandai lensa yang akan digunakan, sebelum pada akhirnya lensa akan dipotong sesuai dengan ukuran bingkai yang akan digunakan.
+        </p>          
 	  </div>
    </div>
 </div>
