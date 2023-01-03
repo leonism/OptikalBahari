@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Toko Kacamata Di Kemayoran, Jakarta Pusat
+title: Pusat Toko Kacamata & Frame Murah Di Kemayoran, Jakarta Pusat
 subtitle: 'Toko Optik Kacamata Terdekat, Periksa Mata Gratis, Frame Murah Dan Terjangkau'
 description: Toko Kacamata & Optik Murah Terdekat, Dengan Koleksi Lensa & Frame Paling Lengkap, Periksa Mata Gratis, Bergaransi, Bisa Cicilan & Terjangkau Di Kemayoran
-keywords: Toko Kacamata Terdejat, Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo
+keywords: Toko Kacamata Terdekat, Pusat Kacamata, Optik Kemayoran, Kacamata Murah
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -20,10 +20,10 @@ permalink: /toko-kacamata/
         alt="toko kacamata optikal bahari">
         <div class="card-body">
             <h3 class="card-title">
-                Toko Kacamata Optikal Bahari, Terdekat Untuk Semua Kalangan
+                Pusat Toko Kacamata & Frame di Kemayoran Jakarta, Terdekat Untuk Semua Kalangan
             </h3>
             <p class="card-text">
-                Optikal Bahari menyediakan beragam pilihan lensa kacamata beserta dengan frame yang trendy dan terbaru. Semuanya dengan tetap memperhatikan harga yang terjangkau yang cocok untuk setiap kebutuhan dan gaya kamu. Kami mengerti bahwa membeli kacamata bukanlah hal yang dikategorikan mudah bagi sebagian masyarakat, oleh karena itu kami memberikan layanan pembayaran dengan cicilan yang memudahkan Anda dalam membeli kacamata yang diinginkan. Selain itu, kami juga menerima pembayaran menggunakan KJP untuk membantu Anda yang membutuhkan kacamata namun belum memiliki keuangan yang mencukupi.
+                Optikal Bahari menyediakan beragam pilihan lensa kacamata beserta dengan frame yang trendy dan terbaru. Tetap dengan selalu memperhatikan harga yang terjangkau dan cocok untuk setiap kebutuhan dan gaya kamu. Kami mengerti bahwa membeli kacamata bukanlah hal yang dikategorikan mudah bagi sebagian masyarakat, oleh karena itu kami memberikan layanan pembayaran dengan cicilan yang memudahkan Anda dalam membeli kacamata yang diinginkan. Selain itu, kami juga menerima pembayaran menggunakan KJP untuk membantu Anda yang membutuhkan kacamata namun belum memiliki keuangan yang mencukupi.
             </p>
             <p>
                 Selain itu, di Optikal Bahari kami juga menyediakan layanan periksa mata gratis dengan menggunakan alat komputer yang terbaru. Proses pemeriksaan ini akan memberikan hasil yang akurat dan membantu Anda untuk mengetahui apakah ada perubahan pada ukuran mata atau tidak. Hal ini sangat penting untuk dilakukan secara rutin agar Anda dapat terus memantau kondisi mata dan memperbaiki penglihatan Anda dengan cara yang tepat. Kunjungi Optikal Bahari sekarang juga untuk memeriksa kondisi mata dan memastikan penglihatan Anda selalu dalam keadaan yang optimal.
@@ -36,7 +36,9 @@ permalink: /toko-kacamata/
   <div class="card shadow p-3 mb-5 bg-white rounded">
   <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
     <div class="card-body">
-      <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
+      <h3 class="card-title">
+        Segera Kunjungi Optikal Bahari
+      </h3>
       <p class="card-text">
         Kami menyadari bahwa dalam memilih kacamata yang tepat bukanlah hal yang mudah, terutama karena ada banyaknya pilihan yang tersedia di pasaran. Namun, di Optikal Bahari kami memiliki team ramah dan terlatih yang akan membantu Anda dalam memilih kacamata paling sesuai dengan kebutuhan dan gaya Anda. Kami juga selalu memberikan saran yang terbaik kepada pelanggan kami agar dapat memilih kacamata yang paling sesuai dengan kebutuhan dan anggaran mereka. Jadi, jangan ragu untuk mengunjungi Optikal Bahari dan temui staff ramah kami yang siap membantu Anda.
       </p>
