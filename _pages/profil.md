@@ -29,7 +29,10 @@ permalink: /profil/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/profil/jalan-h-jiung.jpg" class="card-img-top" alt="jalan h jiung">
+  <img src="/assets/img/profil/jalan-h-jiung.jpg" 
+  class="card-img-top" 
+  title="jalan-h-jiung"
+  alt="jalan h jiung">
   <div class="card-body">
     <h3 class="card-title">
       Transformasi Dari Masa Ke Masa
