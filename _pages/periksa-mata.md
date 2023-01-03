@@ -61,8 +61,8 @@ permalink: /periksa-mata/
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" | relative_url }}" 
       class="card-img-top" 
-      title="Periksa Mata Dengan Komputerisasi Digital"
-      alt="Periksa Mata Dengan Komputerisasi Digital">
+      title="Periksa Mata Dengan Komputer"
+      alt="Periksa Mata Dengan Komputer">
       <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Dengan Alat Komputer Digital

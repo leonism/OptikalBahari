@@ -58,8 +58,8 @@ permalink: /kenapa-optikal-bahari/
 <div class="card shadow p-3 bg-white mb-5">
   <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" | relative_url }}" 
       class="card-img-top" 
-      title="Periksa Mata Dengan Komputerisasi Digital"
-      alt="Periksa Mata Dengan Komputerisasi Digital">
+      title="Periksa Mata Dengan Komputer"
+      alt="Periksa Mata Dengan Komputer">
   <div class="card-body">
     <h3 class="card-title">Bisa Nyicil, Tanpa Credit Card, Bunga 0% dan Bebas Riba</h3>
     <p class="card-text">

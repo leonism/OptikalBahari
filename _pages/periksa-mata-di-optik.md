@@ -77,7 +77,7 @@ permalink: /periksa-mata-di-optik/
       alt="tips-kacamata-2.jpg">
       <div class="card-body">
       <h3 class="card-title">
-        Pemeriksaan Menggunakan Komputerisasi Digital
+        Periksa Mata Menggunakan Komputer
       </h3>
       <p class="card-text">
         Pemeriksaan mata dengan menggunakan komputer merupakan metode yang lebih efisien dan akurat dibanding dengan metode pemeriksaan yang menggunakan alat analog. Proses pemeriksaan dengan menggunakan komputer memiliki beberapa keunggulan seperti:

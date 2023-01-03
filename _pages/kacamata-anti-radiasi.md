@@ -54,10 +54,10 @@ permalink: /kacamata-anti-radiasi/
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg" | relative_url }}" 
       class="card-img-top" 
-      title="Periksa Mata Dengan Komputerisasi Digital"
-      alt="Periksa Mata Dengan Komputerisasi Digital">
+      title="Periksa Mata Dengan Komputer"
+      alt="Periksa Mata Dengan Komputer">
       <div class="card-body">
-      <h3 class="card-title">Periksa Mata Dengan Komputerisasi Digital</h3>
+      <h3 class="card-title">Periksa Mata Dengan Komputer</h3>
       <p class="card-text">
         Mengutamakan pelayanan terbaik bagi konsumen merupakan komitmen utama kami di Optikal Bahari. Kami memahami bahwa masalah penglihatan dapat mengganggu kegiatan sehari-hari, sehingga kami selalu siap untuk menjadi solusi bagi Anda. Jika Anda memiliki keluhan terkait penglihatan, jangan ragu untuk datang ke tempat kami dan konsultasikan masalah yang Anda alami. Kami akan memberikan saran dan solusi terbaik bagi Anda.
       </p>
@@ -75,7 +75,9 @@ permalink: /kacamata-anti-radiasi/
       title="Menggunakan Alat Phoropter"
       alt="Menggunakan Alat Phoropter">
       <div class="card-body">
-      <h3 class="card-title">Menggunakan Alat Phoropter</h3>
+      <h3 class="card-title">
+        Menggunakan Alat Phoropter
+      </h3>
       <p class="card-text">
         Kami menggunakan alat Phoropter atau Refraktor, alat ini biasanya digunakan oleh para profesional dan para ahli untuk proses periksa mata Anda, dimana didalam setiap unit Phoropter ini, terdapat berbagai macam lensa dengan berbagai macam ukuran yang digunakan agar dapat melakukan proses pembiasan ke mata selama pengukuran daya penglihatan mata Anda terjadi. Tujuannya adalah untuk mengukur tingkat kesalahan bias mata seseorang, yang pada akhirnya informasi tersebut akan digunakan untuk menentukan resep kacamata yang sesuai untuk ukuran Anda.
       </p>
@@ -90,7 +92,9 @@ permalink: /kacamata-anti-radiasi/
       title="Autorefractometer atau Auto Lens Meter"
       alt="Autorefractometer atau Auto Lens Meter">
     <div class="card-body">
-      <h3 class="card-title">Autorefractometer atau Auto Lens Meter</h3>
+      <h3 class="card-title">
+        Autorefractometer atau Auto Lens Meter
+      </h3>
       <p class="card-text">
         Lensmeter atau lensometer, juga dikenal sebagai focimeter atau vertometer, adalah instrumen oftalmik yang juga biasa digunakan dalam proses periksa mata. Alat ini terutama digunakan oleh para dokter mata dan ahli kacamata untuk memverifikasi ukuran kacamata terhadap dalam resep yang akan digunakan. Tujuan pemakaian instrumen ini adalah untuk mengarahkan dan menandai lensa yang belum dipotong, disaat bersamaan juga untuk mengkonfirmasi pemasangan lensa yang benar dalam bingkai kacamata.
       </p>          
@@ -104,7 +108,9 @@ permalink: /kacamata-anti-radiasi/
         title="Segera Kunjungi Optikal Bahari"
         alt="Segera Kunjungi Optikal Bahari">
       <div class="card-body">  
-        <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
+        <h3 class="card-title">
+          Segera Kunjungi Optikal Bahari
+        </h3>
 	      <p class="card-text">
 	  		  Segera rencanakan kunjungan anda ke Optikal Bahari untuk pemeriksaan mata dan staff ramah kami siap untuk melayani anda. Kami berlokasi di Jl. Bend. Jago No.447, RW.1, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10650. Kami memberikan layanan <a href="{{"/periksa-mata/" | relative_url }}" title="pemeriksaan mata gratis">pemeriksaan mata gratis</a>, proses cepat dan akurat dengan alat komputerisasi digital, ada <a href="{{"/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan">program cicilan ringan</a> dan tidak memberatkan, bisa melakukan <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="bayar kacamata bayar dengan KJP">pembayaran melalui KJP</a> dan juga service kacamata.Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
 	  	  </p>
