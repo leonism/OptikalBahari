@@ -19,7 +19,7 @@ permalink: /kacamata-cicilan/
       alt="kacamata cicilan">
   <div class="card-body">
     <h3 class="card-title">
-      Kacamata Cicilan & Tanpa Bunga
+      Kacamata Cicilan Tanpa Bunga
     </h3>
     <p class="card-text">
       Kamu punya gangguan penglihatan dan butuh kacamata, sedang mencari kacamata yang bisa nyicil? Selamat kamu berada di tempat yang tepat. Optikal Bahari adalah salah satu tempat terbaik untuk kamu yang sedang membutuhkan kacamata. Apalagi di sini kamu bisa membeli sebuah kacamata meski harus menyicil.
