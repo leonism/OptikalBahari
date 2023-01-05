@@ -4,15 +4,14 @@ author: Optikal Bahari
 author_name: Optikal Bahari
 author_first_name: Optikal
 author_last_name: Bahari
-email: adhityadaniel@gmail.com
+email: optikalbahari@gmail.com
 baseurl: ''
 url: 'https://optikalbahari.com'
 tagline: Melayani Segala Kebutuhan Kacamata Anda
 subtitle: Optik Pertama & Terpercaya di Kemayoran. Dapatkan Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Tanpa Credit Card, Bunga 0%, Tanpa Riba & Menerima KJP
 permalink: /:title/
-# Add your google-analytics ID here to activate google analytics
-# google_analytics: G-FV2N66E55Q # out your google-analytics code
-# we don't put the Google Analtics tracking ID, since we're using GTM instead.
+# google_analytics: G-FV2N66E55Q # out your google-analytics code 
+
 
 # Social Profiles
 twitter_username: optikalbahari
