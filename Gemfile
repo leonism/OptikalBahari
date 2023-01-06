@@ -32,12 +32,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1.0"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
-  gem "jekyll-archives"
-  # gem 'jekyll-thumbnail'
-  # gem 'mini_magick'
-  # gem 'jekyll-srcset'
-  # gem 'jekyll-rmagick'
-  # gem 'jekyll-thumb'
+  gem "jekyll-archives"  
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
