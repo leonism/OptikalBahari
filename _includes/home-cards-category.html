@@ -21,7 +21,9 @@
 					{{ post.description | strip_html | truncatewords: 12 }}.
 				</p>
 				<p>
-					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" role="button" title="{{ post.title }}">
+					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" 
+					role="button" 
+					title="{{ post.title }}">
 					Selengkapnya
 					</a>
 				</p>

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Tips Memilih Kacamata Sesuai Bentuk Wajah Kotak & Wajah Bulat
-subtitle: Cara Yang Benar Agar Selalu Terlihat Stylish
-description: "Temukan tips terbaik untuk memilih kacamata yang sesuai dengan bentuk wajahmu agar terlihat keren dan sesuai dengan gaya pribadimu. Pelajari tipe wajah dan cara memilih model kacamata yang tepat hanya di artikel ini."
-keywords: 'Tips Kacamata, Wajah, Tips Kacamata, Memilih Kacamata'
+title: Tips Memilih Kacamata Sesuai Bentuk Wajah Kotak & Bulat
+subtitle: Cara Yang Benar Untuk Memilih Kacamata Agar Selalu Terlihat Stylish
+description: "Temukan tips terbaik untuk memilih kacamata yang sesuai dengan bentuk wajahmu agar terlihat keren dan sesuai dengan gaya pribadimu, baik untuk wajah kotak maupun wajah bulat"
+keywords: "Tips Kacamata, Wajah Kotak, Wajah Bulat, Tips Kacamata, Memilih Kacamata"
 lang: id-ID
 author: Optikal Bahari
 categories: [Trend]
@@ -34,15 +34,12 @@ permalink: /tips-kacamata/
 <h3>
     Kacamata Untuk Wajah Kotak
 </h3>
-
 <p>
     Mungkin ini bisa jadi tips memilih kacamata sesuai bentuk wajah terbaik yang Kamu baca, apalagi jika Kamu memiliki bentuk wajah bulat. Bentuk wajah seperti ini biasanya bisa dilihat dari pipi yang lebih tembam serta memiliki bagian dagu setengah lingkaran dengan karakter yang cukup presisi.
 </p>
-
 <p>
     Wajah bulat lebih cocok untuk pilih frame kacamata kaku atau bentuk menyiku. Frame yang cukup tebal sangat cocok untuk bentuk wajah seperti ini. Kacamata yang Kamu pakai bisa lebih terlihat menarik. Selain itu, tips memilih kacamata sesuai wajah ini juga untuk memberikan keseimbangan terhadap wajah bulat yang Kamu miliki.
 </p>
-
 <p>
     Alternative lainnya, pilihlah bingkai kacamata dengan bentuk persegi atau kotak yang memiliki gagang tinggi. Model ini akan membuat wajah terlihat lebih panjang dan tirus. Hindari bingkai yang berbentuk bundar dan gagang yang terlalu tebal serta warna gelap, karena akan menambah kesan wajah dan pipi yang bulat.
 </p>
@@ -63,25 +60,22 @@ permalink: /tips-kacamata/
 <h3>
     Kacamata Untuk Wajah Segitiga dan Oval
 </h3>
-
 <p>
     Wajah segitiga pada dasarnya hampir mirip dengan wajah kotak, hanya saja pada bagian dagu terlihat lebih ramping dan menyudut. Karena pada bagian garis rahang lebih panjang dan bagian kening lebih kecil, maka kacamata dengan model seperti mata kucing adalah pilihan terbaiknya.
 </p>
-
 <p>
     Lensa ini biasanya memiliki frame bagian atas yang lebih tebal daripada bagian bawah. Di sisi lain, lensa juga melebar di bagian bawah. Model kacamata seperti ini sangat cocok untuk mengimbangi bentuk wajah segitiga. Ini juga merupakan tips memilih kacamata sesuai wajah yang tepat buatmu.
 </p>
-
 <p>
     Wajah tipe satu ini banyak yang menyebutnya sebagai bentuk wajah paling ideal. Memiliki bagian dahi lebar, namun bagian garis rahang yang bulat menjadikan bentuk wajah ini terlihat sempurna. Hampir semua model kacamata bisa cocok dengan bentuk wajah satu ini sehingga Kamu tidak perlu khawatir.
 </p>
-
 <p>
     Namun jika ingin terlihat lebih keren, Kamu bisa memakai kacamata dengan frame tebal melengkung. Kamu juga bisa memilih warna frame apapun, bukan hanya hitam, namun hampir semua warna. Apalagi jika Kamu memiliki kulit bersih dan cerah, maka akan menjadikan penampilanmu lebih menarik.
 </p>
-
 <h3>
     Segera Kunjungi Optikal Bahari
 </h3>
 
-<p>Jika Kamu ingin mengetahui lebih banyak informasi terkait kacamata, bisa mengikuti fanpage facebook kami di <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">@optikalbahari</a>. Kamu juga bisa mengunjungi website kami atau kunjungi toko kami di Kemayoran, Jakpus, Jln. Bendungan Jago No. 447. Dan untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em></p>
+<p>
+    Jika Kamu ingin mengetahui lebih banyak informasi terkait kacamata, bisa mengikuti fanpage facebook kami di <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">@optikalbahari</a>. Kamu juga bisa mengunjungi website kami atau kunjungi toko kami di Kemayoran, Jakpus, Jln. Bendungan Jago No. 447. Dan untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>
+</p>

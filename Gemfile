@@ -25,14 +25,14 @@
 
 
 source "https://rubygems.org"
-gem "jekyll", "~> 4.1.1"
+gem "jekyll", "~> 4.3.1"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-paginate", "~> 1.1.0"
   gem "jekyll-sitemap"
-  gem 'jekyll-seo-tag'
-  gem 'jekyll-archives'
+  gem "jekyll-seo-tag"
+  gem "jekyll-archives"
   # gem 'jekyll-thumbnail'
   # gem 'mini_magick'
   # gem 'jekyll-srcset'
