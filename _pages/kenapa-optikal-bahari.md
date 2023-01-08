@@ -28,7 +28,7 @@ permalink: /kenapa-optikal-bahari/
       Apalagi karena gaya hidup yang terlalu lama berhadapan dengan gadget, mata jelas mengalami penurunan kinerja. Ini yang membuat banyak anak muda sekarang sangat membutuhkan sebuah kacamata. Jika kamu adalah salah satunya, maka memilih Optikal Bahari adalah pilihan paling bijak yang bisa kamu pilih.
     </p>
     <p>
-      Optikal Bahari merupakan toko kacamata pertaa & terpercaya di Kemayoran yang menyediakan beragam pilihan model kacamata dan lensa dengan kualitas terbaik. Optikal Bahari juga menyediakan layanan periksa mata gratis, garansi pembelian, layanan pembelian kacamata secara cicilan atau kredit dengan bunga 0%.
+      Optikal Bahari merupakan toko kacamata pertama & terpercaya di Kemayoran yang menyediakan beragam pilihan model kacamata dan lensa dengan kualitas terbaik. Optikal Bahari juga menyediakan layanan periksa mata gratis, garansi pembelian, layanan pembelian kacamata secara cicilan atau kredit dengan bunga 0%.
     </p>
 	</div>
 </div>
