@@ -12,7 +12,7 @@
 		  "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
 		  "author": {
 		    "@type": "Organization",
-		    "name": {{ site.author_name | jsonify }},
+		    "name": {{ site.author_name | jsonify }},		    
 		    "email": {{ site.email | jsonify }}
 		  },
 		  "publisher": {
@@ -32,7 +32,7 @@
 		  },
 		  "image": {
 		    "@type": "ImageObject",		    
-		    "url": "{{ site.url }}{{ page.background }}"
-		  }		  
+		    "url": "{{site.url}}/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg"
+		  },		  
 		}
 </script>
