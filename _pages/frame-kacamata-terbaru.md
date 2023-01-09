@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Frame Kacamata Terbaru Di Kemayoran, Optikal Bahari Bendungan Jago Jakarta Pusat
-subtitle: Frame & Kacamata Terabru, Murah Dan Terjangkau
+title: Frame Kacamata Terbaru Di Kemayoran
+subtitle: Frame & Kacamata Terbaru, Murah Dan Terjangkau
 description: Dapatkan koleksi Lensa Terbaru dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas.
 keywords: 'kacamata murah, frame murah, kacamata, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID

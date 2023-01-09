@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips Memilih Kacamata untuk Wajah Bulat
+title: Tips Kacamata Sesuai Wajah Kotak & Bulat
 subtitle: 'Lengkap Semuanya Disini'
 description: "Cari tahu bagaimana memilih model kacamata yang tepat untuk wajah bulat. Pilih kacamata dengan frame yang lebih tebal, tajam, atau garis-garis tajam untuk membuat wajah terlihat lebih tirus dan garis-garis tajam"
 keywords: 'Tip, wajah bulat, Kacamata'

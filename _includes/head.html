@@ -19,9 +19,9 @@
 		<meta name="p:domain_verify" content="8742998c66c600725ea8758b3d48ca40" />
 		<title>
 			{% if page.title and page.title != 'Home' %}
-				{{ page.title | strip_html | truncatewords: 160 }} - 
+			{{ page.title | strip_html | truncate: 43 }} - 
 			{% endif %}
-				{{ site.title }}
+			{{ site.title }}
 		</title>
 		<meta name="description" content="{% if page.description.size > 10 %} 
 			{{ page.description | truncate: 160 }}
