@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Optik Di Kemayoran, Terdekat Dengan Berbagai Fasilitas Terbaik
+title: Optik Terdekat Di Kemayoran, Jakarta Pusat
 subtitle: Layanan Lengkap Periksa Mata Gratis, Cicilan Tanpa Bunga, Tanpa Credit Card, Tanpa Denda & Bergaransi
-description: Optik Berlokasi di Kemayoran Jakarta Pusat, Optikal Bahari melayani periksa mata gratis dan memberikan cicilan dengan berbagai pilihan bingkai dan frame kacamata.
+description: Optik Berlokasi di Kemayoran Jakarta Pusat, melayani periksa mata gratis dan cicilan dengan berbagai pilihan bingkai & frame kacamata.
 keywords: 'optik kemayoran, kacamata kemayoran, kacamata cicialn, kacamata murah, tanpa bunga, tanpa DP, bayar KJP'
 lang: id-ID
 author: Optikal Bahari

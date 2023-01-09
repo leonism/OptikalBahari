@@ -3,7 +3,7 @@ layout: none
 ---
 
 User-agent: *
-Disallow: /cgi-bin/
+Disallow: {{ site.url }}/cgi-bin/
 
 User-agent: *
 Allow: /
