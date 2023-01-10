@@ -47,7 +47,8 @@ exclude:
 # html compression
 compress_html:
  clippings: all
- comments: ['<!-- ', ' -->']
+ # comments: ['<!-- ', ' -->']
+ comments: all
  endings: all
  ignore:
   envs: [local]

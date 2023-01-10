@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/021.jpg
+background: /assets/img/posts/027.jpg
 comments: false
 permalink: /periksa-mata-terdekat-gratis-kemayoran/
 ---
