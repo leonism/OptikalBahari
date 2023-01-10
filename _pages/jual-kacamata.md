@@ -2,23 +2,28 @@
 layout: page
 title: Jual Kacamata & Lensa Di Kemayoran, Di Optikal Bahari
 subtitle: Berikut Alasan Kenapa Optikal Bahari Cocok Untuk Warga Kemayoran.
-description: Jual Koleksi Lengkap Kacamata & Lensa, Hanya di Optikal Bahari Kemayoran.
+description: Optikal Bahari menawarkan pilihan kacamata yang sesuai dengan gaya hidup & kebutuhan anak muda, yang juga dapat mengatasi masalah mata akibat penggunaan gadget yang berlebihan
 keywords: 'optikal bahari, kemayoran, kacamata, info'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [promo, discount, kacamata, lensa, bingkai]
-background: /assets/img/posts/025.jpg
+background: /assets/img/posts/049.jpg
 permalink: /jual-kacamata/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
   <img src="/assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.jpg" class="card-img-top" alt="Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama">
   <div class="card-body">
-    <h3 class="card-title">Jual Kacamata & Lensa Di Kemayoran, Di Optikal Bahari</h3>
-    <p class="card-text">Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai gaya hidup.  Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi sebuah kebutuhan tersendiri, terutama untuk kalangan muda.</p>
-	<p>Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai gaya hidup.  Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi sebuah kebutuhan tersendiri, terutama untuk kalangan muda.</p>
-	<p>Apalagi karena gaya hidup yang terlalu lama berhadapan dengan gadget, mata jelas mengalami penurunan kinerja. Ini yang membuat banyak anak muda sekarang sangat membutuhkan sebuah kacamata. Jika kamu adalah salah satunya, maka memilih Optikal Bahari adalah pilihan paling bijak yang bisa kamu pilih.</p>
+    <h3 class="card-title">
+      Jual Kacamata & Lensa Di Kemayoran, Di Optikal Bahari
+    </h3>
+    <p class="card-text">      
+      Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai gaya hidup. Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi sebuah kebutuhan tersendiri, terutama untuk kalangan muda.
+    </p>
+	  <p>
+      Apalagi karena gaya hidup yang terlalu lama berhadapan dengan gadget, mata jelas mengalami penurunan kinerja. Ini yang membuat banyak anak muda sekarang sangat membutuhkan sebuah kacamata. Jika kamu adalah salah satunya, maka memilih Optikal Bahari adalah pilihan paling bijak yang bisa kamu pilih.
+    </p>
 	</div>
 </div>
 

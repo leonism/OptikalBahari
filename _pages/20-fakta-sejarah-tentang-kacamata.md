@@ -2,7 +2,7 @@
 layout: page
 title: 22 fakta sejarah tentang kacamata
 subtitle: 'Berikut Beberapa Penjelasannya'
-description: 20 Hal Yang Harus Anda Ketahui Tentang Kacamata.
+description: Berikut beberapa fakta sejarah tentang kacamata yang sering kali terlewatkan dari pengamatan keseharian anda. Apa saja yang membuatnya menarik? Berikut kami rangkum untuk anda.
 keywords: kacamata, sejarah kacamata, fakta kacamata
 lang: id-ID
 author: Optikal Bahari
