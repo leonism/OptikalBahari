@@ -18,7 +18,7 @@ permalink: /testimoni/
 </h3>
 
 <p class="card-text">
-	Bukanlah hal mudah ditengah terpaan perubahan zaman dan derasnya arus informasi di jaman digital seperti sekarang ini, untuk dapat mempertahankan konsistensi layanan dan qualitas. Tapi 40 tahun lebih di bisnis ini, kami medapatkan banyak pelajaran berharga dalam melakukannya. Dan berikut adalah sebagian dari testimoni yang diberikan oleh para pelanggan setia kami, yang anda juga dapat lihat secara online di Google My Business Optikal Bahari <a href="https://search.google.com/local/reviews?placeid=ChIJDYWGN6T1aS4RjK50wCfHApg" title="Optikal Bahari Google My Busiess Review Page" class="GoogleMyBusiness" id="OptikalBahariGMB">disini</a>, dengan hasil 5 bintang, dari 427 ulasan konsumen.
+	Bukanlah hal mudah ditengah terpaan perubahan zaman dan derasnya arus informasi di jaman digital seperti sekarang ini, untuk dapat mempertahankan konsistensi layanan dan qualitas. Tapi 40 tahun lebih di bisnis ini, kami medapatkan banyak pelajaran berharga dalam melakukannya. Dan berikut adalah sebagian dari testimoni yang diberikan oleh para pelanggan setia kami, yang anda juga dapat lihat secara online di Google My Business Optikal Bahari <a href="https://search.google.com/local/reviews?placeid=ChIJDYWGN6T1aS4RjK50wCfHApg" title="Optikal Bahari Google My Busiess Review Page" class="GoogleMyBusiness" id="OptikalBahariGMB">disini</a>, dengan hasil 5 bintang, dari 430 ulasan konsumen.
 </p>
 
 <div class='sk-ww-google-reviews' data-embed-id='100158'>
