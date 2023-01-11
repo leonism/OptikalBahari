@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Optik Terbaik Di Jakarta
-subtitle: 'Optikal Bahari, optik terbaik di Jakarta dengan berbagai layanan teratas dikelasnya, dapatkan periksa mata gratis di Optikal Bahari, Bisa Cicilan & Tanpa Bunga'
+subtitle: 'Optikal Bahari, optik terbaik di Jakarta dengan berbagai layanan teratas dikelasnya, dapatkan periksa mata gratis di Optikal Bahari, Bisa Cicilan, Bebas Riba & Tanpa Bunga'
 description: Periksa mata gratis di Optikal Bahari, Bisa Cicilan & Tanpa Bunga
 keywords: 'Optik Terbaik Di Jakarta, Optik Terbaik, Optik Jakarta'
 lang: id-ID

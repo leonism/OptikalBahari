@@ -2,7 +2,7 @@
 layout: page
 title: Jual Kacamata & Lensa Di Kemayoran, Di Optikal Bahari
 subtitle: Berikut Alasan Kenapa Optikal Bahari Cocok Untuk Warga Kemayoran.
-description: Optikal Bahari menawarkan pilihan kacamata yang sesuai dengan gaya hidup & kebutuhan anak muda, yang juga dapat mengatasi masalah mata akibat penggunaan gadget yang berlebihan
+description: Optikal Bahari menawarkan berbagai pilihan kacamata yang sesuai dengan gaya hidup & kebutuhan anak muda, yang juga dapat mengatasi masalah mata akibat penggunaan gadget yang berlebihan
 keywords: 'optikal bahari, kemayoran, kacamata, info'
 lang: id-ID
 author: Optikal Bahari

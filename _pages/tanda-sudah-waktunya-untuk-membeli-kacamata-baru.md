@@ -2,7 +2,7 @@
 layout: page
 title: Tanda Sudah Waktunya Untuk Membeli Kacamata Baru
 subtitle: 'Berikut Beberapa Penjelasannya'
-description: Cari tahu kapan waktu dan alasan yang tepat untuk mengganti kacamata Anda, baik kacamata anda rusak, resep berubah, tidak nyaman, atau sudah ketinggalan zaman
+description: Cari tahu kapan waktu dan alasan yang tepat untuk mengganti kacamata Anda, baik kacamata anda rusak, resep berubah, tidak nyaman, atau sudah ketinggalan zaman.
 keywords: Ganti kacamata, Kacamata baru, Kapan ganti kacamata
 lang: id-ID
 author: Optikal Bahari
