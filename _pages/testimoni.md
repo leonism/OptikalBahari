@@ -32,12 +32,12 @@ permalink: /testimoni/
 		id="WhatsAppClick"
 		class="WhatsAppCall"
 		title="Call WhatsApp"
-		>+6281932235445</a
-	>
+		>+6281932235445</a>
 	atau kunjungi
-	<a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage"
-		>Facebook Fan</a
-	>
+	<a href="https://www.facebook.com/optikalbahari" 
+	id="FBClick" 
+	title="Facebook Page Optikal Bahari" 
+	class="FacebookPage">Facebook Fan</a>
 	Page kami. <em>(Optikal Bahari)</em>
 </p>
 
