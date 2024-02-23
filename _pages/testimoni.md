@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/splash-page-ob-bg-testi.png
+background: /assets/img/bg-testimoni.jpg
 permalink: /testimoni/
 ---
 

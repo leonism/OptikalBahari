@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/027.jpg
+background: /assets/img/bg-tips-trik.jpg
 permalink: /tips-trik-kacamata/
 ---
 

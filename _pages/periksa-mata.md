@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/028.jpg
+background: /assets/img/bg-periksa-mata.jpg
 comments: false
 permalink: /periksa-mata/
 ---
