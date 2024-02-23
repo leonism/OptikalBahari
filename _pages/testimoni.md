@@ -8,31 +8,44 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/bg-testi.jpg
+background: /assets/img/splash-page-ob-bg-testi.png
 permalink: /testimoni/
 ---
 
 <div class="container">
 <h3>
-	Testimoni Pelanggan dan Konsumen Kami
+	Testimoni Pelanggan dan Konsumen Kami: Bukti Kepercayaan dan Kepuasan
 </h3>
 
 <p class="card-text">
-	Bukanlah hal mudah ditengah terpaan perubahan zaman dan derasnya arus informasi di jaman digital seperti sekarang ini, untuk dapat mempertahankan konsistensi layanan dan qualitas. Tapi 40 tahun lebih di bisnis ini, kami medapatkan banyak pelajaran berharga dalam melakukannya. Dan berikut adalah sebagian dari testimoni yang diberikan oleh para pelanggan setia kami, yang anda juga dapat lihat secara online di Google My Business Optikal Bahari <a href="https://search.google.com/local/reviews?placeid=ChIJDYWGN6T1aS4RjK50wCfHApg" title="Optikal Bahari Google My Busiess Review Page" class="GoogleMyBusiness" id="OptikalBahariGMB">disini</a>, dengan hasil 5 bintang, dari 430 ulasan konsumen.
+	Di tengah perubahan zaman dan derasnya arus informasi di era digital ini, menjaga konsistensi layanan dan kualitas bukan perkara mudah. Namun, dengan pengalaman lebih dari 40+ tahun di bisnis optik & kacamata, kami telah mempelajari banyak hal berharga dalam mewujudkannya. Namun, dengan pengalaman dan strategi yang tepat, Optikal Bahari berkomitmen untuk terus memberikan layanan dan kualitas terbaik bagi pelanggan.
+</p>
+<p class="card-text">
+	Testimoni-testimoni ini merupakan bukti nyata dari kepercayaan dan kepuasan pelanggan terhadap Optikal Bahari. Kami berkomitmen untuk selalu memberikan pelayanan terbaik dan produk berkualitas tinggi kepada seluruh pelanggan. Berikut adalah beberapa testimoni dari pelanggan setia kami, yang juga dapat Anda lihat secara online di <a href="https://search.google.com/local/reviews?placeid=ChIJDYWGN6T1aS4RjK50wCfHApg" title="Optikal Bahari Google My Busiess Review Page" class="GoogleMyBusiness" id="OptikalBahariGMB">Google My Business Optikal Bahari</a> dengan hasil 5 bintang dari 468 ulasan konsumen:
 </p>
 
 <div class='sk-ww-google-reviews' data-embed-id='100158'>
 	<script src='https://widgets.sociablekit.com/google-reviews/widget.js'></script>
 </div>
-
+<h3>
+	Bukti Nyata Kepercayaan dan Kepuasan: Suara Pelanggan Optikal Bahari
+</h3>
 <p>
-	Jadi tunggu apalagi segera datang ke Optik Bahari dan dapatkan banyak penawaran menarik untuk produk Lensa Photochromic anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+Bagi Optikal Bahari, testimoni-testimoni ini bukan sekadar pujian, melainkan amanah dan tanggung jawab untuk terus memberikan yang terbaik. Kami berkomitmen untuk selalu menjaga kualitas layanan dan produk, serta meningkatkannya dari waktu ke waktu.
+Komitmen ini didasari oleh keyakinan kami bahwa setiap pelanggan berhak mendapatkan pengalaman terbaik dalam memenuhi kebutuhan kacamata mereka. Kami percaya bahwa kepuasan pelanggan adalah kunci utama dalam membangun bisnis yang berkelanjutan dan terpercaya.
+</p>
+<p>
+Oleh karena itu, kami ingin mengucapkan terima kasih kepada seluruh pelanggan yang telah memberikan testimoni dan kepercayaannya kepada Optikal Bahari. Kami akan terus berusaha keras untuk memberikan pelayanan dan produk terbaik, demi menghadirkan senyuman dan kebahagiaan bagi setiap pelanggan yang datang kepada kami.
+</p>
+<p>
+	Testimoni-testimoni di atas merupakan bukti nyata dari kepercayaan dan kepuasan pelanggan terhadap Optikal Bahari. Kami berkomitmen untuk selalu memberikan pelayanan terbaik dan produk berkualitas tinggi kepada seluruh pelanggan. Jadi tunggu apalagi, segera datang ke Optik Bahari dan dapatkan banyak penawaran menarik untuk Kacamata & Produk Lensa anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini.
 	<a
 		href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
 		id="WhatsAppClick"
 		class="WhatsAppCall"
 		title="Call WhatsApp"
-		>+6281932235445</a>
+		>+6281932235445
+	</a>
 	atau kunjungi
 	<a href="https://www.facebook.com/optikalbahari" 
 	id="FBClick" 
