@@ -5,8 +5,7 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
-<header
-	class="masthead"
+<header class="masthead"
 	style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
 	{% else %}
 	<header class="masthead">
@@ -29,18 +28,18 @@ layout: default
 		</div>
 	</header>
 	<!-- end page header -->
-	<!-- <main> -->		
+	<!-- <main> -->
 
-		<div class="container">
-			<!-- <div class="row"> -->
-			<!-- <div class="col-lg-8 col-md-10 mx-auto"> -->
-			<!-- {{ content }} -->
-			{% include home-cards.html %}
-			{% include home-cards-glasses.html %}
-			{% include home-cards-category.html %}
-			<!-- {% include home-cards-testimony.html %} -->
-			<!-- </div> -->
-			<!-- </div> -->
-		</div>
+	<div class="container">
+		<!-- <div class="row"> -->
+		<!-- <div class="col-lg-8 col-md-10 mx-auto"> -->
+		<!-- {{ content }} -->
+		{% include home-cards.html %}
+		{% include home-cards-glasses.html %}
+		{% include home-cards-category.html %}
+		<!-- {% include home-cards-testimony.html %} -->
+		<!-- </div> -->
+		<!-- </div> -->
+	</div>
 	<!-- </main> -->
 </header>

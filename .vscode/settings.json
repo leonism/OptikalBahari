@@ -8,5 +8,7 @@
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.scrollToSwitchTabs": true,
     "workbench.editor.revealIfOpen": true,
-    "workbench.list.horizontalScrolling": true
+    "workbench.list.horizontalScrolling": true,
+    "html.format.indentHandlebars": true,
+    "prettier.bracketSameLine": true
 }
