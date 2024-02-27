@@ -77,7 +77,7 @@ permalink: /kacamata-cicilan/
     </p>
     <p>
       Misalnya, ketika kamu mengalami rabun dekat maka tentukan kacamata dengan lensa apa yang sesuai. Jika tidak tahu, maka kamu bisa tanya kepada staff optik supaya diberikan informasi. Jadi kamu perlu membeli sebuah kacamata dari segi fungsi terlebih dahulu sebelum melihat bentuknya.</p>
-    <p>
+    <p class="card-text">
       Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
     </p>
   </div>

@@ -19,7 +19,7 @@ permalink: /periksa-mata/
         src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg" | relative_url }}" 
         class="card-img-top"
         title="periksa-mata-gratis"
-        alt="tips-kacamata-2.jpg">
+        alt="Periksa Mata Gratis Di Optikal Bahari">
     <div class="card-body">
       <h3 class="card-title">
         Periksakan Mata Anda Di Optik Secara Rutin

@@ -68,3 +68,7 @@ img::-moz-selection {
   color: $white;
   background: transparent;
 }
+
+p a {
+  text-decoration: underline;
+}

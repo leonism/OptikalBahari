@@ -17,10 +17,30 @@ permalink: /cek-mata-gratis/
     <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
     <div class="card-body">
       <h3 class="card-title">
-        Cek Mata Gratis
+            Cek Mata Gratis di Optikal Bahari
       </h3>
         <p class="card-text">
-            Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kurang jelas? Banyak hal yang bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering main handphone, sampai dengan menurunnya kapasitas penglihatan seiring dengan bertambahnya usia. Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame bingkai kacamata dari mulai harga yang terjangkau sampai dengan harga menengah ke atas. Baca lebih lanjut untuk tahu alasan kenapa beli kacamata di Optikal Bahari.
+            Pernahkah Anda merasa penglihatan Anda tidak setajam dulu? Seringkah Anda mengalami pandangan kabur dan kurang jelas saat membaca buku, melihat layar komputer, atau bahkan saat mengemudi? Jika ya, Anda tidak sendirian. Banyak orang mengalami penurunan kualitas penglihatan karena berbagai faktor, seperti terlalu sering di depan monitor, terlalu sering bermain handphone, dan bertambahnya usia. Berikut beberapa faktor penurunan daya penglihatan mata Anda.
+        </p>
+        <ul>
+                <li>
+                    <strong>Paparan Ultra Violet:</strong> Paparan sinar biru dari layar komputer dan gadget dapat menyebabkan kelelahan mata dan kerusakan retina.
+                </li>
+                <li>
+                    <strong>Penggunaan gadget berlebihan:</strong> Memandangi layar handphone dalam waktu lama dapat menyebabkan mata kering dan tegang.
+                </li>
+                <li>
+                    <strong>Usia:</strong> Seiring bertambahnya usia, kemampuan mata untuk fokus dan melihat detail berkurang.
+                </li>
+                <li>
+                    <strong>Penyakit tertentu:</strong> Diabetes, katarak, dan glaukoma dapat menyebabkan kerusakan mata dan penurunan penglihatan.
+                </li>
+            </ul>
+        <h3 class="card-title">
+            Apa yang Dapat Dilakukan?
+        </h3>
+        <p class="card-text">
+            Kabar baiknya adalah Anda tidak perlu khawatir! Optikal Bahari hadir sebagai solusi terbaik untuk kebutuhan penglihatan Anda. Kami menyediakan berbagai jenis lensa dan frame bingkai kacamata dari mulai harga terjangkau hingga menengah ke atas.            
         </p>
     </div>
 </div>

@@ -18,11 +18,31 @@ permalink: /cek-mata-gratis-di-optik/
     class="card-img-top" alt="tips-kacamata-2.jpg">
     <div class="card-body">
         <h3 class="card-title">
-            Cek Mata Gratis
+            Cek Mata Gratis Di Optikal Bahari
         </h3>
         <p class="card-text">
             Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kurang jelas? Banyak hal yang bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering main handphone, sampai dengan menurunnya kapasitas penglihatan seiring dengan bertambahnya usia. Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame bingkai kacamata dari mulai harga yang terjangkau sampai dengan harga menengah ke atas. Baca lebih lanjut untuk tahu alasan kenapa beli kacamata di Optikal Bahari.
         </p>
+        <h3 class="card-title">
+            Mengapa Optikal Bahari?
+        </h3>
+        <ul>
+            <li>
+                <strong>Pilihan Lensa dan Frame yang Lengkap:</strong> Kami menyediakan berbagai jenis lensa dan frame kacamata dari berbagai merek ternama, mulai dari harga terjangkau hingga premium.
+            </li>
+            <li>
+                <strong>Layanan Periksa Mata Gratis:</strong> Dapatkan pemeriksaan mata gratis oleh dokter mata yang berpengalaman untuk mengetahui kondisi mata Anda secara menyeluruh.
+            </li>
+            <li>
+                <strong>Ahli Kacamata yang Berpengalaman:</strong> Tim ahli kacamata kami siap membantu Anda memilih lensa dan frame yang sesuai dengan kebutuhan dan gaya Anda.
+            </li>
+            <li>
+                <strong>Harga Terjangkau:</strong> Kami menawarkan berbagai pilihan lensa dan frame dengan harga yang kompetitif.
+            </li>
+            <li>
+                <strong>Garansi dan Layanan Purna Jual:</strong> Dapatkan garansi untuk setiap pembelian kacamata di Optikal Bahari.
+            </li>
+        </ul>
     </div>
 </div>
 
