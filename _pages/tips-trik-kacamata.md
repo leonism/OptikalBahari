@@ -13,13 +13,14 @@ permalink: /tips-trik-kacamata/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/tips-kacamata/tips-kacamata.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  <img src="/assets/img/posts/kpop-female-00/kpop-female-00.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">
     <h3 class="card-title">
       Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren
     </h3>
     <p class="card-text">
-      Tentunya hal ini menjadi sedikit menyebalkan jika Kamu salah ketika memilih kacamata. Apalagi ketika sudah membeli kacamata dengan harga mahal namun kenyataannya malah terlihat tidak sesuai. Karena itu, Kamu perlu mengerti tips memilih kacamata yang bisa Kamu sesuaikan dengan bentuk wajah.</p>
+        Memilih kacamata yang tepat memang gampang-gampang susah. Salah pilih, bukannya terlihat keren, malah bisa jadi bencana fashion. Bayangkan saja, kamu sudah merogoh kocek dalam untuk membeli kacamata mahal, tapi ternyata hasilnya tidak sesuai dengan bentuk wajah. Duh, pasti bete! Nah, untuk menghindari hal itu, penting banget nih buat kamu memahami tips-tips memilih kacamata yang sesuai dengan bentuk wajah.
+    </p>
     <p class="card-text">
     	<a class="btn btn-primary rounded-pill" href="{{"/tips-kacamata/" | relative_url }}" title="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">Selanjutnya</a>
     </p>
@@ -27,10 +28,12 @@ permalink: /tips-trik-kacamata/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/tips-kacamata-pemula/tips-kacamata-pemula.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  <img src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">
     <h5 class="card-title">Tips Memilih Kacamata Bagi Pemula Yang Nyaman Dipakai</h5>
-    <p class="card-text">Kamu perlu tips memilih kacamata bagi pemula supaya tetap tampil menarik jika Kamu memiliki masalah pada penglihatan dan membutuhkan sebuah kacamata. Kacamata merupakan salah satu benda yang berguna untuk membantu penglihatan seseorang. Masalah seperti mata minus atau sejenisnya bisa diatasi dengan mudah ketika Kamu memakai kacamata.</p>
+    <p class="card-text">
+      Dengan kacamata yang tepat, Anda dapat melihat dengan jelas dan meningkatkan kualitas hidup Anda. Oleh karena itu, ikuti tips-tips berikut untuk memilih kacamata yang tepat bagi pemula. Pastikan Anda memperhatikan bentuk wajah, gaya pribadi, dan kebutuhan penglihatan Anda. Jangan lupa untuk mencoba beberapa model kacamata sebelum Anda membelinya.
+    </p>
     <p class="card-text">
     	<a class="btn btn-primary rounded-pill" href="{{"/tips-kacamata-pemula-nyaman-dipakai/" | relative_url }}" title="Tips Memilih Kacamata Bagi Pemula Yang Nyaman Dipakai">Selanjutnya</a>
     </p>
@@ -38,11 +41,15 @@ permalink: /tips-trik-kacamata/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/tips-kacamata-pemula/tips-kacamata-pemula-2.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  <img data-src="/assets/img/posts/french-girl/french-girl-02.jpg" class="card-img-top"
+  src="/assets/img/posts/french-girl/french-girl-02.jpg" class="card-img-top" alt="Tips Memilih Kacamata Berdasarkan Rambut Supaya Tampil Kekinian">
   <div class="card-body">
-    <h5 class="card-title">Tips Memilih Kacamata Berdasarkan Rambut Supaya Tampil Kekinian</h5>
-    <p class="card-text">Salah satu cara tampil menarik adalah dengan mengetahui tips memilih kacamata berdasarkan rambut. Mengapa rambut sangat penting bagi pemilihan kacamata yang Kamu lakukan? Alasannya sudah jelas bahwa kombinasi warna rambut bisa menentukan segala hal. Apalagi rambut dikenal sebagai mahkota sehingga sangat penting menyesuaikannya.
-	</p>
+    <h5 class="card-title">
+      Tips Memilih Kacamata Berdasarkan Rambut Supaya Tampil Kekinian
+    </h5>
+    <p class="card-text">
+      Salah satu cara tampil menarik adalah dengan mengetahui tips memilih kacamata berdasarkan rambut. Mengapa rambut sangat penting bagi pemilihan kacamata yang Kamu lakukan? Alasannya sudah jelas bahwa kombinasi warna rambut bisa menentukan segala hal. Apalagi rambut dikenal sebagai mahkota sehingga sangat penting menyesuaikannya.
+	  </p>
     <p class="card-text">
     	<a class="btn btn-primary rounded-pill" href="{{"/tips-kacamata-gaya-rambut/" | relative_url }}" title="Tips Memilih Kacamata Berdasarkan Rambut Supaya Tampil Kekinian">Selanjutnya</a>
     </p>

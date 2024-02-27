@@ -73,15 +73,15 @@ permalink: /tips-kacamata/
 </div>        
     
 <div class="card shadow p-3 bg-white mb-5">
-        <img data-src="/assets/img/posts/kpop-female-00/kpop-female-04.jpg" 
+        <img data-src="/assets/img/posts/french-girl/french-girl-02.jpg" 
             src="/assets/img/posts/kpop-female-00/kpop-female-04.jpg" 
             class="card-img-top"  
             title="Kacamata Untuk Wajah Segitiga dan Oval"
             alt="Kacamata Untuk Wajah Segitiga dan Oval">        
         <div class="card-body">
-            <h3 class="card-title">
-                Kacamata Untuk Wajah Segitiga dan Oval
-            </h3>
+                <h3 class="card-title">
+                    Kacamata Untuk Wajah Segitiga dan Oval
+                </h3>
                 <p class="card-text">
                     Wajah segitiga pada dasarnya hampir mirip dengan wajah kotak, hanya saja pada bagian dagu terlihat lebih ramping dan menyudut. Karena pada bagian garis rahang lebih panjang dan bagian kening lebih kecil, maka kacamata dengan model seperti mata kucing adalah pilihan terbaiknya.
                     Lensa ini biasanya memiliki frame bagian atas yang lebih tebal daripada bagian bawah. Di sisi lain, lensa juga melebar di bagian bawah. Model kacamata seperti ini sangat cocok untuk mengimbangi bentuk wajah segitiga. Ini juga merupakan tips memilih kacamata sesuai wajah yang tepat buatmu.

@@ -5,9 +5,18 @@ footer {
     margin: 0;
     padding: 0;
   }
-  .copyright {
+  .no-underline a {
+    text-decoration: none;
+  }
+.footer p a {
+    text-decoration: none !important;
+  }
+.copyright {
     font-size: 14px;
     margin-bottom: 0;
     text-align: center;
+  }
+.copyright a {
+  text-decoration: none !important;
   }
 }
