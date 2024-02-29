@@ -13,7 +13,10 @@ permalink: /tips-trik-kacamata/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/kpop-female-00/kpop-female-00.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+    <img data-src="/assets/img/posts/kpop-female-00/kpop-female-00.jpg" 
+      src="/assets/img/posts/kpop-female-00/kpop-female-00.jpg" 
+      class="card-img-top" 
+      alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">
     <h3 class="card-title">
       Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren
@@ -28,7 +31,8 @@ permalink: /tips-trik-kacamata/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  <img data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.jpg" 
+  src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">
     <h5 class="card-title">Tips Memilih Kacamata Bagi Pemula Yang Nyaman Dipakai</h5>
     <p class="card-text">
