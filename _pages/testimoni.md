@@ -46,35 +46,34 @@ permalink: /testimoni/
         title="periksa-mata-gratis"
         alt="Testimoni Konsumen Optikal Bahari"> 
 <div class="card-body">		
-<h3>
-	Bukti Nyata Kepercayaan dan Kepuasan: Suara Pelanggan Optikal Bahari
-</h3>
-<p class="card-text">
-Bagi Optikal Bahari, testimoni-testimoni ini bukan sekadar pujian, melainkan amanah dan tanggung jawab untuk terus memberikan yang terbaik. Kami berkomitmen untuk selalu menjaga kualitas layanan dan produk, serta meningkatkannya dari waktu ke waktu.
-Komitmen ini didasari oleh keyakinan kami bahwa setiap pelanggan berhak mendapatkan pengalaman terbaik dalam memenuhi kebutuhan kacamata mereka. Kami percaya bahwa kepuasan pelanggan adalah kunci utama dalam membangun bisnis yang berkelanjutan dan terpercaya.
-</p>
-<p>
-Oleh karena itu, kami ingin mengucapkan terima kasih kepada seluruh pelanggan yang telah memberikan testimoni dan kepercayaannya kepada Optikal Bahari. Kami akan terus berusaha keras untuk memberikan pelayanan dan produk terbaik, demi menghadirkan senyuman dan kebahagiaan bagi setiap pelanggan yang datang kepada kami.
-</p>
-<p class="card-text">
-	Testimoni-testimoni di atas merupakan bukti nyata dari kepercayaan dan kepuasan pelanggan terhadap Optikal Bahari. Kami berkomitmen untuk selalu memberikan pelayanan terbaik dan produk berkualitas tinggi kepada seluruh pelanggan. Jadi tunggu apalagi, segera datang ke Optik Bahari dan dapatkan banyak penawaran menarik untuk Kacamata & Produk Lensa anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini.
-	<a
-		href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
-		id="WhatsAppClick"
-		class="WhatsAppCall"
-		title="Call WhatsApp"
-		>+6281932235445
-	</a>
-	atau kunjungi
-	<a href="https://www.facebook.com/optikalbahari" 
-	id="FBClick" 
-	title="Facebook Page Optikal Bahari" 
-	class="FacebookPage">Facebook Fan</a>
-	Page kami. <em>(Optikal Bahari)</em>
-</p>
+	<h3>
+		Bukti Nyata Kepercayaan dan Kepuasan: Suara Pelanggan Optikal Bahari
+	</h3>
+		<p class="card-text">
+		Bagi Optikal Bahari, testimoni-testimoni ini bukan sekadar pujian, melainkan amanah dan tanggung jawab untuk terus memberikan yang terbaik. Kami berkomitmen untuk selalu menjaga kualitas layanan dan produk, serta meningkatkannya dari waktu ke waktu.
+		Komitmen ini didasari oleh keyakinan kami bahwa setiap pelanggan berhak mendapatkan pengalaman terbaik dalam memenuhi kebutuhan kacamata mereka. Kami percaya bahwa kepuasan pelanggan adalah kunci utama dalam membangun bisnis yang berkelanjutan dan terpercaya.
+		</p>
+		<p class="card-text">
+		Oleh karena itu, kami ingin mengucapkan terima kasih kepada seluruh pelanggan yang telah memberikan testimoni dan kepercayaannya kepada Optikal Bahari. Kami akan terus berusaha keras untuk memberikan pelayanan dan produk terbaik, demi menghadirkan senyuman dan kebahagiaan bagi setiap pelanggan yang datang kepada kami.
+		</p>
+		<p class="card-text">
+			Testimoni-testimoni di atas merupakan bukti nyata dari kepercayaan dan kepuasan pelanggan terhadap Optikal Bahari. Kami berkomitmen untuk selalu memberikan pelayanan terbaik dan produk berkualitas tinggi kepada seluruh pelanggan. Jadi tunggu apalagi, segera datang ke Optik Bahari dan dapatkan banyak penawaran menarik untuk Kacamata & Produk Lensa anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini.
+			<a
+				href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
+				id="WhatsAppClick"
+				class="WhatsAppCall"
+				title="Call WhatsApp"
+				>+6281932235445
+			</a>
+			atau kunjungi
+			<a href="https://www.facebook.com/optikalbahari" 
+			id="FBClick" 
+			title="Facebook Page Optikal Bahari" 
+			class="FacebookPage">Facebook Fan</a>
+			Page kami. <em>(Optikal Bahari)</em>
+		</p>
+	</div>
 </div>
-</div>
-
 
 <!-- <h4>Halaman #1</h4>
 <p class="aligncenter">
