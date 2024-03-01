@@ -17,20 +17,20 @@ permalink: /kenapa-optikal-bahari/
       class="card-img-top"
       title="Autorefractometer atau Auto Lens Meter"
       alt="Autorefractometer atau Auto Lens Meter">
-  <div class="card-body">
-    <h3 class="card-title">
-      Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama
-    </h3>
-    <p class="card-text">
-      Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai bagian dari gaya hidup. Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi bagian kebutuhan tersendiri, terutama untuk para kalangan muda.
-    </p>	  
-	  <p>
-      Apalagi karena gaya hidup yang terlalu lama berhadapan dengan gadget, mata jelas mengalami penurunan kinerja. Ini yang membuat banyak anak muda sekarang sangat membutuhkan sebuah kacamata. Jika kamu adalah salah satunya, maka memilih Optikal Bahari adalah pilihan paling bijak yang bisa kamu pilih.
-    </p>
-    <p>
-      Optikal Bahari merupakan toko kacamata pertama & terpercaya di Kemayoran yang menyediakan beragam pilihan model kacamata dan lensa dengan kualitas terbaik. Optikal Bahari juga menyediakan layanan periksa mata gratis, garansi pembelian, layanan pembelian kacamata secara cicilan atau kredit dengan bunga 0%.
-    </p>
-	</div>
+    <div class="card-body">
+      <h3 class="card-title">
+        Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama
+      </h3>
+      <p class="card-text">
+        Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai bagian dari gaya hidup. Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi bagian kebutuhan tersendiri, terutama untuk para kalangan muda.
+      </p>	  
+      <p>
+        Apalagi karena gaya hidup yang terlalu lama berhadapan dengan gadget, mata jelas mengalami penurunan kinerja. Ini yang membuat banyak anak muda sekarang sangat membutuhkan sebuah kacamata. Jika kamu adalah salah satunya, maka memilih Optikal Bahari adalah pilihan paling bijak yang bisa kamu pilih.
+      </p>
+      <p>
+        Optikal Bahari merupakan toko kacamata pertama & terpercaya di Kemayoran yang menyediakan beragam pilihan model kacamata dan lensa dengan kualitas terbaik. Optikal Bahari juga menyediakan layanan periksa mata gratis, garansi pembelian, layanan pembelian kacamata secara cicilan atau kredit dengan bunga 0%.
+      </p>
+    </div>
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">

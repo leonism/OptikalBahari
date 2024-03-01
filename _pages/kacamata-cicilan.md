@@ -67,7 +67,7 @@ permalink: /kacamata-cicilan/
       alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
   <div class="card-body">
     <h3 class="card-title">
-      Aman dari Riba ketika Beli Kacamata
+      Aman Dari Riba Ketika Cicil Kacamata
     </h3>
     <p class="card-text">
       Ini adalah salah satu keunikan jika kamu membeli kacamata di Optikal Bahari, yaitu aman dari riba atau DP. Biasanya sistem cicil akan dibebankan sebuah bunga yang mesti kamu bayarkan. Namun di sini kamu bisa bernafas dengan lega, tidak ada sistem bunga yang akan kamu terima.
