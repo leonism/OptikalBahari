@@ -8,24 +8,24 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata, kemayoran, tanpa bunga, tanpa DB, bayar KJP]
-background: /assets/img/posts/019.jpg
+background: /assets/img/posts/malay-hijab-00/malay-hijab-01.jpg
 permalink: /optik-terdekat/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg" class="card-img-top" alt="kacamata cicilan">
+  <img src="/assets/img/posts/malay-hijab-00/malay-hijab-02.jpg" class="card-img-top" alt="kacamata cicilan">
   <div class="card-body">
     <h3 class="card-title">
-      Lokasi Kami Di Jalan Bendungan Jago.
+      Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari!
     </h3>
     <p class="card-text">
-      Kalo kamu kebetulan tinggal atau sedang berada di daerah Kemayoran atau sekitarnya, dan sedang mempertimbangkan utuk membeli Kacamata berhubung mungkin ukuran kamu sudah berubah atau butuh model baru karena model lama mungkin sudah bosan, boleh dicoba untuk mampir ke Optikal Bahari, di <a href="{{"/lokasi" | relative_url }}" title="Optikal Bahari, Jakarta Pusat">Jalan Bendungan Jago No 447 Kemayoran</a>, Jakarta Pusat.
+      Mencari optik terdekat di Jakarta yang terpercaya dan sesuai dengan budget bisa jadi merepotkan. Dengan banyaknya pilihan yang tersedia, Anda mungkin kebingungan memilih optik yang menawarkan pelayanan berkualitas, harga terjangkau, dan kemudahan lainnya. Namun, tidak perlu khawatir lagi, Optikal Bahari hadir sebagai solusi Anda.
     </p>
     <p>
-      Cuma di Optikal Bahari dengan pengalaman selama 40 tahun yang bisa kasih kamu pelayanan pemeriksaan gratis dengan alat yang sudah modern dan terkomputerisasi. Jadi sebelum kamu memilih kacamata yang kamu suka, kami akan memberikan kamu pemeriksaan gratis tanpa adanya pungutan biaya.
+      Optikal Bahari merupakan toko kacamata yang telah berdiri selama 40+ tahun di Kemayoran, Jakarta Pusat. Optikal Bahari mudah dijangkau, berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Optikal Bahari, Jakarta Pusat">Jalan Bendungan Jago No. 447</a>. Kami berkomitmen untuk memberikan pelayanan terbaik & berkualitas bagi kebutuhan kacamata Anda.
     </p>
     <p>
-      Jangan takut, cuma di Optikal Bahari yang punya banyak pilihan kacamata dan lensa yang beragam. Di Optikal Bahari kita selalu <em>update</em> sama perkembangan model dan gaya kacamata yang sedang trendy dikalangan anak muda, yang selalu bikin kamu bergaya sesuai dengan perkembangan jaman.
+      Tim ahli kami yang berpengalaman akan membantu Anda menemukan kacamata yang tepat sesuai dengan kebutuhan dan gaya Anda. Kami menyediakan berbagai macam pilihan frame dan lensa modern, trendy, dan tentunya dengan harga yang bersaing. Tak hanya itu, Optikal Bahari juga menawarkan berbagai keunggulan yang membuat kami menjadi pilihan terbaik untuk memenuhi kebutuhan kacamata Anda.
     </p>
   </div>
 </div>
@@ -33,18 +33,67 @@ permalink: /optik-terdekat/
 {% include home-cards.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/bg-about.jpg" class="card-img-top" alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+  <img src="/assets/img/posts//malay-hijab-00/malay-hijab-00.jpg" class="card-img-top" alt="kacamata cicilan">
+  <div class="card-body">
+    <h3 class="card-title">
+      Optikal Bahari Memberikan Periksa Mata Gratis
+    </h3>
+    <p class="card-text">
+      Salah satu kekhawatiran utama saat mencari optik adalah biaya pemeriksaan mata. Di Optikal Bahari, Anda tidak perlu khawatir! Kami menyediakan pemeriksaan mata gratis dengan alat modern dan terkomputerisasi oleh para ahli. Tim kami yang profesional akan memastikan penglihatan mata Anda terjaga dengan baik. Pemeriksaan mata gratis ini menjadi langkah awal yang penting sebelum Anda memilih kacamata & lensa yang tepat dan sesuai dengan kebutuhan Anda. 
+    </p>  
+    <p class="card-text">
+      Pemeriksaan mata gratis ini juga bisa Anda manfaatkan untuk mengetahui apakah Anda memiliki masalah pada mata Anda. Jika ada masalah, maka tim kami akan memberikan solusi yang tepat agar Anda bisa terhindar dari gangguan kesehatan mata di masa depan. Pemeriksaan mata gratis, jadi bisa Anda manfaatkan untuk mengetahui apakah Anda memiliki masalah penglihatan. Jika ada masalah, maka tim kami akan memberikan solusi yang tepat agar Anda bisa terhindar dari gangguan penglihatan mata di masa depan.
+    </p>  
+    <h3 class="card-title">
+      Service & Reparasi Kacamata Gratis!
+    </h3>
+    <p class="card-text">
+      Tak perlu langsung membuang kacamata lama Anda yang mengalami kerusakan minor. Di Optikal Bahari, kami menyediakan layanan service & reparasi kacamata secara gratis. Tim kami yang berpengalaman dapat memperbaiki bingkai kendor, membersihkan lensa baret, dan mengembalikan kacamata Anda menjadi seperti baru lagi. Service & reparasi gratis ini tentunya membantu Anda menghemat biaya dan memaksimalkan penggunaan kacamata yang Anda miliki. 
+    </p>  
+    <p class="card-text">  
+      Dengan demikian, Anda tidak hanya dapat menghemat biaya yang mungkin dikeluarkan untuk pembelian kacamata baru, tetapi juga memastikan bahwa kacamata Anda akan kembali dalam kondisi optimal, siap untuk memberikan Anda kenyamanan dan kinerja yang Anda butuhkan. Jadi, percayakan kacamata Anda kepada kami dan nikmati layanan perbaikan yang profesional dan terpercaya, serta jangan ragu untuk memaksimalkan manfaat dari kacamata Anda yang telah Anda miliki.
+    </p>  
+  </div>
+</div>
+
+<div class="card shadow p-3 bg-white mb-5">
+  <img src="/assets/img/posts//malay-hijab-00/malay-hijab-03.jpg" class="card-img-top" alt="kacamata cicilan">
+  <div class="card-body">
+    <h3 class="card-title">
+      Tambahan Bonus Goodie Bag Menarik Optikal Bahari
+    </h3>
+    <p class="card-text">
+      Optikal Bahari memahami betapa pentingnya kacamata bagi pelajar dan mahasiswa, karena kebutuhan visual yang intensif seringkali menjadi bagian tak terpisahkan dari kegiatan akademis mereka. Oleh karena itu, kami mempersembahkan solusi yang terjangkau dan menguntungkan bagi mereka dengan menerima pembayaran menggunakan Kartu Jakarta Pintar (KJP). Dengan opsi pembayaran ini, pelajar dan mahasiswa dapat dengan mudah mendapatkan kacamata baru tanpa perlu khawatir akan biaya tambahan yang dibutuhkan. 
+    </p>  
+    <p class="card-text">
+      Namun, itu tidaklah semua! Sebagai ungkapan apresiasi kami kepada komunitas pelajar dan mahasiswa, setiap pembelian kacamata di Optikal Bahari akan disertai dengan sebuah goodie bag eksklusif yang penuh dengan kejutan menarik. Goodie bag ini berisi berbagai macam hadiah yang tidak hanya akan memberikan kesenangan, tetapi juga memberikan manfaat nyata dalam kehidupan sehari-hari Anda. Jadi, bukan hanya tentang mendapatkan kacamata baru, tetapi juga tentang pengalaman berbelanja yang menyenangkan dan bermanfaat yang hanya bisa Anda temukan di Optikal Bahari.
+    </p>
+    <h3 class="card-title">
+      Berizin Dari DinKes & Kemenkes Republik Indonesia
+    </h3>
+    <p class="card-text">
+      Menentukan optik yang telah memiliki izin resmi adalah langkah yang sangat penting dalam memastikan bahwa Anda menerima layanan dan produk berkualitas tinggi yang dapat diandalkan. Optikal Bahari dengan bangga mengumumkan bahwa kami memiliki izin praktek resmi yang diberikan oleh Dinas Kesehatan dan Kementerian Kesehatan. Izin resmi ini adalah bukti komitmen kami untuk mematuhi standar kualitas yang ketat dan memastikan bahwa setiap aspek dari layanan kami memenuhi persyaratan hukum yang ditetapkan.
+    </p>  
+    <p class="card-text">
+      Dengan memiliki izin yang sah, Anda dapat memiliki keyakinan dan ketenangan pikiran yang lebih besar saat menggunakan layanan dan produk kami. Kami memahami bahwa kepercayaan Anda sangat berharga, dan itulah sebabnya kami bertekad untuk memberikan yang terbaik dalam segala hal. Kami berkomitmen untuk terus memberikan pelayanan terbaik yang memenuhi harapan Anda dan menyediakan produk berkualitas tinggi dengan harga yang terjangkau, sehingga Anda dapat merasa puas dan percaya diri dengan pilihan yang Anda buat bersama Optikal Bahari.
+    </p>
+  </div>
+</div>
+
+
+
+<div class="card shadow p-3 bg-white mb-5">
+  <img src="/assets/img/posts//malay-hijab-00/malay-hijab-04.jpg" class="card-img-top" alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
     <h3 class="card-title">Optikal Bahari, Optik Terdekat Anda</h3>
     <p class="card-text">
-      Optikal Bahari merupakan optik yang terdekat dari Anda, yang menyediakan layanan periksa mata gratis serta memiliki banyak pilihan lensa dan frame dengan harga terjangkau dan kualitas terbaik. Kami juga menawarkan kacamata bergaransi, yang dapat dibayar melalui cicilan dengan bunga 0% dan tanpa credit card. Jangan ragu untuk mengunjungi kami di Bendungan Jago Kemayoran, Jakarta Pusat, atau hubungi kami untuk informasi lebih lanjut.
+      Optikal Bahari merupakan optik yang terdekat dari Anda, kami menyediakan layanan periksa mata gratis serta memiliki banyak pilihan lensa dan frame dengan harga terjangkau dan kualitas terbaik. Kami juga menawarkan kacamata bergaransi, yang dapat dibayar melalui cicilan dengan bunga 0% dan tanpa credit card. Jangan ragu untuk mengunjungi kami di Bendungan Jago Kemayoran, Jakarta Pusat, atau hubungi kami untuk informasi lebih lanjut.
     </p>
     <p>
-      Jangan lupa juga untuk mengikuti layanan periksa mata gratis yang kami sediakaa. Kami yakin bahwa kacamata yang kami tawarkan akan memenuhi kebutuhan dan selera keinginan Anda, dengan harga yang terjangkau dan kualitas terbaik. Segera kunjungi Optikal Bahari untuk memperoleh kemudahan dalam memiliki kacamata idaman Anda.
+      Jangan lupa juga untuk mengikuti layanan periksa mata gratis yang kami berikan. Kami yakin koleksi kacamata yang kami tawarkan akan memenuhi kebutuhan dan selera keinginan Anda, dengan harga yang terjangkau dan kualitas terbaik. Segera kunjungi Optikal Bahari untuk memperoleh kemudahan dalam memiliki kacamata idaman Anda.
     </p>
     <p>
       Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
     </p>
   </div>
 </div>
-
