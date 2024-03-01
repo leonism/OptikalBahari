@@ -8,12 +8,13 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata, cicilan, tanpa bunga, tanpa DB, bayar KJP]
-background: /assets/img/posts/033.jpg
+background: /assets/img/posts/malay-hijab-01/malay-hijab-00.jpg
 permalink: /kacamata-cicilan/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-<img src="/assets/img/posts/054.jpg" 
+<img data-src="/assets/img/posts/malay-hijab-01/malay-hijab-01.jpg"
+      src="/assets/img/posts/malay-hijab-01/malay-hijab-01.jpg" 
       class="card-img-top"
       title="kacamata cicilan di optikal bahari"
       alt="kacamata cicilan">
@@ -34,10 +35,11 @@ permalink: /kacamata-cicilan/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/053.jpg"  
-        title="kacamata cicilan di optikal bahari"
-        class="card-img-top" 
-        alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+  <img data-src="/assets/img/posts/malay-hijab-01/malay-hijab-02.jpg"
+      src="/assets/img/posts/malay-hijab-01/malay-hijab-02.jpg" 
+      title="kacamata cicilan di optikal bahari"
+      class="card-img-top" 
+      alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Cicilan Sesuai Kebutuhan
@@ -58,10 +60,11 @@ permalink: /kacamata-cicilan/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/052.jpg"
-    title="kacamata cicilan murah di jakarta"
-    class="card-img-top" 
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  <img data-src="/assets/img/posts/malay-hijab-01/malay-hijab-03.jpg"
+      src="/assets/img/posts/malay-hijab-01/malay-hijab-03.jpg" 
+      title="kacamata cicilan murah di jakarta"
+      class="card-img-top" 
+      alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
   <div class="card-body">
     <h3 class="card-title">
       Aman dari Riba ketika Beli Kacamata
