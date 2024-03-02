@@ -1,16 +1,18 @@
 <script type="application/ld+json"> 
-    { "@context": "http://schema.org", 
+    { 
+        "@context": "http://schema.org", 
         "@type": "{% if page.type %}{{ page.type }}
                 {% elsif page.is_post %}
                         BlogPosting
                             {% else %}
                         WebPage
+                            {% else %}
                 {% endif %}", 
         {% if page.title %}
-        "name": "{{ page.title }}", 
+            "name": "{{ page.title }}", 
         {% endif %} 
         {% if page.description %}
-        "description": "{{ page.description }}",
+            "description": "{{ page.description }}",
         {% endif %} 
         {% if page.author or site.author %}
         "author": { "@type": "Person", 
