@@ -7,13 +7,16 @@ keywords: 'kacamata, KJP, kartu jakarta pintar, kemayoran, kacamata cicilan, kac
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
-tags: [kacamata KJP, kemayoran, tanpa bunga, tanpa DB, bayar KJP]
-background: /assets/img/posts/043.jpg
+tags: [kacamata KJP, kemayoran, tanpa bunga, tanpa DP, bayar KJP]
+background: /assets/img/posts/malay-hijab-00/malay-hijab-01.jpg
 permalink: /optik-kacamata-kjp-kartu-jakarta-pintar/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg" class="card-img-top" alt="kacamata cicilan">
+  <img data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.jpg" 
+        src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.jpg" 
+        class="card-img-top" 
+        alt="kjp-optikalbahari.jpg">
   <div class="card-body">
     <h3 class="card-title">
       Menerima pembayaran dengan KJP (Kartu Jakarta Pintar) untuk Pembelian Kacamata & Lensa
@@ -21,19 +24,21 @@ permalink: /optik-kacamata-kjp-kartu-jakarta-pintar/
     <p class="card-text">
       Kalo kamu kebetulan tinggal atau sedang berada di daerah Kemayoran atau sekitarnya, dan kebetulan sedang mempertimbangkan utuk membeli Kacamata berhubung mungkin ukuran kamu sudah berubah atau butuh model baru karena model lama mungkin sudah bosan, mungkin boleh dicoba untuk mampir ke Optikal Bahari, di <a href="{{"/lokasi" | relative_url }}" title="Optikal Bahari, Jakarta Pusat">Jalan Bendungan Jago No 447 Kemayoran</a>, Jakarta Pusat.
     </p>
-    <p>
+    <p class="card-text">
       Cuma di Optikal Bahari dengan pengalaman selama 40 tahun yang bisa kasih kamu pelayanan pemeriksaan gratis dengan alat yang sudah modern dan terkomputerisasi. Jadi sebelum kamu memilih kacamata yang kamu suka, kami akan memberikan kamu pemeriksaan gratis tanpa adanya pungutan biaya.
     </p>
-    <p>
+    <p class="card-text">
       Jangan takut, cuma di Optikal Bahari yang punya banyak pilihan kacamata dan lensa yang beragam. Di Optikal Bahari kita selalu <em>update</em> sama perkembangan model dan gaya kacamata yang sedang trendy dikalangan anak muda, yang selalu bikin kamu bergaya sesuai dengan perkembangan jaman.
     </p>
-
   </div>
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/bg-about.jpg" class="card-img-top" alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
-  <div class="card-body">
+  <img data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.jpg" 
+        src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.jpg" 
+        class="card-img-top" 
+        alt="Optikal Bahari & Program Kartu Jakarta Pintar (KJP)">
+    <div class="card-body">
     <h3 class="card-title">
       Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan
     </h3>
@@ -53,7 +58,10 @@ permalink: /optik-kacamata-kjp-kartu-jakarta-pintar/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/bg-tips-kacamata.jpg" class="card-img-top" alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  <img data-src="/assets/img/posts/035.jpg" 
+        src="/assets/img/posts/035.jpg" 
+        class="card-img-top" 
+        alt="kjp-optikalbahari.jpg">
   <div class="card-body">
     <h3 class="card-title">
       Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini
@@ -61,16 +69,16 @@ permalink: /optik-kacamata-kjp-kartu-jakarta-pintar/
     <p class="card-text">
       Ini adalah salah satu keunikan jika kamu membeli kacamata di Optikal Bahari, yaitu aman dari riba atau DP. Biasanya sistem cicil akan dibebankan sebuah bunga yang mesti kamu bayarkan. Namun di sini kamu bisa bernafas dengan lega, tidak ada sistem bunga yang akan kamu terima.
     </p>    
-    <p>
+    <p class="card-text">
       Keunikan yang ada di sini tentu tujuannya adalah untuk memberikan kemudahan kepada setiap orang. Apalagi kacamata adalah benda penting bagi seseorang yang mengalami gangguan penglihatan. Jelas kami tidak ingin kamu mendapatkan masalah tambahan karena harus membayar sejumlah bunga dari cicilan kacamata tersebut.
     </p>    
-    <p>
+    <p class="card-text">
       Satu hal lagi yang sangat penting ketika kamu beli kacamata yang bisa nyicil di Optikal Bahari adalah menentukan pilihan. Maksudnya adalah kamu sudah mengetahui kacamata seperti apa yang kamu butuhkan dari rumah. Ini bertujuan untuk menghindari kacamata secara impulsif, atau tidak pasti.
     </p>    
-    <p>
+    <p class="card-text">
       Misalnya, ketika kamu mengalami rabun dekat maka tentukan kacamata dengan lensa apa yang sesuai. Jika tidak tahu, maka kamu bisa tanya kepada staff optik supaya diberikan informasi. Jadi kamu perlu membeli sebuah kacamata dari segi fungsi terlebih dahulu sebelum melihat bentuknya.
     </p>    
-    <p>
+    <p class="card-text">
       Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
     </p>
 </div>

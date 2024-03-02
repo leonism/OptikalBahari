@@ -15,10 +15,11 @@ permalink: /periksa-mata-di-optik/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img itemprop="image" src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg" | relative_url }}" 
-      class="card-img-top" 
-      title="Dapatkan Periksa Mata Gratis" 
-      alt="tips-kacamata-2.jpg">
+		  <img itemprop="image" 
+        src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg" | relative_url }}" 
+        class="card-img-top" 
+        title="Dapatkan Periksa Mata Gratis" 
+        alt="tips-kacamata-2.jpg">
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Anda di Optik Secara Rutin
@@ -33,19 +34,19 @@ permalink: /periksa-mata-di-optik/
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" | relative_url }}" 
-      class="card-img-top"
-      title="Hasil Pemeriksaan Cepat & Akurat"
-      alt="tips-kacamata-2.jpg">
+        class="card-img-top"
+        title="Hasil Pemeriksaan Cepat & Akurat"
+        alt="tips-kacamata-2.jpg">
       <div class="card-body">
-      <h3 class="card-title">
-        Hasil Pemeriksaan Cepat & Akurat
-      </h3>
-      <p class="card-text">
-        Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Para staff kami bertugas untuk menyiapkan kacamata berdasarkan resep dari dokter mata. Selain membuat kacamata, para staff kami juga melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.
-      </p>
-      <p>
-        Selain itu, para staff kami juga dapat memberikan layanan perawatan dan pemeliharaan kacamata kamu, seperti membersihkan lensa dan memperbaiki kerusakan pada bingkai kacamata. Jadi, jangan ragu untuk berkonsultasi dengan para staff kami di Optikal Bahari, untuk mendapatkan solusi penglihatan terbaik yang sesuai dengan kebutuhan kamu.
-      </p>
+        <h3 class="card-title">
+          Hasil Pemeriksaan Cepat & Akurat
+        </h3>
+        <p class="card-text">
+          Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Para staff kami bertugas untuk menyiapkan kacamata berdasarkan resep dari dokter mata. Selain membuat kacamata, para staff kami juga melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.
+        </p>
+        <p class="card-text">
+          Selain itu, para staff kami juga dapat memberikan layanan perawatan dan pemeliharaan kacamata kamu, seperti membersihkan lensa dan memperbaiki kerusakan pada bingkai kacamata. Jadi, jangan ragu untuk berkonsultasi dengan para staff kami di Optikal Bahari, untuk mendapatkan solusi penglihatan terbaik yang sesuai dengan kebutuhan kamu.
+        </p>
       </div>
    </div>
 </div>
