@@ -15,7 +15,7 @@ permalink: /testimoni/
 <div class="container">
 <div class="card shadow p-3 mb-5 bg-white rounded">
 <img itemprop="image" 
-        src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg" | relative_url }}" 
+        src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.jpg" | relative_url }}" 
         class="card-img-top"
         title="periksa-mata-gratis"
         alt="Periksa Mata Gratis Di Optikal Bahari">   
