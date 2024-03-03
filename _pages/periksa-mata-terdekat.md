@@ -3,7 +3,7 @@ layout: page
 title: Periksa Mata Gratis Dengan Alat Komputerisasi
 subtitle: Segera Periksakan Mata Anda
 description: Di Optikal Bahari, periksa mata dilakukan dengan alat komputer, yang akan menjanjikan hasil yang lebih akurat dibanding menggunakan alat pemeriksa analog
-keywords: 'Periksa Mata, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
+keywords: "Periksa Mata, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin"
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]

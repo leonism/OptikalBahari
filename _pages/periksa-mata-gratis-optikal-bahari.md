@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Periksa Mata Gratis Hanya Di Optikal Bahari
-subtitle: 'Menyambut Era Digital dengan Layanan Optikal Bahari yang Terdepan'
+subtitle: "Menyambut Era Digital dengan Layanan Optikal Bahari yang Terdepan"
 description: "Optik terpercaya di Jakarta menyediakan layanan periksa mata gratis. Pilihan kacamata harga terjangkau, cicilan bunga 0% tanpa Credit Card,  Menerima KJP."
-keywords: 'periksa mata, periksa mata gratis, periksa mata jakarta'
+keywords: "periksa mata, periksa mata gratis, periksa mata jakarta"
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -42,7 +42,7 @@ permalink: /periksa-mata-gratis-optikal-bahari/
                 3. Pilihan Kacamata & Lensa Terlengkap
             </h5>
             <p class="card-text">
-                Setelah proses pemeriksaan mata selesai, kami mempersembahkan beragam opsi kacamata & lensa berkualitas tinggi yang cocok dengan gaya hidup dan kebutuhan visual Anda. Kami memahami bahwa setiap individu memiliki preferensi yang berbeda, itulah mengapa kami menyediakan berbagai pilihan produk yang dirancang untuk memenuhi kebutuhan Anda secara spesifik. Dengan memilih dari koleksi kami, Anda dapat menemukan kacamata yang tidak hanya memberikan koreksi visual yang tepat, tetapi juga meningkatkan gaya dan kenyamanan Anda sehari-hari.
+                Setelah proses pemeriksaan mata selesai, kami menawarkan beragam opsi kacamata & lensa berkualitas tinggi yang cocok dengan gaya hidup dan kebutuhan penglihatan Anda. Kami memahami bahwa setiap individu memiliki preferensi yang berbeda, itulah mengapa kami menyediakan berbagai pilihan produk yang dirancang untuk memenuhi kebutuhan Anda secara spesifik. Dengan memilih dari koleksi kami, Anda dapat menemukan kacamata yang tidak hanya memberikan koreksi penglihatan yang tepat, tetapi juga meningkatkan gaya dan kenyamanan Anda sehari-hari.
             </p>
         </div>
    </div>
@@ -133,7 +133,6 @@ permalink: /periksa-mata-gratis-optikal-bahari/
         </div>
    </div>
 </div>
-
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">

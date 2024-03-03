@@ -1,24 +1,35 @@
 ---
 layout: page
-title: Kacamata Murah Di Kemayoran, Optikal Bahari Bendungan Jago Jakarta Pusat
-subtitle: 'Kacamata Murah Dan Terjangkau'
-description: Kami menyediakan Lensa dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas.
-keywords: 'kacamata murah, frame mura, kacamata, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
+title: Kacamata Murah, Periksa Mata & Service Gratis
+subtitle: "Kacamata Cicilan 0% & Bergaransi"
+description: Dapatkan Kacamata Murah, Periksa Mata & Service Gratis, Kacamata Cicilan 0% & Bergaransi Di Optikal Bahari
+keywords: "kacamata murah, Lensa Murah, Periksa Service Kacamata, Kacamata Cicilan"
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/021.jpg
+background: /assets/img/posts/sunglasses/optikal-bahari-sunglassses.jpg
 permalink: /kacamata-murah/
 ---
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+        <img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg"
+            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" 
+            class="card-img-top img-fluid"
+            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">		  
     <div class="card-body">
-      <h3 class="card-title">Kacamata Murah Dan Terjangkau</h3>
-      <p class="card-text">Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kuran jelas? Banyak hal yang bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering main handphone, sampai dengan menurunnya kapasitas penglihatan seiring dengan bertambahnya usia. Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame bingkai kacamata dari mulai harga yang terjangkau sampai dengan harga menengah ke atas. Baca lebih lanjut untuk tahu alasan kenapa beli kacamata di Optikal Bahari.</p>
-  </div>
+        <h3 class="card-title">
+            Kacamata Murah & Terjangkau
+        </h3>
+            <p class="card-text">                
+                Apakah Anda merasa penglihatan Anda mulai terganggu? Seringkali Anda mengalami pandangan kabur dan kurang jelas? Penurunan kualitas penglihatan bisa disebabkan oleh berbagai faktor, mulai dari paparan sinar blueray yang berlebihan dari pancaran layar monitor, penggunaan ponsel yang terlalu sering, hingga penurunan kapasitas penglihatan seiring bertambahnya usia. Di Optikal Bahari, kami memahami betapa pentingnya menemukan solusi yang tepat untuk menjaga penglihatan mata Anda. Kami menyediakan beragam jenis dan tipe kacamata, mulai dari harga murah terjangkau hingga kelas menengah ke atas, sesuai dengan kebutuhan dan preferensi Anda.
+            </p>
+            <p class="card-text">                
+                Kami memahami bahwa setiap orang memiliki kebutuhan yang berbeda dalam memilih kacamata yang tepat. Oleh karena itu, tim kami siap membantu Anda menemukan kacamata yang sesuai dengan gaya hidup dan kebutuhan visual Anda. Dengan pilihan bingkai kacamata yang beragam, serta lensa berkualitas tinggi, kami akan membantu Anda mendapatkan kacamata yang tidak hanya memberikan koreksi visual yang optimal, tetapi juga meningkatkan gaya dan kenyamanan Anda sehari-hari. Temukan pengalaman belanja kacamata yang memuaskan di Optikal Bahari, di mana kesehatan mata Anda menjadi prioritas utama kami.
+            </p>
+        </div>
    </div>
 </div>
 
@@ -26,13 +37,67 @@ permalink: /kacamata-murah/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+        <img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg"
+            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" 
+            class="card-img-top img-fluid"
+            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">		  
+    <div class="card-body">
+        <h3 class="card-title">
+            Periksa Mata & Service Gratis
+        </h3>
+            <p class="card-text">                
+                Apakah Anda merasa perlu melakukan pengecekan penglihatan mata? Jangan khawatir! Kami di Optikal Bahari menawarkan layanan <strong>periksa mata gratis</strong> yang dapat membantu Anda memahami kondisi visual Anda dengan lebih baik. Pemeriksaan mata yang teliti dan komprehensif akan dilakukan oleh tim profesional kami, menggunakan teknologi mutakhir untuk memastikan hasil yang akurat dan terpercaya. Kami mengundang Anda untuk datang langsung ke salah satu cabang kami dan manfaatkan kesempatan ini untuk merawat kesehatan mata Anda secara gratis.
+            </p>
+            <p class="card-text">                
+                Jangan biarkan gangguan penglihatan mengganggu aktivitas sehari-hari Anda. Segera jadwalkan periksa mata gratis di Optikal Bahari dan temukan solusi terbaik untuk kebutuhan visual Anda. Tim kami siap menyambut Anda dengan hangat dan memberikan layanan periksa mata yang komprehensif dan profesional. Jadilah proaktif dalam menjaga kesehatan mata Anda dan rasakan perbedaannya sendiri dengan Optikal Bahari. Ayo, segera kunjungi toko kami dan mulai perjalanan Anda menuju penglihatan yang lebih baik hari ini!
+            </p>
+            <p class="card-text">
+                Optikal Bahari menyediakan <strong>Service Kacamata Gratis</strong> untuk memenuhi kebutuhan Anda. Dengan layanan ini, kami akan melakukan pemeriksaan dan perawatan kacamata Anda secara profesional dan tanpa biaya tambahan. Tim ahli kami akan dengan penuh keahlian memastikan bahwa kacamata Anda berfungsi optimal dan memberikan kenyamanan maksimal saat dipakai.
+            </p>
+            <p class="card-text">
+                Jangan ragu untuk memanfaatkan layanan "Service Kacamata Gratis" kami di Optikal Bahari. Kunjungi Optikal Bahari sekarang juga dan rasakan perbedaan yang kami tawarkan untuk kacamata Anda. Dengan layanan ini, Anda tidak hanya mendapatkan pemeriksaan gratis, tetapi juga perawatan kacamata yang terbaik dari para ahli di bidangnya. Ayo, segera jadwalkan kunjungan Anda ke Optikal Bahari dan nikmati layanan eksklusif ini untuk kacamata Anda!
+            </p>
+        </div>
+   </div>
+</div>
+
+<div class="card-deck mb-3">
+  <div class="card shadow p-3 mb-5 bg-white rounded">
+        <img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg"
+            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" 
+            class="card-img-top img-fluid"
+            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">		  
+    <div class="card-body">
+        <h3 class="card-title">
+            Kacamata Cicilan 0%
+        </h3>
+            <p class="card-text">                
+                Inginkah Anda memiliki kacamata baru dengan opsi pembayaran yang lebih mudah? Kami di Optikal Bahari menawarkan promo istimewa <strong>Kacamata Cicilan 0%</strong> yang bisa menjadi solusi tepat untuk Anda. Dengan promo ini, Anda dapat memilih kacamata impian Anda tanpa harus khawatir dengan pembayaran sekaligus. Nikmati kenyamanan berbelanja dengan cicilan 0% yang kami tawarkan, sehingga Anda dapat menyesuaikan pembayaran sesuai dengan kebutuhan dan kenyamanan Anda.
+            </p>
+            <p class="card-text">                
+                Jangan lewatkan kesempatan ini untuk memiliki kacamata baru dengan cara yang lebih terjangkau dan mudah. Kunjungi salah satu cabang Optikal Bahari sekarang juga dan manfaatkan promo "Kacamata Cicilan 0%" kami. Tim profesional kami akan dengan senang hati membantu Anda menemukan kacamata yang sesuai dengan gaya dan kebutuhan Anda. Segera raih kenyamanan dan gaya dengan kacamata baru Anda tanpa harus memikirkan pembayaran sekarang juga. Ayo, jadwalkan kunjungan Anda ke Optikal Bahari dan temukan kacamata impian Anda dengan cicilan 0% yang menarik ini.
+            </p>
+        </div>
+   </div>
+</div>
+
+<div class="card-deck mb-3">
+  <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
     <div class="card-body">
-      <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
-      <p class="card-text">Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
-    <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond
-    yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
-    <em>(Optikal Bahari)</em></p>
+        <h3 class="card-title">
+            Kunjungi Optikal Bahari
+        </h3>
+            <p class="card-text">
+                Jangan sia-siakan kesempatan ini! Langsung saja kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat sekarang juga! Di sini, Anda akan menemukan tidak hanya kacamata impian Anda, tetapi juga banyak kemudahan pembayaran yang tidak akan Anda temukan di tempat lain. Dapatkan pengalaman berbelanja yang tak terlupakan dengan harga yang terjangkau, hanya di Optikal Bahari.
+            </p>
+            <p class="card-text">
+                Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari
+                </a> supaya selalu update informasi terkait layanan terbaru dari kami. Punya pertanyan lainnya? Silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
+                <em>(Optikal Bahari)</em>
+            </p>
 	</div>
    </div>
 </div>
