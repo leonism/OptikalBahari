@@ -10,5 +10,19 @@
     "workbench.editor.revealIfOpen": true,
     "workbench.list.horizontalScrolling": true,
     "html.format.indentHandlebars": true,
-    "prettier.bracketSameLine": true
+    "prettier.bracketSameLine": true,
+
+    "[jekyll]": {
+        "editor.quickSuggestions": true,
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "on",
+        "editor.renderWhitespace": "all",
+        "editor.acceptSuggestionOnEnter": "off"
+    },
+    "files.associations": {
+        "*.md": "jekyll",
+        "*.markdown": "jekyll",
+        "*.html": "jekyll",
+        "*.liquid": "jekyll",
+    }
 }

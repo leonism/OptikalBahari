@@ -2,8 +2,8 @@
 layout: page
 title: Periksa Mata Gratis Hanya Di Optikal Bahari
 subtitle: "Menyambut Era Digital dengan Layanan Optikal Bahari yang Terdepan"
-description: "Optik terpercaya di Jakarta menyediakan layanan periksa mata gratis. Pilihan kacamata harga terjangkau, cicilan bunga 0% tanpa Credit Card,  Menerima KJP."
-keywords: "periksa mata, periksa mata gratis, periksa mata jakarta"
+description: "Optik Terpercaya di Jakarta, Melayani Periksa Mata & Service gratis. Pilihan Kacamata Terjangkau, Cicilan Bunga 0%, Tanpa Credit Card & Menerima KJP."
+keywords: "periksa mata, periksa mata gratis, periksa mata jakarta, periksa mata & service gratis"
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -17,8 +17,8 @@ permalink: /periksa-mata-gratis-optikal-bahari/
 		<img data-src="/assets/img/posts/mexican-02-min/mexican-01-min.jpg"
             src="/assets/img/posts/mexican-02-min/mexican-01-min.jpg" 
             class="card-img-top img-fluid"
-            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
+            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
         <div class="card-body">
             <h3 class="card-title">
                 Periksa Mata Gratis Di Optikal Bahari
@@ -27,19 +27,19 @@ permalink: /periksa-mata-gratis-optikal-bahari/
                 Di tengah perubahan zaman yang semakin digital, kesehatan mata menjadi perhatian utama. Layar gadget telah menjadi bagian tak terpisahkan dari kehidupan kita, dari pekerjaan hingga hiburan. Namun, sering terpaparnya mata pada layar dapat menimbulkan gangguan mata yang serius. Untuk menjaga kesehatan mata Anda dalam era digital ini, Optikal Bahari menawarkan <strong>periksa mata gratis</strong> serta solusi penglihatan terdepan.
             </p>
             <h5 class="card-title">
-                1. Pemeriksaan Menyeluruh
+                1. Pemeriksaan Mata Menyeluruh
             </h5>
             <p class="card-text">
                 Optikal Bahari menawarkan layanan pemeriksaan mata gratis yang komprehensif dengan memanfaatkan teknologi terkini. Tim profesional kami akan melakukan evaluasi menyeluruh terhadap penglihatan mata Anda untuk mengidentifikasi gangguan atau masalah mata dengan tingkat akurasi yang tepat. Kami memastikan setiap detail pemeriksaaan diperhatikan dengan cermat demi pengliahtan mata Anda. Dengan pendekatan yang teliti dan perangkat mutakhir, kami berkomitmen untuk memberikan layanan pemeriksaan mata yang terbaik untuk Anda.
             </p>
             <h5 class="card-title">
-                2. Layanan Terbaik
+                2. Layanan & Kualitas Terbaik
             </h5>
             <p class="card-text">
                 Tim Optikal Bahari terdiri dari sekelompok ahli optometris yang berpengalaman dan bersahabat. Kami telah lama berdedikasi dalam memberikan solusi terbaik untuk kebutuhan mata Anda. Dengan pendekatan yang ramah dan profesional, kami siap membantu Anda mencapai kesehatan mata yang optimal. Setiap langkah pelayanan kami didasarkan pada pengalaman dan pengetahuan yang luas, serta kepedulian yang tulus terhadap kesejahteraan penglihatan Anda.
             </p>
             <h5 class="card-title">
-                3. Pilihan Kacamata & Lensa Terlengkap
+                3. Koleksi Kacamata & Lensa Terlengkap
             </h5>
             <p class="card-text">
                 Setelah proses pemeriksaan mata selesai, kami menawarkan beragam opsi kacamata & lensa berkualitas tinggi yang cocok dengan gaya hidup dan kebutuhan penglihatan Anda. Kami memahami bahwa setiap individu memiliki preferensi yang berbeda, itulah mengapa kami menyediakan berbagai pilihan produk yang dirancang untuk memenuhi kebutuhan Anda secara spesifik. Dengan memilih dari koleksi kami, Anda dapat menemukan kacamata yang tidak hanya memberikan koreksi penglihatan yang tepat, tetapi juga meningkatkan gaya dan kenyamanan Anda sehari-hari.

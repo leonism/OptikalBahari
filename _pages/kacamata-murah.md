@@ -62,6 +62,8 @@ permalink: /kacamata-murah/
    </div>
 </div>
 
+{% include home-cards-glasses.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg"
