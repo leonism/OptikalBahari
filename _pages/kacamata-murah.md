@@ -17,8 +17,8 @@ permalink: /kacamata-murah/
         <img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg"
             src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" 
             class="card-img-top img-fluid"
-            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">		  
+            title="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
+            alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame">		  
     <div class="card-body">
         <h3 class="card-title">
             Kacamata Murah & Terjangkau

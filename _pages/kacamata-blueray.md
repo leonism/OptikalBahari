@@ -3,7 +3,7 @@ layout: page
 title: Mamfaat Kacamata Blueray
 subtitle: Jenis Kacamata Blueray Beserta Dengan Mamfaatnya.
 description: Dapatkan Kacamata Bluray hanya di Optikal Bahari dengan berbagai macam diskon dan layanan extra tambahan lainnya, kunjungi segera Optikal Bahari.
-keywords: 'blue ray, blueray, kacamata blue ray'
+keywords: "blue ray, blueray, kacamata blue ray"
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -13,7 +13,9 @@ permalink: /kacamata-blueray/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/048.jpg" class="card-img-top" alt="kacamata cicilan">
+  <img src="/assets/img/posts/048.jpg" 
+    class="card-img-top" 
+    alt="kacamata cicilan">
   <div class="card-body">
     <h3 class="card-title">
       Apa itu Kacamata Blue Ray
@@ -33,6 +35,7 @@ permalink: /kacamata-blueray/
     <p>
       Paparan sinar radiasi yang berasal dari perangkat elektronik dapat membuat mata merah, kering, lelah, dan memburam jika terpapar dalam jangka panjang. Salah satu cara yang sering direkomendasikan untuk mengatasi masalah ini adalah dengan menggunakan kacamata antiradiasi atau kacamata blue ray.
     </p>
+
   </div>
 </div>
 
@@ -49,7 +52,7 @@ permalink: /kacamata-blueray/
     
     <p>
       Selain itu, kacamata blu ray juga mampu mengurangi glare dan refleksi, sehingga Anda akan lebih nyaman saat menggunakannya, terutama saat di luar ruangan. Kacamata ini juga sangat berguna bagi Anda yang sering melakukan aktivitas outdoor, seperti berolahraga atau berkendara. Namun, jika Anda memiliki masalah penglihatan seperti rabun jauh atau rabun dekat, Anda sebaiknya membeli kacamata blu ray yang telah dilengkapi dengan lensa koreksi. Beberapa merk kacamata blu ray menyediakan pilihan lensa koreksi yang bisa disesuaikan dengan kebutuhan Anda.
-    </p>  
+    </p>
 
   </div>
 </div>
