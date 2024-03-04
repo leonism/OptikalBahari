@@ -23,7 +23,7 @@ permalink: /periksa-mata-gratis/
         Periksa Mata Gratis
       </h3>
         <p class="card-text">
-          Menurut penelitian para ahli medis, menjaga kesehatan mata adalah langkah penting yang harus dilakukan secara rutin. Idealnya, Anda disarankan untuk melakukan pemeriksaan mata setiap 6 bulan sekali, agar perubahan-perubahan yang mungkin terjadi pada kesehatan mata Anda dapat terdeteksi secara dini. Jangan biarkan waktu terus berlalu tanpa memperhatikan kesehatan penglihatan Anda. Optikal Bahari siap membantu Anda merawat kesehatan mata Anda dengan cek rutin yang berkualitas.
+          Menurut penelitian para ahli medis, menjaga kesehatan mata adalah langkah penting yang harus dilakukan secara rutin. Idealnya, Anda disarankan untuk melakukan <strong>pemeriksaan mata setiap 6 bulan sekali</strong>, agar perubahan-perubahan yang mungkin terjadi pada kesehatan mata Anda dapat terdeteksi secara dini. Jangan biarkan waktu terus berlalu tanpa memperhatikan kesehatan penglihatan Anda. Optikal Bahari siap membantu Anda merawat kesehatan mata Anda dengan cek rutin yang berkualitas.
         </p>
         <p class="card-text">
           Di Optikal Bahari, kami menghadirkan pengalaman pemeriksaan mata yang canggih dan nyaman. Proses pemeriksaan dilakukan secara digital dan terkomputerisasi, memastikan hasil pemeriksaan yang lebih akurat, presisi dan terpercaya. Dengan teknologi terkini yang kami miliki, Anda dapat merasa yakin bahwa kesehatan & penglihatan mata Anda dalam keadaan optimal.
@@ -89,10 +89,10 @@ permalink: /periksa-mata-gratis/
             Pada proses kedua, Optikal Bahari menggunakan teknologi <strong>phoropter</strong> terbaru. Melalui proses pemeriksaan yang cepat dan akurat, kami memastikan bahwa Anda tidak hanya mendapatkan hasil yang optimal, tetapi juga merasa nyaman dan percaya diri untuk selanjutnya memilih kacamata atau lensa yang sesuai dengan kebutuhan Anda. Phoropter memungkinkan Anda untuk merasakan langsung perbedaan kekuatan penglihatan dari berbagai ukuran lensa, memberikan Anda pengalaman yang interaktif dan informatif.
           </p>
           <p class="card-text">
-            Ketika Anda melangkah ke dalam lokasi Optikal Bahari, kami tidak hanya menawarkan produk, tetapi juga sebuah pengalaman yang memikat. Tim kami akan dengan senang hati membimbing Anda melalui proses pemilihan kacamata atau lensa dengan penuh perhatian dan keahlian. Kami memahami bahwa setiap individu memiliki kebutuhan yang unik, dan itulah mengapa kami berkomitmen untuk memberikan solusi yang sesuai dengan kebutuhan Anda.
+            Ketika Anda melangkah ke dalam <a href="{{"/lokasi/" | relative_url }}" title="lokasi Optikal Bahari">lokasi Optikal Bahari</a>, kami tidak hanya menawarkan produk & layanan, tetapi juga sebuah pengalaman yang memikat. Tim kami akan dengan senang hati membimbing Anda melalui proses pemilihan kacamata atau lensa dengan penuh perhatian dan keahlian. Kami memahami bahwa setiap individu memiliki kebutuhan yang unik, dan itulah mengapa kami berkomitmen untuk memberikan solusi yang sesuai dengan kebutuhan Anda.
           </p>
           <p class="card-text">
-            Jangan lewatkan kesempatan untuk menjelajahi berbagai pilihan kacamata dan lensa di Optikal Bahari. Temukan gaya yang mencerminkan kepribadian Anda dan memberikan kenyamanan maksimal dalam setiap aktivitas sehari-hari. Kunjungi kami hari ini dan rasakan sendiri betapa menyenangkan dan bermanfaatnya pengalaman memilih kacamata atau lensa di toko kami.
+            Jangan lewatkan kesempatan untuk menjelajahi berbagai pilihan kacamata dan lensa di Optikal Bahari. Temukan gaya yang mencerminkan kepribadian Anda dan memberikan kenyamanan maksimal dalam setiap aktivitas sehari-hari. Kunjungi kami hari ini dan rasakan sendiri betapa menyenangkan dan bermanfaatnya pengalaman memilih kacamata atau lensa di Optikal Bahari.
           </p>
       </div>
    </div>
