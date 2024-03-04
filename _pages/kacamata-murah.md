@@ -96,8 +96,7 @@ permalink: /kacamata-murah/
                 Jangan sia-siakan kesempatan ini! Langsung saja kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat sekarang juga! Di sini, Anda akan menemukan tidak hanya kacamata impian Anda, tetapi juga banyak kemudahan pembayaran yang tidak akan Anda temukan di tempat lain. Dapatkan pengalaman berbelanja yang tak terlupakan dengan harga yang terjangkau, hanya di Optikal Bahari.
             </p>
             <p class="card-text">
-                Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari
-                </a> supaya selalu update informasi terkait layanan terbaru dari kami. Punya pertanyan lainnya? Silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
+                Jadi tunggu apa lagi, segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata & lensa idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">facebook @optikalbahari</a> agar selalu update informasi terkait layanan terbaru dari kami. Punya pertanyan lainnya, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
                 <em>(Optikal Bahari)</em>
             </p>
 	</div>
@@ -120,7 +119,9 @@ permalink: /kacamata-murah/
                     {{ post.description | strip_html | truncatewords: 20 }}.
                 </p>
                 <p class="card-text">
-                    <a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya</a>
+                    <a class="btn btn-primary rounded-pill" 
+                        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya
+                    </a>
                 </p>
             </div>
             <div class="card-footer">
