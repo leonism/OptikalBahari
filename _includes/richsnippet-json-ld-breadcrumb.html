@@ -2,11 +2,12 @@
   {
     "@context": "http://schema.org",
     "@type": "{% if page.type %} {{ page.type }}
-  {% elsif page.is_post %}
-    BlogPosting
-                                {% else %}WebPage
-                             {% else %}
-    {% endif %}",
+    {% elsif page.is_post %}
+      BlogPosting
+            {% else %}
+        WebPage
+            {% else %}
+      {% endif %}",
     {% if page.title %}
       "name" : "{{ page.title }}",
       {% endif %}
@@ -57,18 +58,3 @@
                   "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
                 }
 </script>
-
-{% comment %} <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": " WebPage ",
-        "name": "Kacamata Retro Mengapa Tren ini Kembali Populer?",
-        "description": "Kacamata retro, mengapa tren ini kembali populer dan bagaimana cara memadukannya dengan gaya keseharian Anda? Berikut adalah tips and trik dalam penerapannya",
-        "author": {
-          "@type": "Person",
-          "name": " Optikal Bahari "
-        },
-        "dateCreated": "2022-12-17 00:25:23 +0000",
-        "url": "https://optikalbahari.com /kacamata-retro-kembali-populer/"
-      }
-</script> {% endcomment %}
