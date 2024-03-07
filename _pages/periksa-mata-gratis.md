@@ -35,7 +35,7 @@ permalink: /periksa-mata-gratis/
           Optikal Bahari menghadirkan <strong>pemeriksaan mata gratis</strong> yang dilakukan secara <strong>dua tahap</strong> untuk memastikan hasil yang akurat dan terpercaya. Pada <strong>tahap pertama</strong>, kami menggunakan <strong>autorefractometer</strong>, alat modern yang memberikan hasil analisis dini secara otomatis. Alat ini akan mengukur kelainan refraksi mata, seperti rabun jauh, rabun dekat, dan astigmatisme.
         </p>
         <p class="card-text">
-          Pada <strong>tahap kedua</strong>, kami menggunakan <strong>phoroptor</strong>, alat yang memungkinkan Anda untuk menjawab langsung berbagai tes penglihatan mata. Tes ini akan membantu optometris Optikal Bahari untuk mendiagnosa kondisi mata Anda dengan lebih presisi. Kombinasi dari dua proses ini memastikan bahwa Anda mendapatkan <strong>pemeriksaan mata</strong> yang komprehensif dan akurat.
+          Pada <strong>tahap kedua</strong>, kami menggunakan <strong>phoroptor</strong>, alat yang memungkinkan Anda untuk menjawab langsung berbagai tes penglihatan mata. Tes ini akan membantu optometris Optikal Bahari untuk mendiagnosa kondisi mata Anda dengan lebih presisi. Kombinasi dari dua proses ini memastikan bahwa Anda mendapatkan hasil <strong>pemeriksaan mata</strong> yang komprehensif dan akurat.
         </p>        
     </div>
   </div>  
@@ -73,7 +73,7 @@ permalink: /periksa-mata-gratis/
           Proses Pertama: Menggunakan Autorefractometer 
         </h3>
           <p class="card-text">
-            Pada <strong>proses pertama</strong> kami menggunakan <strong>autorefraktometer</strong>, alat yang digunakan dalam optometri untuk mengukur tingkat <italic>kesalahan refraktif</italic> mata terhadap daya penglihatan seseorang. Alat ini bekerja dengan memeriksa cahaya yang masuk ke mata dan menghitung apakah ada kesalahan dalam cara mata merefleksikan fokus cahaya. Semua dilakukan dengan melihat bagaimana cahaya berpindah melalui mata Anda dan mencari perbedaan dengan apa yang seharusnya terjadi terhadap mata normal.
+            Pada <strong>proses pertama</strong> kami menggunakan <strong>autorefraktometer</strong>, alat yang digunakan dalam optometri untuk mengukur tingkat <italic>kesalahan refraktif</italic> mata terhadap daya penglihatan seseorang. Alat ini bekerja dengan memeriksa cahaya yang masuk ke mata dan menghitung apakah ada kesalahan dalam cara mata merefleksikan fokus cahaya. Semua dilakukan dengan melihat bagaimana cahaya berpindah dan mencari perbedaan dengan apa yang seharusnya terjadi terhadap mata normal.
           </p>
           <p class="card-text">
             Di Optikal Bahari, kami menggunakan <strong>autorefraktometer</strong> untuk mendapatkan hasil pemeriksaan mata dengan cepat & obyektif terhadap daya penglihatan seseorang, sebelum pada akhirnya melakukan diagnosa lebih dalam. Dari hasil pengukuran refraktif mata, kami akan mendeteksi gejala lainnya seperti rabun jauh, rabun dekat, dan astigmatisme. Autorefraktometer membantu optometris Optikal Bahari dalam menentukan ukuran lensa yang paling sesuai yang akan digunakan.
