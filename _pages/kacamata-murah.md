@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Kacamata Murah, Periksa Mata & Service Gratis
-subtitle: "Kacamata Cicilan 0% & Bergaransi"
-description: Dapatkan Kacamata Murah, Periksa Mata & Service Gratis, Kacamata Cicilan 0% & Bergaransi Di Optikal Bahari
-keywords: "kacamata murah, Lensa Murah, Periksa Service Kacamata, Kacamata Cicilan"
+subtitle: "Cicilan 0%, Bergaransi & Terima KJP"
+description: Dapatkan Kacamata Murah, Periksa Mata & Service Gratis, Kacamata Cicilan 0%, Bergaransi & Terima KJP
+keywords: "Kacamata murah, Lensa Murah, Periksa Service Kacamata, Kacamata Cicilan"
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
