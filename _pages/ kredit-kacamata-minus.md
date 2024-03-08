@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Kredit Kacamata Minus Di Optikal Bahari
-subtitle: 'Murah dan Terjangkau, Cicilan Bebas Bunga, Tanpa Credit Card & Bergaransi'
+subtitle: "Murah dan Terjangkau, Cicilan Bebas Bunga, Tanpa Credit Card & Bergaransi"
 description: Temukan solusi untuk membeli kacamata berkualitas dengan harga terjangkau di Optikal Bahari. Kami menyediakan layanan pembelian kacamata dengan cara kredit, serta memiliki banyak pilihan lensa dan frame dengan harga yang terjangkau
-keywords: 'kredit kacamata, terdekat, cicilan, bunga 0%'
+keywords: "kredit kacamata, terdekat, cicilan, bunga 0%"
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -15,7 +15,7 @@ permalink: /kredit-kacamata-minus/
 <div class="card-deck mb-3">
 	<div class="card shadow p-3 mb-5 bg-white rounded">
 		<img
-			src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg' | relative_url }}"
+			src="{{'/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg' | relative_url }}"
 			class="card-img-top"
 			title="kredit kacamata minus di Optikal Bahari"
 			alt="tips-kacamata-2.jpg"
@@ -54,7 +54,6 @@ permalink: /kredit-kacamata-minus/
     </p>
   </div>
 </div>
-
 
 <div class="card-deck mb-3">
 	<div class="card shadow p-3 mb-5 bg-white rounded">
@@ -124,4 +123,3 @@ permalink: /kredit-kacamata-minus/
 		{% endfor %}
 	</div>
 </section> -->
-
