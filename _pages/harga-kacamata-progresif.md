@@ -86,7 +86,7 @@ permalink: /lp/harga-kacamata-progresif/
       src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-20.jpg"
       class="card-img-top img-fluid"
       alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!" />
-    <div class="card-body">        
+    <div class="card-body">
       <h3 class="card-title">
         Kunjungi Optikal Bahari Sekarang
       </h3>
