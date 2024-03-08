@@ -50,14 +50,14 @@ permalink: /harga-kacamata-optik-baca-autofokus-progresif/
             Koleksi Kacamata yang Luar Biasa di Optikal Bahari
         </h3>
             <p class="card-text">
-                Ingin menemukan kacamata yang tidak hanya menambah gaya Anda, tetapi juga memberikan kenyamanan sepanjang hari? Di Optikal Bahari, kami memahami bahwa setiap orang memiliki kebutuhan dan preferensi yang berbeda. Dengan fokus pada kata kunci seperti "harga kacamata auto fokus" dan "harga kacamata progresif", kami akan membawa Anda dalam petualangan untuk menemukan kacamata yang sesuai dengan gaya hidup Anda.
+                Ingin menemukan kacamata yang tidak hanya menambah gaya Anda, tetapi juga memberikan kenyamanan sepanjang hari? Di Optikal Bahari, kami memahami bahwa setiap orang memiliki kebutuhan dan preferensi yang berbeda. Tidak hanya Optikal Bahari mempunyai koleksi <strong>harga kacamata auto fokus</strong> dan "harga kacamata progresif yang terjangkau, tetapi kami juga akan membawa Anda dalam petualangan untuk menemukan kacamata yang sesuai dengan gaya hidup Anda sheari-hari.
             </p>
             <p class="card-text">
                 Dari kacamata dengan teknologi auto fokus yang revolusioner hingga lensa progresif yang memberikan pengalaman visual yang luar biasa, koleksi kami tidak akan membuat Anda kecewa. Dengan berbagai pilihan warna, bentuk, dan desain, Anda akan menemukan kacamata yang memenuhi kebutuhan Anda, baik itu untuk kegiatan sehari-hari maupun acara khusus.
             </p>
             <p class="card-text">
                 Jadi, siap untuk terpesona oleh koleksi kacamata terbaik di Optikal Bahari? Mari kita mulai menjelajahi dan temukan kacamata yang tidak hanya memikat hati, tetapi juga memberikan kenyamanan tak tertandingi untuk setiap momen dalam hidup Anda!
-            </p>        
+            </p>
         </div>
    </div>
 </div>
@@ -76,14 +76,11 @@ permalink: /harga-kacamata-optik-baca-autofokus-progresif/
             Ini Rahasia Harga Kacamata Auto Fokus yang Membuat Anda Terkesima
         </h3>
             <p class="card-text">
-                Kenyamanan penglihatan adalah hal yang sangat penting, terutama dalam kegiatan sehari-hari. Di Optikal Bahari, kami tidak hanya menawarkan kacamata dengan teknologi auto fokus yang mengagumkan, tetapi juga memberikan harga yang tidak akan membuat dompet Anda menangis. Dengan kata kunci seperti "harga kacamata auto fokus" dan "harga kacamata progresif" menjadi fokus utama, kami akan membawa Anda melalui dunia kacamata yang memanjakan mata Anda.
+                Kenyamanan penglihatan adalah hal yang sangat penting, terutama dalam kegiatan sehari-hari. Di Optikal Bahari, kami tidak hanya menawarkan kacamata dengan teknologi auto fokus yang mengagumkan, tetapi juga memberikan harga yang tidak akan membuat dompet Anda menangis. Optikal Bahari memiliki koleksi <strong>harga kacamata auto fokus</strong> dan <strong>harga kacamata progresif</strong> yang terjangkau, kami akan membawa Anda melalui dunia kacamata yang memanjakan mata Anda.
             </p>
             <p class="card-text">
                 Kacamata dengan teknologi auto fokus memastikan penglihatan Anda tetap tajam dan jernih dalam berbagai kondisi pencahayaan. Anda tidak perlu lagi mengkhawatirkan ketajaman penglihatan saat berada di dalam ruangan atau di luar ruangan. Selain itu, dengan harga yang terjangkau, Anda dapat merasakan kenyamanan visual yang luar biasa tanpa perlu membayar mahal.
-            </p>
-            <p class="card-text">
-                Kacamata dengan teknologi auto fokus memastikan penglihatan Anda tetap tajam dan jernih dalam berbagai kondisi pencahayaan. Anda tidak perlu lagi mengkhawatirkan ketajaman penglihatan saat berada di dalam ruangan atau di luar ruangan. Selain itu, dengan harga yang terjangkau, Anda dapat merasakan kenyamanan visual yang luar biasa tanpa perlu membayar mahal.
-            </p>
+            </p>            
             <p class="card-text">
                 Jadi, siap untuk menemukan kacamata yang tidak hanya memberikan kualitas visual yang optimal, tetapi juga memberikan kenyamanan tak tertandingi? Mari kunjungi Optikal Bahari dan temukan rahasia di balik kacamata auto fokus dan progresif yang membuat Anda terkesima!
             </p>
@@ -103,7 +100,7 @@ permalink: /harga-kacamata-optik-baca-autofokus-progresif/
             Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!
         </h3>
             <p class="card-text">
-                Tidak ingin lagi beralih antara kacamata untuk melihat dekat dan jauh? Lensa progresif adalah jawabannya! Di Optikal Bahari, kami memahami betapa pentingnya kenyamanan penglihatan dalam kehidupan sehari-hari Anda. Dengan kata kunci seperti "harga kacamata progresif", kami membawa Anda dalam perjalanan untuk menemukan solusi terbaik untuk penglihatan Anda.
+                Tidak ingin lagi beralih antara kacamata untuk melihat dekat dan jauh? Lensa progresif adalah jawabannya! Di Optikal Bahari, kami memahami betapa pentingnya kenyamanan penglihatan dalam kehidupan sehari-hari Anda. Optikal Bahari memiliki koleksi <strong>harga kacamata progresif</strong>, kami membawa Anda dalam perjalanan untuk menemukan solusi terbaik untuk penglihatan Anda.
             </p>
             <p class="card-text">
                 Lensa progresif tidak hanya memungkinkan Anda melihat dengan jelas pada berbagai jarak, tetapi juga memberikan kenyamanan tanpa harus menukar kacamata. Dengan berbagai pilihan frame yang sesuai dengan gaya Anda, Anda dapat memilih kacamata progresif yang tidak hanya memberikan kualitas visual yang optimal, tetapi juga meningkatkan penampilan Anda.
@@ -127,7 +124,7 @@ permalink: /harga-kacamata-optik-baca-autofokus-progresif/
             Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!
         </h3>
             <p class="card-text">
-                Apakah Anda sering merasa kesulitan saat membaca teks kecil? Atau mungkin Anda mencari solusi yang nyaman untuk membantu Anda membaca dengan jelas? Optikal Bahari memiliki jawabannya! Dengan fokus pada kata kunci seperti "harga kacamata baca", kami akan membuka rahasia di balik kenyamanan dan kualitas yang ditawarkan oleh kacamata baca kami.
+                Apakah Anda sering merasa kesulitan saat membaca teks kecil? Atau mungkin Anda mencari solusi yang nyaman untuk membantu Anda membaca dengan jelas? Optikal Bahari memiliki jawabannya! Optikal Bahari memiliki koleksi <strong>harga kacamata baca</strong>, kami akan membuka rahasia di balik kenyamanan dan kualitas yang ditawarkan oleh kacamata baca kami.
             </p>
             <p class="card-text">
                 Kacamata baca kami dirancang khusus untuk memberikan Anda pengalaman membaca yang nyaman dan jelas. Dengan berbagai pilihan lensa dan frame yang sesuai dengan kebutuhan Anda, Anda dapat menemukan kacamata baca yang tidak hanya memberikan kenyamanan maksimal, tetapi juga meningkatkan efisiensi saat membaca.
@@ -150,9 +147,6 @@ permalink: /harga-kacamata-optik-baca-autofokus-progresif/
         <h3 class="card-title">
             Inilah yang Anda Cari! Temukan Berbagai Keuntungan dan Penawaran Spesial dari Optikal Bahari!
         </h3>
-            <p class="card-text">
-                Selain koleksi kacamata yang mengagumkan, Optikal Bahari juga menawarkan berbagai keuntungan yang tidak boleh Anda lewatkan! Dengan kata kunci seperti "cicilan tanpa bunga" dan "bayar pakai KJP" menjadi fokus utama, kami akan membongkar rahasia di balik penawaran luar biasa kami.
-            </p>
             <p class="card-text">
                 Dengan program cicilan tanpa bunga dan riba, Anda dapat memiliki kacamata impian Anda tanpa harus membebani dompet Anda. Selain itu, bagi pelajar yang memiliki Kartu Jakarta Pintar (KJP), kini Anda dapat menggunakan KJP untuk pembelian kacamata di Optikal Bahari, tanpa perlu khawatir tentang biaya tambahan.
             </p>

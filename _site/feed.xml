@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-08T06:47:06+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Optikal Bahari</title><subtitle>Optik Pertama &amp; Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% &amp; Menerima KJP</subtitle><author><name>Optikal Bahari</name></author><entry xml:lang="id-ID"><title type="html">8 Merk Frame Kacamata Terkenal Dunia</title><link href="http://localhost:4000/8-merk-kacamata-terkenal-dunia/" rel="alternate" type="text/html" title="8 Merk Frame Kacamata Terkenal Dunia" /><published>2022-12-19T07:25:23+07:00</published><updated>2022-12-19T07:25:23+07:00</updated><id>http://localhost:4000/8-merk-kacamata-terkenal-dunia</id><content type="html" xml:base="http://localhost:4000/8-merk-kacamata-terkenal-dunia/"><![CDATA[<div class="card-deck mb-3">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-08T09:20:51+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Optikal Bahari</title><subtitle>Optik Pertama &amp; Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% &amp; Menerima KJP</subtitle><author><name>Optikal Bahari</name></author><entry xml:lang="id-ID"><title type="html">8 Merk Frame Kacamata Terkenal Dunia</title><link href="http://localhost:4000/8-merk-kacamata-terkenal-dunia/" rel="alternate" type="text/html" title="8 Merk Frame Kacamata Terkenal Dunia" /><published>2022-12-19T07:25:23+07:00</published><updated>2022-12-19T07:25:23+07:00</updated><id>http://localhost:4000/8-merk-kacamata-terkenal-dunia</id><content type="html" xml:base="http://localhost:4000/8-merk-kacamata-terkenal-dunia/"><![CDATA[<div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.jpg"
@@ -390,17 +390,19 @@
 
             <section id="KenapaOptikalBahari">
   <div class="card-deckrow mb-3 card-deck">
-    
+
     <!-- start the Periksa Mata -->
     <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-      <a href="/periksa-mata-gratis/" 
-        role="button" 
+      <a
+        href="/periksa-mata-gratis/"
+        role="button"
         title="Periksa Mata Gratis">
-        <img data-src="/assets/img/bg-about.jpg" 
-              src="/assets/img/bg-about.jpg" 
-              class="card-img-top img-fluid"
-              title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
-              alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+        <img
+          data-src="/assets/img/bg-about.jpg"
+          src="/assets/img/bg-about.jpg"
+          class="card-img-top img-fluid"
+          title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
+          alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
       </a>
       <div class="card-body">
         <h5 class="card-title align-middle">
@@ -411,9 +413,10 @@
           Lakukan pemeriksaan mata teratur, agar terdeteksi segala keluhan dan perubahan ukuran mata.
         </p>
         <p>
-          <a href="/periksa-mata-gratis/" 
+          <a
+            href="/periksa-mata-gratis/"
             class="btn btn-primary rounded-pill align-text-bottom text-decoration-none"
-            role="button" 
+            role="button"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
             Lebih Lanjut
           </a>
@@ -424,11 +427,15 @@
 
     <!-- start the Cicilan -->
     <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-      <a href="/kacamata-cicilan/" role="button" title="Kacamata Cicilan 0%">
-        <img data-src="/assets/img/bg-index-arch-1.jpg" 
-          src="/assets/img/bg-index-arch-1.jpg" 
+      <a
+        href="/kacamata-cicilan/"
+        role="button"
+        title="Kacamata Cicilan 0%">
+        <img
+          data-src="/assets/img/bg-index-arch-1.jpg"
+          src="/assets/img/bg-index-arch-1.jpg"
           class="card-img-top img-fluid"
-          title="Kacamata Cicilan 0%" 
+          title="Kacamata Cicilan 0%"
           alt="Kacamata Cicilan 0%">
       </a>
       <div class="card-body">
@@ -440,8 +447,9 @@
           Beli Kacamata Nyicil, Bayar Bulanan, Tanpa DP, Tanpa Credit Card dan Tanpa Bunga
         </p>
         <p>
-          <a href="/kacamata-cicilan/" 
-            class="btn btn-primary rounded-pill text-decoration-none" 
+          <a
+            href="/kacamata-cicilan/"
+            class="btn btn-primary rounded-pill text-decoration-none"
             role="button"
             title="Program Kacamata Cicilan Tanpa Bunga">
             Lebih Lanjut
@@ -453,11 +461,14 @@
 
     <!-- start the bayar KJP -->
     <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-      <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" role="button"
+      <a
+        href="/optikal-bahari-kjp-kartu-jakarta-pintar/"
+        role="button"
         title="Menerima Pembayaran KJP">
-        <img data-src="/assets/img/bg-kjp.jpg" 
-          src="/assets/img/bg-kjp.jpg" 
-          class="card-img-top img-fluid" 
+        <img
+          data-src="/assets/img/bg-kjp.jpg"
+          src="/assets/img/bg-kjp.jpg"
+          class="card-img-top img-fluid"
           title="Menerima Pembayaran KJP"
           alt="Menerima Pembayaran KJP">
       </a>
@@ -470,16 +481,17 @@
           Kami menerima bentuk pembayaran kacamata dengan KJP (Kartu Jakarta Pintar).
         </p>
         <p>
-          <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/"
-            class="btn btn-primary rounded-pill text-decoration-none" 
-            role="button" 
+          <a
+            href="/optikal-bahari-kjp-kartu-jakarta-pintar/"
+            class="btn btn-primary rounded-pill text-decoration-none"
+            role="button"
             title="Menerima Pembayaran KJP">
             Lebih Lanjut
           </a>
         </p>
       </div>
     </div>
-    <!-- end the bayar KJP -->
+  <!-- end the bayar KJP -->
   </div>
 </section>
 

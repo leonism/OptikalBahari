@@ -26,5 +26,9 @@
 		"*.markdown": "jekyll",
 		"*.html": "liquid",
 		"*.liquid": "jekyll"
+	},
+	"[liquid]": {
+		"editor.defaultFormatter": "sissel.shopify-liquid",
+		"editor.formatOnSave": true
 	}
 }
