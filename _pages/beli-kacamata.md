@@ -16,7 +16,8 @@ permalink: /beli-kacamata/
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg"
             src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" 
-            class="card-img-top img-fluid" loading="lazy"
+            class="card-img-top img-fluid" 
+            loading="lazy"
             title="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
             alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame">		  
     <div class="card-body">
@@ -89,9 +90,11 @@ permalink: /beli-kacamata/
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-	    	  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}" class="card-img-top img-fluid"
-              loading="lazy"
-              alt="tips-kacamata-2.jpg">
+	    	<img data-src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}"
+                src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}"
+                class="card-img-top img-fluid"
+                loading="lazy"
+                alt="Kunjungi Optikal Bahari Sekarang">
         <div class="card-body">
             <h3 class="card-title">
                 Kunjungi Optikal Bahari Sekarang
