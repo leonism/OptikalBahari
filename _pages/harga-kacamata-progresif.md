@@ -66,7 +66,7 @@ permalink: /lp/harga-kacamata-progresif/
         </p>
         <p class="card-text">
             <strong>Bayar Pakai KJP? Tentu Bisa.</strong>
-                Pemilik Kartu Jakarta Pintar (KJP), dengarkan berita baik ini! Sekarang, gunakan <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="KJP Anda untuk membayar kacamata di Optikal Bahari">KJP Anda untuk membayar kacamata di Optikal Bahari</a>. Bayangkan, tak perlu lagi memikirkan uang jajan; Anda dapat tampil stylish dengan kacamata baru Anda tanpa beban! Optikal Bahari memberikan aksesibilitas yang luar biasa bagi Anda, sehingga Anda dapat mengekspresikan gaya Anda tanpa hambatan finansial. Jangan sia-siakan kesempatan ini, segera manfaatkan KJP dan dapatkan kacamata impian di Optikal Bahari untuk penampilan yang semakin memukau.
+                Pemilik Kartu Jakarta Pintar (KJP), dengarkan berita baik ini! Sekarang, gunakan <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="KJP Anda untuk membayar kacamata di Optikal Bahari">KJP Anda untuk membayar kacamata di Optikal Bahari</a>. Bayangkan, tak perlu lagi memikirkan uang jajan, Anda dapat tampil stylish dengan kacamata baru Anda tanpa beban. Optikal Bahari memberikan aksesibilitas yang luar biasa sehingga Anda dapat mengekspresikan gaya Anda tanpa hambatan finansial. Jangan sia-siakan kesempatan ini, segera manfaatkan KJP dan dapatkan kacamata impian di Optikal Bahari untuk penampilan yang semakin memukau.
         </p>
         <p class="card-text">
             <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>.

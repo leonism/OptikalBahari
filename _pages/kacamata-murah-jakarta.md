@@ -3,7 +3,7 @@ layout: page
 title: Jual Kacamata Murah Di Jakarta Model & Desain Terbaru
 subtitle: Kacamata Murah Dan Terjangkau
 description: Dapatkan koleksi Lensa dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas.
-keywords: 'kacamata murah, frame murah, kacamata cicilan'
+keywords: "kacamata murah, frame murah, kacamata cicilan"
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -34,48 +34,60 @@ permalink: /kacamata-murah-jakarta/
     </div>
 </div>
 
-
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+    <img
+      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.jpg"
+      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.jpg"
+      class="card-img-top img-fluid"
+      alt="Kelebihan Optikal Bahari" 
+      title="Kelebihan Optikal Bahari"
+      />
     <div class="card-body">
-      <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
-      <p class="card-text">Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
-    <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
-    <em>(Optikal Bahari)</em></p>
-	</div>
-   </div>
+      <h3 class="card-title">
+        Kelebihan Optikal Bahari
+      </h3>
+        <p class="card-text">
+            <strong>Periksa Mata GRATIS</strong>.
+                Optikal Bahari memahami pentingnya penglihatan yang jelas bagi kehidupan Anda. Oleh karena itu, kami menawarkan <a href="{{"/periksa-mata-gratis/" | relative_url }}" title="Periksa Mata Gratis">periksa mata gratis</a> yang dilakukan dengan <strong>dua tahapan</strong> untuk memastikan hasil yang akurat dan terpercaya. Tahap pertama menggunakan <strong>autorefractometer</strong> untuk mengukur kelainan refraksi mata Anda secara otomatis. Tahap kedua menggunakan <strong>phoroptor</strong> untuk membantu optometrist kami mendiagnosis kondisi mata dengan lebih tepat.
+        </p>
+        <p class="card-text">
+            <strong>Service & Reparasi Kacamata GRATIS</strong>.
+                Jangan buang dulu kacamata rusak Anda. Di Optikal Bahari, kami menawarkan layanan service & reparasi kacamata GRATIS! Dengan layanan ini, kacamata kesayangan Anda akan selalu terjaga dalam kondisi prima dan tetap stylish. Jadi, tak perlu khawatir lagi tentang kacamata yang rusak
+                atau tidak nyaman. Percayakan perbaikan kacamata Anda kepada kami, dan nikmati pengalaman menggunakan kacamata yang terasa seperti baru kembali. Kunjungi Optikal Bahari dan rasakan sendiri kualitas layanan untuk kenyamanan dan gaya Anda!
+        </p>
+        <p class="card-text">
+            <strong>Garansi 1 Tahun untuk Kacamata Kamu</strong>.
+                Kami sepenuhnya memahami kekhawatiran Anda terhadap kemungkinan kerusakan kacamata. Namun, di Optikal Bahari, kami memberikan solusi yang menguntungkan. Setiap pembelian kacamata dijamin dengan garansi selama 1 tahun penuh. Dengan demikian, Anda dapat mengenakan kacamata dengan penuh keyakinan dan kenyamanan, tanpa perlu khawatir tentang kerusakan atau masalah lainnya. Rasakan kebebasan dan kepercayaan diri dalam setiap langkah Anda, karena di Optikal Bahari, kualitas dan layanan yang terjamin merupakan prioritas kami.
+        </p>
+        <p class="card-text">
+            <strong>Cicilan 0%, Tanpa Bunga & Riba</strong>.
+                Optikal Bahari mengubah konsep membeli kacamata menjadi lebih terjangkau dan mudah. Melalui program <a href="{{"/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan 0%, tanpa bunga & riba">kacamata cicilan 0%, tanpa bunga & riba</a>, Anda dapat memiliki kacamata impian tanpa membebani dompet Anda. Ini adalah solusi yang sempurna bagi siapa pun yang ingin tampil kece tanpa harus khawatir tentang masalah keuangan. Jadi, jangan ragu lagi untuk merencanakan kunjungan ke Optikal Bahari dan temukan kacamata yang Anda idamkan dengan cara yang lebih hemat dan mudah!
+        </p>
+        <p class="card-text">
+            <strong>Bayar Pakai KJP? Tentu Bisa.</strong>
+                Pemilik Kartu Jakarta Pintar (KJP), dengarkan berita baik ini! Sekarang, gunakan <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="KJP Anda untuk membayar kacamata di Optikal Bahari">KJP Anda untuk membayar kacamata di Optikal Bahari</a>. Bayangkan, tak perlu lagi memikirkan uang jajan, Anda dapat tampil stylish dengan kacamata baru tanpa beban. Optikal Bahari memberikan aksesibilitas yang luar biasa, sehingga Anda dapat mengekspresikan gaya Anda tanpa hambatan finansial. Jangan sia-siakan kesempatan ini, segera manfaatkan KJP dan dapatkan kacamata impian di Optikal Bahari untuk penampilan yang semakin memukau.
+        </p>
+        <p class="card-text">
+            <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>.
+                Penglihatan mata adalah prioritas utama kami di Optikal Bahari. Kami telah memperoleh izin resmi dari Dinas Kesehatan & Kementerian Kesehatan Republik Indonesia, hal ini bentuk komitmen kami terhadap standar penglihatan mata yang tinggi. Dengan izin ini Anda dapat sepenuhnya percaya pada layanan dan produk kami. Jangan ragu untuk periksa mata Anda di Optikal Bahari, dimana penglihatan mata bukan hanya menjadi komitmen, tetapi juga gaya hidup yang menawan. Percayakan urusan penglihatan Anda kepada Optikal Bahari dan nikmati pengalaman pemeriksaan mata yang eksklusif dan memuaskan.
+        </p>
+        </div>
+    </div>
 </div>
 
 {% include home-cards.html %}
 
-<section id="posts-category">
-    <div class="card-deck">
-		{% for post in site.categories.Lensa limit : 3 %}
-        <div class="card shadow p-3 mb-5 bg-white rounded">
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a> 
-                {% endif %}
-            <div class="card-body">
-                <h5 class="card-title">
-                    {{ post.title }}
-                </h5>
-                <p class="card-text">
-                    {{ post.description | strip_html | truncatewords: 20 }}.
-                </p>
-                <p class="card-text">
-                    <a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya</a>
-                </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">
-                    Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} on
-                    {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-                </small>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</section>
+<div class="card-deck mb-3">
+  <div class="card shadow p-3 mb-5 bg-white rounded">
+		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Segera Kunjungi Optikal Bahari
+                    </h3>
+                        <p class="card-text">
+                            Jangan tunggu lagi, segera <a href="{{"/lokasi" | relative_url }}" title="lokasi Optikal Bahari">kunjungi Optikal Bahari</a> dan rasakan pengalaman memilih kacamata terbaik untuk Anda. Tim profesional kami siap membantu Anda menemukan kacamata yang sesuai dengan gaya, kebutuhan, dan anggaran Anda. Banyak konsumen kami telah memberikan <a href="{{"/testimoni" | relative_url }}" title="testimoni positive">testimoni positive</a> tentang layanan Optikal Bahari. Dapatkan kacamata impian Anda dengan harga terbaik, segera kunjungi Optikal Bahari dan temukan rahasia di balik penawaran luar biasa kami. Punya pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
+                        </p>
+	            </div>
+   </div>
+</div>
