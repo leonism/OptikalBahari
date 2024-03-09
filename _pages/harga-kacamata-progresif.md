@@ -30,7 +30,7 @@ permalink: /lp/harga-kacamata-progresif/
                 Kondisi ini disebut <strong>presbiopia</strong>. Presbiopia bukan hanya mengganggu aktivitas sehari-hari, tapi juga bisa membahayakan keselamatan. Bolak-balik membeli kacamata baca dan kacamata jauh juga bisa menguras dompet. Belum lagi, jika Anda memiliki <em>astigmatisme</em> atau kelainan mata lainnya, biaya kacamata bisa semakin mahal.
             </p>
             <p class="card-text">
-                Jangan khawatir! Ada solusi yang praktis dan terjangkau untuk mengatasi <em>presbiopia</em>. Optikal Bahari menawarkan kacamata progresif yang dapat membantu Anda melihat objek dekat dan jauh dengan satu kacamata saja. Kacamata progresif didesain dengan teknologi canggih yang memberikan penglihatan yang jernih dan nyaman.
+                Jangan khawatir! Ada solusi yang praktis dan terjangkau untuk mengatasi <em>presbiopia</em>. Optikal Bahari menawarkan kacamata progresif yang dapat membantu Anda melihat objek dekat dan jauh dengan satu kacamata saja. <strong>Kacamata progresif</strong> didesain dengan teknologi mutakhir yang membantu penglihatan yang jernih dan nyaman.
             </p>
         </div>
     </div>
@@ -49,11 +49,11 @@ permalink: /lp/harga-kacamata-progresif/
       </h3>
         <p class="card-text">
             <strong>Periksa Mata GRATIS</strong>.
-                Optikal Bahari memahami pentingnya penglihatan yang jelas bagi kehidupan Anda. Oleh karena itu, kami menawarkan <a href="{{"/periksa-mata-gratis/" | relative_url }}" title="Periksa Mata Gratis">periksa mata gratis</a> yang dilakukan dengan <strong>dua tahapan</strong> untuk memastikan hasil yang akurat dan terpercaya. Tahap pertama menggunakan <strong>autorefractometer</strong> untuk mengukur kelainan refraksi mata Anda secara otomatis. Tahap kedua menggunakan <strong>phoroptor</strong> untuk membantu dokter mata mendiagnosis kondisi mata Anda dengan lebih tepat.
+                Optikal Bahari memahami pentingnya penglihatan yang jelas bagi kehidupan Anda. Oleh karena itu, kami menawarkan <a href="{{"/periksa-mata-gratis/" | relative_url }}" title="Periksa Mata Gratis">periksa mata gratis</a> yang dilakukan dengan <strong>dua tahapan</strong> untuk memastikan hasil yang akurat dan terpercaya. Tahap pertama menggunakan <strong>autorefractometer</strong> untuk mengukur kelainan refraksi mata Anda secara otomatis. Tahap kedua menggunakan <strong>phoroptor</strong> untuk membantu optometrist kami mendiagnosis kondisi mata dengan lebih tepat.
         </p>
         <p class="card-text">
             <strong>Service & Reparasi Kacamata GRATIS</strong>.
-                Jangan sia-siakan kacamata yang bermasalah! Di Optikal Bahari, kami menawarkan layanan service & reparasi kacamata GRATIS! Dengan layanan ini, kacamata kesayangan Anda akan selalu terjaga dalam kondisi prima dan tetap stylish. Jadi, tak perlu khawatir lagi tentang kacamata yang rusak
+                Jangan buang dulu kacamata rusak Anda. Di Optikal Bahari, kami menawarkan layanan service & reparasi kacamata GRATIS! Dengan layanan ini, kacamata kesayangan Anda akan selalu terjaga dalam kondisi prima dan tetap stylish. Jadi, tak perlu khawatir lagi tentang kacamata yang rusak
                 atau tidak nyaman. Percayakan perbaikan kacamata Anda kepada kami, dan nikmati pengalaman menggunakan kacamata yang terasa seperti baru kembali. Kunjungi Optikal Bahari dan rasakan sendiri kualitas layanan untuk kenyamanan dan gaya Anda!
         </p>
         <p class="card-text">
@@ -66,14 +66,11 @@ permalink: /lp/harga-kacamata-progresif/
         </p>
         <p class="card-text">
             <strong>Bayar Pakai KJP? Tentu Bisa.</strong>
-                Pemilik Kartu Jakarta Pintar (KJP), dengarkan berita baik ini! Sekarang, gunakan <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="KJP Anda untuk membayar kacamata di Optikal Bahari">KJP Anda untuk membayar kacamata di Optikal Bahari</a>. Bayangkan, tak perlu lagi memikirkan uang jajan; Anda dapat tampil stylish dengan kacamata baru Anda tanpa beban! Optikal Bahari memberikan aksesibilitas yang luar biasa bagi Anda, sehingga Anda dapat mengekspresikan gaya Anda tanpa hambatan finansial. Jangan sia-siakan kesempatan ini! Segera manfaatkan KJP Anda dan dapatkan kacamata impian Anda di Optikal Bahari untuk penampilan
-                yang semakin memukau!
+                Pemilik Kartu Jakarta Pintar (KJP), dengarkan berita baik ini! Sekarang, gunakan <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="KJP Anda untuk membayar kacamata di Optikal Bahari">KJP Anda untuk membayar kacamata di Optikal Bahari</a>. Bayangkan, tak perlu lagi memikirkan uang jajan; Anda dapat tampil stylish dengan kacamata baru Anda tanpa beban! Optikal Bahari memberikan aksesibilitas yang luar biasa bagi Anda, sehingga Anda dapat mengekspresikan gaya Anda tanpa hambatan finansial. Jangan sia-siakan kesempatan ini, segera manfaatkan KJP dan dapatkan kacamata impian di Optikal Bahari untuk penampilan yang semakin memukau.
         </p>
         <p class="card-text">
             <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>.
-                Kesehatan mata adalah prioritas utama kami di Optikal Bahari. Kami bangga mengumumkan bahwa kami telah memperoleh izin resmi dari Dinas Kesehatan & Kementerian Kesehatan Republik Indonesia, hal ini menunjukkan komitmen kami terhadap standar kesehatan penglihatan mata yang tinggi. Dengan izin ini,
-                Anda dapat sepenuhnya percaya pada layanan dan produk kami. Jadi, jangan ragu untuk periksa mata Anda di Optikal Bahari, di mana kesehatan penglihatan mata bukan hanya menjadi komitmen, tetapi juga gaya hidup yang menawan. Percayakan mata Anda kepada Optikal Bahari dan nikmati pengalaman
-                pemeriksaan mata yang eksklusif dan memuaskan.
+                Penglihatan mata adalah prioritas utama kami di Optikal Bahari. Kami telah memperoleh izin resmi dari Dinas Kesehatan & Kementerian Kesehatan Republik Indonesia, hal ini bentuk komitmen kami terhadap standar penglihatan mata yang tinggi. Dengan izin ini Anda dapat sepenuhnya percaya pada layanan dan produk kami. Jangan ragu untuk periksa mata Anda di Optikal Bahari, dimana penglihatan mata bukan hanya menjadi komitmen, tetapi juga gaya hidup yang menawan. Percayakan urusan penglihatan Anda kepada Optikal Bahari dan nikmati pengalaman pemeriksaan mata yang eksklusif dan memuaskan.
         </p>
         </div>
     </div>
@@ -91,7 +88,7 @@ permalink: /lp/harga-kacamata-progresif/
         Kunjungi Optikal Bahari Sekarang
       </h3>
       <p class="card-text">
-                Jangan tunggu lagi, segera <a href="{{"/lokasi" | relative_url }}" title="lokasi Optikal Bahari">kunjungi Optikal Bahari</a> dan rasakan pengalaman memilih kacamata terbaik untuk Anda. Tim profesional kami siap membantu Anda menemukan kacamata yang sesuai dengan gaya, kebutuhan, dan anggaran Anda. Banyak konsumen kami telah memberikan <a href="{{"/testimoni" | relative_url }}" title="testimoni positive">testimoni positive</a> tentang layanan Optikal Bahari. Dapatkan kacamata impian Anda dengan harga terbaik, segera kunjungi Optikal Bahari dan temukan rahasia di balik penawaran luar biasa kami. Punya pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
+                Jangan tunggu lagi, segera <a href="{{"/lokasi" | relative_url }}" title="lokasi Optikal Bahari">kunjungi Optikal Bahari</a> dan rasakan pengalaman memilih kacamata & lensa terbaik untuk Anda. Tim profesional kami siap membantu Anda menemukan kacamata & lensa yang sesuai dengan gaya, kebutuhan, dan anggaran Anda. Telah banyak konsumen kami telah memberikan <a href="{{"/testimoni" | relative_url }}" title="testimoni positive">testimoni positive</a> tentang layanan Optikal Bahari. Dapatkan kacamata impian Anda dengan harga terbaik, bergaransi & bisa di cicil, segera kunjungi Optikal Bahari dan temukan rahasia di balik penawaran luar biasa kami. Punya pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
             </p>
         </div>
     </div>
