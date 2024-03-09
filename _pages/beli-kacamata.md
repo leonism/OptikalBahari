@@ -89,7 +89,7 @@ permalink: /beli-kacamata/
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-	    	  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}class="card-img-top img-fluid"
+	    	  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}" class="card-img-top img-fluid"
               loading="lazy"
               alt="tips-kacamata-2.jpg">
         <div class="card-body">
