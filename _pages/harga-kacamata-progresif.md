@@ -54,11 +54,11 @@ permalink: /lp/harga-kacamata-progresif/
         <p class="card-text">
             <strong>Service & Reparasi Kacamata GRATIS</strong>.
                 Jangan sia-siakan kacamata yang bermasalah! Di Optikal Bahari, kami menawarkan layanan service & reparasi kacamata GRATIS! Dengan layanan ini, kacamata kesayangan Anda akan selalu terjaga dalam kondisi prima dan tetap stylish. Jadi, tak perlu khawatir lagi tentang kacamata yang rusak
-                atau tidak nyaman. Percayakan perbaikan kacamata Anda kepada kami, dan nikmati pengalaman menggunakan kacamata yang terasa seperti baru kembali.Kunjungi Optikal Bahari dan rasakan sendiri kualitas layanan untuk kenyamanan dan gaya Anda!
+                atau tidak nyaman. Percayakan perbaikan kacamata Anda kepada kami, dan nikmati pengalaman menggunakan kacamata yang terasa seperti baru kembali. Kunjungi Optikal Bahari dan rasakan sendiri kualitas layanan untuk kenyamanan dan gaya Anda!
         </p>
         <p class="card-text">
             <strong>Garansi 1 Tahun untuk Kacamata Kamu</strong>.
-                Kami sepenuhnya memahami kekhawatiran Anda terhadap kemungkinan kerusakan kacamata. Namun, di Optikal Bahari, kami memberikan solusi yang menguntungkan. Setiap pembelian kacamata dijamin dengan garansi selama 1 tahun penuh. Dengan demikian, Anda dapat mengenakan kacamata dengan penuh keyakinan dan kenyamanan, tanpa perlu khawatir tentang kerusakan atau masalah lainnya. Rasakan kebebasan dan kepercayaan diri dalam setiap langkah Anda, karena di sini, kualitas dan layanan yang terjamin merupakan prioritas kami.
+                Kami sepenuhnya memahami kekhawatiran Anda terhadap kemungkinan kerusakan kacamata. Namun, di Optikal Bahari, kami memberikan solusi yang menguntungkan. Setiap pembelian kacamata dijamin dengan garansi selama 1 tahun penuh. Dengan demikian, Anda dapat mengenakan kacamata dengan penuh keyakinan dan kenyamanan, tanpa perlu khawatir tentang kerusakan atau masalah lainnya. Rasakan kebebasan dan kepercayaan diri dalam setiap langkah Anda, karena di Optikal Bahari, kualitas dan layanan yang terjamin merupakan prioritas kami.
         </p>
         <p class="card-text">
             <strong>Cicilan 0%, Tanpa Bunga & Riba</strong>.
@@ -91,7 +91,7 @@ permalink: /lp/harga-kacamata-progresif/
         Kunjungi Optikal Bahari Sekarang
       </h3>
       <p class="card-text">
-                Jangan tunggu lagi, segera kunjungi Optikal Bahari dan rasakan pengalaman memilih kacamata terbaik untuk Anda. Tim profesional kami siap membantu Anda menemukan kacamata yang sesuai dengan gaya, kebutuhan, dan anggaran Anda. Banyak konsumen kami telah memberikan <a href="{{"/testimoni" | relative_url }}" title="testimoni positive">testimoni positive</a> tentang layanan Optikal Bahari. Dapatkan kacamata impian Anda dengan harga terbaik, segera kunjungi Optikal Bahari dan temukan rahasia di balik penawaran luar biasa kami. Punya pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
+                Jangan tunggu lagi, segera <a href="{{"/lokasi" | relative_url }}" title="lokasi Optikal Bahari">kunjungi Optikal Bahari</a> dan rasakan pengalaman memilih kacamata terbaik untuk Anda. Tim profesional kami siap membantu Anda menemukan kacamata yang sesuai dengan gaya, kebutuhan, dan anggaran Anda. Banyak konsumen kami telah memberikan <a href="{{"/testimoni" | relative_url }}" title="testimoni positive">testimoni positive</a> tentang layanan Optikal Bahari. Dapatkan kacamata impian Anda dengan harga terbaik, segera kunjungi Optikal Bahari dan temukan rahasia di balik penawaran luar biasa kami. Punya pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
             </p>
         </div>
     </div>

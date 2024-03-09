@@ -6,7 +6,8 @@
 				title="{{ post.title }}">
 				{% if page.background %}
 				<img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-					class="card-img-top img-fluid" 
+					class="card-img-top img-fluid"
+					loading="lazy"
 					alt="{{ post.title }}" />
 			</a>
 			{% endif %}
@@ -41,7 +42,9 @@
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
 				{% if page.background %}
 				<img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-					class="card-img-top img-fluid" alt="{{ post.title }}" />
+					class="card-img-top img-fluid" 
+					loading="lazy"
+					alt="{{ post.title }}" />
 			</a>
 			{% endif %}
 			<div class="card-body">
@@ -71,7 +74,9 @@
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
 				{% if page.background %}
 				<img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-					class="card-img-top img-fluid" alt="{{ post.title }}" />
+					class="card-img-top img-fluid" 
+					loading="lazy"
+					alt="{{ post.title }}" />
 			</a>
 			{% endif %}
 			<div class="card-body">
