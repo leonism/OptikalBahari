@@ -8,14 +8,14 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/sunglasses/optikal-bahari-sunglassses.jpg
+background: /assets/img/posts/beach-retro-girls/beach-retro-girls-022.jpg
 permalink: /beli-kacamata/
 ---
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" 
+        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-019.jpg"
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-019.jpg" 
             class="card-img-top img-fluid" 
             loading="lazy"
             title="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
@@ -38,8 +38,8 @@ permalink: /beli-kacamata/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" 
+        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-016.jpg"
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-016.jpg" 
             class="card-img-top img-fluid" 
             loading="lazy"
             title="Periksa Mata & Service Gratis"
@@ -68,8 +68,8 @@ permalink: /beli-kacamata/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" 
+        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-011.jpg"
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-011.jpg" 
             class="card-img-top img-fluid" 
             loading="lazy"
             title="Kacamata Cicilan 0%"
@@ -90,8 +90,8 @@ permalink: /beli-kacamata/
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-	    	<img data-src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}"
-                src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}"
+	    	<img data-src="{{"/assets/img/posts/beach-retro-girls/beach-retro-girls-025.jpg" | relative_url }}"
+                src="{{"/assets/img/posts/beach-retro-girls/beach-retro-girls-025.jpg" | relative_url }}"
                 class="card-img-top img-fluid"
                 loading="lazy"
                 title="Kunjungi Optikal Bahari Sekarang"
@@ -125,8 +125,9 @@ permalink: /beli-kacamata/
                     {{ post.description | strip_html | truncatewords: 20 }}.
                 </p>
                 <p class="card-text">
-                    <a class="btn btn-primary rounded-pill" 
-                        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya
+                    <a class="btn btn-primary rounded-pill text-decoration-none" 
+                        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                        Selengkapnya
                     </a>
                 </p>
             </div>
