@@ -36,7 +36,7 @@ permalink: /periksa-mata-gratis/
         </p>
         <p class="card-text">
           Pada <strong>tahap kedua</strong>, kami menggunakan <strong>phoroptor</strong>, alat yang memungkinkan Anda untuk menjawab langsung berbagai tes penglihatan mata. Tes ini akan membantu optometris Optikal Bahari untuk mendiagnosa kondisi mata Anda dengan lebih presisi. Kombinasi dari dua proses ini memastikan bahwa Anda mendapatkan hasil <strong>pemeriksaan mata</strong> yang komprehensif dan akurat.
-        </p>        
+        </p>
     </div>
   </div>  
 </div>
@@ -124,3 +124,5 @@ permalink: /periksa-mata-gratis/
 	  </div>
    </div>
 </div>
+
+{% include home-cards.html %}
