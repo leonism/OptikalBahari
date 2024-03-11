@@ -2,10 +2,10 @@
 layout: page
 title: Kacamata Cicilan 0%, Kredit Tanpa Bunga, Aman Riba
 subtitle: Bunga 0%, Gak Pake DP, Jauhi Riba
-description: Beli kacamata di Optikal Bahari boleh dicicl 2 kali, tidak menerapkan sistem riba dan tidak pakai DP
-keywords: 'Kacamata Cicil, Tidak Pake DP, Boleh Cicil, Kacamata cicilan, Tidak Bunga.'
+description: Temukan Optik Terbaik di Jakarta di Optikal Bahari. Nikmati pembelian kacamata cicilan 0%, Aman Riba. Kunjungi Sekarang Untuk Pengalaman Kacamata Terbaik
+keywords: "Kacamata Cicil, Tidak Pake DP, Boleh Cicil, Kacamata cicilan, Tidak Bunga."
 lang: id-ID
-date: '2019-08-19 08:25:23 +0700'
+date: "2019-08-19 08:25:23 +0700"
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
