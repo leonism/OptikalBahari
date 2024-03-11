@@ -2,7 +2,7 @@
 layout: page
 title: Periksa Mata Gratis Hanya Di Optikal Bahari
 subtitle: "Menyambut Era Digital dengan Layanan Optikal Bahari yang Terdepan"
-description: "Periksa Mata & Service Gratis, Bergaransi, Kredit/Cicilan 0%, Menerima KJP, Pengalaman 40+ Tahun."
+description: "Periksa Mata & Service Kacamata Gratis, Bergaransi 1 Tahun, Kredit/Cicilan Kacamata 0%, Menerima KJP, Pengalaman 40+ Tahun, Terpercaya Dari 1978"
 keywords: "periksa mata, periksa mata gratis, periksa mata jakarta, periksa mata & service gratis"
 lang: id-ID
 author: Optikal Bahari
@@ -14,7 +14,9 @@ permalink: /periksa-mata-gratis-optikal-bahari/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		<img data-src="/assets/img/posts/mexican-02-min/mexican-01-min.jpg"
+		<img 
+            itemprop="image"
+            data-src="/assets/img/posts/mexican-02-min/mexican-01-min.jpg"
             src="/assets/img/posts/mexican-02-min/mexican-01-min.jpg" 
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
@@ -52,7 +54,9 @@ permalink: /periksa-mata-gratis-optikal-bahari/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		<img data-src="/assets/img/posts/mexican-02-min/mexican-02-min.jpg"
+		<img
+            itemprop="image" 
+            data-src="/assets/img/posts/mexican-02-min/mexican-02-min.jpg"
             src="/assets/img/posts/mexican-02-min/mexican-02-min.jpg" 
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
@@ -94,7 +98,9 @@ permalink: /periksa-mata-gratis-optikal-bahari/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		<img data-src="/assets/img/posts/mexican-02-min/mexican-03-min.jpg"
+		<img
+            itemprop="image" 
+            data-src="/assets/img/posts/mexican-02-min/mexican-03-min.jpg"
             src="/assets/img/posts/mexican-02-min/mexican-03-min.jpg" 
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
@@ -136,11 +142,13 @@ permalink: /periksa-mata-gratis-optikal-bahari/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img data-src="/assets/img/posts/mexican-02-min/mexican-04-min.jpg"
+		  <img 
+            itemprop="image"
+            data-src="/assets/img/posts/mexican-02-min/mexican-04-min.jpg"
             src="/assets/img/posts/mexican-02-min/mexican-04-min.jpg" 
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
+            alt="Segera Kunjungi Optikal Bahari">
         <div class="card-body">
             <h3 class="card-title">
                 Segera Kunjungi Optikal Bahari

@@ -15,7 +15,8 @@ permalink: /periksa-mata-terdekat/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img itemprop="image" 
+		  <img 
+        itemprop="image" 
         data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.jpg" | relative_url }}"
         src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.jpg" | relative_url }}" class="card-img-top" 
         alt="Periksa Mata Gratis Terdekat">
@@ -47,7 +48,8 @@ permalink: /periksa-mata-terdekat/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img itemprop="image"
+		  <img 
+        itemprop="image"
         data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.jpg" | relative_url }}"
         src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.jpg" | relative_url }}"    
         class="card-img-top" 
@@ -71,10 +73,11 @@ permalink: /periksa-mata-terdekat/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		<img itemprop="image" 
+		<img 
+        itemprop="image" 
         data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.jpg" | relative_url }}"
         src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.jpg" | relative_url }}"            class="card-img-top" 
-         alt="Proses Pertama: Menggunakan Autorefractometer">
+        alt="Proses Pertama: Menggunakan Autorefractometer">
       <div class="card-body">
         <h3 class="card-title">
           Langkah Awal: Pemeriksaan Mata Terdekat yang Praktis 
@@ -94,7 +97,8 @@ permalink: /periksa-mata-terdekat/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		<img itemprop="image" 
+		<img 
+        itemprop="image" 
         data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.jpg" | relative_url }}"
         src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.jpg" | relative_url }}"
         class="card-img-top" 
@@ -121,7 +125,8 @@ permalink: /periksa-mata-terdekat/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		<img itemprop="image"
+		<img 
+      itemprop="image"
       data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.jpg" | relative_url }}"
       src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.jpg" | relative_url }}"
       class="card-img-top" 
