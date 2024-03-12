@@ -15,8 +15,11 @@ permalink: /frame-kacamata/
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
   <img 
-    src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}" class="card-img-top" 
-    alt="tips-kacamata-2.jpg">
+    itemprop="image" 
+    src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}" 
+    class="card-img-top"
+    title="Koleksi Frame kacamata Di Optikal Bahari"
+    alt="Koleksi Frame kacamata Di Optikal Bahari">
     <div class="card-body">
         <h3 class="card-title">
             Koleksi Frame kacamata Di Optikal Bahari
