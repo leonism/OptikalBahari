@@ -24,35 +24,36 @@ permalink: /periksa-mata/
       <h3 class="card-title">
         Periksakan Mata Anda Di Optik Secara Rutin
       </h3>
-      <p class="card-text">
-        Di Optikal Bahari, proses pemeriksaan mata akan melalui 2 tahapan. Tahapan pertama adalah melalui mesin autorefractometer atau yang biasa dikenal dengan alat pemeriksaan mata otomatis. Lebih lanjut, guna untuk lebih memastikan hasil pemeriksaan ditahapan pertama, ditahapan selanjutnya kami menggunakan alat Phoroptor, dimana didalam prosesnya pasien diminta untuk menyebutkan angka dan tulisan yang tertera dimedia gambar yang terpampang. Selanjutnya, staff kami akan melakukan pembandingan hasil dari proses sebelumnya. Hasil akhir dari pemeriksaan akan menjadi lebih akurat berhubung telah melalui 2 proses validasi langsung dari system dan pasiennya.
-      </p>
-      <p>
-        Dengan demikian, hasil dari pemeriksaan mata yang dilakukan di Optikal Bahari dijamin cepat, akurat, dan terpercaya. Selain daripada itu, kami juga menyediakan berbagai macam pilihan lensa dan frame yang sesuai dengan kebutuhan Anda sehari-hari. Jika setelah proses pemeriksaan mata Anda tedeteksi mengalami gangguan refraksi mata minus, plus, atau silinder, maka disarankan untuk Anda memakai kacamata agar dapat membantu penglihatan mata anda kembali.
-      </p>
+        <p class="card-text">
+          Di Optikal Bahari, proses pemeriksaan mata akan melalui 2 tahapan. Tahapan pertama adalah melalui mesin autorefractometer atau yang biasa dikenal dengan alat pemeriksaan mata otomatis. Lebih lanjut, guna untuk lebih memastikan hasil pemeriksaan ditahapan pertama, ditahapan selanjutnya kami menggunakan alat Phoroptor, dimana didalam prosesnya pasien diminta untuk menyebutkan angka dan tulisan yang tertera dimedia gambar yang terpampang. Selanjutnya, staff kami akan melakukan pembandingan hasil dari proses sebelumnya. Hasil akhir dari pemeriksaan akan menjadi lebih akurat berhubung telah melalui 2 proses validasi langsung dari system dan pasiennya.
+        </p>
+        <p>
+          Dengan demikian, hasil dari pemeriksaan mata yang dilakukan di Optikal Bahari dijamin cepat, akurat, dan terpercaya. Selain daripada itu, kami juga menyediakan berbagai macam pilihan lensa dan frame yang sesuai dengan kebutuhan Anda sehari-hari. Jika setelah proses pemeriksaan mata Anda tedeteksi mengalami gangguan refraksi mata minus, plus, atau silinder, maka disarankan untuk Anda memakai kacamata agar dapat membantu penglihatan mata anda kembali.
+        </p>
     </div>
    </div>
 </div>
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.jpg" | relative_url }}" 
-      class="card-img-top" 
-      title="periksa-mata-gratis"
-      alt="periksa-mata-gratis.jpg">
+		  <img itemprop="image" 
+          src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.jpg" | relative_url }}" 
+          class="card-img-top" 
+          title="periksa-mata-gratis"
+          alt="periksa-mata-gratis.jpg">
       <div class="card-body">
-      <h3 class="card-title">
-        Periksa Mata Cepat & Akurat
-      </h3>
-      <p class="card-text">
-        Dan seiring dengan perkembang dunia teknologi, proses periksa mata sudah menjadi jauh lebih mudah dan menjadi lebih cepat, walaupun tentunya tetap dengan hasil yang tetap akurat dan terpercaya. Para staff kami, lebih lanjut bertugas untuk membuat kacamata berdasarkan resep periksa mata sebelumnya. Selain membuat kacamata, staff kami juga akan melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok digunakan atau perlu diganti.
-      </p>
-      <p>
-        Para staff kami juga bertugas untuk memberikan saran cara pemeliharaan dan penggunaan kacamata disaat bersamaan juga memberikan pelatihan kepada Anda tentang cara memakai dan merawat kacamata. Selain itu, staff kami juga dapat memberikan informasi tentang berbagai jenis lensa yang tersedia, seperti lensa anti-refleksi, lensa yang dapat menyerap sinar UV atau lensa yang dapat membantu mencegah penurunan daya penglihatan mata akibat layar gadget.
-      </p>
-      <p>
-        Para staff kami juga bertanggung jawab untuk memastikan bahwa kacamata yang disiapkan sesuai dengan spesifikasi yang diberikan dan memenuhi standar kualitas yang telah ditetapkan. Maka dari itu, pastikan untuk memeriksa mata and secara teratur dan jangan ragu untuk bertanya kepada staff kami terkait masalah yang sedang dialami oleh mata Anda. Dengan demikian, Anda dapat memastikan bahwa mata Anda terjaga kesehatannya dan dapat melakukan aktivitas dengan lebih aman dan nyaman.
-      </p>
+          <h3 class="card-title">
+            Periksa Mata Cepat & Akurat
+          </h3>
+          <p class="card-text">
+            Dan seiring dengan perkembang dunia teknologi, proses periksa mata sudah menjadi jauh lebih mudah dan menjadi lebih cepat, walaupun tentunya tetap dengan hasil yang tetap akurat dan terpercaya. Para staff kami, lebih lanjut bertugas untuk membuat kacamata berdasarkan resep periksa mata sebelumnya. Selain membuat kacamata, staff kami juga akan melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok digunakan atau perlu diganti.
+          </p>
+          <p>
+            Para staff kami juga bertugas untuk memberikan saran cara pemeliharaan dan penggunaan kacamata disaat bersamaan juga memberikan pelatihan kepada Anda tentang cara memakai dan merawat kacamata. Selain itu, staff kami juga dapat memberikan informasi tentang berbagai jenis lensa yang tersedia, seperti lensa anti-refleksi, lensa yang dapat menyerap sinar UV atau lensa yang dapat membantu mencegah penurunan daya penglihatan mata akibat layar gadget.
+          </p>
+          <p>
+            Para staff kami juga bertanggung jawab untuk memastikan bahwa kacamata yang disiapkan sesuai dengan spesifikasi yang diberikan dan memenuhi standar kualitas yang telah ditetapkan. Maka dari itu, pastikan untuk memeriksa mata and secara teratur dan jangan ragu untuk bertanya kepada staff kami terkait masalah yang sedang dialami oleh mata Anda. Dengan demikian, Anda dapat memastikan bahwa mata Anda terjaga kesehatannya dan dapat melakukan aktivitas dengan lebih aman dan nyaman.
+          </p>
       </div>
    </div>
 </div>

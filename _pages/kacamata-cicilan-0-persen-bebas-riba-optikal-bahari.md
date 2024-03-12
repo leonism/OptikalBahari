@@ -15,7 +15,8 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-	<img data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.jpg"
+	<img itemprop="image" 
+		data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.jpg"
 		src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.jpg"
 		class="card-img-top" 
 		alt="cicilan-kacamata optikal bahari" />
@@ -53,7 +54,8 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-	<img data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.jpg"
+	<img itemprop="image" 
+		data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.jpg"
 		src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.jpg"
 		class="card-img-top" alt="cicilan-kacamata optikal bahari" />
 	<div class="card-body">
@@ -90,7 +92,8 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-	<img data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.jpg"
+	<img itemprop="image" 
+		data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.jpg"
 		src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.jpg"
 		class="card-img-top" alt="cicilan-kacamata optikal bahari" />
 	<div class="card-body">
@@ -152,7 +155,8 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-	<img data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.jpg"
+	<img itemprop="image" 
+		data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.jpg"
 		src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.jpg"
 		class="card-img-top" alt="cicilan-kacamata optikal bahari" />
 	<div class="card-body">

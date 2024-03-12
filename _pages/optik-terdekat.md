@@ -13,9 +13,12 @@ permalink: /optik-terdekat/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/malay-hijab-00/malay-hijab-01.jpg" 
-      class="card-img-top" 
-      alt="kacamata cicilan">
+  <img 
+      itemprop="image" 
+      src="/assets/img/posts/malay-hijab-00/malay-hijab-01.jpg" 
+      class="card-img-top"
+      title="Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari"
+      alt="Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari">
   <div class="card-body">
     <h3 class="card-title">
       Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari!
@@ -35,9 +38,11 @@ permalink: /optik-terdekat/
 {% include home-cards.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/malay-hijab-00/malay-hijab-02.jpg" 
-        class="card-img-top" 
-        alt="kacamata cicilan">
+  <img 
+      itemprop="image"
+      src="/assets/img/posts/malay-hijab-00/malay-hijab-02.jpg" 
+      class="card-img-top" 
+      alt="kacamata cicilan">
   <div class="card-body">
     <h3 class="card-title">
       Optikal Bahari Memberikan Periksa Mata Gratis
@@ -52,7 +57,12 @@ permalink: /optik-terdekat/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/malay-hijab-00/malay-hijab-03.jpg" class="card-img-top" alt="kacamata cicilan">
+  <img 
+    itemprop="image" 
+    src="/assets/img/posts/malay-hijab-00/malay-hijab-03.jpg" 
+    class="card-img-top" 
+    title="Service & Reparasi Kacamata Gratis!"
+    alt="Service & Reparasi Kacamata Gratis!">
   <div class="card-body">
     <h3 class="card-title">
       Service & Reparasi Kacamata Gratis!
@@ -67,7 +77,12 @@ permalink: /optik-terdekat/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/malay-hijab-00/malay-hijab-04.jpg" class="card-img-top" alt="kacamata cicilan">
+  <img 
+    itemprop="image" 
+    src="/assets/img/posts/malay-hijab-00/malay-hijab-04.jpg" 
+    class="card-img-top" 
+    title="Tambahan Bonus Goodie Bag Menarik Optikal Bahari"
+    alt="Tambahan Bonus Goodie Bag Menarik Optikal Bahari">
   <div class="card-body">
     <h3 class="card-title">
       Tambahan Bonus Goodie Bag Menarik Optikal Bahari
@@ -82,7 +97,12 @@ permalink: /optik-terdekat/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/malay-hijab-00/malay-hijab-05.jpg" class="card-img-top" alt="kacamata cicilan">
+  <img 
+    itemprop="image" 
+    src="/assets/img/posts/malay-hijab-00/malay-hijab-05.jpg" 
+    class="card-img-top" 
+    title="Berizin Dari DinKes & Kemenkes Republik Indonesia"
+    alt="Berizin Dari DinKes & Kemenkes Republik Indonesia">
   <div class="card-body">
     <h3 class="card-title">
       Berizin Dari DinKes & Kemenkes Republik Indonesia
@@ -97,9 +117,12 @@ permalink: /optik-terdekat/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/malay-hijab-00/malay-hijab-00.jpg" 
-        class="card-img-top" 
-        alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+  <img 
+      itemprop="image" 
+      src="/assets/img/posts/malay-hijab-00/malay-hijab-00.jpg" 
+      class="card-img-top"
+      title="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
+      alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
     <h3 class="card-title">Optikal Bahari, Optik Terdekat Anda</h3>
     <p class="card-text">
