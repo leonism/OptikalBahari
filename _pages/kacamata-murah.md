@@ -14,12 +14,13 @@ permalink: /kacamata-murah/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" 
-            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-1.jpg"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-1.jpg" 
+        <img 
+            itemprop="image" 
+            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg"
+            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg" 
             class="card-img-top img-fluid"
             title="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
-            alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame">		  
+            alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame">
     <div class="card-body">
         <h3 class="card-title">
             Kacamata Murah & Terjangkau
@@ -27,7 +28,7 @@ permalink: /kacamata-murah/
             <p class="card-text">
                 Apakah Anda merasa penglihatan Anda mulai terganggu? Seringkali Anda mengalami pandangan kabur dan kurang jelas? Penurunan kualitas penglihatan bisa disebabkan oleh berbagai faktor, mulai dari paparan sinar blueray yang berlebihan dari pancaran layar monitor, penggunaan ponsel yang terlalu sering, hingga penurunan kapasitas penglihatan seiring bertambahnya usia. Di Optikal Bahari, kami memahami betapa pentingnya menemukan solusi yang tepat untuk menjaga penglihatan mata Anda. Kami menyediakan beragam jenis dan tipe kacamata, mulai dari harga murah terjangkau hingga kelas menengah ke atas, sesuai dengan kebutuhan dan preferensi Anda.
             </p>
-            <p class="card-text">                
+            <p class="card-text">
                 Kami memahami bahwa setiap orang memiliki kebutuhan yang berbeda dalam memilih kacamata yang tepat. Oleh karena itu, tim kami siap membantu Anda menemukan kacamata yang sesuai dengan gaya hidup dan kebutuhan visual Anda. Dengan pilihan bingkai kacamata yang beragam, serta lensa berkualitas tinggi, kami akan membantu Anda mendapatkan kacamata yang tidak hanya memberikan koreksi visual yang optimal, tetapi juga meningkatkan gaya dan kenyamanan Anda sehari-hari. Temukan pengalaman belanja kacamata yang memuaskan di Optikal Bahari, di mana kesehatan mata Anda menjadi prioritas utama kami.
             </p>
         </div>
@@ -38,20 +39,21 @@ permalink: /kacamata-murah/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" 
+        <img 
+            itemprop="image" 
             data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg"
             src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" 
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">		  
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
             <div class="card-body">
                 <h3 class="card-title">
                     Periksa Mata & Service Gratis
                 </h3>
-                    <p class="card-text">                
+                    <p class="card-text">
                         Apakah Anda merasa perlu melakukan pengecekan penglihatan mata? Jangan khawatir! Kami di Optikal Bahari menawarkan layanan <strong>periksa mata gratis</strong> yang dapat membantu Anda memahami kondisi visual Anda dengan lebih baik. Pemeriksaan mata yang teliti dan komprehensif akan dilakukan oleh tim profesional kami, menggunakan teknologi mutakhir untuk memastikan hasil yang akurat dan terpercaya. Kami mengundang Anda untuk datang langsung ke salah satu cabang kami dan manfaatkan kesempatan ini untuk merawat kesehatan mata Anda secara gratis.
                     </p>
-                    <p class="card-text">                
+                    <p class="card-text">
                         Jangan biarkan gangguan penglihatan mengganggu aktivitas sehari-hari Anda. Segera jadwalkan periksa mata gratis di Optikal Bahari dan temukan solusi terbaik untuk kebutuhan visual Anda. Tim kami siap menyambut Anda dengan hangat dan memberikan layanan periksa mata yang komprehensif dan profesional. Jadilah proaktif dalam menjaga kesehatan mata Anda dan rasakan perbedaannya sendiri dengan Optikal Bahari. Ayo, segera kunjungi toko kami dan mulai perjalanan Anda menuju penglihatan yang lebih baik hari ini!
                     </p>
                     <p class="card-text">
@@ -68,7 +70,8 @@ permalink: /kacamata-murah/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" 
+        <img 
+            itemprop="image" 
             data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.jpg"
             src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.jpg" 
             class="card-img-top img-fluid"
@@ -78,19 +81,57 @@ permalink: /kacamata-murah/
         <h3 class="card-title">
             Kacamata Cicilan 0%
         </h3>
-            <p class="card-text">                
+            <p class="card-text">
                 Inginkah Anda memiliki kacamata baru dengan opsi pembayaran yang lebih mudah? Kami di Optikal Bahari menawarkan promo istimewa <strong>Kacamata Cicilan 0%</strong> yang bisa menjadi solusi tepat untuk Anda. Dengan promo ini, Anda dapat memilih kacamata impian Anda tanpa harus khawatir dengan pembayaran sekaligus. Nikmati kenyamanan berbelanja dengan cicilan 0% yang kami tawarkan, sehingga Anda dapat menyesuaikan pembayaran sesuai dengan kebutuhan dan kenyamanan Anda.
             </p>
-            <p class="card-text">                
+            <p class="card-text">
                 Jangan lewatkan kesempatan ini untuk memiliki kacamata baru dengan cara yang lebih terjangkau dan mudah. Kunjungi salah satu cabang Optikal Bahari sekarang juga dan manfaatkan promo "Kacamata Cicilan 0%" kami. Tim profesional kami akan dengan senang hati membantu Anda menemukan kacamata yang sesuai dengan gaya dan kebutuhan Anda. Segera raih kenyamanan dan gaya dengan kacamata baru Anda tanpa harus memikirkan pembayaran sekarang juga. Ayo, jadwalkan kunjungan Anda ke Optikal Bahari dan temukan kacamata impian Anda dengan cicilan 0% yang menarik ini.
             </p>
         </div>
    </div>
 </div>
 
+<section id="posts-category1">
+	<div class="card-deckrow mb-3 card-deck">
+		{% for post in site.categories.Lensa limit : 3 %}
+		<div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" 
+				title="{{ post.title }}">
+				{% if page.background %}
+				<img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
+					class="card-img-top img-fluid"
+					loading="lazy"
+					alt="{{ post.title }}" />
+			</a>
+			{% endif %}
+			<div class="card-body">
+				<h5 class="card-title">
+					{{ post.title | truncate: 50 }}
+				</h5>
+				<p>
+					{{ post.description | strip_html | truncate: 100 }}
+					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+						href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+						title="{{ post.title }}">Lebih Lanjut
+					</a>
+				</p>
+			</div>
+			<div class="card-footer">
+				<small class="text-muted">
+					Posted by <em>{% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %}</em>,
+					on {{ post.date
+					| date: '%b %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+				</small>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</section>
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img itemprop="image"
+		  <img 
+            itemprop="image"
             data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg"
             src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}" 
             class="card-img-top" 
@@ -110,34 +151,39 @@ permalink: /kacamata-murah/
         </div>
 </div>
 
-<section id="posts-category">
-    <div class="card-deck">
+<section id="posts-category1">
+	<div class="card-deckrow mb-3 card-deck">
 		{% for post in site.categories.Lensa limit : 3 %}
-        <div class="card shadow p-3 mb-5 bg-white rounded">
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a> 
-                {% endif %}
-            <div class="card-body">
-                <h5 class="card-title">
-                    {{ post.title }}
-                </h5>
-                <p class="card-text">
-                    {{ post.description | strip_html | truncatewords: 20 }}.
-                </p>
-                <p class="card-text">
-                    <a class="btn btn-primary rounded-pill" 
-                        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya
-                    </a>
-                </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">
-                    Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} on
-                    {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-                </small>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
+		<div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" 
+				title="{{ post.title }}">
+				{% if page.background %}
+				<img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
+					class="card-img-top img-fluid"
+					loading="lazy"
+					alt="{{ post.title }}" />
+			</a>
+			{% endif %}
+			<div class="card-body">
+				<h5 class="card-title">
+					{{ post.title | truncate: 50 }}
+				</h5>
+				<p>
+					{{ post.description | strip_html | truncate: 100 }}
+					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+						href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+						title="{{ post.title }}">Lebih Lanjut
+					</a>
+				</p>
+			</div>
+			<div class="card-footer">
+				<small class="text-muted">
+					Posted by <em>{% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %}</em>,
+					on {{ post.date
+					| date: '%b %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+				</small>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
 </section>

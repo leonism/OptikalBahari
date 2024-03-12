@@ -18,7 +18,8 @@ permalink: /periksa-mata-terdekat/
 		  <img 
         itemprop="image" 
         data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.jpg" | relative_url }}"
-        src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.jpg" | relative_url }}" class="card-img-top" 
+        src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.jpg" | relative_url }}" 
+        class="card-img-top" 
         alt="Periksa Mata Gratis Terdekat">
     <div class="card-body">
       <h3 class="card-title">

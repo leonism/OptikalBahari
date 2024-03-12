@@ -15,7 +15,8 @@ permalink: /periksa-mata/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		<img itemprop="image" 
+		<img 
+        itemprop="image" 
         src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg" | relative_url }}" 
         class="card-img-top"
         title="periksa-mata-gratis"
@@ -114,14 +115,14 @@ permalink: /periksa-mata/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.jpg" | relative_url }}"            
-        class="card-img-top"
-        title="Segera Kunjungi Optikal Bahari"
-        alt="Segera Kunjungi Optikal Bahari">
+        <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.jpg" | relative_url }}"
+            class="card-img-top"
+            title="Segera Kunjungi Optikal Bahari"
+            alt="Segera Kunjungi Optikal Bahari">
       <div class="card-body">  
         <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
 	      <p class="card-text">
-	  		  Segera rencanakan kunjungan anda ke Optikal Bahari untuk pemeriksaan mata dan staff ramah kami siap untuk melayani anda. Kami berlokasi di Jl. Bend. Jago No.447, RW.1, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10650. Kami memberikan layanan <a href="{{"/periksa-mata/" | relative_url }}" title="pemeriksaan mata gratis">pemeriksaan mata gratis</a>, proses cepat dan akurat dengan alat komputerisasi digital, ada <a href="{{"/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan">program cicilan ringan</a> dan tidak memberatkan, bisa melakukan <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="bayar kacamata bayar dengan KJP">pembayaran melalui KJP</a> dan juga service kacamata. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
+	  		  Segera rencanakan kunjungan anda ke Optikal Bahari untuk pemeriksaan mata dan staff ramah kami siap untuk melayani anda. Kami berlokasi di Jl. Bend. Jago No.447, RW.1, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10650. Kami memberikan layanan <a href="{{"/periksa-mata/" | relative_url }}" title="pemeriksaan mata gratis">pemeriksaan mata gratis</a>, proses cepat dan akurat dengan alat modern, <a href="{{"/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan">program cicilan ringan 0%</a> dan tidak memberatkan, bisa melakukan <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="bayar kacamata bayar dengan KJP">pembayaran melalui KJP</a> dan juga service kacamata. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
 	  	  </p>
       </div>
   </div>    
