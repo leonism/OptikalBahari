@@ -58,18 +58,21 @@
 	{
 		"@context": "https://schema.org",
 		"@type": "Article",
-		"mainEntityOfPage": {
+		"mainEntityOfPage": 
+		{
 			"@type": "WebPage",
 			"@id": "{{ site.url }}{{ page.url }}"
 		},
-		"headline": "{{ page.title | jsonify }}",
-		"author": {
+		"headline": {{ page.title | jsonify }},
+		"author":
+		{
 			"@type": "Organization",
-			"name": "{{ site.author_name | jsonify }}"
+			"name": {{ site.author_name | jsonify }}
 		},
-		"publisher": {
+		"publisher": 
+		{
 			"@type": "Organization",
-			"name": "{{ site.author_name | jsonify }}",
+			"name": {{ site.author_name | jsonify }},
 			"logo": {
 				"@type": "ImageObject",
 				"url": "{{ site.url }}/assets/optikalbahari-logo.png",
