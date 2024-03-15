@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Jual Kacamata Murah Di Jakarta Model & Desain Terbaru
-subtitle: Kacamata Murah Dan Terjangkau
+title: Kacamata & Frame Murah Di Jakarta, Model & Desain Terbaru
+subtitle: Kacamata & Frame Murah Dan Terjangkau
 description: Dapatkan koleksi Lensa dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas.
 keywords: "kacamata murah, frame murah, kacamata cicilan"
 lang: id-ID
@@ -9,7 +9,7 @@ author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/039.jpg
-permalink: /kacamata-murah-jakarta/
+permalink: /kacamata-frame-murah-jakarta/
 ---
 
 <div class="card-deck mb-3">
@@ -22,7 +22,7 @@ permalink: /kacamata-murah-jakarta/
             alt="tips-kacamata-2.jpg">
             <div class="card-body">
                 <h3 class="card-title">
-                    Kacamata Murah Dan Terjangkau
+                    Kacamata & Frame Murah Dan Terjangkau
                 </h3>
                 <p class="card-text">
                     Jika Anda mencari kacamata murah di Jakarta, maka Anda bisa mengunjungi Optikal Bahari. Kami menyediakan beragam pilihan kacamata dengan harga terjangkau yang cocok untuk setiap kebutuhan dan gaya. Kami juga menyediakan layanan Periksa Mata Gratis agar Anda dapat memastikan kondisi mata dan penglihatan Anda selalu dalam keadaan yang optimal. Selain itu, kami juga menyediakan pembayaran secara cicilan dan pembayaran menggunakan KJP, sehingga membeli kacamata di Optikal Bahari semakin mudah dan terjangkau. Jangan ragu untuk mengunjungi kami dan temui staff ramah kami yang siap membantu Anda dengan sepenuh hati.
