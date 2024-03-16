@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Kacamata & Frame Murah Di Jakarta, Model & Desain Terbaru
-subtitle: Kacamata & Frame Murah Dan Terjangkau
-description: Dapatkan koleksi Lensa dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas.
+subtitle: Harga Murah, Terjangkau, Bersahabat & Garansi 1 Tahun
+description: Butuh Lensa atau Frame kacamata? Optikal Bahari memiliki koleksi lengkap dengan harga terbaik. Segera kunjungi toko kami untuk penawaran eksklusif.
 keywords: "kacamata murah, frame murah, kacamata cicilan"
 lang: id-ID
 author: Optikal Bahari
@@ -27,15 +27,15 @@ permalink: /kacamata-frame-murah-jakarta/
                 <p class="card-text">
                     Jika Anda mencari kacamata murah di Jakarta, maka Anda bisa mengunjungi Optikal Bahari. Kami menyediakan beragam pilihan kacamata dengan harga terjangkau yang cocok untuk setiap kebutuhan dan gaya. Kami juga menyediakan layanan Periksa Mata Gratis agar Anda dapat memastikan kondisi mata dan penglihatan Anda selalu dalam keadaan yang optimal. Selain itu, kami juga menyediakan pembayaran secara cicilan dan pembayaran menggunakan KJP, sehingga membeli kacamata di Optikal Bahari semakin mudah dan terjangkau. Jangan ragu untuk mengunjungi kami dan temui staff ramah kami yang siap membantu Anda dengan sepenuh hati.
                 </p>
-                <p>
+                <p class="card-text">
                     Selain itu, di Optikal Bahari kami juga menyediakan beragam pilihan lensa dan frame kacamata dengan harga yang terjangkau. Kami mengerti bahwa membeli kacamata bukanlah hal yang murah, oleh karena itu kami memberikan layanan pembayaran dengan cicilan yang memudahkan Anda dalam membeli kacamata yang diinginkan. Jika Anda membutuhkan kacamata namun tidak memiliki uang yang cukup, kami juga menerima pembayaran menggunakan KJP untuk membantu Anda. Jadi, jangan ragu untuk mengunjungi Optikal Bahari dan temui staff ramah kami yang siap membantu Anda dengan sepenuh hati.
                 </p>
-                <p>
+                <p class="card-text">
                     Kami juga menyediakan berbagai jenis lensa, mulai dari lensa koreksi, lensa anti radiasi, hingga lensa multifocal. Lengkap dengan berbagai macam pilihan frame kacamata dengan desain yang trendy dan sesuai dengan kebutuhan Anda. Koleksi frame kacamata kami dari berbagai merk terkenal, seperti Ray-Ban, Oakley, Prada, dan lainnya. Jika Anda memiliki masalah penglihatan seperti rabun jauh, rabun dekat, atau <em>astigmatisme</em>, kami juga menyediakan layanan pembuatan lensa koreksi yang sesuai dengan kebutuhan Anda. Kami menggunakan alat yang canggih dan teknologi terbaru untuk membuat lensa yang tepat sesuai dengan ukuran mata dan kebutuhan Anda.
                 </p>
             </div>
+        </div>
     </div>
-</div>
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -45,8 +45,7 @@ permalink: /kacamata-frame-murah-jakarta/
         src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.jpg"
         class="card-img-top img-fluid"
         alt="Kelebihan Optikal Bahari" 
-        title="Kelebihan Optikal Bahari"
-    />
+        title="Kelebihan Optikal Bahari"/>
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Optikal Bahari
