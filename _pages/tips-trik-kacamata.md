@@ -41,13 +41,14 @@ permalink: /tips-trik-kacamata/
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">
-            Posted by <em>
-                          {% if post.author %} 
+            Posted by 
+						<em>
+						{% if post.author %} 
                             {{ post.author }} 
                                 {% else %} 
                             {{ site.author }} 
-                          {% endif %}
-                      </em>,
+						{% endif %}
+						</em>,
             on {{ post.date | date: '%b %d, %Y' }} 
                 &middot; 
             {% include read_time.html content=post.content %}
