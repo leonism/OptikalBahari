@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bendungan Jago 447, Kemayoran Jakarta Pusat
-subtitle: Segera Kunjungi Kami dan Dapatkan Pemeriksaan Kacamata Gratis.
+subtitle: Segera Kunjungi Optikal Bahari dan Dapatkan Pemeriksaan Kacamata Gratis.
 description: Lokasi Bahari Optical Jl. Bend. Jago No.447, RW.1, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10650
 keywords: Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Optik
 lang: id-ID
@@ -9,7 +9,6 @@ background: /assets/img/bg-lokasi-guy.jpg
 comments: false
 permalink: /lokasi/
 ---
-
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
 	<img src="/assets/img/profil/kemayoran-tempoe-doeloe.jpg" class="card-img-top" alt="kemayoran-tempoe-doeloe">
@@ -21,19 +20,19 @@ permalink: /lokasi/
 		Ingin kembali melihat dunia dengan jernih dan penuh warna? Bosan dengan kacamata yang berat dan memburam? Optikal Bahari ada untuk Anda! <b>Bukan cuma pemeriksaan mata gratis</b>, kami menawarkan pengalaman lebih dari itu, bayangkan :
 		<ul>
 			<li>
-				<b>Senyum hangat</b> dari staf kami yang siap menyambut dan membantu Anda dengan sepenuh hati.
+				<strong>Senyum hangat</strong> dari staf kami yang siap menyambut dan membantu Anda dengan sepenuh hati.
 			</li>
 			<li>
-				<b>Pemeriksaan mata yang cepat dan akurat</b> menggunakan teknologi terdini, tanpa antrean panjang yang membosankan.
+				<strong>Pemeriksaan mata yang cepat dan akurat</strong> menggunakan teknologi terdini, tanpa antrean panjang yang membosankan.
 			</li>
 			<li>
-				<b>Pilihan kacamata yang beragam dari brand ternama</b>, sesuai dengan gaya dan kebutuhan Anda.
+				<strong>Pilihan kacamata yang beragam dari brand ternama</strong>, sesuai dengan gaya dan kebutuhan Anda.
 			</li>
 			<li>
-				<b>Program cicilan ringan yang tak memberatkan</b>, serta pembayaran melalui KJP untuk kemudahan Anda
+				<strong>Program cicilan ringan yang tak memberatkan</strong>, serta pembayaran melalui KJP untuk kemudahan Anda
 			</li>
 			<li>
-				<b>Service kacamata profesional</b> untuk menjaga kacamata Anda tetap awet dan nyaman.
+				<strong>Service kacamata profesional</strong> untuk menjaga kacamata Anda tetap awet dan nyaman.
 			</li>
 		</ul>
 		</p>

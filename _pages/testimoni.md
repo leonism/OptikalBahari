@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Testimoni Pelanggan Kami
+title: Testimoni Pelanggan, Bukti Kepercayaan dan Kepuasan
 subtitle: "Karena 40+ Tahun Pengalaman Tidak Akan Mengelabui Hasil"
 description: "Berikut adalah sebagian dari testimoni & review yang diberikan oleh para pelanggan setia kami di halaman Google My Business Optikal Bahari sebagai referensi"
 keywords: "Testimoni, Optikal Bahari, Kemayoran, Optik Kacamata, Gratis"
@@ -8,29 +8,31 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/bg-index-testimoni.jpg
+background: /assets/img/bg-post.jpeg
 comments: false
 permalink: /testimoni/
 ---
 
 <div class="card-deck mb-3">
 	<div class="card shadow p-3 mb-5 bg-white rounded">
-		<img itemprop="image" 
-			src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg" | relative_url }}" class="card-img-top"
-			title="Periksakan Mata Anda Secara Rutin"
-			alt="Periksakan Mata Anda Secara Rutin">
-    <div class="card-body">
-		<h3 class="card-title">
-			Testimoni Pelanggan dan Konsumen Kami: Bukti Kepercayaan dan Kepuasan
-		</h3>
-        <p class="card-text">
-			Di tengah perubahan zaman dan derasnya arus informasi di era digital ini, menjaga konsistensi layanan dan kualitas bukan perkara mudah. Namun, dengan pengalaman lebih dari 40+ tahun di bisnis optik & kacamata, kami telah mempelajari banyak hal berharga dalam mewujudkannya. Namun, dengan pengalaman dan strategi yang tepat, Optikal Bahari berkomitmen untuk terus memberikan layanan dan kualitas terbaik bagi pelanggan.
-        </p>
-        <p class="card-text">
-			Testimoni-testimoni ini merupakan bukti nyata dari kepercayaan dan kepuasan pelanggan terhadap Optikal Bahari. Kami berkomitmen untuk selalu memberikan pelayanan terbaik dan produk berkualitas tinggi kepada seluruh pelanggan. Berikut adalah beberapa testimoni dari pelanggan setia kami, yang juga dapat Anda lihat secara online di <a href="https://search.google.com/local/reviews?placeid=ChIJDYWGN6T1aS4RjK50wCfHApg" title="Optikal Bahari Google My Busiess Review Page" class="GoogleMyBusiness" id="OptikalBahariGMB">Google My Business Optikal Bahari</a> dengan hasil 5 bintang dari 468 ulasan konsumen:
-        </p>
-		</div>
-	</div>
+    <img itemprop="image" 
+					data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg"
+					src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg"
+					class="card-img-top"
+					title="Periksakan Mata Anda Secara Rutin"
+					alt="Periksakan Mata Anda Secara Rutin">
+        <div class="card-body">
+			<h3 class="card-title">
+				Testimoni Pelanggan dan Konsumen Kami: Bukti Kepercayaan dan Kepuasan
+			</h3>
+            <p class="card-text">
+				Di tengah perubahan zaman dan derasnya arus informasi di era digital ini, menjaga konsistensi layanan dan kualitas bukan perkara mudah. Namun, dengan pengalaman lebih dari 40+ tahun di bisnis optik & kacamata, kami telah mempelajari banyak hal berharga dalam mewujudkannya. Namun, dengan pengalaman dan strategi yang tepat, Optikal Bahari berkomitmen untuk terus memberikan layanan dan kualitas terbaik bagi pelanggan.
+            </p>
+            <p class="card-text">
+				Testimoni-testimoni ini merupakan bukti nyata dari kepercayaan dan kepuasan pelanggan terhadap Optikal Bahari. Kami berkomitmen untuk selalu memberikan pelayanan terbaik dan produk berkualitas tinggi kepada seluruh pelanggan. Berikut adalah beberapa testimoni dari pelanggan setia kami, yang juga dapat Anda lihat secara online di <a href="https://search.google.com/local/reviews?placeid=ChIJDYWGN6T1aS4RjK50wCfHApg" title="Optikal Bahari Google My Busiess Review Page" class="GoogleMyBusiness" id="OptikalBahariGMB">Google My Business Optikal Bahari</a> dengan hasil 5 bintang dari 468 ulasan konsumen:
+            </p>
+        </div>
+    </div>
 </div>
 
 <div class="card-body">
@@ -74,7 +76,8 @@ permalink: /testimoni/
 	</div>
 </div>
 
-<!-- <h4>Halaman #1</h4>
+<!--
+<h4>Halaman #1</h4>
 <p class="aligncenter">
 <img data-src="/assets/img/testimonial/testi-01.jpg" src="/assets/img/testimonial/testi-01.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="testimonial/testi-01.jpg" ></p>
 
@@ -94,4 +97,5 @@ permalink: /testimoni/
 <p class="aligncenter">
 <img data-src="/assets/img/testimonial/testi-05.jpg" src="/assets/img/testimonial/testi-05.jpg" class="rounded mx-auto d-block rounded-lg img-fluid shadow"  alt="testimonial/testi-05.jpg" ></p>
 
-<p>Untuk ulasan dari konsumen kami lainnya, silahkan melihat secara langsung melalui tautan berikut <a href="https://www.google.com/search?safe=strict&hl=en-ID&gl=id&sxsrf=ALeKk01mFygFLFgcGPbW4Gdwxhg_0kuUoQ%3A1594976814186&ei=LmoRX4LyCvjjz7sPoYOd-Ao&q=Bahari+Optical%2C+Jl.+Bend.+Jago+No.447%2C+RW.1%2C+Utan+Panjang%2C+Kec.+Kemayoran%2C+Kota+Jakarta+Pusat%2C+Daerah+Khusus+Ibukota+Jakarta+10650&oq=Bahari+Optical%2C+Jl.+Bend.+Jago+No.447%2C+RW.1%2C+Utan+Panjang%2C+Kec.+Kemayoran%2C+Kota+Jakarta+Pusat%2C+Daerah+Khusus+Ibukota+Jakarta+10650&gs_lcp=CgZwc3ktYWIQDFAAWABgrqenBWgAcAB4AIABAIgBAJIBAJgBAKoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiCwbzT99PqAhX48XMBHaFBB68Q4dUDCAw#lrd=0x2e69f5a43786850d:0x9802c727c074ae8c,1,,,">ini</a>. <em>(Optikal Bahari)</em></p> -->
+<p>Untuk ulasan dari konsumen kami lainnya, silahkan melihat secara langsung melalui tautan berikut <a href="https://www.google.com/search?safe=strict&hl=en-ID&gl=id&sxsrf=ALeKk01mFygFLFgcGPbW4Gdwxhg_0kuUoQ%3A1594976814186&ei=LmoRX4LyCvjjz7sPoYOd-Ao&q=Bahari+Optical%2C+Jl.+Bend.+Jago+No.447%2C+RW.1%2C+Utan+Panjang%2C+Kec.+Kemayoran%2C+Kota+Jakarta+Pusat%2C+Daerah+Khusus+Ibukota+Jakarta+10650&oq=Bahari+Optical%2C+Jl.+Bend.+Jago+No.447%2C+RW.1%2C+Utan+Panjang%2C+Kec.+Kemayoran%2C+Kota+Jakarta+Pusat%2C+Daerah+Khusus+Ibukota+Jakarta+10650&gs_lcp=CgZwc3ktYWIQDFAAWABgrqenBWgAcAB4AIABAIgBAJIBAJgBAKoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiCwbzT99PqAhX48XMBHaFBB68Q4dUDCAw#lrd=0x2e69f5a43786850d:0x9802c727c074ae8c,1,,,">ini</a>. <em>(Optikal Bahari)</em></p>
+-->

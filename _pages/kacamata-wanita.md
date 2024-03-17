@@ -9,11 +9,13 @@ author: Optikal Bahari
 categories: [Info]
 tags: [kacamata wanita, kacamata untuk wanita, aksesoris kacamata wanita]
 background: /assets/img/posts/whitesand-girls/whitesand-girls-00.jpg
+comments: false
 permalink: /kacamata-wanita/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img data-src="/assets/img/posts/whitesand-girls/whitesand-girls-01.jpg"
+    <img itemprop="image"
+        data-src="/assets/img/posts/whitesand-girls/whitesand-girls-01.jpg"
         src="/assets/img/posts/whitesand-girls/whitesand-girls-01.jpg" 
         class="card-img-top"
         title="Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting"

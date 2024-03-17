@@ -15,30 +15,30 @@ permalink: /periksa-mata-gratis/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img itemprop="image" 
-        src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg" | relative_url }}" class="card-img-top" 
-        alt="Periksakan Mata Anda Secara Rutin">
-    <div class="card-body">
-      <h3 class="card-title">
-        Periksa Mata Gratis
-      </h3>
-        <p class="card-text">
-          Menurut penelitian para ahli medis, menjaga kesehatan mata adalah langkah penting yang harus dilakukan secara rutin. Anda disarankan untuk melakukan <strong>pemeriksaan mata setiap 6 bulan sekali</strong>, agar perubahan yang mungkin terjadi pada penglihatan mata Anda dapat terdeteksi secara dini. Jangan abaikan kesehatan mata Anda, Optikal Bahari hadir untuk membantu menjaga penglihatan dengan pemeriksaan rutin berkualitas.
-        </p>
-        <p class="card-text">
-          Di Optikal Bahari, kami menghadirkan pengalaman pemeriksaan mata yang canggih dan nyaman. Proses pemeriksaan dilakukan secara digital dan terkomputerisasi, memastikan hasil pemeriksaan yang lebih akurat, presisi dan terpercaya. Dengan teknologi terkini yang kami miliki, Anda dapat merasa yakin bahwa kesehatan & penglihatan mata Anda dalam keadaan optimal.
-        </p>
-        <p class="card-text">
-          Mungkin Anda sering mengerutkan mata saat membaca, atau kesulitan melihat objek yang jauh. Atau mungkin, Anda merasakan sakit kepala yang sering muncul tanpa alasan yang jelas. Jika Anda mengalami salah satu dari tanda-tanda tersebut, segera lakukan pemeriksaan mata. Pemeriksaan mata yang tepat dan menyeluruh dapat membantu Anda menemukan solusi untuk masalah penglihatan Anda.
-        </p>
-        <p class="card-text">
-          Optikal Bahari menghadirkan <strong>pemeriksaan mata gratis</strong> yang dilakukan secara <strong>dua tahap</strong> untuk memastikan hasil yang akurat dan terpercaya. Pada <strong>tahap pertama</strong>, kami menggunakan <strong>autorefractometer</strong>, alat modern yang memberikan hasil analisis dini secara otomatis. Alat ini akan mengukur kelainan refraksi mata, seperti rabun jauh, rabun dekat, dan astigmatisme.
-        </p>
-        <p class="card-text">
-          Pada <strong>tahap kedua</strong>, kami menggunakan <strong>phoroptor</strong>, alat yang memungkinkan Anda untuk menjawab langsung berbagai tes penglihatan mata. Tes ini akan membantu optometris Optikal Bahari untuk mendiagnosa kondisi mata Anda dengan lebih presisi. Kombinasi dari dua proses ini memastikan bahwa Anda mendapatkan hasil <strong>pemeriksaan mata</strong> yang komprehensif dan akurat.
-        </p>
+      <img itemprop="image" 
+            src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg" | relative_url }}" class="card-img-top" 
+            alt="Periksakan Mata Anda Secara Rutin">
+        <div class="card-body">
+          <h3 class="card-title">
+            Periksa Mata Gratis
+          </h3>
+            <p class="card-text">
+              Menurut penelitian para ahli medis, menjaga kesehatan mata adalah langkah penting yang harus dilakukan secara rutin. Anda disarankan untuk melakukan <strong>pemeriksaan mata setiap 6 bulan sekali</strong>, agar perubahan yang mungkin terjadi pada penglihatan mata Anda dapat terdeteksi secara dini. Jangan abaikan kesehatan mata Anda, Optikal Bahari hadir untuk membantu menjaga penglihatan dengan pemeriksaan rutin berkualitas.
+            </p>
+            <p class="card-text">
+              Di Optikal Bahari, kami menghadirkan pengalaman pemeriksaan mata yang canggih dan nyaman. Proses pemeriksaan dilakukan secara digital dan terkomputerisasi, memastikan hasil pemeriksaan yang lebih akurat, presisi dan terpercaya. Dengan teknologi terkini yang kami miliki, Anda dapat merasa yakin bahwa kesehatan & penglihatan mata Anda dalam keadaan optimal.
+            </p>
+            <p class="card-text">
+              Mungkin Anda sering mengerutkan mata saat membaca, atau kesulitan melihat objek yang jauh. Atau mungkin, Anda merasakan sakit kepala yang sering muncul tanpa alasan yang jelas. Jika Anda mengalami salah satu dari tanda-tanda tersebut, segera lakukan pemeriksaan mata. Pemeriksaan mata yang tepat dan menyeluruh dapat membantu Anda menemukan solusi untuk masalah penglihatan Anda.
+            </p>
+            <p class="card-text">
+              Optikal Bahari menghadirkan <strong>pemeriksaan mata gratis</strong> yang dilakukan secara <strong>dua tahap</strong> untuk memastikan hasil yang akurat dan terpercaya. Pada <strong>tahap pertama</strong>, kami menggunakan <strong>autorefractometer</strong>, alat modern yang memberikan hasil analisis dini secara otomatis. Alat ini akan mengukur kelainan refraksi mata, seperti rabun jauh, rabun dekat, dan astigmatisme.
+            </p>
+            <p class="card-text">
+              Pada <strong>tahap kedua</strong>, kami menggunakan <strong>phoroptor</strong>, alat yang memungkinkan Anda untuk menjawab langsung berbagai tes penglihatan mata. Tes ini akan membantu optometris Optikal Bahari untuk mendiagnosa kondisi mata Anda dengan lebih presisi. Kombinasi dari dua proses ini memastikan bahwa Anda mendapatkan hasil <strong>pemeriksaan mata</strong> yang komprehensif dan akurat.
+            </p>
+        </div>
     </div>
-  </div>
 </div>
 
 <div class="card-deck mb-3">
