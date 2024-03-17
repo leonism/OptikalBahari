@@ -56,7 +56,7 @@ permalink: /kacamata-wanita/
       Optikal Bahari mengerti betul pentingnya memilih kacamata wanita yang sesuai dengan kebutuhan dan gaya hidup Anda. Dengan layanan konsultasi gratis dari optician berpengalaman kami, kami dapat membantu Anda menemukan kacamata yang sempurna untuk setiap kesempatan. Dengan koleksi yang beragam dan garansi 1 tahun, kami siap membantu Anda menemukan kacamata wanita yang tidak hanya memperbaiki penglihatan Anda tetapi juga menambah gaya Anda dengan percaya diri.
     </p>
   </div>
-</div>
+</div> 
 
 <div class="card shadow p-3 bg-white mb-5">
   <img data-src="/assets/img/posts/whitesand-girls/whitesand-girls-03.jpg"

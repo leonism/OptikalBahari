@@ -22,13 +22,13 @@
 		"editor.acceptSuggestionOnEnter": "off"
 	},
 	"files.associations": {
-		"*.md": "jekyll",
+		"*.md": "liquid",
 		"*.markdown": "jekyll",
 		"*.html": "liquid",
 		"*.liquid": "jekyll"
 	},
 	"[liquid]": {
 		"editor.defaultFormatter": "sissel.shopify-liquid",
-		"editor.formatOnSave": false
+		"editor.formatOnSave": true
 	}
 }

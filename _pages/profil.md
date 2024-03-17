@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Sekapur Sirih
-subtitle: 'Dan Dengarkan Kami Bercerita'
-description: 'Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi selanjutnya dikeluarga kami.'
-keywords: 'Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
+subtitle: "Dan Dengarkan Kami Bercerita"
+description: "Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi selanjutnya dikeluarga kami."
+keywords: "Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo"
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/050.jpg
-image: /assets/img/profil/bandar-udara-kemayoran-80an.jpg
+background: /assets/img/posts/optikal-bahari-retro/optikal-bahari-retro-01.jpg
+thumbs: /assets/img/posts/optikal-bahari-retro/optikal-bahari-retro-01-min.jpg
 permalink: /profil/
 ---
 
@@ -19,12 +19,12 @@ permalink: /profil/
     <h3 class="card-title">
       Sejarah Berdirinya Optikal Bahari
     </h3>
-    <p class="card-text">
-      Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40+ tahun yang telah lalu, dan sekarang telah berkemabang dan diteruskan ke generasi selanjutnya dikeluarga kami.
-    </p>
-		<p>
-      Optikal Bahari telah menjadi bagian keseharian dari banyak keluarga di Kemayoran, mulai dari para generasi terdahulu yang sebelumnya di layani langsung oleh para orang tua kami, berlanjut ke masa sekarang, dimana pengunjungnya masih setia dengan mengajak para anak dan cucu mereka ke Optikal Bahari.
-    </p>		
+      <p class="card-text">
+        Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40+ tahun yang telah lalu, dan sekarang telah berkembang dan diteruskan ke generasi selanjutnya dikeluarga kami.
+      </p>
+      <p>
+        Optikal Bahari telah menjadi bagian keseharian dari banyak keluarga di Kemayoran, mulai dari para generasi terdahulu yang sebelumnya di layani langsung oleh para orang tua kami, berlanjut ke masa sekarang, dimana pengunjungnya masih setia dengan mengajak para anak dan cucu mereka ke Optikal Bahari.
+      </p>
 	</div>
 </div>
 
