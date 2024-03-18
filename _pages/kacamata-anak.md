@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Temukan Kacamata Anak Terbaik, Hanya di Optikal Bahari
-subtitle: "Temukan Kacamata Pria Terkini & Berkualitas di Optikal Bahari, Dapatkan Periksa Mata Gratis, Cicilan 0% & Garansi Kacamata 1 Tahun"
+subtitle: "Temukan Kacamata Anak Terkini & Berkualitas di Optikal Bahari, Dapatkan Periksa Mata Gratis, Cicilan 0% & Garansi Kacamata 1 Tahun"
 description: Panduan Lengkap Memilih Kacamata Anak Terbaik di Optikal Bahari. Dapatkan Konsultasi Gratis, Bergaransi, & Layanan Perbaikan Kacamata Gratis.
 keywords: "kacamata anak, kacamata untuk anak, kacamata cicilan, cicilan 0%"
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata anak, kacamata untuk anak, aksesoris kacamata anak]
-background: /assets/img/posts/whitesand-girls/whitesand-girls-00.jpg
+background: /assets/img/posts/kacamata-anak/kacamata-anak-00.jpg
 comments: false
 permalink: /kacamata-anak/
 ---
@@ -16,8 +16,8 @@ permalink: /kacamata-anak/
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-01.jpg"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-01.jpg"
+    data-src="/assets/img/posts/kacamata-anak/kacamata-anak-01.jpg"
+    src="/assets/img/posts/kacamata-anak/kacamata-anak-01.jpg"
     class="card-img-top"
     title="Kenapa Kacamata Anak Penting untuk Kesehatan Mata Si Kecil?"
     alt="Kenapa Kacamata Anak Penting untuk Kesehatan Mata Si Kecil?">
@@ -39,8 +39,8 @@ permalink: /kacamata-anak/
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-02.jpg"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-02.jpg"
+    data-src="/assets/img/posts/kacamata-anak/kacamata-anak-02.jpg"
+    src="/assets/img/posts/kacamata-anak/kacamata-anak-02.jpg"
     class="card-img-top"
     title="Tips Memilih Kacamata Anak yang Cocok dengan Gaya dan Kebutuhan Si Kecil"
     alt="Tips Memilih Kacamata Anak yang Cocok dengan Gaya dan Kebutuhan Si Kecil">
@@ -62,8 +62,8 @@ permalink: /kacamata-anak/
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-03.jpg"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-03.jpg"
+    data-src="/assets/img/posts/kacamata-anak/kacamata-anak-03.jpg"
+    src="/assets/img/posts/kacamata-anak/kacamata-anak-03.jpg"
     class="card-img-top"
     title="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
     alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
@@ -85,8 +85,8 @@ permalink: /kacamata-anak/
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-04.jpg"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-04.jpg"
+    data-src="/assets/img/posts/kacamata-anak/kacamata-anak-04.jpg"
+    src="/assets/img/posts/kacamata-anak/kacamata-anak-04.jpg"
     class="card-img-top"
     title="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
     alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
@@ -108,8 +108,8 @@ permalink: /kacamata-anak/
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-05.jpg"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-05.jpg"
+    data-src="/assets/img/posts/kacamata-anak/kacamata-anak-05.jpg"
+    src="/assets/img/posts/kacamata-anak/kacamata-anak-05.jpg"
     class="card-img-top"
     title="Kunjungi Optikal Bahari Sekarang untuk Menemukan Kacamata Anak yang Tepat"
     alt="Kunjungi Optikal Bahari Sekarang untuk Menemukan Kacamata Anak yang Tepat">
@@ -124,11 +124,11 @@ permalink: /kacamata-anak/
       Di Optikal Bahari, kami tidak hanya menawarkan kacamata anak yang fungsional, tetapi juga modis. Dari bingkai yang lucu dan berwarna hingga desain yang trendi dan stylish, Anda akan menemukan semua yang Anda butuhkan di toko kami. Selain itu, dengan garansi 1 tahun dan layanan perbaikan kacamata gratis yang kami sediakan, Anda dapat yakin bahwa kacamata anak Anda akan tetap dalam kondisi terbaik.
     </p>
     <p class="card-text">
-      Jangan tunggu lagi, kunjungi Optikal Bahari sekarang untuk menemukan kacamata anak yang tepat untuk si kecil. Dapatkan pengalaman berbelanja yang menyenangkan dan berikan yang terbaik untuk kesehatan mata mereka. Tim kami siap membantu Anda menemukan kacamata yang sesuai dengan gaya, kebutuhan, dan anggaran Anda. Ayo, segera kunjungi toko kami dan buat si kecil merasa nyaman dan percaya diri dengan kacamata baru mereka.      
+      Jangan tunggu lagi, kunjungi Optikal Bahari sekarang untuk menemukan kacamata anak yang tepat untuk si kecil. Dapatkan pengalaman berbelanja yang menyenangkan dan berikan yang terbaik untuk kesehatan mata mereka. Tim kami siap membantu Anda menemukan kacamata yang sesuai dengan gaya, kebutuhan, dan anggaran Anda. Ayo, segera kunjungi toko kami dan buat si kecil merasa nyaman dan percaya diri dengan kacamata baru mereka.                            
       Ayo kunjungi toko kami sekarang dan temukan kacamata anak impian buah hati Anda. Dapatkan garansi 1 tahun untuk setiap pembelian kacamata, serta layanan gratis service & reparasi untuk memastikan kacamata Anda tetap dalam kondisi terbaik.		                                                                             
       Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
-      <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan                                                                                                                                      
-            Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda.                                                                                                                                      
+      <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan                                                                                                                                                            
+            Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda.                                                                                                                                                            
             Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
       <a
         href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"

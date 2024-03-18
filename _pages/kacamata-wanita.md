@@ -14,34 +14,36 @@ permalink: /kacamata-wanita/
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-    <img itemprop="image"
-        data-src="/assets/img/posts/whitesand-girls/whitesand-girls-01.jpg"
-        src="/assets/img/posts/whitesand-girls/whitesand-girls-01.jpg" 
-        class="card-img-top"
-        title="Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting"
-        alt="Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting">
-    <div class="card-body">
-      <h3 class="card-title">
-        Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting
-      </h3>
-      <p class="card-text">
-        Kacamata wanita bukan hanya alat bantu penglihatan, tetapi juga menjadi pernyataan gaya yang kuat. Dalam era ini, kacamata telah berkembang menjadi aksesori fashion yang tidak dapat diabaikan, memperkaya penampilan setiap wanita dengan sentuhan yang unik. Dari desain klasik yang elegan hingga gaya yang lebih eksentrik, kacamata wanita menawarkan beragam pilihan untuk mengekspresikan kepribadian dan gaya.
-      </p>
-      <p class="card-text">
-        Tidak hanya itu, kacamata wanita juga dapat meningkatkan kepercayaan diri dan menambah daya tarik secara keseluruhan. Dengan memilih kacamata yang sesuai dengan bentuk wajah dan gaya pribadi, Anda dapat menonjolkan fitur wajah Anda dan menciptakan kesan yang tak terlupakan. Dengan demikian, kacamata wanita telah menjadi salah satu elemen kunci dalam merancang penampilan yang stylish dan berkelas.
-      </p>
-      <p class="card-text">
-        Optikal Bahari memahami betapa pentingnya peran kacamata wanita dalam dunia fashion. Oleh karena itu, kami menyediakan koleksi terbaru dan terkini dari berbagai merek terkenal, memastikan bahwa setiap wanita dapat menemukan kacamata yang sempurna untuk menunjang gaya mereka. Dengan garansi 1 tahun dan layanan periksa mata gratis, kami berkomitmen untuk membantu Anda menemukan kacamata wanita yang tidak hanya memperbaiki penglihatan Anda tetapi juga menambah nilai fashion Anda.
-      </p>
-    </div>
+  <img
+    itemprop="image"
+    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-01.jpg"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-01.jpg"
+    class="card-img-top"
+    title="Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting"
+    alt="Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting">
+  <div class="card-body">
+    <h3 class="card-title">
+      Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting
+    </h3>
+    <p class="card-text">
+      Kacamata wanita bukan hanya alat bantu penglihatan, tetapi juga menjadi pernyataan gaya yang kuat. Dalam era ini, kacamata telah berkembang menjadi aksesori fashion yang tidak dapat diabaikan, memperkaya penampilan setiap wanita dengan sentuhan yang unik. Dari desain klasik yang elegan hingga gaya yang lebih eksentrik, kacamata wanita menawarkan beragam pilihan untuk mengekspresikan kepribadian dan gaya.
+    </p>
+    <p class="card-text">
+      Tidak hanya itu, kacamata wanita juga dapat meningkatkan kepercayaan diri dan menambah daya tarik secara keseluruhan. Dengan memilih kacamata yang sesuai dengan bentuk wajah dan gaya pribadi, Anda dapat menonjolkan fitur wajah Anda dan menciptakan kesan yang tak terlupakan. Dengan demikian, kacamata wanita telah menjadi salah satu elemen kunci dalam merancang penampilan yang stylish dan berkelas.
+    </p>
+    <p class="card-text">
+      Optikal Bahari memahami betapa pentingnya peran kacamata wanita dalam dunia fashion. Oleh karena itu, kami menyediakan koleksi terbaru dan terkini dari berbagai merek terkenal, memastikan bahwa setiap wanita dapat menemukan kacamata yang sempurna untuk menunjang gaya mereka. Dengan garansi 1 tahun dan layanan periksa mata gratis, kami berkomitmen untuk membantu Anda menemukan kacamata wanita yang tidak hanya memperbaiki penglihatan Anda tetapi juga menambah nilai fashion Anda.
+    </p>
+  </div>
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img data-src="/assets/img/posts/whitesand-girls/whitesand-girls-02.jpg"
-      src="/assets/img/posts/whitesand-girls/whitesand-girls-02.jpg" 
-      title="kacamata cicilan di optikal bahari"
-      class="card-img-top" 
-      alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+  <img
+    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-02.jpg"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-02.jpg"
+    title="kacamata cicilan di optikal bahari"
+    class="card-img-top"
+    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
     <h3 class="card-title">
       Bagaimana Memilih Kacamata Wanita yang Cocok untuk Anda
@@ -56,14 +58,15 @@ permalink: /kacamata-wanita/
       Optikal Bahari mengerti betul pentingnya memilih kacamata wanita yang sesuai dengan kebutuhan dan gaya hidup Anda. Dengan layanan konsultasi gratis dari optician berpengalaman kami, kami dapat membantu Anda menemukan kacamata yang sempurna untuk setiap kesempatan. Dengan koleksi yang beragam dan garansi 1 tahun, kami siap membantu Anda menemukan kacamata wanita yang tidak hanya memperbaiki penglihatan Anda tetapi juga menambah gaya Anda dengan percaya diri.
     </p>
   </div>
-</div> 
+</div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img data-src="/assets/img/posts/whitesand-girls/whitesand-girls-03.jpg"
-      src="/assets/img/posts/whitesand-girls/whitesand-girls-03.jpg" 
-      title="kacamata cicilan murah di jakarta"
-      class="card-img-top" 
-      alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  <img
+    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-03.jpg"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-03.jpg"
+    title="kacamata cicilan murah di jakarta"
+    class="card-img-top"
+    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
   <div class="card-body">
     <h3 class="card-title">
       Tren Kacamata Wanita Terkini yang Harus Anda Coba
@@ -81,11 +84,12 @@ permalink: /kacamata-wanita/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img data-src="/assets/img/posts/whitesand-girls/whitesand-girls-04.jpg"
-      src="/assets/img/posts/whitesand-girls/whitesand-girls-04.jpg" 
-      title="kacamata cicilan murah di jakarta"
-      class="card-img-top" 
-      alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  <img
+    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-04.jpg"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-04.jpg"
+    title="kacamata cicilan murah di jakarta"
+    class="card-img-top"
+    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
   <div class="card-body">
     <h3 class="card-title">
       Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru
@@ -103,11 +107,12 @@ permalink: /kacamata-wanita/
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img data-src="/assets/img/posts/whitesand-girls/whitesand-girls-05.jpg"
-      src="/assets/img/posts/whitesand-girls/whitesand-girls-05.jpg" 
-      title="kacamata cicilan murah di jakarta"
-      class="card-img-top" 
-      alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  <img
+    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-05.jpg"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-05.jpg"
+    title="kacamata cicilan murah di jakarta"
+    class="card-img-top"
+    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
   <div class="card-body">
     <h3 class="card-title">
       Temukan Kacamata Wanita Impian Anda di Optikal Bahari!
@@ -119,7 +124,21 @@ permalink: /kacamata-wanita/
       Kunjungi Optikal Bahari sekarang dan temukan kacamata wanita impian Anda. Dengan layanan periksa mata gratis, Anda dapat memastikan bahwa kacamata yang Anda pilih tidak hanya menambah gaya Anda tetapi juga memperbaiki penglihatan Anda dengan sempurna. Jangan lewatkan garansi 1 tahun dan layanan perbaikan kacamata gratis kami, sehingga Anda dapat memiliki kepercayaan diri dan ketenangan pikiran saat berbelanja di Optikal Bahari.
     </p>
     <p class="card-text">
-      Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
+      Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
+      <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+      <a
+        href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
+        id="WhatsAppClick"
+        class="WhatsAppCall"
+        title="Call WhatsApp">+6281932235445</a>
+      atau kunjungi
+      <a
+        href="https://www.facebook.com/optikalbahari"
+        id="FBClick"
+        title="Facebook Page Optikal Bahari"
+        class="FacebookPage">Facebook Fan</a>
+      Page kami.
+      <em>(Optikal Bahari)</em>
     </p>
   </div>
 </div>
