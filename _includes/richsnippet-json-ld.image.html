@@ -1,56 +1,58 @@
-<script type="application/ld+json" class="schemantra">
+<script
+	type="application/ld+json"
+	class="schemantra">
 	{
-	    "@context": "https://schema.org",
-	    "@type": "ImageObject",
-	    "@id": "ImageObject",
-	    "isFamilyFriendly": true,
-	    "acquireLicensePage": "{{ site.url }}",
-	    "creditText": {{ site.author_name | jsonify }},
-	     "creator": {
-	            "@type": "Organization",
-	            "name": {{ site.author_name | jsonify }}
-	        },
-	    "uploadDate": {{ page.date | jsonify }},
-	    "dateCreated": {{ page.date | jsonify }},
-	    "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
-	    "abstract": "{% if page.description.size > 10 %}
-	            {{ page.description | truncate: 160 }}
-	                {% else %}
-	            {{ site.description | truncate: 160 }}
-	                {% endif %}",
-	    "alternateName": {{ page.title | strip | jsonify }},
-	    "caption": {{ page.title | jsonify }},
-	    "embedUrl": "{{ site.url }}{{ page.url }}",
-	    "headline": {{ page.title | jsonify }},
-	    "identifier": "{{ site.url }}",
-	    "image": "{{ site.url }}{{ page.background }}",
-	    "alternativeHeadline": {{ page.title | jsonify }},
-	    "archivedAt": "{{ site.url }}{{ page.url }}",
-	    "citation": "{% if page.description.size > 10 %}
-	            {{ page.description | truncate: 160 }}
-	                {% else %}
-	            {{ site.description | truncate: 160 }}
-	                {% endif %}",
-	    "contentUrl": "{{ site.url }}{{ page.background }}",
-	    "copyrightNotice": "{{ site.url }}",
-	    "description": "{% if page.description.size > 10 %}
-	            {{ page.description | truncate: 160 }}
-	                {% else %}
-	            {{ site.description | truncate: 160 }}
-	                {% endif %}",
-	    "embeddedTextCaption": "{% if page.description.size > 10 %}
-	            {{ page.description | truncate: 160 }}
-	                {% else %}
-	            {{ site.description | truncate: 160 }}
-	                {% endif %}",
-	    "isBasedOn": "{{ site.url }}{{ page.background }}",
-	    "isBasedOnUrl": "{{ site.url }}{{ page.background }}",
-	    "inLanguage": "{{ page.lang }}",
-	    "isPartOf": "{{ site.url }}",
-	    "license": "{{ site.url }}",
-	    "mainEntityOfPage": {{ site.author_name | jsonify }},
-	    "keywords": "{{ page.keywords normalize_whitespace | truncate: 160 | escape }}",
-	    "thumbnailUrl": "{{ site.url }}{{ page.background }}"
+		"@context": "https://schema.org",
+		"@type": "ImageObject",
+		"@id": "ImageObject",
+		"isFamilyFriendly": true,
+		"acquireLicensePage": "{{ site.url }}",
+		"creditText": {{ site.author_name | jsonify }},
+		"creator": {
+					"@type": "Organization",
+					"name": {{ site.author_name | jsonify }}
+			},
+			"uploadDate": {{ page.date | jsonify }},
+			"dateCreated": {{ page.date | jsonify }},
+			"dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+			"abstract": "{% if page.description.size > 10 %}
+					{{ page.description | truncate: 160 }}
+						{% else %}
+					{{ site.description | truncate: 160 }}
+						{% endif %}",
+			"alternateName": {{ page.title | strip | jsonify }},
+			"caption": {{ page.title | jsonify }},
+			"embedUrl": "{{ site.url }}{{ page.url }}",
+			"headline": {{ page.title | jsonify }},
+			"identifier": "{{ site.url }}",
+			"image": "{{ site.url }}{{ page.background }}",
+			"alternativeHeadline": {{ page.title | jsonify }},
+			"archivedAt": "{{ site.url }}{{ page.url }}",
+			"citation": "{% if page.description.size > 10 %}
+				{{ page.description | truncate: 160 }}
+						{% else %}
+				{{ site.description | truncate: 160 }}
+						{% endif %}",
+			"contentUrl": "{{ site.url }}{{ page.background }}",
+			"copyrightNotice": "{{ site.url }}",
+			"description": "{% if page.description.size > 10 %}
+				{{ page.description | truncate: 160 }}
+						{% else %}
+				{{ site.description | truncate: 160 }}
+						{% endif %}",
+			"embeddedTextCaption": "{% if page.description.size > 10 %}
+					{{ page.description | truncate: 160 }}
+						{% else %}
+					{{ site.description | truncate: 160 }}
+						{% endif %}",
+			"isBasedOn": "{{ site.url }}{{ page.background }}",
+			"isBasedOnUrl": "{{ site.url }}{{ page.background }}",
+			"inLanguage": "{{ page.lang }}",
+			"isPartOf": "{{ site.url }}",
+			"license": "{{ site.url }}",
+			"mainEntityOfPage": {{ site.author_name | jsonify }},
+			"keywords": "{{ page.keywords normalize_whitespace | truncate: 160 | escape }}",
+			"thumbnailUrl": "{{ site.url }}{{ page.background }}"
 	}
 </script>
 
@@ -58,7 +60,7 @@
 	{
 		"@context": "https://schema.org",
 		"@type": "Article",
-		"mainEntityOfPage": 
+		"mainEntityOfPage":
 		{
 			"@type": "WebPage",
 			"@id": "{{ site.url }}{{ page.url }}"
@@ -69,7 +71,7 @@
 			"@type": "Organization",
 			"name": {{ site.author_name | jsonify }}
 		},
-		"publisher": 
+		"publisher":
 		{
 			"@type": "Organization",
 			"name": {{ site.author_name | jsonify }},
@@ -93,6 +95,58 @@
 			"{{ site.url }}/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.jpg",
 			"{{ site.url }}/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.jpg",
 			"{{ site.url }}/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-00.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-01.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-02.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-03.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-04.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-05.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-06.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-07.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-08.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-09.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-10.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-11.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/beach-girls-12.jpg",
+			"{{ site.url }}/assets/img/posts/beach-girls-00/cover-page-kacamata-wajah-bulat.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-00.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-01.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-02.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-03.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-04.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-05.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-06.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-07.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-08.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-09.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-10.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-011.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-012.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-013.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-014.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-015.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-016.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-017.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-018.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-019.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-020.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-021.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-022.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-023.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-024.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-025.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-026.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-027.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-028.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-029.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-030.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-031.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-032.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-033.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-034.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-035.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-036.jpg",
+			"{{ site.url }}/assets/img/posts/beach-retro-girls/beach-retro-girls-037.jpg",
 			"{{ site.url }}/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.jpg"
 		]
 	}
