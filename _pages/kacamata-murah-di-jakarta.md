@@ -21,7 +21,7 @@ permalink: /kacamata-murah-di-jakarta/
 		/>
 		<div class="card-body">
 			<h3 class="card-title">Kacamata Murah Di Jakarta</h3>
-			<p class="card-text">
+			<p class="card-text text-justify">
 				Jika Anda sedang mencari kacamata dengan harga terjangkau di Jakarta, datanglah ke Optikal Bahari. Kami memiliki berbagai pilihan lensa dan frame dengan harga yang terjangkau, namun tidak mengurangi kualitas produk yang kami tawarkan. Kami yakin bahwa kacamata yang kami tawarkan akan memenuhi kebutuhan dan keinginan Anda. Jangan ragu untuk datang dan melihat sendiri pilihan kacamata yang kami tawarkan di Optikal Bahari.
 			</p>
 			<p>
@@ -42,10 +42,10 @@ permalink: /kacamata-murah-di-jakarta/
 		/>
 		<div class="card-body">
 			<h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
-			<p class="card-text">
+			<p class="card-text text-justify">
 				Jangan lewatkan kesempatan untuk memeriksa mata Anda secara gratis di Optikal Bahari di Kemayoran. Kami menyediakan pilihan pembayaran cicilan dengan harga yang terjangkau, bunga 0%, dan tidak memerlukan Credit Card. Kami juga menerima Program KJP. Jadi, jangan ragu untuk datang ke Optikal Bahari dan periksa keadaan mata Anda sekarang juga. Kami siap membantu Anda dalam merawat mata dan memenuhi kebutuhan kacamata Anda.
 			</p>
-			<p class="card-text">
+			<p class="card-text text-justify">
 				Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
 				<a
 					href="https://www.facebook.com/optikalbahari"
@@ -84,8 +84,8 @@ permalink: /kacamata-murah-di-jakarta/
 				<h5 class="card-title">
 					{{ post.title }}
 				</h5>
-				<p class="card-text">{{ post.description | strip_html | truncatewords: 20 }}.</p>
-				<p class="card-text">
+				<p class="card-text text-justify">{{ post.description | strip_html | truncatewords: 20 }}.</p>
+				<p class="card-text text-justify">
 					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 						>Selengkapnya</a
 					>

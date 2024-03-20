@@ -24,7 +24,7 @@ permalink: /periksa-mata-di-optik/
       <h3 class="card-title">
         Periksa Mata Anda di Optik Secara Rutin
       </h3>
-      <p class="card-text">
+      <p class="card-text text-justify">
         Menurut penelitian dari para Dokter, idealnya kamu melakukan proses cek mata secara rutin per 6 bulan sekali, hal ini ditujukan agar selalu terdeteksinya perubahan yang terjadi pada daya penglihatan mata kamu. Semua proses pemeriksa mata di Optikal Bahari adalah gratis, maka jangan ragu lagi untuk mengunjungi Optikal Bahari untuk proses pemeriksaan mata. Pemeriksaan akan dilakukan dengan cara alat instrumen digital dan sudah terkomputerisasi, hal ini menjanjikan hasil yang lebih presisi dan akurat dibanding menggunakan alat pemeriksa analog lainnya guna mendukung kesehatan mata kamu.
       </p>
     </div>
@@ -41,10 +41,10 @@ permalink: /periksa-mata-di-optik/
         <h3 class="card-title">
           Hasil Pemeriksaan Cepat & Akurat
         </h3>
-        <p class="card-text">
+        <p class="card-text text-justify">
           Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Para staff kami bertugas untuk menyiapkan kacamata berdasarkan resep dari dokter mata. Selain membuat kacamata, para staff kami juga melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.
         </p>
-        <p class="card-text">
+        <p class="card-text text-justify">
           Selain itu, para staff kami juga dapat memberikan layanan perawatan dan pemeliharaan kacamata kamu, seperti membersihkan lensa dan memperbaiki kerusakan pada bingkai kacamata. Jadi, jangan ragu untuk berkonsultasi dengan para staff kami di Optikal Bahari, untuk mendapatkan solusi penglihatan terbaik yang sesuai dengan kebutuhan kamu.
         </p>
       </div>
@@ -61,7 +61,7 @@ permalink: /periksa-mata-di-optik/
       <h3 class="card-title">
         Menggunakan Alat Phoropter
       </h3>
-      <p class="card-text">
+      <p class="card-text text-justify">
         Di Optikal Bahari, kami menggunakan beberapa instrumen pengujian seperti Phoropter atau Refraktor, dimana alat tersebut akan digunakan untuk pengujian tingkatan Oftalmik, atau kelainan pada refleksi mata. Pada dasarnya, instrumen ini adalah alat bantu yang banyak digunakan oleh para profesional selama melakukan proses pemeriksaan mata. 
       </p>
       <p>
@@ -80,7 +80,7 @@ permalink: /periksa-mata-di-optik/
       <h3 class="card-title">
         Periksa Mata Menggunakan Komputer
       </h3>
-      <p class="card-text">
+      <p class="card-text text-justify">
         Pemeriksaan mata dengan menggunakan komputer merupakan metode yang lebih efisien dan akurat dibanding dengan metode pemeriksaan yang menggunakan alat analog. Proses pemeriksaan dengan menggunakan komputer memiliki beberapa keunggulan seperti:
       </p>
       <ol>
@@ -110,7 +110,7 @@ permalink: /periksa-mata-di-optik/
       <h3 class="card-title">
         Auto Lens Meter
       </h3>
-        <p class="card-text">
+        <p class="card-text text-justify">
           Proses pemeriksaan menggunakan Auto Lens Meter merupakan salah satu cara yang digunakan untuk mengetahui spesifikasi lensa kacamata yang akan digunakan oleh seseorang. Alat ini merupakan sebuah instrumen yang memiliki kemampuan untuk mengukur lensa kacamata secara digital dan terkomputerisasi. Proses pemeriksaan dengan menggunakan Auto Lens Meter sangat cepat dan akurat, sehingga memudahkan staff kami dalam menentukan spesifikasi lensa yang tepat sesuai dengan kebutuhan pasien. Proses pemeriksaan menggunakan Auto Lens Meter sangat penting dilakukan agar kacamata yang akan digunakan dapat memberikan hasil yang optimal bagi penglihatan seseorang.
         </p>
         <h3>

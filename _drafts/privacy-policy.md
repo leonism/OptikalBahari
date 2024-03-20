@@ -20,7 +20,7 @@ permalink: /privacy-policy/
       <h3 class="card-title">
         Privacy Policy for Optikal Bahari
       </h3>
-      <p class="card-text">
+      <p class="card-text text-justify">
         At Optikal Bahari, accessible from https://optikalbahari.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Optikal Bahari and how we use it. If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
       </p>      
       <p>

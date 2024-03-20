@@ -23,7 +23,7 @@ permalink: /kacamata-murah-tedekat/
 			<h3 class="card-title">
 				Kacamata Murah Terdekat
 			</h3>
-			<p class="card-text">
+			<p class="card-text text-justify">
 				Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kuran jelas? Banyak hal yang bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering main handphone, sampai dengan menurunnya kapasitas penglihatan seiring dengan bertambahnya usia. Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame bingkai kacamata dari mulai harga yang terjangkau sampai dengan harga menengah ke atas. Baca lebih lanjut untuk tahu alasan kenapa beli kacamata di Optikal Bahari.
 			</p>
 			<p>
@@ -46,7 +46,7 @@ permalink: /kacamata-murah-tedekat/
 			<h3 class="card-title">
 				Segera Kunjungi Optikal Bahari
 			</h3>
-			<p class="card-text">
+			<p class="card-text text-justify">
 				Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
 				<a
 					href="https://www.facebook.com/optikalbahari"
@@ -83,8 +83,8 @@ permalink: /kacamata-murah-tedekat/
 				<h5 class="card-title">
 					{{ post.title }}
 				</h5>
-				<p class="card-text">{{ post.description | strip_html | truncatewords: 20 }}.</p>
-				<p class="card-text">
+				<p class="card-text text-justify">{{ post.description | strip_html | truncatewords: 20 }}.</p>
+				<p class="card-text text-justify">
 					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 						>Selengkapnya
 						</a>

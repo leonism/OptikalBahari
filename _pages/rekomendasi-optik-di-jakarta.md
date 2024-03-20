@@ -18,7 +18,7 @@ permalink: /rekomendasi-optik-di-jakarta/
     <h3 class="card-title">
     Rekomenedasi Optik Di Jakarta Yang Terjangkau.
     </h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
     Kalo kamu kebetulan tinggal atau sedang berada di daerah Kemayoran atau sekitarnya, dan sedang mempertimbangkan utuk membeli Kacamata berhubung mungkin ukuran kamu sudah berubah atau butuh model baru karena model lama mungkin sudah bosan, mungkin boleh dicoba untuk mampir ke Optikal Bahari, di <a href="{{"/lokasi" | relative_url }}" title="Optikal Bahari, Jakarta Pusat">Jalan Bendungan Jago No 447 Kemayoran</a>, Jakarta Pusat.</p>
 
     <p>Cuma di Optikal Bahari dengan pengalaman selama 40 tahun yang bisa kasih kamu pelayanan pemeriksaan gratis dengan alat yang sudah modern dan terkomputerisasi. Jadi sebelum kamu memilih kacamata yang kamu suka, kami akan memberikan kamu pemeriksaan gratis tanpa adanya pungutan biaya.</p>
@@ -35,7 +35,7 @@ permalink: /rekomendasi-optik-di-jakarta/
   <img src="/assets/img/bg-about.jpg" class="card-img-top" alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
     <h3 class="card-title">Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan</h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       Supaya kamu tidak kesulitan melunasi kacamata impian, ada baiknya jika kamu memilih sebuah kacamata sesuai kebutuhan. Maksudnya bagaimana? Tentu pilih kacamata karena kamu memang membutuhkannya. Jangan tertarik karena modelnya atau warnanya yang keren namun fungsinya tidak sesuai kebutuhanmu saat ini.
     </p>    
     <p>

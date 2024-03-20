@@ -18,7 +18,7 @@ permalink: /tips-kacamata-untuk-wajah-bulat/
     <h3 class="card-title">
         Kacamata Untuk Wajah Bulat 
     </h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
         Model kacamata merupakan salah satu hal yang penting untuk dipertimbangkan bagi para pengguna kacamata. Hal ini di karenakan model kacamata yang tepat akan membuat penampilan kita lebih terlihat elegan dan terlihat lebih baik. Namun, tidak semua model kacamata cocok untuk semua bentuk wajah, terutama bagi yang mempunyai wajah bulat. Wajah bulat merupakan bentuk wajah yang terlihat lebih lonjong dan memiliki garis tengah yang lebih pendek dibandingkan dengan wajah lainnya.
     </p>    
     <p>

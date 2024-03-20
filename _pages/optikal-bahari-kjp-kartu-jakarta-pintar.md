@@ -23,7 +23,7 @@ permalink: /optikal-bahari-kjp-kartu-jakarta-pintar/
         <h3 class="card-title">
             Program Kartu Jakarta Pintar (KJP)
         </h3>
-        <p class="card-text">
+        <p class="card-text text-justify">
             Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai bagian dari gaya hidup. Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi bagian kebutuhan tersendiri, terutama untuk para kalangan muda.
         </p>	  
         <p>
@@ -44,7 +44,7 @@ permalink: /optikal-bahari-kjp-kartu-jakarta-pintar/
         <h3 class="card-title">
             Beli Kacamata Dengan KJP (Kartu Jakarta Pintar)
         </h3>
-        <p class="card-text">
+        <p class="card-text text-justify">
             Optikal Bahari menerima pembayaran untuk pembelian kacamata melalui mekanisme "Kartu Jakarta Pintar" atau disingkat KJP, fasilitas ini pertama kali dikeluarkan saat kepemimpinan President Joko Widodo. Di era kepemimpinan Anies Baswedan saat ini, KJP dioptimalkan menjadi KJP Plus. Manfaat dan dampak positif yang diharapkan dari siswa penerima KJP, antara lain:
         </p>
         <ul>
@@ -64,13 +64,13 @@ permalink: /optikal-bahari-kjp-kartu-jakarta-pintar/
         <h3 class="card-title">
             Segera Kunjungi Optikal Bahari
         </h3>
-        <p class="card-text">
+        <p class="card-text text-justify">
             Keramahan staff merupakan faktor penting dalam memberikan pengalaman berbelanja yang menyenangkan. Di Optikal Bahari, Anda akan menemukan staff yang ramah dan siap membantu Anda dengan senang hati. Optikal Bahari menyediakan berbagai pilihan kacamata, mulai dari model klasik hingga trendi. Anda dapat menemukan frame kacamata yang sesuai dengan bentuk wajah dan gaya pribadi Anda.
         </p>
-        <p class="card-text">
+        <p class="card-text text-justify">
             Selain frame kacamata, Optikal Bahari juga menyediakan berbagai pilihan lensa kacamata untuk memenuhi kebutuhan Anda. Staff yang berpengalaman akan membantu Anda memilih lensa yang tepat untuk masalah penglihatan Anda. Dengan staff yang ramah, pilihan kacamata yang beragam, dan lensa yang lengkap, Optikal Bahari adalah pilihan terbaik untuk kebutuhan kacamata Anda.
         </p>
-        <p class="card-text">
+        <p class="card-text text-justify">
             Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
         </p>
     </div>

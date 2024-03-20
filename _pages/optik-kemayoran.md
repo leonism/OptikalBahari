@@ -21,7 +21,7 @@ permalink: /optik-kemayoran/
     <h3 class="card-title">
       Lokasi Mudah Di Jangkau, Jalan Bendungan Jago No.447, Kemayoran.
     </h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       Kalo kamu kebetulan tinggal atau sedang berada di daerah Kemayoran atau sekitarnya, dan kebetulan sedang mempertimbangkan utuk membeli Kacamata berhubung mungkin ukuran kamu sudah berubah atau butuh model baru karena model lama mungkin sudah bosan, mungkin boleh dicoba untuk mampir ke Optikal Bahari, di <a href="{{"/lokasi" | relative_url }}" title="Optikal Bahari, Kemayoran, Jakarta Pusat">Jalan Bendungan Jago No 447 Kemayoran</a>, Jakarta Pusat.
     </p>
     <p>
@@ -42,7 +42,7 @@ permalink: /optik-kemayoran/
     <h3 class="card-title">
       Kacamata Yang Bisa Nyicil Sesuai Kebutuhan
     </h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       Supaya kamu tidak kesulitan melunasi kacamata impian, ada baiknya jika kamu memilih sebuah kacamata sesuai kebutuhan. Maksudnya bagaimana? Tentu pilih kacamata karena kamu memang membutuhkannya. Jangan tertarik karena modelnya atau warnanya yang keren namun fungsinya tidak sesuai kebutuhanmu saat ini.
     </p>
     <p>
@@ -66,7 +66,7 @@ permalink: /optik-kemayoran/
     <h3 class="card-title">
       Kacamata Cicilan Aman Dari Riba
     </h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       Ini adalah salah satu keunikan jika kamu membeli kacamata di Optikal Bahari, yaitu aman dari riba atau DP. Biasanya sistem cicil akan dibebankan sebuah bunga yang mesti kamu bayarkan. Namun di sini kamu bisa bernafas dengan lega, tidak ada sistem bunga yang akan kamu terima.
     </p>    
     <p>

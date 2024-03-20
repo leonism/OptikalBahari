@@ -22,7 +22,7 @@ permalink: /toko-kacamata/
             <h3 class="card-title">
                 Pusat Toko Kacamata & Frame di Kemayoran Jakarta, Terdekat Untuk Semua Kalangan
             </h3>
-            <p class="card-text">
+            <p class="card-text text-justify">
                 Optikal Bahari menyediakan beragam pilihan lensa kacamata beserta dengan frame yang trendy dan terbaru. Tetap dengan selalu memperhatikan harga yang terjangkau dan cocok untuk setiap kebutuhan dan gaya kamu. Kami mengerti bahwa membeli kacamata bukanlah hal yang dikategorikan mudah bagi sebagian masyarakat, oleh karena itu kami memberikan layanan pembayaran dengan cicilan yang memudahkan Anda dalam membeli kacamata yang diinginkan. Selain itu, kami juga menerima pembayaran menggunakan KJP untuk membantu Anda yang membutuhkan kacamata namun belum memiliki keuangan yang mencukupi.
             </p>
             <p>
@@ -39,10 +39,10 @@ permalink: /toko-kacamata/
       <h3 class="card-title">
         Segera Kunjungi Optikal Bahari
       </h3>
-      <p class="card-text">
+      <p class="card-text text-justify">
         Kami menyadari bahwa dalam memilih kacamata yang tepat bukanlah hal yang mudah, terutama karena ada banyaknya pilihan yang tersedia di pasaran. Namun, di Optikal Bahari kami memiliki team ramah dan terlatih yang akan membantu Anda dalam memilih kacamata paling sesuai dengan kebutuhan dan gaya Anda. Kami juga selalu memberikan saran yang terbaik kepada pelanggan kami agar dapat memilih kacamata yang paling sesuai dengan kebutuhan dan anggaran mereka. Jadi, jangan ragu untuk mengunjungi Optikal Bahari dan temui staff ramah kami yang siap membantu Anda.
       </p>
-      <p class="card-text">
+      <p class="card-text text-justify">
         Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
     <em>(Optikal Bahari)</em></p>
 	</div>

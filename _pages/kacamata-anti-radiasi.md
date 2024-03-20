@@ -20,7 +20,7 @@ permalink: /kacamata-anti-radiasi/
       alt="tips-kacamata-2.jpg">
     <div class="card-body">
       <h3 class="card-title">Periksakan Mata Anda Secara Rutin</h3>
-      <p class="card-text">
+      <p class="card-text text-justify">
         Di Optikal Bahari, proses pemeriksaan mata akan melalui 2 tahapan. Tahapan pertama adalah melalui mesin autorefractometer atau yang biasa dikenal dengan alat pemeriksaan mata otomatis. Lebih lanjut, guna untuk lebih memastikan hasil pemeriksaan ditahapan pertama, ditahapan selanjutnya kami menggunakan alat Phoroptor, dimana didalam prosesnya pasien diminta untuk menyebutkan angka dan tulisan yang tertera dimedia gambar yang terpampang. Selanjutnya, staff kami akan melakukan pembandingan hasil dari proses sebelumnya. Hasil akhir dari pemeriksaan akan menjadi lebih akurat berhubung telah melalui 2 proses validasi langsung dari system dan pasiennya.
       </p>
       <p>
@@ -37,7 +37,7 @@ permalink: /kacamata-anti-radiasi/
       alt="periksa-mata-gratis.jpg">
       <div class="card-body">
       <h3 class="card-title">Periksa Mata Cepat & Akurat</h3>
-      <p class="card-text">
+      <p class="card-text text-justify">
         Dan seiring dengan perkembang dunia teknologi, sekarang proses pemeriksaan menjadi lebih dipermudah dan menjadi lebih cepat, dan tentunya dengan hasil yang tetap akurat dan terpercaya. Optisien kami lebih lanjut bertugas untuk membuat kacamata atau menyiapkan lensa kontak berdasarkan resep dari dokter mata. Selain membuat kacamata, optisien juga dapat melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok dipakai atau perlu diganti.
       </p>
       <p>
@@ -58,7 +58,7 @@ permalink: /kacamata-anti-radiasi/
       alt="Periksa Mata Dengan Komputer">
       <div class="card-body">
       <h3 class="card-title">Periksa Mata Dengan Komputer</h3>
-      <p class="card-text">
+      <p class="card-text text-justify">
         Mengutamakan pelayanan terbaik bagi konsumen merupakan komitmen utama kami di Optikal Bahari. Kami memahami bahwa masalah penglihatan dapat mengganggu kegiatan sehari-hari, sehingga kami selalu siap untuk menjadi solusi bagi Anda. Jika Anda memiliki keluhan terkait penglihatan, jangan ragu untuk datang ke tempat kami dan konsultasikan masalah yang Anda alami. Kami akan memberikan saran dan solusi terbaik bagi Anda.
       </p>
       <p>
@@ -78,7 +78,7 @@ permalink: /kacamata-anti-radiasi/
       <h3 class="card-title">
         Menggunakan Alat Phoropter
       </h3>
-      <p class="card-text">
+      <p class="card-text text-justify">
         Kami menggunakan alat Phoropter atau Refraktor, alat ini biasanya digunakan oleh para profesional dan para ahli untuk proses periksa mata Anda, dimana didalam setiap unit Phoropter ini, terdapat berbagai macam lensa dengan berbagai macam ukuran yang digunakan agar dapat melakukan proses pembiasan ke mata selama pengukuran daya penglihatan mata Anda terjadi. Tujuannya adalah untuk mengukur tingkat kesalahan bias mata seseorang, yang pada akhirnya informasi tersebut akan digunakan untuk menentukan resep kacamata yang sesuai untuk ukuran Anda.
       </p>
       </div>
@@ -95,7 +95,7 @@ permalink: /kacamata-anti-radiasi/
       <h3 class="card-title">
         Autorefractometer atau Auto Lens Meter
       </h3>
-      <p class="card-text">
+      <p class="card-text text-justify">
         Lensmeter atau lensometer, juga dikenal sebagai focimeter atau vertometer, adalah instrumen oftalmik yang juga biasa digunakan dalam proses periksa mata. Alat ini terutama digunakan oleh para dokter mata dan ahli kacamata untuk memverifikasi ukuran kacamata terhadap dalam resep yang akan digunakan. Tujuan pemakaian instrumen ini adalah untuk mengarahkan dan menandai lensa yang belum dipotong, disaat bersamaan juga untuk mengkonfirmasi pemasangan lensa yang benar dalam bingkai kacamata.
       </p>          
 	  </div>
@@ -111,7 +111,7 @@ permalink: /kacamata-anti-radiasi/
         <h3 class="card-title">
           Segera Kunjungi Optikal Bahari
         </h3>
-	      <p class="card-text">
+	      <p class="card-text text-justify">
 	  		  Segera rencanakan kunjungan anda ke Optikal Bahari untuk pemeriksaan mata dan staff ramah kami siap untuk melayani anda. Kami berlokasi di Jl. Bend. Jago No.447, RW.1, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10650. Kami memberikan layanan <a href="{{"/periksa-mata/" | relative_url }}" title="pemeriksaan mata gratis">pemeriksaan mata gratis</a>, proses cepat dan akurat dengan alat komputerisasi digital, ada <a href="{{"/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan">program cicilan ringan</a> dan tidak memberatkan, bisa melakukan <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="bayar kacamata bayar dengan KJP">pembayaran melalui KJP</a> dan juga service kacamata.Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
 	  	  </p>
       </div>

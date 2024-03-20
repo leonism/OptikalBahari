@@ -3,25 +3,27 @@
 		{% for post in site.posts limit : 3 %}
 		<div class="card">
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-				 {% if page.background %}
-				 <img
+				{% if page.background %}
+				<img
 					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
 					class="card-img-top"
-					alt="{{ post.title }}"
-				/>
+					alt="{{ post.title }}" />
 			</a>
 			{% endif %}
 			<div class="card-body">
 				<h5 class="card-title">{{ post.title }}</h5>
-				<p class="card-text">
+				<p class="card-text text-justify">
 					{{ post.description | strip_html | truncatewords: 15 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya</a>
+					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+						>Selengkapnya</a
+					>
 				</p>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">
-					Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} on {{ post.date |
-					date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+					Posted by {% if post.author %} {{ post.author }} {% else %} {{
+					site.author }} {% endif %} on {{ post.date | date: '%B %d, %Y' }}
+					&middot; {% include read_time.html content=post.content %}
 				</small>
 			</div>
 		</div>

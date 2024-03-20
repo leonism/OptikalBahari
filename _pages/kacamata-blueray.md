@@ -20,7 +20,7 @@ permalink: /kacamata-blueray/
     <h3 class="card-title">
       Apa itu Kacamata Blue Ray
     </h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       Mata adalah salah satu organ tubuh yang memiliki peran penting dalam kehidupan kita. Dengan adanya mata, kita dapat melihat keindahan dunia yang ada di sekitar kita. Namun, jika mata tidak dijaga dengan baik, maka dapat mengalami kerusakan yang menyebabkan masalah penglihatan. Oleh karena itu, penting untuk memastikan bahwa mata kita terlindungi dan sehat.
     </p>
 
@@ -43,7 +43,7 @@ permalink: /kacamata-blueray/
   <img src="/assets/img/posts/049.jpg" class="card-img-top" alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
     <h3 class="card-title">Dalam Berbagai Model & Desain</h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       Kacamata blue ray tersedia dalam berbagai model dan desain, sehingga Anda bisa memilih sesuai dengan kebutuhan dan gaya Anda. Beberapa merk terkenal yang menyediakan kacamata blu ray adalah Gunnar, Blue Blocker, dan BluTech. Jika Anda sering terpapar sinar biru dari layar gadget atau komputer, atau sering merasa mata lelah dan perlu istirahat, maka kacamata blu ray bisa menjadi pilihan yang tepat. Kacamata ini menggunakan lensa dengan teknologi yang mampu menyaring sinar biru yang merusak mata, sehingga mata lebih terlindungi dan merasa lebih segar.
     </p>
     <p>
@@ -61,7 +61,7 @@ permalink: /kacamata-blueray/
   <img src="/assets/img/posts/050.jpg" class="card-img-top" alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
   <div class="card-body">
     <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       Kacamata blu ray bisa menjadi pilihan yang tepat untuk Anda yang ingin terlindungi dari sinar biru yang merusak mata dan ingin merasa lebih nyaman saat menggunakannya. Jangan ragu untuk membeli kacamata blu ray di Optikal Bahari, di mana kami menyediakan beragam pilihan kacamata blu ray dengan harga yang terjangkau.
     </p>
     

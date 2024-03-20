@@ -18,7 +18,7 @@ permalink: /kemayoran/
     <h3 class="card-title">
       Kenapa Warga Kemayoran Cocok Beli Kacamata Di Optikal Bahari?
     </h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       Sebagai warga Kemayoran, Jakarta Pusat, berikut ini adalah beberapa keuntungan sekiranya anda membeli kacamata di Kemayoran. Pertama, Optikal Bahari menawarkan layanan periksa mata yang cepat dan akurat dengan menggunakan alat komputer terbaru. Ini akan membantu Anda mengetahui tingkat kebutuhan penglihatan Anda dan membantu dalam menentukan jenis kacamata yang sesuai. Kami juga memiliki staf ahli yang terlatih dan berpengalaman yang siap membantu Anda dengan masalah penglihatan Anda.
     </p>
     <p>
@@ -39,7 +39,7 @@ permalink: /kemayoran/
     <h3 class="card-title">
       Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama
     </h3>    
-    <p class="card-text">
+    <p class="card-text text-justify">
       Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai gaya hidup.  Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi sebuah kebutuhan tersendiri, terutama untuk kalangan muda.
     </p>
 	  <p>
@@ -60,7 +60,7 @@ permalink: /kemayoran/
     <h3 class="card-title">
       Staff Ramah dan Banya Pilihan dari Tempat Jual Kacamata Keren Terbaik
     </h3>    
-    <p class="card-text">
+    <p class="card-text text-justify">
 		  Ketika kamu menuju ke tempat optik lalu mendapati staff yang kurang ramah tentu kamu akan berpikir ulang. Bisa saja kamu tidak jadi membeli sebuah kacamata hanya karena staff optik yang kurang ramah. Bahkan bisa saja tempat optik tersebut tidak akan pernah kamu rekomendasikan kepada teman-temanmu.
     </p>
     <p>
@@ -81,7 +81,7 @@ permalink: /kemayoran/
     <h3 class="card-title">
       Bisa Nyicil dan Bebas Riba di Tempat Jual Kacamata Keren Terbaik Ini
     </h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
 		  Ketika kamu benar-benar membutuhkan sebuah kacamata, ini bisa menjadi solusi paling mudah. kamu bisa mencicil kacamata yang kamu butuhkan saat ini dengan sangat gampang. Apalagi kamu tidak perlu membayar nominal DP untuk bisa menikmati layanan unik satu ini, nyicil sebuah kacamata.
 	  </p>
     <p>

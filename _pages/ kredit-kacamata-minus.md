@@ -22,7 +22,7 @@ permalink: /kredit-kacamata-minus/
 		/>
 		<div class="card-body">
 			<h3 class="card-title">Kredit Kacamata Minus</h3>
-			<p class="card-text">
+			<p class="card-text text-justify">
 				Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kurang jelas? Banyak hal yang bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering main game di handphone, sampai dengan menurunnya kapasitas penglihatan seiring dengan bertambahnya usia. Tapi jangan takut, di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan frame bingkai kacamata, dari mulai harga yang terjangkau sampai dengan harga menengah ke atas.
 			</p>
 			<p>
@@ -43,7 +43,7 @@ permalink: /kredit-kacamata-minus/
 	alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
     <h3 class="card-title">Kredit Kacamata Sesuai Kebutuhan</h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       	Untuk menghindari risiko salah membeli kacamata yang tidak sesuai dengan kebutuhan, pastikan untuk memilih lensa yang sesuai dengan masalah penglihatan yang sedang dialami. Misalnya, jika kamu sedang menderita presbiopia, pilih kacamata dengan lensa progresif atau trifokal yang dapat membantu memperbaiki penglihatan. Jangan memilih lensa tunggal yang tidak sesuai dengan kebutuhanmu.
     </p>
 	<p>
@@ -65,7 +65,7 @@ permalink: /kredit-kacamata-minus/
 		/>
 		<div class="card-body">
 			<h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
-			<p class="card-text">
+			<p class="card-text text-justify">
 				Temukan solusi untuk membeli kacamata berkualitas dengan harga terjangkau hanya di Optikal Bahari. Kami menyediakan layanan pembelian kacamata dengan cara kredit, serta memiliki banyak pilihan lensa dan frame dengan harga yang terjangkau. Jangan ragu untuk datang ke Optikal Bahari di Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat atau hubungi kami untuk informasi lebih lanjut. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
 				<a
 					href="https://www.facebook.com/optikalbahari"
@@ -106,8 +106,8 @@ permalink: /kredit-kacamata-minus/
 				<h5 class="card-title">
 					{{ post.title }}
 				</h5>
-				<p class="card-text">{{ post.description | strip_html | truncatewords: 20 }}.</p>
-				<p class="card-text">
+				<p class="card-text text-justify">{{ post.description | strip_html | truncatewords: 20 }}.</p>
+				<p class="card-text text-justify">
 					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 						>Selengkapnya</a
 					>

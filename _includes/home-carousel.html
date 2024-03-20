@@ -1,8 +1,18 @@
-<div class="carousel slide" data-ride="carousel" id="carouselExampleCaptions">
+<div
+	class="carousel slide"
+	data-ride="carousel"
+	id="carouselExampleCaptions">
 	<ol class="carousel-indicators">
-		<li class="active" data-slide-to="0" data-target="#carouselExampleCaptions"></li>
-		<li data-slide-to="1" data-target="#carouselExampleCaptions"></li>
-		<li data-slide-to="2" data-target="#carouselExampleCaptions"></li>
+		<li
+			class="active"
+			data-slide-to="0"
+			data-target="#carouselExampleCaptions"></li>
+		<li
+			data-slide-to="1"
+			data-target="#carouselExampleCaptions"></li>
+		<li
+			data-slide-to="2"
+			data-target="#carouselExampleCaptions"></li>
 	</ol>
 
 	{% for post in site.posts limit : 3 %}
@@ -12,21 +22,22 @@
 				alt="{{ post.title }}"
 				alt="{{ post.title }}"
 				class="d-block w-100"
-				src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-			/>
+				src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" />
 			<div class="carousel-caption d-none d-md-block">
 				<h5>{{ post.title }}</h5>
 				<!-- <p>{{ post.description | strip_html | truncatewords: 12 }}</p> -->
 			</div>
 		</div>
-		{% endfor %} {% if paginator.total_pages > 1 %} {% if paginator.previous_page %}
+		{% endfor %} {% if paginator.total_pages > 1 %} {% if
+		paginator.previous_page %}
 		<a
 			class="carousel-control-prev"
 			data-slide="prev"
 			href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-			role="button"
-		>
-			<span aria-hidden="true" class="carousel-control-prev-icon"></span>
+			role="button">
+			<span
+				aria-hidden="true"
+				class="carousel-control-prev-icon"></span>
 			<span class="sr-only">Previous</span>
 		</a>
 		{% endif %} {% if paginator.next_page %}
@@ -34,9 +45,10 @@
 			class="carousel-control-next"
 			data-slide="next"
 			href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-			role="button"
-		>
-			<span aria-hidden="true" class="carousel-control-next-icon"></span>
+			role="button">
+			<span
+				aria-hidden="true"
+				class="carousel-control-next-icon"></span>
 			<span class="sr-only">Next</span>
 		</a>
 		{% endif %}

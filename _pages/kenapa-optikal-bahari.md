@@ -21,7 +21,7 @@ permalink: /kenapa-optikal-bahari/
       <h3 class="card-title">
         Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama
       </h3>
-      <p class="card-text">
+      <p class="card-text text-justify">
         Kacamata mungkin saat ini bukan lagi hanya sebagai alat bantu penglihatan, namun juga sebagai bagian dari gaya hidup. Ada beragam model kacamata terbaru yang bisa dipakai dalam aktivitas sehari-hari. Karena itu tidak salah jika kacamata sudah menjadi bagian kebutuhan tersendiri, terutama untuk para kalangan muda. Apalagi karena gaya hidup yang terlalu lama berhadapan dengan gadget, mata jelas mengalami penurunan kinerja. Ini yang membuat banyak anak muda sekarang sangat membutuhkan sebuah kacamata. Jika kamu adalah salah satunya, maka memilih Optikal Bahari adalah pilihan paling bijak yang bisa kamu pilih.
       </p>
       <p>
@@ -39,7 +39,7 @@ permalink: /kenapa-optikal-bahari/
       <h3 class="card-title">
         Staff Ramah dan Banyak Pilihan
       </h3>
-      <p class="card-text">
+      <p class="card-text text-justify">
         Ketika kamu menuju ke tempat optik lalu mendapati staff yang kurang ramah tentu kamu akan berpikir ulang. Bisa saja kamu tidak jadi membeli sebuah kacamata hanya karena staff optik yang kurang ramah. Bahkan bisa saja tempat optik tersebut tidak akan pernah kamu rekomendasikan kepada teman-temanmu. Namun di sini sangat berbeda, di Optikal Bahari ada banyak sekali staff ramah yang akan membantumu. Kamu bisa bertanya apa saja terkait masalah kacamata atau gangguan penglihatan yang kamu alami. Tidak salah memang jika Optikal Bahari menjadi tempat jual kacamata keren terbaik.
       </p>
       <p>
@@ -55,7 +55,7 @@ permalink: /kenapa-optikal-bahari/
       alt="Periksa Mata Dengan Komputer">
   <div class="card-body">
     <h3 class="card-title">Bisa Nyicil, Tanpa Credit Card, Bunga 0% dan Bebas Riba</h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       Ketika kamu benar-benar membutuhkan sebuah kacamata, ini bisa menjadi solusi paling mudah. kamu bisa mencicil kacamata yang kamu butuhkan saat ini dengan sangat gampang. Apalagi kamu tidak perlu membayar nominal DP untuk bisa menikmati layanan unik satu ini, nyicil sebuah kacamata. Namun di sini sangat berbeda, di Optikal Bahari ada banyak sekali staff ramah yang akan membantumu. Kamu bisa bertanya apa saja terkait masalah kacamata atau gangguan penglihatan yang kamu alami. Tidak salah memang jika Optikal Bahari menjadi tempat jual kacamata keren terbaik.
     </p>
     <p>

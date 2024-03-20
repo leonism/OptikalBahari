@@ -20,7 +20,7 @@ permalink: /kebijakan-situs/
         <h3 class="card-title">
             Kebijakan Penggunaan Situs Optikal Bahari
         </h3>
-        <p class="card-text">
+        <p class="card-text text-justify">
             Di Optikal Bahari, kami sangat menghargai privasi Anda dan komitmen kami untuk melindungi informasi pribadi Anda. Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan membagikan informasi pribadi Anda saat Anda menggunakan layanan kami.
         </p>
         <h3>

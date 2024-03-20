@@ -22,7 +22,7 @@ permalink: /profil/
     <h3 class="card-title">
       Sejarah Berdirinya Optikal Bahari
     </h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40+ tahun yang telah lalu, dan sekarang telah berkembang dan diteruskan ke generasi selanjutnya dikeluarga kami.
     </p>
     <p>
@@ -41,7 +41,7 @@ permalink: /profil/
     <h3 class="card-title">
       Transformasi Dari Masa Ke Masa
     </h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       Seriring dengan perkembangan zaman, Optikal Bahari telah bertransformasi dengan banyak innovasi teknologi. Dimana di masa sebelumnya, semua proses pemesanan kacamata yang dimulai dari pemeriksaan dan pembuatan dilakukan secara manual dengan alat analog. Sementara sekarang sudah melibatkan banyak teknologi komputerisasi dalam proses pengerjaannya.
     </p>
     <p>
@@ -61,7 +61,7 @@ permalink: /profil/
     <h3 class="card-title">
       Paripurna
     </h3>
-    <p class="card-text">
+    <p class="card-text text-justify">
       Kami bangga menjadi bagian dari sejarah perubahan zaman di Kemayoran. Mulai dari era bandar udara Kemayoran masih beroperasi, lanjut ke periode bioskop Rahayu yang berubah nama menjadi Dwi Gita, sampai dengan sekarang dimana Kemayoran sudah dipenuhi dengan banyak apartemen, mall, ojek online dan bangunan tinggi yang menjulang lainnya.
     </p>
     <p>
