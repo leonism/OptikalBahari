@@ -29,7 +29,7 @@
 		"*.liquid": "jekyll"
 	},
 	"[liquid]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.defaultFormatter": "sissel.shopify-liquid",
 		"editor.formatOnSave": true
 	}
 }
