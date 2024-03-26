@@ -1,14 +1,16 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand" href="{{"/" | relative_url }}" title="Optikal Bahari">
+    <a
+      class="navbar-brand"
+      href="{{"/" | relative_url }}"
+      title="Optikal Bahari">
       <img
         itemprop="logo"
         src="{{"./assets/optikalbahari.png" | relative_url }}"
         width="30"
         height="30"
         title="{{ site.title | escape }}"
-        alt="{{ site.title | escape }}"
-      >
+        alt="{{ site.title | escape }}">
       {{ site.title | escape }}
     </a>
 
@@ -19,8 +21,7 @@
       data-target="#navbarResponsive"
       aria-controls="navbarResponsive"
       aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+      aria-label="Toggle navigation">
       Menu
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -28,45 +29,46 @@
         height="14"
         fill="currentColor"
         class="bi bi-list"
-        viewBox="0 0 16 16"
-      >
-        <path fill-rule="evenodd"
-          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-        />
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
       </svg>
-      <!-- <i class="fa fa-bars"></i> -->
+    <!-- <i class="fa fa-bars"></i> -->
     </button>
 
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        {% comment %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{"/" | relative_url }}" title="Balik ke Beranda"> Beranda </a>
-          </li>
-        {% endcomment %}
         <li class="nav-item">
-          <a class="nav-link" href="{{"/posts/" | relative_url }}" title="Berita Optikal Bahari">Berita</a>
+          <a
+            class="nav-link"
+            href="{{"/posts/" | relative_url }}"
+            title="Berita Optikal Bahari">Berita</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{"/periksa-mata-gratis/" | relative_url }}" title="Periksa Mata Gratis"
-            >Periksa Mata</a
-          >
+          <a
+            class="nav-link"
+            href="{{"/periksa-mata-gratis/" | relative_url }}"
+            title="Periksa Mata Gratis">Periksa Mata</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{"/tips-trik-kacamata/" | relative_url }}" title="Tips & Trik Kacamata"
-            >Tips & Trik
+          <a
+            class="nav-link"
+            href="{{"/tips-trik-kacamata/" | relative_url }}"
+            title="Tips & Trik Kacamata">Tips & Trik
           </a>
         </li>
         <li class="nav-item">
           <a
             class="nav-link"
             href="{{"/testimoni/" | relative_url }}"
-            title="Testimoni Optikal Bahari"
-            >Testimoni <span class="badge badge-pill badge-danger">New</span>
+            title="Testimoni Optikal Bahari">Testimoni
+            <span class="badge badge-pill badge-danger">New</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{"/lokasi/" | relative_url }}" title="Lokasi Optikal Bahari">Lokasi</a>
+          <a
+            class="nav-link"
+            href="{{"/lokasi/" | relative_url }}"
+            title="Lokasi Optikal Bahari">Lokasi</a>
         </li>
         <li class="nav-item">
           {% include navbar-search-google.html %}
