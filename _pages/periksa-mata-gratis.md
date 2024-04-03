@@ -9,8 +9,8 @@ author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/eyewear-collection-00/eyewear-kuala-lumpur-min.jpg
-comments: false
 permalink: /periksa-mata-gratis/
+comments: false
 ---
 
 <div class="card-deck mb-3">

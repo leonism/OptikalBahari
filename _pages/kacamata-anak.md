@@ -9,8 +9,8 @@ author: Optikal Bahari
 categories: [Info]
 tags: [kacamata anak, kacamata untuk anak, aksesoris kacamata anak]
 background: /assets/img/posts/kacamata-anak/kacamata-anak-00.jpg
-comments: false
 permalink: /kacamata-anak/
+comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">

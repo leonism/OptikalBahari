@@ -11,6 +11,7 @@ tags: [layanan, optikal]
 background: /assets/img/posts/028.jpg
 comments: false
 permalink: /kacamata-anti-radiasi/
+comments: false
 ---
 
 <div class="card-deck mb-3">

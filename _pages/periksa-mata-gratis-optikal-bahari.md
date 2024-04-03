@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/mexican-02-min/mexican-00-min.jpg
 permalink: /periksa-mata-gratis-optikal-bahari/
+comments: false
 ---
 
 <div class="card-deck mb-3">

@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/021.jpg
 permalink: /model-kacamata/
+comments: false
 ---
 
 <div class="card-deck mb-3">

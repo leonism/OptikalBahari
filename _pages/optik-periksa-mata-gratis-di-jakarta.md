@@ -1,15 +1,16 @@
 ---
 layout: page
 title: Optik Periksa Mata Gratis Di Jakarta Hanya Di Optikal Bahari
-subtitle: 'Dan Dapatkan Banyak Kemudahan Lainnya'
+subtitle: "Dan Dapatkan Banyak Kemudahan Lainnya"
 description: "Optik terpercaya di Jakarta menyediakan layanan periksa mata gratis. Pilihan kacamata harga terjangkau, cicilan bunga 0% tanpa Credit Card,  Menerima KJP."
-keywords: 'periksa mata, periksa mata gratis, periksa mata jakarta'
+keywords: "periksa mata, periksa mata gratis, periksa mata jakarta"
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/021.jpg
 permalink: /optik-periksa-mata-gratis-di-jakarta/
+comments: false
 ---
 
 <div class="card-deck mb-3">

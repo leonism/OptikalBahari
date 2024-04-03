@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/011.jpg
 permalink: /cek-mata-gratis-di-optik/
+comments: false
 ---
 
 

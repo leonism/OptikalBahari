@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/010.jpg
 permalink: /toko-kacamata-murah-di-jakarta/
+comments: false
 ---
 
 

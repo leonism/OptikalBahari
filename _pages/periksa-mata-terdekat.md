@@ -9,8 +9,8 @@ author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-37.jpg
-comments: false
 permalink: /periksa-mata-terdekat/
+comments: false
 ---
 
 <div class="card-deck mb-3">

@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-19.jpg
 permalink: /lp/harga-kacamata-progresif/
+comments: false
 ---
 
 <div class="card-deck mb-3">

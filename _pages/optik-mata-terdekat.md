@@ -10,6 +10,7 @@ categories: [Info]
 tags: [kacamata, kemayoran, tanpa bunga, tanpa DB, bayar KJP]
 background: /assets/img/posts/014.jpg
 permalink: /optik-mata-terdekat/
+comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">

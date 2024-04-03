@@ -10,6 +10,7 @@ categories: [Info]
 tags: [promo, discount, kacamata, lensa, bingkai]
 background: /assets/img/posts/beach-retro-girls/beach-retro-girls-03.jpg
 permalink: /jual-kacamata/
+comments: false
 ---
 
 <div class="card-deck mb-3">

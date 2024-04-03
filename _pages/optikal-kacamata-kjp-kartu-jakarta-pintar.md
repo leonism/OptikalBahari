@@ -10,6 +10,7 @@ categories: [Info]
 tags: [kacamata KJP, kemayoran, tanpa bunga, tanpa DP, bayar KJP]
 background: /assets/img/posts/malay-hijab-00/malay-hijab-01.jpg
 permalink: /optik-kacamata-kjp-kartu-jakarta-pintar/
+comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">

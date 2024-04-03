@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/mexican-02-min/mexican-00-min.jpg
 permalink: /optik-terbaik-di-jakarta/
+comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">

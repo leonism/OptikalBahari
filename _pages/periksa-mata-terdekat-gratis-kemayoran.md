@@ -9,8 +9,8 @@ author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/027.jpg
-comments: false
 permalink: /periksa-mata-terdekat-gratis-kemayoran/
+comments: false
 ---
 
 <div class="card-deck mb-3">

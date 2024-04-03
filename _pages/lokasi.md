@@ -8,6 +8,7 @@ lang: id-ID
 background: /assets/img/bg-lokasi-guy.jpg
 comments: false
 permalink: /lokasi/
+comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">

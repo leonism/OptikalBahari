@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/021.jpg
 permalink: /melihat-ke-masa-depan-seperti-apa-industri-kacamata-dalam-10-tahun/
+comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">

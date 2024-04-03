@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/049.jpg
 permalink: /kacamata-murah-di-jakarta/
+comments: false
 ---
 
 <div class="card-deck mb-3">

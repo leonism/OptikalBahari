@@ -10,6 +10,7 @@ categories: [Info]
 tags: [kacamata, cicilan, tanpa bunga, tanpa DB, bayar KJP]
 background: /assets/img/posts/malay-hijab-01/malay-hijab-00.jpg
 permalink: /kacamata-cicilan/
+comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">

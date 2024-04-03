@@ -10,6 +10,7 @@ categories: [Trend]
 tags: [layanan, optikal]
 background: /assets/img/posts/kpop-female-00/kpop-female-00.jpg
 permalink: /tips-kacamata/
+comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">

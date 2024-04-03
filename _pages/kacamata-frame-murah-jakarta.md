@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/039.jpg
 permalink: /kacamata-frame-murah-jakarta/
+comments: false
 ---
 
 <div class="card-deck mb-3">

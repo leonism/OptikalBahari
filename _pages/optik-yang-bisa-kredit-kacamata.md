@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/010.jpg
 permalink: /optik-yang-bisa-kredit-kacamata/
+comments: false
 ---
 
 

@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/sunglasses/optikal-bahari-sunglassses.jpg
 permalink: /kacamata-murah/
+comments: false
 ---
 
 <div class="card-deck mb-3">

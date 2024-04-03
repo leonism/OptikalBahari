@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/027.jpg
 permalink: /kacamata-murah-tedekat/
+comments: false
 ---
 
 <div class="card-deck mb-3">

@@ -9,8 +9,8 @@ author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/bg-post.jpeg
-comments: false
 permalink: /testimoni/
+comments: false
 ---
 
 <div class="card-deck mb-3">

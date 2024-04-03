@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/021.jpg
 permalink: /20-hal-yang-harus-anda-ketahui-tentang-kacamata/
+comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">

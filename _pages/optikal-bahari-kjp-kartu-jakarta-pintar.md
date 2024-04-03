@@ -10,8 +10,8 @@ author: Optikal Bahari
 categories: [Info]
 tags: [layanan, fasilitas]
 background: /assets/img/posts/malay-hijab-00/malay-hijab-01.jpg
-comments: false
 permalink: /optikal-bahari-kjp-kartu-jakarta-pintar/
+comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">

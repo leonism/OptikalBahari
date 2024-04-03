@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/019.jpg
 permalink: /20-fakta-sejarah-tentang-kacamata/
+comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">

@@ -11,6 +11,7 @@ tags: [layanan, optikal]
 background: /assets/img/posts/optikal-bahari-retro/optikal-bahari-retro-01.jpg
 thumbs: /assets/img/posts/optikal-bahari-retro/optikal-bahari-retro-01-min.jpg
 permalink: /profil/
+comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">

@@ -9,8 +9,8 @@ author: Optikal Bahari
 categories: [Info]
 tags: [kacamata wanita, kacamata untuk wanita, aksesoris kacamata wanita]
 background: /assets/img/posts/whitesand-girls/whitesand-girls-00.jpg
-comments: false
 permalink: /kacamata-wanita/
+comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">

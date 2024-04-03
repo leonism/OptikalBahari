@@ -10,6 +10,7 @@ categories: [Info]
 tags: [promo, discount, kacamata, lensa, bingkai]
 background: /assets/img/posts/malay-hijab-01/malay-hijab-03.jpg
 permalink: /kenapa-optikal-bahari/
+comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">

@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/018.jpg
 permalink: /toko-kacamata-terdekat/
+comments: false
 ---
 
 

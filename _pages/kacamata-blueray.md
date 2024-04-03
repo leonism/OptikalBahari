@@ -10,6 +10,7 @@ categories: [Info]
 tags: [kacamata, blue ray, bluray]
 background: /assets/img/posts/045.jpg
 permalink: /kacamata-blueray/
+comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">

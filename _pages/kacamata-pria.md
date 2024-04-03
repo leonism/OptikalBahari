@@ -9,8 +9,8 @@ author: Optikal Bahari
 categories: [Info]
 tags: [kacamata pria, kacamata untuk pria, aksesoris kacamata pria]
 background: /assets/img/posts/kacamata-pria/kacamata-pria-00.jpg
-comments: false
 permalink: /kacamata-pria/
+comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
@@ -26,9 +26,8 @@ permalink: /kacamata-pria/
       Kacamata Pria Yang Cocok Dengan Gaya Anda
     </h3>
     <p class="card-text text-justify">
-      Pernahkah Anda merasa bingung saat memilih kacamata pria yang sesuai dengan gaya Anda? Tenang, Optikal                                                                                                    
-            Bahari hadir untuk membantu Anda menemukan kacamata yang tepat! Dengan koleksi yang beragam, mulai dari yang
-            klasik hingga yang trendi, Anda pasti akan menemukan kacamata yang memancarkan kepribadian Anda.
+      Pernahkah Anda merasa bingung saat memilih kacamata pria yang sesuai dengan gaya Anda? Tenang, Optikal Bahari hadir untuk membantu Anda menemukan kacamata yang tepat! Dengan koleksi yang beragam, mulai dari yang
+      klasik hingga yang trendi, Anda pasti akan menemukan kacamata yang memancarkan kepribadian Anda.
     </p>
     <p class="card-text text-justify">
       Ketika mencari kacamata pria, pertimbangkanlah gaya Anda sehari-hari. Apakah Anda lebih suka tampilan yang                                                                                                    

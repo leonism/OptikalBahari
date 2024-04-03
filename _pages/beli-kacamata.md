@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/beach-retro-girls/beach-retro-girls-022.jpg
 permalink: /beli-kacamata/
+comments: false
 ---
 
 <div class="card-deck mb-3">

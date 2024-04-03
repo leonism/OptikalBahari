@@ -10,6 +10,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/050.jpg
 permalink: /kredit-kacamata-terdekat/
+comments: false
 ---
 
 <div class="card-deck mb-3">

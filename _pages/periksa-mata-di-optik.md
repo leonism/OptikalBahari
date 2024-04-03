@@ -9,8 +9,8 @@ author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/047.jpg
-comments: false
 permalink: /periksa-mata-di-optik/
+comments: false
 ---
 
 <div class="card-deck mb-3">
