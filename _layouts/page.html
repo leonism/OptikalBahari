@@ -4,11 +4,11 @@ layout: default
 
 {% include navbar.html %}
 
-<!-- Page Header -->
+<!-- start page header -->
 {% if page.background %}
-<header class="masthead" style="background-image:url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+	<header class="masthead" style="background-image:url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
 {% else %}
-<header class="masthead">
+	<header class="masthead">
 {% endif %}
 	<div class="container">
 		<div class="row">
@@ -16,7 +16,9 @@ layout: default
 				<div class="page-heading">
 					<h1>{{ page.title }}</h1>
 					{% if page.subtitle %}
-					<h2 class="subheading text-capitalize">{{ page.subtitle }}</h2>
+						<h2 class="subheading text-capitalize">
+							{{ page.subtitle }}
+						</h2>
 					{% endif %}
 				</div>
 			</div>
@@ -24,15 +26,7 @@ layout: default
 	</div>
 </header>
 <!-- end page header -->
-<!-- <main> -->
-</header>
 
 <div class="container">
-	<!-- <div class="row"> -->
-	<!-- <div class="col-lg-8 col-md-10 mx-auto"> -->
 	{{ content }}
-	<!-- {% include home-cards-testimony.html %} -->
-	<!-- </div> -->
-	<!-- </div> -->
 </div>
-<!-- </main> -->

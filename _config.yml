@@ -1,5 +1,3 @@
-# @format
-
 title: Optikal Bahari
 description: Periksa Mata & Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa Denda, Izin Dinkes/Kemenkes & Terima KJP. Pertama & Terpercaya Sejak 1978
 author: Optikal Bahari
@@ -12,7 +10,7 @@ url: "https://optikalbahari.com"
 tagline: Melayani Segala Kebutuhan Kacamata Anda
 subtitle: Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima KJP
 permalink: /:title/
-# google_analytics: G-FV2N66E55Q # out your google-analytics code
+# google_analytics: G-FV2N66E55Q
 
 # Social Profiles
 instagram_username: optikalbahari
@@ -35,7 +33,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-archives
-  # - jekyll-minifier
+  - jekyll-minifier
 
 include: ["_pages"]
 
@@ -62,28 +60,29 @@ compress_html:
 # css compression
 sass:
   style: compressed
-# jekyll-minifier:
+
+jekyll-minifier:
 #   exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
 #   preserve_php: true                # Default: false
 #   remove_spaces_inside_tags: true   # Default: true
-#   remove_multi_spaces: true         # Default: true
-#   remove_comments: true             # Default: true
+  remove_multi_spaces: true         # Default: true
+  remove_comments: true             # Default: true
 #   remove_intertag_spaces: true      # Default: false
 #   remove_quotes: false              # Default: false
-#   compress_css: true                # Default: true
-#   compress_javascript: true         # Default: true
-#   compress_json: true               # Default: true
-#   simple_doctype: false             # Default: false
-#   remove_script_attributes: false   # Default: false
-#   remove_style_attributes: false    # Default: false
-#   remove_link_attributes: false     # Default: false
-#   remove_form_attributes: false     # Default: false
-#   remove_input_attributes: false    # Default: false
-#   remove_javascript_protocol: false # Default: false
-#   remove_http_protocol: false       # Default: false
-#   remove_https_protocol: false      # Default: false
-#   preserve_line_breaks: false       # Default: false
-#   simple_boolean_attributes: false  # Default: false
-#   compress_js_templates: false      # Default: false
-#   preserve_patterns:                # Default: (empty)
-#   uglifier_args:                    # Default: (empty)
+  compress_css: true                # Default: true
+  compress_javascript: true         # Default: true
+  compress_json: true               # Default: true
+  simple_doctype: false             # Default: false
+  remove_script_attributes: false   # Default: false
+  remove_style_attributes: false    # Default: false
+  remove_link_attributes: false     # Default: false
+  remove_form_attributes: false     # Default: false
+  remove_input_attributes: false    # Default: false
+  remove_javascript_protocol: false # Default: false
+  remove_http_protocol: false       # Default: false
+  remove_https_protocol: false      # Default: false
+  preserve_line_breaks: false       # Default: false
+  simple_boolean_attributes: false  # Default: false
+  compress_js_templates: false      # Default: false
+  preserve_patterns:                # Default: (empty)
+  uglifier_args:                    # Default: (empty)
