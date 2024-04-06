@@ -7,5 +7,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/bg-index-ramadan.jpg
+background: /assets/img/1x1.png
 ---
+
+<!-- @format -->

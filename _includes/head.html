@@ -13,31 +13,35 @@
 		<link rel="dns-prefetch" href="//static.ak.fbcdn.net">
 		<link rel="dns-prefetch" href="//s-static.ak.facebook.com">
 		<link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
-		{% comment %} <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=1;" name="viewport"> {% endcomment %}
+		<!--
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=1;" name="viewport">  
+		!-->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="google-site-verification" content="S78mNAZQFqN0fjs9uj0jlw53fp_JUq1gR7KZry7NoNs" />
 		<meta name="facebook-domain-verification" content="okvg0cr9ei1ai8ubn3xjild1y38oyr" />
 		<meta name="p:domain_verify" content="8742998c66c600725ea8758b3d48ca40" />
 		<meta name="google-site-verification" content="QwzD8MDRyjoNO82pFwdmrUnOrzhvLieKNF8E2iQq4ag" />
 		<title>
-				{% if page.title and page.title != 'Home' %}
-				{{ page.title | strip_html | truncate: 43 }} - 
-				{% endif %}
-				{{ site.title }}
+			{% if page.title and page.title != 'Home' %}
+			{{ page.title | strip_html | truncate: 43 }} -
+			{% endif %}
+			{{ site.title }}
 		</title>
 		<meta name="description" content="{% if page.description.size > 10 %} 
 			{{ page.description | truncate: 160 }}
 				{% else %}
 			{{ site.description | truncate: 160 }}
 				{% endif %}" />
-		<meta name="keywords" content="{{ page.keywords normalize_whitespace | truncate: 160 | escape }}" itemprop="keywords" />
-		
+		<meta name="keywords" content="{{ page.keywords normalize_whitespace | truncate: 160 | escape }}"
+			itemprop="keywords" />
+
 		<!-- start twitter integration -->
 		<meta name="twitter:site" content="@{{ site.twitter_username }}">
 		<meta property="twitter:image" content="{{ site.url }}{{ page.background }}" />
 		<meta name="twitter:card" content="summary_large_image">
 		{% if seo_tag.image %}
-		<meta name="twitter:card" content="{{ page.twitter.card | default: site.twitter.card | default: "summary_large_image" }}" />
+		<meta name="twitter:card" content="{{ page.twitter.card | default: site.twitter.card | default: "
+			summary_large_image" }}" />
 		<meta property="twitter:image" content="{{ seo_tag.image.path }}" />
 		<meta property="twitter:image" content="{{ site.url }}{{ page.background }}" />
 		{% else %}
@@ -68,7 +72,7 @@
 		<meta property='twitter:image:alt' content="{{ site.title }}" />
 		{% endif %}
 		<!-- end twitter integration -->
-		
+
 		<!-- start facebook integration -->
 		{% if page.title %}
 		<meta property='og:title' content="{{ page.title }}" />
@@ -94,42 +98,40 @@
 		{% endif %}
 		<!-- end facebook integration -->
 
-<!-- 
-	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet ' type='text/css '> 
--->
-<!-- 
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet ' type='text/css '>  
--->
+		<!--
+		<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet ' type='text/css '> 
+		-->
+		<!--
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet ' type='text/css '>
+		-->
 
-<!-- start styling integration -->
-<!-- <link rel="stylesheet" href="{{"/assets/vendor/fontawesome-free/css/all.min.css" | relative_url "}}"> -->
-<!-- <link rel="stylesheet" href="{{"/assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css" | relative_url "}}"> -->
-<link rel="stylesheet" href="{{"/assets/vendor/bootstrap/css/bootstrap.min.css" | relative_url "}}">
-<link rel="stylesheet" href="{{"/assets/main.css" | relative_url "}}">
-<!-- end styling integration -->
+		<!-- start styling integration -->
+		<!-- <link rel="stylesheet" href="{{"/assets/vendor/fontawesome-free/css/all.min.css" | relative_url "}}"> -->
+		<!-- <link rel="stylesheet" href="{{"/assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css" | relative_url "}}"> -->
+		<link rel="stylesheet" href="{{"/assets/vendor/bootstrap/css/bootstrap.min.css" | relative_url "}}">
+		<link rel="stylesheet" href="{{"/assets/main.css" | relative_url "}}">
+		<!-- end styling integration -->
 
+		<!-- <link rel="canonical" href="{{ page.url | replace:'index.html ',' ' | absolute_url "}}" /> -->
+		<!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" /> -->
+		<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+		<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{"/feed.xml" | relative_url }}" />
+		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{"/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+		<link rel="sitemap" type="application/xml" title="Sitemap" href="{{"/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
+		<link rel="sitemap" type="application/xml" title="Sitemap" href="{{"/sitemap2.xml" | prepend: site.baseurl | prepend: site.url }}" />
+		<link rel="apple-touch-icon" sizes="180x180" href="{{"/assets/apple-touch-icon.png" | prepend: site.baseurl | prepend: site.url }}" />
+		<link rel="icon" type="image/png" sizes="32x32" href="{{"/assets/favicon-32x32.png" | prepend: site.baseurl | prepend: site.url }}" />
+		<link rel="icon" type="image/png" sizes="16x16" href="{{"/assets/favicon-16x16.png" | prepend: site.baseurl | prepend: site.url }}" />
+		<link rel="manifest" href="{{"/assets/site.webmanifest" | prepend: site.baseurl | prepend: site.url }}" />
+		<link rel="mask-icon" href="{{"/assets/safari-pinned-tab.svg" | prepend: site.baseurl | prepend: site.url }}" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 
-<!-- <link rel="canonical" href="{{ page.url | replace:'index.html ',' ' | absolute_url "}}" /> -->
-<!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" /> -->
-<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{"/feed.xml" | relative_url }}" />
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{"/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-<link rel="sitemap" type="application/xml" title="Sitemap" href="{{"/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
-<link rel="sitemap" type="application/xml" title="Sitemap" href="{{"/sitemap2.xml" | prepend: site.baseurl | prepend: site.url }}" />
-<link rel="apple-touch-icon" sizes="180x180" href="{{"/assets/apple-touch-icon.png" | prepend: site.baseurl | prepend: site.url }}" />
-<link rel="icon" type="image/png" sizes="32x32" href="{{"/assets/favicon-32x32.png" | prepend: site.baseurl | prepend: site.url }}" />
-<link rel="icon" type="image/png" sizes="16x16" href="{{"/assets/favicon-16x16.png" | prepend: site.baseurl | prepend: site.url }}" />
-<link rel="manifest" href="{{"/assets/site.webmanifest" | prepend: site.baseurl | prepend: site.url }}" />
-<link rel="mask-icon" href="{{"/assets/safari-pinned-tab.svg" | prepend: site.baseurl | prepend: site.url }}" color="#5bbad5" />
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-
-{% include fb-card.html %}
-{% include gtm-head.html %}
+		{% include fb-card.html %}
+		{% include gtm-head.html %}
 </head>
 
 <!-- start the google fonts importing, so that it would make less hit request to the network, and cache them  -->
-
 <style>
 	/* cyrillic-ext */
 	@font-face {
@@ -310,7 +312,6 @@
 		src: url(https://fonts.gstatic.com/s/lora/v16/0QIvMX1D_JOuMwr7I_FMl_E.woff2) format('woff2');
 		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 	}
-
 </style>
 <style>
 	/* cyrillic-ext */

@@ -4,10 +4,11 @@ layout: default
 
 {% include navbar.html %}
 
+<script src="{{'/assets/js/randomImage.js' | relative_url }}"></script>
+
 <!-- Page Header -->
 {% if page.background %}
-<header
-	class="masthead"
+<header class="masthead"
 	style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
 	{% else %}
 	<header class="masthead">
@@ -18,7 +19,9 @@ layout: default
 					<div class="page-heading">
 						<h1>{{ site.tagline }}</h1>
 						{% if site.description %}
-						<h2 class="subheading text-capitalize">{{ site.description }}</h2>
+						<h2 class="subheading text-capitalize">
+							{{ site.description }}
+						</h2>
 						{% endif %}
 					</div>
 				</div>
@@ -27,16 +30,9 @@ layout: default
 	</header>
 </header>
 
-<!-- end page header -->
-<!-- <main> -->
 <div class="container">
-	<!-- <div class="row"> -->
-	<!-- <div class="col-lg-8 col-md-10 mx-auto"> -->
-	<!-- {{ content }} -->
-	{% include home-cards.html %} {% include home-cards-kacamata.html %} {%
-	include home-cards-glasses.html %} {% include home-cards-category.html %}
-	<!-- {% include home-cards-testimony.html %} -->
-	<!-- </div> -->
-	<!-- </div> -->
+	{% include home-cards.html %}
+	{% include home-cards-kacamata.html %}
+	{% include home-cards-glasses.html %}
+	{% include home-cards-category.html %}
 </div>
-<!-- </main> -->

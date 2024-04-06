@@ -23,13 +23,13 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"files.associations": {
-		"*.md": "liquid",
+		"*.md": "jekyll",
 		"*.markdown": "jekyll",
-		"*.html": "html",
+		"*.html": "liquid",
 		"*.liquid": "jekyll"
 	},
 	"[liquid]": {
-		"editor.defaultFormatter": "sissel.shopify-liquid",
+		"editor.defaultFormatter": "Shopify.theme-check-vscode",
 		"editor.formatOnSave": true
 	}
 }

@@ -1,31 +1,28 @@
 ---
 layout: default
 ---
-
 <div itemscope itemtype="https://schema.org/WebSite">
-  <meta itemprop="url" content="{{ site.url }}" />
+  <meta itemprop="url" content="{{ site.url }}">
   {% if page.title %}
-    <meta itemprop="name" content="{{ page.title }}" />
+    <meta itemprop="name" content="{{ page.title }}">
   {% else %}
-    <meta itemprop="name" content="{{ site.title }}" />
+    <meta itemprop="name" content="{{ site.title }}">
   {% endif %}
-  <meta itemprop="alternateName" content="OB" />
+  <meta itemprop="alternateName" content="OB">
 </div>
+
 {% include json-ld.html %}
+
 <form
   name="sentMessage"
   id="contactForm"
   novalidate
   action="https://formspree.io/gerryleonugroho@gmail.com"
-  method="post">
-  <input
-    type="hidden"
-    name="_subject"
-    value="Halllo from contact form!" />
-  <input
-    type="text"
-    name="_gotcha"
-    style="display: none" />
+  method="post"
+>
+  <input type="hidden" name="_subject" value="Halllo from contact form!">
+  <input type="text" name="_gotcha" style="display: none">
+
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
       <label></label>
@@ -36,7 +33,8 @@ layout: default
         id="name"
         name="name"
         required
-        data-validation-required-message="" />
+        data-validation-required-message=""
+      >
       <div class="help-block text-danger"></div>
     </div>
 
@@ -50,7 +48,8 @@ layout: default
         name="email"
         required
         data-validation-validemail-message=""
-        data-validation-required-message="" />
+        data-validation-required-message=""
+      >
       <div class="help-block text-danger"></div>
     </div>
 
@@ -63,18 +62,17 @@ layout: default
         id="message"
         name="message"
         required
-        data-validation-required-message=""></textarea>
+        data-validation-required-message=""
+      ></textarea>
       <div class="help-block text-danger"></div>
     </div>
   </div>
-  <br/>
+
+  <br>
+
   <div id="success"></div>
+
   <div class="form-group">
-    <button
-      type="submit"
-      class="btn btn-primary"
-      id="sendMessageButton">
-      Send
-    </button>
+    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
   </div>
 </form>

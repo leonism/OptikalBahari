@@ -13,6 +13,8 @@ permalink: /kontak/
 comments: false
 ---
 
+<!-- @format -->
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
@@ -32,10 +34,6 @@ comments: false
       <h3 class="card-title">
         Kontak Kami
       </h3>
-      <script
-        charset="utf-8"
-        type="text/javascript"
-        src="//js.hsforms.net/forms/embed/v2.js"></script>
       <script>
                     hbspt.forms.create({
                       region: "na1",

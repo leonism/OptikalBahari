@@ -4,24 +4,24 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
-	{% include head.html %}
-	{% include richsnippet-json-ld-faq.html %}
-	{% include richsnippet-json-ld-org.html %}
-	{% include richsnippet-json-ld-smallbusiness.html %}
-	{% include richsnippet-json-ld-breadcrumb.html %}
-	{% include richsnippet-json-ld-structurepath.html %}
-	{% include richsnippet-json-ld-qna.html %}
-	{% include richsnippet-json-ld-website.html %}
-	{% include richsnippet-json-ld-image.html %}
-	{% include richsnippet-json-ld-imageLicense.html %}
+  {% include head.html %}
 
-	<body>
-		{% include fb-comments-bodytag.html %}
-		{% include gtm-body.html %}
-		{{content }}
-		{% include wa-body.html %}
-		{% include footer.html %}
-		{% include scripts.html %}
-	</body>
+  <body>
+    {% include fb-comments-bodytag.html %}
+    {% include gtm-body.html %}
+    {{ content }}
+    {% include wa-body.html %}
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+  {% include richsnippet-json-ld-faq.html %}
+  {% include richsnippet-json-ld-org.html %}
+  {% include richsnippet-json-ld-smallbusiness.html %}
+  {% include richsnippet-json-ld-breadcrumb.html %}
+  {% include richsnippet-json-ld-structurepath.html %}
+  {% include richsnippet-json-ld-qna.html %}
+  {% include richsnippet-json-ld-website.html %}
+  {% include richsnippet-json-ld-image.html %}
+  <!-- {% include richsnippet-json-ld-imageLicense.html %} -->
 
 </html>
