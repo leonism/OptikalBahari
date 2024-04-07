@@ -48,7 +48,7 @@ exclude:
 # html compression
 compress_html:
   clippings: all
-  # comments: ['<!-- ', ' -->']
+  comments: ['<!-- ', ' -->']
   comments: all
   endings: all
   ignore:
@@ -64,7 +64,7 @@ sass:
 jekyll-minifier:
 #   exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
 #   preserve_php: true                # Default: false
-#   remove_spaces_inside_tags: true   # Default: true
+  remove_spaces_inside_tags: true   # Default: true
   remove_multi_spaces: true         # Default: true
   remove_comments: true             # Default: true
 #   remove_intertag_spaces: true      # Default: false

@@ -28,7 +28,7 @@ comments: false
       <p class="card-text text-justify">
         Di Optikal Bahari, proses pemeriksaan mata akan melalui 2 tahapan. Tahapan pertama adalah melalui mesin autorefractometer atau yang biasa dikenal dengan alat pemeriksaan mata otomatis. Lebih lanjut, guna untuk lebih memastikan hasil pemeriksaan ditahapan pertama, ditahapan selanjutnya kami menggunakan alat Phoroptor, dimana didalam prosesnya pasien diminta untuk menyebutkan angka dan tulisan yang tertera dimedia gambar yang terpampang. Selanjutnya, staff kami akan melakukan pembandingan hasil dari proses sebelumnya. Hasil akhir dari pemeriksaan akan menjadi lebih akurat berhubung telah melalui 2 proses validasi langsung dari system dan pasiennya.
       </p>
-      <p>
+      <p class="card-text text-justify">
         Dengan demikian, hasil dari pemeriksaan mata yang dilakukan di Optikal Bahari dijamin cepat, akurat, dan terpercaya. Selain daripada itu, kami juga menyediakan berbagai macam pilihan lensa dan frame yang sesuai dengan kebutuhan Anda sehari-hari. Jika setelah proses pemeriksaan mata Anda tedeteksi mengalami gangguan refraksi mata minus, plus, atau silinder, maka disarankan untuk Anda memakai kacamata agar dapat membantu penglihatan mata anda kembali.
       </p>
     </div>
@@ -50,10 +50,10 @@ comments: false
       <p class="card-text text-justify">
         Dan seiring dengan perkembang dunia teknologi, proses periksa mata sudah menjadi jauh lebih mudah dan menjadi lebih cepat, walaupun tentunya tetap dengan hasil yang tetap akurat dan terpercaya. Para staff kami, lebih lanjut bertugas untuk membuat kacamata berdasarkan resep periksa mata sebelumnya. Selain membuat kacamata, staff kami juga akan melakukan pemeriksaan untuk menentukan apakah kacamata yang sedang digunakan oleh pasien masih cocok digunakan atau perlu diganti.
       </p>
-      <p>
+      <p class="card-text text-justify">
         Para staff kami juga bertugas untuk memberikan saran cara pemeliharaan dan penggunaan kacamata disaat bersamaan juga memberikan pelatihan kepada Anda tentang cara memakai dan merawat kacamata. Selain itu, staff kami juga dapat memberikan informasi tentang berbagai jenis lensa yang tersedia, seperti lensa anti-refleksi, lensa yang dapat menyerap sinar UV atau lensa yang dapat membantu mencegah penurunan daya penglihatan mata akibat layar gadget.
       </p>
-      <p>
+      <p class="card-text text-justify">
         Para staff kami juga bertanggung jawab untuk memastikan bahwa kacamata yang disiapkan sesuai dengan spesifikasi yang diberikan dan memenuhi standar kualitas yang telah ditetapkan. Maka dari itu, pastikan untuk memeriksa mata and secara teratur dan jangan ragu untuk bertanya kepada staff kami terkait masalah yang sedang dialami oleh mata Anda. Dengan demikian, Anda dapat memastikan bahwa mata Anda terjaga kesehatannya dan dapat melakukan aktivitas dengan lebih aman dan nyaman.
       </p>
     </div>
@@ -74,7 +74,7 @@ comments: false
       <p class="card-text text-justify">
         Mengutamakan pelayanan terbaik bagi konsumen merupakan komitmen utama kami di Optikal Bahari. Kami memahami bahwa masalah penglihatan dapat mengganggu kegiatan sehari-hari, sehingga kami selalu siap untuk menjadi solusi bagi Anda. Jika Anda memiliki keluhan terkait penglihatan, jangan ragu untuk datang ke tempat kami dan konsultasikan masalah yang Anda alami. Dan kami akan memberikan saran dan solusi terbaik bagi Anda.
       </p>
-      <p>
+      <p class="card-text text-justify">
         Selain itu, kami juga memahami bahwa seiring dengan bertambahnya usia, kapasitas penglihatan mata anda dapat menurun dan berpengaruh pada kualitas penglihatan. Oleh karena itu, sangat disarankan untuk rutin memeriksa penglihatan Anda setiap enam bulan sekali. Dengan demikian, Anda dapat terhindar dari masalah penglihatan yang lebih parah di masa yang akan datang. Di Optikal Bahari, kami menggunakan alat pemeriksaan digital yang telah terkomputerisasi untuk menjamin hasil yang akurat dan terpercaya. Jadi, jangan ragu untuk berkonsultasi dengan kami dan kami akan senantiasa memberikan pelayanan terbaik bagi Anda.
       </p>
     </div>

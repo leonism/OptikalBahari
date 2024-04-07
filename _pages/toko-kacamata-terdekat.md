@@ -21,10 +21,10 @@ comments: false
       <p class="card-text text-justify">
             Dapatkan Layanan Periksa Mata Gratis, Cicilan 0%, Bergaransi dan kami menerima pembayaran dengan KJP hanya di Optikal Bahari di Jakarta. Kami menawarkan berbagai pilihan lensa dan frame dengan harga terjangkau, sementara tetap memberikan pelayanan yang terbaik untuk konsumen kami. Apakah Anda membutuhkan bantuan dalam memilih kacamata yang tepat untuk Anda atau ingin memeriksa kondisi mata Anda? Datanglah ke Optikal Bahari, kami akan dengan senang hati membantu Anda.
         </p>
-        <p>
+        <p class="card-text text-justify">
             Memiliki kacamata merupakan kebutuhan bagi kebanyakan orang, terlebih bagi mereka yang memiliki kesulitan dalam melihat. Namun, membeli kacamata bukanlah sebuah keputusan yang mudah. Anda harus mempertimbangkan berbagai faktor seperti kebutuhan, gaya, dan harga. Namun, jangan khawatir, di Optikal Bahari, kami memiliki berbagai pilihan lensa dan frame yang dapat dipilih sesuai dengan kebutuhan dan keinginan Anda. Kami menawarkan harga yang terjangkau tanpa mengurangi kualitas produk yang kami tawarkan. Kami yakin bahwa kacamata yang kami tawarkan akan memenuhi kebutuhan dan keinginan Anda.
         </p>
-        <p>
+        <p class="card-text text-justify">
             Selain itu, kami juga menawarkan layanan periksa mata gratis di Optikal Bahari, Kemayoran. Kacamata yang kami tawarkan juga dilengkapi dengan garansi, sehingga Anda tidak perlu khawatir jika terjadi masalah dengan kacamata Anda. Kami juga menawarkan pembayaran melalui cicilan dengan bunga 0% dan tanpa perlu menggunakan credit card. Segera hubungi kami untuk informasi lebih lanjut.
         </p>
     </div>

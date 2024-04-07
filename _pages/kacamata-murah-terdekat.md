@@ -27,7 +27,7 @@ comments: false
 			<p class="card-text text-justify">
 				Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kuran jelas? Banyak hal yang bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering main handphone, sampai dengan menurunnya kapasitas penglihatan seiring dengan bertambahnya usia. Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame bingkai kacamata dari mulai harga yang terjangkau sampai dengan harga menengah ke atas. Baca lebih lanjut untuk tahu alasan kenapa beli kacamata di Optikal Bahari.
 			</p>
-			<p>
+			<p class="card-text text-justify">
 				Optikal Bahari merupakan toko kacamata terpercaya yang menyediakan beragam pilihan kacamata dengan kualitas terbaik. Kami juga menyediakan layanan periksa mata gratis, garansi pembelian, dan layanan kacamata cicilan atau kredit tanpa bunga dan optikal Bahari juga menerima KJP sebagai pembayaran. Jangan ragu untuk mengunjungi Optikal Bahari dan konsultasikan keluhan anda terkait penglihatan dengan tim profesional kami. Jadi tunggu apalagi, segera kunjungi Optikal Bahari untuk memenuhi kebutuhan kacamata anda.
 			</p>
 		</div>

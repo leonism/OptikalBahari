@@ -14,52 +14,68 @@ comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img src="/assets/img/posts/tips-kacamata/tips-kacamata.jpg" class="card-img-top" alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  <img
+    src="/assets/img/posts/tips-kacamata/tips-kacamata.jpg"
+    class="card-img-top"
+    alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">
     <h3 class="card-title">
-        Kacamata Untuk Wajah Bulat 
+      Kacamata Untuk Wajah Bulat
     </h3>
     <p class="card-text text-justify">
-        Model kacamata merupakan salah satu hal yang penting untuk dipertimbangkan bagi para pengguna kacamata. Hal ini di karenakan model kacamata yang tepat akan membuat penampilan kita lebih terlihat elegan dan terlihat lebih baik. Namun, tidak semua model kacamata cocok untuk semua bentuk wajah, terutama bagi yang mempunyai wajah bulat. Wajah bulat merupakan bentuk wajah yang terlihat lebih lonjong dan memiliki garis tengah yang lebih pendek dibandingkan dengan wajah lainnya.
-    </p>    
-    <p>
-        Bagi yang memiliki wajah bulat, pilihan model kacamata yang tepat akan membantu menyempurnakan bentuk wajah dan membuat penampilan terlihat lebih seimbang. Salah satu model kacamata yang tepat untuk wajah bulat adalah kacamata dengan frame yang berbentuk kotak atau persegi panjang. Model ini akan membuat wajah terlihat lebih tirus dan memperpanjang garis tengah wajah. Selain itu, model kacamata dengan frame yang lebih tebal juga dapat membantu menyeimbangkan bentuk wajah yang lebih bulat.
+      Model kacamata merupakan salah satu hal yang penting untuk dipertimbangkan bagi para pengguna kacamata. Hal ini di karenakan model kacamata yang tepat akan membuat penampilan kita lebih terlihat elegan dan terlihat lebih baik. Namun, tidak semua model kacamata cocok untuk semua bentuk wajah, terutama bagi yang mempunyai wajah bulat. Wajah bulat merupakan bentuk wajah yang terlihat lebih lonjong dan memiliki garis tengah yang lebih pendek dibandingkan dengan wajah lainnya.
     </p>
-    <p>
-        Tipe wajah bulat biasanya memiliki ciri-ciri seperti lebar yang sama dengan tinggi wajah, tidak adanya garis tajam di bagian rahang dan pipi, serta ukuran dagu yang tidak terlalu lebar. Wajah bulat terlihat lebih bundar dan full, yang bisa terlihat lebih menarik bagi beberapa orang. Namun, bagi sebagian orang yang ingin memiliki wajah yang terlihat lebih tirus dan memiliki garis-garis wajah yang tajam, wajah bulat mungkin tidak sesuai dengan keinginan mereka.
+    <p class="card-text text-justify">
+      Bagi yang memiliki wajah bulat, pilihan model kacamata yang tepat akan membantu menyempurnakan bentuk wajah dan membuat penampilan terlihat lebih seimbang. Salah satu model kacamata yang tepat untuk wajah bulat adalah kacamata dengan frame yang berbentuk kotak atau persegi panjang. Model ini akan membuat wajah terlihat lebih tirus dan memperpanjang garis tengah wajah. Selain itu, model kacamata dengan frame yang lebih tebal juga dapat membantu menyeimbangkan bentuk wajah yang lebih bulat.
+    </p>
+    <p class="card-text text-justify">
+      Tipe wajah bulat biasanya memiliki ciri-ciri seperti lebar yang sama dengan tinggi wajah, tidak adanya garis tajam di bagian rahang dan pipi, serta ukuran dagu yang tidak terlalu lebar. Wajah bulat terlihat lebih bundar dan full, yang bisa terlihat lebih menarik bagi beberapa orang. Namun, bagi sebagian orang yang ingin memiliki wajah yang terlihat lebih tirus dan memiliki garis-garis wajah yang tajam, wajah bulat mungkin tidak sesuai dengan keinginan mereka.
     </p>
     <h3 class="card-title">
-        Tips Memilih Kacamata Untuk Wajah Bulat
+      Tips Memilih Kacamata Untuk Wajah Bulat
     </h3>
-    <p>
-        Untuk mengurangi efek wajah bulat, ada beberapa cara yang bisa dilakukan. Salah satunya adalah dengan memilih model rambut yang tepat. Model rambut yang tinggi dan bervolume di bagian atas kepala bisa membuat wajah terlihat lebih kontras dan garis-garis tajam yang akan lebih terlihat. Selain itu, model rambut dengan potongan garis lurus di bagian bawah juga bisa memberikan kesan wajah lebih panjang, tirus dan lebih kontras.
-    </p>    
-    <p>
-        Selain memilih model rambut yang tepat, memilih model kacamata yang tepat juga bisa membantu mengurangi efek wajah bulat. Beberapa model kacamata yang cocok untuk wajah bulat adalah kacamata dengan frame yang lebih tajam dan garis-garis tajam, seperti kacamata aviator atau wayfarer. Kacamata dengan frame yang lebih tajam akan membuat wajah terlihat lebih kontras dan garis-garis tajam yang lebih terlihat.
+    <p class="card-text text-justify">
+      Untuk mengurangi efek wajah bulat, ada beberapa cara yang bisa dilakukan. Salah satunya adalah dengan memilih model rambut yang tepat. Model rambut yang tinggi dan bervolume di bagian atas kepala bisa membuat wajah terlihat lebih kontras dan garis-garis tajam yang akan lebih terlihat. Selain itu, model rambut dengan potongan garis lurus di bagian bawah juga bisa memberikan kesan wajah lebih panjang, tirus dan lebih kontras.
+    </p>
+    <p class="card-text text-justify">
+      Selain memilih model rambut yang tepat, memilih model kacamata yang tepat juga bisa membantu mengurangi efek wajah bulat. Beberapa model kacamata yang cocok untuk wajah bulat adalah kacamata dengan frame yang lebih tajam dan garis-garis tajam, seperti kacamata aviator atau wayfarer. Kacamata dengan frame yang lebih tajam akan membuat wajah terlihat lebih kontras dan garis-garis tajam yang lebih terlihat.
     </p>
     <h3 class="card-title">
-        Tahapan Yang Bisa Dicoba
+      Tahapan Yang Bisa Dicoba
     </h3>
     <ol>
-        <li>
-            Coba berbagai model: Jangan takut untuk mencoba berbagai model kacamata yang tersedia. Coba pakai kacamata dengan frame yang lebih tipis atau yang terbuat dari material yang lebih ringan, seperti titanium atau karbon fiber. Atau, coba pakai kacamata dengan frame yang lebih tebal dan terbuat dari material yang lebih kuat, seperti acetat atau metal.
-        </li>
-        <li>
-            Pilih model yang menegaskan garis wajah: Pilih kacamata dengan frame yang memiliki garis yang tegas dan tajam, seperti frame dengan bentuk kotak atau frame dengan garis yang menyerupai huruf "V". Frame jenis ini dapat membuat wajah terlihat lebih tajam dan menegaskan garis wajah.
-        </li>    
-        <li>
-            Pilih model yang mengalihkan perhatian: Jika Anda tidak ingin frame yang terlalu tebal, cobalah memilih frame dengan detail yang menarik atau warna yang unik. Ini dapat membantu mengalihkan perhatian dari bentuk wajah bulat ke frame kacamata yang Anda pakai.
-        </li>
-        <li>
-            Mintalah saran dari staff Optikal Bahari: Staff kami yang terlatih dapat membantu Anda memilih model kacamata yang tepat sesuai dengan bentuk wajah dan gaya Anda. Jangan ragu untuk bertanya dan minta saran dari mereka.
-        </li>
+      <li>
+        Coba berbagai model: Jangan takut untuk mencoba berbagai model kacamata yang tersedia. Coba pakai kacamata dengan frame yang lebih tipis atau yang terbuat dari material yang lebih ringan, seperti titanium atau karbon fiber. Atau, coba pakai kacamata dengan frame yang lebih tebal dan terbuat dari material yang lebih kuat, seperti acetat atau metal.
+      </li>
+      <li>
+        Pilih model yang menegaskan garis wajah: Pilih kacamata dengan frame yang memiliki garis yang tegas dan tajam, seperti frame dengan bentuk kotak atau frame dengan garis yang menyerupai huruf "V". Frame jenis ini dapat membuat wajah terlihat lebih tajam dan menegaskan garis wajah.
+      </li>
+      <li>
+        Pilih model yang mengalihkan perhatian: Jika Anda tidak ingin frame yang terlalu tebal, cobalah memilih frame dengan detail yang menarik atau warna yang unik. Ini dapat membantu mengalihkan perhatian dari bentuk wajah bulat ke frame kacamata yang Anda pakai.
+      </li>
+      <li>
+        Mintalah saran dari staff Optikal Bahari: Staff kami yang terlatih dapat membantu Anda memilih model kacamata yang tepat sesuai dengan bentuk wajah dan gaya Anda. Jangan ragu untuk bertanya dan minta saran dari mereka.
+      </li>
     </ol>
-    <p>
-        Jadi secara garis besar, kacamata yang cocok untuk wajah bulat adalah kacamata dengan frame yang berbingkai tajam seperti layaknya model aviator atau wayfarer, serta kacamata dengan frame yang lebih tebal dan berbentuk kotak atau persegi panjang. Memilih model kacamata yang sesuai dengan bentuk wajah akan membantu menyempurnakan penampilan dan membuat penampilan terlihat lebih seimbang. Selain itu, meminta saran dari staff kami juga dapat membantu memilih model kacamata yang tepat.
-    </p>    
-    <p>
-      Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
+    <p class="card-text text-justify">
+      Jadi secara garis besar, kacamata yang cocok untuk wajah bulat adalah kacamata dengan frame yang berbingkai tajam seperti layaknya model aviator atau wayfarer, serta kacamata dengan frame yang lebih tebal dan berbentuk kotak atau persegi panjang. Memilih model kacamata yang sesuai dengan bentuk wajah akan membantu menyempurnakan penampilan dan membuat penampilan terlihat lebih seimbang. Selain itu, meminta saran dari staff kami juga dapat membantu memilih model kacamata yang tepat.
+    </p>
+    <p class="card-text text-justify">
+      Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
+      <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+      <a
+        href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
+        id="WhatsAppClick"
+        class="WhatsAppCall"
+        title="Call WhatsApp">+6281932235445</a>
+      atau kunjungi
+      <a
+        href="https://www.facebook.com/optikalbahari"
+        id="FBClick"
+        title="Facebook Page Optikal Bahari"
+        class="FacebookPage">Facebook Fan</a>
+      Page kami.
+      <em>(Optikal Bahari)</em>
     </p>
   </div>
 </div>
-

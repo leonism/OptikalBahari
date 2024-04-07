@@ -201,7 +201,7 @@ comments: false
 				<h5 class="card-title">
 					{{ post.title | truncate: 50 }}
 				</h5>
-				<p>
+				<p class="card-text text-justify">
 					{{ post.description | strip_html | truncate: 100 }}
 					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
 						href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"

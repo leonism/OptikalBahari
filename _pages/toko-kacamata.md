@@ -27,7 +27,7 @@ comments: false
       <p class="card-text text-justify">
         Optikal Bahari menyediakan beragam pilihan lensa kacamata beserta dengan frame yang trendy dan terbaru. Tetap dengan selalu memperhatikan harga yang terjangkau dan cocok untuk setiap kebutuhan dan gaya kamu. Kami mengerti bahwa membeli kacamata bukanlah hal yang dikategorikan mudah bagi sebagian masyarakat, oleh karena itu kami memberikan layanan pembayaran dengan cicilan yang memudahkan Anda dalam membeli kacamata yang diinginkan. Selain itu, kami juga menerima pembayaran menggunakan KJP untuk membantu Anda yang membutuhkan kacamata namun belum memiliki keuangan yang mencukupi.
       </p>
-      <p>
+      <p class="card-text text-justify">
         Selain itu, di Optikal Bahari kami juga menyediakan layanan periksa mata gratis dengan menggunakan alat komputer yang terbaru. Proses pemeriksaan ini akan memberikan hasil yang akurat dan membantu Anda untuk mengetahui apakah ada perubahan pada ukuran mata atau tidak. Hal ini sangat penting untuk dilakukan secara rutin agar Anda dapat terus memantau kondisi mata dan memperbaiki penglihatan Anda dengan cara yang tepat. Kunjungi Optikal Bahari sekarang juga untuk memeriksa kondisi mata dan memastikan penglihatan Anda selalu dalam keadaan yang optimal.
       </p>
     </div>

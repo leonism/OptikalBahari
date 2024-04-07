@@ -25,7 +25,7 @@ comments: false
 			<p class="card-text text-justify">
 				Jika Anda sedang mencari kacamata dengan harga terjangkau di Jakarta, datanglah ke Optikal Bahari. Kami memiliki berbagai pilihan lensa dan frame dengan harga yang terjangkau, namun tidak mengurangi kualitas produk yang kami tawarkan. Kami yakin bahwa kacamata yang kami tawarkan akan memenuhi kebutuhan dan keinginan Anda. Jangan ragu untuk datang dan melihat sendiri pilihan kacamata yang kami tawarkan di Optikal Bahari.
 			</p>
-			<p>
+			<p class="card-text text-justify">
 				Kami juga selalu memberikan pelayanan terbaik kepada pelanggan kami, dengan tim optisien yang terlatih dan profesional yang siap membantu Anda memilih kacamata yang tepat sesuai kebutuhan dan keinginan Anda. Kami selalu memberikan yang terbaik untuk memastikan bahwa Anda mendapatkan kacamata yang terbaik yang akan membantu Anda dalam kegiatan sehari-hari. Jadi, jangan ragu untuk datang ke Optikal Bahari dan dapatkan kacamata murah di Jakarta dengan kualitas terbaik hanya di sini.
 			</p>
 		</div>

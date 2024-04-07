@@ -1,5 +1,6 @@
-<head>
+<!DOCTYPE html>
 	<html lang="{{ page.lang }}">
+		<head>
 		<meta charset="utf-8">
 		<link rel="dns-prefetch" href="//optikalbahari.com">
 		<link rel="dns-prefetch" href="//googleapis.com/">
@@ -32,16 +33,14 @@
 				{% else %}
 			{{ site.description | truncate: 160 }}
 				{% endif %}" />
-		<meta name="keywords" content="{{ page.keywords normalize_whitespace | truncate: 160 | escape }}"
-			itemprop="keywords" />
+		<meta name="keywords" content="{{ page.keywords normalize_whitespace | truncate: 160 | escape }}" itemprop="keywords" />
 
 		<!-- start twitter integration -->
 		<meta name="twitter:site" content="@{{ site.twitter_username }}">
 		<meta property="twitter:image" content="{{ site.url }}{{ page.background }}" />
 		<meta name="twitter:card" content="summary_large_image">
 		{% if seo_tag.image %}
-		<meta name="twitter:card" content="{{ page.twitter.card | default: site.twitter.card | default: "
-			summary_large_image" }}" />
+		<meta name="twitter:card" content="{{ page.twitter.card | default: site.twitter.card | default: "summary_large_image" }}" />
 		<meta property="twitter:image" content="{{ seo_tag.image.path }}" />
 		<meta property="twitter:image" content="{{ site.url }}{{ page.background }}" />
 		{% else %}
@@ -112,7 +111,7 @@
 		<link rel="stylesheet" href="{{"/assets/main.css" | relative_url "}}">
 		<!-- end styling integration -->
 
-		<!-- <link rel="canonical" href="{{ page.url | replace:'index.html ',' ' | absolute_url "}}" /> -->
+		<!-- <link rel="canonical" href="{{ page.url | replace:'index.html',' ' | absolute_url "}}" /> -->
 		<!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" /> -->
 		<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
 		<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{"/feed.xml" | relative_url }}" />
@@ -129,7 +128,7 @@
 
 		{% include fb-card.html %}
 		{% include gtm-head.html %}
-</head>
+	</head>
 
 <!-- start the google fonts importing, so that it would make less hit request to the network, and cache them  -->
 <style>

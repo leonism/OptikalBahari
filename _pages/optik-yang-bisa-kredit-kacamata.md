@@ -23,7 +23,7 @@ comments: false
       <p class="card-text text-justify">
         Optikal Bahari merupakan tempat yang tepat untuk memeriksa kebutuhan penglihatan Anda. Kami menggunakan alat komputer terbaru untuk memberikan hasil periksa mata yang cepat dan akurat. Selain itu, kami juga memiliki layanan kredit yang memudahkan Anda dalam membeli kacamata tanpa perlu mengeluarkan uang muka atau menanggung bunga. Anda bahkan tidak perlu membawa credit card saat berkunjung ke Optikal Bahari.
       </p>
-      <p>
+      <p class="card-text text-justify">
         Staff ramah kami akan selalu siap untuk melayani Anda dengan pelayanan terbaik. Jangan ragu untuk berkunjung ke Optikal Bahari dan periksakan kebutuhan penglihatan Anda di sana. Kami akan membantu Anda menemukan solusi terbaik untuk kebutuhan penglihatan Anda. Selain layanan periksa mata dan kredit kacamata, Optikal Bahari juga menyediakan berbagai pilihan frame kacamata yang terkenal dan berkualitas. Kami memiliki berbagai merk frame kacamata terkenal di dunia yang akan memenuhi kebutuhan gaya Anda.
       </p>
       <p class="card-text text-justify">
