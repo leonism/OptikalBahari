@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-08T01:18:57+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Optikal Bahari</title><subtitle>Periksa Mata &amp; Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa Denda, Izin Dinkes/Kemenkes &amp; Terima KJP. Pertama &amp; Terpercaya Sejak 1978</subtitle><author><name>Optikal Bahari</name></author><entry xml:lang="id-ID"><title type="html">8 Merk Frame Kacamata Terkenal Dunia</title><link href="http://localhost:4000/8-merk-kacamata-terkenal-dunia/" rel="alternate" type="text/html" title="8 Merk Frame Kacamata Terkenal Dunia" /><published>2022-12-19T07:25:23+07:00</published><updated>2022-12-19T07:25:23+07:00</updated><id>http://localhost:4000/8-merk-kacamata-terkenal-dunia</id><content type="html" xml:base="http://localhost:4000/8-merk-kacamata-terkenal-dunia/"><![CDATA[<div class="card-deck mb-3">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-08T15:00:02+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Optikal Bahari</title><subtitle>Periksa Mata &amp; Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa Denda, Izin Dinkes/Kemenkes &amp; Terima KJP. Pertama &amp; Terpercaya Sejak 1978</subtitle><author><name>Optikal Bahari</name></author><entry xml:lang="id-ID"><title type="html">8 Merk Frame Kacamata Terkenal Dunia</title><link href="http://localhost:4000/8-merk-kacamata-terkenal-dunia/" rel="alternate" type="text/html" title="8 Merk Frame Kacamata Terkenal Dunia" /><published>2022-12-19T07:25:23+07:00</published><updated>2022-12-19T07:25:23+07:00</updated><id>http://localhost:4000/8-merk-kacamata-terkenal-dunia</id><content type="html" xml:base="http://localhost:4000/8-merk-kacamata-terkenal-dunia/"><![CDATA[<div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
@@ -150,7 +150,84 @@
   </div>
 </div>
 
-{% include home-cards.html %}
+<section id="KenapaOptikalBahari">
+  <div class="card-deckrow mb-3 card-deck">
+
+    <!-- start the Periksa Mata -->
+    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+      <a href="/periksa-mata-gratis/" role="button" title="Periksa Mata Gratis">
+        <img data-src="/assets/img/bg-about.jpg" 
+            src="/assets/img/bg-about.jpg" 
+            class="card-img-top img-fluid" 
+            loading="lazy"
+            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title align-middle">
+          <i class="fas fa-check fas-1x"></i>
+          Periksa Mata Gratis
+        </h5>
+        <p class="card-text">
+          Lakukan pemeriksaan mata teratur, agar terdeteksi segala keluhan dan perubahan ukuran mata.
+        </p>
+        <a href="/periksa-mata-gratis/"
+          class="btn btn-primary rounded-pill align-text-bottom text-decoration-none" role="button"
+          title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+          Lebih Lanjut
+        </a>
+      </div>
+    </div>
+    <!-- end the Periksa Mata -->
+
+    <!-- start the Cicilan -->
+    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+      <a href="/kacamata-cicilan/" role="button" title="Kacamata Cicilan 0%">
+        <img data-src="/assets/img/bg-index-arch-1.jpg" 
+            src="/assets/img/bg-index-arch-1.jpg" 
+            class="card-img-top img-fluid" loading="lazy"
+            title="Kacamata Cicilan 0%" alt="Kacamata Cicilan 0%">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title align-middle">
+          <i class="fas fa-check fas-1x"></i>
+          Kacamata Cicilan 0%
+        </h5>
+        <p class="card-text">
+          Beli Kacamata Nyicil, Bayar Bulanan, Tanpa DP, Tanpa Credit Card dan Tanpa Bunga
+        </p>
+        <a href="/kacamata-cicilan/" class="btn btn-primary rounded-pill text-decoration-none"
+          role="button" title="Program Kacamata Cicilan Tanpa Bunga">
+          Lebih Lanjut
+        </a>
+      </div>
+    </div>
+    <!-- end the Cicilan -->
+
+    <!-- start the bayar KJP -->
+    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+      <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" role="button"
+        title="Menerima Pembayaran KJP">
+        <img data-src="/assets/img/bg-kjp.jpg" src="/assets/img/bg-kjp.jpg" class="card-img-top img-fluid" loading="lazy" title="Menerima Pembayaran KJP"
+          alt="Menerima Pembayaran KJP">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title align-middle">
+          <i class="fas fa-check fas-1x"></i>
+          Terima Pembayaran KJP
+        </h5>
+        <p class="card-text">
+          Kami menerima bentuk pembayaran kacamata dengan KJP (Kartu Jakarta Pintar).
+        </p>
+        <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/"
+          class="btn btn-primary rounded-pill text-decoration-none" role="button" title="Menerima Pembayaran KJP">
+          Lebih Lanjut
+        </a>
+      </div>
+    </div>
+    <!-- end the bayar KJP -->
+  </div>
+</section>
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -418,7 +495,84 @@
                 </div>
             </div>
 
-            {% include home-cards.html %}
+            <section id="KenapaOptikalBahari">
+  <div class="card-deckrow mb-3 card-deck">
+
+    <!-- start the Periksa Mata -->
+    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+      <a href="/periksa-mata-gratis/" role="button" title="Periksa Mata Gratis">
+        <img data-src="/assets/img/bg-about.jpg" 
+            src="/assets/img/bg-about.jpg" 
+            class="card-img-top img-fluid" 
+            loading="lazy"
+            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title align-middle">
+          <i class="fas fa-check fas-1x"></i>
+          Periksa Mata Gratis
+        </h5>
+        <p class="card-text">
+          Lakukan pemeriksaan mata teratur, agar terdeteksi segala keluhan dan perubahan ukuran mata.
+        </p>
+        <a href="/periksa-mata-gratis/"
+          class="btn btn-primary rounded-pill align-text-bottom text-decoration-none" role="button"
+          title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+          Lebih Lanjut
+        </a>
+      </div>
+    </div>
+    <!-- end the Periksa Mata -->
+
+    <!-- start the Cicilan -->
+    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+      <a href="/kacamata-cicilan/" role="button" title="Kacamata Cicilan 0%">
+        <img data-src="/assets/img/bg-index-arch-1.jpg" 
+            src="/assets/img/bg-index-arch-1.jpg" 
+            class="card-img-top img-fluid" loading="lazy"
+            title="Kacamata Cicilan 0%" alt="Kacamata Cicilan 0%">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title align-middle">
+          <i class="fas fa-check fas-1x"></i>
+          Kacamata Cicilan 0%
+        </h5>
+        <p class="card-text">
+          Beli Kacamata Nyicil, Bayar Bulanan, Tanpa DP, Tanpa Credit Card dan Tanpa Bunga
+        </p>
+        <a href="/kacamata-cicilan/" class="btn btn-primary rounded-pill text-decoration-none"
+          role="button" title="Program Kacamata Cicilan Tanpa Bunga">
+          Lebih Lanjut
+        </a>
+      </div>
+    </div>
+    <!-- end the Cicilan -->
+
+    <!-- start the bayar KJP -->
+    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+      <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" role="button"
+        title="Menerima Pembayaran KJP">
+        <img data-src="/assets/img/bg-kjp.jpg" src="/assets/img/bg-kjp.jpg" class="card-img-top img-fluid" loading="lazy" title="Menerima Pembayaran KJP"
+          alt="Menerima Pembayaran KJP">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title align-middle">
+          <i class="fas fa-check fas-1x"></i>
+          Terima Pembayaran KJP
+        </h5>
+        <p class="card-text">
+          Kami menerima bentuk pembayaran kacamata dengan KJP (Kartu Jakarta Pintar).
+        </p>
+        <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/"
+          class="btn btn-primary rounded-pill text-decoration-none" role="button" title="Menerima Pembayaran KJP">
+          Lebih Lanjut
+        </a>
+      </div>
+    </div>
+    <!-- end the bayar KJP -->
+  </div>
+</section>
 
             <div class="card-deck mb-3">
                 <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -494,7 +648,7 @@
     <img
       itemprop="image"
       data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-00.jpg"
-      src="{{"/assets/img/posts/kacamata-anak-00/kacamata-anak-00.jpg" | relative_url }}"
+      src="/assets/img/posts/kacamata-anak-00/kacamata-anak-00.jpg"
       class="card-img-top"
       title="kacamata murah dan terjangkau"
       alt="Kacamata Murah Dan Terjangkau">
@@ -528,7 +682,7 @@
       <p class="card-text text-justify">
         <strong>Periksa Mata GRATIS</strong>.                                                    
                     Optikal Bahari memahami pentingnya penglihatan yang jelas bagi kehidupan Anda. Oleh karena itu, kami menawarkan
-        <a href="{{"/periksa-mata-gratis/" | relative_url }}" title="Periksa Mata Gratis">periksa mata gratis</a>
+        <a href="/periksa-mata-gratis/" title="Periksa Mata Gratis">periksa mata gratis</a>
         yang dilakukan dengan
         <strong>dua tahapan</strong>
         untuk memastikan hasil yang akurat dan terpercaya. Tahap pertama menggunakan
@@ -549,12 +703,12 @@
       <p class="card-text text-justify">
         <strong>Cicilan 0%, Tanpa Bunga & Riba</strong>.     
         Optikal Bahari mengubah konsep membeli kacamata menjadi lebih terjangkau dan mudah. Melalui program
-        <a href="{{"/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan 0%, tanpa bunga & riba">kacamata cicilan 0%, tanpa bunga & riba</a>, Anda dapat memiliki kacamata impian tanpa membebani dompet Anda. Ini adalah solusi yang sempurna bagi siapa pun yang ingin tampil kece tanpa harus khawatir tentang masalah keuangan. Jadi, jangan ragu lagi untuk merencanakan kunjungan ke Optikal Bahari dan temukan kacamata yang Anda idamkan dengan cara yang lebih hemat dan mudah!
+        <a href="/kacamata-cicilan/" title="kacamata cicilan 0%, tanpa bunga & riba">kacamata cicilan 0%, tanpa bunga & riba</a>, Anda dapat memiliki kacamata impian tanpa membebani dompet Anda. Ini adalah solusi yang sempurna bagi siapa pun yang ingin tampil kece tanpa harus khawatir tentang masalah keuangan. Jadi, jangan ragu lagi untuk merencanakan kunjungan ke Optikal Bahari dan temukan kacamata yang Anda idamkan dengan cara yang lebih hemat dan mudah!
       </p>
       <p class="card-text text-justify">
         <strong>Bayar Pakai KJP? Tentu Bisa.</strong>
         Pemilik Kartu Jakarta Pintar (KJP), dengarkan berita baik ini! Sekarang, gunakan
-        <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="KJP Anda untuk membayar kacamata di Optikal Bahari">KJP Anda untuk membayar kacamata di Optikal Bahari</a>. Bayangkan, tak perlu lagi memikirkan uang jajan, Anda dapat tampil stylish dengan kacamata baru tanpa beban. Optikal Bahari memberikan aksesibilitas yang luar biasa, sehingga Anda dapat mengekspresikan gaya Anda tanpa hambatan finansial. Jangan sia-siakan kesempatan ini, segera manfaatkan KJP dan dapatkan kacamata impian di Optikal Bahari untuk penampilan yang semakin memukau.
+        <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" title="KJP Anda untuk membayar kacamata di Optikal Bahari">KJP Anda untuk membayar kacamata di Optikal Bahari</a>. Bayangkan, tak perlu lagi memikirkan uang jajan, Anda dapat tampil stylish dengan kacamata baru tanpa beban. Optikal Bahari memberikan aksesibilitas yang luar biasa, sehingga Anda dapat mengekspresikan gaya Anda tanpa hambatan finansial. Jangan sia-siakan kesempatan ini, segera manfaatkan KJP dan dapatkan kacamata impian di Optikal Bahari untuk penampilan yang semakin memukau.
       </p>
       <p class="card-text text-justify">
         <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>.     
@@ -564,14 +718,91 @@
   </div>
 </div>
 
-{% include home-cards.html %}
+<section id="KenapaOptikalBahari">
+  <div class="card-deckrow mb-3 card-deck">
+
+    <!-- start the Periksa Mata -->
+    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+      <a href="/periksa-mata-gratis/" role="button" title="Periksa Mata Gratis">
+        <img data-src="/assets/img/bg-about.jpg" 
+            src="/assets/img/bg-about.jpg" 
+            class="card-img-top img-fluid" 
+            loading="lazy"
+            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title align-middle">
+          <i class="fas fa-check fas-1x"></i>
+          Periksa Mata Gratis
+        </h5>
+        <p class="card-text">
+          Lakukan pemeriksaan mata teratur, agar terdeteksi segala keluhan dan perubahan ukuran mata.
+        </p>
+        <a href="/periksa-mata-gratis/"
+          class="btn btn-primary rounded-pill align-text-bottom text-decoration-none" role="button"
+          title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+          Lebih Lanjut
+        </a>
+      </div>
+    </div>
+    <!-- end the Periksa Mata -->
+
+    <!-- start the Cicilan -->
+    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+      <a href="/kacamata-cicilan/" role="button" title="Kacamata Cicilan 0%">
+        <img data-src="/assets/img/bg-index-arch-1.jpg" 
+            src="/assets/img/bg-index-arch-1.jpg" 
+            class="card-img-top img-fluid" loading="lazy"
+            title="Kacamata Cicilan 0%" alt="Kacamata Cicilan 0%">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title align-middle">
+          <i class="fas fa-check fas-1x"></i>
+          Kacamata Cicilan 0%
+        </h5>
+        <p class="card-text">
+          Beli Kacamata Nyicil, Bayar Bulanan, Tanpa DP, Tanpa Credit Card dan Tanpa Bunga
+        </p>
+        <a href="/kacamata-cicilan/" class="btn btn-primary rounded-pill text-decoration-none"
+          role="button" title="Program Kacamata Cicilan Tanpa Bunga">
+          Lebih Lanjut
+        </a>
+      </div>
+    </div>
+    <!-- end the Cicilan -->
+
+    <!-- start the bayar KJP -->
+    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+      <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" role="button"
+        title="Menerima Pembayaran KJP">
+        <img data-src="/assets/img/bg-kjp.jpg" src="/assets/img/bg-kjp.jpg" class="card-img-top img-fluid" loading="lazy" title="Menerima Pembayaran KJP"
+          alt="Menerima Pembayaran KJP">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title align-middle">
+          <i class="fas fa-check fas-1x"></i>
+          Terima Pembayaran KJP
+        </h5>
+        <p class="card-text">
+          Kami menerima bentuk pembayaran kacamata dengan KJP (Kartu Jakarta Pintar).
+        </p>
+        <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/"
+          class="btn btn-primary rounded-pill text-decoration-none" role="button" title="Menerima Pembayaran KJP">
+          Lebih Lanjut
+        </a>
+      </div>
+    </div>
+    <!-- end the bayar KJP -->
+  </div>
+</section>
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
       data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-01.jpg"
-      src="{{"/assets/img/posts/kacamata-anak-00/kacamata-anak-01.jpg" | relative_url }}"
+      src="/assets/img/posts/kacamata-anak-00/kacamata-anak-01.jpg"
       class="card-img-top img-fluid"
       title="Pemilihan Material Kacamata"
       alt="Pemilihan Material Kacamata">
@@ -605,7 +836,7 @@
     <img
       itemprop="image"
       data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-02.jpg"
-      src="{{"/assets/img/posts/kacamata-anak-00/kacamata-anak-02.jpg" | relative_url }}"
+      src="/assets/img/posts/kacamata-anak-00/kacamata-anak-02.jpg"
       class="card-img-top img-fluid"
       title="Jaga Kebersihan Kacamata Anak"
       alt="Jaga Kebersihan Kacamata Anak">
@@ -625,7 +856,7 @@
     <img
       itemprop="image"
       data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-03.jpg"
-      src="{{"/assets/img/posts/kacamata-anak-00/kacamata-anak-03.jpg" | relative_url }}"
+      src="/assets/img/posts/kacamata-anak-00/kacamata-anak-03.jpg"
       class="card-img-top img-fluid"
       title="Rutin Melakukan Kunjungan Ke Optik"
       alt="Rutin Melakukan Kunjungan Ke Optik">
@@ -652,249 +883,284 @@
       </p>
     </div>
   </div>
-</div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Perawatan kacamata untuk anak-anak merupakan hal yang sangat penting untuk diperhatikan, terutama jika anak Anda memiliki masalah pada mata seperti rabun jauh atau dekat.]]></summary></entry><entry xml:lang="id-ID"><title type="html">Cara Merawat dan Menjaga Kacamata</title><link href="http://localhost:4000/cara-merawat-menjaga-kacamata/" rel="alternate" type="text/html" title="Cara Merawat dan Menjaga Kacamata" /><published>2022-12-15T07:25:23+07:00</published><updated>2022-12-15T07:25:23+07:00</updated><id>http://localhost:4000/cara-merawat-menjaga-kacamata</id><content type="html" xml:base="http://localhost:4000/cara-merawat-menjaga-kacamata/"><![CDATA[<p class="card-text text-justify">
-    Memiliki kacamata merupakan hal yang penting bagi seseorang yang memiliki masalah seperti rabun jauh atau dekat.
-    Kacamata dapat membantu seseorang untuk melihat dengan lebih jelas dan membuat aktivitas sehari-hari menjadi lebih
-    nyaman. Namun, kacamata juga merupakan barang yang mudah rusak jika tidak dijaga dengan baik. Oleh karena itu, penting
-    bagi kita untuk mengetahui cara merawat dan menjaga kacamata agar tetap berkualitas. Kacamata merupakan alat yang sangat
-    penting bagi kebanyakan orang, terutama bagi mereka yang memiliki masalah penglihatan. Namun, kacamata tidak selalu
-    mudah dijaga dan dapat rusak jika tidak diperlakukan dengan benar. Berikut adalah beberapa cara untuk merawat dan
-    menjaga kacamata agar tetap berkualitas:
-</p>
+</div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Perawatan kacamata untuk anak-anak merupakan hal yang sangat penting untuk diperhatikan, terutama jika anak Anda memiliki masalah pada mata seperti rabun jauh atau dekat.]]></summary></entry><entry xml:lang="id-ID"><title type="html">Cara Merawat dan Menjaga Kacamata</title><link href="http://localhost:4000/cara-merawat-menjaga-kacamata/" rel="alternate" type="text/html" title="Cara Merawat dan Menjaga Kacamata" /><published>2022-12-15T07:25:23+07:00</published><updated>2022-12-15T07:25:23+07:00</updated><id>http://localhost:4000/cara-merawat-menjaga-kacamata</id><content type="html" xml:base="http://localhost:4000/cara-merawat-menjaga-kacamata/"><![CDATA[<div class="card-deck mb-3">
+  <div class="card shadow p-3 mb-5 bg-white rounded">
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01.jpg"
+      src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01.jpg"
+      class="card-img-top"
+      alt="kacamata-k-ion">
+    <div class="card-body">
+      <h3 class="card-title">
+        Cara Merawat dan Menjaga Kacamata
+      </h3>
+            <p class="card-text text-justify">
+                Memiliki kacamata merupakan hal yang penting bagi seseorang yang memiliki masalah seperti rabun jauh atau dekat.
+                Kacamata dapat membantu seseorang untuk melihat dengan lebih jelas dan membuat aktivitas sehari-hari menjadi lebih
+                nyaman. Namun, kacamata juga merupakan barang yang mudah rusak jika tidak dijaga dengan baik. Oleh karena itu, penting
+                bagi kita untuk mengetahui cara merawat dan menjaga kacamata agar tetap berkualitas. Kacamata merupakan alat yang sangat
+                penting bagi kebanyakan orang, terutama bagi mereka yang memiliki masalah penglihatan. Namun, kacamata tidak selalu
+                mudah dijaga dan dapat rusak jika tidak diperlakukan dengan benar. Berikut adalah beberapa cara untuk merawat dan
+                menjaga kacamata agar tetap berkualitas:
+            </p>
+            <h3 class="card-title">
+                Bersihkan Kacamata Dengan Cara Tepat
+            </h3>
+            <p class="card-text text-justify">
+                Pertama, pastikan untuk selalu membersihkan kacamata Anda dengan cara yang tepat. Gunakan cairan kacamata khusus yang
+                dijual di toko optik untuk membersihkan lensa kacamata Anda. Jangan menggunakan air atau sabun biasa karena dapat
+                merusak coating pada lensa kacamata. Selain itu, jangan menggunakan tisu atau kain yang kasar untuk membersihkan lensa
+                kacamata, karena dapat meninggalkan goresan atau kerusakan pada lensa. Usapkan dengan lembut menggunakan kain yang
+                lembut atau microfiber. Hindari menggunakan tisu atau kain yang kasar karena dapat merusak lensa.
+            </p>
+            <h3 class="card-title">
+                Simpan Kacamata Dengan Cara Yang Benar
+            </h3>
+            <p class="card-text text-justify">
+                Kedua, pastikan untuk menyimpan kacamata dengan benar. Jangan menyimpan kacamata di tempat yang panas atau lembab,
+                karena dapat merusak lensa kacamata. Selain itu, jangan menyimpan kacamata dengan terbalik atau bersentuhan dengan
+                barang lain yang tajam, karena dapat merusak atau menyebabkan lensa kacamata retak. Gunakan hardcase atau tempat khusus
+                untuk menyimpan kacamata agar tetap aman. Jangan simpan kacamata di tempat yang panas atau terkena sinar matahari
+                langsung. Selain itu, jangan menyimpan kacamata dengan cara menaruhnya terbalik atau terlentang. Hal ini dapat merusak
+                bentuk kacamata dan menyebabkan lensa menjadi cekung atau keriput.
+            </p>
+        </div>
+    </div>
+</div>
 
-<p class="aligncenter">
-    <img data-src="/assets/img/posts/lensa-progresif/lensa-progresif.jpg" src="/assets/img/posts/lensa-progresif/lensa-progresif.jpg" class="card-img-top" alt="lensa-progresif.jpg">
-</p>
+<div class="card-deck mb-3">
+  <div class="card shadow p-3 mb-5 bg-white rounded">
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02.jpg"
+      src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02.jpg"
+      class="card-img-top"
+      alt="kacamata-k-ion">
+    <div class="card-body">
+            <h3 class="card-title">
+                Periksa Mata Anda Secara Berkala
+            </h3>
+            <p class="card-text text-justify">
+                Ketiga, jangan lupa untuk mengganti lensa kacamata secara berkala. Lensa kacamata yang sudah lama tidak diganti, dapat
+                menyebabkan kabur atau distorsi pada pandangan. Jadi, pastikan untuk selalu mengganti lensa kacamata sesuai dengan saran
+                dokter atau optikus anda. Selain itu, gunakan juga kacamata pelindung atau kacamata hitam untuk melindungi mata dari
+                sinar matahari yang terlalu terik atau sinar UV-A dan UV-B yang dapat merusak mata.
+            </p>                
+            <h3 class="card-title">
+                Gunakan Kacamata Dengan Ukuran Yang Sesuai
+            </h3>
+            <p class="card-text text-justify">
+                Keempat, jangan menggunakan kacamata yang tidak sesuai dengan kebutuhan mata Anda. Jangan menggunakan kacamata yang
+                memiliki ukuran yang berbeda dengan hasil pengukuran, karena hal ini dapat menyebabkan masalah pada mata, seperti sakit
+                kepala, mata merah, atau pusing. Periksa dan ganti kacamata jika diperlukan. Jika Anda merasa kacamata Anda tidak nyaman
+                atau rusak, segera periksakan ke dokter mata atau optik terdekat. Jangan mencoba memperbaiki kacamata sendiri karena
+                dapat merusak kacamata anda.
+            </p>
+            <h3 class="card-title">
+                Gunakan Coating Pelindung Lensa
+            </h3>
+            <p class="card-text text-justify">
+                Terakhir, gunakan selalu lapisan lensa pelindung. Lensa pelindung merupakan lapisan yang ditempatkan di atas lensa
+                kacamata yang dapat melindungi lensa dari goresan dan kerusakan. Lensa pelindung juga dapat membantu mengurangi
+                kekotoran dan debu yang menempel pada lensa. Jika Anda tidak sedang menggunakan kacamata, sebaiknya simpan kacamata
+                dalam kotak pelindung atau kantung kacamata. Ini akan membantu mencegah kacamata Anda terkena benturan atau goresan
+                ketika tidak digunakan. Yang dapat menyebabkan kacamata Anda rusak atau bahkan retak.
+            </p>
+            <p class="card-text text-justify">Kamu perlu service kacamata dengan gratis, dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, 
+                Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
+                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. 
+                Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
+                title="Call WhatsApp">+6281932235445</a>.<em>(Optikal Bahari)</em>
+            </p>
+        </div>
+    </div>
+</div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Temukan cara mudah merawat dan menjaga kacamata agar tetap terjaga dan berkualitas dengan tips dari kami. Jaga kesehatan mata Anda dengan perawatan yang tepat]]></summary></entry><entry xml:lang="id-ID"><title type="html">Perubahan Kecil Yang Membuat Perbedaan Besar Tren Kacamata</title><link href="http://localhost:4000/perubahan-kecil-yang-membuat-perbedaan-besar-dengan-tren-kacamata/" rel="alternate" type="text/html" title="Perubahan Kecil Yang Membuat Perbedaan Besar Tren Kacamata" /><published>2022-12-12T07:25:23+07:00</published><updated>2022-12-12T07:25:23+07:00</updated><id>http://localhost:4000/perubahan-kecil-yang-membuat-perbedaan-besar-dengan-tren-kacamata</id><content type="html" xml:base="http://localhost:4000/perubahan-kecil-yang-membuat-perbedaan-besar-dengan-tren-kacamata/"><![CDATA[<div class="card-deck mb-3">
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+    <img
+        itemprop="image"
+        data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-01.jpg"
+        src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-01.jpg"
+        class="card-img-top"
+        alt="tipe-lensa" />
+    <div class="card-body">
+        <h3 class="card-title">
+            Bereksperimen Dengan Berbagai Bentuk & Gaya
+        </h3>
+            <p class="card-text text-justify">
+                Salah satu cara untuk membuat perbedaan besar dengan tren kacamata adalah memasukkan elemen unik dan tidak terduga ke
+                dalam bingkai Anda. Ini bisa sesederhana menambahkan semburan warna ke bentuk bingkai klasik, atau memilih bingkai
+                dengan tekstur atau pola yang menarik. Cara lain untuk menonjol adalah bereksperimen dengan berbagai bentuk dan gaya
+                bingkai. Misalnya, alih-alih menggunakan bingkai persegi panjang tradisional, cobalah bingkai bulat atau oval untuk
+                tampilan yang lebih lembut dan menyenangkan.
+            </p>
+            <p class="card-text text-justify">
+                Kacamata adalah aksesori penting yang tidak hanya mempercantik penampilan Anda, tetapi juga melindungi mata Anda dari
+                sinar UV yang berbahaya dan faktor lingkungan lainnya. Dalam beberapa tahun terakhir, industri kacamata telah mengalami
+                perubahan signifikan, dengan gaya dan desain baru terus bermunculan. Berikut beberapa perubahan kecil yang dapat membuat
+                perbedaan besar pada Trend kacamata Anda di tahun mendatang.
+            </p>
+            <p class="card-text text-justify">
+                Tren lain yang perlu dipertimbangkan adalah mencampur dan mencocokkan warna dan gaya bingkai yang berbeda. Ini dapat
+                menambah daya tarik visual pada penampilan Anda dan memamerkan gaya pribadi Anda. Misalnya, Anda dapat memasangkan
+                bingkai yang berani dan tegas dengan bingkai yang lebih bersahaja untuk tampilan yang seimbang dan bergaya.
+            </p>
+            <p class="card-text text-justify">
+                Selain bereksperimen dengan gaya dan warna bingkai yang berbeda, cara lain untuk membuat perbedaan besar dengan tren
+                kacamata adalah dengan mempertimbangkan bahan pembuat bingkai Anda. Bahan tradisional seperti logam dan plastik masih
+                populer, tetapi ada banyak pilihan lain untuk dipilih, termasuk kayu, bambu, dan bahkan bahan daur ulang. Bahan-bahan
+                alternatif ini dapat menambah sentuhan unik dan berkelanjutan pada kacamata Anda.
+            </p>
+            <p class="card-text text-justify">
+                Cara lain untuk membuat dampak besar dengan kacamata Anda adalah dengan memilih bingkai yang fungsional sekaligus modis.
+                Misalnya, bingkai dengan teknologi pemfilteran cahaya biru bawaan dapat membantu mengurangi ketegangan mata dan
+                kelelahan, sedangkan bingkai dengan lensa terpolarisasi dapat meningkatkan kejernihan dan mengurangi silau.
+            </p>
+        </div>
+    </div>
+</div>
 
-<h3 class="card-title">
-    Bersihkan Kacamata Dengan Cara Tepat
-</h3>
-<p class="card-text text-justify">
-    Pertama, pastikan untuk selalu membersihkan kacamata Anda dengan cara yang tepat. Gunakan cairan kacamata khusus yang
-    dijual di toko optik untuk membersihkan lensa kacamata Anda. Jangan menggunakan air atau sabun biasa karena dapat
-    merusak coating pada lensa kacamata. Selain itu, jangan menggunakan tisu atau kain yang kasar untuk membersihkan lensa
-    kacamata, karena dapat meninggalkan goresan atau kerusakan pada lensa. Usapkan dengan lembut menggunakan kain yang
-    lembut atau microfiber. Hindari menggunakan tisu atau kain yang kasar karena dapat merusak lensa.
-</p>
+<div class="card-deck mb-3">
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+        <img 
+            data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-02.jpg" 
+            src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-02.jpg" 
+            class="card-img-top" 
+            alt="lensa-progresif.jpg">
+        <div class="card-body">
+            <h3 class="card-title">
+                Sentuhan Pribadi pada Bingkai Anda Sengan Sentuhan Detail
+            </h3>
+            <p class="card-text text-justify">
+                Tren lain yang perlu dipertimbangkan adalah menambahkan sentuhan pribadi pada bingkai Anda dengan detail atau ukiran
+                khusus. Ini bisa sesederhana menambahkan inisial Anda ke pelipis bingkai Anda, atau memilih bingkai dengan pola atau
+                desain unik yang mencerminkan gaya pribadi Anda. Cobalah bingkai warna-warni: Lewatlah sudah hari-hari ketika kacamata 
+                terbatas pada warna-warna kusam dan membosankan. Saat ini, bingkai tersedia dalam berbagai warna cerah, mulai dari merah 
+                dan hijau terang hingga merah muda dan biru pastel. Bereksperimenlah dengan berbagai warna untuk menambah kesan menyenangkan 
+                pada penampilan Anda.
+            </p>
+            <p class="card-text text-justify">
+                Berinvestasi pada lensa berkualitas tinggi: Kualitas lensa kacamata Anda dapat membuat perbedaan besar pada penglihatan
+                dan pengalaman Anda secara keseluruhan. Carilah lensa yang terbuat dari bahan berkualitas tinggi yang memberikan
+                kejernihan dan perlindungan maksimum dari sinar UV yang berbahaya. Coba berbagai bentuk: Bentuk bingkai kacamata Anda dapat 
+                berdampak signifikan pada penampilan Anda secara keseluruhan. Frame bulat dapat memperhalus fitur tajam, sedangkan frame persegi 
+                dapat menambah definisi pada wajah bulat. Bereksperimenlah dengan berbagai bentuk untuk menemukan yang paling cocok untuk Anda.
+            </p>
+            <p class="card-text text-justify">
+                Pilih bingkai yang terlalu besar: Bingkai yang terlalu besar sedang populer akhir-akhir ini, dan untuk alasan yang
+                bagus. Mereka tidak hanya membuat pernyataan fashion yang berani tetapi juga memberikan perlindungan maksimal untuk mata
+                Anda. Gunakan lensa refleksi: Lensa refleksi adalah pilihan yang menyenangkan dan trendi untuk kacamata. Mereka tidak hanya
+                melindungi mata Anda dari sinar UV yang berbahaya tetapi juga menambahkan sentuhan unik pada penampilan Anda.
+            </p>
+        </div>
+    </div>
+</div>
 
+<div class="card-deck mb-3">
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+        <img 
+            data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-03.jpg" 
+            src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-03.jpg" 
+            class="card-img-top" 
+            alt="lensa-progresif.jpg">
+        <div class="card-body">
+            <h3 class="card-title">
+                Kenali Jenis Lensa Kacamata Terbaik, Lensa Tunggal dan Bifokal
+            </h3>
+            <p class="card-text text-justify">
+                Pertimbangkan kacamata hitam resep: Kacamata hitam resep adalah pilihan yang bagus untuk orang yang membutuhkan koreksi
+                penglihatan tetapi juga ingin melindungi mata mereka dari sinar matahari. Kacamata hitam ini hadir dengan lensa khusus
+                yang memberikan koreksi penglihatan dan perlindungan UV.
+            </p>
+            <p class="card-text text-justify">
+                Kesimpulannya, ada banyak perubahan kecil yang dapat Anda lakukan pada permainan kacamata Anda yang dapat berdampak
+                besar pada penampilan dan pengalaman Anda secara keseluruhan. Dari mencoba berbagai warna dan bentuk hingga berinvestasi
+                pada lensa berkualitas tinggi, kemungkinannya tidak terbatas. Jadi, lanjutkan dan bereksperimen untuk menemukan kacamata
+                yang sempurna untuk Anda. Banyak perubahan kecil yang dapat Anda lakukan pada kacamata Anda untuk mengikuti tren
+                terkini. Dari menggabungkan elemen unik dan tidak terduga ke dalam bingkai Anda, hingga memilih bahan yang fungsional
+                dan ramah lingkungan, ada banyak cara untuk membuat perbedaan besar dengan kacamata Anda. Bereksperimenlah dengan
+                berbagai gaya dan warna, dan jangan takut untuk menambahkan sentuhan pribadi pada bingkai Anda agar benar-benar
+                menjadikannya milik Anda.
+            </p>
+            <p class="card-text text-justify">
+                Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
+                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
+                respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
+                title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>
+            </p>
+        </div>
+    </div>
+</div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Coba tips-tips terbaru tentang cara memakai kacamata untuk meningkatkan kenyamanan dan produktivitas sehari-hari. Perubahan kecil yang akan membuat perbedaan besar]]></summary></entry><entry xml:lang="id-ID"><title type="html">Tren Kacamata 2023, Banyak Yang Berbeda</title><link href="http://localhost:4000/tren-kacamata-2023/" rel="alternate" type="text/html" title="Tren Kacamata 2023, Banyak Yang Berbeda" /><published>2022-12-11T07:25:23+07:00</published><updated>2022-12-11T07:25:23+07:00</updated><id>http://localhost:4000/tren-kacamata-2023</id><content type="html" xml:base="http://localhost:4000/tren-kacamata-2023/"><![CDATA[<div class="card-deck mb-3">
+    <div class="card shadow p-3 mb-5 bg-white rounded">    
+        <img 
+            data-src="/assets/img/posts/trend-kacamata-2023/trend-kacamata-2023-01.jpg" 
+            src="/assets/img/posts/trend-kacamata-2023/trend-kacamata-2023-01.jpg" 
+            class="card-img-top" 
+            alt="lensa-progresif.jpg">
+        <div class="card-body">
+            <h3 class="card-title">
+                Beberapa Tren & Perkembangan Menarik
+            </h3>
+                <p class="card-text text-justify">
+                    Memasuki tahun 2023, industri kacamata siap menghadapi beberapa tren dan perkembangan baru yang menarik. Mulai dari
+                    bingkai yang berani dan penuh warna hingga integrasi teknologi cerdas, kacamata masa depan akan modis dan fungsional.
+                    Berikut adalah beberapa tren utama yang harus diwaspadai pada tahun 2023:            
+                    Munculnya bahan ramah lingkungan. Dengan meningkatnya kesadaran akan perlunya melindungi lingkungan, kita dapat
+                    mengharapkan peningkatan penggunaan bahan ramah lingkungan di industri kacamata. Ini dapat mencakup penggunaan plastik
+                    biodegradable, logam daur ulang, dan kayu berkelanjutan dalam produksi bingkai dan lensa.
+                </p>
+                <p class="card-text text-justify">
+                    Pertumbuhan berkelanjutan dari pencetakan 3D. Teknologi pencetakan 3D telah menandai industri kacamata, memungkinkan
+                    pembuatan bingkai khusus yang sesuai dengan bentuk unik wajah seseorang. Pada tahun 2023, kita dapat berharap untuk
+                    melihat teknik dan bahan pencetakan 3D yang lebih canggih, membuatnya lebih mudah dari sebelumnya untuk membuat kacamata
+                    yang unik. Integrasi teknologi pintar. Karena semakin banyak perangkat yang terhubung ke internet, kita dapat berharap untuk
+                    melihat integrasi teknologi pintar ke dalam kacamata. Ini dapat mencakup fitur seperti pemfokusan otomatis, layar bawaan
+                    untuk menampilkan informasi, dan kemampuan untuk terhubung ke perangkat lain secara nirkabel.
+                </p>
+        </div>  
+    </div>
+</div>
 
-<h3 class="card-title">
-    Simpan Kacamata Dengan Cara Yang Benar
-</h3>
-<p class="card-text text-justify">
-    Kedua, pastikan untuk menyimpan kacamata dengan benar. Jangan menyimpan kacamata di tempat yang panas atau lembab,
-    karena dapat merusak lensa kacamata. Selain itu, jangan menyimpan kacamata dengan terbalik atau bersentuhan dengan
-    barang lain yang tajam, karena dapat merusak atau menyebabkan lensa kacamata retak. Gunakan hardcase atau tempat khusus
-    untuk menyimpan kacamata agar tetap aman. Jangan simpan kacamata di tempat yang panas atau terkena sinar matahari
-    langsung. Selain itu, jangan menyimpan kacamata dengan cara menaruhnya terbalik atau terlentang. Hal ini dapat merusak
-    bentuk kacamata dan menyebabkan lensa menjadi cekung atau keriput.
-</p>
-
-<h3 class="card-title">
-    Periksa Mata Anda Secara Berkala
-</h3>
-<p class="card-text text-justify">
-    Ketiga, jangan lupa untuk mengganti lensa kacamata secara berkala. Lensa kacamata yang sudah lama tidak diganti, dapat
-    menyebabkan kabur atau distorsi pada pandangan. Jadi, pastikan untuk selalu mengganti lensa kacamata sesuai dengan saran
-    dokter atau optikus anda. Selain itu, gunakan juga kacamata pelindung atau kacamata hitam untuk melindungi mata dari
-    sinar matahari yang terlalu terik atau sinar UV-A dan UV-B yang dapat merusak mata.
-</p>
-
-<h3 class="card-title">
-    Gunakan Kacamata Dengan Ukuran Yang Sesuai
-</h3>
-
-<p class="card-text text-justify">
-    Keempat, jangan menggunakan kacamata yang tidak sesuai dengan kebutuhan mata Anda. Jangan menggunakan kacamata yang
-    memiliki ukuran yang berbeda dengan hasil pengukuran, karena hal ini dapat menyebabkan masalah pada mata, seperti sakit
-    kepala, mata merah, atau pusing. Periksa dan ganti kacamata jika diperlukan. Jika Anda merasa kacamata Anda tidak nyaman
-    atau rusak, segera periksakan ke dokter mata atau optik terdekat. Jangan mencoba memperbaiki kacamata sendiri karena
-    dapat merusak kacamata anda.
-
-</p>
-
-<h3 class="card-title">
-    Gunakan Coating Pelindung Lensa
-</h3>
-
-<p class="card-text text-justify">
-    Terakhir, gunakan selalu lapisan lensa pelindung. Lensa pelindung merupakan lapisan yang ditempatkan di atas lensa
-    kacamata yang dapat melindungi lensa dari goresan dan kerusakan. Lensa pelindung juga dapat membantu mengurangi
-    kekotoran dan debu yang menempel pada lensa. Jika Anda tidak sedang menggunakan kacamata, sebaiknya simpan kacamata
-    dalam kotak pelindung atau kantung kacamata. Ini akan membantu mencegah kacamata Anda terkena benturan atau goresan
-    ketika tidak digunakan. Yang dapat menyebabkan kacamata Anda rusak atau bahkan retak.
-</p>
-
-<p class="card-text text-justify">Kamu perlu service kacamata dengan gratis, dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
-    <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
-    respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
-    title="Call WhatsApp">+6281932235445</a>.<em>(Optikal Bahari)</em>
-</p>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Temukan cara mudah merawat dan menjaga kacamata agar tetap terjaga dan berkualitas dengan tips dari kami. Jaga kesehatan mata Anda dengan perawatan yang tepat]]></summary></entry><entry xml:lang="id-ID"><title type="html">Perubahan Kecil Yang Membuat Perbedaan Besar Tren Kacamata</title><link href="http://localhost:4000/perubahan-kecil-yang-membuat-perbedaan-besar-dengan-tren-kacamata/" rel="alternate" type="text/html" title="Perubahan Kecil Yang Membuat Perbedaan Besar Tren Kacamata" /><published>2022-12-12T07:25:23+07:00</published><updated>2022-12-12T07:25:23+07:00</updated><id>http://localhost:4000/perubahan-kecil-yang-membuat-perbedaan-besar-dengan-tren-kacamata</id><content type="html" xml:base="http://localhost:4000/perubahan-kecil-yang-membuat-perbedaan-besar-dengan-tren-kacamata/"><![CDATA[<p class="card-text text-justify">
-    Salah satu cara untuk membuat perbedaan besar dengan tren kacamata adalah memasukkan elemen unik dan tidak terduga ke
-    dalam bingkai Anda. Ini bisa sesederhana menambahkan semburat warna ke bentuk bingkai klasik, atau memilih bingkai
-    dengan tekstur atau pola yang menarik. Cara lain untuk menonjol adalah bereksperimen dengan berbagai bentuk dan gaya
-    bingkai. Misalnya, alih-alih menggunakan bingkai persegi panjang tradisional, cobalah bingkai bulat atau oval untuk
-    tampilan yang lebih lembut dan menyenangkan.
-</p>
-
-<p class="aligncenter">
-    <img data-src="/assets/img/posts/kacamata-minus/gaya-kacamata-minus.jpg" src="/assets/img/posts/kacamata-minus/gaya-kacamata-minus.jpg" class="card-img-top" alt="lensa-progresif.jpg">
-</p>
-
-<p class="card-text text-justify">
-    Kacamata adalah aksesori penting yang tidak hanya mempercantik penampilan Anda, tetapi juga melindungi mata Anda dari
-    sinar UV yang berbahaya dan faktor lingkungan lainnya. Dalam beberapa tahun terakhir, industri kacamata telah mengalami
-    perubahan signifikan, dengan gaya dan desain baru terus bermunculan. Berikut beberapa perubahan kecil yang dapat membuat
-    perbedaan besar pada Trend kacamata Anda di tahun mendatang.
-</p>
-
-
-<p class="card-text text-justify">
-    Tren lain yang perlu dipertimbangkan adalah mencampur dan mencocokkan warna dan gaya bingkai yang berbeda. Ini dapat
-    menambah daya tarik visual pada penampilan Anda dan memamerkan gaya pribadi Anda. Misalnya, Anda dapat memasangkan
-    bingkai yang berani dan tegas dengan bingkai yang lebih bersahaja untuk tampilan yang seimbang dan bergaya.
-</p>
-
-<p class="card-text text-justify">
-    Selain bereksperimen dengan gaya dan warna bingkai yang berbeda, cara lain untuk membuat perbedaan besar dengan tren
-    kacamata adalah dengan mempertimbangkan bahan pembuat bingkai Anda. Bahan tradisional seperti logam dan plastik masih
-    populer, tetapi ada banyak pilihan lain untuk dipilih, termasuk kayu, bambu, dan bahkan bahan daur ulang. Bahan-bahan
-    alternatif ini dapat menambah sentuhan unik dan berkelanjutan pada kacamata Anda.
-</p>
-
-<p class="card-text text-justify">
-    Cara lain untuk membuat dampak besar dengan kacamata Anda adalah dengan memilih bingkai yang fungsional sekaligus modis.
-    Misalnya, bingkai dengan teknologi pemfilteran cahaya biru bawaan dapat membantu mengurangi ketegangan mata dan
-    kelelahan, sedangkan bingkai dengan lensa terpolarisasi dapat meningkatkan kejernihan dan mengurangi silau.
-</p>
-
-<p class="card-text text-justify">
-    Tren lain yang perlu dipertimbangkan adalah menambahkan sentuhan pribadi pada bingkai Anda dengan detail atau ukiran
-    khusus. Ini bisa sesederhana menambahkan inisial Anda ke pelipis bingkai Anda, atau memilih bingkai dengan pola atau
-    desain unik yang mencerminkan gaya pribadi Anda.
-</p>
-
-<p class="card-text text-justify">
-    Cobalah bingkai warna-warni: Lewatlah sudah hari-hari ketika kacamata terbatas pada warna-warna kusam dan membosankan.
-    Saat ini, bingkai tersedia dalam berbagai warna cerah, mulai dari merah dan hijau terang hingga merah muda dan biru
-    pastel. Bereksperimenlah dengan berbagai warna untuk menambah kesan menyenangkan pada penampilan Anda.
-</p>
-
-
-<p class="card-text text-justify">
-    Berinvestasi pada lensa berkualitas tinggi: Kualitas lensa kacamata Anda dapat membuat perbedaan besar pada penglihatan
-    dan pengalaman Anda secara keseluruhan. Carilah lensa yang terbuat dari bahan berkualitas tinggi yang memberikan
-    kejernihan dan perlindungan maksimum dari sinar UV yang berbahaya.
-</p>
-
-<p class="card-text text-justify">
-    Coba berbagai bentuk: Bentuk bingkai kacamata Anda dapat berdampak signifikan pada penampilan Anda secara keseluruhan.
-    Frame bulat dapat memperhalus fitur tajam, sedangkan frame persegi dapat menambah definisi pada wajah bulat.
-    Bereksperimenlah dengan berbagai bentuk untuk menemukan yang paling cocok untuk Anda.
-</p>
-
-<p class="card-text text-justify">
-    Pilih bingkai yang terlalu besar: Bingkai yang terlalu besar sedang populer akhir-akhir ini, dan untuk alasan yang
-    bagus. Mereka tidak hanya membuat pernyataan fashion yang berani tetapi juga memberikan perlindungan maksimal untuk mata
-    Anda.
-</p>
-
-<p class="card-text text-justify">
-    Gunakan lensa cermin: Lensa cermin adalah pilihan yang menyenangkan dan trendi untuk kacamata. Mereka tidak hanya
-    melindungi mata Anda dari sinar UV yang berbahaya tetapi juga menambahkan sentuhan unik pada penampilan Anda.
-</p>
-
-<p class="card-text text-justify">
-    Pertimbangkan kacamata hitam resep: Kacamata hitam resep adalah pilihan yang bagus untuk orang yang membutuhkan koreksi
-    penglihatan tetapi juga ingin melindungi mata mereka dari sinar matahari. Kacamata hitam ini hadir dengan lensa khusus
-    yang memberikan koreksi penglihatan dan perlindungan UV.
-</p>
-
-<p class="card-text text-justify">
-    Kesimpulannya, ada banyak perubahan kecil yang dapat Anda lakukan pada permainan kacamata Anda yang dapat berdampak
-    besar pada penampilan dan pengalaman Anda secara keseluruhan. Dari mencoba berbagai warna dan bentuk hingga berinvestasi
-    pada lensa berkualitas tinggi, kemungkinannya tidak terbatas. Jadi, lanjutkan dan bereksperimen untuk menemukan kacamata
-    yang sempurna untuk Anda. Banyak perubahan kecil yang dapat Anda lakukan pada kacamata Anda untuk mengikuti tren
-    terkini. Dari menggabungkan elemen unik dan tidak terduga ke dalam bingkai Anda, hingga memilih bahan yang fungsional
-    dan ramah lingkungan, ada banyak cara untuk membuat perbedaan besar dengan kacamata Anda. Bereksperimenlah dengan
-    berbagai gaya dan warna, dan jangan takut untuk menambahkan sentuhan pribadi pada bingkai Anda agar benar-benar
-    menjadikannya milik Anda.
-</p>
-
-<p class="card-text text-justify">Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
-    <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
-    respond
-    yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
-        title="Call WhatsApp">+6281932235445</a>.
-    <em>(Optikal Bahari)</em>
-</p>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Coba tips-tips terbaru tentang cara memakai kacamata untuk meningkatkan kenyamanan dan produktivitas sehari-hari. Perubahan kecil yang akan membuat perbedaan besar]]></summary></entry><entry xml:lang="id-ID"><title type="html">Tren Kacamata 2023, Banyak Yang Berbeda</title><link href="http://localhost:4000/tren-kacamata-2023/" rel="alternate" type="text/html" title="Tren Kacamata 2023, Banyak Yang Berbeda" /><published>2022-12-11T07:25:23+07:00</published><updated>2022-12-11T07:25:23+07:00</updated><id>http://localhost:4000/tren-kacamata-2023</id><content type="html" xml:base="http://localhost:4000/tren-kacamata-2023/"><![CDATA[<p class="card-text text-justify">
-    Memasuki tahun 2023, industri kacamata siap menghadapi beberapa tren dan perkembangan baru yang menarik. Mulai dari
-    bingkai yang berani dan penuh warna hingga integrasi teknologi cerdas, kacamata masa depan akan modis dan fungsional.
-    Berikut adalah beberapa tren utama yang harus diwaspadai pada tahun 2023:
-</p>
-
-<p class="aligncenter">
-    <img data-src="/assets/img/posts/lensa-progresif/lensa-progresif.jpg" src="/assets/img/posts/lensa-progresif/lensa-progresif.jpg" class="card-img-top" alt="lensa-progresif.jpg">
-</p>
-
-<p class="card-text text-justify">
-    Munculnya bahan ramah lingkungan. Dengan meningkatnya kesadaran akan perlunya melindungi lingkungan, kita dapat
-    mengharapkan peningkatan penggunaan bahan ramah lingkungan di industri kacamata. Ini dapat mencakup penggunaan plastik
-    biodegradable, logam daur ulang, dan kayu berkelanjutan dalam produksi bingkai dan lensa.
-</p>
-
-
-<p class="card-text text-justify">
-    Pertumbuhan berkelanjutan dari pencetakan 3D. Teknologi pencetakan 3D telah menandai industri kacamata, memungkinkan
-    pembuatan bingkai khusus yang sesuai dengan bentuk unik wajah seseorang. Pada tahun 2023, kita dapat berharap untuk
-    melihat teknik dan bahan pencetakan 3D yang lebih canggih, membuatnya lebih mudah dari sebelumnya untuk membuat kacamata
-    yang unik.
-</p>
-
-<p class="card-text text-justify">
-    Integrasi teknologi pintar. Karena semakin banyak perangkat yang terhubung ke internet, kita dapat berharap untuk
-    melihat integrasi teknologi pintar ke dalam kacamata. Ini dapat mencakup fitur seperti pemfokusan otomatis, layar bawaan
-    untuk menampilkan informasi, dan kemampuan untuk terhubung ke perangkat lain secara nirkabel.
-</p>
-
-<p class="card-text text-justify">
-    Munculnya augmented reality dan virtual reality. Di tahun-tahun mendatang, kita dapat berharap untuk melihat integrasi
-    kemampuan augmented reality dan virtual reality ke dalam kacamata. Ini memungkinkan pengguna untuk tidak hanya melihat
-    dengan jelas, tetapi juga untuk mengakses berbagai informasi dan pengalaman digital.
-</p>
-
-<p class="card-text text-justify">
-    Pertumbuhan kustomisasi yang berkelanjutan. Kemajuan teknologi akan terus memudahkan konsumen untuk menyesuaikan
-    kacamatanya agar sesuai dengan kebutuhan dan preferensi masing-masing. Ini dapat mencakup kemampuan untuk memilih
-    bentuk, warna, dan bahan bingkainya, serta kemampuan untuk membuat lensa dengan resep khusus untuk setiap mata.
-</p>
-
-<p class="card-text text-justify">
-    Munculnya bentuk dan gaya bingkai baru. Seiring dengan perkembangan industri kacamata, kita dapat berharap untuk melihat
-    munculnya bentuk dan gaya bingkai baru. Ini dapat mencakup bentuk yang lebih unik dan asimetris, serta bingkai yang
-    dirancang untuk melengkapi bentuk dan gaya wajah tertentu.
-</p>
-
-
-<p class="card-text text-justify">
-    Munculnya warna dan pola. Dalam beberapa tahun terakhir, kami telah melihat tren kacamata tebal dan berwarna-warni, dan
-    tren ini akan berlanjut pada tahun 2023. Carilah bingkai dan lensa dalam berbagai warna dan pola cerah, dari neon cerah
-    hingga desain geometris.
-</p>
-
-<p class="card-text text-justify">
-    Kesimpulannya, industri kacamata siap untuk beberapa perkembangan menarik di tahun-tahun mendatang. Dari munculnya bahan
-    ramah lingkungan hingga pertumbuhan belanja online dan integrasi teknologi pintar, kacamata masa depan akan menjadi
-    modis dan fungsional.
-</p>
-
-<p class="card-text text-justify">Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
-    <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
-    respond
-    yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
-        title="Call WhatsApp">+6281932235445</a>.
-    <em>(Optikal Bahari)</em>
-</p>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Memasuki tahun 2023, industri kacamata siap menghadapi beberapa tren dan perkembangan baru yang menarik.]]></summary></entry><entry xml:lang="id-ID"><title type="html">Eyewear Awards, Terbaik, Terburuk &amp;amp; Teraneh</title><link href="http://localhost:4000/eyewear-trends-awards-terbaik-terburuk-teraneh/" rel="alternate" type="text/html" title="Eyewear Awards, Terbaik, Terburuk &amp;amp; Teraneh" /><published>2022-12-10T07:25:23+07:00</published><updated>2022-12-10T07:25:23+07:00</updated><id>http://localhost:4000/eyewear-trends-awards-terbaik-terburuk-teraneh</id><content type="html" xml:base="http://localhost:4000/eyewear-trends-awards-terbaik-terburuk-teraneh/"><![CDATA[<p class="card-text text-justify">
+<div class="card-deck mb-3">
+    <div class="card shadow p-3 mb-5 bg-white rounded">    
+        <img 
+            data-src="/assets/img/posts/trend-kacamata-2023/trend-kacamata-2023-02.jpg" 
+            src="/assets/img/posts/trend-kacamata-2023/trend-kacamata-2023-02.jpg" 
+            class="card-img-top" 
+            alt="lensa-progresif.jpg">
+        <div class="card-body">
+            <h3 class="card-title">
+                Innovasi & Perkembangan Industri Kacamata
+            </h3>
+                <p class="card-text text-justify">
+                    Munculnya augmented reality dan virtual reality. Di tahun-tahun mendatang, kita dapat berharap untuk melihat integrasi
+                    kemampuan augmented reality dan virtual reality ke dalam kacamata. Ini memungkinkan pengguna untuk tidak hanya melihat
+                    dengan jelas, tetapi juga untuk mengakses berbagai informasi dan pengalaman digital.                
+                    Pertumbuhan kustomisasi yang berkelanjutan. Kemajuan teknologi akan terus memudahkan konsumen untuk menyesuaikan
+                    kacamatanya agar sesuai dengan kebutuhan dan preferensi masing-masing. Ini dapat mencakup kemampuan untuk memilih
+                    bentuk, warna, dan bahan bingkainya, serta kemampuan untuk membuat lensa dengan resep khusus untuk setiap mata.
+                </p>
+                <p class="card-text text-justify">
+                    Munculnya bentuk dan gaya bingkai baru. Seiring dengan perkembangan industri kacamata, kita dapat berharap untuk melihat
+                    munculnya bentuk dan gaya bingkai baru. Ini dapat mencakup bentuk yang lebih unik dan asimetris, serta bingkai yang
+                    dirancang untuk melengkapi bentuk dan gaya wajah tertentu.                
+                    Munculnya warna dan pola. Dalam beberapa tahun terakhir, kami telah melihat tren kacamata tebal dan berwarna-warni, dan
+                    tren ini akan berlanjut pada tahun 2023. Carilah bingkai dan lensa dalam berbagai warna dan pola cerah, dari neon cerah
+                    hingga desain geometris.
+                </p>
+                <p class="card-text text-justify">
+                    Industri kacamata siap untuk beberapa perkembangan menarik di tahun-tahun mendatang. Dari munculnya bahan
+                    ramah lingkungan hingga pertumbuhan belanja online dan integrasi teknologi pintar, kacamata masa depan akan menjadi
+                    modis dan fungsional. Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. 
+                    Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa 
+                    bergabung dengan fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
+                    respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
+                    title="Call WhatsApp">+6281932235445</a>.
+                    <em>(Optikal Bahari)</em>
+                </p>
+        </div>  
+    </div>
+</div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Memasuki tahun 2023, industri kacamata siap menghadapi beberapa tren dan perkembangan baru yang menarik.]]></summary></entry><entry xml:lang="id-ID"><title type="html">Eyewear Awards, Terbaik, Terburuk &amp;amp; Teraneh</title><link href="http://localhost:4000/eyewear-trends-awards-terbaik-terburuk-teraneh/" rel="alternate" type="text/html" title="Eyewear Awards, Terbaik, Terburuk &amp;amp; Teraneh" /><published>2022-12-10T07:25:23+07:00</published><updated>2022-12-10T07:25:23+07:00</updated><id>http://localhost:4000/eyewear-trends-awards-terbaik-terburuk-teraneh</id><content type="html" xml:base="http://localhost:4000/eyewear-trends-awards-terbaik-terburuk-teraneh/"><![CDATA[<p class="card-text text-justify">
     Dunia kacamata terus berkembang, dengan gaya dan desain baru muncul setiap tahun. Mulai dari bingkai yang berani dan
     penuh warna hingga desain ramping dan minimalis, ada banyak pilihan untuk dipilih. Pada artikel ini, kita melihat
     beberapa tren kacamata terbaik, terburuk, dan teraneh yang pernah kita lihat belakangan ini.
