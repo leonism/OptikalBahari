@@ -1,12 +1,15 @@
 <script defer src="{{"/assets/vendor/jquery/jquery.min.js" | relative_url }}"></script>
 <script defer src="{{"/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" | relative_url }}"></script>
 <script defer src="{{"/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js" | relative_url }}"></script>
-<script defer src="{{"/assets/scripts.js" | relative_url }}"></script>
+<script defer src="{{"/assets/js/scripts.js" | relative_url }}"></script>
 <!-- <script defer src="{{'/assets/js/darkmode.js' | relative_url }}"></script> ! -->
 <!-- Form Validation -->
 <!--
-  {% if page.url contains 'contact' %}<script src="{{"/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script><script>  $(function () {    $("#contactForm input,#contactForm textarea").jqBootstrapValidation({      preventSubmit: true,      submitError: function ($form, event, errors) {
-        // additional error messages or events
+  {% if page.url contains 'contact' %}
+    <script src="{{"/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script>
+    <script>  
+      $(function () {    
+        $("#contactForm input,#contactForm textarea").jqBootstrapValidation({      preventSubmit: true,      submitError: function ($form, event, errors) {        // additional error messages or events
       },
       submitSuccess: function ($form, event) {
         event.preventDefault(); // prevent default submit behaviour
