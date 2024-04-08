@@ -1,20 +1,11 @@
 <script defer src="{{"/assets/vendor/jquery/jquery.min.js" | relative_url }}"></script>
 <script defer src="{{"/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" | relative_url }}"></script>
 <script defer src="{{"/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js" | relative_url }}"></script>
-{% comment %} <script defer src="{{"/assets/scripts.js" | relative_url }}"></script> {% endcomment %}
-
+<script defer src="{{"/assets/scripts.js" | relative_url }}"></script>
+<!-- <script defer src="{{'/assets/js/darkmode.js' | relative_url }}"></script> ! -->
 <!-- Form Validation -->
-<!-- 
-{% if page.url contains 'contact' %}
-<script src="{{"/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script>
-
-
-<script>
-  $(function () {
-
-    $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
-      preventSubmit: true,
-      submitError: function ($form, event, errors) {
+<!--
+  {% if page.url contains 'contact' %}<script src="{{"/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script><script>  $(function () {    $("#contactForm input,#contactForm textarea").jqBootstrapValidation({      preventSubmit: true,      submitError: function ($form, event, errors) {
         // additional error messages or events
       },
       submitSuccess: function ($form, event) {
@@ -70,17 +61,15 @@
         return $(this).is(":visible");
       }
     });
-
     $("a[data-toggle=\"tab\"]").click(function (e) {
       e.preventDefault();
       $(this).tab("show");
     });
   });
-
   /*When clicking on Full hide fail/success boxes */
   $('#name').focus(function () {
     $('#success').html('');
   });
 </script>
 {% endif %}
-!-->
+! -->
