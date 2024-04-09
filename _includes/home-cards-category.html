@@ -6,11 +6,10 @@
           {% if page.background %}
             <img
               itemprop="image"
-              src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
+              src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" }}"
               class="card-img-top img-fluid"
               loading="lazy"
-              alt="{{ post.title }}"
-            >
+              alt="{{ post.title }}">
           {% endif %}
         </a>
         <div class="card-body">
@@ -22,8 +21,7 @@
             <a
               class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
               href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-              title="{{ post.title }}"
-            >
+              title="{{ post.title }}">
               Lebih Lanjut
             </a>
           </p>
@@ -52,11 +50,10 @@
           {% if page.background %}
             <img
               itemprop="image"
-              src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
+              src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" }}"
               class="card-img-top img-fluid"
               loading="lazy"
-              alt="{{ post.title }}"
-            >
+              alt="{{ post.title }}">
           {% endif %}
         </a>
         <div class="card-body">
@@ -68,8 +65,7 @@
             <a
               class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
               href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-              title="{{ post.title }}"
-            >
+              title="{{ post.title }}">
               Lebih Lanjut
             </a>
           </p>
@@ -98,11 +94,10 @@
           {% if page.background %}
             <img
               itemprop="image"
-              src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
+              src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" }}"
               class="card-img-top img-fluid"
               loading="lazy"
-              alt="{{ post.title }}"
-            >
+              alt="{{ post.title }}">
           {% endif %}
         </a>
         <div class="card-body">
@@ -114,8 +109,7 @@
             <a
               class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
               href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-              title="{{ post.title }}"
-            >
+              title="{{ post.title }}">
               Lebih Lanjut
             </a>
           </p>

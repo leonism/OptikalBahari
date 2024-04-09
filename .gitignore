@@ -114,3 +114,6 @@ pnpm-debug.log*
 
 # jekyll cache
 .jekyll-cache
+
+# images cache
+cache/

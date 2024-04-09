@@ -106,6 +106,7 @@ Make sure you have the `email` setting in your `_config.yml` file set to a worki
 When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
 
 1. [Download](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
+
 2. Update the following configuration settings in your `_config.yml` file:
    - `baseurl`
    - `url`
@@ -117,7 +118,9 @@ When using the core files, the demo images, posts, and pages are all included wi
    - `facebook_username` (Optional)
    - `github_username` (Optional)
    - `linkedin_username` (Optional)
-3. Build your site: `bundle exec jekyll serve`
+   - `instagram_username` (Optional)
+
+   3. Build your site: `bundle exec jekyll serve`
 
 ## Bugs and Issues
 
@@ -158,9 +161,18 @@ Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https:/
 
 https://stevenwestmoreland.com/2021/01/using-tailwind-css-with-jekyll.html
 
-<img itemprop="image" src="{{" {% thumbnail /assets/img/bg-about.jpg 348x232 %}" | relative_url "}}" class="card-img-top img-fluid" alt="Periksa Mata Gratis"></a>
-<img itemprop="image" src="{{"/assets/img/bg-about.jpg" | relative_url "}}" class="card-img-top img-fluid" alt="Periksa Mata Gratis"></a>        
-<img itemprop="image" src={{ "{% thumbnail /assets/img/bg-about.jpg 348x232 " }}%} class="card-img-top img-fluid" alt="Periksa Mata Gratis"></a>        
+<img itemprop="image" 
+  src="{{" {% thumbnail /assets/img/bg-about.jpg 348x232 %}" | relative_url "}}" 
+  class="card-img-top img-fluid" alt="Periksa Mata Gratis">
+<img itemprop="image" 
+  src="{{"/assets/img/bg-about.jpg" | relative_url "}}" 
+  class="card-img-top img-fluid" alt="Periksa Mata Gratis">
+<img itemprop="image" 
+  src={{ "{% thumbnail /assets/img/bg-about.jpg 348x232 " }}%} 
+  class="card-img-top img-fluid" alt="Periksa Mata Gratis">
 
-<img itemprop="image" src="{{"{{ "{% thumbnail /assets/img/bg-about.jpg 348x232 " }}%} | relative_url "}}" class="card-img-top img-fluid" alt="Periksa Mata Gratis"></a>        
+<img itemprop="image" 
+  src="{{"{{ "{% thumbnail /assets/img/bg-about.jpg 348x232 " }}%} | relative_url "}}" 
+  class="card-img-top img-fluid" alt="Periksa Mata Gratis">
+
 {{ "{% thumbnail path/to/image.jpg 50x50 " }}%}
