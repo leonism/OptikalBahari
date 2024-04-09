@@ -6,7 +6,7 @@
           {% if page.background %}
             <img
               itemprop="image"
-              src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" }}"
+              src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" | imagesize post.background:props }}"
               class="card-img-top img-fluid"
               loading="lazy"
               {% imagesize post.background:props %}
@@ -51,7 +51,7 @@
           {% if page.background %}
             <img
               itemprop="image"
-              src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" }}"
+              src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" | imagesize post.background:props }}"
               class="card-img-top img-fluid"
               loading="lazy"
               {% imagesize post.background:props %}
@@ -96,7 +96,7 @@
           {% if page.background %}
             <img
               itemprop="image"
-              src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" }}"
+              src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" | imagesize post.background:props }}"
               class="card-img-top img-fluid"
               loading="lazy"
               {% imagesize post.background:props %}
