@@ -8,15 +8,15 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/021.jpg
+background: /assets/img/posts/021.webp
 permalink: /frame-kacamata-minus/
 comments: false
 ---
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}"          class="card-img-top" 
-  alt="tips-kacamata-2.jpg">
+  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}"          class="card-img-top" 
+  alt="tips-kacamata-2.webp">
     <div class="card-body">
         <h3 class="card-title">
             Frame Kacamata Minus
@@ -32,7 +32,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
         <div class="card-body">
             <h3 class="card-title">
                 Segera Kunjungi Optikal Bahari

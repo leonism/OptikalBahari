@@ -2,13 +2,13 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 	var images = [
-		"/assets/img/splash-screen/bg-splash-post-00.jpg",
-		"/assets/img/splash-screen/bg-splash-post-01.jpg",
-		"/assets/img/splash-screen/bg-splash-post-02.jpg",
-		"/assets/img/splash-screen/bg-splash-post-03.jpg",
-		"/assets/img/splash-screen/bg-splash-post-04.jpg",
-		"/assets/img/splash-screen/bg-splash-post-05.jpg",
-		"/assets/img/splash-screen/bg-splash-post-06.jpg",
+		"/assets/img/splash-screen/bg-splash-post-00.webp",
+		"/assets/img/splash-screen/bg-splash-post-01.webp",
+		"/assets/img/splash-screen/bg-splash-post-02.webp",
+		"/assets/img/splash-screen/bg-splash-post-03.webp",
+		"/assets/img/splash-screen/bg-splash-post-04.webp",
+		"/assets/img/splash-screen/bg-splash-post-05.webp",
+		"/assets/img/splash-screen/bg-splash-post-06.webp",
 		// Add more image paths here
 	];
 

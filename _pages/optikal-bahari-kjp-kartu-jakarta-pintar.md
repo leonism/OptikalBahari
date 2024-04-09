@@ -9,17 +9,17 @@ date: "2019-08-19 08:25:23 +0700"
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, fasilitas]
-background: /assets/img/posts/malay-hijab-00/malay-hijab-01.jpg
+background: /assets/img/posts/malay-hijab-00/malay-hijab-01.webp
 permalink: /optikal-bahari-kjp-kartu-jakarta-pintar/
 comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.jpg"
-    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.jpg"
+    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
+    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
     class="card-img-top"
-    alt="kjp-optikalbahari.jpg">
+    alt="kjp-optikalbahari.webp">
   <div class="card-body">
     <h3 class="card-title">
       Program Kartu Jakarta Pintar (KJP)
@@ -38,8 +38,8 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.jpg"
-    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.jpg"
+    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
+    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
     class="card-img-top"
     alt="Optikal Bahari & Program Kartu Jakarta Pintar (KJP)">
   <div class="card-body">
@@ -59,10 +59,10 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/035.jpg"
-    src="/assets/img/posts/035.jpg"
+    data-src="/assets/img/posts/035.webp"
+    src="/assets/img/posts/035.webp"
     class="card-img-top"
-    alt="kjp-optikalbahari.jpg">
+    alt="kjp-optikalbahari.webp">
   <div class="card-body">
     <h3 class="card-title">
       Segera Kunjungi Optikal Bahari

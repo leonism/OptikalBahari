@@ -8,14 +8,14 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata, kemayoran, tanpa bunga, bayar KJP]
-background: /assets/img/posts/045.jpg
+background: /assets/img/posts/045.webp
 permalink: /optik-kemayoran/
 comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.jpg"
+    src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.webp"
     title="kacamata-cicilan"
     class="card-img-top"
     alt="kacamata cicilan">
@@ -42,7 +42,7 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="/assets/img/bg-about.jpg"
+    src="/assets/img/bg-about.webp"
     class="card-img-top"
     title="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
     alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
@@ -68,7 +68,7 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="/assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.jpg"
+    src="/assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.webp"
     class="card-img-top"
     title="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
     alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">

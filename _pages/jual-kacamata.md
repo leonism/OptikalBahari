@@ -8,15 +8,15 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [promo, discount, kacamata, lensa, bingkai]
-background: /assets/img/posts/beach-retro-girls/beach-retro-girls-03.jpg
+background: /assets/img/posts/beach-retro-girls/beach-retro-girls-03.webp
 permalink: /jual-kacamata/
 comments: false
 ---
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-04.jpg"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-04.jpg" 
+        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-04.webp"
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-04.webp" 
             class="card-img-top img-fluid" 
             loading="lazy"
             title="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
@@ -39,8 +39,8 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-05.jpg"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-05.jpg" 
+        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-05.webp"
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-05.webp" 
             class="card-img-top img-fluid" 
             loading="lazy"
             title="Periksa Mata & Service Gratis"
@@ -69,8 +69,8 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-08.jpg"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-08.jpg" 
+        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-08.webp"
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-08.webp" 
             class="card-img-top img-fluid" 
             loading="lazy"
             title="Kacamata Cicilan 0%"
@@ -91,8 +91,8 @@ comments: false
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-029.jpg"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-029.jpg" 
+        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-029.webp"
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-029.webp" 
             class="card-img-top img-fluid" 
             loading="lazy"
             title="Kunjungi Optikal Bahari Sekarang%"

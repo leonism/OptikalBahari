@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/mexican-02-min/mexican-00-min.jpg
+background: /assets/img/posts/mexican-02-min/mexican-00-min.webp
 permalink: /periksa-mata-gratis-optikal-bahari/
 comments: false
 ---
@@ -17,8 +17,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		<img 
             itemprop="image"
-            data-src="/assets/img/posts/mexican-02-min/mexican-01-min.jpg"
-            src="/assets/img/posts/mexican-02-min/mexican-01-min.jpg" 
+            data-src="/assets/img/posts/mexican-02-min/mexican-01-min.webp"
+            src="/assets/img/posts/mexican-02-min/mexican-01-min.webp" 
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
             alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
@@ -57,8 +57,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		<img
             itemprop="image" 
-            data-src="/assets/img/posts/mexican-02-min/mexican-02-min.jpg"
-            src="/assets/img/posts/mexican-02-min/mexican-02-min.jpg" 
+            data-src="/assets/img/posts/mexican-02-min/mexican-02-min.webp"
+            src="/assets/img/posts/mexican-02-min/mexican-02-min.webp" 
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
             alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
@@ -101,8 +101,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		<img
             itemprop="image" 
-            data-src="/assets/img/posts/mexican-02-min/mexican-03-min.jpg"
-            src="/assets/img/posts/mexican-02-min/mexican-03-min.jpg" 
+            data-src="/assets/img/posts/mexican-02-min/mexican-03-min.webp"
+            src="/assets/img/posts/mexican-02-min/mexican-03-min.webp" 
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
             alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
@@ -145,8 +145,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img 
             itemprop="image"
-            data-src="/assets/img/posts/mexican-02-min/mexican-04-min.jpg"
-            src="/assets/img/posts/mexican-02-min/mexican-04-min.jpg" 
+            data-src="/assets/img/posts/mexican-02-min/mexican-04-min.webp"
+            src="/assets/img/posts/mexican-02-min/mexican-04-min.webp" 
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
             alt="Segera Kunjungi Optikal Bahari">

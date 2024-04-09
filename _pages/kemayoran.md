@@ -8,14 +8,14 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kemayoran, jakarta pusat, kacamata, lensa, bingkai]
-background: /assets/img/posts/037.jpg
+background: /assets/img/posts/037.webp
 permalink: /kemayoran/
 comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="/assets/img/posts/032.jpg"
+    src="/assets/img/posts/032.webp"
     class="card-img-top"
     alt="Kenapa Beli Kacamata Di Optikal Bahari?">
   <div class="card-body">
@@ -39,7 +39,7 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="/assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.jpg"
+    src="/assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.webp"
     class="card-img-top"
     alt="Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama">
   <div class="card-body">
@@ -62,7 +62,7 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="/assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-7.jpg"
+    src="/assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-7.webp"
     class="card-img-top"
     alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
 
@@ -87,7 +87,7 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="/assets/img/posts/005.jpg"
+    src="/assets/img/posts/005.webp"
     class="card-img-top"
     alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
   <div class="card-body">

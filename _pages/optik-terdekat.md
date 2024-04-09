@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata, kemayoran, tanpa bunga, tanpa DB, bayar KJP]
-background: /assets/img/posts/malay-hijab-00/malay-hijab-00.jpg
+background: /assets/img/posts/malay-hijab-00/malay-hijab-00.webp
 permalink: /optik-terdekat/
 comments: false
 ---
@@ -16,7 +16,7 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-01.jpg"
+    src="/assets/img/posts/malay-hijab-00/malay-hijab-01.webp"
     class="card-img-top"
     title="Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari"
     alt="Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari">
@@ -42,7 +42,7 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-02.jpg"
+    src="/assets/img/posts/malay-hijab-00/malay-hijab-02.webp"
     class="card-img-top"
     alt="kacamata cicilan">
   <div class="card-body">
@@ -63,7 +63,7 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-03.jpg"
+    src="/assets/img/posts/malay-hijab-00/malay-hijab-03.webp"
     class="card-img-top"
     title="Service & Reparasi Kacamata Gratis!"
     alt="Service & Reparasi Kacamata Gratis!">
@@ -83,7 +83,7 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-04.jpg"
+    src="/assets/img/posts/malay-hijab-00/malay-hijab-04.webp"
     class="card-img-top"
     title="Tambahan Bonus Goodie Bag Menarik Optikal Bahari"
     alt="Tambahan Bonus Goodie Bag Menarik Optikal Bahari">
@@ -103,7 +103,7 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-05.jpg"
+    src="/assets/img/posts/malay-hijab-00/malay-hijab-05.webp"
     class="card-img-top"
     title="Berizin Dari DinKes & Kemenkes Republik Indonesia"
     alt="Berizin Dari DinKes & Kemenkes Republik Indonesia">
@@ -123,7 +123,7 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-00.jpg"
+    src="/assets/img/posts/malay-hijab-00/malay-hijab-00.webp"
     class="card-img-top"
     title="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
     alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">

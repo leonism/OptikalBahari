@@ -8,15 +8,15 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-00.jpg
+background: /assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-00.webp
 permalink: /harga-kacamata-optik-baca-autofokus-progresif/
 comments: false
 ---
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-01.jpg"
-            src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-01.jpg" 
+        <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-01.webp"
+            src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-01.webp" 
             class="card-img-top img-fluid"
             title="Buka Rahasia: Harga Kacamata Optik yang Memikat Hati di Optikal Bahari"
             alt="Buka Rahasia: Harga Kacamata Optik yang Memikat Hati di Optikal Bahari">
@@ -41,8 +41,8 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-02.jpg"
-            src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-02.jpg" 
+        <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-02.webp"
+            src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-02.webp" 
             class="card-img-top img-fluid"
             title="Koleksi Kacamata yang Luar Biasa di Optikal Bahari"
             alt="Koleksi Kacamata yang Luar Biasa di Optikal Bahari">
@@ -67,8 +67,8 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-03.jpg"
-            src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-03.jpg" 
+        <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-03.webp"
+            src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-03.webp" 
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
             alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">		  
@@ -91,8 +91,8 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-            <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-11.jpg"
-                src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-11.jpg" 
+            <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-11.webp"
+                src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-11.webp" 
                 class="card-img-top img-fluid"
                 title="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
                 alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!">
@@ -115,8 +115,8 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-12.jpg"
-                src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-12.jpg" 
+		  <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-12.webp"
+                src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-12.webp" 
                 class="card-img-top img-fluid"
                 title="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
                 alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!">
@@ -139,8 +139,8 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-07.jpg"
-                src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-07.jpg" 
+		  <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-07.webp"
+                src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-07.webp" 
                 class="card-img-top img-fluid"
                 title="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
                 alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!">
@@ -163,8 +163,8 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-08.jpg"
-                src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-08.jpg" 
+		  <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-08.webp"
+                src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-08.webp" 
                 class="card-img-top img-fluid"
                 title="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
                 alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!">

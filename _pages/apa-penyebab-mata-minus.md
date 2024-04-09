@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/028.jpg
+background: /assets/img/posts/028.webp
 permalink: /apa-penyebab-mata-minus/
 comments: false
 ---
@@ -16,9 +16,9 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg" | relative_url }}"
+      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
       class="card-img-top"
-      alt="tips-kacamata-2.jpg">
+      alt="tips-kacamata-2.webp">
     <div class="card-body">
       <h3 class="card-title">Apa Penyebab Mata Minus</h3>
       <p class="card-text text-justify">
@@ -54,7 +54,7 @@ comments: false
           id="FBClick"
           title="Facebook Page Optikal Bahari"
           class="FacebookPage">Facebook @optikalbahari</a>
-        supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond   
+        supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond    
           yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
         <a
           href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"

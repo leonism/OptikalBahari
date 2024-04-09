@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-37.jpg
+background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-37.webp
 permalink: /periksa-mata-terdekat/
 comments: false
 ---
@@ -17,8 +17,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.jpg" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.jpg" | relative_url }}"
+      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.webp" | relative_url }}"
+      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.webp" | relative_url }}"
       class="card-img-top"
       alt="Periksa Mata Gratis Terdekat">
     <div class="card-body">
@@ -70,8 +70,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.jpg" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.jpg" | relative_url }}"
+      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.webp" | relative_url }}"
+      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.webp" | relative_url }}"
       class="card-img-top"
       alt="Periksa Mata Cepat & Akurat">
     <div class="card-body">
@@ -99,8 +99,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.jpg" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.jpg" | relative_url }}"
+      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.webp" | relative_url }}"
+      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.webp" | relative_url }}"
       class="card-img-top"
       alt="Proses Pertama: Menggunakan Autorefractometer">
     <div class="card-body">
@@ -130,8 +130,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.jpg" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.jpg" | relative_url }}"
+      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.webp" | relative_url }}"
+      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.webp" | relative_url }}"
       class="card-img-top"
       alt="Proses Kedua: Menggunakan Alat Phoropter">
     <div class="card-body">
@@ -163,8 +163,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.jpg" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.jpg" | relative_url }}"
+      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.webp" | relative_url }}"
+      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.webp" | relative_url }}"
       class="card-img-top"
       alt="Kunjungi Optikal Bahari">
     <div class="card-body">

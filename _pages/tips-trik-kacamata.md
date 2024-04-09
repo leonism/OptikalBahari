@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/bg-tips-trik.jpg
+background: /assets/img/bg-tips-trik.webp
 permalink: /tips-trik-kacamata/
 comments: false
 ---
@@ -161,8 +161,8 @@ comments: false
 {% comment %}
 
 <div class="card shadow p-3 bg-white mb-5">
-<img data-src="/assets/img/posts/kpop-female-00/kpop-female-00.jpg" 
-				src="/assets/img/posts/kpop-female-00/kpop-female-00.jpg" 
+<img data-src="/assets/img/posts/kpop-female-00/kpop-female-00.webp" 
+				src="/assets/img/posts/kpop-female-00/kpop-female-00.webp" 
 				class="card-img-top text-decoration-none" 
 				alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
 
@@ -184,8 +184,8 @@ comments: false
     		</div>
 
     		<div class="card shadow p-3 bg-white mb-5">
-    			<img data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.jpg"
-    				src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.jpg"
+    			<img data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp"
+    				src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp"
     				class="card-img-top"
     				alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
     			<div class="card-body">
@@ -205,9 +205,9 @@ comments: false
     			</div>
 
     			<div class="card shadow p-3 bg-white mb-5">
-    			<img data-src="/assets/img/posts/french-girl/french-girl-02.jpg"
+    			<img data-src="/assets/img/posts/french-girl/french-girl-02.webp"
     				class="card-img-top text-decoration-none"
-    				src="/assets/img/posts/french-girl/french-girl-02.jpg"
+    				src="/assets/img/posts/french-girl/french-girl-02.webp"
     				alt="Tips Memilih Kacamata Berdasarkan Rambut Supaya Tampil Kekinian">
     			<div class="card-body">
     				<h5 class="card-title">

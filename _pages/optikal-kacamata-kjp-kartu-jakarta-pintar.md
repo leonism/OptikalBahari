@@ -8,17 +8,17 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata KJP, kemayoran, tanpa bunga, tanpa DP, bayar KJP]
-background: /assets/img/posts/malay-hijab-00/malay-hijab-01.jpg
+background: /assets/img/posts/malay-hijab-00/malay-hijab-01.webp
 permalink: /optik-kacamata-kjp-kartu-jakarta-pintar/
 comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.jpg"
-    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.jpg"
+    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
+    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
     class="card-img-top"
-    alt="kjp-optikalbahari.jpg">
+    alt="kjp-optikalbahari.webp">
   <div class="card-body">
     <h3 class="card-title">
       Menerima pembayaran dengan KJP (Kartu Jakarta Pintar) untuk Pembelian Kacamata & Lensa
@@ -40,8 +40,8 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.jpg"
-    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.jpg"
+    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
+    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
     class="card-img-top"
     alt="Optikal Bahari & Program Kartu Jakarta Pintar (KJP)">
   <div class="card-body">
@@ -65,10 +65,10 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/035.jpg"
-    src="/assets/img/posts/035.jpg"
+    data-src="/assets/img/posts/035.webp"
+    src="/assets/img/posts/035.webp"
     class="card-img-top"
-    alt="kjp-optikalbahari.jpg">
+    alt="kjp-optikalbahari.webp">
   <div class="card-body">
     <h3 class="card-title">
       Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini

@@ -8,14 +8,14 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/010.jpg
+background: /assets/img/posts/010.webp
 permalink: /optik-yang-bisa-kredit-kacamata/
 comments: false
 ---
 
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+    <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
     <div class="card-body">
       <h3 class="card-title">
         Optik Yang Bisa Kredit Kacamata
@@ -36,7 +36,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-justify">Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage

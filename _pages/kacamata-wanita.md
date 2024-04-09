@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata wanita, kacamata untuk wanita, aksesoris kacamata wanita]
-background: /assets/img/posts/whitesand-girls/whitesand-girls-00.jpg
+background: /assets/img/posts/whitesand-girls/whitesand-girls-00.webp
 permalink: /kacamata-wanita/
 comments: false
 ---
@@ -16,8 +16,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-01.jpg"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-01.jpg"
+    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-01.webp"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-01.webp"
     class="card-img-top"
     title="Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting"
     alt="Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting">
@@ -39,8 +39,8 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-02.jpg"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-02.jpg"
+    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-02.webp"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-02.webp"
     title="kacamata cicilan di optikal bahari"
     class="card-img-top"
     alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
@@ -62,8 +62,8 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-03.jpg"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-03.jpg"
+    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-03.webp"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-03.webp"
     title="kacamata cicilan murah di jakarta"
     class="card-img-top"
     alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
@@ -85,8 +85,8 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-04.jpg"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-04.jpg"
+    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-04.webp"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-04.webp"
     title="kacamata cicilan murah di jakarta"
     class="card-img-top"
     alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
@@ -108,8 +108,8 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-05.jpg"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-05.jpg"
+    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-05.webp"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-05.webp"
     title="kacamata cicilan murah di jakarta"
     class="card-img-top"
     alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">

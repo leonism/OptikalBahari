@@ -9,7 +9,7 @@ date: "2019-08-19 08:25:23 +0700"
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, fasilitas]
-background: /assets/img/bg-index-kjp.jpg
+background: /assets/img/bg-index-kjp.webp
 permalink: /optik-yang-menerima-kjp/
 comments: false
 ---
@@ -17,8 +17,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.jpg"
-    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.jpg"
+    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
+    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
     class="card-img-top img-fluid"
     alt="Program Kartu Jakarta Pintar (KJP)" />
   <div class="card-body">
@@ -48,8 +48,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.jpg"
-      src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.jpg"
+      data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
+      src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
       class="card-img-top img-fluid"
       alt="Program Kartu Jakarta Pintar (KJP)" />
     <div class="card-body">
@@ -73,8 +73,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.jpg"
-      src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.jpg"
+      data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
+      src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
       class="card-img-top img-fluid"
       alt="Apa itu Lensa Photochromic?" />
     <div class="card-body">

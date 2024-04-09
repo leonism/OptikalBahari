@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/029.jpg
+background: /assets/img/posts/029.webp
 permalink: /kredit-kacamata-minus/
 comments: false
 ---
@@ -16,10 +16,10 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
-      src="{{'/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.jpg' | relative_url }}"
+      src="{{'/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' | relative_url }}"
       class="card-img-top"
       title="kredit kacamata minus di Optikal Bahari"
-      alt="tips-kacamata-2.jpg" />
+      alt="tips-kacamata-2.webp" />
     <div class="card-body">
       <h3 class="card-title">Kredit Kacamata Minus</h3>
       <p class="card-text text-justify">
@@ -37,7 +37,7 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8.jpg' | relative_url }}"
+    src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8.webp' | relative_url }}"
     class="card-img-top"
     title="kredit kacamata minus di Optikal Bahari"
     alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
@@ -58,9 +58,9 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
-      src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg' | relative_url }}"
+      src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' | relative_url }}"
       class="card-img-top"
-      alt="tips-kacamata-2.jpg"
+      alt="tips-kacamata-2.webp"
       title="kredit kacamata minus di Optikal Bahari" />
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
@@ -71,7 +71,7 @@ comments: false
           id="FBClick"
           title="Facebook Page Optikal Bahari"
           class="FacebookPage">Facebook @optikalbahari</a>
-        supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond yang lebih cepat, silahkan   
+        supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond yang lebih cepat, silahkan    
 				menghubungi kami di nomor HP/WA ini
         <a
           href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
@@ -86,8 +86,7 @@ comments: false
 
 {% include home-cards.html %}
 
-<!-- <section id="posts-category">	<div class="card-deck">		{% for post in site.categories.Lensa limit : 3 %}		<div class="card shadow p-3 mb-5 bg-white rounded">
-			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+<!-- <section id="posts-category">	<div class="card-deck">		{% for post in site.categories.Lensa limit : 3 %}		<div class="card shadow p-3 mb-5 bg-white rounded">			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 				{% if page.background %}
 				<img
 					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"

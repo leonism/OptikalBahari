@@ -8,13 +8,13 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/021.jpg
+background: /assets/img/posts/021.webp
 permalink: /melihat-ke-masa-depan-seperti-apa-industri-kacamata-dalam-10-tahun/
 comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-<img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.jpg">
+<img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
 
 <div class="card-body">
 <h3 class="card-title">Masa Depan Dari Industri Kacamata</h3>

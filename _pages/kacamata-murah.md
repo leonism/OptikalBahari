@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/sunglasses/optikal-bahari-sunglassses.jpg
+background: /assets/img/posts/sunglasses/optikal-bahari-sunglassses.webp
 permalink: /kacamata-murah/
 comments: false
 ---
@@ -17,8 +17,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <img 
             itemprop="image" 
-            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.jpg" 
+            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp"
+            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp" 
             class="card-img-top img-fluid"
             title="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
             alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame">
@@ -42,8 +42,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <img 
             itemprop="image" 
-            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg" 
+            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp"
+            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp" 
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
             alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
@@ -73,8 +73,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <img 
             itemprop="image" 
-            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.jpg"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.jpg" 
+            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp"
+            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp" 
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
             alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">		  
@@ -133,10 +133,10 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img 
             itemprop="image"
-            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg"
-            src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}" 
+            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp"
+            src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}" 
             class="card-img-top" 
-            alt="tips-kacamata-2.jpg">
+            alt="tips-kacamata-2.webp">
             <div class="card-body">
                 <h3 class="card-title">
                     Kunjungi Optikal Bahari
