@@ -1,0 +1,20 @@
+# @format
+
+# _data/picture.yml
+
+presets:
+  default:
+    formats: [webp, original]
+    widths: [200, 400, 800, 1600]
+    link_source: true
+
+  lazy:
+    markup: data_auto
+    widths: [200, 400, 800, 1600]
+    link_source: true
+    noscript: true
+
+media_queries:
+  full_width: "min-width: 901px"
+  tablet: "min-width: 601px"
+  mobile: "max-width: 600px"

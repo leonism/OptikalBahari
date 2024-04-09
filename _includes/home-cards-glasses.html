@@ -10,6 +10,7 @@
           src="{{"/assets/img/posts/kpop-female-00/kpop-female-00.jpg" | relative_url | resize: "350x235>" "}}"
           class="card-img-top img-fluid"
           loading="lazy"
+          {% imagesize post.background:props %}
           alt="Tips Memilih Kacamata Sesuai Wajah">
       </a>
       <div class="card-body">
@@ -41,6 +42,7 @@
           title="{{ post.title }}"
           class="card-img-top img-fluid"
           loading="lazy"
+          {% imagesize post.background:props %}
           alt="Tips Memilih Kacamata Bagi Pemula">
       </a>
       <div class="card-body">

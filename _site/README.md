@@ -29,6 +29,7 @@ Assuming there are no errors and the site is building properly, follow these ste
    - `about.html` - set to `layout: page`
    - `contact.html` - set to `layout: page`
    - `posts/index.html` - set to `layout: page` (you will also need to create a `posts` directory)
+
 2. Configure the `index.html` front matter. Example:
 ```
 ---

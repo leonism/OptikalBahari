@@ -19,22 +19,6 @@
   
   
       <url>
-        <loc>http://localhost:4000/20-fakta-sejarah-tentang-kacamata/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-  
-  
-      <url>
-        <loc>http://localhost:4000/20-hal-yang-harus-anda-ketahui-tentang-kacamata/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-  
-  
-      <url>
         <loc>http://localhost:4000/404.html</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>

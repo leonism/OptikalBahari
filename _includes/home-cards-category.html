@@ -9,6 +9,7 @@
               src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" }}"
               class="card-img-top img-fluid"
               loading="lazy"
+              {% imagesize post.background:props %}
               alt="{{ post.title }}">
           {% endif %}
         </a>
@@ -53,6 +54,7 @@
               src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" }}"
               class="card-img-top img-fluid"
               loading="lazy"
+              {% imagesize post.background:props %}
               alt="{{ post.title }}">
           {% endif %}
         </a>
@@ -97,6 +99,7 @@
               src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" }}"
               class="card-img-top img-fluid"
               loading="lazy"
+              {% imagesize post.background:props %}
               alt="{{ post.title }}">
           {% endif %}
         </a>

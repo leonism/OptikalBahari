@@ -18,7 +18,6 @@ twitter_username: optikalbahari
 facebook_username: optikalbahari
 pinterest_username: optikalbahari
 youtube_username: optikalbahari
-# linkedin_username: OptikalBahari
 
 # Build settings
 markdown: kramdown
@@ -34,6 +33,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-minifier
+  - jekyll-resize
+  - jekyll-image-size
+# - jekyll_picture_tag
 
 include: ["_pages"]
 
