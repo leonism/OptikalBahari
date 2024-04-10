@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Trend]
 tags: [layanan, optikal]
-background: /assets/img/posts/kpop-female-00/kpop-female-00.webp
+background: /assets/img/posts/kpop-female-01/softgaleri7_A_realistic_photo_shoot_session_of_cute__fresh_4_Kp_88b914ce-9bdf-4505-8633-8432066878a9.webp
 permalink: /tips-kacamata/
 comments: false
 ---
@@ -88,11 +88,11 @@ comments: false
       Kacamata Untuk Wajah Segitiga dan Oval
     </h3>
     <p class="card-text text-justify">
-      Wajah segitiga pada dasarnya hampir mirip dengan wajah kotak, hanya saja pada bagian dagu terlihat lebih ramping dan menyudut. Karena pada bagian garis rahang lebih panjang dan bagian kening lebih kecil, maka kacamata dengan model seperti mata kucing adalah pilihan terbaiknya. 
+      Wajah segitiga pada dasarnya hampir mirip dengan wajah kotak, hanya saja pada bagian dagu terlihat lebih ramping dan menyudut. Karena pada bagian garis rahang lebih panjang dan bagian kening lebih kecil, maka kacamata dengan model seperti mata kucing adalah pilihan terbaiknya.                
                     Lensa ini biasanya memiliki frame bagian atas yang lebih tebal daripada bagian bawah. Di sisi lain, lensa juga melebar di bagian bawah. Model kacamata seperti ini sangat cocok untuk mengimbangi bentuk wajah segitiga. Ini juga merupakan tips memilih kacamata sesuai wajah yang tepat buatmu.
     </p>
     <p class="card-text text-justify">
-      Wajah tipe satu ini banyak yang menyebutnya sebagai bentuk wajah paling ideal. Memiliki bagian dahi lebar, namun bagian garis rahang yang bulat menjadikan bentuk wajah ini terlihat sempurna. Hampir semua model kacamata bisa cocok dengan bentuk wajah satu ini sehingga Kamu tidak perlu khawatir. 
+      Wajah tipe satu ini banyak yang menyebutnya sebagai bentuk wajah paling ideal. Memiliki bagian dahi lebar, namun bagian garis rahang yang bulat menjadikan bentuk wajah ini terlihat sempurna. Hampir semua model kacamata bisa cocok dengan bentuk wajah satu ini sehingga Kamu tidak perlu khawatir.                
                     Namun jika ingin terlihat lebih keren, Kamu bisa memakai kacamata dengan frame tebal melengkung. Kamu juga bisa memilih warna frame apapun, bukan hanya hitam, namun hampir semua warna. Apalagi jika Kamu memiliki kulit bersih dan cerah, maka akan menjadikan penampilanmu lebih menarik.
     </p>
   </div>

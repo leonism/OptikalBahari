@@ -33,9 +33,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-minifier
-  - jekyll-resize
   - jekyll-image-size
-  - jekyll-webp
+# - jekyll-resize
+# - jekyll-webp
 # - jekyll_picture_tag
 
 include: ["_pages"]
