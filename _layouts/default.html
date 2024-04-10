@@ -10,19 +10,21 @@ layout: compress
     {{ content }}
     {% include wa-body.html %}
     {% include footer.html %}
-    {% include scripts.html %}
     {% include gtm-head.html %}
     {% include gtm-body.html %}
     {% include fb-comments-bodytag.html %}
+    {% include scripts.html %}
   </body>
-  {% include richsnippet-json-ld-faq.html %}
-  {% include richsnippet-json-ld-org.html %}
-  {% include richsnippet-json-ld-smallbusiness.html %}
-  {% include richsnippet-json-ld-breadcrumb.html %}
-  {% include richsnippet-json-ld-structurepath.html %}
-  {% include richsnippet-json-ld-qna.html %}
-  {% include richsnippet-json-ld-website.html %}
-  {% include richsnippet-json-ld-image.html %}
-<!-- {% include richsnippet-json-ld-imageLicense.html %} -->
-
+  {% include richsnippet-json-ld-article.json %}
+  {% include richsnippet-json-ld-articleNews.json %}
+  {% include richsnippet-json-ld-breadcrumb.json %}
+  {% include richsnippet-json-ld-faq.json %}
+  {% include richsnippet-json-ld-image.json %}
+  {% include richsnippet-json-ld-optician.json %}
+  {% include richsnippet-json-ld-org.json %}
+  {% include richsnippet-json-ld-product.json %}
+  {% include richsnippet-json-ld-qna.json %}
+  {% include richsnippet-json-ld-smallbusiness.json %}
+  {% include richsnippet-json-ld-structurepath.json %}
+  {% include richsnippet-json-ld-website.json %}
 </html>

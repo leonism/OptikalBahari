@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Set the directory containing your images
-input_dir="/Volumes/DATA/Jekyll/OptikalBahari/assets/img/posts"
+input_dir="/Volumes/DATA/Jekyll/OptikalBahari/assets/img"
 
 # Set the quality parameter (0-100, where 100 is the highest quality)
-quality=60
+quality=50
 
 # Set the desired width and height for the output images (0 for no resizing)
 width=0
@@ -19,7 +19,8 @@ alpha_compression=0
 preserve_metadata="none"
 
 # Effort level (0 to 6, where higher values require more processing time)
-effort=3
+# This parameter determines the trade-off between encoding speed and file size
+effort=6
 
 # Overwrite existing output files (0 for no overwrite, 1 for overwrite)
 overwrite=1

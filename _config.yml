@@ -71,7 +71,7 @@ jekyll-minifier:
   remove_multi_spaces: true         # Default: true
   remove_comments: true             # Default: true
   remove_intertag_spaces: true      # Default: false
-#   remove_quotes: false              # Default: false
+  remove_quotes: false              # Default: false
   compress_css: true                # Default: true
   compress_javascript: true         # Default: true
   compress_json: true               # Default: true

@@ -1,0 +1,24 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    {% if site.name %}
+      "name" : "{{ site.name }}",
+      {% endif %}
+      {% if site.description %}
+        "description" : "{{ site.description }}",
+        {% endif %}{% if site.url %}"url" : "{{ site.url }} {{ site.baseurl }}",
+        {% endif %}
+        {% if site.author %}
+          "author" : {
+            "@type": "Person",
+            "name": "{{ site.author }}"
+          },
+          {% endif %}
+          {% if site.date %}
+            "dateCreated" : "{{ site.date | date: "%Y-%m-%d" }}",
+            {% endif %}
+            "dateModified": "{{ site_modified | date: "%Y-%m-%d" }}"
+          }
+</script>
+
