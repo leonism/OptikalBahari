@@ -115,4 +115,3 @@
                   {% endif %}
                   "url": "{{ site.url }} {{ site.baseurl }} {{ page.url }}"
                 }
-</script>
