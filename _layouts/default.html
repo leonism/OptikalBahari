@@ -7,12 +7,13 @@ layout: compress
   {% include head.html %}
 
   <body>
-    {% include fb-comments-bodytag.html %}
-    {% include gtm-body.html %}
     {{ content }}
     {% include wa-body.html %}
     {% include footer.html %}
     {% include scripts.html %}
+    {% include gtm-head.html %}
+    {% include gtm-body.html %}
+    {% include fb-comments-bodytag.html %}
   </body>
   {% include richsnippet-json-ld-faq.html %}
   {% include richsnippet-json-ld-org.html %}
