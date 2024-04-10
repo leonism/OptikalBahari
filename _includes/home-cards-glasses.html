@@ -7,11 +7,12 @@
         title="Tips Memilih Kacamata Sesuai Wajah">
         <img
           itemprop="image"
+          data-src="{{"/assets/img/posts/kpop-female-01/kpop-female-sunglasses-00.webp" | relative_url | resize: "350x235>" "}}"
           src="{{"/assets/img/posts/kpop-female-01/kpop-female-sunglasses-00.webp" | relative_url | resize: "350x235>" "}}"
           class="card-img-top img-fluid"
-          loading="lazy"
           width="{% imagesize page.background:width %}"
-          height="{% imagesize page.background:width %}"
+          height="{% imagesize page.background:height %}"
+          loading="lazy"
           alt="Tips Memilih Kacamata Sesuai Wajah">
       </a>
       <div class="card-body">
@@ -39,11 +40,12 @@
         title="Tips Memilih Kacamata Bagi Pemula">
         <img
           itemprop="image"
+          data-src="{{"/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp" | relative_url | resize: "350x235>" "}}"
           src="{{"/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp" | relative_url | resize: "350x235>" "}}"
-          title="{{ post.title }}"
+          width="{% imagesize page.background:width %}"
+          height="{% imagesize page.background:height %}"
           class="card-img-top img-fluid"
           loading="lazy"
-          {% imagesize post.background:props %}
           alt="Tips Memilih Kacamata Bagi Pemula">
       </a>
       <div class="card-body">
@@ -71,8 +73,10 @@
         title="Tips kacamata berdasarkan gaya rambut">
         <img
           itemprop="image"
+          data-src="{{"/assets/img/bg-kjp.webp" | relative_url | resize: "350x235>" "}}"
           src="{{"/assets/img/posts/french-girl/french-girl-02-min.webp" | relative_url | resize: "350x235>" "}}"
-          title="{{ post.title }}"
+          width="{% imagesize page.background:width %}"
+          height="{% imagesize page.background:height %}"
           class="card-img-top img-fluid"
           loading="lazy"
           alt="tips kacamata berdasarkan gaya rambut">
