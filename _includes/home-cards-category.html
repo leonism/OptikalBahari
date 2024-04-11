@@ -5,16 +5,12 @@
         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
           {% if page.background %}
             <!--
-              <img  itemprop="image"  src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" | imagesize post.background:props }}"  class="card-img-top img-fluid"
-              loading="lazy"
-              width="{% imagesize page.background:width %}"
-              height="{% imagesize page.background:height %}"
-              alt="{{ post.title }}">
+              <img  itemprop="image"  src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" | imagesize post.background:props }}"  class="card-img-top img-fluid"  loading="lazy"  width="{% imagesize page.background:width %}"  height="{% imagesize page.background:height %}"  alt="{{ post.title }}">
             -->
             <img
               itemprop="image"
-              src="{{ post.background | srcset | | replace: '//', '/' }}"
-              srcset="{{ post.background | srcset | | replace: '//', '/' }}"
+              src="{{ post.background }}"
+              srcset="{{ post.background | srcset }}"
               width="{{ post.background | width }}"
               height="{{ post.background | height }}"
               class="card-img-top img-fluid"
@@ -58,14 +54,12 @@
         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
           {% if page.background %}
             <!--
-              <img  itemprop="image"  src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" | imagesize post.background:props }}"  class="card-img-top img-fluid"  loading="lazy"  width="{% imagesize page.background:width %}"
-              height="{% imagesize page.background:height %}"
-              alt="{{ post.title }}">
+              <img  itemprop="image"  src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" | imagesize post.background:props }}"  class="card-img-top img-fluid"  loading="lazy"  width="{% imagesize page.background:width %}"  height="{% imagesize page.background:height %}"  alt="{{ post.title }}">
             -->
             <img
               itemprop="image"
-              src="{{ post.background | srcset | | replace: '//', '/' }}"
-              srcset="{{ post.background | srcset | | replace: '//', '/' }}"
+              src="{{ post.background }}"
+              srcset="{{ post.background | srcset }}"
               width="{{ post.background | width }}"
               height="{{ post.background | height }}"
               class="card-img-top img-fluid"
@@ -109,16 +103,12 @@
         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
           {% if page.background %}
             <!--
-              <img  itemprop="image"  src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" | imagesize post.background:props }}"  class="card-img-top img-fluid"
-              loading="lazy"
-              width="{% imagesize page.background:width %}"
-              height="{% imagesize page.background:height %}"
-              alt="{{ post.title }}">
+              <img  itemprop="image"  src="{{ post.background | prepend: site.baseurl | replace: '//', '/' | resize: "350x235>" | imagesize post.background:props }}"  class="card-img-top img-fluid"  loading="lazy"  width="{% imagesize page.background:width %}"  height="{% imagesize page.background:height %}"  alt="{{ post.title }}">
             -->
             <img
               itemprop="image"
-              src="{{ post.background | srcset | | replace: '//', '/' }}"
-              srcset="{{ post.background | srcset | | replace: '//', '/' }}"
+              src="{{ post.background }}"
+              srcset="{{ post.background | srcset }}"
               width="{{ post.background | width }}"
               height="{{ post.background | height }}"
               class="card-img-top img-fluid"
