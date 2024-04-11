@@ -53,21 +53,3 @@
   			"thumbnailUrl": "{{ site.url }}{{ page.background }}"
   	}
 </script>
-
-{% assign image_path = page.background | prepend: site.baseurl %}
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org/",
-    "@type": "ImageObject",
-    "contentUrl": "{{ image_path }}",
-    "license": "{{ site.url }}",
-    "acquireLicensePage": "{{ site.url }}",
-    "creditText": "{{ page.author_name }}",
-    "creator": {
-      "@type": "Person",
-      "name": "{{ page.author }}"
-    },
-    "copyrightNotice": "{{ page.author }}"
-  }
-</script>

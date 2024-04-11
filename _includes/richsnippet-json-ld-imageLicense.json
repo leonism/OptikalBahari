@@ -16,9 +16,9 @@
       "name": {{ site.author_name | jsonify }},
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ site.url }} /assets/optikalbahari-logo.png",
-        "width": 192,
-        "height": 192
+        "url": "{{ site.url }} /assets/apple-icon-180x180.png",
+        "width": 180,
+        "height": 180
       }
     },
     "image": [

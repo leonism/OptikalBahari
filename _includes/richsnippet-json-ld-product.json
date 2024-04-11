@@ -1,51 +1,66 @@
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Pemeriksaan Mata dan Kacamata di Optikal Bahari",
-    "description": "Dapatkan pemeriksaan mata gratis, garansi 1 tahun, program cicilan tanpa bunga & riba, service & reparasi kacamata gratis, bisa bayar menggunakan KJP, tersertifikasi Dinkes & Kemenkes, dan bonus goodie bag di Optikal Bahari. Jaga kesehatan mata Anda dan buat kacamata Anda tetap awet & kece!",
-    "image": "https://optikalbahari.com/assets/img/bg-stories-index.jpeg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Optikal Bahari"
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Produk Periksa Mata dan Service Kacamata di Optikal Bahari",
+  "description": "Dapatkan pemeriksaan mata gratis, garansi 1 tahun, program cicilan tanpa bunga & riba, service & reparasi kacamata gratis, bisa bayar menggunakan KJP, tersertifikasi Dinkes & Kemenkes, dan bonus goodie bag di Optikal Bahari. Jaga kesehatan mata Anda dan buat kacamata Anda tetap awet & kece!",
+  "image": "https://optikalbahari.com/assets/img/bg-stories-index.jpeg",
+  "brand": {
+    "@type": "Brand",
+    "name": "Optikal Bahari"
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "priceCurrency": "IDR",
+      "price": "0",
+      "availableAtOrFrom": "https://optikalbahari.com/periksa-mata-gratis/",
+      "includes": [
+        {
+          "@type": "Service",
+          "name": "Pemeriksaan Mata Gratis"
+        },
+        {
+          "@type": "Warranty",
+          "duration": "1 Year",
+          "name": "Garansi 1 Tahun"
+        },
+        {
+          "@type": "Installment",
+          "name": "Cicilan Tanpa Bunga & Riba"
+        },
+        {
+          "@type": "Service",
+          "name": "Service & Reparasi Kacamata Gratis"
+        },
+        {
+          "@type": "PaymentAccepted",
+          "name": "Kartu Jakarta Pintar (KJP)"
+        },
+        {
+          "@type": "Certification",
+          "name": "Tersertifikasi Dinkes & Kemenkes"
+        },
+        {
+          "@type": "Product",
+          "name": "Goodie Bag"
+        }
+      ]
     },
-    "offers": [
-      {
-        "@type": "Offer",
-        "priceCurrency": "IDR",
-        "availableAtOrFrom": "https://optikalbahari.com/periksa-mata-gratis/",
-        "includes": [
-          {
-            "@type": "Service",
-            "name": "Pemeriksaan Mata Gratis"
-          },
-          {
-            "@type": "Warranty",
-            "duration": "1 Year",
-            "name": "Garansi 1 Tahun"
-          },
-          {
-            "@type": "Installment",
-            "name": "Cicilan Tanpa Bunga & Riba"
-          },
-          {
-            "@type": "Service",
-            "name": "Service & Reparasi Kacamata Gratis"
-          },
-          {
-            "@type": "PaymentAccepted",
-            "name": "Kartu Jakarta Pintar (KJP)"
-          },
-          {
-            "@type": "Certification",
-            "name": "Tersertifikasi Dinkes & Kemenkes"
-          },
-          {
-            "@type": "Product",
-            "name": "Goodie Bag"
-          }
-        ]
-      }
-    ]
-  }
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0",
+        "currency": "IDR"
+      },
+      "shippingDestination": [
+        {
+          "@type": "DefinedRegion",
+          "addressCountry": "ID",
+          "addressRegion": ["DKI"]
+        }
+      ]
+    }
+  ]     
+}
 </script>
