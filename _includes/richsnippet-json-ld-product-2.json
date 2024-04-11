@@ -42,28 +42,27 @@
               "name": "Tersertifikasi Dinkes & Kemenkes"
             },
             {
-              "@type": "Offer",
+              "@type": "Product",
               "name": "Goodie Bag"
             }
-          ],
-          "shippingDetails": [
-            {
-              "@type": "OfferShippingDetails",
-              "shippingRate": {
-                "@type": "MonetaryAmount",
-                "value": "0",
-                "currency": "IDR"
-              },
-              "shippingDestination": [
+          ]
+        },
+        "shippingDetails": [
                 {
-                  "@type": "DefinedRegion",
-                  "addressCountry": "ID",
-                  "addressRegion": ["DKI"]
-                }
-              ]
+                  "@type": "OfferShippingDetails",
+                  "shippingRate": {
+                    "@type": "MonetaryAmount",
+                    "value": "0",
+                    "currency": "IDR"
+                },
+            "shippingDestination": [
+              {
+                "@type": "DefinedRegion",
+                "addressCountry": "ID",
+                "addressRegion": ["DKI"]
             }
           ]
-        }
-      ]
+        ]  
+      ]     
     }
 </script>
