@@ -19,7 +19,7 @@
           {{ site.data.sections[crumb].name | default: crumb | capitalize }}
         {% endif %}",
       "item": "{{ site.url }}{% assign crumb_limit = forloop.index %}
-        {% for crumb in crumbs offset: 1 limit: crumb_limit %}/{{ crumb }}
+          {% for crumb in crumbs offset: 1 limit: crumb_limit %}/{{ crumb }}
         {% endfor %}"
       {% endfor %}
     }

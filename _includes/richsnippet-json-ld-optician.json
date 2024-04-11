@@ -13,7 +13,6 @@
 		"@id": "https://optikalbahari.com",
 		"url": "https://optikalbahari.com",
 		"telephone": "+6281932235445",
-		"priceRange": "$",
 		"address": {
 			"@type": "PostalAddress",
 			"streetAddress": "Jalan Bendungan Jago No 447, Kemayoran",
@@ -46,27 +45,26 @@
 			"https://id.pinterest.com/optikalbahari",
 			"https://www.youtube.com/@optikalbahari",
 			"https://optikalbahari.com/"
-		],
-		"department": {
-			"@type": "Optician",
-			"name": "Optikal Bahari",
-			"image": "https://optikalbahari.com/assets/img/bg-index.webp",
-			"telephone": "+62081932235445",
-			"openingHoursSpecification": {
-				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": [
-					"Monday",
-					"Tuesday",
-					"Wednesday",
-					"Thursday",
-					"Friday",
-					"Saturday",
-					"Sunday"
-				],
-				"opens": "08:30",
-				"closes": "22:00"
-			}
+		]
+	},
+	{
+		"@type": "Optician",
+		"name": "Optikal Bahari",
+		"image": "https://optikalbahari.com/assets/img/bg-index.webp",
+		"telephone": "+62081932235445",
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday",
+				"Saturday",
+				"Sunday"
+			],
+			"opens": "08:30",
+			"closes": "22:00"
 		}
 	}
 </script>
-

@@ -2,8 +2,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Optician",
-    "image": ["{{ site.url }} /assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp", "{{ site.url }} /assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp", "{{ site.url }} /assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp", "{{ site.url }} /assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp"],
+    "image": ["{{ site.url }}/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp", "{{ site.url }} /assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp", "{{ site.url }}/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp", "{{ site.url }}/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp"],
+    "priceRange": "$",
+    "telephone": "+6281932235445",
     "name":"{{ site.title }}",
+    "url":"{{ site.url }}",    
+    "currenciesAccepted": "IDR",
+    "paymentAccepted": "Cash, Debit Card",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Bendungan Jago No 447",
@@ -28,12 +33,7 @@
       "@type": "GeoCoordinates",
       "latitude": -6.161815554395783,
       "longitude": 106.85789672789805
-    },
-    "url":"{{ site.url }}",
-    "priceRange": "$",
-    "telephone": "+6281932235445",
-    "currenciesAccepted": "IDR",
-    "paymentAccepted": "Cash, Debit Card",
+    },    
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5",

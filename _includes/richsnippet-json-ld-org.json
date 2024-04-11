@@ -1,52 +1,30 @@
 <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "image": "{{ site.url }} {{ page.background }}",
-    "url": "https://optikalbahari.com",
-    "sameAs": [
-      "https://www.facebook.com/OptikalBahari",
-      "https://id.pinterest.com/optikalbahari/",
-      "https://www.youtube.com/@optikalbahari/",
-      "https://www.instagram.com/optikalbahari/",
-      "https://twitter.com/OptikalBahari"
-    ],
-    "logo": "https://optikalbahari.com/assets/optikalbahari-logo.png",
-    "name": {{ site.author_name | jsonify }},
-    "description": "{% if page.description.size > 10 %} {{ page.description | truncate: 160 }}
-  {% else %}
-    {{ site.description | truncate: 160 }}
-    {% endif %}",
-    "email": "optikalbahari@gmail.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Jalan Bendungan Jago No.447",
-      "addressLocality": "Utan Panjang, Kemayoran",
-      "addressRegion": "Jakarta Pusat",
-      "addressCountry": "ID",
-      "postalCode": "10650"
-    }
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "image": "{{ site.url }}{{ page.background }}",
+  "url": "https://optikalbahari.com",
+  "sameAs": [
+    "https://www.facebook.com/OptikalBahari",
+    "https://id.pinterest.com/optikalbahari/",
+    "https://www.youtube.com/@optikalbahari/",
+    "https://www.instagram.com/optikalbahari/",
+    "https://twitter.com/OptikalBahari"
+  ],
+  "logo": "https://optikalbahari.com/assets/optikalbahari.png",
+  "name": {{ site.author_name | jsonify }},
+  "description": "{% if page.description.size > 10 %} {{ page.description | truncate: 160 }}
+    {% else %}
+      {{ site.description | truncate: 160 }}
+  {% endif %}",
+  "email": "optikalbahari@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jalan Bendungan Jago No.447",
+    "addressLocality": "Utan Panjang, Kemayoran",
+    "addressRegion": "Jakarta Pusat",
+    "addressCountry": "ID",
+    "postalCode": "10650"
   }
+}
 </script>
-
-<!-- <script type="application/ld+json">    {      "@context": "https://schema.org",      "@type": "Organization",
-      "image": "https://www.example.com/example_image.webp",
-      "url": "https://www.example.com",
-      "sameAs": ["https://example.net/profile/example1234", "https://example.org/example1234"],
-      "logo": "https://www.example.com/images/logo.png",
-      "name": "Example Corporation",
-      "description": "The example corporation is well-known for producing high-quality widgets",
-      "email": "contact@example.com",
-      "telephone": "+47-99-999-9999",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Rue Improbable 99",
-        "addressLocality": "Paris",
-        "addressCountry": "FR",
-        "addressRegion": "Ile-de-France",
-        "postalCode": "75001"
-      },
-      "vatID": "FR12345678901",
-      "iso6523Code": "0199:724500PMK2A2M1SQQ228"
-    }
-    </script> -->
