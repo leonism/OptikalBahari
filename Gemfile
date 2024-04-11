@@ -35,6 +35,7 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-minifier"
   gem "jekyll-image-size"
+  gem "jekyll-responsive-magick"  
 # gem "jekyll-webp"
 # gem 'jekyll_picture_tag', '~> 2.0'
 #  gem "jekyll-resize", git: "https://github.com/MichaelCurrin/jekyll-resize"

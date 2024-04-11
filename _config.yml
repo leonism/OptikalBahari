@@ -34,6 +34,7 @@ plugins:
   - jekyll-archives
   - jekyll-minifier
   - jekyll-image-size
+  - jekyll-responsive-magick
 # - jekyll-resize
 # - jekyll-webp
 # - jekyll_picture_tag
@@ -47,6 +48,10 @@ exclude:
   - .sass-cache/
   - .jekyll-cache/
   - .git
+
+responsive:
+  widths: [400,500,700,900]
+  quality: 30
 
 # html compression
 compress_html:
@@ -65,7 +70,7 @@ sass:
   style: compressed
 
 jekyll-minifier:
-  exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+  exclude: 'atom.xml'               # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
   preserve_php: true                # Default: false
   remove_spaces_inside_tags: true   # Default: true
   remove_multi_spaces: true         # Default: true
@@ -89,4 +94,3 @@ jekyll-minifier:
   compress_js_templates: false      # Default: false
   preserve_patterns:                # Default: (empty)
   uglifier_args:                    # Default: (empty)
-
