@@ -14,24 +14,6 @@
           "@type": "Offer",
           "priceCurrency": "IDR",
           "price": "0",
-          "availability": "https://schema.org/InStock",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "merchantReturnDays": 30
-          },
-          "deliveryTime": {
-            "@type": "ShippingDeliveryTime",
-            "handlingTime": {
-              "@type": "QuantitativeValue",
-              "value": 1,
-              "unitCode": "DAY"
-            },
-            "transitTime": {
-              "@type": "QuantitativeValue",
-              "value": 3,
-              "unitCode": "DAY"
-            }
-          },
           "availableAtOrFrom": "https://optikalbahari.com/periksa-mata-gratis/",
           "includes": [
             {
@@ -64,34 +46,6 @@
               "name": "Goodie Bag"
             }
           ],
-          "review": [
-            {
-              "@type": "Review",
-              "author": "Ramdani Yusuf",
-              "datePublished": "2024-04-11",
-              "reviewBody": "Saya datang untuk service frame kacamata karena miring dan kurang nyaman dipakai. Saya niat bayar berapapun harganya eh malah dikasih gratis. Terbaik lah",
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-              }
-            },
-            {
-              "@type": "Review",
-              "author": "Yulia Enggar",
-              "datePublished": "2024-04-10",
-              "reviewBody": "Harga terjangkau,kualitas dijamin, model kacamatanya kekinian. Penjualnya juga ramah, baik, dan sabar. Terimakasih optik bahari🙏🙏🙏",
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-              }
-            }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.75",
-            "reviewCount": "2"
-          },
-          "priceValidUntil": "2025-12-31",
           "shippingDetails": [
             {
               "@type": "OfferShippingDetails",
