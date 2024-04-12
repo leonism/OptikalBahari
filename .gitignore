@@ -117,3 +117,4 @@ pnpm-debug.log*
 
 # images cache
 cache/
+_responsive
