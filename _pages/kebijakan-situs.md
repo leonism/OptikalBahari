@@ -23,37 +23,37 @@ comments: false
       <h3 class="card-title">
         Kebijakan Penggunaan Situs Optikal Bahari
       </h3>
-      <p class="card-text text-justify">
+      <p class="card-text text-left">
         Di Optikal Bahari, kami sangat menghargai privasi Anda dan komitmen kami untuk melindungi informasi pribadi Anda. Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan membagikan informasi pribadi Anda saat Anda menggunakan layanan kami.
       </p>
       <h3 class="card-title">
         Informasi Yang Kami Kumpulkan
       </h3>
-      <p class="card-text text-justify">
+      <p class="card-text text-left">
         Kami mengumpulkan informasi yang Anda berikan kepada kami saat Anda mendaftar, membeli produk, atau mengisi formulir di situs kami. Informasi yang kami kumpulkan termasuk nama, alamat, nomor telepon, dan alamat email Anda. Kami juga dapat mengumpulkan informasi tentang pembelian Anda, seperti produk yang Anda beli dan metode pembayaran yang Anda gunakan.
       </p>
       <h3 class="card-title">
         Penggunaan Informasi
       </h3>
-      <p class="card-text text-justify">
+      <p class="card-text text-left">
         Kami menggunakan informasi yang kami kumpulkan untuk menyediakan layanan yang Anda minta, termasuk pengiriman produk yang Anda beli, dan untuk menangani permintaan dan keluhan Anda. Kami juga dapat menggunakan informasi ini untuk mengirimkan email kepada Anda tentang produk dan layanan yang mungkin Anda minati. Anda dapat memilih untuk tidak menerima email promosi kami dengan mengikuti tautan 'unsubscribe' di bagian bawah setiap email yang kami kirimkan.
       </p>
       <h3 class="card-title">
         Bagikan Informasi
       </h3>
-      <p class="card-text text-justify">
+      <p class="card-text text-left">
         Kami tidak akan menjual atau memberikan informasi pribadi Anda kepada pihak ketiga tanpa persetujuan Anda terlebih dahulu, kecuali jika diwajibkan oleh hukum atau diperlukan untuk melindungi hak-hak kami.
       </p>
       <h3 class="card-title">
         Perubahan kebijakan privasi
       </h3>
-      <p class="card-text text-justify">
+      <p class="card-text text-left">
         Kami dapat mengubah kebijakan privasi ini dari waktu ke waktu. Perubahan akan diterapkan pada informasi yang kami kumpulkan setelah kebijakan baru diterbitkan di situs ini. Silakan memeriksa kebijakan privasi ini secara teratur untuk mengetahui perubahan apa pun.
       </p>
       <h3 class="card-title">
         Tanya jawab
       </h3>
-      <p class="card-text text-justify">
+      <p class="card-text text-left">
         Jika Anda memiliki pertanyaan tentang kebijakan privasi ini, silakan hubungi kami melalui alamat email
         <a href="mailto:optikalbahari@gmail.com">optikalbahari@gmail.com</a>
         atau nomor telepon

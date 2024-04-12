@@ -5,16 +5,78 @@
 presets:
   default:
     formats: [webp, original]
-    widths: [200, 400, 800, 1600]
-    link_source: true
-
-  lazy:
     markup: data_auto
-    widths: [200, 400, 800, 1600]
+    widths: [200, 400, 600, 800]
     link_source: true
+    fallback_width: 500
+    fallback_format: original
+    noscript: false
+    link_source: false
+    quality: 50
+    strip_metadata: true
+    format_quality:
+      webp: 30
+      avif: 30
+      jp2: 30
+      jpg: 75
+      png: 65
+      webp: 30
+    data_sizes: true
+    keep: attention
+    dimension_attributes: true
+
+  lazy:        
     noscript: true
 
-media_queries:
-  full_width: "min-width: 901px"
-  tablet: "min-width: 601px"
-  mobile: "max-width: 600px"
+  media_queries:
+    mobile: "max-width: 600px"
+    tablet: "max-width: 800px"
+    desktop: "min-width: 901px"
+    ultrawide: "min-width: 1400px"
+
+
+  
+  
+    # image_options:
+    #   avif:
+    #     compression: av1
+    #     speed: 8
+    # data_sizes: true
+    # keep: attention
+    # dimension_attributes: true
+
+# media_queries:
+#   mobile: "max-width: 600px"
+#   tablet: "max-width: 800px"
+#   desktop: "min-width: 901px"
+#   ultrawide: "min-width: 1400px"
+
+
+# presets:
+#   default:
+#     markup: auto
+#     formats: [original]
+#     widths: [400, 600, 800, 1000]
+#     fallback_width: 800
+#     fallback_format: original
+#     noscript: false
+#     link_source: false
+#     quality: 75
+#     format_quality:
+#       webp: 30
+#       avif: 30
+#       jp2: 30
+#     strip_metadata: true
+#     image_options:
+#       avif:
+#         compression: av1
+#         speed: 8
+#     data_sizes: true
+#     keep: attention
+#     dimension_attributes: true
+
+# media_queries:
+#   full_width: "min-width: 901px"
+#   tablet: "min-width: 601px"
+#   mobile: "max-width: 600px"
+

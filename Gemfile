@@ -35,10 +35,10 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-minifier"
   gem "jekyll-image-size"
-  gem "jekyll-responsive-magick"  
+  gem "jekyll-responsive-magick"
+  gem 'jekyll_picture_tag', '~> 2.0'
 # gem "jekyll-webp"
-# gem 'jekyll_picture_tag', '~> 2.0'
-#  gem "jekyll-resize", git: "https://github.com/MichaelCurrin/jekyll-resize"
+# gem "jekyll-resize", git: "https://github.com/MichaelCurrin/jekyll-resize"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

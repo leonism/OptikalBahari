@@ -20,7 +20,7 @@ comments: false
     <h3 class="card-title">
       Biarkan Mata Anda Bersinar Bersama Optikal Bahari!
     </h3>
-    <p class="card-text text-justify">
+    <p class="card-text text-left">
       Ingin kembali melihat dunia dengan jernih dan penuh warna? Bosan dengan kacamata yang berat dan memburam? Optikal Bahari ada untuk Anda!
       <strong>Bukan cuma pemeriksaan mata gratis</strong>, kami menawarkan pengalaman lebih dari itu, bayangkan :
       <ul>
@@ -44,10 +44,10 @@ comments: false
         </li>
       </ul>
     </p>
-    <p class="card-text text-justify">
+    <p class="card-text text-left">
       Tak hanya itu, kami juga ingin menjadi teman Anda dalam menjaga kesehatan mata. Tim kami yang ramah dan profesional siap menjawab segala pertanyaan Anda seputar kesehatan mata, membantu Anda memilih kacamata yang tepat, dan memberikan tips-tips bermanfaat. Jangan biarkan penglihatan yang kabur menghalangi Anda menikmati indahnya dunia. Optikal Bahari, lebih dari sekadar optik kacamata, kami adalah mitra Anda untuk penglihatan yang jernih dan masa depan yang cerah.
     </p>
-    <p class="card-text text-justify">
+    <p class="card-text text-left">
       Segera rencanakan kunjungan anda ke Optikal Bahari untuk pemeriksaan mata dan staff ramah kami siap untuk melayani anda. Kami berlokasi di Jl. Bend. Jago No.447, RW.1, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10650. Kami memberikan layanan
       <a href="{{"/periksa-mata/" | relative_url }}" title="pemeriksaan mata gratis">pemeriksaan mata gratis</a>, proses cepat dan akurat dengan alat komputerisasi digital, ada
       <a href="{{"/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan">program cicilan ringan</a>

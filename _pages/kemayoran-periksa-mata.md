@@ -18,7 +18,7 @@ comments: false
   <img itemprop="image" src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
     <div class="card-body">
       <h3 class="card-title">Periksa Mata Gratis, Cepat & Akurat</h3>
-      <p class="card-text text-justify">Sering mengalami gangguan penglihatan setelah lama didepan monitor atau laptop anda setelah seharian bekerja di kantor? Atau sering menghabiskan waktu dan berlama-lama didepan handphone bermain game? Atau mungkin kamu yang suka drama korea dan suka bagadang nonton serie kesukaan kamu? Semua aktifitas tadi bisa menyebabkan turunnya daya penglihatan kamu. Di Optikal Bahari kami mempunyai layanan gratis untuk periksa mata kamu dengan secara cepat dan akurat. Berikut tiga alasan utama kenapa kamu harus datang ke Optikal Bahari selain dari pemeriksaan mata kamu yang kami berikan secara gratis.</p>
+      <p class="card-text text-left">Sering mengalami gangguan penglihatan setelah lama didepan monitor atau laptop anda setelah seharian bekerja di kantor? Atau sering menghabiskan waktu dan berlama-lama didepan handphone bermain game? Atau mungkin kamu yang suka drama korea dan suka bagadang nonton serie kesukaan kamu? Semua aktifitas tadi bisa menyebabkan turunnya daya penglihatan kamu. Di Optikal Bahari kami mempunyai layanan gratis untuk periksa mata kamu dengan secara cepat dan akurat. Berikut tiga alasan utama kenapa kamu harus datang ke Optikal Bahari selain dari pemeriksaan mata kamu yang kami berikan secara gratis.</p>
   </div>
    </div>
 </div>
@@ -30,7 +30,7 @@ comments: false
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
-      <p class="card-text text-justify">Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
+      <p class="card-text text-left">Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
     <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond
     yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
     <em>(Optikal Bahari)</em></p>
@@ -50,10 +50,10 @@ comments: false
                 <h5 class="card-title">
                     {{ post.title }}
                 </h5>
-                <p class="card-text text-justify">
+                <p class="card-text text-left">
                     {{ post.description | strip_html | truncatewords: 20 }}.
                 </p>
-                <p class="card-text text-justify">
+                <p class="card-text text-left">
                     <a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya</a>
                 </p>
             </div>

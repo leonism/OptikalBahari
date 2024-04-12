@@ -34,7 +34,7 @@ comments: false
 				<h5 class="card-title">
 					{{ post.title | truncate: 50 }}
 				</h5>
-				<p class="card-text text-justify">
+				<p class="card-text text-left">
 					{{ post.description | strip_html | truncate: 100 }}
 					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
 						href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
@@ -81,7 +81,7 @@ comments: false
 				<h5 class="card-title">
 					{{ post.title | truncate: 50 }}
 				</h5>
-				<p class="card-text text-justify">
+				<p class="card-text text-left">
 					{{ post.description | strip_html | truncate: 100 }}
 					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
 						href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
@@ -129,7 +129,7 @@ comments: false
 				<h5 class="card-title">
 					{{ post.title | truncate: 50 }}
 				</h5>
-				<p class="card-text text-justify">
+				<p class="card-text text-left">
 					{{ post.description | strip_html | truncate: 100 }}
 					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
 						href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
@@ -170,10 +170,10 @@ comments: false
     			<h3 class="card-title">
     			Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren
     			</h3>
-    			<p class="card-text text-justify">
+    			<p class="card-text text-left">
     				Memilih kacamata yang tepat memang gampang-gampang susah. Salah pilih, bukannya terlihat keren, malah bisa jadi bencana fashion. Bayangkan saja, kamu sudah merogoh kocek dalam untuk membeli kacamata mahal, tapi ternyata hasilnya tidak sesuai dengan bentuk wajah. Duh, pasti bete! Nah, untuk menghindari hal itu, penting banget nih buat kamu memahami tips-tips memilih kacamata yang sesuai dengan bentuk wajah.
     			</p>
-    			<p class="card-text text-justify">
+    			<p class="card-text text-left">
     				<a class="btn btn-primary rounded-pill text-decoration-none"
     				href="{{"/tips-kacamata/" | relative_url }}"
     				title="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
@@ -192,10 +192,10 @@ comments: false
     				<h5 class="card-title">
     				Tips Memilih Kacamata Bagi Pemula Yang Nyaman Dipakai
     				</h5>
-    				<p class="card-text text-justify">
+    				<p class="card-text text-left">
     				Dengan kacamata yang tepat, Anda dapat melihat dengan jelas dan meningkatkan kualitas hidup Anda. Oleh karena itu, ikuti tips-tips berikut untuk memilih kacamata yang tepat bagi pemula. Pastikan Anda memperhatikan bentuk wajah, gaya pribadi, dan kebutuhan penglihatan Anda. Jangan lupa untuk mencoba beberapa model kacamata sebelum Anda membelinya.
     				</p>
-    				<p class="card-text text-justify">
+    				<p class="card-text text-left">
     					<a class="btn btn-primary rounded-pill"
     					href="{{"/tips-kacamata-pemula-nyaman-dipakai/" | relative_url }}"
     					title="Tips Memilih Kacamata Bagi Pemula Yang Nyaman Dipakai">Selanjutnya
@@ -213,10 +213,10 @@ comments: false
     				<h5 class="card-title">
     				Tips Memilih Kacamata Berdasarkan Rambut Supaya Tampil Kekinian
     				</h5>
-    				<p class="card-text text-justify">
+    				<p class="card-text text-left">
     				Salah satu cara tampil menarik adalah dengan mengetahui tips memilih kacamata berdasarkan rambut. Mengapa rambut sangat penting bagi pemilihan kacamata yang Kamu lakukan? Alasannya sudah jelas bahwa kombinasi warna rambut bisa menentukan segala hal. Apalagi rambut dikenal sebagai mahkota sehingga sangat penting menyesuaikannya.
     				</p>
-    				<p class="card-text text-justify">
+    				<p class="card-text text-left">
     					<a class="btn btn-primary rounded-pill text-decoration-none"
     					href="{{"/tips-kacamata-gaya-rambut/" | relative_url }}"
     					title="Tips Memilih Kacamata Berdasarkan Rambut Supaya Tampil Kekinian">

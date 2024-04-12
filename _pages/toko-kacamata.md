@@ -24,10 +24,10 @@ comments: false
       <h3 class="card-title">
         Pusat Toko Kacamata & Frame di Kemayoran Jakarta, Terdekat Untuk Semua Kalangan
       </h3>
-      <p class="card-text text-justify">
+      <p class="card-text text-left">
         Optikal Bahari menyediakan beragam pilihan lensa kacamata beserta dengan frame yang trendy dan terbaru. Tetap dengan selalu memperhatikan harga yang terjangkau dan cocok untuk setiap kebutuhan dan gaya kamu. Kami mengerti bahwa membeli kacamata bukanlah hal yang dikategorikan mudah bagi sebagian masyarakat, oleh karena itu kami memberikan layanan pembayaran dengan cicilan yang memudahkan Anda dalam membeli kacamata yang diinginkan. Selain itu, kami juga menerima pembayaran menggunakan KJP untuk membantu Anda yang membutuhkan kacamata namun belum memiliki keuangan yang mencukupi.
       </p>
-      <p class="card-text text-justify">
+      <p class="card-text text-left">
         Selain itu, di Optikal Bahari kami juga menyediakan layanan periksa mata gratis dengan menggunakan alat komputer yang terbaru. Proses pemeriksaan ini akan memberikan hasil yang akurat dan membantu Anda untuk mengetahui apakah ada perubahan pada ukuran mata atau tidak. Hal ini sangat penting untuk dilakukan secara rutin agar Anda dapat terus memantau kondisi mata dan memperbaiki penglihatan Anda dengan cara yang tepat. Kunjungi Optikal Bahari sekarang juga untuk memeriksa kondisi mata dan memastikan penglihatan Anda selalu dalam keadaan yang optimal.
       </p>
     </div>
@@ -44,10 +44,10 @@ comments: false
       <h3 class="card-title">
         Segera Kunjungi Optikal Bahari
       </h3>
-      <p class="card-text text-justify">
+      <p class="card-text text-left">
         Kami menyadari bahwa dalam memilih kacamata yang tepat bukanlah hal yang mudah, terutama karena ada banyaknya pilihan yang tersedia di pasaran. Namun, di Optikal Bahari kami memiliki team ramah dan terlatih yang akan membantu Anda dalam memilih kacamata paling sesuai dengan kebutuhan dan gaya Anda. Kami juga selalu memberikan saran yang terbaik kepada pelanggan kami agar dapat memilih kacamata yang paling sesuai dengan kebutuhan dan anggaran mereka. Jadi, jangan ragu untuk mengunjungi Optikal Bahari dan temui staff ramah kami yang siap membantu Anda.
       </p>
-      <p class="card-text text-justify">
+      <p class="card-text text-left">
         Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
         <a
           href="https://www.facebook.com/optikalbahari"

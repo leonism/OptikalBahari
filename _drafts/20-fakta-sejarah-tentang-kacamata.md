@@ -22,7 +22,7 @@ comments: false
     <h3 class="card-title">
       22 fakta sejarah tentang kacamata
     </h3>
-    <p class="card-text text-justify">
+    <p class="card-text text-left">
       Berikut adalah beberapa fakta sejarah tentang kacamata yang sering kali terlewatkan dari pengamatan dalam keseharian anda. Apa saja yang membuatnya menarik? Berikut Optikal Bahari rangkum untuk anda para sahabat Optikal Bahari semuanya.
     </p>
     <ol>
@@ -96,7 +96,7 @@ comments: false
     <h3 class="card-title">
       Segera Kunjungi Optikal Bahari
     </h3>
-    <p class="card-text text-justify">
+    <p class="card-text text-left">
       Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
       <a
         href="https://www.facebook.com/optikalbahari"

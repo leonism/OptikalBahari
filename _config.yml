@@ -35,9 +35,10 @@ plugins:
   - jekyll-minifier
   - jekyll-image-size
   - jekyll-responsive-magick
+  - jekyll_picture_tag
 # - jekyll-resize
 # - jekyll-webp
-# - jekyll_picture_tag
+# - jekyll-picture-tag
 
 include: ["_pages"]
 
@@ -48,7 +49,18 @@ exclude:
   - .sass-cache/
   - .jekyll-cache/
   - .git
+  - .frontmatter/
+  - .DS_Store
+  - cache
+  - _responsive
 
+# picture:
+#   source: assets/img
+#   output: assets/resized_images
+#   relative_url: true
+#   dimension_attributes: true
+
+# images compression
 responsive:
   widths: [400,500,700,900]
   quality: 30

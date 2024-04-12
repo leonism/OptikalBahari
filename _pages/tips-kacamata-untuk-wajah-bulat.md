@@ -22,22 +22,22 @@ comments: false
     <h3 class="card-title">
       Kacamata Untuk Wajah Bulat
     </h3>
-    <p class="card-text text-justify">
+    <p class="card-text text-left">
       Model kacamata merupakan salah satu hal yang penting untuk dipertimbangkan bagi para pengguna kacamata. Hal ini di karenakan model kacamata yang tepat akan membuat penampilan kita lebih terlihat elegan dan terlihat lebih baik. Namun, tidak semua model kacamata cocok untuk semua bentuk wajah, terutama bagi yang mempunyai wajah bulat. Wajah bulat merupakan bentuk wajah yang terlihat lebih lonjong dan memiliki garis tengah yang lebih pendek dibandingkan dengan wajah lainnya.
     </p>
-    <p class="card-text text-justify">
+    <p class="card-text text-left">
       Bagi yang memiliki wajah bulat, pilihan model kacamata yang tepat akan membantu menyempurnakan bentuk wajah dan membuat penampilan terlihat lebih seimbang. Salah satu model kacamata yang tepat untuk wajah bulat adalah kacamata dengan frame yang berbentuk kotak atau persegi panjang. Model ini akan membuat wajah terlihat lebih tirus dan memperpanjang garis tengah wajah. Selain itu, model kacamata dengan frame yang lebih tebal juga dapat membantu menyeimbangkan bentuk wajah yang lebih bulat.
     </p>
-    <p class="card-text text-justify">
+    <p class="card-text text-left">
       Tipe wajah bulat biasanya memiliki ciri-ciri seperti lebar yang sama dengan tinggi wajah, tidak adanya garis tajam di bagian rahang dan pipi, serta ukuran dagu yang tidak terlalu lebar. Wajah bulat terlihat lebih bundar dan full, yang bisa terlihat lebih menarik bagi beberapa orang. Namun, bagi sebagian orang yang ingin memiliki wajah yang terlihat lebih tirus dan memiliki garis-garis wajah yang tajam, wajah bulat mungkin tidak sesuai dengan keinginan mereka.
     </p>
     <h3 class="card-title">
       Tips Memilih Kacamata Untuk Wajah Bulat
     </h3>
-    <p class="card-text text-justify">
+    <p class="card-text text-left">
       Untuk mengurangi efek wajah bulat, ada beberapa cara yang bisa dilakukan. Salah satunya adalah dengan memilih model rambut yang tepat. Model rambut yang tinggi dan bervolume di bagian atas kepala bisa membuat wajah terlihat lebih kontras dan garis-garis tajam yang akan lebih terlihat. Selain itu, model rambut dengan potongan garis lurus di bagian bawah juga bisa memberikan kesan wajah lebih panjang, tirus dan lebih kontras.
     </p>
-    <p class="card-text text-justify">
+    <p class="card-text text-left">
       Selain memilih model rambut yang tepat, memilih model kacamata yang tepat juga bisa membantu mengurangi efek wajah bulat. Beberapa model kacamata yang cocok untuk wajah bulat adalah kacamata dengan frame yang lebih tajam dan garis-garis tajam, seperti kacamata aviator atau wayfarer. Kacamata dengan frame yang lebih tajam akan membuat wajah terlihat lebih kontras dan garis-garis tajam yang lebih terlihat.
     </p>
     <h3 class="card-title">
@@ -57,10 +57,10 @@ comments: false
         Mintalah saran dari staff Optikal Bahari: Staff kami yang terlatih dapat membantu Anda memilih model kacamata yang tepat sesuai dengan bentuk wajah dan gaya Anda. Jangan ragu untuk bertanya dan minta saran dari mereka.
       </li>
     </ol>
-    <p class="card-text text-justify">
+    <p class="card-text text-left">
       Jadi secara garis besar, kacamata yang cocok untuk wajah bulat adalah kacamata dengan frame yang berbingkai tajam seperti layaknya model aviator atau wayfarer, serta kacamata dengan frame yang lebih tebal dan berbentuk kotak atau persegi panjang. Memilih model kacamata yang sesuai dengan bentuk wajah akan membantu menyempurnakan penampilan dan membuat penampilan terlihat lebih seimbang. Selain itu, meminta saran dari staff kami juga dapat membantu memilih model kacamata yang tepat.
     </p>
-    <p class="card-text text-justify">
+    <p class="card-text text-left">
       Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
       <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
       <a

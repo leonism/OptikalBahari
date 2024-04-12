@@ -20,14 +20,14 @@ comments: false
       alt="Hubungi Optikal Bahari">
     <div class="card-body">
       <h3 class="card-title">Hubungi Optikal Bahari</h3>
-      <p class="card-text text-justify">
-        Merasa bingung tentang kacamata dan pemeriksaan mata? Anda tidak sendirian, baik itu untuk pertama kali 
+      <p class="card-text text-left">
+        Merasa bingung tentang kacamata dan pemeriksaan mata? Anda tidak sendirian, baik itu untuk pertama kali  
         menggunakan kacamata, mengganti kacamata lama, atau sekadar melakuakan pemeriksaan rutin, wajar jika Anda
         memiliki banyak pertanyaan. Di Optikal Bahari, kami memahami kekhawatiran dan kebingungan Anda. Itulah mengapa
         kami hadir sebagai mitra terpercaya untuk solusi kacamata dan kesehatan mata Anda.
       </p>
-      <p class="card-text text-justify">
-        Dengan pengalaman lebih dari 40 tahun, kami telah membantu banyak pelanggan mendapatkan kacamata yang tepat dan 
+      <p class="card-text text-left">
+        Dengan pengalaman lebih dari 40 tahun, kami telah membantu banyak pelanggan mendapatkan kacamata yang tepat dan  
         pemeriksaan mata yang menyeluruh. Staff Optikal Bahari yang ramah dan profesional siap menjawab segala
         pertanyaan Anda dengan jelas dan informatif. Kami akan membantu Anda memahami jenis kacamata yang sesuai dengan
         kebutuhan dan gaya hidup Anda, serta menjelaskan berbagai pilihan lensa yang tersedia. Selain itu, kami juga
@@ -45,14 +45,14 @@ comments: false
           formId: 'dd1ec443-6b6b-41ea-afa8-d200972642c1',
         });
       </script>
-      <p class="card-text text-justify">
-        Proses mendapatkan kacamata baru di Optikal Bahari terasa mudah dan menyenangkan. Kami menyediakan berbagai 
+      <p class="card-text text-left">
+        Proses mendapatkan kacamata baru di Optikal Bahari terasa mudah dan menyenangkan. Kami menyediakan berbagai  
         pilihan kacamata dari brand ternama dengan kualitas terbaik. Anda dapat dengan bebas mencoba berbagai model dan
         berkonsultasi dengan staf kami untuk mendapatkan rekomendasi. Kami juga menawarkan harga yang kompetitif dan
         proses pemeriksaan & service kacamata secara gratis.
       </p>
-      <p class="card-text text-justify">
-        Tim kami yang berpengalaman siap menjawab pertanyaan Anda dengan jelas dan informatif. Kami juga akan membantu 
+      <p class="card-text text-left">
+        Tim kami yang berpengalaman siap menjawab pertanyaan Anda dengan jelas dan informatif. Kami juga akan membantu  
         Anda memilih kacamata yang tepat sesuai dengan kebutuhan, gaya dan seputar kebubutuhan anda dalam pemakaian
         kacamata, atau pemeriksaan mata. Segera hubungi kami melalui pengisian kontak dibawah ini. Untuk respond yang
         lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
