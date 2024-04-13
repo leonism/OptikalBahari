@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Set the directory containing your images
-input_dir="/Volumes/DATA/Jekyll/OptikalBahari/assets/img/posts/kpop-female-01"
+input_dir="/Volumes/DATA/Jekyll/OptikalBahari/assets/img/posts/beach-girls-00"
 
 # Set the quality parameter (0-100, where 100 is the highest quality)
-quality=50
+quality=30
 
 # Set the desired width and height for the output images (0 for no resizing)
 width=0
