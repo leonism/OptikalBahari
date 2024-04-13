@@ -75,8 +75,8 @@ responsive:
 # html compression
 compress_html:
   clippings: all
-  # comments: ['<!-- ', ' -->']
-  comments: all
+  comments: ["<!-- ", " -->"]
+  # comments: all
   endings: all
   ignore:
     envs: [local]
