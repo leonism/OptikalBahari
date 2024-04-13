@@ -25,7 +25,7 @@
 
 
 source "https://rubygems.org"
-gem "jekyll", "~> 4.2.2"
+gem "jekyll", "~> 4.3.3"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
@@ -33,10 +33,11 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
   gem "jekyll-archives"
-  gem "jekyll-minifier"
   gem "jekyll-image-size"
   gem "jekyll-responsive-magick"
-  gem 'jekyll_picture_tag', '~> 2.0'
+  gem "jekyll-minifier"
+# gem "jekyll-redirect-from"
+# gem 'jekyll_picture_tag', '~> 2.0'
 # gem "jekyll-webp"
 # gem "jekyll-resize", git: "https://github.com/MichaelCurrin/jekyll-resize"
 end

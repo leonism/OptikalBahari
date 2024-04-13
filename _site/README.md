@@ -100,7 +100,7 @@ For reference, look at the [demo repository](https://github.com/BlackrockDigital
 
 Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
 
-6. Build your site: `bundle exec jekyll serve`
+6. Build your site: `bundle exec jekyll serve` or `bundle exec jekyll build` or `bundle exec jekyll serve --livereload` or `bundle install`
 
 ### Using Core Files
 
