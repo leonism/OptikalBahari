@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the directory containing your images
-input_dir="/Volumes/DATA/Jekyll/OptikalBahari/assets/img"
+input_dir="/Volumes/DATA/Jekyll/OptikalBahari/assets/img/posts"
 
 # Set the quality parameter (0-100, where 100 is the highest quality)
 quality=50
@@ -45,7 +45,6 @@ done
 
 # Set the directory containing your images
 # input_dir="/Volumes/DATA/Jekyll/OptikalBahari/assets/img/posts/kpop-female-00/"
-
 
 # how to run the script, from your console run the following command
 # ./convert_images.sh
