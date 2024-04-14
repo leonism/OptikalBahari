@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/leonism/gemika-json-ld-images.git
+  revision: fd689c8402951142f4e4ecf990817f9df5ad699e
+  specs:
+    gemika-json-ld-images (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -92,6 +98,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  gemika-json-ld-images!
   jekyll (~> 4.3.3)
   jekyll-archives
   jekyll-feed (~> 0.6)

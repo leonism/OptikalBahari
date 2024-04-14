@@ -56,6 +56,13 @@ exclude:
   - cache
   - _responsive
 
+# directory to scan for images to form JSON-lD for images schema
+include_scan:
+  - _stories/
+exclude_scan:
+  - _site/
+  - _includes/
+
 # picture:
 #   source: assets/img
 #   output: assets/resized_images

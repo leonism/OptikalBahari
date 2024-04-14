@@ -22,4 +22,10 @@ layout: compress
 {% include gtm-head.html %}
 {% include gtm-body.html %}
 {% include fb-comments-bodytag.html %}
-{% include scripts.html %}</html>
+{% include scripts.html %}
+
+{% if page.json_ld_images %}
+  {% for json_ld_image in page.json_ld_images %}
+    {{ json_ld_image | raw }}
+  {% endfor %}
+{% endif %}</html>
