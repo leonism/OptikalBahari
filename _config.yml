@@ -37,6 +37,7 @@ plugins:
   - jekyll-image-size
   - jekyll-responsive-magick
   - jekyll-minifier
+# - jekyll-postcss
 # - jekyll_picture_tag
 # - jekyll-resize
 # - jekyll-webp

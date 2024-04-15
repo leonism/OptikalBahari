@@ -34,8 +34,9 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-archives"
   gem "jekyll-image-size"
-  gem "jekyll-responsive-magick"
   gem "jekyll-minifier"
+  gem "jekyll-responsive-magick"
+# gem "jekyll-postcss"
 # gem "gemika-json-ld-images", github: "leonism/gemika-json-ld-images"
 # gem "jekyll-redirect-from"
 # gem 'jekyll_picture_tag', '~> 2.0'
