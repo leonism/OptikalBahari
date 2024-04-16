@@ -14,6 +14,39 @@
           "@type": "Offer",
           "priceCurrency": "IDR",
           "price": "0",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "merchantReturnDays": 30
+          },
+          "availability": "https://schema.org/InStock",
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "value": 3,
+              "unitCode": "DAY"
+            }
+          },
+          "shippingDetails": [
+            {
+              "@type": "OfferShippingDetails",
+              "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": "0",
+                "currency": "IDR"
+              },
+              "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "ID",
+                "addressRegion": "DKI"
+              }
+            }
+          ],
           "availableAtOrFrom": "https://optikalbahari.com/periksa-mata-gratis/",
           "includes": [
             {
@@ -44,23 +77,6 @@
             {
               "@type": "Offer",
               "name": "Goodie Bag"
-            }
-          ],
-          "shippingDetails": [
-            {
-              "@type": "OfferShippingDetails",
-              "shippingRate": {
-                "@type": "MonetaryAmount",
-                "value": "0",
-                "currency": "IDR"
-              },
-              "shippingDestination": [
-                {
-                  "@type": "DefinedRegion",
-                  "addressCountry": "ID",
-                  "addressRegion": ["DKI"]
-                }
-              ]
             }
           ]
         }

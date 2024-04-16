@@ -8,20 +8,21 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/mexican-02-min/mexican-00-min.webp
+background: /assets/img/posts/asian-eyewear-00/asian-eyewear-00.webp
 permalink: /periksa-mata-gratis-optikal-bahari/
 comments: false
 ---
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		<img 
+        <img
             itemprop="image"
-            data-src="/assets/img/posts/mexican-02-min/mexican-01-min.webp"
-            src="/assets/img/posts/mexican-02-min/mexican-01-min.webp" 
+            src="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" }}"
+            srcset="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" | srcset }}"
+            width="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" | width }}"
+            height="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" | height }}"
             class="card-img-top img-fluid"
-            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">            		
         <div class="card-body">
             <h3 class="card-title">
                 Periksa Mata Gratis Di Optikal Bahari
@@ -56,12 +57,13 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		<img
-            itemprop="image" 
-            data-src="/assets/img/posts/mexican-02-min/mexican-02-min.webp"
-            src="/assets/img/posts/mexican-02-min/mexican-02-min.webp" 
+            itemprop="image"
+            src="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp" }}"
+            srcset="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp" | srcset }}"
+            width="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp" | width }}"
+            height="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp" | height }}"
             class="card-img-top img-fluid"
-            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
+            alt="Kenali Gangguan Mata Lebih Dini">
         <div class="card-body">
             <h3 class="card-title">
                 Kenali Gangguan Mata Lebih Dini
@@ -100,12 +102,13 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		<img
-            itemprop="image" 
-            data-src="/assets/img/posts/mexican-02-min/mexican-03-min.webp"
-            src="/assets/img/posts/mexican-02-min/mexican-03-min.webp" 
+            itemprop="image"
+            src="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp" }}"
+            srcset="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp" | srcset }}"
+            width="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp" | width }}"
+            height="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp" | height }}"
             class="card-img-top img-fluid"
-            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
+            alt="Segera Periksa Mata Anda">
         <div class="card-body">
             <h3 class="card-title">
                 Segera Periksa Mata Anda
@@ -143,12 +146,13 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img 
+		  <img
             itemprop="image"
-            data-src="/assets/img/posts/mexican-02-min/mexican-04-min.webp"
-            src="/assets/img/posts/mexican-02-min/mexican-04-min.webp" 
+            src="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp" }}"
+            srcset="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp" | srcset }}"
+            width="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp" | width }}"
+            height="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp" | height }}"
             class="card-img-top img-fluid"
-            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
             alt="Segera Kunjungi Optikal Bahari">
         <div class="card-body">
             <h3 class="card-title">

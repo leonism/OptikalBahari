@@ -13,8 +13,6 @@ permalink: /tips-trik-kacamata/
 comments: false
 ---
 
-<!-- @format -->
-
 <section id="posts-category1">
 	<div class="card-deckrow mb-3 card-deck">
 		{% for post in site.categories.Lensa limit: 3 %}

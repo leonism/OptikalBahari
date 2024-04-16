@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the directory containing your images
-input_dir="/Volumes/DATA/Jekyll/OptikalBahari/assets/img/posts/beach-girls-00"
+input_dir="/Volumes/DATA/Jekyll/OptikalBahari/assets/img/posts/kpop-female-03"
 
 # Set the quality parameter (0-100, where 100 is the highest quality)
 quality=30

@@ -15,3 +15,59 @@
     "copyrightNotice": "{{ page.author }}"
   }
 </script>
+
+<script type="application/ld+json" class="schemantra">
+  	{
+  		"@context": "https://schema.org",
+  		"@type": "ImageObject",
+  		"@id": "ImageObject",
+  		"isFamilyFriendly": true,
+  		"acquireLicensePage": "{{ site.url }}",
+  		"creditText": {{ site.author_name | jsonify }},
+  		"creator": {
+  					"@type": "Organization",
+  					"name": {{ site.author_name | jsonify }}
+  			},
+  			"uploadDate": {{ page.date | jsonify }},
+  			"dateCreated": {{ page.date | jsonify }},
+  			"dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+  			"abstract": "{% if page.description.size > 10 %}
+  					{{ page.description | truncate: 160 }}
+  						{% else %}
+  					{{ site.description | truncate: 160 }}
+  						{% endif %}",
+  			"alternateName": {{ page.title | strip | jsonify }},
+  			"caption": {{ page.title | jsonify }},
+  			"embedUrl": "{{ site.url }}{{ page.url }}",
+  			"headline": {{ page.title | jsonify }},
+  			"identifier": "{{ site.url }}",
+  			"image": "{{ site.url }}{{ page.background }}",
+  			"alternativeHeadline": {{ page.title | jsonify }},
+  			"archivedAt": "{{ site.url }}{{ page.url }}",
+  			"citation": "{% if page.description.size > 10 %}
+  				{{ page.description | truncate: 160 }}
+  						{% else %}
+  				{{ site.description | truncate: 160 }}
+  						{% endif %}",
+  			"contentUrl": "{{ site.url }}{{ page.background }}",
+  			"copyrightNotice": "{{ site.url }}",
+  			"description": "{% if page.description.size > 10 %}
+  				{{ page.description | truncate: 160 }}
+  						{% else %}
+  				{{ site.description | truncate: 160 }}
+  						{% endif %}",
+  			"embeddedTextCaption": "{% if page.description.size > 10 %}
+  					{{ page.description | truncate: 160 }}
+  						{% else %}
+  					{{ site.description | truncate: 160 }}
+  						{% endif %}",
+  			"isBasedOn": "{{ site.url }}{{ page.background }}",
+  			"isBasedOnUrl": "{{ site.url }}{{ page.background }}",
+  			"inLanguage": "{{ page.lang }}",
+  			"isPartOf": "{{ site.url }}",
+  			"license": "{{ site.url }}",
+  			"mainEntityOfPage": {{ site.author_name | jsonify }},
+  			"keywords": "{{ page.keywords normalize_whitespace | truncate: 160 | escape }}",
+  			"thumbnailUrl": "{{ site.url }}{{ page.background }}"
+  	}
+</script>

@@ -46,7 +46,7 @@
         {% assign dimensions = image_url | image_size %}
         "width": "{{ dimensions[0] }}",		
         "height": "{{ dimensions[1] }}",
-	    "url": "{{ site.url }} {{ page.img_url | default: site.img_url }}"
+	    "url": "{{ site.url }}{{ page.img_url | default: site.img_url }}"
 	  }
 	}
 </script>

@@ -1,4 +1,5 @@
 {
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"prettier.vueIndentScriptAndStyle": true,
 	"prettier.withNodeModules": true,
 	"prettier.useTabs": true,
@@ -9,7 +10,10 @@
 	"workbench.list.horizontalScrolling": true,
 	"html.format.indentHandlebars": true,
 	"prettier.bracketSameLine": true,
-
+	"editor.formatOnSave": true,
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
 	"[jekyll]": {
 		"editor.quickSuggestions": {
 			"comments": "on",
