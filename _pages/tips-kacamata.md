@@ -15,10 +15,12 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp"
-    src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp"
-    class="card-img-top"
-    title="Pilih Kacamata Sesuaikan Dengan Bentuk Wajah"
+    itemprop="image"
+    src="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp" }}"
+    srcset="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp" | srcset }}"
+    width="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp" | width }}"
+    height="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp" | height }}"
+    class="card-img-top img-fluid"
     alt="Pilih Kacamata Sesuaikan Dengan Bentuk Wajah">
   <div class="card-body">
     <h3 class="card-title">
@@ -32,10 +34,12 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp"
-    src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp"
-    class="card-img-top"
-    title="Kacamata Untuk Wajah Bulat"
+    itemprop="image"
+    src="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp" }}"
+    srcset="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp" | srcset }}"
+    width="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp" | width }}"
+    height="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp" | height }}"
+    class="card-img-top img-fluid"
     alt="Kacamata Untuk Wajah Bulat">
   <div class="card-body">
     <h3 class="card-title">
@@ -55,10 +59,12 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp"
-    src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp"
-    class="card-img-top"
-    title="Kacamata Untuk Wajah Kotak"
+    itemprop="image"
+    src="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp" }}"
+    srcset="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp" | srcset }}"
+    width="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp" | width }}"
+    height="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp" | height }}"
+    class="card-img-top img-fluid"
     alt="Kacamata Untuk Wajah Kotak">
   <div class="card-body">
     <h3 class="card-title">
@@ -78,21 +84,23 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp"
-    src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp"
-    class="card-img-top"
-    title="Kacamata Untuk Wajah Segitiga dan Oval"
+    itemprop="image"
+    src="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp" }}"
+    srcset="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp" | srcset }}"
+    width="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp" | width }}"
+    height="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp" | height }}"
+    class="card-img-top img-fluid"
     alt="Kacamata Untuk Wajah Segitiga dan Oval">
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Untuk Wajah Segitiga dan Oval
     </h3>
     <p class="card-text text-left">
-      Wajah segitiga pada dasarnya hampir mirip dengan wajah kotak, hanya saja pada bagian dagu terlihat lebih ramping dan menyudut. Karena pada bagian garis rahang lebih panjang dan bagian kening lebih kecil, maka kacamata dengan model seperti mata kucing adalah pilihan terbaiknya.                             
+      Wajah segitiga pada dasarnya hampir mirip dengan wajah kotak, hanya saja pada bagian dagu terlihat lebih ramping dan menyudut. Karena pada bagian garis rahang lebih panjang dan bagian kening lebih kecil, maka kacamata dengan model seperti mata kucing adalah pilihan terbaiknya.                                      
                     Lensa ini biasanya memiliki frame bagian atas yang lebih tebal daripada bagian bawah. Di sisi lain, lensa juga melebar di bagian bawah. Model kacamata seperti ini sangat cocok untuk mengimbangi bentuk wajah segitiga. Ini juga merupakan tips memilih kacamata sesuai wajah yang tepat buatmu.
     </p>
     <p class="card-text text-left">
-      Wajah tipe satu ini banyak yang menyebutnya sebagai bentuk wajah paling ideal. Memiliki bagian dahi lebar, namun bagian garis rahang yang bulat menjadikan bentuk wajah ini terlihat sempurna. Hampir semua model kacamata bisa cocok dengan bentuk wajah satu ini sehingga Kamu tidak perlu khawatir.                             
+      Wajah tipe satu ini banyak yang menyebutnya sebagai bentuk wajah paling ideal. Memiliki bagian dahi lebar, namun bagian garis rahang yang bulat menjadikan bentuk wajah ini terlihat sempurna. Hampir semua model kacamata bisa cocok dengan bentuk wajah satu ini sehingga Kamu tidak perlu khawatir.                                      
       Namun jika ingin terlihat lebih keren, Kamu bisa memakai kacamata dengan frame tebal melengkung. Kamu juga bisa memilih warna frame apapun, bukan hanya hitam, namun hampir semua warna. Apalagi jika Kamu memiliki kulit bersih dan cerah, maka akan menjadikan penampilanmu lebih menarik.
     </p>
   </div>
@@ -100,11 +108,13 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp"
-    src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp"
-    class="card-img-top"
-    title="tips-memilih-kacamata-sesuai-wajah"
-    alt="tips-memilih-kacamata-sesuai-wajah">
+    itemprop="image"
+    src="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp" }}"
+    srcset="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp" | srcset }}"
+    width="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp" | width }}"
+    height="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp" | height }}"
+    class="card-img-top img-fluid"
+    alt="Segera Kunjungi Optikal Bahari">
   <div class="card-body">
     <h3 class="card-title">
       Segera Kunjungi Optikal Bahari

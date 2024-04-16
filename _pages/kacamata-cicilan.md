@@ -15,10 +15,12 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/malay-hijab-01/malay-hijab-01.webp"
-    src="/assets/img/posts/malay-hijab-01/malay-hijab-01.webp"
-    class="card-img-top"
-    title="kacamata cicilan di optikal bahari"
+    itemprop="image"
+    src="{{ "/assets/img/posts/malay-hijab-01/malay-hijab-01.webp" }}"
+    srcset="{{ "/assets/img/posts/malay-hijab-01/malay-hijab-01.webp" | srcset }}"
+    width="{{ "/assets/img/posts/malay-hijab-01/malay-hijab-01.webp" | width }}"
+    height="{{ "/assets/img/posts/malay-hijab-01/malay-hijab-01.webp" | height }}"
+    class="card-img-top img-fluid"
     alt="kacamata cicilan">
   <div class="card-body">
     <h3 class="card-title">
@@ -45,10 +47,12 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/malay-hijab-01/malay-hijab-02.webp"
-    src="/assets/img/posts/malay-hijab-01/malay-hijab-02.webp"
-    title="kacamata cicilan di optikal bahari"
-    class="card-img-top"
+    itemprop="image"
+    src="{{ "/assets/img/posts/malay-hijab-01/malay-hijab-02.webp" }}"
+    srcset="{{ "/assets/img/posts/malay-hijab-01/malay-hijab-02.webp" | srcset }}"
+    width="{{ "/assets/img/posts/malay-hijab-01/malay-hijab-02.webp" | width }}"
+    height="{{ "/assets/img/posts/malay-hijab-01/malay-hijab-02.webp" | height }}"
+    class="card-img-top img-fluid"
     alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
     <h3 class="card-title">
@@ -73,10 +77,12 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/malay-hijab-01/malay-hijab-03.webp"
-    src="/assets/img/posts/malay-hijab-01/malay-hijab-03.webp"
-    title="kacamata cicilan murah di jakarta"
-    class="card-img-top"
+    itemprop="image"
+    src="{{ "/assets/img/posts/malay-hijab-01/malay-hijab-03.webp" }}"
+    srcset="{{ "/assets/img/posts/malay-hijab-01/malay-hijab-03.webp" | srcset }}"
+    width="{{ "/assets/img/posts/malay-hijab-01/malay-hijab-03.webp" | width }}"
+    height="{{ "/assets/img/posts/malay-hijab-01/malay-hijab-03.webp" | height }}"
+    class="card-img-top img-fluid"
     alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
   <div class="card-body">
     <h3 class="card-title">
