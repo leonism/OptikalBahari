@@ -16,11 +16,12 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-01.webp"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-01.webp"
-    class="card-img-top"
-    title="Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting"
-    alt="Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting">
+    src="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" }}"
+    srcset="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" | srcset }}"
+    width="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" | width }}"
+    height="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" | height }}"
+    class="card-img-top img-fluid"
+    alt="Periksakan Mata Anda Secara Rutin">
   <div class="card-body">
     <h3 class="card-title">
       Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting
@@ -39,10 +40,12 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-02.webp"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-02.webp"
-    title="kacamata cicilan di optikal bahari"
-    class="card-img-top"
+    itemprop="image"
+    src="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" }}"
+    srcset="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" | srcset }}"
+    width="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" | width }}"
+    height="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" | height }}"
+    class="card-img-top img-fluid"
     alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
     <h3 class="card-title">
@@ -62,11 +65,13 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-03.webp"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-03.webp"
-    title="kacamata cicilan murah di jakarta"
-    class="card-img-top"
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+    itemprop="image"
+    src="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" }}"
+    srcset="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" | srcset }}"
+    width="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" | width }}"
+    height="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" | height }}"
+    class="card-img-top img-fluid"
+    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
     <h3 class="card-title">
       Tren Kacamata Wanita Terkini yang Harus Anda Coba
@@ -85,11 +90,13 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-04.webp"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-04.webp"
-    title="kacamata cicilan murah di jakarta"
-    class="card-img-top"
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+    itemprop="image"
+    src="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" }}"
+    srcset="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" | srcset }}"
+    width="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" | width }}"
+    height="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" | height }}"
+    class="card-img-top img-fluid"
+    alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru">
   <div class="card-body">
     <h3 class="card-title">
       Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru
@@ -108,11 +115,13 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/whitesand-girls/whitesand-girls-05.webp"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-05.webp"
-    title="kacamata cicilan murah di jakarta"
-    class="card-img-top"
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+    itemprop="image"
+    src="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" }}"
+    srcset="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" | srcset }}"
+    width="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" | width }}"
+    height="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" | height }}"
+    class="card-img-top img-fluid"
+    alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru">
   <div class="card-body">
     <h3 class="card-title">
       Temukan Kacamata Wanita Impian Anda di Optikal Bahari!

@@ -17,8 +17,11 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
-      class="card-img-top"
+      src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" }}"
+      srcset="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | srcset }}"
+      width="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | width }}"
+      height="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | height }}"
+      class="card-img-top img-fluid"
       alt="Periksakan Mata Anda Secara Rutin">
     <div class="card-body">
       <h3 class="card-title">
@@ -57,9 +60,13 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp" | relative_url }}"
-      class="card-img-top"
-      alt="tips-kacamata-2.webp">
+      itemprop="image"
+      src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp" }}"
+      srcset="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp" | srcset }}"
+      width="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp" | width }}"
+      height="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp" | height }}"
+      class="card-img-top img-fluid"
+      alt="Periksa Mata Cepat & Akurat">
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Cepat & Akurat
@@ -84,9 +91,13 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | relative_url }}"
-      class="card-img-top"
-      alt="tips-kacamata-2.webp">
+      itemprop="image"
+      src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" }}"
+      srcset="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | srcset }}"
+      width="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | width }}"
+      height="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | height }}"
+      class="card-img-top img-fluid"
+      alt="Periksa Mata Cepat & Akurat">
     <div class="card-body">
       <h3 class="card-title">
         Proses Pertama: Menggunakan Autorefractometer
@@ -117,9 +128,13 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp" | relative_url }}"
-      class="card-img-top"
-      alt="tips-kacamata-2.webp">
+      itemprop="image"
+      src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp" }}"
+      srcset="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp" | srcset }}"
+      width="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp" | width }}"
+      height="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp" | height }}"
+      class="card-img-top img-fluid"
+      alt="Periksa Mata Cepat & Akurat">
     <div class="card-body">
       <h3 class="card-title">
         Proses Kedua: Menggunakan Alat Phoropter
@@ -146,9 +161,13 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp" | relative_url }}"
-      class="card-img-top"
-      alt="Kunjungi Optikal Bahari">
+      itemprop="image"
+      src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp" }}"
+      srcset="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp" | srcset }}"
+      width="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp" | width }}"
+      height="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp" | height }}"
+      class="card-img-top img-fluid"
+      alt="Periksa Mata Cepat & Akurat">
     <div class="card-body">
       <h3 class="card-title">
         Kunjungi Optikal Bahari

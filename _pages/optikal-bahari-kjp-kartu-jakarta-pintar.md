@@ -16,10 +16,13 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
-    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
-    class="card-img-top"
-    alt="kjp-optikalbahari.webp">
+    itemprop="image"
+    src="{{ "/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp" }}"
+    srcset="{{ "/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp" | srcset }}"
+    width="{{ "/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp" | width }}"
+    height="{{ "/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp" | height }}"
+    class="card-img-top img-fluid"
+    alt="Program Kartu Jakarta Pintar (KJP)">
   <div class="card-body">
     <h3 class="card-title">
       Program Kartu Jakarta Pintar (KJP)
@@ -38,10 +41,13 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
-    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
-    class="card-img-top"
-    alt="Optikal Bahari & Program Kartu Jakarta Pintar (KJP)">
+    itemprop="image"
+    src="{{ "/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp" }}"
+    srcset="{{ "/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp" | srcset }}"
+    width="{{ "/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp" | width }}"
+    height="{{ "/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp" | height }}"
+    class="card-img-top img-fluid"
+    alt="Program Kartu Jakarta Pintar (KJP)">
   <div class="card-body">
     <h3 class="card-title">
       Beli Kacamata Dengan KJP (Kartu Jakarta Pintar)
@@ -59,10 +65,13 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    data-src="/assets/img/posts/035.webp"
-    src="/assets/img/posts/035.webp"
-    class="card-img-top"
-    alt="kjp-optikalbahari.webp">
+    itemprop="image"
+    src="{{ "/assets/img/posts/035.webp" }}"
+    srcset="{{ "/assets/img/posts/035.webp" | srcset }}"
+    width="{{ "/assets/img/posts/035.webp" | width }}"
+    height="{{ "/assets/img/posts/035.webp" | height }}"
+    class="card-img-top img-fluid"
+    alt="Program Kartu Jakarta Pintar (KJP)">
   <div class="card-body">
     <h3 class="card-title">
       Segera Kunjungi Optikal Bahari
