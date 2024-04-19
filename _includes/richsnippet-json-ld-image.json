@@ -29,6 +29,8 @@
                 "@type": "http://schema.org/ViewAction"
             },
             "userInteractionCount": "{{ page.views }}"
-        }
+        },
+        "license": "{{ site.url }}/license",
+        "copyrightNotice": "{{ site.author_name }}"
     }
 </script>

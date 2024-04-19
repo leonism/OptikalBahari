@@ -76,15 +76,15 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.6)
-    rouge (3.30.0)
+    rouge (4.2.1)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
-    terminal-table (2.0.0)
+    terminal-table (3.0.2)
       unicode-display_width (~> 1.1, >= 1.1.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
-    unicode-display_width (1.8.0)
+    unicode-display_width (2.5.0)
     webrick (1.8.1)
 
 PLATFORMS
@@ -105,3 +105,7 @@ DEPENDENCIES
 
 BUNDLED WITH
    2.3.24
+
+# rouge (3.30.0)
+# unicode-display_width (1.8.0)
+# terminal-table (>= 1.8, < 4.0)

@@ -9,6 +9,26 @@
         "@type": "Brand",
         "name": "Optikal Bahari"
       },
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Ramdani Yusuf"
+        },
+        "datePublished": "2024-04-09",
+        "reviewBody": "Garansinya beneran lho , pelayanan baik dan ramah ngga nyesel deh kesini yuk cuzz yang lagi cari kacamata meluncurrr❤"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "100"
+      },
       "offers": [
         {
           "@type": "Offer",
@@ -78,27 +98,7 @@
               "@type": "Offer",
               "name": "Goodie Bag"
             }
-          ],
-          "review": {
-            "@type": "Review",
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "4.5",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
-            "author": {
-              "@type": "Person",
-              "name": "John Doe"
-            },
-            "datePublished": "2024-04-09",
-            "reviewBody": "Excellent product, highly recommended!"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.5",
-            "reviewCount": "100"
-          }
+          ]
         }
       ]
     }
