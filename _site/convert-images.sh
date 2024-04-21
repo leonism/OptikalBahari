@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Set the directory containing your images
-input_dir="/Volumes/DATA/Jekyll/OptikalBahari/assets/img/posts/whitesand-girls"
+# Set the directory containing your images, leaving the last trailing slash empty
+input_dir="/Volumes/DATA/Jekyll/OptikalBahari/assets/img/posts/kacamata-hitam-wanita"
 
 # Set the quality parameter (0-100, where 100 is the highest quality)
 quality=20
