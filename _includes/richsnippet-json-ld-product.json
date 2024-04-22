@@ -36,7 +36,8 @@
           "price": "0",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnDays": 30
+            "applicableCountry": "ID",
+            "returnPolicyCategory": "https://schema.org/NoReturns"
           },
           "availability": "https://schema.org/InStock",
           "deliveryTime": {
@@ -98,7 +99,8 @@
               "@type": "Offer",
               "name": "Goodie Bag"
             }
-          ]
+          ],
+          "priceValidUntil": "2025-12-31"
         }
       ]
     }
