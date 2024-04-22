@@ -72,7 +72,7 @@ exclude:
 
 # images compression
 responsive:
-  widths: [576, 768, 992, 1200]
+  widths: [320, 640, 960, 1280, 2560]
   quality: 25
 
 # Small devices (landscape phones, 576px and up)
