@@ -23,7 +23,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "2.7" # Adjust the Ruby version as needed
+          ruby-version: "2.7.8" # Adjust the Ruby version as needed
           bundler-cache: true
       - name: Build with Jekyll
         run: |
