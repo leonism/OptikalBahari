@@ -45,12 +45,16 @@
             "handlingTime": {
               "@type": "QuantitativeValue",
               "value": 1,
-              "unitCode": "DAY"
+              "unitCode": "DAY",
+              "minValue": 1,
+              "maxValue": 1
             },
             "transitTime": {
               "@type": "QuantitativeValue",
               "value": 3,
-              "unitCode": "DAY"
+              "unitCode": "DAY",
+              "minValue": 3,
+              "maxValue": 3
             }
           },
           "shippingDetails": [
@@ -71,12 +75,16 @@
                 "handlingTime": {
                   "@type": "QuantitativeValue",
                   "value": 1,
-                  "unitCode": "DAY"
+                  "unitCode": "DAY",
+                  "minValue": 1,
+                  "maxValue": 1
                 },
                 "transitTime": {
                   "@type": "QuantitativeValue",
                   "value": 3,
-                  "unitCode": "DAY"
+                  "unitCode": "DAY",
+                  "minValue": 3,
+                  "maxValue": 3
                 }
               }
             }
