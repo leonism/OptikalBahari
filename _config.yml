@@ -97,6 +97,10 @@ sass:
   style: compressed
 
 jekyll-minifier:
+  uglifier_args:
+    harmony: true
+
+jekyll-minifier:
   exclude: "atom.xml" # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
   preserve_php: true # Default: false
   remove_spaces_inside_tags: true # Default: true
