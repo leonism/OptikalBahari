@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: https://optikalbahari.com/cgi-bin/
-
-User-agent: *
-Allow: /
-Sitemap: https://optikalbahari.com/sitemap.xml
