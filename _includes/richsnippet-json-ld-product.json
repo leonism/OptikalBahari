@@ -26,8 +26,8 @@
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "100"
+        "ratingValue": "5",
+        "reviewCount": "470"
       },
       "offers": [
         {
@@ -37,7 +37,7 @@
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
             "applicableCountry": "ID",
-            "returnPolicyCategory": "https://schema.org/NoReturns"
+            "returnPolicyCategory": "https://schema.org/NoReturn"
           },
           "availability": "https://schema.org/InStock",
           "deliveryTime": {
@@ -65,6 +65,19 @@
                 "@type": "DefinedRegion",
                 "addressCountry": "ID",
                 "addressRegion": "DKI"
+              },
+              "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": {
+                  "@type": "QuantitativeValue",
+                  "value": 1,
+                  "unitCode": "DAY"
+                },
+                "transitTime": {
+                  "@type": "QuantitativeValue",
+                  "value": 3,
+                  "unitCode": "DAY"
+                }
               }
             }
           ],
