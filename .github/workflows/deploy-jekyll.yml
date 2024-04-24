@@ -54,7 +54,7 @@ jobs:
           gem install jekyll-sitemap -v 1.4.0
           gem install jekyll-seo-tag -v 2.7.1
           gem install jekyll-archives -v 2.2.1
-          gem install jekyll-image-size -v 2.1.1
+          gem install jekyll-image-size
           gem install jekyll-responsive-magick -v 2.2.0
 
       - name: Build with Jekyll
