@@ -1,33 +1,20 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
@@ -37,13 +24,13 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.1" # Adjust to your preferred Ruby version
-          bundler-cache: true # Run 'bundle install' and cache installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          ruby-version: "3.1"
+          bundler-cache: true
+          cache-version: 0
 
       - name: Install dependencies
         run: |
-          gem install bundler -v 2.2.31 # Use bundler version compatible with Ruby 3.1
+          gem install bundler -v 2.2.31
           bundle install
 
       - name: Install Jekyll and other gems
@@ -57,19 +44,16 @@ jobs:
           gem install jekyll-responsive-magick
 
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
 
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: built-site
           path: ./_site
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
@@ -78,7 +62,6 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        # Download the artifact created in the build job
         uses: actions/download-artifact@v2
         with:
           name: built-site
