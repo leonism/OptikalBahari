@@ -48,7 +48,14 @@ jobs:
 
       - name: Install Jekyll and other gems
         run: |
-          gem install jekyll jekyll-feed jekyll-paginate jekyll-sitemap jekyll-seo-tag jekyll-archives jekyll-image-size jekyll-responsive-magick -v 3.9.1 # Adjust to compatible gem versions
+          gem install jekyll -v 3.9.1
+          gem install jekyll-feed -v 0.15.1
+          gem install jekyll-paginate -v 1.1.0
+          gem install jekyll-sitemap -v 1.4.0
+          gem install jekyll-seo-tag -v 2.7.1
+          gem install jekyll-archives -v 2.2.1
+          gem install jekyll-image-size -v 2.1.1
+          gem install jekyll-responsive-magick -v 2.2.0
 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
