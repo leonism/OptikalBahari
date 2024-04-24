@@ -37,18 +37,18 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "2.7.8" # Adjust to your preferred Ruby version
+          ruby-version: "3.1" # Adjust to your preferred Ruby version
           bundler-cache: true # Run 'bundle install' and cache installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
 
       - name: Install dependencies
         run: |
-          gem install bundler -v 2.4.22
+          gem install bundler -v 2.2.31 # Use bundler version compatible with Ruby 3.1
           bundle install
 
       - name: Install Jekyll and other gems
         run: |
-          gem install jekyll jekyll-feed jekyll-paginate jekyll-sitemap jekyll-seo-tag jekyll-archives jekyll-image-size jekyll-responsive-magick
+          gem install jekyll jekyll-feed jekyll-paginate jekyll-sitemap jekyll-seo-tag jekyll-archives jekyll-image-size jekyll-responsive-magick -v 3.9.1 # Adjust to compatible gem versions
 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
