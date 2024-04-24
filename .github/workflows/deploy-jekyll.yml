@@ -51,7 +51,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: built-site
+          name: built-site # Use the same artifact name here
           path: ./_site
 
   deploy:
@@ -64,10 +64,11 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v2
         with:
-          name: built-site
+          name: built-site # Ensure consistency with the uploaded artifact name
+          path: ./_site
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          token: ${{ secrets.GITHUB_TOKEN }} # Use 'token' instead of 'github_token'
+          publish_dir: ./_site # Use 'publish_dir' to specify the directory to publish
