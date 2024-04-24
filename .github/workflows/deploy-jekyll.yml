@@ -51,7 +51,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: built-site # Use the same artifact name here
+          name: gh-pages # Use the same artifact name here
           path: ./_site
 
   deploy:
@@ -64,7 +64,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v2
         with:
-          name: built-site # Ensure consistency with the uploaded artifact name
+          name: gh-pages # Ensure consistency with the uploaded artifact name
           path: ./_site
 
       - name: Deploy to GitHub Pages
