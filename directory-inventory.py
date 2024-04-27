@@ -1,8 +1,8 @@
 import os
 
 # Start editable vars
-outputfile = "/Volumes/DATA/Jekyll/OptikalBahari/assets/img/inventory.txt"  # File to save the results to
-folder = "/Volumes/DATA/Jekyll/OptikalBahari/assets/img/"  # The folder to inventory
+outputfile = "/Volumes/DATA/Jekyll/OptikalBahari/assets/img/inventory.txt"  # Full directory path to save the results to
+folder = "/Volumes/DATA/Jekyll/OptikalBahari/assets/img/"  # Full directory path to scan
 exclude_strings = ['Thumbs.db', '.tmp', '.css', '.html', '.md', '.js', '.DS_Store']  # Exclude files containing these strings
 # End editable vars
 
