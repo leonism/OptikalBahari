@@ -6,7 +6,7 @@ This repository holds the official Jekyll version of the Clean Blog theme on Sta
 
 ## Preview
 
-[![Clean Blog (Jekyll) Preview](https://github.com/leonism/OptikalBahari/blob/master/screenshoot.png)](https://optikalbahari.com/)
+[![Clean Blog (Jekyll) Preview](screenshoot.png)](https://optikalbahari.com/)
 
 **[View Live Preview](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)**
 
@@ -25,19 +25,23 @@ When installing the theme using RubyGems, demo images, posts, and pages are not 
 Assuming there are no errors and the site is building properly, follow these steps next:
 
 1. Create the following pages if they do not exist already (or change the extension of exisitig markdown files from `.md` to `.html`):
+
    - `index.html` - set to `layout: home`
    - `about.html` - set to `layout: page`
    - `contact.html` - set to `layout: page`
    - `posts/index.html` - set to `layout: page` (you will also need to create a `posts` directory)
 
 2. Configure the `index.html` front matter. Example:
+
 ```
 ---
 layout: home
 background: '/PATH_TO_IMAGE'
 ---
 ```
+
 3. Configure the `about.html`, `contact.html`, and `posts/index.html` front matter. Example:
+
 ```
 ---
 layout: page
@@ -46,7 +50,9 @@ description: This is the page description.
 background: '/PATH_TO_IMAGE'
 ---
 ```
+
 4. For each post in the `_posts` directory, update the front matter. Example:
+
 ```
 ---
 layout: post
@@ -60,6 +66,7 @@ background: '/PATH_TO_IMAGE'
 For reference, look at the [demo repository](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) to see how the files are set up.
 
 5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
+
 ```
 <form name="sentMessage" id="contactForm" novalidate>
   <div class="control-group">
@@ -109,6 +116,7 @@ When using the core files, the demo images, posts, and pages are all included wi
 1. [Download](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
 
 2. Update the following configuration settings in your `_config.yml` file:
+
    - `baseurl`
    - `url`
    - `title`
@@ -131,49 +139,17 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+- https://startbootstrap.com
+- https://twitter.com/SBootstrap
 
 Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+- http://davidmiller.io
+- https://twitter.com/davidmillerskt
+- https://github.com/davidtmiller
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
 
 Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/gh-pages/LICENSE) license.
-
-## My Own Notes
-
-1. Point the main link-css in the "_site/assets" to "main.css"
-2. Create "_sass" folder in the root directory
-3. In that "_sass" folder has a ".scss" file that imported the "theme.scss"
-4. Create the theme styling in the "theme.scss" file.
-
-- Jadi cara kerja Jekyll itu bakalan copy semua files yg ada di root folder.
-- Semua file/folder kecuali file yg depannya ada "_" atau "."
-- dan define file scss didalam directory _scss yg didalamnya bakalan import scss files lainnya.
-
-
-- bundle exec jekyll serve --livereload
-
-https://stevenwestmoreland.com/2021/01/using-tailwind-css-with-jekyll.html
-
-<img itemprop="image" 
-  src="{{" {% thumbnail /assets/img/bg-about.jpg 348x232 %}" | relative_url "}}" 
-  class="card-img-top img-fluid" alt="Periksa Mata Gratis">
-<img itemprop="image" 
-  src="{{"/assets/img/bg-about.jpg" | relative_url "}}" 
-  class="card-img-top img-fluid" alt="Periksa Mata Gratis">
-<img itemprop="image" 
-  src={{ "{% thumbnail /assets/img/bg-about.jpg 348x232 " }}%} 
-  class="card-img-top img-fluid" alt="Periksa Mata Gratis">
-
-<img itemprop="image" 
-  src="{{"{{ "{% thumbnail /assets/img/bg-about.jpg 348x232 " }}%} | relative_url "}}" 
-  class="card-img-top img-fluid" alt="Periksa Mata Gratis">
-
-{{ "{% thumbnail path/to/image.jpg 50x50 " }}%}
