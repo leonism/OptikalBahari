@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Toko Kacamata Terdekat
-subtitle: 'Dapatkan Layanan Periksa Mata Gratis, Cicilan 0%, Bergaransi'
+subtitle: "Dapatkan Layanan Periksa Mata Gratis, Cicilan 0%, Bergaransi"
 description: "Toko Kacamata Terdekat Kami, Menawarkan Berbagai Pilihan Lensa dan Frame dengan Harga Terjangkau, Sementara Tetap Memberikan Pelayanan Terbaik Untuk Konsumen Kami"
-keywords: 'toko kacamata terdekat, toko, kacamata, toko kacamata'
+keywords: "toko kacamata terdekat, toko, kacamata, toko kacamata"
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -12,7 +12,6 @@ background: /assets/img/posts/018.webp
 permalink: /toko-kacamata-terdekat/
 comments: false
 ---
-
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
     <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
@@ -29,7 +28,6 @@ comments: false
         </p>
     </div>
 </div>
-
 
 {% include home-cards.html %}
 
