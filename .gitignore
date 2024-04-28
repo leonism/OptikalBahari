@@ -1,23 +1,23 @@
 ### Jekyll ###
 _site
-Gemfile.lock
-Gemfile
+# Gemfile.lock
+# Gemfile
 .sass-cache
 .jekyll-metadata
 .sass
 .jekyll-cache/
 .git
-.vscode
-node_modules
+# .vscode
 _.scss
 optikalbahari.code-workspace
 LICENSE
 package-lock.json
 package.json
+.README.md.swp
 
 ### Gulp ###
 package.json
-/node_modules/
+node_modules/
 
 ### Atom ###
 .ftpconfig
