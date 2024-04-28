@@ -14,6 +14,7 @@ LICENSE
 package-lock.json
 package.json
 .README.md.swp
+.git
 
 ### Gulp ###
 package.json

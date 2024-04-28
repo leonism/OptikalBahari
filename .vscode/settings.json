@@ -27,7 +27,7 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"files.associations": {
-		"*.md": "liquid",
+		"*.md": "markdown",
 		"*.markdown": "liquid",
 		"*.html": "liquid",
 		"*.liquid": "jekyll"

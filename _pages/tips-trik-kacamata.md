@@ -156,12 +156,11 @@ comments: false
 	</div>
 </section>
 
-{% comment %}
-
+<!--
 <div class="card shadow p-3 bg-white mb-5">
-<img data-src="/assets/img/posts/kpop-female-00/kpop-female-00.webp" 
-				src="/assets/img/posts/kpop-female-00/kpop-female-00.webp" 
-				class="card-img-top text-decoration-none" 
+<img data-src="/assets/img/posts/kpop-female-00/kpop-female-00.webp"
+				src="/assets/img/posts/kpop-female-00/kpop-female-00.webp"
+				class="card-img-top text-decoration-none"
 				alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
 
     		<div class="card-body">
@@ -223,5 +222,4 @@ comments: false
     				</p>
     			</div>
     			</div>
-
-{% endcomment %}
+-->
