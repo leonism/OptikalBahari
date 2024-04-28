@@ -1,7 +1,7 @@
 ### Jekyll ###
-# _site
-# Gemfile.lock
-# Gemfile
+_site
+Gemfile.lock
+Gemfile
 .sass-cache
 .jekyll-metadata
 .sass
@@ -19,11 +19,9 @@ package.json
 package.json
 /node_modules/
 
-
 ### Atom ###
 .ftpconfig
 .sftpconfig
-
 
 ### Compiled Source ###
 *.com
@@ -73,7 +71,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
 ### Windows ###
 Thumbs.db
 ehthumbs.db
@@ -112,3 +109,6 @@ pnpm-debug.log*
 # images cache
 cache/
 _responsive
+
+# cloudflare
+my-worker
