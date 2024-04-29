@@ -37,7 +37,7 @@
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
             "applicableCountry": "ID",
-            "returnPolicyCategory": "https://schema.org/NoReturn"
+            "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
           },
           "availability": "https://schema.org/InStock",
           "deliveryTime": {

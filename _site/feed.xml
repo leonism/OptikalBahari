@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-28T21:26:52+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Optikal Bahari</title><subtitle>Periksa Mata &amp; Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa Denda, Izin Dinkes/Kemenkes &amp; Terima KJP. Pertama &amp; Terpercaya Sejak 1978</subtitle><author><name>Optikal Bahari</name></author><entry xml:lang="id-ID"><title type="html">Tren Kacamata Hitam Wanita, Gaya Terkini yang Wajib Dimiliki</title><link href="http://localhost:4000/tren-kacamata-hitam-wanita/" rel="alternate" type="text/html" title="Tren Kacamata Hitam Wanita, Gaya Terkini yang Wajib Dimiliki" /><published>2024-04-21T08:25:23+07:00</published><updated>2024-04-21T08:25:23+07:00</updated><id>http://localhost:4000/tren-kacamata-hitam-wanita</id><content type="html" xml:base="http://localhost:4000/tren-kacamata-hitam-wanita/"><![CDATA[<div class="card-deck mb-3">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-30T05:54:48+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Optikal Bahari</title><subtitle>Periksa Mata &amp; Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa Denda, Izin Dinkes/Kemenkes &amp; Terima KJP. Pertama &amp; Terpercaya Sejak 1978</subtitle><author><name>Optikal Bahari</name></author><entry xml:lang="id-ID"><title type="html">Tren Kacamata Hitam Wanita, Gaya Terkini yang Wajib Dimiliki</title><link href="http://localhost:4000/tren-kacamata-hitam-wanita/" rel="alternate" type="text/html" title="Tren Kacamata Hitam Wanita, Gaya Terkini yang Wajib Dimiliki" /><published>2024-04-21T08:25:23+07:00</published><updated>2024-04-21T08:25:23+07:00</updated><id>http://localhost:4000/tren-kacamata-hitam-wanita</id><content type="html" xml:base="http://localhost:4000/tren-kacamata-hitam-wanita/"><![CDATA[<div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      src="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp"
-      srcset="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp 1456w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02-320w.webp 320w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02-640w.webp 640w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02-960w.webp 960w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02-1280w.webp 1280w"
-      width="1456"
-      height="816"
+      src="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" }}"
+      srcset="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" | srcset }}"
+      width="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" | width }}"
+      height="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" | height }}"
       class="card-img-top img-fluid"
       alt="Kacamata Hitam Wanita">
     <div class="card-body">
@@ -25,130 +25,16 @@
   </div>
 </div>
 
-<section id="KenapaOptikalBahari">
-  <div class="card-deckrow mb-3 card-deck">
-
-    <!-- start the Periksa Mata -->
-    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-      <a
-        href="/periksa-mata-gratis/"
-        role="button"
-        title="Periksa Mata Gratis">
-          <!--
-          <img  itemprop="image"data-src="/assets/img/bg-about.webp"        src="/assets/img/bg-about.webp"      width="1920"    height="1281"  class="card-img-top img-fluid"loading="lazy"        title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"      alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
-        -->
-        <img
-          itemprop="image"
-          src="/assets/img/bg-about.webp"
-          srcset="/assets/img/bg-about.webp 2336w, /assets/img/bg-about-320w.webp 320w, /assets/img/bg-about-640w.webp 640w, /assets/img/bg-about-960w.webp 960w, /assets/img/bg-about-1280w.webp 1280w"
-          width="2336"
-          height="1558"
-          class="card-img-top img-fluid"
-          alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
-      </a>
-      <div class="card-body">
-        <h5 class="card-title align-middle">
-          <i class="fas fa-check fas-1x"></i>
-          Periksa Mata Gratis
-        </h5>
-        <p class="card-text">
-          Lakukan pemeriksaan mata teratur, agar terdeteksi segala keluhan dan perubahan ukuran mata.
-        </p>
-        <a
-          href="/periksa-mata-gratis/"
-          class="btn btn-primary rounded-pill align-text-bottom text-decoration-none"
-          role="button"
-          title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
-          Lebih Lanjut
-        </a>
-      </div>
-    </div>
-    <!-- end the Periksa Mata -->
-
-    <!-- start the Cicilan -->
-    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-      <a
-        href="/kacamata-cicilan/"
-        role="button"
-        title="Kacamata Cicilan 0%">
-          <!--
-          <img  data-src="/assets/img/bg-index-arch-1.webp"src="/assets/img/bg-index-arch-1.webp"        width="1920"      height="1281"    class="card-img-top img-fluid"  loading="lazy"alt="Kacamata Cicilan 0%">
-        -->
-        <img
-          itemprop="image"
-          src=" /assets/img/bg-index-arch-1.webp"
-          srcset="/assets/img/bg-index-arch-1.webp 1200w, /assets/img/bg-index-arch-1-320w.webp 320w, /assets/img/bg-index-arch-1-640w.webp 640w, /assets/img/bg-index-arch-1-960w.webp 960w"
-          width="1200"
-          height="801"
-          class="card-img-top img-fluid"
-          alt="Kacamata Cicilan 0%">
-      </a>
-      <div class="card-body">
-        <h5 class="card-title align-middle">
-          <i class="fas fa-check fas-1x"></i>
-          Kacamata Cicilan 0%
-        </h5>
-        <p class="card-text">
-          Beli Kacamata Nyicil, Bayar Bulanan, Tanpa DP, Tanpa Credit Card dan Tanpa Bunga
-        </p>
-        <a
-          href="/kacamata-cicilan/"
-          class="btn btn-primary rounded-pill text-decoration-none"
-          role="button"
-          title="Program Kacamata Cicilan Tanpa Bunga">
-          Lebih Lanjut
-        </a>
-      </div>
-    </div>
-    <!-- end the Cicilan -->
-
-    <!-- start the bayar KJP -->
-    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-      <a
-        href="/optikal-bahari-kjp-kartu-jakarta-pintar/"
-        role="button"
-        title="Menerima Pembayaran KJP">
-          <!--
-          <img  itemprop="image"data-src="/assets/img/bg-kjp.webp"        src="/assets/img/bg-kjp.webp"      width="1920"    height="1281"  class="card-img-top img-fluid"loading="lazy"        alt="Menerima Pembayaran KJP">
-        -->
-        <img
-          itemprop="image"
-          src="/assets/img/bg-kjp.webp"
-          srcset="/assets/img/bg-kjp.webp 750w, /assets/img/bg-kjp-320w.webp 320w, /assets/img/bg-kjp-640w.webp 640w"
-          width="750"
-          height="500"
-          class="card-img-top img-fluid"
-          alt="Menerima Pembayaran KJP">
-      </a>
-      <div class="card-body">
-        <h5 class="card-title align-middle">
-          <i class="fas fa-check fas-1x"></i>
-          Terima Pembayaran KJP
-        </h5>
-        <p class="card-text">
-          Kami menerima bentuk pembayaran kacamata dengan KJP (Kartu Jakarta Pintar).
-        </p>
-        <a
-          href="/optikal-bahari-kjp-kartu-jakarta-pintar/"
-          class="btn btn-primary rounded-pill text-decoration-none"
-          role="button"
-          title="Menerima Pembayaran KJP">
-          Lebih Lanjut
-        </a>
-      </div>
-    </div>
-  <!-- end the bayar KJP -->
-  </div>
-</section>
+{% include home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      src=" /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp"
-      srcset="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp 1456w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03-320w.webp 320w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03-640w.webp 640w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03-960w.webp 960w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03-1280w.webp 1280w"
-      width="1456"
-      height="816"
+      src="{{" /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" }}"
+      srcset="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" | srcset }}"
+      width="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" | width }}"
+      height="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" | height }}"
       class="card-img-top img-fluid"
       alt="Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi">
     <div class="card-body">
@@ -170,10 +56,10 @@
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      src=" /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
-      srcset="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp 1456w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04-320w.webp 320w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04-640w.webp 640w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04-960w.webp 960w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04-1280w.webp 1280w"
-      width="1456"
-      height="816"
+      src="{{" /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp" }}"
+      srcset="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp" | srcset }}"
+      width="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp" | width }}"
+      height="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp" | height }}"
       class="card-img-top img-fluid"
       alt="Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi">
     <div class="card-body">
@@ -195,10 +81,10 @@
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      src=" /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
-      srcset="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp 1456w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05-320w.webp 320w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05-640w.webp 640w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05-960w.webp 960w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05-1280w.webp 1280w"
-      width="1456"
-      height="816"
+      src="{{" /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp" }}"
+      srcset="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp" | srcset }}"
+      width="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp" | width }}"
+      height="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp" | height }}"
       class="card-img-top img-fluid"
       alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru">
     <div class="card-body">
@@ -220,10 +106,10 @@
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      src=" /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
-      srcset="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp 1456w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06-320w.webp 320w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06-640w.webp 640w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06-960w.webp 960w, /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06-1280w.webp 1280w"
-      width="1456"
-      height="816"
+      src="{{" /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp" }}"
+      srcset="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp" | srcset }}"
+      width="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp" | width }}"
+      height="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp" | height }}"
       class="card-img-top img-fluid"
       alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru">
     <div class="card-body">
