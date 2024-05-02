@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div itemscope itemtype="https://schema.org/WebSite">
   <meta itemprop="url" content="{{ site.url }}">
   {% if page.title %}
@@ -18,10 +19,15 @@ layout: default
   id="contactForm"
   novalidate
   action="https://formspree.io/gerryleonugroho@gmail.com"
-  method="post"
->
-  <input type="hidden" name="_subject" value="Halllo from contact form!">
-  <input type="text" name="_gotcha" style="display: none">
+  method="post">
+  <input
+    type="hidden"
+    name="_subject"
+    value="Halllo from contact form!">
+  <input
+    type="text"
+    name="_gotcha"
+    style="display: none">
 
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
@@ -33,8 +39,7 @@ layout: default
         id="name"
         name="name"
         required
-        data-validation-required-message=""
-      >
+        data-validation-required-message="">
       <div class="help-block text-danger"></div>
     </div>
 
@@ -48,8 +53,7 @@ layout: default
         name="email"
         required
         data-validation-validemail-message=""
-        data-validation-required-message=""
-      >
+        data-validation-required-message="">
       <div class="help-block text-danger"></div>
     </div>
 
@@ -62,8 +66,7 @@ layout: default
         id="message"
         name="message"
         required
-        data-validation-required-message=""
-      ></textarea>
+        data-validation-required-message=""></textarea>
       <div class="help-block text-danger"></div>
     </div>
   </div>
@@ -73,6 +76,9 @@ layout: default
   <div id="success"></div>
 
   <div class="form-group">
-    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+    <button
+      type="submit"
+      class="btn btn-primary"
+      id="sendMessageButton">Send</button>
   </div>
 </form>

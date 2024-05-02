@@ -9,13 +9,6 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-image-size"
   gem "jekyll-responsive-magick"
-# gem "jekyll-minifier"
-# gem "jekyll-postcss"
-# gem "gemika-json-ld-images", github: "leonism/gemika-json-ld-images"
-# gem "jekyll-redirect-from"
-# gem 'jekyll_picture_tag', '~> 2.0'
-# gem "jekyll-webp"
-# gem "jekyll-resize", git: "https://github.com/MichaelCurrin/jekyll-resize"
 end
 
 
@@ -26,6 +19,13 @@ end
 #   gem "jekyll-feed", "~> 0.6"
 #   gem "jekyll-paginate", "~> 1.1.0"
 #   gem "jekyll-sitemap"
+#   gem "jekyll-minifier"
+#   gem "jekyll-postcss"
+#   gem "gemika-json-ld-images", github: "leonism/gemika-json-ld-images"
+#   gem "jekyll-redirect-from"
+#   gem 'jekyll_picture_tag', '~> 2.0'
+#   gem "jekyll-webp"
+#  gem "jekyll-resize", git: "https://github.com/MichaelCurrin/jekyll-resize"
 # end
 #
 # # Performance-booster for watching directories on Windows

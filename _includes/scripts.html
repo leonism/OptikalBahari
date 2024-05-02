@@ -7,8 +7,7 @@
 -->
 <!-- Form Validation -->
 <!--
-  {% if page.url contains 'contact' %}    <script src="{{"/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script>    <script>      $(function () {        $("#contactForm input,#contactForm textarea").jqBootstrapValidation({      preventSubmit: true,      submitError: function ($form, event, errors) {        // additional error messages or events
-      },
+  {% if page.url contains 'contact' %}    <script src="{{"/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script>    <script>      $(function () {        $("#contactForm input,#contactForm textarea").jqBootstrapValidation({      preventSubmit: true,      submitError: function ($form, event, errors) {        // additional error messages or events      },
       submitSuccess: function ($form, event) {
         event.preventDefault(); // prevent default submit behaviour
         // get values from FORM

@@ -5,12 +5,12 @@ author_name: Optikal Bahari
 author_first_name: Optikal
 author_last_name: Bahari
 email: optikalbahari@gmail.com
-baseurl: ""
-url: "https://optikalbahari.com"
+baseurl: ''
+url: 'https://optikalbahari.com'
 tagline: Melayani Segala Kebutuhan Kacamata Anda
 subtitle: Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima KJP
 permalink: /:title/
-# google_analytics: G-FV2N66E55Q
+# google_analytics: G-FV2N66E55Q // no longer needed, since we use Google Tag Manager
 
 # Social Profiles
 instagram_username: optikalbahari
@@ -22,18 +22,18 @@ youtube_username: optikalbahari
 # Build settings
 markdown: kramdown
 paginate: 5
-paginate_path: "/posts/page:num/"
+paginate_path: '/posts/page:num/'
 tag_page_layout: tag_page
 tag_page_dir: tag
 
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-archives
-  - jekyll-image-size
-  - jekyll-responsive-magick
+    - jekyll-feed
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-seo-tag
+    - jekyll-archives
+    - jekyll-image-size
+    - jekyll-responsive-magick
 # - jekyll-minifier
 # - jekyll-postcss
 # - jekyll_picture_tag
@@ -41,19 +41,19 @@ plugins:
 # - jekyll-webp
 # - jekyll-picture-tag
 
-include: ["_pages"]
+include: ['_pages']
 
 exclude:
-  - package.json
-  - node_modules
-  - gulpfile.js
-  - .sass-cache/
-  - .jekyll-cache/
-  - .git
-  - .frontmatter/
-  - .DS_Store
-  - cache
-  - _responsive
+    - package.json
+    - node_modules
+    - gulpfile.js
+    - .sass-cache/
+    - .jekyll-cache/
+    - .git
+    - .frontmatter/
+    - .DS_Store
+    - cache
+    - _responsive
 
 # directory to scan for images to form JSON-lD for images schema
 # include_scan:
@@ -70,8 +70,8 @@ exclude:
 
 # images compression
 responsive:
-  widths: [320, 640, 960, 1280, 2560]
-  quality: 25
+    widths: [320, 640, 960, 1280, 2560]
+    quality: 25
 
 # Small devices (landscape phones, 576px and up)
 # Medium devices (tablets, 768px and up)
@@ -80,19 +80,19 @@ responsive:
 
 # html compression
 compress_html:
-  clippings: all
-  # comments: ['<!-- ', ' -->']
-  comments: all
-  endings: all
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: [html, head, body]
+    clippings: all
+    # comments: ['<!-- ', ' -->']
+    comments: all
+    endings: all
+    ignore:
+        envs: [local]
+    blanklines: false
+    profile: false
+    startings: [html, head, body]
 
 # css compression
 sass:
-  style: compressed
+    style: compressed
 # jekyll-minifier:
 #   exclude: "atom.xml" # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
 #   preserve_php: true # Default: false
