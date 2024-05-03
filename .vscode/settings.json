@@ -27,9 +27,9 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "files.associations": {
-        "*.md": "markdown",
-        "*.markdown": "liquid",
-        "*.html": "liquid",
+        "*.md": "jekyll",
+        "*.markdown": "jekyll",
+        "*.html": "jekyll",
         "*.liquid": "jekyll"
     },
     "[liquid]": {
@@ -37,7 +37,7 @@
         "editor.formatOnSave": true
     },
     "[markdown]": {
-        "editor.fontSize": 14,
+        "editor.fontSize": 12,
         "editor.lineHeight": 26,
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 64,
