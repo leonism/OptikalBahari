@@ -86,7 +86,8 @@ comments: false
 
 {% include home-cards.html %}
 
-<!-- <section id="posts-category">	<div class="card-deck">		{% for post in site.categories.Lensa limit : 3 %}		<div class="card shadow p-3 mb-5 bg-white rounded">			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">				{% if page.background %}
+<!-- 
+  <section id="posts-category">	<div class="card-deck">		{% for post in site.categories.Lensa limit : 3 %}		<div class="card shadow p-3 mb-5 bg-white rounded">			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">				{% if page.background %}
 				<img
 					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
 					class="card-img-top"
