@@ -30,11 +30,23 @@ jobs:
             - name: Install Jekyll dependencies
               run: bundle install
 
+            - name: Debug environment
+              run: |
+                  echo "Ruby version:"
+                  ruby -v
+                  echo "Bundler version:"
+                  bundle -v
+                  echo "Jekyll version:"
+                  bundle exec jekyll -v
+
             - name: Build Jekyll site
               run: |
                   JEKYLL_ENV=production bundle exec jekyll build
                   echo "Checking if _site directory exists..."
                   ls -la _site || (echo "ERROR: _site directory is missing!" && exit 1)
+
+            - name: List contents of _site directory
+              run: ls -R _site
 
             - name: Verify _site exists before upload
               run: |
