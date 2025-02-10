@@ -31,12 +31,17 @@ jobs:
               run: bundle install
 
             - name: Build Jekyll site
-              run: JEKYLL_ENV=production bundle exec jekyll build
+              run: |
+                  JEKYLL_ENV=production bundle exec jekyll build
+                  ls -la _site  # ✅ Debugging step to verify the build output
+
+            - name: Verify _site directory exists
+              run: test -d _site && echo "_site exists!" || (echo "_site is missing! Build failed." && exit 1)
 
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
               with:
-                  path: ./_site
+                  path: ./_site # Ensure this path is correct
 
             - name: Deploy to GitHub Pages
               id: deployment
