@@ -3,7 +3,7 @@ name: Deploy Jekyll to GitHub Pages
 on:
     push:
         branches:
-            - master # Runs when pushing to master
+            - master
 
 permissions:
     contents: read
@@ -18,6 +18,9 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v4
 
+            - name: Install dependencies (ImageMagick)
+              run: sudo apt-get update && sudo apt-get install -y imagemagick
+
             - name: Setup Ruby
               uses: ruby/setup-ruby@v1
               with:
@@ -31,9 +34,9 @@ jobs:
               run: JEKYLL_ENV=production bundle exec jekyll build
 
             - name: Upload artifact
-              uses: actions/upload-pages-artifact@v3 # ✅ Updated version
+              uses: actions/upload-pages-artifact@v3
               with:
-                  path: ./_site # Jekyll output directory
+                  path: ./_site
 
             - name: Deploy to GitHub Pages
               id: deployment
