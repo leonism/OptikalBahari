@@ -1,0 +1,40 @@
+name: Deploy Jekyll to GitHub Pages
+
+on:
+    push:
+        branches:
+            - master # Triggers on push to master
+
+permissions:
+    contents: read
+    pages: write
+    id-token: write
+
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Setup Ruby
+              uses: ruby/setup-ruby@v1
+              with:
+                  ruby-version: 3.1
+                  bundler-cache: true # Caches installed gems
+
+            - name: Install Jekyll dependencies
+              run: bundle install
+
+            - name: Build Jekyll site
+              run: JEKYLL_ENV=production bundle exec jekyll build
+
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v2
+              with:
+                  path: ./_site # Jekyll output directory
+
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v2
