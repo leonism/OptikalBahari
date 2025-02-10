@@ -3,7 +3,7 @@ name: Deploy Jekyll to GitHub Pages
 on:
     push:
         branches:
-            - master # Triggers on push to master
+            - master # Runs when pushing to master
 
 permissions:
     contents: read
@@ -31,7 +31,7 @@ jobs:
               run: JEKYLL_ENV=production bundle exec jekyll build
 
             - name: Upload artifact
-              uses: actions/upload-pages-artifact@v2
+              uses: actions/upload-pages-artifact@v3 # ✅ Updated version
               with:
                   path: ./_site # Jekyll output directory
 
