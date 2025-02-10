@@ -34,12 +34,12 @@ plugins:
     - jekyll-archives
     - jekyll-image-size
     - jekyll-responsive-magick
-# - jekyll-minifier
-# - jekyll-postcss
-# - jekyll_picture_tag
-# - jekyll-resize
-# - jekyll-webp
-# - jekyll-picture-tag
+    # - jekyll-minifier
+    # - jekyll-postcss
+    # - jekyll_picture_tag
+    # - jekyll-resize
+    # - jekyll-webp
+    # - jekyll-picture-tag
 
 include: ['_pages']
 
