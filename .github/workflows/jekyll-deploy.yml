@@ -1,53 +1,19 @@
-name: Deploy Jekyll to GitHub Pages
+name: Jekyll site CI
 
 on:
     push:
-        branches:
-            - master
-
-permissions:
-    contents: read
-    pages: write
-    id-token: write
+        branches: ['master']
+    pull_request:
+        branches: ['master']
 
 jobs:
-    build-and-deploy:
+    build:
         runs-on: ubuntu-latest
 
         steps:
-            - name: Checkout repository
-              uses: actions/checkout@v4
-
-            - name: Install dependencies (ImageMagick)
-              run: sudo apt-get update && sudo apt-get install -y imagemagick
-
-            - name: Setup Ruby
-              uses: ruby/setup-ruby@v1
-              with:
-                  ruby-version: 3.1
-                  bundler-cache: true # ✅ Caches installed gems
-
-            - name: Install Jekyll dependencies
-              run: bundle install
-
-            - name: Build Jekyll site
+            - uses: actions/checkout@v4
+            - name: Build the site in the jekyll/builder container
               run: |
-                  JEKYLL_ENV=production bundle exec jekyll build
-                  echo "Checking if _site directory exists..."
-                  ls -la _site || (echo "ERROR: _site directory is missing!" && exit 1)
-
-            - name: Verify _site exists before upload
-              run: |
-                  if [ ! -d "_site" ]; then
-                    echo "ERROR: _site directory is missing! Jekyll build failed."
-                    exit 1
-                  fi
-
-            - name: Upload artifact
-              uses: actions/upload-pages-artifact@v3
-              with:
-                  path: _site # ✅ Make sure this is the correct directory
-
-            - name: Deploy to GitHub Pages
-              id: deployment
-              uses: actions/deploy-pages@v2
+                  docker run \
+                  -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+                  jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
