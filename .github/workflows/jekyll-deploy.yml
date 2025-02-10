@@ -25,7 +25,7 @@ jobs:
               uses: ruby/setup-ruby@v1
               with:
                   ruby-version: 3.1
-                  bundler-cache: true # Caches installed gems
+                  bundler-cache: true # ✅ Caches installed gems
 
             - name: Install Jekyll dependencies
               run: bundle install
@@ -33,15 +33,20 @@ jobs:
             - name: Build Jekyll site
               run: |
                   JEKYLL_ENV=production bundle exec jekyll build
-                  ls -la _site  # ✅ Debugging step to verify the build output
+                  echo "Checking if _site directory exists..."
+                  ls -la _site || (echo "ERROR: _site directory is missing!" && exit 1)
 
-            - name: Verify _site directory exists
-              run: test -d _site && echo "_site exists!" || (echo "_site is missing! Build failed." && exit 1)
+            - name: Verify _site exists before upload
+              run: |
+                  if [ ! -d "_site" ]; then
+                    echo "ERROR: _site directory is missing! Jekyll build failed."
+                    exit 1
+                  fi
 
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
               with:
-                  path: ./_site # Ensure this path is correct
+                  path: _site # ✅ Make sure this is the correct directory
 
             - name: Deploy to GitHub Pages
               id: deployment
