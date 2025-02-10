@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-image-size"
   gem "jekyll-responsive-magick"
+  gem "i18n", "1.14.4"
 end
 
 

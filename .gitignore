@@ -1,15 +1,15 @@
 ### Jekyll ###
 
 _site
-# Gemfile.lock
-# Gemfile
-# .vscode
+Gemfile.lock
+Gemfile
+.vscode
 .sass-cache
 .jekyll-metadata
-.sass
 .jekyll-cache/
 .git
 _.scss
+_sass
 .README.md.swp
 optikalbahari.code-workspace
 LICENSE
@@ -18,7 +18,11 @@ package.json
 .README.md.swp
 .git
 .crossnote
+cache
 optikalbahari-image-resizer/
+_node_modules
+_utilities
+firebase-debug.log
 
 ### Gulp ###
 package.json
