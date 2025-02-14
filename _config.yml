@@ -57,6 +57,16 @@ exclude:
     - cache
     - _responsive
 
+# images compression
+responsive:
+    widths: [320, 640, 960, 1280, 2560]
+    quality: 25
+
+# Small devices (landscape phones, 576px and up)
+# Medium devices (tablets, 768px and up)
+# Large devices (desktops, 992px and up)
+# Extra large devices (large desktops, 1200px and up)
+
 # directory to scan for images to form JSON-lD for images schema
 # include_scan:
 #   - _stories/
@@ -70,20 +80,9 @@ exclude:
 #   relative_url: true
 #   dimension_attributes: true
 
-# images compression
-responsive:
-    widths: [320, 640, 960, 1280, 2560]
-    quality: 25
-
-# Small devices (landscape phones, 576px and up)
-# Medium devices (tablets, 768px and up)
-# Large devices (desktops, 992px and up)
-# Extra large devices (large desktops, 1200px and up)
-
 # html compression
 compress_html:
     clippings: all
-    # comments: ['<!-- ', ' -->']
     comments: all
     endings: all
     ignore:
@@ -91,6 +90,7 @@ compress_html:
     blanklines: false
     profile: false
     startings: [html, head, body]
+    # comments: ['<!-- ', ' -->']
 
 # css compression
 sass:
