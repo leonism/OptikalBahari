@@ -1,5 +1,4 @@
-### Jekyll ###
-
+### Jekyll ##y#
 Gemfile.lock
 Gemfile
 .vscode
@@ -9,6 +8,7 @@ Gemfile
 .git
 _.scss
 _sass
+_utilities
 .README.md.swp
 optikalbahari.code-workspace
 LICENSE
@@ -18,14 +18,15 @@ package.json
 .git
 .crossnote
 cache
-optikalbahari-image-resizer/
-_node_modules
-_utilities
+node_modules
+image-optimizer-worker/node_modules/
+image-compression-worker/node_modules/
 firebase-debug.log
+
 
 ### Gulp ###
 package.json
-node_modules/
+node_modules
 
 ### Atom ###
 .ftpconfig
@@ -96,7 +97,7 @@ dist/
 .output/
 
 # dependencies
-node_modules/
+image-optimizer-worker/node_modules/
 
 # logs
 npm-debug.log*
