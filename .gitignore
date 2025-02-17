@@ -9,6 +9,7 @@ Gemfile
 _.scss
 _sass
 _utilities
+_responsive
 .README.md.swp
 optikalbahari.code-workspace
 LICENSE
