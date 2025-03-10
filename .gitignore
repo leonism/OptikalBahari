@@ -19,10 +19,6 @@ package.json
 .git
 .crossnote
 cache
-node_modules
-image-optimizer-worker/node_modules/
-image-compression-worker/node_modules/
-firebase-debug.log
 
 
 ### Gulp ###

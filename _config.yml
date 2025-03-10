@@ -1,5 +1,7 @@
 title: Optikal Bahari
-description: Periksa Mata & Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa Denda, Izin Dinkes/Kemenkes & Terima KJP. Pertama & Terpercaya Sejak 1978
+description:
+  Periksa Mata & Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa
+  Denda, Izin Dinkes/Kemenkes & Terima KJP. Pertama & Terpercaya Sejak 1978
 author: Optikal Bahari
 author_name: Optikal Bahari
 author_first_name: Optikal
@@ -8,7 +10,10 @@ email: optikalbahari@gmail.com
 baseurl: ''
 url: 'https://optikalbahari.com'
 tagline: Melayani Segala Kebutuhan Kacamata Anda
-subtitle: Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima KJP
+subtitle:
+  Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata
+  Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima
+  KJP
 permalink: /:title/
 # google_analytics: G-FV2N66E55Q // no longer needed, since we use Google Tag Manager
 
@@ -27,40 +32,38 @@ tag_page_layout: tag_page
 tag_page_dir: tag
 
 plugins:
-    - jekyll-feed
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-seo-tag
-    - jekyll-archives
-    - jekyll-image-size
-    - jekyll-responsive-magick
-    # - jekyll-minifier
-    # - jekyll-postcss
-    # - jekyll_picture_tag
-    # - jekyll-resize
-    # - jekyll-webp
-    # - jekyll-picture-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-image-size
+  - jekyll-responsive-magick
+  # - jekyll-minifier
+  # - jekyll-postcss
+  # - jekyll_picture_tag
+  # - jekyll-resize
+  # - jekyll-webp
+  # - jekyll-picture-tag
 
 include: ['_pages']
-
 destination: _site
-
 exclude:
-    - package.json
-    - node_modules
-    - gulpfile.js
-    - .sass-cache/
-    - .jekyll-cache/
-    - .git
-    - .frontmatter/
-    - .DS_Store
-    - cache
-    - _responsive
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - .sass-cache/
+  - .jekyll-cache/
+  - .git
+  - .frontmatter/
+  - .DS_Store
+  - cache
+  - _responsive
 
 # images compression
 responsive:
-    widths: [320, 640, 960, 1280, 2560]
-    quality: 25
+  widths: [320, 640, 960, 1280, 2560]
+  quality: 25
 
 # Small devices (landscape phones, 576px and up)
 # Medium devices (tablets, 768px and up)
@@ -82,19 +85,19 @@ responsive:
 
 # html compression
 compress_html:
-    clippings: all
-    comments: all
-    endings: all
-    ignore:
-        envs: [local]
-    blanklines: false
-    profile: false
-    startings: [html, head, body]
-    # comments: ['<!-- ', ' -->']
+  clippings: all
+  comments: all
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
+  # comments: ['<!-- ', ' -->']
 
 # css compression
 sass:
-    style: compressed
+  style: compressed
 # jekyll-minifier:
 #   exclude: "atom.xml" # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
 #   preserve_php: true # Default: false

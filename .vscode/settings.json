@@ -1,57 +1,57 @@
 {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.vueIndentScriptAndStyle": true,
-    "prettier.withNodeModules": true,
-    "prettier.useTabs": true,
-    "workbench.colorCustomizations": {},
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.scrollToSwitchTabs": true,
-    "workbench.editor.revealIfOpen": true,
-    "workbench.list.horizontalScrolling": true,
-    "html.format.indentHandlebars": true,
-    "prettier.bracketSameLine": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.withNodeModules": true,
+  "prettier.useTabs": true,
+  "workbench.colorCustomizations": {},
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.editor.revealIfOpen": true,
+  "workbench.list.horizontalScrolling": true,
+  "html.format.indentHandlebars": true,
+  "prettier.bracketSameLine": true,
+  "editor.formatOnSave": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "[jekyll]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
     "editor.formatOnSave": true,
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false,
-    "[jekyll]": {
-        "editor.quickSuggestions": {
-            "comments": "on",
-            "strings": "on",
-            "other": "on"
-        },
-        "editor.formatOnSave": true,
-        "editor.wordWrap": "on",
-        "editor.renderWhitespace": "all",
-        "editor.acceptSuggestionOnEnter": "off",
-        "editor.defaultFormatter": "sissel.shopify-liquid"
-    },
-    "files.associations": {
-        "*.md": "jekyll",
-        "*.markdown": "jekyll",
-        "*.html": "jekyll",
-        "*.liquid": "jekyll"
-    },
-    "[liquid]": {
-        "editor.defaultFormatter": "sissel.shopify-liquid",
-        "editor.formatOnSave": true
-    },
-    "[markdown]": {
-        "editor.fontSize": 12,
-        "editor.lineHeight": 26,
-        "editor.wordWrap": "wordWrapColumn",
-        "editor.wordWrapColumn": 64,
-        "editor.lineNumbers": "off",
-        "editor.quickSuggestions": {
-            "comments": "off",
-            "strings": "off",
-            "other": "off"
-        },
-        "editor.minimap.enabled": false
-    },
-    "markdown.preview.breaks": true,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.defaultFormatter": "sissel.shopify-liquid"
+  },
+  "files.associations": {
+    "*.md": "jekyll",
+    "*.markdown": "jekyll",
+    "*.html": "jekyll",
+    "*.liquid": "jekyll"
+  },
+  "[liquid]": {
+    "editor.defaultFormatter": "sissel.shopify-liquid",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
     "editor.fontSize": 12,
-    "markdown.preview.fontSize": 12,
-    "editor.formatOnPaste": true,
-    "diffEditor.codeLens": true
+    "editor.lineHeight": 26,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 64,
+    "editor.lineNumbers": "off",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.minimap.enabled": false
+  },
+  "markdown.preview.breaks": true,
+  "editor.fontSize": 12,
+  "markdown.preview.fontSize": 12,
+  "editor.formatOnPaste": true,
+  "diffEditor.codeLens": true
 }
