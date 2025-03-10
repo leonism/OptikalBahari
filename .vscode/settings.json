@@ -53,5 +53,9 @@
   "editor.fontSize": 12,
   "markdown.preview.fontSize": 12,
   "editor.formatOnPaste": true,
-  "diffEditor.codeLens": true
+  "diffEditor.codeLens": true,
+  "[json]": {
+    "editor.defaultFormatter": "sissel.shopify-liquid",
+    "editor.formatOnSave": true
+  }
 }
