@@ -71,7 +71,7 @@ comments: false
           id="FBClick"
           title="Facebook Page Optikal Bahari"
           class="FacebookPage">Facebook @optikalbahari</a>
-        supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond yang lebih cepat, silahkan     
+        supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond yang lebih cepat, silahkan
 				menghubungi kami di nomor HP/WA ini
         <a
           href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
@@ -86,8 +86,10 @@ comments: false
 
 {% include home-cards.html %}
 
-<!-- 
-  <section id="posts-category">	<div class="card-deck">		{% for post in site.categories.Lensa limit : 3 %}		<div class="card shadow p-3 mb-5 bg-white rounded">			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">				{% if page.background %}
+<!--
+  <section id="posts-category">	<div class="card-deck">		{% for post in site.categories.Lensa limit : 3 %}
+  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">				{% if page.background %}
 				<img
 					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
 					class="card-img-top"
@@ -114,4 +116,5 @@ comments: false
 		</div>
 		{% endfor %}
 	</div>
-</section> -->
+</section>
+-->

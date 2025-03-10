@@ -6,7 +6,7 @@ This repository holds the official Jekyll version of the Clean Blog theme on Sta
 
 ## Preview
 
-[![Clean Blog (Jekyll) Preview](screenshoot.png)](https://optikalbahari.com/)
+[![Clean Blog (Jekyll) Preview](screenshot.png)](https://optikalbahari.com/)
 
 **[View Live Preview](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)**
 

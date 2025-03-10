@@ -1,65 +1,8 @@
-### Jekyll ##y#
-Gemfile.lock
-Gemfile
-.vscode
-.sass-cache
-.jekyll-metadata
-.jekyll-cache/
-.git
-_.scss
-_sass
-_utilities
-_responsive
-.README.md.swp
-optikalbahari.code-workspace
-LICENSE
-package-lock.json
-package.json
-.README.md.swp
-.git
-.crossnote
-cache
-
-
-### Gulp ###
-package.json
-node_modules
-
-### Atom ###
-.ftpconfig
-.sftpconfig
-
-### Compiled Source ###
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-### Compressed Packages ###
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-### Logs and Databases ###
-*.log
-*.sql
-*.sqlite
-
-### Linux ###
-*~
-.fuse_hidden*
-.Trash-*
-.nfs*
-
-### MacOS ###
-*.DS_Store
+# =====================================
+# = Operating System Specific Files   =
+# =====================================
+# macOS
+.DS_Store
 .AppleDouble
 .LSOverride
 Icon
@@ -77,7 +20,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-### Windows ###
+# Windows
 Thumbs.db
 ehthumbs.db
 ehthumbs_vista.db
@@ -89,32 +32,101 @@ $RECYCLE.BIN/
 *.msp
 *.lnk
 
-# build output
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+.nfs*
+
+# =====================================
+# = Build & Development Tools         =
+# =====================================
+# Build outputs
 dist/
 .output/
 
-# dependencies
+# Dependencies
+node_modules/
 image-optimizer-worker/node_modules/
+vendor/
 
-# logs
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# environment variables
+# Environment variables
 .env
 .env.production
 
-# macOS-specific files
-.DS_Store
+# =====================================
+# = Project Specific                  =
+# =====================================
+# Jekyll
+Gemfile.lock
+.jekyll-metadata
+.jekyll-cache/
+.sass-cache/
+_sass/
+_utilities/
+_responsive/
+*.scss
 
-# jekyll cache
-.jekyll-cache
+# Gulp
+package-lock.json
 
-# images cache
-cache/
-_responsive
-
-# cloudflare
+# Cloudflare
 my-worker
+
+# =====================================
+# = IDE & Editor                      =
+# =====================================
+# VS Code
+.vscode/
+
+# Atom
+.ftpconfig
+.sftpconfig
+
+.crossnote/
+optikalbahari.code-workspace
+
+# =====================================
+# = Compiled/Generated Files          =
+# =====================================
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Compressed packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# =====================================
+# = Miscellaneous                     =
+# =====================================
+# Swap files
+*.swp
+
+# Cache directories
+cache/
+
+# Ignore workspace files
+*.code-workspace
+
+# License file (if not needed in repo)
+LICENSE
+
+# Git directory
+.git/

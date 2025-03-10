@@ -1,3 +1,33 @@
 {
-	"recommendations": ["ginfuru.ginfuru-vscode-jekyll-syntax"]
+	"recommendations": [
+		// Jekyll-specific extensions
+		"ginfuru.ginfuru-vscode-jekyll-syntax", // Syntax highlighting for Jekyll files
+		"geddski.jekyll-snippets",             // Snippets for Jekyll development
+
+		// Markdown support
+		"yzhang.markdown-all-in-one",          // Comprehensive Markdown support (formatting, TOC generation, etc.)
+		"bierner.markdown-preview-github-styles", // GitHub-style Markdown preview
+		"DavidAnson.vscode-markdownlint",      // Linting for Markdown files
+
+		// Frontend Development
+		"esbenp.prettier-vscode",              // Code formatter (useful for HTML, CSS, JS, etc.)
+		"dbaeumer.vscode-eslint",              // ESLint integration for JavaScript
+		"stylelint.vscode-stylelint",          // Stylelint for CSS/SCSS
+
+		// Version Control
+		"eamodio.gitlens",                     // Enhanced Git capabilities (blame, history, etc.)
+
+		// Theme and UI Enhancements
+		"zhuangtongfa.material-theme",         // Popular Material Theme for VS Code
+		"PKief.material-icon-theme",           // Material Icon Theme for file icons
+
+		// Other Useful Tools
+		"streetsidesoftware.code-spell-checker", // Spell checker for code and documentation
+		"gruntfuggly.todo-tree",               // Manage TODOs and FIXMEs in your codebase
+		"ms-vscode.live-server"                // Local development server with live reload
+	]
 }
+
+// {
+// 	"recommendations": ["ginfuru.ginfuru-vscode-jekyll-syntax"]
+// }
