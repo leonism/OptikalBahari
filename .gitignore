@@ -71,7 +71,6 @@ Gemfile.lock
 _sass/
 _utilities/
 _responsive/
-*.scss
 
 # Gulp
 package-lock.json
