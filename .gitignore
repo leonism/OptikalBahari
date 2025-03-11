@@ -48,7 +48,7 @@ dist/
 # Dependencies
 node_modules/
 image-optimizer-worker/node_modules/
-vendor/
+
 
 # Logs
 npm-debug.log*
