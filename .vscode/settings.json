@@ -49,11 +49,33 @@
             "strings": "off",
             "other": "off"
         },
-        "editor.minimap.enabled": false
+        "editor.minimap.enabled": false,
+        "markdown.preview.breaks": true,
+        "markdown.preview.fontSize": 12,
+        "markdown.preview.scrollEditorWithPreview": true,
+        "markdown.preview.scrollPreviewWithEditor": true
     },
     "[json]": {
         "editor.defaultFormatter": "sissel.shopify-liquid",
         "editor.formatOnSave": true
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.autoIndent": "full"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "css.validate": true,
+        "scss.validate": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "css.validate": true
     },
     "files.associations": {
         "*.md": "jekyll",
@@ -61,11 +83,28 @@
         "*.html": "jekyll",
         "*.liquid": "jekyll"
     },
-    "markdown.preview.breaks": true,
-    "markdown.preview.fontSize": 12,
-    "html.format.indentHandlebars": true,
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false,
-    "diffEditor.codeLens": true
+    "emmet.includeLanguages": {
+        "jekyll": "html",
+        "liquid": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "html.autoClosingTags": true,
+    "html.autoRenameTags": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "files.exclude": {
+        "**/_site": true,
+        "**/.jekyll-cache": true,
+        "**/cache": true,
+        "**/.sass-cache": true
+    },
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.ignoreMissingGitWarning": true
 }

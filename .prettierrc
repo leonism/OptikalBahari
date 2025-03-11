@@ -50,6 +50,16 @@
         "scssBracketSpacing": false,
         "scssSortProperties": "alphabetical"
       }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "tabWidth": 2,
+        "singleQuote": false,
+        "htmlWhitespaceSensitivity": "strict",
+        "bracketSpacing": true,
+        "endOfLine": "lf"
+      }
     }
   ]
 }

@@ -11,9 +11,8 @@
         height="30"
         title="{{ site.title | escape }}"
         alt="{{ site.title | escape }}">
-      {{ site.title | escape }}
+        {{ site.title | escape }}
     </a>
-
     <button
       class="navbar-toggler"
       type="button"
@@ -34,7 +33,7 @@
       </svg>
     <!-- <i class="fa fa-bars"></i> -->
     </button>
-    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarResponsive">
+    <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav d-flex justify-content-center">
         <li class="nav-item d-flex justify-content-center">
           <a
@@ -69,7 +68,7 @@
             href="{{"/lokasi/" | relative_url }}"
             title="Lokasi Optikal Bahari">Lokasi</a>
         </li>
-        <li class="nav-item d-flex justify-content-end ml-auto bd-highlight">
+        <li class="nav-item d-flex d-flex justify-content-center">
           {% include navbar-search-google.html %}
         </li>
       </ul>

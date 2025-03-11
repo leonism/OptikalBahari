@@ -1,7 +1,5 @@
 title: Optikal Bahari
-description:
-  Periksa Mata & Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa
-  Denda, Izin Dinkes/Kemenkes & Terima KJP. Pertama & Terpercaya Sejak 1978
+description: Periksa Mata & Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa Denda, Izin Dinkes/Kemenkes & Terima KJP. Pertama & Terpercaya Sejak 1978
 author: Optikal Bahari
 author_name: Optikal Bahari
 author_first_name: Optikal
@@ -11,9 +9,7 @@ baseurl: ''
 url: 'https://optikalbahari.com'
 tagline: Melayani Segala Kebutuhan Kacamata Anda
 subtitle:
-  Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata
-  Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima
-  KJP
+  Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima KJP
 permalink: /:title/
 # google_analytics: G-FV2N66E55Q // no longer needed, since we use Google Tag Manager
 
