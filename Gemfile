@@ -4,6 +4,7 @@ gem "jekyll", "~> 4.3.3"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-paginate", "~> 1.1.0"
+  gem "jekyll-paginate-v2"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
   gem "jekyll-archives"
@@ -11,7 +12,6 @@ group :jekyll_plugins do
   gem "jekyll-responsive-magick" # more info read https://github.com/lawmurray/jekyll-responsive-magick
   gem "i18n", "1.14.4"
 end
-
 
 # source "https://rubygems.org"
 # gem "jekyll", "~> 3.8.5"

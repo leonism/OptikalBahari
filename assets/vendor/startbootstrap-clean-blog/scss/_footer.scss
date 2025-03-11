@@ -1,22 +1,139 @@
-// Styling for the footer
+/* Footer Styling */
 footer {
-  padding: 50px 0 65px;
-  .list-inline {
-    margin: 0;
-    padding: 0;
+  padding: 30px 0 40px; /* Reduced padding for mobile */
+  background-color: #f8f9fa; /* Light background for contrast */
+  border-top: 1px solid #e9ecef; /* Subtle border */
+  font-family: 'Arial', sans-serif; /* Base font */
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 4px; /* Smaller gap between icons for closer spacing */
+  margin-bottom: 20px; /* Added bottom margin before the links collection */
+}
+
+/* Font Icons Styling */
+footer .list-inline-item a {
+  color: #10180E; /* Dark green for normal state */
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); /* Simple drop shadow */
+}
+
+footer .list-inline-item a:hover {
+  color: #ED4833; /* Vibrant orange-red for hover state */
+  transform: translateY(-5px); /* Lift effect on hover */
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Enhanced shadow on hover */
+}
+
+footer .list-inline-item .fa-stack {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .list-inline-item .fa-stack:hover {
+  transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
+/* Text Links Styling */
+footer .copyright {
+  font-size: 14px; /* Normal font size */
+  margin-bottom: 0;
+  text-align: center;
+  color: #6C757D; /* Gray text for subtlety */
+  font-family: 'Arial', sans-serif; /* Change font for footer text */
+  letter-spacing: normal; /* Reset letter spacing */
+}
+
+footer .copyright.list-unstyled {
+  list-style: none; /* Remove default list styling */
+  padding-left: 0; /* Remove default padding */
+  margin-bottom: 20px; /* Add consistent bottom margin */
+}
+
+footer .copyright.list-unstyled li {
+  display: inline-block; /* Display list items inline */
+  margin-right: 8px; /* Add spacing between items */
+}
+
+footer .copyright.list-unstyled li:last-child {
+  margin-right: 0; /* Remove margin for the last item */
+}
+
+footer .copyright.list-unstyled a {
+  text-decoration: none;
+  color: #10180E; /* Dark green for normal state */
+  transition: color 0.3s ease, transform 0.3s ease;
+  font-family: 'Arial', sans-serif; /* Change font for links */
+  letter-spacing: normal; /* Reset letter spacing */
+}
+
+footer .copyright.list-unstyled a:hover {
+  color: #ED4833; /* Vibrant orange-red for hover state */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* Badge Styling */
+footer .badge {
+  font-size: 10px; /* Normal badge font size */
+  padding: 4px 6px; /* Normal badge padding */
+  vertical-align: middle;
+  background-color: #DC4245; /* Red background for badge */
+  color: #fff; /* White text for badge */
+  transition: background-color 0.3s ease;
+  letter-spacing: normal; /* Reset letter spacing */
+}
+
+footer .badge:hover {
+  background-color: #c23336; /* Darker red on hover */
+}
+
+/* Copyright Text Styling */
+footer ul:last-of-type {
+  list-style: none; /* Remove default list styling */
+  padding-left: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center-align the copyright text */
+  font-size: 14px; /* Normal font size */
+  color: #10180E; /* Match the color of other footer links */
+  font-family: 'Arial', sans-serif; /* Change font for copyright text */
+  letter-spacing: normal; /* Reset letter spacing */
+}
+
+/* Responsive Adjustments for Mobile */
+@media (max-width: 767.98px) {
+  footer {
+    padding: 20px 0 30px; /* Further reduced padding for mobile */
   }
-  .no-underline a {
-    text-decoration: none;
+
+  footer .list-inline {
+    flex-wrap: wrap; /* Allow icons to wrap to the next line */
+    gap: 2px; /* Smaller gap between icons */
+    margin-bottom: 15px; /* Reduced bottom margin */
   }
-.footer p a {
-    text-decoration: none !important;
+
+  footer .list-inline-item a {
+    padding: 6px; /* Smaller padding for mobile */
+    font-size: 12px; /* Slightly smaller font size for mobile */
   }
-.copyright {
-    font-size: 14px;
-    margin-bottom: 0;
-    text-align: center;
+
+  footer .copyright {
+    font-size: 12px; /* Slightly smaller font size for mobile */
   }
-.copyright a {
-  text-decoration: none !important;
+
+  footer .copyright.list-unstyled li {
+    display: inline-block; /* Keep links inline on mobile */
+    margin: 0 4px; /* Add spacing between items */
+  }
+
+  footer .badge {
+    font-size: 8px; /* Smaller badge font size for mobile */
+    padding: 2px 4px; /* Smaller badge padding for mobile */
+  }
+
+  footer ul:last-of-type {
+    font-size: 12px; /* Slightly smaller font size for mobile */
   }
 }

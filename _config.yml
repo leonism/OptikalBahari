@@ -8,8 +8,7 @@ email: optikalbahari@gmail.com
 baseurl: ''
 url: 'https://optikalbahari.com'
 tagline: Melayani Segala Kebutuhan Kacamata Anda
-subtitle:
-  Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima KJP
+subtitle: Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima KJP
 permalink: /:title/
 # google_analytics: G-FV2N66E55Q // no longer needed, since we use Google Tag Manager
 
@@ -22,10 +21,23 @@ youtube_username: optikalbahari
 
 # Build settings
 markdown: kramdown
-paginate: 5
-paginate_path: '/posts/page:num/'
 tag_page_layout: tag_page
 tag_page_dir: tag
+# paginate: 9
+# paginate_path: "/page/:num/"
+
+
+# Pagination settings for jekyll-paginate-v2
+pagination:
+  enabled: true
+  per_page: 9  # 9 posts per page (3 per section)
+  permalink: "/page/:num/"  # URL structure for paginated pages (e.g., /posts/page/2/)
+  title: ":title - Page :num"  # Page title format
+  sort_field: "date"  # Sort posts by date
+  sort_reverse: true  # Newest first
+  trail:
+    before: 2  # Show 2 pages before current page in navigation
+    after: 2   # Show 2 pages after current page in navigation
 
 plugins:
   - jekyll-feed

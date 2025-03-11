@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/"
       crossorigin>
     <!--
-    <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=1;" name="viewport">! 
+    <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=1;" name="viewport">!
 	-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google-site-verification" content="S78mNAZQFqN0fjs9uj0jlw53fp_JUq1gR7KZry7NoNs" />
@@ -29,7 +29,7 @@
         {{ page.title | strip_html | truncate: 43 }} -
       {% endif %}{{ site.title }}
     </title>
-    <meta name="description" content="{% if page.description.size > 10 %} 
+    <meta name="description" content="{% if page.description.size > 10 %}
 			{{ page.description | truncate: 160 }}
 				{% else %}
 			{{ site.description | truncate: 160 }}
@@ -110,8 +110,9 @@
     <!-- start styling integration -->
     <!-- <link rel="stylesheet" href="{{"/assets/vendor/fontawesome-free/css/all.min.css" | relative_url "}}"> -->
     <!-- <link rel="stylesheet" href="{{"/assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css" | relative_url "}}"> -->
-    <link rel="stylesheet" href="{{"/assets/vendor/bootstrap/css/bootstrap.min.css" | relative_url "}}">    
+    <link rel="stylesheet" href="{{"/assets/vendor/bootstrap/css/bootstrap.min.css" | relative_url "}}">
     <link rel="stylesheet" href="{{"/assets/main.css" | relative_url "}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- end styling integration -->
 
     <!-- <link rel="canonical" href="{{ page.url | replace:'index.html',' ' | absolute_url "}}" /> -->
@@ -121,12 +122,12 @@
       rel="alternate"
       type="application/rss+xml"
       title="{{ site.title | escape }}"
-      href="{{"/feed.xml" | relative_url }}" />    
+      href="{{"/feed.xml" | relative_url }}" />
     <link
       rel="sitemap"
       type="application/xml"
       title="Sitemap"
-      href="{{"/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />    
+      href="{{"/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -150,9 +151,9 @@
       rel="icon"
       type="image/png"
       sizes="192x192"
-      href="{{"/assets/apple-icon.png" | prepend: site.baseurl | prepend: site.url }}" />    
-    <link 
-		rel="manifest" 
+      href="{{"/assets/apple-icon.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link
+		rel="manifest"
 		href="{{"/assets/site.webmanifest" | prepend: site.baseurl | prepend: site.url }}" />
     <link
       rel="mask-icon"
@@ -162,7 +163,31 @@
     <meta name="theme-color" content="#ffffff">
     {% include fb-card.html %}
   </head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+        $(document).ready(function () {
+          $(document).click(function (event) {
+            const navbarToggler = $(".navbar-toggler");
+            const navbarCollapse = $(".navbar-collapse");
+            const searchForm = $("#search-google");
 
+            // Check if the click is outside the navbar and not on the search form
+            if (
+              !navbarToggler.is(event.target) && // Not the toggler button
+              !navbarCollapse.is(event.target) && // Not the navbar itself
+              navbarCollapse.has(event.target).length === 0 && // Not a child of the navbar
+              !searchForm.is(event.target) && // Not the search form
+              searchForm.has(event.target).length === 0 // Not a child of the search form
+            ) {
+              // Check if the navbar is currently open
+              if (navbarCollapse.hasClass("show")) {
+                // Close the navbar
+                navbarToggler.click();
+              }
+            }
+          });
+        });
+      </script>
   <!-- start the google fonts importing, so that it would make less hit request to the network, and cache them -->
   <style>
     /* cyrillic-ext */
@@ -178,7 +203,6 @@
       , U+A640-A69F
       , U+FE2E-FE2F;
     }
-
     /* cyrillic */
     @font-face {
       font-family: 'Lora';
@@ -206,7 +230,6 @@
       , U + 1EA0-1EF9
       , U + 20AB;
     }
-
     /* latin-ext */
     @font-face {
       font-family: 'Lora';
@@ -1591,4 +1614,4 @@
       , U+FEFF
       , U+FFFD;
     }
-  </style>  
+  </style>
