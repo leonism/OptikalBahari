@@ -4,6 +4,7 @@ footer {
   background-color: #f8f9fa; /* Light background for contrast */
   border-top: 1px solid #e9ecef; /* Subtle border */
   font-family: 'Arial', sans-serif; /* Base font */
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Drop shadow for the footer */
 }
 
 footer .list-inline {
@@ -11,7 +12,7 @@ footer .list-inline {
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 4px; /* Smaller gap between icons for closer spacing */
+  gap: 1px; /* Smaller gap between icons for closer spacing */
   margin-bottom: 20px; /* Added bottom margin before the links collection */
 }
 
@@ -21,6 +22,7 @@ footer .list-inline-item a {
   transition: transform 0.3s ease, color 0.3s ease;
   display: inline-block;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); /* Simple drop shadow */
+  font-size: 1.2em; /* Increase icon size by 20% */
 }
 
 footer .list-inline-item a:hover {
@@ -50,7 +52,7 @@ footer .copyright {
 footer .copyright.list-unstyled {
   list-style: none; /* Remove default list styling */
   padding-left: 0; /* Remove default padding */
-  margin-bottom: 20px; /* Add consistent bottom margin */
+  margin-top: 20px; /* Add consistent bottom margin */
 }
 
 footer .copyright.list-unstyled li {
@@ -96,7 +98,7 @@ footer ul:last-of-type {
   padding-left: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
   text-align: center; /* Center-align the copyright text */
-  font-size: 14px; /* Normal font size */
+  font-size: 12px; /* Normal font size */
   color: #10180E; /* Match the color of other footer links */
   font-family: 'Arial', sans-serif; /* Change font for copyright text */
   letter-spacing: normal; /* Reset letter spacing */
@@ -110,13 +112,13 @@ footer ul:last-of-type {
 
   footer .list-inline {
     flex-wrap: wrap; /* Allow icons to wrap to the next line */
-    gap: 2px; /* Smaller gap between icons */
+    gap: 1px; /* Smaller gap between icons */
     margin-bottom: 15px; /* Reduced bottom margin */
   }
 
   footer .list-inline-item a {
-    padding: 6px; /* Smaller padding for mobile */
-    font-size: 12px; /* Slightly smaller font size for mobile */
+    padding: 1px; /* Smaller padding for mobile */
+    font-size: 1.2em; /* Increase icon size by 20% */
   }
 
   footer .copyright {

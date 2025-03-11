@@ -114,12 +114,12 @@ pagination:
         {% if paginator.previous_page %}
             <li class="page-item">
                 <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
-                    <span aria-hidden="true">« Previous</span>
+                    <span aria-hidden="true">« Prev</span>
                 </a>
             </li>
         {% else %}
             <li class="page-item disabled">
-                <span class="page-link">« Previous</span>
+                <span class="page-link">« Prev</span>
             </li>
         {% endif %}
 

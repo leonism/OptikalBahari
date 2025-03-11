@@ -18,16 +18,14 @@
       crossorigin>
     <!--
     <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=1;" name="viewport">!
-	-->
+	  -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google-site-verification" content="S78mNAZQFqN0fjs9uj0jlw53fp_JUq1gR7KZry7NoNs" />
     <meta name="facebook-domain-verification" content="okvg0cr9ei1ai8ubn3xjild1y38oyr" />
     <meta name="p:domain_verify" content="8742998c66c600725ea8758b3d48ca40" />
     <meta name="google-site-verification" content="QwzD8MDRyjoNO82pFwdmrUnOrzhvLieKNF8E2iQq4ag" />
     <title>
-      {% if page.title and page.title != 'Home' %}
-        {{ page.title | strip_html | truncate: 43 }} -
-      {% endif %}{{ site.title }}
+      {% if page.title and page.title != 'Home' %}{{ page.title | strip_html | truncate: 43 }} - {% endif %}{{ site.title }}
     </title>
     <meta name="description" content="{% if page.description.size > 10 %}
 			{{ page.description | truncate: 160 }}
@@ -163,31 +161,8 @@
     <meta name="theme-color" content="#ffffff">
     {% include fb-card.html %}
   </head>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-        $(document).ready(function () {
-          $(document).click(function (event) {
-            const navbarToggler = $(".navbar-toggler");
-            const navbarCollapse = $(".navbar-collapse");
-            const searchForm = $("#search-google");
-
-            // Check if the click is outside the navbar and not on the search form
-            if (
-              !navbarToggler.is(event.target) && // Not the toggler button
-              !navbarCollapse.is(event.target) && // Not the navbar itself
-              navbarCollapse.has(event.target).length === 0 && // Not a child of the navbar
-              !searchForm.is(event.target) && // Not the search form
-              searchForm.has(event.target).length === 0 // Not a child of the search form
-            ) {
-              // Check if the navbar is currently open
-              if (navbarCollapse.hasClass("show")) {
-                // Close the navbar
-                navbarToggler.click();
-              }
-            }
-          });
-        });
-      </script>
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+  <script src="{{"/assets/vendor/jquery/jquery-3.6.0.min.js" | relative_url "}}"></script>
   <!-- start the google fonts importing, so that it would make less hit request to the network, and cache them -->
   <style>
     /* cyrillic-ext */

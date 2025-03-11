@@ -12,6 +12,9 @@
     letter-spacing: -1px;
     word-spacing: -2px;
     color: $gray-800;
+    font-smooth: antialiased; // Ensure crisp font rendering
+    -webkit-font-smoothing: antialiased; // For WebKit browsers
+    -moz-osx-font-smoothing: grayscale; // For Firefox on macOS
   }
 
   .navbar-toggler {
@@ -21,6 +24,9 @@
     text-transform: uppercase;
     color: $gray-800;
     border: none; // Remove default border
+    font-smooth: antialiased; // Ensure crisp font rendering
+    -webkit-font-smoothing: antialiased; // For WebKit browsers
+    -moz-osx-font-smoothing: grayscale; // For Firefox on macOS
   }
 
   .navbar-nav {
@@ -33,10 +39,15 @@
         text-transform: uppercase;
         padding: 10px 15px; // Add padding for better clickability
         color: $gray-800;
-        transition: color 0.3s ease;
+        transition: all 0.3s ease; // Smooth transition for all properties
+        font-smooth: antialiased; // Ensure crisp font rendering
+        -webkit-font-smoothing: antialiased; // For WebKit browsers
+        -moz-osx-font-smoothing: grayscale; // For Firefox on macOS
 
         &:hover {
           color: $primary; // Change color on hover
+          transform: translateY(-2px); // Lift effect on hover
+          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
         }
       }
     }
@@ -53,6 +64,8 @@
       &:focus,
       &:hover {
         color: fade-out($white, 0.1);
+        transform: translateY(-2px); // Lift effect on hover
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
       }
     }
 
@@ -65,6 +78,8 @@
           &:focus,
           &:hover {
             color: fade-out($white, 0.1);
+            transform: translateY(-2px); // Lift effect on hover
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
           }
         }
       }
@@ -100,6 +115,8 @@
         &:focus,
         &:hover {
           color: $primary;
+          transform: translateY(-2px); // Lift effect on hover
+          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
         }
       }
 
@@ -111,6 +128,8 @@
             &:focus,
             &:hover {
               color: $primary;
+              transform: translateY(-2px); // Lift effect on hover
+              text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
             }
           }
         }
