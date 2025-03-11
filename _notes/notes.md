@@ -7,6 +7,7 @@ To list all local branches:
 ```sh
 git branch
 ```
+
 To list all remote branches:
 
 ```sh
@@ -20,9 +21,11 @@ git branch -a
 ```
 
 ## 2. Create a new branch named "dev"
+
 ```sh
 git checkout -b dev
 ```
+
 This creates and switches to the "dev" branch.
 
 Then, push it to GitHub:
@@ -34,24 +37,33 @@ git push -u origin dev
 Once you’ve finished making changes in the "dev" branch:
 
 1. Ensure you're on the "master" branch:
+
 ```sh
 git checkout master
 ```
+
 2. Pull the latest changes to avoid conflicts:
+
 ```sh
 git pull origin master
 ```
+
 3. Merge "dev" into "master":
+
 ```sh
 git merge dev
 ```
+
 4. Push the updated "master" branch to GitHub:
+
 ```sh
 git push origin master
 ```
 
 ## 4. Open a Pull Request (PR) on GitHub
+
 If you want to merge using a PR instead of merging locally:
+
 1. Push your "dev" branch (if not done yet):
 ```sh
 git push -u origin dev

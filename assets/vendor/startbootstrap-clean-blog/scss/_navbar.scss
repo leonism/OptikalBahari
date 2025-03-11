@@ -106,11 +106,5 @@
       -o-transform: translate3d(0, 100%, 0);
       transform: translate3d(0, 100%, 0);
     }
-    #mainNav .navbar-collapse {
-      text-align: center; /* Centers the menu items when expanded */
-    }
-    #mainNav .navbar-nav {
-      display: inline-block; /* Prevents the ul from taking full width */
-    }
   }
 }
