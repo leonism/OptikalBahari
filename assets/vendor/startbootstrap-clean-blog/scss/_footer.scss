@@ -1,142 +1,179 @@
-/* Footer Styling */
+/* ===============================
+   **Footer Base Styling**
+   =============================== */
 footer {
-  padding: 30px 0 40px;
-  background-color: #f8f9fa;
-  border-top: 1px solid #e9ecef;
-  font-family: 'Arial', sans-serif;
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  padding: 30px 0 40px; /* Padding for spacing */
+  background-color: #f8f9fa; /* Light neutral background */
+  border-top: 1px solid #e9ecef; /* Subtle border for separation */
+  font-family: 'Arial', sans-serif; /* Clean typography */
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Soft shadow for depth */
 }
 
+/* ===============================
+   **Inline List Styling**
+   =============================== */
 footer .list-inline {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
-  gap: 1px;
-  margin-bottom: 20px;
+  justify-content: center; /* Center align items */
+  gap: 10px; /* Space between items */
+  margin-bottom: 20px; /* Spacing below the list */
 }
 
-/* Font Icons Styling */
+/* ===============================
+   **Font Icons Styling**
+   =============================== */
 footer .list-inline-item a {
-  color: #10180E;
-  transition: transform 0.3s ease, color 0.3s ease;
+  color: #10180E; /* Default text color */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transitions */
   display: inline-block;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
-  font-size: 1em;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); /* Subtle shadow */
+  font-size: 1em; /* Icon size */
+  text-decoration: none; /* Remove underline */
 }
 
 footer .list-inline-item a:hover {
-  color: #ED4833;
-  transform: translateY(-5px);
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  color: #ED4833; /* Bold hover color */
+  transform: translateY(-5px); /* Lift effect */
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Stronger shadow on hover */
 }
 
 footer .list-inline-item .fa-stack {
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transitions */
 }
 
 footer .list-inline-item .fa-stack:hover {
-  transform: scale(1.1);
+  transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
-/* Text Links Styling */
+/* ===============================
+   **Text Links Styling**
+   =============================== */
 footer .copyright {
-  font-size: 14px;
-  margin-bottom: 0;
-  text-align: center;
-  color: #6C757D;
-  font-family: 'Arial', sans-serif;
-  letter-spacing: normal;
+  font-size: 14px; /* Font size */
+  margin-bottom: 0; /* No extra space below */
+  text-align: center; /* Center align text */
+  color: #6C757D; /* Neutral text color */
+  font-family: 'Arial', sans-serif; /* Consistent typography */
+  letter-spacing: normal; /* Natural spacing */
 }
 
 footer .copyright.list-unstyled {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 20px;
+  list-style: none; /* Remove bullet points */
+  padding-left: 0; /* No padding */
+  margin-top: 20px; /* Spacing above the list */
 }
 
 footer .copyright.list-unstyled li {
-  display: inline-block;
-  margin-right: 2px;
+  display: inline-block; /* Inline display for compact layout */
+  margin-right: 2px; /* Small spacing between items */
 }
 
 footer .copyright.list-unstyled li:last-child {
-  margin-right: 0;
+  margin-right: 0; /* Remove margin for the last item */
 }
 
 footer .copyright.list-unstyled a {
-  text-decoration: none;
-  color: #10180E;
-  transition: color 0.3s ease, transform 0.3s ease;
-  font-family: 'Arial', sans-serif;
-  letter-spacing: normal;
+  text-decoration: none; /* Remove underline */
+  color: #10180E; /* Default link color */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  font-family: 'Arial', sans-serif; /* Consistent typography */
+  letter-spacing: normal; /* Natural spacing */
 }
 
 footer .copyright.list-unstyled a:hover {
-  color: #ED4833;
-  transform: translateY(-5px);
+  color: #ED4833; /* Bold hover color */
+  transform: translateY(-5px); /* Lift effect */
 }
 
-/* Badge Styling */
+/* ===============================
+   **Badge Styling**
+   =============================== */
 footer .badge {
-  font-size: 10px;
-  padding: 4px 6px;
-  vertical-align: middle;
-  background-color: #DC4245;
-  color: #fff;
-  transition: background-color 0.3s ease;
-  letter-spacing: normal;
+  font-size: 10px; /* Small font size */
+  padding: 4px 6px; /* Compact padding */
+  vertical-align: middle; /* Align with text */
+  background-color: #DC4245; /* Bold red background */
+  color: #fff; /* White text */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+  letter-spacing: normal; /* Natural spacing */
 }
 
 footer .badge:hover {
-  background-color: #c23336;
+  background-color: #c23336; /* Darker red on hover */
 }
 
-/* Copyright Text Styling */
+/* Pulsing Animation for Active State */
+footer .badge:active,
+footer .copyright.list-unstyled a:active {
+  animation: pulse 0.6s ease-in-out; /* Pulsing animation */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Normal size */
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5); /* Subtle glow */
+  }
+  50% {
+    transform: scale(0.95); /* Slightly shrink */
+    box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.8); /* Brighter glow */
+  }
+  100% {
+    transform: scale(1); /* Return to normal size */
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); /* Fade out glow */
+  }
+}
+
+/* ===============================
+   **Copyright Text Styling**
+   =============================== */
 footer ul:last-of-type {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-  text-align: center;
-  font-size: 12px;
-  color: #10180E;
-  font-family: 'Arial', sans-serif;
-  letter-spacing: normal;
+  list-style: none; /* Remove bullet points */
+  padding-left: 0; /* No padding */
+  margin: 0; /* No margin */
+  text-align: center; /* Center align text */
+  font-size: 12px; /* Small font size */
+  color: #10180E; /* Neutral text color */
+  font-family: 'Arial', sans-serif; /* Consistent typography */
+  letter-spacing: normal; /* Natural spacing */
 }
 
-/* Responsive Adjustments for Mobile */
+/* ===============================
+   **Responsive Adjustments for Mobile**
+   =============================== */
 @media (max-width: 767.98px) {
   footer {
-    padding: 20px 0 30px;
+    padding: 20px 0 30px; /* Reduced padding */
   }
 
   footer .list-inline {
-    flex-wrap: wrap;
-    gap: 0.05rem; /* Smaller gap to bring icons closer */
-    margin-bottom: 15px;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 5px; /* Smaller gap */
+    margin-bottom: 15px; /* Reduced spacing */
   }
 
   footer .list-inline-item a {
-    padding: 0; /* Remove padding to reduce space */
-    font-size: 1em; /* Normal size to save space */
-    text-decoration: underline;
+    padding: 0; /* Remove padding */
+    font-size: 0.9em; /* Slightly smaller icons */
+    text-decoration: underline; /* Add underline for clarity */
   }
 
   footer .copyright {
-    font-size: 12px;
+    font-size: 12px; /* Smaller font size */
   }
 
   footer .copyright.list-unstyled li {
     display: inline-block;
-    margin: 0 4px;
+    margin: 0 4px; /* Tighter spacing */
   }
 
   footer .badge {
-    font-size: 8px;
-    padding: 2px 4px;
+    font-size: 8px; /* Smaller font size */
+    padding: 2px 4px; /* Compact padding */
   }
 
   footer ul:last-of-type {
-    font-size: 12px;
+    font-size: 12px; /* Smaller font size */
   }
 }

@@ -94,7 +94,7 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": true,
     "files.exclude": {
-        "**/_site": true,
+        "**/_site": false,
         "**/.jekyll-cache": true,
         "**/cache": true,
         "**/.sass-cache": true

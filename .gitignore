@@ -44,6 +44,7 @@ $RECYCLE.BIN/
 # Build outputs
 dist/
 .output/
+_site/
 
 # Dependencies
 node_modules/
@@ -64,7 +65,6 @@ pnpm-debug.log*
 # = Project Specific                  =
 # =====================================
 # Jekyll
-Gemfile.lock
 .jekyll-metadata
 .jekyll-cache/
 .sass-cache/
