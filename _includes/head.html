@@ -99,18 +99,15 @@
     {% endif %}
     <!-- end facebook integration -->
 
-    <!--
+
       <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet ' type='text/css '>
-    -->
-    <!--
       <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet ' type='text/css '>
-    -->
     <!-- start styling integration -->
-    <!-- <link rel="stylesheet" href="{{"/assets/vendor/fontawesome-free/css/all.min.css" | relative_url "}}"> -->
-    <!-- <link rel="stylesheet" href="{{"/assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css" | relative_url "}}"> -->
+    <link rel="stylesheet" href="{{"/assets/vendor/fontawesome-free/css/all.min.css" | relative_url "}}">
+    <link rel="stylesheet" href="{{"/assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css" | relative_url "}}">
     <link rel="stylesheet" href="{{"/assets/vendor/bootstrap/css/bootstrap.min.css" | relative_url "}}">
     <link rel="stylesheet" href="{{"/assets/main.css" | relative_url "}}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
     <!-- end styling integration -->
 
     <!-- <link rel="canonical" href="{{ page.url | replace:'index.html',' ' | absolute_url "}}" /> -->
@@ -163,7 +160,8 @@
   </head>
   <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
   <script src="{{"/assets/vendor/jquery/jquery-3.6.0.min.js" | relative_url "}}"></script>
-  <!-- start the google fonts importing, so that it would make less hit request to the network, and cache them -->
+  <!-- start the google fonts importing, so that it would make less hit request to the network, and cache them !-->
+  <!--
   <style>
     /* cyrillic-ext */
     @font-face {
@@ -499,8 +497,11 @@
       , U+FFFD;
     }
     </style>
+    !-->
+    <!--
     <style>
-    <!-- end of the first google fonts importing -->/* cyrillic-ext */
+    // end of the first google fonts importing
+    /* cyrillic-ext */
     @font-face {
       font-family: 'Open Sans';
       font-style: italic;
@@ -1590,3 +1591,4 @@
       , U+FFFD;
     }
   </style>
+  !-->

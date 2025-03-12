@@ -1,10 +1,10 @@
 /* Footer Styling */
 footer {
-  padding: 30px 0 40px; /* Reduced padding for mobile */
-  background-color: #f8f9fa; /* Light background for contrast */
-  border-top: 1px solid #e9ecef; /* Subtle border */
-  font-family: 'Arial', sans-serif; /* Base font */
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Drop shadow for the footer */
+  padding: 30px 0 40px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  font-family: 'Arial', sans-serif;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
 }
 
 footer .list-inline {
@@ -12,23 +12,23 @@ footer .list-inline {
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 1px; /* Smaller gap between icons for closer spacing */
-  margin-bottom: 20px; /* Added bottom margin before the links collection */
+  gap: 1px;
+  margin-bottom: 20px;
 }
 
 /* Font Icons Styling */
 footer .list-inline-item a {
-  color: #10180E; /* Dark green for normal state */
+  color: #10180E;
   transition: transform 0.3s ease, color 0.3s ease;
   display: inline-block;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); /* Simple drop shadow */
-  font-size: 1.2em; /* Increase icon size by 20% */
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  font-size: 1em;
 }
 
 footer .list-inline-item a:hover {
-  color: #ED4833; /* Vibrant orange-red for hover state */
-  transform: translateY(-5px); /* Lift effect on hover */
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Enhanced shadow on hover */
+  color: #ED4833;
+  transform: translateY(-5px);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
 }
 
 footer .list-inline-item .fa-stack {
@@ -36,106 +36,107 @@ footer .list-inline-item .fa-stack {
 }
 
 footer .list-inline-item .fa-stack:hover {
-  transform: scale(1.1); /* Slightly enlarge icons on hover */
+  transform: scale(1.1);
 }
 
 /* Text Links Styling */
 footer .copyright {
-  font-size: 14px; /* Normal font size */
+  font-size: 14px;
   margin-bottom: 0;
   text-align: center;
-  color: #6C757D; /* Gray text for subtlety */
-  font-family: 'Arial', sans-serif; /* Change font for footer text */
-  letter-spacing: normal; /* Reset letter spacing */
+  color: #6C757D;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: normal;
 }
 
 footer .copyright.list-unstyled {
-  list-style: none; /* Remove default list styling */
-  padding-left: 0; /* Remove default padding */
-  margin-top: 20px; /* Add consistent bottom margin */
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
 }
 
 footer .copyright.list-unstyled li {
-  display: inline-block; /* Display list items inline */
-  margin-right: 8px; /* Add spacing between items */
+  display: inline-block;
+  margin-right: 2px;
 }
 
 footer .copyright.list-unstyled li:last-child {
-  margin-right: 0; /* Remove margin for the last item */
+  margin-right: 0;
 }
 
 footer .copyright.list-unstyled a {
   text-decoration: none;
-  color: #10180E; /* Dark green for normal state */
+  color: #10180E;
   transition: color 0.3s ease, transform 0.3s ease;
-  font-family: 'Arial', sans-serif; /* Change font for links */
-  letter-spacing: normal; /* Reset letter spacing */
+  font-family: 'Arial', sans-serif;
+  letter-spacing: normal;
 }
 
 footer .copyright.list-unstyled a:hover {
-  color: #ED4833; /* Vibrant orange-red for hover state */
-  transform: translateY(-2px); /* Lift effect on hover */
+  color: #ED4833;
+  transform: translateY(-5px);
 }
 
 /* Badge Styling */
 footer .badge {
-  font-size: 10px; /* Normal badge font size */
-  padding: 4px 6px; /* Normal badge padding */
+  font-size: 10px;
+  padding: 4px 6px;
   vertical-align: middle;
-  background-color: #DC4245; /* Red background for badge */
-  color: #fff; /* White text for badge */
+  background-color: #DC4245;
+  color: #fff;
   transition: background-color 0.3s ease;
-  letter-spacing: normal; /* Reset letter spacing */
+  letter-spacing: normal;
 }
 
 footer .badge:hover {
-  background-color: #c23336; /* Darker red on hover */
+  background-color: #c23336;
 }
 
 /* Copyright Text Styling */
 footer ul:last-of-type {
-  list-style: none; /* Remove default list styling */
-  padding-left: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
-  text-align: center; /* Center-align the copyright text */
-  font-size: 12px; /* Normal font size */
-  color: #10180E; /* Match the color of other footer links */
-  font-family: 'Arial', sans-serif; /* Change font for copyright text */
-  letter-spacing: normal; /* Reset letter spacing */
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  color: #10180E;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: normal;
 }
 
 /* Responsive Adjustments for Mobile */
 @media (max-width: 767.98px) {
   footer {
-    padding: 20px 0 30px; /* Further reduced padding for mobile */
+    padding: 20px 0 30px;
   }
 
   footer .list-inline {
-    flex-wrap: wrap; /* Allow icons to wrap to the next line */
-    gap: 1px; /* Smaller gap between icons */
-    margin-bottom: 15px; /* Reduced bottom margin */
+    flex-wrap: wrap;
+    gap: 0.05rem; /* Smaller gap to bring icons closer */
+    margin-bottom: 15px;
   }
 
   footer .list-inline-item a {
-    padding: 1px; /* Smaller padding for mobile */
-    font-size: 1.2em; /* Increase icon size by 20% */
+    padding: 0; /* Remove padding to reduce space */
+    font-size: 1em; /* Normal size to save space */
+    text-decoration: underline;
   }
 
   footer .copyright {
-    font-size: 12px; /* Slightly smaller font size for mobile */
+    font-size: 12px;
   }
 
   footer .copyright.list-unstyled li {
-    display: inline-block; /* Keep links inline on mobile */
-    margin: 0 4px; /* Add spacing between items */
+    display: inline-block;
+    margin: 0 4px;
   }
 
   footer .badge {
-    font-size: 8px; /* Smaller badge font size for mobile */
-    padding: 2px 4px; /* Smaller badge padding for mobile */
+    font-size: 8px;
+    padding: 2px 4px;
   }
 
   footer ul:last-of-type {
-    font-size: 12px; /* Slightly smaller font size for mobile */
+    font-size: 12px;
   }
 }
