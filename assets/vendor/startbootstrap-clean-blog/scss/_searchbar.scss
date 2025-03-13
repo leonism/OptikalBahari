@@ -3,53 +3,63 @@
   position: relative;
   display: inline-block;
   margin-left: 10px;
+  width: 100%;
+  max-width: 400px; /* Limit maximum width for desktop */
 }
 
 #search-google .custom-search {
-  width: 200px;
-  padding: 8px 16px;
-  font-size: 14px;
+  width: 100%;
+  padding: 10px 48px 10px 20px; /* More padding for better spacing */
+  font-size: 16px; /* Slightly larger font for readability */
   color: #10180E;
   background-color: #fff;
   border: 2px solid #DC4245;
   border-radius: 50px;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 #search-google .custom-search:focus {
   outline: none;
   border-color: #c23336;
-  box-shadow: 0 0 8px rgba(220, 66, 69, 0.5);
+  box-shadow: 0 0 12px rgba(220, 66, 69, 0.6); /* More prominent focus shadow */
 }
 
 #search-google .custom-search::placeholder {
   color: #6C757D;
   opacity: 1;
+  font-weight: 400; /* Slightly lighter placeholder text */
 }
 
 #search-google .search-icon {
   position: absolute;
-  right: 12px;
+  right: 20px; /* Adjusted spacing */
   top: 50%;
   transform: translateY(-50%);
   color: #DC4245;
   pointer-events: none;
+  font-size: 18px; /* Slightly larger icon */
+  transition: color 0.3s ease;
+}
+
+#search-google:hover .search-icon {
+  color: #c23336; /* Hover effect for the icon */
 }
 
 /* Responsive Adjustments */
 @media (max-width: 767.98px) {
   #search-google {
     margin-left: 0;
-    width: 100%;
+    max-width: 100%; /* Full width on mobile */
   }
 
   #search-google .custom-search {
-    width: 100%;
-    padding: 6px 12px;
-    font-size: 12px;
+    padding: 12px 48px 12px 16px; /* More padding for better touch interaction */
+    font-size: 14px; /* Slightly smaller font for mobile */
   }
 
   #search-google .search-icon {
-    right: 8px;
+    right: 16px; /* Adjusted spacing for mobile */
+    font-size: 16px; /* Slightly smaller icon for mobile */
   }
 }

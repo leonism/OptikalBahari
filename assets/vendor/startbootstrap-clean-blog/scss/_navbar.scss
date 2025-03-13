@@ -1,151 +1,149 @@
-// Styling for the navbar
+/* Base Navbar Styling */
 #mainNav {
-  margin: 0;
-  position: absolute;
-  border-bottom: 1px solid $gray-200;
-  background-color: white;
-  @include sans-serif-font;
-
-  .navbar-brand {
     margin: 0;
-    font-weight: 800;
-    letter-spacing: -1px;
-    word-spacing: -2px;
-    color: $gray-900;
-    font-smooth: antialiased; // Ensure crisp font rendering
-    -webkit-font-smoothing: antialiased; // For WebKit browsers
-    -moz-osx-font-smoothing: grayscale; // For Firefox on macOS
-  }
-
-  .navbar-toggler {
-    -webkit-font-smoothing: antialiased; // For WebKit browsers
-    -moz-osx-font-smoothing: grayscale; // For Firefox on macOS
-  }
-
-  .navbar-toggler-icon {
-    font-size: 12px;
-    font-weight: 900;
-    padding: 10px;
-    text-transform: uppercase;
-    color: $gray-900;
-    border: none; // Remove default border
-    font-smooth: antialiased; // Ensure crisp font rendering
-  }
-
-  .navbar-nav {
-    > li.nav-item {
-      > a {
-        font-size: 12px;
-        font-weight: 800;
-        letter-spacing: 1px;
-        word-spacing: 1px;
-        text-transform: uppercase;
-        padding: 10px 15px; // Add padding for better clickability
-        color: $gray-800;
-        transition: all 0.3s ease; // Smooth transition for all properties
-        font-smooth: antialiased; // Ensure crisp font rendering
-        -webkit-font-smoothing: antialiased; // For WebKit browsers
-        -moz-osx-font-smoothing: grayscale; // For Firefox on macOS
-
-        &:hover {
-          color: $primary; // Change color on hover
-          transform: translateY(-2px); // Lift effect on hover
-          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
-        }
-      }
-    }
-  }
-
-  @media only screen and (min-width: 992px) {
-    border-bottom: 1px solid transparent;
-    background: transparent;
+    position: absolute;
+    border-bottom: 1px solid $gray-200;
+    background-color: white;
+    @include sans-serif-font;
+    width: 100%; /* Ensure full width */
+    z-index: 1000; /* Ensure navbar stays on top */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Soft shadow for depth */
 
     .navbar-brand {
-      padding: 10px 20px;
-      color: $white;
+        margin: 0;
+        font-weight: 800;
+        letter-spacing: -1px;
+        word-spacing: -2px;
+        color: $gray-900;
+        font-smooth: antialiased;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
 
-      &:focus,
-      &:hover {
-        color: fade-out($white, 0.1);
-        transform: translateY(-2px); // Lift effect on hover
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
-      }
+    .navbar-toggler {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 12px;
+        font-weight: 900;
+        padding: 10px;
+        text-transform: uppercase;
+        color: $gray-900;
+        border: none;
+        font-smooth: antialiased;
     }
 
     .navbar-nav {
-      > li.nav-item {
-        > a {
-          padding: 10px 20px;
-          color: $white;
-
-          &:focus,
-          &:hover {
-            color: fade-out($white, 0.1);
-            transform: translateY(-2px); // Lift effect on hover
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
-          }
-        }
-      }
-    }
-  }
-
-  @media only screen and (min-width: 992px) {
-    -webkit-transition: background-color 0.2s;
-    -moz-transition: background-color 0.2s;
-    transition: background-color 0.2s;
-
-    /* Force Hardware Acceleration in WebKit */
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
-
-    &.is-fixed {
-      /* when the user scrolls down, we hide the header right above the viewport */
-      position: fixed;
-      top: -70px;
-      -webkit-transition: -webkit-transform 0.2s;
-      -moz-transition: -moz-transform 0.2s;
-      transition: transform 0.2s;
-      border-bottom: 1px solid darken($white, 0.05);
-      background-color: fade-out($white, 0.1);
-
-      .navbar-brand {
-        color: $gray-900;
-
-        &:focus,
-        &:hover {
-          color: $primary;
-          transform: translateY(-2px); // Lift effect on hover
-          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
-        }
-      }
-
-      .navbar-nav {
         > li.nav-item {
-          > a {
-            color: $gray-900;
+            > a {
+                font-size: 12px;
+                font-weight: 800;
+                letter-spacing: 1px;
+                word-spacing: 1px;
+                text-transform: uppercase;
+                padding: 10px 15px;
+                color: $gray-800;
+                transition: all 0.3s ease;
+                font-smooth: antialiased;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+
+                &:hover {
+                    color: $primary;
+                    transform: translateY(-2px);
+                    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+            }
+        }
+    }
+
+    /* Mobile Styling */
+    @media (max-width: 991.98px) {
+        &.is-fixed {
+            position: fixed;
+            top: 0; /* Fixed at the top of the screen */
+            background-color: white; /* Ensure background is visible */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+        }
+
+        &.is-visible {
+            transform: translateY(0); /* Ensure navbar is visible */
+        }
+    }
+
+    /* Desktop Styling */
+    @media (min-width: 992px) {
+        border-bottom: 1px solid transparent;
+        background: transparent;
+
+        .navbar-brand {
+            padding: 10px 20px;
+            color: $white;
 
             &:focus,
             &:hover {
-              color: $primary;
-              transform: translateY(-2px); // Lift effect on hover
-              text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+                color: fade-out($white, 0.1);
+                transform: translateY(-2px);
+                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             }
-          }
         }
-      }
-    }
 
-    &.is-visible {
-      /* if the user changes the scrolling direction, we show the header */
-      -webkit-transform: translate3d(0, 100%, 0);
-      -moz-transform: translate3d(0, 100%, 0);
-      -ms-transform: translate3d(0, 100%, 0);
-      -o-transform: translate3d(0, 100%, 0);
-      transform: translate3d(0, 100%, 0);
+        .navbar-nav {
+            > li.nav-item {
+                > a {
+                    padding: 10px 20px;
+                    color: $white;
+
+                    &:focus,
+                    &:hover {
+                        color: fade-out($white, 0.1);
+                        transform: translateY(-2px);
+                        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    }
+                }
+            }
+        }
+
+        &.is-fixed {
+            position: fixed;
+            top: -70px;
+            transition: transform 0.2s;
+            border-bottom: 1px solid darken($white, 0.05);
+            background-color: fade-out($white, 0.1);
+
+            .navbar-brand {
+                color: $gray-900;
+
+                &:focus,
+                &:hover {
+                    color: $primary;
+                    transform: translateY(-2px);
+                    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+            }
+
+            .navbar-nav {
+                > li.nav-item {
+                    > a {
+                        color: $gray-900;
+
+                        &:focus,
+                        &:hover {
+                            color: $primary;
+                            transform: translateY(-2px);
+                            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                        }
+                    }
+                }
+            }
+        }
+
+        &.is-visible {
+            transform: translate3d(0, 100%, 0);
+        }
     }
-  }
 }

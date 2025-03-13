@@ -1,120 +1,53 @@
 <section id="KenapaOptikalBahari">
-  <div class="card-deckrow mb-3 card-deck">
-    <!-- start the Periksa Mata -->
-    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-      <a
-        href="{{"/periksa-mata-gratis/" | relative_url }}"
-        role="button"
-        title="Periksa Mata Gratis">
-          <!--
-          <img
-            itemprop="image"data-src="{{"/assets/img/bg-about.webp" | relative_url | resize: "350x235>" "}}"
-            src="{{"/assets/img/bg-about.webp" | relative_url | resize: "350x235>" "}}"
-            width="{% imagesize page.background:width %}"
-            height="{% imagesize page.background:height %}"
-            class="card-img-top img-fluid"loading="lazy"
-            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa" alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
-          -->
-        <img
-          itemprop="image"
-          src="{{ "/assets/img/bg-about.webp" }}"
-          srcset="{{ "/assets/img/bg-about.webp" | srcset }}"
-          width="{{ "/assets/img/bg-about.webp" | width }}"
-          height="{{ "/assets/img/bg-about.webp" | height }}"
-          class="card-img-top img-fluid"
-          alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
-        </a>
-        <div class="card-body">
-          <h5 class="card-title align-middle">
-            <i class="fas fa-check fas-1x"></i>
-            Periksa Mata Gratis
-          </h5>
-          <p class="card-text">
-            Lakukan pemeriksaan mata teratur, agar terdeteksi segala keluhan dan perubahan ukuran mata.
-          </p>
-          <a
-            href="{{"/periksa-mata-gratis/" | relative_url }}"
-            class="btn btn-primary rounded-pill align-text-bottom text-decoration-none"
-            role="button"
-            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
-            Lebih Lanjut
+  <div class="container">
+    <div class="row">
+      <!-- Card 1: Periksa Mata -->
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
+          <a href="{{ '/periksa-mata-gratis/' | relative_url }}" role="button" title="Periksa Mata Gratis">
+            <img itemprop="image" src="{{ '/assets/img/bg-about.webp' }}" class="card-img-top img-fluid" alt="Periksa Mata Gratis" />
           </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <i class="fas fa-check"></i> Periksa Mata Gratis
+            </h5>
+            <p class="card-text">Lakukan pemeriksaan mata teratur untuk kesehatan optimal.</p>
+            <a href="{{ '/periksa-mata-gratis/' | relative_url }}" class="btn btn-primary rounded-pill">Lebih Lanjut</a>
+          </div>
         </div>
       </div>
-      <!-- end the Periksa Mata -->
 
-      <!-- start the Cicilan -->
-      <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-        <a
-          href="{{"/kacamata-cicilan/" | relative_url }}"
-          role="button"
-          title="Kacamata Cicilan 0%">
-            <!--
-            <img data-src="{{"/assets/img/bg-index-arch-1.webp" | relative_url | resize: "350x235>" "}}"src="{{"/assets/img/bg-index-arch-1.webp" | relative_url | resize: "350x235>" "}}" width="{% imagesize page.background:width %}" height="{% imagesize page.background:height %}" class="card-img-top img-fluid" loading="lazy"alt="Kacamata Cicilan 0%">
-            -->
-          <img
-            itemprop="image"
-            src="{{" /assets/img/bg-index-arch-1.webp" }}"
-            srcset="{{ "/assets/img/bg-index-arch-1.webp" | srcset }}"
-            width="{{ "/assets/img/bg-index-arch-1.webp" | width }}"
-            height="{{ "/assets/img/bg-index-arch-1.webp" | height }}"
-            class="card-img-top img-fluid"
-            alt="Kacamata Cicilan 0%">
-        </a>
-        <div class="card-body">
-          <h5 class="card-title align-middle">
-            <i class="fas fa-check fas-1x"></i>
-            Kacamata Cicilan 0%
-          </h5>
-          <p class="card-text">
-            Beli Kacamata Nyicil, Bayar Bulanan, Tanpa DP, Tanpa Credit Card dan Tanpa Bunga
-          </p>
-          <a
-            href="{{"/kacamata-cicilan/" | relative_url }}"
-            class="btn btn-primary rounded-pill text-decoration-none"
-            role="button"
-            title="Program Kacamata Cicilan Tanpa Bunga">
-            Lebih Lanjut
+      <!-- Card 2: Kacamata Cicilan 0% -->
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
+          <a href="{{ '/kacamata-cicilan/' | relative_url }}" role="button" title="Kacamata Cicilan 0%">
+            <img itemprop="image" src="{{ '/assets/img/bg-index-arch-1.webp' }}" class="card-img-top img-fluid" alt="Kacamata Cicilan 0%" />
           </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <i class="fas fa-check"></i> Kacamata Cicilan 0%
+            </h5>
+            <p class="card-text">Beli Kacamata Nyicil tanpa DP, tanpa bunga.</p>
+            <a href="{{ '/kacamata-cicilan/' | relative_url }}" class="btn btn-primary rounded-pill">Lebih Lanjut</a>
+          </div>
         </div>
       </div>
-      <!-- end the Cicilan -->
 
-      <!-- start the bayar KJP -->
-      <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-        <a
-          href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}"
-          role="button"
-          title="Menerima Pembayaran KJP">
-            <!--
-            <img  itemprop="image"data-src="{{"/assets/img/bg-kjp.webp" | relative_url | resize: "350x235>" "}}"        src="{{"/assets/img/bg-kjp.webp" | relative_url | resize: "350x235>" "}}"      width="{% imagesize page.background:width %}"    height="{% imagesize page.background:height %}"  class="card-img-top img-fluid"loading="lazy"        alt="Menerima Pembayaran KJP">
-            -->
-          <img
-            itemprop="image"
-            src="{{ "/assets/img/bg-kjp.webp" }}"
-            srcset="{{ "/assets/img/bg-kjp.webp" | srcset }}"
-            width="{{ "/assets/img/bg-kjp.webp" | width }}"
-            height="{{ "/assets/img/bg-kjp.webp" | height }}"
-            class="card-img-top img-fluid"
-            alt="Menerima Pembayaran KJP">
-        </a>
-        <div class="card-body">
-          <h5 class="card-title align-middle">
-            <i class="fas fa-check fas-1x"></i>
-            Terima Pembayaran KJP
-          </h5>
-          <p class="card-text">
-            Kami menerima bentuk pembayaran kacamata dengan KJP (Kartu Jakarta Pintar).
-          </p>
-          <a
-            href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}"
-            class="btn btn-primary rounded-pill text-decoration-none"
-            role="button"
-            title="Menerima Pembayaran KJP">
-            Lebih Lanjut
+      <!-- Card 3: Terima Pembayaran KJP -->
+      <div class="col-12 col-md-12 col-lg-4 mb-4">
+        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
+          <a href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}" role="button" title="Menerima Pembayaran KJP">
+            <img itemprop="image" src="{{ '/assets/img/bg-kjp.webp' }}" class="card-img-top img-fluid" alt="Menerima Pembayaran KJP" />
           </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <i class="fas fa-check"></i> Terima Pembayaran KJP
+            </h5>
+            <p class="card-text">Kami menerima pembayaran kacamata dengan KJP.</p>
+            <a href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}" class="btn btn-primary rounded-pill">Lebih Lanjut</a>
+          </div>
         </div>
       </div>
-    <!-- end the bayar KJP -->
     </div>
-  </section>
+  </div>
+</section>
