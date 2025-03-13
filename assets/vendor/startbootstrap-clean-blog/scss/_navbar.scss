@@ -1,15 +1,27 @@
+/* Reset default browser styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 /* Base Navbar Styling */
 #mainNav {
     margin: 0;
     position: absolute;
-    border-bottom: 1px solid $gray-200;
+    top: 0; /* Ensure navbar is flush with the top */
+    // border-bottom: 1px solid $gray-200;
     background-color: white;
     @include sans-serif-font;
     width: 100%; /* Ensure full width */
     z-index: 1000; /* Ensure navbar stays on top */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    // border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     transition: all 0.3s ease-in-out;
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Soft shadow for depth */
+    // filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Soft shadow for depth */
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2)); /* Soft shadow for depth */
+    // background: rgba(27, 26, 26, 0.1) !important; /* Semi-transparent background */
+    backdrop-filter: blur(180px) saturate(160%); /* Blur effect */
+    -webkit-backdrop-filter: blur(180px) saturate(160%); /* Safari support */
+    // transition: all 0.3s ease; /* Smooth transitions */
 
     .navbar-brand {
         margin: 0;

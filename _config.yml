@@ -31,7 +31,7 @@ tag_page_dir: tag
 pagination:
   enabled: true
   per_page: 9  # 9 posts per page (3 per section)
-  permalink: "/page/:num/"  # URL structure for paginated pages (e.g., /posts/page/2/)
+  permalink: "/posts/page/:num/"  # URL structure for paginated pages
   title: ":title - Page :num"  # Page title format
   sort_field: "date"  # Sort posts by date
   sort_reverse: true  # Newest first

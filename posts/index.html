@@ -8,146 +8,148 @@ keywords: Optikal Bahari, Optik, Kacamata, Kemayoran, Bendungan Jago
 background: /assets/img/bg-splash-post-00.jpeg
 permalink: /posts/
 pagination:
-  enabled: true  # Enable pagination for this page
+    enabled: true  # Enable pagination for this page
 # permalink: /:title/
 ---
 
-<!-- {% include posts-category.html %} -->
 <!-- Section 1: First 3 posts -->
-<section id="posts-category1">
-    <div class="card-deckrow mb-3 card-deck">
-        {% for post in paginator.posts limit:3 offset:0 %}
-            <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                    {% if post.background %}
-                        <img itemprop="image"
-                            src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                            class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
-                    {% endif %}
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-                    <p class="card-text text-left">
-                        {{ post.description | strip_html | truncate: 100 }}
-                        <a class="btn btn-primary rounded-pill mt-3" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
-                    </p>
+<section id="posts-category-section1">
+    <div class="container">
+        <div class="row">
+            {% assign posts = paginator.posts | slice: 0, 3 %}
+            {% for post in posts %}
+                <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-4">
+                    <div class="card shadow p-0 bg-white rounded hover-zoomin">
+                        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
+                            {% if post.background %}
+                                <img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top img-fluid" alt="{{ post.title }}" />
+                            {% endif %}
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                {{ post.title | truncate: 50 }}
+                            </h5>
+                            <p class="card-text">
+                                {{ post.description | strip_html | truncate: 100 }}
+                            </p>
+                            <a class="btn btn-primary rounded-pill mt-3" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                            Lebih Lanjut
+                            </a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Posted by {{ post.author | default: site.author }}, on {{ post.date | date: '%b %d, %Y' }} · {% include read_time.html content=post.content %}</small>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <small class="text-muted">
-                        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %},
-                        on {{ post.date | date: '%b %d, %Y' }} · {% include read_time.html content=post.content %}
-                    </small>
-                </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
 </section>
 
 <!-- Section 2: Next 3 posts -->
 <section id="posts-category2">
-    <div class="card-deckrow mb-2 card-deck">
-        {% for post in paginator.posts limit:3 offset:3 %}
-            <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                    {% if post.background %}
-                        <img itemprop="image"
-                            src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                            class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
-                    {% endif %}
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-                    <p class="card-text text-left">
-                        {{ post.description | strip_html | truncate: 100 }}
-                        <a class="btn btn-primary rounded-pill mt-3" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
-                    </p>
+    <div class="container">
+        <div class="row">
+            {% assign posts = paginator.posts | slice: 3, 3 %}
+            {% for post in posts %}
+                <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-4">
+                    <div class="card shadow p-0 bg-white rounded hover-zoomin">
+                        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
+                            {% if post.background %}
+                                <img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top img-fluid" alt="{{ post.title }}" />
+                            {% endif %}
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
+                            <p class="card-text">
+                                {{ post.description | strip_html | truncate: 100 }}
+                            </p>
+                                <a class="btn btn-primary rounded-pill mt-3" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                                    Lebih Lanjut
+                                </a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Posted by {{ post.author | default: site.author }}, on {{ post.date | date: '%b %d, %Y' }} · {% include read_time.html content=post.content %}</small>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <small class="text-muted">
-                        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}
-                        on {{ post.date | date: '%B %d, %Y' }} · {% include read_time.html content=post.content %}
-                    </small>
-                </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
 </section>
 
 <!-- Section 3: Last 3 posts -->
 <section id="posts-category3">
-    <div class="card-deckrow mb-2 card-deck">
-        {% for post in paginator.posts limit:3 offset:6 %}
-            <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                    {% if post.background %}
-                        <img itemprop="image"
-                            src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                            class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
-                    {% endif %}
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-                    <p class="card-text text-left">
-                        {{ post.description | strip_html | truncate: 100 }}
-                        <a class="btn btn-primary rounded-pill mt-3" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
-                    </p>
+    <div class="container">
+        <div class="row">
+            {% assign posts = paginator.posts | slice: 6, 3 %}
+            {% for post in posts %}
+                <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-4">
+                    <div class="card shadow p-0 bg-white rounded hover-zoomin">
+                        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
+                            {% if post.background %}
+                                <img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top img-fluid" alt="{{ post.title }}" />
+                            {% endif %}
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                {{ post.title | truncate: 50 }}
+                            </h5>
+                            <p class="card-text">
+                                {{ post.description | strip_html | truncate: 100 }}
+                            </p>
+                                <a class="btn btn-primary rounded-pill mt-3" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                                    Lebih Lanjut
+                                </a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Posted by {{ post.author | default: site.author }}, on {{ post.date | date: '%b %d, %Y' }} · {% include read_time.html content=post.content %}</small>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <small class="text-muted">
-                        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}
-                        on {{ post.date | date: '%B %d, %Y' }} · {% include read_time.html content=post.content %}
-                    </small>
-                </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
 </section>
 
 <!-- Pagination Navigation -->
-<nav aria-label="Page navigation" class="mt-4">
+<nav aria-label="Page navigation" class="mt-5">
     <ul class="pagination justify-content-center">
         <!-- Previous Button -->
         {% if paginator.previous_page %}
             <li class="page-item">
-                <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
-                    <span aria-hidden="true">« Prev</span>
-                </a>
+                <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous">« Prev</a>
             </li>
         {% else %}
-            <li class="page-item disabled">
-                <span class="page-link">« Prev</span>
-            </li>
+            <li class="page-item disabled"><span class="page-link">« Prev</span></li>
         {% endif %}
 
-        <!-- Page Numbers with Trail -->
-        {% if paginator.page_trail %}
-            {% for trail in paginator.page_trail %}
-                {% if trail.num == paginator.page %}
-                    <li class="page-item active">
-                        <span class="page-link">{{ trail.num }}</span>
-                    </li>
-                {% else %}
-                    <li class="page-item">
-                        <a class="page-link" href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}">{{ trail.num }}</a>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        {% endif %}
+        <!-- Page Numbers -->
+        {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+                <li class="page-item active">
+                    <span class="page-link">{{ page }}</span>
+                </li>
+            {% else %}
+                <li class="page-item">
+                    {% if page == 1 %}
+                        <!-- Link to the first page (usually the root URL) -->
+                        <a class="page-link" href="{{ '/posts/' | relative_url }}">{{ page }}</a>
+                    {% else %}
+                        <!-- Link to subsequent pages with the correct /posts/page/:num/ structure -->
+                        <a class="page-link" href="{{ '/posts/page/' | append: page | append: '/' | relative_url }}">{{ page }}</a>
+                    {% endif %}
+                </li>
+            {% endif %}
+        {% endfor %}
 
         <!-- Next Button -->
         {% if paginator.next_page %}
             <li class="page-item">
-                <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
-                    <span aria-hidden="true">Next »</span>
-                </a>
+                <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" aria-label="Next">Next »</a>
             </li>
         {% else %}
-            <li class="page-item disabled">
-                <span class="page-link">Next »</span>
-            </li>
+            <li class="page-item disabled"><span class="page-link">Next »</span></li>
         {% endif %}
     </ul>
 </nav>
