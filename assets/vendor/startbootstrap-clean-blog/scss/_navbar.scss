@@ -18,15 +18,16 @@ html, body {
     transition: all 0.3s ease-in-out;
     // filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Soft shadow for depth */
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2)); /* Soft shadow for depth */
-    // background: rgba(27, 26, 26, 0.1) !important; /* Semi-transparent background */
-    backdrop-filter: blur(180px) saturate(160%); /* Blur effect */
-    -webkit-backdrop-filter: blur(180px) saturate(160%); /* Safari support */
-    // transition: all 0.3s ease; /* Smooth transitions */
+    // background: rgba(255, 246, 246, 10) !important; /* Semi-transparent background */
+    backdrop-filter: blur(200px) saturate(160%); /* Blur effect */
+    -webkit-backdrop-filter: blur(200px) saturate(160%); /* Safari support */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+
 
     .navbar-brand {
         margin: 0;
-        font-weight: 800;
-        letter-spacing: -1px;
+        font-weight: 900;
+        letter-spacing: -2px;
         word-spacing: -2px;
         color: $gray-900;
         font-smooth: antialiased;
