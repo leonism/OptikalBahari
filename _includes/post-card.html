@@ -1,26 +1,24 @@
 <!-- _includes/post-card.html -->
 <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-  <a href="{{ include.post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ include.post.title }}">
-    {% if include.post.background %}
-      <img itemprop="image"
-        src="{{ include.post.background | prepend: site.baseurl | replace: '//', '/' }}"
-        class="card-img-top img-fluid"
-        alt="{{ include.post.title }}" />
-    {% endif %}
-  </a>
-  <div class="card-body">
-    <h5 class="card-title">{{ include.post.title | truncate: 50 }}</h5>
-    <p class="card-text text-left">
-      {{ include.post.description | strip_html | truncate: 100 }}
-      <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
-         href="{{ include.post.url | prepend: site.baseurl | replace: '//', '/' }}"
-         title="{{ include.post.title }}">Lebih Lanjut</a>
-    </p>
-  </div>
-  <div class="card-footer">
-    <small class="text-muted">
-      Posted by {% if include.post.author %} {{ include.post.author }} {% else %} {{ site.author }} {% endif %}
-      on {{ include.post.date | date: '%B %d, %Y' }} · {% include read_time.html content=include.post.content %}
-    </small>
-  </div>
+	<a href="{{ include.post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ include.post.title }}">
+		{% if include.post.background %}
+		<img itemprop="image" src="{{ include.post.background | prepend: site.baseurl | replace: '//', '/' }}"
+			class="card-img-top img-fluid" alt="{{ include.post.title }}" />
+		{% endif %}
+	</a>
+	<div class="card-body">
+		<h5 class="card-title">{{ include.post.title | truncate: 50 }}</h5>
+		<p class="card-text text-left">
+			{{ include.post.description | strip_html | truncate: 100 }}
+			<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+				href="{{ include.post.url | prepend: site.baseurl | replace: '//', '/' }}"
+				title="{{ include.post.title }}">Lebih Lanjut</a>
+		</p>
+	</div>
+	<div class="card-footer">
+		<small class="text-muted">
+			Posted by {% if include.post.author %} {{ include.post.author }} {% else %} {{ site.author }} {% endif %}
+			on {{ include.post.date | date: '%B %d, %Y' }} · {% include read_time.html content=include.post.content %}
+		</small>
+	</div>
 </div>

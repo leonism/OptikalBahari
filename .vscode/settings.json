@@ -80,7 +80,7 @@
     "files.associations": {
         "*.md": "jekyll",
         "*.markdown": "jekyll",
-        "*.html": "jekyll",
+        "*.html": "html",
         "*.liquid": "jekyll"
     },
     "emmet.includeLanguages": {
