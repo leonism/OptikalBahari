@@ -55,3 +55,69 @@
         })
     }
 })(jQuery)
+
+
+!(function (o) {
+    'use strict';
+
+    // Attach event listeners for floating label form groups
+    o('body')
+        .on('input propertychange', '.floating-label-form-group', function (i) {
+            o(this).toggleClass('floating-label-form-group-with-value', !!o(i.target).val());
+        })
+        .on('focus', '.floating-label-form-group', function () {
+            o(this).addClass('floating-label-form-group-with-focus');
+        })
+        .on('blur', '.floating-label-form-group', function () {
+            o(this).removeClass('floating-label-form-group-with-focus');
+        });
+
+    // Store the height of the navigation bar
+    var s = o('#mainNav').height();
+
+    // Attach a scroll event listener to the window
+    o(window).on('scroll', { previousTop: 0 }, function () {
+        var i = o(window).scrollTop(); // Current scroll position
+
+        // Logic for scroll-up and scroll-down behavior
+        if (i < this.previousTop) { // Scrolling up
+            if (i > 0 && o('#mainNav').hasClass('is-fixed')) {
+                o('#mainNav').addClass('is-visible');
+            } else {
+                o('#mainNav').removeClass('is-visible is-fixed');
+            }
+        } else { // Scrolling down
+            o('#mainNav').removeClass('is-visible');
+            if (i > s && !o('#mainNav').hasClass('is-fixed')) {
+                o('#mainNav').addClass('is-fixed');
+            }
+        }
+
+        // Update the previous scroll position
+        this.previousTop = i;
+    });
+
+    // Close navbar when clicking outside on mobile
+    $(document).ready(function () {
+        $(document).click(function (event) {
+            const navbarToggler = $(".navbar-toggler");
+            const navbarCollapse = $(".navbar-collapse");
+            const searchForm = $("#search-google");
+
+            // Check if the click is outside the navbar and not on the search form
+            if (
+                !navbarToggler.is(event.target) && // Not the toggler button
+                !navbarCollapse.is(event.target) && // Not the navbar itself
+                navbarCollapse.has(event.target).length === 0 && // Not a child of the navbar
+                !searchForm.is(event.target) && // Not the search form
+                searchForm.has(event.target).length === 0 // Not a child of the search form
+            ) {
+                // Check if the navbar is currently open
+                if (navbarCollapse.hasClass("show")) {
+                    // Close the navbar
+                    navbarToggler.click();
+                }
+            }
+        });
+    });
+})(jQuery);
