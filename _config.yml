@@ -116,9 +116,7 @@ compress_html:
   startings: [html, head, body]
   # comments: ['<!-- ', ' -->']
 
-# css compression
-sass:
-  style: compressed
+
 # jekyll-minifier:
 #   exclude: "atom.xml" # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
 #   preserve_php: true # Default: false
