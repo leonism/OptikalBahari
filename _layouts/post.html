@@ -8,16 +8,16 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 ---
 
 <!-- Page Header -->
-{% include navbar.html %} {% if page.background %}
+{% include navbar.html %}
+{% if page.background %}
 <header
     class="masthead"
-    style="background-image: url('{{ page.background | prepend: site.baseurl | resize: "
-    1024x1024
+    style="background-image: url('{{ page.background | prepend: site.baseurl | resize: "1024x1024>" | replace: '//', '/' }}')"
 >
-    " | replace: '//', '/' }}')"> {% else %}
+{% else %}
     <header class="masthead">
-        {% endif %}
-        <div class="container">
+{% endif %}
+    <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="page-heading">
@@ -27,13 +27,15 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
                         {% endif %}
                         <span class="meta">
                             Posted by
-                            <!-- <a href="#"> !-->
-                            {% if page.author %} {{ page.author }} {% else %} {{
-                            site.author }} {% endif %}
-                            <!-- </a> !-->
-                            on {{ page.date | date: '%B %d, %Y' }} &middot; {%
-                            include read_time.html content=page.content %}
+                            {% if page.author %}
+                                {{ page.author }}
+                            {% else %}
+                                {{ site.author }}
+                            {% endif %}
+                            on {{ page.date | date: '%B %d, %Y' }} &middot;
+                            {% include read_time.html content=page.content %}
                         </span>
+
                     </div>
                 </div>
             </div>
@@ -44,13 +46,14 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
         {{ content }}
         <hr />
         {% if page.comments %}
-        <div
-            class="fb-comments"
-            data-href="{{ site.url }}{{ page.url }}"
-            data-numposts="5"
-            data-width="720"
-            style="margin: 0 auto"
-        ></div>
+            <div
+                class="fb-comments"
+                data-href="{{ site.url }}{{ page.url }}"
+                data-numposts="5"
+                data-width="720"
+                style="margin: 0 auto"
+            ></div>
+
         {% endif %}
         <div class="clearfix">
             {% if page.previous.url %}
@@ -64,7 +67,9 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
                 &larr; Prev
                 <span class="d-none d-md-inline"> Post </span>
             </a>
-            {% endif %} {% if page.next.url %}
+            {% endif %}
+
+            {% if page.next.url %}
             <a
                 class="btn btn-primary float-right"
                 href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
@@ -78,4 +83,5 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
             {% endif %}
         </div>
     </div>
+
 </header>

@@ -134,10 +134,10 @@ pagination:
                 <li class="page-item">
                     {% if page == 1 %}
                         <!-- Link to the first page (usually the root URL) -->
-                        <a class="page-link" href="{{ '/posts/' | relative_url }}">{{ page }}</a>
+                        <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
                     {% else %}
                         <!-- Link to subsequent pages with the correct /posts/page/:num/ structure -->
-                        <a class="page-link" href="{{ '/posts/page/' | append: page | append: '/' | relative_url }}">{{ page }}</a>
+                        <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">{{ page }}</a>
                     {% endif %}
                 </li>
             {% endif %}

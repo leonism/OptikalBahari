@@ -1,3 +1,429 @@
+// Theme variables
+$light-bg: #ffffff;
+$light-text: #333333;
+$light-link: #007bff;
+$dark-bg: #1a1a1a;            // Deep black
+$dark-text: #d1d1d1;          // Soft off-white
+$dark-link: #4dabf7;          // Muted cyan-blue
+$dark-accent: #2c2c2c;        // Dark gray for cards/nav
+$dark-button: #3d5a80;        // Blue-gray for buttons
+$dark-card-body: #252525;     // Lighter gray for card body
+$dark-footer-bg: #1a1a1a;     // Solid dark background for footer
+$dark-footer-accent: #ffffff; // White for footer links
+$dark-ripple: #2a9d8f;        // Teal for ripple greenBg
+
+// Light mode defaults
+body {
+    background-color: $light-bg;
+    color: $light-text;
+    transition: background-color 0.3s, color 0.3s;
+
+    a {
+        color: $light-link;
+        &:hover {
+            color: darken($light-link, 10%);
+        }
+    }
+
+    .navbar-light {
+        background-color: $light-bg;
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: $light-text;
+        }
+    }
+
+    .card-body {
+        background-color: #f8f9fa;
+        color: $light-text;
+    }
+
+    footer {
+        background-color: #f1f1f1;
+        color: $light-text;
+        a {
+            color: $light-link;
+            &:hover {
+                color: darken($light-link, 10%);
+            }
+        }
+    }
+
+    // Global Search Icon Styling (applies to both light & dark modes by default)
+    .navbar .nav-item form {
+        position: relative;
+        width: 200px;
+    }
+    .navbar .nav-item .form-control.custom-search {
+        padding-right: 2.5rem !important;
+        width: 100%;
+    }
+    .navbar .nav-item .search-icon-container {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+    .navbar .nav-item .fas.fa-search.light-icon {
+        display: inline;
+        color: $light-text;
+    }
+    .navbar .nav-item .fas.fa-search.dark-icon {
+        display: none;
+    }
+}
+
+// Masthead Background Image Dimming (New Addition)
+.masthead {
+    position: relative;
+    z-index: 1;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0);
+        transition: background 0.3s ease;
+        z-index: -1;
+    }
+}
+
+// Dark mode overrides
+body.dark-mode {
+    background-color: $dark-bg;
+    color: $dark-text;
+
+    // Masthead Dark Mode Overlay (New Addition)
+    .masthead::before {
+        background: rgba(0, 0, 0, 0.8); // 80% dim overlay
+    }
+
+    a {
+        color: $dark-link;
+        &:hover {
+            color: lighten($dark-link, 15%);
+        }
+    }
+
+    // Navbar
+    .navbar {
+        background-color: $dark-accent !important;
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: $dark-text !important;
+            &:hover {
+                color: lighten($dark-text, 10%);
+            }
+        }
+        .form-check-input {
+            background-color: $dark-button;
+            border-color: $dark-button;
+            &:checked {
+                background-color: $dark-link;
+            }
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23d1d1d1' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+    }
+
+    // Cards
+    .card {
+        background-color: $dark-accent;
+        color: $dark-text;
+        border-color: lighten($dark-accent, 5%);
+        .card-body {
+            background-color: $dark-card-body;
+            color: $dark-text;
+            h1, h2, h3, h4, h5, h6 {
+                color: lighten($dark-text, 10%);
+            }
+            p {
+                color: $dark-text;
+            }
+            a {
+                color: $dark-link;
+                &:hover {
+                    color: lighten($dark-link, 20%);
+                }
+            }
+        }
+        .card-footer {
+            background-color: $dark-accent;
+            color: $dark-text;
+            border-top: 1px solid lighten($dark-accent, 10%);
+        }
+    }
+
+    // Buttons
+    .btn-primary {
+        background-color: $dark-button;
+        border-color: $dark-button;
+        &:hover {
+            background-color: lighten($dark-button, 10%);
+            border-color: lighten($dark-button, 10%);
+        }
+        &.rounded-pill {
+            background-color: $dark-button;
+            color: $dark-text;
+            &:hover {
+                background-color: lighten($dark-button, 15%);
+                color: lighten($dark-text, 5%);
+            }
+        }
+    }
+
+    // Font Awesome stack
+    .fa-stack.fa-lg {
+        color: $dark-text;
+        .fa-circle.fa-stack-2x {
+            color: $dark-accent;
+        }
+        .fa-stack-1x {
+            color: $dark-link;
+        }
+    }
+
+    // List inline
+    .list-inline.text-center {
+        color: $dark-text;
+        li {
+            a {
+                color: $dark-link;
+                &:hover {
+                    color: lighten($dark-link, 15%);
+                }
+            }
+        }
+    }
+
+    // Floating WhatsApp
+    .floatingWhatsApp {
+        &.intro-banner-vdo-play-btn {
+            background-color: $dark-button;
+            color: $dark-text;
+            &:hover {
+                background-color: lighten($dark-button, 10%);
+            }
+        }
+    }
+
+    // Ripple greenBg
+    .ripple.greenBg {
+        background-color: $dark-ripple;
+        color: $dark-text;
+        &:hover {
+            background-color: lighten($dark-ripple, 10%);
+        }
+    }
+
+    // Footer
+    footer {
+        background: $dark-footer-bg;
+        color: $dark-text;
+        padding: 1rem 0;
+        a {
+            color: $dark-footer-accent;
+            &:hover {
+                color: lighten($dark-footer-accent, 15%);
+                text-decoration: underline;
+            }
+        }
+        .btn {
+            background-color: $dark-button;
+            border-color: $dark-button;
+            color: $dark-text;
+            &:hover {
+                background-color: lighten($dark-button, 10%);
+                border-color: lighten($dark-button, 10%);
+            }
+        }
+        p, h1, h2, h3, h4, h5, h6 {
+            color: $dark-text;
+        }
+
+        .copyright.text-muted.list-unstyled {
+            color: $dark-text;
+            li {
+                a {
+                    color: $dark-footer-accent;
+                    &:hover {
+                        color: lighten($dark-footer-accent, 15%);
+                    }
+                }
+            }
+        }
+
+        .badge.badge-pill.badge-danger {
+            background-color: #9e2a2f;
+            color: $dark-text;
+        }
+    }
+
+    // Pagination
+    .pagination.justify-content-center {
+        .page-item {
+            &.disabled {
+                .page-link {
+                    background-color: $dark-accent;
+                    color: $dark-text;
+                    border-color: lighten($dark-accent, 10%);
+                }
+            }
+            &.active {
+                .page-link {
+                    background-color: $dark-link;
+                    border-color: $dark-link;
+                    color: $dark-text;
+                }
+            }
+            .page-link {
+                background-color: $dark-accent;
+                color: $dark-text;
+                border-color: lighten($dark-accent, 10%);
+                &:hover {
+                    background-color: lighten($dark-accent, 10%);
+                    color: $dark-link;
+                }
+            }
+        }
+    }
+
+    // Blog content
+    .post-content {
+        h1, h2, h3, h4, h5, h6 {
+            color: lighten($dark-text, 5%);
+        }
+        p {
+            color: $dark-text;
+        }
+    }
+
+    // Badges
+    .badge-danger {
+        background-color: #9e2a2f;
+        color: $dark-text;
+    }
+
+    // Images dimming off
+    img {
+        filter: brightness(50%);
+    }
+
+    // Search Icon Overrides for Dark Mode
+    .navbar .nav-item .fas.fa-search.light-icon {
+        display: none;
+    }
+    .navbar .nav-item .fas.fa-search.dark-icon {
+        display: inline;
+        color: $dark-text;
+    }
+
+    // Toggle switch and icons
+    .form-check.form-switch.mb-0 {
+        .form-check-input {
+            background-color: $dark-button;
+            border-color: $dark-button;
+            &:checked {
+                background-color: $dark-link;
+            }
+        }
+        .form-check-label {
+            .light-icon {
+                color: $light-text;
+            }
+            .dark-icon {
+                color: $dark-text;
+            }
+        }
+    }
+}
+
+// ================================================
+// Toggle Icon Visibility (applies globally)
+.form-check-label {
+    .light-icon {
+        display: inline;
+    }
+    .dark-icon {
+        display: none;
+    }
+}
+
+body.dark-mode .form-check-label {
+    .light-icon {
+        display: none;
+    }
+    .dark-icon {
+        display: inline;
+    }
+}
+
+// ================================================
+// Badge Fixes
+.badge.badge-pill.badge-danger.light-icon {
+    background-color: #dc3545;
+    color: $light-text;
+}
+
+.badge.badge-pill.badge-danger.dark-icon {
+    background-color: #9e2a2f;
+    color: $dark-text;
+    display: none;
+}
+
+body.dark-mode .badge.badge-pill.badge-danger.light-icon {
+    display: none;
+}
+
+body.dark-mode .badge.badge-pill.badge-danger.dark-icon {
+    display: inline;
+}
+
+// ================================================
+// General Styles
+.navbar {
+    .nav-item {
+        .form-check {
+            padding-left: 0;
+            .form-check-input {
+                margin-top: 0;
+            }
+            .form-check-label {
+                cursor: pointer;
+                padding-left: 0.5rem;
+            }
+        }
+    }
+}
+
+.form-check-input {
+    display: none;
+}
+
+.form-check-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dark-icon {
+    display: none;
+}
+
+body.dark-mode .light-icon {
+    display: none;
+}
+
+body.dark-mode .dark-icon {
+    display: inline;
+}
+
 /* Reset default browser styles */
 html, body {
     margin: 0;
@@ -19,10 +445,9 @@ html, body {
     // filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Soft shadow for depth */
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2)); /* Soft shadow for depth */
     // background: rgba(255, 246, 246, 10) !important; /* Semi-transparent background */
-    backdrop-filter: blur(200px) saturate(160%); /* Blur effect */
+    backdrop-filter: blur(200px) saturate(160%);
     -webkit-backdrop-filter: blur(200px) saturate(160%); /* Safari support */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
-
 
     .navbar-brand {
         margin: 0;

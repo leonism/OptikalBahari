@@ -19,9 +19,9 @@ comments: false
     <div class="row">
       {% for post in site.categories.Lensa limit:3 offset:0 %}
         {% if forloop.first %}
-          <div class="col-12 col-md-12 col-lg-4 mb-4">
+          <div class="col-12 col-md-12 col-lg-4 mb-5">
         {% else %}
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="col-12 col-md-6 col-lg-4 mb-5">
         {% endif %}
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
@@ -72,9 +72,9 @@ comments: false
     <div class="row">
       {% for post in site.categories.Info limit:3 offset:0 %}
         {% if forloop.first %}
-          <div class="col-12 col-md-12 col-lg-4 mb-4">
+          <div class="col-12 col-md-12 col-lg-4 mb-5">
         {% else %}
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="col-12 col-md-6 col-lg-4 mb-5">
         {% endif %}
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
@@ -125,9 +125,9 @@ comments: false
     <div class="row">
       {% for post in site.categories.Trend limit:3 offset:0 %}
         {% if forloop.first %}
-          <div class="col-12 col-md-12 col-lg-4 mb-4">
+          <div class="col-12 col-md-12 col-lg-4 mb-5">
         {% else %}
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="col-12 col-md-6 col-lg-4 mb-5">
         {% endif %}
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">

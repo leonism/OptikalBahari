@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5" id="mainNav">
   <div class="container">
     <!-- Brand/Logo -->
     <a class="navbar-brand" href="{{ '/' | relative_url }}" title="Optikal Bahari">
@@ -40,14 +40,60 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ '/testimoni/' | relative_url }}" title="Testimoni Optikal Bahari">
-            Testimoni <span class="badge badge-pill badge-danger">New</span>
+            Testimoni
+            <!-- Light mode badge -->
+            <span class="badge badge-pill badge-danger light-icon">New</span>
+            <!-- Dark mode badge -->
+            <span class="badge badge-pill badge-danger dark-icon">New</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ '/lokasi/' | relative_url }}" title="Lokasi Optikal Bahari">Lokasi</a>
         </li>
+        <li class="nav-item d-flex align-items-center">
+          <div class="form-check form-switch mb-0">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="themeToggle"
+              aria-label="Toggle between light and dark mode"
+            >
+            <label class="form-check-label" for="themeToggle">
+              <!-- Using Font Awesome stacking for the toggle icon -->
+              <span class="fa-stack toggle-icon">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-sun fa-stack-1x light-icon"></i>
+                <i class="fas fa-moon fa-stack-1x dark-icon"></i>
+              </span>
+            </label>
+          </div>
+        </li>
+        <!-- Search Form -->
         <li class="nav-item">
-          {% include navbar-search-google.html %}
+          <form
+            method="get"
+            id="search-google"
+            action="https://www.google.com/search"
+            target="_self"
+            class="d-flex align-items-center position-relative"
+          >
+            <input type="hidden" name="sitesearch" value="optikalbahari.com">
+            <input
+              type="text"
+              name="q"
+              maxlength="250"
+              value=""
+              placeholder="Cari Optikal Bahari"
+              class="form-control form-control-sm rounded-pill border custom-search"
+            >
+            <!-- Search icon container -->
+            <div class="search-icon-container position-absolute end-0 top-50 translate-middle-y">
+              <!-- Light mode search icon -->
+              <i class="fas fa-search light-icon" aria-label="Search"></i>
+              <!-- Dark mode search icon -->
+              <i class="fas fa-search dark-icon" aria-label="Search"></i>
+            </div>
+          </form>
         </li>
       </ul>
     </div>

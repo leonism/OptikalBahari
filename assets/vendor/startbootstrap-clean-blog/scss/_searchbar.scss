@@ -54,12 +54,13 @@
   }
 
   #search-google .custom-search {
-    padding: 12px 48px 12px 16px; /* More padding for better touch interaction */
-    font-size: 14px; /* Slightly smaller font for mobile */
+    padding: 14px 52px 14px 18px; /* Slightly reduced padding */
+    font-size: 17px; /* Slightly smaller than previous update */
+    height: 45px; /* Slightly smaller height */
   }
 
   #search-google .search-icon {
-    right: 16px; /* Adjusted spacing for mobile */
-    font-size: 16px; /* Slightly smaller icon for mobile */
+    right: 17px; /* Slightly adjust icon position */
+    font-size: 18px; /* Reduce icon size slightly */
   }
 }

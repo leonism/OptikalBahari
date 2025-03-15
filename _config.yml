@@ -10,6 +10,7 @@ url: 'https://optikalbahari.com'
 tagline: Melayani Segala Kebutuhan Kacamata Anda
 subtitle: Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima KJP
 permalink: /:title/
+# permalink: /posts/:title/
 # google_analytics: G-FV2N66E55Q // no longer needed, since we use Google Tag Manager
 
 # Social Profiles
@@ -23,6 +24,9 @@ youtube_username: optikalbahari
 markdown: kramdown
 tag_page_layout: tag_page
 tag_page_dir: tag
+# paginate: 9
+# paginate_path: "/page/:num/"
+
 
 # Pagination settings for jekyll-paginate-v2
 pagination:
@@ -45,6 +49,7 @@ plugins:
   - jekyll-image-size
   - jekyll-responsive-magick
   # - jekyll-minifier
+  # - jekyll-postcss
   # - jekyll_picture_tag
   # - jekyll-resize
   # - jekyll-webp
@@ -68,23 +73,6 @@ exclude:
 responsive:
   widths: [320, 640, 960, 1280, 2560]
   quality: 25
-
-sass:
-    style: compressed
-
-# jekyll-minifier:
-#   js:
-#     enable: true
-#     exclude: ['gtm.js'] # Exclude Google Tag Manager script
-#     preserve_source_map: false
-#     uglifier_options:
-#       harmony: true
-#       source_map: true
-#   css:
-#     enable: false # Disable CSS minification if not needed
-#   html:
-#     enable: false # Disable HTML minification if not needed
-
 
 # Small devices (landscape phones, 576px and up)
 # Medium devices (tablets, 768px and up)
@@ -116,7 +104,9 @@ compress_html:
   startings: [html, head, body]
   # comments: ['<!-- ', ' -->']
 
-
+# css compression
+sass:
+  style: compressed
 # jekyll-minifier:
 #   exclude: "atom.xml" # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
 #   preserve_php: true # Default: false
