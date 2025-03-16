@@ -18,7 +18,7 @@ pagination:
         <div class="row">
             {% assign posts = paginator.posts | slice: 0, 3 %}
             {% for post in posts %}
-                <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-4">
+                <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
                     <div class="card shadow p-0 bg-white rounded hover-zoomin">
                         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
                             {% if post.background %}
@@ -52,7 +52,7 @@ pagination:
         <div class="row">
             {% assign posts = paginator.posts | slice: 3, 3 %}
             {% for post in posts %}
-                <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-4">
+                <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
                     <div class="card shadow p-0 bg-white rounded hover-zoomin">
                         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
                             {% if post.background %}
@@ -84,7 +84,7 @@ pagination:
         <div class="row">
             {% assign posts = paginator.posts | slice: 6, 3 %}
             {% for post in posts %}
-                <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-4">
+                <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
                     <div class="card shadow p-0 bg-white rounded hover-zoomin">
                         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
                             {% if post.background %}
@@ -118,7 +118,7 @@ pagination:
         <!-- Previous Button -->
         {% if paginator.previous_page %}
             <li class="page-item">
-                <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous">« Prev</a>
+                <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" title="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous">« Prev</a>
             </li>
         {% else %}
             <li class="page-item disabled"><span class="page-link">« Prev</span></li>
@@ -134,10 +134,10 @@ pagination:
                 <li class="page-item">
                     {% if page == 1 %}
                         <!-- Link to the first page (usually the root URL) -->
-                        <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
+                        <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" title="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
                     {% else %}
                         <!-- Link to subsequent pages with the correct /posts/page/:num/ structure -->
-                        <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">{{ page }}</a>
+                        <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" title="{{ paginator.next_page_path | relative_url }}">{{ page }}</a>
                     {% endif %}
                 </li>
             {% endif %}
@@ -146,10 +146,12 @@ pagination:
         <!-- Next Button -->
         {% if paginator.next_page %}
             <li class="page-item">
-                <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" aria-label="Next">Next »</a>
+                <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" title="{{ paginator.next_page_path | relative_url }}" aria-label="Next">Next »</a>
             </li>
         {% else %}
-            <li class="page-item disabled"><span class="page-link">Next »</span></li>
+            <li class="page-item disabled">
+                <span class="page-link">Next »</span>
+            </li>
         {% endif %}
     </ul>
 </nav>

@@ -1,17 +1,13 @@
 /*
   =============================================================================
-  SCSS File – Alternative Dark Mode Variant (Based on #141D2B and #1A2332)
+  SCSS File with Updated Theme Toggle (Font Awesome Stacking, Size & Alignment Tweaks)
   =============================================================================
-  This file defines styles for both light and dark modes—including global elements
-  (body, navbar, cards, footer, search form, etc.) and the theme toggle switch.
-
-  For dark mode we use an alternative palette inspired by the two colors:
-    • Primary background: #141D2B
-    • Accent: #1A2332
-
-  Complementary colors are chosen for text, links, and buttons to ensure good contrast.
-  The theme toggle uses Font Awesome stacking with a 14px white background circle and
-  12px overlay icons.
+  This file defines the styling for light and dark modes including global
+  elements (body, navbar, cards, footer, search form, etc.) and the theme toggle
+  switch. The theme toggle now uses Font Awesome stacking with a background circle
+  (always white) sized at 14px and overlay icons sized at 12px. In light mode, the
+  toggle displays a moon icon for dark mode contrast, and in dark mode, it displays
+  a sun icon for light mode contrast.
   =============================================================================
 */
 
@@ -19,20 +15,20 @@
 /*           Theme Variables              */
 /* ---------------------------------------- */
 // Light mode colors:
-$light-bg: #ffffff;
-$light-text: #333333;
-$light-link: #007bff;
+$light-bg: #ffffff;     // Light mode background (white)
+$light-text: #333333;   // Light mode text (dark gray)
+$light-link: #899199;   // Light mode link color (blue)
 
-// Alternative Dark Mode Variables:
-$dark-bg: #141D2B;          // Primary dark background
-$dark-accent: #1A2332;      // Accent color for dark mode components
-$dark-text: #D0D0D0;        // Light gray text for good contrast
-$dark-link: #77B1D1;        // Muted blue tone for dark mode links
-$dark-button: #111927;      // Button background (using accent)
-$dark-card-body: #162033;   // A slightly lighter tone for card bodies
-$dark-footer-bg: #141D2B;    // Footer background same as dark background
-$dark-footer-accent: #D0D0D0; // Footer link color in dark mode
-$dark-ripple: #1A2332;      // Ripple effect color
+// Dark mode colors and accents:
+$dark-bg: #1a1a1a;            // Dark mode background (deep black)
+$dark-text: #b3b0b0;          // Dark mode text (soft off-white)
+$dark-link: #9ba8b2;          // Dark mode link color (muted cyan-blue)
+$dark-accent: #1B1B1D;        // Accent for dark mode (cards, navbar, etc.)
+$dark-button: #78746E;        // Button background for dark mode (blue-gray)
+$dark-card-body: #252525;     // Card body background for dark mode
+$dark-footer-bg: #1a1a1a;     // Footer background for dark mode
+$dark-footer-accent: #8c8b8b; // Footer link color for dark mode (white)
+$dark-ripple: #3e4040;        // Ripple effect color for dark mode
 
 /* ---------------------------------------- */
 /*        Light Mode Default Styles         */
@@ -153,7 +149,7 @@ body.dark-mode {
       }
     }
     .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23D0D0D0' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23d1d1d1' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
   }
 
@@ -265,10 +261,10 @@ body.dark-mode {
       color: $dark-text;
     }
     .copyright.text-muted.list-unstyled {
-      color: $dark-link;
+      color: $dark-text;
       li {
         a {
-          color: $dark-link;
+          color: $dark-footer-accent;
           &:hover {
             color: lighten($dark-footer-accent, 10%);
           }
@@ -276,21 +272,8 @@ body.dark-mode {
       }
     }
     .badge.badge-pill.badge-danger {
-      background-color: $dark-link;
+      background-color: #9e2a2f;
       color: $dark-text;
-    }
-
-    .navbar-nav .nav-item .nav-link a .badge.badge-pill .badge-danger {
-      background-color: $dark-link;
-      color: $dark-link;
-      li {
-        a {
-          color: $dark-link;
-          &:hover {
-            color: lighten($dark-footer-accent, 10%);
-          }
-        }
-      }
     }
   }
 
@@ -365,35 +348,36 @@ body.dark-mode {
 /*   (Using Font Awesome Stacking)            */
 /* ---------------------------------------- */
 /*
-  The theme toggle switch uses a container with the class "toggle-icon" that
-  employs Font Awesome stacking. Inside the container:
-    - The background circle (<i class="fas fa-circle fa-stack-2x"></i>) is fixed
-      at 14px, white, and vertically aligned.
-    - The overlay icons (<i class="fas fa-sun fa-stack-1x light-icon"></i> and
-      <i class="fas fa-moon fa-stack-1x dark-icon"></i>) are set at 12px and swapped
-      based on the active mode.
+  The theme toggle switch now uses a single container with the class "toggle-icon"
+  that employs Font Awesome stacking. Inside the container:
+    - The background circle (<i class="fas fa-circle fa-stack-2x"></i>)
+      now has a fixed size of 14px and is vertically aligned.
+    - The overlay icons (<i class="fas fa-sun fa-stack-1x light-icon"></i>
+      and <i class="fas fa-moon fa-stack-1x dark-icon"></i>) are set to 12px,
+      vertically aligned, and are swapped based on the active mode.
 
-  Requirements:
+  Per the requirements:
     • In light mode, display the moon icon (dark-icon) using a dark color for contrast.
     • In dark mode, display the sun icon (light-icon) using white for contrast.
 */
 .toggle-icon {
-  font-size: 14px;
-  margin-top: 10px;
+  // Set container font-size for the background circle (14px)
+  font-size: 23px;
 }
 
 .toggle-icon > i.fa-circle.fa-stack-2x {
   color: white;
-  font-size: 25px !important;
-  line-height: 14px;
+  font-size: 23px !important;
+  line-height: 23px;
   vertical-align: middle;
+  margin-top: 6px;
 }
 
 .toggle-icon > i.fa-stack-1x {
-  color: $dark-card-body;
-  font-size: 16px !important;
-  line-height: 14px;
+  font-size: 15px !important;
+  line-height: 15px;
   vertical-align: middle;
+  margin-top: 10px
 }
 
 /* In light mode: show the moon icon (dark-icon) and hide the sun icon */
@@ -423,7 +407,7 @@ body.dark-mode .toggle-icon .dark-icon {
 }
 
 .badge.badge-pill.badge-danger.dark-icon {
-  background-color: #77B1D2;
+  background-color: #9e2a2f;
   color: $dark-text;
   display: none;
 }
