@@ -22,6 +22,7 @@
 $light-bg: #ffffff;
 $light-text: #333333;
 $light-link: #007bff;
+$light-badge-text: #FFFFFF;
 
 // Alternative Dark Mode Variables:
 $dark-bg: #141D2B;          // Primary dark background
@@ -186,7 +187,7 @@ body.dark-mode {
 
   .btn-primary {
     background-color: $dark-button;
-    border-color: $dark-button;
+    border-color: lighten($dark-button, 10%);
     &:hover {
       background-color: lighten($dark-button, 10%);
       border-color: lighten($dark-button, 10%);
@@ -419,7 +420,7 @@ body.dark-mode .toggle-icon .dark-icon {
 /* ---------------------------------------- */
 .badge.badge-pill.badge-danger.light-icon {
   background-color: #dc3545;
-  color: $light-text;
+  color: $light-badge-text;
 }
 
 .badge.badge-pill.badge-danger.dark-icon {
