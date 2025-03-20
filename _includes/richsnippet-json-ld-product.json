@@ -38,8 +38,8 @@
             "@type": "MerchantReturnPolicy",
             "applicableCountry": "ID",
             "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-            "returnFees": "none",
-            "returnMethod": "In-store return",
+            "returnFees": "https://schema.org/FreeReturn",
+            "returnMethod": "https://schema.org/ReturnByMail",
             "merchantReturnDays": 30
           },
           "availability": "https://schema.org/InStock",
@@ -71,7 +71,7 @@
               "shippingDestination": {
                 "@type": "DefinedRegion",
                 "addressCountry": "ID",
-                "addressRegion": "DKI"
+                "addressRegion": "DKI Jakarta"
               },
               "deliveryTime": {
                 "@type": "ShippingDeliveryTime",
@@ -92,7 +92,11 @@
               }
             }
           ],
-          "availableAtOrFrom": "https://optikalbahari.com/periksa-mata-gratis/",
+          "availableAtOrFrom": {
+              "@type": "Place",
+              "name": "Optikal Bahari",
+              "url": "https://optikalbahari.com/periksa-mata-gratis/"
+            },
           "includes": [
             {
               "@type": "Service",
@@ -100,7 +104,7 @@
             },
             {
               "@type": "Warranty",
-              "duration": "1 Year",
+              "duration": "P1Y",
               "name": "Garansi 1 Tahun"
             },
             {
@@ -112,8 +116,12 @@
               "name": "Service & Reparasi Kacamata Gratis"
             },
             {
-              "@type": "PaymentAccepted",
+              "@type": "PaymentMethod",
               "name": "Kartu Jakarta Pintar (KJP)"
+            },
+            {
+              "@type": "PaymentMethod",
+              "name": "Kartu Debit"
             },
             {
               "@type": "Certification",

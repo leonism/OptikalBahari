@@ -6,7 +6,7 @@
     "priceRange": "$",
     "telephone": "+6281932235445",
     "name":"{{ site.title }}",
-    "url":"{{ site.url }}",    
+    "url":"{{ site.url }}",
     "currenciesAccepted": "IDR",
     "paymentAccepted": "Cash, Debit Card",
     "address": {
@@ -33,11 +33,11 @@
       "@type": "GeoCoordinates",
       "latitude": -6.161815554395783,
       "longitude": 106.85789672789805
-    },    
+    },
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5",
-      "reviewCount": "430"
+      "reviewCount": "496"
     },
     "openingHoursSpecification": [
       {

@@ -19,8 +19,8 @@ h6 {
 }
 
 a {
-  // color: $gray-900;
-  color: $black;
+  color: $gray-900;
+  // color: $black;
   @include transition-all;
 
   &:focus,

@@ -3,8 +3,8 @@ layout: none
 ---
 
 User-agent: *
-Disallow: {{ site.url }}/cgi-bin/
+Disallow: /cgi-bin/
+Disallow: /*?*
 
-User-agent: *
 Allow: /
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: https://optikalbahari.com/sitemap.xml

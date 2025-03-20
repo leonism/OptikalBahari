@@ -13,6 +13,7 @@ thumbs: /assets/img/posts/optikal-bahari-retro/optikal-bahari-retro-01-min.webp
 permalink: /profil/
 comments: false
 ---
+
 <div class="card shadow p-3 bg-white mb-5">
   <img
     src="/assets/img/profil/bandar-udara-kemayoran.jpeg"
@@ -21,14 +22,10 @@ comments: false
   <div class="card-body">
     <h3 class="card-title">Sejarah Berdirinya Optikal Bahari</h3>
     <p class="card-text text-left">
-      Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari   
-      sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40+ tahun
-      yang telah lalu, dan sekarang telah berkembang dan diteruskan ke generasi selanjutnya dikeluarga kami.
+      Berdiri sejak tahun 1978 di Jakarta Pusat, Optikal Bahari telah menjadi saksi bisu dari denyut perjalanan Jalan Bendungan Jago, Kemayoran. Bermula dari visi sederhana para orang tua kami, Optik Bahari ini tumbuh menjadi ikon yang mengakar kuat dalam sejarah masyarakat Kemayoran. Dan kini setelah lebih dari 40 tahun, warisan itu terus hidup, diwariskan ke generasi berikutnya dalam keluarga kami.
     </p>
     <p class="card-text text-left">
-      Optikal Bahari telah menjadi bagian keseharian dari banyak keluarga di Kemayoran, mulai dari para generasi   
-      terdahulu yang sebelumnya di layani langsung oleh para orang tua kami, berlanjut ke masa sekarang, dimana
-      pengunjungnya masih setia dengan mengajak para anak dan cucu mereka ke Optikal Bahari.
+      Optikal Bahari bukan sekadar toko kacamata. Kami adalah bagian tak terpisahkan dari cerita banyak keluarga di Kemayoran. Dari generasi sebelummya yang dilayani dengan penuh kehangatan oleh para orang tua kami, hingga anak dan cucu mereka masih setia datang, membawa kenangan dan kepercayaan yang sama. Setiap kacamata yang dihantarkan buat bukan hanya alat bantu penglihatan, tapi juga pengikat emosi antar generasi.
     </p>
   </div>
 </div>
@@ -42,16 +39,10 @@ comments: false
   <div class="card-body">
     <h3 class="card-title">Transformasi Dari Masa Ke Masa</h3>
     <p class="card-text text-left">
-      Seriring dengan perkembangan zaman, Optikal Bahari telah bertransformasi dengan banyak innovasi teknologi. Dimana   
-      di masa sebelumnya, semua proses pemesanan kacamata yang dimulai dari pemeriksaan dan pembuatan dilakukan secara
-      manual dengan alat analog. Sementara sekarang sudah melibatkan banyak teknologi komputerisasi dalam proses
-      pengerjaannya.
+      Zaman berubah, dan Optikal Bahari pun bertransformasi. Dari proses manual yang mengandalkan alat-alat analog, kini kami mengadopsi teknologi komputerisasi untuk memberikan presisi terbaik. Tapi satu hal yang tak pernah berubah: komitmen kami untuk tetap terjangkau dan ramah bagi semua kalangan.
     </p>
     <p class="card-text text-left">
-      Tapi banyak dari semua perubahan tersebut dilakukan tanpa harus mengorbankan nilai keterjangkau dari pelayanan   
-      kami. Kami berprinsip, harus tetap dapat memberikan dampak positif, dan disaat bersamaan harus bisa menjangkau
-      banyak kalangan disekitaran tempat kami melakukan usaha. Semoga hasilnya dapat dirasakan oleh masyarakat sekitar,
-      <em>Insya Allah</em>.
+      Kami percaya, kemajuan bukan berarti meninggalkan nilai-nilai lama. Inovasi kami lakukan tanpa mengorbankan kehangatan pelayanan dan keterjangkauan harga. Bagi kami, menjadi bagian dari kehidupan masyarakat sekitar adalah kehormatan. Dan setiap senyum puas dari pelanggan adalah bukti bahwa perjalanan ini berarti, semoga hasilnya dapat dirasakan oleh masyarakat sekitar, <em>Insya Allah</em>.
     </p>
   </div>
 </div>
@@ -63,17 +54,12 @@ comments: false
     title="bandar-udara-kemayoran-80an"
     alt="bandar-udara-kemayoran-80an.webp">
   <div class="card-body">
-    <h3 class="card-title">Paripurna</h3>
+    <h3 class="card-title">Menjadi Bagian dari Sejarah Kemayoran</h3>
     <p class="card-text text-left">
-      Kami bangga menjadi bagian dari sejarah perubahan zaman di Kemayoran. Mulai dari era bandar udara Kemayoran masih   
-      beroperasi, lanjut ke periode bioskop Rahayu yang berubah nama menjadi Dwi Gita, sampai dengan sekarang dimana
-      Kemayoran sudah dipenuhi dengan banyak apartemen, mall, ojek online dan bangunan tinggi yang menjulang lainnya.
+      Optikal Bahari bangga menjadi saksi bisu dari perubahan zaman di Kemayoran. Dari era Bandara Udara Kemayoran yang ramai, masa kejayaan Bioskop Rahayu yang legendaris, hingga kini ketika Kemayoran sudah dipenuhi dengan gedung & mall yang menjulang tinggi dan modern. Kami tetap berdiri tegak, menjaga autentisitas kami di tengah derap perubahan zaman.
     </p>
     <p class="card-text text-left">
-      Terima kasih telah menjadikan Optikal Bahari sebagai pilihan dari perjalanan keluarga anda. 40 tahun bukanlah   
-      perhelatan waktu yang sebentar untuk terus bisa berkarya dan menjadi pilihan dari perjalanan keseharian seseorang.
-      Dan bagi kami, ini merupakan nilai kehormatan dan kebanggaan terbesar dapat menjadi bagian dari perjalanan
-      tersebut.
+      Terima kasih telah menjadikan Optikal Bahari sebagai bagian dari perjalanan keluarga anda. 40+ tahun bukanlah perhelatan waktu yang sebentar untuk terus bisa berkarya dan menjadi pilihan dari perjalanan keseharian seseorang. Dan bagi kami, ini merupakan nilai kehormatan dan kebanggaan terbesar dapat menjadi bagian dari perjalanan tersebut.
     </p>
     <p class="card-text text-left">Salam terhangat dari kami semua</p>
     <em>Optikal Bahari</em>
