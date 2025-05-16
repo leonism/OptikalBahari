@@ -11,13 +11,11 @@ group :jekyll_plugins do
   gem "jekyll-paginate-v2"
 end
 ```
-
 Run `bundle install` to install it.
 
 ---
 
 ## Step 2: Configure `_config.yml`
-
 Add the pagination settings for `jekyll-paginate-v2`. Since we’re paginating in `/posts/`, configure it like this:
 
 ```yaml
@@ -254,7 +252,5 @@ Update your root `index.html` to link to the new posts page, e.g.:
 - **CI Option**: You could automate this with a GitHub Action to build and deploy the `_site` folder—let me know if you’d like a workflow example!
 
 ---
-
 This setup keeps your root `index.html` intact, paginates all posts under `/posts/`, and uses `jekyll-paginate-v2` for flexibility. Test it locally first, and let me know if you hit any snags!
-
 ---
