@@ -7,7 +7,7 @@
 ## 1. **SCSS Files in `_sass` Folder**:
 
 - The `_sass` folder contains partial SCSS files that are meant to be imported into other SCSS files. These partials typically start with or without an underscore (e.g., `_styles.scss`) and are not compiled directly into CSS files.
-- These partials define `variables`, `mixins`, and `styles` that that can be reused across the project.
+- These partials define `variables`, `mixins`, and `styles` that can be reused across the project.
 
 ## 2. **Main SCSS File in assets Folder**:
 
