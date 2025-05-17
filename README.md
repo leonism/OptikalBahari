@@ -22,15 +22,17 @@ When installing the theme using RubyGems, demo images, posts, and pages are not 
 4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
 5. Build your site: `bundle exec jekyll serve`
 
-Assuming there are no errors and the site is building properly, follow these steps next:
+Assuming there are no errors and the site is building properly (it should be accessible at `http://localhost:4000` by default), you can stop the server (Ctrl+C). This step verifies the basic theme integration.
 
-1. Create the following pages if they do not exist already (or change the extension of exisitig markdown files from `.md` to `.html`):
+6. **Configure Content and Structure**:
+   Follow these steps to set up your site's content:
+
+   1. Create the following pages if they do not exist already (or change the extension of existing markdown files from `.md` to `.html`):
 
    - `index.html` - set to `layout: home`
    - `about.html` - set to `layout: page`
    - `contact.html` - set to `layout: page`
    - `posts/index.html` - set to `layout: page` (you will also need to create a `posts` directory)
-
 2. Configure the `index.html` front matter. Example:
 
 ```
@@ -48,9 +50,7 @@ layout: page
 title: Page Title
 description: This is the page description.
 background: '/PATH_TO_IMAGE'
----
 ```
-
 4. For each post in the `_posts` directory, update the front matter. Example:
 
 ```
