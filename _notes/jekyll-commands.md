@@ -59,9 +59,7 @@
    ```bash
    JEKYLL_ENV=production jekyll build
    ```
-
 ---
-
 ### **Troubleshooting**
 - **"Command not found"**: Ensure Jekyll is installed (`gem install jekyll bundler`).
 - **Dependency issues**: Use `bundle exec` prefix or run `bundle install`.

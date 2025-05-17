@@ -30,6 +30,7 @@ $dark-accent: #1A2332;      // Accent color for dark mode components
 $dark-text: #D0D0D0;        // Light gray text for good contrast
 $dark-link: #77B1D1;        // Muted blue tone for dark mode links
 $dark-button: #111927;      // Button background (using accent)
+$dark-card: #1A2332;       // Card background color
 $dark-card-body: #162033;   // A slightly lighter tone for card bodies
 $dark-footer-bg: #141D2B;    // Footer background same as dark background
 $dark-footer-accent: #D0D0D0; // Footer link color in dark mode
@@ -53,7 +54,8 @@ body {
   .navbar-light {
     background-color: $light-bg;
     .navbar-brand,
-    .navbar-nav .nav-link {
+    .navbar-nav
+    .nav-link {
       color: $light-text;
     }
   }
@@ -178,6 +180,10 @@ body.dark-mode {
           color: lighten($dark-link, 20%);
         }
       }
+    }
+    .card-deck {
+      background-color: $dark-bg;
+      color: $light-text;
     }
     .card-footer {
       background-color: $dark-accent;
@@ -359,6 +365,11 @@ body.dark-mode {
         background-color: $dark-link;
       }
     }
+  }
+  // overide the .card .bg-white for the dark mode class in the hardcoded html
+  .card.bg-white {
+    background-color: $dark-bg !important; /* Dark background color */
+    color: #ffffff; /* Adjust text color for better contrast */
   }
 }
 
