@@ -1,6 +1,14 @@
 # Updating to `jekyll-paginate-v2`
 
-Since we want to use `jekyll-paginate-v2` for pagination and keep our existing root `index.html` intact, we'll set up pagination in a subdirectory (e.g., `/posts/`) as a separate page. This approach works around the limitation of the default `jekyll-paginate` plugin, which only paginates the root `index.html`, and leverages the more flexible `jekyll-paginate-v2` plugin, which supports pagination in subdirectories. However, note that `jekyll-paginate-v2` is not supported by GitHub Pages out of the box, so you'll need to generate the site locally and push the static files to your repository (more on this later). Here’s how to implement this:
+Since we want to use `jekyll-paginate-v2` for pagination and keep our existing
+root `index.html` intact, we'll set up pagination in a subdirectory (e.g.,
+`/posts/`) as a separate page. This approach works around the limitation of the
+default `jekyll-paginate` plugin, which only paginates the root `index.html`,
+and leverages the more flexible `jekyll-paginate-v2` plugin, which supports
+pagination in subdirectories. However, note that `jekyll-paginate-v2` is not
+supported by GitHub Pages out of the box, so you'll need to generate the site
+locally and push the static files to your repository (more on this later).
+Here’s how to implement this:
 
 ## Step 1: Install `jekyll-paginate-v2`
 
@@ -11,12 +19,15 @@ group :jekyll_plugins do
   gem "jekyll-paginate-v2"
 end
 ```
+
 Run `bundle install` to install it.
 
 ---
 
 ## Step 2: Configure `_config.yml`
-Add the pagination settings for `jekyll-paginate-v2`. Since we’re paginating in `/posts/`, configure it like this:
+
+Add the pagination settings for `jekyll-paginate-v2`. Since we’re paginating in
+`/posts/`, configure it like this:
 
 ```yaml
 # Site settings
@@ -36,13 +47,15 @@ pagination:
     after: 2   # Show 2 pages after current page in navigation
 ```
 
-Remove any `paginate` or `paginate_path` settings if they exist, as those are for `jekyll-paginate`, not v2.
+Remove any `paginate` or `paginate_path` settings if they exist, as those are
+for `jekyll-paginate`, not v2.
 
 ---
 
 ## Step 3: Create `posts/index.html`
 
-Create a file at `posts/index.html` (not in the root) with this content. This will be your paginated posts page:
+Create a file at `posts/index.html` (not in the root) with this content. This
+will be your paginated posts page:
 
 ```html
 ---
@@ -196,10 +209,15 @@ pagination:
 
 ### Key Points:
 
-- **Front Matter**: The `pagination: enabled: true` in the front matter tells `jekyll-paginate-v2` to paginate this specific page.
-- **Permalinks**: The `permalink: /posts/` sets the base URL, and `pagination.permalink` in `_config.yml` appends `/page/:num/` for subsequent pages (e.g., `/posts/page/2/`).
-- **Offsets**: We use `limit` and `offset` to split the 9 posts into three sections (0-2, 3-5, 6-8).
-- **Trail**: The `trail` setting in `_config.yml` limits the page numbers shown in the navigation (e.g., showing 2 before and after the current page).
+- **Front Matter**: The `pagination: enabled: true` in the front matter tells
+  `jekyll-paginate-v2` to paginate this specific page.
+- **Permalinks**: The `permalink: /posts/` sets the base URL, and
+  `pagination.permalink` in `_config.yml` appends `/page/:num/` for subsequent
+  pages (e.g., `/posts/page/2/`).
+- **Offsets**: We use `limit` and `offset` to split the 9 posts into three
+  sections (0-2, 3-5, 6-8).
+- **Trail**: The `trail` setting in `_config.yml` limits the page numbers shown
+  in the navigation (e.g., showing 2 before and after the current page).
 
 ---
 
@@ -219,10 +237,12 @@ Since `jekyll-paginate-v2` isn’t supported by GitHub Pages:
 
 ## Step 5: Deploy to GitHub Pages
 
-GitHub Pages won’t run `jekyll-paginate-v2` during its build process, so you need to push the generated static files:
+GitHub Pages won’t run `jekyll-paginate-v2` during its build process, so you
+need to push the generated static files:
 
 1. Build the site locally: `bundle exec jekyll build`.
-2. Copy the contents of `_site/` to your repository’s root (or a branch like `gh-pages` if you’re using that).
+2. Copy the contents of `_site/` to your repository’s root (or a branch like
+   `gh-pages` if you’re using that).
 3. Commit and push to GitHub:
 
    ```bash
@@ -231,7 +251,8 @@ GitHub Pages won’t run `jekyll-paginate-v2` during its build process, so you n
    git push origin main  # or gh-pages
    ```
 
-4. Configure GitHub Pages to serve from the root or the `gh-pages` branch in your repository settings.
+4. Configure GitHub Pages to serve from the root or the `gh-pages` branch in
+   your repository settings.
 
 ---
 
@@ -247,10 +268,15 @@ Update your root `index.html` to link to the new posts page, e.g.:
 
 ### Notes
 
-- **Post Count**: Ensure you have at least 10 posts to see pagination in action (9 per page means page 2 appears with 10+ posts).
-- **GitHub Pages Limitation**: If you want GitHub Pages to build the site automatically, you’re stuck with `jekyll-paginate` (root-only). Using `jekyll-paginate-v2` requires this local build workflow or a CI setup (e.g., GitHub Actions).
-- **CI Option**: You could automate this with a GitHub Action to build and deploy the `_site` folder—let me know if you’d like a workflow example!
+- **Post Count**: Ensure you have at least 10 posts to see pagination in action
+  (9 per page means page 2 appears with 10+ posts).
+- **GitHub Pages Limitation**: If you want GitHub Pages to build the site
+  automatically, you’re stuck with `jekyll-paginate` (root-only). Using
+  `jekyll-paginate-v2` requires this local build workflow or a CI setup (e.g.,
+  GitHub Actions).
+- **CI Option**: You could automate this with a GitHub Action to build and
+  deploy the `_site` folder—let me know if you’d like a workflow example!
 
 ---
-This setup keeps your root `index.html` intact, paginates all posts under `/posts/`, and uses `jekyll-paginate-v2` for flexibility. Test it locally first, and let me know if you hit any snags!
----
+
+## This setup keeps your root `index.html` intact, paginates all posts under `/posts/`, and uses `jekyll-paginate-v2` for flexibility. Test it locally first, and let me know if you hit any snags!
