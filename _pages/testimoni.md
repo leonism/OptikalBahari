@@ -36,7 +36,7 @@ comments: false
           title="Optikal Bahari Google My Busiess Review Page"
           class="GoogleMyBusiness"
           id="OptikalBahariGMB">Google My Business Optikal Bahari</a>
-        dengan hasil 5 bintang dari 468 ulasan konsumen:
+        dengan hasil 5 bintang dari 504 ulasan konsumen:
       </p>
     </div>
   </div>

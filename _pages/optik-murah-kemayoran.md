@@ -21,7 +21,7 @@ comments: false
             Optikal Bahari Murah & Terjangkau Untuk Semua Kalangan
         </h3>
         <p class="card-text text-left">
-            Sedang mempertimbangkan untuk membeli kacamata baru? Atau mungkin butuh lensa atau bingkai kacamata atuu frame pengganti karena ukuran mata yang sudah berubah? Atau mungkin sudah bosan dengan model kacamata yang digunakan sekarang? Jangan ragu lagi, segera datang ke Optikal Bahari. Hanya di Optikal Bahari yang koleksi lensa dan frame paling lengkap dengan harga terjangkau. 
+            Sedang mempertimbangkan untuk membeli kacamata baru? Atau mungkin butuh lensa atau bingkai kacamata atuu frame pengganti karena ukuran mata yang sudah berubah? Atau mungkin sudah bosan dengan model kacamata yang digunakan sekarang? Jangan ragu lagi, segera datang ke Optikal Bahari. Hanya di Optikal Bahari yang koleksi lensa dan frame paling lengkap dengan harga terjangkau.
         </p>
         <p class="card-text text-left">
             Selain itu, Optikal Bahari juga memberikan layanan periksa mata gratis, sehingga Anda dapat memastikan bahwa penglihatan Anda selalu dalam keadaan yang optimal. Di samping itu, kami juga menyediakan pembayaran cicilan dan pembayaran menggunakan KJP, sehingga Anda tidak perlu khawatir tentang biaya pembelian kacamata. Jangan ragu untuk berkunjung ke Optikal Bahari dan temukan keunggulan lain yang ditawarkan oleh kami.
@@ -33,7 +33,7 @@ comments: false
   </div>
 </div>
 
-{% include home-cards.html %}
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -52,7 +52,7 @@ comments: false
         <div class="card shadow p-3 mb-5 bg-white rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a> 
+                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a>
                 {% endif %}
             <div class="card-body">
                 <h5 class="card-title">

@@ -53,7 +53,7 @@ comments: false
         Kelebihan Optikal Bahari
       </h3>
       <p class="card-text text-left">
-        <strong>Periksa Mata GRATIS</strong>.  
+        <strong>Periksa Mata GRATIS</strong>.
                     Optikal Bahari memahami pentingnya penglihatan yang jelas bagi kehidupan Anda. Oleh karena itu, kami menawarkan
         <a href="{{"/periksa-mata-gratis/" | relative_url }}" title="Periksa Mata Gratis">periksa mata gratis</a>
         yang dilakukan dengan
@@ -65,16 +65,16 @@ comments: false
         untuk membantu optometrist kami mendiagnosis kondisi mata dengan lebih tepat.
       </p>
       <p class="card-text text-left">
-        <strong>Service & Reparasi Kacamata GRATIS</strong>.  
+        <strong>Service & Reparasi Kacamata GRATIS</strong>.
                     Jangan buang dulu kacamata rusak Anda. Di Optikal Bahari, kami menawarkan layanan service & reparasi kacamata GRATIS! Dengan layanan ini, kacamata kesayangan Anda akan selalu terjaga dalam kondisi prima dan tetap stylish. Jadi, tak perlu khawatir lagi tentang kacamata yang rusak
                     atau tidak nyaman. Percayakan perbaikan kacamata Anda kepada kami, dan nikmati pengalaman menggunakan kacamata yang terasa seperti baru kembali. Kunjungi Optikal Bahari dan rasakan sendiri kualitas layanan untuk kenyamanan dan gaya Anda!
       </p>
       <p class="card-text text-left">
-        <strong>Garansi 1 Tahun untuk Kacamata Kamu</strong>.  
+        <strong>Garansi 1 Tahun untuk Kacamata Kamu</strong>.
                     Kami sepenuhnya memahami kekhawatiran Anda terhadap kemungkinan kerusakan kacamata. Namun, di Optikal Bahari, kami memberikan solusi yang menguntungkan. Setiap pembelian kacamata dijamin dengan garansi selama 1 tahun penuh. Dengan demikian, Anda dapat mengenakan kacamata dengan penuh keyakinan dan kenyamanan, tanpa perlu khawatir tentang kerusakan atau masalah lainnya. Rasakan kebebasan dan kepercayaan diri dalam setiap langkah Anda, karena di Optikal Bahari, kualitas dan layanan yang terjamin merupakan prioritas kami.
       </p>
       <p class="card-text text-left">
-        <strong>Cicilan 0%, Tanpa Bunga & Riba</strong>.  
+        <strong>Cicilan 0%, Tanpa Bunga & Riba</strong>.
                     Optikal Bahari mengubah konsep membeli kacamata menjadi lebih terjangkau dan mudah. Melalui program
         <a href="{{"/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan 0%, tanpa bunga & riba">kacamata cicilan 0%, tanpa bunga & riba</a>, Anda dapat memiliki kacamata impian tanpa membebani dompet Anda. Ini adalah solusi yang sempurna bagi siapa pun yang ingin tampil kece tanpa harus khawatir tentang masalah keuangan. Jadi, jangan ragu lagi untuk merencanakan kunjungan ke Optikal Bahari dan temukan kacamata yang Anda idamkan dengan cara yang lebih hemat dan mudah!
       </p>
@@ -84,14 +84,14 @@ comments: false
         <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="KJP Anda untuk membayar kacamata di Optikal Bahari">KJP Anda untuk membayar kacamata di Optikal Bahari</a>. Bayangkan, tak perlu lagi memikirkan uang jajan, Anda dapat tampil stylish dengan kacamata baru tanpa beban. Optikal Bahari memberikan aksesibilitas yang luar biasa, sehingga Anda dapat mengekspresikan gaya Anda tanpa hambatan finansial. Jangan sia-siakan kesempatan ini, segera manfaatkan KJP dan dapatkan kacamata impian di Optikal Bahari untuk penampilan yang semakin memukau.
       </p>
       <p class="card-text text-left">
-        <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>.  
+        <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>.
                     Penglihatan mata adalah prioritas utama kami di Optikal Bahari. Kami telah memperoleh izin resmi dari Dinas Kesehatan & Kementerian Kesehatan Republik Indonesia, hal ini bentuk komitmen kami terhadap standar penglihatan mata yang tinggi. Dengan izin ini Anda dapat sepenuhnya percaya pada layanan dan produk kami. Jangan ragu untuk periksa mata Anda di Optikal Bahari, dimana penglihatan mata bukan hanya menjadi komitmen, tetapi juga gaya hidup yang menawan. Percayakan urusan penglihatan Anda kepada Optikal Bahari dan nikmati pengalaman pemeriksaan mata yang eksklusif dan memuaskan.
       </p>
     </div>
   </div>
 </div>
 
-{% include home-cards.html %}
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">

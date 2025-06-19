@@ -15,10 +15,10 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img 
-            itemprop="image" 
+        <img
+            itemprop="image"
             data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp" 
+            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp"
             class="card-img-top img-fluid"
             title="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
             alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame">
@@ -36,14 +36,14 @@ comments: false
    </div>
 </div>
 
-{% include home-cards.html %}
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img 
-            itemprop="image" 
+        <img
+            itemprop="image"
             data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp" 
+            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp"
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
             alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
@@ -67,17 +67,17 @@ comments: false
         </div>
 </div>
 
-{% include home-cards-glasses.html %}
+{% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img 
-            itemprop="image" 
+        <img
+            itemprop="image"
             data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp" 
+            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp"
             class="card-img-top img-fluid"
             title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">		  
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
     <div class="card-body">
         <h3 class="card-title">
             Kacamata Cicilan 0%
@@ -96,7 +96,7 @@ comments: false
 	<div class="card-deckrow mb-3 card-deck">
 		{% for post in site.categories.Lensa limit : 3 %}
 		<div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" 
+			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 				title="{{ post.title }}">
 				{% if page.background %}
 				<img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
@@ -131,11 +131,11 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img 
+		  <img
             itemprop="image"
             data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp"
-            src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}" 
-            class="card-img-top" 
+            src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}"
+            class="card-img-top"
             alt="tips-kacamata-2.webp">
             <div class="card-body">
                 <h3 class="card-title">
@@ -156,7 +156,7 @@ comments: false
 	<div class="card-deckrow mb-3 card-deck">
 		{% for post in site.categories.Lensa limit : 3 %}
 		<div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" 
+			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 				title="{{ post.title }}">
 				{% if page.background %}
 				<img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"

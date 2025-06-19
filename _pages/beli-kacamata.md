@@ -16,16 +16,16 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-019.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-019.webp" 
-            class="card-img-top img-fluid" 
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-019.webp"
+            class="card-img-top img-fluid"
             loading="lazy"
             title="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
-            alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame">		  
+            alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame">
     <div class="card-body">
         <h3 class="card-title">
             Beli Kacamata Murah & Terjangkau
         </h3>
-            <p class="card-text text-left"> 
+            <p class="card-text text-left">
                 Apakah Anda merasa penglihatan Anda mulai terganggu? Seringkali Anda mengalami pandangan kabur dan kurang jelas? Penurunan kualitas penglihatan bisa disebabkan oleh berbagai faktor, mulai dari paparan sinar blueray yang berlebihan dari pancaran layar monitor, penggunaan ponsel yang terlalu sering, hingga penurunan kapasitas penglihatan seiring bertambahnya usia. Di Optikal Bahari, kami memahami betapa pentingnya menemukan solusi yang tepat untuk menjaga penglihatan mata Anda. Kami menyediakan beragam jenis dan tipe kacamata, mulai dari harga murah terjangkau hingga kelas menengah ke atas, sesuai dengan kebutuhan dan preferensi Anda.
             </p>
             <p class="card-text text-left">
@@ -35,16 +35,16 @@ comments: false
   </div>
 </div>
 
-{% include home-cards.html %}
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-016.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-016.webp" 
-            class="card-img-top img-fluid" 
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-016.webp"
+            class="card-img-top img-fluid"
             loading="lazy"
             title="Periksa Mata & Service Gratis"
-            alt="Periksa Mata & Service Gratis">		  
+            alt="Periksa Mata & Service Gratis">
     <div class="card-body">
         <h3 class="card-title">
             Periksa Mata & Service Gratis
@@ -65,16 +65,16 @@ comments: false
    </div>
 </div>
 
-{% include home-cards-glasses.html %}
+{% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-011.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-011.webp" 
-            class="card-img-top img-fluid" 
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-011.webp"
+            class="card-img-top img-fluid"
             loading="lazy"
             title="Kacamata Cicilan 0%"
-            alt="Kacamata Cicilan 0%">		  
+            alt="Kacamata Cicilan 0%">
     <div class="card-body">
         <h3 class="card-title">
             Kacamata Cicilan 0%
@@ -116,7 +116,7 @@ comments: false
                 {% if page.background %}
                     <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top img-fluid"
                     loading="lazy"
-                    alt="{{ post.title }}"></a> 
+                    alt="{{ post.title }}"></a>
                 {% endif %}
             <div class="card-body">
                 <h5 class="card-title">
@@ -126,7 +126,7 @@ comments: false
                     {{ post.description | strip_html | truncatewords: 20 }}.
                 </p>
                 <p class="card-text text-left">
-                    <a class="btn btn-primary rounded-pill text-decoration-none" 
+                    <a class="btn btn-primary rounded-pill text-decoration-none"
                         href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                         Selengkapnya
                     </a>

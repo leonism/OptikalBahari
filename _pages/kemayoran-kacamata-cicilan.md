@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kacamata Cicilan Di Kemayoran, Hanya Di 
+title: Kacamata Cicilan Di Kemayoran, Hanya Di
 subtitle: 'Kacamata Cicilan Dengan Harga Terjangkau'
 description: Beli kacamata di optikal bahari dengan sistem cicilan tanpa bunga, bergaransi, dijamin puas dan terima pemabayaran menggunakan KJP
 keywords: 'Kacamata Cicilan, Cicilan, Lensa, Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
@@ -25,7 +25,7 @@ comments: false
     </div>
 </div>
 
-{% include home-cards.html %}
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -46,7 +46,7 @@ comments: false
         <div class="card shadow p-3 mb-5 bg-white rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a> 
+                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a>
                 {% endif %}
             <div class="card-body">
                 <h5 class="card-title">

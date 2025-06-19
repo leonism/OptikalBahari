@@ -41,13 +41,13 @@ comments: false
             Apa yang Dapat Dilakukan?
         </h3>
         <p class="card-text text-left">
-            Kabar baiknya adalah Anda tidak perlu khawatir! Optikal Bahari hadir sebagai solusi terbaik untuk kebutuhan penglihatan Anda. Kami menyediakan berbagai jenis lensa dan frame bingkai kacamata dari mulai harga terjangkau hingga menengah ke atas.            
+            Kabar baiknya adalah Anda tidak perlu khawatir! Optikal Bahari hadir sebagai solusi terbaik untuk kebutuhan penglihatan Anda. Kami menyediakan berbagai jenis lensa dan frame bingkai kacamata dari mulai harga terjangkau hingga menengah ke atas.
         </p>
     </div>
 </div>
 
 
-{% include home-cards.html %}
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -68,7 +68,7 @@ comments: false
         <div class="card shadow p-3 mb-5 bg-white rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a> 
+                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a>
                 {% endif %}
             <div class="card-body">
                 <h5 class="card-title">

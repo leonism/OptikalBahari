@@ -22,7 +22,7 @@ comments: false
             width="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" | width }}"
             height="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" | height }}"
             class="card-img-top img-fluid"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">            		
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
         <div class="card-body">
             <h3 class="card-title">
                 Periksa Mata Gratis Di Optikal Bahari
@@ -52,7 +52,7 @@ comments: false
    </div>
 </div>
 
-{% include home-cards.html %}
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -94,7 +94,7 @@ comments: false
             </h5>
             <p class="card-text text-left">
                 Gangguan mata tidak hanya mempengaruhi kemampuan melihat dengan jelas pada kondisi normal, tetapi juga dapat menyulitkan ketika berada dalam lingkungan dengan pencahayaan rendah, seperti saat mengemudi di malam hari. Pada kondisi tersebut, gangguan mata seperti miopi atau hipermetropi dapat memperburuk penglihatan, menyebabkan kesulitan dalam membedakan objek dan merespons situasi di jalan. Oleh karena itu, penting untuk menjaga kesehatan mata dan mendapatkan penanganan yang tepat untuk menghindari risiko kecelakaan.
-            </p>            
+            </p>
         </div>
    </div>
 </div>
@@ -113,7 +113,7 @@ comments: false
             <h3 class="card-title">
                 Segera Periksa Mata Anda
             </h3>
-            <p class="card-text text-left">                
+            <p class="card-text text-left">
                 Jangan biarkan gangguan pada kesehatan mata memengaruhi kualitas hidup Anda. Segera atur jadwal untuk periksa mata secara gratis di Optikal Bahari dan temukan solusi terbaik untuk memperbaiki penglihatan Anda. Kami siap membantu Anda mencapai visi yang optimal dan meningkatkan kesehatan mata Anda.
             </p>
             <h5>
@@ -125,7 +125,7 @@ comments: false
             <h5 class="card-title">
                 2. Kunjungi Optikal Bahari
             </h5>
-            <p class="card-text text-left">                
+            <p class="card-text text-left">
                 Kunjungi cabang Optikal Bahari terdekat dari lokasi Anda dan kunjungi kami langsung. Kami hadir untuk menyambut Anda dengan hangat dan memberikan pelayanan periksa mata gratis yang memperhatikan setiap detail. Tim kami yang berpengalaman akan memberikan perhatian penuh terhadap kebutuhan visual Anda, sehingga Anda dapat merasa nyaman dan yakin selama proses pemeriksaan. Jadilah bagian dari pengalaman yang luar biasa di Optikal Bahari dan temukan solusi terbaik untuk kesehatan mata Anda. Jangan ragu untuk menghubungi kami atau kunjungi Optikal Bahari sekarang juga.
             </p>
             <h5 class="card-title">
@@ -173,10 +173,10 @@ comments: false
         <div class="card shadow p-3 mb-5 bg-white rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" 
-                    class="card-img-top" 
+                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
+                    class="card-img-top"
                     alt="{{ post.title }}">
-            </a> 
+            </a>
                 {% endif %}
             <div class="card-body">
                 <h5 class="card-title">

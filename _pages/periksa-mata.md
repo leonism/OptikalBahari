@@ -151,4 +151,4 @@ comments: false
   </div>
 </div>
 
-{% include home-cards.html %}
+{% include home/home-cards.html %}

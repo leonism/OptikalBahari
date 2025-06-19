@@ -34,7 +34,7 @@ comments: false
 	</div>
 </div>
 
-{% include home-cards.html %}
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
 	<div class="card shadow p-3 mb-5 bg-white rounded">

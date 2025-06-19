@@ -84,7 +84,7 @@ comments: false
   </div>
 </div>
 
-{% include home-cards.html %}
+{% include home/home-cards.html %}
 
 <!--
   <section id="posts-category">	<div class="card-deck">		{% for post in site.categories.Lensa limit : 3 %}

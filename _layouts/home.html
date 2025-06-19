@@ -2,17 +2,17 @@
 layout: default
 ---
 
-{% include navbar.html %}
+{% include navigation/navbar.html %}
 
 <!-- Page Header -->
 {% if page.background %}
-<header
-    class="masthead"
-    style="background-image: url('{{ page.background | prepend: site.baseurl | resize: "
+
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | resize: "
     1024x1024
 >
     " | replace: '//', '/' }}')">
     {% else %}
+
     <header class="masthead">
         {% endif %}
         <div class="container">
@@ -33,10 +33,9 @@ layout: default
         </div>
     </header>
 </header>
-
 <div class="container">
-    {% include home-cards.html %}
-    {% include home-cards-kacamata.html %}
-    {% include home-cards-glasses.html %}
-    {% include home-cards-category.html %}
+    {% include home/home-cards.html %}
+    {% include home/home-cards-kacamata.html %}
+    {% include home/home-cards-glasses.html %}
+    {% include home/home-cards-category.html %}
 </div>

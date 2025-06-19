@@ -8,10 +8,13 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 ---
 
 <!-- Page Header -->
-{% include navbar.html %}
+{% include navigation/navbar.html %}
 {% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | resize: "1024x1024>" | replace: '//', '/' }}')">
+
+<header class="masthead"
+	style="background-image: url('{{ page.background | prepend: site.baseurl | resize: "1024x1024>" | replace: '//', '/' }}')">
 	{% else %}
+
 	<header class="masthead">
 		{% endif %}
 		<div class="container">

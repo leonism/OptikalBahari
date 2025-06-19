@@ -14,11 +14,11 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img 
+    <img
         itemprop="image"
-        src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}" 
+        src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}"
         class="card-img-top"
-        title="Layanan Optik Terbaik Di Jakarta" 
+        title="Layanan Optik Terbaik Di Jakarta"
         alt="Layanan Optik Terbaik Di Jakarta">
     <div class="card-body">
         <h3 class="card-title">
@@ -30,15 +30,15 @@ comments: false
     </div>
 </div>
 
-{% include home-cards.html %}
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-	<img 
+	<img
         itemprop="image"
-        src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}" 
+        src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}"
         title="Segera Kunjungi Optikal Bahari"
-        class="card-img-top" 
+        class="card-img-top"
         alt="Segera Kunjungi Optikal Bahari">
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
@@ -55,7 +55,7 @@ comments: false
         <div class="card shadow p-3 mb-5 bg-white rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a> 
+                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a>
                 {% endif %}
             <div class="card-body">
                 <h5 class="card-title">
