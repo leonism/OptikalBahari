@@ -1,0 +1,24 @@
+<!-- start facebook integration -->
+{% if page.title %}
+<meta property='og:title' content="{{ page.title }}" />
+{% else %}
+<meta property='og:title' content="{{ site.title }}" />
+{% endif %}
+{% if page.image %}
+<meta property='og:image' content="{{ site.url }}{{ page.background }}" />
+{% else %}
+<meta property='og:image' content="{{ site.url }}{{ page.background }}" />
+{% endif %}
+{% if page.description %}
+<meta property='og:description' content="{{ page.description }}">
+{% else %}
+<meta property='og:description' content="{{ site.description }}">
+{% endif %}
+<meta property='og:url' content="{{ site.url }}{{ page.url }}" />
+<meta property='og:image' content="{{ site.url }}{{ page.background }}" />
+{% if page.title %}
+<meta property='og:image:alt' content="{{ page.title }}" />
+{% else %}
+<meta property='og:image:alt' content="{{ site.title }}" />
+{% endif %}
+<!-- end facebook integration -->

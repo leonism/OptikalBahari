@@ -2,13 +2,26 @@
   <nav class="container">
     <!-- Brand/Logo -->
     <a class="navbar-brand" href="{{ '/' | relative_url }}" title="Optikal Bahari">
-      <img itemprop="logo" src="{{ './assets/optikalbahari.png' | relative_url }}" width="30" height="30"
-        title="{{ site.title | escape }}" alt="{{ site.title | escape }}" />
+      <img
+        itemprop="logo"
+        src="{{ './assets/optikalbahari.png' | relative_url }}"
+        width="30"
+        height="30"
+        title="{{ site.title | escape }}"
+        alt="{{ site.title | escape }}"
+      />
       {{ site.title | escape }}
     </a>
     <!-- Toggle Button for Mobile -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -19,12 +32,10 @@
           <a class="nav-link" href="{{ '/posts/' | relative_url }}" title="Berita Optikal Bahari">Berita</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ '/periksa-mata-gratis/' | relative_url }}" title="Periksa Mata Gratis">Periksa
-            Mata</a>
+          <a class="nav-link" href="{{ '/periksa-mata-gratis/' | relative_url }}" title="Periksa Mata Gratis">Periksa Mata</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ '/tips-trik-kacamata/' | relative_url }}" title="Tips & Trik Kacamata">Tips &
-            Trik</a>
+          <a class="nav-link" href="{{ '/tips-trik-kacamata/' | relative_url }}" title="Tips & Trik Kacamata">Tips & Trik</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ '/testimoni/' | relative_url }}" title="Testimoni Optikal Bahari">
@@ -38,11 +49,15 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ '/lokasi/' | relative_url }}" title="Lokasi Optikal Bahari">Lokasi</a>
         </li>
-        <li class="nav-item">
-          <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" id="themeToggle"
-              aria-label="Toggle between light and dark mode">
-            <label class="form-check-label mt-2" for="themeToggle">
+        <li class="nav-item d-flex align-items-center">
+          <div class="form-check form-switch mb-0">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="themeToggle"
+              aria-label="Toggle between light and dark mode"
+            >
+            <label class="form-check-label" for="themeToggle">
               <!-- Using Font Awesome stacking for the toggle icon -->
               <span class="fa-stack toggle-icon">
                 <i class="fas fa-circle fa-stack-2x"></i>
@@ -54,11 +69,22 @@
         </li>
         <!-- Search Form -->
         <li class="nav-item">
-          <form method="get" id="search-google" action="https://www.google.com/search" target="_self"
-            class="d-flex align-items-center position-relative">
+          <form
+            method="get"
+            id="search-google"
+            action="https://www.google.com/search"
+            target="_self"
+            class="d-flex align-items-center position-relative"
+          >
             <input type="hidden" name="sitesearch" value="optikalbahari.com">
-            <input type="text" name="q" maxlength="250" value="" placeholder="Cari Optikal Bahari"
-              class="form-control form-control-sm rounded-pill border custom-search">
+            <input
+              type="text"
+              name="q"
+              maxlength="250"
+              value=""
+              placeholder="Cari Optikal Bahari"
+              class="form-control form-control-sm rounded-pill border custom-search"
+            >
             <!-- Search icon container -->
             <div class="search-icon-container position-absolute end-0 top-50 translate-middle-y">
               <!-- Light mode search icon -->
