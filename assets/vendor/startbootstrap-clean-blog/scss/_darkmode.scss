@@ -22,19 +22,19 @@
 $light-bg: #ffffff;
 $light-text: #333333;
 $light-link: #007bff;
-$light-badge-text: #FFFFFF;
+$light-badge-text: #ffffff;
 
 // Alternative Dark Mode Variables:
-$dark-bg: #141D2B;          // Primary dark background
-$dark-accent: #1A2332;      // Accent color for dark mode components
-$dark-text: #D0D0D0;        // Light gray text for good contrast
-$dark-link: #77B1D1;        // Muted blue tone for dark mode links
-$dark-button: #111927;      // Button background (using accent)
-$dark-card: #1A2332;       // Card background color
-$dark-card-body: #162033;   // A slightly lighter tone for card bodies
-$dark-footer-bg: #141D2B;    // Footer background same as dark background
-$dark-footer-accent: #D0D0D0; // Footer link color in dark mode
-$dark-ripple: #1A2332;      // Ripple effect color
+$dark-bg: #141d2b; // Primary dark background
+$dark-accent: #1a2332; // Accent color for dark mode components
+$dark-text: #d0d0d0; // Light gray text for good contrast
+$dark-link: #77b1d1; // Muted blue tone for dark mode links
+$dark-button: #111927; // Button background (using accent)
+$dark-card: #1a2332; // Card background color
+$dark-card-body: #162033; // A slightly lighter tone for card bodies
+$dark-footer-bg: #141d2b; // Footer background same as dark background
+$dark-footer-accent: #d0d0d0; // Footer link color in dark mode
+$dark-ripple: #1a2332; // Ripple effect color
 
 /* ---------------------------------------- */
 /*        Light Mode Default Styles         */
@@ -54,14 +54,13 @@ body {
   .navbar-light {
     background-color: $light-bg;
     .navbar-brand,
-    .navbar-nav
-    .nav-link {
+    .navbar-nav .nav-link {
       color: $light-text;
     }
   }
 
   .card-body {
-    background-color: #f8f9fa;
+    background-color: #fff;
     color: $light-text;
   }
 
@@ -110,7 +109,7 @@ body {
   z-index: 1;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -168,7 +167,12 @@ body.dark-mode {
     .card-body {
       background-color: $dark-card-body;
       color: $dark-text;
-      h1, h2, h3, h4, h5, h6 {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
         color: lighten($dark-text, 10%);
       }
       p {
@@ -269,7 +273,13 @@ body.dark-mode {
         border-color: lighten($dark-button, 10%);
       }
     }
-    p, h1, h2, h3, h4, h5, h6 {
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: $dark-text;
     }
     .copyright.text-muted.list-unstyled {
@@ -331,7 +341,12 @@ body.dark-mode {
   }
 
   .post-content {
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: lighten($dark-text, 5%);
     }
     p {
@@ -412,7 +427,7 @@ body.dark-mode {
 /* In light mode: show the moon icon (dark-icon) and hide the sun icon */
 body:not(.dark-mode) .toggle-icon .dark-icon {
   display: inline-block;
-  color: $light-text;  // Dark gray for contrast
+  color: $light-text; // Dark gray for contrast
 }
 body:not(.dark-mode) .toggle-icon .light-icon {
   display: none;
@@ -421,7 +436,7 @@ body:not(.dark-mode) .toggle-icon .light-icon {
 /* In dark mode: show the sun icon (light-icon) and hide the moon icon */
 body.dark-mode .toggle-icon .light-icon {
   display: inline-block;
-  color: white;  // White for contrast
+  color: white; // White for contrast
 }
 body.dark-mode .toggle-icon .dark-icon {
   display: none;
@@ -436,7 +451,7 @@ body.dark-mode .toggle-icon .dark-icon {
 }
 
 .badge.badge-pill.badge-danger.dark-icon {
-  background-color: #77B1D2;
+  background-color: #77b1d2;
   color: $dark-text;
   display: none;
 }
@@ -481,7 +496,8 @@ body.dark-mode .badge.badge-pill.badge-danger.dark-icon {
 /* ---------------------------------------- */
 /*       Reset Default Browser Styles       */
 /* ---------------------------------------- */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
