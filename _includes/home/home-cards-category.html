@@ -2,43 +2,44 @@
   <div class="container">
     <div class="row">
       {% for post in site.categories.Lensa limit: 3 %}
-        {% if forloop.index <= 1 %}
-          <div class="col-12 col-md-12 col-lg-4 mb-5">
+      {% if forloop.index <= 1 %}
+      <div class="col-12 col-md-12 col-lg-4 mb-5">
         {% else %}
-          <div class="col-12 col-md-6 col-lg-4 mb-5">
-        {% endif %}
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          {% endif %}
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
               {% if post.background %}
-                <img itemprop="image" src="{{ post.background }}" class="card-img-top img-fluid" alt="{{ post.title }}">
+              <img itemprop="image" src="{{ post.background }}" class="card-img-top img-fluid" alt="{{ post.title }}">
               {% endif %}
             </a>
             <div class="card-body">
               <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
               <p class="card-text">
-              {{ post.description | strip_html | truncate: 100 }}.
-              <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
-                href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                Lebih Lanjut
-              </a>
-            </p>
-          </div>
+                {{ post.description | strip_html | truncate: 100 }}.
+                <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+                  href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
+                  Lebih Lanjut
+                </a>
+              </p>
+            </div>
             <div class="card-footer">
               <small class="text-muted">
                 Posted by
                 {% if post.author %}
-                  {{ post.author }}
+                {{ post.author }}
                 {% else %}
-                  {{ site.author }}
+                {{ site.author }}
                 {% endif %}
-                on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-            </small>
+                on {{ post.date | date: '%B %d, %Y' }} &middot;
+                {% include postcards/read_time.html content=post.content %}
+              </small>
+            </div>
           </div>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
-  </div>
 </section>
 
 
@@ -46,45 +47,46 @@
   <div class="container">
     <div class="row">
       {% for post in site.categories.Info limit: 3 %}
-        {% if forloop.index <= 1 %}
-          <div class="col-12 col-md-12 col-lg-4 mb-5">
+      {% if forloop.index <= 1 %}
+      <div class="col-12 col-md-12 col-lg-4 mb-5">
         {% else %}
-          <div class="col-12 col-md-6 col-lg-4 mb-5">
-        {% endif %}
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          {% endif %}
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
               {% if post.background %}
-                <img itemprop="image" src="{{ post.background }}" srcset="{{ post.background | srcset }}"
-                  width="{{ post.background | width }}" height="{{ post.background | height }}"
-                  class="card-img-top img-fluid" alt="{{ post.title }}">
+              <img itemprop="image" src="{{ post.background }}" srcset="{{ post.background | srcset }}"
+                width="{{ post.background | width }}" height="{{ post.background | height }}"
+                class="card-img-top img-fluid" alt="{{ post.title }}">
               {% endif %}
             </a>
             <div class="card-body">
               <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
               <p class="card-text">
-              {{ post.description | strip_html | truncate: 100 }}.
-              <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
-                href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                Lebih Lanjut
-              </a>
-            </p>
-          </div>
+                {{ post.description | strip_html | truncate: 100 }}.
+                <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+                  href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
+                  Lebih Lanjut
+                </a>
+              </p>
+            </div>
             <div class="card-footer">
               <small class="text-muted">
                 Posted by
                 {% if post.author %}
-                  {{ post.author }}
+                {{ post.author }}
                 {% else %}
-                  {{ site.author }}
+                {{ site.author }}
                 {% endif %}
-                on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-            </small>
+                on {{ post.date | date: '%B %d, %Y' }} &middot;
+                {% include postcards/read_time.html content=post.content %}
+              </small>
+            </div>
           </div>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
-  </div>
 </section>
 
 
@@ -92,43 +94,44 @@
   <div class="container">
     <div class="row">
       {% for post in site.categories.Trend limit: 3 %}
-        {% if forloop.index <= 1 %}
-          <div class="col-12 col-md-12 col-lg-4 mb-5">
+      {% if forloop.index <= 1 %}
+      <div class="col-12 col-md-12 col-lg-4 mb-5">
         {% else %}
-          <div class="col-12 col-md-6 col-lg-4 mb-5">
-        {% endif %}
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          {% endif %}
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
               {% if post.background %}
-                <img itemprop="image" src="{{ post.background }}" srcset="{{ post.background | srcset }}"
-                  width="{{ post.background | width }}" height="{{ post.background | height }}"
-                  class="card-img-top img-fluid" alt="{{ post.title }}">
+              <img itemprop="image" src="{{ post.background }}" srcset="{{ post.background | srcset }}"
+                width="{{ post.background | width }}" height="{{ post.background | height }}"
+                class="card-img-top img-fluid" alt="{{ post.title }}">
               {% endif %}
             </a>
             <div class="card-body">
               <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
               <p class="card-text">
-              {{ post.description | strip_html | truncate: 100 }}.
-              <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
-                href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                Lebih Lanjut
-              </a>
-            </p>
-          </div>
+                {{ post.description | strip_html | truncate: 100 }}.
+                <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+                  href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
+                  Lebih Lanjut
+                </a>
+              </p>
+            </div>
             <div class="card-footer">
               <small class="text-muted">
                 Posted by
                 {% if post.author %}
-                  {{ post.author }}
+                {{ post.author }}
                 {% else %}
-                  {{ site.author }}
+                {{ site.author }}
                 {% endif %}
-                on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-            </small>
+                on {{ post.date | date: '%B %d, %Y' }} &middot;
+                {% include postcards/read_time.html content=post.content %}
+              </small>
+            </div>
           </div>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
-  </div>
 </section>

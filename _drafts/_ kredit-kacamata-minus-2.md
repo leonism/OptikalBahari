@@ -117,7 +117,7 @@ comments: false
                             {% endif %} on
                             {{ post.date | date: '%B %d, %Y' }}
                                 &middot;
-                                {% include read_time.html content=post.content %}
+                                {% include postcards/read_time.html content=post.content %}
                         </small>
                         </div>
                     </div>

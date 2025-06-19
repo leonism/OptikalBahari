@@ -121,7 +121,7 @@ comments: false
 				<small class="text-muted">
 					Posted by <em>{% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %}</em>,
 					on {{ post.date
-					| date: '%b %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+					| date: '%b %d, %Y' }} &middot; {% include postcards/read_time.html content=post.content %}
 				</small>
 			</div>
 		</div>
@@ -181,7 +181,7 @@ comments: false
 				<small class="text-muted">
 					Posted by <em>{% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %}</em>,
 					on {{ post.date
-					| date: '%b %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+					| date: '%b %d, %Y' }} &middot; {% include postcards/read_time.html content=post.content %}
 				</small>
 			</div>
 		</div>

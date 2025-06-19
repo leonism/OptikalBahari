@@ -56,7 +56,7 @@ comments: false
                   {% endif %}
                 </em>,
                 on {{ post.date | date: '%b %d, %Y' }} ·
-                {% include read_time.html content=post.content %}
+                {% include postcards/read_time.html content=post.content %}
               </small>
             </div>
           </div>
@@ -109,7 +109,7 @@ comments: false
                   {% endif %}
                 </em>,
                 on {{ post.date | date: '%b %d, %Y' }} ·
-                {% include read_time.html content=post.content %}
+                {% include postcards/read_time.html content=post.content %}
               </small>
             </div>
           </div>
@@ -162,7 +162,7 @@ comments: false
                   {% endif %}
                 </em>,
                 on {{ post.date | date: '%b %d, %Y' }} ·
-                {% include read_time.html content=post.content %}
+                {% include postcards/read_time.html content=post.content %}
               </small>
             </div>
           </div>

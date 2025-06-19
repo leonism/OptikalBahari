@@ -4,9 +4,7 @@
 		<div class="card shadow p-3 mb-5 bg-white">
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 				{% if page.background %}
-				<img
-					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-					class="card-img-top"
+				<img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top"
 					alt="{{ post.title }}" />
 			</a>
 			{% endif %}
@@ -14,16 +12,14 @@
 				<h5 class="card-title">{{ post.title }}</h5>
 				<p class="card-text text-left">
 					{{ post.description | strip_html | truncate: 120 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-						>Lebih Lanjut</a
-					>
+					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
 				</p>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">
 					Posted by {% if post.author %} {{ post.author }} {% else %} {{
 					site.author }} {% endif %} on {{ post.date | date: '%B %d, %Y' }}
-					&middot; {% include read_time.html content=post.content %}
+					&middot; {% include postcards/read_time.html content=post.content %}
 				</small>
 			</div>
 		</div>
@@ -37,9 +33,7 @@
 		<div class="card shadow p-3 mb-5 bg-white">
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 				{% if page.background %}
-				<img
-					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-					class="card-img-top"
+				<img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top"
 					alt="{{ post.title }}" />
 			</a>
 			{% endif %}
@@ -47,16 +41,14 @@
 				<h5 class="card-title">{{ post.title }}</h5>
 				<p class="card-text text-left">
 					{{ post.description | strip_html | truncate: 120 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-						>Lebih Lanjut</a
-					>
+					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
 				</p>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">
 					Posted by {% if post.author %} {{ post.author }} {% else %} {{
 					site.author }} {% endif %} on {{ post.date | date: '%B %d, %Y' }}
-					&middot; {% include read_time.html content=post.content %}
+					&middot; {% include postcards/read_time.html content=post.content %}
 				</small>
 			</div>
 		</div>
@@ -70,9 +62,7 @@
 		<div class="card shadow p-3 mb-5 bg-white">
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 				{% if page.background %}
-				<img
-					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-					class="card-img-top"
+				<img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top"
 					alt="{{ post.title }}" />
 			</a>
 
@@ -81,16 +71,14 @@
 				<h5 class="card-title">{{ post.title }}</h5>
 				<p class="card-text text-left">
 					{{ post.description | strip_html | truncate: 120 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-						>Lebih Lanjut</a
-					>
+					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
 				</p>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">
 					Posted by {% if post.author %} {{ post.author }} {% else %} {{
 					site.author }} {% endif %} on {{ post.date | date: '%B %d, %Y' }}
-					&middot; {% include read_time.html content=post.content %}
+					&middot; {% include postcards/read_time.html content=post.content %}
 				</small>
 			</div>
 		</div>

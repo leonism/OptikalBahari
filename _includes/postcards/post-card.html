@@ -18,7 +18,8 @@
 	<div class="card-footer">
 		<small class="text-muted">
 			Posted by {% if include.post.author %} {{ include.post.author }} {% else %} {{ site.author }} {% endif %}
-			on {{ include.post.date | date: '%B %d, %Y' }} · {% include read_time.html content=include.post.content %}
+			on {{ include.post.date | date: '%B %d, %Y' }} ·
+			{% include postcards/read_time.html content=include.post.content %}
 		</small>
 	</div>
 </div>
