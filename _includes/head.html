@@ -11,6 +11,7 @@
     <link rel="dns-prefetch" href="//static.ak.facebook.com">
     <link rel="dns-prefetch" href="//static.ak.fbcdn.net">
     <link rel="dns-prefetch" href="//s-static.ak.facebook.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google-site-verification" content="S78mNAZQFqN0fjs9uj0jlw53fp_JUq1gR7KZry7NoNs" />
     <meta name="facebook-domain-verification" content="okvg0cr9ei1ai8ubn3xjild1y38oyr" />
@@ -20,18 +21,17 @@
     {% include cards/card-twitter.html %}
     {% include cards/card-fb.html %}
     {% include cards/card-og.html %}
-    <link rel="stylesheet" href="{{"/assets/main.css" | relative_url "}}">
     <link rel="stylesheet" href="{{"/assets/vendor/fontawesome-free/css/all.min.css" | relative_url "}}">
     <link rel="stylesheet" href="{{"/assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css" | relative_url "}}">
     <link rel="stylesheet" href="{{"/assets/vendor/bootstrap/css/bootstrap.min.css" | relative_url "}}">
+    <link rel="stylesheet" href="{{"/assets/main.css" | relative_url "}}">
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
-    <link rel="icon" type="image/png" sizes="96x96"
-      href="{{"/assets/favicon.png" | prepend: site.baseurl | prepend: site.url }}" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
       href="{{"/feed.xml" | relative_url }}" />
     <link rel="sitemap" type="application/xml" title="Sitemap"
       href="{{"/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
-    <script src="{{"/assets/vendor/jquery/jquery-3.6.0.min.js" | relative_url "}}"></script>
-    {% include gtm/gtm-head.html %}
-    {% include fonts.html %}
+    <link rel="icon" type="image/png" sizes="96x96"
+      href="{{"/assets/favicon.png" | prepend: site.baseurl | prepend: site.url }}" />
   </head>
+  <script src="{{"/assets/vendor/jquery/jquery-3.6.0.min.js" | relative_url "}}"></script>
+  {% include fonts.html %}
