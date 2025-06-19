@@ -6,6 +6,7 @@ layout: compress
 <!DOCTYPE html>
 {% include head.html %}
 <body>
+  {% include gtm-body.html %}
   {{ content }}
   {% include wa-body.html %}
   {% include footer.html %}
@@ -20,8 +21,6 @@ layout: compress
   {% include richsnippet-json-ld-structurepath.json %}
   {% include richsnippet-json-ld-website.json %}
   {% include richsnippet-json-ld-product.json %}
-  {% include gtm-head.html %}
-  {% include gtm-body.html %}
   {% include fb-comments-bodytag.html %}
   {% include scripts.html %}
 </html>
