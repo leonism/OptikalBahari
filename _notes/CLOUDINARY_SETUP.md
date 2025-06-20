@@ -1,0 +1,216 @@
+# Cloudinary Integration for Optikal Bahari
+
+This guide explains how to set up and use Cloudinary for image management in the Optikal Bahari Jekyll site.
+
+## Overview
+
+Cloudinary provides:
+- **Cloud Storage**: Store images in the cloud instead of your repository
+- **Automatic Optimization**: Automatic format conversion (WebP, AVIF) and quality optimization
+- **Responsive Images**: Generate multiple sizes for different devices
+- **Fast CDN**: Global content delivery network for faster loading
+- **Transformations**: Resize, crop, and apply effects on-the-fly
+
+## Setup Instructions
+
+### 1. Create Cloudinary Account
+
+1. Sign up at [cloudinary.com](https://cloudinary.com)
+2. Get your credentials from the Dashboard:
+   - Cloud Name
+   - API Key
+   - API Secret
+
+### 2. Configure Environment Variables
+
+1. Copy the environment template:
+   ```bash
+   cp .env.example .env
+   ```
+
+2. Edit `.env` with your Cloudinary credentials:
+   ```bash
+   CLOUDINARY_CLOUD_NAME=your_cloud_name
+   CLOUDINARY_API_KEY=your_api_key
+   CLOUDINARY_API_SECRET=your_api_secret
+   JEKYLL_ENV=development
+   ```
+
+3. Add `.env` to your `.gitignore` (already included)
+
+### 3. Install Dependencies
+
+```bash
+bundle install
+```
+
+This will install the Cloudinary gem added to your Gemfile.
+
+### 4. Migrate Existing Images (Optional)
+
+To upload your existing images to Cloudinary:
+
+```bash
+# Install dotenv gem for the migration script
+gem install dotenv
+
+# Run the migration
+ruby scripts/migrate_to_cloudinary.rb
+```
+
+This will:
+- Upload all images from `assets/img/` to Cloudinary
+- Organize them in folders (posts, backgrounds, icons, etc.)
+- Generate logs and URL mappings
+- Preserve your local images as backup
+
+## Usage
+
+### 1. Liquid Filters
+
+#### Basic Cloudinary URL
+```liquid
+{{ '/assets/img/image.jpg' | cloudinary_url }}
+```
+
+#### With transformations
+```liquid
+{{ '/assets/img/image.jpg' | cloudinary_url: width=400, height=300, crop='fill' }}
+```
+
+#### Using presets
+```liquid
+{{ '/assets/img/image.jpg' | cloudinary_preset: 'hero' }}
+{{ '/assets/img/image.jpg' | cloudinary_preset: 'thumbnail' }}
+{{ '/assets/img/image.jpg' | cloudinary_preset: 'card' }}
+```
+
+#### Responsive images
+```liquid
+{{ '/assets/img/image.jpg' | cloudinary_responsive }}
+```
+
+### 2. Cloudinary Tag
+
+```liquid
+{% cloudinary src='/assets/img/image.jpg' width=800 height=600 crop='fill' %}
+```
+
+### 3. Include Template (Recommended)
+
+Use the responsive image include for best results:
+
+```liquid
+{% include cloudinary_image.html
+   src="/assets/img/hero-image.jpg"
+   alt="Hero image description"
+   preset="hero"
+   class="img-fluid rounded" %}
+```
+
+#### Include Parameters
+
+- `src`: Image path (required)
+- `alt`: Alt text (required)
+- `class`: CSS classes (optional, defaults to "img-fluid")
+- `preset`: Use predefined preset (thumbnail, card, hero, full)
+- `width`: Custom width
+- `height`: Custom height
+- `loading`: Loading attribute (lazy, eager, defaults to lazy)
+- `responsive`: Generate responsive srcset (true/false, defaults to true)
+
+### 4. Available Presets
+
+- **thumbnail**: 200x200, cropped and centered
+- **card**: 400x300, cropped and centered
+- **hero**: 1200x600, cropped and centered
+- **full**: 1920px wide, maintains aspect ratio
+
+## Environment-Based Usage
+
+### Development
+- Set `JEKYLL_ENV=development`
+- Images will use local files for faster development
+- Cloudinary integration is available but not enforced
+
+### Production
+- Set `JEKYLL_ENV=production`
+- Images will automatically use Cloudinary URLs
+- Automatic optimization and responsive images
+
+## File Organization in Cloudinary
+
+Images are organized in folders:
+- `optikalbahari/posts/` - Blog post images
+- `optikalbahari/backgrounds/` - Background images
+- `optikalbahari/icons/` - Icons and small graphics
+- `optikalbahari/testimonials/` - Testimonial photos
+- `optikalbahari/profile/` - Profile and team photos
+- `optikalbahari/` - General images
+
+## Best Practices
+
+### 1. Image Naming
+- Use descriptive filenames
+- Use hyphens instead of spaces
+- Include relevant keywords
+
+### 2. Alt Text
+- Always provide meaningful alt text
+- Describe the image content and context
+- Keep it concise but descriptive
+
+### 3. Responsive Images
+- Use the responsive include template
+- Let Cloudinary handle different sizes
+- Specify appropriate `sizes` attribute
+
+### 4. Performance
+- Use `loading="lazy"` for images below the fold
+- Use `loading="eager"` for above-the-fold images
+- Choose appropriate presets for your use case
+
+## Troubleshooting
+
+### Images not loading
+1. Check your environment variables
+2. Verify Cloudinary credentials
+3. Ensure images are uploaded to Cloudinary
+4. Check the browser console for errors
+
+### Migration issues
+1. Ensure you have the `dotenv` gem installed
+2. Check your `.env` file configuration
+3. Verify file permissions on the assets directory
+4. Check the error log generated by the migration script
+
+### Local development
+- Images will fall back to local files if Cloudinary is not configured
+- Set `JEKYLL_ENV=development` to use local images
+- Use `JEKYLL_ENV=production` to test Cloudinary integration
+
+## Advanced Configuration
+
+Edit `_config_cloudinary.yml` to customize:
+- Default transformations
+- Responsive breakpoints
+- Image presets
+- Folder structure
+
+## Support
+
+For issues with:
+- **Cloudinary service**: Check [Cloudinary documentation](https://cloudinary.com/documentation)
+- **Jekyll integration**: Review the plugin code in `_plugins/cloudinary.rb`
+- **Site-specific issues**: Check the generated log files
+
+## Migration Checklist
+
+- [ ] Cloudinary account created
+- [ ] Environment variables configured
+- [ ] Dependencies installed
+- [ ] Existing images migrated
+- [ ] Templates updated to use Cloudinary includes
+- [ ] Site tested in both development and production modes
+- [ ] Performance verified
+- [ ] Backup of original images maintained

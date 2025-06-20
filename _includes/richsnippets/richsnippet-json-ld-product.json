@@ -40,6 +40,7 @@
             "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
             "returnFees": "https://schema.org/FreeReturn",
             "returnMethod": "https://schema.org/ReturnByMail",
+            "refundType": "https://schema.org/FullRefund",
             "merchantReturnDays": 30
           },
           "availability": "https://schema.org/InStock",

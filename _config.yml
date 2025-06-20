@@ -10,7 +10,6 @@ url: 'https://optikalbahari.com'
 tagline: Melayani Segala Kebutuhan Kacamata Anda
 subtitle: Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima KJP
 permalink: /:title/
-# permalink: /posts/:title/
 # google_analytics: G-FV2N66E55Q // no longer needed, since we use Google Tag Manager
 
 # Social Profiles
@@ -27,33 +26,38 @@ tag_page_dir: tag
 # paginate: 9
 # paginate_path: "/page/:num/"
 
-
 # Pagination settings for jekyll-paginate-v2
 pagination:
   enabled: true
-  per_page: 9  # 9 posts per page (3 per section)
-  permalink: "/posts/page/:num/"  # URL structure for paginated pages
-  title: ":title - Page :num"  # Page title format
-  sort_field: "date"  # Sort posts by date
-  sort_reverse: true  # Newest first
+  per_page: 9 # 9 posts per page (3 per section)
+  permalink: '/posts/page/:num/' # URL structure for paginated pages
+  title: ':title - Page :num' # Page title format
+  sort_field: 'date' # Sort posts by date
+  sort_reverse: true # Newest first
   trail:
-    before: 2  # Show 2 pages before current page in navigation
-    after: 2   # Show 2 pages after current page in navigation
+    before: 2 # Show 2 pages before current page in navigation
+    after: 2 # Show 2 pages after current page in navigation
 
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-image-size
   - jekyll-responsive-magick
-  # - jekyll-minifier
-  # - jekyll-postcss
-  # - jekyll_picture_tag
-  # - jekyll-resize
-  # - jekyll-webp
-  # - jekyll-picture-tag
+
+# Cloudinary Configuration
+cloudinary:
+  cloud_name: <%= ENV['CLOUDINARY_CLOUD_NAME'] %>
+  enabled: true
+
+# Image optimization settings
+image_optimization:
+  # Keep existing responsive-magick for local development
+  # Use Cloudinary for production
+  use_cloudinary: <%= ENV['JEKYLL_ENV'] == 'production' %> # - jekyll-minifier
 
 include: ['_pages']
 destination: _site
