@@ -23,9 +23,6 @@ youtube_username: optikalbahari
 markdown: kramdown
 tag_page_layout: tag_page
 tag_page_dir: tag
-# paginate: 9
-# paginate_path: "/page/:num/"
-
 # Pagination settings for jekyll-paginate-v2
 pagination:
   enabled: true
@@ -40,24 +37,12 @@ pagination:
 
 plugins:
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-image-size
-  - jekyll-responsive-magick
-
-# Cloudinary Configuration
-cloudinary:
-  cloud_name: <%= ENV['CLOUDINARY_CLOUD_NAME'] %>
-  enabled: true
-
-# Image optimization settings
-image_optimization:
-  # Keep existing responsive-magick for local development
-  # Use Cloudinary for production
-  use_cloudinary: <%= ENV['JEKYLL_ENV'] == 'production' %> # - jekyll-minifier
+  - jekyll-minifier
 
 include: ['_pages']
 destination: _site
@@ -73,29 +58,6 @@ exclude:
   - cache
   - _responsive
 
-# images compression
-responsive:
-  widths: [320, 640, 960, 1280, 2560]
-  quality: 25
-
-# Small devices (landscape phones, 576px and up)
-# Medium devices (tablets, 768px and up)
-# Large devices (desktops, 992px and up)
-# Extra large devices (large desktops, 1200px and up)
-
-# directory to scan for images to form JSON-lD for images schema
-# include_scan:
-#   - _stories/
-# exclude_scan:
-#   - _site/
-#   - _includes/
-
-# picture:
-#   source: assets/img
-#   output: assets/resized_images
-#   relative_url: true
-#   dimension_attributes: true
-
 # html compression
 compress_html:
   clippings: all
@@ -106,37 +68,8 @@ compress_html:
   blanklines: false
   profile: false
   startings: [html, head, body]
-  # comments: ['<!-- ', ' -->']
+  comments: ['<!-- ', ' -->']
 
 # css compression
 sass:
   style: compressed
-# jekyll-minifier:
-#   exclude: "atom.xml" # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
-#   preserve_php: true # Default: false
-#   remove_spaces_inside_tags: true # Default: true
-#   remove_multi_spaces: true # Default: true
-#   remove_comments: true # Default: true
-#   remove_intertag_spaces: true # Default: false
-#   remove_quotes: false # Default: false
-#   compress_css: true # Default: true
-#   compress_javascript: true # Default: true
-#   compress_json: true # Default: true
-#   simple_doctype: false # Default: false
-#   remove_script_attributes: false # Default: false
-#   remove_style_attributes: false # Default: false
-#   remove_link_attributes: false # Default: false
-#   remove_form_attributes: false # Default: false
-#   remove_input_attributes: false # Default: false
-#   remove_javascript_protocol: false # Default: false
-#   remove_http_protocol: false # Default: false
-#   remove_https_protocol: false # Default: false
-#   preserve_line_breaks: false # Default: false
-#   simple_boolean_attributes: false # Default: false
-#   compress_js_templates: false # Default: false
-#   preserve_patterns: # Default: (empty)
-#   uglifier_args: # Default: (empty)
-
-# jekyll-minifier:
-#   uglifier_args:
-#     harmony: true
