@@ -1,0 +1,105 @@
+<section id="KenapaOptikalBahari" class="container py-5">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <!-- Card 1: Periksa Mata -->
+    <div class="col">
+      <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
+        <a href="{{ '/periksa-mata-gratis/' | relative_url }}" role="button" title="Periksa Mata Gratis">
+          <img
+            itemprop="image"
+            src="{{ '/assets/img/bg-about.webp' }}"
+            srcset="{{ '/assets/img/bg-about.webp' | srcset }}"
+            width="{{ '/assets/img/bg-about.webp' | width }}"
+            height="{{ '/assets/img/bg-about.webp' | height }}"
+            class="card-img-top img-fluid"
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
+          />
+        </a>
+        <div class="card-body">
+          <h5 class="card-title align-middle">
+            <i class="fas fa-check text-green fas-1x"></i>
+            Periksa Mata Gratis
+          </h5>
+          <p class="card-text">
+            Lakukan pemeriksaan mata teratur, agar terdeteksi segala keluhan dan perubahan ukuran mata.
+          </p>
+          <a
+            href="{{ '/periksa-mata-gratis/' | relative_url }}"
+            class="btn btn-primary rounded-pill text-decoration-none"
+            role="button"
+            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
+          >
+            Lebih Lanjut
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Kacamata Cicilan 0% -->
+    <div class="col">
+      <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
+        <a href="{{ '/kacamata-cicilan/' | relative_url }}" role="button" title="Kacamata Cicilan 0%">
+          <img
+            itemprop="image"
+            src="{{ '/assets/img/bg-index-arch-1.webp' }}"
+            srcset="{{ '/assets/img/bg-index-arch-1.webp' | srcset }}"
+            width="{{ '/assets/img/bg-index-arch-1.webp' | width }}"
+            height="{{ '/assets/img/bg-index-arch-1.webp' | height }}"
+            class="card-img-top img-fluid"
+            alt="Kacamata Cicilan 0%"
+          />
+        </a>
+        <div class="card-body">
+          <h5 class="card-title align-middle">
+            <i class="fas fa-check text-green fas-1x"></i>
+            Kacamata Cicilan 0%
+          </h5>
+          <p class="card-text">
+            Beli Kacamata Nyicil, Bayar Bulanan, Tanpa DP, Tanpa Credit Card dan Tanpa Bunga
+          </p>
+          <a
+            href="{{ '/kacamata-cicilan/' | relative_url }}"
+            class="btn btn-primary rounded-pill text-decoration-none"
+            role="button"
+            title="Program Kacamata Cicilan Tanpa Bunga"
+          >
+            Lebih Lanjut
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: Terima Pembayaran KJP -->
+    <div class="col">
+      <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
+        <a href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}" role="button" title="Menerima Pembayaran KJP">
+          <img
+            itemprop="image"
+            src="{{ '/assets/img/bg-kjp.webp' }}"
+            srcset="{{ '/assets/img/bg-kjp.webp' | srcset }}"
+            width="{{ '/assets/img/bg-kjp.webp' | width }}"
+            height="{{ '/assets/img/bg-kjp.webp' | height }}"
+            class="card-img-top img-fluid"
+            alt="Menerima Pembayaran KJP"
+          />
+        </a>
+        <div class="card-body">
+          <h5 class="card-title align-middle">
+            <i class="fas fa-check text-green fas-1x"></i>
+            Terima Pembayaran KJP
+          </h5>
+          <p class="card-text">
+            Kami menerima bentuk pembayaran kacamata dengan KJP (Kartu Jakarta Pintar).
+          </p>
+          <a
+            href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}"
+            class="btn btn-primary rounded-pill text-decoration-none"
+            role="button"
+            title="Menerima Pembayaran KJP"
+          >
+            Lebih Lanjut
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

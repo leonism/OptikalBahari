@@ -72,10 +72,42 @@ pagination:
             <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
                     {% if post.background %}
-                        <img itemprop="image"
-                            src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                            class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
+                        <picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- WEBP format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- Final fallback with alt and lazy loading -->
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+    alt="{{ post.title }}"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top img-fluid"
+    />
+</picture>
                     {% endif %}
                 </a>
                 <div class="card-body">
@@ -103,10 +135,42 @@ pagination:
             <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
                     {% if post.background %}
-                        <img itemprop="image"
-                            src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                            class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
+                        <picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- WEBP format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- Final fallback with alt and lazy loading -->
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+    alt="{{ post.title }}"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top img-fluid"
+    />
+</picture>
                     {% endif %}
                 </a>
                 <div class="card-body">
@@ -134,10 +198,42 @@ pagination:
             <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
                     {% if post.background %}
-                        <img itemprop="image"
-                            src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                            class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
+                        <picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- WEBP format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- Final fallback with alt and lazy loading -->
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+    alt="{{ post.title }}"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top img-fluid"
+    />
+</picture>
                     {% endif %}
                 </a>
                 <div class="card-body">

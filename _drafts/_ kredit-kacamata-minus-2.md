@@ -8,7 +8,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/029.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/029
 permalink: /kredit-kacamata-minus-2/
 comments: false
 ---
@@ -17,10 +17,42 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="{{'/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' | relative_url }}"
-      class="card-img-top"
-      alt="Kredit Kacamata Minus" />
+    <picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- WEBP format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- Final fallback with alt and lazy loading -->
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5"
+    alt="Kredit Kacamata Minus"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top"
+    />
+</picture>
     <div class="card-body">
       <h3 class="card-title">Kredit Kacamata Minus</h3>
       <p class="card-text text-left">
@@ -37,11 +69,43 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
+  <picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- WEBP format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- Final fallback with alt and lazy loading -->
   <img
-    src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8.webp' | relative_url }}"
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8"
+    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
     class="card-img-top"
     title="kredit kacamata minus di Optikal Bahari"
-    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+    />
+</picture>
   <div class="card-body">
     <h3 class="card-title">Kredit Kacamata Sesuai Kebutuhan</h3>
     <p class="card-text text-left">
@@ -58,11 +122,43 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' | relative_url }}"
-      class="card-img-top"
-      alt="tips-kacamata-2.webp"
-      title="kredit kacamata minus di Optikal Bahari" />
+    <picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- WEBP format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- Final fallback with alt and lazy loading -->
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9"
+    alt="tips-kacamata-2.webp"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top"
+    title="kredit kacamata minus di Optikal Bahari"
+    />
+</picture>
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-left">
@@ -93,10 +189,42 @@ comments: false
                 <div class="card shadow p-3 mb-5 bg-white rounded">
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                         {% if page.background %}
-                        <img
-                            src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                            class="card-img-top"
-                            alt="{{ post.title }}"/>
+                        <picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- WEBP format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- Final fallback with alt and lazy loading -->
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+    alt="{{ post.title }}"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top"
+    />
+</picture>
                     </a>
                     {% endif %}
                     <div class="card-body">

@@ -1,15 +1,19 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.3.3"
+gem "csv"
+gem "base64"
+gem 'brotli'
+gem "zlib"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
-  # gem "jekyll-paginate", "~> 1.1.0"
-  gem "jekyll-paginate-v2"
-  gem "jekyll-sitemap"
-  gem "jekyll-seo-tag"
-  gem "jekyll-archives"
-  gem "jekyll-image-size"
-  gem "cloudinary", "~> 1.25"
-  gem "dotenv", "~> 2.8" # For environment variable management
-  gem "jekyll-minifier"
+  gem "jekyll-feed", "~> 0.17"
+  gem "jekyll-paginate-v2", "~> 3.0"
+  gem "jekyll-sitemap", "~> 1.4"
+  gem "jekyll-seo-tag", "~> 2.8"
+  gem "jekyll-archives", "~> 2.2"
+  gem "jekyll-image-size", "~> 1.2.1"
+  gem "cloudinary", "~> 2.3.1"
+  gem "dotenv", "~> 3.1"
+  gem "jekyll-minifier", "~> 0.1.10"
+  gem "colorize", "~> 1.1"
 end

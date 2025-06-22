@@ -6,14 +6,45 @@ This document shows how to update your existing Jekyll posts and pages to use th
 
 ```html
 <!-- Old way: Direct image paths -->
-<img itemprop="image" 
-     data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp"
-     src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" 
-     class="card-img-top img-fluid"
-     alt="Apa itu Lensa Photochromic?" />
+<picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- WEBP format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- Final fallback with alt and lazy loading -->
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025"
+    alt="Apa itu Lensa Photochromic?"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top img-fluid"
+    />
+</picture>
 
 <!-- Background images in front matter -->
-background: /assets/img/posts/beach-retro-girls/beach-retro-girls-037.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-037
 ```
 
 ## After: Cloudinary Integration
@@ -22,10 +53,10 @@ background: /assets/img/posts/beach-retro-girls/beach-retro-girls-037.webp
 
 ```html
 <!-- New way: Cloudinary include with responsive images -->
-{% include cloudinary_image.html 
-   src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" 
-   alt="Apa itu Lensa Photochromic?" 
-   class="card-img-top img-fluid" 
+{% include cloudinary_image.html
+   src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp"
+   alt="Apa itu Lensa Photochromic?"
+   class="card-img-top img-fluid"
    preset="card"
    loading="lazy" %}
 ```
@@ -34,30 +65,91 @@ background: /assets/img/posts/beach-retro-girls/beach-retro-girls-037.webp
 
 ```html
 <!-- Using Cloudinary filters -->
-<img itemprop="image" 
-     src="{{ '/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp' | cloudinary_preset: 'card' }}"
-     srcset="{{ '/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp' | cloudinary_responsive }}"
-     sizes="(max-width: 400px) 100vw, (max-width: 800px) 50vw, 33vw"
-     class="card-img-top img-fluid"
-     alt="Apa itu Lensa Photochromic?"
-     loading="lazy" />
+<picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- WEBP format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- Final fallback with alt and lazy loading -->
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025"
+    alt="Apa itu Lensa Photochromic?"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top img-fluid"
+    />
+</picture>
 ```
 
 ### Option 3: Using Cloudinary Tag
 
 ```html
 <!-- Using Cloudinary tag -->
-<img src="{% cloudinary src='/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp' width=400 height=300 crop='fill' %}"
-     class="card-img-top img-fluid"
-     alt="Apa itu Lensa Photochromic?"
-     loading="lazy" />
+<picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- WEBP format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- Final fallback with alt and lazy loading -->
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025"
+    alt="Apa itu Lensa Photochromic?"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top img-fluid"
+    />
+</picture>
 ```
 
 ### Background Images
 
 ```yaml
 # In front matter - the filter will handle Cloudinary conversion
-background: /assets/img/posts/beach-retro-girls/beach-retro-girls-037.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-037
 ```
 
 ```css
@@ -81,16 +173,16 @@ date: "2020-02-09 08:25:23 +0700"
 author: Optikal Bahari
 categories: [Lensa]
 tags: [lensa, produk]
-background: /assets/img/posts/beach-retro-girls/beach-retro-girls-037.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-037
 comments: true
 ---
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary_image.html 
-       src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" 
-       alt="Apa itu Lensa Photochromic?" 
-       class="card-img-top img-fluid" 
+    {% include cloudinary_image.html
+       src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp"
+       alt="Apa itu Lensa Photochromic?"
+       class="card-img-top img-fluid"
        preset="card"
        loading="lazy" %}
     <div class="card-body">

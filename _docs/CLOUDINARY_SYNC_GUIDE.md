@@ -45,16 +45,16 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 ```bash
 # Bidirectional sync (default)
-ruby scripts/migrate_to_cloudinary.rb
+ruby _scripts/migrate_to_cloudinary.rb
 
 # Upload only
-ruby scripts/migrate_to_cloudinary.rb --direction upload
+ruby _scripts/migrate_to_cloudinary.rb --direction upload
 
 # Download only
-ruby scripts/migrate_to_cloudinary.rb --direction download
+ruby _scripts/migrate_to_cloudinary.rb --direction download
 
 # Dry run (preview changes)
-ruby scripts/migrate_to_cloudinary.rb --dry-run
+ruby _scripts/migrate_to_cloudinary.rb --dry-run
 ```
 
 ### Command Line Options
@@ -74,16 +74,16 @@ ruby scripts/migrate_to_cloudinary.rb --dry-run
 
 ```bash
 # Sync only JPG files
-ruby scripts/migrate_to_cloudinary.rb --include "*.jpg"
+ruby _scripts/migrate_to_cloudinary.rb --include "*.jpg"
 
 # Exclude backup directories
-ruby scripts/migrate_to_cloudinary.rb --exclude "**/backup/**"
+ruby _scripts/migrate_to_cloudinary.rb --exclude "**/backup/**"
 
 # Auto-resolve conflicts using newer files
-ruby scripts/migrate_to_cloudinary.rb --conflict newer
+ruby _scripts/migrate_to_cloudinary.rb --conflict newer
 
 # Upload with automatic conflict resolution
-ruby scripts/migrate_to_cloudinary.rb --direction upload --conflict local --force
+ruby _scripts/migrate_to_cloudinary.rb --direction upload --conflict local --force
 ```
 
 ## Conflict Resolution
@@ -161,7 +161,7 @@ When files are overwritten during download, backups are created in `.backup/` su
 Always preview changes first:
 
 ```bash
-ruby scripts/migrate_to_cloudinary.rb --dry-run
+ruby _scripts/migrate_to_cloudinary.rb --dry-run
 ```
 
 ### 2. Use Selective Sync
@@ -170,7 +170,7 @@ For large projects, sync specific directories:
 
 ```bash
 # Sync only posts images
-ruby scripts/migrate_to_cloudinary.rb --include "posts/**"
+ruby _scripts/migrate_to_cloudinary.rb --include "posts/**"
 ```
 
 ### 3. Regular Bidirectional Sync
@@ -179,7 +179,7 @@ Set up regular bidirectional syncs to keep everything in sync:
 
 ```bash
 # Weekly sync with automatic conflict resolution
-ruby scripts/migrate_to_cloudinary.rb --conflict newer
+ruby _scripts/migrate_to_cloudinary.rb --conflict newer
 ```
 
 ### 4. Backup Strategy
@@ -188,7 +188,7 @@ Keep backups enabled (default) for safety:
 
 ```bash
 # Disable only if you're confident
-ruby scripts/migrate_to_cloudinary.rb --no-backup
+ruby _scripts/migrate_to_cloudinary.rb --no-backup
 ```
 
 ## Workflow Examples
@@ -197,10 +197,10 @@ ruby scripts/migrate_to_cloudinary.rb --no-backup
 
 ```bash
 # 1. Preview the migration
-ruby scripts/migrate_to_cloudinary.rb --direction upload --dry-run
+ruby _scripts/migrate_to_cloudinary.rb --direction upload --dry-run
 
 # 2. Perform the migration
-ruby scripts/migrate_to_cloudinary.rb --direction upload
+ruby _scripts/migrate_to_cloudinary.rb --direction upload
 
 # 3. Verify results
 cat cloudinary_upload_log_*.yml
@@ -210,17 +210,17 @@ cat cloudinary_upload_log_*.yml
 
 ```bash
 # Download latest images from team
-ruby scripts/migrate_to_cloudinary.rb --direction download
+ruby _scripts/migrate_to_cloudinary.rb --direction download
 
 # Upload your new images
-ruby scripts/migrate_to_cloudinary.rb --direction upload --include "new-images/**"
+ruby _scripts/migrate_to_cloudinary.rb --direction upload --include "new-images/**"
 ```
 
 ### Maintenance Sync
 
 ```bash
 # Regular bidirectional sync
-ruby scripts/migrate_to_cloudinary.rb --conflict newer
+ruby _scripts/migrate_to_cloudinary.rb --conflict newer
 ```
 
 ## Troubleshooting
@@ -235,7 +235,7 @@ ruby scripts/migrate_to_cloudinary.rb --conflict newer
 
 ```bash
 # Retry failed uploads
-ruby scripts/migrate_to_cloudinary.rb --direction upload --force
+ruby _scripts/migrate_to_cloudinary.rb --direction upload --force
 
 # Check error logs
 cat cloudinary_error_log_*.yml
@@ -245,7 +245,7 @@ cat cloudinary_error_log_*.yml
 
 ```bash
 # Verbose dry run
-ruby scripts/migrate_to_cloudinary.rb --dry-run --include "problematic-file.jpg"
+ruby _scripts/migrate_to_cloudinary.rb --dry-run --include "problematic-file.jpg"
 ```
 
 ## Integration with Jekyll

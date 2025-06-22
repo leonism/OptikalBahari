@@ -1,87 +1,141 @@
 <section id="posts-category">
-	<div class="card-deck mb-3">
-		{% for post in site.categories.Lensa limit : 3 %}
-		<div class="card shadow p-3 mb-5 bg-white">
-			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-				{% if page.background %}
-				<img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top"
-					alt="{{ post.title }}" />
-			</a>
-			{% endif %}
-			<div class="card-body">
-				<h5 class="card-title">{{ post.title }}</h5>
-				<p class="card-text text-left">
-					{{ post.description | strip_html | truncate: 120 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
-				</p>
-			</div>
-			<div class="card-footer">
-				<small class="text-muted">
-					Posted by {% if post.author %} {{ post.author }} {% else %} {{
+  <div class="card-deck mb-3">
+    {% for post in site.categories.Lensa limit : 3 %}
+    <div class="card shadow p-3 mb-5 bg-white">
+      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+        {% if page.background %}
+        <picture>
+          <!-- AVIF format -->
+          <source srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+
+          <!-- WEBP format -->
+          <source srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+
+          <!-- JPEG fallback -->
+          <source srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+
+          <!-- Final fallback with alt and lazy loading -->
+          <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+            alt="{{ post.title }}" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
+        </picture>
+      </a>
+      {% endif %}
+      <div class="card-body">
+        <h5 class="card-title">{{ post.title }}</h5>
+        <p class="card-text text-left">
+          {{ post.description | strip_html | truncate: 120 }}.
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">
+          Posted by {% if post.author %} {{ post.author }} {% else %} {{
 					site.author }} {% endif %} on {{ post.date | date: '%B %d, %Y' }}
-					&middot; {% include postcards/read_time.html content=post.content %}
-				</small>
-			</div>
-		</div>
-		{% endfor %}
-	</div>
+          &middot; {% include postcards/read_time.html content=post.content %}
+        </small>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </section>
 
 <section id="posts-category">
-	<div class="card-deck mb-3">
-		{% for post in site.categories.Info limit : 3 %}
-		<div class="card shadow p-3 mb-5 bg-white">
-			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-				{% if page.background %}
-				<img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top"
-					alt="{{ post.title }}" />
-			</a>
-			{% endif %}
-			<div class="card-body">
-				<h5 class="card-title">{{ post.title }}</h5>
-				<p class="card-text text-left">
-					{{ post.description | strip_html | truncate: 120 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
-				</p>
-			</div>
-			<div class="card-footer">
-				<small class="text-muted">
-					Posted by {% if post.author %} {{ post.author }} {% else %} {{
+  <div class="card-deck mb-3">
+    {% for post in site.categories.Info limit : 3 %}
+    <div class="card shadow p-3 mb-5 bg-white">
+      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+        {% if page.background %}
+        <picture>
+          <!-- AVIF format -->
+          <source srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+
+          <!-- WEBP format -->
+          <source srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+
+          <!-- JPEG fallback -->
+          <source srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+
+          <!-- Final fallback with alt and lazy loading -->
+          <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+            alt="{{ post.title }}" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
+        </picture>
+      </a>
+      {% endif %}
+      <div class="card-body">
+        <h5 class="card-title">{{ post.title }}</h5>
+        <p class="card-text text-left">
+          {{ post.description | strip_html | truncate: 120 }}.
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">
+          Posted by {% if post.author %} {{ post.author }} {% else %} {{
 					site.author }} {% endif %} on {{ post.date | date: '%B %d, %Y' }}
-					&middot; {% include postcards/read_time.html content=post.content %}
-				</small>
-			</div>
-		</div>
-		{% endfor %}
-	</div>
+          &middot; {% include postcards/read_time.html content=post.content %}
+        </small>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </section>
 
 <section id="posts-category">
-	<div class="card-deck mb-3">
-		{% for post in site.categories.Trend limit : 3 %}
-		<div class="card shadow p-3 mb-5 bg-white">
-			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-				{% if page.background %}
-				<img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top"
-					alt="{{ post.title }}" />
-			</a>
+  <div class="card-deck mb-3">
+    {% for post in site.categories.Trend limit : 3 %}
+    <div class="card shadow p-3 mb-5 bg-white">
+      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+        {% if page.background %}
+        <picture>
+          <!-- AVIF format -->
+          <source srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
 
-			{% endif %}
-			<div class="card-body">
-				<h5 class="card-title">{{ post.title }}</h5>
-				<p class="card-text text-left">
-					{{ post.description | strip_html | truncate: 120 }}.
-					<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
-				</p>
-			</div>
-			<div class="card-footer">
-				<small class="text-muted">
-					Posted by {% if post.author %} {{ post.author }} {% else %} {{
+          <!-- WEBP format -->
+          <source srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+
+          <!-- JPEG fallback -->
+          <source srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+
+          <!-- Final fallback with alt and lazy loading -->
+          <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+            alt="{{ post.title }}" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
+        </picture>
+      </a>
+
+      {% endif %}
+      <div class="card-body">
+        <h5 class="card-title">{{ post.title }}</h5>
+        <p class="card-text text-left">
+          {{ post.description | strip_html | truncate: 120 }}.
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">
+          Posted by {% if post.author %} {{ post.author }} {% else %} {{
 					site.author }} {% endif %} on {{ post.date | date: '%B %d, %Y' }}
-					&middot; {% include postcards/read_time.html content=post.content %}
-				</small>
-			</div>
-		</div>
-		{% endfor %}
-	</div>
+          &middot; {% include postcards/read_time.html content=post.content %}
+        </small>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </section>

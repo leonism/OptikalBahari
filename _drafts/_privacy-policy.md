@@ -1,24 +1,56 @@
 ---
 layout: page
 title: Privacy & Policy, Kebijakan Kami
-subtitle: 
+subtitle:
 description: Kebijakan Penggunaan Situs
 keywords: 'Periksa Mata, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/021.jpg
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/021
 comments: false
 permalink: /privacy-policy/
 ---
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg" | relative_url }}"
-      class="card-img-top"
-      alt="tips-kacamata-2.jpg">
+    <picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- WEBP format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- Final fallback with alt and lazy loading -->
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14"
+    alt="tips-kacamata-2.jpg"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top"
+    />
+</picture>
     <div class="card-body">
       <h3 class="card-title">
         Privacy Policy for Optikal Bahari

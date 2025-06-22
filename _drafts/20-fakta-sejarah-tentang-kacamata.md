@@ -8,16 +8,48 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/019.jpg
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/019
 permalink: /20-fakta-sejarah-tentang-kacamata/
 comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
+  <picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- WEBP format -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px" />
+
+  <!-- Final fallback with alt and lazy loading -->
   <img
-    src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.jpg" | relative_url }}"
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9"
+    alt="tips-kacamata-2.jpg"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
     class="card-img-top"
-    alt="tips-kacamata-2.jpg">
+    />
+</picture>
   <div class="card-body">
     <h3 class="card-title">
       22 fakta sejarah tentang kacamata

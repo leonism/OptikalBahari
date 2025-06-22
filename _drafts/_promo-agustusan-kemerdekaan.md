@@ -20,7 +20,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info, Promo]
 tags: [promo, discount, kacamata, lensa, bingkai]
-background: /assets/img/posts/020.jpg
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/020
 permalink: /promo-agustusan-kemerdekaan/
 ---
 

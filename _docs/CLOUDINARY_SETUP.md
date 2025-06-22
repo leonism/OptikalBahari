@@ -55,7 +55,7 @@ To upload your existing images to Cloudinary:
 gem install dotenv
 
 # Run the migration
-ruby scripts/migrate_to_cloudinary.rb
+ruby _scripts/migrate_to_cloudinary.rb
 ```
 
 This will:

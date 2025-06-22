@@ -75,8 +75,8 @@ module Jekyll
       public_id = input.gsub(/^\/?assets\/img\//, '')
       # Remove file extension
       public_id = public_id.gsub(/\.[^.]+$/, '')
-      # Add folder prefix for organization
-      "optikalbahari/#{public_id}"
+      # Return the path as-is since folder structure is handled by Cloudinary folders
+      public_id
     end
   end
 end
