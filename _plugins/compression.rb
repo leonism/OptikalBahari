@@ -1,339 +1,406 @@
-# _plugins/compression.rb
-# Enterprise-grade asset hashing and compression with intelligent caching
-
-require 'brotli'
-require 'zlib'
-require 'find'
 require 'digest'
-require 'json'
-require 'fileutils'
 require 'yaml'
+require 'set'
+require 'fileutils'
+require 'zlib'
+require 'brotli'
 
 module AssetProcessor
-  class Cache
-    CACHE_FILE = '.asset_cache.yml'
-
-    def initialize(site_path)
-      @site_path = site_path
-      @cache_path = File.join(site_path, CACHE_FILE)
-      @cache = load_cache
+  class UsageAnalyzer
+    def initialize(site_dir)
+      @site_dir = site_dir
+      @used_assets = Set.new
+      @asset_patterns = [
+        /(?:href|src|data-src)=["']([^"']*\/(?:assets|css|js)\/[^"']*)["']/,
+        /url\(["']?([^"')]*\/(?:assets|css|js)\/[^"')]*)["']?\)/,
+        /import\s+["']([^"']*\/(?:assets|css|js)\/[^"']*)["']/
+      ]
     end
 
-    def get(file_path)
-      @cache[file_path]
-    end
+    def analyze_usage
+      puts "🔍 Analyzing asset usage..."
 
-    def set(file_path, data)
-      @cache[file_path] = data
-    end
+      # Scan all HTML, CSS, JS, and Markdown files
+      scan_files([
+        File.join(@site_dir, '**', '*.html'),
+        File.join(@site_dir, '**', '*.css'),
+        File.join(@site_dir, '**', '*.js'),
+        File.join(@site_dir, '**', '*.scss'),
+        File.join(@site_dir, '**', '*.md')
+      ])
 
-    def save
-      File.write(@cache_path, YAML.dump(@cache))
-    end
+      # Always include critical assets
+      add_critical_assets
 
-    def file_changed?(file_path)
-      return true unless @cache[file_path]
-
-      cached_mtime = @cache[file_path]['mtime']
-      cached_size = @cache[file_path]['size']
-      cached_hash = @cache[file_path]['content_hash']
-
-      current_stat = File.stat(file_path)
-      return true if current_stat.mtime.to_f != cached_mtime || current_stat.size != cached_size
-
-      # Double-check with content hash for ultimate accuracy
-      current_hash = Digest::SHA256.file(file_path).hexdigest
-      current_hash != cached_hash
+      puts "📊 Found #{@used_assets.size} referenced assets"
+      @used_assets
     end
 
     private
 
-    def load_cache
-      return {} unless File.exist?(@cache_path)
-      YAML.load_file(@cache_path) || {}
+    def scan_files(patterns)
+      patterns.each do |pattern|
+        Dir.glob(pattern).each do |file|
+          next if File.directory?(file)
+          scan_file_content(file)
+        end
+      end
+    end
+
+    def scan_file_content(file_path)
+      content = File.read(file_path)
+
+      @asset_patterns.each do |pattern|
+        content.scan(pattern) do |match|
+          asset_path = match[0]
+          # Normalize path (remove leading slash, resolve relative paths)
+          normalized_path = normalize_asset_path(asset_path, file_path)
+          @used_assets.add(normalized_path) if normalized_path
+        end
+      end
     rescue => e
-      puts "⚠️  Cache file corrupted, starting fresh: #{e.message}"
-      {}
+      puts "⚠️  Warning: Could not scan #{file_path}: #{e.message}"
+    end
+
+    def normalize_asset_path(path, source_file)
+      # Remove leading slash and site URL
+      clean_path = path.gsub(/^\/?/, '')
+
+      # Skip external URLs
+      return nil if clean_path.match?(/^https?:\/\//)
+
+      # Convert to site-relative path
+      if clean_path.start_with?('assets/')
+        clean_path
+      else
+        # Handle relative paths
+        File.join(File.dirname(source_file.gsub(@site_dir + '/', '')), clean_path)
+      end
+    end
+
+    def add_critical_assets
+      # Always include main CSS and JS files
+      critical_assets = [
+        'assets/main.css',
+        'assets/js/scripts.js',
+        'assets/vendor/bootstrap/css/bootstrap.min.css',
+        'assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
+        'assets/vendor/jquery/jquery.min.js',
+        'assets/vendor/fontawesome-free/css/all.min.css',
+        'assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css',
+        'assets/vendor/startbootstrap-clean-blog/js/clean-blog.js'
+      ]
+
+      critical_assets.each { |asset| @used_assets.add(asset) }
     end
   end
 
-  class Processor
-    COMPRESSIBLE_EXTS = %w[.html .css .js .md .ico .json .xml .svg .txt .jpg .jpeg .png .webp .avif].freeze
-    HASHABLE_EXTS = %w[.css .js .jpg .jpeg .png .webp .avif .svg .ico].freeze
-    COMPRESSION_QUALITY = {
-      brotli: 11,
-      gzip: Zlib::BEST_COMPRESSION
-    }.freeze
+  class SmartCache
+    def initialize(cache_file = '.smart_asset_cache.yml')
+      @cache_file = cache_file
+      @cache = load_cache
+    end
 
+    def load_cache
+      return {} unless File.exist?(@cache_file)
+      YAML.load_file(@cache_file) || {}
+    rescue
+      {}
+    end
+
+    def save_cache
+      File.write(@cache_file, @cache.to_yaml)
+    end
+
+    def file_changed?(file_path)
+      return true unless File.exist?(file_path)
+
+      stat = File.stat(file_path)
+      cache_key = file_path
+      cached_data = @cache[cache_key]
+
+      return true unless cached_data
+
+      # Check multiple factors for change detection
+      cached_data['mtime'] != stat.mtime.to_f ||
+      cached_data['size'] != stat.size ||
+      cached_data['content_hash'] != calculate_content_hash(file_path)
+    end
+
+    def update_cache(file_path, processed_files = [])
+      stat = File.stat(file_path)
+      @cache[file_path] = {
+        'mtime' => stat.mtime.to_f,
+        'size' => stat.size,
+        'content_hash' => calculate_content_hash(file_path),
+        'processed_files' => processed_files,
+        'processed_at' => Time.now.to_f
+      }
+    end
+
+    def get_processed_files(file_path)
+      @cache.dig(file_path, 'processed_files') || []
+    end
+
+    private
+
+    def calculate_content_hash(file_path)
+      Digest::SHA256.file(file_path).hexdigest
+    rescue
+      nil
+    end
+  end
+
+  class OptimizedProcessor
     def initialize(site)
       @site = site
-      @site_path = site.dest
-      @cache = Cache.new(@site_path)
+      @site_dir = site.dest
+      @cache = SmartCache.new
+      @manifest = load_manifest
       @stats = {
-        total_files: 0,
-        processed_files: 0,
-        skipped_files: 0,
-        total_original: 0,
-        total_brotli: 0,
-        total_gzip: 0
+        processed: 0,
+        skipped: 0,
+        hashed: 0,
+        compressed: 0,
+        total_size_before: 0,
+        total_size_after: 0,
+        processing_time: 0
       }
-      @asset_manifest = {}
     end
 
     def process
-      puts "\n🔨 Starting enterprise-grade asset processing..."
+      start_time = Time.now
+      puts "🚀 Starting optimized asset processing..."
 
-      # Load existing manifest if available
-      load_existing_manifest
+      # Step 1: Analyze which assets are actually used
+      analyzer = UsageAnalyzer.new(@site_dir)
+      used_assets = analyzer.analyze_usage
 
-      # Process all eligible files
-      process_files
+      # Step 2: Process only used assets
+      process_used_assets(used_assets)
 
-      # Save manifest and cache
-      save_manifest
-      @cache.save
+      # Step 3: Clean up unused processed assets
+      cleanup_unused_assets(used_assets)
 
-      # Update HTML references
+      # Step 4: Update HTML references
       update_html_references
 
-      # Display comprehensive stats
+      # Step 5: Save manifest and cache
+      save_manifest
+      @cache.save_cache
+
+      @stats[:processing_time] = Time.now - start_time
       display_stats
     end
 
     private
 
-    def load_existing_manifest
-      manifest_path = File.join(@site_path, 'assets', 'manifest.json')
-      return unless File.exist?(manifest_path)
+    def process_used_assets(used_assets)
+      puts "⚡ Processing #{used_assets.size} used assets..."
 
-      @asset_manifest = JSON.parse(File.read(manifest_path))
-      puts "📋 Loaded existing manifest with #{@asset_manifest.size} entries"
-    rescue => e
-      puts "⚠️  Could not load existing manifest: #{e.message}"
-      @asset_manifest = {}
-    end
+      used_assets.each do |asset_path|
+        full_path = File.join(@site_dir, asset_path)
+        next unless File.exist?(full_path)
 
-    def process_files
-      Find.find(@site_path) do |path|
-        next if File.directory?(path)
-        next unless COMPRESSIBLE_EXTS.include?(File.extname(path))
-        next if already_hashed?(path)
-
-        @stats[:total_files] += 1
-        relative_path = path.sub(@site_path + '/', '')
-
-        if should_skip_processing?(path, relative_path)
-          @stats[:skipped_files] += 1
-          add_to_stats_from_cache(path)
-          next
-        end
-
-        process_file(path, relative_path)
-        @stats[:processed_files] += 1
-      end
-    end
-
-    def already_hashed?(path)
-      File.basename(path) =~ /-[a-f0-9]{8}\./
-    end
-
-    def should_skip_processing?(path, relative_path)
-      return false unless @cache.get(relative_path)
-      return false if @cache.file_changed?(path)
-
-      # Check if compressed files still exist
-      cached_data = @cache.get(relative_path)
-      return false unless cached_data['compressed_files']
-
-      cached_data['compressed_files'].all? { |file| File.exist?(file) }
-    end
-
-    def process_file(path, relative_path)
-      begin
-        content = File.binread(path)
-        content_hash = Digest::SHA256.hexdigest(content)
-        file_stat = File.stat(path)
-
-        # Handle hashing for cacheable assets
-        if HASHABLE_EXTS.include?(File.extname(path))
-          hashed_path, hashed_relative_path = create_hashed_version(path, content, relative_path)
-          process_path = hashed_path
+        if should_process?(full_path)
+          process_file(full_path, asset_path)
         else
-          process_path = path
-          hashed_relative_path = nil
+          @stats[:skipped] += 1
+          # Still add to manifest if already processed
+          add_existing_to_manifest(asset_path)
         end
-
-        # Perform compression
-        compression_results = compress_file(process_path, content)
-
-        # Update cache
-        cache_data = {
-          'mtime' => file_stat.mtime.to_f,
-          'size' => file_stat.size,
-          'content_hash' => content_hash,
-          'compressed_files' => compression_results[:files],
-          'compression_stats' => compression_results[:stats]
-        }
-
-        if hashed_relative_path
-          cache_data['hashed_path'] = hashed_relative_path
-        end
-
-        @cache.set(relative_path, cache_data)
-
-        # Update stats
-        @stats[:total_original] += compression_results[:stats][:original]
-        @stats[:total_brotli] += compression_results[:stats][:brotli]
-        @stats[:total_gzip] += compression_results[:stats][:gzip]
-
-        puts "   ✅ Processed: #{relative_path}#{hashed_relative_path ? " → #{hashed_relative_path}" : ""}"
-
-      rescue => e
-        puts "⚠️  Processing failed for #{path}: #{e.message}"
       end
     end
 
-    def create_hashed_version(path, content, relative_path)
-      file_hash = Digest::MD5.hexdigest(content)[0, 8]
-      dir = File.dirname(path)
-      basename = File.basename(path, File.extname(path))
-      ext = File.extname(path)
+    def should_process?(file_path)
+      # Skip if file hasn't changed
+      return false unless @cache.file_changed?(file_path)
 
-      hashed_filename = "#{basename}-#{file_hash}#{ext}"
-      hashed_path = File.join(dir, hashed_filename)
-      hashed_relative_path = hashed_path.sub(@site_path + '/', '')
+      # Skip non-processable files
+      ext = File.extname(file_path).downcase
+      processable_extensions = %w[.css .js .png .jpg .jpeg .gif .webp .svg .ico .woff .woff2 .ttf .eot]
+      processable_extensions.include?(ext)
+    end
+
+    def process_file(file_path, asset_path)
+      @stats[:processed] += 1
+      @stats[:total_size_before] += File.size(file_path)
+
+      processed_files = []
+
+      # Hash the file for cache busting
+      if should_hash?(file_path)
+        hashed_path = hash_file(file_path, asset_path)
+        processed_files << hashed_path if hashed_path
+        file_path = File.join(@site_dir, hashed_path) if hashed_path
+      end
+
+      # Compress the file
+      if should_compress?(file_path)
+        compressed_files = compress_file(file_path)
+        processed_files.concat(compressed_files)
+      end
+
+      # Update cache
+      @cache.update_cache(File.join(@site_dir, asset_path), processed_files)
+
+      @stats[:total_size_after] += File.size(file_path) if File.exist?(file_path)
+    end
+
+    def should_hash?(file_path)
+      ext = File.extname(file_path).downcase
+      hashable_extensions = %w[.css .js .png .jpg .jpeg .gif .webp .svg .ico]
+      hashable_extensions.include?(ext)
+    end
+
+    def should_compress?(file_path)
+      ext = File.extname(file_path).downcase
+      compressible_extensions = %w[.css .js .html .svg .txt .xml .json]
+      compressible_extensions.include?(ext) && File.size(file_path) > 1024 # Only compress files > 1KB
+    end
+
+    def hash_file(file_path, asset_path)
+      return nil unless File.exist?(file_path)
+
+      content_hash = Digest::SHA256.file(file_path).hexdigest[0, 8]
+      ext = File.extname(asset_path)
+      base_name = File.basename(asset_path, ext)
+      dir_name = File.dirname(asset_path)
+
+      hashed_filename = "#{base_name}-#{content_hash}#{ext}"
+      hashed_path = File.join(dir_name, hashed_filename)
+      hashed_full_path = File.join(@site_dir, hashed_path)
 
       # Copy original to hashed version
-      FileUtils.cp(path, hashed_path)
+      FileUtils.cp(file_path, hashed_full_path)
 
-      # Store in manifest
-      @asset_manifest[relative_path] = {
-        'original' => relative_path,
-        'hashed' => hashed_relative_path,
-        'hash' => file_hash,
-        'size' => content.bytesize,
-        'timestamp' => Time.now.to_f
-      }
+      # Update manifest
+      @manifest[asset_path] = hashed_path
 
-      [hashed_path, hashed_relative_path]
+      @stats[:hashed] += 1
+      hashed_path
     end
 
-    def compress_file(file_path, content = nil)
-      content ||= File.binread(file_path)
-      file_size = content.bytesize
+    def compress_file(file_path)
+      return [] unless File.exist?(file_path)
+
       compressed_files = []
+      original_content = File.read(file_path)
 
       # Brotli compression
-      brotli_path = "#{file_path}.br"
-      if !File.exist?(brotli_path) || File.mtime(file_path) > File.mtime(brotli_path)
-        br_compressed = Brotli.deflate(content, quality: COMPRESSION_QUALITY[:brotli])
-        File.binwrite(brotli_path, br_compressed)
-        br_size = br_compressed.bytesize
-      else
-        br_size = File.size(brotli_path)
+      begin
+        brotli_content = Brotli.deflate(original_content, quality: 6)
+        brotli_path = "#{file_path}.br"
+        File.write(brotli_path, brotli_content)
+        compressed_files << File.basename(brotli_path)
+        @stats[:compressed] += 1
+      rescue => e
+        puts "⚠️  Brotli compression failed for #{file_path}: #{e.message}"
       end
-      compressed_files << brotli_path
 
       # Gzip compression
-      gzip_path = "#{file_path}.gz"
-      if !File.exist?(gzip_path) || File.mtime(file_path) > File.mtime(gzip_path)
-        Zlib::GzipWriter.open(gzip_path, COMPRESSION_QUALITY[:gzip]) { |gz| gz.write(content) }
-        gz_size = File.size(gzip_path)
-      else
-        gz_size = File.size(gzip_path)
+      begin
+        gzip_content = Zlib::Deflate.deflate(original_content, Zlib::BEST_COMPRESSION)
+        gzip_path = "#{file_path}.gz"
+        File.write(gzip_path, gzip_content)
+        compressed_files << File.basename(gzip_path)
+        @stats[:compressed] += 1
+      rescue => e
+        puts "⚠️  Gzip compression failed for #{file_path}: #{e.message}"
       end
-      compressed_files << gzip_path
 
-      {
-        files: compressed_files,
-        stats: {
-          original: file_size,
-          brotli: br_size,
-          gzip: gz_size
-        }
-      }
+      compressed_files
     end
 
-    def add_to_stats_from_cache(path)
-      relative_path = path.sub(@site_path + '/', '')
-      cached_data = @cache.get(relative_path)
-      return unless cached_data && cached_data['compression_stats']
+    def cleanup_unused_assets(used_assets)
+      # Remove processed versions of assets that are no longer used
+      @manifest.keys.each do |original_path|
+        unless used_assets.include?(original_path)
+          hashed_path = @manifest[original_path]
+          full_hashed_path = File.join(@site_dir, hashed_path)
 
-      stats = cached_data['compression_stats']
-      @stats[:total_original] += stats['original']
-      @stats[:total_brotli] += stats['brotli']
-      @stats[:total_gzip] += stats['gzip']
+          [full_hashed_path, "#{full_hashed_path}.br", "#{full_hashed_path}.gz"].each do |file|
+            File.delete(file) if File.exist?(file)
+          end
+
+          @manifest.delete(original_path)
+        end
+      end
     end
 
-    def save_manifest
-      return if @asset_manifest.empty?
+    def add_existing_to_manifest(asset_path)
+      cached_files = @cache.get_processed_files(asset_path)
+      return if cached_files.empty?
 
-      manifest_path = File.join(@site_path, 'assets', 'manifest.json')
-      FileUtils.mkdir_p(File.dirname(manifest_path))
-
-      # Add metadata to manifest
-      manifest_with_meta = {
-        'version' => '2.0',
-        'generated_at' => Time.now.iso8601,
-        'generator' => 'Jekyll Asset Processor Enterprise',
-        'assets' => @asset_manifest
-      }
-
-      File.write(manifest_path, JSON.pretty_generate(manifest_with_meta))
-      puts "\n📋 Asset manifest saved: #{@asset_manifest.size} hashed assets"
+      # Check if hashed version exists
+      hashed_file = cached_files.find { |f| f.include?('-') && !f.end_with?('.br', '.gz') }
+      if hashed_file
+        hashed_path = File.join(File.dirname(asset_path), hashed_file)
+        @manifest[asset_path] = hashed_path if File.exist?(File.join(@site_dir, hashed_path))
+      end
     end
 
     def update_html_references
-      return if @asset_manifest.empty?
+      return if @manifest.empty?
 
-      html_files = Dir.glob(File.join(@site_path, '**', '*.html'))
-      updated_files = 0
+      puts "🔄 Updating asset references in HTML files..."
 
-      html_files.each do |html_file|
+      Dir.glob(File.join(@site_dir, '**', '*.html')).each do |html_file|
         content = File.read(html_file)
-        original_content = content.dup
+        modified = false
 
-        @asset_manifest.each do |original_path, asset_info|
-          update_patterns = [
-            /href=(["'])\/?#{Regexp.escape(original_path)}\1/,
-            /src=(["'])\/?#{Regexp.escape(original_path)}\1/,
-            /url\((["']?)\/?#{Regexp.escape(original_path)}\1\)/,
-            /(["'])\/?#{Regexp.escape(original_path)}\1/
-          ]
-
-          update_patterns.each do |pattern|
-            content.gsub!(pattern) do |match|
-              match.gsub(original_path, asset_info['hashed'])
-            end
+        @manifest.each do |original, hashed|
+          if content.include?(original)
+            content.gsub!(original, hashed)
+            modified = true
           end
         end
 
-        if content != original_content
-          File.write(html_file, content)
-          updated_files += 1
-        end
+        File.write(html_file, content) if modified
       end
+    end
 
-      puts "   🔄 Updated #{updated_files} HTML files with hashed asset references"
+    def load_manifest
+      manifest_path = File.join(@site_dir, 'assets', 'manifest.json')
+      return {} unless File.exist?(manifest_path)
+
+      JSON.parse(File.read(manifest_path))
+    rescue
+      {}
+    end
+
+    def save_manifest
+      return if @manifest.empty?
+
+      manifest_dir = File.join(@site_dir, 'assets')
+      FileUtils.mkdir_p(manifest_dir)
+
+      manifest_path = File.join(manifest_dir, 'manifest.json')
+      manifest_data = {
+        'assets' => @manifest,
+        'generated_at' => Time.now.iso8601,
+        'version' => '2.0'
+      }
+
+      File.write(manifest_path, JSON.pretty_generate(manifest_data))
     end
 
     def display_stats
-      puts "\n📊 Enterprise Asset Processing Summary:"
-      puts "   Total files found: #{@stats[:total_files]}"
-      puts "   Files processed: #{@stats[:processed_files]}"
-      puts "   Files skipped (cached): #{@stats[:skipped_files]}"
+      puts "\n📈 Asset Processing Complete!"
+      puts "═" * 50
+      puts "📁 Processed: #{@stats[:processed]} files"
+      puts "⏭️  Skipped: #{@stats[:skipped]} files (unchanged)"
+      puts "🔗 Hashed: #{@stats[:hashed]} files"
+      puts "🗜️  Compressed: #{@stats[:compressed]} files"
+      puts "⏱️  Processing time: #{@stats[:processing_time].round(2)}s"
 
-      if @stats[:total_original] > 0
-        brotli_savings = ((1 - @stats[:total_brotli].to_f / @stats[:total_original]) * 100).round(2)
-        gzip_savings = ((1 - @stats[:total_gzip].to_f / @stats[:total_original]) * 100).round(2)
-
-        puts "   Original size: #{format_bytes(@stats[:total_original])}"
-        puts "   Brotli size: #{format_bytes(@stats[:total_brotli])} (#{brotli_savings}% saved)"
-        puts "   Gzip size: #{format_bytes(@stats[:total_gzip])} (#{gzip_savings}% saved)"
+      if @stats[:total_size_before] > 0
+        savings = ((@stats[:total_size_before] - @stats[:total_size_after]).to_f / @stats[:total_size_before] * 100)
+        puts "💾 Size reduction: #{format_bytes(@stats[:total_size_before] - @stats[:total_size_after])} (#{savings.round(1)}%)"
       end
 
-      efficiency = @stats[:total_files] > 0 ? ((@stats[:skipped_files].to_f / @stats[:total_files]) * 100).round(1) : 0
-      puts "   Cache efficiency: #{efficiency}% (#{@stats[:skipped_files]}/#{@stats[:total_files]} files skipped)"
+      puts "✅ Manifest saved with #{@manifest.size} asset mappings"
+      puts "═" * 50
     end
 
     def format_bytes(bytes)
@@ -351,11 +418,8 @@ module AssetProcessor
   end
 end
 
-# Jekyll Hook Registration
+# Jekyll Hook
 Jekyll::Hooks.register :site, :post_write do |site|
-  # Enable only in production (uncomment if needed)
-  # next unless Jekyll.env == "production"
-
-  processor = AssetProcessor::Processor.new(site)
+  processor = AssetProcessor::OptimizedProcessor.new(site)
   processor.process
 end
