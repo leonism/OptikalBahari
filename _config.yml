@@ -77,3 +77,6 @@ sass:
     - import
     - global-builtin
     - color-functions
+
+# Build command
+build_command: "bundle exec jekyll build && bash scripts/post-build.sh"

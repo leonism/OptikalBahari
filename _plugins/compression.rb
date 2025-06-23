@@ -35,6 +35,12 @@ module AssetProcessor
       # Add critical assets immediately
       @critical_assets.each { |asset| @used_assets.add(asset) }
 
+      # Add all HTML files for compression
+      html_files = Dir.glob(File.join(@site_dir, '**', '*.html')).map do |file|
+        file.sub(@site_dir + '/', '')
+      end
+      html_files.each { |html_file| @used_assets.add(html_file) }
+
       # Parallel file scanning for better performance
       scan_files_parallel
 
@@ -450,4 +456,26 @@ end
 Jekyll::Hooks.register :site, :post_write do |site|
   processor = AssetProcessor::TurboProcessor.new(site)
   processor.process
+end
+
+
+class FastUsageAnalyzer
+  def initialize
+    @asset_patterns = [
+      /href=["']([^"']*\.(?:css|js|webp|jpg|jpeg|png|gif|svg|ico|woff|woff2|ttf|eot))["']/i,
+      /src=["']([^"']*\.(?:js|webp|jpg|jpeg|png|gif|svg|ico))["']/i,
+      /data-src=["']([^"']*\.(?:webp|jpg|jpeg|png|gif|svg))["']/i,
+      /url\(["']?([^"')]*\.(?:css|js|webp|jpg|jpeg|png|gif|svg|ico|woff|woff2|ttf|eot))["']?\)/i,
+      /@import\s+["']([^"']*\.css)["']/i
+    ]
+
+    # Add HTML files for compression
+    @html_pattern = /\.html$/i
+    @directories = ['/assets/', '/css/', '/js/', '/']
+  end
+
+  def should_compress_html?(file_path)
+    return false unless @html_pattern.match?(file_path)
+    File.size(file_path) > 2048 # Only compress HTML files > 2KB
+  end
 end
