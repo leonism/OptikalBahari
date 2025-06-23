@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.3.3"
+gem 'concurrent-ruby', '~> 1.2'
 gem "csv"
 gem "base64"
 gem 'brotli'

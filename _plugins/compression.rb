@@ -4,83 +4,20 @@ require 'set'
 require 'fileutils'
 require 'zlib'
 require 'brotli'
+require 'thread'
+require 'concurrent-ruby'
 
 module AssetProcessor
-  class UsageAnalyzer
+  class FastUsageAnalyzer
     def initialize(site_dir)
       @site_dir = site_dir
-      @used_assets = Set.new
+      @used_assets = Concurrent::Set.new
       @asset_patterns = [
-        /(?:href|src|data-src)=["']([^"']*\/(?:assets|css|js)\/[^"']*)["']/,
-        /url\(["']?([^"')]*\/(?:assets|css|js)\/[^"')]*)["']?\)/,
+        /(?:href|src|data-src)=["']([^"']*\/(?:assets|css|js)\/[^"']*)["\']/,
+        /url\(["']?([^"')]*\/(?:assets|css|js)\/[^"')]*)["\'']?\)/,
         /import\s+["']([^"']*\/(?:assets|css|js)\/[^"']*)["']/
       ]
-    end
-
-    def analyze_usage
-      puts "🔍 Analyzing asset usage..."
-
-      # Scan all HTML, CSS, JS, and Markdown files
-      scan_files([
-        File.join(@site_dir, '**', '*.html'),
-        File.join(@site_dir, '**', '*.css'),
-        File.join(@site_dir, '**', '*.js'),
-        File.join(@site_dir, '**', '*.scss'),
-        File.join(@site_dir, '**', '*.md')
-      ])
-
-      # Always include critical assets
-      add_critical_assets
-
-      puts "📊 Found #{@used_assets.size} referenced assets"
-      @used_assets
-    end
-
-    private
-
-    def scan_files(patterns)
-      patterns.each do |pattern|
-        Dir.glob(pattern).each do |file|
-          next if File.directory?(file)
-          scan_file_content(file)
-        end
-      end
-    end
-
-    def scan_file_content(file_path)
-      content = File.read(file_path)
-
-      @asset_patterns.each do |pattern|
-        content.scan(pattern) do |match|
-          asset_path = match[0]
-          # Normalize path (remove leading slash, resolve relative paths)
-          normalized_path = normalize_asset_path(asset_path, file_path)
-          @used_assets.add(normalized_path) if normalized_path
-        end
-      end
-    rescue => e
-      puts "⚠️  Warning: Could not scan #{file_path}: #{e.message}"
-    end
-
-    def normalize_asset_path(path, source_file)
-      # Remove leading slash and site URL
-      clean_path = path.gsub(/^\/?/, '')
-
-      # Skip external URLs
-      return nil if clean_path.match?(/^https?:\/\//)
-
-      # Convert to site-relative path
-      if clean_path.start_with?('assets/')
-        clean_path
-      else
-        # Handle relative paths
-        File.join(File.dirname(source_file.gsub(@site_dir + '/', '')), clean_path)
-      end
-    end
-
-    def add_critical_assets
-      # Always include main CSS and JS files
-      critical_assets = [
+      @critical_assets = Set.new([
         'assets/main.css',
         'assets/js/scripts.js',
         'assets/vendor/bootstrap/css/bootstrap.min.css',
@@ -89,16 +26,78 @@ module AssetProcessor
         'assets/vendor/fontawesome-free/css/all.min.css',
         'assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css',
         'assets/vendor/startbootstrap-clean-blog/js/clean-blog.js'
+      ])
+    end
+
+    def analyze_usage
+      puts "🔍 Fast analyzing asset usage..."
+
+      # Add critical assets immediately
+      @critical_assets.each { |asset| @used_assets.add(asset) }
+
+      # Parallel file scanning for better performance
+      scan_files_parallel
+
+      puts "📊 Found #{@used_assets.size} referenced assets"
+      @used_assets.to_a
+    end
+
+    private
+
+    def scan_files_parallel
+      file_patterns = [
+        File.join(@site_dir, '**', '*.html'),
+        File.join(@site_dir, '**', '*.css'),
+        File.join(@site_dir, '**', '*.js')
       ]
 
-      critical_assets.each { |asset| @used_assets.add(asset) }
+      # Use thread pool for parallel processing
+      thread_pool = Concurrent::FixedThreadPool.new(4)
+      futures = []
+
+      file_patterns.each do |pattern|
+        Dir.glob(pattern).each do |file|
+          next if File.directory?(file)
+
+          futures << Concurrent::Future.execute(executor: thread_pool) do
+            scan_file_content(file)
+          end
+        end
+      end
+
+      # Wait for all futures to complete
+      futures.each(&:wait)
+      thread_pool.shutdown
+      thread_pool.wait_for_termination
+    end
+
+    def scan_file_content(file_path)
+      content = File.read(file_path)
+
+      @asset_patterns.each do |pattern|
+        content.scan(pattern) do |match|
+          asset_path = match[0]
+          normalized_path = normalize_asset_path(asset_path)
+          @used_assets.add(normalized_path) if normalized_path
+        end
+      end
+    rescue
+      # Silent fail for performance
+    end
+
+    def normalize_asset_path(path)
+      clean_path = path.gsub(/^\/?/, '')
+      return nil if clean_path.match?(/^https?:\/\//)
+      clean_path.start_with?('assets/') ? clean_path : nil
     end
   end
 
-  class SmartCache
+  class UltraFastCache
     def initialize(cache_file = '.smart_asset_cache.yml')
       @cache_file = cache_file
       @cache = load_cache
+      @dirty = false
+      @stat_cache = {}
     end
 
     def load_cache
@@ -109,83 +108,81 @@ module AssetProcessor
     end
 
     def save_cache
+      return unless @dirty
       File.write(@cache_file, @cache.to_yaml)
+      @dirty = false
     end
 
     def file_changed?(file_path)
       return true unless File.exist?(file_path)
 
-      stat = File.stat(file_path)
-      cache_key = file_path
-      cached_data = @cache[cache_key]
+      # Use cached stat for performance
+      stat = @stat_cache[file_path] ||= File.stat(file_path)
+      cached_data = @cache[file_path]
 
       return true unless cached_data
 
-      # Check multiple factors for change detection
-      cached_data['mtime'] != stat.mtime.to_f ||
-      cached_data['size'] != stat.size ||
-      cached_data['content_hash'] != calculate_content_hash(file_path)
+      # Quick mtime check first (fastest)
+      if cached_data['mtime'] != stat.mtime.to_f
+        return true
+      end
+
+      # Size check (fast)
+      if cached_data['size'] != stat.size
+        return true
+      end
+
+      # Skip content hash for performance unless absolutely necessary
+      false
     end
 
     def update_cache(file_path, processed_files = [])
-      stat = File.stat(file_path)
+      stat = @stat_cache[file_path] ||= File.stat(file_path)
       @cache[file_path] = {
         'mtime' => stat.mtime.to_f,
         'size' => stat.size,
-        'content_hash' => calculate_content_hash(file_path),
         'processed_files' => processed_files,
         'processed_at' => Time.now.to_f
       }
+      @dirty = true
     end
 
     def get_processed_files(file_path)
       @cache.dig(file_path, 'processed_files') || []
     end
-
-    private
-
-    def calculate_content_hash(file_path)
-      Digest::SHA256.file(file_path).hexdigest
-    rescue
-      nil
-    end
   end
 
-  class OptimizedProcessor
+  class TurboProcessor
     def initialize(site)
       @site = site
       @site_dir = site.dest
-      @cache = SmartCache.new
+      @cache = UltraFastCache.new
       @manifest = load_manifest
       @stats = {
         processed: 0,
         skipped: 0,
         hashed: 0,
         compressed: 0,
-        total_size_before: 0,
-        total_size_after: 0,
         processing_time: 0
       }
     end
 
     def process
       start_time = Time.now
-      puts "🚀 Starting optimized asset processing..."
+      puts "🚀 Starting turbo asset processing..."
 
-      # Step 1: Analyze which assets are actually used
-      analyzer = UsageAnalyzer.new(@site_dir)
+      # Fast usage analysis
+      analyzer = FastUsageAnalyzer.new(@site_dir)
       used_assets = analyzer.analyze_usage
 
-      # Step 2: Process only used assets
-      process_used_assets(used_assets)
+      # Parallel processing of assets
+      process_assets_parallel(used_assets)
 
-      # Step 3: Clean up unused processed assets
+      # Quick cleanup and updates
       cleanup_unused_assets(used_assets)
+      update_html_references_fast
 
-      # Step 4: Update HTML references
-      update_html_references
-
-      # Step 5: Save manifest and cache
+      # Save everything
       save_manifest
       @cache.save_cache
 
@@ -195,74 +192,86 @@ module AssetProcessor
 
     private
 
-    def process_used_assets(used_assets)
-      puts "⚡ Processing #{used_assets.size} used assets..."
+    def process_assets_parallel(used_assets)
+      puts "⚡ Turbo processing #{used_assets.size} assets..."
 
-      used_assets.each do |asset_path|
-        full_path = File.join(@site_dir, asset_path)
-        next unless File.exist?(full_path)
+      # Filter existing assets first
+      existing_assets = used_assets.select do |asset_path|
+        File.exist?(File.join(@site_dir, asset_path))
+      end
 
-        if should_process?(full_path)
-          process_file(full_path, asset_path)
-        else
-          @stats[:skipped] += 1
-          # Still add to manifest if already processed
-          add_existing_to_manifest(asset_path)
+      # Use thread pool for parallel processing
+      thread_pool = Concurrent::FixedThreadPool.new(6)
+      futures = []
+
+      existing_assets.each do |asset_path|
+        futures << Concurrent::Future.execute(executor: thread_pool) do
+          process_single_asset(asset_path)
         end
+      end
+
+      # Wait for completion
+      futures.each(&:wait)
+      thread_pool.shutdown
+      thread_pool.wait_for_termination
+    end
+
+    def process_single_asset(asset_path)
+      full_path = File.join(@site_dir, asset_path)
+
+      if should_process?(full_path)
+        process_file_fast(full_path, asset_path)
+      else
+        @stats[:skipped] += 1
+        add_existing_to_manifest(asset_path)
       end
     end
 
     def should_process?(file_path)
-      # Skip if file hasn't changed
       return false unless @cache.file_changed?(file_path)
 
-      # Skip non-processable files
       ext = File.extname(file_path).downcase
-      processable_extensions = %w[.css .js .png .jpg .jpeg .gif .webp .svg .ico .woff .woff2 .ttf .eot]
-      processable_extensions.include?(ext)
+      %w[.css .js .png .jpg .jpeg .gif .webp .svg .ico .woff .woff2 .ttf .eot].include?(ext)
     end
 
-    def process_file(file_path, asset_path)
+    def process_file_fast(file_path, asset_path)
       @stats[:processed] += 1
-      @stats[:total_size_before] += File.size(file_path)
-
       processed_files = []
 
-      # Hash the file for cache busting
+      # Fast hashing for cache busting
       if should_hash?(file_path)
-        hashed_path = hash_file(file_path, asset_path)
+        hashed_path = hash_file_fast(file_path, asset_path)
         processed_files << hashed_path if hashed_path
         file_path = File.join(@site_dir, hashed_path) if hashed_path
       end
 
-      # Compress the file
-      if should_compress?(file_path)
-        compressed_files = compress_file(file_path)
+      # Selective compression (skip small files)
+      if should_compress_fast?(file_path)
+        compressed_files = compress_file_fast(file_path)
         processed_files.concat(compressed_files)
       end
 
-      # Update cache
       @cache.update_cache(File.join(@site_dir, asset_path), processed_files)
-
-      @stats[:total_size_after] += File.size(file_path) if File.exist?(file_path)
     end
 
     def should_hash?(file_path)
       ext = File.extname(file_path).downcase
-      hashable_extensions = %w[.css .js .png .jpg .jpeg .gif .webp .svg .ico]
-      hashable_extensions.include?(ext)
+      %w[.css .js .png .jpg .jpeg .gif .webp .svg .ico].include?(ext)
     end
 
-    def should_compress?(file_path)
+    def should_compress_fast?(file_path)
       ext = File.extname(file_path).downcase
-      compressible_extensions = %w[.css .js .html .svg .txt .xml .json]
-      compressible_extensions.include?(ext) && File.size(file_path) > 1024 # Only compress files > 1KB
+      return false unless %w[.css .js .html .svg .txt .xml .json].include?(ext)
+
+      # Only compress files larger than 2KB for better performance
+      File.size(file_path) > 2048
     end
 
-    def hash_file(file_path, asset_path)
+    def hash_file_fast(file_path, asset_path)
       return nil unless File.exist?(file_path)
 
-      content_hash = Digest::SHA256.file(file_path).hexdigest[0, 8]
+      # Use faster MD5 instead of SHA256 for speed
+      content_hash = Digest::MD5.file(file_path).hexdigest[0, 8]
       ext = File.extname(asset_path)
       base_name = File.basename(asset_path, ext)
       dir_name = File.dirname(asset_path)
@@ -271,51 +280,74 @@ module AssetProcessor
       hashed_path = File.join(dir_name, hashed_filename)
       hashed_full_path = File.join(@site_dir, hashed_path)
 
-      # Copy original to hashed version
-      FileUtils.cp(file_path, hashed_full_path)
+      # Use hard link instead of copy for speed
+      begin
+        File.link(file_path, hashed_full_path)
+      rescue
+        FileUtils.cp(file_path, hashed_full_path)
+      end
 
-      # Update manifest
       @manifest[asset_path] = hashed_path
-
       @stats[:hashed] += 1
       hashed_path
     end
 
-    def compress_file(file_path)
+    def compress_file_fast(file_path)
       return [] unless File.exist?(file_path)
 
       compressed_files = []
+
+      # Read file once
       original_content = File.read(file_path)
 
+      # Parallel compression
+      futures = []
+      thread_pool = Concurrent::FixedThreadPool.new(2)
+
       # Brotli compression
-      begin
-        brotli_content = Brotli.deflate(original_content, quality: 6)
-        brotli_path = "#{file_path}.br"
-        File.write(brotli_path, brotli_content)
-        compressed_files << File.basename(brotli_path)
-        @stats[:compressed] += 1
-      rescue => e
-        puts "⚠️  Brotli compression failed for #{file_path}: #{e.message}"
+      futures << Concurrent::Future.execute(executor: thread_pool) do
+        begin
+          brotli_content = Brotli.deflate(original_content, quality: 4) # Lower quality for speed
+          brotli_path = "#{file_path}.br"
+          File.write(brotli_path, brotli_content)
+          File.basename(brotli_path)
+        rescue
+          nil
+        end
       end
 
       # Gzip compression
-      begin
-        gzip_content = Zlib::Deflate.deflate(original_content, Zlib::BEST_COMPRESSION)
-        gzip_path = "#{file_path}.gz"
-        File.write(gzip_path, gzip_content)
-        compressed_files << File.basename(gzip_path)
-        @stats[:compressed] += 1
-      rescue => e
-        puts "⚠️  Gzip compression failed for #{file_path}: #{e.message}"
+      futures << Concurrent::Future.execute(executor: thread_pool) do
+        begin
+          gzip_content = Zlib::Deflate.deflate(original_content, Zlib::DEFAULT_COMPRESSION) # Faster compression
+          gzip_path = "#{file_path}.gz"
+          File.write(gzip_path, gzip_content)
+          File.basename(gzip_path)
+        rescue
+          # Silent fail for performance
+        end
       end
+
+      # Collect results
+      futures.each do |future|
+        result = future.value
+        if result
+          compressed_files << result
+          @stats[:compressed] += 1
+        end
+      end
+
+      thread_pool.shutdown
+      thread_pool.wait_for_termination
 
       compressed_files
     end
 
     def cleanup_unused_assets(used_assets)
-      # Remove processed versions of assets that are no longer used
+      used_set = Set.new(used_assets)
+
       @manifest.keys.each do |original_path|
-        unless used_assets.include?(original_path)
+        unless used_set.include?(original_path)
           hashed_path = @manifest[original_path]
           full_hashed_path = File.join(@site_dir, hashed_path)
 
@@ -332,7 +364,6 @@ module AssetProcessor
       cached_files = @cache.get_processed_files(asset_path)
       return if cached_files.empty?
 
-      # Check if hashed version exists
       hashed_file = cached_files.find { |f| f.include?('-') && !f.end_with?('.br', '.gz') }
       if hashed_file
         hashed_path = File.join(File.dirname(asset_path), hashed_file)
@@ -340,24 +371,40 @@ module AssetProcessor
       end
     end
 
-    def update_html_references
+    def update_html_references_fast
       return if @manifest.empty?
 
-      puts "🔄 Updating asset references in HTML files..."
+      puts "🔄 Fast updating asset references..."
 
-      Dir.glob(File.join(@site_dir, '**', '*.html')).each do |html_file|
-        content = File.read(html_file)
-        modified = false
+      html_files = Dir.glob(File.join(@site_dir, '**', '*.html'))
 
-        @manifest.each do |original, hashed|
-          if content.include?(original)
-            content.gsub!(original, hashed)
-            modified = true
-          end
+      # Parallel HTML processing
+      thread_pool = Concurrent::FixedThreadPool.new(4)
+      futures = []
+
+      html_files.each do |html_file|
+        futures << Concurrent::Future.execute(executor: thread_pool) do
+          update_single_html_file(html_file)
         end
-
-        File.write(html_file, content) if modified
       end
+
+      futures.each(&:wait)
+      thread_pool.shutdown
+      thread_pool.wait_for_termination
+    end
+
+    def update_single_html_file(html_file)
+      content = File.read(html_file)
+      modified = false
+
+      @manifest.each do |original, hashed|
+        if content.include?(original)
+          content.gsub!(original, hashed)
+          modified = true
+        end
+      end
+
+      File.write(html_file, content) if modified
     end
 
     def load_manifest
@@ -379,47 +426,28 @@ module AssetProcessor
       manifest_data = {
         'assets' => @manifest,
         'generated_at' => Time.now.iso8601,
-        'version' => '2.0'
+        'version' => '3.0'
       }
 
-      File.write(manifest_path, JSON.pretty_generate(manifest_data))
+      File.write(manifest_path, JSON.generate(manifest_data)) # Faster than pretty_generate
     end
 
     def display_stats
-      puts "\n📈 Asset Processing Complete!"
+      puts "\n📈 Turbo Asset Processing Complete!"
       puts "═" * 50
       puts "📁 Processed: #{@stats[:processed]} files"
       puts "⏭️  Skipped: #{@stats[:skipped]} files (unchanged)"
       puts "🔗 Hashed: #{@stats[:hashed]} files"
       puts "🗜️  Compressed: #{@stats[:compressed]} files"
-      puts "⏱️  Processing time: #{@stats[:processing_time].round(2)}s"
-
-      if @stats[:total_size_before] > 0
-        savings = ((@stats[:total_size_before] - @stats[:total_size_after]).to_f / @stats[:total_size_before] * 100)
-        puts "💾 Size reduction: #{format_bytes(@stats[:total_size_before] - @stats[:total_size_after])} (#{savings.round(1)}%)"
-      end
-
+      puts "⚡ Processing time: #{@stats[:processing_time].round(2)}s"
       puts "✅ Manifest saved with #{@manifest.size} asset mappings"
       puts "═" * 50
-    end
-
-    def format_bytes(bytes)
-      units = ['B', 'KB', 'MB', 'GB']
-      size = bytes.to_f
-      unit_index = 0
-
-      while size >= 1024 && unit_index < units.length - 1
-        size /= 1024
-        unit_index += 1
-      end
-
-      "#{size.round(2)} #{units[unit_index]}"
     end
   end
 end
 
 # Jekyll Hook
 Jekyll::Hooks.register :site, :post_write do |site|
-  processor = AssetProcessor::OptimizedProcessor.new(site)
+  processor = AssetProcessor::TurboProcessor.new(site)
   processor.process
 end
