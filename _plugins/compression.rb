@@ -6,45 +6,154 @@ require 'zlib'
 require 'brotli'
 require 'thread'
 require 'concurrent-ruby'
+require 'digest'
+require 'json'
 
 module AssetProcessor
+  # Configuration class to handle all user-configurable options
+  class Configuration
+    # Default configuration values
+    DEFAULT_CONFIG = {
+      # Compression settings
+      'compression' => {
+        'enabled' => true,
+        'brotli' => {
+          'enabled' => true,
+          'quality' => 4,  # 0-11, higher = better compression but slower
+          'window' => 22   # 10-24, affects memory usage
+        },
+        'gzip' => {
+          'enabled' => true,
+          'level' => Zlib::DEFAULT_COMPRESSION  # 1-9, higher = better compression
+        },
+        'min_file_size' => 2048,  # Only compress files larger than this (bytes)
+        'file_types' => %w[.css .js .html .svg .txt .xml .json]
+      },
+
+      # Asset hashing settings
+      'hashing' => {
+        'enabled' => true,
+        'algorithm' => 'md5',  # 'md5' or 'sha256'
+        'hash_length' => 8,    # Length of hash in filename
+        'file_types' => %w[.css .js .png .jpg .jpeg .gif .webp .svg .ico]
+      },
+
+      # Performance settings
+      'performance' => {
+        'thread_pool_size' => 6,        # Number of threads for parallel processing
+        'html_thread_pool_size' => 4,   # Threads for HTML processing
+        'compression_thread_pool_size' => 2,  # Threads for compression
+        'enable_caching' => true,       # Enable smart caching
+        'cache_file' => '.smart_asset_cache.yml'
+      },
+
+      # Asset analysis settings
+      'analysis' => {
+        'critical_assets' => [
+          'assets/main.css',
+          'assets/js/scripts.js',
+          'assets/vendor/bootstrap/css/bootstrap.min.css',
+          'assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
+          'assets/vendor/jquery/jquery.min.js',
+          'assets/vendor/fontawesome-free/css/all.min.css',
+          'assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css',
+          'assets/vendor/startbootstrap-clean-blog/js/clean-blog.js'
+        ],
+        'scan_directories' => ['assets', 'css', 'js'],
+        'include_html_files' => true
+      },
+
+      # Output and logging settings
+      'output' => {
+        'verbose' => true,
+        'show_stats' => true,
+        'manifest_file' => 'assets/manifest.json'
+      }
+    }.freeze
+
+    def initialize(site_config = {})
+      @config = deep_merge(DEFAULT_CONFIG, site_config.fetch('asset_processor', {}))
+      validate_config!
+    end
+
+    # Get configuration value using dot notation (e.g., 'compression.brotli.quality')
+    def get(key_path)
+      keys = key_path.split('.')
+      keys.reduce(@config) { |config, key| config[key] }
+    rescue
+      nil
+    end
+
+    # Check if a feature is enabled
+    def enabled?(feature_path)
+      get("#{feature_path}.enabled") == true
+    end
+
+    # Get the full configuration hash
+    def to_h
+      @config
+    end
+
+    private
+
+    # Deep merge two hashes
+    def deep_merge(hash1, hash2)
+      hash1.merge(hash2) do |key, oldval, newval|
+        oldval.is_a?(Hash) && newval.is_a?(Hash) ? deep_merge(oldval, newval) : newval
+      end
+    end
+
+    # Validate configuration values
+    def validate_config!
+      # Validate compression quality levels
+      brotli_quality = get('compression.brotli.quality')
+      raise "Brotli quality must be between 0-11" if brotli_quality && (brotli_quality < 0 || brotli_quality > 11)
+
+      gzip_level = get('compression.gzip.level')
+      raise "Gzip level must be between 1-9" if gzip_level && (gzip_level < 1 || gzip_level > 9)
+
+      # Validate thread pool sizes
+      thread_size = get('performance.thread_pool_size')
+      raise "Thread pool size must be positive" if thread_size && thread_size <= 0
+    end
+  end
+
+  # Enhanced usage analyzer with configurable options
   class FastUsageAnalyzer
-    def initialize(site_dir)
+    def initialize(site_dir, config)
       @site_dir = site_dir
+      @config = config
       @used_assets = Concurrent::Set.new
+
+      # Build asset patterns based on configured scan directories
+      scan_dirs = @config.get('analysis.scan_directories').join('|')
       @asset_patterns = [
-        /(?:href|src|data-src)=["']([^"']*\/(?:assets|css|js)\/[^"']*)["\']/,
-        /url\(["']?([^"')]*\/(?:assets|css|js)\/[^"')]*)["\'']?\)/,
-        /import\s+["']([^"']*\/(?:assets|css|js)\/[^"']*)["']/
+        /(?:href|src|data-src)=["']([^"']*\/(?:#{scan_dirs})\/[^"']*)["\']/,
+        /url\(["']?([^"')]*\/(?:#{scan_dirs})\/[^"')]*)["\'']?\)/,
+        /import\s+["']([^"']*\/(?:#{scan_dirs})\/[^"']*)["']/
       ]
-      @critical_assets = Set.new([
-        'assets/main.css',
-        'assets/js/scripts.js',
-        'assets/vendor/bootstrap/css/bootstrap.min.css',
-        'assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
-        'assets/vendor/jquery/jquery.min.js',
-        'assets/vendor/fontawesome-free/css/all.min.css',
-        'assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css',
-        'assets/vendor/startbootstrap-clean-blog/js/clean-blog.js'
-      ])
+
+      @critical_assets = Set.new(@config.get('analysis.critical_assets'))
     end
 
     def analyze_usage
-      puts "🔍 Fast analyzing asset usage..."
+      puts "🔍 Analyzing asset usage with custom configuration..." if @config.get('output.verbose')
 
       # Add critical assets immediately
       @critical_assets.each { |asset| @used_assets.add(asset) }
 
-      # Add all HTML files for compression
-      html_files = Dir.glob(File.join(@site_dir, '**', '*.html')).map do |file|
-        file.sub(@site_dir + '/', '')
+      # Add HTML files for compression if enabled
+      if @config.get('analysis.include_html_files')
+        html_files = Dir.glob(File.join(@site_dir, '**', '*.html')).map do |file|
+          file.sub(@site_dir + '/', '')
+        end
+        html_files.each { |html_file| @used_assets.add(html_file) }
       end
-      html_files.each { |html_file| @used_assets.add(html_file) }
 
       # Parallel file scanning for better performance
       scan_files_parallel
 
-      puts "📊 Found #{@used_assets.size} referenced assets"
+      puts "📊 Found #{@used_assets.size} referenced assets" if @config.get('output.verbose')
       @used_assets.to_a
     end
 
@@ -57,8 +166,9 @@ module AssetProcessor
         File.join(@site_dir, '**', '*.js')
       ]
 
-      # Use thread pool for parallel processing
-      thread_pool = Concurrent::FixedThreadPool.new(4)
+      # Use configurable thread pool size
+      thread_pool_size = [@config.get('performance.thread_pool_size'), 1].max
+      thread_pool = Concurrent::FixedThreadPool.new(thread_pool_size)
       futures = []
 
       file_patterns.each do |pattern|
@@ -94,14 +204,18 @@ module AssetProcessor
     def normalize_asset_path(path)
       clean_path = path.gsub(/^\/?/, '')
       return nil if clean_path.match?(/^https?:\/\//)
-      clean_path.start_with?('assets/') ? clean_path : nil
+
+      scan_dirs = @config.get('analysis.scan_directories')
+      scan_dirs.any? { |dir| clean_path.start_with?("#{dir}/") } ? clean_path : nil
     end
   end
 
+  # Enhanced caching system with configurable options
   class UltraFastCache
-    def initialize(cache_file = '.smart_asset_cache.yml')
-      @cache_file = cache_file
-      @cache = load_cache
+    def initialize(config)
+      @cache_file = config.get('performance.cache_file')
+      @enabled = config.get('performance.enable_caching')
+      @cache = @enabled ? load_cache : {}
       @dirty = false
       @stat_cache = {}
     end
@@ -114,12 +228,13 @@ module AssetProcessor
     end
 
     def save_cache
-      return unless @dirty
+      return unless @enabled && @dirty
       File.write(@cache_file, @cache.to_yaml)
       @dirty = false
     end
 
     def file_changed?(file_path)
+      return true unless @enabled
       return true unless File.exist?(file_path)
 
       # Use cached stat for performance
@@ -138,11 +253,12 @@ module AssetProcessor
         return true
       end
 
-      # Skip content hash for performance unless absolutely necessary
       false
     end
 
     def update_cache(file_path, processed_files = [])
+      return unless @enabled
+
       stat = @stat_cache[file_path] ||= File.stat(file_path)
       @cache[file_path] = {
         'mtime' => stat.mtime.to_f,
@@ -154,15 +270,18 @@ module AssetProcessor
     end
 
     def get_processed_files(file_path)
+      return [] unless @enabled
       @cache.dig(file_path, 'processed_files') || []
     end
   end
 
+  # Main processor with enhanced configurability
   class TurboProcessor
     def initialize(site)
       @site = site
       @site_dir = site.dest
-      @cache = UltraFastCache.new
+      @config = Configuration.new(site.config)
+      @cache = UltraFastCache.new(@config)
       @manifest = load_manifest
       @stats = {
         processed: 0,
@@ -175,10 +294,10 @@ module AssetProcessor
 
     def process
       start_time = Time.now
-      puts "🚀 Starting turbo asset processing..."
+      puts "🚀 Starting configurable asset processing..." if @config.get('output.verbose')
 
-      # Fast usage analysis
-      analyzer = FastUsageAnalyzer.new(@site_dir)
+      # Fast usage analysis with configuration
+      analyzer = FastUsageAnalyzer.new(@site_dir, @config)
       used_assets = analyzer.analyze_usage
 
       # Parallel processing of assets
@@ -186,28 +305,29 @@ module AssetProcessor
 
       # Quick cleanup and updates
       cleanup_unused_assets(used_assets)
-      update_html_references_fast
+      update_html_references_fast if @config.enabled?('hashing')
 
       # Save everything
       save_manifest
       @cache.save_cache
 
       @stats[:processing_time] = Time.now - start_time
-      display_stats
+      display_stats if @config.get('output.show_stats')
     end
 
     private
 
     def process_assets_parallel(used_assets)
-      puts "⚡ Turbo processing #{used_assets.size} assets..."
+      puts "⚡ Processing #{used_assets.size} assets with custom settings..." if @config.get('output.verbose')
 
       # Filter existing assets first
       existing_assets = used_assets.select do |asset_path|
         File.exist?(File.join(@site_dir, asset_path))
       end
 
-      # Use thread pool for parallel processing
-      thread_pool = Concurrent::FixedThreadPool.new(6)
+      # Use configurable thread pool size
+      thread_pool_size = [@config.get('performance.thread_pool_size'), 1].max
+      thread_pool = Concurrent::FixedThreadPool.new(thread_pool_size)
       futures = []
 
       existing_assets.each do |asset_path|
@@ -237,22 +357,27 @@ module AssetProcessor
       return false unless @cache.file_changed?(file_path)
 
       ext = File.extname(file_path).downcase
-      %w[.css .js .png .jpg .jpeg .gif .webp .svg .ico .woff .woff2 .ttf .eot].include?(ext)
+
+      # Check if file type is configured for processing
+      hash_types = @config.get('hashing.file_types')
+      compress_types = @config.get('compression.file_types')
+
+      (hash_types + compress_types).uniq.include?(ext)
     end
 
     def process_file_fast(file_path, asset_path)
       @stats[:processed] += 1
       processed_files = []
 
-      # Fast hashing for cache busting
-      if should_hash?(file_path)
+      # Configurable hashing
+      if @config.enabled?('hashing') && should_hash?(file_path)
         hashed_path = hash_file_fast(file_path, asset_path)
         processed_files << hashed_path if hashed_path
         file_path = File.join(@site_dir, hashed_path) if hashed_path
       end
 
-      # Selective compression (skip small files)
-      if should_compress_fast?(file_path)
+      # Configurable compression
+      if @config.enabled?('compression') && should_compress_fast?(file_path)
         compressed_files = compress_file_fast(file_path)
         processed_files.concat(compressed_files)
       end
@@ -261,23 +386,36 @@ module AssetProcessor
     end
 
     def should_hash?(file_path)
+      return false unless @config.enabled?('hashing')
+
       ext = File.extname(file_path).downcase
-      %w[.css .js .png .jpg .jpeg .gif .webp .svg .ico].include?(ext)
+      @config.get('hashing.file_types').include?(ext)
     end
 
     def should_compress_fast?(file_path)
-      ext = File.extname(file_path).downcase
-      return false unless %w[.css .js .html .svg .txt .xml .json].include?(ext)
+      return false unless @config.enabled?('compression')
 
-      # Only compress files larger than 2KB for better performance
-      File.size(file_path) > 2048
+      ext = File.extname(file_path).downcase
+      return false unless @config.get('compression.file_types').include?(ext)
+
+      # Use configurable minimum file size
+      File.size(file_path) > @config.get('compression.min_file_size')
     end
 
     def hash_file_fast(file_path, asset_path)
       return nil unless File.exist?(file_path)
 
-      # Use faster MD5 instead of SHA256 for speed
-      content_hash = Digest::MD5.file(file_path).hexdigest[0, 8]
+      # Use configurable hashing algorithm
+      algorithm = @config.get('hashing.algorithm')
+      hash_length = @config.get('hashing.hash_length')
+
+      content_hash = case algorithm
+                    when 'sha256'
+                      Digest::SHA256.file(file_path).hexdigest[0, hash_length]
+                    else # default to md5
+                      Digest::MD5.file(file_path).hexdigest[0, hash_length]
+                    end
+
       ext = File.extname(asset_path)
       base_name = File.basename(asset_path, ext)
       dir_name = File.dirname(asset_path)
@@ -302,35 +440,47 @@ module AssetProcessor
       return [] unless File.exist?(file_path)
 
       compressed_files = []
-
-      # Read file once
       original_content = File.read(file_path)
 
-      # Parallel compression
+      # Use configurable thread pool for compression
+      thread_pool_size = [@config.get('performance.compression_thread_pool_size'), 1].max
+      thread_pool = Concurrent::FixedThreadPool.new(thread_pool_size)
       futures = []
-      thread_pool = Concurrent::FixedThreadPool.new(2)
 
-      # Brotli compression
-      futures << Concurrent::Future.execute(executor: thread_pool) do
-        begin
-          brotli_content = Brotli.deflate(original_content, quality: 4) # Lower quality for speed
-          brotli_path = "#{file_path}.br"
-          File.write(brotli_path, brotli_content)
-          File.basename(brotli_path)
-        rescue
-          nil
+      # Configurable Brotli compression
+      if @config.enabled?('compression.brotli')
+        futures << Concurrent::Future.execute(executor: thread_pool) do
+          begin
+            quality = @config.get('compression.brotli.quality')
+            window = @config.get('compression.brotli.window')
+
+            brotli_content = Brotli.deflate(original_content,
+              quality: quality,
+              window: window
+            )
+            brotli_path = "#{file_path}.br"
+            File.write(brotli_path, brotli_content)
+            File.basename(brotli_path)
+          rescue => e
+            puts "Warning: Brotli compression failed for #{file_path}: #{e.message}" if @config.get('output.verbose')
+            nil
+          end
         end
       end
 
-      # Gzip compression
-      futures << Concurrent::Future.execute(executor: thread_pool) do
-        begin
-          gzip_content = Zlib::Deflate.deflate(original_content, Zlib::DEFAULT_COMPRESSION) # Faster compression
-          gzip_path = "#{file_path}.gz"
-          File.write(gzip_path, gzip_content)
-          File.basename(gzip_path)
-        rescue
-          # Silent fail for performance
+      # Configurable Gzip compression
+      if @config.enabled?('compression.gzip')
+        futures << Concurrent::Future.execute(executor: thread_pool) do
+          begin
+            level = @config.get('compression.gzip.level')
+            gzip_content = Zlib::Deflate.deflate(original_content, level)
+            gzip_path = "#{file_path}.gz"
+            File.write(gzip_path, gzip_content)
+            File.basename(gzip_path)
+          rescue => e
+            puts "Warning: Gzip compression failed for #{file_path}: #{e.message}" if @config.get('output.verbose')
+            nil
+          end
         end
       end
 
@@ -380,12 +530,13 @@ module AssetProcessor
     def update_html_references_fast
       return if @manifest.empty?
 
-      puts "🔄 Fast updating asset references..."
+      puts "🔄 Updating asset references in HTML files..." if @config.get('output.verbose')
 
       html_files = Dir.glob(File.join(@site_dir, '**', '*.html'))
 
-      # Parallel HTML processing
-      thread_pool = Concurrent::FixedThreadPool.new(4)
+      # Use configurable thread pool for HTML processing
+      thread_pool_size = [@config.get('performance.html_thread_pool_size'), 1].max
+      thread_pool = Concurrent::FixedThreadPool.new(thread_pool_size)
       futures = []
 
       html_files.each do |html_file|
@@ -414,7 +565,7 @@ module AssetProcessor
     end
 
     def load_manifest
-      manifest_path = File.join(@site_dir, 'assets', 'manifest.json')
+      manifest_path = File.join(@site_dir, @config.get('output.manifest_file'))
       return {} unless File.exist?(manifest_path)
 
       JSON.parse(File.read(manifest_path))
@@ -425,34 +576,37 @@ module AssetProcessor
     def save_manifest
       return if @manifest.empty?
 
-      manifest_dir = File.join(@site_dir, 'assets')
+      manifest_file = @config.get('output.manifest_file')
+      manifest_dir = File.dirname(File.join(@site_dir, manifest_file))
       FileUtils.mkdir_p(manifest_dir)
 
-      manifest_path = File.join(manifest_dir, 'manifest.json')
+      manifest_path = File.join(@site_dir, manifest_file)
       manifest_data = {
         'assets' => @manifest,
         'generated_at' => Time.now.iso8601,
-        'version' => '3.0'
+        'version' => '4.0',
+        'configuration' => @config.to_h
       }
 
-      File.write(manifest_path, JSON.generate(manifest_data)) # Faster than pretty_generate
+      File.write(manifest_path, JSON.generate(manifest_data))
     end
 
     def display_stats
-      puts "\n📈 Turbo Asset Processing Complete!"
-      puts "═" * 50
+      puts "\n📈 Configurable Asset Processing Complete!"
+      puts "═" * 60
       puts "📁 Processed: #{@stats[:processed]} files"
       puts "⏭️  Skipped: #{@stats[:skipped]} files (unchanged)"
       puts "🔗 Hashed: #{@stats[:hashed]} files"
       puts "🗜️  Compressed: #{@stats[:compressed]} files"
       puts "⚡ Processing time: #{@stats[:processing_time].round(2)}s"
       puts "✅ Manifest saved with #{@manifest.size} asset mappings"
-      puts "═" * 50
+      puts "🔧 Configuration: #{@config.get('compression.brotli.quality')} Brotli quality, #{@config.get('compression.gzip.level')} Gzip level"
+      puts "═" * 60
     end
   end
 end
 
-# Jekyll Hook
+# Jekyll Hook - automatically processes assets after site generation
 Jekyll::Hooks.register :site, :post_write do |site|
   processor = AssetProcessor::TurboProcessor.new(site)
   processor.process

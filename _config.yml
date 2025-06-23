@@ -23,6 +23,7 @@ youtube_username: optikalbahari
 markdown: kramdown
 tag_page_layout: tag_page
 tag_page_dir: tag
+
 # Pagination settings for jekyll-paginate-v2
 pagination:
   enabled: true
@@ -80,3 +81,66 @@ sass:
 
 # Build command
 build_command: "bundle exec jekyll build && bash scripts/post-build.sh"
+
+# Asset Processor Configuration
+asset_processor:
+  # Compression settings
+  compression:
+    enabled: true
+    brotli:
+      enabled: true
+      quality: 6        # 0-11, higher = better compression (default: 4)
+      window: 22        # 10-24, affects memory usage (default: 22)
+    gzip:
+      enabled: true
+      level: 6          # 1-9, higher = better compression (default: 6)
+    min_file_size: 1024 # Only compress files larger than 1KB
+    file_types:
+      - .css
+      - .js
+      - .html
+      - .svg
+      - .txt
+      - .xml
+      - .json
+
+  # Asset hashing settings
+  hashing:
+    enabled: true
+    algorithm: sha256   # 'md5' or 'sha256'
+    hash_length: 10     # Length of hash in filename
+    file_types:
+      - .css
+      - .js
+      - .png
+      - .jpg
+      - .jpeg
+      - .gif
+      - .webp
+      - .svg
+      - .ico
+
+  # Performance settings
+  performance:
+    thread_pool_size: 8               # Main processing threads
+    html_thread_pool_size: 4          # HTML processing threads
+    compression_thread_pool_size: 3   # Compression threads
+    enable_caching: true
+    cache_file: .smart_asset_cache.yml
+
+  # Asset analysis settings
+  analysis:
+    critical_assets:
+      - assets/main.css
+      - assets/js/app.js
+    scan_directories:
+      - assets
+      - css
+      - js
+    include_html_files: true
+
+  # Output settings
+  output:
+    verbose: true
+    show_stats: true
+    manifest_file: assets/manifest.json
