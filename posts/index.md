@@ -5,7 +5,7 @@ title: Seputaran Trend Kacamata Beserta Tips & Triks
 subtitle: Artikel Terdini & Terkini Seputaran Info, Trend Kacamata, Kesehatan Mata, Tips & Trik Hanya Untuk Anda
 description: Artikel Terdini & Terkini Seputaran Info, Trend Kacamata, Kesehatan Mata, Tips & Trik Hanya Untuk Anda
 keywords: Optikal Bahari, Optik, Kacamata, Kemayoran, Bendungan Jago
-background: /assets/img/splash-screen/bg-splash-post-02.jpg
+background: https://res.cloudinary.com/divkqrf7k/image/upload/v1750522618/splash-screen/bg-splash-post-02.jpg
 permalink: /posts/
 pagination:
     enabled: true # Enable pagination for this page

@@ -204,7 +204,7 @@ module AssetProcessor
     def normalize_asset_path(path)
       clean_path = path.gsub(/^\/?/, '')
       return nil if clean_path.match?(/^https?:\/\//)
-
+      
       scan_dirs = @config.get('analysis.scan_directories')
       scan_dirs.any? { |dir| clean_path.start_with?("#{dir}/") } ? clean_path : nil
     end
@@ -258,7 +258,7 @@ module AssetProcessor
 
     def update_cache(file_path, processed_files = [])
       return unless @enabled
-
+      
       stat = @stat_cache[file_path] ||= File.stat(file_path)
       @cache[file_path] = {
         'mtime' => stat.mtime.to_f,
@@ -357,11 +357,11 @@ module AssetProcessor
       return false unless @cache.file_changed?(file_path)
 
       ext = File.extname(file_path).downcase
-
+      
       # Check if file type is configured for processing
       hash_types = @config.get('hashing.file_types')
       compress_types = @config.get('compression.file_types')
-
+      
       (hash_types + compress_types).uniq.include?(ext)
     end
 
@@ -387,14 +387,14 @@ module AssetProcessor
 
     def should_hash?(file_path)
       return false unless @config.enabled?('hashing')
-
+      
       ext = File.extname(file_path).downcase
       @config.get('hashing.file_types').include?(ext)
     end
 
     def should_compress_fast?(file_path)
       return false unless @config.enabled?('compression')
-
+      
       ext = File.extname(file_path).downcase
       return false unless @config.get('compression.file_types').include?(ext)
 
@@ -408,14 +408,14 @@ module AssetProcessor
       # Use configurable hashing algorithm
       algorithm = @config.get('hashing.algorithm')
       hash_length = @config.get('hashing.hash_length')
-
+      
       content_hash = case algorithm
                     when 'sha256'
                       Digest::SHA256.file(file_path).hexdigest[0, hash_length]
                     else # default to md5
                       Digest::MD5.file(file_path).hexdigest[0, hash_length]
                     end
-
+      
       ext = File.extname(asset_path)
       base_name = File.basename(asset_path, ext)
       dir_name = File.dirname(asset_path)
@@ -453,9 +453,9 @@ module AssetProcessor
           begin
             quality = @config.get('compression.brotli.quality')
             window = @config.get('compression.brotli.window')
-
-            brotli_content = Brotli.deflate(original_content,
-              quality: quality,
+            
+            brotli_content = Brotli.deflate(original_content, 
+              quality: quality, 
               window: window
             )
             brotli_path = "#{file_path}.br"

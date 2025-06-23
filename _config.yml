@@ -89,11 +89,11 @@ asset_processor:
     enabled: true
     brotli:
       enabled: true
-      quality: 6        # 0-11, higher = better compression (default: 4)
+      quality: 8        # 0-11, higher = better compression (default: 4)
       window: 22        # 10-24, affects memory usage (default: 22)
     gzip:
       enabled: true
-      level: 6          # 1-9, higher = better compression (default: 6)
+      level: 7          # 1-9, higher = better compression (default: 6)
     min_file_size: 1024 # Only compress files larger than 1KB
     file_types:
       - .css
