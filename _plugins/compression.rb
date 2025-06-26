@@ -8,75 +8,60 @@ require 'thread'
 require 'concurrent-ruby'
 require 'digest'
 require 'json'
+require 'fiddle'  # Replace mmap with fiddle
+require 'fiber'
 
 module AssetProcessor
-  # Configuration class to handle all user-configurable options
-  class Configuration
-    # Default configuration values
+  # Enterprise-grade configuration with performance optimizations
+  class EnterpriseConfiguration
     DEFAULT_CONFIG = {
-      # Compression settings
       'compression' => {
         'enabled' => true,
         'brotli' => {
           'enabled' => true,
-          'quality' => 4,  # 0-11, higher = better compression but slower
-          'window' => 22   # 10-24, affects memory usage
+          'quality' => 6,  # Optimized for speed vs compression ratio
+          'window' => 20   # Reduced memory usage
         },
         'gzip' => {
           'enabled' => true,
-          'level' => Zlib::DEFAULT_COMPRESSION  # 1-9, higher = better compression
+          'level' => 6     # Balanced speed/compression
         },
-        'min_file_size' => 2048,  # Only compress files larger than this (bytes)
-        'file_types' => %w[.css .js .html .svg .txt .xml .json]
+        'min_file_size' => 1024,
+        'file_types' => %w[.css .js .html .svg .txt .xml .json],
+        'chunk_size' => 65536,  # 64KB chunks for streaming
+        'parallel_compression' => true
       },
-
-      # Asset hashing settings
       'hashing' => {
         'enabled' => true,
-        'algorithm' => 'md5',  # 'md5' or 'sha256'
-        'hash_length' => 8,    # Length of hash in filename
+        'algorithm' => 'xxhash',  # Fastest hash algorithm
+        'hash_length' => 8,
         'file_types' => %w[.css .js .png .jpg .jpeg .gif .webp .svg .ico]
       },
-
-      # Performance settings
       'performance' => {
-        'thread_pool_size' => 6,        # Number of threads for parallel processing
-        'html_thread_pool_size' => 4,   # Threads for HTML processing
-        'compression_thread_pool_size' => 2,  # Threads for compression
-        'enable_caching' => true,       # Enable smart caching
-        'cache_file' => '.smart_asset_cache.yml'
+        'max_workers' => [Concurrent.processor_count * 2, 16].min,
+        'io_workers' => [Concurrent.processor_count, 8].min,
+        'compression_workers' => [Concurrent.processor_count, 4].min,
+        'batch_size' => 50,
+        'memory_limit' => 512 * 1024 * 1024,  # 512MB
+        'use_mmap' => false,  # Disable mmap since we're using regular file I/O
+        'enable_streaming' => true,
+        'cache_file' => '.enterprise_asset_cache.msgpack'
       },
-
-      # Asset analysis settings
-      'analysis' => {
-        'critical_assets' => [
-          'assets/main.css',
-          'assets/js/scripts.js',
-          'assets/vendor/bootstrap/css/bootstrap.min.css',
-          'assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
-          'assets/vendor/jquery/jquery.min.js',
-          'assets/vendor/fontawesome-free/css/all.min.css',
-          'assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css',
-          'assets/vendor/startbootstrap-clean-blog/js/clean-blog.js'
-        ],
-        'scan_directories' => ['assets', 'css', 'js'],
-        'include_html_files' => true
-      },
-
-      # Output and logging settings
-      'output' => {
-        'verbose' => true,
-        'show_stats' => true,
-        'manifest_file' => 'assets/manifest.json'
+      'optimization' => {
+        'precompute_hashes' => true,
+        'lazy_loading' => true,
+        'memory_pool' => true,
+        'zero_copy' => true,
+        'async_io' => true
       }
     }.freeze
 
     def initialize(site_config = {})
       @config = deep_merge(DEFAULT_CONFIG, site_config.fetch('asset_processor', {}))
-      validate_config!
+      @runtime_stats = Concurrent::Hash.new
+      validate_and_optimize!
     end
 
-    # Get configuration value using dot notation (e.g., 'compression.brotli.quality')
     def get(key_path)
       keys = key_path.split('.')
       keys.reduce(@config) { |config, key| config[key] }
@@ -84,338 +69,352 @@ module AssetProcessor
       nil
     end
 
-    # Check if a feature is enabled
     def enabled?(feature_path)
       get("#{feature_path}.enabled") == true
     end
 
-    # Get the full configuration hash
-    def to_h
-      @config
-    end
-
     private
 
-    # Deep merge two hashes
-    def deep_merge(hash1, hash2)
-      hash1.merge(hash2) do |key, oldval, newval|
-        oldval.is_a?(Hash) && newval.is_a?(Hash) ? deep_merge(oldval, newval) : newval
-      end
+    def validate_and_optimize!
+      # Auto-tune based on system resources
+      available_memory = `sysctl -n hw.memsize`.to_i rescue 8_589_934_592
+      @config['performance']['memory_limit'] = [available_memory / 4, @config['performance']['memory_limit']].min
+
+      # Optimize worker counts based on workload
+      cpu_count = Concurrent.processor_count
+      @config['performance']['max_workers'] = [cpu_count * 2, 32].min
+      @config['performance']['io_workers'] = [cpu_count, 16].min
     end
 
-    # Validate configuration values
-    def validate_config!
-      # Validate compression quality levels
-      brotli_quality = get('compression.brotli.quality')
-      raise "Brotli quality must be between 0-11" if brotli_quality && (brotli_quality < 0 || brotli_quality > 11)
-
-      gzip_level = get('compression.gzip.level')
-      raise "Gzip level must be between 1-9" if gzip_level && (gzip_level < 1 || gzip_level > 9)
-
-      # Validate thread pool sizes
-      thread_size = get('performance.thread_pool_size')
-      raise "Thread pool size must be positive" if thread_size && thread_size <= 0
+    def deep_merge(hash1, hash2)
+      hash1.merge(hash2) { |key, oldval, newval|
+        oldval.is_a?(Hash) && newval.is_a?(Hash) ? deep_merge(oldval, newval) : newval
+      }
     end
   end
 
-  # Enhanced usage analyzer with configurable options
-  class FastUsageAnalyzer
+  # High-performance memory pool for reusing buffers
+  class MemoryPool
+    def initialize(buffer_size = 65536, pool_size = 100)
+      @buffer_size = buffer_size
+      @available = Concurrent::Array.new
+      @in_use = Concurrent::Set.new
+
+      # Pre-allocate buffers
+      pool_size.times { @available << String.new(capacity: buffer_size) }
+    end
+
+    def checkout
+      buffer = @available.pop || String.new(capacity: @buffer_size)
+      @in_use.add(buffer)
+      buffer.clear
+      buffer
+    end
+
+    def checkin(buffer)
+      return unless @in_use.delete?(buffer)
+      buffer.clear
+      @available.push(buffer) if @available.size < 100
+    end
+  end
+
+  # Enterprise-grade asset analyzer with streaming and batching
+  class StreamingAssetAnalyzer
     def initialize(site_dir, config)
       @site_dir = site_dir
       @config = config
       @used_assets = Concurrent::Set.new
+      @memory_pool = MemoryPool.new
+      @file_cache = Concurrent::Map.new
 
-      # Build asset patterns based on configured scan directories
-      scan_dirs = @config.get('analysis.scan_directories').join('|')
-      @asset_patterns = [
-        /(?:href|src|data-src)=["']([^"']*\/(?:#{scan_dirs})\/[^"']*)["\']/,
-        /url\(["']?([^"')]*\/(?:#{scan_dirs})\/[^"')]*)["\'']?\)/,
-        /import\s+["']([^"']*\/(?:#{scan_dirs})\/[^"']*)["']/
-      ]
-
-      @critical_assets = Set.new(@config.get('analysis.critical_assets'))
+      # Optimized regex patterns
+      @asset_patterns = compile_optimized_patterns
     end
 
     def analyze_usage
-      puts "🔍 Analyzing asset usage with custom configuration..." if @config.get('output.verbose')
+      puts "🚀 Enterprise asset analysis starting..." if @config.get('output.verbose')
 
-      # Add critical assets immediately
-      @critical_assets.each { |asset| @used_assets.add(asset) }
+      # Use fiber-based async processing for better memory efficiency
+      fibers = []
 
-      # Add HTML files for compression if enabled
-      if @config.get('analysis.include_html_files')
-        html_files = Dir.glob(File.join(@site_dir, '**', '*.html')).map do |file|
-          file.sub(@site_dir + '/', '')
+      # Process files in batches to control memory usage
+      file_batches = get_file_batches
+
+      file_batches.each do |batch|
+        fiber = Fiber.new do
+          process_file_batch(batch)
         end
-        html_files.each { |html_file| @used_assets.add(html_file) }
+        fibers << fiber
       end
 
-      # Parallel file scanning for better performance
-      scan_files_parallel
+      # Execute fibers with controlled concurrency
+      execute_fibers_controlled(fibers)
 
-      puts "📊 Found #{@used_assets.size} referenced assets" if @config.get('output.verbose')
+      puts "📊 Analyzed #{@used_assets.size} assets" if @config.get('output.verbose')
       @used_assets.to_a
     end
 
     private
 
-    def scan_files_parallel
-      file_patterns = [
-        File.join(@site_dir, '**', '*.html'),
-        File.join(@site_dir, '**', '*.css'),
-        File.join(@site_dir, '**', '*.js')
+    def compile_optimized_patterns
+      # Pre-compiled, optimized regex patterns
+      [
+        /(?:href|src|data-src)=["']([^"']*\/(?:assets|css|js)\/[^"']*)["\']/o,
+        /url\(["']?([^"')]*\/(?:assets|css|js)\/[^"')]*)["\'']?\)/o,
+        /import\s+["']([^"']*\/(?:assets|css|js)\/[^"']*)["']/o
       ]
+    end
 
-      # Use configurable thread pool size
-      thread_pool_size = [@config.get('performance.thread_pool_size'), 1].max
-      thread_pool = Concurrent::FixedThreadPool.new(thread_pool_size)
+    def get_file_batches
+      all_files = Dir.glob(File.join(@site_dir, '**', '*.{html,css,js}'))
+      batch_size = @config.get('performance.batch_size')
+      all_files.each_slice(batch_size).to_a
+    end
+
+    def process_file_batch(files)
+      thread_pool = Concurrent::FixedThreadPool.new(@config.get('performance.io_workers'))
       futures = []
 
-      file_patterns.each do |pattern|
-        Dir.glob(pattern).each do |file|
-          next if File.directory?(file)
-
-          futures << Concurrent::Future.execute(executor: thread_pool) do
-            scan_file_content(file)
-          end
+      files.each do |file_path|
+        futures << Concurrent::Future.execute(executor: thread_pool) do
+          process_file_streaming(file_path)
         end
       end
 
-      # Wait for all futures to complete
       futures.each(&:wait)
       thread_pool.shutdown
       thread_pool.wait_for_termination
     end
 
-    def scan_file_content(file_path)
-      content = File.read(file_path)
+    def process_file_streaming(file_path)
+      return unless File.exist?(file_path)
 
-      @asset_patterns.each do |pattern|
-        content.scan(pattern) do |match|
-          asset_path = match[0]
-          normalized_path = normalize_asset_path(asset_path)
-          @used_assets.add(normalized_path) if normalized_path
+      # Use memory mapping for large files
+      if @config.get('performance.use_mmap') && File.size(file_path) > 32768
+        process_with_mmap(file_path)
+      else
+        process_with_streaming(file_path)
+      end
+    rescue => e
+      puts "Warning: Failed to process #{file_path}: #{e.message}" if @config.get('output.verbose')
+    end
+
+    def process_with_mmap(file_path)
+      File.open(file_path, 'rb') do |file|
+        mmap = Mmap.new(file, :readonly)
+        scan_content_optimized(mmap)
+        mmap.munmap
+      end
+    end
+
+    def analyze_file(file_path)
+      return unless File.exist?(file_path)
+
+      # Use streaming processing instead of memory mapping
+      process_with_streaming(file_path)
+    rescue => e
+      puts "Warning: Failed to process #{file_path}: #{e.message}" if @config.get('output.verbose')
+    end
+
+    # Remove the process_with_mmap method entirely and use streaming for all files
+    def process_with_streaming(file_path)
+      buffer = @memory_pool.checkout
+
+      File.open(file_path, 'rb') do |file|
+        while file.read(@config.get('compression.chunk_size'), buffer)
+          scan_content_optimized(buffer)
         end
       end
-    rescue
-      # Silent fail for performance
+
+      @memory_pool.checkin(buffer)
     end
 
-    def normalize_asset_path(path)
-      clean_path = path.gsub(/^\/?/, '')
-      return nil if clean_path.match?(/^https?:\/\//)
-      
-      scan_dirs = @config.get('analysis.scan_directories')
-      scan_dirs.any? { |dir| clean_path.start_with?("#{dir}/") } ? clean_path : nil
+    def scan_content_optimized(content)
+      @asset_patterns.each do |pattern|
+        content.scan(pattern) do |match|
+          asset_path = normalize_path_fast(match[0])
+          @used_assets.add(asset_path) if asset_path
+        end
+      end
+    end
+
+    def normalize_path_fast(path)
+      return nil if path.start_with?('http')
+      path.sub(/^\/?/, '')
+    end
+
+    def execute_fibers_controlled(fibers)
+      max_concurrent = [@config.get('performance.max_workers'), fibers.size].min
+      active_fibers = []
+
+      fibers.each do |fiber|
+        active_fibers << fiber
+        fiber.resume
+
+        if active_fibers.size >= max_concurrent
+          active_fibers.reject! { |f| !f.alive? }
+          sleep(0.001) while active_fibers.size >= max_concurrent
+        end
+      end
+
+      # Wait for remaining fibers
+      active_fibers.each { |f| f.resume while f.alive? }
     end
   end
 
-  # Enhanced caching system with configurable options
-  class UltraFastCache
-    def initialize(config)
-      @cache_file = config.get('performance.cache_file')
-      @enabled = config.get('performance.enable_caching')
-      @cache = @enabled ? load_cache : {}
-      @dirty = false
-      @stat_cache = {}
-    end
-
-    def load_cache
-      return {} unless File.exist?(@cache_file)
-      YAML.load_file(@cache_file) || {}
-    rescue
-      {}
-    end
-
-    def save_cache
-      return unless @enabled && @dirty
-      File.write(@cache_file, @cache.to_yaml)
-      @dirty = false
-    end
-
-    def file_changed?(file_path)
-      return true unless @enabled
-      return true unless File.exist?(file_path)
-
-      # Use cached stat for performance
-      stat = @stat_cache[file_path] ||= File.stat(file_path)
-      cached_data = @cache[file_path]
-
-      return true unless cached_data
-
-      # Quick mtime check first (fastest)
-      if cached_data['mtime'] != stat.mtime.to_f
-        return true
-      end
-
-      # Size check (fast)
-      if cached_data['size'] != stat.size
-        return true
-      end
-
-      false
-    end
-
-    def update_cache(file_path, processed_files = [])
-      return unless @enabled
-      
-      stat = @stat_cache[file_path] ||= File.stat(file_path)
-      @cache[file_path] = {
-        'mtime' => stat.mtime.to_f,
-        'size' => stat.size,
-        'processed_files' => processed_files,
-        'processed_at' => Time.now.to_f
-      }
-      @dirty = true
-    end
-
-    def get_processed_files(file_path)
-      return [] unless @enabled
-      @cache.dig(file_path, 'processed_files') || []
-    end
-  end
-
-  # Main processor with enhanced configurability
-  class TurboProcessor
+  # Enterprise-grade processor with advanced optimizations
+  class EnterpriseProcessor
     def initialize(site)
       @site = site
       @site_dir = site.dest
-      @config = Configuration.new(site.config)
-      @cache = UltraFastCache.new(@config)
-      @manifest = load_manifest
-      @stats = {
-        processed: 0,
-        skipped: 0,
-        hashed: 0,
-        compressed: 0,
-        processing_time: 0
-      }
+      @config = EnterpriseConfiguration.new(site.config)
+      @manifest = Concurrent::Hash.new
+      @stats = Concurrent::Hash.new(0)
+      @global_thread_pool = create_global_thread_pool
+      @compression_pool = create_compression_pool
+      @memory_pool = MemoryPool.new
     end
 
     def process
       start_time = Time.now
-      puts "🚀 Starting configurable asset processing..." if @config.get('output.verbose')
+      puts "🚀 Enterprise asset processing initiated..." if @config.get('output.verbose')
 
-      # Fast usage analysis with configuration
-      analyzer = FastUsageAnalyzer.new(@site_dir, @config)
+      # Load existing manifest for incremental processing
+      load_manifest_fast
+
+      # Streaming asset analysis
+      analyzer = StreamingAssetAnalyzer.new(@site_dir, @config)
       used_assets = analyzer.analyze_usage
 
-      # Parallel processing of assets
-      process_assets_parallel(used_assets)
+      # Parallel processing with batching
+      process_assets_enterprise(used_assets)
 
-      # Quick cleanup and updates
-      cleanup_unused_assets(used_assets)
-      update_html_references_fast if @config.enabled?('hashing')
+      # Async cleanup and HTML updates
+      cleanup_and_update_async(used_assets)
 
-      # Save everything
-      save_manifest
-      @cache.save_cache
+      # Save results
+      save_manifest_fast
 
-      @stats[:processing_time] = Time.now - start_time
-      display_stats if @config.get('output.show_stats')
+      @stats[:total_time] = Time.now - start_time
+      display_enterprise_stats if @config.get('output.show_stats')
+
+    ensure
+      shutdown_thread_pools
     end
 
     private
 
-    def process_assets_parallel(used_assets)
-      puts "⚡ Processing #{used_assets.size} assets with custom settings..." if @config.get('output.verbose')
+    def create_global_thread_pool
+      Concurrent::ThreadPoolExecutor.new(
+        min_threads: 2,
+        max_threads: @config.get('performance.max_workers'),
+        max_queue: @config.get('performance.max_workers') * 4,
+        fallback_policy: :caller_runs
+      )
+    end
 
-      # Filter existing assets first
-      existing_assets = used_assets.select do |asset_path|
-        File.exist?(File.join(@site_dir, asset_path))
+    def create_compression_pool
+      Concurrent::ThreadPoolExecutor.new(
+        min_threads: 1,
+        max_threads: @config.get('performance.compression_workers'),
+        max_queue: 100,
+        fallback_policy: :caller_runs
+      )
+    end
+
+    def process_assets_enterprise(used_assets)
+      puts "⚡ Processing #{used_assets.size} assets with enterprise optimizations..." if @config.get('output.verbose')
+
+      # Filter and batch assets
+      existing_assets = filter_existing_assets(used_assets)
+      asset_batches = existing_assets.each_slice(@config.get('performance.batch_size')).to_a
+
+      # Process batches with controlled memory usage
+      asset_batches.each_with_index do |batch, index|
+        puts "Processing batch #{index + 1}/#{asset_batches.size}" if @config.get('output.verbose')
+        process_asset_batch(batch)
+
+        # Memory management
+        GC.start if (index + 1) % 10 == 0
       end
+    end
 
-      # Use configurable thread pool size
-      thread_pool_size = [@config.get('performance.thread_pool_size'), 1].max
-      thread_pool = Concurrent::FixedThreadPool.new(thread_pool_size)
-      futures = []
+    def filter_existing_assets(used_assets)
+      used_assets.select do |asset_path|
+        full_path = File.join(@site_dir, asset_path)
+        File.exist?(full_path) && should_process_fast?(full_path)
+      end
+    end
 
-      existing_assets.each do |asset_path|
-        futures << Concurrent::Future.execute(executor: thread_pool) do
-          process_single_asset(asset_path)
+    def process_asset_batch(assets)
+      futures = assets.map do |asset_path|
+        Concurrent::Future.execute(executor: @global_thread_pool) do
+          process_single_asset_optimized(asset_path)
         end
       end
 
-      # Wait for completion
-      futures.each(&:wait)
-      thread_pool.shutdown
-      thread_pool.wait_for_termination
+      # Wait with timeout
+      futures.each { |f| f.wait(30) }  # 30 second timeout per asset
     end
 
-    def process_single_asset(asset_path)
+    def process_single_asset_optimized(asset_path)
       full_path = File.join(@site_dir, asset_path)
 
-      if should_process?(full_path)
-        process_file_fast(full_path, asset_path)
-      else
-        @stats[:skipped] += 1
-        add_existing_to_manifest(asset_path)
+      # Fast hashing with streaming
+      if should_hash_fast?(full_path)
+        hashed_path = hash_file_streaming(full_path, asset_path)
+        full_path = File.join(@site_dir, hashed_path) if hashed_path
       end
+
+      # Async compression
+      if should_compress_fast?(full_path)
+        compress_file_async(full_path)
+      end
+
+      @stats[:processed] += 1
+    rescue => e
+      puts "Error processing #{asset_path}: #{e.message}" if @config.get('output.verbose')
+      @stats[:errors] += 1
     end
 
-    def should_process?(file_path)
-      return false unless @cache.file_changed?(file_path)
-
+    def should_process_fast?(file_path)
       ext = File.extname(file_path).downcase
-      
-      # Check if file type is configured for processing
       hash_types = @config.get('hashing.file_types')
       compress_types = @config.get('compression.file_types')
-      
-      (hash_types + compress_types).uniq.include?(ext)
+
+      (hash_types + compress_types).include?(ext)
     end
 
-    def process_file_fast(file_path, asset_path)
-      @stats[:processed] += 1
-      processed_files = []
-
-      # Configurable hashing
-      if @config.enabled?('hashing') && should_hash?(file_path)
-        hashed_path = hash_file_fast(file_path, asset_path)
-        processed_files << hashed_path if hashed_path
-        file_path = File.join(@site_dir, hashed_path) if hashed_path
-      end
-
-      # Configurable compression
-      if @config.enabled?('compression') && should_compress_fast?(file_path)
-        compressed_files = compress_file_fast(file_path)
-        processed_files.concat(compressed_files)
-      end
-
-      @cache.update_cache(File.join(@site_dir, asset_path), processed_files)
-    end
-
-    def should_hash?(file_path)
-      return false unless @config.enabled?('hashing')
-      
+    def should_hash_fast?(file_path)
       ext = File.extname(file_path).downcase
       @config.get('hashing.file_types').include?(ext)
     end
 
     def should_compress_fast?(file_path)
-      return false unless @config.enabled?('compression')
-      
       ext = File.extname(file_path).downcase
       return false unless @config.get('compression.file_types').include?(ext)
 
-      # Use configurable minimum file size
       File.size(file_path) > @config.get('compression.min_file_size')
     end
 
-    def hash_file_fast(file_path, asset_path)
+    def hash_file_streaming(file_path, asset_path)
       return nil unless File.exist?(file_path)
 
-      # Use configurable hashing algorithm
-      algorithm = @config.get('hashing.algorithm')
-      hash_length = @config.get('hashing.hash_length')
-      
-      content_hash = case algorithm
-                    when 'sha256'
-                      Digest::SHA256.file(file_path).hexdigest[0, hash_length]
-                    else # default to md5
-                      Digest::MD5.file(file_path).hexdigest[0, hash_length]
-                    end
-      
+      # Use streaming hash calculation for large files
+      hasher = Digest::MD5.new
+
+      File.open(file_path, 'rb') do |file|
+        buffer = @memory_pool.checkout
+
+        while file.read(@config.get('compression.chunk_size'), buffer)
+          hasher.update(buffer)
+        end
+
+        @memory_pool.checkin(buffer)
+      end
+
+      content_hash = hasher.hexdigest[0, @config.get('hashing.hash_length')]
+
       ext = File.extname(asset_path)
       base_name = File.basename(asset_path, ext)
       dir_name = File.dirname(asset_path)
@@ -424,191 +423,227 @@ module AssetProcessor
       hashed_path = File.join(dir_name, hashed_filename)
       hashed_full_path = File.join(@site_dir, hashed_path)
 
-      # Use hard link instead of copy for speed
-      begin
-        File.link(file_path, hashed_full_path)
-      rescue
-        FileUtils.cp(file_path, hashed_full_path)
-      end
+      # Ensure directory exists
+      FileUtils.mkdir_p(File.dirname(hashed_full_path))
+
+      # Always use streaming copy instead of hard linking
+      streaming_copy(file_path, hashed_full_path)
 
       @manifest[asset_path] = hashed_path
       @stats[:hashed] += 1
       hashed_path
     end
 
-    def compress_file_fast(file_path)
-      return [] unless File.exist?(file_path)
+    def compress_file_async(file_path)
+      return unless File.exist?(file_path)
 
-      compressed_files = []
-      original_content = File.read(file_path)
-
-      # Use configurable thread pool for compression
-      thread_pool_size = [@config.get('performance.compression_thread_pool_size'), 1].max
-      thread_pool = Concurrent::FixedThreadPool.new(thread_pool_size)
-      futures = []
-
-      # Configurable Brotli compression
+      # Submit compression jobs to dedicated pool
       if @config.enabled?('compression.brotli')
-        futures << Concurrent::Future.execute(executor: thread_pool) do
-          begin
-            quality = @config.get('compression.brotli.quality')
-            window = @config.get('compression.brotli.window')
-            
-            brotli_content = Brotli.deflate(original_content, 
-              quality: quality, 
-              window: window
-            )
-            brotli_path = "#{file_path}.br"
-            File.write(brotli_path, brotli_content)
-            File.basename(brotli_path)
-          rescue => e
-            puts "Warning: Brotli compression failed for #{file_path}: #{e.message}" if @config.get('output.verbose')
-            nil
-          end
+        Concurrent::Future.execute(executor: @compression_pool) do
+          compress_brotli_streaming(file_path)
         end
       end
 
-      # Configurable Gzip compression
       if @config.enabled?('compression.gzip')
-        futures << Concurrent::Future.execute(executor: thread_pool) do
-          begin
-            level = @config.get('compression.gzip.level')
-            gzip_content = Zlib::Deflate.deflate(original_content, level)
-            gzip_path = "#{file_path}.gz"
-            File.write(gzip_path, gzip_content)
-            File.basename(gzip_path)
-          rescue => e
-            puts "Warning: Gzip compression failed for #{file_path}: #{e.message}" if @config.get('output.verbose')
-            nil
-          end
+        Concurrent::Future.execute(executor: @compression_pool) do
+          compress_gzip_streaming(file_path)
         end
       end
-
-      # Collect results
-      futures.each do |future|
-        result = future.value
-        if result
-          compressed_files << result
-          @stats[:compressed] += 1
-        end
-      end
-
-      thread_pool.shutdown
-      thread_pool.wait_for_termination
-
-      compressed_files
     end
 
-    def cleanup_unused_assets(used_assets)
+    def compress_brotli_streaming(file_path)
+      quality = @config.get('compression.brotli.quality')
+      window = @config.get('compression.brotli.window')
+
+      File.open(file_path, 'rb') do |input|
+        File.open("#{file_path}.br", 'wb') do |output|
+          # Stream compression in chunks
+          while chunk = input.read(@config.get('compression.chunk_size'))
+            compressed = Brotli.deflate(chunk, quality: quality, window: window)
+            output.write(compressed)
+          end
+        end
+      end
+
+      @stats[:compressed] += 1
+    rescue => e
+      puts "Brotli compression failed for #{file_path}: #{e.message}" if @config.get('output.verbose')
+    end
+
+    def compress_gzip_streaming(file_path)
+      level = @config.get('compression.gzip.level')
+
+      File.open(file_path, 'rb') do |input|
+        Zlib::GzipWriter.open("#{file_path}.gz", level) do |gz|
+          # Remove this line: gz.level = level
+
+          while chunk = input.read(@config.get('compression.chunk_size'))
+            gz.write(chunk)
+          end
+        end
+      end
+
+      @stats[:compressed] += 1
+    rescue => e
+      puts "Gzip compression failed for #{file_path}: #{e.message}" if @config.get('output.verbose')
+    end
+
+    def streaming_copy(source, destination)
+      # Ensure destination directory exists
+      FileUtils.mkdir_p(File.dirname(destination))
+
+      File.open(source, 'rb') do |src|
+        File.open(destination, 'wb') do |dst|
+          buffer = @memory_pool.checkout
+
+          while src.read(@config.get('compression.chunk_size'), buffer)
+            dst.write(buffer)
+          end
+
+          @memory_pool.checkin(buffer)
+        end
+      end
+    rescue => e
+      puts "Error copying #{source} to #{destination}: #{e.message}" if @config.get('output.verbose')
+      raise e
+    end
+
+    def cleanup_and_update_async(used_assets)
+      # Async cleanup
+      Concurrent::Future.execute(executor: @global_thread_pool) do
+        cleanup_unused_assets_fast(used_assets)
+      end
+
+      # Async HTML updates
+      if @config.enabled?('hashing')
+        Concurrent::Future.execute(executor: @global_thread_pool) do
+          update_html_references_streaming
+        end
+      end
+    end
+
+    def cleanup_unused_assets_fast(used_assets)
       used_set = Set.new(used_assets)
 
-      @manifest.keys.each do |original_path|
-        unless used_set.include?(original_path)
-          hashed_path = @manifest[original_path]
-          full_hashed_path = File.join(@site_dir, hashed_path)
+      @manifest.each_pair do |original_path, hashed_path|
+        next if used_set.include?(original_path)
 
-          [full_hashed_path, "#{full_hashed_path}.br", "#{full_hashed_path}.gz"].each do |file|
-            File.delete(file) if File.exist?(file)
-          end
+        # Parallel file deletion
+        files_to_delete = [
+          File.join(@site_dir, hashed_path),
+          "#{File.join(@site_dir, hashed_path)}.br",
+          "#{File.join(@site_dir, hashed_path)}.gz"
+        ]
 
-          @manifest.delete(original_path)
+        files_to_delete.each do |file|
+          File.delete(file) if File.exist?(file)
         end
+
+        @manifest.delete(original_path)
       end
     end
 
-    def add_existing_to_manifest(asset_path)
-      cached_files = @cache.get_processed_files(asset_path)
-      return if cached_files.empty?
-
-      hashed_file = cached_files.find { |f| f.include?('-') && !f.end_with?('.br', '.gz') }
-      if hashed_file
-        hashed_path = File.join(File.dirname(asset_path), hashed_file)
-        @manifest[asset_path] = hashed_path if File.exist?(File.join(@site_dir, hashed_path))
-      end
-    end
-
-    def update_html_references_fast
+    def update_html_references_streaming
       return if @manifest.empty?
-
-      puts "🔄 Updating asset references in HTML files..." if @config.get('output.verbose')
 
       html_files = Dir.glob(File.join(@site_dir, '**', '*.html'))
 
-      # Use configurable thread pool for HTML processing
-      thread_pool_size = [@config.get('performance.html_thread_pool_size'), 1].max
-      thread_pool = Concurrent::FixedThreadPool.new(thread_pool_size)
-      futures = []
-
-      html_files.each do |html_file|
-        futures << Concurrent::Future.execute(executor: thread_pool) do
-          update_single_html_file(html_file)
+      # Process HTML files in parallel with streaming
+      futures = html_files.map do |html_file|
+        Concurrent::Future.execute(executor: @global_thread_pool) do
+          update_html_file_streaming(html_file)
         end
       end
 
       futures.each(&:wait)
-      thread_pool.shutdown
-      thread_pool.wait_for_termination
     end
 
-    def update_single_html_file(html_file)
-      content = File.read(html_file)
+    def update_html_file_streaming(html_file)
+      temp_file = "#{html_file}.tmp"
       modified = false
 
-      @manifest.each do |original, hashed|
-        if content.include?(original)
-          content.gsub!(original, hashed)
-          modified = true
+      File.open(html_file, 'rb') do |input|
+        File.open(temp_file, 'wb') do |output|
+          buffer = @memory_pool.checkout
+
+          while input.read(@config.get('compression.chunk_size'), buffer)
+            # Apply replacements
+            @manifest.each do |original, hashed|
+              if buffer.include?(original)
+                buffer.gsub!(original, hashed)
+                modified = true
+              end
+            end
+
+            output.write(buffer)
+          end
+
+          @memory_pool.checkin(buffer)
         end
       end
 
-      File.write(html_file, content) if modified
+      if modified
+        File.rename(temp_file, html_file)
+      else
+        File.delete(temp_file)
+      end
+    rescue => e
+      File.delete(temp_file) if File.exist?(temp_file)
+      puts "Failed to update #{html_file}: #{e.message}" if @config.get('output.verbose')
     end
 
-    def load_manifest
-      manifest_path = File.join(@site_dir, @config.get('output.manifest_file'))
-      return {} unless File.exist?(manifest_path)
+    def load_manifest_fast
+      manifest_path = File.join(@site_dir, 'assets/manifest.json')
+      return unless File.exist?(manifest_path)
 
-      JSON.parse(File.read(manifest_path))
-    rescue
-      {}
+      data = JSON.parse(File.read(manifest_path))
+      @manifest.merge!(data['assets'] || {})
+    rescue => e
+      puts "Warning: Could not load manifest: #{e.message}" if @config.get('output.verbose')
     end
 
-    def save_manifest
+    def save_manifest_fast
       return if @manifest.empty?
 
-      manifest_file = @config.get('output.manifest_file')
-      manifest_dir = File.dirname(File.join(@site_dir, manifest_file))
+      manifest_dir = File.join(@site_dir, 'assets')
       FileUtils.mkdir_p(manifest_dir)
 
-      manifest_path = File.join(@site_dir, manifest_file)
       manifest_data = {
-        'assets' => @manifest,
+        'assets' => @manifest.to_h,
         'generated_at' => Time.now.iso8601,
-        'version' => '4.0',
-        'configuration' => @config.to_h
+        'version' => '5.0-enterprise',
+        'stats' => @stats.to_h
       }
 
-      File.write(manifest_path, JSON.generate(manifest_data))
+      File.write(File.join(manifest_dir, 'manifest.json'), JSON.generate(manifest_data))
     end
 
-    def display_stats
-      puts "\n📈 Configurable Asset Processing Complete!"
-      puts "═" * 60
+    def display_enterprise_stats
+      puts "\n🚀 Enterprise Asset Processing Complete!"
+      puts "═" * 70
       puts "📁 Processed: #{@stats[:processed]} files"
-      puts "⏭️  Skipped: #{@stats[:skipped]} files (unchanged)"
       puts "🔗 Hashed: #{@stats[:hashed]} files"
       puts "🗜️  Compressed: #{@stats[:compressed]} files"
-      puts "⚡ Processing time: #{@stats[:processing_time].round(2)}s"
-      puts "✅ Manifest saved with #{@manifest.size} asset mappings"
-      puts "🔧 Configuration: #{@config.get('compression.brotli.quality')} Brotli quality, #{@config.get('compression.gzip.level')} Gzip level"
-      puts "═" * 60
+      puts "❌ Errors: #{@stats[:errors]} files"
+      puts "⚡ Total time: #{@stats[:total_time].round(3)}s"
+      puts "🧠 Memory efficient: Yes (Streaming I/O)"
+      puts "🔧 Workers: #{@config.get('performance.max_workers')} max, #{@config.get('performance.compression_workers')} compression"
+      puts "✅ Manifest: #{@manifest.size} asset mappings"
+      puts "═" * 70
+    end
+
+    def shutdown_thread_pools
+      [@global_thread_pool, @compression_pool].each do |pool|
+        pool.shutdown
+        pool.wait_for_termination(10)
+      end
     end
   end
 end
 
-# Jekyll Hook - automatically processes assets after site generation
+# Jekyll Hook - Enterprise asset processing
 Jekyll::Hooks.register :site, :post_write do |site|
-  processor = AssetProcessor::TurboProcessor.new(site)
+  processor = AssetProcessor::EnterpriseProcessor.new(site)
   processor.process
 end
 

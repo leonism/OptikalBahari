@@ -6,7 +6,7 @@ author_first_name: Optikal
 author_last_name: Bahari
 email: optikalbahari@gmail.com
 baseurl: ''
-url: 'https://optikalbahari.com'
+url: 'https://www.optikalbahari.com'
 tagline: Melayani Segala Kebutuhan Kacamata Anda
 subtitle: Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima KJP
 permalink: /:title/
@@ -84,16 +84,36 @@ build_command: "bundle exec jekyll build && bash scripts/post-build.sh"
 
 # Asset Processor Configuration
 asset_processor:
+  performance:
+    max_workers: 16          # Auto-tuned based on CPU cores
+    memory_limit: 536870912  # 512MB limit
+    use_mmap: false          # Disable memory mapping, use streaming instead
+    batch_size: 100         # Process 100 files per batch
+
+  compression:
+    brotli:
+      quality: 6            # Good production balance (range 0 - 11)
+      window: 20           # Memory usage control (10-24 range)
+    gzip:
+      level: 6             # Optimal for most use cases (1-9 range)
+    chunk_size: 65536      # 64KB streaming chunks
+
+  optimization:
+    precompute_hashes: true
+    lazy_loading: true
+    memory_pool: true
+    zero_copy: true
+
   # Compression settings
   compression:
     enabled: true
     brotli:
       enabled: true
-      quality: 8        # 0-11, higher = better compression (default: 4)
+      quality: 10        # 0-11, higher = better compression (default: 4)
       window: 22        # 10-24, affects memory usage (default: 22)
     gzip:
       enabled: true
-      level: 7          # 1-9, higher = better compression (default: 6)
+      level: 8          # 1-9, higher = better compression (default: 6)
     min_file_size: 1024 # Only compress files larger than 1KB
     file_types:
       - .css
