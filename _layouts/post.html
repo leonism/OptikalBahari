@@ -10,11 +10,8 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 <!-- Page Header -->
 {% include navigation/navbar.html %}
 {% if page.background %}
-
-<header class="masthead"
-    style="background-image: url('{% if page.background contains 'http' %}{{ page.background | replace: '//', '/' }}{% else %}{{ page.background | prepend: site.baseurl | resize: "1024x1024>" | replace: '//', '/' }}{% endif %}')">
-    {% else %}
-
+<header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')">
+{% else %}
     <header class="masthead">
         {% endif %}
         <div class="container">
@@ -35,7 +32,6 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
                             on {{ page.date | date: '%B %d, %Y' }} &middot;
                             {% include postcards/read_time.html content=page.content %}
                         </span>
-
                     </div>
                 </div>
             </div>
@@ -44,11 +40,10 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 
     <div class="container">
         {{ content }}
-        <hr />
         {% if page.comments %}
         <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5" data-width="720"
-            style="margin: 0 auto"></div>
-
+            style="margin: 0 auto">
+        </div>
         {% endif %}
         <div class="clearfix">
             {% if page.previous.url %}
@@ -59,7 +54,6 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
                 <span class="d-none d-md-inline"> Post </span>
             </a>
             {% endif %}
-
             {% if page.next.url %}
             <a class="btn btn-primary float-right"
                 href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
