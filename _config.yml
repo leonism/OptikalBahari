@@ -89,13 +89,16 @@ asset_processor:
     memory_limit: 536870912  # 512MB limit
     use_mmap: false          # Disable memory mapping, use streaming instead
     batch_size: 100         # Process 100 files per batch
+  output:
+    verbose: true
+    show_stats: true
 
   compression:
     brotli:
-      quality: 6            # Good production balance (range 0 - 11)
+      quality: 10            # Good production balance (range 0 - 11)
       window: 20           # Memory usage control (10-24 range)
     gzip:
-      level: 6             # Optimal for most use cases (1-9 range)
+      level: 8             # Optimal for most use cases (1-9 range)
     chunk_size: 65536      # 64KB streaming chunks
 
   optimization:
@@ -139,6 +142,10 @@ asset_processor:
       - .webp
       - .svg
       - .ico
+      - .ttf
+      - .woff
+      - .woff2
+      - .eot
 
   # Performance settings
   performance:
