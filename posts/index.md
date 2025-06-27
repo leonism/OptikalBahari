@@ -96,7 +96,7 @@ pagination:
 </section>
 
 <!-- Section 3: Last 3 posts -->
-<section id="posts-category-3">
+<section id="posts-category-section-3">
     <div class="container">
         <div class="row">
             {% assign posts = paginator.posts | slice: 6, 3 %}
