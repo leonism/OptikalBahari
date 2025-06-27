@@ -7,36 +7,26 @@ description: 'Berita seputaran perkembangan produk dan layanan terbaru dari Opti
 keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Optik, Kacamata, Gratis'
 ---
 
-<!-- Page Header -->
+<!-- start page header -->
 {% include navigation/navbar.html %}
 {% if page.background %}
 <header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')">
 {% else %}
-    <header class="masthead">
-        {% endif %}
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <div class="page-heading">
-                        <h1>{{ page.title }}</h1>
-                        {% if page.subtitle %}
-                        <h2 class="subheading">{{ page.subtitle }}</h2>
-                        {% endif %}
-                        <span class="meta">
-                            Posted by
-                            {% if page.author %}
-                            {{ page.author }}
-                            {% else %}
-                            {{ site.author }}
-                            {% endif %}
-                            on {{ page.date | date: '%B %d, %Y' }} &middot;
-                            {% include postcards/read_time.html content=page.content %}
-                        </span>
-                    </div>
+<header class="masthead">
+{% endif %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="page-heading">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.subtitle %}
+                    <span class="subheading">{{ page.subtitle }}</span>
+                    {% endif %}
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 
     <div class="container">
         {{ content }}
