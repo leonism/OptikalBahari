@@ -9,7 +9,7 @@ date: "2020-07-28 07:25:23 +0700"
 author: Optikal Bahari
 categories: [Info]
 tags: [produk, kacamata, gaya, rambut]
-background: /assets/img/posts/french-girl/french-girl-07.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/c_fill,g_face,q_auto,f_avif,w_1920,h_1281/posts/french-girl/french-girl-07
 comments: true
 ---
 
@@ -23,7 +23,7 @@ comments: true
   <div class="card-body">
     <h3 class="card-title">Tips Memilih Kacamata Berdasarkan Rambut</h3>
     <p class="card-text text-left">
-      Memilih kacamata yang tepat dapat meningkatkan penampilan Anda. Salah satu           
+      Memilih kacamata yang tepat dapat meningkatkan penampilan Anda. Salah satu
 			faktor penting yang perlu dipertimbangkan adalah warna rambut Anda. Rambut
 			merupakan mahkota Anda dan memiliki peran penting dalam menentukan
 			keseluruhan penampilan. Warna rambut dapat memengaruhi bagaimana kacamata
@@ -31,7 +31,7 @@ comments: true
 			sesuai dengan warna rambut Anda.
     </p>
     <p class="card-text text-left">
-      Warna rambut alami pada dasarnya sangat banyak dan biasanya ini           
+      Warna rambut alami pada dasarnya sangat banyak dan biasanya ini
 			berdasarkan daerah tempat tinggal. Bagi orang Indonesia, warna rambut
 			hitam dan cokelat mungkin akan lebih dominan. Namun bagaimana Kamu memilih
 			kacamata jika memiliki warna rambut pirang atau perak? Tentu akan sulit,
@@ -52,11 +52,11 @@ comments: true
     alt="Rambut Hitam atau Pirang, Terapkan Tips Memilih Kacamata Berdasarkan Rambut" />
   <div class="card-body">
     <h3 class="card-title">
-      Rambut Hitam atau Pirang, Terapkan Tips Memilih Kacamata Berdasarkan           
+      Rambut Hitam atau Pirang, Terapkan Tips Memilih Kacamata Berdasarkan
 			Rambut
     </h3>
     <p class="card-text text-left">
-      Rambut hitam mungkin adalah yang paling umum dijumpai dan paling mudah           
+      Rambut hitam mungkin adalah yang paling umum dijumpai dan paling mudah
 			menyesuaikan pilihan kacamata. Biasanya orang yang memiliki rambut hitam
 			cocok untuk memakai kacamata model apa saja. Kamu akan tetap tampil
 			menarik meskipun menggunakan kacamata dengan frame tipis ataupun tebal.
@@ -66,7 +66,7 @@ comments: true
 			untuk memilih warna biru muda atau warna cerah yang lain.
     </p>
     <p class="card-text text-left">
-      Namun cobalah untuk menghindari kacamata dengan warna yang pucat atau           
+      Namun cobalah untuk menghindari kacamata dengan warna yang pucat atau
 			sejenisnya. Warna pucat biasanya akan merusak keseimbangan warna dan juga
 			tidak akan terlihat proporsional. Ini bisa jadi tips memilih kacamata
 			berdasarkan rambut supaya kacamata yang Kamu gunakan terlihat lebih
@@ -76,7 +76,7 @@ comments: true
 			lebih cocok. Warna-warna hangat seperti biru, merah muda, atau yang lain.
     </p>
     <p class="card-text text-left">
-      Namun karena keunikannya ini juga, Kamu jangan coba untuk memakai kacamata           
+      Namun karena keunikannya ini juga, Kamu jangan coba untuk memakai kacamata
 			dengan warna sejenis. Bukan hanya akan tampak sia-sia, namun orang tidak
 			akan tahu bahwa Kamu memakai kacamata. Kacamata akan menyatu dengan warna
 			rambut dan ini tentu merusak keseimbangan warna. Meskipun begitu, bentuk
@@ -100,14 +100,14 @@ comments: true
       Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat
     </h3>
     <p class="card-text text-left">
-      Tips memilih kacamata berdasarkan dengan rambut cokelat pada dasarnya           
+      Tips memilih kacamata berdasarkan dengan rambut cokelat pada dasarnya
 			sangat mudah. Rambut cokelat hampir sama dengan rambut hitam sehingga
 			warna kacamata apa saja bisa sesuai. Yang lebih menarik adalah kacamata
 			warna cerah biasanya adalah perpaduan yang sangat pas dengan rambut
 			cokelat.
     </p>
     <p class="card-text text-left">
-      Namun, untuk kacamata dengan frame tebal dan memiliki warna gelap juga           
+      Namun, untuk kacamata dengan frame tebal dan memiliki warna gelap juga
 			masih bisa dipadukan. Kamu bisa berkreasi lebih banyak dengan kacamata
 			yang Kamu miliki saat ini. Tidak ada batasan untuk warna rambut cokelat.
 			Dengan begini tentu Kamu bisa dengan mudah memilih kacamata yang sesuai.
@@ -118,7 +118,7 @@ comments: true
         href="https://www.facebook.com/optikalbahari"
         id="FBClick"
         title="Facebook Page Optikal Bahari"
-        class="FacebookPage">Facebook Optikal Bahari</a>. Kamu juga perlu ke toko kami di Kemayoran, Jakpus, Jln. Bendungan Jago           
+        class="FacebookPage">Facebook Optikal Bahari</a>. Kamu juga perlu ke toko kami di Kemayoran, Jakpus, Jln. Bendungan Jago
 			No. 447 supaya mendapatkan beragam kacamata menarik. Tips memilih kacamata
 			berdasarkan rambut ini adalah salah satu informasi yang Kamu dapatkan
 			tentunya. Untuk respond yang lebih cepat, silahkan menghubungi kami di

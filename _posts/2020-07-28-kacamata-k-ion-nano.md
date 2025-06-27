@@ -9,7 +9,7 @@ date: '2020-07-28 06:25:23 +0700'
 author: Optikal Bahari
 categories: [Trend]
 tags: [produk, kacamata]
-background: /assets/img/posts/kacamata-k-ion/kacamata-k-ion-00.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/c_fill,g_face,q_auto,f_avif,w_1920,h_1281/posts/kacamata-k-ion/kacamata-k-ion-00
 comments: true
 ---
 

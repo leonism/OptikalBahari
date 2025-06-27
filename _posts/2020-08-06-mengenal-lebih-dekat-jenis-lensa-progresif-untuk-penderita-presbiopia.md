@@ -9,7 +9,7 @@ date: "2020-08-06 07:25:23 +0700"
 author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, lensa]
-background: /assets/img/posts/harajuku/female-harajuku-00.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/c_fill,g_face,q_auto,f_avif,w_1920,h_1281/posts/harajuku/female-harajuku-00
 comments: true
 ---
 
@@ -26,7 +26,7 @@ comments: true
     <div class="card-body">
       <h3 class="card-title">Gangguan Presbiopia & Jenis Lensa Progresif</h3>
       <p class="card-text text-left">
-        Jika Kamu punya gangguan presbiopia maka lebih baik kamu segera cek mata     
+        Jika Kamu punya gangguan presbiopia maka lebih baik kamu segera cek mata
 				dan mendapatkan kacamata dengan jenis lensa progresif. Presbiopia
 				sendiri adalah gangguan penglihatan jarak dekat karena mata kehilangan
 				daya akomodasi pada lensa mata. Karena itu, penderita akan sulit untuk
@@ -61,7 +61,7 @@ comments: true
         Jenis Lensa Progresif Nyaman Dipakai dan Memiliki Tiga Titik Fokus
       </h3>
       <p class="card-text text-left">
-        Lensa progresif setidak memiliki kenyamanan ketika kamu pakai untuk     
+        Lensa progresif setidak memiliki kenyamanan ketika kamu pakai untuk
 				kegiatan sehari-hari. Ketika kamu mengalihkan pandangan dari jarak dekat
 				ke jarak jauh, mata tidak akan merasakan nyeri atau sejenisnya. Ada
 				mekanisme yang sangat cocok untuk penderita rabun dekat serta rabun jauh
@@ -72,7 +72,7 @@ comments: true
 				jarak jauh.
       </p>
       <p class="card-text text-left">
-        Yang menarik dari jenis lensa progresif adalah ada tiga titik fokus yang     
+        Yang menarik dari jenis lensa progresif adalah ada tiga titik fokus yang
 				bisa membantumu melihat setiap objek. Bukan hanya ada titik fokus untuk
 				melihat objek jarak dekat dan jarak jauh, namun ada titik fokus melihat
 				objek jarak sedang. Artinya kemampuan lensa kacamata ini sangat
@@ -100,7 +100,7 @@ comments: true
     <div class="card-body">
       <h3 class="card-title">Tipe Lensa Progresif dan Cara Pemakaiannya</h3>
       <p class="card-text text-left">
-        Karena penderita presbiopia kini bukan hanya orang tua lagi, maka model     
+        Karena penderita presbiopia kini bukan hanya orang tua lagi, maka model
 				kacamata juga perlu disesuaikan. Saat ini ada beragam jenis model
 				kacamata yang bisa kamu pakai. Jadi dari segi fashion, memakai kacamata
 				bukan lagi menunjukkan bahwa kamu tua, melainkan sudah menjadi sebuah
@@ -110,7 +110,7 @@ comments: true
 				untuk membantu memilih kacamata mata yang cocok kamu pakai.
       </p>
       <p class="card-text text-left">
-        Jenis lensa progresif pada dasarnya umum dipakai oleh penderita     
+        Jenis lensa progresif pada dasarnya umum dipakai oleh penderita
 				presbiopia, yaitu gangguan terhadap ketajaman mata melihat objek jauh
 				atau dekat. Penderita presbiopia biasanya adalah orang yang sudah
 				berumur 40 tahun ke atas. Namun tidak jarang juga anak muda juga
@@ -121,7 +121,7 @@ comments: true
 				kamu masih di usia muda seperti sekarang.
       </p>
       <p class="card-text text-left">
-        Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika     
+        Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika
 				mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari
 				Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website
 				kami. Kamu juga bisa bergabung dengan fanpage
@@ -130,7 +130,7 @@ comments: true
           id="FBClick"
           title="Facebook Page Optikal Bahari"
           class="FacebookPage">facebook @optikalbahari</a>
-        supaya mengetahui update informasi terkait jenis lensa progresif     
+        supaya mengetahui update informasi terkait jenis lensa progresif
 				terbaru. Untuk respond yang lebih cepat, silahkan menghubungi kami di
 				nomor HP/WA ini
         <a
