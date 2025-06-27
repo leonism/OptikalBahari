@@ -8,10 +8,11 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 ---
 
 <!-- Page Header -->
+{% include navigation/navbar.html %}
 {% if page.background %}
 
 <header class="masthead"
-    style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | resize: "1024x1024>" | replace: '//', '/' }}{% endif %}')">
+    style="background-image: url('{{ page.background | prepend: site.baseurl | resize: "1024x1024>" | replace: '//', '/' }}')">
     {% else %}
 
     <header class="masthead">
@@ -20,17 +21,54 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="page-heading">
-                        <h1>
-                            {{ site.tagline }}
-                        </h1>
-                        {% if site.description %}
-                        <h2 class="subheading text-capitalize">
-                            {{ site.description }}
-                        </h2>
+                        <h1>{{ page.title }}</h1>
+                        {% if page.subtitle %}
+                        <h2 class="subheading">{{ page.subtitle }}</h2>
                         {% endif %}
+                        <span class="meta">
+                            Posted by
+                            {% if page.author %}
+                            {{ page.author }}
+                            {% else %}
+                            {{ site.author }}
+                            {% endif %}
+                            on {{ page.date | date: '%B %d, %Y' }} &middot;
+                            {% include postcards/read_time.html content=page.content %}
+                        </span>
+
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <!-- end page header -->
+
+    <div class="container">
+        {{ content }}
+        <hr />
+        {% if page.comments %}
+        <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5" data-width="720"
+            style="margin: 0 auto"></div>
+
+        {% endif %}
+        <div class="clearfix">
+            {% if page.previous.url %}
+            <a class="btn btn-primary float-left"
+                href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+                data-placement="top" title="{{ page.previous.title }}">
+                &larr; Prev
+                <span class="d-none d-md-inline"> Post </span>
+            </a>
+            {% endif %}
+
+            {% if page.next.url %}
+            <a class="btn btn-primary float-right"
+                href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+                data-placement="top" title="{{ page.next.title }}">
+                Next
+                <span class="d-none d-md-inline"> Post </span> &rarr;
+            </a>
+            {% endif %}
+        </div>
+    </div>
+
+</header>
