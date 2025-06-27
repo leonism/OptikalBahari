@@ -13,7 +13,7 @@ pagination:
 ---
 
 <!-- Section 1: First 3 posts -->
-<section id="posts-category-section1">
+<section id="posts-category-section-1">
     <div class="container">
         <div class="row">
             {% assign posts = paginator.posts | slice: 0, 3 %}
@@ -22,7 +22,10 @@ pagination:
                 class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
                 <div class="card shadow p-0 bg-white rounded hover-zoomin">
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                        {% if post.background %}
+                        {% if post.background contains 'http' %}
+                        <img itemprop="image" src="{{ post.background }}"
+                            class="card-img-top img-fluid" alt="{{ post.title }}" />
+                        {% else %}
                         <img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
                             class="card-img-top img-fluid" alt="{{ post.title }}" />
                         {% endif %}
@@ -53,7 +56,7 @@ pagination:
 </section>
 
 <!-- Section 2: Next 3 posts -->
-<section id="posts-category2">
+<section id="posts-category-section-2">
     <div class="container">
         <div class="row">
             {% assign posts = paginator.posts | slice: 3, 3 %}
@@ -62,7 +65,10 @@ pagination:
                 class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
                 <div class="card shadow p-0 bg-white rounded hover-zoomin">
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                        {% if post.background %}
+                        {% if post.background contains 'http' %}
+                        <img itemprop="image" src="{{ post.background }}"
+                            class="card-img-top img-fluid" alt="{{ post.title }}" />
+                        {% else %}
                         <img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
                             class="card-img-top img-fluid" alt="{{ post.title }}" />
                         {% endif %}
@@ -90,7 +96,7 @@ pagination:
 </section>
 
 <!-- Section 3: Last 3 posts -->
-<section id="posts-category3">
+<section id="posts-category-3">
     <div class="container">
         <div class="row">
             {% assign posts = paginator.posts | slice: 6, 3 %}
@@ -99,7 +105,10 @@ pagination:
                 class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
                 <div class="card shadow p-0 bg-white rounded hover-zoomin">
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                        {% if post.background %}
+                        {% if post.background contains 'http' %}
+                        <img itemprop="image" src="{{ post.background }}"
+                            class="card-img-top img-fluid" alt="{{ post.title }}" />
+                        {% else %}
                         <img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
                             class="card-img-top img-fluid" alt="{{ post.title }}" />
                         {% endif %}
