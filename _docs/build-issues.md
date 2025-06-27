@@ -15,3 +15,10 @@ rm -f .smart_asset_cache.yml
 ```bash
 bundle exec jekyll build
 ```
+
+
+### Build command
+
+```bash
+build_command: "bundle exec jekyll build && bash scripts/post-build.sh"
+```

@@ -1,39 +1,32 @@
-<header class="navbar navbar-expand-lg navbar-light fixed-top mb-5 shadow-sm" id="mainNav">
-  <nav class="container">
+<header class="navbar navbar-expand-lg navbar-light fixed-top mb-5 shadow-sm" id="mainNav" role="banner">
+  <div class="container">
     <!-- Brand/Logo -->
     <a class="navbar-brand" href="{{ '/' | relative_url }}" title="Optikal Bahari">
       <picture>
         <!-- AVIF format -->
         <source srcset="
-            https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/icons/optikalbahari 480w,
-            https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/icons/optikalbahari 768w,
-            https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/icons/optikalbahari 1200w
-          " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-
+          https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/icons/optikalbahari 480w,
+          https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/icons/optikalbahari 768w,
+          https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/icons/optikalbahari 1200w
+        " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
         <!-- WEBP format -->
         <source srcset="
-            https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/icons/optikalbahari 480w,
-            https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/icons/optikalbahari 768w,
-            https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/icons/optikalbahari 1200w
-          " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-
+          https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/icons/optikalbahari 480w,
+          https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/icons/optikalbahari 768w,
+          https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/icons/optikalbahari 1200w
+        " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
         <!-- JPEG fallback -->
         <source srcset="
-            https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/icons/optikalbahari 480w,
-            https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/icons/optikalbahari 768w,
-            https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/icons/optikalbahari 1200w
-          " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-
+          https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/icons/optikalbahari 480w,
+          https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/icons/optikalbahari 768w,
+          https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/icons/optikalbahari 1200w
+        " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
         <!-- Final fallback with alt and lazy loading -->
         <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/icons/optikalbahari"
           title="{{ site.title | escape }}" alt="{{ site.title | escape }}" loading="lazy" decoding="async" width="30"
           height="30" />
       </picture>
       {{ site.title | escape }}
-      <!-- <img itemprop="logo"
-        src="{{ 'https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_auto,dpr_auto/v1750519373/icons/optikalbahari' | relative_url }}"
-        width="30" height="30" title="{{ site.title | escape }}" alt="{{ site.title | escape }}" />
-      {{ site.title | escape }} -->
     </a>
     <!-- Toggle Button for Mobile -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -41,7 +34,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <!-- Navbar Links -->
-    <nav class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+    <nav class="collapse navbar-collapse justify-content-end" id="navbarResponsive" aria-label="Main Navigation">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="{{ '/posts/' | relative_url }}" title="Berita Optikal Bahari">Berita</a>
@@ -57,22 +50,20 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ '/testimoni/' | relative_url }}" title="Testimoni Optikal Bahari">
             Testimoni
-            <!-- Light mode badge -->
-            <span class="badge badge-pill badge-danger light-icon">New</span>
-            <!-- Dark mode badge -->
-            <span class="badge badge-pill badge-danger dark-icon">New</span>
+            <span class="badge badge-pill badge-danger light-icon" aria-hidden="true">New</span>
+            <span class="badge badge-pill badge-danger dark-icon" aria-hidden="true">New</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ '/lokasi/' | relative_url }}" title="Lokasi Optikal Bahari">Lokasi</a>
         </li>
+        <!-- Theme Toggle -->
         <li class="nav-item d-flex align-items-center">
           <div class="form-check form-switch mb-0">
             <input class="form-check-input" type="checkbox" id="themeToggle"
               aria-label="Toggle between light and dark mode">
             <label class="form-check-label" for="themeToggle">
-              <!-- Using Font Awesome stacking for the toggle icon -->
-              <span class="fa-stack toggle-icon">
+              <span class="fa-stack toggle-icon" aria-hidden="true">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fas fa-sun fa-stack-1x light-icon"></i>
                 <i class="fas fa-moon fa-stack-1x dark-icon"></i>
@@ -86,5 +77,5 @@
         </li>
       </ul>
     </nav>
-  </nav>
+  </div>
 </header>

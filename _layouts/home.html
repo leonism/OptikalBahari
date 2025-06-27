@@ -6,10 +6,14 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background | replace: '//', '/' }}{% else %}{{ page.background | prepend: site.baseurl | resize: "1024x1024>" | replace: '//', '/' }}{% endif %}')">
-    {% else %}
+    <header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{
+        { page.background | replace: '//', '/' }}
+            {% else %}
+                {{ page.background | prepend: site.baseurl | resize: "1024x1024>" | replace: '//', '/' }}
+            {% endif %}')">
+        {% else %}
     <header class="masthead">
-        {% endif %}
+{% endif %}
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">

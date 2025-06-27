@@ -4,29 +4,33 @@ layout: default
 
 {% include navigation/navbar.html %}
 
-<!-- start page header -->
+<!-- Page Header -->
 {% if page.background %}
-
-<header class="masthead"
-    style="background-image: url('{% if page.background contains 'http' %}{{ page.background | replace: '//', '/' }}{% else %}{{ page.background | prepend: site.baseurl | resize: "1024x1024>" | replace: '//', '/' }}{% endif %}')">
+    <header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}
+        {% else %}
+            {{ page.background | prepend: site.baseurl | resize: "1024x1024>" | replace: '//', '/' }}
+        {% endif %}')">
     {% else %}
-  <header class="masthead">
+        <header class="masthead">
     {% endif %}
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>{{ page.title }}</h1>
-            {% if page.subtitle %}
-            <h2 class="subheading text-capitalize">
-              {{ page.subtitle }}
-            </h2>
-            {% endif %}
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="page-heading">
+                        <h1>
+                            {{ site.tagline }}
+                        </h1>
+                        {% if site.description %}
+                        <h2 class="subheading text-capitalize">
+                            {{ site.description }}
+                        </h2>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
+    </header>
+</header>
   <!-- end page header -->
 
   <div class="container">
