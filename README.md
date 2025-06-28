@@ -211,4 +211,8 @@ bundle exec jekyll build
 ```bash
 build_command: "bundle exec jekyll build -- verbose && bash scripts/post-build.sh"
 JEKYLL_ENV=production bundle exec jekyll build --verbose
+npx prettier --write .
+npx prettier --write "**/*.md"
+npx prettier --check "**/*.{html,md}"
+npx prettier --write _includes/home/home-cards.html
 ```
