@@ -3,26 +3,27 @@ layout: default
 ---
 
 <!-- start page header -->
-{% include navigation/navbar.html %}
-{% if page.background %}
-<header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')">
-{% else %}
-<header class="masthead">
-{% endif %}
+{% include navigation/navbar.html %} {% if page.background %}
+<header
+  class="masthead"
+  style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')"
+>
+  {% else %}
+  <header class="masthead">
+    {% endif %}
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <div class="page-heading">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <span class="subheading">{{ page.subtitle }}</span>
-                    {% endif %}
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <span class="subheading">{{ page.subtitle }}</span>
+            {% endif %}
+          </div>
         </div>
+      </div>
     </div>
-</header>
+  </header>
 
-<div class="container">
-    {{ content }}
-</div>
+  <div class="container">{{ content }}</div>
+</header>

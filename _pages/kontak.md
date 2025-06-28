@@ -12,6 +12,7 @@ background: "/assets/img/bg-kontak-optikal-bahari.webp"
 permalink: /kontak/
 comments: false
 ---
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img

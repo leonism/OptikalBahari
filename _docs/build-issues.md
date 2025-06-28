@@ -16,7 +16,6 @@ rm -f .smart_asset_cache.yml
 bundle exec jekyll build
 ```
 
-
 ### Build command
 
 ```bash

@@ -102,13 +102,13 @@ comments: true
       </p>
 
       <p class="card-text text-left">
-        Jika kamu ingin mendapat kacamata terbaik, kunjungi toko OPTIKAL BAHARI di alamat Kemayoran, Jakpus, Jln. Bendungan                                
+        Jika kamu ingin mendapat kacamata terbaik, kunjungi toko OPTIKAL BAHARI di alamat Kemayoran, Jakpus, Jln. Bendungan
           Jago No. 447. Kamu juga bisa mengunjungi website kami atau di fanpage
         <a
           href="https://www.facebook.com/optikalbahari"
           id="FBClick"
           title="Facebook Page Optikal Bahari"
-          class="FacebookPage">Facebook @optikalbahari</a>. Gunakan tips memilih kacamata bagi pemula seperti ini pasti akan sangat bermanfaat bagi Kamu. Untuk respond yang                                
+          class="FacebookPage">Facebook @optikalbahari</a>. Gunakan tips memilih kacamata bagi pemula seperti ini pasti akan sangat bermanfaat bagi Kamu. Untuk respond yang
           lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
         <a
           href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
@@ -118,5 +118,6 @@ comments: true
         <em>(Optikal Bahari)</em>
       </p>
     </div>
+
   </div>
 </div>

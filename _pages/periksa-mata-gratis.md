@@ -15,45 +15,81 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" }}"
-      srcset="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | srcset }}"
-      width="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | width }}"
-      height="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | height }}"
-      class="card-img-top img-fluid"
-      alt="Periksakan Mata Anda Secara Rutin">
-    <div class="card-body">
-      <h3 class="card-title">
-        Periksa Mata Gratis
-      </h3>
-      <p class="card-text text-left">
-        Menurut penelitian para ahli medis, menjaga kesehatan mata adalah langkah penting yang harus dilakukan secara rutin. Anda disarankan untuk melakukan
-        <strong>pemeriksaan mata setiap 6 bulan sekali</strong>, agar perubahan yang mungkin terjadi pada penglihatan mata Anda dapat terdeteksi secara dini. Jangan abaikan kesehatan mata Anda, Optikal Bahari hadir untuk membantu menjaga penglihatan dengan pemeriksaan rutin berkualitas.
-      </p>
-      <p class="card-text text-left">
-        Di Optikal Bahari, kami menghadirkan pengalaman pemeriksaan mata yang canggih dan nyaman. Proses pemeriksaan dilakukan secara digital dan terkomputerisasi, memastikan hasil pemeriksaan yang lebih akurat, presisi dan terpercaya. Dengan teknologi terkini yang kami miliki, Anda dapat merasa yakin bahwa kesehatan & penglihatan mata Anda dalam keadaan optimal.
-      </p>
-      <p class="card-text text-left">
-        Mungkin Anda sering mengerutkan mata saat membaca, atau kesulitan melihat objek yang jauh. Atau mungkin, Anda merasakan sakit kepala yang sering muncul tanpa alasan yang jelas. Jika Anda mengalami salah satu dari tanda-tanda tersebut, segera lakukan pemeriksaan mata. Pemeriksaan mata yang tepat dan menyeluruh dapat membantu Anda menemukan solusi untuk masalah penglihatan Anda.
-      </p>
-      <p class="card-text text-left">
-        Optikal Bahari menghadirkan
-        <strong>pemeriksaan mata gratis</strong>
-        yang dilakukan secara
-        <strong>dua tahap</strong>
-        untuk memastikan hasil yang akurat dan terpercaya. Pada
-        <strong>tahap pertama</strong>, kami menggunakan
-        <strong>autorefractometer</strong>, alat modern yang memberikan hasil analisis dini secara otomatis. Alat ini akan mengukur kelainan refraksi mata, seperti rabun jauh, rabun dekat, dan astigmatisme.
-      </p>
-      <p class="card-text text-left">
-        Pada
-        <strong>tahap kedua</strong>, kami menggunakan
-        <strong>phoroptor</strong>, alat yang memungkinkan Anda untuk menjawab langsung berbagai tes penglihatan mata. Tes ini akan membantu optometris Optikal Bahari untuk mendiagnosa kondisi mata Anda dengan lebih presisi. Kombinasi dari dua proses ini memastikan bahwa Anda mendapatkan hasil
-        <strong>pemeriksaan mata</strong>
-        yang komprehensif dan akurat.
-      </p>
-    </div>
+    <picture>
+  <!-- AVIF format -->
+  <source
+    srcset="
+      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,
+      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,
+      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
+    "
+    type="image/avif"
+    sizes="(max-width: 768px) 100vw, 768px"
+  />
+  <!-- WEBP format -->
+  <source
+    srcset="
+      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,
+      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,
+      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
+    "
+    type="image/webp"
+    sizes="(max-width: 768px) 100vw, 768px"
+  />
+  <!-- JPEG fallback -->
+  <source
+    srcset="
+      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,
+      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,
+      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
+    "
+    type="image/jpeg"
+    sizes="(max-width: 768px) 100vw, 768px"
+  />
+  <!-- Final fallback with alt and lazy loading -->
+
+<img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14"
+    alt="Periksa Mata Gratis di Optikal Bahari"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top"
+  /> </picture>
+
+  <div class="card-body">
+    <h3 class="card-title">
+      Periksa Mata Gratis
+    </h3>
+    <p class="card-text text-left"> Menurut penelitian para ahli medis, menjaga kesehatan mata adalah langkah penting yang harus dilakukan secara rutin. Anda disarankan untuk melakukan <strong>pemeriksaan mata setiap 6 bulan
+sekali</strong>, agar perubahan yang mungkin terjadi pada penglihatan mata Anda
+dapat terdeteksi secara dini. Jangan abaikan kesehatan mata Anda, Optikal Bahari
+hadir untuk membantu menjaga penglihatan dengan pemeriksaan rutin berkualitas.
+</p> <p class="card-text text-left"> Di Optikal Bahari, kami menghadirkan
+pengalaman pemeriksaan mata yang canggih dan nyaman. Proses pemeriksaan
+dilakukan secara digital dan terkomputerisasi, memastikan hasil pemeriksaan yang
+lebih akurat, presisi dan terpercaya. Dengan teknologi terkini yang kami miliki,
+Anda dapat merasa yakin bahwa kesehatan & penglihatan mata Anda dalam keadaan
+optimal. </p> <p class="card-text text-left"> Mungkin Anda sering mengerutkan
+mata saat membaca, atau kesulitan melihat objek yang jauh. Atau mungkin, Anda
+merasakan sakit kepala yang sering muncul tanpa alasan yang jelas. Jika Anda
+mengalami salah satu dari tanda-tanda tersebut, segera lakukan pemeriksaan mata.
+Pemeriksaan mata yang tepat dan menyeluruh dapat membantu Anda menemukan solusi
+untuk masalah penglihatan Anda. </p> <p class="card-text text-left"> Optikal
+Bahari menghadirkan <strong>pemeriksaan mata gratis</strong> yang dilakukan
+secara <strong>dua tahap</strong> untuk memastikan hasil yang akurat dan
+terpercaya. Pada <strong>tahap pertama</strong>, kami menggunakan
+<strong>autorefractometer</strong>, alat modern yang memberikan hasil analisis
+dini secara otomatis. Alat ini akan mengukur kelainan refraksi mata, seperti
+rabun jauh, rabun dekat, dan astigmatisme. </p> <p class="card-text text-left">
+Pada <strong>tahap kedua</strong>, kami menggunakan <strong>phoroptor</strong>,
+alat yang memungkinkan Anda untuk menjawab langsung berbagai tes penglihatan
+mata. Tes ini akan membantu optometris Optikal Bahari untuk mendiagnosa kondisi
+mata Anda dengan lebih presisi. Kombinasi dari dua proses ini memastikan bahwa
+Anda mendapatkan hasil <strong>pemeriksaan mata</strong> yang komprehensif dan
+akurat. </p> </div>
+
   </div>
 </div>
 
@@ -103,23 +139,13 @@ comments: false
         Proses Pertama: Menggunakan Autorefractometer
       </h3>
       <p class="card-text text-left">
-        Pada
-        <strong>proses pertama</strong>
-        kami menggunakan
-        <strong>autorefraktometer</strong>, alat yang digunakan dalam optometri untuk mengukur tingkat
-        <italic>kesalahan refraktif</italic>
-        mata terhadap daya penglihatan seseorang. Alat ini bekerja dengan memeriksa cahaya yang masuk ke mata dan menghitung apakah ada kesalahan dalam cara mata merefleksikan fokus cahaya. Semua dilakukan dengan melihat bagaimana cahaya berpindah dan mencari perbedaan dengan apa yang seharusnya terjadi terhadap mata normal.
+        Pada <strong>proses pertama</strong> kami menggunakan <strong>autorefraktometer</strong>, alat yang digunakan dalam optometri untuk mengukur tingkat <italic>kesalahan refraktif</italic> mata terhadap daya penglihatan seseorang. Alat ini bekerja dengan memeriksa cahaya yang masuk ke mata dan menghitung apakah ada kesalahan dalam cara mata merefleksikan fokus cahaya. Semua dilakukan dengan melihat bagaimana cahaya berpindah dan mencari perbedaan dengan apa yang seharusnya terjadi terhadap mata normal.
       </p>
       <p class="card-text text-left">
-        Di Optikal Bahari, kami menggunakan
-        <strong>autorefraktometer</strong>
-        untuk mendapatkan hasil pemeriksaan mata dengan cepat & obyektif terhadap daya penglihatan seseorang, sebelum pada akhirnya melakukan diagnosa lebih dalam. Dari hasil pengukuran refraktif mata, kami akan mendeteksi gejala lainnya seperti rabun jauh, rabun dekat, dan astigmatisme. Autorefraktometer membantu optometris Optikal Bahari dalam menentukan ukuran lensa yang paling sesuai yang akan digunakan.
+        Di Optikal Bahari, kami menggunakan <strong>autorefraktometer</strong> untuk mendapatkan hasil pemeriksaan mata dengan cepat & obyektif terhadap daya penglihatan seseorang, sebelum pada akhirnya melakukan diagnosa lebih dalam. Dari hasil pengukuran refraktif mata, kami akan mendeteksi gejala lainnya seperti rabun jauh, rabun dekat, dan astigmatisme. Autorefraktometer membantu optometris Optikal Bahari dalam menentukan ukuran lensa yang paling sesuai yang akan digunakan.
       </p>
       <p class="card-text text-left">
-        <strong>Autorefraktometer</strong>
-        telah menjadi alat penting dalam pemeriksaan mata modern, karena faktor efisiensi, akurasi, dan kemampuannya untuk menyederhanakan proses pemeriksaan mata. Autorefraktometer membantu mengoptimalkan pembuatan resep, menghasilkan visualisasi yang lebih baik, dan meningkatkan kepuasan pasien. Selain itu, hasil yang diperoleh dari autorefraktometer dapat membantu dalam deteksi dini kondisi atau kelainan mata lainnya. Proses pertama memainkan peran penting dalam menyediakan layanan
-        <strong>pemeriksaan mata yang komprehensif dan personal</strong>
-        kepada para konsumen.
+        <strong>Autorefraktometer</strong> telah menjadi alat penting dalam pemeriksaan mata modern, karena faktor efisiensi, akurasi, dan kemampuannya untuk menyederhanakan proses pemeriksaan mata. Autorefraktometer membantu mengoptimalkan pembuatan resep, menghasilkan visualisasi yang lebih baik, dan meningkatkan kepuasan pasien. Selain itu, hasil yang diperoleh dari autorefraktometer dapat membantu dalam deteksi dini kondisi atau kelainan mata lainnya. Proses pertama memainkan peran penting dalam menyediakan layanan <strong>pemeriksaan mata yang komprehensif dan personal</strong> kepada para konsumen.
       </p>
     </div>
   </div>

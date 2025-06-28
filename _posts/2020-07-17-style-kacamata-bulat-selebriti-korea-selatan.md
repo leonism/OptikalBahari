@@ -69,7 +69,6 @@ comments: true
   </div>
 </div>
 
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img

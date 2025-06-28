@@ -2,16 +2,21 @@
 
 ## Overview
 
-The enhanced `migrate_to_cloudinary.rb` script provides advanced bidirectional synchronization between your local Jekyll image assets and Cloudinary. This tool goes beyond simple uploading to offer intelligent conflict resolution, metadata tracking, and selective synchronization.
+The enhanced `migrate_to_cloudinary.rb` script provides advanced bidirectional
+synchronization between your local Jekyll image assets and Cloudinary. This tool
+goes beyond simple uploading to offer intelligent conflict resolution, metadata
+tracking, and selective synchronization.
 
 ## Features
 
 ### 🔄 Bidirectional Synchronization
+
 - **Upload**: Sync local files to Cloudinary
 - **Download**: Sync Cloudinary files to local
 - **Bidirectional**: Smart two-way sync with conflict detection
 
 ### ⚡ Advanced Capabilities
+
 - **Conflict Resolution**: Multiple strategies for handling file conflicts
 - **Metadata Tracking**: Track sync state and file checksums
 - **Selective Sync**: Include/exclude patterns for targeted syncing
@@ -59,16 +64,16 @@ ruby _scripts/migrate_to_cloudinary.rb --dry-run
 
 ### Command Line Options
 
-| Option | Description | Values |
-|--------|-------------|--------|
-| `-d, --direction` | Sync direction | `upload`, `download`, `bidirectional` |
-| `-c, --conflict` | Conflict resolution | `prompt`, `local`, `remote`, `newer` |
-| `-n, --dry-run` | Preview without changes | - |
-| `-f, --force` | Force sync without prompts | - |
-| `--no-backup` | Disable automatic backups | - |
-| `-e, --exclude` | Exclude pattern | File pattern |
-| `-i, --include` | Include pattern | File pattern |
-| `-h, --help` | Show help | - |
+| Option            | Description                | Values                                |
+| ----------------- | -------------------------- | ------------------------------------- |
+| `-d, --direction` | Sync direction             | `upload`, `download`, `bidirectional` |
+| `-c, --conflict`  | Conflict resolution        | `prompt`, `local`, `remote`, `newer`  |
+| `-n, --dry-run`   | Preview without changes    | -                                     |
+| `-f, --force`     | Force sync without prompts | -                                     |
+| `--no-backup`     | Disable automatic backups  | -                                     |
+| `-e, --exclude`   | Exclude pattern            | File pattern                          |
+| `-i, --include`   | Include pattern            | File pattern                          |
+| `-h, --help`      | Show help                  | -                                     |
 
 ### Advanced Examples
 
@@ -88,7 +93,8 @@ ruby _scripts/migrate_to_cloudinary.rb --direction upload --conflict local --for
 
 ## Conflict Resolution
 
-When the same file exists both locally and remotely with different content or timestamps, the tool detects conflicts and offers resolution strategies:
+When the same file exists both locally and remotely with different content or
+timestamps, the tool detects conflicts and offers resolution strategies:
 
 ### Resolution Strategies
 
@@ -116,20 +122,22 @@ Choose resolution:
 
 ## File Organization
 
-The tool automatically organizes files into Cloudinary folders based on their local path:
+The tool automatically organizes files into Cloudinary folders based on their
+local path:
 
-| Local Path | Cloudinary Folder |
-|------------|-------------------|
-| `posts/` | `optikalbahari/posts/` |
-| `backgrounds/` | `optikalbahari/backgrounds/` |
-| `icons/` | `optikalbahari/icons/` |
+| Local Path      | Cloudinary Folder             |
+| --------------- | ----------------------------- |
+| `posts/`        | `optikalbahari/posts/`        |
+| `backgrounds/`  | `optikalbahari/backgrounds/`  |
+| `icons/`        | `optikalbahari/icons/`        |
 | `testimonials/` | `optikalbahari/testimonials/` |
-| `profile/` | `optikalbahari/profile/` |
-| Other | `optikalbahari/` |
+| `profile/`      | `optikalbahari/profile/`      |
+| Other           | `optikalbahari/`              |
 
 ## Sync State Management
 
-The tool maintains a sync state file (`.cloudinary_sync_state.json`) that tracks:
+The tool maintains a sync state file (`.cloudinary_sync_state.json`) that
+tracks:
 
 - Last sync timestamp for each file
 - Local file checksums
@@ -152,7 +160,8 @@ After each sync operation, the tool generates several log files:
 
 ### Backup Files
 
-When files are overwritten during download, backups are created in `.backup/` subdirectories with timestamps.
+When files are overwritten during download, backups are created in `.backup/`
+subdirectories with timestamps.
 
 ## Best Practices
 
@@ -288,4 +297,6 @@ For issues or questions:
 
 ---
 
-**Note**: This tool is designed for Jekyll projects with the Cloudinary integration. Ensure you have the proper Jekyll plugins and configuration in place before using the sync tool.
+**Note**: This tool is designed for Jekyll projects with the Cloudinary
+integration. Ensure you have the proper Jekyll plugins and configuration in
+place before using the sync tool.

@@ -1,27 +1,62 @@
 Perbedaan kacamata minus dan kacamata plus
 
-Kacamata minus dan kacamata plus adalah dua jenis kacamata yang digunakan untuk memperbaiki refraksi atau ketidakseimbangan kekuatan cahaya yang masuk ke mata. Kacamata minus digunakan untuk memperbaiki rabun jauh, yang disebabkan oleh kekurangan kekuatan cahaya yang masuk ke mata. Sebaliknya, kacamata plus digunakan untuk memperbaiki rabun dekat, yang disebabkan oleh kelebihan kekuatan cahaya yang masuk ke mata.
+Kacamata minus dan kacamata plus adalah dua jenis kacamata yang digunakan untuk
+memperbaiki refraksi atau ketidakseimbangan kekuatan cahaya yang masuk ke mata.
+Kacamata minus digunakan untuk memperbaiki rabun jauh, yang disebabkan oleh
+kekurangan kekuatan cahaya yang masuk ke mata. Sebaliknya, kacamata plus
+digunakan untuk memperbaiki rabun dekat, yang disebabkan oleh kelebihan kekuatan
+cahaya yang masuk ke mata.
 
-Rabun jauh adalah jenis kondisi penglihatan yang ditandai dengan kekurangan kemampuan untuk melihat dengan jelas objek-objek yang berada di jarak jauh. Orang yang mengalami rabun jauh biasanya mengeluh tidak bisa melihat dengan jelas saat membaca tulisan kecil atau saat menonton televisi atau film dari jarak yang jauh. Rabun jauh juga dapat menyebabkan kesulitan dalam mengemudi atau melakukan kegiatan lain yang membutuhkan kemampuan untuk melihat dengan jelas objek-objek yang berada di jarak jauh. Rabun jauh biasanya terjadi pada orang yang berusia di atas 40 tahun dan dapat diatasi dengan menggunakan kacamata yang sesuai dengan kebutuhan penglihatan.
+Rabun jauh adalah jenis kondisi penglihatan yang ditandai dengan kekurangan
+kemampuan untuk melihat dengan jelas objek-objek yang berada di jarak jauh.
+Orang yang mengalami rabun jauh biasanya mengeluh tidak bisa melihat dengan
+jelas saat membaca tulisan kecil atau saat menonton televisi atau film dari
+jarak yang jauh. Rabun jauh juga dapat menyebabkan kesulitan dalam mengemudi
+atau melakukan kegiatan lain yang membutuhkan kemampuan untuk melihat dengan
+jelas objek-objek yang berada di jarak jauh. Rabun jauh biasanya terjadi pada
+orang yang berusia di atas 40 tahun dan dapat diatasi dengan menggunakan
+kacamata yang sesuai dengan kebutuhan penglihatan.
 
-Sementara untuk rabun dekat adalah kebutuhan untuk membaca atau melihat benda-benda yang berada pada jarak dekat. Hal ini dapat disebabkan oleh kelemahan otot-otot yang terkait dengan penglihatan, atau karena kondisi medis seperti presbiopi. Kacamata plus atau lensa kacamata plus dapat membantu mengatasi rabun dekat dengan memfokuskan cahaya pada retina, sehingga benda-benda yang dilihat terlihat jelas. Rabun dekat merupakan kebutuhan untuk membaca atau melihat benda-benda yang berada pada jarak dekat. Hal ini dapat disebabkan oleh kelemahan otot-otot yang terkait dengan penglihatan, atau kondisi medis seperti presbiopi. Untuk mengatasi rabun dekat, Anda dapat menggunakan kacamata plus atau lensa kacamata plus. Lensa ini akan memfokuskan cahaya pada retina, sehingga benda-benda yang dilihat akan terlihat jelas.
+Sementara untuk rabun dekat adalah kebutuhan untuk membaca atau melihat
+benda-benda yang berada pada jarak dekat. Hal ini dapat disebabkan oleh
+kelemahan otot-otot yang terkait dengan penglihatan, atau karena kondisi medis
+seperti presbiopi. Kacamata plus atau lensa kacamata plus dapat membantu
+mengatasi rabun dekat dengan memfokuskan cahaya pada retina, sehingga
+benda-benda yang dilihat terlihat jelas. Rabun dekat merupakan kebutuhan untuk
+membaca atau melihat benda-benda yang berada pada jarak dekat. Hal ini dapat
+disebabkan oleh kelemahan otot-otot yang terkait dengan penglihatan, atau
+kondisi medis seperti presbiopi. Untuk mengatasi rabun dekat, Anda dapat
+menggunakan kacamata plus atau lensa kacamata plus. Lensa ini akan memfokuskan
+cahaya pada retina, sehingga benda-benda yang dilihat akan terlihat jelas.
 
-Kacamata minus memiliki lensa yang lebih cembung, sedangkan kacamata plus memiliki lensa yang lebih datar. Kedua jenis kacamata ini memiliki tingkat kekuatan yang berbeda, yang ditandai dengan angka di depan tipe kacamata, misalnya -1.50 atau +2.00. Semakin besar angka tersebut, semakin kuat kekuatan kacamata tersebut.
+Kacamata minus memiliki lensa yang lebih cembung, sedangkan kacamata plus
+memiliki lensa yang lebih datar. Kedua jenis kacamata ini memiliki tingkat
+kekuatan yang berbeda, yang ditandai dengan angka di depan tipe kacamata,
+misalnya -1.50 atau +2.00. Semakin besar angka tersebut, semakin kuat kekuatan
+kacamata tersebut.
 
-Kacamata minus digunakan untuk memperbaiki rabun jauh, yaitu kondisi di mana seseorang tidak dapat melihat jelas objek yang berada di jarak jauh. Sementara itu, kacamata plus digunakan untuk memperbaiki rabun dekat, yaitu kondisi di mana seseorang tidak dapat melihat jelas objek yang berada di jarak dekat. Kacamata minus biasanya digunakan oleh orang yang lebih tua, sementara kacamata plus biasanya digunakan oleh orang yang lebih muda. Selain itu, kacamata minus memiliki kekuatan negatif, yang berarti lensa tersebut dapat mengecilkan objek yang dilihat, sedangkan kacamata plus memiliki kekuatan positif, yang berarti lensa tersebut dapat memperbesar objek yang dilihat.
+Kacamata minus digunakan untuk memperbaiki rabun jauh, yaitu kondisi di mana
+seseorang tidak dapat melihat jelas objek yang berada di jarak jauh. Sementara
+itu, kacamata plus digunakan untuk memperbaiki rabun dekat, yaitu kondisi di
+mana seseorang tidak dapat melihat jelas objek yang berada di jarak dekat.
+Kacamata minus biasanya digunakan oleh orang yang lebih tua, sementara kacamata
+plus biasanya digunakan oleh orang yang lebih muda. Selain itu, kacamata minus
+memiliki kekuatan negatif, yang berarti lensa tersebut dapat mengecilkan objek
+yang dilihat, sedangkan kacamata plus memiliki kekuatan positif, yang berarti
+lensa tersebut dapat memperbesar objek yang dilihat.
 
 ---
-layout: post
-title: Optikal Bahari Promo Agustus Kemerdekaan
-subtitle: 'Disc 40% Off'
-description: 'Promo Agustus Kemerdekaan - Dalam menyambut kemerdekaan Republik Indonesia yang ke 75 tahun pada tahun ini, Optikal Bahari turut ambil bagian dalam meriahkan semangat kemerdekaan dengan mengadakan Promo Agustus Kemerdekaan.'
-keywords: 'promo, kemerdekaan, agustusan, disc, kacamata'
-lang: id-ID
-author: Optikal Bahari
-categories: [Info, Promo]
-tags: [promo, discount, kacamata, lensa, bingkai]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/020
+
+layout: post title: Optikal Bahari Promo Agustus Kemerdekaan subtitle: 'Disc 40%
+Off' description: 'Promo Agustus Kemerdekaan - Dalam menyambut kemerdekaan
+Republik Indonesia yang ke 75 tahun pada tahun ini, Optikal Bahari turut ambil
+bagian dalam meriahkan semangat kemerdekaan dengan mengadakan Promo Agustus
+Kemerdekaan.' keywords: 'promo, kemerdekaan, agustusan, disc, kacamata' lang:
+id-ID author: Optikal Bahari categories: [Info, Promo] tags: [promo, discount,
+kacamata, lensa, bingkai] background:
+https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/020
 permalink: /promo-agustusan-kemerdekaan/
+
 ---
 
 <h3 class="card-title">Promo Kemerdekaan Agustusan 2020</h3>

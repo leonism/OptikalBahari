@@ -8,54 +8,63 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 ---
 
 <!-- start page header -->
-{% include navigation/navbar.html %}
-{% if page.background %}
-<header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')">
-{% else %}
-<header class="masthead">
-{% endif %}
+{% include navigation/navbar.html %} {% if page.background %}
+<header
+  class="masthead"
+  style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')"
+>
+  {% else %}
+  <header class="masthead">
+    {% endif %}
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <div class="page-heading">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <span class="subheading">{{ page.subtitle }}</span>
-                    {% endif %}
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <span class="subheading">{{ page.subtitle }}</span>
+            {% endif %}
+          </div>
         </div>
+      </div>
     </div>
-</header>
+  </header>
 
-    <div class="container">
-        {{ content }}
-        {% if page.comments %}
-        <div
-        class="fb-comments"
-        data-href="{{ site.url }}{{ page.url }}"
-        data-numposts="5"
-        data-width="720"
-        style="margin: 0 auto">
-        </div>
-        {% endif %}
-        <div class="clearfix">
-            {% if page.previous.url %}
-            <a class="btn btn-primary float-left"
-                href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
-                data-placement="top" title="{{ page.previous.title }}">
-                &larr; Prev
-                <span class="d-none d-md-inline"> Post </span>
-            </a>
-            {% endif %}
-            {% if page.next.url %}
-            <a class="btn btn-primary float-right"
-                href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
-                data-placement="top" title="{{ page.next.title }}">
-                Next
-                <span class="d-none d-md-inline"> Post </span> &rarr;
-            </a>
-            {% endif %}
-        </div>
+  <div class="container">
+    {{ content }} {% if page.comments %}
+    <div
+      class="fb-comments"
+      data-href="{{ site.url }}{{ page.url }}"
+      data-numposts="5"
+      data-width="720"
+      style="margin: 0 auto"
+    ></div>
+    {% endif %}
+    <div class="clearfix">
+      {% if page.previous.url %}
+      <a
+        class="btn btn-primary float-left"
+        href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="{{ page.previous.title }}"
+      >
+        &larr; Prev
+        <span class="d-none d-md-inline">Post</span>
+      </a>
+      {% endif %} {% if page.next.url %}
+      <a
+        class="btn btn-primary float-right"
+        href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="{{ page.next.title }}"
+      >
+        Next
+        <span class="d-none d-md-inline">Post</span>
+        &rarr;
+      </a>
+      {% endif %}
     </div>
+  </div>
 </header>

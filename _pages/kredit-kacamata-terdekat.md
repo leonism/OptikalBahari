@@ -32,26 +32,26 @@ comments: false
 				Jadi, jika kamu membutuhkan kacamata dan ingin membelinya dengan cara cicilan, datanglah ke Optikal Bahari. Di sini kamu bisa membeli kacamata dengan cara cicilan tanpa bunga dan tentu saja dengan kualitas yang terjamin. Jangan sampai lewatkan kesempatan ini untuk memperbaiki penglihatanmu dan memiliki kacamata impianmu.
 			<p class="card-text text-left">
 
-			<h3 class="card-title">Kredit Kacamata Sesuai Kebutuhan</h3>
-			<p class="card-text text-left">
-				Jadi, jangan tergoda untuk membeli kacamata hanya karena modelnya yang keren atau warna yang menarik. Sebaiknya pilih kacamata yang sesuai dengan kebutuhanmu. Jika kamu memiliki masalah penglihatan, pastikan untuk memilih kacamata yang sesuai dengan jenis masalah penglihatanmu. Ini akan membantumu untuk memperbaiki penglihatanmu dengan efektif.
-			</p>
-			<p class="card-text text-left">
-				Selain itu, pastikan untuk memperhatikan risiko-risiko yang akan terjadi ketika kamu membeli kacamata dengan cara cicilan. Pastikan bahwa kamu mampu untuk melunasi cicilan-cicilan tersebut sesuai jadwal yang telah ditentukan. Jika tidak, maka kamu akan terkena risiko yang tidak diinginkan, seperti denda atau bahkan hilangnya jaminan yang telah kamu berikan.
-			</p>
-			<p class="card-text text-left">
-				Jadi, pastikan untuk membeli kacamata dengan cara cicilan yang tepat dan sesuai dengan kebutuhanmu. Ini akan membantumu untuk memperbaiki penglihatanmu dengan efektif dan tidak terkena risiko-risiko yang tidak diinginkan.
-			</p>
-			<h3 class="card-title">Aman dari Riba ketika Kredit Kacamata</h3>
-			<p class="card-text text-left">
-				Di Optikal Bahari, kamu tidak perlu khawatir tentang bunga yang akan dikenakan ketika membeli kacamata dengan cara cicilan. Kamu bisa membeli kacamata impianmu dengan cara cicilan tanpa harus membayar bunga tambahan. Ini merupakan keunikan yang ditawarkan oleh Optikal Bahari dan tentu saja merupakan kesempatan yang baik bagi kamu yang membutuhkan kacamata namun tidak memiliki cukup uang untuk membelinya sekaligus.
-			</p>
-			<p class="card-text text-left">
-				Selain itu, penting juga untuk memilih kacamata yang sesuai dengan kebutuhanmu. Jangan membeli kacamata hanya karena model atau warna yang keren, pastikan untuk memilih kacamata yang sesuai dengan jenis masalah penglihatanmu. Ini akan membantumu untuk memperbaiki penglihatanmu dengan efektif.
-			</p>			
-			<p class="card-text text-left">
-				Jika kamu masih bingung tentang pilihan kacamata yang tepat, jangan ragu untuk bertanya kepada staff optik di Optikal Bahari. Mereka pasti akan dengan senang hati memberikan informasi yang kamu butuhkan dan membantumu untuk memilih kacamata yang sesuai dengan kebutuhanmu. Jadi, pastikan untuk membeli kacamata dengan cara cicilan yang tepat di Optikal Bahari dan aman dari riba atau DP.
-			</p>
+    		<h3 class="card-title">Kredit Kacamata Sesuai Kebutuhan</h3>
+    		<p class="card-text text-left">
+    			Jadi, jangan tergoda untuk membeli kacamata hanya karena modelnya yang keren atau warna yang menarik. Sebaiknya pilih kacamata yang sesuai dengan kebutuhanmu. Jika kamu memiliki masalah penglihatan, pastikan untuk memilih kacamata yang sesuai dengan jenis masalah penglihatanmu. Ini akan membantumu untuk memperbaiki penglihatanmu dengan efektif.
+    		</p>
+    		<p class="card-text text-left">
+    			Selain itu, pastikan untuk memperhatikan risiko-risiko yang akan terjadi ketika kamu membeli kacamata dengan cara cicilan. Pastikan bahwa kamu mampu untuk melunasi cicilan-cicilan tersebut sesuai jadwal yang telah ditentukan. Jika tidak, maka kamu akan terkena risiko yang tidak diinginkan, seperti denda atau bahkan hilangnya jaminan yang telah kamu berikan.
+    		</p>
+    		<p class="card-text text-left">
+    			Jadi, pastikan untuk membeli kacamata dengan cara cicilan yang tepat dan sesuai dengan kebutuhanmu. Ini akan membantumu untuk memperbaiki penglihatanmu dengan efektif dan tidak terkena risiko-risiko yang tidak diinginkan.
+    		</p>
+    		<h3 class="card-title">Aman dari Riba ketika Kredit Kacamata</h3>
+    		<p class="card-text text-left">
+    			Di Optikal Bahari, kamu tidak perlu khawatir tentang bunga yang akan dikenakan ketika membeli kacamata dengan cara cicilan. Kamu bisa membeli kacamata impianmu dengan cara cicilan tanpa harus membayar bunga tambahan. Ini merupakan keunikan yang ditawarkan oleh Optikal Bahari dan tentu saja merupakan kesempatan yang baik bagi kamu yang membutuhkan kacamata namun tidak memiliki cukup uang untuk membelinya sekaligus.
+    		</p>
+    		<p class="card-text text-left">
+    			Selain itu, penting juga untuk memilih kacamata yang sesuai dengan kebutuhanmu. Jangan membeli kacamata hanya karena model atau warna yang keren, pastikan untuk memilih kacamata yang sesuai dengan jenis masalah penglihatanmu. Ini akan membantumu untuk memperbaiki penglihatanmu dengan efektif.
+    		</p>
+    		<p class="card-text text-left">
+    			Jika kamu masih bingung tentang pilihan kacamata yang tepat, jangan ragu untuk bertanya kepada staff optik di Optikal Bahari. Mereka pasti akan dengan senang hati memberikan informasi yang kamu butuhkan dan membantumu untuk memilih kacamata yang sesuai dengan kebutuhanmu. Jadi, pastikan untuk membeli kacamata dengan cara cicilan yang tepat di Optikal Bahari dan aman dari riba atau DP.
+    		</p>
 
 <div class="card-deck mb-3">
 	
@@ -85,4 +85,3 @@ comments: false
 			</p>
 	</div>		
 </div>
-

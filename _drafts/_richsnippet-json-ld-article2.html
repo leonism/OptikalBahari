@@ -1,79 +1,78 @@
 <script type="application/ld+json">
-		{
-		  "@context": "https://schema.org",
-		  "@type": "Article",
-		  "url": "{{ site.url }}{{ page.url }}",
-		  "name": {{ site.title | jsonify }},
-		  "headline": {{ page.title | jsonify }},
-		  "keywords": {{ page.tags | join: ',' | jsonify }},
-		  "description": {{ page.description | truncate: 120 | strip_newlines | strip_html | jsonify }},
-		  "articleBody": {{ page.description | truncate: 160 | strip_newlines | strip_html | jsonify }},
-		  "datePublished": {{ page.date | jsonify }},
-		  "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
-		  "author": {
-		    "@type": "Organization",
-		    "name": {{ site.author_name | jsonify }},		    
-		    "email": {{ site.email | jsonify }}
-		  },
-		  "publisher": {
-		    "@type": "Organization",
-		    "name": {{ site.title | jsonify }},
-		    "url": "{{ site.url }}",
-		    "logo": {
-		      "@type": "ImageObject",
-		      "width": 32,
-		      "height": 32,
-		      "url": "{{ site.url }}/favicon.ico"
-		    }
-		  },
-		  "mainEntityOfPage": {
-		    "@type": "WebPage",
-		    "@id": "{{ site.url }}{{ page.url }}"
-		  },
-		  "image": {
-		    "@type": "ImageObject",		    
-		    "url": "{{site.url}}/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg"
-		  },		  
-		}
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "url": "{{ site.url }}{{ page.url }}",
+    "name": {{ site.title | jsonify }},
+    "headline": {{ page.title | jsonify }},
+    "keywords": {{ page.tags | join: ',' | jsonify }},
+    "description": {{ page.description | truncate: 120 | strip_newlines | strip_html | jsonify }},
+    "articleBody": {{ page.description | truncate: 160 | strip_newlines | strip_html | jsonify }},
+    "datePublished": {{ page.date | jsonify }},
+    "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+    "author": {
+      "@type": "Organization",
+      "name": {{ site.author_name | jsonify }},
+      "email": {{ site.email | jsonify }}
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ site.title | jsonify }},
+      "url": "{{ site.url }}",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 32,
+        "height": 32,
+        "url": "{{ site.url }}/favicon.ico"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ page.url }}"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{site.url}}/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg"
+    },
+  }
 </script>
 
-
 <script type="application/ld+json">
-		{
-		  "@context": "https://schema.org",
-		  "@type": "Article",
-		  "url": "{{ site.url }}{{ page.url }}",
-		  "name": {{ site.title | jsonify }},
-		  "headline": {{ page.title | jsonify }},
-		  "keywords": {{ page.tags | join: ',' | jsonify }},
-		  "description": {{ page.description | truncate: 120 | strip_newlines | strip_html | jsonify }},
-		  "articleBody": {{ page.description | truncate: 160 | strip_newlines | strip_html | jsonify }},
-		  "datePublished": {{ page.date | jsonify }},
-		  "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
-		  "author": {
-		    "@type": "Organization",
-		    "name": {{ site.author_name | jsonify }},
-		    "email": {{ site.email | jsonify }},
-			"url": {{ site.url | jsonify }}
-		  },
-		  "publisher": {
-		    "@type": "Organization",
-		    "name": {{ site.title | jsonify }},
-		    "url": "{{ site.url }}",
-		    "logo": {
-		      "@type": "ImageObject",
-		      "width": 32,
-		      "height": 32,
-		      "url": "{{ site.url }}/favicon.ico"
-		    }
-		  },
-		  "mainEntityOfPage": {
-		    "@type": "WebPage",
-		    "@id": "{{ site.url }}{{ page.url }}"
-		  },
-		  "image": {
-		    "@type": "ImageObject",		    
-		    "url": "{{ site.url }}{{ page.background }}"
-		  }		  
-		}
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "url": "{{ site.url }}{{ page.url }}",
+    "name": {{ site.title | jsonify }},
+    "headline": {{ page.title | jsonify }},
+    "keywords": {{ page.tags | join: ',' | jsonify }},
+    "description": {{ page.description | truncate: 120 | strip_newlines | strip_html | jsonify }},
+    "articleBody": {{ page.description | truncate: 160 | strip_newlines | strip_html | jsonify }},
+    "datePublished": {{ page.date | jsonify }},
+    "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+    "author": {
+      "@type": "Organization",
+      "name": {{ site.author_name | jsonify }},
+      "email": {{ site.email | jsonify }},
+  	"url": {{ site.url | jsonify }}
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ site.title | jsonify }},
+      "url": "{{ site.url }}",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 32,
+        "height": 32,
+        "url": "{{ site.url }}/favicon.ico"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ page.url }}"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ page.background }}"
+    }
+  }
 </script>

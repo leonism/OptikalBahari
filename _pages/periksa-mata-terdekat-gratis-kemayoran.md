@@ -15,7 +15,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
+    <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Terdekat Gratis Di Kemayoran
@@ -24,7 +24,7 @@ comments: false
         Menurut penelitian dari para Dokter, idealnya anda melakukan cek rutin ukuran mata anda per 6 bulan sekali agar selalu terdeteksi perubahan yang terjadi di ukuran mata anda. Maka jangan tunda-tunda lagi untuk memeriksa daya penglihatan anda di Optikal Bahari. Proses pemeriksaan dilakukan dengan cara digital dan sudah terkomputerisasi, yang menjanjikan hasil yang lebih akurat dibanding menggunakan alat pemeriksa analog.
       </p>
     </div>
-   </div>
+  </div>
 </div>
 
 <div class="card-deck mb-3">
@@ -82,4 +82,3 @@ comments: false
       </p>
 	</div>
 </div>
-

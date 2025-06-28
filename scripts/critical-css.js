@@ -1,8 +1,8 @@
-const critical = require('critical');
-const glob = require('glob');
+const critical = require('critical')
+const glob = require('glob')
 
 glob('_site/**/*.html', (err, files) => {
-  files.forEach(file => {
+  files.forEach((file) => {
     critical.generate({
       inline: true,
       base: '_site/',
@@ -12,7 +12,7 @@ glob('_site/**/*.html', (err, files) => {
       height: 900,
       minify: true,
       extract: true,
-      ignore: ['@font-face']
-    });
-  });
-});
+      ignore: ['@font-face'],
+    })
+  })
+})

@@ -13,7 +13,6 @@ permalink: /toko-kacamata-murah-di-jakarta/
 comments: false
 ---
 
-
 <div class="card shadow p-3 mb-5 bg-white rounded">
     <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
     <div class="card-body">
@@ -27,7 +26,6 @@ comments: false
         </p>
     </div>
 </div>
-
 
 {% include home/home-cards.html %}
 

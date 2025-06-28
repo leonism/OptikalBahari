@@ -50,7 +50,6 @@ Meningkatnya penggunaan teknologi pintar. Karena semakin banyak perangkat yang t
 Aksesibilitas dan keterjangkauan yang lebih baik. Seiring dengan perkembangan industri kacamata, kita dapat berharap untuk melihat peningkatan dalam aksesibilitas dan keterjangkauan. Ini dapat mencakup pengembangan bahan baru dan proses pembuatan yang membuat kacamata lebih tahan lama dan lebih murah, serta perluasan program yang menyediakan kacamata untuk masyarakat yang kurang mampu.
 </p>
 
-
 <p class="card-text text-left">
 Kesimpulannya, masa depan industri kacamata cerah, dengan perkembangan baru yang menarik di cakrawala. Dari opsi yang dipersonalisasi dan dapat disesuaikan hingga integrasi teknologi pintar, kita dapat berharap untuk melihat perubahan signifikan dalam cara kacamata dirancang dan digunakan dalam 10 tahun ke depan. Industri kacamata akan mengalami perubahan signifikan di tahun-tahun mendatang, dengan adopsi teknologi baru seperti augmented reality dan pencetakan 3D yang mengarah ke kacamata yang lebih personal dan canggih. Saat industri terus berkembang, sangat menarik untuk memikirkan kemungkinan masa depan kacamata.
 </p>

@@ -11,9 +11,9 @@
   width: 100%;
   padding: 10px 48px 10px 20px; /* More padding for better spacing */
   font-size: 16px; /* Slightly larger font for readability */
-  color: #10180E;
+  color: #10180e;
   background-color: #fff;
-  border: 2px solid #DC4245;
+  border: 2px solid #dc4245;
   border-radius: 50px;
   transition: all 0.3s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -26,7 +26,7 @@
 }
 
 #search-google .custom-search::placeholder {
-  color: #6C757D;
+  color: #6c757d;
   opacity: 1;
   font-weight: 400; /* Slightly lighter placeholder text */
 }
@@ -36,7 +36,7 @@
   right: 20px; /* Adjusted spacing */
   top: 50%;
   transform: translateY(-50%);
-  color: #DC4245;
+  color: #dc4245;
   pointer-events: none;
   font-size: 18px; /* Slightly larger icon */
   transition: color 0.3s ease;

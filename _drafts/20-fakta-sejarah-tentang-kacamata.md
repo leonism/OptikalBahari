@@ -40,7 +40,8 @@ comments: false
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- Final fallback with alt and lazy loading -->
-  <img
+
+<img
     src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9"
     alt="tips-kacamata-2.jpg"
     loading="lazy"
@@ -48,8 +49,8 @@ comments: false
     width="768"
     height="512"
     class="card-img-top"
-    />
-</picture>
+    /> </picture>
+
   <div class="card-body">
     <h3 class="card-title">
       22 fakta sejarah tentang kacamata

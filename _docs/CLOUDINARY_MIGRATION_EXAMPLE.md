@@ -1,6 +1,7 @@
 # Cloudinary Migration Example
 
-This document shows how to update your existing Jekyll posts and pages to use the new Cloudinary integration.
+This document shows how to update your existing Jekyll posts and pages to use
+the new Cloudinary integration.
 
 ## Before: Traditional Image Usage
 
@@ -200,17 +201,21 @@ comments: true
 ## Benefits of the Migration
 
 ### Performance Improvements
-- **Automatic Format Optimization**: WebP/AVIF for modern browsers, JPEG fallback
+
+- **Automatic Format Optimization**: WebP/AVIF for modern browsers, JPEG
+  fallback
 - **Responsive Images**: Multiple sizes generated automatically
 - **CDN Delivery**: Global content delivery network for faster loading
 - **Lazy Loading**: Built-in lazy loading support
 
 ### SEO Benefits
+
 - **Faster Page Load**: Improved Core Web Vitals
 - **Better Mobile Experience**: Optimized images for mobile devices
 - **Reduced Bandwidth**: Smaller file sizes without quality loss
 
 ### Maintenance Benefits
+
 - **Cloud Storage**: Images stored in Cloudinary, not in your repository
 - **Automatic Optimization**: No need to manually optimize images
 - **Version Control**: Smaller repository size
@@ -236,6 +241,7 @@ You can migrate gradually:
 ## Find and Replace Patterns
 
 ### For simple image tags:
+
 ```bash
 # Find:
 <img.*?src="(/assets/img/[^"]+)".*?alt="([^"]+)".*?class="([^"]+)".*?/?>
@@ -245,6 +251,7 @@ You can migrate gradually:
 ```
 
 ### For data-src attributes:
+
 ```bash
 # Find:
 data-src="(/assets/img/[^"]+)"

@@ -41,7 +41,8 @@ permalink: /privacy-policy/
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- Final fallback with alt and lazy loading -->
-  <img
+
+<img
     src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14"
     alt="tips-kacamata-2.jpg"
     loading="lazy"
@@ -49,47 +50,49 @@ permalink: /privacy-policy/
     width="768"
     height="512"
     class="card-img-top"
-    />
-</picture>
-    <div class="card-body">
-      <h3 class="card-title">
-        Privacy Policy for Optikal Bahari
-      </h3>
-      <p class="card-text text-left">
-        At Optikal Bahari, accessible from https://optikalbahari.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Optikal Bahari and how we use it. If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
-      </p>
-      <p class="card-text text-left">
-        This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Optikal Bahari. This policy is not applicable to any information collected offline or via channels other than this website. Our Privacy Policy was created with the help of the Privacy Policy Generator and the Free Privacy Policy Generator.
-      </p>
-      <h3 class="card-title">
-        Consent
-      </h3>
-      <p class="card-text text-left">
-        By using our website, you hereby consent to our Privacy Policy and agree to its terms.
-      </p>
-      <h3 class="card-title">Information we collect</h3>
-      <p class="card-text text-left">
-        The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information. If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide. When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.
-      </p>
-      <h3 class="card-title">
-        How we use your information
-      </h3>
-      <p class="card-text text-left">
-        We use the information we collect in various ways, including to:
-      </p>
-      <ul>
-        <li>Provide, operate, and maintain our website.</li>
-        <li>Improve, personalize, and expand our webste.</li>
-        <li>Understand and analyze how you use our webste.</li>
-        <li>Develop new products, services, features, and functionality.</li>
-        <li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the webste, and for marketing and promotional purposes.</li>
-        <li>Send you emails</li>
-        <li>Find and prevent fraud</li>
-        <li>Log Files</li>
-      </ul>
-      <p class="card-text text-left">
-        Optikal Bahari follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
-      </p>
+    /> </picture> <div class="card-body"> <h3 class="card-title"> Privacy Policy
+for Optikal Bahari </h3> <p class="card-text text-left"> At Optikal Bahari,
+accessible from https://optikalbahari.com, one of our main priorities is the
+privacy of our visitors. This Privacy Policy document contains types of
+information that is collected and recorded by Optikal Bahari and how we use it.
+If you have additional questions or require more information about our Privacy
+Policy, do not hesitate to contact us. </p> <p class="card-text text-left"> This
+Privacy Policy applies only to our online activities and is valid for visitors
+to our website with regards to the information that they shared and/or collect
+in Optikal Bahari. This policy is not applicable to any information collected
+offline or via channels other than this website. Our Privacy Policy was created
+with the help of the Privacy Policy Generator and the Free Privacy Policy
+Generator. </p> <h3 class="card-title"> Consent </h3>
+
+<p class="card-text text-left"> By using our website, you hereby consent to our
+Privacy Policy and agree to its terms. </p> <h3 class="card-title">Information
+we collect</h3> <p class="card-text text-left"> The personal information that
+you are asked to provide, and the reasons why you are asked to provide it, will
+be made clear to you at the point we ask you to provide your personal
+information. If you contact us directly, we may receive additional information
+about you such as your name, email address, phone number, the contents of the
+message and/or attachments you may send us, and any other information you may
+choose to provide. When you register for an Account, we may ask for your contact
+information, including items such as name, company name, address, email address,
+and telephone number. </p> <h3 class="card-title"> How we use your information
+</h3> <p class="card-text text-left"> We use the information we collect in
+various ways, including to: </p> <ul> <li>Provide, operate, and maintain our
+website.</li> <li>Improve, personalize, and expand our webste.</li>
+<li>Understand and analyze how you use our webste.</li> <li>Develop new
+products, services, features, and functionality.</li> <li>Communicate with you,
+either directly or through one of our partners, including for customer service,
+to provide you with updates and other information relating to the webste, and
+for marketing and promotional purposes.</li> <li>Send you emails</li> <li>Find
+and prevent fraud</li> <li>Log Files</li> </ul> <p class="card-text text-left">
+Optikal Bahari follows a standard procedure of using log files. These files log
+visitors when they visit websites. All hosting companies do this and a part of
+hosting services' analytics. The information collected by log files include
+internet protocol (IP) addresses, browser type, Internet Service Provider (ISP),
+date and time stamp, referring/exit pages, and possibly the number of clicks.
+These are not linked to any information that is personally identifiable. The
+purpose of the information is for analyzing trends, administering the site,
+tracking users' movement on the website, and gathering demographic information.
+</p>
 
       <h3 class="card-title">
         Cookies and Web Beacons
@@ -163,5 +166,6 @@ permalink: /privacy-policy/
 
 
     </div>
+
   </div>
 </div>

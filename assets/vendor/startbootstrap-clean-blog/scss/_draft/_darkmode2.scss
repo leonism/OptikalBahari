@@ -15,20 +15,20 @@
 /*           Theme Variables              */
 /* ---------------------------------------- */
 // Light mode colors:
-$light-bg: #ffffff;     // Light mode background (white)
-$light-text: #333333;   // Light mode text (dark gray)
-$light-link: #899199;   // Light mode link color (blue)
+$light-bg: #ffffff; // Light mode background (white)
+$light-text: #333333; // Light mode text (dark gray)
+$light-link: #899199; // Light mode link color (blue)
 
 // Dark mode colors and accents:
-$dark-bg: #1a1a1a;            // Dark mode background (deep black)
-$dark-text: #b3b0b0;          // Dark mode text (soft off-white)
-$dark-link: #9ba8b2;          // Dark mode link color (muted cyan-blue)
-$dark-accent: #1B1B1D;        // Accent for dark mode (cards, navbar, etc.)
-$dark-button: #78746E;        // Button background for dark mode (blue-gray)
-$dark-card-body: #252525;     // Card body background for dark mode
-$dark-footer-bg: #1a1a1a;     // Footer background for dark mode
+$dark-bg: #1a1a1a; // Dark mode background (deep black)
+$dark-text: #b3b0b0; // Dark mode text (soft off-white)
+$dark-link: #9ba8b2; // Dark mode link color (muted cyan-blue)
+$dark-accent: #1b1b1d; // Accent for dark mode (cards, navbar, etc.)
+$dark-button: #78746e; // Button background for dark mode (blue-gray)
+$dark-card-body: #252525; // Card body background for dark mode
+$dark-footer-bg: #1a1a1a; // Footer background for dark mode
 $dark-footer-accent: #8c8b8b; // Footer link color for dark mode (white)
-$dark-ripple: #3e4040;        // Ripple effect color for dark mode
+$dark-ripple: #3e4040; // Ripple effect color for dark mode
 
 /* ---------------------------------------- */
 /*        Light Mode Default Styles         */
@@ -36,7 +36,9 @@ $dark-ripple: #3e4040;        // Ripple effect color for dark mode
 body {
   background-color: $light-bg;
   color: $light-text;
-  transition: background-color 0.3s, color 0.3s;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 
   a {
     color: $light-link;
@@ -102,7 +104,7 @@ body {
   z-index: 1;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -160,7 +162,12 @@ body.dark-mode {
     .card-body {
       background-color: $dark-card-body;
       color: $dark-text;
-      h1, h2, h3, h4, h5, h6 {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
         color: lighten($dark-text, 10%);
       }
       p {
@@ -257,7 +264,13 @@ body.dark-mode {
         border-color: lighten($dark-button, 10%);
       }
     }
-    p, h1, h2, h3, h4, h5, h6 {
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: $dark-text;
     }
     .copyright.text-muted.list-unstyled {
@@ -306,7 +319,12 @@ body.dark-mode {
   }
 
   .post-content {
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: lighten($dark-text, 5%);
     }
     p {
@@ -377,13 +395,13 @@ body.dark-mode {
   font-size: 15px !important;
   line-height: 15px;
   vertical-align: middle;
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 /* In light mode: show the moon icon (dark-icon) and hide the sun icon */
 body:not(.dark-mode) .toggle-icon .dark-icon {
   display: inline-block;
-  color: $light-text;  // Dark gray for contrast
+  color: $light-text; // Dark gray for contrast
 }
 body:not(.dark-mode) .toggle-icon .light-icon {
   display: none;
@@ -392,7 +410,7 @@ body:not(.dark-mode) .toggle-icon .light-icon {
 /* In dark mode: show the sun icon (light-icon) and hide the moon icon */
 body.dark-mode .toggle-icon .light-icon {
   display: inline-block;
-  color: white;  // White for contrast
+  color: white; // White for contrast
 }
 body.dark-mode .toggle-icon .dark-icon {
   display: none;
@@ -452,7 +470,8 @@ body.dark-mode .badge.badge-pill.badge-danger.dark-icon {
 /* ---------------------------------------- */
 /*       Reset Default Browser Styles       */
 /* ---------------------------------------- */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }

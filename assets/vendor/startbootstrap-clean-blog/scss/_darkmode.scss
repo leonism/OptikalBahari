@@ -42,7 +42,9 @@ $dark-ripple: #1a2332; // Ripple effect color
 body {
   background-color: $light-bg;
   color: $light-text;
-  transition: background-color 0.3s, color 0.3s;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 
   a {
     color: $light-link;

@@ -29,11 +29,13 @@ git checkout -b dev
 This creates and switches to the "dev" branch.
 
 Then, push it to GitHub:
+
 ```sh
 git push -u origin dev
 ```
 
 ## 3. Merge "dev" into "master" on GitHub
+
 Once you’ve finished making changes in the "dev" branch:
 
 1. Ensure you're on the "master" branch:
@@ -65,12 +67,15 @@ git push origin master
 If you want to merge using a PR instead of merging locally:
 
 1. Push your "dev" branch (if not done yet):
+
 ```sh
 git push -u origin dev
 ```
+
 2. Go to your GitHub repository.
 3. Click on the **"Pull Requests"** tab.
 4. Click **"New Pull Request"**.
 5. Choose "dev" as the source branch and "master" as the target.
 6. Add a title and description, then click **"Create Pull Request"**.
-7. Once reviewed, click **"Merge Pull Request"** and delete the "dev" branch if no longer needed.
+7. Once reviewed, click **"Merge Pull Request"** and delete the "dev" branch if
+   no longer needed.

@@ -7,43 +7,40 @@ layout: default
 <!-- Page Header -->
 {% if page.background %}
 
-<header class="masthead"
-	style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-	{% else %}
+<header
+  class="masthead"
+  style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')"
+>
+  {% else %}
 
-	<header class="masthead">
-		{% endif %}
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-md-10 mx-auto">
-					<div class="page-heading">
-						<h1>
-							{{ site.tagline }}
-						</h1>
-						{% if site.description %}
-						<h2 class="subheading text-capitalize">
-							{{ site.description }}
-						</h2>
-						{% endif %}
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+  <header class="masthead">
+    {% endif %}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{ site.tagline }}</h1>
+            {% if site.description %}
+            <h2 class="subheading text-capitalize">{{ site.description }}</h2>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 </header>
 <!-- end page header -->
 
 <!-- <main> -->
 <div class="container">
-	<!-- <div class="row"> -->
-	<!-- <div class="col-lg-8 col-md-10 mx-auto"> -->
-	<!-- {{ content }} -->
-	{% include home/home-cards.html %}
-	{% include home/home-cards-kacamata.html %}
-	{% include home/home-cards-glasses.html %}
-	{% include home/home-cards-category.html %}
-	<!-- {% include home-cards-testimony.html %} -->
-	<!-- </div> -->
-	<!-- </div> -->
+  <!-- <div class="row"> -->
+  <!-- <div class="col-lg-8 col-md-10 mx-auto"> -->
+  <!-- {{ content }} -->
+  {% include home/home-cards.html %} {% include home/home-cards-kacamata.html %}
+  {% include home/home-cards-glasses.html %} {% include
+  home/home-cards-category.html %}
+  <!-- {% include home-cards-testimony.html %} -->
+  <!-- </div> -->
+  <!-- </div> -->
 </div>
 <!-- </main> -->

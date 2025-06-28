@@ -3,10 +3,12 @@
    =============================== */
 footer {
   padding: 30px 0 40px; /* Padding for spacing */
-  background-color: #F7F7F7; /* Light neutral background */
-  border-top: 1px solid #D8D8D8; /* Subtle border for separation */
-  font-family: 'Arial', sans-serif; /* Clean typography */
-  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3)); /* Bolder shadow for depth */
+  background-color: #f7f7f7; /* Light neutral background */
+  border-top: 1px solid #d8d8d8; /* Subtle border for separation */
+  font-family: "Arial", sans-serif; /* Clean typography */
+  filter: drop-shadow(
+    0 6px 12px rgba(0, 0, 0, 0.3)
+  ); /* Bolder shadow for depth */
   box-shadow: rgba(20, 20, 20, 0.06) 0px 2px 4px 0px inset; /* Inset shadow for depth */
 }
 
@@ -26,8 +28,10 @@ footer .list-inline {
    **Font Icons Styling**
    =============================== */
 footer .list-inline-item a {
-  color: #10180E; /* Default text color */
-  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transitions */
+  color: #10180e; /* Default text color */
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease; /* Smooth transitions */
   display: inline-block;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); /* Subtle shadow */
   font-size: 1.2em; /* Icon size */
@@ -35,13 +39,17 @@ footer .list-inline-item a {
 }
 
 footer .list-inline-item a:hover {
-  color: #ED4833; /* Bold hover color */
+  color: #ed4833; /* Bold hover color */
   transform: translateY(-5px); /* Lift effect */
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Stronger shadow on hover */
+  filter: drop-shadow(
+    0 4px 8px rgba(0, 0, 0, 0.2)
+  ); /* Stronger shadow on hover */
 }
 
 footer .list-inline-item .fa-stack {
-  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transitions */
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease; /* Smooth transitions */
 }
 
 footer .list-inline-item .fa-stack:hover {
@@ -55,8 +63,8 @@ footer .copyright {
   font-size: 14px; /* Font size */
   margin-bottom: 0; /* No extra space below */
   text-align: center; /* Center align text */
-  color: #6C757D; /* Neutral text color */
-  font-family: 'Arial', sans-serif; /* Consistent typography */
+  color: #6c757d; /* Neutral text color */
+  font-family: "Arial", sans-serif; /* Consistent typography */
   letter-spacing: normal; /* Natural spacing */
 }
 
@@ -77,14 +85,16 @@ footer .copyright.list-unstyled li:last-child {
 
 footer .copyright.list-unstyled a {
   text-decoration: none; /* Remove underline */
-  color: #10180E; /* Default link color */
-  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
-  font-family: 'Arial', sans-serif; /* Consistent typography */
+  color: #10180e; /* Default link color */
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease; /* Smooth transitions */
+  font-family: "Arial", sans-serif; /* Consistent typography */
   letter-spacing: normal; /* Natural spacing */
 }
 
 footer .copyright.list-unstyled a:hover {
-  color: #ED4833; /* Bold hover color */
+  color: #ed4833; /* Bold hover color */
   transform: translateY(-5px); /* Lift effect */
 }
 
@@ -95,7 +105,7 @@ footer .badge {
   font-size: 10px; /* Small font size */
   padding: 4px 6px; /* Compact padding */
   vertical-align: middle; /* Align with text */
-  background-color: #DC4245; /* Bold red background */
+  background-color: #dc4245; /* Bold red background */
   color: #fff; /* White text */
   transition: background-color 0.3s ease; /* Smooth color transition */
   letter-spacing: normal; /* Natural spacing */
@@ -135,8 +145,8 @@ footer ul:last-of-type {
   margin: 0; /* No margin */
   text-align: center; /* Center align text */
   font-size: 12px; /* Small font size */
-  color: #10180E; /* Neutral text color */
-  font-family: 'Arial', sans-serif; /* Consistent typography */
+  color: #10180e; /* Neutral text color */
+  font-family: "Arial", sans-serif; /* Consistent typography */
   letter-spacing: normal; /* Natural spacing */
 }
 
