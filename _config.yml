@@ -171,3 +171,25 @@ asset_processor:
     verbose: true
     show_stats: true
     manifest_file: assets/manifest.json
+
+# Jekyll Minifier Configuration
+jekyll-minifier:
+  uglifier_args:
+    harmony: true  # Enable ES6 support
+  js:
+    enable: true
+    preserve_source_map: false
+    remove_comments: true
+    compress: true
+  css:
+    enable: true
+    preserve_source_map: false
+  html:
+    enable: true
+    remove_comments: true
+    compress: true
+    preserve_line_breaks: false
+  exclude:
+    - '*.min.js'  # Skip already minified files
+    - '*.min.css' # Skip already minified files
+    - 'assets/vendor/**/*' # Skip vendor files

@@ -210,4 +210,5 @@ bundle exec jekyll build
 
 ```bash
 build_command: "bundle exec jekyll build -- verbose && bash scripts/post-build.sh"
+JEKYLL_ENV=production bundle exec jekyll build --verbose
 ```
