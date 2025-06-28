@@ -2,8 +2,10 @@
 layout: page
 title: Tips Memilih Kacamata Sesuai Bentuk Wajah Kotak & Bulat
 subtitle: Cara Yang Benar Untuk Memilih Kacamata Agar Selalu Terlihat Stylish
-description: "Temukan tips terbaik untuk memilih kacamata yang sesuai dengan bentuk wajahmu agar terlihat keren dan sesuai dengan gaya pribadimu, baik untuk wajah kotak maupun wajah bulat"
-keywords: "Tips Kacamata, Wajah Kotak, Wajah Bulat, Tips Kacamata, Memilih Kacamata"
+description: 'Temukan tips terbaik untuk memilih kacamata yang sesuai dengan bentuk wajahmu
+  agar terlihat keren dan sesuai dengan gaya pribadimu, baik untuk wajah kotak
+  maupun wajah bulat'
+keywords: 'Tips Kacamata, Wajah Kotak, Wajah Bulat, Tips Kacamata, Memilih Kacamata'
 lang: id-ID
 author: Optikal Bahari
 categories: [Trend]

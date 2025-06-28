@@ -40,8 +40,7 @@ function initializeLazyLoading() {
       // Store the original src in a data-src attribute
       if (image.src && !image.dataset.src) {
         image.dataset.src = image.src // Save the original src
-        image.src =
-          'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' // Placeholder
+        image.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' // Placeholder
       }
 
       // Store the original srcset in a data-srcset attribute

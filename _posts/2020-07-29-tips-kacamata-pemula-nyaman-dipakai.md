@@ -2,7 +2,9 @@
 layout: post
 title: Tips Memilih Kacamata Bagi Pemula yang Nyaman Dipakai
 subtitle: Newbie Wajib Baca Ini
-description: "Kamu memerlukan tips memilih kacamata bagi pemula jika saat ini sedang bingung cara mencari kacamata yang sesuai dengan kemauan Kamu. keseimbangan dalam penampilan."
+description: 'Kamu memerlukan tips memilih kacamata bagi pemula jika saat ini sedang
+  bingung cara mencari kacamata yang sesuai dengan kemauan Kamu. keseimbangan
+  dalam penampilan.'
 keywords: 'tips, memilih, kacamata, pemula, newbie'
 lang: id-ID
 date: '2020-07-29 07:25:23 +0700'

@@ -2,7 +2,9 @@
 layout: page
 title: Tips and Trik Dalam Memilih Kacamata
 subtitle: 'Lengkap Semuanya Disini'
-description: 'Tertarik untuk memiliki kacamata yang terlihat keren dan sesuai dengan wajahmu? Baca artikel ini untuk mengetahui tips memilih kacamata yang sesuai dengan bentuk wajahmu agar terlihat lebih seimbang dan menarik'
+description: 'Tertarik untuk memiliki kacamata yang terlihat keren dan sesuai dengan
+  wajahmu? Baca artikel ini untuk mengetahui tips memilih kacamata yang sesuai
+  dengan bentuk wajahmu agar terlihat lebih seimbang dan menarik'
 keywords: 'Tip, Tricks, Kacamata'
 lang: id-ID
 author: Optikal Bahari

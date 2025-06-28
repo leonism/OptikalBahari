@@ -2,10 +2,7 @@
   'use strict'
   a('body')
     .on('input propertychange', '.floating-label-form-group', function (b) {
-      a(this).toggleClass(
-        'floating-label-form-group-with-value',
-        !!a(b.target).val()
-      )
+      a(this).toggleClass('floating-label-form-group-with-value', !!a(b.target).val())
     })
     .on('focus', '.floating-label-form-group', function () {
       a(this).addClass('floating-label-form-group-with-focus')
@@ -21,9 +18,7 @@
         ? a('#mainNav').addClass('is-visible')
         : a('#mainNav').removeClass('is-visible is-fixed')
       : (a('#mainNav').removeClass('is-visible'),
-        c > b &&
-          !a('#mainNav').hasClass('is-fixed') &&
-          a('#mainNav').addClass('is-fixed')),
+        c > b && !a('#mainNav').hasClass('is-fixed') && a('#mainNav').addClass('is-fixed')),
       (this.previousTop = c))
   }),
     a(document).ready(function () {
@@ -40,15 +35,10 @@
           c.click()
       })
       const b = localStorage.getItem('theme')
-      ;('dark' === b &&
-        (a('body').addClass('dark-mode'),
-        a('#themeToggle').prop('checked', !0)),
+      ;('dark' === b && (a('body').addClass('dark-mode'), a('#themeToggle').prop('checked', !0)),
         a('#themeToggle').on('change', function () {
           ;(a('body').toggleClass('dark-mode'),
-            localStorage.setItem(
-              'theme',
-              a(this).is(':checked') ? 'dark' : 'light'
-            ))
+            localStorage.setItem('theme', a(this).is(':checked') ? 'dark' : 'light'))
         }))
     }))
 })(jQuery)

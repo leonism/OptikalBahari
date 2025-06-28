@@ -2,7 +2,8 @@
 layout: post
 title: Memilih Kacamata Minus, Agar Tampil Trendy & Kekinian
 subtitle: Kacamata Minus Untuk Tetap Tampil Stylish
-description: Temukan kacamata minus trendy & kekinian di Optikal Bahari. Ragam pilihan untuk penampilan stylishmu. Jelajahi koleksi kami sekarang!
+description: Temukan kacamata minus trendy & kekinian di Optikal Bahari. Ragam pilihan
+  untuk penampilan stylishmu. Jelajahi koleksi kami sekarang!
 keywords: 'Gaya Kacamata, Kacamata Trendy, Kacamata Minus'
 lang: id-ID
 date: '2020-07-27 08:25:23 +0700'

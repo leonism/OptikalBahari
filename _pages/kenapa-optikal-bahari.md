@@ -2,8 +2,10 @@
 layout: page
 title: Kenapa Beli Kacamata Harus Di Optikal Bahari?
 subtitle: Tempat Jual Kacamata Keren, Terbaik, Gak Pake Ribet dan Lama
-description: Temukan mengapa Optikal Bahari merupakan pilihan terbaik untuk membeli kacamata. Kami menawarkan pilihan model & lensa berkualitas, program cicilan & jaminan kepuasan pelanggan
-keywords: "optikal bahari, kemayoran, kacamata, info"
+description: Temukan mengapa Optikal Bahari merupakan pilihan terbaik untuk membeli
+  kacamata. Kami menawarkan pilihan model & lensa berkualitas, program cicilan &
+  jaminan kepuasan pelanggan
+keywords: 'optikal bahari, kemayoran, kacamata, info'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]

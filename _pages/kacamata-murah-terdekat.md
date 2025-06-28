@@ -2,7 +2,9 @@
 layout: page
 title: Menyediakan Berbagai Kacamata Murah & Terjangkau
 subtitle: 'Dari Model Terbaru Dengan Berbagai Macam Fasilitas dan Layanan'
-description: Jangan ragu untuk mengunjungi Optikal Bahari dan konsultasikan keluhan anda terkait penglihatan dengan tim profesional kami. Jadi tunggu apalagi, segera kunjungi Optikal Bahari untuk memenuhi kebutuhan kacamata anda.
+description: Jangan ragu untuk mengunjungi Optikal Bahari dan konsultasikan keluhan anda
+  terkait penglihatan dengan tim profesional kami. Jadi tunggu apalagi, segera
+  kunjungi Optikal Bahari untuk memenuhi kebutuhan kacamata anda.
 keywords: 'kacamata murah terdekat, kacamata murah, kacamata terdekat'
 lang: id-ID
 author: Optikal Bahari

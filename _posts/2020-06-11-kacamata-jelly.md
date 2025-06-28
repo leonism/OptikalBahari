@@ -2,7 +2,8 @@
 layout: post
 title: Kacamata Jelly Buat Tampilan Makin Manis
 subtitle: Trend Unik
-description: Penggunaan kacamata model jelly terhadap kulit wajah orang Korea Selatan yang memang sangat cocok dengan kulit mereka.
+description: Penggunaan kacamata model jelly terhadap kulit wajah orang Korea Selatan yang
+  memang sangat cocok dengan kulit mereka.
 keywords: 'Kacamata Bulat, Kpop, Kacamata Jelly, Oppa, Trend, Korea, Korsel'
 lang: id-ID
 date: '2020-06-11 08:25:23 +0700'

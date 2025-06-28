@@ -1,9 +1,12 @@
 ---
 layout: page
 title: Gaya Kacamata Wanita Terbaik Hanya di Optikal Bahari
-subtitle: "Temukan kacamata wanita terkini dan berkualitas di Optikal Bahari. Dapatkan periksa mata gratis, cicilan 0%, dan garansi 1 tahun"
-description: Temukan kacamata wanita terkini dan berkualitas di Optikal Bahari. Dapatkan periksa mata gratis, cicilan 0%, dan garansi 1 tahun. Kunjungi kami sekarang.
-keywords: "kacamata cicilan, tanpa bunga, tanpa credit card, bunga 0% tanpa DP, cicilan ringan"
+subtitle: 'Temukan kacamata wanita terkini dan berkualitas di Optikal Bahari. Dapatkan
+  periksa mata gratis, cicilan 0%, dan garansi 1 tahun'
+description: Temukan kacamata wanita terkini dan berkualitas di Optikal Bahari. Dapatkan
+  periksa mata gratis, cicilan 0%, dan garansi 1 tahun. Kunjungi kami sekarang.
+keywords: 'kacamata cicilan, tanpa bunga, tanpa credit card, bunga 0% tanpa DP, cicilan
+  ringan'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]

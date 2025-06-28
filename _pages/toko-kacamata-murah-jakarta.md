@@ -2,7 +2,9 @@
 layout: page
 title: Toko Kacamata Murah Di Jakarta
 subtitle: 'Dan Dapatkan Layanan Periksa Mata Gratis'
-description: "Temukan toko kacamata murah di Jakarta hanya di Optikal Bahari. Kami menawarkan berbagai pilihan lensa dan frame dengan harga terjangkau dan kualitas terbaik"
+description: 'Temukan toko kacamata murah di Jakarta hanya di Optikal Bahari. Kami
+  menawarkan berbagai pilihan lensa dan frame dengan harga terjangkau dan
+  kualitas terbaik'
 keywords: 'kacamata murah, periksa mata, periksa mata gratis, periksa mata jakarta'
 lang: id-ID
 author: Optikal Bahari

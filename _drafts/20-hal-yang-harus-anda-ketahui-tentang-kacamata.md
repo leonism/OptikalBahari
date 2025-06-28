@@ -2,7 +2,9 @@
 layout: page
 title: 20 Hal Yang Harus Anda Ketahui Tentang Kacamata
 subtitle: 'Berikut Beberapa Penjelasannya'
-description: "Temukan 20 fakta penting tentang kacamata, mulai dari manfaat kesehatan hingga pilihan gaya dan lensa yang tersedia. Perbanyak pengetahuanmu tentang kacamata"
+description: 'Temukan 20 fakta penting tentang kacamata, mulai dari manfaat kesehatan
+  hingga pilihan gaya dan lensa yang tersedia. Perbanyak pengetahuanmu tentang
+  kacamata'
 keywords: kacamata, Kacamata baru, ganti kacamata
 lang: id-ID
 author: Optikal Bahari

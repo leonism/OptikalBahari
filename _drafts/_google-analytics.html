@@ -1,11 +1,10 @@
 <!-- We don't include this anymore, since we're using Google Tag Manager - Global site tag (gtag.js) - Google Analytics -->
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-FV2N66E55Q"
-></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FV2N66E55Q"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-  gtag('config', '{{ site.google_analytics }}');
+  window.dataLayer = window.dataLayer || []
+  function gtag() {
+    dataLayer.push(arguments)
+  }
+  gtag('js', new Date())
+  gtag('config', '{{ site.google_analytics }}')
 </script>

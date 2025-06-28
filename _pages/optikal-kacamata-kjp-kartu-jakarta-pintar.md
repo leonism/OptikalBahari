@@ -2,8 +2,11 @@
 layout: page
 title: Menerima Pembayaran KJP Untuk Pembelian Kacamata
 subtitle: Kami memberikan layanan periksa mata gratis dan menerima cicilan
-description: Optikal Bahari menerima pembayaran dengan KJP (Kartu Jakarta Pintar) berlokasi di Kemayoran Jakarta Pusat, melayanani periksa mata gratis, dengan berbagai pilihan bingkai dan frame kacamata.
-keywords: 'kacamata, KJP, kartu jakarta pintar, kemayoran, kacamata cicilan, kacamata murah, tanpa bunga, tanpa DP, bayar KJP'
+description: Optikal Bahari menerima pembayaran dengan KJP (Kartu Jakarta Pintar) berlokasi
+  di Kemayoran Jakarta Pusat, melayanani periksa mata gratis, dengan berbagai
+  pilihan bingkai dan frame kacamata.
+keywords: 'kacamata, KJP, kartu jakarta pintar, kemayoran, kacamata cicilan, kacamata
+  murah, tanpa bunga, tanpa DP, bayar KJP'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]

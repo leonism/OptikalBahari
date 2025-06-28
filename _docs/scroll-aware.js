@@ -11,10 +11,7 @@
   o('body')
     .on('input propertychange', '.floating-label-form-group', function (i) {
       // Toggle the class 'floating-label-form-group-with-value' based on whether the input field has a value
-      o(this).toggleClass(
-        'floating-label-form-group-with-value',
-        !!o(i.target).val()
-      )
+      o(this).toggleClass('floating-label-form-group-with-value', !!o(i.target).val())
     })
     .on('focus', '.floating-label-form-group', function () {
       // Add the class 'floating-label-form-group-with-focus' when the element gains focus
@@ -65,10 +62,7 @@
   // Attach event listeners for floating label form groups
   o('body')
     .on('input propertychange', '.floating-label-form-group', function (i) {
-      o(this).toggleClass(
-        'floating-label-form-group-with-value',
-        !!o(i.target).val()
-      )
+      o(this).toggleClass('floating-label-form-group-with-value', !!o(i.target).val())
     })
     .on('focus', '.floating-label-form-group', function () {
       o(this).addClass('floating-label-form-group-with-focus')

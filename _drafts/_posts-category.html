@@ -8,8 +8,10 @@
           <!-- AVIF format -->
           <source
             srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
-    "
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+            "
             type="image/avif"
             sizes="(max-width: 768px) 100vw, 768px"
           />
@@ -17,8 +19,10 @@
           <!-- WEBP format -->
           <source
             srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
-    "
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+            "
             type="image/webp"
             sizes="(max-width: 768px) 100vw, 768px"
           />
@@ -26,8 +30,10 @@
           <!-- JPEG fallback -->
           <source
             srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
-    "
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+            "
             type="image/jpeg"
             sizes="(max-width: 768px) 100vw, 768px"
           />
@@ -49,16 +55,14 @@
         <h5 class="card-title">{{ post.title }}</h5>
         <p class="card-text text-left">
           {{ post.description | strip_html | truncate: 120 }}.
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-            >Lebih Lanjut</a
-          >
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
         </p>
       </div>
       <div class="card-footer">
         <small class="text-muted">
-          Posted by {% if post.author %} {{ post.author }} {% else %} {{
-          site.author }} {% endif %} on {{ post.date | date: '%B %d, %Y' }}
-          &middot; {% include postcards/read_time.html content=post.content %}
+          Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %}
+          on {{ post.date | date: '%B %d, %Y' }} &middot; {% include postcards/read_time.html
+          content=post.content %}
         </small>
       </div>
     </div>
@@ -76,8 +80,10 @@
           <!-- AVIF format -->
           <source
             srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
-    "
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+            "
             type="image/avif"
             sizes="(max-width: 768px) 100vw, 768px"
           />
@@ -85,8 +91,10 @@
           <!-- WEBP format -->
           <source
             srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
-    "
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+            "
             type="image/webp"
             sizes="(max-width: 768px) 100vw, 768px"
           />
@@ -94,8 +102,10 @@
           <!-- JPEG fallback -->
           <source
             srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
-    "
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+            "
             type="image/jpeg"
             sizes="(max-width: 768px) 100vw, 768px"
           />
@@ -117,16 +127,14 @@
         <h5 class="card-title">{{ post.title }}</h5>
         <p class="card-text text-left">
           {{ post.description | strip_html | truncate: 120 }}.
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-            >Lebih Lanjut</a
-          >
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
         </p>
       </div>
       <div class="card-footer">
         <small class="text-muted">
-          Posted by {% if post.author %} {{ post.author }} {% else %} {{
-          site.author }} {% endif %} on {{ post.date | date: '%B %d, %Y' }}
-          &middot; {% include postcards/read_time.html content=post.content %}
+          Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %}
+          on {{ post.date | date: '%B %d, %Y' }} &middot; {% include postcards/read_time.html
+          content=post.content %}
         </small>
       </div>
     </div>
@@ -144,8 +152,10 @@
           <!-- AVIF format -->
           <source
             srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
-    "
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+            "
             type="image/avif"
             sizes="(max-width: 768px) 100vw, 768px"
           />
@@ -153,8 +163,10 @@
           <!-- WEBP format -->
           <source
             srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
-    "
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+            "
             type="image/webp"
             sizes="(max-width: 768px) 100vw, 768px"
           />
@@ -162,8 +174,10 @@
           <!-- JPEG fallback -->
           <source
             srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
-    "
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+            "
             type="image/jpeg"
             sizes="(max-width: 768px) 100vw, 768px"
           />
@@ -186,16 +200,14 @@
         <h5 class="card-title">{{ post.title }}</h5>
         <p class="card-text text-left">
           {{ post.description | strip_html | truncate: 120 }}.
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-            >Lebih Lanjut</a
-          >
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
         </p>
       </div>
       <div class="card-footer">
         <small class="text-muted">
-          Posted by {% if post.author %} {{ post.author }} {% else %} {{
-          site.author }} {% endif %} on {{ post.date | date: '%B %d, %Y' }}
-          &middot; {% include postcards/read_time.html content=post.content %}
+          Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %}
+          on {{ post.date | date: '%B %d, %Y' }} &middot; {% include postcards/read_time.html
+          content=post.content %}
         </small>
       </div>
     </div>

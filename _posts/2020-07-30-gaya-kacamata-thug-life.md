@@ -2,10 +2,13 @@
 layout: post
 title: Gaya Kacamata Thug Life Buat Penampilan Makin Keren
 subtitle: Yang bikin Hype di Internet
-description: Tampil swag atau keren dengan kacamata thug life sangat mungkin Kamu rasakan, bukan hanya melihat meme di berbagai media sosial. Pasti tidak sedikit orang mengira kacamata ini hanya editan aplikasi di komputer. Faktanya, di dunia nyata juga Kamu bisa tampil keren dengan kacamata satu ini.
-keywords: "tips, memilih, kacamata, pemula, swag"
+description: Tampil swag atau keren dengan kacamata thug life sangat mungkin Kamu rasakan,
+  bukan hanya melihat meme di berbagai media sosial. Pasti tidak sedikit orang
+  mengira kacamata ini hanya editan aplikasi di komputer. Faktanya, di dunia
+  nyata juga Kamu bisa tampil keren dengan kacamata satu ini.
+keywords: 'tips, memilih, kacamata, pemula, swag'
 lang: id-ID
-date: "2020-07-30 07:25:23 +0700"
+date: '2020-07-30 07:25:23 +0700'
 author: Optikal Bahari
 categories: [Trend]
 tags: [tips, kacamata, gaya, swag]

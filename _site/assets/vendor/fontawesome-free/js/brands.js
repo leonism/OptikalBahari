@@ -90,8 +90,7 @@
   var namespace = w[NAMESPACE_IDENTIFIER]
 
   function defineIcons(prefix, icons) {
-    var params =
-      arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {}
+    var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {}
     var _params$skipHooks = params.skipHooks,
       skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks
     var normalized = Object.keys(icons).reduce(function (acc, iconName) {
@@ -110,11 +109,7 @@
     if (typeof namespace.hooks.addPack === 'function' && !skipHooks) {
       namespace.hooks.addPack(prefix, normalized)
     } else {
-      namespace.styles[prefix] = _objectSpread(
-        {},
-        namespace.styles[prefix] || {},
-        normalized
-      )
+      namespace.styles[prefix] = _objectSpread({}, namespace.styles[prefix] || {}, normalized)
     }
     /**
      * Font Awesome 4 used the prefix of `fa` for all icons. With the introduction
@@ -1494,13 +1489,7 @@
       'f3b1',
       'M414.9 161.5C340.2 29 121.1 0 121.1 0S222.2 110.4 93 197.7C11.3 252.8-21 324.4 14 402.6c26.8 59.9 83.5 84.3 144.6 93.4-29.2-55.1-6.6-122.4-4.1-129.6 57.1 86.4 165 0 110.8-93.9 71 15.4 81.6 138.6 27.1 215.5 80.5-25.3 134.1-88.9 148.8-145.6 15.5-59.3 3.7-127.9-26.3-180.9z',
     ],
-    houzz: [
-      448,
-      512,
-      [],
-      'f27c',
-      'M275.9 330.7H171.3V480H17V32h109.5v104.5l305.1 85.6V480H275.9z',
-    ],
+    houzz: [448, 512, [], 'f27c', 'M275.9 330.7H171.3V480H17V32h109.5v104.5l305.1 85.6V480H275.9z'],
     html5: [
       384,
       512,

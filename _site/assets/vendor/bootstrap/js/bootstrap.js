@@ -8,14 +8,12 @@
     ? factory(exports, require('jquery'), require('popper.js'))
     : typeof define === 'function' && define.amd
       ? define(['exports', 'jquery', 'popper.js'], factory)
-      : ((global = global || self),
-        factory((global.bootstrap = {}), global.jQuery, global.Popper))
+      : ((global = global || self), factory((global.bootstrap = {}), global.jQuery, global.Popper))
 })(this, function (exports, $, Popper) {
   'use strict'
 
   $ = $ && $.hasOwnProperty('default') ? $['default'] : $
-  Popper =
-    Popper && Popper.hasOwnProperty('default') ? Popper['default'] : Popper
+  Popper = Popper && Popper.hasOwnProperty('default') ? Popper['default'] : Popper
 
   function _defineProperties(target, props) {
     for (var i = 0; i < props.length; i++) {
@@ -161,9 +159,7 @@
         return null
       }
     },
-    getTransitionDurationFromElement: function getTransitionDurationFromElement(
-      element
-    ) {
+    getTransitionDurationFromElement: function getTransitionDurationFromElement(element) {
       if (!element) {
         return 0
       } // Get transition-duration of the element
@@ -180,8 +176,7 @@
       transitionDuration = transitionDuration.split(',')[0]
       transitionDelay = transitionDelay.split(',')[0]
       return (
-        (parseFloat(transitionDuration) + parseFloat(transitionDelay)) *
-        MILLISECONDS_MULTIPLIER
+        (parseFloat(transitionDuration) + parseFloat(transitionDelay)) * MILLISECONDS_MULTIPLIER
       )
     },
     reflow: function reflow(element) {
@@ -197,27 +192,18 @@
     isElement: function isElement(obj) {
       return (obj[0] || obj).nodeType
     },
-    typeCheckConfig: function typeCheckConfig(
-      componentName,
-      config,
-      configTypes
-    ) {
+    typeCheckConfig: function typeCheckConfig(componentName, config, configTypes) {
       for (var property in configTypes) {
         if (Object.prototype.hasOwnProperty.call(configTypes, property)) {
           var expectedTypes = configTypes[property]
           var value = config[property]
-          var valueType =
-            value && Util.isElement(value) ? 'element' : toType(value)
+          var valueType = value && Util.isElement(value) ? 'element' : toType(value)
 
           if (!new RegExp(expectedTypes).test(valueType)) {
             throw new Error(
               componentName.toUpperCase() +
                 ': ' +
-                ('Option "' +
-                  property +
-                  '" provided type "' +
-                  valueType +
-                  '" ') +
+                ('Option "' + property + '" provided type "' + valueType + '" ') +
                 ('but expected type "' + expectedTypes + '".')
             )
           }
@@ -396,11 +382,7 @@
    * ------------------------------------------------------------------------
    */
 
-  $(document).on(
-    Event.CLICK_DATA_API,
-    Selector.DISMISS,
-    Alert._handleDismiss(new Alert())
-  )
+  $(document).on(Event.CLICK_DATA_API, Selector.DISMISS, Alert._handleDismiss(new Alert()))
   /**
    * ------------------------------------------------------------------------
    * jQuery
@@ -442,11 +424,7 @@
   var Event$1 = {
     CLICK_DATA_API: 'click' + EVENT_KEY$1 + DATA_API_KEY$1,
     FOCUS_BLUR_DATA_API:
-      'focus' +
-      EVENT_KEY$1 +
-      DATA_API_KEY$1 +
-      ' ' +
-      ('blur' + EVENT_KEY$1 + DATA_API_KEY$1),
+      'focus' + EVENT_KEY$1 + DATA_API_KEY$1 + ' ' + ('blur' + EVENT_KEY$1 + DATA_API_KEY$1),
     /**
      * ------------------------------------------------------------------------
      * Class Definition
@@ -474,10 +452,7 @@
 
           if (input) {
             if (input.type === 'radio') {
-              if (
-                input.checked &&
-                this._element.classList.contains(ClassName$1.ACTIVE)
-              ) {
+              if (input.checked && this._element.classList.contains(ClassName$1.ACTIVE)) {
                 triggerChangeEvent = false
               } else {
                 var activeElement = rootElement.querySelector(Selector$1.ACTIVE)
@@ -498,9 +473,7 @@
                 return
               }
 
-              input.checked = !this._element.classList.contains(
-                ClassName$1.ACTIVE
-              )
+              input.checked = !this._element.classList.contains(ClassName$1.ACTIVE)
               $(input).trigger('change')
             }
 
@@ -559,31 +532,20 @@
    */
 
   $(document)
-    .on(
-      Event$1.CLICK_DATA_API,
-      Selector$1.DATA_TOGGLE_CARROT,
-      function (event) {
-        event.preventDefault()
-        var button = event.target
+    .on(Event$1.CLICK_DATA_API, Selector$1.DATA_TOGGLE_CARROT, function (event) {
+      event.preventDefault()
+      var button = event.target
 
-        if (!$(button).hasClass(ClassName$1.BUTTON)) {
-          button = $(button).closest(Selector$1.BUTTON)
-        }
+      if (!$(button).hasClass(ClassName$1.BUTTON)) {
+        button = $(button).closest(Selector$1.BUTTON)
+      }
 
-        Button._jQueryInterface.call($(button), 'toggle')
-      }
-    )
-    .on(
-      Event$1.FOCUS_BLUR_DATA_API,
-      Selector$1.DATA_TOGGLE_CARROT,
-      function (event) {
-        var button = $(event.target).closest(Selector$1.BUTTON)[0]
-        $(button).toggleClass(
-          ClassName$1.FOCUS,
-          /^focus(in)?$/.test(event.type)
-        )
-      }
-    )
+      Button._jQueryInterface.call($(button), 'toggle')
+    })
+    .on(Event$1.FOCUS_BLUR_DATA_API, Selector$1.DATA_TOGGLE_CARROT, function (event) {
+      var button = $(event.target).closest(Selector$1.BUTTON)[0]
+      $(button).toggleClass(ClassName$1.FOCUS, /^focus(in)?$/.test(event.type))
+    })
   /**
    * ------------------------------------------------------------------------
    * jQuery
@@ -699,15 +661,10 @@
         this.touchDeltaX = 0
         this._config = this._getConfig(config)
         this._element = element
-        this._indicatorsElement = this._element.querySelector(
-          Selector$2.INDICATORS
-        )
+        this._indicatorsElement = this._element.querySelector(Selector$2.INDICATORS)
         this._touchSupported =
-          'ontouchstart' in document.documentElement ||
-          navigator.maxTouchPoints > 0
-        this._pointerEvent = Boolean(
-          window.PointerEvent || window.MSPointerEvent
-        )
+          'ontouchstart' in document.documentElement || navigator.maxTouchPoints > 0
+        this._pointerEvent = Boolean(window.PointerEvent || window.MSPointerEvent)
 
         this._addEventListeners()
       } // Getters
@@ -765,9 +722,7 @@
 
         if (this._config.interval && !this._isPaused) {
           this._interval = setInterval(
-            (document.visibilityState ? this.nextWhenVisible : this.next).bind(
-              this
-            ),
+            (document.visibilityState ? this.nextWhenVisible : this.next).bind(this),
             this._config.interval
           )
         }
@@ -776,9 +731,7 @@
       _proto.to = function to(index) {
         var _this = this
 
-        this._activeElement = this._element.querySelector(
-          Selector$2.ACTIVE_ITEM
-        )
+        this._activeElement = this._element.querySelector(Selector$2.ACTIVE_ITEM)
 
         var activeIndex = this._getItemIndex(this._activeElement)
 
@@ -873,10 +826,7 @@
         }
 
         var start = function start(event) {
-          if (
-            _this3._pointerEvent &&
-            PointerType[event.originalEvent.pointerType.toUpperCase()]
-          ) {
+          if (_this3._pointerEvent && PointerType[event.originalEvent.pointerType.toUpperCase()]) {
             _this3.touchStartX = event.originalEvent.clientX
           } else if (!_this3._pointerEvent) {
             _this3.touchStartX = event.originalEvent.touches[0].clientX
@@ -885,24 +835,16 @@
 
         var move = function move(event) {
           // ensure swiping with one touch and not pinching
-          if (
-            event.originalEvent.touches &&
-            event.originalEvent.touches.length > 1
-          ) {
+          if (event.originalEvent.touches && event.originalEvent.touches.length > 1) {
             _this3.touchDeltaX = 0
           } else {
-            _this3.touchDeltaX =
-              event.originalEvent.touches[0].clientX - _this3.touchStartX
+            _this3.touchDeltaX = event.originalEvent.touches[0].clientX - _this3.touchStartX
           }
         }
 
         var end = function end(event) {
-          if (
-            _this3._pointerEvent &&
-            PointerType[event.originalEvent.pointerType.toUpperCase()]
-          ) {
-            _this3.touchDeltaX =
-              event.originalEvent.clientX - _this3.touchStartX
+          if (_this3._pointerEvent && PointerType[event.originalEvent.pointerType.toUpperCase()]) {
+            _this3.touchDeltaX = event.originalEvent.clientX - _this3.touchStartX
           }
 
           _this3._handleSwipe()
@@ -927,12 +869,9 @@
           }
         }
 
-        $(this._element.querySelectorAll(Selector$2.ITEM_IMG)).on(
-          Event$2.DRAG_START,
-          function (e) {
-            return e.preventDefault()
-          }
-        )
+        $(this._element.querySelectorAll(Selector$2.ITEM_IMG)).on(Event$2.DRAG_START, function (e) {
+          return e.preventDefault()
+        })
 
         if (this._pointerEvent) {
           $(this._element).on(Event$2.POINTERDOWN, function (event) {
@@ -979,17 +918,12 @@
       _proto._getItemIndex = function _getItemIndex(element) {
         this._items =
           element && element.parentNode
-            ? [].slice.call(
-                element.parentNode.querySelectorAll(Selector$2.ITEM)
-              )
+            ? [].slice.call(element.parentNode.querySelectorAll(Selector$2.ITEM))
             : []
         return this._items.indexOf(element)
       }
 
-      _proto._getItemByDirection = function _getItemByDirection(
-        direction,
-        activeElement
-      ) {
+      _proto._getItemByDirection = function _getItemByDirection(direction, activeElement) {
         var isNextDirection = direction === Direction.NEXT
         var isPrevDirection = direction === Direction.PREV
 
@@ -1006,20 +940,13 @@
 
         var delta = direction === Direction.PREV ? -1 : 1
         var itemIndex = (activeIndex + delta) % this._items.length
-        return itemIndex === -1
-          ? this._items[this._items.length - 1]
-          : this._items[itemIndex]
+        return itemIndex === -1 ? this._items[this._items.length - 1] : this._items[itemIndex]
       }
 
-      _proto._triggerSlideEvent = function _triggerSlideEvent(
-        relatedTarget,
-        eventDirectionName
-      ) {
+      _proto._triggerSlideEvent = function _triggerSlideEvent(relatedTarget, eventDirectionName) {
         var targetIndex = this._getItemIndex(relatedTarget)
 
-        var fromIndex = this._getItemIndex(
-          this._element.querySelector(Selector$2.ACTIVE_ITEM)
-        )
+        var fromIndex = this._getItemIndex(this._element.querySelector(Selector$2.ACTIVE_ITEM))
 
         var slideEvent = $.Event(Event$2.SLIDE, {
           relatedTarget: relatedTarget,
@@ -1031,17 +958,14 @@
         return slideEvent
       }
 
-      _proto._setActiveIndicatorElement = function _setActiveIndicatorElement(
-        element
-      ) {
+      _proto._setActiveIndicatorElement = function _setActiveIndicatorElement(element) {
         if (this._indicatorsElement) {
           var indicators = [].slice.call(
             this._indicatorsElement.querySelectorAll(Selector$2.ACTIVE)
           )
           $(indicators).removeClass(ClassName$2.ACTIVE)
 
-          var nextIndicator =
-            this._indicatorsElement.children[this._getItemIndex(element)]
+          var nextIndicator = this._indicatorsElement.children[this._getItemIndex(element)]
 
           if (nextIndicator) {
             $(nextIndicator).addClass(ClassName$2.ACTIVE)
@@ -1057,8 +981,7 @@
         var activeElementIndex = this._getItemIndex(activeElement)
 
         var nextElement =
-          element ||
-          (activeElement && this._getItemByDirection(direction, activeElement))
+          element || (activeElement && this._getItemByDirection(direction, activeElement))
 
         var nextElementIndex = this._getItemIndex(nextElement)
 
@@ -1082,10 +1005,7 @@
           return
         }
 
-        var slideEvent = this._triggerSlideEvent(
-          nextElement,
-          eventDirectionName
-        )
+        var slideEvent = this._triggerSlideEvent(nextElement, eventDirectionName)
 
         if (slideEvent.isDefaultPrevented()) {
           return
@@ -1116,33 +1036,23 @@
           Util.reflow(nextElement)
           $(activeElement).addClass(directionalClassName)
           $(nextElement).addClass(directionalClassName)
-          var nextElementInterval = parseInt(
-            nextElement.getAttribute('data-interval'),
-            10
-          )
+          var nextElementInterval = parseInt(nextElement.getAttribute('data-interval'), 10)
 
           if (nextElementInterval) {
-            this._config.defaultInterval =
-              this._config.defaultInterval || this._config.interval
+            this._config.defaultInterval = this._config.defaultInterval || this._config.interval
             this._config.interval = nextElementInterval
           } else {
-            this._config.interval =
-              this._config.defaultInterval || this._config.interval
+            this._config.interval = this._config.defaultInterval || this._config.interval
           }
 
-          var transitionDuration =
-            Util.getTransitionDurationFromElement(activeElement)
+          var transitionDuration = Util.getTransitionDurationFromElement(activeElement)
           $(activeElement)
             .one(Util.TRANSITION_END, function () {
               $(nextElement)
                 .removeClass(directionalClassName + ' ' + orderClassName)
                 .addClass(ClassName$2.ACTIVE)
               $(activeElement).removeClass(
-                ClassName$2.ACTIVE +
-                  ' ' +
-                  orderClassName +
-                  ' ' +
-                  directionalClassName
+                ClassName$2.ACTIVE + ' ' + orderClassName + ' ' + directionalClassName
               )
               _this4._isSliding = false
               setTimeout(function () {
@@ -1247,15 +1157,9 @@
    * ------------------------------------------------------------------------
    */
 
-  $(document).on(
-    Event$2.CLICK_DATA_API,
-    Selector$2.DATA_SLIDE,
-    Carousel._dataApiClickHandler
-  )
+  $(document).on(Event$2.CLICK_DATA_API, Selector$2.DATA_SLIDE, Carousel._dataApiClickHandler)
   $(window).on(Event$2.LOAD_DATA_API, function () {
-    var carousels = [].slice.call(
-      document.querySelectorAll(Selector$2.DATA_RIDE)
-    )
+    var carousels = [].slice.call(document.querySelectorAll(Selector$2.DATA_RIDE))
 
     for (var i = 0, len = carousels.length; i < len; i++) {
       var $carousel = $(carousels[i])
@@ -1339,9 +1243,7 @@
               ('[data-toggle="collapse"][data-target="#' + element.id + '"]')
           )
         )
-        var toggleList = [].slice.call(
-          document.querySelectorAll(Selector$3.DATA_TOGGLE)
-        )
+        var toggleList = [].slice.call(document.querySelectorAll(Selector$3.DATA_TOGGLE))
 
         for (var i = 0, len = toggleList.length; i < len; i++) {
           var elem = toggleList[i]
@@ -1384,10 +1286,7 @@
       _proto.show = function show() {
         var _this = this
 
-        if (
-          this._isTransitioning ||
-          $(this._element).hasClass(ClassName$3.SHOW)
-        ) {
+        if (this._isTransitioning || $(this._element).hasClass(ClassName$3.SHOW)) {
           return
         }
 
@@ -1435,15 +1334,11 @@
 
         var dimension = this._getDimension()
 
-        $(this._element)
-          .removeClass(ClassName$3.COLLAPSE)
-          .addClass(ClassName$3.COLLAPSING)
+        $(this._element).removeClass(ClassName$3.COLLAPSE).addClass(ClassName$3.COLLAPSING)
         this._element.style[dimension] = 0
 
         if (this._triggerArray.length) {
-          $(this._triggerArray)
-            .removeClass(ClassName$3.COLLAPSED)
-            .attr('aria-expanded', true)
+          $(this._triggerArray).removeClass(ClassName$3.COLLAPSED).attr('aria-expanded', true)
         }
 
         this.setTransitioning(true)
@@ -1460,25 +1355,17 @@
           $(_this._element).trigger(Event$3.SHOWN)
         }
 
-        var capitalizedDimension =
-          dimension[0].toUpperCase() + dimension.slice(1)
+        var capitalizedDimension = dimension[0].toUpperCase() + dimension.slice(1)
         var scrollSize = 'scroll' + capitalizedDimension
-        var transitionDuration = Util.getTransitionDurationFromElement(
-          this._element
-        )
-        $(this._element)
-          .one(Util.TRANSITION_END, complete)
-          .emulateTransitionEnd(transitionDuration)
+        var transitionDuration = Util.getTransitionDurationFromElement(this._element)
+        $(this._element).one(Util.TRANSITION_END, complete).emulateTransitionEnd(transitionDuration)
         this._element.style[dimension] = this._element[scrollSize] + 'px'
       }
 
       _proto.hide = function hide() {
         var _this2 = this
 
-        if (
-          this._isTransitioning ||
-          !$(this._element).hasClass(ClassName$3.SHOW)
-        ) {
+        if (this._isTransitioning || !$(this._element).hasClass(ClassName$3.SHOW)) {
           return
         }
 
@@ -1491,8 +1378,7 @@
 
         var dimension = this._getDimension()
 
-        this._element.style[dimension] =
-          this._element.getBoundingClientRect()[dimension] + 'px'
+        this._element.style[dimension] = this._element.getBoundingClientRect()[dimension] + 'px'
         Util.reflow(this._element)
         $(this._element)
           .addClass(ClassName$3.COLLAPSING)
@@ -1509,9 +1395,7 @@
               var $elem = $([].slice.call(document.querySelectorAll(selector)))
 
               if (!$elem.hasClass(ClassName$3.SHOW)) {
-                $(trigger)
-                  .addClass(ClassName$3.COLLAPSED)
-                  .attr('aria-expanded', false)
+                $(trigger).addClass(ClassName$3.COLLAPSED).attr('aria-expanded', false)
               }
             }
           }
@@ -1529,12 +1413,8 @@
         }
 
         this._element.style[dimension] = ''
-        var transitionDuration = Util.getTransitionDurationFromElement(
-          this._element
-        )
-        $(this._element)
-          .one(Util.TRANSITION_END, complete)
-          .emulateTransitionEnd(transitionDuration)
+        var transitionDuration = Util.getTransitionDurationFromElement(this._element)
+        $(this._element).one(Util.TRANSITION_END, complete).emulateTransitionEnd(transitionDuration)
       }
 
       _proto.setTransitioning = function setTransitioning(isTransitioning) {
@@ -1578,28 +1458,19 @@
           parent = document.querySelector(this._config.parent)
         }
 
-        var selector =
-          '[data-toggle="collapse"][data-parent="' + this._config.parent + '"]'
+        var selector = '[data-toggle="collapse"][data-parent="' + this._config.parent + '"]'
         var children = [].slice.call(parent.querySelectorAll(selector))
         $(children).each(function (i, element) {
-          _this3._addAriaAndCollapsedClass(
-            Collapse._getTargetFromElement(element),
-            [element]
-          )
+          _this3._addAriaAndCollapsedClass(Collapse._getTargetFromElement(element), [element])
         })
         return parent
       }
 
-      _proto._addAriaAndCollapsedClass = function _addAriaAndCollapsedClass(
-        element,
-        triggerArray
-      ) {
+      _proto._addAriaAndCollapsedClass = function _addAriaAndCollapsedClass(element, triggerArray) {
         var isOpen = $(element).hasClass(ClassName$3.SHOW)
 
         if (triggerArray.length) {
-          $(triggerArray)
-            .toggleClass(ClassName$3.COLLAPSED, !isOpen)
-            .attr('aria-expanded', isOpen)
+          $(triggerArray).toggleClass(ClassName$3.COLLAPSED, !isOpen).attr('aria-expanded', isOpen)
         }
       } // Static
 
@@ -1662,27 +1533,23 @@
    * ------------------------------------------------------------------------
    */
 
-  $(document).on(
-    Event$3.CLICK_DATA_API,
-    Selector$3.DATA_TOGGLE,
-    function (event) {
-      // preventDefault only for <a> elements (which change the URL) not inside the collapsible element
-      if (event.currentTarget.tagName === 'A') {
-        event.preventDefault()
-      }
-
-      var $trigger = $(this)
-      var selector = Util.getSelectorFromElement(this)
-      var selectors = [].slice.call(document.querySelectorAll(selector))
-      $(selectors).each(function () {
-        var $target = $(this)
-        var data = $target.data(DATA_KEY$3)
-        var config = data ? 'toggle' : $trigger.data()
-
-        Collapse._jQueryInterface.call($target, config)
-      })
+  $(document).on(Event$3.CLICK_DATA_API, Selector$3.DATA_TOGGLE, function (event) {
+    // preventDefault only for <a> elements (which change the URL) not inside the collapsible element
+    if (event.currentTarget.tagName === 'A') {
+      event.preventDefault()
     }
-  )
+
+    var $trigger = $(this)
+    var selector = Util.getSelectorFromElement(this)
+    var selectors = [].slice.call(document.querySelectorAll(selector))
+    $(selectors).each(function () {
+      var $target = $(this)
+      var data = $target.data(DATA_KEY$3)
+      var config = data ? 'toggle' : $trigger.data()
+
+      Collapse._jQueryInterface.call($target, config)
+    })
+  })
   /**
    * ------------------------------------------------------------------------
    * jQuery
@@ -1749,8 +1616,7 @@
     FORM_CHILD: '.dropdown form',
     MENU: '.dropdown-menu',
     NAVBAR_NAV: '.navbar-nav',
-    VISIBLE_ITEMS:
-      '.dropdown-menu .dropdown-item:not(.disabled):not(:disabled)',
+    VISIBLE_ITEMS: '.dropdown-menu .dropdown-item:not(.disabled):not(:disabled)',
   }
   var AttachmentMap = {
     TOP: 'top-start',
@@ -1799,10 +1665,7 @@
 
       // Public
       _proto.toggle = function toggle() {
-        if (
-          this._element.disabled ||
-          $(this._element).hasClass(ClassName$4.DISABLED)
-        ) {
+        if (this._element.disabled || $(this._element).hasClass(ClassName$4.DISABLED)) {
           return
         }
 
@@ -1832,9 +1695,7 @@
            * Popper - https://popper.js.org
            */
           if (typeof Popper === 'undefined') {
-            throw new TypeError(
-              "Bootstrap's dropdowns require Popper.js (https://popper.js.org/)"
-            )
+            throw new TypeError("Bootstrap's dropdowns require Popper.js (https://popper.js.org/)")
           }
 
           var referenceElement = this._element
@@ -1855,11 +1716,7 @@
             $(parent).addClass(ClassName$4.POSITION_STATIC)
           }
 
-          this._popper = new Popper(
-            referenceElement,
-            this._menu,
-            this._getPopperConfig()
-          )
+          this._popper = new Popper(referenceElement, this._menu, this._getPopperConfig())
         } // If this is a touch-enabled device we add extra
         // empty mouseover listeners to the body's immediate children;
         // only needed because of broken event delegation on iOS
@@ -1877,9 +1734,7 @@
         this._element.setAttribute('aria-expanded', true)
 
         $(this._menu).toggleClass(ClassName$4.SHOW)
-        $(parent)
-          .toggleClass(ClassName$4.SHOW)
-          .trigger($.Event(Event$4.SHOWN, relatedTarget))
+        $(parent).toggleClass(ClassName$4.SHOW).trigger($.Event(Event$4.SHOWN, relatedTarget))
       }
 
       _proto.show = function show() {
@@ -1905,9 +1760,7 @@
         }
 
         $(this._menu).toggleClass(ClassName$4.SHOW)
-        $(parent)
-          .toggleClass(ClassName$4.SHOW)
-          .trigger($.Event(Event$4.SHOWN, relatedTarget))
+        $(parent).toggleClass(ClassName$4.SHOW).trigger($.Event(Event$4.SHOWN, relatedTarget))
       }
 
       _proto.hide = function hide() {
@@ -1933,9 +1786,7 @@
         }
 
         $(this._menu).toggleClass(ClassName$4.SHOW)
-        $(parent)
-          .toggleClass(ClassName$4.SHOW)
-          .trigger($.Event(Event$4.HIDDEN, relatedTarget))
+        $(parent).toggleClass(ClassName$4.SHOW).trigger($.Event(Event$4.HIDDEN, relatedTarget))
       }
 
       _proto.dispose = function dispose() {
@@ -1971,12 +1822,7 @@
       }
 
       _proto._getConfig = function _getConfig(config) {
-        config = _objectSpread(
-          {},
-          this.constructor.Default,
-          $(this._element).data(),
-          config
-        )
+        config = _objectSpread({}, this.constructor.Default, $(this._element).data(), config)
         Util.typeCheckConfig(NAME$4, config, this.constructor.DefaultType)
         return config
       }
@@ -2092,9 +1938,7 @@
           return
         }
 
-        var toggles = [].slice.call(
-          document.querySelectorAll(Selector$4.DATA_TOGGLE)
-        )
+        var toggles = [].slice.call(document.querySelectorAll(Selector$4.DATA_TOGGLE))
 
         for (var i = 0, len = toggles.length; i < len; i++) {
           var parent = Dropdown._getParentFromElement(toggles[i])
@@ -2120,8 +1964,7 @@
 
           if (
             event &&
-            ((event.type === 'click' &&
-              /input|textarea/i.test(event.target.tagName)) ||
+            ((event.type === 'click' && /input|textarea/i.test(event.target.tagName)) ||
               (event.type === 'keyup' && event.which === TAB_KEYCODE)) &&
             $.contains(parent, event.target)
           ) {
@@ -2142,9 +1985,7 @@
 
           toggles[i].setAttribute('aria-expanded', 'false')
           $(dropdownMenu).removeClass(ClassName$4.SHOW)
-          $(parent)
-            .removeClass(ClassName$4.SHOW)
-            .trigger($.Event(Event$4.HIDDEN, relatedTarget))
+          $(parent).removeClass(ClassName$4.SHOW).trigger($.Event(Event$4.HIDDEN, relatedTarget))
         }
       }
 
@@ -2171,8 +2012,7 @@
           /input|textarea/i.test(event.target.tagName)
             ? event.which === SPACE_KEYCODE ||
               (event.which !== ESCAPE_KEYCODE &&
-                ((event.which !== ARROW_DOWN_KEYCODE &&
-                  event.which !== ARROW_UP_KEYCODE) ||
+                ((event.which !== ARROW_DOWN_KEYCODE && event.which !== ARROW_UP_KEYCODE) ||
                   $(event.target).closest(Selector$4.MENU).length))
             : !REGEXP_KEYDOWN.test(event.which)
         ) {
@@ -2192,8 +2032,7 @@
 
         if (
           !isActive ||
-          (isActive &&
-            (event.which === ESCAPE_KEYCODE || event.which === SPACE_KEYCODE))
+          (isActive && (event.which === ESCAPE_KEYCODE || event.which === SPACE_KEYCODE))
         ) {
           if (event.which === ESCAPE_KEYCODE) {
             var toggle = parent.querySelector(Selector$4.DATA_TOGGLE)
@@ -2204,9 +2043,7 @@
           return
         }
 
-        var items = [].slice.call(
-          parent.querySelectorAll(Selector$4.VISIBLE_ITEMS)
-        )
+        var items = [].slice.call(parent.querySelectorAll(Selector$4.VISIBLE_ITEMS))
 
         if (items.length === 0) {
           return
@@ -2261,20 +2098,9 @@
    */
 
   $(document)
-    .on(
-      Event$4.KEYDOWN_DATA_API,
-      Selector$4.DATA_TOGGLE,
-      Dropdown._dataApiKeydownHandler
-    )
-    .on(
-      Event$4.KEYDOWN_DATA_API,
-      Selector$4.MENU,
-      Dropdown._dataApiKeydownHandler
-    )
-    .on(
-      Event$4.CLICK_DATA_API + ' ' + Event$4.KEYUP_DATA_API,
-      Dropdown._clearMenus
-    )
+    .on(Event$4.KEYDOWN_DATA_API, Selector$4.DATA_TOGGLE, Dropdown._dataApiKeydownHandler)
+    .on(Event$4.KEYDOWN_DATA_API, Selector$4.MENU, Dropdown._dataApiKeydownHandler)
+    .on(Event$4.CLICK_DATA_API + ' ' + Event$4.KEYUP_DATA_API, Dropdown._clearMenus)
     .on(Event$4.CLICK_DATA_API, Selector$4.DATA_TOGGLE, function (event) {
       event.preventDefault()
       event.stopPropagation()
@@ -2413,13 +2239,9 @@
 
         this._setResizeEvent()
 
-        $(this._element).on(
-          Event$5.CLICK_DISMISS,
-          Selector$5.DATA_DISMISS,
-          function (event) {
-            return _this.hide(event)
-          }
-        )
+        $(this._element).on(Event$5.CLICK_DISMISS, Selector$5.DATA_DISMISS, function (event) {
+          return _this.hide(event)
+        })
         $(this._dialog).on(Event$5.MOUSEDOWN_DISMISS, function () {
           $(_this._element).one(Event$5.MOUSEUP_DISMISS, function (event) {
             if ($(event.target).is(_this._element)) {
@@ -2468,9 +2290,7 @@
         $(this._dialog).off(Event$5.MOUSEDOWN_DISMISS)
 
         if (transition) {
-          var transitionDuration = Util.getTransitionDurationFromElement(
-            this._element
-          )
+          var transitionDuration = Util.getTransitionDurationFromElement(this._element)
           $(this._element)
             .one(Util.TRANSITION_END, function (event) {
               return _this2._hideModal(event)
@@ -2519,10 +2339,7 @@
 
         var transition = $(this._element).hasClass(ClassName$5.FADE)
 
-        if (
-          !this._element.parentNode ||
-          this._element.parentNode.nodeType !== Node.ELEMENT_NODE
-        ) {
+        if (!this._element.parentNode || this._element.parentNode.nodeType !== Node.ELEMENT_NODE) {
           // Don't move modal's DOM position
           document.body.appendChild(this._element)
         }
@@ -2563,9 +2380,7 @@
         }
 
         if (transition) {
-          var transitionDuration = Util.getTransitionDurationFromElement(
-            this._dialog
-          )
+          var transitionDuration = Util.getTransitionDurationFromElement(this._dialog)
           $(this._dialog)
             .one(Util.TRANSITION_END, transitionComplete)
             .emulateTransitionEnd(transitionDuration)
@@ -2650,9 +2465,7 @@
       _proto._showBackdrop = function _showBackdrop(callback) {
         var _this8 = this
 
-        var animate = $(this._element).hasClass(ClassName$5.FADE)
-          ? ClassName$5.FADE
-          : ''
+        var animate = $(this._element).hasClass(ClassName$5.FADE) ? ClassName$5.FADE : ''
 
         if (this._isShown && this._config.backdrop) {
           this._backdrop = document.createElement('div')
@@ -2695,8 +2508,7 @@
             return
           }
 
-          var backdropTransitionDuration =
-            Util.getTransitionDurationFromElement(this._backdrop)
+          var backdropTransitionDuration = Util.getTransitionDurationFromElement(this._backdrop)
           $(this._backdrop)
             .one(Util.TRANSITION_END, callback)
             .emulateTransitionEnd(backdropTransitionDuration)
@@ -2712,8 +2524,7 @@
           }
 
           if ($(this._element).hasClass(ClassName$5.FADE)) {
-            var _backdropTransitionDuration =
-              Util.getTransitionDurationFromElement(this._backdrop)
+            var _backdropTransitionDuration = Util.getTransitionDurationFromElement(this._backdrop)
 
             $(this._backdrop)
               .one(Util.TRANSITION_END, callbackRemove)
@@ -2730,8 +2541,7 @@
       // ----------------------------------------------------------------------
 
       _proto._adjustDialog = function _adjustDialog() {
-        var isModalOverflowing =
-          this._element.scrollHeight > document.documentElement.clientHeight
+        var isModalOverflowing = this._element.scrollHeight > document.documentElement.clientHeight
 
         if (!this._isBodyOverflowing && isModalOverflowing) {
           this._element.style.paddingLeft = this._scrollbarWidth + 'px'
@@ -2759,22 +2569,15 @@
         if (this._isBodyOverflowing) {
           // Note: DOMNode.style.paddingRight returns the actual value or '' if not set
           //   while $(DOMNode).css('padding-right') returns the calculated value or 0 if not set
-          var fixedContent = [].slice.call(
-            document.querySelectorAll(Selector$5.FIXED_CONTENT)
-          )
-          var stickyContent = [].slice.call(
-            document.querySelectorAll(Selector$5.STICKY_CONTENT)
-          ) // Adjust fixed content padding
+          var fixedContent = [].slice.call(document.querySelectorAll(Selector$5.FIXED_CONTENT))
+          var stickyContent = [].slice.call(document.querySelectorAll(Selector$5.STICKY_CONTENT)) // Adjust fixed content padding
 
           $(fixedContent).each(function (index, element) {
             var actualPadding = element.style.paddingRight
             var calculatedPadding = $(element).css('padding-right')
             $(element)
               .data('padding-right', actualPadding)
-              .css(
-                'padding-right',
-                parseFloat(calculatedPadding) + _this9._scrollbarWidth + 'px'
-              )
+              .css('padding-right', parseFloat(calculatedPadding) + _this9._scrollbarWidth + 'px')
           }) // Adjust sticky content margin
 
           $(stickyContent).each(function (index, element) {
@@ -2782,20 +2585,14 @@
             var calculatedMargin = $(element).css('margin-right')
             $(element)
               .data('margin-right', actualMargin)
-              .css(
-                'margin-right',
-                parseFloat(calculatedMargin) - _this9._scrollbarWidth + 'px'
-              )
+              .css('margin-right', parseFloat(calculatedMargin) - _this9._scrollbarWidth + 'px')
           }) // Adjust body padding
 
           var actualPadding = document.body.style.paddingRight
           var calculatedPadding = $(document.body).css('padding-right')
           $(document.body)
             .data('padding-right', actualPadding)
-            .css(
-              'padding-right',
-              parseFloat(calculatedPadding) + this._scrollbarWidth + 'px'
-            )
+            .css('padding-right', parseFloat(calculatedPadding) + this._scrollbarWidth + 'px')
         }
 
         $(document.body).addClass(ClassName$5.OPEN)
@@ -2803,18 +2600,14 @@
 
       _proto._resetScrollbar = function _resetScrollbar() {
         // Restore fixed content padding
-        var fixedContent = [].slice.call(
-          document.querySelectorAll(Selector$5.FIXED_CONTENT)
-        )
+        var fixedContent = [].slice.call(document.querySelectorAll(Selector$5.FIXED_CONTENT))
         $(fixedContent).each(function (index, element) {
           var padding = $(element).data('padding-right')
           $(element).removeData('padding-right')
           element.style.paddingRight = padding ? padding : ''
         }) // Restore sticky content
 
-        var elements = [].slice.call(
-          document.querySelectorAll('' + Selector$5.STICKY_CONTENT)
-        )
+        var elements = [].slice.call(document.querySelectorAll('' + Selector$5.STICKY_CONTENT))
         $(elements).each(function (index, element) {
           var margin = $(element).data('margin-right')
 
@@ -2833,16 +2626,12 @@
         var scrollDiv = document.createElement('div')
         scrollDiv.className = ClassName$5.SCROLLBAR_MEASURER
         document.body.appendChild(scrollDiv)
-        var scrollbarWidth =
-          scrollDiv.getBoundingClientRect().width - scrollDiv.clientWidth
+        var scrollbarWidth = scrollDiv.getBoundingClientRect().width - scrollDiv.clientWidth
         document.body.removeChild(scrollDiv)
         return scrollbarWidth
       } // Static
 
-      Modal._jQueryInterface = function _jQueryInterface(
-        config,
-        relatedTarget
-      ) {
+      Modal._jQueryInterface = function _jQueryInterface(config, relatedTarget) {
         return this.each(function () {
           var data = $(this).data(DATA_KEY$5)
 
@@ -2893,43 +2682,39 @@
    * ------------------------------------------------------------------------
    */
 
-  $(document).on(
-    Event$5.CLICK_DATA_API,
-    Selector$5.DATA_TOGGLE,
-    function (event) {
-      var _this10 = this
+  $(document).on(Event$5.CLICK_DATA_API, Selector$5.DATA_TOGGLE, function (event) {
+    var _this10 = this
 
-      var target
-      var selector = Util.getSelectorFromElement(this)
+    var target
+    var selector = Util.getSelectorFromElement(this)
 
-      if (selector) {
-        target = document.querySelector(selector)
-      }
-
-      var config = $(target).data(DATA_KEY$5)
-        ? 'toggle'
-        : _objectSpread({}, $(target).data(), $(this).data())
-
-      if (this.tagName === 'A' || this.tagName === 'AREA') {
-        event.preventDefault()
-      }
-
-      var $target = $(target).one(Event$5.SHOW, function (showEvent) {
-        if (showEvent.isDefaultPrevented()) {
-          // Only register focus restorer if modal will actually get shown
-          return
-        }
-
-        $target.one(Event$5.HIDDEN, function () {
-          if ($(_this10).is(':visible')) {
-            _this10.focus()
-          }
-        })
-      })
-
-      Modal._jQueryInterface.call($(target), config, this)
+    if (selector) {
+      target = document.querySelector(selector)
     }
-  )
+
+    var config = $(target).data(DATA_KEY$5)
+      ? 'toggle'
+      : _objectSpread({}, $(target).data(), $(this).data())
+
+    if (this.tagName === 'A' || this.tagName === 'AREA') {
+      event.preventDefault()
+    }
+
+    var $target = $(target).one(Event$5.SHOW, function (showEvent) {
+      if (showEvent.isDefaultPrevented()) {
+        // Only register focus restorer if modal will actually get shown
+        return
+      }
+
+      $target.one(Event$5.HIDDEN, function () {
+        if ($(_this10).is(':visible')) {
+          _this10.focus()
+        }
+      })
+    })
+
+    Modal._jQueryInterface.call($(target), config, this)
+  })
   /**
    * ------------------------------------------------------------------------
    * jQuery
@@ -2999,8 +2784,7 @@
      * Shoutout to Angular 7 https://github.com/angular/angular/blob/7.2.4/packages/core/src/sanitization/url_sanitizer.ts
      */
   }
-  var SAFE_URL_PATTERN =
-    /^(?:(?:https?|mailto|ftp|tel|file):|[^&:/?#]*(?:[/?#]|$))/gi
+  var SAFE_URL_PATTERN = /^(?:(?:https?|mailto|ftp|tel|file):|[^&:/?#]*(?:[/?#]|$))/gi
   /**
    * A pattern that matches safe data URLs. Only matches image, video and audio types.
    *
@@ -3016,8 +2800,7 @@
     if (allowedAttributeList.indexOf(attrName) !== -1) {
       if (uriAttrs.indexOf(attrName) !== -1) {
         return Boolean(
-          attr.nodeValue.match(SAFE_URL_PATTERN) ||
-            attr.nodeValue.match(DATA_URL_PATTERN)
+          attr.nodeValue.match(SAFE_URL_PATTERN) || attr.nodeValue.match(DATA_URL_PATTERN)
         )
       }
 
@@ -3061,10 +2844,7 @@
       }
 
       var attributeList = [].slice.call(el.attributes)
-      var whitelistedAttributes = [].concat(
-        whiteList['*'] || [],
-        whiteList[elName] || []
-      )
+      var whitelistedAttributes = [].concat(whiteList['*'] || [], whiteList[elName] || [])
       attributeList.forEach(function (attr) {
         if (!allowedAttribute(attr, whitelistedAttributes)) {
           el.removeAttribute(attr.nodeName)
@@ -3185,9 +2965,7 @@
          * Popper - https://popper.js.org
          */
         if (typeof Popper === 'undefined') {
-          throw new TypeError(
-            "Bootstrap's tooltips require Popper.js (https://popper.js.org/)"
-          )
+          throw new TypeError("Bootstrap's tooltips require Popper.js (https://popper.js.org/)")
         } // private
 
         this._isEnabled = true
@@ -3228,10 +3006,7 @@
           var context = $(event.currentTarget).data(dataKey)
 
           if (!context) {
-            context = new this.constructor(
-              event.currentTarget,
-              this._getDelegateConfig()
-            )
+            context = new this.constructor(event.currentTarget, this._getDelegateConfig())
             $(event.currentTarget).data(dataKey, context)
           }
 
@@ -3291,9 +3066,7 @@
           $(this.element).trigger(showEvent)
           var shadowRoot = Util.findShadowRoot(this.element)
           var isInTheDom = $.contains(
-            shadowRoot !== null
-              ? shadowRoot
-              : this.element.ownerDocument.documentElement,
+            shadowRoot !== null ? shadowRoot : this.element.ownerDocument.documentElement,
             this.element
           )
 
@@ -3324,9 +3097,7 @@
 
           $(tip).data(this.constructor.DATA_KEY, this)
 
-          if (
-            !$.contains(this.element.ownerDocument.documentElement, this.tip)
-          ) {
+          if (!$.contains(this.element.ownerDocument.documentElement, this.tip)) {
             $(tip).appendTo(container)
           }
 
@@ -3378,12 +3149,8 @@
           }
 
           if ($(this.tip).hasClass(ClassName$6.FADE)) {
-            var transitionDuration = Util.getTransitionDurationFromElement(
-              this.tip
-            )
-            $(this.tip)
-              .one(Util.TRANSITION_END, complete)
-              .emulateTransitionEnd(transitionDuration)
+            var transitionDuration = Util.getTransitionDurationFromElement(this.tip)
+            $(this.tip).one(Util.TRANSITION_END, complete).emulateTransitionEnd(transitionDuration)
           } else {
             complete()
           }
@@ -3435,9 +3202,7 @@
 
         if ($(this.tip).hasClass(ClassName$6.FADE)) {
           var transitionDuration = Util.getTransitionDurationFromElement(tip)
-          $(tip)
-            .one(Util.TRANSITION_END, complete)
-            .emulateTransitionEnd(transitionDuration)
+          $(tip).one(Util.TRANSITION_END, complete).emulateTransitionEnd(transitionDuration)
         } else {
           complete()
         }
@@ -3466,18 +3231,12 @@
 
       _proto.setContent = function setContent() {
         var tip = this.getTipElement()
-        this.setElementContent(
-          $(tip.querySelectorAll(Selector$6.TOOLTIP_INNER)),
-          this.getTitle()
-        )
+        this.setElementContent($(tip.querySelectorAll(Selector$6.TOOLTIP_INNER)), this.getTitle())
         $(tip).removeClass(ClassName$6.FADE + ' ' + ClassName$6.SHOW)
       }
 
       _proto.setElementContent = function setElementContent($element, content) {
-        if (
-          typeof content === 'object' &&
-          (content.nodeType || content.jquery)
-        ) {
+        if (typeof content === 'object' && (content.nodeType || content.jquery)) {
           // Content is a DOM node or a jQuery
           if (this.config.html) {
             if (!$(content).parent().is($element)) {
@@ -3492,11 +3251,7 @@
 
         if (this.config.html) {
           if (this.config.sanitize) {
-            content = sanitizeHtml(
-              content,
-              this.config.whiteList,
-              this.config.sanitizeFn
-            )
+            content = sanitizeHtml(content, this.config.whiteList, this.config.sanitizeFn)
           }
 
           $element.html(content)
@@ -3608,10 +3363,7 @@
         var titleType = typeof this.element.getAttribute('data-original-title')
 
         if (this.element.getAttribute('title') || titleType !== 'string') {
-          this.element.setAttribute(
-            'data-original-title',
-            this.element.getAttribute('title') || ''
-          )
+          this.element.setAttribute('data-original-title', this.element.getAttribute('title') || '')
           this.element.setAttribute('title', '')
         }
       }
@@ -3621,17 +3373,12 @@
         context = context || $(event.currentTarget).data(dataKey)
 
         if (!context) {
-          context = new this.constructor(
-            event.currentTarget,
-            this._getDelegateConfig()
-          )
+          context = new this.constructor(event.currentTarget, this._getDelegateConfig())
           $(event.currentTarget).data(dataKey, context)
         }
 
         if (event) {
-          context._activeTrigger[
-            event.type === 'focusin' ? Trigger.FOCUS : Trigger.HOVER
-          ] = true
+          context._activeTrigger[event.type === 'focusin' ? Trigger.FOCUS : Trigger.HOVER] = true
         }
 
         if (
@@ -3662,17 +3409,12 @@
         context = context || $(event.currentTarget).data(dataKey)
 
         if (!context) {
-          context = new this.constructor(
-            event.currentTarget,
-            this._getDelegateConfig()
-          )
+          context = new this.constructor(event.currentTarget, this._getDelegateConfig())
           $(event.currentTarget).data(dataKey, context)
         }
 
         if (event) {
-          context._activeTrigger[
-            event.type === 'focusout' ? Trigger.FOCUS : Trigger.HOVER
-          ] = false
+          context._activeTrigger[event.type === 'focusout' ? Trigger.FOCUS : Trigger.HOVER] = false
         }
 
         if (context._isWithActiveTrigger()) {
@@ -3736,11 +3478,7 @@
         Util.typeCheckConfig(NAME$6, config, this.constructor.DefaultType)
 
         if (config.sanitize) {
-          config.template = sanitizeHtml(
-            config.template,
-            config.whiteList,
-            config.sanitizeFn
-          )
+          config.template = sanitizeHtml(config.template, config.whiteList, config.sanitizeFn)
         }
 
         return config
@@ -3769,15 +3507,14 @@
         }
       }
 
-      _proto._handlePopperPlacementChange =
-        function _handlePopperPlacementChange(popperData) {
-          var popperInstance = popperData.instance
-          this.tip = popperInstance.popper
+      _proto._handlePopperPlacementChange = function _handlePopperPlacementChange(popperData) {
+        var popperInstance = popperData.instance
+        this.tip = popperInstance.popper
 
-          this._cleanTipClass()
+        this._cleanTipClass()
 
-          this.addAttachmentClass(this._getAttachment(popperData.placement))
-        }
+        this.addAttachmentClass(this._getAttachment(popperData.placement))
+      }
 
       _proto._fixTransition = function _fixTransition() {
         var tip = this.getTipElement()
@@ -3892,10 +3629,7 @@
   var EVENT_KEY$7 = '.' + DATA_KEY$7
   var JQUERY_NO_CONFLICT$7 = $.fn[NAME$7]
   var CLASS_PREFIX$1 = 'bs-popover'
-  var BSCLS_PREFIX_REGEX$1 = new RegExp(
-    '(^|\\s)' + CLASS_PREFIX$1 + '\\S+',
-    'g'
-  )
+  var BSCLS_PREFIX_REGEX$1 = new RegExp('(^|\\s)' + CLASS_PREFIX$1 + '\\S+', 'g')
 
   var Default$5 = _objectSpread({}, Tooltip.Default, {
     placement: 'right',
@@ -4169,10 +3903,8 @@
           this._scrollElement === this._scrollElement.window
             ? OffsetMethod.OFFSET
             : OffsetMethod.POSITION
-        var offsetMethod =
-          this._config.method === 'auto' ? autoMethod : this._config.method
-        var offsetBase =
-          offsetMethod === OffsetMethod.POSITION ? this._getScrollTop() : 0
+        var offsetMethod = this._config.method === 'auto' ? autoMethod : this._config.method
+        var offsetBase = offsetMethod === OffsetMethod.POSITION ? this._getScrollTop() : 0
         this._offsets = []
         this._targets = []
         this._scrollHeight = this._getScrollHeight()
@@ -4191,10 +3923,7 @@
 
               if (targetBCR.width || targetBCR.height) {
                 // TODO (fat): remove sketch reliance on jQuery position/offset
-                return [
-                  $(target)[offsetMethod]().top + offsetBase,
-                  targetSelector,
-                ]
+                return [$(target)[offsetMethod]().top + offsetBase, targetSelector]
               }
             }
 
@@ -4227,11 +3956,7 @@
       } // Private
 
       _proto._getConfig = function _getConfig(config) {
-        config = _objectSpread(
-          {},
-          Default$6,
-          typeof config === 'object' && config ? config : {}
-        )
+        config = _objectSpread({}, Default$6, typeof config === 'object' && config ? config : {})
 
         if (typeof config.target !== 'string') {
           var id = $(config.target).attr('id')
@@ -4257,10 +3982,7 @@
       _proto._getScrollHeight = function _getScrollHeight() {
         return (
           this._scrollElement.scrollHeight ||
-          Math.max(
-            document.body.scrollHeight,
-            document.documentElement.scrollHeight
-          )
+          Math.max(document.body.scrollHeight, document.documentElement.scrollHeight)
         )
       }
 
@@ -4275,8 +3997,7 @@
 
         var scrollHeight = this._getScrollHeight()
 
-        var maxScroll =
-          this._config.offset + scrollHeight - this._getOffsetHeight()
+        var maxScroll = this._config.offset + scrollHeight - this._getOffsetHeight()
 
         if (this._scrollHeight !== scrollHeight) {
           this.refresh()
@@ -4292,11 +4013,7 @@
           return
         }
 
-        if (
-          this._activeTarget &&
-          scrollTop < this._offsets[0] &&
-          this._offsets[0] > 0
-        ) {
+        if (this._activeTarget && scrollTop < this._offsets[0] && this._offsets[0] > 0) {
           this._activeTarget = null
 
           this._clear()
@@ -4310,8 +4027,7 @@
           var isActiveTarget =
             this._activeTarget !== this._targets[i] &&
             scrollTop >= this._offsets[i] &&
-            (typeof this._offsets[i + 1] === 'undefined' ||
-              scrollTop < this._offsets[i + 1])
+            (typeof this._offsets[i + 1] === 'undefined' || scrollTop < this._offsets[i + 1])
 
           if (isActiveTarget) {
             this._activate(this._targets[i])
@@ -4325,21 +4041,10 @@
         this._clear()
 
         var queries = this._selector.split(',').map(function (selector) {
-          return (
-            selector +
-            '[data-target="' +
-            target +
-            '"],' +
-            selector +
-            '[href="' +
-            target +
-            '"]'
-          )
+          return selector + '[data-target="' + target + '"],' + selector + '[href="' + target + '"]'
         })
 
-        var $link = $(
-          [].slice.call(document.querySelectorAll(queries.join(',')))
-        )
+        var $link = $([].slice.call(document.querySelectorAll(queries.join(','))))
 
         if ($link.hasClass(ClassName$8.DROPDOWN_ITEM)) {
           $link
@@ -4425,9 +4130,7 @@
    */
 
   $(window).on(Event$8.LOAD_DATA_API, function () {
-    var scrollSpys = [].slice.call(
-      document.querySelectorAll(Selector$8.DATA_SPY)
-    )
+    var scrollSpys = [].slice.call(document.querySelectorAll(Selector$8.DATA_SPY))
     var scrollSpysLength = scrollSpys.length
 
     for (var i = scrollSpysLength; i--; ) {
@@ -4481,8 +4184,7 @@
     NAV_LIST_GROUP: '.nav, .list-group',
     ACTIVE: '.active',
     ACTIVE_UL: '> li > .active',
-    DATA_TOGGLE:
-      '[data-toggle="tab"], [data-toggle="pill"], [data-toggle="list"]',
+    DATA_TOGGLE: '[data-toggle="tab"], [data-toggle="pill"], [data-toggle="list"]',
     DROPDOWN_TOGGLE: '.dropdown-toggle',
     DROPDOWN_ACTIVE_CHILD: '> .dropdown-menu .active',
     /**
@@ -4578,13 +4280,11 @@
         var _this2 = this
 
         var activeElements =
-          container &&
-          (container.nodeName === 'UL' || container.nodeName === 'OL')
+          container && (container.nodeName === 'UL' || container.nodeName === 'OL')
             ? $(container).find(Selector$9.ACTIVE_UL)
             : $(container).children(Selector$9.ACTIVE)
         var active = activeElements[0]
-        var isTransitioning =
-          callback && active && $(active).hasClass(ClassName$9.FADE)
+        var isTransitioning = callback && active && $(active).hasClass(ClassName$9.FADE)
 
         var complete = function complete() {
           return _this2._transitionComplete(element, active, callback)
@@ -4601,16 +4301,10 @@
         }
       }
 
-      _proto._transitionComplete = function _transitionComplete(
-        element,
-        active,
-        callback
-      ) {
+      _proto._transitionComplete = function _transitionComplete(element, active, callback) {
         if (active) {
           $(active).removeClass(ClassName$9.ACTIVE)
-          var dropdownChild = $(active.parentNode).find(
-            Selector$9.DROPDOWN_ACTIVE_CHILD
-          )[0]
+          var dropdownChild = $(active.parentNode).find(Selector$9.DROPDOWN_ACTIVE_CHILD)[0]
 
           if (dropdownChild) {
             $(dropdownChild).removeClass(ClassName$9.ACTIVE)
@@ -4633,10 +4327,7 @@
           element.classList.add(ClassName$9.SHOW)
         }
 
-        if (
-          element.parentNode &&
-          $(element.parentNode).hasClass(ClassName$9.DROPDOWN_MENU)
-        ) {
+        if (element.parentNode && $(element.parentNode).hasClass(ClassName$9.DROPDOWN_MENU)) {
           var dropdownElement = $(element).closest(Selector$9.DROPDOWN)[0]
 
           if (dropdownElement) {
@@ -4691,15 +4382,11 @@
    * ------------------------------------------------------------------------
    */
 
-  $(document).on(
-    Event$9.CLICK_DATA_API,
-    Selector$9.DATA_TOGGLE,
-    function (event) {
-      event.preventDefault()
+  $(document).on(Event$9.CLICK_DATA_API, Selector$9.DATA_TOGGLE, function (event) {
+    event.preventDefault()
 
-      Tab._jQueryInterface.call($(this), 'show')
-    }
-  )
+    Tab._jQueryInterface.call($(this), 'show')
+  })
   /**
    * ------------------------------------------------------------------------
    * jQuery
@@ -4797,9 +4484,7 @@
         this._element.classList.add(ClassName$a.SHOWING)
 
         if (this._config.animation) {
-          var transitionDuration = Util.getTransitionDurationFromElement(
-            this._element
-          )
+          var transitionDuration = Util.getTransitionDurationFromElement(this._element)
           $(this._element)
             .one(Util.TRANSITION_END, complete)
             .emulateTransitionEnd(transitionDuration)
@@ -4854,13 +4539,9 @@
       _proto._setListeners = function _setListeners() {
         var _this3 = this
 
-        $(this._element).on(
-          Event$a.CLICK_DISMISS,
-          Selector$a.DATA_DISMISS,
-          function () {
-            return _this3.hide(true)
-          }
-        )
+        $(this._element).on(Event$a.CLICK_DISMISS, Selector$a.DATA_DISMISS, function () {
+          return _this3.hide(true)
+        })
       }
 
       _proto._close = function _close() {
@@ -4875,9 +4556,7 @@
         this._element.classList.remove(ClassName$a.SHOW)
 
         if (this._config.animation) {
-          var transitionDuration = Util.getTransitionDurationFromElement(
-            this._element
-          )
+          var transitionDuration = Util.getTransitionDurationFromElement(this._element)
           $(this._element)
             .one(Util.TRANSITION_END, complete)
             .emulateTransitionEnd(transitionDuration)
@@ -4967,14 +4646,10 @@
 
     if (
       (version[0] < ltMajor && version[1] < minMinor) ||
-      (version[0] === minMajor &&
-        version[1] === minMinor &&
-        version[2] < minPatch) ||
+      (version[0] === minMajor && version[1] === minMinor && version[2] < minPatch) ||
       version[0] >= maxMajor
     ) {
-      throw new Error(
-        "Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0"
-      )
+      throw new Error("Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0")
     }
   })()
 

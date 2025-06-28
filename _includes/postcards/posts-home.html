@@ -15,16 +15,14 @@
         <h5 class="card-title">{{ post.title }}</h5>
         <p class="card-text text-left">
           {{ post.description | strip_html | truncatewords: 15 }}.
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-            >Selengkapnya</a
-          >
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya</a>
         </p>
       </div>
       <div class="card-footer">
         <small class="text-muted">
-          Posted by {% if post.author %} {{ post.author }} {% else %} {{
-          site.author }} {% endif %} on {{ post.date | date: '%B %d, %Y' }}
-          &middot; {% include postcards/read_time.html content=post.content %}
+          Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %}
+          on {{ post.date | date: '%B %d, %Y' }} &middot; {% include postcards/read_time.html
+          content=post.content %}
         </small>
       </div>
     </div>

@@ -103,9 +103,9 @@ example:
 
 <!-- Include your custom JavaScript -->
 {% if jekyll.environment == 'production' %}
-  <script src="/assets/js/main.min.js"></script>
+<script src="/assets/js/main.min.js"></script>
 {% else %}
-  <script src="/assets/js/main.js"></script>
+<script src="/assets/js/main.js"></script>
 {% endif %}
 ```
 
@@ -171,7 +171,7 @@ Since you're using jQuery, ensure that:
 ```javascript
 $(document).ready(function () {
   // Your custom JavaScript code here
-});
+})
 ```
 
 #### **Debugging Minified Code**

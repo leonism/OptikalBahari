@@ -2,10 +2,12 @@
 layout: post
 title: Kacamata & Lensa Photocromic Terbaik
 subtitle: Bisa Didapatkan di Optikal Bahari
-description: "Jelajahi koleksi kacamata & lensa photochromic eksklusif terbaru di Optikal Bahari. Temukan gaya unik Anda dengan kenyamanan dan kualitas yang tak tertanding"
-keywords: "lensa photochromic, kacamata photochromic, kacamata & lensa photochromic"
+description: 'Jelajahi koleksi kacamata & lensa photochromic eksklusif terbaru di Optikal
+  Bahari. Temukan gaya unik Anda dengan kenyamanan dan kualitas yang tak
+  tertanding'
+keywords: 'lensa photochromic, kacamata photochromic, kacamata & lensa photochromic'
 lang: id-ID
-date: "2020-02-09 08:25:23 +0700"
+date: '2020-02-09 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Lensa]
 tags: [lensa, produk]

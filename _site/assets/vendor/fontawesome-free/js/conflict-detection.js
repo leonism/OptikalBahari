@@ -101,9 +101,9 @@
   var loaded = false
 
   if (IS_DOM) {
-    loaded = (
-      DOCUMENT.documentElement.doScroll ? /^loaded|^c/ : /^loaded|^i|^c/
-    ).test(DOCUMENT.readyState)
+    loaded = (DOCUMENT.documentElement.doScroll ? /^loaded|^c/ : /^loaded|^i|^c/).test(
+      DOCUMENT.readyState
+    )
     if (!loaded) DOCUMENT.addEventListener('DOMContentLoaded', listener)
   }
 
@@ -211,11 +211,7 @@
           : {}
 
   function createCommonjsModule(fn, module) {
-    return (
-      (module = { exports: {} }),
-      fn(module, module.exports),
-      module.exports
-    )
+    return ((module = { exports: {} }), fn(module, module.exports), module.exports)
   }
 
   var md5 = createCommonjsModule(function (module) {
@@ -258,10 +254,7 @@
        */
 
       function md5cmn(q, a, b, x, s, t) {
-        return safeAdd(
-          bitRotateLeft(safeAdd(safeAdd(a, q), safeAdd(x, t)), s),
-          b
-        )
+        return safeAdd(bitRotateLeft(safeAdd(safeAdd(a, q), safeAdd(x, t)), s), b)
       }
       /**
        * Basic operation the algorithm uses.
@@ -634,8 +627,7 @@
   var md5Attr = 'data-md5'
   var detectionIgnoreAttr = 'data-fa-detection-ignore'
   var timeoutAttr = 'data-fa-detection-timeout'
-  var resultsCollectionMaxWaitAttr =
-    'data-fa-detection-results-collection-max-wait'
+  var resultsCollectionMaxWaitAttr = 'data-fa-detection-results-collection-max-wait'
 
   function pollUntil(_ref) {
     var _ref$fn = _ref.fn,
@@ -646,13 +638,10 @@
             }
           : _ref$fn,
       _ref$initialDuration = _ref.initialDuration,
-      initialDuration =
-        _ref$initialDuration === void 0 ? 1 : _ref$initialDuration,
+      initialDuration = _ref$initialDuration === void 0 ? 1 : _ref$initialDuration,
       _ref$maxDuration = _ref.maxDuration,
       maxDuration =
-        _ref$maxDuration === void 0
-          ? WINDOW.FontAwesomeDetection.timeout
-          : _ref$maxDuration,
+        _ref$maxDuration === void 0 ? WINDOW.FontAwesomeDetection.timeout : _ref$maxDuration,
       _ref$showProgress = _ref.showProgress,
       showProgress = _ref$showProgress === void 0 ? false : _ref$showProgress,
       progressIndicator = _ref.progressIndicator
@@ -687,35 +676,27 @@
   }
 
   function detectWebfontConflicts() {
-    var linkTags = Array.from(DOCUMENT.getElementsByTagName('link')).filter(
-      function (t) {
-        return !t.hasAttribute(detectionIgnoreAttr)
-      }
-    )
-    var styleTags = Array.from(DOCUMENT.getElementsByTagName('style')).filter(
-      function (t) {
-        if (t.hasAttribute(detectionIgnoreAttr)) {
-          return false
-        } // If the browser has loaded the FA5 CSS, let's not test that <style> element.
-        // Its enough that we'll be testing for traces of the corresponding JS being loaded, and testing
-        // this <style> would only produce a false negative anyway.
+    var linkTags = Array.from(DOCUMENT.getElementsByTagName('link')).filter(function (t) {
+      return !t.hasAttribute(detectionIgnoreAttr)
+    })
+    var styleTags = Array.from(DOCUMENT.getElementsByTagName('style')).filter(function (t) {
+      if (t.hasAttribute(detectionIgnoreAttr)) {
+        return false
+      } // If the browser has loaded the FA5 CSS, let's not test that <style> element.
+      // Its enough that we'll be testing for traces of the corresponding JS being loaded, and testing
+      // this <style> would only produce a false negative anyway.
 
-        if (
-          WINDOW.FontAwesomeConfig &&
-          t.innerText.match(
-            new RegExp(
-              'svg:not\\(:root\\)\\.'.concat(
-                WINDOW.FontAwesomeConfig.replacementClass
-              )
-            )
-          )
-        ) {
-          return false
-        }
-
-        return true
+      if (
+        WINDOW.FontAwesomeConfig &&
+        t.innerText.match(
+          new RegExp('svg:not\\(:root\\)\\.'.concat(WINDOW.FontAwesomeConfig.replacementClass))
+        )
+      ) {
+        return false
       }
-    )
+
+      return true
+    })
 
     function runDiag(scriptOrLinkTag, md5) {
       var diagFrame = DOCUMENT.createElement('iframe') // Using "visibility: hidden; position: absolute" instead of "display: none;" because
@@ -738,22 +719,14 @@
       // will probably cause it to choke. Chrome will show an error like this:
       // Uncaught SyntaxError: Unexpected end of input
 
-      var diagScriptFun = function diagScriptFun(
-        nodeUnderTestId,
-        testIconId,
-        md5,
-        parentOrigin
-      ) {
+      var diagScriptFun = function diagScriptFun(nodeUnderTestId, testIconId, md5, parentOrigin) {
         parent.FontAwesomeDetection.__pollUntil({
           fn: function fn() {
             var iEl = document.getElementById(testIconId)
             var computedStyle = window.getComputedStyle(iEl)
             var fontFamily = computedStyle.getPropertyValue('font-family')
 
-            if (
-              !!fontFamily.match(/FontAwesome/) ||
-              !!fontFamily.match(/Font Awesome 5/)
-            ) {
+            if (!!fontFamily.match(/FontAwesome/) || !!fontFamily.match(/Font Awesome 5/)) {
               return true
             } else {
               return false
@@ -795,8 +768,7 @@
           })
       }
 
-      var parentOrigin =
-        WINDOW.location.origin === 'file://' ? '*' : WINDOW.location.origin
+      var parentOrigin = WINDOW.location.origin === 'file://' ? '*' : WINDOW.location.origin
       diagScript.innerText = '('
         .concat(diagScriptFun.toString(), ")('")
         .concat(nodeUnderTestId, "', '")
@@ -867,14 +839,9 @@
       scriptUnderTest.async = true
       var diagScript = DOCUMENT.createElement('script')
       diagScript.setAttribute('id', diagScriptId)
-      var parentOrigin =
-        WINDOW.location.origin === 'file://' ? '*' : WINDOW.location.origin
+      var parentOrigin = WINDOW.location.origin === 'file://' ? '*' : WINDOW.location.origin
 
-      var diagScriptFun = function diagScriptFun(
-        nodeUnderTestId,
-        md5,
-        parentOrigin
-      ) {
+      var diagScriptFun = function diagScriptFun(nodeUnderTestId, md5, parentOrigin) {
         parent.FontAwesomeDetection.__pollUntil({
           fn: function fn() {
             return !!window.FontAwesomeConfig
@@ -948,19 +915,14 @@
 
   function conflictDetection() {
     var report$$1 =
-      arguments.length > 0 && arguments[0] !== undefined
-        ? arguments[0]
-        : function () {}
+      arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : function () {}
     var nodesTested = {
       conflict: {},
       noConflict: {},
     }
 
     WINDOW.onmessage = function (e) {
-      if (
-        WINDOW.location.origin === 'file://' ||
-        e.origin === WINDOW.location.origin
-      ) {
+      if (WINDOW.location.origin === 'file://' || e.origin === WINDOW.location.origin) {
         if (e && e.data) {
           if (e.data.type === 'fontawesome-conflict') {
             nodesTested.conflict[e.data.md5] = e.data
@@ -976,8 +938,7 @@
 
     var nodesFound = _objectSpread({}, scriptsToTest, cssToTest)
 
-    var testCount =
-      Object.keys(scriptsToTest).length + Object.keys(cssToTest).length // The resultsCollectionMaxWait allows for the time between when the tests running under
+    var testCount = Object.keys(scriptsToTest).length + Object.keys(cssToTest).length // The resultsCollectionMaxWait allows for the time between when the tests running under
     // child iframes call postMessage with their results, and when the parent window
     // receives and handles those events with window.onmessage.
     // Making it configurable allows us to test the scenario where this timeout is exceeded.
@@ -985,15 +946,12 @@
     // these two timeout-related settings.
 
     var masterTimeout =
-      WINDOW.FontAwesomeDetection.timeout +
-      WINDOW.FontAwesomeDetection.resultsCollectionMaxWait
+      WINDOW.FontAwesomeDetection.timeout + WINDOW.FontAwesomeDetection.resultsCollectionMaxWait
     console.group('Font Awesome Detector')
 
     if (testCount === 0) {
       console.info('%cAll Good!', 'color: green; font-size: large')
-      console.info(
-        "We didn't find anything that needs testing for conflicts. Ergo, no conflicts."
-      )
+      console.info("We didn't find anything that needs testing for conflicts. Ergo, no conflicts.")
     } else {
       console.info('Testing '.concat(testCount, ' possible conflicts.'))
       console.info(
@@ -1002,9 +960,7 @@
           ' seconds while testing these and\n'
         ) +
           'then up to another '.concat(
-            Math.round(
-              WINDOW.FontAwesomeDetection.resultsCollectionMaxWait / 10
-            ) / 100,
+            Math.round(WINDOW.FontAwesomeDetection.resultsCollectionMaxWait / 10) / 100,
             ' to allow the browser time\n'
           ) +
           "to accumulate the results. But we'll probably be outta here way before then.\n\n"
@@ -1035,8 +991,7 @@
         progressIndicator: 'waiting...',
         fn: function fn() {
           return (
-            Object.keys(nodesTested.conflict).length +
-              Object.keys(nodesTested.noConflict).length >=
+            Object.keys(nodesTested.conflict).length + Object.keys(nodesTested.noConflict).length >=
             testCount
           )
         },
@@ -1055,9 +1010,7 @@
         })
         .catch(function (e) {
           if (e === 'timeout') {
-            console.info(
-              "TIME OUT! We waited until we got tired. Here's what we found:"
-            )
+            console.info("TIME OUT! We waited until we got tired. Here's what we found:")
             setDoneResults({
               nodesTested: nodesTested,
               nodesFound: nodesFound,
@@ -1090,8 +1043,7 @@
     report: report,
     timeout: +(DOCUMENT.currentScript.getAttribute(timeoutAttr) || '2000'),
     resultsCollectionMaxWait: +(
-      DOCUMENT.currentScript.getAttribute(resultsCollectionMaxWaitAttr) ||
-      '5000'
+      DOCUMENT.currentScript.getAttribute(resultsCollectionMaxWaitAttr) || '5000'
     ),
   }
 

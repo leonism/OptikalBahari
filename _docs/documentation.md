@@ -31,7 +31,8 @@ filepath: /Volumes/DATA/Jekyll/OptikalBahari/assets/main.scss
 ```scss
 ---
 ---
-@import "styles";
+
+@import 'styles';
 ```
 
 - The `@import "styles";` statement imports the `_styles.scss` partial from the
@@ -62,7 +63,7 @@ filepath: /Volumes/DATA/Jekyll/OptikalBahari/assets/main.scss
 - For example, in the head.html file, you might have:
 
 ```html
-<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
 ```
 
 In summary, the `main.scss` file in the **assets folder** serves as **the entry
@@ -87,7 +88,8 @@ The **main.scss** file in the `assets` folder imports the `styles` partial:
 ```scss
 ---
 ---
-@import "styles";
+
+@import 'styles';
 ```
 
 This means that `main.scss` will include the contents of styles.scss.

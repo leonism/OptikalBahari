@@ -90,8 +90,7 @@
   var namespace = w[NAMESPACE_IDENTIFIER]
 
   function defineIcons(prefix, icons) {
-    var params =
-      arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {}
+    var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {}
     var _params$skipHooks = params.skipHooks,
       skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks
     var normalized = Object.keys(icons).reduce(function (acc, iconName) {
@@ -110,11 +109,7 @@
     if (typeof namespace.hooks.addPack === 'function' && !skipHooks) {
       namespace.hooks.addPack(prefix, normalized)
     } else {
-      namespace.styles[prefix] = _objectSpread(
-        {},
-        namespace.styles[prefix] || {},
-        normalized
-      )
+      namespace.styles[prefix] = _objectSpread({}, namespace.styles[prefix] || {}, normalized)
     }
     /**
      * Font Awesome 4 used the prefix of `fa` for all icons. With the introduction
@@ -1494,13 +1489,7 @@
       'f3b1',
       'M414.9 161.5C340.2 29 121.1 0 121.1 0S222.2 110.4 93 197.7C11.3 252.8-21 324.4 14 402.6c26.8 59.9 83.5 84.3 144.6 93.4-29.2-55.1-6.6-122.4-4.1-129.6 57.1 86.4 165 0 110.8-93.9 71 15.4 81.6 138.6 27.1 215.5 80.5-25.3 134.1-88.9 148.8-145.6 15.5-59.3 3.7-127.9-26.3-180.9z',
     ],
-    houzz: [
-      448,
-      512,
-      [],
-      'f27c',
-      'M275.9 330.7H171.3V480H17V32h109.5v104.5l305.1 85.6V480H275.9z',
-    ],
+    houzz: [448, 512, [], 'f27c', 'M275.9 330.7H171.3V480H17V32h109.5v104.5l305.1 85.6V480H275.9z'],
     html5: [
       384,
       512,
@@ -3226,8 +3215,7 @@
   var namespace = w[NAMESPACE_IDENTIFIER]
 
   function defineIcons(prefix, icons) {
-    var params =
-      arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {}
+    var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {}
     var _params$skipHooks = params.skipHooks,
       skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks
     var normalized = Object.keys(icons).reduce(function (acc, iconName) {
@@ -3246,11 +3234,7 @@
     if (typeof namespace.hooks.addPack === 'function' && !skipHooks) {
       namespace.hooks.addPack(prefix, normalized)
     } else {
-      namespace.styles[prefix] = _objectSpread(
-        {},
-        namespace.styles[prefix] || {},
-        normalized
-      )
+      namespace.styles[prefix] = _objectSpread({}, namespace.styles[prefix] || {}, normalized)
     }
     /**
      * Font Awesome 4 used the prefix of `fa` for all icons. With the introduction
@@ -4423,8 +4407,7 @@
   var namespace = w[NAMESPACE_IDENTIFIER]
 
   function defineIcons(prefix, icons) {
-    var params =
-      arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {}
+    var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {}
     var _params$skipHooks = params.skipHooks,
       skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks
     var normalized = Object.keys(icons).reduce(function (acc, iconName) {
@@ -4443,11 +4426,7 @@
     if (typeof namespace.hooks.addPack === 'function' && !skipHooks) {
       namespace.hooks.addPack(prefix, normalized)
     } else {
-      namespace.styles[prefix] = _objectSpread(
-        {},
-        namespace.styles[prefix] || {},
-        normalized
-      )
+      namespace.styles[prefix] = _objectSpread({}, namespace.styles[prefix] || {}, normalized)
     }
     /**
      * Font Awesome 4 used the prefix of `fa` for all icons. With the introduction
@@ -11242,23 +11221,16 @@
   }
 
   function _slicedToArray(arr, i) {
-    return (
-      _arrayWithHoles(arr) ||
-      _iterableToArrayLimit(arr, i) ||
-      _nonIterableRest()
-    )
+    return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest()
   }
 
   function _toConsumableArray(arr) {
-    return (
-      _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread()
-    )
+    return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread()
   }
 
   function _arrayWithoutHoles(arr) {
     if (Array.isArray(arr)) {
-      for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++)
-        arr2[i] = arr[i]
+      for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) arr2[i] = arr[i]
 
       return arr2
     }
@@ -11283,11 +11255,7 @@
     var _e = undefined
 
     try {
-      for (
-        var _i = arr[Symbol.iterator](), _s;
-        !(_n = (_s = _i.next()).done);
-        _n = true
-      ) {
+      for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
         _arr.push(_s.value)
 
         if (i && _arr.length === i) break
@@ -11327,8 +11295,7 @@
   try {
     if (typeof window !== 'undefined') _WINDOW = window
     if (typeof document !== 'undefined') _DOCUMENT = document
-    if (typeof MutationObserver !== 'undefined')
-      _MUTATION_OBSERVER = MutationObserver
+    if (typeof MutationObserver !== 'undefined') _MUTATION_OBSERVER = MutationObserver
     if (typeof performance !== 'undefined') _PERFORMANCE = performance
   } catch (e) {}
 
@@ -11383,8 +11350,7 @@
     brands: 'fab',
   }
   var LAYERS_TEXT_CLASSNAME = 'fa-layers-text'
-  var FONT_FAMILY_PATTERN =
-    /Font Awesome 5 (Solid|Regular|Light|Duotone|Brands|Free|Pro)/
+  var FONT_FAMILY_PATTERN = /Font Awesome 5 (Solid|Regular|Light|Duotone|Brands|Free|Pro)/
   var FONT_WEIGHT_TO_PREFIX = {
     900: 'fas',
     400: 'far',
@@ -11536,9 +11502,9 @@
   var loaded = false
 
   if (IS_DOM) {
-    loaded = (
-      DOCUMENT.documentElement.doScroll ? /^loaded|^c/ : /^loaded|^i|^c/
-    ).test(DOCUMENT.readyState)
+    loaded = (DOCUMENT.documentElement.doScroll ? /^loaded|^c/ : /^loaded|^i|^c/).test(
+      DOCUMENT.readyState
+    )
     if (!loaded) DOCUMENT.addEventListener('DOMContentLoaded', listener)
   }
 
@@ -11558,8 +11524,7 @@
     typeof global !== 'undefined' &&
     typeof global.process !== 'undefined' &&
     typeof global.process.emit === 'function'
-  var asyncSetTimer =
-    typeof setImmediate === 'undefined' ? setTimeout : setImmediate
+  var asyncSetTimer = typeof setImmediate === 'undefined' ? setTimeout : setImmediate
   var asyncQueue = []
   var asyncTimer
 
@@ -11631,15 +11596,10 @@
 
     try {
       if (promise === value) {
-        throw new TypeError(
-          'A promises callback cannot return that same promise.'
-        )
+        throw new TypeError('A promises callback cannot return that same promise.')
       }
 
-      if (
-        value &&
-        (typeof value === 'function' || _typeof(value) === 'object')
-      ) {
+      if (value && (typeof value === 'function' || _typeof(value) === 'object')) {
         // then should be retrieved only once
         var then = value.then
 
@@ -11948,10 +11908,7 @@
     return Object.keys(attributes || {})
       .reduce(function (acc, attributeName) {
         return (
-          acc +
-          ''
-            .concat(attributeName, '="')
-            .concat(htmlEscape(attributes[attributeName]), '" ')
+          acc + ''.concat(attributeName, '="').concat(htmlEscape(attributes[attributeName]), '" ')
         )
       }, '')
       .trim()
@@ -11978,18 +11935,13 @@
     var outer = {
       transform: 'translate('.concat(containerWidth / 2, ' 256)'),
     }
-    var innerTranslate = 'translate('
-      .concat(transform.x * 32, ', ')
-      .concat(transform.y * 32, ') ')
+    var innerTranslate = 'translate('.concat(transform.x * 32, ', ').concat(transform.y * 32, ') ')
     var innerScale = 'scale('
       .concat((transform.size / 16) * (transform.flipX ? -1 : 1), ', ')
       .concat((transform.size / 16) * (transform.flipY ? -1 : 1), ') ')
     var innerRotate = 'rotate('.concat(transform.rotate, ' 0 0)')
     var inner = {
-      transform: ''
-        .concat(innerTranslate, ' ')
-        .concat(innerScale, ' ')
-        .concat(innerRotate),
+      transform: ''.concat(innerTranslate, ' ').concat(innerScale, ' ').concat(innerRotate),
     }
     var path = {
       transform: 'translate('.concat((iconWidth / 2) * -1, ' -256)'),
@@ -12007,8 +11959,7 @@
       _ref2$height = _ref2.height,
       height = _ref2$height === void 0 ? UNITS_IN_GRID : _ref2$height,
       _ref2$startCentered = _ref2.startCentered,
-      startCentered =
-        _ref2$startCentered === void 0 ? false : _ref2$startCentered
+      startCentered = _ref2$startCentered === void 0 ? false : _ref2$startCentered
     var val = ''
 
     if (startCentered && IS_IE) {
@@ -12020,9 +11971,7 @@
         .concat(transform.x / d, 'em), calc(-50% + ')
         .concat(transform.y / d, 'em)) ')
     } else {
-      val += 'translate('
-        .concat(transform.x / d, 'em, ')
-        .concat(transform.y / d, 'em) ')
+      val += 'translate('.concat(transform.x / d, 'em, ').concat(transform.y / d, 'em) ')
     }
 
     val += 'scale('
@@ -12040,8 +11989,7 @@
   }
 
   function fillBlack(abstract) {
-    var force =
-      arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true
+    var force = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true
 
     if (abstract.attributes && (abstract.attributes.fill || force)) {
       abstract.attributes.fill = 'black'
@@ -12231,10 +12179,7 @@
       symbol = _ref.symbol
     var id =
       symbol === true
-        ? ''
-            .concat(prefix, '-')
-            .concat(config.familyPrefix, '-')
-            .concat(iconName)
+        ? ''.concat(prefix, '-').concat(config.familyPrefix, '-').concat(iconName)
         : symbol
     return [
       {
@@ -12303,9 +12248,7 @@
       content.children.push({
         tag: 'title',
         attributes: {
-          id:
-            content.attributes['aria-labelledby'] ||
-            'title-'.concat(nextUniqueId()),
+          id: content.attributes['aria-labelledby'] || 'title-'.concat(nextUniqueId()),
         },
         children: [title],
       })
@@ -12320,10 +12263,7 @@
       styles: extra.styles,
     })
 
-    var _ref2 =
-        mask.found && main.found
-          ? makeIconMasking(args)
-          : makeIconStandard(args),
+    var _ref2 = mask.found && main.found ? makeIconMasking(args) : makeIconStandard(args),
       children = _ref2.children,
       attributes = _ref2.attributes
 
@@ -12447,10 +12387,7 @@
   var noop$1 = function noop() {}
 
   var p =
-    config.measurePerformance &&
-    PERFORMANCE &&
-    PERFORMANCE.mark &&
-    PERFORMANCE.measure
+    config.measurePerformance && PERFORMANCE && PERFORMANCE.mark && PERFORMANCE.measure
       ? PERFORMANCE
       : {
           mark: noop$1,
@@ -12502,16 +12439,10 @@
    * @return {mixed}                 The final result.
    */
 
-  var reduce = function fastReduceObject(
-    subject,
-    fn,
-    initialValue,
-    thisContext
-  ) {
+  var reduce = function fastReduceObject(subject, fn, initialValue, thisContext) {
     var keys = Object.keys(subject),
       length = keys.length,
-      iterator =
-        thisContext !== undefined ? bindInternal4(fn, thisContext) : fn,
+      iterator = thisContext !== undefined ? bindInternal4(fn, thisContext) : fn,
       i,
       key,
       result
@@ -12544,8 +12475,7 @@
   }
 
   function defineIcons(prefix, icons) {
-    var params =
-      arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {}
+    var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {}
     var _params$skipHooks = params.skipHooks,
       skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks
     var normalized = Object.keys(icons).reduce(function (acc, iconName) {
@@ -12564,11 +12494,7 @@
     if (typeof namespace.hooks.addPack === 'function' && !skipHooks) {
       namespace.hooks.addPack(prefix, normalized)
     } else {
-      namespace.styles[prefix] = _objectSpread(
-        {},
-        namespace.styles[prefix] || {},
-        normalized
-      )
+      namespace.styles[prefix] = _objectSpread({}, namespace.styles[prefix] || {}, normalized)
     }
     /**
      * Font Awesome 4 used the prefix of `fa` for all icons. With the introduction
@@ -12674,10 +12600,7 @@
         var shim = acc.prefix === 'fa' ? byOldName(iconName) : {}
         acc.iconName = shim.iconName || iconName
         acc.prefix = shim.prefix || acc.prefix
-      } else if (
-        cls !== config.replacementClass &&
-        cls.indexOf('fa-w-') !== 0
-      ) {
+      } else if (cls !== config.replacementClass && cls.indexOf('fa-w-') !== 0) {
         acc.rest.push(cls)
       }
 
@@ -12697,8 +12620,7 @@
   function toHtml(abstractNodes) {
     var tag = abstractNodes.tag,
       _abstractNodes$attrib = abstractNodes.attributes,
-      attributes =
-        _abstractNodes$attrib === void 0 ? {} : _abstractNodes$attrib,
+      attributes = _abstractNodes$attrib === void 0 ? {} : _abstractNodes$attrib,
       _abstractNodes$childr = abstractNodes.children,
       children = _abstractNodes$childr === void 0 ? [] : _abstractNodes$childr
 
@@ -12835,8 +12757,7 @@
       nodeCallback = options.nodeCallback,
       pseudoElementsCallback = options.pseudoElementsCallback,
       _options$observeMutat = options.observeMutationsRoot,
-      observeMutationsRoot =
-        _options$observeMutat === void 0 ? DOCUMENT : _options$observeMutat
+      observeMutationsRoot = _options$observeMutat === void 0 ? DOCUMENT : _options$observeMutat
     mo = new MUTATION_OBSERVER(function (objects) {
       if (disabled) return
       toArray(objects).forEach(function (mutationRecord) {
@@ -12866,16 +12787,12 @@
           ~ATTRIBUTES_WATCHED_FOR_MUTATION.indexOf(mutationRecord.attributeName)
         ) {
           if (mutationRecord.attributeName === 'class') {
-            var _getCanonicalIcon = getCanonicalIcon(
-                classArray(mutationRecord.target)
-              ),
+            var _getCanonicalIcon = getCanonicalIcon(classArray(mutationRecord.target)),
               prefix = _getCanonicalIcon.prefix,
               iconName = _getCanonicalIcon.iconName
 
-            if (prefix)
-              mutationRecord.target.setAttribute('data-prefix', prefix)
-            if (iconName)
-              mutationRecord.target.setAttribute('data-icon', iconName)
+            if (prefix) mutationRecord.target.setAttribute('data-prefix', prefix)
+            if (iconName) mutationRecord.target.setAttribute('data-icon', iconName)
           } else {
             nodeCallback(mutationRecord.target)
           }
@@ -13195,17 +13112,13 @@
       element = {
         tag: 'g',
         attributes: {
-          class: ''
-            .concat(config.familyPrefix, '-')
-            .concat(DUOTONE_CLASSES.GROUP),
+          class: ''.concat(config.familyPrefix, '-').concat(DUOTONE_CLASSES.GROUP),
         },
         children: [
           {
             tag: 'path',
             attributes: {
-              class: ''
-                .concat(config.familyPrefix, '-')
-                .concat(DUOTONE_CLASSES.SECONDARY),
+              class: ''.concat(config.familyPrefix, '-').concat(DUOTONE_CLASSES.SECONDARY),
               fill: 'currentColor',
               d: vectorData[0],
             },
@@ -13213,9 +13126,7 @@
           {
             tag: 'path',
             attributes: {
-              class: ''
-                .concat(config.familyPrefix, '-')
-                .concat(DUOTONE_CLASSES.PRIMARY),
+              class: ''.concat(config.familyPrefix, '-').concat(DUOTONE_CLASSES.PRIMARY),
               fill: 'currentColor',
               d: vectorData[1],
             },
@@ -13248,12 +13159,7 @@
         icon: missing,
       }
 
-      if (
-        iconName &&
-        prefix &&
-        styles$2[prefix] &&
-        styles$2[prefix][iconName]
-      ) {
+      if (iconName && prefix && styles$2[prefix] && styles$2[prefix][iconName]) {
         var icon = styles$2[prefix][iconName]
         return resolve(asFoundIcon(icon))
       }
@@ -13261,9 +13167,7 @@
       if (iconName && prefix && !config.showMissingIcons) {
         reject(
           new MissingIcon(
-            'Icon is missing for prefix '
-              .concat(prefix, ' with icon name ')
-              .concat(iconName)
+            'Icon is missing for prefix '.concat(prefix, ' with icon name ').concat(iconName)
           )
         )
       } else {
@@ -13354,29 +13258,20 @@
   }
 
   function onTree(root) {
-    var callback =
-      arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null
+    var callback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null
     if (!IS_DOM) return
     var htmlClassList = DOCUMENT.documentElement.classList
 
     var hclAdd = function hclAdd(suffix) {
-      return htmlClassList.add(
-        ''.concat(HTML_CLASS_I2SVG_BASE_CLASS, '-').concat(suffix)
-      )
+      return htmlClassList.add(''.concat(HTML_CLASS_I2SVG_BASE_CLASS, '-').concat(suffix))
     }
 
     var hclRemove = function hclRemove(suffix) {
-      return htmlClassList.remove(
-        ''.concat(HTML_CLASS_I2SVG_BASE_CLASS, '-').concat(suffix)
-      )
+      return htmlClassList.remove(''.concat(HTML_CLASS_I2SVG_BASE_CLASS, '-').concat(suffix))
     }
 
-    var prefixes = config.autoFetchSvg
-      ? Object.keys(PREFIX_TO_STYLE)
-      : Object.keys(styles$3)
-    var prefixesDomQuery = [
-      '.'.concat(LAYERS_TEXT_CLASSNAME, ':not([').concat(DATA_FA_I2SVG, '])'),
-    ]
+    var prefixes = config.autoFetchSvg ? Object.keys(PREFIX_TO_STYLE) : Object.keys(styles$3)
+    var prefixesDomQuery = ['.'.concat(LAYERS_TEXT_CLASSNAME, ':not([').concat(DATA_FA_I2SVG, '])')]
       .concat(
         prefixes.map(function (p) {
           return '.'.concat(p, ':not([').concat(DATA_FA_I2SVG, '])')
@@ -13441,8 +13336,7 @@
     })
   }
   function onNode(node) {
-    var callback =
-      arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null
+    var callback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null
     generateMutation(node).then(function (mutation) {
       if (mutation) {
         perform([mutation], callback)
@@ -13465,9 +13359,7 @@
         return c.getAttribute(DATA_FA_PSEUDO_ELEMENT) === position
       })[0]
       var styles = WINDOW.getComputedStyle(node, position)
-      var fontFamily = styles
-        .getPropertyValue('font-family')
-        .match(FONT_FAMILY_PATTERN)
+      var fontFamily = styles.getPropertyValue('font-family').match(FONT_FAMILY_PATTERN)
       var fontWeight = styles.getPropertyValue('font-weight')
 
       if (alreadyProcessedPseudoElement && !fontFamily) {
@@ -13478,18 +13370,10 @@
         return resolve()
       } else if (fontFamily) {
         var content = styles.getPropertyValue('content')
-        var prefix = ~[
-          'Solid',
-          'Regular',
-          'Light',
-          'Duotone',
-          'Brands',
-        ].indexOf(fontFamily[1])
+        var prefix = ~['Solid', 'Regular', 'Light', 'Duotone', 'Brands'].indexOf(fontFamily[1])
           ? STYLE_TO_PREFIX[fontFamily[1].toLowerCase()]
           : FONT_WEIGHT_TO_PREFIX[fontWeight]
-        var hexValue = toHex(
-          content.length === 3 ? content.substr(1, 1) : content
-        )
+        var hexValue = toHex(content.length === 3 ? content.substr(1, 1) : content)
         var iconName = byUnicode(prefix, hexValue)
         var iconIdentifier = iconName // Only convert the pseudo element in this :before/:after position into an icon if we haven't
         // already done so with the same prefix and iconName
@@ -13497,10 +13381,8 @@
         if (
           iconName &&
           (!alreadyProcessedPseudoElement ||
-            alreadyProcessedPseudoElement.getAttribute(DATA_PREFIX) !==
-              prefix ||
-            alreadyProcessedPseudoElement.getAttribute(DATA_ICON) !==
-              iconIdentifier)
+            alreadyProcessedPseudoElement.getAttribute(DATA_PREFIX) !== prefix ||
+            alreadyProcessedPseudoElement.getAttribute(DATA_ICON) !== iconIdentifier)
         ) {
           node.setAttribute(pendingAttribute, iconIdentifier)
 
@@ -13553,18 +13435,13 @@
   }
 
   function replace(node) {
-    return picked.all([
-      replaceForPosition(node, ':before'),
-      replaceForPosition(node, ':after'),
-    ])
+    return picked.all([replaceForPosition(node, ':before'), replaceForPosition(node, ':after')])
   }
 
   function processable(node) {
     return (
       node.parentNode !== document.head &&
-      !~TAGNAMES_TO_SKIP_FOR_PSEUDOELEMENTS.indexOf(
-        node.tagName.toUpperCase()
-      ) &&
+      !~TAGNAMES_TO_SKIP_FOR_PSEUDOELEMENTS.indexOf(node.tagName.toUpperCase()) &&
       !node.getAttribute(DATA_FA_PSEUDO_ELEMENT) &&
       (!node.parentNode || node.parentNode.tagName !== 'svg')
     )
@@ -13573,9 +13450,7 @@
   function searchPseudoElements(root) {
     if (!IS_DOM) return
     return new picked(function (resolve, reject) {
-      var operations = toArray(root.querySelectorAll('*'))
-        .filter(processable)
-        .map(replace)
+      var operations = toArray(root.querySelectorAll('*')).filter(processable).map(replace)
       var end = perf.begin('searchPseudoElements')
       disableObservation()
       picked
@@ -13632,9 +13507,7 @@
             var _this = this
 
             for (
-              var _len = arguments.length,
-                definitions = new Array(_len),
-                _key = 0;
+              var _len = arguments.length, definitions = new Array(_len), _key = 0;
               _key < _len;
               _key++
             ) {
@@ -13727,8 +13600,7 @@
 
   function resolveIcons(next) {
     return function (maybeIconDefinition) {
-      var params =
-        arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {}
+      var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {}
       var iconDefinition = (maybeIconDefinition || {}).icon
         ? maybeIconDefinition
         : findIconDefinition(maybeIconDefinition || {})
@@ -13756,16 +13628,14 @@
   var _cssInserted = false
   var dom = {
     i2svg: function i2svg() {
-      var params =
-        arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {}
+      var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {}
 
       if (IS_DOM) {
         ensureCss()
         var _params$node = params.node,
           node = _params$node === void 0 ? DOCUMENT : _params$node,
           _params$callback = params.callback,
-          callback =
-            _params$callback === void 0 ? function () {} : _params$callback
+          callback = _params$callback === void 0 ? function () {} : _params$callback
 
         if (config.searchPseudoElements) {
           searchPseudoElements(node)
@@ -13785,8 +13655,7 @@
       }
     },
     watch: function watch() {
-      var params =
-        arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {}
+      var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {}
       var autoReplaceSvgRoot = params.autoReplaceSvgRoot,
         observeMutationsRoot = params.observeMutationsRoot
 
@@ -13814,11 +13683,9 @@
     },
   }
   var icon = resolveIcons(function (iconDefinition) {
-    var params =
-      arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {}
+    var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {}
     var _params$transform = params.transform,
-      transform =
-        _params$transform === void 0 ? meaninglessTransform : _params$transform,
+      transform = _params$transform === void 0 ? meaninglessTransform : _params$transform,
       _params$symbol = params.symbol,
       symbol = _params$symbol === void 0 ? false : _params$symbol,
       _params$mask = params.mask,
@@ -13883,13 +13750,9 @@
     )
   })
   var text = function text(content) {
-    var params =
-      arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {}
+    var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {}
     var _params$transform2 = params.transform,
-      transform =
-        _params$transform2 === void 0
-          ? meaninglessTransform
-          : _params$transform2,
+      transform = _params$transform2 === void 0 ? meaninglessTransform : _params$transform2,
       _params$title2 = params.title,
       title = _params$title2 === void 0 ? null : _params$title2,
       _params$classes2 = params.classes,
@@ -13921,8 +13784,7 @@
     )
   }
   var counter = function counter(content) {
-    var params =
-      arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {}
+    var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {}
     var _params$title3 = params.title,
       title = _params$title3 === void 0 ? null : _params$title3,
       _params$classes3 = params.classes,
@@ -13953,8 +13815,7 @@
     )
   }
   var layer = function layer(assembler) {
-    var params =
-      arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {}
+    var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {}
     var _params$classes4 = params.classes,
       classes = _params$classes4 === void 0 ? [] : _params$classes4
     return apiObject(
@@ -14000,11 +13861,9 @@
   }
 
   var autoReplace = function autoReplace() {
-    var params =
-      arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {}
+    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {}
     var _params$autoReplaceSv = params.autoReplaceSvgRoot,
-      autoReplaceSvgRoot =
-        _params$autoReplaceSv === void 0 ? DOCUMENT : _params$autoReplaceSv
+      autoReplaceSvgRoot = _params$autoReplaceSv === void 0 ? DOCUMENT : _params$autoReplaceSv
     if (
       (Object.keys(namespace.styles).length > 0 || config.autoFetchSvg) &&
       IS_DOM &&
@@ -14033,11 +13892,7 @@
 
     namespace.hooks = _objectSpread({}, namespace.hooks, {
       addPack: function addPack(prefix, icons) {
-        namespace.styles[prefix] = _objectSpread(
-          {},
-          namespace.styles[prefix] || {},
-          icons
-        )
+        namespace.styles[prefix] = _objectSpread({}, namespace.styles[prefix] || {}, icons)
         build()
         autoReplace()
       },

@@ -2,7 +2,8 @@
 layout: page
 title: Kacamata Murah Di Kemayoran, Optikal Bahari Bendungan Jago Jakarta Pusat
 subtitle: 'Kacamata Murah Dan Terjangkau'
-description: Kami menyediakan Lensa dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas.
+description: Kami menyediakan Lensa dan Frame bingkai kacamata, mulai harga murah sampai
+  dengan harga menengah ke atas.
 keywords: 'Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
 author: Optikal Bahari

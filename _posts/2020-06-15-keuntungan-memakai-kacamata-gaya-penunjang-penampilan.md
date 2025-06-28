@@ -2,7 +2,9 @@
 layout: post
 title: Keuntungan Pakai Kacamata Untuk Penunjang Penampilan
 subtitle: Kacamata Trendy dan Bergaya
-description: Kacamata Gaya terkini adalah salah satu fashion style yang bisa Kamu manfaatkan bukan hanya untuk menunjang penampilan, namun juga banyak manfaatnya.
+description: Kacamata Gaya terkini adalah salah satu fashion style yang bisa Kamu
+  manfaatkan bukan hanya untuk menunjang penampilan, namun juga banyak
+  manfaatnya.
 keywords: 'Kacamata Gaya, Trendy, Stylish, Kekinian'
 lang: id-ID
 date: '2020-06-15 08:25:23 +0700'

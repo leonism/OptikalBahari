@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Toko Kacamata Terdekat
-subtitle: "Dapatkan Layanan Periksa Mata Gratis, Cicilan 0%, Bergaransi"
-description: "Toko Kacamata Terdekat Kami, Menawarkan Berbagai Pilihan Lensa dan Frame dengan Harga Terjangkau, Sementara Tetap Memberikan Pelayanan Terbaik Untuk Konsumen Kami"
-keywords: "toko kacamata terdekat, toko, kacamata, toko kacamata"
+subtitle: 'Dapatkan Layanan Periksa Mata Gratis, Cicilan 0%, Bergaransi'
+description: 'Toko Kacamata Terdekat Kami, Menawarkan Berbagai Pilihan Lensa dan Frame
+  dengan Harga Terjangkau, Sementara Tetap Memberikan Pelayanan Terbaik Untuk
+  Konsumen Kami'
+keywords: 'toko kacamata terdekat, toko, kacamata, toko kacamata'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]

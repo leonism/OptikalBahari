@@ -90,8 +90,7 @@
   var namespace = w[NAMESPACE_IDENTIFIER]
 
   function defineIcons(prefix, icons) {
-    var params =
-      arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {}
+    var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {}
     var _params$skipHooks = params.skipHooks,
       skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks
     var normalized = Object.keys(icons).reduce(function (acc, iconName) {
@@ -110,11 +109,7 @@
     if (typeof namespace.hooks.addPack === 'function' && !skipHooks) {
       namespace.hooks.addPack(prefix, normalized)
     } else {
-      namespace.styles[prefix] = _objectSpread(
-        {},
-        namespace.styles[prefix] || {},
-        normalized
-      )
+      namespace.styles[prefix] = _objectSpread({}, namespace.styles[prefix] || {}, normalized)
     }
     /**
      * Font Awesome 4 used the prefix of `fa` for all icons. With the introduction

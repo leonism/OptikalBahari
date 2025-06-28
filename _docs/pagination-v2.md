@@ -31,20 +31,20 @@ Add the pagination settings for `jekyll-paginate-v2`. Since we’re paginating i
 
 ```yaml
 # Site settings
-baseurl: ""  # Adjust if your site uses a subpath
-url: "http://example.com"  # Your site’s URL
+baseurl: '' # Adjust if your site uses a subpath
+url: 'http://example.com' # Your site’s URL
 
 # Pagination settings for jekyll-paginate-v2
 pagination:
   enabled: true
-  per_page: 9  # 9 posts per page (3 per section)
-  permalink: "/page/:num/"  # URL structure for paginated pages (e.g., /posts/page/2/)
-  title: ":title - Page :num"  # Page title format
-  sort_field: "date"  # Sort posts by date
-  sort_reverse: true  # Newest first
+  per_page: 9 # 9 posts per page (3 per section)
+  permalink: '/page/:num/' # URL structure for paginated pages (e.g., /posts/page/2/)
+  title: ':title - Page :num' # Page title format
+  sort_field: 'date' # Sort posts by date
+  sort_reverse: true # Newest first
   trail:
-    before: 2  # Show 2 pages before current page in navigation
-    after: 2   # Show 2 pages after current page in navigation
+    before: 2 # Show 2 pages before current page in navigation
+    after: 2 # Show 2 pages after current page in navigation
 ```
 
 Remove any `paginate` or `paginate_path` settings if they exist, as those are
@@ -59,245 +59,306 @@ will be your paginated posts page:
 
 ```html
 ---
-layout: default  # Use your site’s default layout
-permalink: /posts/  # Sets the base URL as /posts/
+layout: default # Use your site’s default layout
+permalink: /posts/ # Sets the base URL as /posts/
 pagination:
-  enabled: true  # Enable pagination for this page
+  enabled: true # Enable pagination for this page
 ---
 
 <!-- Section 1: First 3 posts -->
 <section id="posts-category1">
-    <div class="card-deckrow mb-3 card-deck">
-        {% for post in paginator.posts limit:3 offset:0 %}
-            <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                    {% if post.background %}
-                        <picture>
-  <!-- AVIF format -->
-  <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
-    "
-    type="image/avif"
-    sizes="(max-width: 768px) 100vw, 768px" />
+  <div class="card-deckrow mb-3 card-deck">
+    {% for post in paginator.posts limit:3 offset:0 %}
+    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+      <a
+        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+        title="{{ post.title }}"
+      >
+        {% if post.background %}
+        <picture>
+          <!-- AVIF format -->
+          <source
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+            "
+            type="image/avif"
+            sizes="(max-width: 768px) 100vw, 768px"
+          />
 
-  <!-- WEBP format -->
-  <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
-    "
-    type="image/webp"
-    sizes="(max-width: 768px) 100vw, 768px" />
+          <!-- WEBP format -->
+          <source
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+            "
+            type="image/webp"
+            sizes="(max-width: 768px) 100vw, 768px"
+          />
 
-  <!-- JPEG fallback -->
-  <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
-    "
-    type="image/jpeg"
-    sizes="(max-width: 768px) 100vw, 768px" />
+          <!-- JPEG fallback -->
+          <source
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+            "
+            type="image/jpeg"
+            sizes="(max-width: 768px) 100vw, 768px"
+          />
 
-  <!-- Final fallback with alt and lazy loading -->
-  <img
-    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
-    alt="{{ post.title }}"
-    loading="lazy"
-    decoding="async"
-    width="768"
-    height="512"
-    class="card-img-top img-fluid"
-    />
-</picture>
-                    {% endif %}
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-                    <p class="card-text text-left">
-                        {{ post.description | strip_html | truncate: 100 }}
-                        <a class="btn btn-primary rounded-pill mt-3" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">
-                        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %},
-                        on {{ post.date | date: '%b %d, %Y' }} · {% include postcards/read_time.html content=post.content %}
-                    </small>
-                </div>
-            </div>
-        {% endfor %}
+          <!-- Final fallback with alt and lazy loading -->
+          <img
+            src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+            alt="{{ post.title }}"
+            loading="lazy"
+            decoding="async"
+            width="768"
+            height="512"
+            class="card-img-top img-fluid"
+          />
+        </picture>
+        {% endif %}
+      </a>
+      <div class="card-body">
+        <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
+        <p class="card-text text-left">
+          {{ post.description | strip_html | truncate: 100 }}
+          <a
+            class="btn btn-primary rounded-pill mt-3"
+            href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+          >
+            Lebih Lanjut
+          </a>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">
+          Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}, on
+          {{ post.date | date: '%b %d, %Y' }} · {% include postcards/read_time.html
+          content=post.content %}
+        </small>
+      </div>
     </div>
+    {% endfor %}
+  </div>
 </section>
 
 <!-- Section 2: Next 3 posts -->
 <section id="posts-category2">
-    <div class="card-deckrow mb-2 card-deck">
-        {% for post in paginator.posts limit:3 offset:3 %}
-            <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                    {% if post.background %}
-                        <picture>
-  <!-- AVIF format -->
-  <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
-    "
-    type="image/avif"
-    sizes="(max-width: 768px) 100vw, 768px" />
+  <div class="card-deckrow mb-2 card-deck">
+    {% for post in paginator.posts limit:3 offset:3 %}
+    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+      <a
+        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+        title="{{ post.title }}"
+      >
+        {% if post.background %}
+        <picture>
+          <!-- AVIF format -->
+          <source
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+            "
+            type="image/avif"
+            sizes="(max-width: 768px) 100vw, 768px"
+          />
 
-  <!-- WEBP format -->
-  <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
-    "
-    type="image/webp"
-    sizes="(max-width: 768px) 100vw, 768px" />
+          <!-- WEBP format -->
+          <source
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+            "
+            type="image/webp"
+            sizes="(max-width: 768px) 100vw, 768px"
+          />
 
-  <!-- JPEG fallback -->
-  <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
-    "
-    type="image/jpeg"
-    sizes="(max-width: 768px) 100vw, 768px" />
+          <!-- JPEG fallback -->
+          <source
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+            "
+            type="image/jpeg"
+            sizes="(max-width: 768px) 100vw, 768px"
+          />
 
-  <!-- Final fallback with alt and lazy loading -->
-  <img
-    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
-    alt="{{ post.title }}"
-    loading="lazy"
-    decoding="async"
-    width="768"
-    height="512"
-    class="card-img-top img-fluid"
-    />
-</picture>
-                    {% endif %}
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-                    <p class="card-text text-left">
-                        {{ post.description | strip_html | truncate: 100 }}
-                        <a class="btn btn-primary rounded-pill mt-3" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">
-                        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}
-                        on {{ post.date | date: '%B %d, %Y' }} · {% include postcards/read_time.html content=post.content %}
-                    </small>
-                </div>
-            </div>
-        {% endfor %}
+          <!-- Final fallback with alt and lazy loading -->
+          <img
+            src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+            alt="{{ post.title }}"
+            loading="lazy"
+            decoding="async"
+            width="768"
+            height="512"
+            class="card-img-top img-fluid"
+          />
+        </picture>
+        {% endif %}
+      </a>
+      <div class="card-body">
+        <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
+        <p class="card-text text-left">
+          {{ post.description | strip_html | truncate: 100 }}
+          <a
+            class="btn btn-primary rounded-pill mt-3"
+            href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+          >
+            Lebih Lanjut
+          </a>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">
+          Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on
+          {{ post.date | date: '%B %d, %Y' }} · {% include postcards/read_time.html
+          content=post.content %}
+        </small>
+      </div>
     </div>
+    {% endfor %}
+  </div>
 </section>
 
 <!-- Section 3: Last 3 posts -->
 <section id="posts-category3">
-    <div class="card-deckrow mb-2 card-deck">
-        {% for post in paginator.posts limit:3 offset:6 %}
-            <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                    {% if post.background %}
-                        <picture>
-  <!-- AVIF format -->
-  <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
-    "
-    type="image/avif"
-    sizes="(max-width: 768px) 100vw, 768px" />
+  <div class="card-deckrow mb-2 card-deck">
+    {% for post in paginator.posts limit:3 offset:6 %}
+    <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+      <a
+        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+        title="{{ post.title }}"
+      >
+        {% if post.background %}
+        <picture>
+          <!-- AVIF format -->
+          <source
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+            "
+            type="image/avif"
+            sizes="(max-width: 768px) 100vw, 768px"
+          />
 
-  <!-- WEBP format -->
-  <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
-    "
-    type="image/webp"
-    sizes="(max-width: 768px) 100vw, 768px" />
+          <!-- WEBP format -->
+          <source
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+            "
+            type="image/webp"
+            sizes="(max-width: 768px) 100vw, 768px"
+          />
 
-  <!-- JPEG fallback -->
-  <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
-    "
-    type="image/jpeg"
-    sizes="(max-width: 768px) 100vw, 768px" />
+          <!-- JPEG fallback -->
+          <source
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+            "
+            type="image/jpeg"
+            sizes="(max-width: 768px) 100vw, 768px"
+          />
 
-  <!-- Final fallback with alt and lazy loading -->
-  <img
-    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
-    alt="{{ post.title }}"
-    loading="lazy"
-    decoding="async"
-    width="768"
-    height="512"
-    class="card-img-top img-fluid"
-    />
-</picture>
-                    {% endif %}
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-                    <p class="card-text text-left">
-                        {{ post.description | strip_html | truncate: 100 }}
-                        <a class="btn btn-primary rounded-pill mt-3" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">
-                        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}
-                        on {{ post.date | date: '%B %d, %Y' }} · {% include postcards/read_time.html content=post.content %}
-                    </small>
-                </div>
-            </div>
-        {% endfor %}
+          <!-- Final fallback with alt and lazy loading -->
+          <img
+            src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+            alt="{{ post.title }}"
+            loading="lazy"
+            decoding="async"
+            width="768"
+            height="512"
+            class="card-img-top img-fluid"
+          />
+        </picture>
+        {% endif %}
+      </a>
+      <div class="card-body">
+        <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
+        <p class="card-text text-left">
+          {{ post.description | strip_html | truncate: 100 }}
+          <a
+            class="btn btn-primary rounded-pill mt-3"
+            href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+          >
+            Lebih Lanjut
+          </a>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">
+          Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on
+          {{ post.date | date: '%B %d, %Y' }} · {% include postcards/read_time.html
+          content=post.content %}
+        </small>
+      </div>
     </div>
+    {% endfor %}
+  </div>
 </section>
 
 <!-- Pagination Navigation -->
 <nav aria-label="Page navigation" class="mt-4">
-    <ul class="pagination justify-content-center">
-        <!-- Previous Button -->
-        {% if paginator.previous_page %}
-            <li class="page-item">
-                <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
-                    <span aria-hidden="true">« Previous</span>
-                </a>
-            </li>
-        {% else %}
-            <li class="page-item disabled">
-                <span class="page-link">« Previous</span>
-            </li>
-        {% endif %}
+  <ul class="pagination justify-content-center">
+    <!-- Previous Button -->
+    {% if paginator.previous_page %}
+    <li class="page-item">
+      <a
+        class="page-link"
+        href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+        aria-label="Previous"
+      >
+        <span aria-hidden="true">« Previous</span>
+      </a>
+    </li>
+    {% else %}
+    <li class="page-item disabled">
+      <span class="page-link">« Previous</span>
+    </li>
+    {% endif %}
 
-        <!-- Page Numbers with Trail -->
-        {% if paginator.page_trail %}
-            {% for trail in paginator.page_trail %}
-                {% if trail.num == paginator.page %}
-                    <li class="page-item active">
-                        <span class="page-link">{{ trail.num }}</span>
-                    </li>
-                {% else %}
-                    <li class="page-item">
-                        <a class="page-link" href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}">{{ trail.num }}</a>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        {% endif %}
+    <!-- Page Numbers with Trail -->
+    {% if paginator.page_trail %} {% for trail in paginator.page_trail %} {% if trail.num ==
+    paginator.page %}
+    <li class="page-item active">
+      <span class="page-link">{{ trail.num }}</span>
+    </li>
+    {% else %}
+    <li class="page-item">
+      <a class="page-link" href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}">
+        {{ trail.num }}
+      </a>
+    </li>
+    {% endif %} {% endfor %} {% endif %}
 
-        <!-- Next Button -->
-        {% if paginator.next_page %}
-            <li class="page-item">
-                <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
-                    <span aria-hidden="true">Next »</span>
-                </a>
-            </li>
-        {% else %}
-            <li class="page-item disabled">
-                <span class="page-link">Next »</span>
-            </li>
-        {% endif %}
-    </ul>
+    <!-- Next Button -->
+    {% if paginator.next_page %}
+    <li class="page-item">
+      <a
+        class="page-link"
+        href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+        aria-label="Next"
+      >
+        <span aria-hidden="true">Next »</span>
+      </a>
+    </li>
+    {% else %}
+    <li class="page-item disabled">
+      <span class="page-link">Next »</span>
+    </li>
+    {% endif %}
+  </ul>
 </nav>
 ```
 

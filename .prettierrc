@@ -1,56 +1,46 @@
 {
-  'trailingComma': 'es5',
-  'tabWidth': 2,
-  'semi': false,
-  'singleQuote': true,
-  'quoteProps': 'as-needed',
-  'bracketSpacing': true,
-  'bracketSameLine': false,
-  'arrowParens': 'always',
-  'endOfLine': 'lf',
-  'printWidth': 80,
-  'htmlWhitespaceSensitivity': 'strict',
-  'proseWrap': 'always',
-  'embeddedLanguageFormatting': 'off',
-  'jsonRecursiveSort': true,
-  'overrides':
-    [
-      { 'files': '*.json', 'options': { 'tabWidth': 2 } },
-      {
-        'files': '*.yml',
-        'options':
-          {
-            'tabWidth': 2,
-            'proseWrap': 'preserve',
-            'yamlBracketSpacing': false,
-            'yamlQuoteProps': 'preserve',
-          },
-      },
-      { 'files': '*.md', 'options': { 'proseWrap': 'always' } },
-      {
-        'files': ['*.ts', '*.js'],
-        'options':
-          { 'semi': false, 'singleQuote': true, 'trailingComma': 'es5' },
-      },
-      {
-        'files': ['*.scss', '*.sass'],
-        'options':
-          {
-            'singleQuote': false,
-            'scssBracketSpacing': false,
-            'scssSortProperties': 'alphabetical',
-          },
-      },
-      {
-        'files': '*.html',
-        'options':
-          {
-            'tabWidth': 2,
-            'singleQuote': false,
-            'htmlWhitespaceSensitivity': 'strict',
-            'bracketSpacing': true,
-            'endOfLine': 'lf',
-          },
-      },
-    ],
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 100,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "tabWidth": 2,
+        "singleQuote": false
+      }
+    },
+    {
+      "files": ["*.yml", "*.yaml"],
+      "options": {
+        "tabWidth": 2,
+        "singleQuote": false
+      }
+    },
+    {
+      "files": ["*.md", "*.markdown"],
+      "options": {
+        "tabWidth": 2,
+        "proseWrap": "preserve",
+        "htmlWhitespaceSensitivity": "ignore",
+        "embeddedLanguageFormatting": "auto"
+      }
+    },
+    {
+      "files": ["*.html", "*.liquid", "*.njk"],
+      "options": {
+        "tabWidth": 2,
+        "useTabs": false,
+        "singleQuote": true,
+        "htmlWhitespaceSensitivity": "ignore",
+        "bracketSpacing": true,
+        "endOfLine": "lf"
+      }
+    }
+  ]
 }

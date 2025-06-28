@@ -2,7 +2,9 @@
 layout: page
 title: Optik Yang Bisa Kredit Kacamata
 subtitle: 'Cuma di Optik Bahari Yang Bisa Kredit Kacamata'
-description: Optik Yang Bisa Kredit Kacamata, Cuma di Optikal Bahari Dan Kami menggunakan alat komputer terbaru untuk memberikan hasil periksa mata yang cepat dan akurat.
+description: Optik Yang Bisa Kredit Kacamata, Cuma di Optikal Bahari Dan Kami menggunakan
+  alat komputer terbaru untuk memberikan hasil periksa mata yang cepat dan
+  akurat.
 keywords: 'kredit kacamata, kacamata murah, periksa mata gratis, periksa mata jakarta'
 lang: id-ID
 author: Optikal Bahari
@@ -37,12 +39,14 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
     <div class="card-body">
-      <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
-      <p class="card-text text-left">Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
-      <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>
-    </p>
-	</div>
-   </div>
+        <h3 class="card-title">
+          Segera Kunjungi Optikal Bahari
+        </h3>
+        <p class="card-text text-left">
+          Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>
+        </p>
+	    </div>
+    </div>
 </div>
 
 <section id="posts-category">

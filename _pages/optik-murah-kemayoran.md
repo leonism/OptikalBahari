@@ -2,7 +2,8 @@
 layout: page
 title: Optik Murah Di Kemayoran, Bendungan Jago, Jakarta Pusat.
 subtitle: 'Optik Murah Dan Terjangkau'
-description: Jangan ragu lagi, segera datang ke Optikal Bahari. Hanya di Optikal Bahari yang koleksi lensa dan frame paling lengkap dengan harga terjangkau.
+description: Jangan ragu lagi, segera datang ke Optikal Bahari. Hanya di Optikal Bahari
+  yang koleksi lensa dan frame paling lengkap dengan harga terjangkau.
 keywords: Optik Kemayoran, Optik Murah, Optik Murah Kemayoran, Optikal Bahari
 lang: id-ID
 author: Optikal Bahari

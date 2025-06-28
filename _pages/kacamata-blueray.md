@@ -2,8 +2,9 @@
 layout: page
 title: Mamfaat Kacamata Blueray
 subtitle: Jenis Kacamata Blueray Beserta Dengan Mamfaatnya.
-description: Dapatkan Kacamata Bluray hanya di Optikal Bahari dengan berbagai macam diskon dan layanan extra tambahan lainnya, kunjungi segera Optikal Bahari.
-keywords: "blue ray, blueray, kacamata blue ray"
+description: Dapatkan Kacamata Bluray hanya di Optikal Bahari dengan berbagai macam diskon
+  dan layanan extra tambahan lainnya, kunjungi segera Optikal Bahari.
+keywords: 'blue ray, blueray, kacamata blue ray'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]

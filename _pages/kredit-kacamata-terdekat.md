@@ -2,7 +2,9 @@
 layout: page
 title: Optik Kredit Kacamata Terdekat
 subtitle: 'Layanan Pembelian Kacamata Dengan Cara Kredit Dekat Anda'
-description: "Dapatkan layanan pembelian kacamata dengan cara kredit di Optikal Bahari. Kami menyediakan banyak pilihan lensa & frame, harga terjangkau dan kualitas terbaik"
+description: 'Dapatkan layanan pembelian kacamata dengan cara kredit di Optikal Bahari.
+  Kami menyediakan banyak pilihan lensa & frame, harga terjangkau dan kualitas
+  terbaik'
 keywords: 'kredit kacamata, kredit, kacamata, optik terdekat, cicilan'
 lang: id-ID
 author: Optikal Bahari
