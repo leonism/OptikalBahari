@@ -24,6 +24,24 @@ markdown: kramdown
 tag_page_layout: tag_page
 tag_page_dir: tag
 
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-image-size
+  - jekyll-minifier
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+
 # Pagination settings for jekyll-paginate-v2
 pagination:
   enabled: true
@@ -35,15 +53,6 @@ pagination:
   trail:
     before: 2 # Show 2 pages before current page in navigation
     after: 2 # Show 2 pages after current page in navigation
-
-plugins:
-  - jekyll-feed
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-archives
-  - jekyll-image-size
-  - jekyll-minifier
 
 include: ['_pages']
 destination: _site

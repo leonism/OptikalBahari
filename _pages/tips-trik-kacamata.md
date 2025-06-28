@@ -16,7 +16,7 @@ comments: false
 ---
 
 <!-- Section 1: Lensa -->
-<section id="posts-category1">
+<section id="posts-category-lensa">
   <div class="container">
     <div class="row">
       {% for post in site.categories.Lensa limit:3 offset:0 %}
@@ -69,7 +69,7 @@ comments: false
 </section>
 
 <!-- Section 2: Info -->
-<section id="posts-category2">
+<section id="posts-category-info">
   <div class="container">
     <div class="row">
       {% for post in site.categories.Info limit:3 offset:0 %}
@@ -122,7 +122,7 @@ comments: false
 </section>
 
 <!-- Section 3: Trend -->
-<section id="posts-category3">
+<section id="posts-category-trend">
   <div class="container">
     <div class="row">
       {% for post in site.categories.Trend limit:3 offset:0 %}
