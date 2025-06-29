@@ -10,7 +10,7 @@ date: '2020-07-28 06:25:23 +0700'
 author: Optikal Bahari
 categories: [Trend]
 tags: [produk, kacamata]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1920,h_1281/posts/kacamata-k-ion/kacamata-k-ion-00
+background: https://res.cloudinary.com/divkqrf7k/image/upload/c_fill,g_face,q_auto,f_avif,w_1920,h_1281/posts/kacamata-k-ion/kacamata-k-ion-00
 comments: true
 ---
 
@@ -27,12 +27,10 @@ comments: true
         Cara Kerja Kacamata K Ion Nano untuk Mengobati Permasalahan Mata
       </h3>
       <p class="card-text text-left">
-        Inovasi kacamata k ion saat ini dipercaya mampu membantu penglihatan mata dan dapat membuat mata lebih sehat melalui jalan terapi. Penyakit umum pada mata, yakni plus dan minus, konon dapat diobati menggunakan kacamata ini. Tidak hanya itu, banyak juga penyakit lain yang bisa diatasi.
-				Berbagai penyakit seperti katarak, glaukoma, mata kering, dan silinder juga bisa diobati dengan kacamata ini. Inovasi tentang kacamata ini dipercayai sebuah lensa yang mampu menangkap gelombang ion sehingga jika digunakan selama 8 jam sehari mampu memperbaiki permasalahan pada mata.
+        Inovasi kacamata k ion saat ini dipercaya mampu membantu penglihatan mata dan dapat membuat mata lebih sehat melalui jalan terapi. Penyakit umum pada mata, yakni plus dan minus, konon dapat diobati menggunakan kacamata ini. Tidak hanya itu, banyak juga penyakit lain yang bisa diatasi. Berbagai penyakit seperti katarak, glaukoma, mata kering, dan silinder juga bisa diobati dengan kacamata ini. Inovasi tentang kacamata ini dipercayai sebuah lensa yang mampu menangkap gelombang ion sehingga jika digunakan selama 8 jam sehari mampu memperbaiki permasalahan pada mata.
       </p>
       <p class="card-text text-left">
-        Kehadiran kacamata model k-ion memang menjadi angin segar bagi para penderita kelainan mata. Namun, solusi tersebut jangan ditelan mentah-mentah tanpa berkonsultasi dengan dokter. Menelusuri bahwa penyebab kerusakan mata setiap orang berbeda maka penanganannya juga membutuhkan cara tidak sama.
-				Karena kacamata ini sangat baik untuk mengobati gangguan pada mata maka konsultasi adalah hal yang wajib dilakukan. Jangan asal termakan iklan dan asal membeli kacamata dengan iming-iming kesembuhan. Salah-salah malah mata menjadi semakin rusak karena kacamata digunakan tanpa anjuran dokter.
+        Kehadiran kacamata model k-ion memang menjadi angin segar bagi para penderita kelainan mata. Namun, solusi tersebut jangan ditelan mentah-mentah tanpa berkonsultasi dengan dokter. Menelusuri bahwa penyebab kerusakan mata setiap orang berbeda maka penanganannya juga membutuhkan cara tidak sama. Karena kacamata ini sangat baik untuk mengobati gangguan pada mata maka konsultasi adalah hal yang wajib dilakukan. Jangan asal termakan iklan dan asal membeli kacamata dengan iming-iming kesembuhan. Salah-salah malah mata menjadi semakin rusak karena kacamata digunakan tanpa anjuran dokter.
       </p>
     </div>
   </div>
@@ -76,9 +74,15 @@ comments: true
         Tidak heran jika penggunaan kacamata model k-ion dipercaya mampu memperbaiki kesehatan mata. Di samping fungsinya untuk membuat penampilan lebih stylish, keunggulan kacamata ion juga sangat baik dalam berberapa hal di bawah ini:
       </p>
       <ul>
-        <li>Melindungi mata dari paparan sinar biru yang biasa dikeluarkan oleh layar gadget dan komputer. Konon sebanyak 40% pita cahaya biru dan efek negatif sinar dapat terhalau melalui penggunaan kacamata ini.</li>
-        <li>Saking ajaibnya, kacamata k ion ini juga bisa menjadi alat untuk membuat kulit tetap awet muda. Paparan sinar UV yang ditimbulkan matahari berdampak buruk bagi kulit wajah. Namun, risiko itu bisa sedemikian rupa Kamu tekan ketika menggunakan kacamata ini.</li>
-        <li>Permasalahan utama ketika orang menggunakan kacamata adalah suatu uap serta kabut menutupi lensa. Ketika menggunakan kacamata ini, gangguan tersebut tidak akan mengganggu lama sebab uap akan cepat mengudara.</li>
+        <li>
+          Melindungi mata dari paparan sinar biru yang biasa dikeluarkan oleh layar gadget dan komputer. Konon sebanyak 40% pita cahaya biru dan efek negatif sinar dapat terhalau melalui penggunaan kacamata ini.
+        </li>
+        <li>
+          Saking ajaibnya, kacamata k ion ini juga bisa menjadi alat untuk membuat kulit tetap awet muda. Paparan sinar UV yang ditimbulkan matahari berdampak buruk bagi kulit wajah. Namun, risiko itu bisa sedemikian rupa Kamu tekan ketika menggunakan kacamata ini.
+        </li>
+        <li>
+          Permasalahan utama ketika orang menggunakan kacamata adalah suatu uap serta kabut menutupi lensa. Ketika menggunakan kacamata ini, gangguan tersebut tidak akan mengganggu lama sebab uap akan cepat mengudara.
+        </li>
       </ul>
       <p class="card-text text-left">
         Peduli mata berarti peduli kesehatan tubuh secara keseluruhan. Bukan hanya fungsinya yang memperbaiki kesehatan dari dalam, namun juga memperbaiki tampilan dari luar. Oleh karena itu, Kamu perlu membeli kacamata terbaik dari toko optik terpercaya.
