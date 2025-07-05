@@ -19,7 +19,7 @@ module AssetProcessor
         'enabled' => true,
         'brotli' => {
           'enabled' => true,
-          'quality' => 4,  # 0-11, higher = better compression but slower
+          'quality' => 10,  # 0-11, higher = better compression but slower
           'window' => 22   # 10-24, affects memory usage
         },
         'gzip' => {
