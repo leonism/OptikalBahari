@@ -1,16 +1,20 @@
+# Site Identity
 title: Optikal Bahari
+tagline: Melayani Segala Kebutuhan Kacamata Anda
+subtitle: Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima KJP
 description: Periksa Mata & Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa Denda, Izin Dinkes/Kemenkes & Terima KJP. Pertama & Terpercaya Sejak 1978
+permalink: /:title/
+
+# Author Info
 author: Optikal Bahari
 author_name: Optikal Bahari
 author_first_name: Optikal
 author_last_name: Bahari
 email: optikalbahari@gmail.com
-baseurl: ''
-url: 'https://www.optikalbahari.com'
-tagline: Melayani Segala Kebutuhan Kacamata Anda
-subtitle: Optik Pertama & Terpercaya di Kemayoran. Periksa Mata Gratis, Kacamata Cicilan, Bergaransi, Tanpa DP, Credit Card, Riba, Denda, Bunga 0% & Menerima KJP
-permalink: /:title/
-# google_analytics: G-FV2N66E55Q // no longer needed, since we use Google Tag Manager
+
+# Site URLs
+baseurl: ""
+url: "https://www.optikalbahari.com"
 
 # Social Profiles
 instagram_username: optikalbahari
@@ -19,7 +23,7 @@ facebook_username: optikalbahari
 pinterest_username: optikalbahari
 youtube_username: optikalbahari
 
-# Build settings
+# Build Settings
 markdown: kramdown
 tag_page_layout: tag_page
 tag_page_dir: tag
@@ -42,19 +46,7 @@ jekyll_admin:
     - configuration
   homepage: "pages"
 
-# Pagination settings for jekyll-paginate-v2
-pagination:
-  enabled: true
-  per_page: 9 # 9 posts per page (3 per section)
-  permalink: '/posts/page/:num/' # URL structure for paginated pages
-  title: ':title - Page :num' # Page title format
-  sort_field: 'date' # Sort posts by date
-  sort_reverse: true # Newest first
-  trail:
-    before: 2 # Show 2 pages before current page in navigation
-    after: 2 # Show 2 pages after current page in navigation
-
-include: ['_pages']
+include: ["_pages"]
 destination: _site
 exclude:
   - package.json
@@ -68,7 +60,19 @@ exclude:
   - cache
   - _responsive
 
-# html compression
+# Pagination for jekyll-paginate-v2
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: "/posts/page/:num/"
+  title: ":title - Page :num"
+  sort_field: "date"
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+# HTML Compression
 compress_html:
   clippings: all
   comments: all
@@ -78,9 +82,8 @@ compress_html:
   blanklines: false
   profile: false
   startings: [html, head, body]
-  comments: ['<!-- ', ' -->']
 
-# css compression
+# CSS Compression
 sass:
   style: compressed
   silence_deprecations:
@@ -88,45 +91,41 @@ sass:
     - global-builtin
     - color-functions
 
-# Build command
+# Build Command
 build_command: "bundle exec jekyll build && bash scripts/post-build.sh"
 
 # Asset Processor Configuration
 asset_processor:
   performance:
-    max_workers: 16          # Auto-tuned based on CPU cores
-    memory_limit: 536870912  # 512MB limit
-    use_mmap: false          # Disable memory mapping, use streaming instead
-    batch_size: 100         # Process 100 files per batch
+    max_workers: 16
+    memory_limit: 536870912
+    use_mmap: false
+    batch_size: 100
+    thread_pool_size: 8
+    html_thread_pool_size: 4
+    compression_thread_pool_size: 3
+    enable_caching: true
+    cache_file: .smart_asset_cache.yml
   output:
     verbose: true
     show_stats: true
-
-  compression:
-    brotli:
-      quality: 10            # Good production balance (range 0 - 11)
-      window: 20           # Memory usage control (10-24 range)
-    gzip:
-      level: 8             # Optimal for most use cases (1-9 range)
-    chunk_size: 65536      # 64KB streaming chunks
-
+    manifest_file: assets/manifest.json
   optimization:
     precompute_hashes: true
     lazy_loading: true
     memory_pool: true
     zero_copy: true
-
-  # Compression settings
   compression:
     enabled: true
     brotli:
       enabled: true
-      quality: 10        # 0-11, higher = better compression (default: 4)
-      window: 22        # 10-24, affects memory usage (default: 22)
+      quality: 10
+      window: 22
     gzip:
       enabled: true
-      level: 8          # 1-9, higher = better compression (default: 6)
-    min_file_size: 1024 # Only compress files larger than 1KB
+      level: 8
+    chunk_size: 65536
+    min_file_size: 1024
     file_types:
       - .css
       - .js
@@ -135,12 +134,21 @@ asset_processor:
       - .txt
       - .xml
       - .json
-
-  # Asset hashing settings
+      - .jpeg
+      - .jpg
+      - .png
+      - .avif
+      - .webp
+      - .gif
+      - .ico
+      - .ttf
+      - .woff
+      - .woff2
+      - .eot
   hashing:
     enabled: true
-    algorithm: sha256   # 'md5' or 'sha256'
-    hash_length: 10     # Length of hash in filename
+    algorithm: sha256
+    hash_length: 10
     file_types:
       - .css
       - .js
@@ -155,16 +163,6 @@ asset_processor:
       - .woff
       - .woff2
       - .eot
-
-  # Performance settings
-  performance:
-    thread_pool_size: 8               # Main processing threads
-    html_thread_pool_size: 4          # HTML processing threads
-    compression_thread_pool_size: 3   # Compression threads
-    enable_caching: true
-    cache_file: .smart_asset_cache.yml
-
-  # Asset analysis settings
   analysis:
     critical_assets:
       - assets/main.css
@@ -175,16 +173,10 @@ asset_processor:
       - js
     include_html_files: true
 
-  # Output settings
-  output:
-    verbose: true
-    show_stats: true
-    manifest_file: assets/manifest.json
-
-# Jekyll Minifier Configuration
+# Jekyll Minifier
 jekyll-minifier:
   uglifier_args:
-    harmony: true  # Enable ES6 support
+    harmony: true
   js:
     enable: true
     preserve_source_map: false
@@ -199,6 +191,6 @@ jekyll-minifier:
     compress: true
     preserve_line_breaks: false
   exclude:
-    - '*.min.js'  # Skip already minified files
-    - '*.min.css' # Skip already minified files
-    - 'assets/vendor/**/*' # Skip vendor files
+    - "*.min.js"
+    - "*.min.css"
+    - "assets/vendor/**/*"
