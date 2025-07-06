@@ -102,14 +102,6 @@ asset_processor:
     verbose: true
     show_stats: true
 
-  compression:
-    brotli:
-      quality: 10            # Good production balance (range 0 - 11)
-      window: 20           # Memory usage control (10-24 range)
-    gzip:
-      level: 8             # Optimal for most use cases (1-9 range)
-    chunk_size: 65536      # 64KB streaming chunks
-
   optimization:
     precompute_hashes: true
     lazy_loading: true
@@ -126,6 +118,7 @@ asset_processor:
     gzip:
       enabled: true
       level: 8          # 1-9, higher = better compression (default: 6)
+    chunk_size: 65536      # 64KB streaming chunks
     min_file_size: 1024 # Only compress files larger than 1KB
     file_types:
       - .css
