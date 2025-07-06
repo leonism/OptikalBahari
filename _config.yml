@@ -78,7 +78,7 @@ compress_html:
   blanklines: false
   profile: false
   startings: [html, head, body]
-  comments: ['<!-- ', ' -->']
+  # comments: ['<!-- ', ' -->']
 
 # css compression
 sass:
@@ -135,6 +135,17 @@ asset_processor:
       - .txt
       - .xml
       - .json
+      - .jpeg
+      - .jpg
+      - .png
+      - .avif
+      - .webp
+      - .gif
+      - .ico
+      - .ttf
+      - .woff
+      - .woff2
+      - .eot
 
   # Asset hashing settings
   hashing:
