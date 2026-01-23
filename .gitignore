@@ -130,3 +130,6 @@ LICENSE
 
 # Git directory
 .git/
+
+# Jekyll output Directory
+_site/
