@@ -1,6 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-01-23T14:57:37+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Optikal Bahari</title><subtitle>Periksa Mata &amp; Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa Denda, Izin Dinkes/Kemenkes &amp; Terima KJP. Pertama &amp; Terpercaya Sejak 1978</subtitle><author><name>Optikal Bahari</name></author><entry xml:lang="id-ID"><title type="html">Tren Kacamata Hitam Wanita, Wajib Dimiliki</title><link href="http://localhost:4000/tren-kacamata-hitam-wanita/" rel="alternate" type="text/html" title="Tren Kacamata Hitam Wanita, Wajib Dimiliki" /><published>2024-04-21T08:25:23+07:00</published><updated>2024-04-21T08:25:23+07:00</updated><id>http://localhost:4000/tren-kacamata-hitam-wanita</id><content type="html" xml:base="http://localhost:4000/tren-kacamata-hitam-wanita/"><![CDATA[<div class="card-deck mb-3">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-01-23T15:15:57+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Optikal Bahari</title><subtitle>Periksa Mata &amp; Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa Denda, Izin Dinkes/Kemenkes &amp; Terima KJP. Pertama &amp; Terpercaya Sejak 1978</subtitle><author><name>Optikal Bahari</name></author><entry xml:lang="id-ID"><title type="html">Tren Kacamata Hitam Wanita, Wajib Dimiliki</title><link href="http://localhost:4000/tren-kacamata-hitam-wanita/" rel="alternate" type="text/html" title="Tren Kacamata Hitam Wanita, Wajib Dimiliki" /><published>2024-04-21T08:25:23+07:00</published><updated>2024-04-21T08:25:23+07:00</updated><id>http://localhost:4000/tren-kacamata-hitam-wanita</id><content type="html" xml:base="http://localhost:4000/tren-kacamata-hitam-wanita/"><![CDATA[<div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" srcset="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" width="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" height="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" class="card-img-top img-fluid" alt="Kacamata Hitam Wanita" />
+        <img itemprop="image" src="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp"
+        }}" srcset="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp"
+        | srcset }}" width="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp"
+        | width }}" height="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp"
+        | height }}" class="card-img-top img-fluid" alt="Kacamata Hitam Wanita">
         <div class="card-body">
             <h3 class="card-title">
                 Trendsetter Kacamata Hitam Wanita: Kenali Gaya yang Lagi Hits
@@ -34,112 +42,20 @@
     </div>
 </div>
 
-<section id="KenapaOptikalBahari">
-  <div class="container">
-    <div class="row">
-      <!-- Card 1: Periksa Mata -->
-      <div class="col-12 col-md-12 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/periksa-mata-gratis/" role="button" title="Periksa Mata Gratis">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200/v1750519373/bg-about 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200/v1750519373/bg-about 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200/v1750519373/bg-about 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-about" alt="Background About Image" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Periksa Mata Gratis
-            </h5>
-            <p class="card-text">
-              Lakukan pemeriksaan mata secara teratur untuk penglihatan yang optimal.
-            </p>
-            <a href="/periksa-mata-gratis/" class="btn btn-primary rounded-pill" title="Periksa Mata Gratis">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card 2: Kacamata Cicilan 0% -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/kacamata-cicilan/" role="button" title="Kacamata Cicilan 0%">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/bg-index-arch-1" alt="Background Architectural Visual" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Kacamata Cicilan 0%
-            </h5>
-            <p class="card-text">
-              Beli Kacamata Nyicil tanpa DP, tanpa bunga, aman denda, tanpa riba.
-            </p>
-            <a href="/kacamata-cicilan/" class="btn btn-primary rounded-pill">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card 3: Terima Pembayaran KJP -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" role="button" title="Menerima Pembayaran KJP">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-kjp" alt="Background KJP" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Terima Pembayaran KJP
-            </h5>
-            <p class="card-text">Kami menerima pembayaran kacamata dengan Kartu Jakarta Pintar.</p>
-            <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" class="btn btn-primary rounded-pill">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="
-        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" srcset="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" width="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" height="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" class="card-img-top img-fluid" alt="Kacamata Hitam Wanita:
-        Solusi Gaya yang Menawan di Segala Kondisi" />
+        <img itemprop="image" src="{{"
+        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp"
+        }}" srcset="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp"
+        | srcset }}" width="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp"
+        | width }}" height="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp"
+        | height }}" class="card-img-top img-fluid" alt="Kacamata Hitam Wanita:
+        Solusi Gaya yang Menawan di Segala Kondisi">
         <div class="card-body">
             <h3 class="card-title">
                 Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala
@@ -174,9 +90,16 @@
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="
-        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp" srcset="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp" width="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp" height="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp" class="card-img-top img-fluid" alt="Kacamata Hitam Wanita:
-        Solusi Gaya yang Menawan di Segala Kondisi" />
+        <img itemprop="image" src="{{"
+        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
+        }}" srcset="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
+        | srcset }}" width="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
+        | width }}" height="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
+        | height }}" class="card-img-top img-fluid" alt="Kacamata Hitam Wanita:
+        Solusi Gaya yang Menawan di Segala Kondisi">
         <div class="card-body">
             <h3 class="card-title">
                 Tren Kacamata Wanita Terkini yang Harus Anda Coba
@@ -210,9 +133,16 @@
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="
-        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp" srcset="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp" width="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp" height="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp" class="card-img-top img-fluid" alt="Cara Merawat Kacamata
-        Wanita agar Tetap Awet dan Tampak Baru" />
+        <img itemprop="image" src="{{"
+        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
+        }}" srcset="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
+        | srcset }}" width="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
+        | width }}" height="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
+        | height }}" class="card-img-top img-fluid" alt="Cara Merawat Kacamata
+        Wanita agar Tetap Awet dan Tampak Baru">
         <div class="card-body">
             <h3 class="card-title">
                 Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru
@@ -244,9 +174,16 @@
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="
-        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp" srcset="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp" width="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp" height="/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp" class="card-img-top img-fluid" alt="Cara Merawat Kacamata
-        Wanita agar Tetap Awet dan Tampak Baru" />
+        <img itemprop="image" src="{{"
+        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
+        }}" srcset="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
+        | srcset }}" width="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
+        | width }}" height="{{
+        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
+        | height }}" class="card-img-top img-fluid" alt="Cara Merawat Kacamata
+        Wanita agar Tetap Awet dan Tampak Baru">
         <div class="card-body">
             <h3 class="card-title">
                 Temukan Kacamata Wanita Impian Anda di Optikal Bahari
@@ -289,11 +226,13 @@
                 Bahari dan kami siap membantu anda dengan sepenuh hati. Punya
                 pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi
                 kami di nomor HP/WA ini
-                <a href="https://api.whatsapp.com/send?phone=6281932235445&amp;text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">
+                <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
+                    id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">
                     +6281932235445
                 </a>
                 atau kunjungi
-                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">
+                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari"
+                    class="FacebookPage">
                     Facebook Fan
                 </a>
                 Page kami.
@@ -303,7 +242,11 @@
     </div>
 </div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="lensa" /><category term="produk" /><summary type="html"><![CDATA[Temukan tren terkini kacamata hitam wanita & solusi gaya dari Optikal Bahari. Dapatkan pemeriksaan mata gratis & koleksi kacamata berkualitas.]]></summary></entry><entry xml:lang="id-ID"><title type="html">Panduan Memilih Kacamata Hijabers yang Tepat</title><link href="http://localhost:4000/kacamata-untuk-hijabers/" rel="alternate" type="text/html" title="Panduan Memilih Kacamata Hijabers yang Tepat" /><published>2024-04-02T08:25:23+07:00</published><updated>2024-04-02T08:25:23+07:00</updated><id>http://localhost:4000/kacamata-untuk-hijabers</id><content type="html" xml:base="http://localhost:4000/kacamata-untuk-hijabers/"><![CDATA[<div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" srcset="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" width="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" height="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" class="card-img-top img-fluid" alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" }}"
+      srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" | srcset }}"
+      width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" | width }}"
+      height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" | height }}"
+      class="card-img-top img-fluid" alt="Panduan Memilih Kacamata untuk Wajah Bulat">
     <div class="card-body">
       <h3 class="card-title">
         Kacamata untuk Hijabers: Solusi Fashionable dan Fungsional
@@ -337,110 +280,15 @@
   </div>
 </div>
 
-<section id="KenapaOptikalBahari">
-  <div class="container">
-    <div class="row">
-      <!-- Card 1: Periksa Mata -->
-      <div class="col-12 col-md-12 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/periksa-mata-gratis/" role="button" title="Periksa Mata Gratis">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200/v1750519373/bg-about 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200/v1750519373/bg-about 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200/v1750519373/bg-about 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-about" alt="Background About Image" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Periksa Mata Gratis
-            </h5>
-            <p class="card-text">
-              Lakukan pemeriksaan mata secara teratur untuk penglihatan yang optimal.
-            </p>
-            <a href="/periksa-mata-gratis/" class="btn btn-primary rounded-pill" title="Periksa Mata Gratis">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card 2: Kacamata Cicilan 0% -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/kacamata-cicilan/" role="button" title="Kacamata Cicilan 0%">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/bg-index-arch-1" alt="Background Architectural Visual" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Kacamata Cicilan 0%
-            </h5>
-            <p class="card-text">
-              Beli Kacamata Nyicil tanpa DP, tanpa bunga, aman denda, tanpa riba.
-            </p>
-            <a href="/kacamata-cicilan/" class="btn btn-primary rounded-pill">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card 3: Terima Pembayaran KJP -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" role="button" title="Menerima Pembayaran KJP">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-kjp" alt="Background KJP" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Terima Pembayaran KJP
-            </h5>
-            <p class="card-text">Kami menerima pembayaran kacamata dengan Kartu Jakarta Pintar.</p>
-            <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" class="btn btn-primary rounded-pill">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" srcset="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" width="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" height="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" class="card-img-top img-fluid" alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari" />
+    <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" }}"
+      srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" | srcset }}"
+      width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" | width }}"
+      height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" | height }}"
+      class="card-img-top img-fluid" alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari">
     <div class="card-body">
       <h3 class="card-title">
         Trendy dan Timeless: Kacamata Hijab yang Cocok untuk Segala Acara
@@ -473,7 +321,11 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" srcset="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" width="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" height="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" class="card-img-top img-fluid" alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari" />
+    <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" }}"
+      srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" | srcset }}"
+      width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" | width }}"
+      height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" | height }}"
+      class="card-img-top img-fluid" alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari">
     <div class="card-body">
       <h3 class="card-title">
         Kacamata Hijabers: Tips Berbelanja yang Bijak dan Menguntungkan
@@ -502,7 +354,11 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" srcset="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" width="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" height="/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" class="card-img-top img-fluid" alt="Temukan Kacamata Hijab yang Cocok di Optikal Bahari" />
+    <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" }}"
+      srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" | srcset }}"
+      width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" | width }}"
+      height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" | height }}"
+      class="card-img-top img-fluid" alt="Temukan Kacamata Hijab yang Cocok di Optikal Bahari">
     <div class="card-body">
       <h3 class="card-title">
         Temukan Kacamata Hijab yang Cocok di Optikal Bahari
@@ -529,11 +385,13 @@
         jangan ragu untuk mengunjungi Optik Bahari dan kami siap membantu anda
         dengan sepenuh hati. Punya pertanyaan lain sekitar Optikal Bahari,
         silahkan menghubungi kami di nomor HP/WA ini
-        <a href="https://api.whatsapp.com/send?phone=6281932235445&amp;text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">
+        <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
+          id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">
           +6281932235445
         </a>
         atau kunjungi
-        <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">
+        <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari"
+          class="FacebookPage">
           Facebook Fan
         </a>
         Page kami.
@@ -543,7 +401,11 @@
   </div>
 </div>]]></content><author><name>Optikal Bahari</name></author><category term="Tips" /><category term="lensa" /><category term="produk" /><summary type="html"><![CDATA[Temukan kacamata untuk hijabers yang pas dengan panduan ini. Dapatkan tips dan trik untuk tampil modis dengan kacamata hijab yang sesuai dengan gayamu. Baca sekarang di Optikal Bahari]]></summary></entry><entry xml:lang="id-ID"><title type="html">8 Merk Frame Kacamata Terkenal Dunia</title><link href="http://localhost:4000/8-merk-kacamata-terkenal-dunia/" rel="alternate" type="text/html" title="8 Merk Frame Kacamata Terkenal Dunia" /><published>2022-12-19T07:25:23+07:00</published><updated>2022-12-19T07:25:23+07:00</updated><id>http://localhost:4000/8-merk-kacamata-terkenal-dunia</id><content type="html" xml:base="http://localhost:4000/8-merk-kacamata-terkenal-dunia/"><![CDATA[<div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" srcset="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" width="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" height="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" class="card-img-top img-fluid" alt="8 Merk Frame Kacamata Terkenal Dunia" />
+    <img itemprop="image" src="{{ "/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" }}"
+      srcset="{{ "/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" | srcset }}"
+      width="{{ "/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" | width }}"
+      height="{{ "/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" | height }}"
+      class="card-img-top img-fluid" alt="8 Merk Frame Kacamata Terkenal Dunia">
     <div class="card-body">
       <h3 class="card-title">
         8 Merk Frame Kacamata Terkenal Dunia
@@ -552,7 +414,7 @@
         Saat ini pasar kacamata dipenuhi dengan berbagai merk yang beragam. Namun di antara berbagai pilihan tersebut,
         terdapat beberapa merk yang telah dikenal luas dan menjadi incaran banyak orang karena kualitasnya yang terjamin
         dan desainnya yang menawan. Setiap merk ini memiliki ciri khasnya sendiri, ada yang dikenal dengan sentuhan
-        desain klasik yang abadi &amp; mampu mengikuti perkembangan zaman. Ada juga merk lain yang mempunyai teknologi lensa
+        desain klasik yang abadi & mampu mengikuti perkembangan zaman. Ada juga merk lain yang mempunyai teknologi lensa
         polarisasi yang unggul. Sementara ada juga merk lain yang menonjolkan desain frame yang menarik dan memberikan
         kenyamanan maksimal bagi penggunanya.
       </p>
@@ -572,7 +434,12 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" srcset="/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" width="/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" height="/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" class="card-img-top img-fluid" alt="Oakley adalah merk frame kacamata yang terkenal karena kualitas dan teknologi yang diaplikasikannya" />
+    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" }}"
+      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" | srcset }}"
+      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" | width }}"
+      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" | height }}"
+      class="card-img-top img-fluid"
+      alt="Oakley adalah merk frame kacamata yang terkenal karena kualitas dan teknologi yang diaplikasikannya">
     <div class="card-body">
       <h3 class="card-title">
         Oakley
@@ -638,14 +505,18 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" srcset="/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" width="/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" height="/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" class="card-img-top img-fluid" alt="Ray-Ban adalah merk frame kacamata yang paling terkenal di dunia" />
+    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" }}"
+      srcset="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" | srcset }}"
+      width="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" | width }}"
+      height="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" | height }}"
+      class="card-img-top img-fluid" alt="Ray-Ban adalah merk frame kacamata yang paling terkenal di dunia">
     <div class="card-body">
       <h3 class="card-title">
         Ray-Ban
       </h3>
       <p class="card-text text-left">
         Ray-Ban adalah merk frame kacamata yang paling terkenal di dunia. Merk ini pertama kali dikenalkan pada tahun
-        1936 oleh Bausch &amp; Lomb, dan telah menjadi pilihan utama bagi banyak orang selama lebih dari 80 tahun. Ray-Ban
+        1936 oleh Bausch & Lomb, dan telah menjadi pilihan utama bagi banyak orang selama lebih dari 80 tahun. Ray-Ban
         menawarkan berbagai macam frame, mulai dari frame klasik hingga frame modern. Merk kacamata asal Amerika Serikat
         ini merupakan salah satu merk terkenal di dunia yang terkenal dengan gaya klasiknya. Ray-Ban juga terkenal
         dengan teknologi lensa polarisasi yang mampu menyerap cahaya reflektif dan meminimalisir glare.
@@ -675,110 +546,16 @@
   </div>
 </div>
 
-<section id="KenapaOptikalBahari">
-  <div class="container">
-    <div class="row">
-      <!-- Card 1: Periksa Mata -->
-      <div class="col-12 col-md-12 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/periksa-mata-gratis/" role="button" title="Periksa Mata Gratis">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200/v1750519373/bg-about 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200/v1750519373/bg-about 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200/v1750519373/bg-about 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-about" alt="Background About Image" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Periksa Mata Gratis
-            </h5>
-            <p class="card-text">
-              Lakukan pemeriksaan mata secara teratur untuk penglihatan yang optimal.
-            </p>
-            <a href="/periksa-mata-gratis/" class="btn btn-primary rounded-pill" title="Periksa Mata Gratis">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card 2: Kacamata Cicilan 0% -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/kacamata-cicilan/" role="button" title="Kacamata Cicilan 0%">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/bg-index-arch-1" alt="Background Architectural Visual" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Kacamata Cicilan 0%
-            </h5>
-            <p class="card-text">
-              Beli Kacamata Nyicil tanpa DP, tanpa bunga, aman denda, tanpa riba.
-            </p>
-            <a href="/kacamata-cicilan/" class="btn btn-primary rounded-pill">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card 3: Terima Pembayaran KJP -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" role="button" title="Menerima Pembayaran KJP">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-kjp" alt="Background KJP" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Terima Pembayaran KJP
-            </h5>
-            <p class="card-text">Kami menerima pembayaran kacamata dengan Kartu Jakarta Pintar.</p>
-            <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" class="btn btn-primary rounded-pill">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" srcset="/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" width="/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" height="/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" class="card-img-top img-fluid" alt="Persol adalah merk frame kacamata asal Italia yang terkenal karena desainnya yang elegan dan klasik" />
+    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" }}"
+      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" | srcset }}"
+      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" | width }}"
+      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" | height }}"
+      class="card-img-top img-fluid"
+      alt="Persol adalah merk frame kacamata asal Italia yang terkenal karena desainnya yang elegan dan klasik">
     <div class="card-body">
       <h3 class="card-title">Persol</h3>
       <p class="card-text text-left">
@@ -803,7 +580,11 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" srcset="/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" width="/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" height="/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" class="card-img-top img-fluid" alt="Model frame kacamata Prada yang paling terkenal adalah PR11RS dan PR01OS" />
+    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" }}"
+      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" | srcset }}"
+      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" | width }}"
+      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" | height }}"
+      class="card-img-top img-fluid" alt="Model frame kacamata Prada yang paling terkenal adalah PR11RS dan PR01OS">
     <div class="card-body">
       <h3 class="card-title">Prada</h3>
       <p class="card-text text-left">
@@ -828,7 +609,11 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" srcset="/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" width="/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" height="/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" class="card-img-top img-fluid" alt="Model frame kacamata Tom Ford yang paling terkenal adalah FT5179" />
+    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" }}"
+      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" | srcset }}"
+      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" | width }}"
+      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" | height }}"
+      class="card-img-top img-fluid" alt="Model frame kacamata Tom Ford yang paling terkenal adalah FT5179">
     <div class="card-body">
       <h3 class="card-title">Tom Ford</h3>
       <p class="card-text text-left">
@@ -849,7 +634,12 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" srcset="/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" width="/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" height="/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" class="card-img-top img-fluid" alt="Merk kacamata asal Inggris ini terkenal dengan frame kacamatanya yang elegan dan berkualitas tinggi" />
+    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" }}"
+      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" | srcset }}"
+      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" | width }}"
+      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" | height }}"
+      class="card-img-top img-fluid"
+      alt="Merk kacamata asal Inggris ini terkenal dengan frame kacamatanya yang elegan dan berkualitas tinggi">
     <div class="card-body">
       <h3 class="card-title">Burberry</h3>
       <p class="card-text text-left">
@@ -870,7 +660,12 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" srcset="/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" width="/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" height="/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" class="card-img-top img-fluid" alt="Versace adalah merk frame kacamata yang terkenal dengan desainnya yang mewah dan eksklusif" />
+    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" }}"
+      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" | srcset }}"
+      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" | width }}"
+      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" | height }}"
+      class="card-img-top img-fluid"
+      alt="Versace adalah merk frame kacamata yang terkenal dengan desainnya yang mewah dan eksklusif">
     <div class="card-body">
       <h3 class="card-title">Versace</h3>
       <p class="card-text text-left">
@@ -892,7 +687,12 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" srcset="/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" width="/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" height="/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" class="card-img-top img-fluid" alt="Gucci adalah salah satu merk frame kacamata terbaik di dunia yang dikenal dengan desainnya yang mewah dan eksklusif" />
+    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" }}"
+      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" | srcset }}"
+      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" | width }}"
+      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" | height }}"
+      class="card-img-top img-fluid"
+      alt="Gucci adalah salah satu merk frame kacamata terbaik di dunia yang dikenal dengan desainnya yang mewah dan eksklusif">
     <div class="card-body">
       <h3 class="card-title">
         Gucci
@@ -933,7 +733,11 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" srcset="/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" width="/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" height="/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" class="card-img-top img-fluid" alt="Segera Datangi Optikal Bahari" />
+    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" }}"
+      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" | srcset }}"
+      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" | width }}"
+      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" | height }}"
+      class="card-img-top img-fluid" alt="Segera Datangi Optikal Bahari">
     <div class="card-body">
       <h3 class="card-title">
         Segera Datangi Optikal Bahari
@@ -951,20 +755,24 @@
         Kamu perlu referensi untuk kacamata keren tersebut diatas untuk kebutuhan keseharian kamu? Kamu bisa dapatkan
         hanya di Optikal Bahari Kemayoran yang berlokasi di Jakarta Pusat, Jln. Bendungan Jago No. 447 atau lihat di
         website kami. Kamu juga bisa bergabung dengan fanpage
-        <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>
+        <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari"
+          class="FacebookPage">Facebook @optikalbahari</a>
         agar dapat mengetahui update informasi terkait jenis lensa lensa terbaru. Untuk respond yang lebih cepat,
         silahkan menghubungi kami di nomor HP/WA ini
-        <a href="https://api.whatsapp.com/send?phone=6281932235445&amp;text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
+        <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
+          id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
         <em>(Optikal Bahari)</em>
       </p>
     </div>
   </div>
 </div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Fakta unik dari 8 merk frame kacamata yang terkenal dan terbagus di dunia dirangkum oleh Kami]]></summary></entry><entry xml:lang="id-ID"><title type="html">Kacamata Retro Mengapa Tren ini Kembali Populer?</title><link href="http://localhost:4000/kacamata-retro-kembali-populer/" rel="alternate" type="text/html" title="Kacamata Retro Mengapa Tren ini Kembali Populer?" /><published>2022-12-17T07:25:23+07:00</published><updated>2022-12-17T07:25:23+07:00</updated><id>http://localhost:4000/kacamata-retro-kembali-populer</id><content type="html" xml:base="http://localhost:4000/kacamata-retro-kembali-populer/"><![CDATA[<div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-10.webp" src="/assets/img/posts/beach-retro-girls/beach-retro-girls-10.webp" class="card-img-top" title="Kacamata Reto dan vintage" alt="Kacamata Reto dan vintage" />
+        <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-10.webp"
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-10.webp" class="card-img-top"
+            title="Kacamata Reto dan vintage" alt="Kacamata Reto dan vintage">
         <div class="card-body">
             <h3 class="card-title">
-                Tren Retro &amp; Vintage Yang Kembali Populer
+                Tren Retro & Vintage Yang Kembali Populer
             </h3>
             <p class="card-text text-left">
                 Kacamata retro atau vintage telah kembali populer belakangan ini, terutama di kalangan penggemar mode
@@ -996,110 +804,13 @@
     </div>
 </div>
 
-<section id="KenapaOptikalBahari">
-  <div class="container">
-    <div class="row">
-      <!-- Card 1: Periksa Mata -->
-      <div class="col-12 col-md-12 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/periksa-mata-gratis/" role="button" title="Periksa Mata Gratis">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200/v1750519373/bg-about 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200/v1750519373/bg-about 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200/v1750519373/bg-about 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-about" alt="Background About Image" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Periksa Mata Gratis
-            </h5>
-            <p class="card-text">
-              Lakukan pemeriksaan mata secara teratur untuk penglihatan yang optimal.
-            </p>
-            <a href="/periksa-mata-gratis/" class="btn btn-primary rounded-pill" title="Periksa Mata Gratis">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card 2: Kacamata Cicilan 0% -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/kacamata-cicilan/" role="button" title="Kacamata Cicilan 0%">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/bg-index-arch-1" alt="Background Architectural Visual" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Kacamata Cicilan 0%
-            </h5>
-            <p class="card-text">
-              Beli Kacamata Nyicil tanpa DP, tanpa bunga, aman denda, tanpa riba.
-            </p>
-            <a href="/kacamata-cicilan/" class="btn btn-primary rounded-pill">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card 3: Terima Pembayaran KJP -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" role="button" title="Menerima Pembayaran KJP">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-kjp" alt="Background KJP" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Terima Pembayaran KJP
-            </h5>
-            <p class="card-text">Kami menerima pembayaran kacamata dengan Kartu Jakarta Pintar.</p>
-            <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" class="btn btn-primary rounded-pill">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-012.webp" src="/assets/img/posts/beach-retro-girls/beach-retro-girls-012.webp" class="card-img-top" title="Padukan Dengan Bentuk Wajah Dan Warna Kulit" alt="Kacamata Reto dan vintage" />
+        <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-012.webp"
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-012.webp" class="card-img-top"
+            title="Padukan Dengan Bentuk Wajah Dan Warna Kulit" alt="Kacamata Reto dan vintage">
         <div class="card-body">
             <h3 class="card-title">
                 Padukan Dengan Bentuk Wajah Dan Warna Kulit
@@ -1133,7 +844,9 @@
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp" src="/assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp" class="card-img-top" title="Padukan Kacamata Retro Dengan Gaya Anda" alt="Padukan Kacamata Retro Dengan Gaya Anda" />
+        <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp"
+            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp" class="card-img-top"
+            title="Padukan Kacamata Retro Dengan Gaya Anda" alt="Padukan Kacamata Retro Dengan Gaya Anda">
         <div class="card-body">
             <h3 class="card-title">
                 Padukan Kacamata Retro Dengan Gaya Anda
@@ -1166,17 +879,22 @@
                 dapatkan hanya di
                 Optikal Bahari Kemayoran yang berlokasi di Jakarta Pusat, Jln. Bendungan Jago No. 447 atau lihat di
                 website kami.
-                Kamu juga bisa bergabung dengan fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook
-                    @optikalbahari</a>@optikalbahari&lt;/a&gt; supaya mengetahui update informasi terkait
+                Kamu juga bisa bergabung dengan fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick"
+                    title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook
+                    @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait
                 jenis lensa progresif terbaru. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA
-                ini <a href="https://api.whatsapp.com/send?phone=6281932235445&amp;text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.<em>(Optikal
+                ini <a
+                    href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
+                    id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.<em>(Optikal
                     Bahari)</em>
             </p>
         </div>
     </div>
 </div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Kacamata retro, mengapa tren ini kembali populer dan bagaimana cara memadukannya dengan gaya keseharian Anda? Berikut adalah tips and trik dalam penerapannya]]></summary></entry><entry xml:lang="id-ID"><title type="html">Perawatan Kacamata Anak: Apa yang Perlu Anda Ketahui</title><link href="http://localhost:4000/perawatan-kacamata-anak/" rel="alternate" type="text/html" title="Perawatan Kacamata Anak: Apa yang Perlu Anda Ketahui" /><published>2022-12-16T07:25:23+07:00</published><updated>2022-12-16T07:25:23+07:00</updated><id>http://localhost:4000/perawatan-kacamata-anak</id><content type="html" xml:base="http://localhost:4000/perawatan-kacamata-anak/"><![CDATA[<div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp" src="/assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp" class="card-img-top" title="Perawatan Kacamata Anak" alt="Perawatan Kacamata Anak" />
+    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp"
+      src="{{"/assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp" | relative_url }}" class="card-img-top"
+      title="Perawatan Kacamata Anak" alt="Perawatan Kacamata Anak">
     <div class="card-body">
       <h3 class="card-title">
         Perawatan Kacamata Anak
@@ -1201,7 +919,9 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp" src="/assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp" class="card-img-top img-fluid" alt="Kelebihan Optikal Bahari" title="Kelebihan Optikal Bahari" />
+    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp"
+      src="/assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp" class="card-img-top img-fluid"
+      alt="Kelebihan Optikal Bahari" title="Kelebihan Optikal Bahari" />
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Optikal Bahari
@@ -1209,7 +929,7 @@
       <p class="card-text text-left">
         <strong>Periksa Mata GRATIS</strong>.
         Optikal Bahari memahami pentingnya penglihatan yang jelas bagi kehidupan Anda. Oleh karena itu, kami menawarkan
-        <a href="/periksa-mata-gratis/" title="Periksa Mata Gratis">periksa mata gratis</a>
+        <a href="{{"/periksa-mata-gratis/" | relative_url }}" title="Periksa Mata Gratis">periksa mata gratis</a>
         yang dilakukan dengan
         <strong>dua tahapan</strong>
         untuk memastikan hasil yang akurat dan terpercaya. Tahap pertama menggunakan
@@ -1219,8 +939,8 @@
         untuk membantu optometrist kami mendiagnosis kondisi mata dengan lebih tepat.
       </p>
       <p class="card-text text-left">
-        <strong>Service &amp; Reparasi Kacamata GRATIS</strong>.
-        Jangan buang dulu kacamata rusak Anda. Di Optikal Bahari, kami menawarkan layanan service &amp; reparasi kacamata
+        <strong>Service & Reparasi Kacamata GRATIS</strong>.
+        Jangan buang dulu kacamata rusak Anda. Di Optikal Bahari, kami menawarkan layanan service & reparasi kacamata
         GRATIS! Dengan layanan ini, kacamata kesayangan Anda akan selalu terjaga dalam kondisi prima dan tetap stylish.
         Jadi, tak perlu khawatir lagi tentang kacamata yang rusak
         atau tidak nyaman. Percayakan perbaikan kacamata Anda kepada kami, dan nikmati pengalaman menggunakan kacamata
@@ -1236,10 +956,10 @@
         Anda, karena di Optikal Bahari, kualitas dan layanan yang terjamin merupakan prioritas kami.
       </p>
       <p class="card-text text-left">
-        <strong>Cicilan 0%, Tanpa Bunga &amp; Riba</strong>.
+        <strong>Cicilan 0%, Tanpa Bunga & Riba</strong>.
         Optikal Bahari mengubah konsep membeli kacamata menjadi lebih terjangkau dan mudah. Melalui program
-        <a href="/kacamata-cicilan/" title="kacamata cicilan 0%, tanpa bunga &amp; riba">kacamata
-          cicilan 0%, tanpa bunga &amp; riba</a>, Anda dapat memiliki kacamata impian tanpa membebani dompet Anda. Ini
+        <a href="{{"/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan 0%, tanpa bunga & riba">kacamata
+          cicilan 0%, tanpa bunga & riba</a>, Anda dapat memiliki kacamata impian tanpa membebani dompet Anda. Ini
         adalah solusi yang sempurna bagi siapa pun yang ingin tampil kece tanpa harus khawatir tentang masalah keuangan.
         Jadi, jangan ragu lagi untuk merencanakan kunjungan ke Optikal Bahari dan temukan kacamata yang Anda idamkan
         dengan cara yang lebih hemat dan mudah!
@@ -1247,16 +967,17 @@
       <p class="card-text text-left">
         <strong>Bayar Pakai KJP? Tentu Bisa.</strong>
         Pemilik Kartu Jakarta Pintar (KJP), dengarkan berita baik ini! Sekarang, gunakan
-        <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" title="KJP Anda untuk membayar kacamata di Optikal Bahari">KJP Anda untuk membayar kacamata di Optikal
+        <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}"
+          title="KJP Anda untuk membayar kacamata di Optikal Bahari">KJP Anda untuk membayar kacamata di Optikal
           Bahari</a>. Bayangkan, tak perlu lagi memikirkan uang jajan, Anda dapat tampil stylish dengan kacamata baru
         tanpa beban. Optikal Bahari memberikan aksesibilitas yang luar biasa, sehingga Anda dapat mengekspresikan gaya
         Anda tanpa hambatan finansial. Jangan sia-siakan kesempatan ini, segera manfaatkan KJP dan dapatkan kacamata
         impian di Optikal Bahari untuk penampilan yang semakin memukau.
       </p>
       <p class="card-text text-left">
-        <strong>Optikal Bahari Bersertifikat Dari Dinkes &amp; Kemenkes</strong>.
+        <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>.
         Penglihatan mata adalah prioritas utama kami di Optikal Bahari. Kami telah memperoleh izin resmi dari Dinas
-        Kesehatan &amp; Kementerian Kesehatan Republik Indonesia, hal ini bentuk komitmen kami terhadap standar penglihatan
+        Kesehatan & Kementerian Kesehatan Republik Indonesia, hal ini bentuk komitmen kami terhadap standar penglihatan
         mata yang tinggi. Dengan izin ini Anda dapat sepenuhnya percaya pada layanan dan produk kami. Jangan ragu untuk
         periksa mata Anda di Optikal Bahari, dimana penglihatan mata bukan hanya menjadi komitmen, tetapi juga gaya
         hidup yang menawan. Percayakan urusan penglihatan Anda kepada Optikal Bahari dan nikmati pengalaman pemeriksaan
@@ -1266,110 +987,13 @@
   </div>
 </div>
 
-<section id="KenapaOptikalBahari">
-  <div class="container">
-    <div class="row">
-      <!-- Card 1: Periksa Mata -->
-      <div class="col-12 col-md-12 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/periksa-mata-gratis/" role="button" title="Periksa Mata Gratis">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200/v1750519373/bg-about 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200/v1750519373/bg-about 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480/v1750519373/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200/v1750519373/bg-about 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-about" alt="Background About Image" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Periksa Mata Gratis
-            </h5>
-            <p class="card-text">
-              Lakukan pemeriksaan mata secara teratur untuk penglihatan yang optimal.
-            </p>
-            <a href="/periksa-mata-gratis/" class="btn btn-primary rounded-pill" title="Periksa Mata Gratis">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card 2: Kacamata Cicilan 0% -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/kacamata-cicilan/" role="button" title="Kacamata Cicilan 0%">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/v1750519373/bg-index-arch-1 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/bg-index-arch-1 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/bg-index-arch-1" alt="Background Architectural Visual" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Kacamata Cicilan 0%
-            </h5>
-            <p class="card-text">
-              Beli Kacamata Nyicil tanpa DP, tanpa bunga, aman denda, tanpa riba.
-            </p>
-            <a href="/kacamata-cicilan/" class="btn btn-primary rounded-pill">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card 3: Terima Pembayaran KJP -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
-        <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" role="button" title="Menerima Pembayaran KJP">
-            <picture>
-  <!-- AVIF format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- WEBP format -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- JPEG fallback -->
-  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480/v1750519373/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200/v1750519373/bg-kjp 1200w
-    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-  <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-kjp" alt="Background KJP" loading="lazy" decoding="async" width="768" height="512" class="card-img-top" />
-</picture>
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Terima Pembayaran KJP
-            </h5>
-            <p class="card-text">Kami menerima pembayaran kacamata dengan Kartu Jakarta Pintar.</p>
-            <a href="/optikal-bahari-kjp-kartu-jakarta-pintar/" class="btn btn-primary rounded-pill">
-              Lebih Lanjut
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include home/home-cards.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp" src="/assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp" class="card-img-top img-fluid" title="Pemilihan Material Kacamata" alt="Pemilihan Material Kacamata" />
+    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp"
+      src="{{"/assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp" | relative_url }}"
+      class="card-img-top img-fluid" title="Pemilihan Material Kacamata" alt="Pemilihan Material Kacamata">
     <div class="card-body">
       <h3 class="card-title">
         Pemilihan Material Kacamata
@@ -1405,7 +1029,9 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp" src="/assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp" class="card-img-top img-fluid" title="Jaga Kebersihan Kacamata Anak" alt="Jaga Kebersihan Kacamata Anak" />
+    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp"
+      src="{{"/assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp" | relative_url }}"
+      class="card-img-top img-fluid" title="Jaga Kebersihan Kacamata Anak" alt="Jaga Kebersihan Kacamata Anak">
     <div class="card-body">
       <h3 class="card-title">
         Jaga Kebersihan Kacamata Anak
@@ -1429,7 +1055,10 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp" src="/assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp" class="card-img-top img-fluid" title="Rutin Melakukan Kunjungan Ke Optik" alt="Rutin Melakukan Kunjungan Ke Optik" />
+    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp"
+      src="{{"/assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp" | relative_url }}"
+      class="card-img-top img-fluid" title="Rutin Melakukan Kunjungan Ke Optik"
+      alt="Rutin Melakukan Kunjungan Ke Optik">
     <div class="card-body">
       <h3 class="card-title">
         Rutin Melakukan Kunjungan Ke Optik
@@ -1445,16 +1074,23 @@
         anak-anak masih tergolong rentan dan mudah rusak, maka perawatan kacamata untuk anak-anak harus dilakukan dengan
         lebih hati-hati. Kamu perlu service kacamata dengan gratis, dapatkan hanya di Optikal Bahari Kemayoran, Jakpus,
         Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
-        <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>
+        <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari"
+          class="FacebookPage">Facebook @optikalbahari</a>
         agar selalu update informasi terkait jenis lensa progresif terbaru. Untuk respond yang lebih cepat, silahkan
         menghubungi kami di nomor HP/WA ini
-        <a href="https://api.whatsapp.com/send?phone=6281932235445&amp;text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.<em>(Optikal Bahari)</em>
+        <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
+          id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.<em>(Optikal Bahari)</em>
       </p>
     </div>
   </div>
 </div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Perawatan kacamata untuk anak-anak merupakan hal yang sangat penting untuk diperhatikan, terutama jika anak Anda memiliki masalah pada mata seperti rabun jauh atau dekat.]]></summary></entry><entry xml:lang="id-ID"><title type="html">Cara Merawat dan Menjaga Kacamata</title><link href="http://localhost:4000/cara-merawat-menjaga-kacamata/" rel="alternate" type="text/html" title="Cara Merawat dan Menjaga Kacamata" /><published>2022-12-15T07:25:23+07:00</published><updated>2022-12-15T07:25:23+07:00</updated><id>http://localhost:4000/cara-merawat-menjaga-kacamata</id><content type="html" xml:base="http://localhost:4000/cara-merawat-menjaga-kacamata/"><![CDATA[<div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01.webp" src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01.webp" class="card-img-top" alt="kacamata-k-ion" />
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01.webp"
+      src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01.webp"
+      class="card-img-top"
+      alt="kacamata-k-ion">
     <div class="card-body">
       <h3 class="card-title">
         Cara Merawat dan Menjaga Kacamata
@@ -1495,7 +1131,12 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02.webp" src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02.webp" class="card-img-top" alt="kacamata-k-ion" />
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02.webp"
+      src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02.webp"
+      class="card-img-top"
+      alt="kacamata-k-ion">
     <div class="card-body">
             <h3 class="card-title">
                 Periksa Mata Anda Secara Berkala
@@ -1528,17 +1169,23 @@
             </p>
             <p class="card-text text-left">Kamu perlu service kacamata dengan gratis, dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, 
                 Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
-                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari&lt;/a&gt; supaya mengetahui update informasi terkait jenis lensa progresif terbaru. 
-                Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&amp;text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.<em>(Optikal Bahari)</em>
+                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. 
+                Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
+                title="Call WhatsApp">+6281932235445</a>.<em>(Optikal Bahari)</em>
             </p>
         </div>
     </div>
 </div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Temukan cara mudah merawat dan menjaga kacamata agar tetap terjaga dan berkualitas dengan tips dari kami. Jaga kesehatan mata Anda dengan perawatan yang tepat]]></summary></entry><entry xml:lang="id-ID"><title type="html">Perubahan Kecil Yang Membuat Tren Kacamata</title><link href="http://localhost:4000/perubahan-kecil-yang-membuat-perbedaan-besar-dengan-tren-kacamata/" rel="alternate" type="text/html" title="Perubahan Kecil Yang Membuat Tren Kacamata" /><published>2022-12-12T07:25:23+07:00</published><updated>2022-12-12T07:25:23+07:00</updated><id>http://localhost:4000/perubahan-kecil-yang-membuat-perbedaan-besar-dengan-tren-kacamata</id><content type="html" xml:base="http://localhost:4000/perubahan-kecil-yang-membuat-perbedaan-besar-dengan-tren-kacamata/"><![CDATA[<div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-01.webp" src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-01.webp" class="card-img-top" alt="tipe-lensa" />
+    <img
+        itemprop="image"
+        data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-01.webp"
+        src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-01.webp"
+        class="card-img-top"
+        alt="tipe-lensa" />
     <div class="card-body">
         <h3 class="card-title">
-            Bereksperimen Dengan Berbagai Bentuk &amp; Gaya
+            Bereksperimen Dengan Berbagai Bentuk & Gaya
         </h3>
             <p class="card-text text-left">
                 Salah satu cara untuk membuat perbedaan besar dengan tren kacamata adalah memasukkan elemen unik dan tidak terduga ke
@@ -1575,7 +1222,11 @@
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-02.webp" src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-02.webp" class="card-img-top" alt="lensa-progresif.webp" />
+        <img
+            data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-02.webp"
+            src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-02.webp"
+            class="card-img-top"
+            alt="lensa-progresif.webp">
         <div class="card-body">
             <h3 class="card-title">
                 Sentuhan Pribadi pada Bingkai Anda Sengan Sentuhan Detail
@@ -1607,7 +1258,11 @@
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-03.webp" src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-03.webp" class="card-img-top" alt="lensa-progresif.webp" />
+        <img
+            data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-03.webp"
+            src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-03.webp"
+            class="card-img-top"
+            alt="lensa-progresif.webp">
         <div class="card-body">
             <h3 class="card-title">
                 Kenali Jenis Lensa Kacamata Terbaik, Lensa Tunggal dan Bifokal
@@ -1629,17 +1284,22 @@
             </p>
             <p class="card-text text-left">
                 Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
-                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari&lt;/a&gt; supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
-                respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&amp;text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>
+                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
+                respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
+                title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>
             </p>
         </div>
     </div>
 </div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Coba tips-tips terbaru tentang cara memakai kacamata untuk meningkatkan kenyamanan]]></summary></entry><entry xml:lang="id-ID"><title type="html">Tren Kacamata 2023, Banyak Yang Berbeda</title><link href="http://localhost:4000/tren-kacamata-2023/" rel="alternate" type="text/html" title="Tren Kacamata 2023, Banyak Yang Berbeda" /><published>2022-12-11T07:25:23+07:00</published><updated>2022-12-11T07:25:23+07:00</updated><id>http://localhost:4000/tren-kacamata-2023</id><content type="html" xml:base="http://localhost:4000/tren-kacamata-2023/"><![CDATA[<div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">    
-        <img data-src="/assets/img/posts/trend-kacamata-2023/trend-kacamata-2023-01.webp" src="/assets/img/posts/trend-kacamata-2023/trend-kacamata-2023-01.webp" class="card-img-top" alt="lensa-progresif.webp" />
+        <img 
+            data-src="/assets/img/posts/trend-kacamata-2023/trend-kacamata-2023-01.webp" 
+            src="/assets/img/posts/trend-kacamata-2023/trend-kacamata-2023-01.webp" 
+            class="card-img-top" 
+            alt="lensa-progresif.webp">
         <div class="card-body">
             <h3 class="card-title">
-                Beberapa Tren &amp; Perkembangan Menarik
+                Beberapa Tren & Perkembangan Menarik
             </h3>
                 <p class="card-text text-left">
                     Memasuki tahun 2023, industri kacamata siap menghadapi beberapa tren dan perkembangan baru yang menarik. Mulai dari
@@ -1663,10 +1323,14 @@
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">    
-        <img data-src="/assets/img/posts/trend-kacamata-2023/trend-kacamata-2023-02.webp" src="/assets/img/posts/trend-kacamata-2023/trend-kacamata-2023-02.webp" class="card-img-top" alt="lensa-progresif.webp" />
+        <img 
+            data-src="/assets/img/posts/trend-kacamata-2023/trend-kacamata-2023-02.webp" 
+            src="/assets/img/posts/trend-kacamata-2023/trend-kacamata-2023-02.webp" 
+            class="card-img-top" 
+            alt="lensa-progresif.webp">
         <div class="card-body">
             <h3 class="card-title">
-                Innovasi &amp; Perkembangan Industri Kacamata
+                Innovasi & Perkembangan Industri Kacamata
             </h3>
                 <p class="card-text text-left">
                     Munculnya augmented reality dan virtual reality. Di tahun-tahun mendatang, kita dapat berharap untuk melihat integrasi
@@ -1689,15 +1353,21 @@
                     ramah lingkungan hingga pertumbuhan belanja online dan integrasi teknologi pintar, kacamata masa depan akan menjadi
                     modis dan fungsional. Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. 
                     Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa 
-                    bergabung dengan fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari&lt;/a&gt; supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
-                    respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&amp;text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
+                    bergabung dengan fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
+                    respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
+                    title="Call WhatsApp">+6281932235445</a>.
                     <em>(Optikal Bahari)</em>
                 </p>
         </div>  
     </div>
 </div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Memasuki tahun 2023, industri kacamata siap menghadapi beberapa tren dan perkembangan baru yang menarik.]]></summary></entry><entry xml:lang="id-ID"><title type="html">Eyewear Awards, Terbaik, Terburuk &amp;amp; Teraneh</title><link href="http://localhost:4000/eyewear-trends-awards-terbaik-terburuk-teraneh/" rel="alternate" type="text/html" title="Eyewear Awards, Terbaik, Terburuk &amp;amp; Teraneh" /><published>2022-12-10T07:25:23+07:00</published><updated>2022-12-10T07:25:23+07:00</updated><id>http://localhost:4000/eyewear-trends-awards-terbaik-terburuk-teraneh</id><content type="html" xml:base="http://localhost:4000/eyewear-trends-awards-terbaik-terburuk-teraneh/"><![CDATA[<div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-01.webp" src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-01.webp" class="card-img-top img-fluid" alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-01.webp"
+      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-01.webp"
+      class="card-img-top img-fluid"
+      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
     <div class="card-body">
         <h3 class="card-title">
             Trend Kacamata 20 Tahun Silam
@@ -1725,7 +1395,12 @@
 </div>
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-02.webp" src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-02.webp" class="card-img-top img-fluid" alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-02.webp"
+      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-02.webp"
+      class="card-img-top img-fluid"
+      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
     <div class="card-body">
         <h3 class="card-title">
             Trend Teraneh Sepanjang Masa
@@ -1750,7 +1425,12 @@
 </div>
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-03.webp" src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-03.webp" class="card-img-top img-fluid" alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-03.webp"
+      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-03.webp"
+      class="card-img-top img-fluid"
+      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
     <div class="card-body">
         <h3 class="card-title">
             Trend Kacamata Terburuk 20 Tahun Terakhir
@@ -1779,7 +1459,12 @@
 </div>
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-04.webp" src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-04.webp" class="card-img-top img-fluid" alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-04.webp"
+      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-04.webp"
+      class="card-img-top img-fluid"
+      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
     <div class="card-body">
         <h3 class="card-title">
             Tren Yang Menarik dan Inovatif
@@ -1802,16 +1487,22 @@
                 menjadikannya milik Anda.
             </p>
             <p class="card-text text-left">Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
-                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari&lt;/a&gt; supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
+                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
                 respond
-                yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&amp;text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
+                yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
+                    title="Call WhatsApp">+6281932235445</a>.
                 <em>(Optikal Bahari)</em>
             </p>
         </div>
     </div>
 </div>]]></content><author><name>Optikal Bahari</name></author><category term="Info" /><category term="tips" /><category term="kacamata" /><category term="lensa" /><summary type="html"><![CDATA[Ikuti perkembangan trend kacamata: terbaik, terburuk dan teraneh di 2022 hanya di Optikal Bahari. Kunjungi situs kami untuk mengetahui Eyewear Trends Awards]]></summary></entry><entry xml:lang="id-ID"><title type="html">Bagaimana Tren Kacamata 20 Tahun Lalu?</title><link href="http://localhost:4000/bagaimana-orang-membicarakan-tren-kacamata-20-tahun-lalu/" rel="alternate" type="text/html" title="Bagaimana Tren Kacamata 20 Tahun Lalu?" /><published>2022-12-09T07:25:23+07:00</published><updated>2022-12-09T07:25:23+07:00</updated><id>http://localhost:4000/bagaimana-orang-membicarakan-tren-kacamata-20-tahun-lalu</id><content type="html" xml:base="http://localhost:4000/bagaimana-orang-membicarakan-tren-kacamata-20-tahun-lalu/"><![CDATA[<div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-01.webp" src="/assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-01.webp" class="card-img-top img-fluid" alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-01.webp"
+      src="/assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-01.webp"
+      class="card-img-top img-fluid"
+      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
     <div class="card-body">
         <h3 class="card-title">
             Trend Kacamata 20 Tahun Silam
@@ -1843,7 +1534,12 @@
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-02.webp" src="/assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-02.webp" class="card-img-top img-fluid" alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-02.webp"
+      src="/assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-02.webp"
+      class="card-img-top img-fluid"
+      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
     <div class="card-body">
         <h3 class="card-title">
             Trend Kacamata Masa Sekarang
@@ -1858,8 +1554,9 @@
                 Melihat kembali tren kacamata 20 tahun lalu dapat memberi kita gambaran sekilas ke masa lalu dan seberapa banyak hal
                 telah berubah. Saat ini, kacamata adalah bagian penting dari mode kita, dan terus berkembang dan berubah seiring waktu.            
                 Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
-                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari&lt;/a&gt; supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
-                respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&amp;text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>
+                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
+                respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
+                title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>
             </p>
         </div>
     </div>

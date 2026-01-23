@@ -4,7 +4,7 @@
       "@type": "Product",
       "name": "Produk Periksa Mata dan Service Kacamata di Optikal Bahari",
       "description": "Dapatkan pemeriksaan mata gratis, garansi 1 tahun, program cicilan tanpa bunga & riba, service & reparasi kacamata gratis, bisa bayar menggunakan KJP, tersertifikasi Dinkes & Kemenkes, dan bonus goodie bag di Optikal Bahari. Jaga kesehatan mata Anda dan buat kacamata Anda tetap awet & kece!",
-      "image": "https://optikalbahari.com/assets/img/bg-stories-index.jpeg",
+      "image": "{{ site.url }}/assets/img/bg-stories-index.jpeg",
       "brand": {
         "@type": "Brand",
         "name": "Optikal Bahari"
@@ -27,7 +27,7 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
-        "reviewCount": 504
+        "reviewCount": 511
       },
       "offers": [
         {
@@ -96,7 +96,7 @@
           "availableAtOrFrom": {
               "@type": "Place",
               "name": "Optikal Bahari",
-              "url": "https://optikalbahari.com/periksa-mata-gratis/"
+              "url": "{{ site.url }}/periksa-mata-gratis/"
             },
           "includes": [
             {

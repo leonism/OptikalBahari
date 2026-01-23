@@ -10,8 +10,8 @@
 			"{{ site.url }}/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp",
 			"{{ site.url }}/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp"
 		],
-		"@id": "https://optikalbahari.com",
-		"url": "https://optikalbahari.com",
+		"@id": "{{ site.url }}",
+		"url": "{{ site.url }}",
 		"telephone": "+6281932235445",
 		"address": {
 			"@type": "PostalAddress",
@@ -44,7 +44,7 @@
 			"https://twitter.com/optikalbahari",
 			"https://id.pinterest.com/optikalbahari",
 			"https://www.youtube.com/@optikalbahari",
-			"https://optikalbahari.com/"
+			"{{ site.url }}"
 		]
 	},
 	{
