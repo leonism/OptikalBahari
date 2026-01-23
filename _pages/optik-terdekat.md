@@ -31,7 +31,7 @@ comments: false
     </p>
     <p class="card-text text-left">
       Optikal Bahari merupakan toko kacamata yang telah berdiri selama 40+ tahun di Kemayoran, Jakarta Pusat. Optikal Bahari mudah dijangkau, berlokasi di
-      <a href="/lokasi" | relative_url }}" title="Optikal Bahari, Jakarta Pusat">Jalan Bendungan Jago No. 447</a>. Kami berkomitmen untuk memberikan pelayanan terbaik & berkualitas bagi kebutuhan kacamata Anda.
+      <a href="{{ "/lokasi/" | relative_url }}" title="Optikal Bahari, Jakarta Pusat">Jalan Bendungan Jago No. 447</a>. Kami berkomitmen untuk memberikan pelayanan terbaik & berkualitas bagi kebutuhan kacamata Anda.
     </p>
     <p class="card-text text-left">
       Tim ahli kami yang berpengalaman akan membantu Anda menemukan kacamata yang tepat sesuai dengan kebutuhan dan gaya Anda. Kami menyediakan berbagai macam pilihan frame dan lensa modern, trendy, dan tentunya dengan harga yang bersaing. Tak hanya itu, Optikal Bahari juga menawarkan berbagai keunggulan yang membuat kami menjadi pilihan terbaik untuk memenuhi kebutuhan kacamata Anda.
@@ -53,7 +53,7 @@ comments: false
     </h3>
     <p class="card-text text-left">
       Salah satu kekhawatiran utama saat mencari optik adalah biaya pemeriksaan mata. Di Optikal Bahari, Anda tidak perlu khawatir! Kami menyediakan pemeriksaan mata gratis dengan alat modern dan terkomputerisasi oleh para ahli. Tim kami yang profesional akan memastikan penglihatan mata Anda terjaga dengan baik.
-      <a href="/periksa-mata-gratis" | relative_url }}" title="Pemeriksaan mata gratis">Periksa mata gratis</a>
+      <a href="{{ "/periksa-mata-gratis/" | relative_url }}" title="Pemeriksaan mata gratis">Periksa mata gratis</a>
       ini menjadi langkah awal yang penting sebelum Anda memilih kacamata & lensa yang tepat dan sesuai dengan kebutuhan Anda.
     </p>
     <p class="card-text text-left">
@@ -133,12 +133,12 @@ comments: false
     <h3 class="card-title">Optikal Bahari, Optik Terdekat Anda</h3>
     <p class="card-text text-left">
       Optikal Bahari merupakan optik yang terdekat dari Anda, kami menyediakan layanan periksa mata gratis serta memiliki banyak pilihan lensa dan frame dengan harga terjangkau dan kualitas terbaik. Kami juga menawarkan kacamata bergaransi, yang dapat dibayar melalui
-      <a href="/kacamata-cicilan" | relative_url }}" title="Optikal Bahari, kacamata cicilan dengan bunga 0%">cicilan dengan bunga 0%</a>
+      <a href="{{ "/kacamata-cicilan/" | relative_url }}" title="Optikal Bahari, kacamata cicilan dengan bunga 0%">cicilan dengan bunga 0%</a>
       dan tanpa credit card. Jangan ragu untuk mengunjungi kami di Bendungan Jago Kemayoran, Jakarta Pusat, atau hubungi kami untuk informasi lebih lanjut.
     </p>
     <p class="card-text text-left">
       Jangan lupa juga untuk mengikuti layanan periksa mata gratis yang kami berikan. Kami yakin koleksi kacamata yang kami tawarkan akan memenuhi kebutuhan dan selera keinginan Anda, dengan harga yang terjangkau dan kualitas terbaik. Segera kunjungi Optikal Bahari untuk memperoleh kemudahan dalam memiliki kacamata idaman Anda. Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
-      <a href="/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+      <a href="{{ "/lokasi/" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
       <a
         href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
         id="WhatsAppClick"

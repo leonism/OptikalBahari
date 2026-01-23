@@ -149,7 +149,7 @@ comments: false
       </p>
       <p class="card-text text-left">
         Ketika Anda melangkah ke dalam
-        <a href="/lokasi/" | relative_url }}" title="lokasi Optikal Bahari">lokasi Optikal Bahari</a>, kami tidak hanya menawarkan produk & layanan, tetapi juga sebuah pengalaman yang memikat. Optikal Bahari akan dengan senang hati membantu proses pemilihan kacamata dan lensa dengan penuh perhatian dan keahlian. Kami memahami bahwa setiap individu memiliki kebutuhan yang unik, dan itulah mengapa kami berkomitmen untuk memberikan solusi yang sesuai dengan kebutuhan.
+        <a href="{{ "/lokasi/" | relative_url }}" title="lokasi Optikal Bahari">lokasi Optikal Bahari</a>, kami tidak hanya menawarkan produk & layanan, tetapi juga sebuah pengalaman yang memikat. Optikal Bahari akan dengan senang hati membantu proses pemilihan kacamata dan lensa dengan penuh perhatian dan keahlian. Kami memahami bahwa setiap individu memiliki kebutuhan yang unik, dan itulah mengapa kami berkomitmen untuk memberikan solusi yang sesuai dengan kebutuhan.
       </p>
       <p class="card-text text-left">
         Jangan lewatkan kesempatan untuk menjelajahi berbagai pilihan kacamata dan lensa di Optikal Bahari. Temukan gaya yang mencerminkan kepribadian dan memberikan kenyamanan maksimal dalam aktivitas sehari-hari. Kunjungi kami hari ini dan rasakan sendiri betapa menyenangkan dan bermanfaatnya pengalaman

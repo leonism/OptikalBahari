@@ -70,14 +70,14 @@ permalink: /promo-agustusan-kemerdekaan/
 	<li>Sertakan alamat email anda, untuk mendapatkan promo menarik lainnya.</li>
 	<li>Minimum total pembelian Rp.200,000 dengan maximal nilai potongan harga sebesar Rp100.000.</li>
 	<li>Promo ini berlaku sampai dengan akhir bulan Agustus, atau selama persediaan kami masih ada.</li>
-	<li>Sudah termasuk proses <a href="{{"/periksa-mata" | relative_url }}" title="periksa mata">periksa mata</a>, gratis.</li>
+	<li>Sudah termasuk proses <a href="{{ "/periksa-mata" | relative_url }}" title="periksa mata">periksa mata</a>, gratis.</li>
 	<li>Sudah termasuk tempat penyimpanan beserta dengan lap kacamata, gratis.</li>
 	<li>Berlaku untuk jenis item bingkai dan lensa tertentu.</li>
 	<li>Berlaku untuk transaksi pembeli secara langsung ditempat.</li>
 	<li>Ketentuan dapat berubah, sesuai dengan kondisi.</li>
 </ul>
 
-<p class="card-text text-left">Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda mengenai <strong>"Promo Agustus Kemerdekaan"</strong> ini. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em></p>
+<p class="card-text text-left">Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di <a href="{{ "/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda mengenai <strong>"Promo Agustus Kemerdekaan"</strong> ini. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em></p>
 
 <p class="aligncenter">
 <div class="mapouter"><div class="gmap_canvas">

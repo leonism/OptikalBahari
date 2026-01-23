@@ -28,7 +28,7 @@ comments: true
         Dengan kemajuan teknologi yang semakin berkembang pesat, perlindungan mata dari sinar
         <italic>blue ray</italic>
         menjadi aspek yang sangat penting. Di Optikal Bahari, kami tidak hanya mengutamakan kecepatan dan akurasi dalam
-        <a href="{{"/periksa-mata-gratis" | relative_url }}" title="Pemeriksaan mata gratis">pemeriksaan mata</a>,
+        <a href="{{ "/periksa-mata-gratis" | relative_url }}" title="Pemeriksaan mata gratis">pemeriksaan mata</a>,
         tetapi juga menjamin hasil yang dapat dipercaya. Bersama tim optometris kami yang berpengalaman, tidak hanya
         Anda mendapatkan
         hasil pemeriksaan mata yang berkualitas, tetapi juga pengetahuan yang memadai tentang kesehatan penglihatan mata

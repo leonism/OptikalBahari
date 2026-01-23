@@ -527,7 +527,7 @@ comments: true
       <p class="card-text text-left">
         Selain itu, dengan layanan pelanggan yang ramah dan profesional, Optikal
         Bahari siap membantu Anda dalam setiap langkah pembelian Anda. Tim
-        mereka terlatih untuk memberikan saran dan bantuan yang Anda butuhkan,
+        kami terlatih untuk memberikan saran dan bantuan yang Anda butuhkan,
         mulai dari pemilihan lensa hingga perawatan kacamata Anda. Dengan
         Optikal Bahari, Anda tidak hanya mendapatkan produk berkualitas tinggi,
         tetapi juga pengalaman berbelanja yang menyenangkan dan memuaskan.
@@ -542,7 +542,7 @@ comments: true
       </p>
       <p class="card-text text-left">
         Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
-        <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">
+        <a href="{{ "/lokasi/" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">
           Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat
         </a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan
         menghubungi kami di nomor HP/WA ini

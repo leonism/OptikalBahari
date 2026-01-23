@@ -13,8 +13,8 @@ author_last_name: Bahari
 email: optikalbahari@gmail.com
 
 # Site URLs
-baseurl: ""
-url: "https://www.optikalbahari.com"
+baseurl: "" # No trailing slash here
+url: "https://www.optikalbahari.com" # No trailing slash here
 
 # Social Profiles
 instagram_username: optikalbahari
