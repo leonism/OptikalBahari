@@ -92,18 +92,17 @@ sass:
     - color-functions
 
 # Build Command
-build_command: "bundle exec jekyll build && bash scripts/post-build.sh"
+build_command: "bundle exec jekyll build && bash _scripts/post-built/post-build.sh"
 
 # Asset Processor Configuration
 asset_processor:
   performance:
-    max_workers: 16
+    thread_pool_size: 2
     memory_limit: 536870912
     use_mmap: false
     batch_size: 100
-    thread_pool_size: 8
-    html_thread_pool_size: 4
-    compression_thread_pool_size: 3
+    html_thread_pool_size: 2
+    compression_thread_pool_size: 2
     enable_caching: true
     cache_file: .smart_asset_cache.yml
   output:

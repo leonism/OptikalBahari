@@ -40,8 +40,8 @@ module AssetProcessor
 
       # Performance settings
       'performance' => {
-        'thread_pool_size' => 6,        # Number of threads for parallel processing
-        'html_thread_pool_size' => 4,   # Threads for HTML processing
+        'thread_pool_size' => 2,        # Number of threads for parallel processing
+        'html_thread_pool_size' => 2,   # Threads for HTML processing
         'compression_thread_pool_size' => 2,  # Threads for compression
         'enable_caching' => true,       # Enable smart caching
         'cache_file' => '.smart_asset_cache.yml'
@@ -608,8 +608,16 @@ end
 
 # Jekyll Hook - automatically processes assets after site generation
 Jekyll::Hooks.register :site, :post_write do |site|
-  processor = AssetProcessor::TurboProcessor.new(site)
-  processor.process
+  begin
+    processor = AssetProcessor::TurboProcessor.new(site)
+    processor.process
+  rescue => e
+    puts "\n❌ Asset Processor Failed!"
+    puts "Error: #{e.message}"
+    puts "Backtrace:"
+    puts e.backtrace.join("\n")
+    raise e
+  end
 end
 
 
