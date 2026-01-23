@@ -7,4 +7,4 @@ Disallow: /cgi-bin/
 Disallow: /*?*
 
 Allow: /
-Sitemap: https://optikalbahari.com/sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml

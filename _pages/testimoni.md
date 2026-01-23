@@ -53,7 +53,8 @@ comments: false
 <div class="card shadow p-3 mb-5 bg-white rounded">
   <img
     itemprop="image"
-    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp" | relative_url }}"
+    data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp"
+    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp"
     class="card-img-top"
     title="periksa-mata-gratis"
     alt="Testimoni Konsumen Optikal Bahari">
@@ -86,19 +87,3 @@ comments: false
     </p>
   </div>
 </div>
-
-<!--
-  <h4>Halaman #1</h4><p class="aligncenter"><img data-src="/assets/img/testimonial/testi-01.webp" src="/assets/img/testimonial/testi-01.webp" class="card-img-top"  alt="testimonial/testi-01.webp" ></p><h4>Halaman #2</h4><p class="aligncenter">
-<img data-src="/assets/img/testimonial/testi-02.webp" src="/assets/img/testimonial/testi-02.webp" class="card-img-top"  alt="testimonial/testi-02.webp" ></p>
-
-<h4>Halaman #3</h4>
-<p class="aligncenter">
-<img data-src="/assets/img/testimonial/testi-03.webp" src="/assets/img/testimonial/testi-03.webp" class="card-img-top"  alt="testimonial/testi-03.webp" ></p>
-<h4>Halaman #4</h4>
-<p class="aligncenter">
-<img data-src="/assets/img/testimonial/testi-04.webp" src="/assets/img/testimonial/testi-04.webp" class="card-img-top"  alt="testimonial/testi-04.webp" ></p>
-<h4>Halaman #5</h4>
-<p class="aligncenter">
-<img data-src="/assets/img/testimonial/testi-05.webp" src="/assets/img/testimonial/testi-05.webp" class="card-img-top"  alt="testimonial/testi-05.webp" ></p>
-<p class="card-text text-left">Untuk ulasan dari konsumen kami lainnya, silahkan melihat secara langsung melalui tautan berikut <a href="https://www.google.com/search?safe=strict&hl=en-ID&gl=id&sxsrf=ALeKk01mFygFLFgcGPbW4Gdwxhg_0kuUoQ%3A1594976814186&ei=LmoRX4LyCvjjz7sPoYOd-Ao&q=Bahari+Optical%2C+Jl.+Bend.+Jago+No.447%2C+RW.1%2C+Utan+Panjang%2C+Kec.+Kemayoran%2C+Kota+Jakarta+Pusat%2C+Daerah+Khusus+Ibukota+Jakarta+10650&oq=Bahari+Optical%2C+Jl.+Bend.+Jago+No.447%2C+RW.1%2C+Utan+Panjang%2C+Kec.+Kemayoran%2C+Kota+Jakarta+Pusat%2C+Daerah+Khusus+Ibukota+Jakarta+10650&gs_lcp=CgZwc3ktYWIQDFAAWABgrqenBWgAcAB4AIABAIgBAJIBAJgBAKoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiCwbzT99PqAhX48XMBHaFBB68Q4dUDCAw#lrd=0x2e69f5a43786850d:0x9802c727c074ae8c,1,,,">ini</a>. <em>(Optikal Bahari)</em></p>
--->

@@ -3,7 +3,7 @@
   "@context": "http://schema.org",
   "@type": "Organization",
   "image": "{{ site.url }}{{ page.background }}",
-  "url": "https://optikalbahari.com",
+  "url": "https://www.optikalbahari.com",
   "sameAs": [
     "https://www.facebook.com/OptikalBahari",
     "https://id.pinterest.com/optikalbahari/",
@@ -11,7 +11,7 @@
     "https://www.instagram.com/optikalbahari/",
     "https://twitter.com/OptikalBahari"
   ],
-  "logo": "https://optikalbahari.com/assets/optikalbahari.png",
+  "logo": "{{ site.url }}/assets/optikalbahari.png",
   "name": {{ site.author_name | jsonify }},
   "description": "{% if page.description.size > 10 %} {{ page.description | truncate: 160 }}
     {% else %}
