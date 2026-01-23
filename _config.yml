@@ -28,6 +28,7 @@ markdown: kramdown
 tag_page_layout: tag_page
 tag_page_dir: tag
 
+# plugins
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
@@ -97,12 +98,12 @@ build_command: "bundle exec jekyll build && bash _scripts/post-built/post-build.
 # Asset Processor Configuration
 asset_processor:
   performance:
-    thread_pool_size: 2
+    thread_pool_size: 1
     memory_limit: 536870912
     use_mmap: false
     batch_size: 100
-    html_thread_pool_size: 2
-    compression_thread_pool_size: 2
+    html_thread_pool_size: 1
+    compression_thread_pool_size: 1
     enable_caching: true
     cache_file: .smart_asset_cache.yml
   output:

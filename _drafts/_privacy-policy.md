@@ -18,31 +18,28 @@ permalink: /privacy-policy/
     <picture>
   <!-- AVIF format -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
     "
     type="image/avif"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- WEBP format -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
     "
     type="image/webp"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- JPEG fallback -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
     "
     type="image/jpeg"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- Final fallback with alt and lazy loading -->
 
-<img
+  <img
     src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14"
     alt="tips-kacamata-2.jpg"
     loading="lazy"

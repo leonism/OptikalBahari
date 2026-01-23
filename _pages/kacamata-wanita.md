@@ -19,10 +19,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" }}"
-    srcset="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" | srcset }}"
-    width="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" | width }}"
-    height="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" | height }}"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" }}"
+    srcset="/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" | srcset }}"/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" | width }}"/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Periksakan Mata Anda Secara Rutin">
   <div class="card-body">
@@ -44,10 +42,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" }}"
-    srcset="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" | srcset }}"
-    width="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" | width }}"
-    height="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" | height }}"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" }}"
+    srcset="/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" | srcset }}"/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" | width }}"/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
@@ -69,10 +65,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" }}"
-    srcset="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" | srcset }}"
-    width="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" | width }}"
-    height="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" | height }}"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" }}"
+    srcset="/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" | srcset }}"/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" | width }}"/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
@@ -94,10 +88,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" }}"
-    srcset="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" | srcset }}"
-    width="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" | width }}"
-    height="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" | height }}"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" }}"
+    srcset="/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" | srcset }}"/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" | width }}"/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru">
   <div class="card-body">
@@ -119,10 +111,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" }}"
-    srcset="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" | srcset }}"
-    width="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" | width }}"
-    height="{{ "/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" | height }}"
+    src="/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" }}"
+    srcset="/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" | srcset }}"/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" | width }}"/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru">
   <div class="card-body">
@@ -137,7 +127,7 @@ comments: false
     </p>
     <p class="card-text text-left">
       Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
-      <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+      <a href="/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
       <a
         href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
         id="WhatsAppClick"

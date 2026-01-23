@@ -18,10 +18,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp" }}"
-    srcset="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp" | srcset }}"
-    width="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp" | width }}"
-    height="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp" | height }}"
+    src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp" }}"
+    srcset="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp" | srcset }}"/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp" | width }}"/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Pilih Kacamata Sesuaikan Dengan Bentuk Wajah">
   <div class="card-body">
@@ -37,10 +35,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp" }}"
-    srcset="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp" | srcset }}"
-    width="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp" | width }}"
-    height="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp" | height }}"
+    src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp" }}"
+    srcset="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp" | srcset }}"/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp" | width }}"/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Kacamata Untuk Wajah Bulat">
   <div class="card-body">
@@ -62,10 +58,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp" }}"
-    srcset="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp" | srcset }}"
-    width="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp" | width }}"
-    height="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp" | height }}"
+    src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp" }}"
+    srcset="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp" | srcset }}"/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp" | width }}"/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Kacamata Untuk Wajah Kotak">
   <div class="card-body">
@@ -87,10 +81,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp" }}"
-    srcset="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp" | srcset }}"
-    width="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp" | width }}"
-    height="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp" | height }}"
+    src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp" }}"
+    srcset="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp" | srcset }}"/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp" | width }}"/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Kacamata Untuk Wajah Segitiga dan Oval">
   <div class="card-body">
@@ -111,10 +103,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp" }}"
-    srcset="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp" | srcset }}"
-    width="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp" | width }}"
-    height="{{ "/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp" | height }}"
+    src="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp" }}"
+    srcset="/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp" | srcset }}"/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp" | width }}"/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Segera Kunjungi Optikal Bahari">
   <div class="card-body">

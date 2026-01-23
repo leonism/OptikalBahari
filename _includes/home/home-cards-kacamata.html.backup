@@ -1,0 +1,225 @@
+<section id="KenapaOptikalBahari">
+  <div class="container">
+    <div class="row">
+      <!-- Card 1: Kacamata Wanita -->
+      <div class="col-12 col-md-12 col-lg-4 mb-5">
+        <div class="card shadow h-100 bg-white rounded hover-zoomin">
+          <a
+            href="{{ '/kacamata-wanita/' | relative_url }}"
+            role="button"
+            title="Koleksi Kacamata Wanita"
+            alt="Koleksi Kacamata Wanita"
+          >
+            <picture>
+              <!-- AVIF format -->
+              <source
+                srcset="
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/whitesand-girls/whitesand-girls-00   480w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/whitesand-girls/whitesand-girls-00   768w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/whitesand-girls/whitesand-girls-00 1200w
+                "
+                type="image/avif"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+              <!-- WEBP format -->
+              <source
+                srcset="
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/whitesand-girls/whitesand-girls-00   480w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/whitesand-girls/whitesand-girls-00   768w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/whitesand-girls/whitesand-girls-00 1200w
+                "
+                type="image/webp"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+              <!-- JPEG fallback -->
+              <source
+                srcset="
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/whitesand-girls/whitesand-girls-00   480w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/whitesand-girls/whitesand-girls-00   768w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/whitesand-girls/whitesand-girls-00 1200w
+                "
+                type="image/jpeg"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+              <!-- Final fallback with alt and lazy loading -->
+              <img
+                src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/whitesand-girls/whitesand-girls-00"
+                alt="Whitesand Girls at the Beach"
+                loading="lazy"
+                decoding="async"
+                width="768"
+                height="512"
+                class="card-img-top"
+              />
+            </picture>
+          </a>
+          <div class="card-body">
+            <h5 class="card-title align-middle">
+              <i class="fas fa-check text-green fas-1x"></i>
+              Kacamata Wanita
+            </h5>
+            <p class="card-text">
+              Jelajahi koleksi kacamata wanita Optikal Bahari, manjakan diri Anda dengan beragam
+              koleksi terbaru kami.
+            </p>
+            <a
+              href="{{ '/kacamata-wanita/' | relative_url }}"
+              class="btn btn-primary rounded-pill text-decoration-none"
+              role="button"
+              title="Jelajahi koleksi kacamata wanita Optikal Bahari, manjakan diri Anda dengan beragam koleksi terbaru kami."
+            >
+              Lebih Lanjut
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2: Kacamata Pria -->
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card shadow h-100 bg-white rounded hover-zoomin">
+          <a
+            href="{{ '/kacamata-pria/' | relative_url }}"
+            role="button"
+            title="Kunjungi segera Optikal Bahari & jelajahi beragam koleksi kacamata pria terbaru impian Anda."
+          >
+            <picture>
+              <!-- AVIF format -->
+              <source
+                srcset="
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/v1750519373/posts/kacamata-pria/kacamata-pria-00   480w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/v1750519373/posts/kacamata-pria/kacamata-pria-00   768w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/v1750519373/posts/kacamata-pria/kacamata-pria-00 1200w
+                "
+                type="image/avif"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+
+              <!-- WEBP format -->
+              <source
+                srcset="
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/v1750519373/posts/kacamata-pria/kacamata-pria-00   480w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/v1750519373/posts/kacamata-pria/kacamata-pria-00   768w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/v1750519373/posts/kacamata-pria/kacamata-pria-00 1200w
+                "
+                type="image/webp"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+
+              <!-- JPEG fallback -->
+              <source
+                srcset="
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/v1750519373/posts/kacamata-pria/kacamata-pria-00   480w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/v1750519373/posts/kacamata-pria/kacamata-pria-00   768w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/v1750519373/posts/kacamata-pria/kacamata-pria-00 1200w
+                "
+                type="image/jpeg"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+
+              <!-- Final fallback with alt and lazy loading -->
+              <img
+                src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/v1750519373/posts/kacamata-pria/kacamata-pria-00"
+                alt="Kunjungi segera Optikal Bahari & jelajahi beragam koleksi kacamata pria terbaru impian Anda"
+                loading="lazy"
+                decoding="async"
+                width="768"
+                height="512"
+                class="card-img-top"
+              />
+            </picture>
+          </a>
+          <div class="card-body">
+            <h5 class="card-title align-middle">
+              <i class="fas fa-check text-green fas-1x"></i>
+              Kacamata Pria
+            </h5>
+            <p class="card-text">
+              Kunjungi segera Optikal Bahari & jelajahi beragam koleksi kacamata pria terbaru impian
+              Anda.
+            </p>
+            <a
+              href="{{ '/kacamata-pria/' | relative_url }}"
+              class="btn btn-primary rounded-pill text-decoration-none"
+              role="button"
+              title="Kunjungi segera Optikal Bahari & jelajahi beragam koleksi kacamata pria terbaru impian Anda."
+            >
+              Lebih Lanjut
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3: Kacamata Anak & Remaja -->
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card shadow h-100 bg-white rounded hover-zoomin">
+          <a
+            href="{{ '/kacamata-anak/' | relative_url }}"
+            role="button"
+            title="Kacamata Anak & Remaja"
+          >
+            <picture>
+              <!-- AVIF format -->
+              <source
+                srcset="
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/v1750519373/posts/kacamata-anak/kacamata-anak-00   480w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/v1750519373/posts/kacamata-anak/kacamata-anak-00   768w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/v1750519373/posts/kacamata-anak/kacamata-anak-00 1200w
+                "
+                type="image/avif"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+
+              <!-- WEBP format -->
+              <source
+                srcset="
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/v1750519373/posts/kacamata-anak/kacamata-anak-00   480w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/v1750519373/posts/kacamata-anak/kacamata-anak-00   768w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/v1750519373/posts/kacamata-anak/kacamata-anak-00 1200w
+                "
+                type="image/webp"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+
+              <!-- JPEG fallback -->
+              <source
+                srcset="
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/v1750519373/posts/kacamata-anak/kacamata-anak-00   480w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/v1750519373/posts/kacamata-anak/kacamata-anak-00   768w,
+                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/v1750519373/posts/kacamata-anak/kacamata-anak-00 1200w
+                "
+                type="image/jpeg"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+
+              <!-- Final fallback with alt and lazy loading -->
+              <img
+                src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/v1750519373/posts/kacamata-anak/kacamata-anak-00"
+                alt="Kacamata Anak dan Remaja"
+                loading="lazy"
+                decoding="async"
+                width="768"
+                height="512"
+                class="card-img-top"
+              />
+            </picture>
+          </a>
+          <div class="card-body">
+            <h5 class="card-title align-middle">
+              <i class="fas fa-check text-green fas-1x"></i>
+              Kacamata Anak Remaja
+            </h5>
+            <p class="card-text">
+              Koleksi Kacamata Anak & Remaja Terbaru, Siap Menemani Buah Hati Anda Sekeluarga
+            </p>
+            <a
+              href="{{ '/kacamata-anak/' | relative_url }}"
+              class="btn btn-primary rounded-pill text-decoration-none"
+              role="button"
+              title="Beragam Koleksi Kacamata Anak & Remaja Terbaru, Siap Menemani Keseharian Buah Hati Anda Sekeluarga"
+            >
+              Lebih Lanjut
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

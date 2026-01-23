@@ -19,10 +19,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <img
             itemprop="image"
-            src="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" }}"
-            srcset="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" | srcset }}"
-            width="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" | width }}"
-            height="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" | height }}"
+            src="/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" }}"
+            srcset="/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" | srcset }}"/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" | width }}"/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp" | height }}"
             class="card-img-top img-fluid"
             alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
         <div class="card-body">
@@ -60,10 +58,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		<img
             itemprop="image"
-            src="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp" }}"
-            srcset="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp" | srcset }}"
-            width="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp" | width }}"
-            height="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp" | height }}"
+            src="/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp" }}"
+            srcset="/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp" | srcset }}"/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp" | width }}"/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp" | height }}"
             class="card-img-top img-fluid"
             alt="Kenali Gangguan Mata Lebih Dini">
         <div class="card-body">
@@ -105,10 +101,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		<img
             itemprop="image"
-            src="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp" }}"
-            srcset="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp" | srcset }}"
-            width="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp" | width }}"
-            height="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp" | height }}"
+            src="/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp" }}"
+            srcset="/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp" | srcset }}"/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp" | width }}"/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp" | height }}"
             class="card-img-top img-fluid"
             alt="Segera Periksa Mata Anda">
         <div class="card-body">
@@ -150,10 +144,8 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
 		  <img
             itemprop="image"
-            src="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp" }}"
-            srcset="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp" | srcset }}"
-            width="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp" | width }}"
-            height="{{ "/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp" | height }}"
+            src="/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp" }}"
+            srcset="/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp" | srcset }}"/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp" | width }}"/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp" | height }}"
             class="card-img-top img-fluid"
             alt="Segera Kunjungi Optikal Bahari">
         <div class="card-body">

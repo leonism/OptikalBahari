@@ -16,34 +16,25 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <picture>
-      <!-- AVIF format -->
-      <source srcset="
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
-      " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-      <!-- WEBP format -->
-      <source srcset="
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
-      " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-      <!-- JPEG fallback -->
-      <source srcset="
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
-      " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-      <img
-        src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14"
-        alt="Periksa Mata Gratis di Optikal Bahari"
-        loading="lazy"
-        decoding="async"
-        width="768"
-        height="512"
-        class="card-img-top img-fluid"
-      />
-    </picture>
+  <!-- AVIF format -->
+  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
+    " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+  <!-- WEBP format -->
+  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
+    " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+  <!-- JPEG fallback -->
+  <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
+    " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14"
+    alt="Periksa Mata Gratis di Optikal Bahari"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top img-fluid"
+    />
+</picture>
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Gratis
@@ -69,7 +60,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp" }}" class="card-img-top img-fluid" alt="Periksa Mata Cepat & Akurat">
+    <img itemprop="image" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp" }}" class="card-img-top img-fluid" alt="Periksa Mata Cepat & Akurat">
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Cepat & Akurat
@@ -89,7 +80,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" }}" class="card-img-top img-fluid" alt="Proses Pertama: Autorefractometer">
+    <img itemprop="image" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" }}" class="card-img-top img-fluid" alt="Proses Pertama: Autorefractometer">
     <div class="card-body">
       <h3 class="card-title">
         Proses Pertama: Menggunakan Autorefractometer
@@ -109,7 +100,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp" }}" class="card-img-top img-fluid" alt="Proses Kedua: Phoropter">
+    <img itemprop="image" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp" }}" class="card-img-top img-fluid" alt="Proses Kedua: Phoropter">
     <div class="card-body">
       <h3 class="card-title">
         Proses Kedua: Menggunakan Alat Phoropter
@@ -118,7 +109,7 @@ comments: false
         Pada <strong>proses kedua</strong>, Optikal Bahari menggunakan teknologi <strong>phoropter</strong> terbaru. Melalui proses pemeriksaan yang cepat dan akurat, kami memastikan bahwa Anda tidak hanya mendapatkan hasil yang optimal, tetapi juga merasa nyaman dan percaya diri sebelum selanjutnya memilih kacamata atau lensa yang sesuai dengan kebutuhan Anda. Phoropter memungkinkan Anda untuk merasakan langsung perbedaan kekuatan penglihatan dengan berbagai ukuran lensa, memberikan Anda pengalaman yang interaktif dan informatif.
       </p>
       <p class="card-text text-left">
-        Ketika Anda melangkah ke dalam <a href="{{"/lokasi/" | relative_url }}" title="lokasi Optikal Bahari">lokasi Optikal Bahari</a>, kami tidak hanya menawarkan produk & layanan, tetapi juga sebuah pengalaman yang memikat. Optikal Bahari akan dengan senang hati membantu proses pemilihan kacamata dan lensa dengan penuh perhatian dan keahlian. Kami memahami bahwa setiap individu memiliki kebutuhan yang unik, dan itulah mengapa kami berkomitmen untuk memberikan solusi yang sesuai dengan kebutuhan.
+        Ketika Anda melangkah ke dalam <a href="/lokasi/" | relative_url }}" title="lokasi Optikal Bahari">lokasi Optikal Bahari</a>, kami tidak hanya menawarkan produk & layanan, tetapi juga sebuah pengalaman yang memikat. Optikal Bahari akan dengan senang hati membantu proses pemilihan kacamata dan lensa dengan penuh perhatian dan keahlian. Kami memahami bahwa setiap individu memiliki kebutuhan yang unik, dan itulah mengapa kami berkomitmen untuk memberikan solusi yang sesuai dengan kebutuhan.
       </p>
       <p class="card-text text-left">
         Jangan lewatkan kesempatan untuk menjelajahi berbagai pilihan kacamata dan lensa di Optikal Bahari. Temukan gaya yang mencerminkan kepribadian dan memberikan kenyamanan maksimal dalam aktivitas sehari-hari. Kunjungi kami hari ini dan rasakan sendiri betapa menyenangkan dan bermanfaatnya pengalaman <strong>periksa mata gratis</strong> beserta memilih kacamata atau lensa di Optikal Bahari.
@@ -129,7 +120,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp" }}" class="card-img-top img-fluid" alt="Kunjungi Optikal Bahari">
+    <img itemprop="image" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp" }}" class="card-img-top img-fluid" alt="Kunjungi Optikal Bahari">
     <div class="card-body">
       <h3 class="card-title">
         Kunjungi Optikal Bahari

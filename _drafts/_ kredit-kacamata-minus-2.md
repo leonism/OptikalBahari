@@ -23,31 +23,28 @@ comments: false
     <picture>
   <!-- AVIF format -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 1200w
     "
     type="image/avif"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- WEBP format -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 1200w
     "
     type="image/webp"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- JPEG fallback -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 1200w
     "
     type="image/jpeg"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- Final fallback with alt and lazy loading -->
 
-<img
+  <img
     src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5"
     alt="Kredit Kacamata Minus"
     loading="lazy"
@@ -80,31 +77,28 @@ dengan kebutuan kamu pada saat ini. </p> </div>
   <picture>
   <!-- AVIF format -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 1200w
     "
     type="image/avif"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- WEBP format -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 1200w
     "
     type="image/webp"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- JPEG fallback -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8 1200w
     "
     type="image/jpeg"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- Final fallback with alt and lazy loading -->
 
-<img
+  <img
     src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8"
     alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
     loading="lazy"
@@ -134,31 +128,28 @@ dengan kebutuan kamu pada saat ini. </p> </div>
     <picture>
   <!-- AVIF format -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w
     "
     type="image/avif"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- WEBP format -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w
     "
     type="image/webp"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- JPEG fallback -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w
     "
     type="image/jpeg"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- Final fallback with alt and lazy loading -->
 
-<img
+  <img
     src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9"
     alt="tips-kacamata-2.webp"
     loading="lazy"
@@ -203,31 +194,28 @@ silahkan menghubungi kami di nomor HP/WA ini <a
                         <picture>
   <!-- AVIF format -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
     "
     type="image/avif"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- WEBP format -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
     "
     type="image/webp"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- JPEG fallback -->
   <source
-    srcset="
-    https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
     "
     type="image/jpeg"
     sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- Final fallback with alt and lazy loading -->
 
-<img
+  <img
     src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
     alt="{{ post.title }}"
     loading="lazy"

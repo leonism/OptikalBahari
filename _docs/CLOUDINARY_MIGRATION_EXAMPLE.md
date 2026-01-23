@@ -10,36 +10,24 @@ the new Cloudinary integration.
 <picture>
   <!-- AVIF format -->
   <source
-    srcset="
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/beach-retro-girls/beach-retro-girls-025   480w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/beach-retro-girls/beach-retro-girls-025   768w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
     "
     type="image/avif"
-    sizes="(max-width: 768px) 100vw, 768px"
-  />
+    sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- WEBP format -->
   <source
-    srcset="
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/beach-retro-girls/beach-retro-girls-025   480w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/beach-retro-girls/beach-retro-girls-025   768w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
     "
     type="image/webp"
-    sizes="(max-width: 768px) 100vw, 768px"
-  />
+    sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- JPEG fallback -->
   <source
-    srcset="
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/beach-retro-girls/beach-retro-girls-025   480w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025   768w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
     "
     type="image/jpeg"
-    sizes="(max-width: 768px) 100vw, 768px"
-  />
+    sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- Final fallback with alt and lazy loading -->
   <img
@@ -50,7 +38,7 @@ the new Cloudinary integration.
     width="768"
     height="512"
     class="card-img-top img-fluid"
-  />
+    />
 </picture>
 
 <!-- Background images in front matter -->
@@ -76,36 +64,24 @@ Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
 <picture>
   <!-- AVIF format -->
   <source
-    srcset="
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/beach-retro-girls/beach-retro-girls-025   480w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/beach-retro-girls/beach-retro-girls-025   768w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
     "
     type="image/avif"
-    sizes="(max-width: 768px) 100vw, 768px"
-  />
+    sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- WEBP format -->
   <source
-    srcset="
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/beach-retro-girls/beach-retro-girls-025   480w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/beach-retro-girls/beach-retro-girls-025   768w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
     "
     type="image/webp"
-    sizes="(max-width: 768px) 100vw, 768px"
-  />
+    sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- JPEG fallback -->
   <source
-    srcset="
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/beach-retro-girls/beach-retro-girls-025   480w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025   768w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
     "
     type="image/jpeg"
-    sizes="(max-width: 768px) 100vw, 768px"
-  />
+    sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- Final fallback with alt and lazy loading -->
   <img
@@ -116,7 +92,7 @@ Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
     width="768"
     height="512"
     class="card-img-top img-fluid"
-  />
+    />
 </picture>
 ```
 
@@ -127,36 +103,24 @@ Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
 <picture>
   <!-- AVIF format -->
   <source
-    srcset="
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/beach-retro-girls/beach-retro-girls-025   480w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/beach-retro-girls/beach-retro-girls-025   768w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
     "
     type="image/avif"
-    sizes="(max-width: 768px) 100vw, 768px"
-  />
+    sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- WEBP format -->
   <source
-    srcset="
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/beach-retro-girls/beach-retro-girls-025   480w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/beach-retro-girls/beach-retro-girls-025   768w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
     "
     type="image/webp"
-    sizes="(max-width: 768px) 100vw, 768px"
-  />
+    sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- JPEG fallback -->
   <source
-    srcset="
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/beach-retro-girls/beach-retro-girls-025   480w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025   768w,
-      https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
+    srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/beach-retro-girls/beach-retro-girls-025 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/beach-retro-girls/beach-retro-girls-025 1200w
     "
     type="image/jpeg"
-    sizes="(max-width: 768px) 100vw, 768px"
-  />
+    sizes="(max-width: 768px) 100vw, 768px" />
 
   <!-- Final fallback with alt and lazy loading -->
   <img
@@ -167,7 +131,7 @@ Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
     width="768"
     height="512"
     class="card-img-top img-fluid"
-  />
+    />
 </picture>
 ```
 

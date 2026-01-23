@@ -18,10 +18,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/kpop-female-03/kpop-female-01.webp" }}"
-    srcset="{{ "/assets/img/posts/kpop-female-03/kpop-female-01.webp" | srcset }}"
-    width="{{ "/assets/img/posts/kpop-female-03/kpop-female-01.webp" | width }}"
-    height="{{ "/assets/img/posts/kpop-female-03/kpop-female-01.webp" | height }}"
+    src="/assets/img/posts/kpop-female-03/kpop-female-01.webp" }}"
+    srcset="/assets/img/posts/kpop-female-03/kpop-female-01.webp" | srcset }}"/assets/img/posts/kpop-female-03/kpop-female-01.webp" | width }}"/assets/img/posts/kpop-female-03/kpop-female-01.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
   <div class="card-body">
@@ -30,7 +28,7 @@ comments: false
     </h3>
     <p class="card-text text-left">
       Kalo kamu kebetulan tinggal atau sedang berada di daerah Kemayoran atau sekitarnya, dan kebetulan sedang mempertimbangkan utuk membeli Kacamata berhubung mungkin ukuran kamu sudah berubah atau butuh model baru karena model lama mungkin sudah bosan, mungkin boleh dicoba untuk mampir ke Optikal Bahari, di
-      <a href="{{"/lokasi" | relative_url }}" title="Optikal Bahari, Jakarta Pusat">Jalan Bendungan Jago No 447 Kemayoran</a>, Jakarta Pusat.</p>
+      <a href="/lokasi" | relative_url }}" title="Optikal Bahari, Jakarta Pusat">Jalan Bendungan Jago No 447 Kemayoran</a>, Jakarta Pusat.</p>
     <p class="card-text text-left">Cuma di Optikal Bahari dengan pengalaman selama 40 tahun yang bisa kasih kamu pelayanan pemeriksaan gratis dengan alat yang sudah modern dan terkomputerisasi. Jadi sebelum kamu memilih kacamata yang kamu suka, kami akan memberikan kamu pemeriksaan gratis tanpa adanya pungutan biaya.</p>
     <p class="card-text text-left">Jangan takut, cuma di Optikal Bahari yang punya banyak pilihan kacamata dan lensa yang beragam. Di Optikal Bahari kita selalu
       <em>update</em>
@@ -44,10 +42,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/kpop-female-03/kpop-female-02.webp" }}"
-    srcset="{{ "/assets/img/posts/kpop-female-03/kpop-female-02.webp" | srcset }}"
-    width="{{ "/assets/img/posts/kpop-female-03/kpop-female-02.webp" | width }}"
-    height="{{ "/assets/img/posts/kpop-female-03/kpop-female-02.webp" | height }}"
+    src="/assets/img/posts/kpop-female-03/kpop-female-02.webp" }}"
+    srcset="/assets/img/posts/kpop-female-03/kpop-female-02.webp" | srcset }}"/assets/img/posts/kpop-female-03/kpop-female-02.webp" | width }}"/assets/img/posts/kpop-female-03/kpop-female-02.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
   <div class="card-body">
@@ -62,10 +58,8 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="{{ "/assets/img/posts/kpop-female-03/kpop-female-03.webp" }}"
-    srcset="{{ "/assets/img/posts/kpop-female-03/kpop-female-03.webp" | srcset }}"
-    width="{{ "/assets/img/posts/kpop-female-03/kpop-female-03.webp" | width }}"
-    height="{{ "/assets/img/posts/kpop-female-03/kpop-female-03.webp" | height }}"
+    src="/assets/img/posts/kpop-female-03/kpop-female-03.webp" }}"
+    srcset="/assets/img/posts/kpop-female-03/kpop-female-03.webp" | srcset }}"/assets/img/posts/kpop-female-03/kpop-female-03.webp" | width }}"/assets/img/posts/kpop-female-03/kpop-female-03.webp" | height }}"
     class="card-img-top img-fluid"
     alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
   <div class="card-body">
@@ -75,7 +69,7 @@ comments: false
     <p class="card-text text-left">Satu hal lagi yang sangat penting ketika kamu beli kacamata yang bisa nyicil di Optikal Bahari adalah menentukan pilihan. Maksudnya adalah kamu sudah mengetahui kacamata seperti apa yang kamu butuhkan dari rumah. Ini bertujuan untuk menghindari kacamata secara impulsif, atau tidak pasti.</p>
     <p class="card-text text-left">Misalnya, ketika kamu mengalami rabun dekat maka tentukan kacamata dengan lensa apa yang sesuai. Jika tidak tahu, maka kamu bisa tanya kepada staff optik supaya diberikan informasi. Jadi kamu perlu membeli sebuah kacamata dari segi fungsi terlebih dahulu sebelum melihat bentuknya.</p>
     <p class="card-text text-left">Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
-      <a href="{{"/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+      <a href="/lokasi" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
       <a
         href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
         id="WhatsAppClick"

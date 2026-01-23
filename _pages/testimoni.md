@@ -53,7 +53,7 @@ comments: false
 <div class="card shadow p-3 mb-5 bg-white rounded">
   <img
     itemprop="image"
-    src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp" | relative_url }}"
+    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp" | relative_url }}"
     class="card-img-top"
     title="periksa-mata-gratis"
     alt="Testimoni Konsumen Optikal Bahari">
