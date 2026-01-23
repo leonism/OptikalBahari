@@ -7,7 +7,6 @@ presets:
     formats: [webp, original]
     markup: data_auto
     widths: [200, 400, 600, 800]
-    link_source: true
     fallback_width: 500
     fallback_format: original
     noscript: false
@@ -20,12 +19,11 @@ presets:
       jp2: 30
       jpg: 75
       png: 65
-      webp: 30
     data_sizes: true
     keep: attention
     dimension_attributes: true
 
-  lazy:        
+  lazy:
     noscript: true
 
   media_queries:
@@ -34,9 +32,6 @@ presets:
     desktop: "min-width: 901px"
     ultrawide: "min-width: 1400px"
 
-
-  
-  
     # image_options:
     #   avif:
     #     compression: av1
@@ -50,7 +45,6 @@ presets:
 #   tablet: "max-width: 800px"
 #   desktop: "min-width: 901px"
 #   ultrawide: "min-width: 1400px"
-
 
 # presets:
 #   default:

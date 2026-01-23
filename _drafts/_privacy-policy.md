@@ -39,7 +39,7 @@ permalink: /privacy-policy/
 
   <!-- Final fallback with alt and lazy loading -->
 
-  <img
+<img
     src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14"
     alt="tips-kacamata-2.jpg"
     loading="lazy"

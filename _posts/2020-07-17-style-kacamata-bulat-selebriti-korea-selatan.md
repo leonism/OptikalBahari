@@ -12,6 +12,7 @@ categories: [Trend]
 tags: [layanan, optikal]
 background: /assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-00.webp
 comments: true
+permalink: /style-kacamata-bulat-selebriti-korea-selatan/
 ---
 
 <div class="card-deck mb-3">

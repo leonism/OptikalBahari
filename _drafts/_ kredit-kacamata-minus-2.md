@@ -44,7 +44,7 @@ comments: false
 
   <!-- Final fallback with alt and lazy loading -->
 
-  <img
+<img
     src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5"
     alt="Kredit Kacamata Minus"
     loading="lazy"
@@ -98,7 +98,7 @@ dengan kebutuan kamu pada saat ini. </p> </div>
 
   <!-- Final fallback with alt and lazy loading -->
 
-  <img
+<img
     src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8"
     alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
     loading="lazy"
@@ -149,7 +149,7 @@ dengan kebutuan kamu pada saat ini. </p> </div>
 
   <!-- Final fallback with alt and lazy loading -->
 
-  <img
+<img
     src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9"
     alt="tips-kacamata-2.webp"
     loading="lazy"
@@ -215,7 +215,7 @@ silahkan menghubungi kami di nomor HP/WA ini <a
 
   <!-- Final fallback with alt and lazy loading -->
 
-  <img
+<img
     src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
     alt="{{ post.title }}"
     loading="lazy"

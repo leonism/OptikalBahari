@@ -4,7 +4,8 @@
   {
     "@context": "https://schema.org/",
     "@type": "ImageObject",
-    "contentUrl": "{{ image_path }}",
+    "contentUrl": "{{ site.url }}{{ page.background }}",
+    "image_path }}",
     "license": "{{ site.url }}",
     "acquireLicensePage": "{{ site.url }}",
     "creditText": "{{ page.author_name }}",

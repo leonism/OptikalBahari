@@ -12,6 +12,7 @@ categories: [Info]
 tags: [tips, kacamata, lensa]
 background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-43.webp
 comments: true
+permalink: /8-merk-kacamata-terkenal-dunia/
 ---
 
 <div class="card-deck mb-3">

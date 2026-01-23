@@ -30,7 +30,7 @@ comments: true
                 Dunia kacamata terus berkembang, dengan gaya dan desain baru muncul setiap tahun. Mulai dari bingkai yang berani dan
                 penuh warna hingga desain ramping dan minimalis, ada banyak pilihan untuk dipilih. Pada artikel ini, kita melihat
                 beberapa tren kacamata terbaik, terburuk, dan teraneh yang pernah kita lihat belakangan ini.
-            </p>                
+            </p>
             <p class="card-text text-left">
                 Kacamata adalah aksesori penting yang tidak hanya mempercantik penampilan Anda, tetapi juga melindungi mata Anda dari
                 sinar UV yang berbahaya dan faktor lingkungan lainnya. Dalam beberapa tahun terakhir, industri kacamata telah mengalami
@@ -88,7 +88,7 @@ comments: true
     <div class="card-body">
         <h3 class="card-title">
             Trend Kacamata Terburuk 20 Tahun Terakhir
-        </h3>        
+        </h3>
             <p class="card-text text-left">
                 Pertama, yang terbaik. Salah satu tren kacamata yang menonjol tahun ini adalah kebangkitan bingkai klasik. Potongan
                 abadi ini tidak pernah ketinggalan zaman dan dapat menambahkan sentuhan kecanggihan pada pakaian apa pun. Tren lain yang
@@ -140,12 +140,8 @@ comments: true
                 berbagai gaya dan warna, dan jangan takut untuk menambahkan sentuhan pribadi pada bingkai Anda agar benar-benar
                 menjadikannya milik Anda.
             </p>
-            <p class="card-text text-left">Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
-                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
-                respond
-                yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
-                    title="Call WhatsApp">+6281932235445</a>.
-                <em>(Optikal Bahari)</em>
+            <p class="card-text text-left">
+                Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> agar kamu bisa mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>
             </p>
         </div>
     </div>

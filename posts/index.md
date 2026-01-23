@@ -9,7 +9,7 @@ description: Artikel Terdini & Terkini Seputaran Info, Trend Kacamata, Kesehatan
 keywords: Optikal Bahari, Optik, Kacamata, Kemayoran, Bendungan Jago
 permalink: /posts/
 # permalink: /:title/
-background: /assets/img/posts/splash-screen/bg-splash-post-02.webp
+background: /assets/img/bg-splash-index-01.webp
 pagination:
   enabled: true # Enable pagination for this page
 ---
