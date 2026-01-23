@@ -11,7 +11,7 @@ date: '2020-07-29 07:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, gaya]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1920,h_1281/posts/kacamata-korean-hijab/korean-hijab-optikal-bahari-05
+background: /assets/img/posts/kacamata-korean-hijab/korean-hijab-optikal-bahari-05.webp
 comments: true
 ---
 

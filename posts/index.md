@@ -7,9 +7,9 @@ subtitle: Artikel Terdini & Terkini Seputaran Info, Trend Kacamata, Kesehatan Ma
 description: Artikel Terdini & Terkini Seputaran Info, Trend Kacamata, Kesehatan Mata, Tips
   & Trik Hanya Untuk Anda
 keywords: Optikal Bahari, Optik, Kacamata, Kemayoran, Bendungan Jago
-background: https://res.cloudinary.com/divkqrf7k/image/upload/c_fill,g_face,q_auto:eco/v1750522618/splash-screen/bg-splash-post-02
 permalink: /posts/
 # permalink: /:title/
+background: /assets/img/posts/splash-screen/bg-splash-post-02.webp
 pagination:
   enabled: true # Enable pagination for this page
 ---

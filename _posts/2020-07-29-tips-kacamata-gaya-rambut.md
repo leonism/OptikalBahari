@@ -10,7 +10,7 @@ date: '2020-07-28 07:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [produk, kacamata, gaya, rambut]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/c_fill,g_face,q_auto,f_avif,w_1920,h_1281/posts/french-girl/french-girl-07
+background: /assets/img/posts/french-girl/french-girl-07.webp
 comments: true
 ---
 
