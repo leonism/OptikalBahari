@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /cgi-bin/
-Disallow: /*?*
-
-Allow: /
-Sitemap: http://localhost:4000/sitemap.xml
