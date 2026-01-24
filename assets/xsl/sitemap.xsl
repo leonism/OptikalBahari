@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:s="http://www.sitemaps.org/schemas/sitemap/0.9">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="id-ID">
@@ -22,7 +22,7 @@
       <body>
         <div class="container">
           <h1>XML Sitemap</h1>
-          <p>Total URL yang ditemukan: <strong><xsl:value_of select="count(s:urlset/s:url)"/></strong></p>
+          <p>Total URL yang ditemukan: <strong><xsl:value_of select="count(//*[local-name()='url'])"/></strong></p>
           
           <table>
             <thead>
@@ -33,15 +33,15 @@
               </tr>
             </thead>
             <tbody>
-              <xsl:for-each select="s:urlset/s:url">
+              <xsl:for-each select="//*[local-name()='url']">
                 <tr>
                   <td>
-                    <a href="{s:loc}">
-                      <xsl:value_of select="s:loc"/>
+                    <a href="{*[local-name()='loc']}">
+                      <xsl:value_of select="*[local-name()='loc']"/>
                     </a>
                   </td>
-                  <td><span class="badge"><xsl:value_of select="s:priority"/></span></td>
-                  <td><xsl:value_of select="s:changefreq"/></td>
+                  <td><span class="badge"><xsl:value_of select="*[local-name()='priority']"/></span></td>
+                  <td><xsl:value_of select="*[local-name()='changefreq']"/></td>
                 </tr>
               </xsl:for-each>
             </tbody>

@@ -194,4 +194,5 @@ jekyll-minifier:
   exclude:
     - "*.min.js"
     - "*.min.css"
+    - "*.xsl"
     - "assets/vendor/**/*"

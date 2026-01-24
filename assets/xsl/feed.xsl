@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="id-ID">
       <head>
-        <title><xsl:value_of select="/atom:feed/atom:title"/> - RSS Feed</title>
+        <title>RSS Feed - Optikal Bahari</title>
         <style type="text/css">
           body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f4f7f6; color: #333; line-height: 1.6; padding: 20px; }
           .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
@@ -12,6 +12,7 @@
           h1 { color: #007bff; margin: 0; font-size: 28px; }
           .subtitle { color: #666; font-size: 16px; margin-top: 5px; }
           .entry { margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid #eee; }
+          .entry:last-child { border-bottom: none; }
           .entry h2 a { color: #222; text-decoration: none; font-size: 22px; font-weight: bold; }
           .entry h2 a:hover { color: #007bff; }
           .meta { font-size: 13px; color: #999; margin-bottom: 15px; }
@@ -23,26 +24,26 @@
       <body>
         <div class="container">
           <header>
-            <h1><xsl:value_of select="/atom:feed/atom:title"/></h1>
-            <p class="subtitle"><xsl:value_of select="/atom:feed/atom:subtitle"/></p>
+            <h1><xsl:value_of select="//*[local-name()='title'][1]"/></h1>
+            <p class="subtitle"><xsl:value_of select="//*[local-name()='subtitle']"/></p>
           </header>
           
           <div class="alert">
-            <strong>RSS Feed:</strong> Ini adalah format XML yang digunakan oleh aplikasi pembaca berita (seperti Feedly).
+            <strong>RSS Feed:</strong> Ini adalah format XML yang digunakan oleh aplikasi pembaca berita.
           </div>
 
-          <xsl:for-each select="/atom:feed/atom:entry">
+          <xsl:for-each select="//*[local-name()='entry']">
             <div class="entry">
               <h2>
-                <a href="{atom:link[@rel='alternate']/@href}">
-                  <xsl:value_of select="atom:title"/>
+                <a href="{*[local-name()='link' and @rel='alternate']/@href}">
+                  <xsl:value_of select="*[local-name()='title']"/>
                 </a>
               </h2>
               <div class="meta">
-                Dipublikasikan pada: <xsl:value_of select="substring(atom:published, 1, 10)"/>
+                Dipublikasikan pada: <xsl:value_of select="substring(*[local-name()='published'], 1, 10)"/>
               </div>
               <div class="content">
-                <xsl:value_of select="atom:content" disable-output-escaping="yes"/>
+                <xsl:value_of select="*[local-name()='content']" disable-output-escaping="yes"/>
               </div>
             </div>
           </xsl:for-each>
