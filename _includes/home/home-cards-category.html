@@ -10,7 +10,8 @@
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
               {% if post.background %}
-              <img itemprop="image" src="{{ post.background }}" class="card-img-top img-fluid" alt="{{ post.title }}">
+              <img itemprop="image" src="{{ post.background }}" class="card-img-top img-fluid" alt="{{ post.title }}"
+                loading="lazy" decoding="async" width="400" height="250">
               {% endif %}
             </a>
             <div class="card-body">
@@ -57,7 +58,8 @@
               {% if post.background %}
               <img itemprop="image" src="{{ post.background }}" srcset="{{ post.background | srcset }}"
                 width="{{ post.background | width }}" height="{{ post.background | height }}"
-                class="card-img-top img-fluid" alt="{{ post.title }}">
+                class="card-img-top img-fluid" alt="{{ post.title }}"
+                loading="lazy" decoding="async">
               {% endif %}
             </a>
             <div class="card-body">
@@ -104,7 +106,8 @@
               {% if post.background %}
               <img itemprop="image" src="{{ post.background }}" srcset="{{ post.background | srcset }}"
                 width="{{ post.background | width }}" height="{{ post.background | height }}"
-                class="card-img-top img-fluid" alt="{{ post.title }}">
+                class="card-img-top img-fluid" alt="{{ post.title }}"
+                loading="lazy" decoding="async">
               {% endif %}
             </a>
             <div class="card-body">

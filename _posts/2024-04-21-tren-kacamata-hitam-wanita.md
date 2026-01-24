@@ -16,15 +16,13 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp"
-        }}" srcset="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp"
-        | srcset }}" width="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp"
-        | width }}" height="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp"
-        | height }}" class="card-img-top img-fluid" alt="Kacamata Hitam Wanita">
+        <img itemprop="image"
+            src="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" }}"
+            srcset="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" | srcset }}"
+            width="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" | width }}"
+            height="{{ "assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" | height }}"
+            class="card-img-top img-fluid"
+            alt="Kacamata Hitam Wanita">
         <div class="card-body">
             <h3 class="card-title">
                 Trendsetter Kacamata Hitam Wanita: Kenali Gaya yang Lagi Hits
@@ -62,20 +60,17 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="{{"
-        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp"
-        }}" srcset="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp"
-        | srcset }}" width="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp"
-        | width }}" height="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp"
-        | height }}" class="card-img-top img-fluid" alt="Kacamata Hitam Wanita:
-        Solusi Gaya yang Menawan di Segala Kondisi">
+        <img
+            itemprop="image"
+            src="{{" /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" }}"
+            srcset="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" | srcset }}"
+            width="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" | width }}"
+            height="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" | height }}"
+            class="card-img-top img-fluid"
+            alt="Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi">
         <div class="card-body">
             <h3 class="card-title">
-                Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala
-                Kondisi
+                Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi
             </h3>
             <p class="card-text text-left">
                 Memilih kacamata wanita yang tepat adalah langkah penting untuk

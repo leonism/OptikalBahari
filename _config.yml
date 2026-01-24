@@ -176,22 +176,10 @@ asset_processor:
 
 # Jekyll Minifier
 jekyll-minifier:
-  uglifier_args:
-    harmony: true
-  js:
-    enable: true
-    preserve_source_map: false
-    remove_comments: true
-    compress: true
-  css:
-    enable: true
-    preserve_source_map: false
-  html:
-    enable: true
-    remove_comments: true
-    compress: true
-    preserve_line_breaks: false
-  exclude:
-    - "*.min.js"
-    - "*.min.css"
-    - "assets/vendor/**/*"
+  mode: generic
+  preserve_php: false
+  remove_comments: true
+  remove_spaces_inside_tags: true
+  collapse_whitespace: true
+  compress_css: true
+  compress_javascript: true

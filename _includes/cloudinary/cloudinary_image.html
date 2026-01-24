@@ -23,6 +23,7 @@ cloudinary_responsive %}
   alt="{{ image_alt }}"
   class="{{ image_class }}"
   loading="{{ image_loading }}"
+  decoding="async"
   {%
   if
   include.width
@@ -44,6 +45,7 @@ cloudinary_responsive %}
   alt="{{ image_alt }}"
   class="{{ image_class }}"
   loading="{{ image_loading }}"
+  decoding="async"
   {%
   if
   include.width
@@ -66,6 +68,7 @@ image_src | relative_url %}
   alt="{{ image_alt }}"
   class="{{ image_class }}"
   loading="{{ image_loading }}"
+  decoding="async"
   {%
   if
   include.width

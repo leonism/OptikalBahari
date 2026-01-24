@@ -2,12 +2,10 @@
 layout: post
 title: Panduan Memilih Kacamata Hijabers yang Tepat
 subtitle: Optikal Bahari hadir untuk membantu kamu mengenali karakteristik wajahmu
-description: "Temukan kacamata untuk hijabers yang pas dengan panduan ini. Dapatkan tips dan trik untuk tampil modis
-dengan kacamata hijab yang sesuai
-dengan gayamu. Baca sekarang di Optikal Bahari"
-keywords: "kacamata untuk hijabers, kacamata hijabers, kacamata hijab"
+description: 'Temukan kacamata untuk hijabers yang pas dengan panduan ini. Dapatkan tips dan trik untuk tampil modis dengan kacamata hijab yang sesuai dengan gayamu. Baca sekarang di Optikal Bahari'
+keywords: 'kacamata untuk hijabers, kacamata hijabers, kacamata hijab'
 lang: id-ID
-date: "2024-04-02 08:25:23 +0700"
+date: '2024-04-02 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Tips]
 tags: [lensa, produk]
@@ -21,7 +19,8 @@ comments: true
       srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" | srcset }}"
       width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" | width }}"
       height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" | height }}"
-      class="card-img-top img-fluid" alt="Panduan Memilih Kacamata untuk Wajah Bulat">
+      class="card-img-top img-fluid"
+      alt="Panduan Memilih Kacamata untuk Wajah Bulat">
     <div class="card-body">
       <h3 class="card-title">
         Kacamata untuk Hijabers: Solusi Fashionable dan Fungsional

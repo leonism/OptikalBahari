@@ -8,6 +8,13 @@ layout: default
   class="masthead"
   style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')"
 >
+  <img
+    src="{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}"
+    fetchpriority="high"
+    decoding="sync"
+    style="display: none"
+    alt=""
+  />
   {% else %}
   <header class="masthead">
     {% endif %}

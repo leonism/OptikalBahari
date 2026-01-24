@@ -1,16 +1,10 @@
 <head>
   <meta charset="utf-8">
-  <link rel="dns-prefetch" href="//www.optikalbahari.com/">
-  <link rel="dns-prefetch" href="//googleapis.com/">
-  <link rel="dns-prefetch" href="//fonts.gstatic.com/">
-  <link rel="dns-prefetch" href="//googletagmanager.com/">
-  <link rel="dns-prefetch" href="//cloudflare.com/">
-  <link rel="dns-prefetch" href="//facebook.com/">
-  <link rel="dns-prefetch" href="//connect.facebook.net/">
-  <link rel="dns-prefetch" href="//static.ak.facebook.com/">
-  <link rel="dns-prefetch" href="//static.ak.fbcdn.net/">
-  <link rel="dns-prefetch" href="//s-static.ak.facebook.com/">
-  <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://connect.facebook.net">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="google-site-verification" content="S78mNAZQFqN0fjs9uj0jlw53fp_JUq1gR7KZry7NoNs" />
   <meta name="facebook-domain-verification" content="okvg0cr9ei1ai8ubn3xjild1y38oyr" />
@@ -20,8 +14,13 @@
   {% include cards/card-twitter.html %}
   {% include cards/card-fb.html %}
   {% include cards/card-og.html %}
-  <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome-free/css/all.min.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css' | relative_url }}">
+  {% include fonts.html %}
+  <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome-free/css/all.min.css' | relative_url }}" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="{{ '/assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css' | relative_url }}" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome-free/css/all.min.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css' | relative_url }}">
+  </noscript>
   <link rel="stylesheet" href="{{ '/assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' | absolute_url }}">
@@ -33,4 +32,3 @@
     href="{{ '/assets/img/icons/favicon.ico' | prepend: site.baseurl | prepend: site.url }}" />
   {% include gtm/gtm-head.html %}
 </head>
-{% include fonts.html %}
