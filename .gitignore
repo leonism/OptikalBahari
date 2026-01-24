@@ -132,4 +132,5 @@ LICENSE
 # Git directory
 .git/
 
-
+# Smart Caching
+.smart_asset_cache.yml
