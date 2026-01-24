@@ -2,10 +2,10 @@
 layout: page
 title: Kredit Kacamata Minus Di Optikal Bahari
 subtitle: 'Murah dan Terjangkau, Cicilan Bebas Bunga, Tanpa Credit Card & Bergaransi'
-description: Temukan solusi untuk membeli kacamata berkualitas dengan harga terjangkau di
-  Optikal Bahari. Kami menyediakan layanan pembelian kacamata dengan cara
-  kredit, serta memiliki banyak pilihan lensa dan frame dengan harga yang
-  terjangkau
+description:
+  Temukan solusi untuk membeli kacamata berkualitas dengan harga terjangkau di Optikal Bahari. Kami
+  menyediakan layanan pembelian kacamata dengan cara kredit, serta memiliki banyak pilihan lensa dan
+  frame dengan harga yang terjangkau
 keywords: 'kredit kacamata, terdekat, cicilan, bunga 0%'
 lang: id-ID
 author: Optikal Bahari

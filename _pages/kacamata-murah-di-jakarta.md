@@ -2,8 +2,9 @@
 layout: page
 title: Kacamata Murah Hanya di Optik Bahari, Jakarta
 subtitle: 'Dan Dapatkan Periksa Mata Gratis Dengan Proses Kompterisasi'
-description: 'Dapatkan kacamata murah di Jakarta hanya di Optikal Bahari. Kami menyediakan
-  berbagai pilihan lensa dan frame dengan harga terjangkau dan kualitas terbaik.'
+description:
+  'Dapatkan kacamata murah di Jakarta hanya di Optikal Bahari. Kami menyediakan berbagai pilihan
+  lensa dan frame dengan harga terjangkau dan kualitas terbaik.'
 keywords: 'Kacamata Murah, Kacamata, Murah, Jakarta'
 lang: id-ID
 author: Optikal Bahari

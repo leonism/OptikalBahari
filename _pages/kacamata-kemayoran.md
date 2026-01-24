@@ -2,11 +2,10 @@
 layout: page
 title: Optik di Kemayoran Dengan Beragam Kacamata & Lensa.
 subtitle: Kami memberikan layanan periksa mata gratis dan menerima kacamata cicilan.
-description: Dapatkan Kacamata Berkualitas di Optikal Bahari. Kunjungi Toko Kami di
-  Kemayoran, Jakarta Pusat untuk Pemeriksaan Mata Gratis & Koleksi Bingkai yang
-  Trendy
-keywords: 'kacamata, kemayoran, kacamata cicialn, kacamata murah, tanpa bunga, tanpa DP,
-  bayar KJP'
+description:
+  Dapatkan Kacamata Berkualitas di Optikal Bahari. Kunjungi Toko Kami di Kemayoran, Jakarta Pusat
+  untuk Pemeriksaan Mata Gratis & Koleksi Bingkai yang Trendy
+keywords: 'kacamata, kemayoran, kacamata cicialn, kacamata murah, tanpa bunga, tanpa DP, bayar KJP'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]

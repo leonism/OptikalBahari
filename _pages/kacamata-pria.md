@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Gaya Kacamata Pria Terbaik Hanya di Optikal Bahari
-subtitle: 'Temukan Kacamata Pria Terkini & Berkualitas di Optikal Bahari, Dapatkan
-  Periksa Mata Gratis, Cicilan 0% & Garansi Kacamata 1 Tahun'
-description: Panduan untuk menemukan kacamata pria terbaik di Optikal Bahari, Periksa &
-  Service Kacamata Gratis, Garansi 1 Tahun & Menerima Pembayaran KJP
-keywords: 'kacamata pria, kacamata cicilan, tanpa credit card, bunga 0% tanpa DP,
-  cicilan ringan'
+subtitle:
+  'Temukan Kacamata Pria Terkini & Berkualitas di Optikal Bahari, Dapatkan Periksa Mata Gratis,
+  Cicilan 0% & Garansi Kacamata 1 Tahun'
+description:
+  Panduan untuk menemukan kacamata pria terbaik di Optikal Bahari, Periksa & Service Kacamata
+  Gratis, Garansi 1 Tahun & Menerima Pembayaran KJP
+keywords: 'kacamata pria, kacamata cicilan, tanpa credit card, bunga 0% tanpa DP, cicilan ringan'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]

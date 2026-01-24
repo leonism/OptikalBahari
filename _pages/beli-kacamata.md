@@ -2,8 +2,11 @@
 layout: page
 title: Beli Kacamata Murah, Periksa Mata & Service Kacamata Gratis
 subtitle: 'Cicilan 0%, Bergaransi & Terima KJP'
-description: Cari Kacamata Murah & Berkualitas, Cek Mata & Service Gratis, Cicilan 0%, Garansi, Terima KJP & Izin Dinkes/Kemenkes, Temukan Semuanya Di Optikal Bahari
-keywords: 'Beli Kacamata, Beli Kacamata Murah, Lensa Murah, Periksa Service Kacamata, Kacamata Cicilan'
+description:
+  Cari Kacamata Murah & Berkualitas, Cek Mata & Service Gratis, Cicilan 0%, Garansi, Terima KJP &
+  Izin Dinkes/Kemenkes, Temukan Semuanya Di Optikal Bahari
+keywords:
+  'Beli Kacamata, Beli Kacamata Murah, Lensa Murah, Periksa Service Kacamata, Kacamata Cicilan'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]

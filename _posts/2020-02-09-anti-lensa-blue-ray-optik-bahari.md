@@ -2,10 +2,9 @@
 layout: post
 title: Kacamata Anti Blue-ray UV Protection Glasses
 subtitle: Bisa Didapatkan di Optikal Bahari
-description: Lensa anti radiasi Blueray merupakan penemuan terbaru yang melindungi mata
-  anda dari radiasi
-keywords: 'lensa blueray, lensa bluray, blueray, blu ray, lensa anti blueray, kacamata
-  andi blueray'
+description:
+  Lensa anti radiasi Blueray merupakan penemuan terbaru yang melindungi mata anda dari radiasi
+keywords: 'lensa blueray, lensa bluray, blueray, blu ray, lensa anti blueray, kacamata andi blueray'
 lang: id-ID
 date: '2020-02-09 08:25:23 +0700'
 author: Optikal Bahari
@@ -26,13 +25,7 @@ comments: true
       </h3>
       <p class="card-text text-left">
         Dengan kemajuan teknologi yang semakin berkembang pesat, perlindungan mata dari sinar
-        <italic>blue ray</italic>
-        menjadi aspek yang sangat penting. Di Optikal Bahari, kami tidak hanya mengutamakan kecepatan dan akurasi dalam
-        <a href="{{ "/periksa-mata-gratis" | relative_url }}" title="Pemeriksaan mata gratis">pemeriksaan mata</a>,
-        tetapi juga menjamin hasil yang dapat dipercaya. Bersama tim optometris kami yang berpengalaman, tidak hanya
-        Anda mendapatkan
-        hasil pemeriksaan mata yang berkualitas, tetapi juga pengetahuan yang memadai tentang kesehatan penglihatan mata
-        Anda.
+        <italic>blue ray</italic> menjadi aspek yang sangat penting. Di Optikal Bahari, kami tidak hanya mengutamakan kecepatan dan akurasi dalam <a href="{{ "/periksa-mata-gratis" | relative_url }}" title="Pemeriksaan mata gratis">pemeriksaan mata</a>, tetapi juga menjamin hasil yang dapat dipercaya. Bersama tim optometris kami yang berpengalaman, tidak hanya Anda mendapatkan hasil pemeriksaan mata yang berkualitas, tetapi juga pengetahuan yang memadai tentang kesehatan penglihatan mata Anda.
       </p>
       <p class="card-text text-left">
         Kami tidak sekadar hanya menawarkan pemeriksaan mata, namun juga mendengarkan dengan seksama kebutuhan Anda

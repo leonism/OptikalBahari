@@ -2,10 +2,12 @@
 layout: page
 title: Harga Kacamata Optik, Auto Fokus, Kacamata Progresif & Baca
 subtitle: 'Rahasia Tersembunyi di Balik Kacamata Berkualitas di Optikal Bahari'
-description: Dapatkan Kacamata Baca, Auto Fokus & Progresif Murah, Periksa Mata & Service
-  Gratis, Kacamata Cicilan 0%, Bergaransi & Terima KJP
-keywords: 'harga kacamata optik, harga frame kacamata, harga kacamata auto fokus, harga
-  kacamata progresif, harga kacamata baca'
+description:
+  Dapatkan Kacamata Baca, Auto Fokus & Progresif Murah, Periksa Mata & Service Gratis, Kacamata
+  Cicilan 0%, Bergaransi & Terima KJP
+keywords:
+  'harga kacamata optik, harga frame kacamata, harga kacamata auto fokus, harga kacamata progresif,
+  harga kacamata baca'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]

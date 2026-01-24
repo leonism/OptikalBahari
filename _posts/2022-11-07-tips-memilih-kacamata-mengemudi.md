@@ -2,9 +2,9 @@
 layout: post
 title: Tips Memilih Kacamata Untuk Mengemudi
 subtitle: Mau Tau Cara Memilihnya?
-description: Sebenarnya, apa fungsi dari kacamata untuk pengemudi atau driving glasses dan
-  bagaimana cara memilihnya? simak informasi seputar driving glasses berikut
-  ini.
+description:
+  Sebenarnya, apa fungsi dari kacamata untuk pengemudi atau driving glasses dan bagaimana cara
+  memilihnya? simak informasi seputar driving glasses berikut ini.
 keywords: 'kacamata pengemudi, kacamata hitam, mengemudi, kacamata, kacamata hitam'
 lang: id-ID
 date: '2022-11-07 07:25:23 +0700'

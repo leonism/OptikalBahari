@@ -2,9 +2,9 @@
 layout: page
 title: Cek Mata Gratis
 subtitle: 'Periksa mata gratis di Optikal Bahari'
-description: Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame bingkai
-  kacamata dari mulai harga yang terjangkau sampai dengan harga menengah ke
-  atas.
+description:
+  Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame bingkai kacamata dari mulai
+  harga yang terjangkau sampai dengan harga menengah ke atas.
 keywords: 'periksa mata, periksa mata gratis, periksa mata jakarta'
 lang: id-ID
 author: Optikal Bahari

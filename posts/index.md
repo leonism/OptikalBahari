@@ -9,7 +9,7 @@ permalink: /posts/
 background: /assets/img/bg-splash-index-01.webp
 pagination:
   enabled: true # Enable pagination for this page
-  permalink: "page/:num/"
+  permalink: 'page/:num/'
 ---
 
 <!-- Section 1: First 3 posts -->

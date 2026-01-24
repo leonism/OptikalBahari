@@ -2,8 +2,9 @@
 layout: post
 title: Style Kacamata Bulat ala Selebriti Korea Selatan
 subtitle: Oppa 사랑해
-description: Style Kacamata Bulat ala Selebriti Korea Selatan, hadir dengan berbagai model
-  dan kerap digunakan oleh selebriti KPop.
+description:
+  Style Kacamata Bulat ala Selebriti Korea Selatan, hadir dengan berbagai model dan kerap digunakan
+  oleh selebriti KPop.
 keywords: 'Kacamata Bulat, Oppa, Trend, Korea, Korsel'
 lang: id-ID
 date: '2020-07-17 08:25:23 +0700'

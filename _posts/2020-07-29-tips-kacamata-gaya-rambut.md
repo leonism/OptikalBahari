@@ -2,8 +2,9 @@
 layout: post
 title: Tips Kacamata Berdasarkan Rambut Kekinian
 subtitle: Tetap Matching Antara Gaya Rambut Dan Frame Lensa
-description: Tips memilih kacamata berdasarkan rambut perlu disesuaikan dengan warna rambut
-  Kamu, selain itu juga untuk keseimbangan dalam penampilan.
+description:
+  Tips memilih kacamata berdasarkan rambut perlu disesuaikan dengan warna rambut Kamu, selain itu
+  juga untuk keseimbangan dalam penampilan.
 keywords: 'tips, memilih, kacamata, rambut'
 lang: id-ID
 date: '2020-07-28 07:25:23 +0700'

@@ -2,8 +2,9 @@
 layout: page
 title: Apa Penyebab Mata Minus
 subtitle: Berikut Beberapa Penyebabnya
-description: Mata minus, juga dikenal sebagai miopia, adalah masalah penglihatan umum yang
-  mempengaruhi jutaan orang di seluruh dunia
+description:
+  Mata minus, juga dikenal sebagai miopia, adalah masalah penglihatan umum yang mempengaruhi jutaan
+  orang di seluruh dunia
 keywords: 'mata minus, penyebab mata minus'
 lang: id-ID
 author: Optikal Bahari
@@ -66,5 +67,6 @@ comments: false
         <em>(Optikal Bahari)</em>
       </p>
     </div>
+
   </div>
 </div>

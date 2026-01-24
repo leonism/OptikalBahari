@@ -2,8 +2,9 @@
 layout: post
 title: Optikal Bahari Tetap Melayani Di Masa Pandemi
 subtitle: Dengan Menerapkan Protokol Kesehatan
-description: Ditengan masa pandemi ini, Optikal Bahari akan tetap melayani anda dengan
-  penerapan aturan protokol kesehatan sesuai dengan anjuran dari pemerintah.
+description:
+  Ditengan masa pandemi ini, Optikal Bahari akan tetap melayani anda dengan penerapan aturan
+  protokol kesehatan sesuai dengan anjuran dari pemerintah.
 keywords: 'PSBB, Pandemi, Protokol Kesehatan, Corona'
 lang: id-ID
 date: '2020-06-04 08:25:23 +0700'

@@ -2,8 +2,7 @@
 layout: post
 title: Perubahan Kecil Yang Membuat Tren Kacamata
 subtitle: Penasaran Bakalan Seperti Apa?
-description: 'Coba tips-tips terbaru tentang cara memakai kacamata untuk meningkatkan
-  kenyamanan'
+description: 'Coba tips-tips terbaru tentang cara memakai kacamata untuk meningkatkan kenyamanan'
 keywords: 'tren kacamata, tren kacamata 2023, tren, kacamata'
 lang: id-ID
 date: '2022-12-12 07:25:23 +0700'

@@ -2,11 +2,11 @@
 layout: post
 title: Jenis Lensa Kacamata Terbaik yang Perlu Kamu Ketahui
 subtitle: Ada Apa Aja Sih Tipe Lensa?
-description: Lensa Progresif dan Lensa Transisi Jadi Salah Satu Jenis Lensa Kacamata
-  Terbaik, Dengan lensa ini, mata bisa lebih maksimal ketika melihat dan kamu
-  tidak perlu khawatir lagi. Bagian bawah lensa cocok untuk pengidap rabun dekat
-  sehingga kamu nyaman membaca. Sedangkan bagian atas adalah untuk rabun jauh
-  sehingga penglihatan jarak jauh tidak akan terkendala lagi.
+description:
+  Lensa Progresif dan Lensa Transisi Jadi Salah Satu Jenis Lensa Kacamata Terbaik, Dengan lensa ini,
+  mata bisa lebih maksimal ketika melihat dan kamu tidak perlu khawatir lagi. Bagian bawah lensa
+  cocok untuk pengidap rabun dekat sehingga kamu nyaman membaca. Sedangkan bagian atas adalah untuk
+  rabun jauh sehingga penglihatan jarak jauh tidak akan terkendala lagi.
 keywords: 'tipe lensa, lensa kacamata terbaik, tipe lensa kacamata'
 lang: id-ID
 date: '2020-08-03 07:25:23 +0700'

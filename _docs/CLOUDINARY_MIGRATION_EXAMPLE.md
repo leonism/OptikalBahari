@@ -42,20 +42,11 @@ the new Cloudinary integration.
   />
 
   <!-- Final fallback with alt and lazy loading -->
-  <img
-    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025"
-    alt="Apa itu Lensa Photochromic?"
-    loading="lazy"
-    decoding="async"
-    width="768"
-    height="512"
-    class="card-img-top img-fluid"
-  />
+  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025" alt="Apa itu Lensa Photochromic?" loading="lazy" decoding="async" width="768" height="512" class="card-img-top img-fluid" />
 </picture>
 
 <!-- Background images in front matter -->
-background:
-https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-037
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-037
 ```
 
 ## After: Cloudinary Integration
@@ -64,9 +55,7 @@ https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/bea
 
 ```html
 <!-- New way: Cloudinary include with responsive images -->
-{% include cloudinary_image.html
-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" alt="Apa itu Lensa
-Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
+{% include cloudinary_image.html src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" alt="Apa itu Lensa Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
 ```
 
 ### Option 2: Using Liquid Filters
@@ -108,15 +97,7 @@ Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
   />
 
   <!-- Final fallback with alt and lazy loading -->
-  <img
-    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025"
-    alt="Apa itu Lensa Photochromic?"
-    loading="lazy"
-    decoding="async"
-    width="768"
-    height="512"
-    class="card-img-top img-fluid"
-  />
+  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025" alt="Apa itu Lensa Photochromic?" loading="lazy" decoding="async" width="768" height="512" class="card-img-top img-fluid" />
 </picture>
 ```
 
@@ -159,15 +140,7 @@ Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
   />
 
   <!-- Final fallback with alt and lazy loading -->
-  <img
-    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025"
-    alt="Apa itu Lensa Photochromic?"
-    loading="lazy"
-    decoding="async"
-    width="768"
-    height="512"
-    class="card-img-top img-fluid"
-  />
+  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025" alt="Apa itu Lensa Photochromic?" loading="lazy" decoding="async" width="768" height="512" class="card-img-top img-fluid" />
 </picture>
 ```
 
@@ -207,14 +180,11 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary_image.html
-    src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" alt="Apa itu Lensa
-    Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
+    {% include cloudinary_image.html src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" alt="Apa itu Lensa Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
     <div class="card-body">
       <h3 class="card-title">Apa itu Lensa Photochromic?</h3>
       <p class="card-text text-left">
-        Lensa photochromic adalah teknologi revolusioner dalam dunia optik yang menyesuaikan diri
-        dengan perubahan cahaya lingkungan secara otomatis.
+        Lensa photochromic adalah teknologi revolusioner dalam dunia optik yang menyesuaikan diri dengan perubahan cahaya lingkungan secara otomatis.
         <!-- rest of content -->
       </p>
     </div>

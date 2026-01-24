@@ -2,8 +2,9 @@
 layout: page
 title: Periksa Mata Gratis Terdekat Dari Lokasi Anda
 subtitle: Segera Periksakan Mata Anda
-description: Di Optikal Bahari, periksa mata dilakukan 2 kali, yang akan menjanjikan hasil
-  yang lebih akurat & cepat, tanpa memakan waktu lama.
+description:
+  Di Optikal Bahari, periksa mata dilakukan 2 kali, yang akan menjanjikan hasil yang lebih akurat &
+  cepat, tanpa memakan waktu lama.
 keywords: 'Periksa Mata Terdekat, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
 lang: id-ID
 author: Optikal Bahari

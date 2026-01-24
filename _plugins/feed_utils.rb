@@ -23,18 +23,18 @@ module Jekyll
       input = input.gsub(/<([a-z1-6]+)([^>]*)>/i) do |match|
         tag_name = $1.downcase
         raw_attrs = $2
-        
+
         # Whitelist of attributes to keep
         allowed_attrs = %w[href src alt title]
         clean_attrs = ""
-        
+
         # Scan for attributes and keep only the allowed ones
         raw_attrs.scan(/\s+([a-zA-Z0-9-]+)=("[^"]*"|'[^']*')/i) do |attr_name, attr_value|
           if allowed_attrs.include?(attr_name.downcase)
             clean_attrs << " #{attr_name.downcase}=#{attr_value}"
           end
         end
-        
+
         # Return the cleaned tag
         "<#{tag_name}#{clean_attrs}>"
       end

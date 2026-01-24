@@ -2,8 +2,8 @@
 layout: post
 title: '8 Merk Frame Kacamata Terkenal Dunia'
 subtitle: Kita Kulik Habis Semuanya Disini
-description: 'Fakta unik dari 8 merk frame kacamata yang terkenal dan terbagus di dunia
-  dirangkum oleh Kami'
+description:
+  'Fakta unik dari 8 merk frame kacamata yang terkenal dan terbagus di dunia dirangkum oleh Kami'
 keywords: 'Oakley, Ray Ban, Persol, Prada, Tom Ford, Burberry, Versace, Gucci'
 lang: id-ID
 date: '2022-12-19 07:25:23 +0700'

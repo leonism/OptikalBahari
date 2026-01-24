@@ -2,9 +2,9 @@
 layout: page
 title: Kacamata Di Kemayoran, Bendungan Jago, JakPus
 subtitle: 'Toko Optik Kacamata Terdekat, Periksa Mata Gratis, Frame Murah Dan Terjangkau'
-description: Toko Kacamata & Optik Murah Terdekat, Dengan Koleksi Lensa & Frame Paling
-  Lengkap, Periksa Mata Gratis, Bergaransi, Bisa Cicilan & Terjangkau Di
-  Kemayoran
+description:
+  Toko Kacamata & Optik Murah Terdekat, Dengan Koleksi Lensa & Frame Paling Lengkap, Periksa Mata
+  Gratis, Bergaransi, Bisa Cicilan & Terjangkau Di Kemayoran
 keywords: Toko Kacamata Terdekat, Pusat Kacamata, Optik Kemayoran, Kacamata Murah
 lang: id-ID
 author: Optikal Bahari

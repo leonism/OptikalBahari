@@ -2,9 +2,9 @@
 layout: page
 title: Optik Yang Bisa Kredit Kacamata
 subtitle: 'Cuma di Optik Bahari Yang Bisa Kredit Kacamata'
-description: Optik Yang Bisa Kredit Kacamata, Cuma di Optikal Bahari Dan Kami menggunakan
-  alat komputer terbaru untuk memberikan hasil periksa mata yang cepat dan
-  akurat.
+description:
+  Optik Yang Bisa Kredit Kacamata, Cuma di Optikal Bahari Dan Kami menggunakan alat komputer terbaru
+  untuk memberikan hasil periksa mata yang cepat dan akurat.
 keywords: 'kredit kacamata, kacamata murah, periksa mata gratis, periksa mata jakarta'
 lang: id-ID
 author: Optikal Bahari
