@@ -2,7 +2,6 @@
 layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/assets/xsl/feed.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" {% if site.lang %}xml:lang="{{ site.lang }}"{% endif %}>
   <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
   <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
@@ -65,9 +64,13 @@ layout: null
         <summary type="html">{{ post.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
       {% endif %}
 
-      {% if post.image %}
-        {% assign image = post.image.path | default: post.image %}
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{% if image contains "://" %}{{ image }}{% else %}{{ image | absolute_url }}{% endif %}" />
+      {% assign post_image = post.image.path | default: post.image %}
+      {% unless post_image %}
+        {% assign post_image = post.background %}
+      {% endunless %}
+
+      {% if post_image %}
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{% if post_image contains "://" %}{{ post_image }}{% else %}{{ post_image | absolute_url }}{% endif %}" />
       {% endif %}
     </entry>
   {% endfor %}
