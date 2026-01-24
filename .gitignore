@@ -45,6 +45,7 @@ $RECYCLE.BIN/
 dist/
 .output/
 _site/
+_site_debug/
 
 # Dependencies
 node_modules/
@@ -131,5 +132,4 @@ LICENSE
 # Git directory
 .git/
 
-# Jekyll output Directory
-_site/
+

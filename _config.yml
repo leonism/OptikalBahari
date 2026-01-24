@@ -38,6 +38,7 @@ plugins:
   - jekyll-image-size
   - jekyll-minifier
 
+# admin
 jekyll_admin:
   hidden_links:
     - posts
@@ -65,7 +66,7 @@ exclude:
 pagination:
   enabled: true
   per_page: 9
-  permalink: "/posts/page/:num/"
+  pabundle exec jekyll serveginate_path: "/posts/page/:num/"
   title: ":title - Page :num"
   sort_field: "date"
   sort_reverse: true

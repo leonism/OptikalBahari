@@ -2,10 +2,8 @@
 layout: page
 title: Beli Kacamata Murah, Periksa Mata & Service Kacamata Gratis
 subtitle: 'Cicilan 0%, Bergaransi & Terima KJP'
-description: Cari Kacamata Murah & Berkualitas, Cek Mata & Service Gratis, Cicilan 0%,
-  Garansi, Terima KJP & Izin Dinkes/Kemenkes, Temukan Semuanya Di Optikal Bahari
-keywords: 'Beli Kacamata, Beli Kacamata Murah, Lensa Murah, Periksa Service Kacamata,
-  Kacamata Cicilan'
+description: Cari Kacamata Murah & Berkualitas, Cek Mata & Service Gratis, Cicilan 0%, Garansi, Terima KJP & Izin Dinkes/Kemenkes, Temukan Semuanya Di Optikal Bahari
+keywords: 'Beli Kacamata, Beli Kacamata Murah, Lensa Murah, Periksa Service Kacamata, Kacamata Cicilan'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -96,8 +94,8 @@ comments: false
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
 	    	<img
-                data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" | relative_url }}"
-                src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" | relative_url }}"
+                data-src="{{"/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" | relative_url }}"
+                src="{{"/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" | relative_url }}"
                 class="card-img-top img-fluid"
                 loading="lazy"
                 title="Kunjungi Optikal Bahari Sekarang"
@@ -109,7 +107,7 @@ comments: false
             <p class="card-text text-left">
                         Jangan tunggu lagi, segera <a href="{{ "/lokasi/" | relative_url }}" title="lokasi Optikal Bahari">kunjungi Optikal Bahari</a> dan rasakan pengalaman memilih kacamata terbaik untuk Anda. Tim profesional kami siap membantu Anda menemukan kacamata yang sesuai dengan gaya, kebutuhan, dan anggaran Anda. Banyak konsumen kami telah memberikan <a href="{{ "/testimoni/" | relative_url }}" title="testimoni positive">testimoni positive</a> tentang layanan Optikal Bahari. Dapatkan kacamata impian Anda dengan harga terbaik, segera kunjungi Optikal Bahari dan temukan rahasia di balik penawaran luar biasa kami. Punya pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan</a> Page kami. <em>(Optikal Bahari)</em>
             </p>
-	    </div>
+        </div>
     </div>
 </div>
 

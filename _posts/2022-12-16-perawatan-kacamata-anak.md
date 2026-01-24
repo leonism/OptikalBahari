@@ -18,7 +18,7 @@ comments: true
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp"
-      src="{{"/assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp" | relative_url }}" class="card-img-top"
+      src="{{ "/assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp" | relative_url }}" class="card-img-top"
       title="Perawatan Kacamata Anak" alt="Perawatan Kacamata Anak">
     <div class="card-body">
       <h3 class="card-title">
@@ -117,7 +117,7 @@ comments: true
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp"
-      src="{{"/assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp" | relative_url }}"
+      src="{{ "/assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp" | relative_url }}"
       class="card-img-top img-fluid" title="Pemilihan Material Kacamata" alt="Pemilihan Material Kacamata">
     <div class="card-body">
       <h3 class="card-title">
@@ -155,7 +155,7 @@ comments: true
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp"
-      src="{{"/assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp" | relative_url }}"
+      src="{{ "/assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp" | relative_url }}"
       class="card-img-top img-fluid" title="Jaga Kebersihan Kacamata Anak" alt="Jaga Kebersihan Kacamata Anak">
     <div class="card-body">
       <h3 class="card-title">
@@ -181,7 +181,7 @@ comments: true
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp"
-      src="{{"/assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp" | relative_url }}"
+      src="{{ "/assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp" | relative_url }}"
       class="card-img-top img-fluid" title="Rutin Melakukan Kunjungan Ke Optik"
       alt="Rutin Melakukan Kunjungan Ke Optik">
     <div class="card-body">

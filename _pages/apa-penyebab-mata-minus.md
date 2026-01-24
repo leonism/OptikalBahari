@@ -17,7 +17,9 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
-      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
+      itemprop="image"
+      data-src="{{" /assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
+      src="{{" /assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
       class="card-img-top"
       alt="tips-kacamata-2.webp">
     <div class="card-body">
@@ -55,8 +57,7 @@ comments: false
           id="FBClick"
           title="Facebook Page Optikal Bahari"
           class="FacebookPage">Facebook @optikalbahari</a>
-        supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond
-          yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+        supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
         <a
           href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
           id="WhatsAppClick"
@@ -65,6 +66,5 @@ comments: false
         <em>(Optikal Bahari)</em>
       </p>
     </div>
-
   </div>
 </div>

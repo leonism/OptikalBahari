@@ -338,8 +338,8 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="{{"/assets/img/posts/vespa-girls/vespa-girl-17.webp" | relative_url }}"
-      src="{{"/assets/img/posts/vespa-girls/vespa-girl-17.webp" | relative_url }}" class="card-img-top"
+    <img itemprop="image" data-src="{{ "/assets/img/posts/vespa-girls/vespa-girl-17.webp" | relative_url }}"
+      src="{{ "/assets/img/posts/vespa-girls/vespa-girl-17.webp" | relative_url }}" class="card-img-top"
       alt="Kunjungi Optikal Bahari">
     <div class="card-body">
       <h3 class="card-title">Kunjungi Optikal Bahari</h3>

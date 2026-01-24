@@ -56,7 +56,9 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-037.webp"
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-037.webp"
       src="/assets/img/posts/beach-retro-girls/beach-retro-girls-037.webp" class="card-img-top img-fluid"
       alt="Manfaat Kacamata & Lensa Photochromic" />
     <div class="card-body">
@@ -84,7 +86,7 @@ comments: true
       </p>
       <p class="card-text text-left">
         <strong>Garansi 1 Tahun untuk Kacamata Kamu</strong>
-        . Kami sepenuhnya memahami kekhawatiran Anda terhadap kemungkinan
+        Kami sepenuhnya memahami kekhawatiran Anda terhadap kemungkinan
         kerusakan kacamata. Namun, di Optikal Bahari, kami memberikan solusi
         yang menguntungkan. Setiap pembelian kacamata dijamin dengan garansi
         selama 1 tahun penuh. Dengan demikian, Anda dapat mengenakan kacamata
@@ -95,7 +97,7 @@ comments: true
       </p>
       <p class="card-text text-left">
         <strong>Cicilan 0%, Tanpa Bunga & Riba</strong>
-        . Optikal Bahari mengubah konsep membeli kacamata menjadi lebih
+        Optikal Bahari mengubah konsep membeli kacamata menjadi lebih
         terjangkau dan mudah. Melalui program cicilan tanpa bunga & riba, Anda
         dapat memiliki kacamata impian tanpa membebani dompet Anda. Ini adalah
         solusi yang sempurna bagi siapa pun yang ingin tampil kece tanpa harus
@@ -105,7 +107,7 @@ comments: true
       </p>
       <p class="card-text text-left">
         <strong>Service & Reparasi Kacamata Gratis</strong>
-        . Jangan sia-siakan kacamata yang bermasalah! Di Optikal Bahari, kami
+        Jangan sia-siakan kacamata yang bermasalah! Di Optikal Bahari, kami
         menawarkan layanan service & reparasi kacamata GRATIS! Dengan layanan
         ini, kacamata kesayangan Anda akan selalu terjaga dalam kondisi prima
         dan tetap stylish. Jadi, tak perlu khawatir lagi tentang kacamata yang
@@ -127,7 +129,7 @@ comments: true
       </p>
       <p class="card-text text-left">
         <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>
-        . Kesehatan mata adalah prioritas utama kami di Optikal Bahari. Kami
+        Kesehatan mata adalah prioritas utama kami di Optikal Bahari. Kami
         bangga mengumumkan bahwa kami telah memperoleh izin resmi dari Dinas
         Kesehatan & Kementerian Kesehatan Republik Indonesia, hal ini
         menunjukkan komitmen kami terhadap standar kesehatan penglihatan mata
@@ -521,9 +523,11 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image"
-      data-src="{{"/assets/img/posts/beach-retro-girls/beach-retro-girls-034.webp" | relative_url }}"
-      src="{{"/assets/img/posts/beach-retro-girls/beach-retro-girls-034.webp" | relative_url }}" class="card-img-top"
+    <img
+      itemprop="image"
+      data-src="{{ "/assets/img/posts/beach-retro-girls/beach-retro-girls-034.webp" | relative_url }}"
+      src="{{ "/assets/img/posts/beach-retro-girls/beach-retro-girls-034.webp" | relative_url }}"
+      class="card-img-top"
       alt="Kunjungi Optikal Bahari">
     <div class="card-body">
       <h3 class="card-title">Kunjungi Optikal Bahari</h3>

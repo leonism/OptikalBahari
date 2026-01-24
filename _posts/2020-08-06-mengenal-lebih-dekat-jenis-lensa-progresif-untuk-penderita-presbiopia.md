@@ -20,8 +20,7 @@ comments: true
     <img
       itemprop="image"
       data-src="/assets/img/posts/harajuku/female-harajuku-01.webp"
-      src="{{"/assets/img/posts/harajuku/female-harajuku-01.webp" | relative_url
-		}}"
+      src="{{ "/assets/img/posts/harajuku/female-harajuku-01.webp" | relative_url }}"
       class="card-img-top"
       title="Gangguan Presbiopia & Jenis Lensa Progresif"
       alt="Gangguan Presbiopia & Jenis Lensa Progresif">
@@ -51,8 +50,7 @@ comments: true
     <img
       itemprop="image"
       data-src="/assets/img/posts/harajuku/female-harajuku-02.webp"
-      src="{{"/assets/img/posts/harajuku/female-harajuku-02.webp" | relative_url
-		}}"
+      src="{{ "/assets/img/posts/harajuku/female-harajuku-02.webp" | relative_url }}"
       class="card-img-top"
       title="Jenis Lensa Progresif Nyaman Dipakai dan
 		Memiliki Tiga Titik Fokus"
@@ -93,8 +91,7 @@ comments: true
     <img
       itemprop="image"
       data-src="/assets/img/posts/harajuku/female-harajuku-03.webp"
-      src="{{"/assets/img/posts/harajuku/female-harajuku-03.webp" | relative_url
-		}}"
+      src="{{ "/assets/img/posts/harajuku/female-harajuku-03.webp" | relative_url }}"
       class="card-img-top"
       title="Model Jenis Lensa Progresif dan Cara
 		Pemakaiannya"

@@ -16,7 +16,7 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}"
+    <img src="{{" /assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}"
     class="card-img-top" alt="tips-kacamata-2.webp">
     <div class="card-body">
         <h3 class="card-title">
@@ -52,7 +52,7 @@ comments: false
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}"
+		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}"
           class="card-img-top"
           title="periksa-mata-gratis-optikal-bahari"
           alt="tips-kacamata-2.webp">
@@ -73,7 +73,12 @@ comments: false
         <div class="card shadow p-3 mb-5 bg-white rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a>
+                    <img
+                        src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
+                        class="card-img-top"
+                        title="{{ post.title }}"
+                        alt="{{ post.title }}">
+            </a>
                 {% endif %}
             <div class="card-body">
                 <h5 class="card-title">
@@ -83,7 +88,11 @@ comments: false
                     {{ post.description | strip_html | truncatewords: 20 }}.
                 </p>
                 <p class="card-text text-left">
-                    <a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya</a>
+                    <a
+                        class="btn btn-primary rounded-pill"
+                        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                        Selengkapnya
+                    </a>
                 </p>
             </div>
             <div class="card-footer">

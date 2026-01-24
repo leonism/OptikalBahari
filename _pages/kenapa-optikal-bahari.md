@@ -17,7 +17,7 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp" | relative_url }}"
+    src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp" | relative_url }}"
     class="card-img-top"
     title="Autorefractometer atau Auto Lens Meter"
     alt="Autorefractometer atau Auto Lens Meter">
@@ -36,7 +36,7 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp" | relative_url }}"
+    src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp" | relative_url }}"
     class="card-img-top"
     title="Segera Kunjungi Optikal Bahari"
     alt="Segera Kunjungi Optikal Bahari">
@@ -55,7 +55,7 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | relative_url }}"
+    src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | relative_url }}"
     class="card-img-top"
     title="Periksa Mata Dengan Komputer"
     alt="Periksa Mata Dengan Komputer">
