@@ -7,15 +7,17 @@ layout: default
 {% if page.background %}
 <header
   class="masthead"
-  style="background-image: url('{% if page.background contains 'http' %}
-    {{ page.background }}
-    {% else %}
-    {{ page.background | prepend: site.baseurl | replace: '//', '/' }}
+  style="background-image:
+    url('{% if page.background contains 'http' %}
+      {{ page.background }}
+          {% else %}
+      {{ page.background | prepend: site.baseurl | replace: '//', '/' }}
     {% endif %}')">
   <img
     src="{% if page.background contains 'http' %}
-    {{ page.background }}{% else %}
-    {{ page.background | prepend: site.baseurl | replace: '//', '/' }}
+    {{ page.background }}
+      {% else %}
+      {{ page.background | prepend: site.baseurl | replace: '//', '/' }}
     {% endif %}"
     fetchpriority="high"
     decoding="sync"
@@ -29,9 +31,13 @@ layout: default
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ site.tagline }}</h1>
+            <h1>
+              {{ site.tagline }}
+            </h1>
             {% if site.description %}
-            <h2 class="subheading text-capitalize">{{ site.description }}</h2>
+              <h2 class="subheading text-capitalize">
+                {{ site.description }}
+              </h2>
             {% endif %}
           </div>
         </div>
@@ -40,6 +46,8 @@ layout: default
   </header>
 </header>
 <div class="container">
-  {% include home/home-cards.html %} {% include home/home-cards-kacamata.html %} {% include
-  home/home-cards-glasses.html %} {% include home/home-cards-category.html %}
+  {% include home/home-cards.html %}
+  {% include home/home-cards-kacamata.html %}
+  {% include home/home-cards-glasses.html %}
+  {% include home/home-cards-category.html %}
 </div>

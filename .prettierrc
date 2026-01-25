@@ -41,6 +41,7 @@
         "useTabs": false,
         "singleQuote": true,
         "htmlWhitespaceSensitivity": "ignore",
+        "embeddedLanguageFormatting": "auto",
         "bracketSpacing": true,
         "endOfLine": "lf"
       }
