@@ -20,10 +20,12 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" }}"
-    srcset="/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" | srcset }}"/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" | width }}"/assets/img/posts/whitesand-girls/whitesand-girls-01.webp" | height }}"
+    src="{{ '/assets/img/posts/whitesand-girls/whitesand-girls-01.webp' | relative_url }}"
     class="card-img-top img-fluid"
-    alt="Periksakan Mata Anda Secara Rutin">
+    alt="Periksakan Mata Anda Secara Rutin"
+    loading="lazy"
+    width="600"
+    height="400">
   <div class="card-body">
     <h3 class="card-title">
       Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting
@@ -43,10 +45,12 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" }}"
-    srcset="/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" | srcset }}"/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" | width }}"/assets/img/posts/whitesand-girls/whitesand-girls-02.webp" | height }}"
+    src="{{ '/assets/img/posts/whitesand-girls/whitesand-girls-02.webp' | relative_url }}"
     class="card-img-top img-fluid"
-    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
+    loading="lazy"
+    width="600"
+    height="400">
   <div class="card-body">
     <h3 class="card-title">
       Bagaimana Memilih Kacamata Wanita yang Cocok untuk Anda
@@ -66,10 +70,12 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" }}"
-    srcset="/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" | srcset }}"/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" | width }}"/assets/img/posts/whitesand-girls/whitesand-girls-03.webp" | height }}"
+    src="{{ '/assets/img/posts/whitesand-girls/whitesand-girls-03.webp' | relative_url }}"
     class="card-img-top img-fluid"
-    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
+    loading="lazy"
+    width="600"
+    height="400">
   <div class="card-body">
     <h3 class="card-title">
       Tren Kacamata Wanita Terkini yang Harus Anda Coba
@@ -89,10 +95,12 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" }}"
-    srcset="/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" | srcset }}"/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" | width }}"/assets/img/posts/whitesand-girls/whitesand-girls-04.webp" | height }}"
+    src="{{ '/assets/img/posts/whitesand-girls/whitesand-girls-04.webp' | relative_url }}"
     class="card-img-top img-fluid"
-    alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru">
+    alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru"
+    loading="lazy"
+    width="600"
+    height="400">
   <div class="card-body">
     <h3 class="card-title">
       Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru
@@ -112,10 +120,12 @@ comments: false
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"
-    src="/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" }}"
-    srcset="/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" | srcset }}"/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" | width }}"/assets/img/posts/whitesand-girls/whitesand-girls-05.webp" | height }}"
+    src="{{ '/assets/img/posts/whitesand-girls/whitesand-girls-05.webp' | relative_url }}"
     class="card-img-top img-fluid"
-    alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru">
+    alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru"
+    loading="lazy"
+    width="600"
+    height="400">
   <div class="card-body">
     <h3 class="card-title">
       Temukan Kacamata Wanita Impian Anda di Optikal Bahari!
