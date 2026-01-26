@@ -4,11 +4,12 @@
   {% include cards/card-twitter.html %}
   {% include cards/card-fb.html %}
   {% include cards/card-og.html %}
-  {% include cards/card-og.html %}
   {% include fonts.html %}
   <link rel="preload" href="{{ '/assets/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome-free-7.1.0-web/css/all.min.css' | relative_url }}" media="print" onload="this.media='all'">
   <noscript>
     <link rel="stylesheet" href="{{ '/assets/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome-free-7.1.0-web/css/all.min.css' | relative_url }}">
   </noscript>
   <style>
     {% capture include_scss %}
@@ -19,6 +20,10 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}" />
   <link rel="sitemap" type="application/xml" title="{{ site.title | escape }}" href="{{ '/sitemap.xml' | relative_url }}" />
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/img/icons/favicon.ico' | relative_url }}" />
+  {% include gtm/gtm-head.html %}
+</head>
+{ site.title | escape }}" href="{{ '/sitemap.xml' | relative_url }}" />
   <link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/img/icons/favicon.ico' | relative_url }}" />
   {% include gtm/gtm-head.html %}
 </head>
