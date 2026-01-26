@@ -608,6 +608,9 @@ end
 
 # Jekyll Hook - automatically processes assets after site generation
 Jekyll::Hooks.register :site, :post_write do |site|
+  # Skip asset processing in development environment to improve serve performance
+  next if Jekyll.env == 'development'
+
   begin
     processor = AssetProcessor::TurboProcessor.new(site)
     processor.process

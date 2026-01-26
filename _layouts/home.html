@@ -5,24 +5,16 @@ layout: default
 {% include navigation/navbar.html %}
 <!-- Page Header -->
 {% if page.background %}
-<header
-  class="masthead"
-  style="background-image:
-    url('{% if page.background contains 'http' %}
-      {{ page.background }}
-          {% else %}
-      {{ page.background | prepend: site.baseurl | replace: '//', '/' }}
-    {% endif %}')">
-  <img
-    src="{% if page.background contains 'http' %}
-    {{ page.background }}
-      {% else %}
-      {{ page.background | prepend: site.baseurl | replace: '//', '/' }}
-    {% endif %}"
+<header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')">
+  <img src="{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}"
     fetchpriority="high"
     decoding="sync"
     style="display: none"
-    alt=""
+    alt="{% if page.title %}
+            {{ page.title }}
+              {% else %}
+            {{ site.title }}
+          {% endif %}"
   />
   {% else %}
   <header class="masthead">
@@ -46,8 +38,12 @@ layout: default
   </header>
 </header>
 <div class="container">
-  {% include home/home-cards.html %}
-  {% include home/home-cards-kacamata.html %}
-  {% include home/home-cards-glasses.html %}
-  {% include home/home-cards-category.html %}
+  <div class="row">
+    <div class="col-lg-10 col-md-10 mx-auto">
+      {% include home/home-cards.html %}
+      {% include home/home-cards-kacamata.html %}
+      {% include home/home-cards-glasses.html %}
+      {% include home/home-cards-category.html %}
+    </div>
+  </div>
 </div>

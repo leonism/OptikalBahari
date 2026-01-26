@@ -1,4 +1,7 @@
 Jekyll::Hooks.register :site, :post_write do |site|
+  # Skip in development
+  next if Jekyll.env == 'development'
+
   begin
     Dir.glob(File.join(site.dest, '**/*.html')).each do |file|
       content = File.read(file)

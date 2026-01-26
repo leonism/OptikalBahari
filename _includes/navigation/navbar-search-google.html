@@ -1,18 +1,21 @@
-<form method="get" id="search-google" action="https://www.google.com/search" target="_self">
-  <input type="hidden" name="sitesearch" value="optikalbahari.com" />
-  <input
-    type="text"
-    name="q"
-    maxlength="250"
-    value=""
-    placeholder="Cari Optikal Bahari"
-    class="form-control form-control-sm rounded-pill border custom-search"
-  />
-  <!-- Search icon container -->
-  <div class="search-icon-container">
-    <!-- Light mode search icon -->
-    <i class="fas fa-search light-icon" aria-label="Search"></i>
-    <!-- Dark mode search icon -->
-    <i class="fas fa-search dark-icon" aria-label="Search"></i>
-  </div>
-</form>
+<li class="nav-item">
+  <form method="get" id="search-google" action="https://www.google.com/search" target="_self">
+    <input type="hidden" name="sitesearch" value="optikalbahari.com" />
+    <input
+      type="text"
+      name="q"
+      maxlength="250"
+      value=""
+      placeholder="Cari Optikal Bahari"
+      aria-label="Cari Optikal Bahari"
+      class="form-control form-control-sm rounded-pill border custom-search"
+    />
+    <!-- Search icon container -->
+    <div class="search-icon-container mr-3" aria-hidden="true">
+      <!-- Light mode search icon -->
+      <i class="fas fa-search light-icon"></i>
+      <!-- Dark mode search icon -->
+      <i class="fas fa-search dark-icon"></i>
+    </div>
+  </form>
+</li>
