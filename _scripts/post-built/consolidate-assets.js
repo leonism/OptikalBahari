@@ -119,7 +119,9 @@ async function main() {
             // Normalize path separators for URL
             newUrl = newUrl.split(path.sep).join('/')
 
-            return `url('${newUrl}')`
+            const replacement = `url('${newUrl}')`
+            debug(`Rebased: ${url} -> ${newUrl}`)
+            return replacement
           })
 
           rawCss += rebasedContent + '\n'
