@@ -134,3 +134,6 @@ LICENSE
 
 # Smart Caching
 .smart_asset_cache.yml
+
+# node modules
+node_modules/

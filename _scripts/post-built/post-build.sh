@@ -30,6 +30,14 @@ else
   echo "⚠️ WebP conversion skipped (cwebp not installed)"
 fi
 
+echo "📦 Consolidating assets..."
+if command -v node >/dev/null 2>&1 && [ -f "_scripts/post-built/consolidate-assets.js" ]; then
+  # Run consolidation script (assumes dependencies are installed)
+  node _scripts/post-built/consolidate-assets.js
+else
+  echo "⚠️ Asset consolidation skipped (script or node not found)"
+fi
+
 echo "🔒 Adding security headers..."
 if [[ "$OSTYPE" == "darwin"* ]]; then
   # macOS (BSD sed) requires an empty string for extension
