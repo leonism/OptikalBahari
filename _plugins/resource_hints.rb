@@ -4,7 +4,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
 
   begin
     Dir.glob(File.join(site.dest, '**/*.html')).each do |file|
-      content = File.read(file)
+      content = File.read(file, encoding: 'UTF-8')
 
       # Extract critical resources
       css_files = content.scan(/href=["']([^"']*\.css)["']/i).flatten
