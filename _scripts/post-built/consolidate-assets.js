@@ -22,7 +22,6 @@ const argv = yargs(hideBin(process.argv))
 const SITE_DIR = '_site'
 const ASSETS_DIR = path.join(SITE_DIR, 'assets')
 const DIST_DIR = path.join(ASSETS_DIR, 'dist')
-const BACKUP_DIR = '_site_backup'
 
 const log = (msg) => console.log(`[Consolidate] ${msg}`)
 const debug = (msg) => argv.verbose && console.log(`[Consolidate] [DEBUG] ${msg}`)
@@ -39,7 +38,6 @@ async function main() {
     // 1. Prepare Directories
     if (!argv.dryRun) {
       await fs.ensureDir(DIST_DIR)
-      await fs.ensureDir(BACKUP_DIR)
     }
 
     // 2. Find HTML Files
@@ -162,13 +160,6 @@ async function main() {
 
     for (const file of htmlFiles) {
       const originalHtml = await fs.readFile(file, 'utf8')
-
-      // Backup
-      if (!argv.dryRun) {
-        const backupPath = path.join(BACKUP_DIR, path.relative(SITE_DIR, file))
-        await fs.ensureDir(path.dirname(backupPath))
-        await fs.writeFile(backupPath, originalHtml)
-      }
 
       const $page = cheerio.load(originalHtml)
       let modified = false
