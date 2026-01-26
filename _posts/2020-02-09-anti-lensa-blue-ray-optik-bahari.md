@@ -23,11 +23,11 @@ comments: true
       <h3 class="card-title">
         Optikal Bahari: Solusi Kacamata Anti Radiasi Blue Ray
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Dengan kemajuan teknologi yang semakin berkembang pesat, perlindungan mata dari sinar
         <italic>blue ray</italic> menjadi aspek yang sangat penting. Di Optikal Bahari, kami tidak hanya mengutamakan kecepatan dan akurasi dalam <a href="{{ "/periksa-mata-gratis" | relative_url }}" title="Pemeriksaan mata gratis">pemeriksaan mata</a>, tetapi juga menjamin hasil yang dapat dipercaya. Bersama tim optometris kami yang berpengalaman, tidak hanya Anda mendapatkan hasil pemeriksaan mata yang berkualitas, tetapi juga pengetahuan yang memadai tentang kesehatan penglihatan mata Anda.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kami tidak sekadar hanya menawarkan pemeriksaan mata, namun juga mendengarkan dengan seksama kebutuhan Anda
         dalam memilih
         kacamata anti
@@ -37,7 +37,7 @@ comments: true
         memenuhi
         harapan tersebut.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kami akan memberikan edukasi tentang cara merawat kacamata dengan benar, serta menyarankan berbagai jenis lensa
         yang
         sesuai dengan kebutuhan mata Anda. Dengan layanan pemeriksaan mata yang lengkap dan koleksi kacamata yang
@@ -59,7 +59,7 @@ comments: true
       <h3 class="card-title">
         Manfaat Kacamata Anti Radiasi Anti Blue Ray
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari tidak hanya menyediakan kacamata anti radiasi
         <em>Blue Ray</em>
         sebagai produk biasa, tapi kami juga ingin kamu memahami
@@ -67,7 +67,7 @@ comments: true
         yang bisa Anda
         dapatkan dengan menggunakan kacamata anti radiasi Blue Ray dari Optikal Bahari:
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Perlindungan Optimal dari Paparan Sinar Biru.</strong>
         Kacamata anti radiasi Blue Ray kami diformulasikan secara khusus untuk menghadang paparan sinar biru berbahaya
         dari layar gadget,
@@ -79,7 +79,7 @@ comments: true
         yang tepat dengan kacamata
         anti radiasi Blue Ray kami.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Garansi 1 Tahun untuk Kacamata Kamu</strong>.
         Kami sepenuhnya memahami kekhawatiran Anda terhadap kemungkinan kerusakan kacamata. Namun, di Optikal Bahari,
         kami memberikan solusi
@@ -89,7 +89,7 @@ comments: true
         kebebasan dan kepercayaan diri
         dalam setiap langkah Anda, karena di sini, kualitas dan layanan yang terjamin merupakan prioritas kami.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Cicilan 0%, Tanpa Bunga & Riba</strong>.
         Optikal Bahari mengubah konsep membeli kacamata menjadi lebih terjangkau dan mudah. Melalui program cicilan
         tanpa bunga & riba,
@@ -99,7 +99,7 @@ comments: true
         dan temukan kacamata yang Anda
         idamkan dengan cara yang lebih hemat dan mudah!
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Service & Reparasi Kacamata Gratis</strong>.
         Jangan sia-siakan kacamata yang bermasalah! Di Optikal Bahari, kami menawarkan layanan service & reparasi
         kacamata GRATIS! Dengan layanan ini,
@@ -109,7 +109,7 @@ comments: true
         yang terasa seperti baru kembali.
         Kunjungi Optikal Bahari dan rasakan sendiri kualitas layanan untuk kenyamanan dan gaya Anda!
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Bayar Pakai KJP? Tentu Bisa.</strong>
         Pemilik Kartu Jakarta Pintar (KJP), dengarkan berita baik ini! Sekarang, gunakan KJP Anda untuk membayar
         kacamata di Optikal Bahari.
@@ -121,7 +121,7 @@ comments: true
         untuk penampilan
         yang semakin memukau!
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>.
         Kesehatan mata adalah prioritas utama kami di Optikal Bahari. Kami bangga mengumumkan bahwa kami telah
         memperoleh izin resmi dari Dinas Kesehatan
@@ -144,14 +144,14 @@ comments: true
       alt="anti-blueray-uv-protection" />
     <div class="card-body">
       <h3 class="card-title">Keutamaan Kacamata Anti Blue-ray</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Baik Anda seorang profesional yang sibuk di depan laptop di kantor, terjebak dalam maraton drama Korea hingga
         larut malam, atau tergila-gila dengan game mobile hingga dini hari, kacamata Anti Blue-ray UV Protection adalah
         solusi terbaik untuk Anda. Dirancang khusus untuk memberikan perlindungan menyeluruh, kacamata ini tidak hanya
         melindungi mata Anda dari sinar biru yang merusak, tetapi juga meningkatkan kontras pandangan Anda, memberikan
         pengalaman visual yang lebih tajam dan jelas.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Jika Anda senang membaca sambil tiduran dengan tablet atau perangkat elektronik lainnya, kacamata Anti Blue-ray
         UV Protection adalah pilihan yang tepat untuk Anda. Kacamata ini dapat menyaring hingga 40% sinar UV berbahaya
         yang dipancarkan oleh perangkat layar elektronik yang Anda gunakan sehari-hari. Jadi, Anda tidak perlu khawatir
@@ -159,7 +159,7 @@ comments: true
         sebagai prioritas, dan rasakan kenyamanan serta keamanannya saat menikmati waktu bersantai dengan kacamata Anti
         Blue-ray UV Protection ini.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari,
         staff ramah kami akan siap menjawab semua pertanyaan anda mengenai
         produk lensa

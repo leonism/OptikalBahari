@@ -27,12 +27,12 @@ comments: true
             <h3 class="card-title">
                 Mamfaat Pengemudi Menggunakan Kacamata
             </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Saat memutuskan untuk membeli kacamata jangan karena gengsi atau asal membeli berdasarkan tren. Pasalnya, tidak semua jenis kacamata mengemudi cocok dan aman untuk digunakan saat berkendara. Setiap kacamata tentu memiliki fungsi yang ditujukan
                 untuk masing-masing individu. Seperti, kacamata minus, kacamata baca, kacamata hitam, hingga kacamata yang digunakan khusus untuk mengemudi.            
                 Sebenarnya, apa fungsi dari kacamata untuk pengemudi atau driving glasses dan bagaimana cara memilihnya? simak informasi seputar driving glasses berikut ini.
             </p>            
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Jenis kacamata mengemudi yang aman adalah yang dirancang secara khusus untuk membantu Anda saat mengendarai kendaraan di jalan raya. Fungsi kacamata bagi pengemudi diantaranya adalah sebagai berikut:
             </p>
                 <ul>
@@ -45,13 +45,13 @@ comments: true
                     <li>Bisa tampil lebih gaya saat mengemudi.</li>
                     <li>Tips Memilih Jenis Kacamata untuk Mengemudi</li>
                 </ul>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Walau terlihat sepele, namun pemilihan kacamata yang tepat akan sangat membantu Anda saat berada berkendara di jalan. Ada beberapa tips memilih kacamata mengemudi yang aman bagi Anda, diantaranya adalah:
             </p>
             <h3 class="card-title">
                 UV (Ultra Violet) Protection
             </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Driving glasses berbeda dengan kacamata hitam atau sunglasses pada umumnya. Sebab, tugas utamanya adalah untuk mengurangi intensitas cahaya yang diterima oleh mata agar tidak merasa silau dan mengganggu penglihatan.    
                 Itu sebabnya, pemilihan kacamata jenis ini harus memenuhi spesifikasi khusus. Hal pertama yang harus diperhatikan adalah memilih kacamata mengemudi yang memiliki fitur UV Protection.            
                 Gunanya adalah untuk mengurangi paparan radiasi sinar matahari yang diterima oleh mata. Itu sebabnya, antara kacamata pengemudi yang digunakan siang hari berbeda dengan malam hari.            
@@ -73,14 +73,14 @@ comments: true
             <h3 class="card-title">
                 Polarized Lenses
             </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Tips memilih kacamata mengemudi yang aman berikutnya adalah memilih kacamata yang di bagian lensanya telah terpolarisasi (polarized lenses). Tujuannya adalah agar kacamata tersebut memiliki kemampuan photochromic, yaitu:
             </p>
             <ul>
                 <li>Lensa terlihat lebih bening saat berada di ruangan dengan pencahayaan minim.</li>
                 <li>Lensa terlihat lebih gelap saat berada di luar ruangan atau saat terkena sinar matahari.</li>
             </ul>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Keunggulan kacamata khusus mengemudi yang polarized lenses diantaranya adalah:
             </p>
             <ul>
@@ -104,13 +104,13 @@ comments: true
             <h3 class="card-title">
                 Kacamata untuk Mengemudi Malam Hari (Night Mode)
             </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Tips terakhir ini khusus bagi Anda yang kerap mengemudi di malam hari karena membutuhkan spesifikasi kacamata yang lebih khusus, yaitu        
                 pilihlah desain frame dan nose pad yang tidak terlalu ketat dan nyaman walau digunakan dalam waktu yang lama.
                 Gunakan driving glasses yang memiliki kemampuan anti glare yang mampu mengurangi intensitas pantulan apapun atau pancaran sinar yang berasal dari sorot lampu kendaraan bermotor dari arah yang berlawanan. Memiliki kacamata mengemudi dengan
                 spesifikasi yang telah diuraikan diatas akan menguntungkan bagi Anda. Sebab, bisa membuat mata tidak akan mudah lelah meski kacamata digunakan dalam jangka waktu yang lama saat bepergian jarak jauh.
             </p>
-            <p class="card-text text-left">Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
+            <p class="card-text text-start">Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
                 <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
                 respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
                 title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>

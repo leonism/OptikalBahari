@@ -21,7 +21,7 @@ comments: false
       <h3 class="card-title">
             Cek Mata Gratis di Optikal Bahari
       </h3>
-        <p class="card-text text-left">
+        <p class="card-text text-start">
             Pernahkah Anda merasa penglihatan Anda tidak setajam dulu? Seringkah Anda mengalami pandangan kabur dan kurang jelas saat membaca buku, melihat layar komputer, atau bahkan saat mengemudi? Jika ya, Anda tidak sendirian. Banyak orang mengalami penurunan kualitas penglihatan karena berbagai faktor, seperti terlalu sering di depan monitor, terlalu sering bermain handphone, dan bertambahnya usia. Berikut beberapa faktor penurunan daya penglihatan mata Anda.
         </p>
         <ul>
@@ -41,7 +41,7 @@ comments: false
         <h3 class="card-title">
             Apa yang Dapat Dilakukan?
         </h3>
-        <p class="card-text text-left">
+        <p class="card-text text-start">
             Kabar baiknya adalah Anda tidak perlu khawatir! Optikal Bahari hadir sebagai solusi terbaik untuk kebutuhan penglihatan Anda. Kami menyediakan berbagai jenis lensa dan frame bingkai kacamata dari mulai harga terjangkau hingga menengah ke atas.
         </p>
     </div>
@@ -54,7 +54,7 @@ comments: false
 		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
-      <p class="card-text text-left">Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
+      <p class="card-text text-start">Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
     <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond
     yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
     <em>(Optikal Bahari)</em></p>
@@ -74,10 +74,10 @@ comments: false
                 <h5 class="card-title">
                     {{ post.title }}
                 </h5>
-                <p class="card-text text-left">
+                <p class="card-text text-start">
                     {{ post.description | strip_html | truncatewords: 20 }}.
                 </p>
-                <p class="card-text text-left">
+                <p class="card-text text-start">
                     <a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya</a>
                 </p>
             </div>

@@ -1,8 +1,8 @@
 <div class="carousel slide" data-ride="carousel" id="carouselExampleCaptions">
   <ol class="carousel-indicators">
-    <li class="active" data-slide-to="0" data-target="#carouselExampleCaptions"></li>
-    <li data-slide-to="1" data-target="#carouselExampleCaptions"></li>
-    <li data-slide-to="2" data-target="#carouselExampleCaptions"></li>
+    <li class="active" data-slide-to="0" data-bs-target="#carouselExampleCaptions"></li>
+    <li data-slide-to="1" data-bs-target="#carouselExampleCaptions"></li>
+    <li data-slide-to="2" data-bs-target="#carouselExampleCaptions"></li>
   </ol>
 
   {% for post in site.posts limit : 3 %}
@@ -16,7 +16,7 @@
       />
       <div class="carousel-caption d-none d-md-block">
         <h5>{{ post.title }}</h5>
-        <!-- <p class="card-text text-left">{{ post.description | strip_html | truncatewords: 12 }}</p> -->
+        <!-- <p class="card-text text-start">{{ post.description | strip_html | truncatewords: 12 }}</p> -->
       </div>
     </div>
     {% endfor %} {% if paginator.total_pages > 1 %} {% if paginator.previous_page %}

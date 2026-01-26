@@ -27,7 +27,7 @@ comments: true
       <h3 class="card-title">
         Kacamata untuk Hijabers: Solusi Fashionable dan Fungsional
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kacamata untuk hijabers bukan hanya sekadar alat koreksi penglihatan,
         melainkan juga bagian penting dari gaya dan identitas fashion mereka.
         Saat memilih kacamata, wanita yang menggunakan hijab perlu memperhatikan
@@ -37,7 +37,7 @@ comments: true
         yang sesuai dengan gaya dan kebutuhanmu. Mari kita jelajahi beberapa
         tips untuk memilih kacamata hijabers yang tepat.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Pertama-tama, ketika mencari kacamata untuk hijabers, penting untuk
         memperhatikan bentuk wajahmu. Setiap bentuk wajah memiliki kacamata yang
         cocok, dan ini juga berlaku untuk wanita yang menggunakan hijab. Jika
@@ -69,7 +69,7 @@ comments: true
       <h3 class="card-title">
         Trendy dan Timeless: Kacamata Hijab yang Cocok untuk Segala Acara
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kacamata hijab tidak hanya berfungsi sebagai alat koreksi penglihatan,
         tetapi juga sebagai aksesori fashion yang dapat menambahkan sentuhan
         gaya pada penampilanmu. Saat ini, ada berbagai tren kacamata hijab yang
@@ -81,7 +81,7 @@ comments: true
         memberikan kesan classic sekaligus timeless, sehingga cocok untuk
         berbagai kesempatan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Tak hanya itu, Optikal Bahari juga menyediakan garansi 1 tahun untuk
         setiap pembelian kacamata. Dengan begitu, kamu bisa menggunakan kacamata
         hijabmu dengan nyaman dan tenang, tanpa khawatir akan kerusakan atau
@@ -106,7 +106,7 @@ comments: true
       <h3 class="card-title">
         Kacamata Hijabers: Tips Berbelanja yang Bijak dan Menguntungkan
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Saat berbelanja kacamata hijab, penting untuk mempertimbangkan juga
         faktor keuangan. Optikal Bahari menawarkan program cicilan tanpa bunga
         dan riba, sehingga kamu bisa mendapatkan kacamata impianmu tanpa
@@ -115,7 +115,7 @@ comments: true
         mengalami masalah, kamu bisa langsung membawanya ke Optikal Bahari untuk
         diperbaiki tanpa harus keluar uang tambahan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Jangan lupa, Optikal Bahari telah melayani pelanggan selama lebih dari
         40 tahun dengan kepuasan konsumen yang tinggi. Ini merupakan jaminan
         dari pelayanan kami selama ini, sehingga kamu bisa berbelanja dengan
@@ -139,7 +139,7 @@ comments: true
       <h3 class="card-title">
         Temukan Kacamata Hijab yang Cocok di Optikal Bahari
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Sudah siap untuk menemukan kacamata hijabers yang tepat? Kunjungi
         Optikal Bahari sekarang juga dan temukan koleksi kacamata hijab yang
         trendy dan fungsional. Dapatkan pelayanan terbaik dan solusi terbaik
@@ -151,7 +151,7 @@ comments: true
         kebutuhan penglihatanmu. Jadi, tunggu apalagi? Segera kunjungi Optikal
         Bahari dan temukan kacamata hijabers impianmu hari ini.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari juga menyediakan berbagai pilihan kacamata dengan
         berbagai merk ternama yang sesuai dengan kebutuhan anda. Kami juga
         memiliki tim optometris yang terlatih dan berpengalaman yang siap

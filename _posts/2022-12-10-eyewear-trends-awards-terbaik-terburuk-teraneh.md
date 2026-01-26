@@ -26,18 +26,18 @@ comments: true
         <h3 class="card-title">
             Trend Kacamata 20 Tahun Silam
         </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Dunia kacamata terus berkembang, dengan gaya dan desain baru muncul setiap tahun. Mulai dari bingkai yang berani dan
                 penuh warna hingga desain ramping dan minimalis, ada banyak pilihan untuk dipilih. Pada artikel ini, kita melihat
                 beberapa tren kacamata terbaik, terburuk, dan teraneh yang pernah kita lihat belakangan ini.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Kacamata adalah aksesori penting yang tidak hanya mempercantik penampilan Anda, tetapi juga melindungi mata Anda dari
                 sinar UV yang berbahaya dan faktor lingkungan lainnya. Dalam beberapa tahun terakhir, industri kacamata telah mengalami
                 perubahan signifikan, dengan gaya dan desain baru terus bermunculan. Berikut beberapa perubahan kecil yang dapat membuat
                 perbedaan besar pada Trend kacamata Anda di tahun mendatang.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Pertama, mari kita bicara tentang tren terbaik. Salah satu tren yang menonjol dalam beberapa tahun terakhir adalah
                 munculnya frame berukuran besar. Bingkai ini tidak hanya membuat pernyataan fashion yang berani tetapi juga memberikan
                 perlindungan maksimal untuk mata Anda. Tren lain yang mendapatkan popularitas adalah penggunaan bingkai yang hidup dan
@@ -59,14 +59,14 @@ comments: true
         <h3 class="card-title">
             Trend Teraneh Sepanjang Masa
         </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Di sisi lain, ada juga beberapa tren kacamata yang meleset dari sasaran. Salah satu tren terburuk yang pernah kami lihat
                 adalah penggunaan bahan murah berkualitas buruk untuk bingkai kacamata. Bingkai ini tidak hanya terlihat murahan tetapi
                 juga cenderung mudah patah sehingga menimbulkan ketidaknyamanan dan ketidaknyamanan bagi pemakainya. Tren lain yang
                 mendapat banyak kritik adalah penggunaan logo dan branding yang berlebihan pada bingkai kacamata. Banyak orang merasa
                 bahwa logo-logo ini norak dan mengganggu, menghilangkan estetika bingkai secara keseluruhan.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Beralih ke tren paling aneh, salah satu tren kacamata paling aneh yang pernah kami lihat adalah penggunaan bentuk dan
                 bahan bingkai yang tidak biasa. Dari bingkai yang terbuat dari kabel logam hingga yang berbentuk seperti rantai binatang, ada
                 beberapa desain yang sangat aneh di luar sana. Meskipun desain ini mungkin menarik bagi sebagian orang, desain ini bukan
@@ -89,19 +89,19 @@ comments: true
         <h3 class="card-title">
             Trend Kacamata Terburuk 20 Tahun Terakhir
         </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Pertama, yang terbaik. Salah satu tren kacamata yang menonjol tahun ini adalah kebangkitan bingkai klasik. Potongan
                 abadi ini tidak pernah ketinggalan zaman dan dapat menambahkan sentuhan kecanggihan pada pakaian apa pun. Tren lain yang
                 menarik perhatian kami adalah penggunaan warna-warna berani dan cerah dalam bingkai. Mulai dari warna biru elektrik
                 hingga merah muda cerah, bingkai ini menambah keceriaan pada tampilan apa pun.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Di sisi lain, beberapa tren kacamata membuat kita menggaruk-garuk kepala. Salah satu tren terburuk yang pernah kami
                 lihat adalah penggunaan bingkai yang terlalu besar sehingga mengecilkan wajah pemakainya. Bingkai ini bisa membuat
                 pemakainya terlihat tidak proporsional dan bisa sangat tidak menarik. Tren lain yang tidak terlalu kami sukai adalah
                 penggunaan bingkai yang terlalu dihias. Terlalu banyak bling bisa membuat bingkai terlihat murahan dan norak.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Akhirnya, beberapa tren kacamata benar-benar aneh. Salah satu tren tersebut adalah penggunaan material yang tidak biasa
                 pada bingkai, seperti plastik atau bahkan kayu. Meskipun bingkai ini mungkin unik, bingkai ini juga tidak nyaman dipakai
                 dan mungkin tidak cocok untuk penggunaan sehari-hari. Tren aneh lainnya adalah penggunaan bingkai yang tidak serasi, di
@@ -123,14 +123,14 @@ comments: true
         <h3 class="card-title">
             Tren Yang Menarik dan Inovatif
         </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Dunia kacamata penuh dengan tren yang menarik dan inovatif, serta beberapa yang meleset dari sasaran.
                 Penting untuk menemukan keseimbangan yang tepat dan memilih kacamata yang tidak hanya mempercantik penampilan Anda,
                 tetapi juga memberikan perlindungan dan kenyamanan yang diperlukan untuk mata Anda. Sementara beberapa dari tren ini
                 bergaya dan modern, yang lain benar-benar aneh. Jadi, apakah Anda sedang mencari bingkai klasik atau sesuatu yang lebih
                 avant-garde, selalu ada sesuatu untuk semua orang di dunia kacamata.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Ada banyak perubahan kecil yang dapat Anda lakukan pada permainan kacamata Anda yang dapat berdampak
                 besar pada penampilan dan pengalaman Anda secara keseluruhan. Dari mencoba berbagai warna dan bentuk hingga berinvestasi
                 pada lensa berkualitas tinggi, kemungkinannya tidak terbatas. Jadi, lanjutkan dan bereksperimen untuk menemukan kacamata
@@ -140,7 +140,7 @@ comments: true
                 berbagai gaya dan warna, dan jangan takut untuk menambahkan sentuhan pribadi pada bingkai Anda agar benar-benar
                 menjadikannya milik Anda.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> agar kamu bisa mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>
             </p>
         </div>

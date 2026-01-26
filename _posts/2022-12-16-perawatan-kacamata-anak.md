@@ -24,14 +24,14 @@ comments: true
       <h3 class="card-title">
         Perawatan Kacamata Anak
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Perawatan kacamata untuk anak-anak merupakan hal yang sangat penting untuk diperhatikan, terutama jika anak Anda
         memiliki masalah pada mata seperti rabun jauh atau dekat. Kacamata dapat membantu anak Anda untuk melihat dengan
         lebih jelas dan membuat aktivitas sehari-hari menjadi lebih nyaman. Namun, kacamata juga merupakan barang yang
         dapat rusak jika tidak dijaga dengan baik. Oleh karena itu, penting bagi Anda untuk mengetahui cara merawat dan
         menjaga kacamata anak agar tetap berkualitas.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Perawatan kacamata bukanlah sekadar keharusan, tetapi suatu investasi dalam kesehatan visual anak Anda. Dengan
         perawatan yang tepat, kacamata tidak hanya akan membantu anak melihat dengan jelas, tetapi juga meningkatkan
         kepercayaan diri mereka dalam menjalani aktivitas sehari-hari. Kacamata yang terawat dengan baik bukan hanya
@@ -51,7 +51,7 @@ comments: true
       <h3 class="card-title">
         Kelebihan Optikal Bahari
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Periksa Mata GRATIS</strong>.
         Optikal Bahari memahami pentingnya penglihatan yang jelas bagi kehidupan Anda. Oleh karena itu, kami menawarkan
         <a href="{{ "/periksa-mata-gratis/" | relative_url }}" title="Periksa Mata Gratis">periksa mata gratis</a>
@@ -63,7 +63,7 @@ comments: true
         <strong>phoroptor</strong>
         untuk membantu optometrist kami mendiagnosis kondisi mata dengan lebih tepat.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Service & Reparasi Kacamata GRATIS</strong>.
         Jangan buang dulu kacamata rusak Anda. Di Optikal Bahari, kami menawarkan layanan service & reparasi kacamata
         GRATIS! Dengan layanan ini, kacamata kesayangan Anda akan selalu terjaga dalam kondisi prima dan tetap stylish.
@@ -72,7 +72,7 @@ comments: true
         yang terasa seperti baru kembali. Kunjungi Optikal Bahari dan rasakan sendiri kualitas layanan untuk kenyamanan
         dan gaya Anda!
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Garansi 1 Tahun untuk Kacamata Kamu</strong>.
         Kami sepenuhnya memahami kekhawatiran Anda terhadap kemungkinan kerusakan kacamata. Namun, di Optikal Bahari,
         kami memberikan solusi yang menguntungkan. Setiap pembelian kacamata dijamin dengan garansi selama 1 tahun
@@ -80,7 +80,7 @@ comments: true
         khawatir tentang kerusakan atau masalah lainnya. Rasakan kebebasan dan kepercayaan diri dalam setiap langkah
         Anda, karena di Optikal Bahari, kualitas dan layanan yang terjamin merupakan prioritas kami.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Cicilan 0%, Tanpa Bunga & Riba</strong>.
         Optikal Bahari mengubah konsep membeli kacamata menjadi lebih terjangkau dan mudah. Melalui program
         <a href="{{ "/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan 0%, tanpa bunga & riba">kacamata
@@ -89,7 +89,7 @@ comments: true
         Jadi, jangan ragu lagi untuk merencanakan kunjungan ke Optikal Bahari dan temukan kacamata yang Anda idamkan
         dengan cara yang lebih hemat dan mudah!
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Bayar Pakai KJP? Tentu Bisa.</strong>
         Pemilik Kartu Jakarta Pintar (KJP), dengarkan berita baik ini! Sekarang, gunakan
         <a href="{{"/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}"
@@ -99,7 +99,7 @@ comments: true
         Anda tanpa hambatan finansial. Jangan sia-siakan kesempatan ini, segera manfaatkan KJP dan dapatkan kacamata
         impian di Optikal Bahari untuk penampilan yang semakin memukau.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>.
         Penglihatan mata adalah prioritas utama kami di Optikal Bahari. Kami telah memperoleh izin resmi dari Dinas
         Kesehatan & Kementerian Kesehatan Republik Indonesia, hal ini bentuk komitmen kami terhadap standar penglihatan
@@ -123,7 +123,7 @@ comments: true
       <h3 class="card-title">
         Pemilihan Material Kacamata
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Pertama, pastikan untuk memilih kacamata yang tepat untuk anak Anda. Pilihlah kacamata yang terbuat dari bahan
         yang
         flexible dan nyaman dipakai, seperti plastik atau titanium. Jangan memilih kacamata yang terbuat dari bahan yang
@@ -135,7 +135,7 @@ comments: true
       <h3 class="card-title">
         Perawatan Kacamata Anak
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Ajarkan anak Anda cara merawat kacamata dengan benar. Anak-anak seringkali tidak memperhatikan perawatan
         kacamata
         dengan baik, sehingga kacamata mudah rusak atau tersimpan dengan tidak tepat. Oleh karena itu, ajarkan anak Anda
@@ -161,7 +161,7 @@ comments: true
       <h3 class="card-title">
         Jaga Kebersihan Kacamata Anak
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kacamata adalah sahabat terbaik bagi anak Anda yang memiliki masalah penglihatan. Pastikan kacamata mereka
         selalu bersih dan terawat agar penglihatan mereka tetap optimal. Bersihkan lensa kacamata anak Anda setiap hari,
         terutama sebelum dan sesudah mereka tidur. Gunakan kain microfiber yang lembut dan cairan pembersih kacamata
@@ -188,13 +188,13 @@ comments: true
       <h3 class="card-title">
         Rutin Melakukan Kunjungan Ke Optik
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Lakukan perawatan rutin pada kacamata anak-anak. Seperti halnya dengan orang dewasa, lensa kacamata anak-anak
         juga harus diganti secara berkala sesuai dengan saran dokter atau optikus. Selain itu, pastikan juga untuk
         mengecek kondisi kacamata secara berkala, terutama frame dan tempat lensa. Jika terdapat kerusakan atau pecah,
         segera perbaiki atau ganti kacamata tersebut agar anak-anak tetap merasa nyaman menggunakannya.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kelompok umur anak-anak merupakan kelompok yang paling rentan terhadap masalah perawatan kacamata. Namun, karena
         anak-anak masih tergolong rentan dan mudah rusak, maka perawatan kacamata untuk anak-anak harus dilakukan dengan
         lebih hati-hati. Kamu perlu service kacamata dengan gratis, dapatkan hanya di Optikal Bahari Kemayoran, Jakpus,

@@ -25,10 +25,10 @@ comments: true
       <h3 class="card-title">
         Cara Kerja Kacamata K Ion Nano untuk Mengobati Permasalahan Mata
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Inovasi kacamata k ion saat ini dipercaya mampu membantu penglihatan mata dan dapat membuat mata lebih sehat melalui jalan terapi. Penyakit umum pada mata, yakni plus dan minus, konon dapat diobati menggunakan kacamata ini. Tidak hanya itu, banyak juga penyakit lain yang bisa diatasi. Berbagai penyakit seperti katarak, glaukoma, mata kering, dan silinder juga bisa diobati dengan kacamata ini. Inovasi tentang kacamata ini dipercayai sebuah lensa yang mampu menangkap gelombang ion sehingga jika digunakan selama 8 jam sehari mampu memperbaiki permasalahan pada mata.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kehadiran kacamata model k-ion memang menjadi angin segar bagi para penderita kelainan mata. Namun, solusi tersebut jangan ditelan mentah-mentah tanpa berkonsultasi dengan dokter. Menelusuri bahwa penyebab kerusakan mata setiap orang berbeda maka penanganannya juga membutuhkan cara tidak sama. Karena kacamata ini sangat baik untuk mengobati gangguan pada mata maka konsultasi adalah hal yang wajib dilakukan. Jangan asal termakan iklan dan asal membeli kacamata dengan iming-iming kesembuhan. Salah-salah malah mata menjadi semakin rusak karena kacamata digunakan tanpa anjuran dokter.
       </p>
     </div>
@@ -47,10 +47,10 @@ comments: true
       <h3 class="card-title">
         Mamfaat Penggunaan Kacamata K Ion Nano
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Adanya kacamata jenis k-ion nano dipercaya mampu menjadi solusi untuk penderita rabun dekat, rabun jauh, astigmatisma, floaters, hipermetropi, dan sebagainya. Untuk Kamu yang bermasalah dengan mata kering bisa mencoba kacamata ini atas anjuran dokter agar penglihatan menjadi lebih segar. Energi ion bukan hanya membantu memperbaiki permasalahan pada mata, namun mendukung sistem imunitas tubuh agar lebih baik. Bukan tidak mungkin menggunakan kacamata ini di tengah pandemi virus membantu Kamu terhindar dari paparan virus yang mematikan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Bukan hanya orang yang bermasalah dengan mata yang bisa menggunakan kacamata ini. Pasalnya, kacamata k ion nano juga bermanfaat untuk menangkal berbagai macam penyakit. Kabar baiknya adalah kacamata ini bermanfaat baik untuk melancarkan peredaran darah, terutama di area mata. Kacamata satu ini bisa didapatkan dengan warna lensa beragam, sesuai keinginan dan bentuk lensa yang sesuai selera. Kamu bisa menggunakan kacamata dengan lensa kecil atau jika suka kacamata dengan lensa besar maka Kamu bisa memilihnya untuk dikenakan demi kesehatan mata.
       </p>
     </div>
@@ -69,7 +69,7 @@ comments: true
       <h3 class="card-title">
         Keunggulan dalam Penggunaan Kacamata K Ion Nano
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Tidak heran jika penggunaan kacamata model k-ion dipercaya mampu memperbaiki kesehatan mata. Di samping fungsinya untuk membuat penampilan lebih stylish, keunggulan kacamata ion juga sangat baik dalam berberapa hal di bawah ini:
       </p>
       <ul>
@@ -83,7 +83,7 @@ comments: true
           Permasalahan utama ketika orang menggunakan kacamata adalah suatu uap serta kabut menutupi lensa. Ketika menggunakan kacamata ini, gangguan tersebut tidak akan mengganggu lama sebab uap akan cepat mengudara.
         </li>
       </ul>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Peduli mata berarti peduli kesehatan tubuh secara keseluruhan. Bukan hanya fungsinya yang memperbaiki kesehatan dari dalam, namun juga memperbaiki tampilan dari luar. Oleh karena itu, Kamu perlu membeli kacamata terbaik dari toko optik terpercaya.
         Kamu bisa mendapatkan beragam model kacamata di OPTIKAL BAHARI. Pilih yang Kamu suka dengan mengunjungi web kami atau follow fanpage Facebook kami
         <a

@@ -27,14 +27,14 @@ permalink: /keuntungan-kacamata-gaya-penampilan/
       <h3 class="card-title">
         Kacamata Gaya, Trendy dan Stylish
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Bagi orang yang tidak bermasalah dengan penglihatan bisa menggunakan kacamata gaya jika terlalu ingin menggunakan                            
 			kacamata. Kamu tidak perlu mengalami mata rabun atau gangguan lainnya lebih dulu untuk bisa tampil stylish dengan
 			menggunakan kacamata terutama di saat siang hari. Jangan salah, bentuk kacamata saat ini tidak hanya terpaku pada 
 			kotak saja atau bulat saja. Kamu juga bisa menjajal kacamata berbentuk hati dengan pemilihan warna selain bening dan hitam. 
 			Ingin tampil keren dengan dua warna lensa kacamata yang berbeda? tentu hal ini juga bisa dilakukan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Jika Kamu termasuk orang yang memiliki kepercayaan diri tinggi, memilih kacamata yang disesuaikan dengan warna rambut                            
 			juga bisa menjadi keputusan tepat. Bukan hanya nampak gaya karena fashion kacamata yang kekinian, namun juga keserasian
 			penampilan Kamu akan menjadi pusat perhatian.
@@ -57,14 +57,14 @@ permalink: /keuntungan-kacamata-gaya-penampilan/
       <h3 class="card-title">
         Berbagai Model Kacamata Gaya yang Populer
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Pengaplikasian kacamata ini untuk menunjang penampilan Kamu bisa dengan pemilihan beberapa style kacamata. Colonel                            
 		Sanders memopulerkan kacamata clubmaster dengan desain bingkai tebal pada bagian atas kacamata. Sementara pada bagian
 		lainnya dibiarkan tanpa bingkai sama sekali. Style kacamata stylish lainnya berbentuk wrap around, di mana bentuk kacamata 
 		ini lebih besar dari ukuran kacamata pada umumnya. Tatkala Kamu ingin tampil gaya dengan perlindungan dari sinar matahari 
 		yang maksimal, penggunaan kacamata wrap around ini sangat menunjang kebutuhan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Ingin tampil seperti pilot dengan gagah berani? Mungkin Kamu cocok menggunakan kacamata gaya aviator dengan bentuk                            
 		lensa besar. Sekarang ini fashion tidak terbatas pada siapa penggunanya dan berada dalam kelas apa. Kamu bisa tampil
 		gagah dengan kacamata pilot tanpa harus menjadi seorang pilot. Kacamata berbentuk bulat juga bisa menjadi salah satu 
@@ -86,20 +86,20 @@ permalink: /keuntungan-kacamata-gaya-penampilan/
       <h3 class="card-title">
         Mengenal Keuntungan Memakai Kacamata Gaya dan Fungsinya
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Keuntungan menggunakan kacamata untuk gaya bukan hanya menunjang penampilan, namun juga bermanfaat untuk meningkatkan                            
 		rasa percaya diri. Jika Kamu tidak begitu percaya diri tampil di hadapan publik, kacamata bisa menjadi tameng untuk
 		membuat kepercayaan diri semakin baik. Menggunakan kacamata bermodel unik membantu Kamu melindungi mata dari paparan 
 		sinar matahari saat siang hari dan paparan sinar lampu saat malam hari. Kacamata gaya bukan hanya menunjang penampilan 
 		semakin oke, namun juga melindungi mata dari berbagai risiko kerusakan sedang dan parah.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Ketika harus menghadiri acara sepagi mungkin, namun pekerjaan Kamu sebelumnya mengharuskan Kamu tidur larut. Hal ini membuat          
 		kantung mata nampak jelas dan penampilan Kamu terganggu. Daripada menutupinya dengan make up hingga mata terasa
 		berat, Kamu bisa memanfaatkan kacamata. Bukan hanya lebih ringan, namun pemilihan kacamata yang tepat juga membantu mata 
 		Kamu untuk beristirahat lebih lama. Paparan debu dan polusi lainnya akan terhalau oleh lensa kacamata.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kacamata seperti apa yang Kamu cari untuk mendukung penampilan tetap oke? Kunjungi di website kami, OPTIKAL BAHARI dan                            
 			follow fanpage kami
         <a

@@ -22,7 +22,7 @@ comments: true
       alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
     <div class="card-body">
       <h3 class="card-title">Panduan Memilih Kacamata untuk Wajah Bulat</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Wajah bulat memiliki ciri khas yang unik, seperti pipi yang lebar dan
         sudut yang lembut. Saat memilih kacamata untuk wajah bulat, penting
         untuk memperhatikan keunikan ini agar tampilan keseluruhan menjadi lebih
@@ -31,7 +31,7 @@ comments: true
         yang tajam, seperti cat-eye atau rectangular, dapat membantu memberikan
         dimensi pada wajah bulatmu.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Di Optikal Bahari, kami memahami pentingnya memilih kacamata yang sesuai
         dengan karakteristik wajah bulat. Dengan koleksi kacamata terlengkap,
         kami hadir untuk membantu Anda menemukan kacamata yang tidak hanya cocok
@@ -39,7 +39,7 @@ comments: true
         berpengalaman kami siap memberikan saran terbaik untuk memilih frame
         yang paling sesuai dengan wajah bulat Anda.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Ketika Anda mengunjungi Optikal Bahari, Anda akan merasakan perbedaan
         dalam pengalaman pilih kacamata. Dengan pemeriksaan mata gratis dan
         konsultasi ahli, kami akan membantu Anda memahami karakteristik wajah
@@ -63,7 +63,7 @@ comments: true
       <h3 class="card-title">
         Kelebihan Kacamata Untuk Wajah Bulat Di Optikal Bahari
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Garansi 1 Tahun untuk Kacamata Kamu</strong>
         . Kami sepenuhnya memahami kekhawatiran Anda terhadap kemungkinan
         kerusakan kacamata. Namun, di Optikal Bahari, kami memberikan solusi
@@ -74,7 +74,7 @@ comments: true
         dalam setiap langkah Anda, karena di sini, kualitas dan layanan yang
         terjamin merupakan prioritas kami.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Cicilan 0%, Tanpa Bunga & Riba</strong>
         . Optikal Bahari mengubah konsep membeli kacamata menjadi lebih
         terjangkau dan mudah. Melalui program cicilan tanpa bunga & riba, Anda
@@ -84,7 +84,7 @@ comments: true
         merencanakan kunjungan ke Optikal Bahari dan temukan kacamata yang Anda
         idamkan dengan cara yang lebih hemat dan mudah!
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Service & Reparasi Kacamata Gratis</strong>
         . Jangan sia-siakan kacamata yang bermasalah! Di Optikal Bahari, kami
         menawarkan layanan service & reparasi kacamata GRATIS! Dengan layanan
@@ -95,7 +95,7 @@ comments: true
         kembali. Kunjungi Optikal Bahari dan rasakan sendiri kualitas layanan
         untuk kenyamanan dan gaya Anda!
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Bayar Pakai KJP? Tentu Bisa.</strong>
         Pemilik Kartu Jakarta Pintar (KJP), dengarkan berita baik ini! Sekarang,
         gunakan KJP Anda untuk membayar kacamata di Optikal Bahari. Bayangkan,
@@ -106,7 +106,7 @@ comments: true
         manfaatkan KJP Anda dan dapatkan kacamata impian Anda di Optikal Bahari
         untuk penampilan yang semakin memukau!
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>
         . Kesehatan mata adalah prioritas utama kami di Optikal Bahari. Kami
         bangga mengumumkan bahwa kami telah memperoleh izin resmi dari Dinas
@@ -119,7 +119,7 @@ comments: true
         Bahari dan nikmati pengalaman pemeriksaan mata yang eksklusif dan
         memuaskan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Perlindungan Optimal dari Paparan Radiasi.</strong>
         Lensa Photochromic Ray kami diformulasikan secara khusus untuk
         menghadang paparan sinar UV berbahaya dari pancaran sinar matahari,
@@ -131,7 +131,7 @@ comments: true
         Anda, pilih perlindungan yang tepat dengan kacamata anti radiasi Blue
         Ray kami.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Berbagai Koleksi Frame & Kacamata Optikal Bahari</strong>
         adalah pilihan yang sempurna untuk menambahkan sentuhan gaya dan
         fungsionalitas pada penampilan Anda. Dengan koleksi lensa photochromic
@@ -153,7 +153,7 @@ comments: true
       <h3 class="card-title">
         Menyesuaikan Bentuk dan Frame Kacamata: Tips Memilih Kacamata yang Tepat
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Pemilihan frame kacamata yang tepat sangat penting untuk menyesuaikan
         dengan bentuk wajah bulat. Frame dengan sudut yang tajam, seperti
         cat-eye atau rectangular, dapat membantu menciptakan kontras yang
@@ -161,7 +161,7 @@ comments: true
         memperhatikan ukuran frame agar sesuai dengan proporsi wajahmu dan
         memberikan keseimbangan yang sempurna.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari menawarkan beragam pilihan frame kacamata yang dirancang
         khusus untuk berbagai bentuk wajah, termasuk wajah bulat. Dengan bantuan
         optician berpengalaman kami, Anda dapat memilih frame yang sesuai dengan
@@ -170,7 +170,7 @@ comments: true
         berkomitmen untuk menyediakan koleksi kacamata terlengkap yang memenuhi
         kebutuhan Anda.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kami memahami bahwa proses memilih kacamata bisa menjadi melelahkan dan
         membingungkan. Namun, di Optikal Bahari, kami akan memudahkan proses ini
         dengan memberikan layanan konsultasi ahli yang ramah dan profesional.
@@ -192,14 +192,14 @@ comments: true
       <h3 class="card-title">
         Memperhatikan Proporsi dan Ukuran Frame: Kunci Sukses Memilih Kacamata
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Selain bentuk dan frame, proporsi dan ukuran frame juga memainkan peran
         penting dalam memilih kacamata yang tepat untuk wajah bulatmu. Hindari
         frame yang terlalu besar atau terlalu kecil, karena dapat mengganggu
         proporsi wajah bulatmu. Pilihlah frame yang pas dengan ukuran wajahmu
         agar memberikan kesan yang seimbang dan estetis.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari memiliki koleksi kacamata dengan berbagai ukuran dan
         proporsi yang sesuai dengan berbagai bentuk wajah. Dengan layanan
         pemeriksaan mata gratis dan konsultasi ahli, kami akan membantu Anda
@@ -208,7 +208,7 @@ comments: true
         berbeda-beda, itulah mengapa kami berkomitmen untuk menyediakan pilihan
         kacamata yang sesuai untuk setiap tipe wajah.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kami mengutamakan kenyamanan dan kepuasan pelanggan dalam setiap
         pembelian kacamata di Optikal Bahari. Dengan garansi 1 tahun untuk
         setiap kacamata yang Anda beli, Anda dapat memilih kacamata dengan
@@ -227,7 +227,7 @@ comments: true
       alt="Keuntungan Menggunakan Lensa Photochromic" />
     <div class="card-body">
       <h3 class="card-title">Temukan Kacamata Idealmu di Optikal Bahari!</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Ketika Anda mencari kacamata yang cocok untuk wajah bulat Anda, Optikal
         Bahari adalah tempat yang tepat untuk mengunjungi. Dengan koleksi
         kacamata terlengkap dan layanan pemeriksaan mata gratis, kami akan
@@ -235,7 +235,7 @@ comments: true
         karakteristik wajah Anda, tetapi juga mencerminkan gaya dan kepribadian
         Anda dengan sempurna.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kami memahami betapa pentingnya kenyamanan dan kepercayaan diri dalam
         menggunakan kacamata sehari-hari. Oleh karena itu, kami menyediakan
         garansi 1 tahun untuk setiap kacamata yang Anda beli, sehingga Anda
@@ -244,7 +244,7 @@ comments: true
         kacamata gratis, sehingga kacamata kesayangan Anda akan tetap awet dan
         terawat.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Jangan biarkan kesulitan memilih kacamata menghalangi penampilan Anda
         yang stylish. Kunjungi Optikal Bahari sekarang juga dan temukan kacamata
         ideal untuk wajah bulat Anda. Dengan layanan cicilan tanpa bunga,
@@ -263,7 +263,7 @@ comments: true
       alt="Kunjungi Optikal Bahari">
     <div class="card-body">
       <h3 class="card-title">Kunjungi Optikal Bahari</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Sudah menjadi komitmen kami untuk selalu memberikan pelayanan terbaik
         kepada konsumen kami. Silahkan kunjungi ke Optikal Bahari dan
         konsultasikan keluhan yang dirasakan yang berhubungan terhadap daya
@@ -273,7 +273,7 @@ comments: true
         terpercaya dan akurat dengan menggunakan alat-alat modern dengan
         teknologi terbaru.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari juga menyediakan berbagai pilihan kacamata dengan
         berbagai merk ternama yang sesuai dengan kebutuhan anda. Kami juga
         memiliki tim optometris yang terlatih dan berpengalaman yang siap

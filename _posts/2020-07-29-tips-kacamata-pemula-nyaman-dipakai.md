@@ -22,7 +22,7 @@ comments: true
     <h3 class="card-title">
       Tips Memilih Kacamata bagi Pemula dengan Menyesuaikan Bentuk Wajah dan Warna Kulit
     </h3>
-    <p class="card-text text-left">
+    <p class="card-text text-start">
       Kamu perlu tips memilih kacamata bagi pemula supaya tetap tampil menarik, jika kamu memiliki masalah pada
       penglihatan dan membutuhkan sebuah kacamata. Karena kacamata merupakan salah satu alat yang berguna untuk membantu
       penglihatan seseorang. Masalah seperti mata minus atau sejenisnya bisa diatasi dengan mudah ketika Kamu memakai
@@ -30,7 +30,7 @@ comments: true
       fashion. Ada beberapa model frame kacamata seperti bulat, lonjong, atau persegi yang sering kali dijumpai. Karena
       itu juga memilih sebuah kacamata juga perlu memperhatikan model frame selain ukuran lensanya.
     </p>
-    <p class="card-text text-left">
+    <p class="card-text text-start">
       Lalu bagaimana caranya supaya mendapatkan kacamata yang nyaman ketika dipakai? Tentu ada baiknya jika Kamu
       mengenali terlebih dahulu gangguan apa yang terjadi pada mata. Selain itu, Kamu juga perlu memperhatikan beberapa
       detail lain, seperti bentuk wajah, bentuk frame, serta kecocokan ketika Kamu pakai. Manusia memiliki banyak sekali
@@ -38,7 +38,7 @@ comments: true
       kacamata tertentu. Misalnya untuk bentuk wajah akan lebih cocok menggunakan frame kacamata yang kaku dan menyiku
       supaya seimbang dengan bentuk wajah.
     </p>
-    <p class="card-text text-left">
+    <p class="card-text text-start">
       Contoh lain adalah untuk bentuk wajah persegi akan lebih cocok dengan frame kacamata bulat atau yang melengkung.
       Biasanya kacamata ini memiliki kecenderungan untuk membuat wajah lebih proporsional. Wajah tidak akan menampilkan
       sisi dominan persegi jika Kamu memakai model frame seperti ini. Siapa sangka jika melihat warna kulit menjadi
@@ -58,7 +58,7 @@ comments: true
     <h3 class="card-title">
       Tips Memilih Kacamata bagi Pemula Berdasarkan Warna Rambut dan Mata
     </h3>
-    <p class="card-text text-left">
+    <p class="card-text text-start">
       Rambut nyatanya juga berperan penting jika Kamu ingin memakai kacamata yang nyaman dipakai beraktivitas. Memang
       ada banyak sekali warna rambut seperti hitam, pirang, cokelat dan masih banyak lagi. Karena setiap warna rambut
       biasanya mewakili karakter setiap orang dan sangat penting menyesuaikan dengan kacamata. Misalnya saja warna
@@ -66,7 +66,7 @@ comments: true
       cerah. Tujuanya adalah untuk menegaskan kacamata yang Kamu pakai supaya tidak terlalu tertutupi oleh rambut,
       apalagi jika Kamu memiliki rambut panjang.
     </p>
-    <p class="card-text text-left">
+    <p class="card-text text-start">
       Tips memilih kacamata bagi pemula selanjutnya adalah menyesuaikan dengan warna mata. Tentu kebanyakan orang
       memiliki warna mata hitam atau cokelat, namun nyatanya ada warna mata unik lain di dunia seperti biru atau hijau.
       Memadukan keduanya akan memperlihatkan karakter kacamata lebih halus. Sebagai contoh, jika Kamu memiliki warna
@@ -83,12 +83,12 @@ comments: true
     <h3 class="card-title">
       Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat
     </h3>
-    <p class="card-text text-left">
+    <p class="card-text text-start">
       Tips memilih kacamata berdasarkan dengan rambut cokelat pada dasarnya sangat mudah. Rambut cokelat hampir sama
       dengan rambut hitam sehingga warna kacamata apa saja bisa sesuai. Yang lebih menarik adalah kacamata warna cerah
       biasanya adalah perpaduan yang sangat pas dengan rambut cokelat.
     </p>
-    <p class="card-text text-left">
+    <p class="card-text text-start">
       Namun, untuk kacamata dengan frame tebal dan memiliki warna gelap juga masih bisa dipadukan. Kamu bisa berkreasi
       lebih banyak dengan kacamata yang Kamu miliki saat ini. Tidak ada batasan untuk warna rambut cokelat. Dengan
       begini tentu Kamu bisa dengan mudah memilih kacamata yang sesuai.

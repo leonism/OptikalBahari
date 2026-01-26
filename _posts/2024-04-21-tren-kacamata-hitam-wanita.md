@@ -27,7 +27,7 @@ comments: true
             <h3 class="card-title">
                 Trendsetter Kacamata Hitam Wanita: Kenali Gaya yang Lagi Hits
             </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Pernahkah kamu merasa bingung saat memilih kacamata hitam yang
                 sesuai dengan gayamu? Jangan khawatir, karena di sini kita akan
                 membahas tren terbaru dalam dunia kacamata hitam wanita yang
@@ -35,7 +35,7 @@ comments: true
                 modern, kamu akan menemukan inspirasi yang tepat untuk menambah
                 kesan stylish pada penampilanmu.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Kacamata hitam wanita tidak hanya menjadi pelengkap outfit,
                 tetapi juga merupakan pernyataan gaya yang kuat. Dengan melihat
                 tren saat ini, kita dapat melihat bahwa kacamata hitam dengan
@@ -43,7 +43,7 @@ comments: true
                 Tidak hanya itu, kacamata dengan bentuk cat-eye dan oversized
                 juga kembali menjadi favorit di kalangan fashionista.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Sementara itu, bagi yang lebih suka tampilan yang simpel namun
                 elegan, kacamata hitam dengan desain minimalis dan frame yang
                 tipis juga menjadi pilihan yang populer. Gaya ini memberikan
@@ -72,7 +72,7 @@ comments: true
             <h3 class="card-title">
                 Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi
             </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Memilih kacamata wanita yang tepat adalah langkah penting untuk
                 menemukan gaya yang sesuai dengan kepribadian dan kebutuhan
                 Anda. Pertama-tama, perhatikan bentuk wajah Anda untuk
@@ -85,7 +85,7 @@ comments: true
                 untuk acara formal atau profesional, pilihlah kacamata yang
                 elegan dan klasik.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Optikal Bahari mengerti betul pentingnya memilih kacamata wanita
                 yang sesuai dengan kebutuhan dan gaya hidup Anda. Dengan layanan
                 konsultasi gratis dari optician berpengalaman kami, kami dapat
@@ -115,7 +115,7 @@ comments: true
             <h3 class="card-title">
                 Tren Kacamata Wanita Terkini yang Harus Anda Coba
             </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Ketahui tren kacamata wanita terkini yang sedang booming di
                 kalangan gen-x dan gen-z. Tren saat ini mengarah pada desain
                 yang unik dan ekspresif, memungkinkan Anda untuk menonjolkan
@@ -128,7 +128,7 @@ comments: true
                 dramatis dan kacamata aviator yang memberikan sentuhan yang edgy
                 dan maskulin.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Optikal Bahari selalu mengikuti tren terkini dalam dunia
                 kacamata wanita. Dengan koleksi terbaru yang selalu diperbarui,
                 Anda dapat menemukan kacamata yang sesuai dengan gaya dan
@@ -158,7 +158,7 @@ comments: true
             <h3 class="card-title">
                 Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru
             </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Merawat kacamata wanita dengan baik sangat penting untuk
                 memastikan keawetan dan penampilannya tetap baru. Pertama-tama,
                 hindari menyeka lensa kacamata dengan kain kasar atau bahan yang
@@ -170,7 +170,7 @@ comments: true
                 tempat yang panas atau lembab, karena ini dapat merusak bingkai
                 dan melentingkan lensa.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Optikal Bahari memberikan layanan perbaikan dan servis kacamata
                 gratis, sehingga Anda dapat memastikan kacamata Anda tetap dalam
                 kondisi optimal. Kami juga menyediakan tips dan saran tentang
@@ -199,7 +199,7 @@ comments: true
             <h3 class="card-title">
                 Temukan Kacamata Wanita Impian Anda di Optikal Bahari
             </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Ingin memiliki kacamata wanita yang sesuai dengan gaya Anda?
                 Optikal Bahari adalah tempatnya! Dengan koleksi terlengkap dan
                 terkini, kami menawarkan beragam pilihan kacamata wanita yang
@@ -208,7 +208,7 @@ comments: true
                 gaya kasual yang trendi, kami memiliki semua yang Anda butuhkan
                 di sini.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Kunjungi Optikal Bahari sekarang dan temukan kacamata wanita
                 impian Anda. Dengan layanan periksa mata gratis, Anda dapat
                 memastikan bahwa kacamata yang Anda pilih tidak hanya menambah
@@ -217,7 +217,7 @@ comments: true
                 kacamata gratis kami, sehingga Anda dapat memiliki kepercayaan
                 diri dan ketenangan pikiran saat berbelanja di Optikal Bahari.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Optikal Bahari memberikan layanan perbaikan dan servis kacamata
                 gratis, sehingga Anda dapat memastikan kacamata Anda tetap dalam
                 kondisi optimal. Kami juga menyediakan tips dan saran tentang
@@ -226,7 +226,7 @@ comments: true
                 saat. Jadi, jangan biarkan kacamata Anda rusak atau kusam,
                 datanglah ke Optikal Bahari untuk perawatan yang terbaik!
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Optikal Bahari juga menyediakan berbagai pilihan kacamata dengan
                 berbagai merk ternama yang sesuai dengan kebutuhan anda. Kami
                 juga memiliki tim optometris yang terlatih dan berpengalaman

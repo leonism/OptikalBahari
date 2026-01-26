@@ -26,21 +26,21 @@ comments: true
         <h3 class="card-title">
             Trend Kacamata 20 Tahun Silam
         </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Dua puluh tahun yang lalu, dunia adalah tempat yang sangat berbeda. Internet masih dalam masa pertumbuhan, smartphone
                 baru mulai populer, dan media sosial belum menjadi apa-apa. Orang berkomunikasi satu sama lain secara langsung, di
                 telepon, atau melalui surat dan email. Dalam dunia fashion dan kacamata, trend juga sangat berbeda. Kacamata dipandang sebagai kebutuhan bagi mereka yang
                 membutuhkannya, tetapi belum tentu merupakan aksesori yang modis. Lensa kontak menjadi lebih populer, tetapi tidak semua
                 orang memakainya. Dan kacamata hitam kebanyakan dipakai untuk fungsi, bukan fashion.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Pada tahun 2002, tren kacamata teratas adalah bingkai logam dan kacamata besar. Selebriti seperti Sarah Jessica Parker
                 dan Johnny Depp mempopulerkan tren memakai kacamata besar berbingkai logam. Kacamata ini terlihat keren dan edgy, dan
                 banyak orang mulai memakainya sebagai fashion statement. Pada saat yang sama, lensa kontak semakin populer. Kemajuan teknologi membuatnya lebih nyaman dan mudah digunakan, dan
                 orang-orang mulai melihatnya sebagai alternatif yang layak untuk kacamata. Pada tahun 2002, sebuah survei menemukan
                 bahwa hampir setengah dari semua orang dewasa yang memakai kacamata pernah mencoba lensa kontak.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Kacamata hitam juga populer pada tahun 2002, tetapi sebagian besar karena fungsinya, bukan gayanya. Banyak orang
                 memakainya untuk melindungi mata mereka dari sinar matahari, dan sering dianggap sebagai kebutuhan untuk kegiatan di
                 luar ruangan seperti hiking dan olahraga. Secara keseluruhan, tren kacamata 20 tahun lalu sangat berbeda dengan yang kita lihat sekarang. Kacamata tidak dipandang
@@ -63,13 +63,13 @@ comments: true
         <h3 class="card-title">
             Trend Kacamata Masa Sekarang
         </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Saat ini, kacamata menjadi jauh lebih modis. Kacamata dipandang sebagai aksesori yang modis, dan orang sering memakainya
                 meskipun mereka tidak membutuhkannya untuk koreksi penglihatan. Lensa kontak masih populer, tetapi bukan satu-satunya
                 pilihan bagi mereka yang membutuhkan koreksi penglihatan. Dan kacamata hitam telah menjadi fashion statement, dengan
                 banyak orang memakainya bahkan pada hari mendung.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Melihat kembali tren kacamata 20 tahun lalu dapat memberi kita gambaran sekilas ke masa lalu dan seberapa banyak hal
                 telah berubah. Saat ini, kacamata adalah bagian penting dari mode kita, dan terus berkembang dan berubah seiring waktu.            
                 Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage

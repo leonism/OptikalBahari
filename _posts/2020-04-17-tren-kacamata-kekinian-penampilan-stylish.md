@@ -25,7 +25,7 @@ comments: true
       alt="kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian" />
     <div class="card-body">
       <h3 class="card-title">Tren Kacamata Kekinian</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Tren menggunakan kacamata kekinian bukan hanya bermanfaat untuk membantu  
         penglihatan atau melindungi mata dari paparan sinar matahari. Tidak
         sedikit orang juga menggunakan kacamata dengan tujuan bergaya. Kacamata
@@ -35,7 +35,7 @@ comments: true
         Bahkan penderita mata rabun juga tetap bisa tampil stylish tanpa harus
         melepas kacamatanya atau berkorban menggunakan softlens.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Alih-alih mengasumsikan pengguna kacamata sebagai orang yang kurang  
         pergaulan, justru saat ini orang-orang ingin menggunakan kacamata model
         kekinian. Bentuk lensa bulat yang dulu dianggap ketinggalan zaman juga
@@ -60,7 +60,7 @@ comments: true
       alt="kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian" />
     <div class="card-body">
       <h3 class="card-title">Model Trendy Kacamata Terbaru</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Jika Kamu penggemar Harry Potter pasti tahu betul seperti apa desain  
         kacamata yang digunakan sang tokoh utama tersebut. Dikenakan oleh orang
         tampan, kesan jadul pada desain kacamata pun luntur. Tren kacamata
@@ -71,7 +71,7 @@ comments: true
         jika tren masa lalu mulai tenar kembali karena siklus fashion itu
         berputar.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kacamata kekinian dengan bingkai hanya di bagian atas juga sudah lama  
         tren dan digunakan banyak orang tua dulunya. Sempat tergeser karena
         penggunaan kacamata full frame, kini tidak sedikit millenial meminati
@@ -96,7 +96,7 @@ comments: true
       alt="kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian" />
     <div class="card-body">
       <h3 class="card-title">Merawat Kacamata Kekinian dengan Benar</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Saat memilih kacamata model terbaru, mempertimbangkan model adalah hal  
         penting. Namun di luar itu, yang utama jangan ditinggalkan. Pastikan
         kacamata yang Kamu pilih sudah pas di mata. Tidak kebesaran dan tidak
@@ -106,7 +106,7 @@ comments: true
         menggunakan bingkai kacamata berwarna pink. Namun, jika Kamu lebih
         memiliki kepribadian kalem maka sebaiknya menggunakan warna netral.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Nantinya kacamata kekinian akan menjadi identitas Kamu saat  
         bersosialisasi dengan banyak orang. Berbeda model kacamata akan berbeda
         juga efeknya terhadap keseluruhan penampilan. Jika dirasa butuh

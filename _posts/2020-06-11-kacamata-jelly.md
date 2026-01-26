@@ -27,17 +27,17 @@ comments: true
       <h3 class="card-title">
         Style Kacamata Bulat ala Selebriti Korea Selatan
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kacamata yang satu ini merupakan trend kacamata selebriti Korea Selatan yang sudah pasti lekas menjamur di Indonesia.                     
 		Menelisik betapa banyaknya netizen Indonesia yang menggemari selebriti Korea Selatan. Sampai-sampai apa yang digunakan
 		mereka menjadi tren fashion di Indonesia.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Penggunaan kacamata model jelly terhadap kulit wajah orang Korea Selatan memang sangat cocok. Pasalnya warna kulit                     
 		mereka yang cenderung putih dan anugerah wajah yang mungil membuat mengaplikasikan kacamata ini menjadi sangat pas.
 		Kesan manis akan mudah ditunjukan dari penggunanya.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kacamata ini memiliki penamaan lain yang disebut juga sebagai kacamata candy. Disebut juga candy karena definisi jelly                     
 		dan candy sama, yakni menunjukan kesan manis. Kacamata model jelly ini identik dengan perempuan, namun jika cukup
 		percaya diri, para lelaki juga tidak dilarang menggunakannya.
@@ -58,14 +58,14 @@ comments: true
       <h3 class="card-title">
         Tren Kacamata Jelly yang Mulai Populer Saat Ini
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Sesuai dengan penamaannya, kacamata dengan model jelly memberikan berbagai penawaran warna lensa dan gagang. Kacamata ini merupakan                    
 		kacamata yang unik karena kesamaan antara warna dan gagang 100% dan seolah semua merupakan satu kesatuan yang dicetak hingga membentuk 
 		kacamata. Jika biasanya kacamata hanya berwarna bening, hitam, sedikit cokelat, dan juga biru, kacamata satu ini menawarkan lebih            
 		banyak warna. Kamu bisa menggunakan kacamata berwarna kuning, pink, orange, merah, biru, hijau, dan berbagai warna
 		terang lainnya yang melekat pada lensa serta gagang.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Untuk Kamu yang memiliki kepercayaan diri tinggi, kacamata ini bisa digunakan saat berjalan-jalan di luar rumah.                     
 		Misalnya, saat pergi ke mall atau saat bertamasya di luar rumah. Dalam hal lainnya, kacamata bisa digunakan sebagai
 		aksesori konser atau memenuhi kebutuhan photoshoot. Padu padan kacamata candy atau kacamata jelly juga akan semakin nyentrik 
@@ -88,7 +88,7 @@ comments: true
       <h3 class="card-title">
         Percaya Diri dengan Kacamata Jelly Warna Terang
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Perihal warna, kacamata model jelly ini memang sudah nyentrik dengan pemberian warna-warna terang. Bentuknya juga                     
 			seragam. Demi menunjang rasa percaya diri, Kamu bisa merawat kacamata dengan tepat. Jangan asal menggunakan lap untuk
 			mengelap kacamata, salah-salah lensa bisa tergores.
@@ -96,13 +96,13 @@ comments: true
 			goresan pada warna lensa yang terang akan sangat nampak jelas dibandingkan goresan pada warna lensa bening. Bukannya
 			percaya diri, justru membuat diri semakin minder.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Untuk menunjukan jati diri Kamu, penggunaan kacamata jelly menjadi salah satu jalannya. Zaman terus berkembang sehingga                     
 			bukan hal memalukan jika Kamu tampil dengan warna colorful. Justru warna-warna yang hidup membuat Kamu tampak lebih
 			awet muda dari semestinya. Persoalan warna tidak akan menjadi masalah besar jika Kamu cerdas memadu padankan antara warna make up dengan warna          
 			kacamata. Bagi yang berhijab juga bisa menyelaraskan hijab dengan kacamata yang Kamu pakai.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Ingin tampil manis seperti idola Kamu? Semua bisa didapatkan di OPTIKAL BAHARI Jalan Bend. Jago no. 447 Kemayoran, Jakpus.                
 			Melalui fanpage kami,
         <a

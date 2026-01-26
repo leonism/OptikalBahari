@@ -25,13 +25,13 @@ comments: false
       alt="tips-kacamata-2.webp" />
     <div class="card-body">
       <h3 class="card-title">Kredit Kacamata Minus</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Apakah penglihatan anda mulai terganggu? Mulai sering mengalami pandangan kabur dan kurang jelas? Banyak hal yang bisa menyebabkan penurunan kualitas penglihatan anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering main game di handphone, sampai dengan menurunnya kapasitas penglihatan seiring dengan bertambahnya usia. Tapi jangan takut, di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan frame bingkai kacamata, dari mulai harga yang terjangkau sampai dengan harga menengah ke atas.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Harga kacamata tergantung pada bentuk, model, kualitas, dan bahan yang digunakan. Biaya juga bisa beragam, mulai dari puluhan sampai ratusan ribu, hingga jutaan rupiah. Ini dapat menjadi kendala jika kamu membutuhkan kacamata, terutama untuk mengatasi masalah penglihatan yang kurang jelas.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Tapi tenang saja, di Optikal Bahari kamu bisa membeli sebuah kacamata impian tanpa pikir panjang. Kamu bisa mencicil dengan cara kredit bulanan kacamata yang kamu inginkan saat ini. Tentu saja jangan pilihan kacamata juga beragam dan sesuai dengan kebutuan kamu pada saat ini.
       </p>
     </div>
@@ -46,13 +46,13 @@ comments: false
     alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
   <div class="card-body">
     <h3 class="card-title">Kredit Kacamata Sesuai Kebutuhan</h3>
-    <p class="card-text text-left">
+    <p class="card-text text-start">
       Untuk menghindari risiko salah membeli kacamata yang tidak sesuai dengan kebutuhan, pastikan untuk memilih lensa yang sesuai dengan masalah penglihatan yang sedang dialami. Misalnya, jika kamu sedang menderita presbiopia, pilih kacamata dengan lensa progresif atau trifokal yang dapat membantu memperbaiki penglihatan. Jangan memilih lensa tunggal yang tidak sesuai dengan kebutuhanmu.
     </p>
-    <p class="card-text text-left">
+    <p class="card-text text-start">
       Selain itu, jika kamu memutuskan untuk membeli kacamata dengan cara kredit, pastikan untuk memahami risiko yang mungkin terjadi. Banyak faktor yang dapat menyebabkan terjadinya risiko salah membeli atau tidak mampu melunasi pembayaran, seperti salah memilih lensa atau membeli kacamata yang tidak sesuai dengan kebutuhan. Jadi, pastikan untuk memilih kacamata dengan bijak dan benar, hanya karena kamu memang membutuhkannya untuk membantu penglihatan. Di Optikal Bahari, kamu bisa menikmati layanan pembelian kacamata dengan cara kredit atau cicilan tanpa perlu khawatir tentang risiko tersebut, karena kami juga menyediakan juga layanan periksa mata gratis serta menawarkan kacamata bergaransi.
     </p>
-    <p class="card-text text-left">
+    <p class="card-text text-start">
       Karena itu, setidaknya pilihlah kacamata dengan bijak dan benar, pilih kacamata hanya karena kamu membutuhkan benda tersebut untuk membantu penglihatan kamu. Biasanya pihak optik juga akan meminta sebuah jaminan jika kamu ingin membelinya secara nyicil, misalnya fotocopy KTP atau tanda pengenal yang lain.
     </p>
   </div>
@@ -67,7 +67,7 @@ comments: false
       title="kredit kacamata minus di Optikal Bahari" />
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Temukan solusi untuk membeli kacamata berkualitas dengan harga terjangkau hanya di Optikal Bahari. Kami menyediakan layanan pembelian kacamata dengan cara kredit, serta memiliki banyak pilihan lensa dan frame dengan harga yang terjangkau. Jangan ragu untuk datang ke Optikal Bahari di Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat atau hubungi kami untuk informasi lebih lanjut. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
         <a
           href="https://www.facebook.com/optikalbahari"
@@ -103,8 +103,8 @@ comments: false
 				<h5 class="card-title">
 					{{ post.title }}
 				</h5>
-				<p class="card-text text-left">{{ post.description | strip_html | truncatewords: 20 }}.</p>
-				<p class="card-text text-left">
+				<p class="card-text text-start">{{ post.description | strip_html | truncatewords: 20 }}.</p>
+				<p class="card-text text-start">
 					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 						>Selengkapnya</a
 					>

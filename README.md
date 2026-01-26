@@ -213,7 +213,7 @@ build_command:
 - bundle exec jekyll build -- verbose && bash _scripts/post-built/post-build.s
 - JEKYLL_ENV=production bundle exec jekyll build --verbose && bash _scripts/post-built/post-build.sh
 ```
-### Code Format Command
+### Code Formating Command
 
 ```bash
 npx prettier --write .

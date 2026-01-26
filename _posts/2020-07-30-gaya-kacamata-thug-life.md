@@ -29,7 +29,7 @@ comments: true
       <h3 class="card-title">
         Gaya Kacamata Thug Life Buat Penampilan Makin Keren
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Tampil
         <em>swag</em>
         atau keren dengan kacamata thug life sangat mungkin        
@@ -42,7 +42,7 @@ comments: true
 				diri adalah kacamata satu ini. Istilahnya membuat orang geleng-geleng
 				kepala.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Apa arti thug life? Sederhananya kita rangkai dalam cerita. Misalkan ada        
 				seorang pemenang kuis ratusan juta untuk pertama kali. Ketika pertanyaan
 				terakhir, ia menggunakan bantuan dengan menelepon kerabat. Namun, orang
@@ -68,7 +68,7 @@ comments: true
       alt="Kacamata Thug Life" />
     <div class="card-body">
       <h3 class="card-title">Kenali Makna Penamaannya Thug Life</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Makna kata thug life sebenarnya terkesan sederhana jika diaplikasikan di        
 				kehidupan nyata. Misal, ketika Kamu secara benar menjawab soal padahal
 				hanya asal-asalan atau ketika Kamu tepat menghentikan kendaraan sebelum
@@ -79,7 +79,7 @@ comments: true
 				dilakukan selama tidak mengganggu dan merugikan orang lain atas aksi
 				yang Kamu lakukan?
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Penerapan kacamata thug life sepertinya sangat cocok untuk Kamu yang        
 				ingin membuat konten youtube atau membuat skenario film. Tren bermain
 				tiktok juga sedang booming, siapa tahu Kamu membutuhkan kacamata satu
@@ -103,7 +103,7 @@ comments: true
       alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren" />
     <div class="card-body">
       <h3 class="card-title">Desain Thug Life Unik untuk Digunakan & Dipilih</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Desain kacamata dengan nuansa thug life identik dengan enam kota yang        
 				menurun ke bawah di mana masing-masing dibagi menjadi dua. Tiga kotak
 				diletakan berdampingan seperti ada efek cermin. Kacamata ini tidak hanya
@@ -114,7 +114,7 @@ comments: true
 				melainkan berupa mozaik. Ternyata ada rahasia di balik penerapan enam
 				kotak pada lensa kacamata thug life.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Desain ini menunjukan bahwa potongan keenam kotak tersebut merupakan        
 				potongan dari kacamata di sisi kanan dan sisi kiri. Yang mana jika
 				keenam potongan itu dipasangkan ke lensa, lensa kacamata akan utuh
@@ -135,7 +135,7 @@ comments: true
       alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren" />
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Tidak heran jika kacamata ini disebut sebagai thug life karena dari segi        
 				desainnya saja sudah dibuat untuk orang yang percaya dirinya tinggi.
 				Mungkin Kamu tertarik untuk memiliki kacamata ini? Kamu bisa
@@ -145,7 +145,7 @@ comments: true
 				untuk mendapatkan berbagai kacamata thug life yang menawarkan berbagai
 				warna lensa kacamata.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Jika kamu ingin mendapat kacamata terbaik, kunjungi toko OPTIKAL BAHARI        
 				di alamat Kemayoran, Jakpus, Jln. Bendungan Jago No. 447. Kamu juga bisa
 				mengunjungi website kami atau di fanpage

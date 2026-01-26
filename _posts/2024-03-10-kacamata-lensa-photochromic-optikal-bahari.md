@@ -22,7 +22,7 @@ comments: true
       alt="Apa itu Lensa Photochromic?" />
     <div class="card-body">
       <h3 class="card-title">Apa itu Lensa Photochromic?</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Lensa photochromic adalah teknologi revolusioner dalam dunia optik yang
         menyesuaikan diri dengan perubahan cahaya lingkungan secara otomatis.
         Ini berarti, saat Anda berada di dalam ruangan dengan pencahayaan
@@ -31,7 +31,7 @@ comments: true
         secara instan akan menyesuaikan diri menjadi lebih gelap, memberikan
         perlindungan optimal terhadap sinar UV dan matahari yang menyilaukan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Lensa photochromic memanfaatkan teknologi khusus yang memungkinkan
         molekul di dalam lensa untuk merespons langsung terhadap intensitas
         cahaya. Ketika sinar UV mencapai lensa, molekul tersebut bereaksi secara
@@ -40,7 +40,7 @@ comments: true
         terpapar sinar matahari, dan kembali menjadi lebih terang saat berada di
         dalam ruangan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Keunggulan utama dari lensa photochromic adalah kemampuannya untuk
         memberikan kenyamanan dan perlindungan mata yang luar biasa tanpa harus
         berganti-ganti kacamata. Dengan teknologi ini, Anda tidak perlu repot
@@ -63,7 +63,7 @@ comments: true
       alt="Manfaat Kacamata & Lensa Photochromic" />
     <div class="card-body">
       <h3 class="card-title">Manfaat Kacamata & Lensa Photochromic</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Lensa photochromic dari Optikal Bahari</strong>
         adalah pilihan yang sempurna untuk menambahkan sentuhan gaya dan
         fungsionalitas pada penampilan Anda. Dengan koleksi lensa photochromic
@@ -72,7 +72,7 @@ comments: true
         terbaru, Optikal Bahari memiliki semua yang Anda butuhkan untuk tampil
         bergaya di setiap kesempatan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Perlindungan Optimal dari Paparan Radiasi.</strong>
         Lensa Photochromic Ray kami diformulasikan secara khusus untuk
         menghadang paparan sinar UV berbahaya dari pancaran sinar matahari,
@@ -84,7 +84,7 @@ comments: true
         mata Anda, pilih perlindungan yang tepat dengan kacamata anti radiasi
         Blue Ray kami.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Garansi 1 Tahun untuk Kacamata Kamu</strong>
         Kami sepenuhnya memahami kekhawatiran Anda terhadap kemungkinan
         kerusakan kacamata. Namun, di Optikal Bahari, kami memberikan solusi
@@ -95,7 +95,7 @@ comments: true
         dalam setiap langkah Anda, karena di sini, kualitas dan layanan yang
         terjamin merupakan prioritas kami.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Cicilan 0%, Tanpa Bunga & Riba</strong>
         Optikal Bahari mengubah konsep membeli kacamata menjadi lebih
         terjangkau dan mudah. Melalui program cicilan tanpa bunga & riba, Anda
@@ -105,7 +105,7 @@ comments: true
         merencanakan kunjungan ke Optikal Bahari dan temukan kacamata yang Anda
         idamkan dengan cara yang lebih hemat dan mudah!
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Service & Reparasi Kacamata Gratis</strong>
         Jangan sia-siakan kacamata yang bermasalah! Di Optikal Bahari, kami
         menawarkan layanan service & reparasi kacamata GRATIS! Dengan layanan
@@ -116,7 +116,7 @@ comments: true
         kembali. Kunjungi Optikal Bahari dan rasakan sendiri kualitas layanan
         untuk kenyamanan dan gaya Anda!
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Bayar Pakai KJP? Tentu Bisa.</strong>
         Pemilik Kartu Jakarta Pintar (KJP), dengarkan berita baik ini! Sekarang,
         gunakan KJP Anda untuk membayar kacamata di Optikal Bahari. Bayangkan,
@@ -127,7 +127,7 @@ comments: true
         manfaatkan KJP Anda dan dapatkan kacamata impian Anda di Optikal Bahari
         untuk penampilan yang semakin memukau!
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>
         Kesehatan mata adalah prioritas utama kami di Optikal Bahari. Kami
         bangga mengumumkan bahwa kami telah memperoleh izin resmi dari Dinas
@@ -151,7 +151,7 @@ comments: true
       alt="Bagaimana Lensa Photochromic Bekerja?" />
     <div class="card-body">
       <h3 class="card-title">Bagaimana Lensa Photochromic Bekerja?</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Lensa photochromic mengandalkan teknologi canggih yang membuatnya unggul
         dalam menyesuaikan diri dengan kondisi cahaya sekitar. Ketika terkena
         sinar UV, lensa secara instan berubah warna, menjadi lebih gelap untuk
@@ -160,7 +160,7 @@ comments: true
         aktivitas, mulai dari berkendara di bawah sinar matahari terik hingga
         berada di dalam ruangan dengan pencahayaan yang redup.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Teknologi di balik lensa photochromic didesain untuk memberikan respons
         cepat terhadap perubahan kondisi cahaya. Molekul khusus dalam lensa
         bereaksi secara otomatis ketika terkena sinar UV, memicu perubahan warna
@@ -168,7 +168,7 @@ comments: true
         perlindungan maksimal terhadap mata Anda, tetapi juga memberikan
         kenyamanan tanpa perlu berganti-ganti kacamata atau lensa.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kelebihan utama lensa photochromic adalah kemampuannya untuk
         menyesuaikan intensitas warna sesuai dengan kebutuhan Anda. Saat Anda
         berada di luar ruangan di bawah sinar matahari terang, lensa akan
@@ -178,7 +178,7 @@ comments: true
         sehingga Anda dapat melihat dengan jelas tanpa merasa terganggu oleh
         kegelapan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Dengan lensa photochromic, Anda tidak perlu lagi beralih antara kacamata
         untuk berbagai kegiatan dalam sehari. Ini adalah solusi yang praktis dan
         stylish untuk melindungi mata Anda dari sinar UV yang merusak dan
@@ -196,7 +196,7 @@ comments: true
       alt="Keuntungan Menggunakan Lensa Photochromic" />
     <div class="card-body">
       <h3 class="card-title">Keuntungan Menggunakan Lensa Photochromic</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Lensa photochromic menawarkan sejumlah keuntungan yang membuatnya
         menjadi pilihan unggul bagi mereka yang menginginkan kenyamanan dan
         perlindungan mata yang maksimal. Salah satu keunggulan utamanya adalah
@@ -205,7 +205,7 @@ comments: true
         kacamata atau lensa saat berpindah dari ruangan dalam ke luar ruangan,
         atau sebaliknya.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Jika Anda senang membaca sambil tiduran dengan tablet atau perangkat
         elektronik lainnya, kacamata Anti Blue-ray UV Protection adalah pilihan
         yang tepat untuk Anda. Kacamata ini dapat menyaring hingga 40% sinar UV
@@ -216,7 +216,7 @@ comments: true
         serta keamanannya saat menikmati waktu bersantai dengan kacamata Anti
         Blue-ray UV Protection ini.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Dengan lensa photochromic, Anda dapat merasakan kenyamanan visual yang
         luar biasa di segala kondisi pencahayaan. Saat Anda berada di bawah
         sinar matahari yang terang, lensa akan menjadi lebih gelap secara
@@ -225,7 +225,7 @@ comments: true
         lensa akan kembali menjadi lebih terang, sehingga Anda tetap dapat
         melihat dengan jelas tanpa merasa terganggu.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Keunggulan lainnya adalah kepraktisan lensa photochromic dalam berbagai
         situasi. Anda tidak perlu lagi membawa kacamata cadangan atau mengganti
         lensa saat berpindah-pindah tempat. Dengan teknologi ini, Anda dapat
@@ -233,7 +233,7 @@ comments: true
         Anda. Lensa photochromic juga memberikan sentuhan gaya yang modis dan
         trendi, sehingga Anda tetap dapat tampil memukau di setiap kesempatan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Selain itu, lensa photochromic juga memberikan perlindungan maksimal
         terhadap kesehatan mata Anda. Dengan kemampuannya untuk menangkal sinar
         UV yang berbahaya, lensa ini membantu mengurangi risiko kerusakan mata
@@ -241,7 +241,7 @@ comments: true
         photochromic, Anda tidak hanya tampil stylish, tetapi juga menjaga
         kesehatan mata Anda dengan optimal.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Dengan segala keuntungan yang ditawarkannya, tidak heran jika lensa
         photochromic semakin populer di kalangan mereka yang menginginkan
         kombinasi sempurna antara kenyamanan, perlindungan, dan gaya. Optikal
@@ -261,7 +261,7 @@ comments: true
       <h3 class="card-title">
         Kenapa Memilih Optikal Bahari untuk Lensa Photochromic Anda?
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari adalah pilihan yang sempurna untuk memenuhi kebutuhan
         Anda akan lensa photochromic berkualitas tinggi dan layanan terbaik di
         industri optik. Pertama-tama, Optikal Bahari menawarkan koleksi lengkap
@@ -269,20 +269,20 @@ comments: true
         dapat memilih dari berbagai pilihan yang sesuai dengan gaya dan
         kebutuhan Anda.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Selain itu, Optikal Bahari menjamin kualitas dan keaslian setiap produk
         yang mereka jual. Dengan Optikal Bahari, Anda dapat memiliki kepercayaan
         penuh bahwa Anda mendapatkan produk berkualitas tinggi yang terjamin
         mutunya, tanpa perlu khawatir tentang keaslian atau keamanannya.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Tidak hanya itu, Optikal Bahari juga menawarkan layanan pelanggan yang
         ramah dan profesional. Tim mereka siap membantu Anda dengan segala
         pertanyaan atau kebutuhan yang Anda miliki, mulai dari konsultasi
         tentang produk hingga pelayanan purna jual. Dengan Optikal Bahari, Anda
         dapat merasa nyaman dan percaya diri dalam setiap pembelian Anda.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Selain itu, Optikal Bahari menawarkan berbagai promo dan penawaran
         menarik untuk para pelanggannya. Dari diskon khusus hingga program
         cicilan tanpa bunga, Optikal Bahari selalu berusaha memberikan nilai
@@ -290,7 +290,7 @@ comments: true
         hanya mendapatkan produk berkualitas tinggi, tetapi juga pengalaman
         berbelanja yang menyenangkan dan menguntungkan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Terakhir, Optikal Bahari memiliki reputasi yang solid dan telah terbukti
         menjadi salah satu destinasi belanja terpercaya bagi para penggemar
         optik di Indonesia. Dengan pengalaman bertahun-tahun dalam industri ini,
@@ -314,7 +314,7 @@ comments: true
         Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik
         untuk Gaya Anda?
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Lensa photochromic dari Optikal Bahari adalah pilihan yang sempurna
         untuk menambahkan sentuhan gaya dan fungsionalitas pada penampilan Anda.
         Dengan koleksi lensa photochromic terbaru yang tersedia, Anda dapat
@@ -322,7 +322,7 @@ comments: true
         mudah. Dari gaya klasik hingga tren terbaru, Optikal Bahari memiliki
         semua yang Anda butuhkan untuk tampil bergaya di setiap kesempatan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Selain itu, lensa photochromic dari Optikal Bahari menawarkan kenyamanan
         dan perlindungan maksimal bagi mata Anda. Didesain dengan teknologi
         terkini, lensa ini dapat menyesuaikan diri secara otomatis dengan
@@ -330,7 +330,7 @@ comments: true
         berbahaya, dan mengurangi silau untuk pengalaman visual yang nyaman dan
         aman di segala kondisi pencahayaan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari juga menawarkan berbagai pilihan frame kacamata yang
         modis dan trendi untuk melengkapi lensa photochromic Anda. Dari desain
         klasik hingga yang paling modern, Anda dapat menemukan frame yang cocok
@@ -338,7 +338,7 @@ comments: true
         stylish dan lensa photochromic yang fungsional, Anda akan tampil memukau
         di setiap kesempatan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Selain itu, dengan layanan pelanggan yang ramah dan profesional, Optikal
         Bahari siap membantu Anda dalam setiap langkah pembelian Anda. Tim
         mereka terlatih untuk memberikan saran dan bantuan yang Anda butuhkan,
@@ -346,7 +346,7 @@ comments: true
         Optikal Bahari, Anda tidak hanya mendapatkan produk berkualitas tinggi,
         tetapi juga pengalaman berbelanja yang menyenangkan dan memuaskan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari menawarkan berbagai promo dan penawaran menarik untuk
         para pelanggannya. Dari diskon khusus hingga program cicilan tanpa
         bunga, Optikal Bahari selalu berusaha memberikan nilai tambah bagi para
@@ -367,7 +367,7 @@ comments: true
       <h3 class="card-title">
         Menemukan Gayamu dengan Lensa Photochromic dari Optikal Bahari
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari hadir dengan koleksi lensa photochromic yang tidak hanya
         fungsional, tetapi juga memungkinkan Anda mengekspresikan gaya dan
         kepribadian Anda dengan lebih baik. Dengan berbagai pilihan gaya dan
@@ -377,7 +377,7 @@ comments: true
         penampilan Anda, dan itulah mengapa mereka menawarkan berbagai pilihan
         yang cocok untuk segala gaya dan preferensi.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Selain itu, lensa photochromic dari Optikal Bahari tidak hanya berguna
         untuk melindungi mata Anda dari sinar UV yang berbahaya, tetapi juga
         memberikan kenyamanan visual yang luar biasa di segala kondisi
@@ -386,7 +386,7 @@ comments: true
         sinar matahari terik maupun di dalam ruangan dengan pencahayaan yang
         redup.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari juga menawarkan berbagai pilihan frame kacamata yang
         modis dan trendi untuk melengkapi lensa photochromic Anda. Dari desain
         klasik hingga yang paling modern, Anda dapat menemukan frame yang sesuai
@@ -394,7 +394,7 @@ comments: true
         stylish dan lensa photochromic yang fungsional, Anda akan tampil memukau
         di setiap kesempatan.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Selain itu, Optikal Bahari menawarkan layanan pelanggan yang ramah dan
         profesional untuk membantu Anda dalam setiap langkah pembelian Anda. Tim
         mereka siap membantu Anda dengan segala pertanyaan atau kebutuhan yang
@@ -402,7 +402,7 @@ comments: true
         Dengan Optikal Bahari, Anda dapat merasa nyaman dan percaya diri dalam
         setiap pembelian Anda.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Terakhir, Optikal Bahari menawarkan berbagai promo dan penawaran menarik
         untuk para pelanggannya. Dari diskon khusus hingga program cicilan tanpa
         bunga, Optikal Bahari selalu berusaha memberikan nilai tambah bagi para
@@ -424,7 +424,7 @@ comments: true
         Rasakan Kenyamanan dan Gaya dengan Kacamata Tren Terbaru dari Optikal
         Bahari
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari mempersembahkan koleksi kacamata tren terbaru yang tidak
         hanya memberikan kenyamanan luar biasa, tetapi juga meningkatkan gaya
         Anda ke level berikutnya. Dengan berbagai desain yang modern dan
@@ -433,7 +433,7 @@ comments: true
         tersebut tidak hanya tampak menawan, tetapi juga memberikan kenyamanan
         optimal sepanjang hari.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Kenyamanan adalah kunci dalam setiap desain kacamata dari Optikal
         Bahari. Didesain dengan bahan-bahan berkualitas tinggi dan teknologi
         terkini, setiap kacamata memberikan rasa ringan dan pas di wajah Anda.
@@ -441,7 +441,7 @@ comments: true
         Anda dapat menikmati setiap momen tanpa gangguan dari kacamata yang
         tidak nyaman.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Namun, kenyamanan tidak berarti harus mengorbankan gaya. Koleksi
         kacamata tren terbaru dari Optikal Bahari menawarkan berbagai pilihan
         gaya yang sesuai dengan kepribadian Anda. Mulai dari desain klasik yang
@@ -449,7 +449,7 @@ comments: true
         kacamata yang memancarkan gaya dan kepercayaan diri Anda dengan
         sempurna.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Selain itu, kacamata tren terbaru dari Optikal Bahari juga menawarkan
         perlindungan mata yang optimal. Didesain dengan teknologi canggih,
         setiap kacamata memberikan perlindungan terhadap sinar UV yang
@@ -458,7 +458,7 @@ comments: true
         Anda, tetapi juga memberikan kepercayaan diri ekstra saat Anda tampil
         dengan gaya Anda yang penuh percaya diri.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Jadi, jangan ragu lagi untuk menemukan kacamata tren terbaru Anda di
         Optikal Bahari. Dengan kombinasi kenyamanan, gaya, dan perlindungan,
         setiap kacamata akan membuat Anda merasa lebih percaya diri dan siap
@@ -478,7 +478,7 @@ comments: true
       <h3 class="card-title">
         Temukan Kacamata Paling Tren dan Eksklusif di Optikal Bahari
       </h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari adalah tujuan utama bagi para pencinta mode yang mencari
         kacamata paling tren dan eksklusif. Dengan koleksi terbaru yang
         diperbarui secara berkala, Anda akan selalu menemukan desain terkini
@@ -486,7 +486,7 @@ comments: true
         selektif untuk memastikan bahwa Anda mendapatkan yang terbaik dari yang
         terbaik, sehingga Anda dapat tampil dengan gaya yang tak tertandingi.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Koleksi kacamata eksklusif dari Optikal Bahari menawarkan lebih dari
         sekadar gaya. Dibuat dengan menggunakan bahan-bahan berkualitas tinggi
         dan desain yang inovatif, setiap kacamata memberikan kenyamanan luar
@@ -494,7 +494,7 @@ comments: true
         Bahari, Anda tidak hanya mendapatkan produk mode yang trendi, tetapi
         juga investasi jangka panjang untuk kenyamanan dan gaya Anda.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Selain itu, Optikal Bahari menawarkan berbagai pilihan gaya yang dapat
         disesuaikan dengan kepribadian dan preferensi Anda. Dari desain klasik
         yang elegan hingga yang lebih avant-garde dan eksentrik, Anda akan
@@ -502,7 +502,7 @@ comments: true
         kacamata memberikan sentuhan personal yang unik, sehingga Anda dapat
         mengekspresikan diri dengan lebih bebas dan percaya diri.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Tidak hanya itu, dengan layanan pelanggan yang ramah dan profesional,
         Optikal Bahari siap membantu Anda dalam setiap langkah pembelian Anda.
         Tim mereka terlatih untuk memberikan saran dan bantuan yang Anda
@@ -510,7 +510,7 @@ comments: true
         Dengan Optikal Bahari, Anda dapat merasa nyaman dan percaya diri dalam
         setiap pembelian Anda.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Jangan ragu lagi untuk menemukan kacamata paling tren dan eksklusif Anda
         di Optikal Bahari. Dengan kombinasi kenyamanan, gaya, dan kualitas yang
         tak tertandingi, setiap kacamata akan menjadi penegasan gaya Anda yang
@@ -531,7 +531,7 @@ comments: true
       alt="Kunjungi Optikal Bahari">
     <div class="card-body">
       <h3 class="card-title">Kunjungi Optikal Bahari</h3>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Sudah menjadi komitmen kami untuk selalu memberikan pelayanan terbaik
         kepada konsumen kami. Silahkan kunjungi ke Optikal Bahari dan
         konsultasikan keluhan yang dirasakan yang berhubungan terhadap daya
@@ -541,7 +541,7 @@ comments: true
         terpercaya dan akurat dengan menggunakan alat-alat modern dengan
         teknologi terbaru.
       </p>
-      <p class="card-text text-left">
+      <p class="card-text text-start">
         Optikal Bahari juga menyediakan berbagai pilihan kacamata dengan
         berbagai merk ternama yang sesuai dengan kebutuhan anda. Kami juga
         memiliki tim optometris yang terlatih dan berpengalaman yang siap

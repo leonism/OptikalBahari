@@ -24,7 +24,7 @@ comments: true
             <h3 class="card-title">
                 Tren Retro & Vintage Yang Kembali Populer
             </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Kacamata retro atau vintage telah kembali populer belakangan ini, terutama di kalangan penggemar mode
                 yang mencari
                 cara untuk menambahkan nuansa vintage pada penampilan mereka. Tren ini tidak hanya terlihat di pasar
@@ -33,7 +33,7 @@ comments: true
                 populer dan
                 bagaimana Anda bisa memadukannya dengan gaya pribadi Anda?
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Salah satu alasan mengapa tren kacamata retro kembali populer adalah karena kacamata tersebut memiliki
                 desain yang
                 unik dan menonjol. Kacamata retro biasanya memiliki frame yang lebih tebal dan terbuat dari bahan
@@ -43,7 +43,7 @@ comments: true
                 personalitas pada penampilan Anda, sekaligus menunjukkan bahwa Anda tidak takut untuk mencoba sesuatu
                 yang berbeda.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Selain itu, kacamata retro juga merupakan pilihan yang sempurna bagi mereka yang ingin menambahkan
                 sentuhan vintage
                 pada gaya mereka. Tren vintage telah kembali populer di industri fashion, dan kacamata retro merupakan
@@ -65,7 +65,7 @@ comments: true
             <h3 class="card-title">
                 Padukan Dengan Bentuk Wajah Dan Warna Kulit
             </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Untuk memadukan kacamata retro dengan gaya Anda, pertama-tama Anda perlu memilih desain yang sesuai
                 dengan bentuk
                 wajah dan warna kulit Anda. Kemudian, carilah frame yang sesuai dengan gaya pribadi Anda. Jika Anda suka
@@ -75,7 +75,7 @@ comments: true
                 gaya yang lebih berani dan eksentrik, Anda bisa memilih frame yang lebih mencolok dan terinspirasi oleh
                 tren vintage.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Setelah memilih frame yang sesuai, Anda juga perlu mempertimbangkan bagaimana cara memadukannya dengan
                 pakaian Anda.
                 Jika Anda ingin menambahkan sentuhan vintage pada penampilan Anda, Anda bisa menggabungkan kacamata
@@ -101,14 +101,14 @@ comments: true
             <h3 class="card-title">
                 Padukan Kacamata Retro Dengan Gaya Anda
             </h3>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Jika Anda merasa ragu-ragu tentang cara memadukan kacamata retro dengan gaya Anda, Anda bisa mencari
                 referensi di
                 media sosial atau mengunjungi toko kacamata untuk mendapatkan saran dari staf yang ahli. Anda juga bisa
                 mencoba berbagai
                 macam frame dan melihat bagaimana terlihat di cermin untuk memutuskan yang paling cocok dengan Anda.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Dengan memahami mengapa tren kacamata retro kembali populer dan cara memadukannya dengan gaya pribadi
                 Anda, Anda
                 akan lebih percaya diri dalam mengenakan kacamata retro dan menambahkan sentuhan vintage pada penampilan
@@ -116,7 +116,7 @@ comments: true
                 takut untuk mencoba sesuatu yang berbeda dan menunjukkan kepribadian Anda melalui pilihan gaya yang unik
                 dan menonjol.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Dengan memahami mengapa tren kacamata retro kembali populer dan cara memadukannya dengan gaya pribadi
                 Anda, Anda
                 akan lebih percaya diri dalam mengenakan kacamata retro dan menambahkan sentuhan vintage pada penampilan
@@ -124,7 +124,7 @@ comments: true
                 takut untuk mencoba sesuatu yang berbeda dan menunjukkan kepribadian Anda melalui pilihan gaya yang unik
                 dan menonjol.
             </p>
-            <p class="card-text text-left">
+            <p class="card-text text-start">
                 Kamu perlu referensi untuk kacamata vintage dan retro untuk kebutuhan keseharian kamu? Kamu bisa
                 dapatkan hanya di
                 Optikal Bahari Kemayoran yang berlokasi di Jakarta Pusat, Jln. Bendungan Jago No. 447 atau lihat di

@@ -2,9 +2,21 @@
 layout: none
 ---
 
-User-agent: *
-Disallow: /cgi-bin/
-Disallow: /*?*
+# ==========================================
+# ROBOTS.TXT for https://www.optikalbahari.com
+# Strategy: Open Access (Except System Folders)
+# ==========================================
 
+User-agent: *
 Allow: /
+
+# Block the specific folder
+Disallow: /cgi-bin/
+
+# Block Cloudflare's system folder
+Disallow: /cdn-cgi/
+
+# ==========================================
+# SITEMAP
+# ==========================================
 Sitemap: {{ site.url }}/sitemap.xml
