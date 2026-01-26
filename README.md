@@ -209,8 +209,13 @@ bundle exec jekyll build
 ### Build command
 
 ```bash
-build_command: "bundle exec jekyll build -- verbose && bash scripts/post-build.sh"
-JEKYLL_ENV=production bundle exec jekyll build --verbose
+build_command:
+- bundle exec jekyll build -- verbose && bash _scripts/post-built/post-build.s
+- JEKYLL_ENV=production bundle exec jekyll build --verbose && bash _scripts/post-built/post-build.sh
+```
+### Code Format Command
+
+```bash
 npx prettier --write .
 npx prettier --write "**/*.md"
 npx prettier --check "**/*.{html,md}"

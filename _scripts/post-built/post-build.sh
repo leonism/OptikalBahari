@@ -6,14 +6,14 @@ echo "🚀 Starting post-build optimizations..."
 # Check if Node.js dependencies are available
 if command -v node >/dev/null 2>&1 && [ -f "node_modules/critical/package.json" ]; then
   echo "📝 Extracting critical CSS..."
-  node scripts/critical-css.js
+  node _scripts/post-built/critical-css.js
 else
   echo "⚠️ Critical CSS extraction skipped (dependencies not installed)"
 fi
 
 if command -v node >/dev/null 2>&1 && [ -f "node_modules/workbox-build/package.json" ]; then
   echo "⚙️ Generating service worker..."
-  node scripts/generate-sw.js
+  node _scripts/post-built/generate-sw.js
 else
   echo "⚠️ Service worker generation skipped (dependencies not installed)"
 fi

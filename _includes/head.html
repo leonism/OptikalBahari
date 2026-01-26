@@ -1,15 +1,5 @@
 <head>
-  <meta charset="utf-8">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="dns-prefetch" href="https://www.google-analytics.com">
-  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-  <link rel="dns-prefetch" href="https://connect.facebook.net">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="google-site-verification" content="S78mNAZQFqN0fjs9uj0jlw53fp_JUq1gR7KZry7NoNs" />
-  <meta name="facebook-domain-verification" content="okvg0cr9ei1ai8ubn3xjild1y38oyr" />
-  <meta name="p:domain_verify" content="8742998c66c600725ea8758b3d48ca40" />
-  <meta name="google-site-verification" content="QwzD8MDRyjoNO82pFwdmrUnOrzhvLieKNF8E2iQq4ag" />
+  {% include seo/meta.html %}
   {% include cards/card-seo.html %}
   {% include cards/card-twitter.html %}
   {% include cards/card-fb.html %}
@@ -18,20 +8,9 @@
   <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome-free/css/all.min.css' | relative_url }}" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="{{ '/assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css' | relative_url }}" media="print" onload="this.media='all'">
   <link rel="preload" href="{{ '/assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome-free/css/all.min.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}">
-  </noscript>
-  <style>
-    {% capture include_scss %}
-      {% include critical.scss %}
-    {% endcapture %}
-    {{ include_scss | scssify }}
-  </style>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}" />
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url }}" />
-  <link rel="icon" type="image/png" sizes="96x96"
-    href="{{ '/assets/img/icons/favicon.ico' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="sitemap" type="application/xml" title="{{ site.title | escape }}" href="{{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/img/icons/favicon.ico' | prepend: site.baseurl | prepend: site.url }}" />
   {% include gtm/gtm-head.html %}
 </head>
