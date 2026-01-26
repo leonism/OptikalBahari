@@ -124,6 +124,14 @@ async function main() {
     process.exit(1) // Critical failure
   }
 
+  // 7. HTML Minification
+  if (fs.existsSync('_scripts/post-built/minify-html.js')) {
+    console.log('📄 Minifying HTML...')
+    runCommand('node _scripts/post-built/minify-html.js', 'HTML Minification')
+  } else {
+    console.log('⚠️ HTML Minification skipped (script not found)')
+  }
+
   console.log('✅ Post-build optimizations complete!')
 }
 

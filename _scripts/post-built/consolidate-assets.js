@@ -49,7 +49,6 @@ async function main() {
     log(`Found ${htmlFiles.length} HTML files.`)
 
     // 3. Analyze Assets from index.html (Source of Truth for ordering)
-    // We assume index.html contains the superset/standard set of assets.
     const indexFile = htmlFiles.find((f) => f.endsWith('index.html')) || htmlFiles[0]
     log(`Using ${indexFile} as the reference for asset discovery.`)
 
@@ -64,14 +63,13 @@ async function main() {
       const href = $(el).attr('href')
       if (href && isLocalAsset(href)) {
         const resolved = resolvePath(href)
-        // Avoid duplicates
         if (!cssFiles.includes(resolved)) {
           cssFiles.push(resolved)
         }
       }
     })
 
-    // Also check noscript tags for stylesheets not present elsewhere (edge case)
+    // Also check noscript tags
     $('noscript').each((i, el) => {
       const $noscript = cheerio.load($(el).html())
       $noscript('link[rel="stylesheet"]').each((j, link) => {
@@ -111,7 +109,10 @@ async function main() {
         }
       }
 
-      const output = new CleanCSS({}).minify(rawCss)
+      const originalSize = Buffer.byteLength(rawCss, 'utf8')
+      // Enable aggressive optimization (level 2)
+      const output = new CleanCSS({ level: 2 }).minify(rawCss)
+      
       if (output.errors.length > 0) {
         output.errors.forEach((e) => error(`CleanCSS Error: ${e}`))
       }
@@ -119,6 +120,11 @@ async function main() {
         output.warnings.forEach((w) => debug(`CleanCSS Warning: ${w}`))
       }
       finalCss = output.styles
+      const minifiedSize = Buffer.byteLength(finalCss, 'utf8')
+      const saved = originalSize - minifiedSize
+      const savedPercent = originalSize > 0 ? ((saved / originalSize) * 100).toFixed(2) : 0
+
+      log(`CSS Optimization: ${(originalSize / 1024).toFixed(2)} KB -> ${(minifiedSize / 1024).toFixed(2)} KB (Saved ${savedPercent}%)`)
 
       if (!argv.dryRun) {
         await fs.writeFile(path.join(DIST_DIR, 'styles.min.css'), finalCss)
@@ -129,22 +135,34 @@ async function main() {
     // 5. Process JS
     if (jsFiles.length > 0) {
       log('Merging and minifying JS...')
-      let rawJs = {} // Terser expects an object for source maps if we wanted them, but string works too usually.
-      // Actually Terser.minify takes string or object.
-      // To preserve order, we concatenate first.
       let combinedJs = ''
       for (const file of jsFiles) {
         try {
           const content = await fs.readFile(file, 'utf8')
-          combinedJs += content + ';\n' // Add semicolon to prevent concatenation issues
+          combinedJs += content + ';\n'
         } catch (e) {
           error(`Failed to read JS file: ${file} - ${e.message}`)
         }
       }
 
+      const originalSize = Buffer.byteLength(combinedJs, 'utf8')
+
       try {
-        const result = await Terser.minify(combinedJs, { compress: true, mangle: true })
+        const result = await Terser.minify(combinedJs, { 
+          compress: {
+            drop_console: true, // Remove console logs
+            drop_debugger: true
+          }, 
+          mangle: true 
+        })
+        
         if (result.error) throw result.error
+
+        const minifiedSize = Buffer.byteLength(result.code, 'utf8')
+        const saved = originalSize - minifiedSize
+        const savedPercent = originalSize > 0 ? ((saved / originalSize) * 100).toFixed(2) : 0
+
+        log(`JS Optimization: ${(originalSize / 1024).toFixed(2)} KB -> ${(minifiedSize / 1024).toFixed(2)} KB (Saved ${savedPercent}%)`)
 
         if (!argv.dryRun) {
           await fs.writeFile(path.join(DIST_DIR, 'scripts.min.js'), result.code)
@@ -155,34 +173,24 @@ async function main() {
       }
     }
 
-    // 6. Update HTML Files
+    // 6. Update HTML References
     log('Updating HTML references...')
 
     for (const file of htmlFiles) {
       const originalHtml = await fs.readFile(file, 'utf8')
-
       const $page = cheerio.load(originalHtml)
       let modified = false
 
       // Replace CSS
-      // Strategy: Remove all matched CSS links, insert the new one at the position of the first one found.
       if (cssFiles.length > 0) {
-        let firstCssIndex = -1
-        let parent = null
-
-        // Find all matching links (stylesheet and preload)
         const cssLinks = $page('link[rel="stylesheet"], link[rel="preload"][as="style"]').filter((i, el) => {
           const href = $page(el).attr('href')
           return href && cssFiles.includes(resolvePath(href))
         })
 
-        // Also find noscript tags containing these links
         const noscriptsToRemove = []
         $page('noscript').each((i, el) => {
           const html = $page(el).html()
-          // Simple check: if the noscript contains any of the bundled filenames
-          // This is a bit loose but efficient.
-          // Better: check if it contains hrefs to the files.
           let hasBundled = false
           for (const cssFile of cssFiles) {
             const filename = path.basename(cssFile)
@@ -197,19 +205,10 @@ async function main() {
         })
 
         if (cssLinks.length > 0) {
-          // Insert new link before the first occurrence
           const firstLink = cssLinks.first()
-
-          // Use standard blocking load for robustness, or maintain preload pattern?
-          // User asked for "single tags pointing to the new minified files".
-          // Standard link is safest for a bundle.
           firstLink.before('<link rel="stylesheet" href="/assets/dist/styles.min.css">')
-
           cssLinks.remove()
-
-          // Remove associated noscript tags as we are using a standard link now (works without JS)
           $(noscriptsToRemove).remove()
-
           modified = true
         }
       }
@@ -222,13 +221,7 @@ async function main() {
         })
 
         if (jsScripts.length > 0) {
-          // Check for defer/async on the first script to preserve loading behavior?
-          // The user's scripts usually have defer. We should apply defer.
-          const lastScript = jsScripts.last() // Usually scripts are at the bottom.
-          // If we put it where the last one was, we ensure DOM is ready if they relied on position.
-          // But if they had `defer`, position doesn't matter much.
-          // Let's replace the *last* script with the bundle, and remove others.
-
+          const lastScript = jsScripts.last()
           lastScript.after('<script defer src="/assets/dist/scripts.min.js"></script>')
           jsScripts.remove()
           modified = true
@@ -249,24 +242,16 @@ async function main() {
 }
 
 function isLocalAsset(url) {
-  // Check if url starts with /assets/ or assets/ or ./assets/
-  // Ignore http/https
   if (url.match(/^https?:\/\//)) return false
-  if (url.match(/^\/\//)) return false // Protocol-relative
+  if (url.match(/^\/\//)) return false
   return true
 }
 
 function resolvePath(url) {
-  // Convert URL to filesystem path in _site
-  // Remove query params
   let cleanUrl = url.split('?')[0]
-
   if (cleanUrl.startsWith('/')) {
     return path.join(SITE_DIR, cleanUrl)
   } else {
-    // Relative path? Assuming root relative for simplicity as Jekyll typically generates /assets/...
-    // If it's "assets/...", it's relative to current page.
-    // This is tricky. But most Jekyll themes use absolute paths /assets/...
     return path.join(SITE_DIR, cleanUrl)
   }
 }
