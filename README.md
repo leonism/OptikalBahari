@@ -215,6 +215,7 @@ build_command:
 - bundle exec jekyll build --profile --limit_posts 1 -- verbose && bash _scripts/post-built/post-build.sh
 - bundle exec jekyll build --profile
 - JEKYLL_ENV=production bundle exec jekyll build --verbose && bash _scripts/post-built/post-build.sh
+- JEKYLL_ENV=production bundle exec jekyll build --verbose && npm run postbuild
 ```
 ### Code Formating Command
 
