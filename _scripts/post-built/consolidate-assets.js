@@ -103,16 +103,39 @@ async function main() {
       for (const file of cssFiles) {
         try {
           const content = await fs.readFile(file, 'utf8')
-          rawCss += content + '\n'
+
+          // Rebase URLs
+          const rebasedContent = content.replace(/url\s*\((?:'|")?([^\)'"]+)(?:'|")?\)/g, (match, url) => {
+            url = url.trim()
+            if (url.startsWith('data:') || url.startsWith('http') || url.startsWith('//') || url.startsWith('/')) {
+              return match
+            }
+
+            // Calculate new relative path
+            const sourceDir = path.dirname(file)
+            const absoluteTarget = path.resolve(sourceDir, url)
+            let newUrl = path.relative(DIST_DIR, absoluteTarget)
+
+            // Normalize path separators for URL
+            newUrl = newUrl.split(path.sep).join('/')
+
+            return `url('${newUrl}')`
+          })
+
+          rawCss += rebasedContent + '\n'
         } catch (e) {
           error(`Failed to read CSS file: ${file} - ${e.message}`)
         }
       }
 
       const originalSize = Buffer.byteLength(rawCss, 'utf8')
-      // Enable aggressive optimization (level 2)
-      const output = new CleanCSS({ level: 2 }).minify(rawCss)
-      
+      // Use level 1 optimization to avoid stripping @font-face rules
+      // Disable rebasing since we did it manually
+      const output = new CleanCSS({
+        level: 1,
+        rebase: false,
+      }).minify(rawCss)
+
       if (output.errors.length > 0) {
         output.errors.forEach((e) => error(`CleanCSS Error: ${e}`))
       }
@@ -148,14 +171,14 @@ async function main() {
       const originalSize = Buffer.byteLength(combinedJs, 'utf8')
 
       try {
-        const result = await Terser.minify(combinedJs, { 
+        const result = await Terser.minify(combinedJs, {
           compress: {
             drop_console: true, // Remove console logs
-            drop_debugger: true
-          }, 
-          mangle: true 
+            drop_debugger: true,
+          },
+          mangle: true,
         })
-        
+
         if (result.error) throw result.error
 
         const minifiedSize = Buffer.byteLength(result.code, 'utf8')
