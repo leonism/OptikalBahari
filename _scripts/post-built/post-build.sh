@@ -31,7 +31,13 @@ else
 fi
 
 echo "🔒 Adding security headers..."
-find _site -name "*.html" -exec sed -i '' 's/<head>/<head><meta http-equiv="X-Content-Type-Options" content="nosniff"><meta http-equiv="X-Frame-Options" content="DENY"><meta http-equiv="X-XSS-Protection" content="1; mode=block">/g' {} \;
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  # macOS (BSD sed) requires an empty string for extension
+  find _site -type f -name "*.html" -exec sed -i '' 's/<head>/<head><meta http-equiv="X-Content-Type-Options" content="nosniff"><meta http-equiv="X-Frame-Options" content="DENY"><meta http-equiv="X-XSS-Protection" content="1; mode=block">/g' {} +
+else
+  # Linux (GNU sed) does not use an empty string for extension
+  find _site -type f -name "*.html" -exec sed -i 's/<head>/<head><meta http-equiv="X-Content-Type-Options" content="nosniff"><meta http-equiv="X-Frame-Options" content="DENY"><meta http-equiv="X-XSS-Protection" content="1; mode=block">/g' {} +
+fi
 
 echo "🔐 Generating SRI hashes..."
 find _site -name "*.css" -o -name "*.js" | while read file; do
