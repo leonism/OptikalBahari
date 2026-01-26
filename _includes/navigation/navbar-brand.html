@@ -1,4 +1,4 @@
-<a class="navbar-brand" href="{{ '/' | relative_url }}">
+<a class="navbar-brand" href="{{ '/' | relative_url }}" title="{{ site.title | escape }}">
   <picture>
     <!-- AVIF format -->
     <source
@@ -36,11 +36,12 @@
     <!-- Final fallback with alt and lazy loading -->
     <img
       src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/icons/optikalbahari"
-      alt="{{ site.title | escape }}"
       loading="lazy"
+      alt="{{ site.title | escape }}"
       decoding="async"
       width="30"
       height="30"
     />
   </picture>
+  {{ site.title | escape }}
 </a>
