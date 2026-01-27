@@ -194,4 +194,53 @@ footer ul:last-of-type {
       }
     }
   }
+
+  // Footer
+  footer {
+    background: $dark-footer-bg;
+    color: $dark-text;
+    padding: 1rem 0;
+    a {
+      color: $dark-footer-accent;
+      &:hover {
+        color: lighten($dark-footer-accent, 15%);
+        text-decoration: underline;
+      }
+    }
+    .btn {
+      background-color: $dark-button;
+      border-color: $dark-button;
+      color: $dark-text;
+      &:hover {
+        background-color: lighten($dark-button, 10%);
+        border-color: lighten($dark-button, 10%);
+      }
+    }
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $dark-text;
+    }
+
+    .copyright.text-muted.list-unstyled {
+      color: $dark-text;
+      li {
+        a {
+          color: $dark-footer-accent;
+          &:hover {
+            color: lighten($dark-footer-accent, 15%);
+          }
+        }
+      }
+    }
+
+    .badge.badge-pill.badge-danger {
+      background-color: #9e2a2f;
+      color: $dark-text;
+    }
+  }
 }

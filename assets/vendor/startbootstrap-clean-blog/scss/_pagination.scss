@@ -114,4 +114,33 @@
     pointer-events: none;
     box-shadow: none;
   }
+
+  // Pagination
+  .pagination.justify-content-center {
+    .page-item {
+      &.disabled {
+        .page-link {
+          background-color: $dark-accent;
+          color: $dark-text;
+          border-color: lighten($dark-accent, 10%);
+        }
+      }
+      &.active {
+        .page-link {
+          background-color: $dark-link;
+          border-color: $dark-link;
+          color: $dark-text;
+        }
+      }
+      .page-link {
+        background-color: $dark-accent;
+        color: $dark-text;
+        border-color: lighten($dark-accent, 10%);
+        &:hover {
+          background-color: lighten($dark-accent, 10%);
+          color: $dark-link;
+        }
+      }
+    }
+  }
 }
