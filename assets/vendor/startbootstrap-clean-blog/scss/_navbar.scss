@@ -141,17 +141,6 @@ body.dark-mode {
     }
   }
 
-  // Floating WhatsApp
-  .floatingWhatsApp {
-    &.intro-banner-vdo-play-btn {
-      background-color: $dark-button;
-      color: $dark-text;
-      &:hover {
-        background-color: lighten($dark-button, 10%);
-      }
-    }
-  }
-
   // Ripple greenBg
   .ripple.greenBg {
     background-color: $dark-ripple;
@@ -161,26 +150,6 @@ body.dark-mode {
     }
   }
 
-  // Blog content
-  .post-content {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      color: lighten($dark-text, 5%);
-    }
-    p {
-      color: $dark-text;
-    }
-  }
-
-  // Badges
-  .badge-danger {
-    background-color: #9e2a2f;
-    color: $dark-text;
-  }
 
   // Images dimming off
   img {
