@@ -30,11 +30,6 @@ body {
     outline-offset: 2px;
   }
 
-  .card-body {
-    background-color: #f8f9fa;
-    color: $light-text;
-  }
-
   // Global Search Icon Styling (applies to both light & dark modes by default)
   .navbar-search-area .nav-item form {
     position: relative;
