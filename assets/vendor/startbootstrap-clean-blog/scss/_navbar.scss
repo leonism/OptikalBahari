@@ -99,39 +99,6 @@ body.dark-mode {
     }
   }
 
-  // Cards
-  .card {
-    background-color: $dark-accent;
-    color: $dark-text;
-    border-color: lighten($dark-accent, 5%);
-    .card-body {
-      background-color: $dark-card-body;
-      color: $dark-text;
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        color: lighten($dark-text, 10%);
-      }
-      p {
-        color: $dark-text;
-      }
-      a {
-        color: $dark-link;
-        &:hover {
-          color: lighten($dark-link, 20%);
-        }
-      }
-    }
-    .card-footer {
-      background-color: $dark-accent;
-      color: $dark-text;
-      border-top: 1px solid lighten($dark-accent, 10%);
-    }
-  }
-
   // Buttons
   .btn-primary {
     background-color: $dark-button;
