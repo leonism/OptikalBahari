@@ -199,7 +199,7 @@ comments: false
     <p class="card-text text-start">
       Silahkan datang dan konsultasikan langsung di Optik Bahari di jalan
       <a
-        href="{{ "/lokasi/" | relative_url }}"
+        href="/lokasi/" | relative_url }}"
         title="Lokasi Optikal Bahari"
         id="lokasi"
         title="Lokasi Optikal Bahari"

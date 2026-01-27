@@ -27,7 +27,7 @@ comments: false
     </h3>
     <p class="card-text text-start">
       Kalo kamu kebetulan tinggal atau sedang berada di daerah Kemayoran atau sekitarnya, dan sedang mempertimbangkan utuk membeli Kacamata berhubung mungkin ukuran kamu sudah berubah atau butuh model baru karena model lama mungkin sudah bosan, mungkin boleh dicoba untuk mampir ke Optikal Bahari, di
-      <a href="{{ "/lokasi/" | relative_url }}" title="Optikal Bahari, Jakarta Pusat">Jalan Bendungan Jago No 447 Kemayoran</a>, Jakarta Pusat.
+      <a href="/lokasi/" | relative_url }}" title="Optikal Bahari, Jakarta Pusat">Jalan Bendungan Jago No 447 Kemayoran</a>, Jakarta Pusat.
     </p>
     <p class="card-text text-start">
       Cuma di Optikal Bahari dengan pengalaman selama 40 tahun yang bisa kasih kamu pelayanan pemeriksaan gratis dengan alat yang sudah modern dan terkomputerisasi. Jadi sebelum kamu memilih kacamata yang kamu suka, kami akan memberikan kamu pemeriksaan gratis tanpa adanya pungutan biaya.
@@ -65,7 +65,7 @@ comments: false
     </p>
     <p class="card-text text-start">
       Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
-      <a href="{{ "/lokasi/" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+      <a href="/lokasi/" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
       <a
         href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
         id="WhatsAppClick"

@@ -17,7 +17,7 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp" | relative_url }}"
+    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp" | relative_url }}"
     class="card-img-top"
     title="Autorefractometer atau Auto Lens Meter"
     alt="Autorefractometer atau Auto Lens Meter">
@@ -36,7 +36,7 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp" | relative_url }}"
+    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp" | relative_url }}"
     class="card-img-top"
     title="Segera Kunjungi Optikal Bahari"
     alt="Segera Kunjungi Optikal Bahari">
@@ -55,7 +55,7 @@ comments: false
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
-    src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | relative_url }}"
+    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | relative_url }}"
     class="card-img-top"
     title="Periksa Mata Dengan Komputer"
     alt="Periksa Mata Dengan Komputer">
@@ -69,7 +69,7 @@ comments: false
     </p>
     <p class="card-text text-start">
       Ini yang menjadikan Optikal Bahari sebagai tempat yang jual kacamata keren terbaik saat ini. Kamu bisa bernafas lega tanpa mengkhawatirkan bunga cicilan. Kamu juga bisa melunasi kacamata yang sudah kamu beli sesuai perjanjian. Namun tentu saja harus ada jaminan untuk bisa melakukannya, bukan? Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
-      <a href="{{ "/lokasi/" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+      <a href="/lokasi/" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
       <a
         href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
         id="WhatsAppClick"

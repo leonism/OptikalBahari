@@ -149,7 +149,7 @@ comments: false
     <p class="card-text text-start">
       Kunjungi Optikal Bahari sekarang dan temukan kacamata pria impian Anda. Dapatkan garansi 1 tahun untuk setiap pembelian kacamata, serta layanan gratis service & reparasi untuk memastikan kacamata Anda tetap dalam kondisi terbaik. Optikal Bahari siap membantu Anda menemukan kacamata pria yang tidak hanya memenuhi kebutuhan Anda, tetapi juga memancarkan gaya dan kepribadian Anda dengan percaya diri!		                                                           
       Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
-      <a href="{{ "/lokasi/" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan                                                                                                      
+      <a href="/lokasi/" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan                                                                                                      
             Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda.                                                                                                      
             Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
       <a

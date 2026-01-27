@@ -1,7 +1,6 @@
 # Cloudinary Migration Example
 
-This document shows how to update your existing Jekyll posts and pages to use
-the new Cloudinary integration.
+This document shows how to update your existing Jekyll posts and pages to use the new Cloudinary integration.
 
 ## Before: Traditional Image Usage
 

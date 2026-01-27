@@ -89,6 +89,41 @@
 /Volumes/DATA/Jekyll/OptikalBahari/assets/img/splash-page-ob-lokasi.png
 /Volumes/DATA/Jekyll/OptikalBahari/assets/img/splash-page-ob-lokasi.webp
 
+---------- /Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons ----------
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/android-chrome-144x144.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/android-icon-144x144.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/android-icon-192x192.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/android-icon-36x36.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/android-icon-48x48.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/android-icon-72x72.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/android-icon-96x96.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/apple-icon-114x114.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/apple-icon-120x120.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/apple-icon-144x144.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/apple-icon-152x152.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/apple-icon-180x180.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/apple-icon-57x57.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/apple-icon-60x60.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/apple-icon-72x72.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/apple-icon-76x76.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/apple-icon-precomposed.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/apple-icon.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/apple-touch-icon.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/browserconfig.xml
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/favicon-16x16.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/favicon-32x32.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/favicon-96x96.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/favicon.ico
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/favicon.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/ms-icon-144x144.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/ms-icon-150x150.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/ms-icon-310x310.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/ms-icon-70x70.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/mstile-150x150.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/optikalbahari.png
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/safari-pinned-tab.svg
+/Volumes/DATA/Jekyll/OptikalBahari/assets/img/icons/site.webmanifest
+
 ---------- /Volumes/DATA/Jekyll/OptikalBahari/assets/img/posts ----------
 /Volumes/DATA/Jekyll/OptikalBahari/assets/img/posts/001.jpg
 /Volumes/DATA/Jekyll/OptikalBahari/assets/img/posts/001.webp
@@ -1174,13 +1209,6 @@
 /Volumes/DATA/Jekyll/OptikalBahari/assets/img/profil/kemayoran-tempoe-doeloe-transformed.webp
 /Volumes/DATA/Jekyll/OptikalBahari/assets/img/profil/kemayoran-tempoe-doeloe.jpg
 /Volumes/DATA/Jekyll/OptikalBahari/assets/img/profil/kemayoran-tempoe-doeloe.webp
-
----------- /Volumes/DATA/Jekyll/OptikalBahari/assets/img/profil/maximized ----------
-/Volumes/DATA/Jekyll/OptikalBahari/assets/img/profil/maximized/bandar-udara-kemayoran-80an.jpeg
-/Volumes/DATA/Jekyll/OptikalBahari/assets/img/profil/maximized/bandar-udara-kemayoran-80an.jpg
-/Volumes/DATA/Jekyll/OptikalBahari/assets/img/profil/maximized/bandar-udara-kemayoran-80an.webp
-/Volumes/DATA/Jekyll/OptikalBahari/assets/img/profil/maximized/bandar-udara-kemayoran-max.jpeg
-/Volumes/DATA/Jekyll/OptikalBahari/assets/img/profil/maximized/bandar-udara-kemayoran-max.webp
 
 ---------- /Volumes/DATA/Jekyll/OptikalBahari/assets/img/splash-screen ----------
 /Volumes/DATA/Jekyll/OptikalBahari/assets/img/splash-screen/bg-splash-post-00.jpg
