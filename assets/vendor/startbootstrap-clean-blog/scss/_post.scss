@@ -31,6 +31,18 @@
         color: $primary;
       }
     }
+
+    // Dark mode override
+    body.dark-mode & {
+      color: $dark-text;
+      > a {
+        color: $dark-link;
+        &:focus,
+        &:hover {
+          color: lighten($dark-link, 10%);
+        }
+      }
+    }
   }
   @media only screen and (min-width: 768px) {
     > a {

@@ -195,6 +195,9 @@ body.dark-mode {
       background-color: $dark-accent;
       color: $dark-text;
       border-top: 1px solid lighten($dark-accent, 10%);
+      .text-muted {
+        color: rgba($dark-text, 0.8) !important;
+      }
     }
   }
 
@@ -387,6 +390,20 @@ body.dark-mode {
   .card.bg-white {
     background-color: $dark-bg !important; /* Dark background color */
     color: #ffffff; /* Adjust text color for better contrast */
+  }
+
+  // Theme Toggle Icon Overrides
+  .toggle-icon {
+    .fa-circle.fa-stack-2x {
+      // Lightened background circle for contrast against the dark navbar
+      color: lighten($dark-accent, 15%);
+    }
+    .light-icon {
+      color: $warning; // Sun icon
+    }
+    .dark-icon {
+      color: $dark-text; // Moon icon
+    }
   }
 }
 
