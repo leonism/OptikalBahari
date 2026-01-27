@@ -41,7 +41,7 @@ comments: false
               <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
               <p class="card-text text-start">
                 {{ post.description | strip_html | truncate: 100 }}
-                <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+                <a class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none text-white"
                   href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
                   title="{{ post.title }}">
                   Lebih Lanjut
@@ -94,7 +94,7 @@ comments: false
               <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
               <p class="card-text text-start">
                 {{ post.description | strip_html | truncate: 100 }}
-                <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+                <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none text-white"
                   href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
                   title="{{ post.title }}">
                   Lebih Lanjut
@@ -147,7 +147,7 @@ comments: false
               <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
               <p class="card-text text-start">
                 {{ post.description | strip_html | truncate: 100 }}
-                <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+                <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none text-white"
                   href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
                   title="{{ post.title }}">
                   Lebih Lanjut

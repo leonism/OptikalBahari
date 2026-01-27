@@ -8,7 +8,7 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 ---
 
 <!-- start page header -->
-{% include navigation/navbar.html %} {% if page.background %}
+{% include navigation/navbar.html %}{% if page.background %}
 <header
   class="masthead"
   style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')"
@@ -38,14 +38,16 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
   </header>
 
   <div class="container">
-    {{ content }} {% if page.comments %}
+    {{ content }}
+      {% if page.comments %}
     <div
       class="fb-comments"
       data-href="{{ site.url }}{{ page.url }}"
       data-numposts="5"
       data-width="720"
       style="margin: 0 auto"
-    ></div>
+    >
+    </div>
     {% endif %}
     <div class="clearfix">
       {% if page.previous.url %}

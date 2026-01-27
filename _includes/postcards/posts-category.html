@@ -21,7 +21,7 @@
           <p class="card-text text-start">
             {{ post.description | strip_html | truncate: 100 }}
             <a
-              class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+              class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none"
               href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
               title="{{ post.title }}"
             >
@@ -68,7 +68,7 @@
           <p class="card-text text-start">
             {{ post.description | strip_html | truncate: 100 }}.
             <a
-              class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+              class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none"
               href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
               title="{{ post.title }}"
             >
@@ -115,7 +115,7 @@
         <p class="card-text text-start">
           {{ post.description | strip_html | truncate: 100 }}.
           <a
-            class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+            class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none"
             href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
             title="{{ post.title }}"
           >

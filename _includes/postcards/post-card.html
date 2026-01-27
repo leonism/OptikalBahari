@@ -22,7 +22,7 @@
     <p class="card-text text-start">
       {{ include.post.description | strip_html | truncate: 100 }}
       <a
-        class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
+        class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none"
         href="{{ include.post.url | prepend: site.baseurl | replace: '//', '/' }}"
         title="{{ include.post.title }}"
       >
