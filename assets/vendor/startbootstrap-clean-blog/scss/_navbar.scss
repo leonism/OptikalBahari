@@ -1,241 +1,23 @@
-// Light mode defaults
-body {
-  background-color: $light-bg;
-  color: $light-text;
-  transition:
-    background-color 0.3s,
-    color 0.3s;
+// Navbar Component
+// Includes main navigation, branding, toggler, and mode-switch icons.
 
-  a {
-    color: $light-link;
-    &:hover {
-      color: darken($light-link, 10%);
-    }
-  }
-
-  .navbar-light {
-    background-color: $light-bg;
-    .navbar-brand,
-    .navbar-nav .nav-link {
-      color: $light-text;
-    }
-  }
-
-  // Accessibility Focus Styles
-  .navbar a:focus,
-  .navbar button:focus,
-  .navbar input:focus,
-  .navbar .form-check-input:focus {
-    outline: 2px solid $light-link;
-    outline-offset: 2px;
-  }
-
-  // Global Search Icon Styling (applies to both light & dark modes by default)
-  .navbar-search-area .nav-item form {
-    position: relative;
-    width: 200px;
-  }
-  .navbar-search-area .nav-item .form-control.custom-search {
-    padding-right: 2.5rem !important;
-    width: 100%;
-  }
-  .navbar-search-area .nav-item .search-icon-container {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none;
-  }
-  .navbar-search-area .nav-item .fas.fa-search.light-icon {
-    display: inline;
-    color: $light-text;
-  }
-  .navbar-search-area .nav-item .fas.fa-search.dark-icon {
-    display: none;
-  }
-}
-
-// Dark mode overrides
-body.dark-mode {
-  background-color: $dark-bg;
-  color: $dark-text;
-
-  // Navbar
-  .navbar {
-    background-color: $dark-accent !important;
-    .navbar-brand,
-    .navbar-nav .nav-link {
-      color: $dark-text !important;
-      &:hover {
-        color: lighten($dark-text, 10%);
-      }
-    }
-    .form-check-input {
-      background-color: $dark-button;
-      border-color: $dark-button;
-      &:checked {
-        background-color: $dark-link;
-      }
-    }
-    .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23d1d1d1' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    }
-  }
-
-  // Font Awesome stack
-  .fa-stack.fa-lg {
-    color: $dark-text;
-    .fa-circle.fa-stack-2x {
-      color: $dark-accent;
-    }
-    .fa-stack-1x {
-      color: $dark-link;
-    }
-  }
-
-  // List inline
-  .list-inline.text-center {
-    color: $dark-text;
-    li {
-      a {
-        color: $dark-link;
-        &:hover {
-          color: lighten($dark-link, 15%);
-        }
-      }
-    }
-  }
-
-  // Ripple greenBg
-  .ripple.greenBg {
-    background-color: $dark-ripple;
-    color: $dark-text;
-    &:hover {
-      background-color: lighten($dark-ripple, 10%);
-    }
-  }
-
-
-  // Images dimming off
-  img {
-    filter: brightness(50%);
-  }
-
-  // Search Icon Overrides for Dark Mode
-  .navbar .nav-item .fas.fa-search.light-icon {
-    display: none;
-  }
-  .navbar .nav-item .fas.fa-search.dark-icon {
-    display: inline;
-    color: $dark-text;
-  }
-
-  // Toggle switch and icons
-  .form-check.form-switch.mb-0 {
-    .form-check-input {
-      background-color: $dark-button;
-      border-color: $dark-button;
-      &:checked {
-        background-color: $dark-link;
-      }
-    }
-    .form-check-label {
-      .light-icon {
-        color: $light-text;
-      }
-      .dark-icon {
-        color: $dark-text;
-      }
-    }
-  }
-}
-
-// ================================================
-// Toggle Icon Visibility (applies globally)
-.form-check-label {
-  .light-icon {
-    display: inline;
-  }
-  .dark-icon {
-    display: none;
-  }
-}
-
-body.dark-mode .form-check-label {
-  .light-icon {
-    display: none;
-  }
-  .dark-icon {
-    display: inline;
-  }
-}
-
-// ================================================
-// General Styles
-.navbar {
-  .nav-item {
-    .form-check {
-      padding-left: 0;
-      .form-check-input {
-        margin-top: 0;
-      }
-      .form-check-label {
-        cursor: pointer;
-        padding-left: 0.5rem;
-      }
-    }
-  }
-}
-
-.form-check-input {
-  display: none;
-}
-
-.form-check-label {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.dark-icon {
-  display: none;
-}
-
-body.dark-mode .light-icon {
-  display: none;
-}
-
-body.dark-mode .dark-icon {
-  display: inline;
-}
-
-/* Reset default browser styles */
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-/* Base Navbar Styling */
 #mainNav {
   margin: 0;
   position: absolute;
-  top: 0; /* Ensure navbar is flush with the top */
-  // border-bottom: 1px solid $gray-200;
-  background-color: white;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white; // Default light mode bg (overridden by transparency on desktop usually)
   @include sans-serif-font;
-  width: 100%; /* Ensure full width */
-  z-index: 1000; /* Ensure navbar stays on top */
-  // border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease-in-out;
-  // filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Soft shadow for depth */
-  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2)); /* Soft shadow for depth */
-  // background: rgba(255, 246, 246, 10) !important; /* Semi-transparent background */
+  
+  // Shadows & Filters
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
   backdrop-filter: blur(200px) saturate(160%);
-  -webkit-backdrop-filter: blur(200px) saturate(160%); /* Safari support */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  -webkit-backdrop-filter: blur(200px) saturate(160%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
+  // 1. Brand
   .navbar-brand {
     margin: 0;
     font-weight: 900;
@@ -247,12 +29,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
 
+  // 2. Toggler
   .navbar-toggler {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  .navbar-toggler-icon {
     font-size: 12px;
     font-weight: 900;
     padding: 10px;
@@ -260,8 +38,11 @@ body {
     color: $gray-900;
     border: none;
     font-smooth: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
+  // 3. Nav Links
   .navbar-nav {
     > li.nav-item {
       > a {
@@ -286,82 +67,74 @@ body {
     }
   }
 
-  /* Mobile Styling */
-  @media (max-width: 991.98px) {
+  // 4. Accessibility / Focus
+  a:focus,
+  button:focus,
+  input:focus,
+  .form-check-input:focus {
+    outline: 2px solid $light-link;
+    outline-offset: 2px;
+  }
+}
+
+// ==========================================================================
+// Media Queries: Mobile vs Desktop
+// ==========================================================================
+
+@media (max-width: 991.98px) {
+  #mainNav {
     &.is-fixed {
       position: fixed;
-      top: 0; /* Fixed at the top of the screen */
-      background-color: white; /* Ensure background is visible */
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+      top: 0;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
-
     &.is-visible {
-      transform: translateY(0); /* Ensure navbar is visible */
+      transform: translateY(0);
     }
-
-    // Mobile Navigation Alignment
+    
     .navbar-nav {
       text-align: left;
-      align-items: flex-start !important; // Override center alignment
-
+      align-items: flex-start !important;
+      
       .nav-item {
         margin-left: 0;
         width: 100%;
-
         .nav-link {
           padding-left: 0;
-          display: block; // Ensure full width click area
+          display: block;
         }
       }
     }
-
-    .navbar-search-area {
-      width: 100%;
-      margin-top: 10px;
-
-      .navbar-nav {
-        align-items: flex-start !important;
-      }
-
-      .nav-item form {
-        width: 100%;
-      }
-    }
   }
+}
 
-  /* Desktop Styling */
-  @media (min-width: 992px) {
+@media (min-width: 992px) {
+  #mainNav {
     border-bottom: 1px solid transparent;
-    background: transparent;
+    background: transparent; // Transparent on top
 
     .navbar-brand {
       padding: 10px 20px;
       color: $white;
-
-      &:focus,
-      &:hover {
+      &:focus, &:hover {
         color: fade-out($white, 0.1);
         transform: translateY(-2px);
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
     }
 
-    .navbar-nav {
-      > li.nav-item {
-        > a {
-          padding: 10px 20px;
-          color: $white;
-
-          &:focus,
-          &:hover {
-            color: fade-out($white, 0.1);
-            transform: translateY(-2px);
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-          }
-        }
+    .navbar-nav > li.nav-item > a {
+      padding: 10px 20px;
+      color: $white;
+      &:focus, &:hover {
+        color: fade-out($white, 0.1);
+        transform: translateY(-2px);
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
     }
 
+    // Scroll Behavior
     &.is-fixed {
       position: fixed;
       top: -70px;
@@ -371,33 +144,102 @@ body {
 
       .navbar-brand {
         color: $gray-900;
-
-        &:focus,
-        &:hover {
+        &:focus, &:hover {
           color: $primary;
-          transform: translateY(-2px);
-          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
       }
 
-      .navbar-nav {
-        > li.nav-item {
-          > a {
-            color: $gray-900;
-
-            &:focus,
-            &:hover {
-              color: $primary;
-              transform: translateY(-2px);
-              text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            }
-          }
+      .navbar-nav > li.nav-item > a {
+        color: $gray-900;
+        &:focus, &:hover {
+          color: $primary;
         }
       }
     }
 
     &.is-visible {
       transform: translate3d(0, 100%, 0);
+    }
+  }
+}
+
+// ==========================================================================
+// Theme Toggle Switch & Icons
+// ==========================================================================
+
+// Container for the stack
+.toggle-icon {
+  font-size: 14px;
+  margin-top: 10px;
+
+  > i.fa-circle.fa-stack-2x {
+    color: white;
+    font-size: 25px !important;
+    line-height: 14px;
+    vertical-align: middle;
+  }
+  
+  > i.fa-stack-1x {
+    color: $dark-card-body;
+    font-size: 16px !important;
+    line-height: 14px;
+    vertical-align: middle;
+  }
+}
+
+.form-check.form-switch {
+  padding-left: 0;
+  .form-check-input {
+    display: none; // Hidden input
+  }
+  .form-check-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+// Light Mode: Show Moon (Dark Icon)
+body:not(.dark-mode) .toggle-icon {
+  .dark-icon { display: inline-block; color: $light-text; }
+  .light-icon { display: none; }
+}
+
+// Dark Mode: Show Sun (Light Icon)
+body.dark-mode .toggle-icon {
+  .light-icon { display: inline-block; color: white; }
+  .dark-icon { display: none; }
+}
+
+// ==========================================================================
+// Dark Mode Overrides
+// ==========================================================================
+
+body.dark-mode {
+  #mainNav {
+    background-color: $dark-accent !important;
+    
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: $dark-text !important;
+      &:hover {
+        color: lighten($dark-text, 10%);
+      }
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23d1d1d1' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    // Toggle Switch specific styles in dark mode
+    .form-check-input {
+      background-color: $dark-button;
+      border-color: $dark-button;
+      &:checked {
+        background-color: $dark-link;
+      }
     }
   }
 }

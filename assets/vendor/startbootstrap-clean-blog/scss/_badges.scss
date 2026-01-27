@@ -1,20 +1,58 @@
-// ================================================
-// Badge Fixes
-.badge.badge-pill.badge-danger.light-icon {
-  background-color: #dc3545;
-  color: $white;
+// Badges Component
+// Styling for status badges.
+
+.badge {
+  // Footer usage specific overrides
+  footer & {
+    font-size: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+    background-color: #dc4245;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    letter-spacing: normal;
+
+    &:hover { background-color: #c23336; }
+    &:active { animation: pulse 0.6s ease-in-out; }
+  }
 }
 
-.badge.badge-pill.badge-danger.dark-icon {
-  background-color: #9e2a2f;
-  color: $white;
-  display: none;
+// Badge Variants
+.badge.badge-pill.badge-danger {
+  &.light-icon {
+    background-color: #dc3545;
+    color: $light-badge-text;
+  }
+  &.dark-icon {
+    background-color: #9e2a2f; // Fallback or distinct color
+    color: $white;
+    display: none;
+  }
 }
 
-body.dark-mode .badge.badge-pill.badge-danger.light-icon {
-  display: none;
-}
+// ==========================================================================
+// Dark Mode Overrides
+// ==========================================================================
 
-body.dark-mode .badge.badge-pill.badge-danger.dark-icon {
-  display: inline;
+body.dark-mode {
+  .badge.badge-pill.badge-danger {
+    &.light-icon { display: none; }
+    &.dark-icon { 
+      display: inline; 
+      background-color: #77b1d2; // Muted blue
+      color: $dark-text;
+    }
+    
+    // Footer Context
+    footer & {
+      background-color: $dark-link;
+      color: $dark-text;
+    }
+  }
+  
+  // Generic badge-danger override
+  .badge-danger {
+    background-color: #9e2a2f;
+    color: $dark-text;
+  }
 }

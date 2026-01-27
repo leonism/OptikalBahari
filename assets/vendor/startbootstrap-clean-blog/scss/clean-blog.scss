@@ -1,24 +1,23 @@
+// Main SCSS File
+// Imports all partials in the correct order.
+
+// 1. Abstracts
 @import 'variables.scss';
 @import 'mixins.scss';
-@import 'global.scss';
+
+// 2. Base
+@import 'base.scss';
+
+// 3. Components
 @import 'navbar.scss';
 @import 'masthead.scss';
-@import 'post.scss';
 @import 'footer.scss';
-@import 'whatsapp.scss';
-@import 'lazyload.scss';
-@import 'videos.scss';
-@import 'blinkies.scss';
-@import 'overlapping.scss';
-@import 'bootstrap-overrides.scss';
-@import 'hover.scss';
-@import 'maps.scss';
-@import 'pagination.scss';
-@import 'search.scss';
-@import 'icons.scss';
-@import 'logo.scss';
-@import 'headings.scss';
-@import 'darkmode.scss';
-@import 'badges.scss';
 @import 'buttons.scss';
-// @import "contact.scss";
+@import 'cards.scss';
+@import 'pagination.scss';
+@import 'badges.scss';
+@import 'forms.scss';
+@import 'post.scss'; // Keeping original specific post styles
+
+// 4. Utilities
+@import 'utilities.scss';

@@ -1,0 +1,165 @@
+// Forms Component
+// Includes Search Form and Contact Form styles.
+
+// ==========================================================================
+// 1. Google Search Form (Navbar/Global)
+// ==========================================================================
+
+#search-google {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  width: 100%;
+  max-width: 400px;
+  
+  .custom-search {
+    width: 100%;
+    padding: 10px 48px 10px 20px;
+    font-size: 16px;
+    color: #10180e;
+    background-color: #fff;
+    border: 2px solid #dc4245;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    &:focus {
+      outline: none;
+      border-color: #c23336;
+      box-shadow: 0 0 12px rgba(220, 66, 69, 0.6);
+    }
+    
+    &::placeholder {
+      color: #6c757d;
+      opacity: 1;
+      font-weight: 400;
+    }
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #dc4245;
+    pointer-events: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+
+  &:hover .search-icon {
+    color: #e1103d;
+  }
+}
+
+// Navbar Search Icon Logic (Light/Dark Switch)
+.navbar .nav-item {
+  form {
+    position: relative;
+    width: 200px;
+  }
+  
+  .form-control.custom-search {
+    padding-right: 2.5rem !important;
+    width: 100%;
+  }
+  
+  .search-icon-container {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  .fas.fa-search {
+    &.light-icon { display: inline; color: $dark-accent; }
+    &.dark-icon { display: none; color: $dark-accent; }
+  }
+}
+
+// Dark Mode for Search Icons
+body.dark-mode {
+  .navbar .nav-item .fas.fa-search {
+    &.light-icon { display: none; }
+    &.dark-icon { display: inline; color: $dark-text; }
+  }
+}
+
+// Responsive Search
+@media (max-width: 767.98px) {
+  #search-google {
+    margin-left: 0;
+    max-width: 100%;
+    
+    .custom-search {
+      padding: 14px 52px 14px 18px;
+      font-size: 17px;
+      height: 45px;
+    }
+    
+    .search-icon {
+      right: 17px;
+      font-size: 18px;
+    }
+  }
+}
+
+// ==========================================================================
+// 2. Contact Form (Floating Labels)
+// ==========================================================================
+
+.floating-label-form-group {
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid $gray-300;
+
+  input,
+  textarea {
+    font-size: 1.5em;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    resize: none;
+    border: none;
+    border-radius: 0;
+    background: none;
+    box-shadow: none !important;
+    @include serif-font;
+
+    &::-webkit-input-placeholder {
+      color: $gray-600;
+      @include serif-font;
+    }
+  }
+
+  label {
+    font-size: 0.85em;
+    line-height: 1.764705882em;
+    position: relative;
+    z-index: 0;
+    top: 2em;
+    display: block;
+    margin: 0;
+    transition: top 0.3s ease, opacity 0.3s ease;
+    vertical-align: baseline;
+    opacity: 0;
+  }
+
+  .help-block { margin: 15px 0; }
+}
+
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+
+.floating-label-form-group-with-focus label {
+  color: $primary;
+}
+
+form .form-group:first-child .floating-label-form-group {
+  border-top: 1px solid $gray-300;
+}

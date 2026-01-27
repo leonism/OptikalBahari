@@ -1,246 +1,180 @@
-/* ===============================
-   **Footer Base Styling**
-   =============================== */
+// Footer Component
+// Footer layout, social icons, copyright, and responsive behavior.
+
 footer {
-  padding: 30px 0 40px; /* Padding for spacing */
-  background-color: #f7f7f7; /* Light neutral background */
-  border-top: 1px solid #d8d8d8; /* Subtle border for separation */
-  font-family: 'Arial', sans-serif; /* Clean typography */
-  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3)); /* Bolder shadow for depth */
-  box-shadow: rgba(20, 20, 20, 0.06) 0px 2px 4px 0px inset; /* Inset shadow for depth */
-}
+  padding: 30px 0 40px;
+  background-color: #f7f7f7;
+  border-top: 1px solid #d8d8d8;
+  font-family: 'Arial', sans-serif;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3));
+  box-shadow: rgba(20, 20, 20, 0.06) 0px 2px 4px 0px inset;
 
-/* ===============================
-   **Inline List Styling**
-   =============================== */
-footer .list-inline {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center; /* Center align items */
-  gap: 10px; /* Space between items */
-  margin-bottom: 20px; /* Spacing below the list */
-}
-
-/* ===============================
-   **Font Icons Styling**
-   =============================== */
-footer .list-inline-item a {
-  color: #10180e; /* Default text color */
-  transition:
-    transform 0.3s ease,
-    color 0.3s ease; /* Smooth transitions */
-  display: inline-block;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); /* Subtle shadow */
-  font-size: 1.2em; /* Icon size */
-  text-decoration: none; /* Remove underline */
-}
-
-footer .list-inline-item a:hover {
-  color: #ed4833; /* Bold hover color */
-  transform: translateY(-5px); /* Lift effect */
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Stronger shadow on hover */
-}
-
-footer .list-inline-item .fa-stack {
-  transition:
-    transform 0.3s ease,
-    color 0.3s ease; /* Smooth transitions */
-}
-
-footer .list-inline-item .fa-stack:hover {
-  transform: scale(1.3); /* Slightly enlarge on hover */
-}
-
-/* ===============================
-   **Text Links Styling**
-   =============================== */
-footer .copyright {
-  font-size: 14px; /* Font size */
-  margin-bottom: 0; /* No extra space below */
-  text-align: center; /* Center align text */
-  color: #6c757d; /* Neutral text color */
-  font-family: 'Arial', sans-serif; /* Consistent typography */
-  letter-spacing: normal; /* Natural spacing */
-}
-
-footer .copyright.list-unstyled {
-  list-style: none; /* Remove bullet points */
-  padding-left: 0; /* No padding */
-  margin-top: 5px; /* Spacing above the list */
-}
-
-footer .copyright.list-unstyled li {
-  display: inline-block; /* Inline display for compact layout */
-  margin-right: 2px; /* Small spacing between items */
-}
-
-footer .copyright.list-unstyled li:last-child {
-  margin-right: 0; /* Remove margin for the last item */
-}
-
-footer .copyright.list-unstyled a {
-  text-decoration: none; /* Remove underline */
-  color: #10180e; /* Default link color */
-  transition:
-    color 0.3s ease,
-    transform 0.3s ease; /* Smooth transitions */
-  font-family: 'Arial', sans-serif; /* Consistent typography */
-  letter-spacing: normal; /* Natural spacing */
-}
-
-footer .copyright.list-unstyled a:hover {
-  color: #ed4833; /* Bold hover color */
-  transform: translateY(-5px); /* Lift effect */
-}
-
-/* ===============================
-   **Badge Styling**
-   =============================== */
-footer .badge {
-  font-size: 10px; /* Small font size */
-  padding: 4px 6px; /* Compact padding */
-  vertical-align: middle; /* Align with text */
-  background-color: #dc4245; /* Bold red background */
-  color: #fff; /* White text */
-  transition: background-color 0.3s ease; /* Smooth color transition */
-  letter-spacing: normal; /* Natural spacing */
-}
-
-footer .badge:hover {
-  background-color: #c23336; /* Darker red on hover */
-}
-
-/* Pulsing Animation for Active State */
-footer .badge:active,
-footer .copyright.list-unstyled a:active {
-  animation: pulse 0.6s ease-in-out; /* Pulsing animation */
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1); /* Normal size */
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5); /* Subtle glow */
-  }
-  50% {
-    transform: scale(0.95); /* Slightly shrink */
-    box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.8); /* Brighter glow */
-  }
-  100% {
-    transform: scale(1); /* Return to normal size */
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); /* Fade out glow */
-  }
-}
-
-/* ===============================
-   **Copyright Text Styling**
-   =============================== */
-footer ul:last-of-type {
-  list-style: none; /* Remove bullet points */
-  padding-left: 0; /* No padding */
-  margin: 0; /* No margin */
-  text-align: center; /* Center align text */
-  font-size: 12px; /* Small font size */
-  color: #10180e; /* Neutral text color */
-  font-family: 'Arial', sans-serif; /* Consistent typography */
-  letter-spacing: normal; /* Natural spacing */
-}
-
-/* ===============================
-   **Responsive Adjustments for Mobile**
-   =============================== */
-@media (max-width: 767.98px) {
-  footer {
-    padding: 20px 0 30px; /* Reduced padding */
+  // General Text Colors
+  color: $light-text;
+  a {
+    color: $light-link;
+    &:hover {
+      color: darken($light-link, 10%);
+    }
   }
 
-  footer .list-inline {
-    flex-wrap: wrap; /* Allow wrapping */
-    gap: 5px; /* Smaller gap */
-    margin-bottom: 15px; /* Reduced spacing */
+  // 1. Social Icons (List Inline)
+  .list-inline {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
   }
 
-  footer .list-inline-item a {
-    padding: 0; /* Remove padding */
-    font-size: 0.9em; /* Slightly smaller icons */
-    text-decoration: underline; /* Add underline for clarity */
-  }
-
-  footer .copyright {
-    font-size: 12px; /* Smaller font size */
-  }
-
-  footer .copyright.list-unstyled li {
+  .list-inline-item a {
+    color: #10180e;
+    transition: transform 0.3s ease, color 0.3s ease;
     display: inline-block;
-    margin: 0 4px; /* Tighter spacing */
-  }
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    font-size: 1.2em;
+    text-decoration: none;
 
-  footer .badge {
-    font-size: 8px; /* Smaller font size */
-    padding: 2px 4px; /* Compact padding */
-  }
-
-  footer ul:last-of-type {
-    font-size: 12px; /* Smaller font size */
-  }
-
-  footer {
-    background-color: #f1f1f1;
-    color: $light-text;
-    a {
-      color: $light-link;
+    &:hover {
+      color: $redLips;
+      transform: translateY(-5px);
+      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    }
+    
+    .fa-stack {
+      transition: transform 0.3s ease, color 0.3s ease;
       &:hover {
-        color: darken($light-link, 10%);
+        transform: scale(1.3);
       }
     }
   }
 
-  // Footer
-  footer {
-    background: $dark-footer-bg;
-    color: $dark-text;
-    padding: 1rem 0;
-    a {
-      color: $dark-footer-accent;
-      &:hover {
-        color: lighten($dark-footer-accent, 15%);
-        text-decoration: underline;
-      }
-    }
-    .btn {
-      background-color: $dark-button;
-      border-color: $dark-button;
-      color: $dark-text;
-      &:hover {
-        background-color: lighten($dark-button, 10%);
-        border-color: lighten($dark-button, 10%);
-      }
-    }
-    p,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      color: $dark-text;
-    }
+  // 2. Copyright Section
+  .copyright {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #6c757d;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: normal;
+    
+    &.list-unstyled {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 5px;
 
-    .copyright.text-muted.list-unstyled {
-      color: $dark-text;
       li {
-        a {
-          color: $dark-footer-accent;
-          &:hover {
-            color: lighten($dark-footer-accent, 15%);
-          }
+        display: inline-block;
+        margin-right: 2px;
+        &:last-child { margin-right: 0; }
+      }
+
+      a {
+        text-decoration: none;
+        color: #10180e;
+        transition: color 0.3s ease, transform 0.3s ease;
+        font-family: 'Arial', sans-serif;
+        
+        &:hover {
+          color: $redLips;
+          transform: translateY(-5px);
+        }
+        
+        &:active {
+          animation: pulse 0.6s ease-in-out;
         }
       }
     }
+  }
 
-    .badge.badge-pill.badge-danger {
-      background-color: #9e2a2f;
-      color: $dark-text;
+  // 3. Footer Links (Last list)
+  ul:last-of-type {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    color: #10180e;
+  }
+}
+
+// ==========================================================================
+// Dark Mode Overrides
+// ==========================================================================
+
+body.dark-mode footer {
+  background: $dark-footer-bg;
+  color: $dark-text;
+  
+  a {
+    color: $dark-footer-accent;
+    &:hover {
+      color: lighten($dark-footer-accent, 15%);
+      text-decoration: underline;
+    }
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    color: $dark-text;
+  }
+
+  // Social Icons
+  .list-inline.text-center {
+    color: $dark-text;
+    li a {
+      color: $dark-link;
+      &:hover {
+        color: lighten($dark-link, 15%);
+      }
+    }
+  }
+
+  // Copyright
+  .copyright.list-unstyled {
+    color: $dark-link;
+    li a {
+      color: $dark-link;
+      &:hover {
+        color: lighten($dark-footer-accent, 10%);
+      }
+    }
+  }
+  
+  // Font Awesome Stack inside footer
+  .fa-stack.fa-lg {
+    color: $dark-text;
+    .fa-circle.fa-stack-2x { color: $dark-accent; }
+    .fa-stack-1x { color: $dark-link; }
+  }
+}
+
+// ==========================================================================
+// Responsive
+// ==========================================================================
+
+@media (max-width: 767.98px) {
+  footer {
+    padding: 20px 0 30px;
+    
+    .list-inline {
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-bottom: 15px;
+    }
+
+    .list-inline-item a {
+      padding: 0;
+      font-size: 0.9em;
+      text-decoration: underline;
+    }
+
+    .copyright {
+      font-size: 12px;
+    }
+
+    .copyright.list-unstyled li {
+      margin: 0 4px;
     }
   }
 }

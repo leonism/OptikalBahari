@@ -1,0 +1,151 @@
+// Utilities & Misc
+// Helper classes, animations, media wrappers, and specific widgets.
+
+// 1. Text Helpers
+.text-green {
+  color: green;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+// 2. Animations (Blinkies / Ripple)
+.greenBg {
+  background-color: #25d366 !important;
+}
+
+.intro-banner-vdo-play-btn {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  position: relative;
+
+  i { font-size: 30px; }
+
+  .ripple {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    margin: -80px 0 0 -80px;
+    border-radius: 100px;
+    animation: ripple 1.8s normal;
+  }
+  
+  .ripple:nth-child(2) { animation-delay: 0.3s; }
+  .ripple:nth-child(3) { animation-delay: 0.6s; }
+
+  &:hover {
+    .ripple { animation: ripple 1.8s infinite; }
+    .ripple:nth-child(2) { animation-delay: 0.3s; }
+    .ripple:nth-child(3) { animation-delay: 0.6s; }
+  }
+}
+
+@keyframes ripple {
+  0% {
+    opacity: 1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+// Dark Mode Ripple
+body.dark-mode .ripple.greenBg {
+  background-color: $dark-ripple;
+  color: $dark-text;
+  &:hover { background-color: lighten($dark-ripple, 10%); }
+}
+
+// 3. Hover Effects
+.hover-zoomin {
+  transition: transform 0.3s ease;
+  a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease-in-out;
+  }
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(17, 17, 17, 0.2);
+    img { transform: scale(1.2); }
+  }
+}
+
+// 4. Media Wrappers (Maps, Videos)
+.map-responsive, .video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%; // 16:9
+  position: relative;
+  height: 0;
+  
+  iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+// 5. Lazy Loading
+.lazy-loading {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  &.loaded { opacity: 1; }
+}
+
+// 6. Overlapping
+.stack-top {
+  z-index: 1;
+}
+
+// 7. Floating WhatsApp Widget
+.floatingWhatsApp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 10px;
+  right: 10px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  
+  &:hover {
+    background-color: #25d366 !important;
+    color: #fff !important;
+  }
+}
+
+.my-float {
+  margin-top: 10px;
+}
+
+body.dark-mode .floatingWhatsApp.intro-banner-vdo-play-btn {
+  background-color: $dark-button;
+  color: $dark-text;
+  &:hover {
+    background-color: lighten($dark-button, 10%);
+  }
+}
