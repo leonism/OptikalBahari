@@ -78,7 +78,8 @@ img::-moz-selection {
 }
 
 // 5. Dark Mode Global Overrides
-body.dark-mode {
+body.dark-mode,
+[data-bs-theme="dark"] {
   background-color: $dark-bg;
   color: $dark-text;
 
@@ -89,8 +90,24 @@ body.dark-mode {
     }
   }
 
+  // Ensure text-muted is readable in dark mode
+  .text-muted {
+    color: darken($dark-text, 20%) !important;
+  }
+
+  // Ensure post metadata is visible
+  .post-meta, .meta {
+    color: darken($dark-text, 10%) !important;
+  }
+
   // Dim images in dark mode
   img {
     filter: brightness(50%);
   }
+}
+
+// Specific override for html/body when using data-bs-theme
+[data-bs-theme="dark"] body {
+  background-color: $dark-bg;
+  color: $dark-text;
 }

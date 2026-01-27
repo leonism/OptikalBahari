@@ -177,6 +177,12 @@
     font-size: 25px !important;
     line-height: 14px;
     vertical-align: middle;
+    transition: color 0.3s ease;
+  }
+  
+  // Dark mode adjustment for the circle background
+  body.dark-mode & > i.fa-circle.fa-stack-2x {
+    color: $dark-accent;
   }
   
   > i.fa-stack-1x {
