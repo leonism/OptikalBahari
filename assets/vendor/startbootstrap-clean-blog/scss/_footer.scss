@@ -183,4 +183,15 @@ footer ul:last-of-type {
   footer ul:last-of-type {
     font-size: 12px; /* Smaller font size */
   }
+
+  footer {
+    background-color: #f1f1f1;
+    color: $light-text;
+    a {
+      color: $light-link;
+      &:hover {
+        color: darken($light-link, 10%);
+      }
+    }
+  }
 }

@@ -1,17 +1,3 @@
-// Theme variables
-$light-bg: #ffffff;
-$light-text: #333333;
-$light-link: #007bff;
-$dark-bg: #1a1a1a; // Deep black
-$dark-text: #d1d1d1; // Soft off-white
-$dark-link: #4dabf7; // Muted cyan-blue
-$dark-accent: #2c2c2c; // Dark gray for cards/nav
-$dark-button: #3d5a80; // Blue-gray for buttons
-$dark-card-body: #252525; // Lighter gray for card body
-$dark-footer-bg: #1a1a1a; // Solid dark background for footer
-$dark-footer-accent: #ffffff; // White for footer links
-$dark-ripple: #2a9d8f; // Teal for ripple greenBg
-
 // Light mode defaults
 body {
   background-color: $light-bg;
@@ -49,17 +35,6 @@ body {
     color: $light-text;
   }
 
-  footer {
-    background-color: #f1f1f1;
-    color: $light-text;
-    a {
-      color: $light-link;
-      &:hover {
-        color: darken($light-link, 10%);
-      }
-    }
-  }
-
   // Global Search Icon Styling (applies to both light & dark modes by default)
   .navbar-search-area .nav-item form {
     position: relative;
@@ -82,24 +57,6 @@ body {
   }
   .navbar-search-area .nav-item .fas.fa-search.dark-icon {
     display: none;
-  }
-}
-
-// Masthead Background Image Dimming (New Addition)
-.masthead {
-  position: relative;
-  z-index: 1;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0);
-    transition: background 0.3s ease;
-    z-index: -1;
   }
 }
 
