@@ -98,149 +98,58 @@ footer .copyright.list-unstyled a:hover {
    **Badge Styling**
    =============================== */
 footer .badge {
-  font-size: 10px; /* Small font size */
-  padding: 4px 6px; /* Compact padding */
-  vertical-align: middle; /* Align with text */
-  background-color: #dc4245; /* Bold red background */
-  color: #fff; /* White text */
-  transition: background-color 0.3s ease; /* Smooth color transition */
-  letter-spacing: normal; /* Natural spacing */
-}
-
-footer .badge:hover {
-  background-color: #c23336; /* Darker red on hover */
-}
-
-/* Pulsing Animation for Active State */
-footer .badge:active,
-footer .copyright.list-unstyled a:active {
-  animation: pulse 0.6s ease-in-out; /* Pulsing animation */
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1); /* Normal size */
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5); /* Subtle glow */
-  }
-  50% {
-    transform: scale(0.95); /* Slightly shrink */
-    box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.8); /* Brighter glow */
-  }
-  100% {
-    transform: scale(1); /* Return to normal size */
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); /* Fade out glow */
-  }
+  // Styles here if any
 }
 
 /* ===============================
-   **Copyright Text Styling**
+   **Dark Mode Overrides**
    =============================== */
-footer ul:last-of-type {
-  list-style: none; /* Remove bullet points */
-  padding-left: 0; /* No padding */
-  margin: 0; /* No margin */
-  text-align: center; /* Center align text */
-  font-size: 12px; /* Small font size */
-  color: #10180e; /* Neutral text color */
-  font-family: 'Arial', sans-serif; /* Consistent typography */
-  letter-spacing: normal; /* Natural spacing */
-}
+[data-bs-theme="dark"] footer {
+  background-color: $dark-footer-bg;
+  border-top-color: lighten($dark-bg, 10%);
+  color: $dark-text;
 
-/* ===============================
-   **Responsive Adjustments for Mobile**
-   =============================== */
-@media (max-width: 767.98px) {
-  footer {
-    padding: 20px 0 30px; /* Reduced padding */
-  }
-
-  footer .list-inline {
-    flex-wrap: wrap; /* Allow wrapping */
-    gap: 5px; /* Smaller gap */
-    margin-bottom: 15px; /* Reduced spacing */
-  }
-
-  footer .list-inline-item a {
-    padding: 0; /* Remove padding */
-    font-size: 0.9em; /* Slightly smaller icons */
-    text-decoration: underline; /* Add underline for clarity */
-  }
-
-  footer .copyright {
-    font-size: 12px; /* Smaller font size */
-  }
-
-  footer .copyright.list-unstyled li {
-    display: inline-block;
-    margin: 0 4px; /* Tighter spacing */
-  }
-
-  footer .badge {
-    font-size: 8px; /* Smaller font size */
-    padding: 2px 4px; /* Compact padding */
-  }
-
-  footer ul:last-of-type {
-    font-size: 12px; /* Smaller font size */
-  }
-
-  footer {
-    background-color: #f1f1f1;
-    color: $light-text;
-    a {
-      color: $light-link;
-      &:hover {
-        color: darken($light-link, 10%);
+  // Font Icons (Social Stack)
+  .list-inline-item a {
+    color: $dark-link;
+    .fa-stack.fa-lg {
+      color: $dark-text;
+      .fa-circle.fa-stack-2x {
+        color: $dark-accent;
+      }
+      .fa-stack-1x {
+        color: $dark-link;
+      }
+    }
+    &:hover {
+      color: lighten($dark-link, 15%);
+      .fa-circle.fa-stack-2x {
+        color: lighten($dark-accent, 10%);
       }
     }
   }
 
-  // Footer
-  footer {
-    background: $dark-footer-bg;
+  // Copyright Text
+  .copyright {
+    color: darken($dark-text, 20%);
+    &.list-unstyled a {
+      color: $dark-link;
+      &:hover {
+        color: lighten($dark-link, 15%);
+      }
+    }
+  }
+
+  // General List Inline Overrides (migrated from navbar)
+  .list-inline.text-center {
     color: $dark-text;
-    padding: 1rem 0;
-    a {
-      color: $dark-footer-accent;
-      &:hover {
-        color: lighten($dark-footer-accent, 15%);
-        text-decoration: underline;
-      }
-    }
-    .btn {
-      background-color: $dark-button;
-      border-color: $dark-button;
-      color: $dark-text;
-      &:hover {
-        background-color: lighten($dark-button, 10%);
-        border-color: lighten($dark-button, 10%);
-      }
-    }
-    p,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      color: $dark-text;
-    }
-
-    .copyright.text-muted.list-unstyled {
-      color: $dark-text;
-      li {
-        a {
-          color: $dark-footer-accent;
-          &:hover {
-            color: lighten($dark-footer-accent, 15%);
-          }
+    li {
+      a {
+        color: $dark-link;
+        &:hover {
+          color: lighten($dark-link, 15%);
         }
       }
-    }
-
-    .badge.badge-pill.badge-danger {
-      background-color: #9e2a2f;
-      color: $dark-text;
     }
   }
 }
