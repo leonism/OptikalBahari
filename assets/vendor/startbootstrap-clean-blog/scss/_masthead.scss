@@ -14,6 +14,18 @@
     transition: background 0.3s ease;
     z-index: -1;
   }
+
+  // Masthead Dark Mode Overlay (New Addition)
+  .masthead::before {
+    background: rgba(0, 0, 0, 0.8); // 80% dim overlay
+  }
+
+  a {
+    color: $dark-link;
+    &:hover {
+      color: lighten($dark-link, 15%);
+    }
+  }
 }
 
 /** @format */

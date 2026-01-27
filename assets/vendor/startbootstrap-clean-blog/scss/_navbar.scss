@@ -60,18 +60,6 @@ body.dark-mode {
   background-color: $dark-bg;
   color: $dark-text;
 
-  // Masthead Dark Mode Overlay (New Addition)
-  .masthead::before {
-    background: rgba(0, 0, 0, 0.8); // 80% dim overlay
-  }
-
-  a {
-    color: $dark-link;
-    &:hover {
-      color: lighten($dark-link, 15%);
-    }
-  }
-
   // Navbar
   .navbar {
     background-color: $dark-accent !important;
