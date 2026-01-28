@@ -20,11 +20,13 @@
   },
   "homepage": "https://github.com/leonism/OptikalBahari#readme",
   "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.10.0",
     "cheerio": "^1.2.0",
     "clean-css": "^5.3.3",
     "fs-extra": "^11.3.3",
     "glob": "^13.0.0",
     "html-minifier-terser": "^7.2.0",
+    "prettier": "^3.8.1",
     "terser": "^5.46.0",
     "yargs": "^18.0.0"
   }

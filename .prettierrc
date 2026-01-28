@@ -8,6 +8,7 @@
   "trailingComma": "es5",
   "bracketSpacing": true,
   "endOfLine": "lf",
+  "plugins": ["@shopify/prettier-plugin-liquid"],
   "overrides": [
     {
       "files": "*.json",
@@ -37,6 +38,7 @@
     {
       "files": ["*.html", "*.liquid", "*.njk"],
       "options": {
+        "parser": "liquid-html",
         "tabWidth": 2,
         "useTabs": false,
         "singleQuote": true,
