@@ -1,22 +1,63 @@
-// Cards
+// Cards Component
+// Styling for cards, deck, and content within.
+
+.card {
+  // Light mode defaults
+  background-color: white;
+  color: $light-text;
+  border: 1px solid rgba(0,0,0,0.125);
+
+  .card-body {
+    background-color: #f8f9fa;
+    color: $light-text;
+
+    h1, h2, h3, h4, h5, h6 {
+      color: inherit;
+    }
+  }
+
+  .card-text {
+    line-height: 1.5;
+    margin: 20px 0;
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  // Specific override mentioned in prompt
+  &.bg-white {
+    background-color: white;
+  }
+}
+
+// ==========================================================================
+// Dark Mode Overrides
+// ==========================================================================
+
+body.dark-mode {
   .card {
     background-color: $dark-accent;
     color: $dark-text;
     border-color: lighten($dark-accent, 5%);
+
+    // Override hardcoded classes
+    &.bg-white {
+      background-color: $dark-bg !important;
+      color: #ffffff;
+    }
+
     .card-body {
       background-color: $dark-card-body;
       color: $dark-text;
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
+
+      h1, h2, h3, h4, h5, h6 {
         color: lighten($dark-text, 10%);
       }
+
       p {
         color: $dark-text;
       }
+
       a {
         color: $dark-link;
         &:hover {
@@ -24,13 +65,15 @@
         }
       }
     }
+    .card-body {
+    background-color: #f8f9fa;
+    color: $light-text;
+    }
+
     .card-footer {
       background-color: $dark-accent;
       color: $dark-text;
       border-top: 1px solid lighten($dark-accent, 10%);
     }
-    .card-body {
-    background-color: #f8f9fa;
-    color: $light-text;
   }
 }

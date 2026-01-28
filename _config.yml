@@ -87,17 +87,10 @@ compress_html:
 
 # CSS Compression
 sass:
-  style: compressed
-  silence_deprecations:
-    - import
-    - global-builtin
     - color-functions
 
 # Build Command
 build_command: "bundle exec jekyll build && bash _scripts/post-built/post-build.sh"
-
-# Asset Processor Configuration
-asset_processor:
   performance:
     thread_pool_size: 1
     memory_limit: 536870912
