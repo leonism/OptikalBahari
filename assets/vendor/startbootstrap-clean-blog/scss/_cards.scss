@@ -1,22 +1,65 @@
 // Cards
+// --------------------------------------------------
+
+.card {
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+  @include transition-all;
+
+  .card-body {
+    padding: 2rem;
+    // Default light mode styles
+    background-color: $white;
+    color: $light-text;
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: $primary;
+      &:hover {
+        text-decoration: underline;
+        color: darken($primary, 10%);
+      }
+    }
+  }
+
+  .card-footer {
+    background-color: $gray-100;
+    border-top: 1px solid $gray-200;
+  }
+}
+
+.card-text {
+  line-height: 1.5;
+  margin: 20px 0;
+  a {
+    text-decoration: underline;
+  }
+}
+
+// Dark Mode Overrides
+[data-bs-theme="dark"] body {
   .card {
-    background-color: $dark-accent;
+    background-color: $dark-card;
     color: $dark-text;
-    border-color: lighten($dark-accent, 5%);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+
     .card-body {
       background-color: $dark-card-body;
       color: $dark-text;
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
+
+      h1, h2, h3, h4, h5, h6 {
         color: lighten($dark-text, 10%);
       }
+
       p {
         color: $dark-text;
       }
+
       a {
         color: $dark-link;
         &:hover {
@@ -24,13 +67,11 @@
         }
       }
     }
+
     .card-footer {
       background-color: $dark-accent;
       color: $dark-text;
       border-top: 1px solid lighten($dark-accent, 10%);
     }
-    .card-body {
-    background-color: #f8f9fa;
-    color: $light-text;
   }
 }

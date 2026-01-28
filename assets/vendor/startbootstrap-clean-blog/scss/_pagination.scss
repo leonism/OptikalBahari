@@ -1,146 +1,129 @@
-/* Pagination Container */
+// Pagination Styles
+// --------------------------------------------------
+
 .pagination {
-  font-family: Arial, sans-serif; /* Adjust to match your site’s font */
+  @include sans-serif-font;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-  gap: 4px; /* Spacing between items */
-  padding: 10px 0; /* Add some vertical padding */
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 10px 0;
 }
 
-/* Base styles for page items */
 .page-item {
-  margin: 0 2px; /* Spacing between items */
-  list-style: none; /* Remove default list styling */
+  margin: 0 2px;
+  list-style: none;
+
+  // Link Styling
+  .page-link {
+    color: $white;
+    background-color: $primary;
+    border: 1px solid $gray-200;
+    border-radius: 4px;
+    padding: 6px 12px;
+    text-decoration: none;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+    font-size: 14px;
+    @include transition-all;
+
+    span {
+      font-size: 12px;
+      transition: transform 0.3s ease;
+    }
+
+    &:focus {
+      outline: 2px solid rgba($primary, 0.5);
+      outline-offset: 2px;
+    }
+  }
+
+  // Hover State
+  &:not(.disabled) .page-link:hover {
+    color: $white;
+    background-color: darken($primary, 10%);
+    border-color: $gray-200;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+
+    span {
+      transform: scale(1.1);
+    }
+  }
+
+  // Active State
+  &.active .page-link {
+    color: $white;
+    background-color: darken($primary, 10%);
+    border-color: $gray-200;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+
+  // Disabled State
+  &.disabled {
+    opacity: 0.65;
+    pointer-events: none;
+
+    .page-link {
+      background-color: $primary;
+      border-color: $gray-200;
+      cursor: not-allowed;
+      box-shadow: none;
+      transform: translateY(0);
+    }
+  }
 }
 
-/* Normal page links */
-.page-link {
-  color: #fff; /* White text */
-  background-color: #dc4245; /* Red background */
-  border: 1px solid #e9ecef; /* Gray border */
-  border-radius: 4px; /* Slightly rounded corners */
-  padding: 6px 12px; /* Smaller padding for mobile */
-  text-decoration: none; /* Remove underline */
-  transition: all 0.3s ease; /* Smooth transitions */
-  display: block; /* Ensure proper spacing */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  transform: translateY(0); /* Prepare for hover effect */
-  font-size: 14px; /* Default font size */
-}
-
-/* Hover state for clickable links */
-.page-item:not(.disabled) .page-link:hover {
-  color: #fff; /* White text on hover */
-  background-color: #c23336; /* Darker red background on hover */
-  border-color: #e9ecef; /* Darker gray border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
-  transform: translateY(-2px); /* Slight lift effect */
-}
-
-/* Active page (current page) */
-.page-item.active .page-link {
-  color: #fff; /* White text */
-  background-color: #c23336; /* Darker red background */
-  border-color: #e9ecef; /* Darker gray border */
-  font-weight: bold; /* Emphasize current page */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow for active state */
-  transform: translateY(-2px); /* Slight lift effect */
-}
-
-/* Disabled page item (Previous/Next when unavailable) */
-.page-item.disabled {
-  opacity: 0.65; /* Slightly fade the entire item */
-  pointer-events: none; /* Prevent interaction */
-}
-
-/* Disabled state (Previous/Next when unavailable) */
-.page-item.disabled .page-link {
-  color: #fff; /* White text */
-  background-color: #dc4245; /* Red background */
-  border-color: #e9ecef; /* Gray border */
-  cursor: not-allowed; /* Show disabled cursor */
-  box-shadow: none; /* Remove shadow for disabled state */
-  transform: translateY(0); /* Reset lift effect */
-}
-
-/* Optional: Adjust Previous/Next arrow sizes */
-.page-link span {
-  font-size: 12px; /* Adjust arrow size if needed */
-  transition: transform 0.3s ease; /* Smooth arrow animation */
-}
-
-/* Optional: Add a subtle animation to arrows on hover */
-.page-item:not(.disabled) .page-link:hover span {
-  transform: scale(1.1); /* Slightly enlarge arrows on hover */
-}
-
-/* Optional: Add a focus state for accessibility */
-.page-link:focus {
-  outline: 2px solid rgba(255, 255, 255, 0.5); /* Subtle outline for focus */
-  outline-offset: 2px; /* Space between outline and element */
-}
-
-/* Responsive Adjustments for Mobile */
+// Responsive Adjustments
 @media (max-width: 767.98px) {
   .pagination {
-    gap: 2px; /* Reduce gap between items */
+    gap: 2px;
   }
 
   .page-link {
-    padding: 4px 8px; /* Smaller padding for mobile */
-    font-size: 12px; /* Smaller font size for mobile */
+    padding: 4px 8px;
+    font-size: 12px;
   }
 
-  /* Hide some page numbers on mobile */
-  .page-item:not(.active):not(:first-child):not(:last-child):not(:nth-child(2)):not(
-      :nth-last-child(2)
-    ) {
+  // Hide intermediate pages on mobile
+  .page-item:not(.active):not(:first-child):not(:last-child):not(:nth-child(2)):not(:nth-last-child(2)) {
     display: none;
   }
+}
 
-  /* Show ellipsis for hidden pages */
-  .page-item:nth-child(3),
-  .page-item:nth-last-child(3) {
-    display: block;
-  }
+// Dark Mode Overrides
+[data-bs-theme="dark"] body {
+  .page-item {
+    .page-link {
+      background-color: $dark-button;
+      border-color: $dark-border;
+      color: $dark-text;
 
-  .page-item:nth-child(3) .page-link,
-  .page-item:nth-last-child(3) .page-link {
-    background-color: transparent;
-    border: none;
-    color: #dc4245;
-    pointer-events: none;
-    box-shadow: none;
-  }
+      &:focus {
+        outline-color: rgba($dark-link, 0.5);
+      }
+    }
 
-  // Pagination
-  .pagination.justify-content-center {
-    .page-item {
-      &.disabled {
-        .page-link {
-          background-color: $dark-accent;
-          color: $dark-text;
-          border-color: lighten($dark-accent, 10%);
-        }
-      }
-      &.active {
-        .page-link {
-          background-color: $dark-link;
-          border-color: $dark-link;
-          color: $dark-text;
-        }
-      }
-      .page-link {
-        background-color: $dark-accent;
-        color: $dark-text;
-        border-color: lighten($dark-accent, 10%);
-        &:hover {
-          background-color: lighten($dark-accent, 10%);
-          color: $dark-link;
-        }
-      }
+    &:not(.disabled) .page-link:hover {
+      background-color: $dark-link;
+      border-color: $dark-border;
+      color: $white;
+    }
+
+    &.active .page-link {
+      background-color: $dark-link;
+      border-color: $dark-border;
+      color: $white;
+    }
+
+    &.disabled .page-link {
+      background-color: $dark-button;
+      border-color: $dark-border;
+      opacity: 0.5;
     }
   }
 }

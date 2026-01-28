@@ -1,5 +1,8 @@
 // Variables
-$white: #fff !default;
+// --------------------------------------------------
+
+// Colors
+$white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -9,45 +12,59 @@ $gray-600: #868e96 !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black: #000 !default;
-$blue: #007bff !default;
-$indigo: #6610f2 !default;
-$purple: #6f42c1 !default;
-$pink: #e83e8c !default;
-$red: #dc3545 !default;
-$orange: #fd7e14 !default;
-$yellow: #ffc107 !default;
-$green: #28a745 !default;
-$teal: #0085a1 !default;
-$cyan: #17a2b8 !default;
-$redLips: #ed4833 !default;
+$black:    #000 !default;
 
-// Theme variables
-$light-bg: #ffffff;
-$light-text: #333333;
-$light-link: #007bff;
-$dark-bg: #1a1a1a; // Deep black
-$dark-text: #d1d1d1; // Soft off-white
-$dark-link: #4dabf7; // Muted cyan-blue
-$dark-accent: #2c2c2c; // Dark gray for cards/nav
-$dark-button: #3d5a80; // Blue-gray for buttons
-$dark-card-body: #252525; // Lighter gray for card body
-$dark-footer-bg: #1a1a1a; // Solid dark background for footer
-$dark-footer-accent: #ffffff; // White for footer links
-$dark-ripple: #2a9d8f; // Teal for ripple greenBg
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #0085a1 !default;
+$cyan:    #17a2b8 !default;
 
-//$primary:       $teal !default;
-$primary: $red !default;
-$secondary: $gray-600 !default;
-$success: $green !default;
-$info: $cyan !default;
-$warning: $yellow !default;
-$danger: $red !default;
-$light: $gray-100 !default;
-$dark: $gray-800 !default;
+// Brand Colors
+$brand-primary: #ed4833 !default; // Formerly $redLips
+$brand-secondary: $gray-600 !default;
 
-//Enables predefined border-radius styles on various components.
-$enable-rounded: true;
-$enable-responsive-font-sizes: true;
-$enable-gradients: true;
-$enable-shadows: true;
+// Bootstrap 5 Color Map Matches
+$primary:       $brand-primary !default;
+$secondary:     $brand-secondary !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+// Theme Variables (Light Mode)
+$light-bg:         $white !default;
+$light-text:       #333333 !default;
+$light-link:       $blue !default;
+$light-badge-text: $white !default;
+
+// Theme Variables (Dark Mode)
+// Palette inspired by: Primary #141D2B, Accent #1A2332
+$dark-bg:            #141d2b !default;
+$dark-accent:        #1a2332 !default;
+$dark-text:          #d0d0d0 !default;
+$dark-link:          #77b1d1 !default;
+$dark-button:        #111927 !default;
+$dark-card:          #1a2332 !default;
+$dark-card-body:     #162033 !default;
+$dark-footer-bg:     #141d2b !default;
+$dark-footer-accent: #d0d0d0 !default;
+$dark-ripple:        #1a2332 !default;
+$dark-border:        #2a3548 !default;
+
+// Options
+$enable-rounded: true !default;
+$enable-responsive-font-sizes: true !default;
+$enable-gradients: true !default;
+$enable-shadows: true !default;
+
+// Fonts
+$font-family-serif: 'Lora', 'Times New Roman', serif !default;
+$font-family-sans-serif: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;

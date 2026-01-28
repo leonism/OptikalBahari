@@ -1,66 +1,96 @@
-/* Search Form Styling */
+// Search Styles
+// --------------------------------------------------
+
 #search-google {
   position: relative;
   display: inline-block;
   margin-left: 10px;
   width: 100%;
-  max-width: 400px; /* Limit maximum width for desktop */
+  max-width: 400px;
+
+  .custom-search {
+    width: 100%;
+    padding: 10px 48px 10px 20px;
+    font-size: 16px;
+    color: $light-text;
+    background-color: $white;
+    border: 2px solid $primary;
+    border-radius: 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    @include transition-all;
+
+    &:focus {
+      outline: none;
+      border-color: darken($primary, 10%);
+      box-shadow: 0 0 12px rgba($primary, 0.6);
+    }
+
+    &::placeholder {
+      color: $gray-600;
+      opacity: 1;
+      font-weight: 400;
+    }
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $primary;
+    pointer-events: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+
+  &:hover .search-icon {
+    color: darken($primary, 10%);
+  }
 }
 
-#search-google .custom-search {
-  width: 100%;
-  padding: 10px 48px 10px 20px; /* More padding for better spacing */
-  font-size: 16px; /* Slightly larger font for readability */
-  color: #10180e;
-  background-color: #fff;
-  border: 2px solid #dc4245;
-  border-radius: 50px;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-
-#search-google .custom-search:focus {
-  outline: none;
-  border-color: #c23336;
-  box-shadow: 0 0 12px rgba(220, 66, 69, 0.6); /* More prominent focus shadow */
-}
-
-#search-google .custom-search::placeholder {
-  color: #6c757d;
-  opacity: 1;
-  font-weight: 400; /* Slightly lighter placeholder text */
-}
-
-#search-google .search-icon {
-  position: absolute;
-  right: 20px; /* Adjusted spacing */
-  top: 50%;
-  transform: translateY(-50%);
-  color: #dc4245;
-  pointer-events: none;
-  font-size: 18px; /* Slightly larger icon */
-  transition: color 0.3s ease;
-}
-
-#search-google:hover .search-icon {
-  color: #e1103d; /* Hover effect for the icon */
-}
-
-/* Responsive Adjustments */
+// Responsive Adjustments
 @media (max-width: 767.98px) {
   #search-google {
     margin-left: 0;
-    max-width: 100%; /* Full width on mobile */
-  }
+    max-width: 100%;
 
-  #search-google .custom-search {
-    padding: 14px 52px 14px 18px; /* Slightly reduced padding */
-    font-size: 17px; /* Slightly smaller than previous update */
-    height: 45px; /* Slightly smaller height */
-  }
+    .custom-search {
+      padding: 14px 52px 14px 18px;
+      font-size: 17px;
+      height: 45px;
+    }
 
-  #search-google .search-icon {
-    right: 17px; /* Slightly adjust icon position */
-    font-size: 18px; /* Reduce icon size slightly */
+    .search-icon {
+      right: 17px;
+      font-size: 18px;
+    }
+  }
+}
+
+// Dark Mode Overrides
+[data-bs-theme="dark"] body {
+  #search-google {
+    .custom-search {
+      background-color: $dark-button;
+      color: $dark-text;
+      border-color: $dark-link;
+
+      &:focus {
+        border-color: lighten($dark-link, 10%);
+        box-shadow: 0 0 12px rgba($dark-link, 0.4);
+      }
+
+      &::placeholder {
+        color: $gray-500;
+      }
+    }
+
+    .search-icon {
+      color: $dark-link;
+    }
+
+    &:hover .search-icon {
+      color: lighten($dark-link, 10%);
+    }
   }
 }
