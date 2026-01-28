@@ -1,5 +1,7 @@
-// Search Styles
+// Search Component Styles
 // --------------------------------------------------
+// Styles for the custom Google search bar component.
+// Includes responsive adjustments and dark mode overrides.
 
 #search-google {
   position: relative;
@@ -8,6 +10,7 @@
   width: 100%;
   max-width: 400px;
 
+  // Search Input Field
   .custom-search {
     width: 100%;
     padding: 10px 48px 10px 20px;
@@ -32,6 +35,7 @@
     }
   }
 
+  // Search Icon
   .search-icon {
     position: absolute;
     right: 20px;
@@ -43,12 +47,14 @@
     transition: color 0.3s ease;
   }
 
+  // Hover Effect
   &:hover .search-icon {
     color: darken($primary, 10%);
   }
 }
 
 // Responsive Adjustments
+// --------------------------------------------------
 @media (max-width: 767.98px) {
   #search-google {
     margin-left: 0;
@@ -68,6 +74,7 @@
 }
 
 // Dark Mode Overrides
+// --------------------------------------------------
 [data-bs-theme="dark"] body {
   #search-google {
     .custom-search {

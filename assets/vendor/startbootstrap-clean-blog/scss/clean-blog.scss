@@ -1,13 +1,19 @@
-@import 'variables.scss';
-@import 'mixins.scss';
-@import 'base.scss';
-@import 'navbar.scss';
-@import 'masthead.scss';
-@import 'post.scss';
-@import 'footer.scss';
-// consolidated into base/buttons
-@import 'pagination.scss';
-@import 'search.scss';
-// deprecated/merged
-@import 'buttons.scss';
-// @import "contact.scss";
+// Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// Base
+@import 'base/base';
+
+// Components
+@import 'components/navbar';
+@import 'components/masthead';
+@import 'components/footer';
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/pagination';
+@import 'components/search';
+
+// Pages
+@import 'pages/post';
+@import 'pages/contact';

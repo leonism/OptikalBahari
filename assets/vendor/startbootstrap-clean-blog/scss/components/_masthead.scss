@@ -1,13 +1,15 @@
 // Masthead / Header Styles
 // --------------------------------------------------
+// Controls the hero header section on pages and posts.
+// Includes overlay, headings, and responsive adjustments.
 
 header.masthead {
   // Background defaults
-  margin-bottom: 30px;
+  position: relative;
+  margin-bottom: 3rem;
   background: no-repeat center center;
   background-color: $gray-600;
   background-attachment: scroll;
-  position: relative;
   @include background-cover;
 
   // Overlay
@@ -21,7 +23,7 @@ header.masthead {
     opacity: 0.5;
   }
 
-  // Headings
+  // Headings Container
   .page-heading,
   .post-heading,
   .site-heading {
@@ -29,14 +31,16 @@ header.masthead {
     color: $white;
     text-align: center;
 
+    // Main Heading
     h1 {
       font-size: 35px;
       font-weight: 800;
       letter-spacing: -1px;
-      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
       margin-top: 0;
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     }
 
+    // Subheading
     .subheading {
       font-size: 24px;
       font-weight: 300;
@@ -47,6 +51,7 @@ header.masthead {
       @include sans-serif-font;
     }
 
+    // Responsive Desktop
     @media only screen and (min-width: 768px) {
       padding: 200px 0;
       h1 {
@@ -72,12 +77,16 @@ header.masthead {
         color: $white;
         text-decoration: none;
         font-weight: 600;
+        @include transition-all;
+
+        &:focus,
         &:hover {
           text-decoration: underline;
         }
       }
     }
 
+    // Responsive Post Heading
     @media only screen and (min-width: 768px) {
       h1 {
         font-size: 55px;
@@ -86,7 +95,8 @@ header.masthead {
   }
 }
 
-// Additional Masthead Utility (from original file, cleaned)
+// Utility: Dimmed Masthead
+// --------------------------------------------------
 .masthead-dimmed {
   position: relative;
   z-index: 1;
@@ -105,6 +115,7 @@ header.masthead {
 }
 
 // Dark Mode Overrides
+// --------------------------------------------------
 [data-bs-theme="dark"] body {
   header.masthead {
     .overlay {

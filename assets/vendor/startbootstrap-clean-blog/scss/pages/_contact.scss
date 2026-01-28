@@ -1,5 +1,7 @@
 // Contact Page / Form Styles
 // --------------------------------------------------
+// Styles for the floating label form inputs on the contact page.
+// Handles label animation, input styling, and dark mode.
 
 .floating-label-form-group {
   font-size: 14px;
@@ -8,6 +10,7 @@
   padding-bottom: 0.5em;
   border-bottom: 1px solid $gray-300;
 
+  // Input & Textarea Defaults
   input,
   textarea {
     font-size: 1.5em;
@@ -18,7 +21,7 @@
     border: none;
     border-radius: 0;
     background: none;
-    box-shadow: none !important;
+    box-shadow: none !important; // Override Bootstrap default shadows
     @include serif-font;
     color: $gray-900;
 
@@ -28,6 +31,7 @@
     }
   }
 
+  // Floating Label
   label {
     font-size: 0.85em;
     line-height: 1.764705882em;
@@ -42,11 +46,16 @@
     color: $gray-600;
   }
 
+  // Help Block (Validation messages)
   .help-block {
     margin: 15px 0;
   }
 }
 
+// Floating Label States
+// --------------------------------------------------
+
+// Label visible (input has value)
 .floating-label-form-group-with-value {
   label {
     top: 0;
@@ -54,17 +63,20 @@
   }
 }
 
+// Label focused (input has focus)
 .floating-label-form-group-with-focus {
   label {
     color: $primary;
   }
 }
 
+// First Group Border Fix
 form .form-group:first-child .floating-label-form-group {
   border-top: 1px solid $gray-300;
 }
 
 // Dark Mode Overrides
+// --------------------------------------------------
 [data-bs-theme="dark"] body {
   .floating-label-form-group {
     border-bottom-color: $gray-700;
