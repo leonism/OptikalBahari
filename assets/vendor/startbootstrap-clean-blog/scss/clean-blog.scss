@@ -5,20 +5,9 @@
 @import 'masthead.scss';
 @import 'post.scss';
 @import 'footer.scss';
-@import 'whatsapp.scss';
-@import 'lazyload.scss';
-@import 'videos.scss';
-@import 'blinkies.scss';
-@import 'overlapping.scss';
-@import 'bootstrap-overrides.scss';
-@import 'hover.scss';
-@import 'maps.scss';
+// consolidated into base/buttons
 @import 'pagination.scss';
 @import 'search.scss';
-@import 'icons.scss';
-@import 'logo.scss';
-@import 'headings.scss';
-@import 'darkmode.scss';
-@import 'badges.scss';
+// deprecated/merged
 @import 'buttons.scss';
 // @import "contact.scss";
