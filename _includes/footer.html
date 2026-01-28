@@ -5,16 +5,6 @@
         <!-- icons collections !-->
         <small>
         <ul class="list-inline text-center">
-          {% if site.email %}
-            <li class="list-inline-item">
-              <a href="mailto:{{ site.email | encode_email }}" title="Email">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          {% endif %}
           {% if site.instagram_username %}
             <li class="list-inline-item">
               <a href="https://instagram.com/{{ site.instagram_username }}" title="{{ site.instagram_username }}'s Instagram">
