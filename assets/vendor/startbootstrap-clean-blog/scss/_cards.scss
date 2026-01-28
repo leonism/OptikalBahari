@@ -25,6 +25,13 @@
         color: darken($primary, 10%);
       }
     }
+
+    // Center "LEBIH LANJUT" button
+    .btn {
+      display: block;
+      margin: 0 auto;
+      width: fit-content;
+    }
   }
 
   .card-footer {
