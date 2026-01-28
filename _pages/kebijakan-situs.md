@@ -19,9 +19,11 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
-      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
-      class="card-img-top"
-      alt="tips-kacamata-2.webp">
+      itemprop="image"
+      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp"
+      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp"
+      class="card-img-top img-fluid"
+      alt="Auto Lens Meter">
     <div class="card-body">
       <h3 class="card-title">
         Kebijakan Penggunaan Situs Optikal Bahari

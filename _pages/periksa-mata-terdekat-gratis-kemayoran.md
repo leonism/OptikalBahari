@@ -17,7 +17,12 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-13.webp"
+      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-13.webp"
+      class="card-img-top img-fluid"
+      alt="Periksa Mata Terdekat Gratis Di Kemayoran">
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Terdekat Gratis Di Kemayoran
@@ -31,7 +36,12 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp"
+      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp"
+      class="card-img-top img-fluid"
+      alt="Hasil Pemeriksaan Cepat & Akurat">
       <div class="card-body">
         <h3 class="card-title">
           Hasil Pemeriksaan Cepat & Akurat
@@ -45,7 +55,12 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp"
+      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp"
+      class="card-img-top img-fluid"
+      alt="Menggunakan Alat Phoropter">
       <div class="card-body">
         <h3 class="card-title">
           Menggunakan Alat Phoropter
@@ -59,7 +74,12 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp"
+      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp"
+      class="card-img-top img-fluid"
+      alt="Pemeriksaan Menggunakan Komputerisasi Digital">
       <div class="card-body">
         <h3 class="card-title">
           Pemeriksaan Menggunakan Komputerisasi Digital
@@ -68,12 +88,17 @@ comments: false
           Sudah menjadi komitmen kami untuk selalu memberikan pelayanan terbaik kepada konsumem kami. Silahkan datang ke tempat kami dan konsultasikan keluhan yang dirasakan yang berhubungan dengan keluhan terhadap daya penglihatan anda. Seiring dengan bertambahnya usia anda, semakin menurun kapasitas retina mata yang dapat menurunkan kapasitas penglihatan itu sendiri.
         </p>
       </div>
-   </div>
+  </div>
 </div>
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img itemprop="image" src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
+    <img
+      itemprop="image"
+      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp"
+      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp"
+      class="card-img-top img-fluid"
+      alt="Auto Lens Meter">
     <div class="card-body">
       <h3 class="card-title">Auto Lens Meter</h3>
       <p class="card-text text-start">
