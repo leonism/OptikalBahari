@@ -3,13 +3,20 @@ layout: default
 ---
 
 <!-- start page header -->
-{% include navigation/navbar.html %} {% if page.background %}
-<header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')">
-  <img src="{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}"
+{% include navigation/navbar.html %}
+  {% if page.background %}
+    <header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}
+    {% endif %}')">
+      <img src="{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}
+      {% endif %}"
     fetchpriority="high"
     decoding="sync"
     style="display: none"
-    alt=""
+    alt="{% if page.title %}
+            {{ page.title }}
+              {% else %}
+            {{ site.title }}
+          {% endif %}"
   />
     {% else %}
     <header class="masthead">
