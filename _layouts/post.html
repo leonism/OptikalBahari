@@ -7,18 +7,19 @@ description: 'Berita seputaran perkembangan produk dan layanan terbaru dari Opti
 keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Optik, Kacamata, Gratis'
 ---
 
-<!-- start page header -->
-{% include navigation/navbar.html %}{% if page.background %}
-<header
-  class="masthead"
-  style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')"
->
-  <img
-    src="{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}"
+{% include navigation/navbar.html %}
+{% if page.background %}
+<header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')">
+    <img src="{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}
+    {% endif %}"
     fetchpriority="high"
     decoding="sync"
     style="display: none"
-    alt=""
+    alt="{% if page.title %}
+            {{ page.title }}
+              {% else %}
+            {{ site.title }}
+          {% endif %}"
   />
   {% else %}
   <header class="masthead">
@@ -27,15 +28,19 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ page.title }}</h1>
-            {% if page.subtitle %}
-            <span class="subheading">{{ page.subtitle }}</span>
+            <h1>
+              {{ site.tagline }}
+            </h1>
+            {% if site.description %}
+              <h2 class="subheading text-capitalize">
+                {{ site.description }}
+              </h2>
             {% endif %}
           </div>
         </div>
       </div>
     </div>
-  </header>
+</header>
   <div class="container">
     {{ content }}
       {% if page.comments %}
