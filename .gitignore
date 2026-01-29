@@ -137,3 +137,4 @@ LICENSE
 
 # node modules
 node_modules/
+.agent
