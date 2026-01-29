@@ -9,6 +9,10 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 0;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
   @include sans-serif-font;
 }
 

@@ -8,8 +8,8 @@
   @include transition-all;
 
   .card-body {
-    padding: 2rem;
     // Default light mode styles
+    padding: 2rem;
     background-color: $white;
     color: $light-text;
 
@@ -24,13 +24,6 @@
         text-decoration: underline;
         color: darken($primary, 10%);
       }
-    }
-
-    // Center "LEBIH LANJUT" button
-    .btn {
-      display: block;
-      margin: 0 auto;
-      width: fit-content;
     }
   }
 
