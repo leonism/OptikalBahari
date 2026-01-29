@@ -25,6 +25,10 @@
         color: darken($primary, 10%);
       }
     }
+
+    h3.card-title {
+      font-size: 1.25rem !important;
+    }
   }
 
   .card-footer {
