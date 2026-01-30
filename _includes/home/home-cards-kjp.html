@@ -4,11 +4,14 @@
     href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}"
     role="button"
     title="Menerima Pembayaran KJP">
+    {% capture card_content %}
     <img
       itemprop="image"
       src="{{ '/assets/img/bg-kjp.webp' | relative_url }}"
       class="card-img-top img-fluid"
       alt="Menerima Pembayaran KJP">
+    {% endcapture %}
+    {% include components/image-ratio.html ratio="16x9" content=card_content %}
   </a>
   <div class="card-body">
     <h5 class="card-title align-middle">
