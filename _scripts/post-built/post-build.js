@@ -6,13 +6,18 @@ const glob = require('glob')
 
 const SITE_DIR = '_site'
 
-// Helper to run command safely
+/**
+ * Helper to run command safely
+ * @param {string} command
+ * @param {string} description
+ */
 function runCommand(command, description) {
   try {
     console.log(`running: ${description}...`)
     execSync(command, { stdio: 'inherit' })
   } catch (e) {
-    console.error(`Error ${description}: ${e.message}`)
+    const error = e instanceof Error ? e : new Error(String(e))
+    console.error(`Error ${description}: ${error.message}`)
     // We don't exit here to allow other steps to proceed, similar to 'set +e' behavior if intended,
     // but original script had 'set -e'. However, for optional steps (checked by if exists), we might want to continue.
     // The critical/sw/consolidate scripts are conditional in the shell script.
@@ -22,7 +27,15 @@ function runCommand(command, description) {
 async function main() {
   console.log('🚀 Starting post-build optimizations...')
 
-  // 1. Critical CSS
+  // 1. Purge CSS (Before Critical and SRI)
+  if (fs.existsSync('_scripts/post-built/purge-css.js') && fs.existsSync('node_modules/purgecss')) {
+    const runPurgeCSS = require('./purge-css')
+    await runPurgeCSS()
+  } else {
+    console.log('⚠️ PurgeCSS skipped (script or dependencies not found)')
+  }
+
+  // 2. Critical CSS
   if (fs.existsSync('_scripts/post-built/critical-css.js') && fs.existsSync('node_modules/critical')) {
     console.log('📝 Extracting critical CSS...')
     runCommand('node _scripts/post-built/critical-css.js', 'Critical CSS extraction')
@@ -65,7 +78,8 @@ async function main() {
       }
       console.log(`Converted ${convertedCount} images to WebP.`)
     } catch (e) {
-      console.error(`Error during image optimization: ${e.message}`)
+      const error = e instanceof Error ? e : new Error(String(e))
+      console.error(`Error during image optimization: ${error.message}`)
     }
   }
 
@@ -92,7 +106,8 @@ async function main() {
     }
     console.log(`Updated security headers in ${htmlFiles.length} files.`)
   } catch (e) {
-    console.error(`Error adding security headers: ${e.message}`)
+    const error = e instanceof Error ? e : new Error(String(e))
+    console.error(`Error adding security headers: ${error.message}`)
     process.exit(1) // Critical failure
   }
 
@@ -120,7 +135,8 @@ async function main() {
     }
     console.log(`Generated SRI hashes for ${assets.length} assets.`)
   } catch (e) {
-    console.error(`Error generating SRI hashes: ${e.message}`)
+    const error = e instanceof Error ? e : new Error(String(e))
+    console.error(`Error generating SRI hashes: ${error.message}`)
     process.exit(1) // Critical failure
   }
 

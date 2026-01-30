@@ -27,6 +27,7 @@
     "glob": "^13.0.0",
     "html-minifier-terser": "^7.2.0",
     "prettier": "^3.8.1",
+    "purgecss": "^8.0.0",
     "terser": "^5.46.0",
     "yargs": "^18.0.0"
   }
