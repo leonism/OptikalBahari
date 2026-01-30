@@ -5,6 +5,7 @@
     title="{{ include.post.title }}"
   >
     {% if include.post.background %}
+    {% capture card_content %}
     <img
       itemprop="image"
       src="{{ include.post.background | prepend: site.baseurl | replace: '//', '/' }}"
@@ -15,6 +16,8 @@
       width="400"
       height="250"
     />
+    {% endcapture %}
+    {% include components/image-ratio.html ratio="16x9" content=card_content %}
     {% endif %}
   </a>
   <div class="card-body">

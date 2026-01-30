@@ -28,30 +28,45 @@ async function main() {
   console.log('🚀 Starting post-build optimizations...')
 
   // 1. Purge CSS (Before Critical and SRI)
-  if (fs.existsSync('_scripts/post-built/purge-css.js') && fs.existsSync('node_modules/purgecss')) {
-    const runPurgeCSS = require('./purge-css')
-    await runPurgeCSS()
+  if (fs.existsSync('_scripts/post-built/purge-css.js')) {
+    try {
+      require.resolve('purgecss')
+      const runPurgeCSS = require('./purge-css')
+      await runPurgeCSS()
+    } catch (e) {
+      console.log('⚠️ PurgeCSS skipped (purgecss package not found)')
+    }
   } else {
-    console.log('⚠️ PurgeCSS skipped (script or dependencies not found)')
+    console.log('⚠️ PurgeCSS skipped (script not found)')
   }
 
   // 2. Critical CSS
-  if (fs.existsSync('_scripts/post-built/critical-css.js') && fs.existsSync('node_modules/critical')) {
-    console.log('📝 Extracting critical CSS...')
-    runCommand('node _scripts/post-built/critical-css.js', 'Critical CSS extraction')
+  if (fs.existsSync('_scripts/post-built/critical-css.js')) {
+    try {
+      require.resolve('critical')
+      console.log('📝 Extracting critical CSS...')
+      runCommand('node _scripts/post-built/critical-css.js', 'Critical CSS extraction')
+    } catch (e) {
+      console.log('⚠️ Critical CSS extraction skipped (critical package not found)')
+    }
   } else {
-    console.log('⚠️ Critical CSS extraction skipped (script or dependencies not found)')
+    console.log('⚠️ Critical CSS extraction skipped (script not found)')
   }
 
-  // 2. Service Worker
-  if (fs.existsSync('_scripts/post-built/generate-sw.js') && fs.existsSync('node_modules/workbox-build')) {
-    console.log('⚙️ Generating service worker...')
-    runCommand('node _scripts/post-built/generate-sw.js', 'Service worker generation')
+  // 3. Service Worker
+  if (fs.existsSync('_scripts/post-built/generate-sw.js')) {
+    try {
+      require.resolve('workbox-build')
+      console.log('⚙️ Generating service worker...')
+      runCommand('node _scripts/post-built/generate-sw.js', 'Service worker generation')
+    } catch (e) {
+      console.log('⚠️ Service worker generation skipped (workbox-build package not found)')
+    }
   } else {
-    console.log('⚠️ Service worker generation skipped (script or dependencies not found)')
+    console.log('⚠️ Service worker generation skipped (script not found)')
   }
 
-  // 3. Image Optimization
+  // 4. Image Optimization
   console.log('🖼️ Optimizing images...')
   let cwebpAvailable = false
   try {
@@ -83,7 +98,7 @@ async function main() {
     }
   }
 
-  // 4. Asset Consolidation
+  // 5. Asset Consolidation
   if (fs.existsSync('_scripts/post-built/consolidate-assets.js')) {
     console.log('📦 Consolidating assets...')
     runCommand('node _scripts/post-built/consolidate-assets.js', 'Asset consolidation')
@@ -91,7 +106,7 @@ async function main() {
     console.log('⚠️ Asset consolidation skipped (script not found)')
   }
 
-  // 5. Security Headers
+  // 6. Security Headers
   console.log('🔒 Adding security headers...')
   try {
     const htmlFiles = glob.sync(`${SITE_DIR}/**/*.html`)
@@ -111,7 +126,7 @@ async function main() {
     process.exit(1) // Critical failure
   }
 
-  // 6. SRI Hashes
+  // 7. SRI Hashes
   console.log('🔐 Generating SRI hashes...')
   try {
     const assets = glob.sync(`${SITE_DIR}/**/*.{css,js}`)
@@ -140,7 +155,7 @@ async function main() {
     process.exit(1) // Critical failure
   }
 
-  // 7. HTML Minification
+  // 8. HTML Minification
   if (fs.existsSync('_scripts/post-built/minify-html.js')) {
     console.log('📄 Minifying HTML...')
     runCommand('node _scripts/post-built/minify-html.js', 'HTML Minification')
