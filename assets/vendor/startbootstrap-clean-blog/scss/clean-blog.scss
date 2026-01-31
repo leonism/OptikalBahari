@@ -1,7 +1,6 @@
 @import 'variables.scss';
 @import 'mixins.scss';
 @import 'base.scss';
-@import 'navbar.scss';
 @import 'masthead.scss';
 @import 'post.scss';
 @import 'footer.scss';
@@ -21,4 +20,11 @@
 @import 'darkmode.scss';
 @import 'badges.scss';
 @import 'buttons.scss';
+@import "navbar-base";
+@import "navbar-accessibility";
+@import "navbar-search";
+@import "navbar-toggle";
+@import "navbar-theme-dark";
+@import "navbar-main";
+@import "navbar-responsive";
 // @import "contact.scss";

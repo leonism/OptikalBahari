@@ -1,0 +1,47 @@
+#mainNav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  z-index: 1000;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
+  backdrop-filter: blur(200px) saturate(160%);
+  -webkit-backdrop-filter: blur(200px) saturate(160%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  @include sans-serif-font;
+
+  .navbar-brand {
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: -2px;
+    word-spacing: -2px;
+    color: $gray-900;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 12px;
+    font-weight: 900;
+    padding: 10px;
+    text-transform: uppercase;
+    color: $gray-900;
+    border: none;
+  }
+
+  .navbar-nav > li.nav-item > a {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    color: $gray-800;
+    transition: all 0.3s ease;
+    &:hover {
+      color: $primary;
+      transform: translateY(-2px);
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+}

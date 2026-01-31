@@ -1,0 +1,30 @@
+.form-check-input {
+  display: none;
+}
+
+.form-check-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  .light-icon {
+    display: inline;
+  }
+  .dark-icon {
+    display: none;
+  }
+}
+
+.navbar {
+  .nav-item {
+    .form-check {
+      padding-left: 0;
+      .form-check-input {
+        margin-top: 0;
+      }
+      .form-check-label {
+        padding-left: 0.5rem;
+      }
+    }
+  }
+}
