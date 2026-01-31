@@ -1,0 +1,104 @@
+// Contact Page / Form Styles
+// --------------------------------------------------
+// Styles for the floating label form inputs on the contact page.
+// Handles label animation, input styling, and dark mode.
+
+.floating-label-form-group {
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid $gray-300;
+
+  // Input & Textarea Defaults
+  input,
+  textarea {
+    font-size: 1.5em;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    resize: none;
+    border: none;
+    border-radius: 0;
+    background: none;
+    box-shadow: none !important; // Override Bootstrap default shadows
+    @include serif-font;
+    color: $gray-900;
+
+    &::placeholder {
+      color: $gray-600;
+      @include serif-font;
+    }
+  }
+
+  // Floating Label
+  label {
+    font-size: 0.85em;
+    line-height: 1.764705882em;
+    position: relative;
+    z-index: 0;
+    top: 2em;
+    display: block;
+    margin: 0;
+    transition: top 0.3s ease, opacity 0.3s ease;
+    vertical-align: baseline;
+    opacity: 0;
+    color: $gray-600;
+  }
+
+  // Help Block (Validation messages)
+  .help-block {
+    margin: 15px 0;
+  }
+}
+
+// Floating Label States
+// --------------------------------------------------
+
+// Label visible (input has value)
+.floating-label-form-group-with-value {
+  label {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+// Label focused (input has focus)
+.floating-label-form-group-with-focus {
+  label {
+    color: $primary;
+  }
+}
+
+// First Group Border Fix
+form .form-group:first-child .floating-label-form-group {
+  border-top: 1px solid $gray-300;
+}
+
+// Dark Mode Overrides
+// --------------------------------------------------
+[data-bs-theme="dark"] body {
+  .floating-label-form-group {
+    border-bottom-color: $gray-700;
+
+    input,
+    textarea {
+      color: $dark-text;
+      &::placeholder {
+        color: $gray-500;
+      }
+    }
+
+    label {
+      color: $gray-500;
+    }
+  }
+
+  .floating-label-form-group-with-focus label {
+    color: $primary;
+  }
+
+  form .form-group:first-child .floating-label-form-group {
+    border-top-color: $gray-700;
+  }
+}

@@ -1,0 +1,89 @@
+// Card Component Styles
+// --------------------------------------------------
+// Generic card component used for grouping content.
+// Supports light and dark modes.
+
+.card {
+  border: none;
+  // Use variable logic if available, otherwise fallback to 0.5rem
+  $card-radius: 0.5rem;
+  @if variable-exists(enable-rounded) and not $enable-rounded {
+    $card-radius: 0;
+  }
+  border-radius: $card-radius;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+  background-color: $white;
+  @include transition-all;
+
+  // Card Body
+  .card-body {
+    padding: 2rem;
+    color: $light-text;
+
+    // Headings reset
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0;
+      font-weight: 700;
+    }
+
+    // Links inside card body
+    a {
+      text-decoration: none;
+      color: $primary;
+      font-weight: 600;
+
+      &:hover {
+        text-decoration: underline;
+        color: darken($primary, 10%);
+      }
+    }
+  }
+
+  // Card Footer
+  .card-footer {
+    padding: 1rem 2rem;
+    background-color: $gray-100;
+    border-top: 1px solid $gray-200;
+    font-size: 0.9rem;
+    color: $gray-600;
+  }
+}
+
+// Card Text Helper
+.card-text {
+  line-height: 1.6;
+  margin: 1.5rem 0;
+}
+
+// Dark Mode Overrides
+// --------------------------------------------------
+[data-bs-theme="dark"] body {
+  .card {
+    background-color: $dark-card;
+    color: $dark-text;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); // Stronger shadow for depth
+
+    .card-body {
+      background-color: $dark-card-body;
+      color: $dark-text;
+
+      h1, h2, h3, h4, h5, h6 {
+        color: $white;
+      }
+
+      a {
+        color: $dark-link;
+        &:hover {
+          color: lighten($dark-link, 10%);
+        }
+      }
+    }
+
+    .card-footer {
+      background-color: $dark-accent;
+      border-top-color: lighten($dark-accent, 5%);
+      color: $dark-text;
+    }
+  }
+}

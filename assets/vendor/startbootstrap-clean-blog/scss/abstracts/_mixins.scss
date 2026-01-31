@@ -1,0 +1,24 @@
+// Mixins
+// --------------------------------------------------
+
+// Transitions
+@mixin transition-all() {
+  transition: all 0.2s;
+}
+
+// Backgrounds
+@mixin background-cover() {
+  background-size: cover;
+}
+
+// Typography
+@mixin serif-font() {
+  font-family: $font-family-serif;
+}
+
+@mixin sans-serif-font() {
+  font-family: $font-family-sans-serif;
+}
+
+// Note: Button variants are now handled by Bootstrap's built-in mixins or utility classes.
+// Custom button mixins should be added here only if strictly necessary.

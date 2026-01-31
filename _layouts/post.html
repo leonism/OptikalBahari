@@ -8,6 +8,10 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
 ---
 
 {% include navigation/navbar.html %}
+<<<<<<< HEAD
+=======
+<!-- start master head -->
+>>>>>>> dev
 {% if page.background %}
 <header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')">
     <img src="{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}
@@ -29,11 +33,19 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
             <h1>
+<<<<<<< HEAD
               {{ page.title }}
             </h1>
             {% if page.subtitle %}
               <h2 class="subheading text-capitalize">
                 {{ page.subtitle }}
+=======
+              {{ site.tagline }}
+            </h1>
+            {% if site.description %}
+              <h2 class="subheading text-capitalize">
+                {{ site.description }}
+>>>>>>> dev
               </h2>
             {% endif %}
           </div>

@@ -1,0 +1,103 @@
+// Search Component Styles
+// --------------------------------------------------
+// Styles for the custom Google search bar component.
+// Includes responsive adjustments and dark mode overrides.
+
+#search-google {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  width: 100%;
+  max-width: 400px;
+
+  // Search Input Field
+  .custom-search {
+    width: 100%;
+    padding: 10px 48px 10px 20px;
+    font-size: 16px;
+    color: $light-text;
+    background-color: $white;
+    border: 2px solid $primary;
+    border-radius: 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    @include transition-all;
+
+    &:focus {
+      outline: none;
+      border-color: darken($primary, 10%);
+      box-shadow: 0 0 12px rgba($primary, 0.6);
+    }
+
+    &::placeholder {
+      color: $gray-600;
+      opacity: 1;
+      font-weight: 400;
+    }
+  }
+
+  // Search Icon
+  .search-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $primary;
+    pointer-events: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+
+  // Hover Effect
+  &:hover .search-icon {
+    color: darken($primary, 10%);
+  }
+}
+
+// Responsive Adjustments
+// --------------------------------------------------
+@media (max-width: 767.98px) {
+  #search-google {
+    margin-left: 0;
+    max-width: 100%;
+
+    .custom-search {
+      padding: 14px 52px 14px 18px;
+      font-size: 17px;
+      height: 45px;
+    }
+
+    .search-icon {
+      right: 17px;
+      font-size: 18px;
+    }
+  }
+}
+
+// Dark Mode Overrides
+// --------------------------------------------------
+[data-bs-theme="dark"] body {
+  #search-google {
+    .custom-search {
+      background-color: $dark-button;
+      color: $dark-text;
+      border-color: $dark-link;
+
+      &:focus {
+        border-color: lighten($dark-link, 10%);
+        box-shadow: 0 0 12px rgba($dark-link, 0.4);
+      }
+
+      &::placeholder {
+        color: $gray-500;
+      }
+    }
+
+    .search-icon {
+      color: $dark-link;
+    }
+
+    &:hover .search-icon {
+      color: lighten($dark-link, 10%);
+    }
+  }
+}

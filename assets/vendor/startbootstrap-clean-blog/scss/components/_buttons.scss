@@ -1,0 +1,163 @@
+// Buttons & Action Elements
+// --------------------------------------------------
+
+// Base Button Style (Bootstrap Override)
+.btn {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 15px 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+  @include sans-serif-font;
+}
+
+.btn-lg {
+  font-size: 16px;
+  padding: 25px 35px;
+}
+
+// Primary Button Variant
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  color: $white;
+  @include transition-all;
+  transition: all 0.3s ease;
+
+  // Hover State
+  &:hover {
+    background-color: darken($primary, 15%);
+    border-color: darken($primary, 15%);
+    color: $white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+
+  // Focus State
+  &:focus {
+    background-color: lighten($primary, 10%);
+    border-color: lighten($primary, 10%);
+    color: $white;
+    outline: 4px solid lighten($primary, 20%);
+    outline-offset: 4px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+  }
+
+  // Active State
+  &:active {
+    background-color: darken($primary, 20%);
+    border-color: darken($primary, 20%);
+    color: $white;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(0.97);
+    animation: pulse 0.3s ease-in-out;
+  }
+
+  &.rounded-pill {
+    border-radius: 50rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+// Pulsing Animation for Active State
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    transform: scale(0.97);
+    box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    transform: scale(0.97);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+// Video Play Button
+.intro-banner-vdo-play-btn {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $white;
+  background-color: $primary;
+  cursor: pointer;
+
+  i {
+    font-size: 30px;
+    z-index: 1;
+  }
+
+  .ripple {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    margin: -80px 0 0 -80px;
+    border-radius: 50%;
+    animation: ripple 1.8s infinite;
+  }
+
+  .ripple:nth-child(2) { animation-delay: 0.3s; }
+  .ripple:nth-child(3) { animation-delay: 0.6s; }
+
+  &:hover .ripple {
+    animation: ripple 1.8s infinite;
+  }
+}
+
+// Floating WhatsApp Button
+.floatingWhatsApp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 10px;
+  right: 10px;
+  background-color: #25d366;
+  color: $white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+  z-index: 100;
+  @include transition-all;
+
+  &:hover {
+    background-color: darken(#25d366, 5%) !important;
+    color: $white;
+  }
+}
+
+// Ripple Animation
+@keyframes ripple {
+  0% {
+    opacity: 1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+// Dark Mode Overrides
+[data-bs-theme="dark"] body {
+  .intro-banner-vdo-play-btn {
+     background-color: $dark-button;
+     .ripple {
+        background-color: $dark-ripple;
+     }
+  }
+}

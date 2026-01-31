@@ -1,0 +1,133 @@
+// Pagination Styles
+// --------------------------------------------------
+// Styles for the pagination component used in blog lists.
+// Supports light and dark modes.
+
+.pagination {
+  @include sans-serif-font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 1rem 0;
+}
+
+.page-item {
+  margin: 0 2px;
+  list-style: none;
+
+  // Link Styling
+  .page-link {
+    display: block;
+    padding: 6px 12px;
+    color: $white;
+    background-color: $primary;
+    border: 1px solid $gray-200;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+    @include transition-all;
+
+    span {
+      font-size: 12px;
+      transition: transform 0.3s ease;
+    }
+
+    &:focus {
+      outline: 2px solid rgba($primary, 0.5);
+      outline-offset: 2px;
+    }
+  }
+
+  // Hover State (Enabled)
+  &:not(.disabled) .page-link:hover {
+    color: $white;
+    background-color: darken($primary, 10%);
+    border-color: $gray-200;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+
+    span {
+      transform: scale(1.1);
+    }
+  }
+
+  // Active State
+  &.active .page-link {
+    color: $white;
+    background-color: darken($primary, 10%);
+    border-color: $gray-200;
+    font-weight: 700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+
+  // Disabled State
+  &.disabled {
+    opacity: 0.65;
+    pointer-events: none;
+
+    .page-link {
+      background-color: $primary;
+      border-color: $gray-200;
+      cursor: not-allowed;
+      box-shadow: none;
+      transform: translateY(0);
+    }
+  }
+}
+
+// Responsive Adjustments
+// --------------------------------------------------
+@media (max-width: 767.98px) {
+  .pagination {
+    gap: 2px;
+  }
+
+  .page-link {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  // Hide intermediate pages on mobile to save space
+  .page-item:not(.active):not(:first-child):not(:last-child):not(:nth-child(2)):not(:nth-last-child(2)) {
+    display: none;
+  }
+}
+
+// Dark Mode Overrides
+// --------------------------------------------------
+[data-bs-theme="dark"] body {
+  .page-item {
+    .page-link {
+      background-color: $dark-button;
+      border-color: $dark-border;
+      color: $dark-text;
+
+      &:focus {
+        outline-color: rgba($dark-link, 0.5);
+      }
+    }
+
+    &:not(.disabled) .page-link:hover {
+      background-color: $dark-link;
+      border-color: $dark-border;
+      color: $white;
+    }
+
+    &.active .page-link {
+      background-color: $dark-link;
+      border-color: $dark-border;
+      color: $white;
+    }
+
+    &.disabled .page-link {
+      background-color: $dark-button;
+      border-color: $dark-border;
+      opacity: 0.5;
+    }
+  }
+}

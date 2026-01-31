@@ -1,0 +1,129 @@
+// Masthead / Header Styles
+// --------------------------------------------------
+// Controls the hero header section on pages and posts.
+// Includes overlay, headings, and responsive adjustments.
+
+header.masthead {
+  // Background defaults
+  position: relative;
+  margin-bottom: 3rem;
+  background: no-repeat center center;
+  background-color: $gray-600;
+  background-attachment: scroll;
+  @include background-cover;
+
+  // Overlay
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $gray-900;
+    opacity: 0.5;
+  }
+
+  // Headings Container
+  .page-heading,
+  .post-heading,
+  .site-heading {
+    padding: 200px 0 150px;
+    color: $white;
+    text-align: center;
+
+    // Main Heading
+    h1 {
+      font-size: 35px;
+      font-weight: 800;
+      letter-spacing: -1px;
+      margin-top: 0;
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    // Subheading
+    .subheading {
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 1.1;
+      display: block;
+      margin: 10px 0 0;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+      @include sans-serif-font;
+    }
+
+    // Responsive Desktop
+    @media only screen and (min-width: 768px) {
+      padding: 200px 0;
+      h1 {
+        font-size: 80px;
+      }
+    }
+  }
+
+  // Post Heading Specifics
+  .post-heading {
+    h1 {
+      font-size: 35px;
+    }
+
+    .meta {
+      font-size: 20px;
+      font-weight: 300;
+      font-style: italic;
+      display: block;
+      margin-top: 10px;
+
+      a {
+        color: $white;
+        text-decoration: none;
+        font-weight: 600;
+        @include transition-all;
+
+        &:focus,
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    // Responsive Post Heading
+    @media only screen and (min-width: 768px) {
+      h1 {
+        font-size: 55px;
+      }
+    }
+  }
+}
+
+// Utility: Dimmed Masthead
+// --------------------------------------------------
+.masthead-dimmed {
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.3s ease;
+    z-index: -1;
+  }
+}
+
+// Dark Mode Overrides
+// --------------------------------------------------
+[data-bs-theme="dark"] body {
+  header.masthead {
+    .overlay {
+      opacity: 0.7; // Darker overlay in dark mode
+    }
+  }
+
+  .masthead-dimmed::before {
+    background: rgba(0, 0, 0, 0.8);
+  }
+}

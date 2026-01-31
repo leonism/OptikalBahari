@@ -1,0 +1,186 @@
+// Base Styles
+// --------------------------------------------------
+
+// Global Reset & Body
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  background-color: $light-bg;
+  color: $light-text;
+  @include serif-font;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  @include sans-serif-font;
+}
+
+blockquote {
+  font-style: italic;
+  color: $gray-600;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+// Links
+a {
+  color: $light-link;
+  text-decoration: none;
+  @include transition-all;
+
+  &:focus,
+  &:hover {
+    color: darken($light-link, 10%);
+  }
+}
+
+p a {
+  text-decoration: underline;
+}
+
+// Utilities (Merged from various small files)
+// --------------------------------------------------
+
+// Lazy Loading
+.lazy-loading {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  &.loaded {
+    opacity: 1;
+  }
+}
+
+// Responsive Video
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+// Gradient Text
+.gradient-text {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+// Selection
+::selection {
+  color: $white;
+  background: $primary;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  color: $white;
+  background: $primary;
+  text-shadow: none;
+}
+
+// Dark Mode Overrides
+// --------------------------------------------------
+[data-bs-theme="dark"] body {
+  background-color: $dark-bg;
+  color: $dark-text;
+
+  a {
+    color: $dark-link;
+    &:hover {
+      color: lighten($dark-link, 15%);
+    }
+  }
+
+  blockquote {
+    color: $gray-500;
+  }
+}
+
+// Additional Utilities
+.text-green {
+  color: green;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+// Map Responsive
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+// Hover Zoom-In Effect
+.hover-zoomin {
+  overflow: hidden;
+  display: block;
+  @include transition-all;
+
+  img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    img {
+      transform: scale(1.2);
+    }
+  }
+}
+
+// Badge/Icon Theme Toggles
+.badge-danger {
+  background-color: $danger;
+  color: $white;
+}
+
+.light-icon { display: inline-block; }
+.dark-icon { display: none; }
+
+[data-bs-theme="dark"] body {
+  .light-icon { display: none; }
+  .dark-icon { display: inline-block; }
+}

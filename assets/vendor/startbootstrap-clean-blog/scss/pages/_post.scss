@@ -1,0 +1,92 @@
+// Post Preview (List View) Styles
+// --------------------------------------------------
+// Controls the appearance of blog post entries on the homepage/archive pages.
+// Includes title, subtitle, meta data (date/author), and dark mode overrides.
+
+.post-preview {
+  // Main Link Container
+  > a {
+    color: $gray-900;
+    text-decoration: none;
+    @include transition-all;
+
+    // Title
+    .post-title {
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      @include sans-serif-font; // Ensure consistent font family
+      font-weight: 800;
+    }
+
+    // Subtitle
+    .post-subtitle {
+      font-weight: 300;
+      margin: 0 0 10px;
+      @include sans-serif-font;
+    }
+
+    // Hover/Focus State
+    &:focus,
+    &:hover {
+      color: $primary;
+      text-decoration: none; // Keep it clean
+    }
+  }
+
+  // Meta Data (Date, Author)
+  > .post-meta {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
+    color: $gray-600;
+    @include serif-font;
+
+    > a {
+      text-decoration: none;
+      color: $gray-900;
+      @include transition-all;
+
+      &:focus,
+      &:hover {
+        text-decoration: underline;
+        color: $primary;
+      }
+    }
+  }
+
+  // Responsive Typography
+  @media only screen and (min-width: 768px) {
+    > a .post-title {
+      font-size: 36px;
+    }
+  }
+}
+
+// Dark Mode Overrides
+// --------------------------------------------------
+[data-bs-theme="dark"] body {
+  .post-preview {
+    > a {
+      color: $dark-text;
+
+      &:focus,
+      &:hover {
+        color: $dark-link;
+      }
+    }
+
+    > .post-meta {
+      color: $gray-500;
+
+      > a {
+        color: $dark-text; // Base color for meta links in dark mode
+
+        &:focus,
+        &:hover {
+          color: $dark-link;
+        }
+      }
+    }
+  }
+}
