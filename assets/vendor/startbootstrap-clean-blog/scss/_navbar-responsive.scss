@@ -9,7 +9,6 @@
     &.is-visible {
       transform: translateY(0);
     }
-
     .navbar-nav {
       text-align: left;
       align-items: flex-start !important;
@@ -21,28 +20,21 @@
         }
       }
     }
-
     .navbar-search-area {
       width: 100%;
       margin-top: 10px;
-
       .nav-item form {
         width: 100%;
       }
     }
-
   }
 
-
   @media (min-width: 992px) {
-
     background: transparent;
     border-bottom: 1px solid transparent;
-
     .navbar-brand {
       padding: 10px 20px;
       color: $white;
-
       &:hover,
       &:focus {
         color: fade-out($white, 0.1);
@@ -50,11 +42,9 @@
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
     }
-
     .navbar-nav > li.nav-item > a {
       padding: 10px 20px;
       color: $white;
-
       &:hover,
       &:focus {
         color: fade-out($white, 0.1);
@@ -62,24 +52,20 @@
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
     }
-
     &.is-fixed {
       position: fixed;
       top: -70px;
       background-color: fade-out($white, 0.1);
       border-bottom: 1px solid darken($white, 0.05);
-
       .navbar-brand,
       .navbar-nav > li.nav-item > a {
         color: $gray-900;
-
         &:hover,
         &:focus {
           color: $primary;
         }
       }
     }
-
     &.is-visible {
       transform: translate3d(0, 100%, 0);
     }
