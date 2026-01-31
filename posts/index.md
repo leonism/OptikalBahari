@@ -43,7 +43,7 @@ pagination:
                         <p class="card-text">
                             {{ post.description | strip_html | truncate: 100 }}
                         </p>
-                        <a class="btn btn-primary rounded-pill mt-3"
+                        <a class="btn btn-primary rounded-pill mt-3 text-white"
                             href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                             Lebih Lanjut
                         </a>
@@ -91,7 +91,7 @@ pagination:
                         <p class="card-text">
                             {{ post.description | strip_html | truncate: 100 }}
                         </p>
-                        <a class="btn btn-primary rounded-pill mt-3"
+                        <a class="btn btn-primary rounded-pill mt-3 text-white"
                             href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                             Lebih Lanjut
                         </a>
@@ -142,7 +142,7 @@ pagination:
                         <p class="card-text">
                             {{ post.description | strip_html | truncate: 100 }}
                         </p>
-                        <a class="btn btn-primary rounded-pill mt-3"
+                        <a class="btn btn-primary rounded-pill mt-3 text-white"
                             href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                             Lebih Lanjut
                         </a>
