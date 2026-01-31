@@ -122,7 +122,7 @@ comments: true
             </p>
             <p class="card-text text-start">
                 Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
-                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk
+                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @@optikalbahari</a> supaya mendapaatkan update informasi terkait jenis lensa progresif terbaru. Untuk
                 respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
                 title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>
             </p>

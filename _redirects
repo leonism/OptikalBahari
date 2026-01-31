@@ -1,0 +1,10 @@
+# Fix the broken nested loop URL found in your report
+/posts/posts/page/2/index.html  /blog/  301
+
+# Fix the duplicate/old locations found in your report
+/optik-mata-terdekat  /rekomendasi-optik-di-jakarta/  301
+/toko-kacamata-terdekat  /rekomendasi-optik-di-jakarta/  301
+/optik-kacamata-terdekat  /rekomendasi-optik-di-jakarta/  301
+
+# Ensure 404s are handled correctly (Jekyll default)
+/404.html  404

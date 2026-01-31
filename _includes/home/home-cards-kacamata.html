@@ -10,6 +10,7 @@
             title="Koleksi Kacamata Wanita"
             alt="Koleksi Kacamata Wanita"
           >
+            {% capture card_content %}
             <picture>
               <!-- AVIF format -->
               <source
@@ -52,6 +53,8 @@
                 class="card-img-top"
               />
             </picture>
+            {% endcapture %}
+            {% include components/image-ratio.html ratio="16x9" content=card_content %}
           </a>
           <div class="card-body">
             <h5 class="card-title align-middle">
@@ -82,6 +85,7 @@
             title="Koleksi Kacamata Pria"
             alt="Pria"
           >
+            {% capture card_content %}
             <picture>
               <!-- AVIF format -->
               <source
@@ -127,6 +131,8 @@
                 class="card-img-top"
               />
             </picture>
+            {% endcapture %}
+            {% include components/image-ratio.html ratio="16x9" content=card_content %}
           </a>
           <div class="card-body">
             <h5 class="card-title align-middle">
@@ -156,6 +162,7 @@
             role="button"
             title="Kacamata Anak & Remaja"
           >
+            {% capture card_content %}
             <picture>
               <!-- AVIF format -->
               <source
@@ -201,6 +208,8 @@
                 class="card-img-top"
               />
             </picture>
+            {% endcapture %}
+            {% include components/image-ratio.html ratio="16x9" content=card_content %}
           </a>
           <div class="card-body">
             <h5 class="card-title align-middle">

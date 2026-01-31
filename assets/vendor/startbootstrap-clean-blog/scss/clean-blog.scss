@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Abstracts
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
@@ -17,3 +18,35 @@
 // Pages
 @import 'pages/post';
 @import 'pages/contact';
+=======
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'base.scss';
+@import 'masthead.scss';
+@import 'post.scss';
+@import 'footer.scss';
+@import 'whatsapp.scss';
+@import 'lazyload.scss';
+@import 'videos.scss';
+@import 'blinkies.scss';
+@import 'overlapping.scss';
+@import 'bootstrap-overrides.scss';
+@import 'hover.scss';
+@import 'maps.scss';
+@import 'pagination.scss';
+@import 'search.scss';
+@import 'icons.scss';
+@import 'logo.scss';
+@import 'headings.scss';
+@import 'darkmode.scss';
+@import 'badges.scss';
+@import 'buttons.scss';
+@import "navbar-base";
+@import "navbar-accessibility";
+@import "navbar-search";
+@import "navbar-toggle";
+@import "navbar-theme-dark";
+@import "navbar-main";
+@import "navbar-responsive";
+// @import "contact.scss";
+>>>>>>> master

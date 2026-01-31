@@ -1,0 +1,13 @@
+.navbar {
+  a,
+  button,
+  input,
+  .form-check-input {
+    &:focus {
+      outline: none;
+    }
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}

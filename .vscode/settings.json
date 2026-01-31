@@ -78,10 +78,10 @@
     "css.validate": true
   },
   "files.associations": {
-    "*.md": "jekyll",
+    "*.md": "liquid",
     "*.markdown": "jekyll",
     "*.liquid": "jekyll",
-    "*.html": "jekyll"
+    "*.html": "liquid"
   },
   "emmet.includeLanguages": {
     "jekyll": "html",

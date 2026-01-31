@@ -4,14 +4,17 @@
     <div class="col">
       <div class="card h-100">
         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-          {% if page.background %}
+          {% if post.background %}
+          {% capture card_content %}
           <img
             src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
             class="card-img-top"
             alt="{{ post.title }}"
           />
+          {% endcapture %}
+          {% include components/image-ratio.html ratio="16x9" content=card_content %}
+          {% endif %}
         </a>
-        {% endif %}
         <div class="card-body">
           <h5 class="card-title">{{ post.title }}</h5>
           <p class="card-text text-start">

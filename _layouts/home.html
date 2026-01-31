@@ -3,7 +3,10 @@ layout: default
 ---
 
 {% include navigation/navbar.html %}
+<<<<<<< HEAD
 <!-- start master head -->
+=======
+>>>>>>> master
 {% if page.background %}
 <header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')">
     <img src="{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}
@@ -36,7 +39,7 @@ layout: default
         </div>
       </div>
     </div>
-  </header>
+</header>
 <div class="container">
   <div class="row">
     <div class="col-lg-10 col-md-10 mx-auto">

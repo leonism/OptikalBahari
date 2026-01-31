@@ -9,6 +9,7 @@
             role="button"
             title="Periksa Mata Gratis"
           >
+            {% capture card_content %}
             <picture>
               <!-- AVIF format -->
               <source
@@ -51,6 +52,8 @@
                 class="card-img-top"
               />
             </picture>
+            {% endcapture %}
+            {% include components/image-ratio.html ratio="16x9" content=card_content %}
           </a>
           <div class="card-body">
             <h5 class="card-title">
@@ -78,6 +81,7 @@
             role="button"
             title="Kacamata Cicilan 0%"
           >
+            {% capture card_content %}
             <picture>
               <!-- AVIF format -->
               <source
@@ -120,6 +124,8 @@
                 class="card-img-top"
               />
             </picture>
+            {% endcapture %}
+            {% include components/image-ratio.html ratio="16x9" content=card_content %}
           </a>
           <div class="card-body">
             <h5 class="card-title">
@@ -146,6 +152,7 @@
             role="button"
             title="Menerima Pembayaran KJP"
           >
+            {% capture card_content %}
             <picture>
               <!-- AVIF format -->
               <source
@@ -188,6 +195,8 @@
                 class="card-img-top"
               />
             </picture>
+            {% endcapture %}
+            {% include components/image-ratio.html ratio="16x9" content=card_content %}
           </a>
           <div class="card-body">
             <h5 class="card-title">
