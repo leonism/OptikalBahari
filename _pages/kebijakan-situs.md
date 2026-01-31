@@ -21,11 +21,11 @@ comments: false
     <img
       src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
       class="card-img-top"
-      alt="tips-kacamata-2.webp">
+      alt="Privacy & Policy, Kebijakan Penggunaan Situs">
     <div class="card-body">
-      <h3 class="card-title">
+      <h2 class="card-title">
         Kebijakan Penggunaan Situs Optikal Bahari
-      </h3>
+      </h2>
       <p class="card-text text-start">
         Di Optikal Bahari, kami sangat menghargai privasi Anda dan komitmen kami untuk melindungi informasi pribadi Anda. Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan membagikan informasi pribadi Anda saat Anda menggunakan layanan kami.
       </p>
