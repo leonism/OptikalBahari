@@ -8,6 +8,7 @@ require 'find'
 require 'colorize'
 require 'dotenv/load'
 require 'fileutils'
+require 'thread'
 
 class CloudinaryUploader
   def initialize
@@ -22,7 +23,7 @@ class CloudinaryUploader
       secure: true
     )
 
-    @base_path = File.expand_path('../assets/img/', __dir__)
+    @base_path = File.expand_path('../../assets/img/', __dir__)
     @mapping = {}
     @uploaded_count = 0
     @failed_count = 0

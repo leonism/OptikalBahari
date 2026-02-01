@@ -722,8 +722,8 @@
   "bg-post.jpeg": {
     "original": {
       "public_id": "bg-post",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769150050/bg-post.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769150050/bg-post.jpg",
+      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769956562/bg-post.jpg",
+      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769956562/bg-post.jpg",
       "format": "jpg",
       "width": 1920,
       "height": 1282,
@@ -758,8 +758,8 @@
   "bg-post.jpg": {
     "original": {
       "public_id": "bg-post",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769150055/bg-post.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769150055/bg-post.jpg",
+      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769956569/bg-post.jpg",
+      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769956569/bg-post.jpg",
       "format": "jpg",
       "width": 1200,
       "height": 800,
@@ -794,8 +794,8 @@
   "bg-post.png": {
     "original": {
       "public_id": "bg-post",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769150062/bg-post.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769150062/bg-post.jpg",
+      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769956596/bg-post.jpg",
+      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769956596/bg-post.jpg",
       "format": "jpg",
       "width": 1920,
       "height": 1282,
@@ -1154,8 +1154,8 @@
   "bg-stories.jpg": {
     "original": {
       "public_id": "bg-stories",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769150111/bg-stories.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769150111/bg-stories.jpg",
+      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769956665/bg-stories.jpg",
+      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769956665/bg-stories.jpg",
       "format": "jpg",
       "width": 1920,
       "height": 1280,
@@ -1190,8 +1190,8 @@
   "bg-stories.png": {
     "original": {
       "public_id": "bg-stories",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769150117/bg-stories.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769150117/bg-stories.jpg",
+      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769956676/bg-stories.jpg",
+      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769956676/bg-stories.jpg",
       "format": "jpg",
       "width": 1920,
       "height": 1282,
@@ -11411,78 +11411,6 @@
     },
     "picture_html": "<picture>\n  <!-- AVIF format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-10 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-10 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-10 1200w\"\n    type=\"image/avif\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- WebP format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-10 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-10 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-10 1200w\"\n    type=\"image/webp\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- JPEG fallback -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-10 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-10 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-10 1200w\"\n    type=\"image/jpeg\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- Final fallback with alt and lazy loading -->\n  <img\n    src=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-10\"\n    alt=\"kacamata-hitam-wanita-10\"\n    loading=\"lazy\"\n    decoding=\"async\"\n    width=\"1456\"\n    height=\"816\">\n</picture>\n"
   },
-  "posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11.png": {
-    "original": {
-      "public_id": "posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1750521218/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1750521218/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11.jpg",
-      "format": "jpg",
-      "width": 1456,
-      "height": 816,
-      "bytes": 85318,
-      "created_at": "2025-06-21T15:53:38Z"
-    },
-    "responsive_urls": {
-      "avif": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11"
-      },
-      "webp": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11"
-      },
-      "jpeg": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11"
-      },
-      "fallback": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11"
-    },
-    "srcsets": {
-      "avif": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 1200w",
-      "webp": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 1200w",
-      "jpeg": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 1200w"
-    },
-    "picture_html": "<picture>\n  <!-- AVIF format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 1200w\"\n    type=\"image/avif\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- WebP format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 1200w\"\n    type=\"image/webp\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- JPEG fallback -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11 1200w\"\n    type=\"image/jpeg\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- Final fallback with alt and lazy loading -->\n  <img\n    src=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11\"\n    alt=\"kacamata-hitam-wanita-11\"\n    loading=\"lazy\"\n    decoding=\"async\"\n    width=\"1456\"\n    height=\"816\">\n</picture>\n"
-  },
-  "posts/kacamata-jelly/kacamata-jelly-00.jpg": {
-    "original": {
-      "public_id": "posts/kacamata-jelly/kacamata-jelly-00",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1750521225/posts/kacamata-jelly/kacamata-jelly-00.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1750521225/posts/kacamata-jelly/kacamata-jelly-00.jpg",
-      "format": "jpg",
-      "width": 1920,
-      "height": 1281,
-      "bytes": 183238,
-      "created_at": "2025-06-21T15:53:45Z"
-    },
-    "responsive_urls": {
-      "avif": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/kacamata-jelly/kacamata-jelly-00",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/kacamata-jelly/kacamata-jelly-00",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/kacamata-jelly/kacamata-jelly-00"
-      },
-      "webp": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/kacamata-jelly/kacamata-jelly-00",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/kacamata-jelly/kacamata-jelly-00",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/kacamata-jelly/kacamata-jelly-00"
-      },
-      "jpeg": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/kacamata-jelly/kacamata-jelly-00",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/kacamata-jelly/kacamata-jelly-00",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/kacamata-jelly/kacamata-jelly-00"
-      },
-      "fallback": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/posts/kacamata-jelly/kacamata-jelly-00"
-    },
-    "srcsets": {
-      "avif": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/kacamata-jelly/kacamata-jelly-00 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/kacamata-jelly/kacamata-jelly-00 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/kacamata-jelly/kacamata-jelly-00 1200w",
-      "webp": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/kacamata-jelly/kacamata-jelly-00 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/kacamata-jelly/kacamata-jelly-00 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/kacamata-jelly/kacamata-jelly-00 1200w",
-      "jpeg": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/kacamata-jelly/kacamata-jelly-00 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/kacamata-jelly/kacamata-jelly-00 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/kacamata-jelly/kacamata-jelly-00 1200w"
-    },
-    "picture_html": "<picture>\n  <!-- AVIF format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/kacamata-jelly/kacamata-jelly-00 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/kacamata-jelly/kacamata-jelly-00 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/kacamata-jelly/kacamata-jelly-00 1200w\"\n    type=\"image/avif\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- WebP format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/kacamata-jelly/kacamata-jelly-00 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/kacamata-jelly/kacamata-jelly-00 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/kacamata-jelly/kacamata-jelly-00 1200w\"\n    type=\"image/webp\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- JPEG fallback -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/kacamata-jelly/kacamata-jelly-00 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/kacamata-jelly/kacamata-jelly-00 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/kacamata-jelly/kacamata-jelly-00 1200w\"\n    type=\"image/jpeg\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- Final fallback with alt and lazy loading -->\n  <img\n    src=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/posts/kacamata-jelly/kacamata-jelly-00\"\n    alt=\"kacamata-jelly-00\"\n    loading=\"lazy\"\n    decoding=\"async\"\n    width=\"1920\"\n    height=\"1281\">\n</picture>\n"
-  },
   "posts/kacamata-jelly/kacamata-jelly-01.jpg": {
     "original": {
       "public_id": "posts/kacamata-jelly/kacamata-jelly-01",
@@ -18902,8 +18830,8 @@
   "profil/bandar-udara-kemayoran-80an.jpeg": {
     "original": {
       "public_id": "profil/bandar-udara-kemayoran-80an",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1750556119/profil/bandar-udara-kemayoran-80an.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1750556119/profil/bandar-udara-kemayoran-80an.jpg",
+      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769961737/profil/bandar-udara-kemayoran-80an.jpg",
+      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769961737/profil/bandar-udara-kemayoran-80an.jpg",
       "format": "jpg",
       "width": 700,
       "height": 390,
@@ -18938,8 +18866,8 @@
   "profil/bandar-udara-kemayoran-80an.jpg": {
     "original": {
       "public_id": "profil/bandar-udara-kemayoran-80an",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769153041/profil/bandar-udara-kemayoran-80an.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769153041/profil/bandar-udara-kemayoran-80an.jpg",
+      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769961741/profil/bandar-udara-kemayoran-80an.jpg",
+      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769961741/profil/bandar-udara-kemayoran-80an.jpg",
       "format": "jpg",
       "width": 700,
       "height": 388,
@@ -19079,6 +19007,42 @@
     },
     "picture_html": "<picture>\n  <!-- AVIF format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/profil/kemayoran-tempoe-doeloe-transformed 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/profil/kemayoran-tempoe-doeloe-transformed 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/profil/kemayoran-tempoe-doeloe-transformed 1200w\"\n    type=\"image/avif\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- WebP format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/profil/kemayoran-tempoe-doeloe-transformed 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/profil/kemayoran-tempoe-doeloe-transformed 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/profil/kemayoran-tempoe-doeloe-transformed 1200w\"\n    type=\"image/webp\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- JPEG fallback -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/profil/kemayoran-tempoe-doeloe-transformed 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/profil/kemayoran-tempoe-doeloe-transformed 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/profil/kemayoran-tempoe-doeloe-transformed 1200w\"\n    type=\"image/jpeg\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- Final fallback with alt and lazy loading -->\n  <img\n    src=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/profil/kemayoran-tempoe-doeloe-transformed\"\n    alt=\"kemayoran-tempoe-doeloe-transformed\"\n    loading=\"lazy\"\n    decoding=\"async\"\n    width=\"2800\"\n    height=\"1940\">\n</picture>\n"
   },
+  "profil/kemayoran-tempoe-doeloe-transformed.jpeg.jpg": {
+    "original": {
+      "public_id": "profil/kemayoran-tempoe-doeloe-transformed.jpeg",
+      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1750556122/profil/kemayoran-tempoe-doeloe-transformed.jpeg.jpg",
+      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1750556122/profil/kemayoran-tempoe-doeloe-transformed.jpeg.jpg",
+      "format": "jpg",
+      "width": 2800,
+      "height": 1940,
+      "bytes": 455467,
+      "created_at": "2025-06-21T16:16:02Z"
+    },
+    "responsive_urls": {
+      "avif": {
+        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/profil/kemayoran-tempoe-doeloe-transformed.jpeg",
+        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/profil/kemayoran-tempoe-doeloe-transformed.jpeg",
+        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/profil/kemayoran-tempoe-doeloe-transformed.jpeg"
+      },
+      "webp": {
+        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/profil/kemayoran-tempoe-doeloe-transformed.jpeg",
+        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/profil/kemayoran-tempoe-doeloe-transformed.jpeg",
+        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/profil/kemayoran-tempoe-doeloe-transformed.jpeg"
+      },
+      "jpeg": {
+        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/profil/kemayoran-tempoe-doeloe-transformed.jpeg",
+        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/profil/kemayoran-tempoe-doeloe-transformed.jpeg",
+        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/profil/kemayoran-tempoe-doeloe-transformed.jpeg"
+      },
+      "fallback": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/profil/kemayoran-tempoe-doeloe-transformed.jpeg"
+    },
+    "srcsets": {
+      "avif": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/profil/kemayoran-tempoe-doeloe-transformed.jpeg 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/profil/kemayoran-tempoe-doeloe-transformed.jpeg 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/profil/kemayoran-tempoe-doeloe-transformed.jpeg 1200w",
+      "webp": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/profil/kemayoran-tempoe-doeloe-transformed.jpeg 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/profil/kemayoran-tempoe-doeloe-transformed.jpeg 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/profil/kemayoran-tempoe-doeloe-transformed.jpeg 1200w",
+      "jpeg": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/profil/kemayoran-tempoe-doeloe-transformed.jpeg 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/profil/kemayoran-tempoe-doeloe-transformed.jpeg 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/profil/kemayoran-tempoe-doeloe-transformed.jpeg 1200w"
+    },
+    "picture_html": "<picture>\n  <!-- AVIF format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/profil/kemayoran-tempoe-doeloe-transformed.jpeg 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/profil/kemayoran-tempoe-doeloe-transformed.jpeg 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/profil/kemayoran-tempoe-doeloe-transformed.jpeg 1200w\"\n    type=\"image/avif\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- WebP format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/profil/kemayoran-tempoe-doeloe-transformed.jpeg 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/profil/kemayoran-tempoe-doeloe-transformed.jpeg 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/profil/kemayoran-tempoe-doeloe-transformed.jpeg 1200w\"\n    type=\"image/webp\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- JPEG fallback -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/profil/kemayoran-tempoe-doeloe-transformed.jpeg 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/profil/kemayoran-tempoe-doeloe-transformed.jpeg 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/profil/kemayoran-tempoe-doeloe-transformed.jpeg 1200w\"\n    type=\"image/jpeg\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- Final fallback with alt and lazy loading -->\n  <img\n    src=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/profil/kemayoran-tempoe-doeloe-transformed.jpeg\"\n    alt=\"kemayoran-tempoe-doeloe-transformed.jpeg\"\n    loading=\"lazy\"\n    decoding=\"async\"\n    width=\"2800\"\n    height=\"1940\">\n</picture>\n"
+  },
   "profil/kemayoran-tempoe-doeloe.jpg": {
     "original": {
       "public_id": "profil/kemayoran-tempoe-doeloe",
@@ -19118,8 +19082,8 @@
   "profil/maximized/bandar-udara-kemayoran-80an.jpeg": {
     "original": {
       "public_id": "profil/maximized/bandar-udara-kemayoran-80an",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769154930/profil/maximized/bandar-udara-kemayoran-80an.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769154930/profil/maximized/bandar-udara-kemayoran-80an.jpg",
+      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769961789/profil/maximized/bandar-udara-kemayoran-80an.jpg",
+      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769961789/profil/maximized/bandar-udara-kemayoran-80an.jpg",
       "format": "jpg",
       "width": 2800,
       "height": 1560,
@@ -19154,8 +19118,8 @@
   "profil/maximized/bandar-udara-kemayoran-80an.jpg": {
     "original": {
       "public_id": "profil/maximized/bandar-udara-kemayoran-80an",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769154935/profil/maximized/bandar-udara-kemayoran-80an.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769154935/profil/maximized/bandar-udara-kemayoran-80an.jpg",
+      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769961796/profil/maximized/bandar-udara-kemayoran-80an.jpg",
+      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769961796/profil/maximized/bandar-udara-kemayoran-80an.jpg",
       "format": "jpg",
       "width": 2800,
       "height": 1552,
@@ -19582,185 +19546,5 @@
       "jpeg": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/splash-screen/bg-splash-post-06 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/splash-screen/bg-splash-post-06 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/splash-screen/bg-splash-post-06 1200w"
     },
     "picture_html": "<picture>\n  <!-- AVIF format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/splash-screen/bg-splash-post-06 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/splash-screen/bg-splash-post-06 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/splash-screen/bg-splash-post-06 1200w\"\n    type=\"image/avif\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- WebP format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/splash-screen/bg-splash-post-06 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/splash-screen/bg-splash-post-06 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/splash-screen/bg-splash-post-06 1200w\"\n    type=\"image/webp\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- JPEG fallback -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/splash-screen/bg-splash-post-06 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/splash-screen/bg-splash-post-06 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/splash-screen/bg-splash-post-06 1200w\"\n    type=\"image/jpeg\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- Final fallback with alt and lazy loading -->\n  <img\n    src=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/splash-screen/bg-splash-post-06\"\n    alt=\"bg-splash-post-06\"\n    loading=\"lazy\"\n    decoding=\"async\"\n    width=\"1920\"\n    height=\"1281\">\n</picture>\n"
-  },
-  "testimonial/testi-01.jpg": {
-    "original": {
-      "public_id": "testimonial/testi-01",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1769155058/testimonial/testi-01.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1769155058/testimonial/testi-01.jpg",
-      "format": "jpg",
-      "width": 778,
-      "height": 674,
-      "bytes": 35520,
-      "created_at": "2025-06-21T16:17:19Z"
-    },
-    "responsive_urls": {
-      "avif": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-01",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-01",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-01"
-      },
-      "webp": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-01",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-01",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-01"
-      },
-      "jpeg": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-01",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-01",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-01"
-      },
-      "fallback": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/testimonial/testi-01"
-    },
-    "srcsets": {
-      "avif": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-01 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-01 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-01 1200w",
-      "webp": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-01 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-01 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-01 1200w",
-      "jpeg": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-01 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-01 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-01 1200w"
-    },
-    "picture_html": "<picture>\n  <!-- AVIF format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-01 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-01 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-01 1200w\"\n    type=\"image/avif\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- WebP format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-01 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-01 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-01 1200w\"\n    type=\"image/webp\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- JPEG fallback -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-01 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-01 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-01 1200w\"\n    type=\"image/jpeg\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- Final fallback with alt and lazy loading -->\n  <img\n    src=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/testimonial/testi-01\"\n    alt=\"testi-01\"\n    loading=\"lazy\"\n    decoding=\"async\"\n    width=\"778\"\n    height=\"674\">\n</picture>\n"
-  },
-  "testimonial/testi-02.jpg": {
-    "original": {
-      "public_id": "testimonial/testi-02",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1750556127/testimonial/testi-02.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1750556127/testimonial/testi-02.jpg",
-      "format": "jpg",
-      "width": 778,
-      "height": 674,
-      "bytes": 44997,
-      "created_at": "2025-06-21T16:17:23Z"
-    },
-    "responsive_urls": {
-      "avif": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-02",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-02",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-02"
-      },
-      "webp": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-02",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-02",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-02"
-      },
-      "jpeg": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-02",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-02",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-02"
-      },
-      "fallback": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/testimonial/testi-02"
-    },
-    "srcsets": {
-      "avif": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-02 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-02 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-02 1200w",
-      "webp": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-02 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-02 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-02 1200w",
-      "jpeg": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-02 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-02 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-02 1200w"
-    },
-    "picture_html": "<picture>\n  <!-- AVIF format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-02 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-02 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-02 1200w\"\n    type=\"image/avif\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- WebP format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-02 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-02 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-02 1200w\"\n    type=\"image/webp\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- JPEG fallback -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-02 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-02 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-02 1200w\"\n    type=\"image/jpeg\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- Final fallback with alt and lazy loading -->\n  <img\n    src=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/testimonial/testi-02\"\n    alt=\"testi-02\"\n    loading=\"lazy\"\n    decoding=\"async\"\n    width=\"778\"\n    height=\"674\">\n</picture>\n"
-  },
-  "testimonial/testi-03.jpg": {
-    "original": {
-      "public_id": "testimonial/testi-03",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1750556126/testimonial/testi-03.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1750556126/testimonial/testi-03.jpg",
-      "format": "jpg",
-      "width": 778,
-      "height": 674,
-      "bytes": 45278,
-      "created_at": "2025-06-21T16:17:28Z"
-    },
-    "responsive_urls": {
-      "avif": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-03",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-03",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-03"
-      },
-      "webp": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-03",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-03",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-03"
-      },
-      "jpeg": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-03",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-03",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-03"
-      },
-      "fallback": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/testimonial/testi-03"
-    },
-    "srcsets": {
-      "avif": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-03 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-03 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-03 1200w",
-      "webp": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-03 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-03 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-03 1200w",
-      "jpeg": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-03 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-03 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-03 1200w"
-    },
-    "picture_html": "<picture>\n  <!-- AVIF format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-03 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-03 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-03 1200w\"\n    type=\"image/avif\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- WebP format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-03 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-03 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-03 1200w\"\n    type=\"image/webp\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- JPEG fallback -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-03 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-03 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-03 1200w\"\n    type=\"image/jpeg\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- Final fallback with alt and lazy loading -->\n  <img\n    src=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/testimonial/testi-03\"\n    alt=\"testi-03\"\n    loading=\"lazy\"\n    decoding=\"async\"\n    width=\"778\"\n    height=\"674\">\n</picture>\n"
-  },
-  "testimonial/testi-04.jpg": {
-    "original": {
-      "public_id": "testimonial/testi-04",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1750556127/testimonial/testi-04.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1750556127/testimonial/testi-04.jpg",
-      "format": "jpg",
-      "width": 778,
-      "height": 674,
-      "bytes": 42819,
-      "created_at": "2025-06-21T16:17:32Z"
-    },
-    "responsive_urls": {
-      "avif": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-04",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-04",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-04"
-      },
-      "webp": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-04",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-04",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-04"
-      },
-      "jpeg": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-04",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-04",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-04"
-      },
-      "fallback": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/testimonial/testi-04"
-    },
-    "srcsets": {
-      "avif": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-04 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-04 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-04 1200w",
-      "webp": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-04 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-04 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-04 1200w",
-      "jpeg": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-04 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-04 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-04 1200w"
-    },
-    "picture_html": "<picture>\n  <!-- AVIF format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-04 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-04 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-04 1200w\"\n    type=\"image/avif\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- WebP format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-04 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-04 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-04 1200w\"\n    type=\"image/webp\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- JPEG fallback -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-04 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-04 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-04 1200w\"\n    type=\"image/jpeg\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- Final fallback with alt and lazy loading -->\n  <img\n    src=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/testimonial/testi-04\"\n    alt=\"testi-04\"\n    loading=\"lazy\"\n    decoding=\"async\"\n    width=\"778\"\n    height=\"674\">\n</picture>\n"
-  },
-  "testimonial/testi-05.jpg": {
-    "original": {
-      "public_id": "testimonial/testi-05",
-      "secure_url": "https://res.cloudinary.com/divkqrf7k/image/upload/v1750556127/testimonial/testi-05.jpg",
-      "url": "http://res.cloudinary.com/divkqrf7k/image/upload/v1750556127/testimonial/testi-05.jpg",
-      "format": "jpg",
-      "width": 778,
-      "height": 674,
-      "bytes": 41928,
-      "created_at": "2025-06-21T16:17:36Z"
-    },
-    "responsive_urls": {
-      "avif": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-05",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-05",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-05"
-      },
-      "webp": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-05",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-05",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-05"
-      },
-      "jpeg": {
-        "480w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-05",
-        "768w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-05",
-        "1200w": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-05"
-      },
-      "fallback": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/testimonial/testi-05"
-    },
-    "srcsets": {
-      "avif": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-05 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-05 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-05 1200w",
-      "webp": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-05 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-05 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-05 1200w",
-      "jpeg": "https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-05 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-05 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-05 1200w"
-    },
-    "picture_html": "<picture>\n  <!-- AVIF format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/testimonial/testi-05 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/testimonial/testi-05 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/testimonial/testi-05 1200w\"\n    type=\"image/avif\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- WebP format -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/testimonial/testi-05 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/testimonial/testi-05 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/testimonial/testi-05 1200w\"\n    type=\"image/webp\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- JPEG fallback -->\n  <source\n    srcset=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/testimonial/testi-05 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/testimonial/testi-05 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/testimonial/testi-05 1200w\"\n    type=\"image/jpeg\"\n    sizes=\"(max-width: 768px) 100vw, 768px\">\n  <!-- Final fallback with alt and lazy loading -->\n  <img\n    src=\"https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/testimonial/testi-05\"\n    alt=\"testi-05\"\n    loading=\"lazy\"\n    decoding=\"async\"\n    width=\"778\"\n    height=\"674\">\n</picture>\n"
   }
 }

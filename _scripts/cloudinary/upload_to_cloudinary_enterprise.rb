@@ -43,7 +43,7 @@ class CloudinaryEnterpriseUploader
       connection_timeout: 30
     )
 
-    @base_path = File.expand_path('../assets/img/', __dir__)
+    @base_path = File.expand_path('../../assets/img/', __dir__)
     @mapping = {}
     @cache = load_cache
     @integrity_cache = load_integrity_cache
@@ -63,7 +63,7 @@ class CloudinaryEnterpriseUploader
     @scan_start_time = nil
     @scan_duration = 0
     @current_scan_data = nil
-    
+
     # Performance optimization caches
     @checksum_cache = Concurrent::Map.new
     @file_stat_cache = Concurrent::Map.new
@@ -110,7 +110,7 @@ class CloudinaryEnterpriseUploader
       process_detected_changes(scan_results)
     else
       puts "\n✅ No changes detected. All files are in sync!".colorize(:green)
-      
+
       # Still check for orphaned remote files in sync mode
       if @sync_mode
         orphaned_files = find_orphaned_remote_files(scan_results)
@@ -224,16 +224,16 @@ class CloudinaryEnterpriseUploader
 
   def perform_integrity_scan
     puts "📊 Scanning file system structure...".colorize(:blue)
-    
+
     current_scan = initialize_scan_data
     scan_filesystem(current_scan)
-    
+
     print "\r" + " " * 50 + "\r" # Clear progress line
-    
+
     # Analyze changes and store current scan data
     changes = analyze_file_changes(current_scan)
     @current_scan_data = current_scan
-    
+
     changes
   end
 
@@ -250,10 +250,10 @@ class CloudinaryEnterpriseUploader
   def scan_filesystem(current_scan)
     # Use Dir.glob for better performance than Find.find
     pattern = File.join(@base_path, '**', '*')
-    
+
     Dir.glob(pattern, File::FNM_DOTMATCH).each do |path|
       next if File.basename(path).start_with?('.')
-      
+
       if File.directory?(path)
         add_folder_to_scan(path, current_scan)
       elsif File.file?(path) && is_image_file_fast?(path)
@@ -274,32 +274,32 @@ class CloudinaryEnterpriseUploader
 
   def add_file_to_scan(path, current_scan)
     relative_path = path.sub(@base_path.chomp('/') + '/', '')
-    
+
     return unless passes_filters?(relative_path)
-    
+
     file_info = scan_file_integrity(path, relative_path)
     current_scan[:files][relative_path] = file_info
     current_scan[:total_files] += 1
     current_scan[:total_size] += file_info[:size]
-    
+
     show_scan_progress(current_scan[:total_files])
   end
 
   def passes_filters?(relative_path)
     # Use cache for filter results to avoid repeated pattern matching
     cache_key = "#{relative_path}:#{@include_patterns.join(',')}:#{@exclude_patterns.join(',')}"
-    
+
     @path_filter_cache.fetch(cache_key) do
       # Apply include filters
       if @include_patterns.any?
         return false unless @include_patterns.any? { |pattern| File.fnmatch(pattern, relative_path) }
       end
-      
+
       # Apply exclude filters
       if @exclude_patterns.any?
         return false if @exclude_patterns.any? { |pattern| File.fnmatch(pattern, relative_path) }
       end
-      
+
       true
     end
   end
@@ -329,7 +329,7 @@ class CloudinaryEnterpriseUploader
     if @fast_scan
       # Use cached checksum if file hasn't changed
       cache_key = "#{relative_path}:#{stat.mtime.to_i}:#{stat.size}"
-      
+
       # Check both persistent cache and memory cache
       if @cache[cache_key]
         file_info[:checksum] = @cache[cache_key]
@@ -362,17 +362,17 @@ class CloudinaryEnterpriseUploader
   def analyze_file_changes(current_scan)
     previous_scan = @integrity_cache
     changes = initialize_change_tracking
-    
+
     # Handle first-time scan
     if is_first_scan?(previous_scan)
       return handle_first_scan(current_scan, changes)
     end
-    
+
     # Compare current vs previous scan
     detect_file_changes(current_scan, previous_scan, changes)
     detect_folder_changes(current_scan, previous_scan, changes)
     detect_renamed_files(changes)
-    
+
     changes
   end
 
@@ -402,7 +402,7 @@ class CloudinaryEnterpriseUploader
   def detect_file_changes(current_scan, previous_scan, changes)
     current_files = current_scan[:files]
     previous_files = previous_scan[:files] || {}
-    
+
     # Find new and modified files
     current_files.each do |path, file_info|
       if previous_files.key?(path)
@@ -415,7 +415,7 @@ class CloudinaryEnterpriseUploader
         changes[:has_changes] = true
       end
     end
-    
+
     # Find deleted files
     previous_files.each do |path, prev_file_info|
       unless current_files.key?(path)
@@ -428,10 +428,10 @@ class CloudinaryEnterpriseUploader
   def detect_folder_changes(current_scan, previous_scan, changes)
     current_folders = current_scan[:folders]
     previous_folders = Set.new(previous_scan[:folders] || [])
-    
+
     changes[:new_folders] = (current_folders - previous_folders).to_a
     changes[:deleted_folders] = (previous_folders - current_folders).to_a
-    
+
     if changes[:new_folders].any? || changes[:deleted_folders].any?
       changes[:has_changes] = true
     end
@@ -442,18 +442,18 @@ class CloudinaryEnterpriseUploader
     new_file_checksums = changes[:new_files].map { |f| f[:checksum] }
     deleted_file_checksums = changes[:deleted_files].map { |f| f[:checksum] }
     common_checksums = new_file_checksums & deleted_file_checksums
-    
+
     common_checksums.each do |checksum|
       new_file = changes[:new_files].find { |f| f[:checksum] == checksum }
       deleted_file = changes[:deleted_files].find { |f| f[:checksum] == checksum }
-      
+
       if new_file && deleted_file
         changes[:renamed_files] << {
           old_path: deleted_file[:relative_path],
           new_path: new_file[:relative_path],
           file_info: new_file
         }
-        
+
         # Remove from new/deleted lists since it's a rename
         changes[:new_files].delete(new_file)
         changes[:deleted_files].delete(deleted_file)
@@ -560,7 +560,7 @@ class CloudinaryEnterpriseUploader
         if batch_count % 5 == 0
           print "\r📊 Loaded #{all_resources.length} remote assets..."
         end
-        
+
         # Reduced sleep time for faster loading
         sleep(API_RATE_LIMIT_DELAY)
       end
@@ -569,7 +569,7 @@ class CloudinaryEnterpriseUploader
 
       # Build efficient lookup cache with concurrent map for thread safety
       @remote_assets_cache = Concurrent::Map.new
-      
+
       # Process resources in parallel for faster cache building
       all_resources.each_slice(1000) do |resource_batch|
         resource_batch.each do |resource|
@@ -596,7 +596,7 @@ class CloudinaryEnterpriseUploader
     return if files.empty?
 
     @processed_count = 0
-    
+
     # Process files in optimized batches with better concurrency
     files.each_slice(CHUNK_SIZE) do |chunk|
       # Use promise-based approach for better resource management
@@ -608,7 +608,7 @@ class CloudinaryEnterpriseUploader
 
       # Wait for all promises in chunk to complete
       Concurrent::Promise.zip(*promises).wait
-      
+
       # Brief pause to prevent API rate limiting
       sleep(API_RATE_LIMIT_DELAY) if chunk.size > 100
     end
@@ -661,7 +661,7 @@ class CloudinaryEnterpriseUploader
 
     # Get all current local file paths (convert to public_id format)
     current_local_files = Set.new
-    
+
     # Add all files from current scan data
     if @current_scan_data && @current_scan_data[:files]
       @current_scan_data[:files].each_value do |file_info|
@@ -669,7 +669,7 @@ class CloudinaryEnterpriseUploader
         current_local_files.add(public_id)
       end
     end
-    
+
     # Add files from scan results
     [scan_results[:new_files], scan_results[:modified_files]].each do |file_list|
       next unless file_list
@@ -678,7 +678,7 @@ class CloudinaryEnterpriseUploader
         current_local_files.add(public_id)
       end
     end
-    
+
     # Add renamed files (new paths)
     scan_results[:renamed_files].each do |rename_info|
       public_id = rename_info[:new_path].sub(/\.[^.]+$/, '')
@@ -702,7 +702,7 @@ class CloudinaryEnterpriseUploader
 
   def handle_orphaned_file_cleanup(orphaned_files)
     puts "🧹 #{@dry_run ? 'Would clean up' : 'Cleaning up'} orphaned remote files...".colorize(:yellow)
-    
+
     orphaned_files.each_slice(BATCH_SIZE) do |batch|
       public_ids = batch.map { |file| file[:public_id] }
 
@@ -714,22 +714,22 @@ class CloudinaryEnterpriseUploader
       else
         begin
           result = Cloudinary::Api.delete_resources(public_ids)
-          
+
           if result['deleted']
             deleted_count = result['deleted'].length
             @deleted_count += deleted_count
             puts "   ✅ Deleted #{deleted_count} orphaned files".colorize(:green)
-            
+
             # Log deleted files
             result['deleted'].each do |public_id|
               puts "      🗑️  #{public_id}".colorize(:light_red)
             end
           end
-          
+
           if result['not_found'] && result['not_found'].any?
             puts "   ⚠️  #{result['not_found'].length} files already deleted".colorize(:yellow)
           end
-          
+
         rescue => e
           puts "   ❌ Error deleting batch: #{e.message}".colorize(:red)
           log_error("Orphaned file cleanup", e)
@@ -754,18 +754,18 @@ class CloudinaryEnterpriseUploader
           deleted_count = result['deleted']&.length || 0
           @deleted_count += deleted_count
           puts "🗑️  Deleted #{deleted_count} files from Cloudinary".colorize(:red)
-          
+
           # Log deleted files
           if result['deleted']
             result['deleted'].each do |public_id|
               puts "      🗑️  #{public_id}".colorize(:light_red)
             end
           end
-          
+
           if result['not_found'] && result['not_found'].any?
             puts "   ⚠️  #{result['not_found'].length} files already deleted".colorize(:yellow)
           end
-          
+
         rescue => e
           puts "❌ Error deleting batch: #{e.message}".colorize(:red)
           log_error("File deletion", e)

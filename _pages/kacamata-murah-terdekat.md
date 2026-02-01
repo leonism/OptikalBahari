@@ -21,7 +21,7 @@ comments: false
 		<img
 			src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' | relative_url }}"
 			class="card-img-top"
-			alt="tips-kacamata-2.webp"
+			alt="Menyediakan Berbagai Kacamata Murah & Terjangkau"
 		/>
 		<div class="card-body">
 			<h3 class="card-title">
@@ -37,7 +37,7 @@ comments: false
 	</div>
 </div>
 
-{% include home/home-cards.html %}
+{% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
 	<div class="card shadow p-3 mb-5 bg-white rounded">

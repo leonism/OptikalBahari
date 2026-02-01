@@ -149,7 +149,7 @@ The component is currently used in **15+ locations**:
 
 ### Home Page Cards
 
-- `_includes/home/home-cards.html` (3 cards)
+- `_includes/home/home-cards-main.html` (3 cards)
 - `_includes/home/home-cards-category.html` (3 cards)
 - `_includes/home/home-cards-kacamata.html` (3 cards)
 - `_includes/home/home-cards-kjp.html` (1 card)
