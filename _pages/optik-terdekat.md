@@ -41,7 +41,7 @@ comments: false
   </div>
 </div>
 
-{% include home/home-cards.html %}
+{% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
   <img

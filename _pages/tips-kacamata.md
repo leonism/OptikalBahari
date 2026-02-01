@@ -122,4 +122,4 @@ comments: false
     </p>
   </div>
 </div>
-{% include home/home-cards.html %}
+{% include home/home-cards-main.html %}

@@ -162,7 +162,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
   </div>
 </div>
 
-{% include home/home-cards.html %}
+{% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">

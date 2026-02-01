@@ -3,43 +3,11 @@ layout: default
 ---
 
 {% include navigation/navbar.html %}
-{% if page.background %}
-<header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')">
-    <img src="{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}
-    {% endif %}"
-    fetchpriority="high"
-    decoding="sync"
-    style="display: none"
-    alt="{% if page.title %}
-            {{ page.title }}
-              {% else %}
-            {{ site.title }}
-          {% endif %}"
-  />
-  {% else %}
-  <header class="masthead">
-    {% endif %}
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>
-              {{ site.tagline }}
-            </h1>
-            {% if site.description %}
-              <h2 class="subheading text-capitalize">
-                {{ site.description }}
-              </h2>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </div>
-</header>
+{% include components/masthead.html %}
 <div class="container">
   <div class="row">
     <div class="col-lg-10 col-md-10 mx-auto">
-      {% include home/home-cards.html %}
+      {% include home/home-cards-main.html %}
       {% include home/home-cards-kacamata.html %}
       {% include home/home-cards-glasses.html %}
       {% include home/home-cards-category.html %}

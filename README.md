@@ -223,5 +223,5 @@ build_command:
 npx prettier --write .
 npx prettier --write "**/*.md"
 npx prettier --check "**/*.{html,md}"
-npx prettier --write _includes/home/home-cards.html
+npx prettier --write _includes/home/home-cards-main.html
 ```
