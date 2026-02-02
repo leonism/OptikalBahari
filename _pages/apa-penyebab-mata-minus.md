@@ -22,11 +22,11 @@ comments: false
       data-src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
       src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
       class="card-img-top"
-      alt="Apa Penyebab Mata Minus">
+      alt="Apa Yang Dimaksud Dengan Mata Minus?">
     <div class="card-body">
-      <h3 class="card-title">Apa Penyebab Mata Minus?</h3>
+      <h3 class="card-title">Apa Yang Dimaksud Dengan Mata Minus?</h3>
       <p class="card-text text-start">
-        Mata minus, atau dalam istilah medis disebut <strong>miopia</strong>, adalah kondisi umum dimana penglihatan jauh menjadi buram, sementara objek dekat tampak jelas. Masalah penglihatan ini sering dialami oleh anak-anak hingga orang dewasa. Memahami apa penyebab mata minus, gejalanya, serta bagaimana cara mengatasinya sangat penting untuk menjaga kesehatan mata Anda dan keluarga.Mata minus adalah kelainan refraksi dimana cahaya yang masuk ke mata tidak difokuskan langsung ke retina, tetapi jatuh di depan retina. Akibatnya, objek yang berada di kejauhan terlihat kabur atau tidak jelas. Kondisi ini biasanya mulai berkembang pada masa kanak-kanak dan remaja, dan dapat terus berubah sampai awal usia dewasa.
+        Mata minus, atau dalam istilah medis disebut <strong>miopia</strong>, adalah kondisi umum dimana penglihatan jauh menjadi buram, sementara objek dekat tampak jelas. Masalah penglihatan ini sering dialami oleh anak-anak hingga orang dewasa. Memahami apa penyebab mata minus, gejalanya, serta bagaimana cara mengatasinya sangat penting untuk menjaga kesehatan mata Anda dan keluarga. Mata minus adalah kelainan refraksi dimana cahaya yang masuk ke mata tidak difokuskan langsung ke retina, tetapi jatuh di depan retina. Akibatnya, objek yang berada di kejauhan terlihat kabur atau tidak jelas. Kondisi ini biasanya mulai berkembang pada masa kanak-kanak dan remaja, dan dapat terus berubah sampai awal usia dewasa.
       </p>
     </div>
   </div>
@@ -34,11 +34,12 @@ comments: false
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
-      data-src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
-      src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
+      data-src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | relative_url }}"
+      src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | relative_url }}"
       class="card-img-top"
       alt="Penyebab Mata Minus">
     <div class="card-body">
+      <h3 class="card-title">Faktor Penyebab Mata Minus?</h3>
       <p class="card-text text-start">
         <strong>Faktor Genetik</strong>: Salah satu penyebab utama mata minus adalah faktor keturunan. Anak yang memiliki satu atau kedua orang tua bermata minus memiliki kemungkinan lebih tinggi mengalami kondisi yang sama. Peran genetik ini membuat mata minus cenderung berjalan dalam keluarga.
       </p>
@@ -58,7 +59,6 @@ comments: false
   </div>
   {% include home/home-cards-main.html %}
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <div class="card shadow p-3 mb-5 bg-white rounded">
       <img
         itemprop="image"
         data-src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
@@ -66,36 +66,52 @@ comments: false
         class="card-img-top"
         alt="Gejala Umum Mata Minus">
       <div class="card-body">
+        <h3 class="card-title">Gejala Umum Mata Minus</h3>
+          <ul>
+              <li>Penglihatan jauh tampak kabur atau buram.</li>
+              <li>Menyipitkan mata untuk melihat objek di kejauhan.</li>
+              <li>Cepat merasa lelah atau tegang pada mata setelah membaca atau memakai gadget.</li>
+              <li>Sakit kepala setelah aktivitas visual intens.</li>
+          </ul>
+        <p class="card-text text-start">
+          Gejala-gejala ini bisa mempengaruhi produktivitas sehari-hari dan kualitas hidup jika tidak ditangani sejak dini. Jika mata minus tidak dikoreksi dan dibiarkan berkembang, dapat berujung pada ketidaknyamanan visual serta risiko komplikasi mata lainnya di kemudian hari. Kondisi miopia tinggi, misalnya, berhubungan dengan peningkatan risiko gangguan retina, glaukoma, dan katarak. Berikut adalah cara pencegahan Resiko Mata Minus yang umumnya dilakukan
+        </p>
+        <ul>
+          <li>
+            <strong>1. Kurangi Durasi Fokus Dekat</strong> Batasi waktu penggunaan gadget dan membaca intensif terutama pada anak. Istirahatkan mata secara berkala menggunakan aturan seperti melihat objek jauh setiap 20 menit.
+          </li>
+          <li>
+            <strong>2. Tingkatkan Aktivitas Luar Ruangan</strong> Meluangkan waktu bermain di luar ruangan setiap hari dapat membantu kesehatan mata dan mengurangi kemungkinan perkembangan miopia.
+          </li>
+          <li>
+            <strong>3. Pemeriksaan Mata Rutin</strong> Pemeriksaan rutin oleh profesional optik atau optometris membantu mendeteksi perubahan penglihatan sejak dini, sehingga intervensi bisa dilakukan lebih cepat.
+          </li>
+        </ul>
         <h3 class="card-title">
-          <strong>Gejala Umum Mata Minus</strong>
+          Bagaimana Optikal Bahari Dapat Membantu
         </h3>
-        <p>Beberapa tanda yang patut diwaspadai antara lain:<br>
-        • Penglihatan jauh tampak kabur atau buram.<br>
-        • Menyipitkan mata untuk melihat objek di kejauhan.<br>
-      • Cepat merasa lelah atau tegang pada mata setelah membaca atau memakai gadget.<br>
-      • Sakit kepala setelah aktivitas visual intens.</p>
-      <p>Gejala-gejala ini bisa mempengaruhi produktivitas sehari-hari dan kualitas hidup jika tidak ditangani sejak dini.</p>
-      <h2><strong>Risiko Jika Tidak Ditangani</strong></h2>
-      <p>Jika mata minus tidak dikoreksi dan dibiarkan berkembang, dapat berujung pada ketidaknyamanan visual serta risiko komplikasi mata lainnya di kemudian hari. Kondisi miopia tinggi, misalnya, berhubungan dengan peningkatan risiko gangguan retina, glaukoma, dan katarak.</p>
-      <h2><strong>Pencegahan Resiko Mata Minus</strong></h2>
-      <h3><strong>1. Kurangi Durasi Fokus Dekat</strong></h3>
-      <p>Batasi waktu penggunaan gadget dan membaca intensif terutama pada anak. Istirahatkan mata secara berkala menggunakan aturan seperti melihat objek jauh setiap 20 menit.</p>
-      <h3><strong>2. Tingkatkan Aktivitas Luar Ruangan</strong></h3>
-      <p>Meluangkan waktu bermain di luar ruangan setiap hari dapat membantu kesehatan mata dan mengurangi kemungkinan perkembangan miopia.</p>
-      <h3><strong>3. Pemeriksaan Mata Rutin</strong></h3>
-      <p>Pemeriksaan rutin oleh profesional optik atau optometris membantu mendeteksi perubahan penglihatan sejak dini, sehingga intervensi bisa dilakukan lebih cepat.</p>
-      <h2><strong>Bagaimana Optikal Bahari Dapat Membantu</strong></h2>
-      <p>Sebagai pusat layanan optik profesional, Optikal Bahari siap menjadi partner Anda dalam menjaga kesehatan mata dengan pendekatan yang komprehensif.</p>
-      <p><strong>Layanan kami mencakup:</strong><br>
-      • <em>Pemeriksaan mata profesional</em> oleh optometris berpengalaman untuk mendeteksi tingkat minus dan kebutuhan lensa.<br>
-      • <em>Konsultasi kacamata dan lensa</em> yang tepat sesuai resep mata Anda.<br>
-      • <em>Pilihan rangka dan lensa berkualitas tinggi</em> yang dirancang untuk kenyamanan visual jangka panjang.<br>
-      • <em>Saran gaya hidup sehat</em> untuk membantu mencegah progresi <em>miopia</em>, terutama pada anak-anak.<br>
-      • <em>Layanan cepat dan ramah</em> dengan dukungan tim yang berkomitmen pada kebutuhan visual Anda.</p>
-      <p>Optikal Bahari tidak hanya menyediakan produk, tetapi juga solusi menyeluruh untuk penglihatan yang lebih baik dan kehidupan yang lebih produktif.</p>
-      <h2><strong>Ayo Jaga Kesehatan Mata Anda!</strong></h2>
-      <p>Mata minus adalah kondisi yang umum dan bisa berkembang karena berbagai faktor, mulai dari genetika hingga kebiasaan visual sehari-hari. Mengenali penyebabnya, memahami gejala, dan mengambil langkah pencegahan dapat membantu mengurangi risiko serta menjaga kesehatan mata. Pemeriksaan rutin dan penanganan dini sangat penting untuk memastikan penglihatan tetap optimal. Optikal Bahari hadir untuk membantu Anda setiap langkahnya, dengan layanan pemeriksaan mata profesional, konsultasi lensa, serta saran pencegahan yang relevan untuk kebutuhan Anda dan keluarga.</p>
-      <p>Jangan menunggu sampai penglihatan Anda terganggu. Jadwalkan pemeriksaan mata bersama Optikal Bahari sekarang dan dapatkan panduan lengkap untuk menjaga kesehatan mata Anda.</p>
+        <p class="card-text text-start">
+          Sebagai pusat layanan optik profesional, Optikal Bahari siap menjadi partner Anda dalam menjaga kesehatan mata dengan pendekatan yang komprehensif, layanan kami mencakup:
+        </p>
+        <ul>
+          <li>
+            <em>Pemeriksaan mata profesional</em> oleh optometris berpengalaman untuk mendeteksi tingkat minus dan kebutuhan lensa</li>
+          <li>
+            <em>Konsultasi kacamata dan lensa</em> yang tepat sesuai resep mata Anda.
+          </li>
+          <li>
+            <em>Pilihan rangka dan lensa berkualitas tinggi</em> yang dirancang untuk kenyamanan visual jangka panjang.
+          </li>
+          <li>
+            <em>Saran gaya hidup sehat</em> untuk membantu mencegah progresi <em>miopia</em>, terutama pada anak-anak.
+          </li>
+          <li>
+            <em>Layanan cepat dan ramah</em> dengan dukungan tim yang berkomitmen pada kebutuhan visual Anda.
+          </li>
+        </ul>
+        <p class="card-text text-start">
+          Optikal Bahari tidak hanya menyediakan produk, tetapi juga solusi menyeluruh untuk penglihatan yang lebih baik dan kehidupan yang lebih produktif. Mata minus adalah kondisi yang umum dan bisa berkembang karena berbagai faktor, mulai dari genetika hingga kebiasaan visual sehari-hari. Mengenali penyebabnya, memahami gejala, dan mengambil langkah pencegahan dapat membantu mengurangi risiko serta menjaga kesehatan mata. Pemeriksaan rutin dan penanganan dini sangat penting untuk memastikan penglihatan tetap optimal. Optikal Bahari hadir untuk membantu Anda setiap langkahnya, dengan layanan pemeriksaan mata profesional, konsultasi lensa, serta saran pencegahan yang relevan untuk kebutuhan Anda dan keluarga. Jangan menunggu sampai penglihatan Anda terganggu. Jadwalkan pemeriksaan mata bersama Optikal Bahari sekarang dan dapatkan panduan lengkap untuk menjaga kesehatan mata Anda.
+        </p>
     </div>
   </div>
   {% include home/home-cards-benefit.html %}

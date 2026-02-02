@@ -12,6 +12,7 @@ categories: [Info]
 tags: [layanan, optikal]
 background: /assets/img/posts/011.webp
 permalink: /cek-mata-gratis-di-optik/
+layout: page
 comments: false
 ---
 
@@ -53,7 +54,7 @@ comments: false
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}"
+		  <img src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}"
           class="card-img-top"
           title="periksa-mata-gratis-optikal-bahari"
           alt="tips-kacamata-2.webp">
@@ -67,42 +68,4 @@ comments: false
         </div>
     </div>
 </div>
-
-<section id="posts-category">
-    <div class="card-deck">
-		{% for post in site.categories.Lensa limit : 3 %}
-        <div class="card shadow p-3 mb-5 bg-white rounded">
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                {% if page.background %}
-                    <img
-                        src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                        class="card-img-top"
-                        title="{{ post.title }}"
-                        alt="{{ post.title }}">
-            </a>
-                {% endif %}
-            <div class="card-body">
-                <h5 class="card-title">
-                    {{ post.title }}
-                </h5>
-                <p class="card-text text-start">
-                    {{ post.description | strip_html | truncatewords: 20 }}.
-                </p>
-                <p class="card-text text-start">
-                    <a
-                        class="btn btn-primary rounded-pill"
-                        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                        Selengkapnya
-                    </a>
-                </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">
-                    Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} on
-                    {{ post.date | date: '%B %d, %Y' }} &middot; {% include postcards/read_time.html content=post.content %}
-                </small>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</section>
+{% include home/home-cards-benefit.html %}
