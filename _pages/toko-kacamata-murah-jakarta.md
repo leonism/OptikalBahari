@@ -44,6 +44,8 @@ comments: false
    </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <section id="posts-category">
     <div class="card-deck">
 		{% for post in site.categories.Lensa limit : 3 %}
@@ -73,3 +75,5 @@ comments: false
         {% endfor %}
     </div>
 </section>
+
+{% include home/home-cards-glasses.html %}
