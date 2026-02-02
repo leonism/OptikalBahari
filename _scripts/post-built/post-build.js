@@ -218,7 +218,8 @@ function addSecurityHeaders() {
 
   try {
     const htmlFiles = glob.sync(`${SITE_DIR}/**/*.html`)
-    const securityHeaders = '<head><meta http-equiv="X-Content-Type-Options" content="nosniff"><meta http-equiv="X-Frame-Options" content="DENY"><meta http-equiv="X-XSS-Protection" content="1; mode=block">'
+    const cspContent = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; script-src-elem 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://res.cloudinary.com https://www.google-analytics.com https://www.googletagmanager.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com;"
+    const securityHeaders = `<head><meta http-equiv="Content-Security-Policy" content="${cspContent}"><meta http-equiv="X-Content-Type-Options" content="nosniff"><meta http-equiv="X-Frame-Options" content="DENY"><meta http-equiv="X-XSS-Protection" content="1; mode=block">`
 
     let updatedCount = 0
 
