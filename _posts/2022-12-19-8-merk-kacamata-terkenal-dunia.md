@@ -119,6 +119,8 @@ permalink: /8-merk-kacamata-terkenal-dunia/
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" }}"
@@ -162,8 +164,6 @@ permalink: /8-merk-kacamata-terkenal-dunia/
   </div>
 </div>
 
-{% include home/home-cards-main.html %}
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" }}"
@@ -193,6 +193,8 @@ permalink: /8-merk-kacamata-terkenal-dunia/
     </div>
   </div>
 </div>
+
+{% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -382,3 +384,5 @@ permalink: /8-merk-kacamata-terkenal-dunia/
     </div>
   </div>
 </div>
+
+{% include home/home-cards-glasses.html %}

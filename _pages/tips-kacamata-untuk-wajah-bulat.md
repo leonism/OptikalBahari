@@ -82,3 +82,4 @@ comments: false
     </p>
   </div>
 </div>
+{% include home/home-cards-main.html %}

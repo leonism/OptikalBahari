@@ -137,6 +137,8 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img itemprop="image" data-src="/assets/img/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp"
@@ -180,3 +182,5 @@ comments: true
     </div>
   </div>
 </div>
+
+{% include home/home-cards-glasses.html %}

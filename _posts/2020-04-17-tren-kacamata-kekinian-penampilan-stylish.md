@@ -26,7 +26,7 @@ comments: true
     <div class="card-body">
       <h3 class="card-title">Tren Kacamata Kekinian</h3>
       <p class="card-text text-start">
-        Tren menggunakan kacamata kekinian bukan hanya bermanfaat untuk membantu  
+        Tren menggunakan kacamata kekinian bukan hanya bermanfaat untuk membantu
         penglihatan atau melindungi mata dari paparan sinar matahari. Tidak
         sedikit orang juga menggunakan kacamata dengan tujuan bergaya. Kacamata
         untuk menunjang penampilan bisa digunakan oleh segala usia. Asumsi bahwa
@@ -36,7 +36,7 @@ comments: true
         melepas kacamatanya atau berkorban menggunakan softlens.
       </p>
       <p class="card-text text-start">
-        Alih-alih mengasumsikan pengguna kacamata sebagai orang yang kurang  
+        Alih-alih mengasumsikan pengguna kacamata sebagai orang yang kurang
         pergaulan, justru saat ini orang-orang ingin menggunakan kacamata model
         kekinian. Bentuk lensa bulat yang dulu dianggap ketinggalan zaman juga
         mulai digemari kembali, misalnya menggunakan kacamata dalam bentuk
@@ -50,6 +50,8 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
@@ -61,7 +63,7 @@ comments: true
     <div class="card-body">
       <h3 class="card-title">Model Trendy Kacamata Terbaru</h3>
       <p class="card-text text-start">
-        Jika Kamu penggemar Harry Potter pasti tahu betul seperti apa desain  
+        Jika Kamu penggemar Harry Potter pasti tahu betul seperti apa desain
         kacamata yang digunakan sang tokoh utama tersebut. Dikenakan oleh orang
         tampan, kesan jadul pada desain kacamata pun luntur. Tren kacamata
         terbaru seperti ini banyak diminati lagi oleh laki-laki maupun oleh para
@@ -72,7 +74,7 @@ comments: true
         berputar.
       </p>
       <p class="card-text text-start">
-        Kacamata kekinian dengan bingkai hanya di bagian atas juga sudah lama  
+        Kacamata kekinian dengan bingkai hanya di bagian atas juga sudah lama
         tren dan digunakan banyak orang tua dulunya. Sempat tergeser karena
         penggunaan kacamata full frame, kini tidak sedikit millenial meminati
         kacamata topline atau bingkai di bagian atas saja untuk menunjang
@@ -86,6 +88,8 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
@@ -97,7 +101,7 @@ comments: true
     <div class="card-body">
       <h3 class="card-title">Merawat Kacamata Kekinian dengan Benar</h3>
       <p class="card-text text-start">
-        Saat memilih kacamata model terbaru, mempertimbangkan model adalah hal  
+        Saat memilih kacamata model terbaru, mempertimbangkan model adalah hal
         penting. Namun di luar itu, yang utama jangan ditinggalkan. Pastikan
         kacamata yang Kamu pilih sudah pas di mata. Tidak kebesaran dan tidak
         juga menimbulkan sakit atau tanda merah karena terlalu sempit. Pemilihan
@@ -107,7 +111,7 @@ comments: true
         memiliki kepribadian kalem maka sebaiknya menggunakan warna netral.
       </p>
       <p class="card-text text-start">
-        Nantinya kacamata kekinian akan menjadi identitas Kamu saat  
+        Nantinya kacamata kekinian akan menjadi identitas Kamu saat
         bersosialisasi dengan banyak orang. Berbeda model kacamata akan berbeda
         juga efeknya terhadap keseluruhan penampilan. Jika dirasa butuh
         menggunakan kacamata minus atau plus berlensa hitam, Kamu bisa custom
@@ -122,7 +126,7 @@ comments: true
           href="https://www.facebook.com/optikalbahari"
           id="FBClick"
           title="Facebook Page Optikal Bahari"
-          class="FacebookPage">@ptikalbahari</a>. Kamu juga bisa mengunjungi toko kami untuk membeli kacamata kekinian  
+          class="FacebookPage">@ptikalbahari</a>. Kamu juga bisa mengunjungi toko kami untuk membeli kacamata kekinian
         di Jln. Bend. Jago no. 447, Kemayoran. Untuk respond yang lebih cepat,
         silahkan menghubungi kami di nomor HP/WA ini
         <a
@@ -135,3 +139,5 @@ comments: true
     </div>
   </div>
 </div>
+
+{% include home/home-cards-glasses.html %}

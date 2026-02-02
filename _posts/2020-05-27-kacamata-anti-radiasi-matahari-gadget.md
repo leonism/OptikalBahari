@@ -28,7 +28,7 @@ comments: true
         Mengenal Kacamata Anti Radiasi
       </h3>
       <p class="card-text text-start">
-        Ketika Anda memandang layar gadget atau duduk di depan komputer           
+        Ketika Anda memandang layar gadget atau duduk di depan komputer
 		sepanjang hari, mata Anda mungkin menjadi target paparan radiasi
 		elektromagnetik yang merugikan. Inilah mengapa kacamata anti radiasi
 		menjadi sahabat terbaik Anda dalam memastikan kesehatan mata tetap
@@ -38,7 +38,7 @@ comments: true
 		menambah gaya Anda dengan Optikal Bahari.
       </p>
       <p class="card-text text-start">
-        Kacamata anti radiasi dirancang khusus untuk menyaring dan mengurangi           
+        Kacamata anti radiasi dirancang khusus untuk menyaring dan mengurangi
 		paparan radiasi elektromagnetik yang merugikan pada mata Anda. Dengan
 		teknologi terbaru, kacamata ini menawarkan lapisan perlindungan yang
 		efektif tanpa mengganggu penglihatan Anda. Dari sinar ultraviolet hingga
@@ -46,7 +46,7 @@ comments: true
 		secara efisien untuk menjaga mata Anda tetap aman dan nyaman.
       </p>
       <p class="card-text text-start">
-        Tak perlu lagi mengorbankan gaya untuk mendapatkan perlindungan mata           
+        Tak perlu lagi mengorbankan gaya untuk mendapatkan perlindungan mata
 				yang baik. Kacamata anti radiasi dari Optikal Bahari bukan hanya alat
 				fungsional, tetapi juga pernyataan gaya yang kuat. Dengan desain yang
 				trendi dan bahan berkualitas tinggi, kacamata ini menawarkan kombinasi
@@ -55,7 +55,7 @@ comments: true
 				Anda.
       </p>
       <p class="card-text text-start">
-        Setiap individu memiliki gaya dan kepribadian unik. Itulah mengapa           
+        Setiap individu memiliki gaya dan kepribadian unik. Itulah mengapa
 				Optikal Bahari menawarkan berbagai pilihan desain dan gaya kacamata anti
 				radiasi yang bisa disesuaikan dengan preferensi pribadi Anda. Apakah
 				Anda mencari tampilan yang minimalis, retro, atau mewah, ada kacamata
@@ -67,6 +67,8 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
@@ -77,7 +79,7 @@ comments: true
     <div class="card-body">
       <h3 class="card-title">Apa Yang Di Maksud Sinar Radiasi?</h3>
       <p class="card-text text-start">
-        Radiasi adalah suatu proses di mana gadget atau layar komputer dan           
+        Radiasi adalah suatu proses di mana gadget atau layar komputer dan
 				laptop mengeluarkan sinar biru yang tidak baik untuk mata. Di zaman
 				seperti sekarang ini penggunaan gadget tidak bisa dihindari oleh siapa
 				saja. Kacamata radiasi bisa dimanfaatkan untuk mengantisipasi segala
@@ -88,7 +90,7 @@ comments: true
 				terbagi-bagi atas beberapa jenis.
       </p>
       <p class="card-text text-start">
-        Paparan sinar matahari UV-A dan UV-B sepertinya sudah tidak asing, namun           
+        Paparan sinar matahari UV-A dan UV-B sepertinya sudah tidak asing, namun
 				ternyata matahari juga kaya akan UVC. Kenapa UVA dan UVB banyak
 				diketahui orang? Karena kedua sinar inilah yang harus dihalau dengan
 				kacamata anti radiasi. JIka terlalu sering terpapar maka akan
@@ -102,6 +104,8 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
@@ -112,7 +116,7 @@ comments: true
     <div class="card-body">
       <h3 class="card-title">Kacamata Anti Radiasi untuk Setiap Kesempatan</h3>
       <p class="card-text text-start">
-        Perlindungan mata yang efektif tidak harus membosankan. Dengan kacamata           
+        Perlindungan mata yang efektif tidak harus membosankan. Dengan kacamata
 				anti radiasi dari Optikal Bahari, Anda bisa menemukan perlindungan mata
 				yang sesuai dengan gaya hidup dan preferensi fashion Anda. Mari kita
 				jelajahi berbagai desain kacamata anti radiasi yang ditawarkan oleh
@@ -121,7 +125,7 @@ comments: true
 				terbantahkan.
       </p>
       <p class="card-text text-start">
-        Tidak peduli apa kegiatan Anda sehari-hari, Optikal Bahari memiliki           
+        Tidak peduli apa kegiatan Anda sehari-hari, Optikal Bahari memiliki
 				kacamata anti radiasi yang sesuai. Apakah Anda bekerja di depan layar
 				komputer sepanjang hari atau beraktifitas di luar ruangan, ada desain
 				kacamata yang tepat untuk Anda. Dengan berbagai pilihan gaya, Anda dapat
@@ -129,7 +133,7 @@ comments: true
 				perlindungan mata yang optimal.
       </p>
       <p class="card-text text-start">
-        Dari desain yang minimalis hingga yang berani dan mencolok, kacamata           
+        Dari desain yang minimalis hingga yang berani dan mencolok, kacamata
 				anti radiasi Optikal Bahari hadir dalam berbagai warna dan pola yang
 				menarik. Apakah Anda menyukai warna-warna netral yang elegan atau ingin
 				menambahkan sentuhan warna cerah dalam gaya Anda, Anda akan menemukan
@@ -137,7 +141,7 @@ comments: true
 				Anda.
       </p>
       <p class="card-text text-start">
-        Optikal Bahari tidak hanya menawarkan desain yang menarik tetapi juga           
+        Optikal Bahari tidak hanya menawarkan desain yang menarik tetapi juga
 				menjamin kualitas tinggi dan kenyamanan dalam setiap kacamata anti
 				radiasi yang mereka produksi. Didesain dengan ergonomis untuk memastikan
 				kenyamanan maksimal, kacamata anti radiasi Optikal Bahari terbuat dari
@@ -145,7 +149,7 @@ comments: true
 				perlindungan mata yang efektif.
       </p>
       <p class="card-text text-start">
-        Tidak hanya kacamata itu sendiri yang dapat menambah gaya Anda, tetapi           
+        Tidak hanya kacamata itu sendiri yang dapat menambah gaya Anda, tetapi
 				juga aksesori tambahan yang Anda pilih. Optikal Bahari menawarkan
 				berbagai pilihan aksesori kacamata seperti tali pengikat atau kantong
 				kacamata yang modis. Dengan begitu, Anda tidak hanya bisa melindungi
@@ -155,6 +159,8 @@ comments: true
     </div>
   </div>
 </div>
+
+{% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -168,7 +174,7 @@ comments: true
         Kacamata Anti Radiasi, Investasi untuk Gaya Hidup Modern
       </h3>
       <p class="card-text text-start">
-        Radiasi elektromagnetik dari layar komputer, smartphone, dan perangkat           
+        Radiasi elektromagnetik dari layar komputer, smartphone, dan perangkat
 				elektronik lainnya telah menjadi perhatian utama bagi banyak orang.
 				Namun, dengan kacamata anti radiasi dari Optikal Bahari, Anda dapat
 				menghilangkan keraguan dan menemukan solusi yang efektif untuk
@@ -177,7 +183,7 @@ comments: true
 				dapat menjadi investasi penting bagi gaya hidup modern Anda.
       </p>
       <p class="card-text text-start">
-        Paparan radiasi elektromagnetik telah menjadi perhatian utama dalam           
+        Paparan radiasi elektromagnetik telah menjadi perhatian utama dalam
 				kehidupan sehari-hari yang dipenuhi dengan teknologi. Layar komputer,
 				smartphone, tablet, dan perangkat elektronik lainnya menghasilkan
 				radiasi yang dapat merugikan mata kita. Dalam jangka panjang, paparan
@@ -186,7 +192,7 @@ comments: true
 				degenerasi makula.
       </p>
       <p class="card-text text-start">
-        Kekhawatiran akan efek negatif paparan radiasi elektromagnetik pada mata           
+        Kekhawatiran akan efek negatif paparan radiasi elektromagnetik pada mata
 				tidak hanya berlaku untuk orang dewasa, tetapi juga untuk anak-anak yang
 				semakin sering terpapar oleh teknologi sejak usia dini. Oleh karena itu,
 				penting bagi kita untuk menyadari risiko yang terkait dengan penggunaan
@@ -212,7 +218,7 @@ comments: true
     <div class="card-body">
       <h3 class="card-title">Kacamata Anti Radiasi Yang Bermutu</h3>
       <p class="card-text text-start">
-        Ketika kita terus terpapar oleh radiasi elektromagnetik dari berbagai           
+        Ketika kita terus terpapar oleh radiasi elektromagnetik dari berbagai
 				sumber, perlindungan mata menjadi semakin penting. Inilah di mana
 				kacamata anti radiasi hadir sebagai solusi yang efektif. Dengan
 				teknologi canggih, kacamata anti radiasi dirancang untuk mengurangi
@@ -220,11 +226,11 @@ comments: true
 				penglihatan kita. Fitur-fitur seperti filter UV dan filter biru bekerja
 				secara efisien untuk menyaring sinar ultraviolet dan
         <em>(blueray)</em>
-        yang merugikan, sehingga memberikan perlindungan maksimal kepada mata           
+        yang merugikan, sehingga memberikan perlindungan maksimal kepada mata
 				kita.
       </p>
       <p class="card-text text-start">
-        Kacamata anti radiasi tidak hanya memberikan perlindungan saat kita           
+        Kacamata anti radiasi tidak hanya memberikan perlindungan saat kita
 				bekerja di depan layar komputer atau gadget, tetapi juga saat kita
 				berada di luar ruangan atau beraktivitas di lingkungan yang penuh dengan
 				peralatan elektronik. Dengan memakai kacamata anti radiasi, kita dapat
@@ -235,7 +241,7 @@ comments: true
 				kenyamanan dan kesejahteraan mata kita sehari-hari.
       </p>
       <p class="card-text text-start">
-        Selain itu, Optikal Bahari juga menawarkan berbagai pilihan gaya dan           
+        Selain itu, Optikal Bahari juga menawarkan berbagai pilihan gaya dan
 				desain kacamata anti radiasi yang dapat disesuaikan dengan preferensi
 				gaya dan kepribadian individu. Dengan begitu, Anda tidak hanya
 				mendapatkan perlindungan yang efektif untuk mata Anda, tetapi juga
@@ -258,7 +264,7 @@ comments: true
         Kacamata Anti Radiasi, Perlindungan Maksimal untuk Mata Anda
       </h3>
       <p class="card-text text-start">
-        Kacamata anti radiasi Optikal Bahari didukung oleh teknologi canggih           
+        Kacamata anti radiasi Optikal Bahari didukung oleh teknologi canggih
 				yang dirancang khusus untuk memberikan perlindungan maksimal terhadap
 				paparan radiasi elektromagnetik. Dengan lapisan perlindungan yang
 				efektif, kacamata ini menyaring sinar ultraviolet dan sinar biru
@@ -266,14 +272,14 @@ comments: true
         yang merugikan tanpa mengganggu kenyamanan penglihatan Anda.
       </p>
       <p class="card-text text-start">
-        Tidak hanya memberikan perlindungan yang efektif, kacamata anti radiasi           
+        Tidak hanya memberikan perlindungan yang efektif, kacamata anti radiasi
 				Optikal Bahari juga dirancang dengan desain ergonomis yang memastikan
 				kenyamanan maksimal bagi pengguna. Dengan bahan-bahan berkualitas tinggi
 				dan perhatian pada detail, kacamata ini memberikan pengalaman pengguna
 				yang menyenangkan dan tanpa gangguan.
       </p>
       <p class="card-text text-start">
-        Dengan kacamata anti radiasi dari Optikal Bahari, Anda tidak hanya           
+        Dengan kacamata anti radiasi dari Optikal Bahari, Anda tidak hanya
 				mendapatkan perlindungan maksimal untuk mata Anda, tetapi juga menambah
 				gaya Anda dalam setiap langkah. Temukan bagaimana kacamata ini cocok
 				dengan gaya hidup modern Anda dan memberikan perlindungan yang Anda
@@ -293,7 +299,7 @@ comments: true
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">
-        Optikal Bahari adalah destinasi terbaik untuk menemukan kacamata anti           
+        Optikal Bahari adalah destinasi terbaik untuk menemukan kacamata anti
 				radiasi yang tidak hanya memberikan perlindungan optimal untuk mata
 				Anda, tetapi juga menambah gaya Anda dengan sentuhan yang tak
 				tertandingi. Dengan atmosfer yang ramah dan pelayanan yang profesional,
@@ -303,7 +309,7 @@ comments: true
 				dengan gaya hidup dan preferensi fashion Anda.
       </p>
       <p class="card-text text-start">
-        Di Optikal Bahari, kami memahami bahwa setiap individu memiliki           
+        Di Optikal Bahari, kami memahami bahwa setiap individu memiliki
 				kebutuhan dan gaya unik mereka sendiri. Itulah mengapa kami bangga
 				menyediakan berbagai pilihan kacamata anti radiasi yang sesuai dengan
 				berbagai selera dan kebutuhan. Dari desain minimalis hingga yang
@@ -314,7 +320,7 @@ comments: true
 				kacamata yang sesuai dengan preferensi Anda.
       </p>
       <p class="card-text text-start">
-        Selain menawarkan pilihan kacamata terbaik, Optikal Bahari juga menjamin           
+        Selain menawarkan pilihan kacamata terbaik, Optikal Bahari juga menjamin
 				kenyamanan dan kepercayaan Anda dalam setiap pembelian. Dengan lokasi
 				yang strategis di Kemayoran, Jakpus, kami memberikan kemudahan bagi Anda
 				untuk langsung mengunjungi toko kami dan mencoba kacamata yang Anda

@@ -88,6 +88,8 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
   <img
     data-src="/assets/img/posts/kacamata-pria/kacamata-pria-04.webp"
@@ -134,7 +136,7 @@ comments: false
   </div>
 </div>
 
-{% include home/home-cards-benefit.html %}
+{% include home/home-cards-glasses.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
   <img

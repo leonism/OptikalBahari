@@ -31,7 +31,7 @@ comments: true
         Masa PSBB Transisi
       </h3>
       <p class="card-text text-start">
-        Sejalan dengan aturan pemerintah DKI dengan penerapan pembukaan tempat usaha pada masa PSBB transisi ini, sejumlah sektor yang sebelumnya dilarang mulai dibuka bertahap. Dengan catatan, sejumlah protokol yang harus ditaati. Misalnya dengan maksimum kapasitas                            
+        Sejalan dengan aturan pemerintah DKI dengan penerapan pembukaan tempat usaha pada masa PSBB transisi ini, sejumlah sektor yang sebelumnya dilarang mulai dibuka bertahap. Dengan catatan, sejumlah protokol yang harus ditaati. Misalnya dengan maksimum kapasitas
         50 persen di setiap lokasi yang dibuka. Juga harus memastikan adanya jaga jarak di semua tempat yang diizinkan dibuka.
       </p>
       <p class="card-text text-start">
@@ -42,12 +42,14 @@ comments: true
           alt="aturan-disaat-pandemi">
       </p>
       <p class="card-text text-start">
-        Optikal Bahari tetap berkomitmen untuk dapat memberikan layanan yang terbaik dan terdepan kepada para konsumennya, dengan tetap mematuhi aturan pemerintah tersebut. Semua pengunjung akan mendapatkan penerapan yang sama, seperti diharuskan membersihkan                            
+        Optikal Bahari tetap berkomitmen untuk dapat memberikan layanan yang terbaik dan terdepan kepada para konsumennya, dengan tetap mematuhi aturan pemerintah tersebut. Semua pengunjung akan mendapatkan penerapan yang sama, seperti diharuskan membersihkan
         tangan dengan hand-sanitizer yang akan disediakan begitu tiba kunjungan di toko kami. Hal yang sama dengan pemakaian masker didalam proses pemeriksaan mata untuk para konsumen.
       </p>
     </div>
   </div>
 </div>
+
+{% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -61,8 +63,8 @@ comments: true
         class="card-img-top"
         alt="protokol covid">
       <p class="card-text text-start">
-        Jadi jangan khawatir untuk melakukan kunjungan ke Optikal Bahari karena kami tetap menerapkan protokol kesehatan dalam operasional         
-          usaha kami yang sesuai dengan aturan tertulis dari pemerintah. Segera rencanakan kunjungan ke Optikal Bahari untuk pemeriksaan                    
+        Jadi jangan khawatir untuk melakukan kunjungan ke Optikal Bahari karena kami tetap menerapkan protokol kesehatan dalam operasional
+          usaha kami yang sesuai dengan aturan tertulis dari pemerintah. Segera rencanakan kunjungan ke Optikal Bahari untuk pemeriksaan
           mata dan staff ramah kami siap untuk melayani anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
         <a
           href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
@@ -81,3 +83,5 @@ comments: true
     </div>
   </div>
 </div>
+
+{% include home/home-cards-benefit.html %}
