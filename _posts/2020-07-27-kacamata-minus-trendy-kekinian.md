@@ -28,22 +28,24 @@ comments: true
         Kebutuhan Kacamata Minus
       </h3>
       <p class="card-text text-start">
-        Identiknya orang yang menggunakan kacamata minus adalah mereka dengan kelainan rabun jauh saat melihat berbagai objek.                                            
+        Identiknya orang yang menggunakan kacamata minus adalah mereka dengan kelainan rabun jauh saat melihat berbagai objek.
         Jika kendalanya mata plus atau rabun melihat objek dekat maka orang tersebut akan dianjurkan menggunakan kacamata plus.
-        Minus adalah salah satu kelainan pada mata. Dulu sekali orang yang menggunakan kacamata identik dengan pelabelan culun atau 
+        Minus adalah salah satu kelainan pada mata. Dulu sekali orang yang menggunakan kacamata identik dengan pelabelan culun atau
         ketinggalan fashion. Namun seiring dengan berkembangnya zaman, tren kacamata pun kini bukan hanya untuk membantu penglihatan, namun juga sebagai penunjang
         penampilan agar terkesan lebih stylish.
       </p>
       <p class="card-text text-start">
-        Gangguan pada mata minus merupakan kerusakan pada retina dalam menangkap cahaya. Kacamata berlensa minus akan menangkap                                            
+        Gangguan pada mata minus merupakan kerusakan pada retina dalam menangkap cahaya. Kacamata berlensa minus akan menangkap
         cahaya dengan tepat untuk diletakan di depan retina. Fungsinya bukan hanya untuk memperjelas pandangan, namun juga
-        sebagai bentuk pemenuhan fashion. Penggunaan kacamata untuk minus tidak seperti kacamata lainnya yang bisa dengan mudah Kamu 
-        cari sendiri di optik. Sebelum memilih kacamata dengan lensa minus, Kamu lebih dulu harus berkonsultasi dengan dokter untuk mencari 
+        sebagai bentuk pemenuhan fashion. Penggunaan kacamata untuk minus tidak seperti kacamata lainnya yang bisa dengan mudah Kamu
+        cari sendiri di optik. Sebelum memilih kacamata dengan lensa minus, Kamu lebih dulu harus berkonsultasi dengan dokter untuk mencari
         tahu berapa tinggi minus yang diderita dan apakah ada gangguan lainnya.
       </p>
     </div>
   </div>
 </div>
+
+{% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -58,27 +60,29 @@ comments: true
         Memilih Kacamata Minus Sesuai Bentuk Wajah
       </h3>
       <p class="card-text text-start">
-        Penggunaan kacamata untuk minus bukan hanya untuk membantu daya tangkap cahaya sehingga memperjelas objek. Kamu tetap                                            
+        Penggunaan kacamata untuk minus bukan hanya untuk membantu daya tangkap cahaya sehingga memperjelas objek. Kamu tetap
         bisa stylish dengan memilih bentuk kacamata tepat sesuai dengan bentuk wajah. Jika bentuk rahang Kamu sudah terlampau
-        tegas maka pilihlah kacamata dengan bingkai tipis. Jika bentuk wajah Kamu bulat maka jangan memilih kacamata berbentuk 
-        bulat juga karena wajah Kamu akan semakin terlihat bulat. Untuk menyiasatinya, Kamu bisa memilih kacamata dengan lensa 
+        tegas maka pilihlah kacamata dengan bingkai tipis. Jika bentuk wajah Kamu bulat maka jangan memilih kacamata berbentuk
+        bulat juga karena wajah Kamu akan semakin terlihat bulat. Untuk menyiasatinya, Kamu bisa memilih kacamata dengan lensa
         persegi panjang sehingga kesan ramping dan lebih proporsional bisa dengan mudah didapatkan.
       </p>
       <p class="card-text text-start">
-        Untuk Kamu yang memiliki bentuk wajah oval, beruntunglah Kamu karena diaplikasikan dengan bentu dan model kacamata                                            
+        Untuk Kamu yang memiliki bentuk wajah oval, beruntunglah Kamu karena diaplikasikan dengan bentu dan model kacamata
         minus apa saja terlihat cocok di wajah. Siasat yang paling pas adalah menyeimbangkan antara ukuran wajah dengan ukuran
         lensa agar lebih terlihat proporsional dan menarik dilihat.
       </p>
       <p class="card-text text-start">
-        Penerapan kacamata untuk minus bagi orang dengan wajah berbentuk hati lebih tepat dengan lensa persegi maupun persegi                                            
+        Penerapan kacamata untuk minus bagi orang dengan wajah berbentuk hati lebih tepat dengan lensa persegi maupun persegi
         panjang. Saran untuk pemilik wajah seperti ini amat tidak dianjurkan memilih kacamata yang membuat kesan kening terlalu
-        lebar karena tidak akan bagus dilihat orang. Orang yang menderita rabun jauh maupun dekat setiap beberapa waktu harus rajin 
-        memeriksakan mata untuk mengetahui apakah minusnya bertambah atau tidak. Jika bertambah maka lensa harus diganti sesuai dengan 
+        lebar karena tidak akan bagus dilihat orang. Orang yang menderita rabun jauh maupun dekat setiap beberapa waktu harus rajin
+        memeriksakan mata untuk mengetahui apakah minusnya bertambah atau tidak. Jika bertambah maka lensa harus diganti sesuai dengan
         pertambahan minusnya.
       </p>
     </div>
   </div>
 </div>
+
+{% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -93,25 +97,25 @@ comments: true
         Material Kacamata Minus yang Wajib Kamu Ketahui
       </h3>
       <p class="card-text text-start">
-        Di samping bisa memilih kacamata untuk minus berdasarkan modelnya, Kamu juga bisa memilih lensa kacamata yang sesuai                                            
+        Di samping bisa memilih kacamata untuk minus berdasarkan modelnya, Kamu juga bisa memilih lensa kacamata yang sesuai
         materialnya dengan selera. Ada bahan lensa dari kaca yang sejak dulu digunakan karena memiliki daya tangkap cahaya
         sangat baik meskipun berat dan sedikit lebih mudah pecah.
       </p>
       <p class="card-text text-start">
-        Jika ingin material kacamata minus yang lebih awet maka Kamu bisa memilih material polikarbonat dengan massa lensa                                            
+        Jika ingin material kacamata minus yang lebih awet maka Kamu bisa memilih material polikarbonat dengan massa lensa
         lebih ringan. Kacamata berbahan dasar ini juga bisa menjaga mata dari paparan sinar matahari sehingga tidak mengganggu
-        penglihatan Kamu saat berada di luar ruangan tatkala siang hari. Selanjutnya material photochromic yang merupakan lensa 
-        dengan kelebihan berubah warna ketika menghadapi sinar matahari. Perubahan warna ditujukan guna melindungi mata dari paparan 
+        penglihatan Kamu saat berada di luar ruangan tatkala siang hari. Selanjutnya material photochromic yang merupakan lensa
+        dengan kelebihan berubah warna ketika menghadapi sinar matahari. Perubahan warna ditujukan guna melindungi mata dari paparan
         sinar matahari berbahaya. Bahan dasar lensa ini bisa dari kaca atau juga bisa saja dari material lensa plastik.
       </p>
       <p class="card-text text-start">
-        Jika saat ini Kamu sedang mencari pilihan model kacamata minus sesuai dengan kebutuhan, kunjungi situs OPTIKAL BAHARI                                            
+        Jika saat ini Kamu sedang mencari pilihan model kacamata minus sesuai dengan kebutuhan, kunjungi situs OPTIKAL BAHARI
         dan follow fanpage kami
         <a
           href="https://www.facebook.com/optikalbahari"
           id="FBClick"
           title="Facebook Page Optikal Bahari"
-          class="FacebookPage">@optikalbahari</a>, atau datang langsung ke Jl. Bend. Jago no. 447, Kemayoran. Banyak referensi kacamata minus yang bisa Kamu temukan.                                            
+          class="FacebookPage">@optikalbahari</a>, atau datang langsung ke Jl. Bend. Jago no. 447, Kemayoran. Banyak referensi kacamata minus yang bisa Kamu temukan.
         Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
         <a
           href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
@@ -123,3 +127,5 @@ comments: true
     </div>
   </div>
 </div>
+
+{% include home/home-cards-glasses.html %}

@@ -45,6 +45,8 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
   <img
     data-src="/assets/img/posts/french-girl/french-girl-02.webp"
@@ -90,6 +92,8 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
   <img
     data-src="/assets/img/posts/french-girl/french-girl-08.webp"
@@ -134,3 +138,5 @@ comments: true
     </p>
   </div>
 </div>
+
+{% include home/home-cards-glasses.html %}
