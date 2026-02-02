@@ -1,7 +1,7 @@
 # Cloudinary Migration Example
 
-This document shows how to update your existing Jekyll posts and pages to use
-the new Cloudinary integration.
+This document shows how to update your existing Jekyll posts and pages to use the new Cloudinary
+integration.
 
 ## Before: Traditional Image Usage
 
@@ -42,11 +42,20 @@ the new Cloudinary integration.
   />
 
   <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025" alt="Apa itu Lensa Photochromic?" loading="lazy" decoding="async" width="768" height="512" class="card-img-top img-fluid" />
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025"
+    alt="Apa itu Lensa Photochromic?"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top img-fluid"
+  />
 </picture>
 
 <!-- Background images in front matter -->
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-037
+background:
+https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/beach-retro-girls/beach-retro-girls-037
 ```
 
 ## After: Cloudinary Integration
@@ -55,7 +64,9 @@ background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_12
 
 ```html
 <!-- New way: Cloudinary include with responsive images -->
-{% include cloudinary_image.html src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" alt="Apa itu Lensa Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
+{% include cloudinary_image.html
+src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" alt="Apa itu Lensa
+Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
 ```
 
 ### Option 2: Using Liquid Filters
@@ -97,7 +108,15 @@ background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_12
   />
 
   <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025" alt="Apa itu Lensa Photochromic?" loading="lazy" decoding="async" width="768" height="512" class="card-img-top img-fluid" />
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025"
+    alt="Apa itu Lensa Photochromic?"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top img-fluid"
+  />
 </picture>
 ```
 
@@ -140,7 +159,15 @@ background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_12
   />
 
   <!-- Final fallback with alt and lazy loading -->
-  <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025" alt="Apa itu Lensa Photochromic?" loading="lazy" decoding="async" width="768" height="512" class="card-img-top img-fluid" />
+  <img
+    src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/beach-retro-girls/beach-retro-girls-025"
+    alt="Apa itu Lensa Photochromic?"
+    loading="lazy"
+    decoding="async"
+    width="768"
+    height="512"
+    class="card-img-top img-fluid"
+  />
 </picture>
 ```
 
@@ -165,9 +192,9 @@ background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_12
 layout: post
 title: Kacamata & Lensa Photocromic Terbaik
 subtitle: Bisa Didapatkan di Optikal Bahari
-description: 'Jelajahi koleksi kacamata & lensa photochromic eksklusif terbaru di Optikal
-  Bahari. Temukan gaya unik Anda dengan kenyamanan dan kualitas yang tak
-  tertanding'
+description:
+  'Jelajahi koleksi kacamata & lensa photochromic eksklusif terbaru di Optikal Bahari. Temukan gaya
+  unik Anda dengan kenyamanan dan kualitas yang tak tertanding'
 keywords: 'lensa photochromic, kacamata photochromic, kacamata & lensa photochromic'
 lang: id-ID
 date: '2020-02-09 08:25:23 +0700'
@@ -180,11 +207,14 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary_image.html src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" alt="Apa itu Lensa Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
+    {% include cloudinary_image.html
+    src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" alt="Apa itu Lensa
+    Photochromic?" class="card-img-top img-fluid" preset="card" loading="lazy" %}
     <div class="card-body">
       <h3 class="card-title">Apa itu Lensa Photochromic?</h3>
       <p class="card-text text-left">
-        Lensa photochromic adalah teknologi revolusioner dalam dunia optik yang menyesuaikan diri dengan perubahan cahaya lingkungan secara otomatis.
+        Lensa photochromic adalah teknologi revolusioner dalam dunia optik yang menyesuaikan diri
+        dengan perubahan cahaya lingkungan secara otomatis.
         <!-- rest of content -->
       </p>
     </div>
@@ -196,8 +226,7 @@ comments: true
 
 ### Performance Improvements
 
-- **Automatic Format Optimization**: WebP/AVIF for modern browsers, JPEG
-  fallback
+- **Automatic Format Optimization**: WebP/AVIF for modern browsers, JPEG fallback
 - **Responsive Images**: Multiple sizes generated automatically
 - **CDN Delivery**: Global content delivery network for faster loading
 - **Lazy Loading**: Built-in lazy loading support
