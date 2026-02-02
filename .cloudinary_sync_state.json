@@ -1,0 +1,44 @@
+{
+  "cld-sample-5.jpg": {
+    "last_synced_at": "2026-02-02T17:50:25+07:00",
+    "local_checksum": "0d553566746ef0b687ee55ed2ee017d289eec027479d15bbd5687e61507573c9",
+    "remote_version": 1750632506,
+    "remote_public_id": "cld-sample-5"
+  },
+  "cld-sample-4.jpg": {
+    "last_synced_at": "2026-02-02T17:50:26+07:00",
+    "local_checksum": "e1c8b6427f22192851e23b4f5bee612fd6f805aa8e6e0d778664845dd260cc16",
+    "remote_version": 1750632505,
+    "remote_public_id": "cld-sample-4"
+  },
+  "cld-sample-2.jpg": {
+    "last_synced_at": "2026-02-02T17:50:27+07:00",
+    "local_checksum": "6d10993b6f0aaaafbbe4bce8225418a3b21d5ad4001ca9e6fe6d20a2396fbf93",
+    "remote_version": 1750632505,
+    "remote_public_id": "cld-sample-2"
+  },
+  "cld-sample.jpg": {
+    "last_synced_at": "2026-02-02T17:50:29+07:00",
+    "local_checksum": "b92896fca71e1054f9c8623a3f73f50a55cafae1efb44254aecb5180b118eef8",
+    "remote_version": 1750632505,
+    "remote_public_id": "cld-sample"
+  },
+  "cld-sample-3.jpg": {
+    "last_synced_at": "2026-02-02T17:50:33+07:00",
+    "local_checksum": "9aeab79811af2cbfb3587e0cbe95325eb7ff289b4c04c3b61170c9f97162ad79",
+    "remote_version": 1750632505,
+    "remote_public_id": "cld-sample-3"
+  },
+  "ramadan-coverpage.jpg": {
+    "last_synced_at": "2026-02-02T17:50:34+07:00",
+    "local_checksum": "b7903c3681fb1377e2cf8d7963998e5e8047ad93d0676c1ed50eec3df1e52621",
+    "remote_version": 1750547848,
+    "remote_public_id": "ramadan-coverpage"
+  },
+  "bg-splash-index-compressed-00.jpg": {
+    "last_synced_at": "2026-02-02T17:50:35+07:00",
+    "local_checksum": "e8cead7946e829b9f3bfa54ddac329e80fc840373bf3de689507fcf5a8e0a306",
+    "remote_version": 1750545964,
+    "remote_public_id": "bg-splash-index-compressed-00"
+  }
+}

@@ -139,3 +139,4 @@ LICENSE
 node_modules/
 .agent
 *.log
+_backup
