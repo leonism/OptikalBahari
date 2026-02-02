@@ -7,9 +7,8 @@
  * 3. Service Worker - Generate PWA service worker
  * 4. Image Optimization - Convert images to WebP format
  * 5. Asset Consolidation - Bundle and optimize assets
- * 6. Security Headers - Add security meta tags
- * 7. SRI Hashes - Generate Subresource Integrity hashes
- * 8. HTML Minification - Minify HTML files
+ * 6. SRI Hashes - Generate Subresource Integrity hashes
+ * 7. HTML Minification - Minify HTML files
  */
 
 const fs = require('fs-extra')
@@ -210,44 +209,11 @@ function runAssetConsolidation() {
 }
 
 /**
- * Step 6: Security Headers - Add security meta tags to all HTML files
- * Adds X-Content-Type-Options, X-Frame-Options, and X-XSS-Protection headers
- */
-function addSecurityHeaders() {
-  console.log('\n🔒 Step 6: Security Headers')
-
-  try {
-    const htmlFiles = glob.sync(`${SITE_DIR}/**/*.html`)
-    const cspContent =
-      "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.googletagmanager.com https://*.google-analytics.com https://*.google.com https://*.gstatic.com https://*.google.co.id https://*.sociablekit.com; script-src-elem 'self' 'unsafe-inline' https://*.googletagmanager.com https://*.google-analytics.com https://*.google.com https://*.gstatic.com https://*.google.co.id https://*.sociablekit.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://*.gstatic.com; img-src 'self' data: https://res.cloudinary.com https://*.google-analytics.com https://*.googletagmanager.com https://*.google.com https://*.gstatic.com https://*.whatsapp.com https://*.google.co.id https://*.sociablekit.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.whatsapp.com https://*.google.co.id;"
-    const securityHeaders = `<head><meta http-equiv="Content-Security-Policy" content="${cspContent}"><meta http-equiv="X-Content-Type-Options" content="nosniff"><meta http-equiv="X-Frame-Options" content="DENY"><meta http-equiv="X-XSS-Protection" content="1; mode=block">`
-
-    let updatedCount = 0
-
-    for (const file of htmlFiles) {
-      const content = fs.readFileSync(file, 'utf8')
-
-      // Only update if <head> tag exists and headers aren't already present
-      if (content.includes('<head>') && !content.includes('X-Content-Type-Options')) {
-        const newContent = content.replace('<head>', securityHeaders)
-        fs.writeFileSync(file, newContent)
-        updatedCount++
-      }
-    }
-
-    console.log(`  ✅ Added security headers to ${updatedCount} of ${htmlFiles.length} files`)
-  } catch (/** @type {any} */ error) {
-    console.error(`  ❌ Security headers failed: ${error.message}`)
-    process.exit(1) // Critical failure - exit build
-  }
-}
-
-/**
- * Step 7: SRI Hashes - Generate Subresource Integrity hashes for CSS/JS files
+ * Step 6: SRI Hashes - Generate Subresource Integrity hashes for CSS/JS files
  * Creates integrity.txt file with SHA-384 hashes for all assets
  */
 function generateSRIHashes() {
-  console.log('\n🔐 Step 7: SRI Hashes')
+  console.log('\n🔐 Step 6: SRI Hashes')
 
   try {
     const assets = glob.sync(`${SITE_DIR}/**/*.{css,js}`)
@@ -274,10 +240,10 @@ function generateSRIHashes() {
 }
 
 /**
- * Step 8: HTML Minification - Minify HTML files to reduce file size
+ * Step 7: HTML Minification - Minify HTML files to reduce file size
  */
 function runHTMLMinification() {
-  console.log('\n📄 Step 8: HTML Minification')
+  console.log('\n📄 Step 7: HTML Minification')
 
   if (!scriptExists('minify-html.js')) {
     console.log('  ⚠️  Script not found - skipping')
@@ -309,9 +275,8 @@ async function main() {
   runServiceWorker() // Step 3: Generate service worker
   runImageOptimization() // Step 4: Convert images to WebP
   runAssetConsolidation() // Step 5: Bundle assets
-  addSecurityHeaders() // Step 6: Add security headers (critical)
-  generateSRIHashes() // Step 7: Generate SRI hashes (critical)
-  runHTMLMinification() // Step 8: Minify HTML
+  generateSRIHashes() // Step 6: Generate SRI hashes (critical)
+  runHTMLMinification() // Step 7: Minify HTML
 
   const duration = ((Date.now() - startTime) / 1000).toFixed(2)
 
