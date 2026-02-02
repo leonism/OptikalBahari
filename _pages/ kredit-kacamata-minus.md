@@ -38,6 +38,8 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
   <img
     src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8.webp' | relative_url }}"
@@ -57,6 +59,8 @@ comments: false
     </p>
   </div>
 </div>
+
+{% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -87,12 +91,11 @@ comments: false
   </div>
 </div>
 
-{% include home/home-cards-main.html %}
-
 <!--
   <section id="posts-category">	<div class="card-deck">		{% for post in site.categories.Lensa limit : 3 %}
   <div class="card shadow p-3 mb-5 bg-white rounded">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">				{% if page.background %}
+  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+  {% if page.background %}
 				<img
 					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
 					class="card-img-top"

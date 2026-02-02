@@ -30,7 +30,9 @@ comments: false
       </p>
     </div>
   </div>
-  {% include home/home-cards-main.html %}
+
+{% include home/home-cards-main.html %}
+
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
       itemprop="image"
@@ -57,7 +59,9 @@ comments: false
       </p>
     </div>
   </div>
-  {% include home/home-cards-main.html %}
+
+{% include home/home-cards-benefit.html %}
+
   <div class="card shadow p-3 mb-5 bg-white rounded">
       <img
         itemprop="image"
@@ -114,5 +118,7 @@ comments: false
         </p>
     </div>
   </div>
-  {% include home/home-cards-benefit.html %}
+
+{% include home/home-cards-glasses.html %}
+
 </div>

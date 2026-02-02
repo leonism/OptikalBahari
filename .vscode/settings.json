@@ -78,7 +78,7 @@
     "css.validate": true
   },
   "files.associations": {
-    "*.md": "liquid",
+    "*.md": "markdown",
     "*.markdown": "jekyll",
     "*.liquid": "jekyll",
     "*.html": "liquid"

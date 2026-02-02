@@ -34,6 +34,8 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
   <img
     src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp" | relative_url }}"
@@ -52,6 +54,8 @@ comments: false
     </p>
   </div>
 </div>
+
+{% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
