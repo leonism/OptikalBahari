@@ -34,6 +34,8 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
   <img
     src="/assets/img/profil/jalan-h-jiung.webp"
@@ -50,6 +52,8 @@ comments: false
     </p>
   </div>
 </div>
+
+{% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
   <img
@@ -69,3 +73,5 @@ comments: false
     <em>Optikal Bahari</em>
   </div>
 </div>
+
+{% include home/home-cards-glasses.html %}
