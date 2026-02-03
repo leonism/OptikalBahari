@@ -16,11 +16,20 @@ comments: false
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            itemprop="image"
-            src="{{ '/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp' | relative_url }}"
-            class="card-img-top img-fluid"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01"
+      alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Periksa Mata Gratis Di Optikal Bahari
@@ -54,11 +63,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		<img
-            itemprop="image"
-            src="{{ '/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp' | relative_url }}"
-            class="card-img-top img-fluid"
-            alt="Kenali Gangguan Mata Lebih Dini">
+		<picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-02"
+      alt="Kenali Gangguan Mata Lebih Dini"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Kenali Gangguan Mata Lebih Dini
@@ -96,11 +114,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		<img
-            itemprop="image"
-            src="{{ '/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp' | relative_url }}"
-            class="card-img-top img-fluid"
-            alt="Segera Periksa Mata Anda">
+		<picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-03"
+      alt="Segera Periksa Mata Anda"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Segera Periksa Mata Anda
@@ -138,11 +165,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img
-            itemprop="image"
-            src="{{ '/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp' | relative_url }}"
-            class="card-img-top img-fluid"
-            alt="Segera Kunjungi Optikal Bahari">
+		  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-04 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-04 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-04 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-04"
+      alt="Segera Kunjungi Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Segera Kunjungi Optikal Bahari

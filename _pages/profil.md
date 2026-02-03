@@ -18,10 +18,20 @@ permalink: /profil/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/profil/bandar-udara-kemayoran.jpeg"
-    class="card-img-top"
-    alt="bandar-udara-kemayoran">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/profil/bandar-udara-kemayoran 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/profil/bandar-udara-kemayoran 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/profil/bandar-udara-kemayoran 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/profil/bandar-udara-kemayoran 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/profil/bandar-udara-kemayoran 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/profil/bandar-udara-kemayoran 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/profil/bandar-udara-kemayoran 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/profil/bandar-udara-kemayoran 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/profil/bandar-udara-kemayoran 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/profil/bandar-udara-kemayoran"
+      alt="bandar-udara-kemayoran"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">Sejarah Berdirinya Optikal Bahari</h3>
     <p class="card-text text-start">
@@ -36,11 +46,20 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/profil/jalan-h-jiung.webp"
-    class="card-img-top"
-    title="jalan-h-jiung"
-    alt="jalan h jiung">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/profil/jalan-h-jiung 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/profil/jalan-h-jiung 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/profil/jalan-h-jiung 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/profil/jalan-h-jiung 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/profil/jalan-h-jiung 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/profil/jalan-h-jiung 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/profil/jalan-h-jiung 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/profil/jalan-h-jiung 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/profil/jalan-h-jiung 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/profil/jalan-h-jiung"
+      alt="jalan h jiung"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">Transformasi Dari Masa Ke Masa</h3>
     <p class="card-text text-start">
@@ -55,11 +74,20 @@ comments: false
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/profil/bandar-udara-kemayoran-80an.webp"
-    class="card-img-top"
-    title="bandar-udara-kemayoran-80an"
-    alt="bandar-udara-kemayoran-80an.webp">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/profil/bandar-udara-kemayoran-80an 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/profil/bandar-udara-kemayoran-80an 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/profil/bandar-udara-kemayoran-80an 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/profil/bandar-udara-kemayoran-80an 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/profil/bandar-udara-kemayoran-80an 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/profil/bandar-udara-kemayoran-80an 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/profil/bandar-udara-kemayoran-80an 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/profil/bandar-udara-kemayoran-80an 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/profil/bandar-udara-kemayoran-80an 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/profil/bandar-udara-kemayoran-80an"
+      alt="bandar-udara-kemayoran-80an.webp"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">Menjadi Bagian dari Sejarah Kemayoran</h3>
     <p class="card-text text-start">

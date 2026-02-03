@@ -18,11 +18,20 @@ comments: false
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-01.webp"
-            src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-01.webp"
-            class="card-img-top img-fluid"
-            title="Buka Rahasia: Harga Kacamata Optik yang Memikat Hati di Optikal Bahari"
-            alt="Buka Rahasia: Harga Kacamata Optik yang Memikat Hati di Optikal Bahari">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-01"
+      alt="Buka Rahasia: Harga Kacamata Optik yang Memikat Hati di Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
             <h3 class="card-title">
                 Harga Kacamata Optik yang Memikat Hati di Optikal Bahari
@@ -44,11 +53,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-02.webp"
-            src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-02.webp"
-            class="card-img-top img-fluid"
-            title="Koleksi Kacamata yang Luar Biasa di Optikal Bahari"
-            alt="Koleksi Kacamata yang Luar Biasa di Optikal Bahari">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-02"
+      alt="Koleksi Kacamata yang Luar Biasa di Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
         <h3 class="card-title">
             Koleksi Kacamata yang Luar Biasa di Optikal Bahari
@@ -70,11 +88,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-03.webp"
-            src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-03.webp"
-            class="card-img-top img-fluid"
-            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-03"
+      alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
         <h3 class="card-title">
             Ini Rahasia Harga Kacamata Auto Fokus yang Membuat Anda Terkesima
@@ -94,11 +121,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-            <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-11.webp"
-                src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-11.webp"
-                class="card-img-top img-fluid"
-                title="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
-                alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!">
+            <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-11 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-11 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-11 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-11 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-11 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-11 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-11 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-11 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-11 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-11"
+      alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
         <h3 class="card-title">
             Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!
@@ -118,11 +154,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-12.webp"
-                src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-12.webp"
-                class="card-img-top img-fluid"
-                title="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
-                alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!">
+		  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-12 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-12 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-12 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-12 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-12 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-12 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-12 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-12 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-12 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-12"
+      alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
         <h3 class="card-title">
             Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!
@@ -142,11 +187,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-07.webp"
-                src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-07.webp"
-                class="card-img-top img-fluid"
-                title="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
-                alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!">
+		  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-07 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-07 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-07 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-07 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-07 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-07 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-07 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-07 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-07 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-07"
+      alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
         <h3 class="card-title">
             Inilah yang Anda Cari! Temukan Berbagai Keuntungan dan Penawaran Spesial dari Optikal Bahari!
@@ -166,11 +220,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-08.webp"
-                src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-08.webp"
-                class="card-img-top img-fluid"
-                title="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
-                alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!">
+		  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-08 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-08 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-08 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-08 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-08 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-08 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-08 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-08 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-08 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-08"
+      alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
         <h3 class="card-title">
             Segera Kunjungi Optikal Bahari untuk Merasakan Kacamata Terbaik Dengan Harga Terjangkau

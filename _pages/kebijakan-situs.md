@@ -17,10 +17,20 @@ comments: false
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14"
+      alt="Privacy & Policy, Kebijakan Penggunaan Situs"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Privacy & Policy, Kebijakan Penggunaan Situs">
+      />
+    </picture>
     <div class="card-body">
       <h2 class="card-title">
         Kebijakan Penggunaan Situs Optikal Bahari

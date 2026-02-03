@@ -16,12 +16,20 @@ comments: false
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-04.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-04.webp"
-            class="card-img-top img-fluid"
-            loading="lazy"
-            title="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
-            alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-04 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-04 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-04 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-04"
+      alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
         <h3 class="card-title">
             Jual Kacamata Murah & Terjangkau
@@ -40,12 +48,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-05.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-05.webp"
-            class="card-img-top img-fluid"
-            loading="lazy"
-            title="Periksa Mata & Service Gratis"
-            alt="Periksa Mata & Service Gratis">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-05 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-05 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-05 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-05"
+      alt="Periksa Mata & Service Gratis"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
         <h3 class="card-title">
             Periksa Mata & Service Gratis
@@ -70,12 +86,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-08.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-08.webp"
-            class="card-img-top img-fluid"
-            loading="lazy"
-            title="Kacamata Cicilan 0%"
-            alt="Kacamata Cicilan 0%">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-08 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-08 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-08 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-08 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-08 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-08 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-08 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-08 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-08 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-08"
+      alt="Kacamata Cicilan 0%"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
         <h3 class="card-title">
             Kacamata Cicilan 0%
@@ -92,12 +116,20 @@ comments: false
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-029.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-029.webp"
-            class="card-img-top img-fluid"
-            loading="lazy"
-            title="Kunjungi Optikal Bahari Sekarang%"
-            alt="Kunjungi Optikal Bahari Sekarang%">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-029 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-029 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-029 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-029 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-029 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-029 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-029 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-029 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-029 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-029"
+      alt="Kunjungi Optikal Bahari Sekarang%"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Kunjungi Optikal Bahari Sekarang

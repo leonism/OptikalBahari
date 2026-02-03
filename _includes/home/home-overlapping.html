@@ -12,7 +12,20 @@
 <!-- end the overlapping -->
 
 <div class="card bg-dark text-white z-9">
-  <img class="card-img" src="{{ '/assets/img/bg-about.webp' | relative_url }}" alt="Card image" />
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/bg-about 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/bg-about 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/bg-about 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/bg-about"
+      alt="Card image"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img"
+      />
+    </picture>
   <div class="card-img-overlay">
     <h5 class="card-title">Card title</h5>
     <p class="card-text text-start">

@@ -16,9 +16,20 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/beach-girls-00/beach-girl-01.webp"
-      src="/assets/img/posts/beach-girls-00/beach-girl-01.webp" class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-girls-00/beach-girl-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-girls-00/beach-girl-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-girls-00/beach-girl-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-girls-00/beach-girl-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-girls-00/beach-girl-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-girls-00/beach-girl-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-girls-00/beach-girl-01"
+      alt="Panduan Memilih Kacamata untuk Wajah Bulat"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Panduan Memilih Kacamata untuk Wajah Bulat</h3>
       <p class="card-text text-start">
@@ -55,9 +66,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/beach-girls-00/beach-girl-02.webp"
-      src="/assets/img/posts/beach-girls-00/beach-girl-02.webp" class="card-img-top img-fluid"
-      alt="Kacamata Yang Cocok Untuk Wajah Bulat" />
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-girls-00/beach-girl-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-girls-00/beach-girl-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-girls-00/beach-girl-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-girls-00/beach-girl-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-girls-00/beach-girl-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-girls-00/beach-girl-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-girls-00/beach-girl-02"
+      alt="Kacamata Yang Cocok Untuk Wajah Bulat"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Kacamata Untuk Wajah Bulat Di Optikal Bahari
@@ -147,9 +169,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/beach-girls-00/beach-girl-03.webp"
-      src="/assets/img/posts/beach-girls-00/beach-girl-03.webp" class="card-img-top img-fluid"
-      alt="Bagaimana Lensa Photochromic Bekerja?" />
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-girls-00/beach-girl-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-girls-00/beach-girl-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-girls-00/beach-girl-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-girls-00/beach-girl-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-girls-00/beach-girl-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-girls-00/beach-girl-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-girls-00/beach-girl-03"
+      alt="Bagaimana Lensa Photochromic Bekerja?"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Menyesuaikan Bentuk dan Frame Kacamata: Tips Memilih Kacamata yang Tepat
@@ -186,9 +219,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/beach-girls-00/beach-girl-04.webp"
-      src="/assets/img/posts/beach-girls-00/beach-girl-04.webp" class="card-img-top img-fluid"
-      alt="Keuntungan Menggunakan Lensa Photochromic" />
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-girls-00/beach-girl-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-girls-00/beach-girl-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-04 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-girls-00/beach-girl-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-girls-00/beach-girl-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-04 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-girls-00/beach-girl-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-girls-00/beach-girl-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-04 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-girls-00/beach-girl-04"
+      alt="Keuntungan Menggunakan Lensa Photochromic"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Memperhatikan Proporsi dan Ukuran Frame: Kunci Sukses Memilih Kacamata
@@ -223,9 +267,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/beach-girls-00/beach-girl-05.webp"
-      src="/assets/img/posts/beach-girls-00/beach-girl-05.webp" class="card-img-top img-fluid"
-      alt="Keuntungan Menggunakan Lensa Photochromic" />
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-girls-00/beach-girl-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-girls-00/beach-girl-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-05 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-girls-00/beach-girl-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-girls-00/beach-girl-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-05 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-girls-00/beach-girl-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-girls-00/beach-girl-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-05 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-girls-00/beach-girl-05"
+      alt="Keuntungan Menggunakan Lensa Photochromic"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Temukan Kacamata Idealmu di Optikal Bahari!</h3>
       <p class="card-text text-start">
@@ -261,9 +316,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="{{ "/assets/img/posts/beach-girls-00/beach-girl-06.webp" | relative_url }}"
-      src="{{ "/assets/img/posts/beach-girls-00/beach-girl-06.webp" | relative_url }}" class="card-img-top"
-      alt="Kunjungi Optikal Bahari">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-girls-00/beach-girl-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-girls-00/beach-girl-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-06 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-girls-00/beach-girl-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-girls-00/beach-girl-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-06 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-girls-00/beach-girl-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-girls-00/beach-girl-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-girls-00/beach-girl-06 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-girls-00/beach-girl-06"
+      alt="Kunjungi Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">

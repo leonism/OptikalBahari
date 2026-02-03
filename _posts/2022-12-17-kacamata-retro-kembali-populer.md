@@ -16,9 +16,20 @@ comments: true
 ---
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-10.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-10.webp" class="card-img-top"
-            title="Kacamata Reto dan vintage" alt="Kacamata Reto dan vintage">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-10 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-10 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-10 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-10 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-10 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-10 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-10 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-10 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-10 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-10"
+      alt="Kacamata Reto dan vintage"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Tren Retro & Vintage Yang Kembali Populer
@@ -57,9 +68,20 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-012.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-012.webp" class="card-img-top"
-            title="Padukan Dengan Bentuk Wajah Dan Warna Kulit" alt="Kacamata Reto dan vintage">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-012 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-012 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-012 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-012 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-012 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-012 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-012 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-012 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-012 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-012"
+      alt="Kacamata Reto dan vintage"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Padukan Dengan Bentuk Wajah Dan Warna Kulit
@@ -95,9 +117,20 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp" class="card-img-top"
-            title="Padukan Kacamata Retro Dengan Gaya Anda" alt="Padukan Kacamata Retro Dengan Gaya Anda">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-015 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-015 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-015 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-015 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-015 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-015 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/beach-retro-girls/beach-retro-girls-015 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-015 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/beach-retro-girls/beach-retro-girls-015 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/beach-retro-girls/beach-retro-girls-015"
+      alt="Padukan Kacamata Retro Dengan Gaya Anda"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Padukan Kacamata Retro Dengan Gaya Anda

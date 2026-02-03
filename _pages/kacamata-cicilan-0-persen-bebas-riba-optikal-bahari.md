@@ -16,12 +16,20 @@ permalink: /kacamata-cicilan-0-persen-bebas-riba-optikal-bahari/
 comments: false
 ---
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.webp"
-    src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.webp"
-    class="card-img-top"
-    alt="cicilan-kacamata optikal bahari" />
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01"
+      alt="cicilan-kacamata optikal bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Cicilan 0%: Solusi Cerdas untuk Kebutuhan Penglihatan Anda
@@ -68,12 +76,20 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp"
-    src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp"
-    class="card-img-top"
-    alt="cicilan-kacamata optikal bahari" />
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02"
+      alt="cicilan-kacamata optikal bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       5 Alasan Memilih Cicilan Kacamata 0% di Optikal Bahari di Optikal Bahari
@@ -111,12 +127,20 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.webp"
-    src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.webp"
-    class="card-img-top"
-    alt="cicilan-kacamata optikal bahari" />
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03"
+      alt="cicilan-kacamata optikal bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Tips Memilih Kacamata dengan Cicilan 0% di Optikal Bahari
@@ -185,12 +209,20 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp"
-    src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp"
-    class="card-img-top"
-    alt="cicilan-kacamata optikal bahari" />
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04"
+      alt="cicilan-kacamata optikal bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Kunjungi Langsung Optikal Bahari

@@ -16,9 +16,20 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp"
-      src="{{ "/assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp" | relative_url }}" class="card-img-top"
-      title="Perawatan Kacamata Anak" alt="Perawatan Kacamata Anak">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-00 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-00 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-00 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-00 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-00 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-00 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-00 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-00 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-00 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-00"
+      alt="Perawatan Kacamata Anak"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Perawatan Kacamata Anak
@@ -45,9 +56,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp"
-      src="/assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp" class="card-img-top img-fluid"
-      alt="Kelebihan Optikal Bahari" title="Kelebihan Optikal Bahari" />
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-04 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-04 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-04 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-04"
+      alt="Kelebihan Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Optikal Bahari
@@ -117,9 +139,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp"
-      src="{{ "/assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp" | relative_url }}"
-      class="card-img-top img-fluid" title="Pemilihan Material Kacamata" alt="Pemilihan Material Kacamata">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-01"
+      alt="Pemilihan Material Kacamata"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Pemilihan Material Kacamata
@@ -155,9 +188,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp"
-      src="{{ "/assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp" | relative_url }}"
-      class="card-img-top img-fluid" title="Jaga Kebersihan Kacamata Anak" alt="Jaga Kebersihan Kacamata Anak">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-02"
+      alt="Jaga Kebersihan Kacamata Anak"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Jaga Kebersihan Kacamata Anak
@@ -183,10 +227,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp"
-      src="{{ "/assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp" | relative_url }}"
-      class="card-img-top img-fluid" title="Rutin Melakukan Kunjungan Ke Optik"
-      alt="Rutin Melakukan Kunjungan Ke Optik">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anak-00/kacamata-anak-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anak-00/kacamata-anak-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anak-00/kacamata-anak-03"
+      alt="Rutin Melakukan Kunjungan Ke Optik"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Rutin Melakukan Kunjungan Ke Optik

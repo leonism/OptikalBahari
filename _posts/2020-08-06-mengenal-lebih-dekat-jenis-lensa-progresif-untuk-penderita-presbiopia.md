@@ -17,13 +17,20 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harajuku/female-harajuku-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harajuku/female-harajuku-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harajuku/female-harajuku-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harajuku/female-harajuku-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harajuku/female-harajuku-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harajuku/female-harajuku-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harajuku/female-harajuku-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harajuku/female-harajuku-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harajuku/female-harajuku-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/harajuku/female-harajuku-01.webp"
-      src="{{ "/assets/img/posts/harajuku/female-harajuku-01.webp" | relative_url }}"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harajuku/female-harajuku-01"
+      alt="Gangguan Presbiopia & Jenis Lensa Progresif"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      title="Gangguan Presbiopia & Jenis Lensa Progresif"
-      alt="Gangguan Presbiopia & Jenis Lensa Progresif">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Gangguan Presbiopia & Jenis Lensa Progresif</h3>
       <p class="card-text text-start">
@@ -49,15 +56,21 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harajuku/female-harajuku-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harajuku/female-harajuku-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harajuku/female-harajuku-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harajuku/female-harajuku-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harajuku/female-harajuku-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harajuku/female-harajuku-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harajuku/female-harajuku-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harajuku/female-harajuku-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harajuku/female-harajuku-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/harajuku/female-harajuku-02.webp"
-      src="{{ "/assets/img/posts/harajuku/female-harajuku-02.webp" | relative_url }}"
-      class="card-img-top"
-      title="Jenis Lensa Progresif Nyaman Dipakai dan
-		Memiliki Tiga Titik Fokus"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harajuku/female-harajuku-02"
       alt="Jenis Lensa Progresif Nyaman Dipakai dan
-		Memiliki Tiga Titik Fokus">
+		Memiliki Tiga Titik Fokus"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Jenis Lensa Progresif Nyaman Dipakai dan Memiliki Tiga Titik Fokus
@@ -92,14 +105,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harajuku/female-harajuku-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harajuku/female-harajuku-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harajuku/female-harajuku-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harajuku/female-harajuku-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harajuku/female-harajuku-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harajuku/female-harajuku-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harajuku/female-harajuku-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harajuku/female-harajuku-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harajuku/female-harajuku-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/harajuku/female-harajuku-03.webp"
-      src="{{ "/assets/img/posts/harajuku/female-harajuku-03.webp" | relative_url }}"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harajuku/female-harajuku-03"
+      alt="Model Jenis Lensa Progresif dan Cara Pemakaiannya"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      title="Model Jenis Lensa Progresif dan Cara
-		Pemakaiannya"
-      alt="Model Jenis Lensa Progresif dan Cara Pemakaiannya">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Tipe Lensa Progresif dan Cara Pemakaiannya</h3>
       <p class="card-text text-start">

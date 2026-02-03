@@ -15,12 +15,20 @@ permalink: /kacamata-kemayoran/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.webp"
-    class="card-img-top"
-    title="Optikal Bahari Dengan Pilihan Beragam Koleksi Kacamata & Lensa."
-    alt="Optikal Bahari Dengan Pilihan Beragam Koleksi Kacamata & Lensa.">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-cicilan/kacamata-cicilan 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-cicilan/kacamata-cicilan 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-cicilan/kacamata-cicilan 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-cicilan/kacamata-cicilan 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-cicilan/kacamata-cicilan 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-cicilan/kacamata-cicilan 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-cicilan/kacamata-cicilan 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-cicilan/kacamata-cicilan 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-cicilan/kacamata-cicilan 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-cicilan/kacamata-cicilan"
+      alt="Optikal Bahari Dengan Pilihan Beragam Koleksi Kacamata & Lensa."
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Optikal Bahari Dengan Pilihan Beragam Koleksi Kacamata & Lensa.
@@ -41,10 +49,20 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/bg-about.webp"
-    class="card-img-top"
-    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/bg-about 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/bg-about 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/bg-about 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/bg-about 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/bg-about 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/bg-about"
+      alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan
@@ -64,10 +82,20 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/bg-tips-kacamata.webp"
-    class="card-img-top"
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/bg-tips-kacamata 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/bg-tips-kacamata 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/bg-tips-kacamata 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/bg-tips-kacamata 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/bg-tips-kacamata 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/bg-tips-kacamata 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/bg-tips-kacamata 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/bg-tips-kacamata 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/bg-tips-kacamata 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/bg-tips-kacamata"
+      alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini

@@ -18,12 +18,20 @@ layout: page
 comments: false
 ---
 <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-        itemprop="image"
-        src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}"
-        class="card-img-top"
-        title="Layanan Optik Terbaik Di Jakarta"
-        alt="Layanan Optik Terbaik Di Jakarta">
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5"
+      alt="Layanan Optik Terbaik Di Jakarta"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
     <div class="card-body">
         <h3 class="card-title">
             Layanan Optik Terbaik Di Jakarta
@@ -38,12 +46,20 @@ comments: false
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            itemprop="image"
-            src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}"
-            title="Segera Kunjungi Optikal Bahari"
-            class="card-img-top"
-            alt="Segera Kunjungi Optikal Bahari">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9"
+      alt="Segera Kunjungi Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
             <div class="card-body">
                 <h3 class="card-title">
                     Segera Kunjungi Optikal Bahari

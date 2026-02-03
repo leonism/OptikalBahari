@@ -17,13 +17,20 @@ permalink: /kacamata-pria/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/kacamata-pria/kacamata-pria-01.webp"
-    src="/assets/img/posts/kacamata-pria/kacamata-pria-01.webp"
-    class="card-img-top"
-    title="Kacamata Pria Yang Cocok Dengan Gaya Anda"
-    alt="Kacamata Pria Yang Cocok Dengan Gaya Anda">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-01"
+      alt="Kacamata Pria Yang Cocok Dengan Gaya Anda"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Pria Yang Cocok Dengan Gaya Anda
@@ -52,12 +59,20 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/kacamata-pria/kacamata-pria-03.webp"
-    src="/assets/img/posts/kacamata-pria/kacamata-pria-03.webp"
-    title="Kenali Tanda-tanda Kacamata Pria yang Perlu Diperbaiki"
-    class="card-img-top"
-    alt="Kenali Tanda-tanda Kacamata Pria yang Perlu Diperbaiki">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-03"
+      alt="Kenali Tanda-tanda Kacamata Pria yang Perlu Diperbaiki"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Kenali Tanda-tanda Kacamata Pria yang Perlu Diperbaiki
@@ -90,12 +105,20 @@ comments: false
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/kacamata-pria/kacamata-pria-04.webp"
-    src="/assets/img/posts/kacamata-pria/kacamata-pria-04.webp"
-    title="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
-    class="card-img-top"
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-04 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-04 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-04 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-04"
+      alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Menggunakan Kacamata Pria dengan Nyaman dan Aman
@@ -113,12 +136,20 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/kacamata-pria/kacamata-pria-05.webp"
-    src="/assets/img/posts/kacamata-pria/kacamata-pria-05.webp"
-    title="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
-    class="card-img-top"
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-05 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-05 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-05 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-05"
+      alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Temukan Kacamata Pria yang Memancarkan Kepribadian Anda
@@ -138,12 +169,20 @@ comments: false
 {% include home/home-cards-glasses.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/kacamata-pria/kacamata-pria-02.webp"
-    src="/assets/img/posts/kacamata-pria/kacamata-pria-02.webp"
-    title="Kunjungi Optikal Bahari Segera"
-    class="card-img-top"
-    alt="Kunjungi Optikal Bahari Segera">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-pria/kacamata-pria-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-pria/kacamata-pria-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-pria/kacamata-pria-02"
+      alt="Kunjungi Optikal Bahari Segera"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Kunjungi Optikal Bahari Segera

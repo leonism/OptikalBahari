@@ -19,12 +19,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/thug-life/thug-life-eyeglasss-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/thug-life/thug-life-eyeglasss-04 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/thug-life/thug-life-eyeglasss-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/thug-life/thug-life-eyeglasss-04 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/thug-life/thug-life-eyeglasss-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/thug-life/thug-life-eyeglasss-04 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/thug-life/thug-life-eyeglasss-04.webp"
-      src="/assets/img/posts/thug-life/thug-life-eyeglasss-04.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-04"
+      alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Gaya Kacamata Thug Life Buat Penampilan Makin Keren
@@ -61,13 +69,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/thug-life/thug-life-eyeglasss-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/thug-life/thug-life-eyeglasss-05 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/thug-life/thug-life-eyeglasss-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/thug-life/thug-life-eyeglasss-05 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/thug-life/thug-life-eyeglasss-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/thug-life/thug-life-eyeglasss-05 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/thug-life/thug-life-eyeglasss-05.webp"
-      src="/assets/img/posts/thug-life/thug-life-eyeglasss-05.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-05"
+      alt="Kacamata Thug Life"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      title="Kacamata Thug Life"
-      alt="Kacamata Thug Life" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Kenali Makna Penamaannya Thug Life</h3>
       <p class="card-text text-start">
@@ -99,12 +114,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/thug-life/thug-life-eyeglasss-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/thug-life/thug-life-eyeglasss-06 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/thug-life/thug-life-eyeglasss-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/thug-life/thug-life-eyeglasss-06 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/thug-life/thug-life-eyeglasss-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/thug-life/thug-life-eyeglasss-06 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/thug-life/thug-life-eyeglasss-06.webp"
-      src="/assets/img/posts/thug-life/thug-life-eyeglasss-06.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-06"
+      alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Desain Thug Life Unik untuk Digunakan & Dipilih</h3>
       <p class="card-text text-start">
@@ -133,12 +156,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/thug-life/thug-life-eyeglasss-07 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-07 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/thug-life/thug-life-eyeglasss-07 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/thug-life/thug-life-eyeglasss-07 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-07 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/thug-life/thug-life-eyeglasss-07 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/thug-life/thug-life-eyeglasss-07 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-07 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/thug-life/thug-life-eyeglasss-07 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/thug-life/thug-life-eyeglasss-07.webp"
-      src="/assets/img/posts/thug-life/thug-life-eyeglasss-07.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/thug-life/thug-life-eyeglasss-07"
+      alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">

@@ -17,11 +17,20 @@ permalink: /optik-kacamata-kjp-kartu-jakarta-pintar/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
-    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
-    class="card-img-top"
-    alt="kjp-optikalbahari.webp">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-01"
+      alt="kjp-optikalbahari.webp"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Menerima pembayaran dengan KJP (Kartu Jakarta Pintar) untuk Pembelian Kacamata & Lensa
@@ -44,11 +53,20 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
-    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
-    class="card-img-top"
-    alt="Optikal Bahari & Program Kartu Jakarta Pintar (KJP)">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/optikal-bahari-kjp/kjp-optikalbahari-02"
+      alt="Optikal Bahari & Program Kartu Jakarta Pintar (KJP)"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan
@@ -71,11 +89,20 @@ comments: false
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/035.webp"
-    src="/assets/img/posts/035.webp"
-    class="card-img-top"
-    alt="kjp-optikalbahari.webp">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/035 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/035 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/035 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/035 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/035 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/035 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/035 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/035 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/035 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/035"
+      alt="kjp-optikalbahari.webp"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini

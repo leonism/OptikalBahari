@@ -15,11 +15,20 @@ permalink: /tips-kacamata/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Pilih Kacamata Sesuaikan Dengan Bentuk Wajah">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-01"
+      alt="Pilih Kacamata Sesuaikan Dengan Bentuk Wajah"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Pilih Kacamata Sesuaikan Dengan Bentuk Wajah
@@ -33,11 +42,20 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Kacamata Untuk Wajah Bulat">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-02"
+      alt="Kacamata Untuk Wajah Bulat"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Untuk Wajah Bulat
@@ -57,11 +75,20 @@ comments: false
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Kacamata Untuk Wajah Kotak">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-03"
+      alt="Kacamata Untuk Wajah Kotak"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Untuk Wajah Kotak
@@ -79,11 +106,20 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Kacamata Untuk Wajah Segitiga dan Oval">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-04 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-04 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-04 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-04"
+      alt="Kacamata Untuk Wajah Segitiga dan Oval"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Untuk Wajah Segitiga dan Oval
@@ -102,11 +138,20 @@ comments: false
 {% include home/home-cards-glasses.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Segera Kunjungi Optikal Bahari">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-05 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-05 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-05 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-01/kpop-female-sunglasses-05"
+      alt="Segera Kunjungi Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Segera Kunjungi Optikal Bahari

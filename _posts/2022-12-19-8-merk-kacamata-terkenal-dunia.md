@@ -16,11 +16,20 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" }}"
-      srcset="{{ "/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" | srcset }}"
-      width="{{ "/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" | width }}"
-      height="{{ "/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" | height }}"
-      class="card-img-top img-fluid" alt="8 Merk Frame Kacamata Terkenal Dunia">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15"
+      alt="8 Merk Frame Kacamata Terkenal Dunia"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         8 Merk Frame Kacamata Terkenal Dunia
@@ -49,12 +58,20 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" | height }}"
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-manhattan-00 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-manhattan-00 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-manhattan-00 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-manhattan-00 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-manhattan-00 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-manhattan-00 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-manhattan-00 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-manhattan-00 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-manhattan-00 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-manhattan-00"
+      alt="Oakley adalah merk frame kacamata yang terkenal karena kualitas dan teknologi yang diaplikasikannya"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Oakley adalah merk frame kacamata yang terkenal karena kualitas dan teknologi yang diaplikasikannya">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Oakley
@@ -122,11 +139,20 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" | height }}"
-      class="card-img-top img-fluid" alt="Ray-Ban adalah merk frame kacamata yang paling terkenal di dunia">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-collection-00/rayban-aviator 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-collection-00/rayban-aviator 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-collection-00/rayban-aviator 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-collection-00/rayban-aviator 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-collection-00/rayban-aviator 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-collection-00/rayban-aviator 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-collection-00/rayban-aviator 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/rayban-aviator 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-collection-00/rayban-aviator 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/rayban-aviator"
+      alt="Ray-Ban adalah merk frame kacamata yang paling terkenal di dunia"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Ray-Ban
@@ -165,12 +191,20 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" | height }}"
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-seoul-min 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-seoul-min 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-seoul-min 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-seoul-min 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-seoul-min 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-seoul-min 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-seoul-min 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-seoul-min 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-seoul-min 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-seoul-min"
+      alt="Persol adalah merk frame kacamata asal Italia yang terkenal karena desainnya yang elegan dan klasik"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Persol adalah merk frame kacamata asal Italia yang terkenal karena desainnya yang elegan dan klasik">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Persol</h3>
       <p class="card-text text-start">
@@ -197,11 +231,20 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" | height }}"
-      class="card-img-top img-fluid" alt="Model frame kacamata Prada yang paling terkenal adalah PR11RS dan PR01OS">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-prada-min-00 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-prada-min-00 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-prada-min-00 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-prada-min-00 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-prada-min-00 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-prada-min-00 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-prada-min-00 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-prada-min-00 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-prada-min-00 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-prada-min-00"
+      alt="Model frame kacamata Prada yang paling terkenal adalah PR11RS dan PR01OS"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Prada</h3>
       <p class="card-text text-start">
@@ -226,11 +269,20 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" | height }}"
-      class="card-img-top img-fluid" alt="Model frame kacamata Tom Ford yang paling terkenal adalah FT5179">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-tomford-00 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-tomford-00 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-tomford-00 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-tomford-00 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-tomford-00 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-tomford-00 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-tomford-00 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-tomford-00 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-tomford-00 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-tomford-00"
+      alt="Model frame kacamata Tom Ford yang paling terkenal adalah FT5179"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Tom Ford</h3>
       <p class="card-text text-start">
@@ -251,12 +303,20 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" | height }}"
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01"
+      alt="Merk kacamata asal Inggris ini terkenal dengan frame kacamatanya yang elegan dan berkualitas tinggi"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Merk kacamata asal Inggris ini terkenal dengan frame kacamatanya yang elegan dan berkualitas tinggi">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Burberry</h3>
       <p class="card-text text-start">
@@ -277,12 +337,20 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" | height }}"
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-versace-male-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-versace-male-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-versace-male-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-versace-male-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-versace-male-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-versace-male-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-versace-male-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-versace-male-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-versace-male-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-versace-male-01"
+      alt="Versace adalah merk frame kacamata yang terkenal dengan desainnya yang mewah dan eksklusif"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Versace adalah merk frame kacamata yang terkenal dengan desainnya yang mewah dan eksklusif">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Versace</h3>
       <p class="card-text text-start">
@@ -304,12 +372,20 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" | height }}"
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-parisian-min 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-parisian-min 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-parisian-min 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-parisian-min 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-parisian-min 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-parisian-min 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-parisian-min 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-parisian-min 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-parisian-min 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-parisian-min"
+      alt="Gucci adalah salah satu merk frame kacamata terbaik di dunia yang dikenal dengan desainnya yang mewah dan eksklusif"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Gucci adalah salah satu merk frame kacamata terbaik di dunia yang dikenal dengan desainnya yang mewah dan eksklusif">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Gucci
@@ -350,11 +426,20 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" | height }}"
-      class="card-img-top img-fluid" alt="Segera Datangi Optikal Bahari">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-shanghai-min 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-shanghai-min 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-shanghai-min 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-shanghai-min 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-shanghai-min 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-shanghai-min 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-collection-00/eyewear-shanghai-min 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-shanghai-min 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-collection-00/eyewear-shanghai-min 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-collection-00/eyewear-shanghai-min"
+      alt="Segera Datangi Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Segera Datangi Optikal Bahari

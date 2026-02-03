@@ -15,13 +15,20 @@ comments: true
 ---
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image"
-            src="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" }}"
-            srcset="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" | srcset }}"
-            width="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" | width }}"
-            height="{{ "assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" | height }}"
-            class="card-img-top img-fluid"
-            alt="Kacamata Hitam Wanita">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02"
+      alt="Kacamata Hitam Wanita"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Trendsetter Kacamata Hitam Wanita: Kenali Gaya yang Lagi Hits
@@ -59,14 +66,20 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            itemprop="image"
-            src="{{" /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" }}"
-            srcset="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" | srcset }}"
-            width="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" | width }}"
-            height="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" | height }}"
-            class="card-img-top img-fluid"
-            alt="Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03"
+      alt="Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi
@@ -100,16 +113,20 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="{{"
-        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
-        }}" srcset="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
-        | srcset }}" width="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
-        | width }}" height="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
-        | height }}" class="card-img-top img-fluid" alt="Kacamata Hitam Wanita:
-        Solusi Gaya yang Menawan di Segala Kondisi">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04"
+      alt="Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Tren Kacamata Wanita Terkini yang Harus Anda Coba
@@ -145,16 +162,20 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="{{"
-        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
-        }}" srcset="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
-        | srcset }}" width="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
-        | width }}" height="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
-        | height }}" class="card-img-top img-fluid" alt="Cara Merawat Kacamata
-        Wanita agar Tetap Awet dan Tampak Baru">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05"
+      alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru
@@ -188,16 +209,20 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="{{"
-        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
-        }}" srcset="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
-        | srcset }}" width="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
-        | width }}" height="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
-        | height }}" class="card-img-top img-fluid" alt="Cara Merawat Kacamata
-        Wanita agar Tetap Awet dan Tampak Baru">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06"
+      alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Temukan Kacamata Wanita Impian Anda di Optikal Bahari

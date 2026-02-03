@@ -5,11 +5,20 @@
     role="button"
     title="Menerima Pembayaran KJP">
     {% capture card_content %}
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/bg-kjp 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/bg-kjp 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/bg-kjp 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/bg-kjp 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/bg-kjp 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      src="{{ '/assets/img/bg-kjp.webp' | relative_url }}"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/bg-kjp"
+      alt="Menerima Pembayaran KJP"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Menerima Pembayaran KJP">
+      />
+    </picture>
     {% endcapture %}
     {% include components/image-ratio.html ratio="16x9" content=card_content %}
   </a>

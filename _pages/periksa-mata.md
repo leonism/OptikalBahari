@@ -17,12 +17,20 @@ comments: false
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp" | relative_url }}"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4"
+      alt="Periksa Mata Gratis Di Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      title="periksa-mata-gratis"
-      alt="Periksa Mata Gratis Di Optikal Bahari">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Periksakan Mata Anda Di Optik Secara Rutin
@@ -39,12 +47,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp" | relative_url }}"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3"
+      alt="periksa-mata-gratis.webp"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      title="periksa-mata-gratis"
-      alt="periksa-mata-gratis.webp">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Cepat & Akurat
@@ -64,11 +80,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | relative_url }}"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10"
+      alt="Periksa Mata Dengan Komputer"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      title="Periksa Mata Dengan Komputer"
-      alt="Periksa Mata Dengan Komputer">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Dengan Alat Komputer Digital
@@ -85,11 +110,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp" | relative_url }}"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12"
+      alt="Menggunakan Alat Phoropter"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      title="Menggunakan Alat Phoropter"
-      alt="Menggunakan Alat Phoropter">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Alat Periksa Mata Phoropter
@@ -103,11 +137,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp" | relative_url }}"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11"
+      alt="Autorefractometer atau Auto Lens Meter"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      title="Autorefractometer atau Auto Lens Meter"
-      alt="Autorefractometer atau Auto Lens Meter">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Alat Periksa Mata Autorefractometer atau Auto Lens Meter
@@ -121,11 +164,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp" | relative_url }}"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6"
+      alt="Segera Kunjungi Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      title="Segera Kunjungi Optikal Bahari"
-      alt="Segera Kunjungi Optikal Bahari">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">

@@ -15,8 +15,20 @@ background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_12
 comments: true
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img itemprop="image" src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp"
-    class="card-img-top" alt="Tips Memilih Kacamata bagi Pemula dengan Menyesuaikan Bentuk Wajah dan Warna Kulit">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02"
+      alt="Tips Memilih Kacamata bagi Pemula dengan Menyesuaikan Bentuk Wajah dan Warna Kulit"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Tips Memilih Kacamata bagi Pemula dengan Menyesuaikan Bentuk Wajah dan Warna Kulit
@@ -53,8 +65,20 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img itemprop="image" src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.webp"
-    class="card-img-top" alt="Tips Memilih Kacamata bagi Pemula Berdasarkan Warna Rambut dan Mata">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03"
+      alt="Tips Memilih Kacamata bagi Pemula Berdasarkan Warna Rambut dan Mata"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Tips Memilih Kacamata bagi Pemula Berdasarkan Warna Rambut dan Mata
@@ -81,8 +105,20 @@ comments: true
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img itemprop="image" src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp"
-    class="card-img-top" alt="Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04"
+      alt="Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat

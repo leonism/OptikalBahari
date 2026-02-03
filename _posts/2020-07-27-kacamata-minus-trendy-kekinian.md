@@ -16,12 +16,20 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-11 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-11 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-11 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-11 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-11 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-11 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-11 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-11 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-11 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-11.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-11.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-11"
+      alt="Kebutuhan Kacamata Minus"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Kebutuhan Kacamata Minus" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Kebutuhan Kacamata Minus
@@ -48,12 +56,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-12 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-12 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-12 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-12 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-12 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-12 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-12 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-12 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-12 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-12.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-12.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-12"
+      alt="Memilih Kacamata Minus Sesuai Bentuk Wajah"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Memilih Kacamata Minus Sesuai Bentuk Wajah" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Memilih Kacamata Minus Sesuai Bentuk Wajah
@@ -85,12 +101,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-10 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-10 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-10 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-10 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-10 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-10 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-10 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-10 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-10 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-10.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-10.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-10"
+      alt="Berbagai Material Kacamata Minus yang Wajib Kamu Ketahui"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Berbagai Material Kacamata Minus yang Wajib Kamu Ketahui" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Material Kacamata Minus yang Wajib Kamu Ketahui

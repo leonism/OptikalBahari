@@ -15,12 +15,20 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01.webp"
-      src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01"
+      alt="kacamata-k-ion"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="kacamata-k-ion">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Cara Merawat dan Menjaga Kacamata
@@ -63,12 +71,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02.webp"
-      src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02"
+      alt="kacamata-k-ion"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="kacamata-k-ion">
+      />
+    </picture>
     <div class="card-body">
             <h3 class="card-title">
                 Periksa Mata Anda Secara Berkala

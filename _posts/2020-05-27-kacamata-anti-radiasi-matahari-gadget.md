@@ -16,12 +16,20 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01"
+      alt="Mengenal Kacamata Anti Radiasi"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Mengenal Kacamata Anti Radiasi" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Mengenal Kacamata Anti Radiasi
@@ -70,11 +78,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02"
+      alt="kacamata-anti-radiasi-matahari-gadget"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="kacamata-anti-radiasi-matahari-gadget" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Apa Yang Di Maksud Sinar Radiasi?</h3>
       <p class="card-text text-start">
@@ -107,11 +124,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03"
+      alt="kacamata-anti-radiasi-matahari-gadget"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="kacamata-anti-radiasi-matahari-gadget" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Kacamata Anti Radiasi untuk Setiap Kesempatan</h3>
       <p class="card-text text-start">
@@ -163,11 +189,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04"
+      alt="kacamata-anti-radiasi-matahari-gadget"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="kacamata-anti-radiasi-matahari-gadget" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Kacamata Anti Radiasi, Investasi untuk Gaya Hidup Modern
@@ -209,11 +244,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05"
+      alt="kacamata-anti-radiasi-matahari-gadget"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="kacamata-anti-radiasi-matahari-gadget" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Kacamata Anti Radiasi Yang Bermutu</h3>
       <p class="card-text text-start">
@@ -253,11 +297,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06"
+      alt="kacamata-anti-radiasi-matahari-gadget"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="kacamata-anti-radiasi-matahari-gadget" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Kacamata Anti Radiasi, Perlindungan Maksimal untuk Mata Anda
@@ -290,11 +343,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07"
+      alt="kacamata-anti-radiasi-matahari-gadget"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="kacamata-anti-radiasi-matahari-gadget" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">

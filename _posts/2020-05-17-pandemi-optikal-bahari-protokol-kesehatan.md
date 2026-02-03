@@ -34,11 +34,20 @@ comments: true
         50 persen di setiap lokasi yang dibuka. Juga harus memastikan adanya jaga jarak di semua tempat yang diizinkan dibuka.
       </p>
       <p class="card-text text-start">
-        <img
-          data-src="/assets/img/posts/pandemi/aturan-pandemi.webp"
-          src="/assets/img/posts/pandemi/aturan-pandemi.webp"
-          class="card-img-top"
-          alt="aturan-disaat-pandemi">
+        <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/pandemi/aturan-pandemi 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/pandemi/aturan-pandemi 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/pandemi/aturan-pandemi 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/pandemi/aturan-pandemi 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/pandemi/aturan-pandemi 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/pandemi/aturan-pandemi 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/pandemi/aturan-pandemi 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/pandemi/aturan-pandemi 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/pandemi/aturan-pandemi 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/pandemi/aturan-pandemi"
+      alt="aturan-disaat-pandemi"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
       </p>
       <p class="card-text text-start">
         Optikal Bahari tetap berkomitmen untuk dapat memberikan layanan yang terbaik dan terdepan kepada para konsumennya, dengan tetap mematuhi aturan pemerintah tersebut. Semua pengunjung akan mendapatkan penerapan yang sama, seperti diharuskan membersihkan
@@ -56,11 +65,20 @@ comments: true
       <h3 class="card-title">
         Penerapan Protokol Kesehatan
       </h3>
-      <img
-        data-src="/assets/img/posts/pandemi/protokol-covid.webp"
-        src="/assets/img/posts/pandemi/protokol-covid.webp"
-        class="card-img-top"
-        alt="protokol covid">
+      <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/pandemi/protokol-covid 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/pandemi/protokol-covid 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/pandemi/protokol-covid 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/pandemi/protokol-covid 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/pandemi/protokol-covid 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/pandemi/protokol-covid 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/pandemi/protokol-covid 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/pandemi/protokol-covid 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/pandemi/protokol-covid 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/pandemi/protokol-covid"
+      alt="protokol covid"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
       <p class="card-text text-start">
         Jadi jangan khawatir untuk melakukan kunjungan ke Optikal Bahari karena kami tetap menerapkan protokol kesehatan dalam operasional
           usaha kami yang sesuai dengan aturan tertulis dari pemerintah. Segera rencanakan kunjungan ke Optikal Bahari untuk pemeriksaan

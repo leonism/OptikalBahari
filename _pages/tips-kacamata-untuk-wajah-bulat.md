@@ -16,10 +16,20 @@ permalink: /tips-kacamata-untuk-wajah-bulat/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/posts/tips-kacamata/tips-kacamata.webp"
-    class="card-img-top"
-    alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/tips-kacamata/tips-kacamata 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/tips-kacamata/tips-kacamata 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/tips-kacamata/tips-kacamata 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/tips-kacamata/tips-kacamata 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/tips-kacamata/tips-kacamata 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/tips-kacamata/tips-kacamata 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/tips-kacamata/tips-kacamata 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata/tips-kacamata 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/tips-kacamata/tips-kacamata 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/tips-kacamata/tips-kacamata"
+      alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Untuk Wajah Bulat

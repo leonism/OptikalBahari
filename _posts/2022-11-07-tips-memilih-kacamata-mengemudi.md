@@ -16,12 +16,20 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-06 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-06 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-06 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-06 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-06 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-06.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-06.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-06"
+      alt="Panduan Memilih Kacamata untuk Wajah Bulat"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+      />
+    </picture>
     <div class="card-body">
             <h3 class="card-title">
                 Mamfaat Pengemudi Menggunakan Kacamata
@@ -64,12 +72,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-07 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-07 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-07 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-07 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-07 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-07 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-07 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-07 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-07 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-07.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-07.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-07"
+      alt="Panduan Memilih Kacamata untuk Wajah Bulat"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Polarized Lenses
@@ -97,12 +113,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-08 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-08 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-08 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-08 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-08 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-08 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-08 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-08 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-08 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-08.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-08.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/eyewear-trend-awards/eyewear-trend-awards-08"
+      alt="Panduan Memilih Kacamata untuk Wajah Bulat"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+      />
+    </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Kacamata untuk Mengemudi Malam Hari (Night Mode)

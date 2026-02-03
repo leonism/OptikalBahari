@@ -15,14 +15,20 @@ permalink: /kacamata-cicilan/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/malay-hijab-01/malay-hijab-01.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="kacamata cicilan"
-    loading="lazy"
-    width="600"
-    height="400">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/malay-hijab-01/malay-hijab-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/malay-hijab-01/malay-hijab-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/malay-hijab-01/malay-hijab-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/malay-hijab-01/malay-hijab-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/malay-hijab-01/malay-hijab-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/malay-hijab-01/malay-hijab-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/malay-hijab-01/malay-hijab-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/malay-hijab-01/malay-hijab-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/malay-hijab-01/malay-hijab-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/malay-hijab-01/malay-hijab-01"
+      alt="kacamata cicilan"
+      loading="lazy"
+      decoding="async"
+      width="600"
+      height="400"
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
     <h3 class="card-title">
       Kacamata Cicilan Tanpa Bunga
@@ -49,14 +55,20 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/malay-hijab-01/malay-hijab-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/malay-hijab-01/malay-hijab-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/malay-hijab-01/malay-hijab-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/malay-hijab-01/malay-hijab-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/malay-hijab-01/malay-hijab-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/malay-hijab-01/malay-hijab-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/malay-hijab-01/malay-hijab-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/malay-hijab-01/malay-hijab-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/malay-hijab-01/malay-hijab-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/malay-hijab-01/malay-hijab-02.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
-    loading="lazy"
-    width="600"
-    height="400">
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/malay-hijab-01/malay-hijab-02"
+      alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
+      loading="lazy"
+      decoding="async"
+      width="600"
+      height="400"
+      class="card-img-top img-fluid"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Cicilan Sesuai Kebutuhan
@@ -81,14 +93,20 @@ comments: false
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/malay-hijab-01/malay-hijab-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/malay-hijab-01/malay-hijab-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/malay-hijab-01/malay-hijab-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/malay-hijab-01/malay-hijab-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/malay-hijab-01/malay-hijab-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/malay-hijab-01/malay-hijab-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/malay-hijab-01/malay-hijab-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/malay-hijab-01/malay-hijab-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/malay-hijab-01/malay-hijab-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/malay-hijab-01/malay-hijab-03.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
-    loading="lazy"
-    width="600"
-    height="400">
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/malay-hijab-01/malay-hijab-03"
+      alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
+      loading="lazy"
+      decoding="async"
+      width="600"
+      height="400"
+      class="card-img-top img-fluid"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Aman Dari Riba Ketika Cicil Kacamata

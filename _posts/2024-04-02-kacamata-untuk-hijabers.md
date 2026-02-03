@@ -16,12 +16,20 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" }}"
-      srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" | srcset }}"
-      width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" | width }}"
-      height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" | height }}"
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-02"
+      alt="Panduan Memilih Kacamata untuk Wajah Bulat"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat">
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Kacamata untuk Hijabers: Solusi Fashionable dan Fungsional
@@ -59,11 +67,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" }}"
-      srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" | srcset }}"
-      width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" | width }}"
-      height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" | height }}"
-      class="card-img-top img-fluid" alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-010 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-010 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-010 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-010 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-010 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-010 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-010 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-010 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-010 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-010"
+      alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Trendy dan Timeless: Kacamata Hijab yang Cocok untuk Segala Acara
@@ -98,11 +115,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" }}"
-      srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" | srcset }}"
-      width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" | width }}"
-      height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" | height }}"
-      class="card-img-top img-fluid" alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-04 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-04 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-04 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-04 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-04 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-04"
+      alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Kacamata Hijabers: Tips Berbelanja yang Bijak dan Menguntungkan
@@ -133,11 +159,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" }}"
-      srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" | srcset }}"
-      width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" | width }}"
-      height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" | height }}"
-      class="card-img-top img-fluid" alt="Temukan Kacamata Hijab yang Cocok di Optikal Bahari">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-05 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-05 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-05 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-05 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-05 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/hijabi-girls-01/kacamata-untuk-hijabers-05"
+      alt="Temukan Kacamata Hijab yang Cocok di Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Temukan Kacamata Hijab yang Cocok di Optikal Bahari

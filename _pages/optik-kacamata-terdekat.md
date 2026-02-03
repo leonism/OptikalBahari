@@ -17,11 +17,20 @@ permalink: /optik-kacamata-terdekat/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/kpop-female-03/kpop-female-01.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kpop-female-03/kpop-female-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kpop-female-03/kpop-female-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kpop-female-03/kpop-female-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kpop-female-03/kpop-female-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kpop-female-03/kpop-female-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kpop-female-03/kpop-female-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kpop-female-03/kpop-female-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-03/kpop-female-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kpop-female-03/kpop-female-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-03/kpop-female-01"
+      alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">
       Optik Kacamata Terdekat
@@ -40,11 +49,20 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/kpop-female-03/kpop-female-02.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kpop-female-03/kpop-female-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kpop-female-03/kpop-female-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kpop-female-03/kpop-female-02 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kpop-female-03/kpop-female-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kpop-female-03/kpop-female-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kpop-female-03/kpop-female-02 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kpop-female-03/kpop-female-02 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-03/kpop-female-02 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kpop-female-03/kpop-female-02 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-03/kpop-female-02"
+      alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan</h3>
     <p class="card-text text-start">Supaya kamu tidak kesulitan melunasi kacamata impian, ada baiknya jika kamu memilih sebuah kacamata sesuai kebutuhan. Maksudnya bagaimana? Tentu pilih kacamata karena kamu memang membutuhkannya. Jangan tertarik karena modelnya atau warnanya yang keren namun fungsinya tidak sesuai kebutuhanmu saat ini.</p>
@@ -55,11 +73,20 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/kpop-female-03/kpop-female-03.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+  <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kpop-female-03/kpop-female-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kpop-female-03/kpop-female-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kpop-female-03/kpop-female-03 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kpop-female-03/kpop-female-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kpop-female-03/kpop-female-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kpop-female-03/kpop-female-03 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kpop-female-03/kpop-female-03 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-03/kpop-female-03 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kpop-female-03/kpop-female-03 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kpop-female-03/kpop-female-03"
+      alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
   <div class="card-body">
     <h3 class="card-title">Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini</h3>
     <p class="card-text text-start">Ini adalah salah satu keunikan jika kamu membeli kacamata di Optikal Bahari, yaitu aman dari riba atau DP. Biasanya sistem cicil akan dibebankan sebuah bunga yang mesti kamu bayarkan. Namun di sini kamu bisa bernafas dengan lega, tidak ada sistem bunga yang akan kamu terima.</p>

@@ -14,12 +14,20 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32"
+      alt="Apa Itu Lensa Photochromic?"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Apa Itu Lensa Photochromic?" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Apa Itu Lensa Photochromic?
@@ -58,12 +66,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29"
+      alt="Bagaimana Lensa Photochromic Bekerja?"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Bagaimana Lensa Photochromic Bekerja?" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Bagaimana Lensa Photochromic Bekerja?
@@ -110,12 +126,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25"
+      alt="Keuntungan Menggunakan Lensa Photochromic"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Keuntungan Menggunakan Lensa Photochromic" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Keuntungan Menggunakan Lensa Photochromic</h3>
       <p class="card-text text-start">
@@ -165,12 +189,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24"
+      alt="Tips Memilih Lensa Photochromic yang Tepat"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Tips Memilih Lensa Photochromic yang Tepat" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Tips Memilih Lensa Photochromic yang Tepat</h3>
       <p class="card-text text-start">
@@ -218,12 +250,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20"
+      alt="Perbedaan Lensa Photochromic dengan Lensa Biasa"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Perbedaan Lensa Photochromic dengan Lensa Biasa" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Perbedaan Lensa Photochromic dengan Lensa Biasa
@@ -277,12 +317,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17"
+      alt="Apakah Lensa Photochromic Cocok untuk Anda?"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Apakah Lensa Photochromic Cocok untuk Anda?" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Apakah Lensa Photochromic Cocok untuk Anda?</h3>
       <p class="card-text text-start">
@@ -330,12 +378,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18"
+      alt="Cara Merawat Lensa Photochromic dengan Baik"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Cara Merawat Lensa Photochromic dengan Baik" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Cara Merawat Lensa Photochromic dengan Baik</h3>
       <p class="card-text text-start">
@@ -382,12 +438,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20"
+      alt="Cara Merawat Lensa Photochromic dengan Baik"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Cara Merawat Lensa Photochromic dengan Baik" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Kenapa Memilih Optikal Bahari untuk Lensa Photochromic Anda?
@@ -438,12 +502,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18"
+      alt="Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik untuk Gaya Anda?"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top"
-      alt="Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik untuk Gaya Anda?" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik untuk Gaya Anda?

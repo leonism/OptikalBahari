@@ -15,9 +15,20 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16.webp" class="card-img-top img-fluid"
-      alt="Optikal Bahari: Solusi Kacamata Anti Radiasi Blue Ray" />
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16"
+      alt="Optikal Bahari: Solusi Kacamata Anti Radiasi Blue Ray"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Optikal Bahari: Solusi Kacamata Anti Radiasi Blue Ray
@@ -51,9 +62,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp" class="card-img-top img-fluid"
-      alt="Manfaat Kacamata Anti Radiasi Blue Ray dari Optikal Bahari" />
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18"
+      alt="Manfaat Kacamata Anti Radiasi Blue Ray dari Optikal Bahari"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Manfaat Kacamata Anti Radiasi Anti Blue Ray
@@ -140,9 +162,20 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp" class="card-img-top img-fluid"
-      alt="anti-blueray-uv-protection" />
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+    <img
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20"
+      alt="anti-blueray-uv-protection"
+      loading="lazy"
+      decoding="async"
+      
+      
+      class="card-img-top img-fluid"
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">Keutamaan Kacamata Anti Blue-ray</h3>
       <p class="card-text text-start">

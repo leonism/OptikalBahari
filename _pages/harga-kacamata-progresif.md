@@ -16,11 +16,20 @@ comments: false
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-21.webp"
-      src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-21.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21"
+      alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!
@@ -46,11 +55,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-21.webp"
-      src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-21.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-21"
+      alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Optikal Bahari
@@ -96,11 +114,20 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
+    <picture>
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-20 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-20 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-20 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-20 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-20 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-20 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-20 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-20 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-20 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
     <img
-      data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-20.webp"
-      src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-20.webp"
+      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/harga-kacamata-optik/harga-kacamata-optik-20"
+      alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!"
+      loading="lazy"
+      decoding="async"
+      
+      
       class="card-img-top img-fluid"
-      alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!" />
+      />
+    </picture>
     <div class="card-body">
       <h3 class="card-title">
         Kunjungi Optikal Bahari Sekarang
