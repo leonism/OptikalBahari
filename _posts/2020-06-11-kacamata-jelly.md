@@ -26,8 +26,6 @@ comments: true
       alt="style-kacamata-bulat-ala-selebriti-korea-selatan"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -36,19 +34,13 @@ comments: true
         Style Kacamata Bulat ala Selebriti Korea Selatan
       </h3>
       <p class="card-text text-start">
-        Kacamata yang satu ini merupakan trend kacamata selebriti Korea Selatan yang sudah pasti lekas menjamur di Indonesia.
-		Menelisik betapa banyaknya netizen Indonesia yang menggemari selebriti Korea Selatan. Sampai-sampai apa yang digunakan
-		mereka menjadi tren fashion di Indonesia.
+        Kacamata yang satu ini merupakan trend kacamata selebriti Korea Selatan yang sudah pasti lekas menjamur di Indonesia. Menelisik betapa banyaknya netizen Indonesia yang menggemari selebriti Korea Selatan. Sampai-sampai apa yang digunakan mereka menjadi tren fashion di Indonesia.
       </p>
       <p class="card-text text-start">
-        Penggunaan kacamata model jelly terhadap kulit wajah orang Korea Selatan memang sangat cocok. Pasalnya warna kulit
-		mereka yang cenderung putih dan anugerah wajah yang mungil membuat mengaplikasikan kacamata ini menjadi sangat pas.
-		Kesan manis akan mudah ditunjukan dari penggunanya.
+        Penggunaan kacamata model jelly terhadap kulit wajah orang Korea Selatan memang sangat cocok. Pasalnya warna kulit mereka yang cenderung putih dan anugerah wajah yang mungil membuat mengaplikasikan kacamata ini menjadi sangat pas. Kesan manis akan mudah ditunjukan dari penggunanya.
       </p>
       <p class="card-text text-start">
-        Kacamata ini memiliki penamaan lain yang disebut juga sebagai kacamata candy. Disebut juga candy karena definisi jelly
-		dan candy sama, yakni menunjukan kesan manis. Kacamata model jelly ini identik dengan perempuan, namun jika cukup
-		percaya diri, para lelaki juga tidak dilarang menggunakannya.
+        Kacamata ini memiliki penamaan lain yang disebut juga sebagai kacamata candy. Disebut juga candy karena definisi jelly dan candy sama, yakni menunjukan kesan manis. Kacamata model jelly ini identik dengan perempuan, namun jika cukup percaya diri, para lelaki juga tidak dilarang menggunakannya.
       </p>
     </div>
   </div>
@@ -67,8 +59,6 @@ comments: true
       alt="style-kacamata-bulat-ala-selebriti-korea-selatan"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -107,8 +97,6 @@ comments: true
       alt="style-kacamata-bulat-ala-selebriti-korea-selatan"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -118,29 +106,29 @@ comments: true
       </h3>
       <p class="card-text text-start">
         Perihal warna, kacamata model jelly ini memang sudah nyentrik dengan pemberian warna-warna terang. Bentuknya juga
-			seragam. Demi menunjang rasa percaya diri, Kamu bisa merawat kacamata dengan tepat. Jangan asal menggunakan lap untuk
-			mengelap kacamata, salah-salah lensa bisa tergores.
+    		seragam. Demi menunjang rasa percaya diri, Kamu bisa merawat kacamata dengan tepat. Jangan asal menggunakan lap untuk
+    		mengelap kacamata, salah-salah lensa bisa tergores.
         Jika lensa sudah tergores, bukan hanya tidak enak dipakai, namun juga tidak akan bagus di mata orang lain. Pasalnya
-			goresan pada warna lensa yang terang akan sangat nampak jelas dibandingkan goresan pada warna lensa bening. Bukannya
-			percaya diri, justru membuat diri semakin minder.
+    		goresan pada warna lensa yang terang akan sangat nampak jelas dibandingkan goresan pada warna lensa bening. Bukannya
+    		percaya diri, justru membuat diri semakin minder.
       </p>
       <p class="card-text text-start">
         Untuk menunjukan jati diri Kamu, penggunaan kacamata jelly menjadi salah satu jalannya. Zaman terus berkembang sehingga
-			bukan hal memalukan jika Kamu tampil dengan warna colorful. Justru warna-warna yang hidup membuat Kamu tampak lebih
-			awet muda dari semestinya. Persoalan warna tidak akan menjadi masalah besar jika Kamu cerdas memadu padankan antara warna make up dengan warna
-			kacamata. Bagi yang berhijab juga bisa menyelaraskan hijab dengan kacamata yang Kamu pakai.
+    		bukan hal memalukan jika Kamu tampil dengan warna colorful. Justru warna-warna yang hidup membuat Kamu tampak lebih
+    		awet muda dari semestinya. Persoalan warna tidak akan menjadi masalah besar jika Kamu cerdas memadu padankan antara warna make up dengan warna
+    		kacamata. Bagi yang berhijab juga bisa menyelaraskan hijab dengan kacamata yang Kamu pakai.
       </p>
       <p class="card-text text-start">
         Ingin tampil manis seperti idola Kamu? Semua bisa didapatkan di OPTIKAL BAHARI Jalan Bend. Jago no. 447 Kemayoran, Jakpus.
-			Melalui fanpage kami,
+    		Melalui fanpage kami,
         <a
           href="https://www.facebook.com/optikalbahari"
           id="FBClick"
           title="Facebook Page Optikal Bahari"
           class="FacebookPage">@optikalbahari</a>
         atau kunjungi saja laman web kami, maka Kamu bisa mendapat inovasi kacamata jelly kekinian. Banyak referensi kacamata
-			bulat yang bisa Kamu temukan. Kamu juga bisa mengunjungi toko kami untuk membeli kacamata kekinian di Jln. Bend. Jago
-			No.447, Kemayoran. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+    		bulat yang bisa Kamu temukan. Kamu juga bisa mengunjungi toko kami untuk membeli kacamata kekinian di Jln. Bend. Jago
+    		No.447, Kemayoran. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
         <a
           href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
           id="WhatsAppClick"
@@ -149,6 +137,7 @@ comments: true
         <em>(Optikal Bahari)</em>
       </p>
     </div>
+
   </div>
 </div>
 

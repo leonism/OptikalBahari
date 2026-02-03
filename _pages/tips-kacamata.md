@@ -25,8 +25,6 @@ comments: false
       alt="Pilih Kacamata Sesuaikan Dengan Bentuk Wajah"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -52,8 +50,6 @@ comments: false
       alt="Kacamata Untuk Wajah Bulat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -85,8 +81,6 @@ comments: false
       alt="Kacamata Untuk Wajah Kotak"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -116,8 +110,6 @@ comments: false
       alt="Kacamata Untuk Wajah Segitiga dan Oval"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -148,8 +140,6 @@ comments: false
       alt="Segera Kunjungi Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

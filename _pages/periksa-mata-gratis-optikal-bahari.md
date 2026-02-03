@@ -26,8 +26,6 @@ comments: false
       alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -73,8 +71,6 @@ comments: false
       alt="Kenali Gangguan Mata Lebih Dini"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -124,8 +120,6 @@ comments: false
       alt="Segera Periksa Mata Anda"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -175,8 +169,6 @@ comments: false
       alt="Segera Kunjungi Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

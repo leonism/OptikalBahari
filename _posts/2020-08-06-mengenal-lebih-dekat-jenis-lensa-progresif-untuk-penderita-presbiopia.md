@@ -27,8 +27,6 @@ comments: true
       alt="Gangguan Presbiopia & Jenis Lensa Progresif"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -67,8 +65,6 @@ comments: true
 		Memiliki Tiga Titik Fokus"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -115,8 +111,6 @@ comments: true
       alt="Model Jenis Lensa Progresif dan Cara Pemakaiannya"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

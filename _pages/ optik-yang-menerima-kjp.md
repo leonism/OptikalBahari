@@ -26,8 +26,6 @@ comments: false
       alt="Program Kartu Jakarta Pintar (KJP)"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -37,13 +35,10 @@ comments: false
     </h3>
     <p class="card-text text-start">
       Kini kacamata telah menjadi lebih dari sekadar alat bantu penglihatan, kacamata telah menjadi simbol gaya hidup yang memikat. Dan di tengah kemajuan zaman, kita disuguhkan dengan beragam model kacamata terkini yang bisa menambah kesan
-      <em>stylish</em>
-      dalam setiap aktivitas harian. Tidak mengherankan jika kacamata telah menjadi kebutuhan primer, terutama bagi generasi muda yang semakin sadar akan pentingnya penampilan dan gaya hidup modern.
+      <em>stylish</em> dalam setiap aktivitas harian. Tidak mengherankan jika kacamata telah menjadi kebutuhan primer, terutama bagi generasi muda yang semakin sadar akan pentingnya penampilan dan gaya hidup modern.
     </p>
     <p class="card-text text-start">
-      Paparan sinar biru atau
-      <em>blueray</em>
-      dari layar gadget telah mengakibatkan penurunan performa penglihatan pada banyak individu. Fenomena ini menjadikan kacamata bukan hanya sebagai aksesori mode, melainkan juga sebagai alat penting untuk menjaga kesehatan mata. Jika Anda merasa terpengaruh oleh kondisi ini, tak perlu ragu untuk memilih Optikal Bahari sebagai solusi terbaik untuk kebutuhan kacamata Anda.
+      Paparan sinar biru atau <em>blueray</em> dari layar gadget telah mengakibatkan penurunan performa penglihatan pada banyak individu. Fenomena ini menjadikan kacamata bukan hanya sebagai aksesori mode, melainkan juga sebagai alat penting untuk menjaga kesehatan mata. Jika Anda merasa terpengaruh oleh kondisi ini, tak perlu ragu untuk memilih Optikal Bahari sebagai solusi terbaik untuk kebutuhan kacamata Anda.
     </p>
     <p class="card-text text-start">
       Optikal Bahari hadir sebagai jawaban atas kebutuhan akan kacamata dengan kualitas terbaik. Sebagai optik terdepan dan terpercaya di Kemayoran, kami menyediakan beragam pilihan model kacamata dan lensa berkualitas tinggi. Selain itu, kami juga menawarkan layanan pemeriksaan mata gratis, garansi pembelian, serta kemudahan pembelian kacamata dengan sistem cicilan atau kredit tanpa bunga. Optikal Bahari tidak hanya menjadi destinasi utama bagi pencinta mode, tetapi juga menjadi pilihan yang tepat bagi mereka yang menggunakan Kartu Jakarta Pintar (KJP) dari Bank DKI.
@@ -67,8 +62,6 @@ comments: false
       alt="Program Kartu Jakarta Pintar (KJP)"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -86,6 +79,7 @@ comments: false
         Salah satu keuntungan utama berbelanja di Optik Bahari adalah kemudahan pembayaran melalui Kartu Jakarta Pintar (KJP) dari Bank DKI. Kami memahami bahwa banyak pelanggan kami yang memilih untuk menggunakan KJP sebagai metode pembayaran, dan kami dengan senang hati menerima metode pembayaran ini. Dengan demikian, pelanggan kami dapat dengan mudah mendapatkan kacamata berkualitas tanpa harus khawatir tentang keterbatasan finansial.
       </p>
     </div>
+
   </div>
 </div>
 
@@ -102,8 +96,6 @@ comments: false
       alt="Apa itu Lensa Photochromic?"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -138,5 +130,6 @@ comments: false
         <em>(Optikal Bahari)</em>
       </p>
     </div>
+
   </div>
 </div>

@@ -24,8 +24,6 @@ comments: true
       alt="tipe-lensa"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -79,8 +77,6 @@ comments: true
       alt="lensa-progresif.webp"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -126,8 +122,6 @@ comments: true
       alt="lensa-progresif.webp"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

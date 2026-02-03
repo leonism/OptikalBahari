@@ -26,8 +26,6 @@ comments: true
       alt="Panduan Memilih Kacamata untuk Wajah Bulat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -77,8 +75,6 @@ comments: true
       alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -180,8 +176,6 @@ comments: true
       alt="Cara Memilih Frame Kacamata yang Cocok untuk Wajah Kotak"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -229,8 +223,6 @@ comments: true
       alt="Fitur Kacamata yang Harus Diperhatikan untuk Wajah Kotak"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -285,8 +277,6 @@ comments: true
       alt="Stylish dengan Kacamata Optikal Bahari untuk Wajah Kotak"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -329,8 +319,6 @@ comments: true
       alt="Kacamata yang Sesuai untuk Wajah Kotak"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -378,8 +366,6 @@ comments: true
       alt="Kacamata yang Cocok untuk Wajah Kotak"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -427,8 +413,6 @@ comments: true
       alt="Kunjungi Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

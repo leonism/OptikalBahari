@@ -25,8 +25,6 @@ comments: false
       alt="tips-kacamata-2.webp"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -53,8 +51,6 @@ comments: false
       alt="periksa-mata-gratis.webp"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -84,8 +80,6 @@ comments: false
       alt="Periksa Mata Dengan Komputer"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -112,8 +106,6 @@ comments: false
       alt="Menggunakan Alat Phoropter"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -139,8 +131,6 @@ comments: false
       alt="Autorefractometer atau Auto Lens Meter"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -166,8 +156,6 @@ comments: false
       alt="Segera Kunjungi Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

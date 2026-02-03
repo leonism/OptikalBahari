@@ -27,8 +27,6 @@ comments: false
       alt="Privacy & Policy, Kebijakan Penggunaan Situs"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

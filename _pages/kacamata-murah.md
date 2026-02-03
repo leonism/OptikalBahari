@@ -26,8 +26,6 @@ comments: false
       alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -58,8 +56,6 @@ comments: false
       alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -96,8 +92,6 @@ comments: false
       alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -163,8 +157,6 @@ comments: false
       alt="tips-kacamata-2.webp"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

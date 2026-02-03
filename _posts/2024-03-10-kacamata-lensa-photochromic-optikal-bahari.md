@@ -26,8 +26,6 @@ comments: true
       alt="Apa itu Lensa Photochromic?"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -76,8 +74,6 @@ comments: true
       alt="Manfaat Kacamata & Lensa Photochromic"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -177,8 +173,6 @@ comments: true
       alt="Bagaimana Lensa Photochromic Bekerja?"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -233,8 +227,6 @@ comments: true
       alt="Keuntungan Menggunakan Lensa Photochromic"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -307,8 +299,6 @@ comments: true
       alt="Keuntungan Menggunakan Lensa Photochromic"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -370,8 +360,6 @@ comments: true
       alt="Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik untuk Gaya Anda?"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -435,8 +423,6 @@ comments: true
       alt="Menemukan Gayamu dengan Lensa Photochromic dari Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -502,8 +488,6 @@ comments: true
       alt="Keuntungan Menggunakan Lensa Photochromic"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -568,8 +552,6 @@ comments: true
       alt="Temukan Kacamata Paling Tren dan Eksklusif di Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -633,8 +615,6 @@ comments: true
       alt="Kunjungi Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

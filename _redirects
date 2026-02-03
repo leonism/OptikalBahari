@@ -1,28 +1,64 @@
-/assets/*
-  Cache-Control: public, max-age=31536000, immutable
+/assets/\*
+Cache-Control: public, max-age=31536000, immutable
 
-/*.css
-  Cache-Control: public, max-age=31536000, immutable
+/\*.css
+Cache-Control: public, max-age=31536000, immutable
 
-/*.js
-  Cache-Control: public, max-age=31536000, immutable
+/\*.js
+Cache-Control: public, max-age=31536000, immutable
 
-/*.webp
-  Cache-Control: public, max-age=31536000, immutable
+/\*.webp
+Cache-Control: public, max-age=31536000, immutable
 
-/*.ico
-  Cache-Control: public, max-age=31536000, immutable
+/\*.ico
+Cache-Control: public, max-age=31536000, immutable
 
+# --- 1. Structural Fixes (Critical) ---
 
+# Removes the double "/posts/posts/" error found in your report
 
+/posts/posts/\* /posts/:splat 301
 
-# Fix the broken nested loop URL found in your report
-/posts/posts/page/2/index.html  /blog/  301
+# Removes "index.html" from any URL
 
-# Fix the duplicate/old locations found in your report
-/optik-mata-terdekat  /rekomendasi-optik-di-jakarta/  301
-/toko-kacamata-terdekat  /rekomendasi-optik-di-jakarta/  301
-/optik-kacamata-terdekat  /rekomendasi-optik-di-jakarta/  301
+/posts/index.html /posts/ 301
+/\*/index.html /:splat 301
+
+# --- 2. Trailing Slash Fixes (From your CSV Report) ---
+
+# Google flagged these because they are missing the "/" at the end.
+
+# We explicitly redirect them to the correct folder version.
+
+/tips-kacamata-gaya-rambut /tips-kacamata-gaya-rambut/ 301
+/tips-kacamata /tips-kacamata/ 301
+/optik-periksa-mata-gratis-terdekat /optik-periksa-mata-gratis-terdekat/ 301
+/cara-merawat-menjaga-kacamata /cara-merawat-menjaga-kacamata/ 301
+/toko-kacamata /toko-kacamata/ 301
+/lokasi /lokasi/ 301
+/tips-kacamata-pemula-nyaman-dipakai /tips-kacamata-pemula-nyaman-dipakai/ 301
+/kacamata-cicilan /kacamata-cicilan/ 301
+/kredit-kacamata-terdekat /kredit-kacamata-terdekat/ 301
+/testimoni /testimoni/ 301
+/periksa-mata /periksa-mata/ 301
+/optikal-bahari-kjp-kartu-jakarta-pintar /optikal-bahari-kjp-kartu-jakarta-pintar/ 301
+/tips-trik-kacamata /tips-trik-kacamata/ 301
+/kacamata-anti-radiasi-matahari-gadget /kacamata-anti-radiasi-matahari-gadget/ 301
+/optik-murah-kemayoran /optik-murah-kemayoran/ 301
+/kebijakan-situs /kebijakan-situs/ 301
+/anti-lensa-blue-ray-optik-bahari /anti-lensa-blue-ray-optik-bahari/ 301
+/posts /posts/ 301
+/kacamata-k-ion-nano /kacamata-k-ion-nano/ 301
+/kontak /kontak/ 301
+
+# --- 3. Legacy / Old URL Mapping (From your CSV Report) ---
+
+# These are old paths that need to go to new homes.
+
+/optik-mata-terdekat /optik-terdekat/ 301
+/toko-kacamata-terdekat /toko-kacamata/ 301
+/optik-kacamata-terdekat /optik-terdekat/ 301
 
 # Ensure 404s are handled correctly (Jekyll default)
-/404.html  404
+
+/404.html 404

@@ -26,8 +26,6 @@ comments: false
       alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -58,8 +56,6 @@ comments: false
       alt="Periksa Mata & Service Gratis"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -96,8 +92,6 @@ comments: false
       alt="Kacamata Cicilan 0%"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -126,8 +120,6 @@ comments: false
       alt="Kunjungi Optikal Bahari Sekarang%"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

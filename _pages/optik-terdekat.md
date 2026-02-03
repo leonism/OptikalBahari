@@ -27,8 +27,6 @@ comments: false
       alt="Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -61,8 +59,6 @@ comments: false
       alt="kacamata cicilan"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -91,8 +87,6 @@ comments: false
       alt="Service & Reparasi Kacamata Gratis!"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -119,8 +113,6 @@ comments: false
       alt="Tambahan Bonus Goodie Bag Menarik Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -147,8 +139,6 @@ comments: false
       alt="Berizin Dari DinKes & Kemenkes Republik Indonesia"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -175,8 +165,6 @@ comments: false
       alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

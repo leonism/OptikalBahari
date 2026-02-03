@@ -26,8 +26,6 @@ comments: true
       alt="Panduan Memilih Kacamata untuk Wajah Bulat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -77,8 +75,6 @@ comments: true
       alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -125,8 +121,6 @@ comments: true
       alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -169,8 +163,6 @@ comments: true
       alt="Temukan Kacamata Hijab yang Cocok di Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

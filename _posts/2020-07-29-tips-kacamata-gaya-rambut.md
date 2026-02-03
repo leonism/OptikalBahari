@@ -25,8 +25,6 @@ comments: true
       alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -65,8 +63,6 @@ comments: true
       alt="Rambut Hitam atau Pirang, Terapkan Tips Memilih Kacamata Berdasarkan Rambut"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -120,8 +116,6 @@ comments: true
       alt="Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

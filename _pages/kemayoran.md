@@ -25,8 +25,6 @@ comments: false
       alt="Kenapa Beli Kacamata Di Optikal Bahari?"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -59,8 +57,6 @@ comments: false
       alt="Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -92,8 +88,6 @@ comments: false
       alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -127,8 +121,6 @@ comments: false
       alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

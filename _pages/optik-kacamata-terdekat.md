@@ -27,8 +27,6 @@ comments: false
       alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -59,8 +57,6 @@ comments: false
       alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -83,8 +79,6 @@ comments: false
       alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

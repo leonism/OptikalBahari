@@ -25,8 +25,6 @@ comments: false
       alt="kacamata cicilan"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -63,8 +61,6 @@ comments: false
       alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -94,8 +90,6 @@ comments: false
       alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

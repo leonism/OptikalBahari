@@ -26,8 +26,6 @@ comments: false
       alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

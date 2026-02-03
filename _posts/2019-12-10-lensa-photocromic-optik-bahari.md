@@ -24,8 +24,6 @@ comments: true
       alt="Apa Itu Lensa Photochromic?"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -76,8 +74,6 @@ comments: true
       alt="Bagaimana Lensa Photochromic Bekerja?"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -120,6 +116,7 @@ comments: true
         tertandingi.
       </p>
     </div>
+
   </div>
 </div>
 
@@ -136,8 +133,6 @@ comments: true
       alt="Keuntungan Menggunakan Lensa Photochromic"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -185,6 +180,7 @@ comments: true
         dengan koleksi terlengkap dan layanan terbaik di industri optik.
       </p>
     </div>
+
   </div>
 </div>
 
@@ -199,8 +195,6 @@ comments: true
       alt="Tips Memilih Lensa Photochromic yang Tepat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -246,6 +240,7 @@ comments: true
         setiap kesempatan.
       </p>
     </div>
+
   </div>
 </div>
 
@@ -260,8 +255,6 @@ comments: true
       alt="Perbedaan Lensa Photochromic dengan Lensa Biasa"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -313,6 +306,7 @@ comments: true
         dengan koleksi terlengkap dan layanan terbaik di industri optik.
       </p>
     </div>
+
   </div>
 </div>
 
@@ -327,8 +321,6 @@ comments: true
       alt="Apakah Lensa Photochromic Cocok untuk Anda?"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -374,6 +366,7 @@ comments: true
         kesempatan.
       </p>
     </div>
+
   </div>
 </div>
 
@@ -388,8 +381,6 @@ comments: true
       alt="Cara Merawat Lensa Photochromic dengan Baik"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -434,6 +425,7 @@ comments: true
         perlindungan terbaik untuk mata Anda di setiap kesempatan.
       </p>
     </div>
+
   </div>
 </div>
 
@@ -448,8 +440,6 @@ comments: true
       alt="Cara Merawat Lensa Photochromic dengan Baik"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -496,6 +486,7 @@ comments: true
         untuk lensa photochromic yang berkualitas tinggi dan layanan terbaik.
       </p>
     </div>
+
   </div>
 </div>
 
@@ -512,8 +503,6 @@ comments: true
       alt="Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik untuk Gaya Anda?"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -584,5 +573,6 @@ comments: true
         <em>(Optikal Bahari)</em>
       </p>
     </div>
+
   </div>
 </div>

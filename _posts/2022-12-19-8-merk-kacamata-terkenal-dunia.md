@@ -26,8 +26,6 @@ permalink: /8-merk-kacamata-terkenal-dunia/
       alt="8 Merk Frame Kacamata Terkenal Dunia"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -68,8 +66,6 @@ permalink: /8-merk-kacamata-terkenal-dunia/
       alt="Oakley adalah merk frame kacamata yang terkenal karena kualitas dan teknologi yang diaplikasikannya"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -149,8 +145,6 @@ permalink: /8-merk-kacamata-terkenal-dunia/
       alt="Ray-Ban adalah merk frame kacamata yang paling terkenal di dunia"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -201,8 +195,6 @@ permalink: /8-merk-kacamata-terkenal-dunia/
       alt="Persol adalah merk frame kacamata asal Italia yang terkenal karena desainnya yang elegan dan klasik"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -241,8 +233,6 @@ permalink: /8-merk-kacamata-terkenal-dunia/
       alt="Model frame kacamata Prada yang paling terkenal adalah PR11RS dan PR01OS"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -279,8 +269,6 @@ permalink: /8-merk-kacamata-terkenal-dunia/
       alt="Model frame kacamata Tom Ford yang paling terkenal adalah FT5179"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -313,8 +301,6 @@ permalink: /8-merk-kacamata-terkenal-dunia/
       alt="Merk kacamata asal Inggris ini terkenal dengan frame kacamatanya yang elegan dan berkualitas tinggi"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -347,8 +333,6 @@ permalink: /8-merk-kacamata-terkenal-dunia/
       alt="Versace adalah merk frame kacamata yang terkenal dengan desainnya yang mewah dan eksklusif"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -382,8 +366,6 @@ permalink: /8-merk-kacamata-terkenal-dunia/
       alt="Gucci adalah salah satu merk frame kacamata terbaik di dunia yang dikenal dengan desainnya yang mewah dan eksklusif"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -436,8 +418,6 @@ permalink: /8-merk-kacamata-terkenal-dunia/
       alt="Segera Datangi Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

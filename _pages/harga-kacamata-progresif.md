@@ -26,8 +26,6 @@ comments: false
       alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -65,8 +63,6 @@ comments: false
       alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -124,8 +120,6 @@ comments: false
       alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

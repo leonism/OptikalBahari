@@ -21,8 +21,6 @@ comments: false
       alt="kemayoran tempoe doeloe"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

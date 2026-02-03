@@ -27,8 +27,6 @@ comments: false
       alt="Kacamata Pria Yang Cocok Dengan Gaya Anda"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -69,8 +67,6 @@ comments: false
       alt="Kenali Tanda-tanda Kacamata Pria yang Perlu Diperbaiki"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -115,8 +111,6 @@ comments: false
       alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -146,8 +140,6 @@ comments: false
       alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -179,8 +171,6 @@ comments: false
       alt="Kunjungi Optikal Bahari Segera"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

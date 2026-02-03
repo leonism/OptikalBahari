@@ -28,8 +28,6 @@ comments: true
       alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -78,8 +76,6 @@ comments: true
       alt="Kacamata Thug Life"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -123,8 +119,6 @@ comments: true
       alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -165,8 +159,6 @@ comments: true
       alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

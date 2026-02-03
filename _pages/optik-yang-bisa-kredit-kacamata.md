@@ -25,8 +25,6 @@ comments: false
       alt="tips-kacamata-2.webp"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -59,8 +57,6 @@ comments: false
       alt="tips-kacamata-2.webp"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

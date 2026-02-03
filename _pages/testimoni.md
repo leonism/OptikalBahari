@@ -26,8 +26,6 @@ comments: false
       alt="Periksakan Mata Anda Secara Rutin"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -67,8 +65,6 @@ comments: false
       alt="Testimoni Konsumen Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

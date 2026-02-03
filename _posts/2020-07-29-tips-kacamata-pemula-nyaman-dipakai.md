@@ -25,8 +25,6 @@ comments: true
       alt="Tips Memilih Kacamata bagi Pemula dengan Menyesuaikan Bentuk Wajah dan Warna Kulit"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -75,8 +73,6 @@ comments: true
       alt="Tips Memilih Kacamata bagi Pemula Berdasarkan Warna Rambut dan Mata"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -115,8 +111,6 @@ comments: true
       alt="Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

@@ -25,8 +25,6 @@ comments: true
       alt="Kacamata Hitam Wanita"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -76,8 +74,6 @@ comments: true
       alt="Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -123,8 +119,6 @@ comments: true
       alt="Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -172,8 +166,6 @@ comments: true
       alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -219,8 +211,6 @@ comments: true
       alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

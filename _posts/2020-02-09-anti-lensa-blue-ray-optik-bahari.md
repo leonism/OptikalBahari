@@ -25,8 +25,6 @@ comments: true
       alt="Optikal Bahari: Solusi Kacamata Anti Radiasi Blue Ray"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -72,8 +70,6 @@ comments: true
       alt="Manfaat Kacamata Anti Radiasi Blue Ray dari Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -156,6 +152,7 @@ comments: true
         pemeriksaan mata yang eksklusif dan memuaskan.
       </p>
     </div>
+
   </div>
 </div>
 
@@ -172,8 +169,6 @@ comments: true
       alt="anti-blueray-uv-protection"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -213,6 +208,7 @@ comments: true
         <em>(Optikal Bahari)</em>
       </p>
     </div>
+
   </div>
 </div>
 

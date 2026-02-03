@@ -26,8 +26,6 @@ comments: true
       alt="kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -71,8 +69,6 @@ comments: true
       alt="kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -101,6 +97,7 @@ comments: true
         seperti tidak menggunakan kacamata.
       </p>
     </div>
+
   </div>
 </div>
 
@@ -117,8 +114,6 @@ comments: true
       alt="kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -161,6 +156,7 @@ comments: true
         <em>(Optikal Bahari)</em>
       </p>
     </div>
+
   </div>
 </div>
 

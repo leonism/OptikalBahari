@@ -24,8 +24,6 @@ comments: true
       alt="kacamata-k-ion"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -56,8 +54,6 @@ comments: true
       alt="kacamata-k-ion"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -88,8 +84,6 @@ comments: true
       alt="kacamata-k-ion"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

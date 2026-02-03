@@ -26,8 +26,6 @@ comments: true
       alt="Kebutuhan Kacamata Minus"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -66,8 +64,6 @@ comments: true
       alt="Memilih Kacamata Minus Sesuai Bentuk Wajah"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -76,23 +72,13 @@ comments: true
         Memilih Kacamata Minus Sesuai Bentuk Wajah
       </h3>
       <p class="card-text text-start">
-        Penggunaan kacamata untuk minus bukan hanya untuk membantu daya tangkap cahaya sehingga memperjelas objek. Kamu tetap
-        bisa stylish dengan memilih bentuk kacamata tepat sesuai dengan bentuk wajah. Jika bentuk rahang Kamu sudah terlampau
-        tegas maka pilihlah kacamata dengan bingkai tipis. Jika bentuk wajah Kamu bulat maka jangan memilih kacamata berbentuk
-        bulat juga karena wajah Kamu akan semakin terlihat bulat. Untuk menyiasatinya, Kamu bisa memilih kacamata dengan lensa
-        persegi panjang sehingga kesan ramping dan lebih proporsional bisa dengan mudah didapatkan.
+        Penggunaan kacamata untuk minus bukan hanya untuk membantu daya tangkap cahaya sehingga memperjelas objek. Kamu tetap bisa stylish dengan memilih bentuk kacamata tepat sesuai dengan bentuk wajah. Jika bentuk rahang Kamu sudah terlampau tegas maka pilihlah kacamata dengan bingkai tipis. Jika bentuk wajah Kamu bulat maka jangan memilih kacamata berbentuk bulat juga karena wajah Kamu akan semakin terlihat bulat. Untuk menyiasatinya, Kamu bisa memilih kacamata dengan lensa persegi panjang sehingga kesan ramping dan lebih proporsional bisa dengan mudah didapatkan.
       </p>
       <p class="card-text text-start">
-        Untuk Kamu yang memiliki bentuk wajah oval, beruntunglah Kamu karena diaplikasikan dengan bentu dan model kacamata
-        minus apa saja terlihat cocok di wajah. Siasat yang paling pas adalah menyeimbangkan antara ukuran wajah dengan ukuran
-        lensa agar lebih terlihat proporsional dan menarik dilihat.
+        Untuk Kamu yang memiliki bentuk wajah oval, beruntunglah Kamu karena diaplikasikan dengan bentu dan model kacamata minus apa saja terlihat cocok di wajah. Siasat yang paling pas adalah menyeimbangkan antara ukuran wajah dengan ukuran lensa agar lebih terlihat proporsional dan menarik dilihat.
       </p>
       <p class="card-text text-start">
-        Penerapan kacamata untuk minus bagi orang dengan wajah berbentuk hati lebih tepat dengan lensa persegi maupun persegi
-        panjang. Saran untuk pemilik wajah seperti ini amat tidak dianjurkan memilih kacamata yang membuat kesan kening terlalu
-        lebar karena tidak akan bagus dilihat orang. Orang yang menderita rabun jauh maupun dekat setiap beberapa waktu harus rajin
-        memeriksakan mata untuk mengetahui apakah minusnya bertambah atau tidak. Jika bertambah maka lensa harus diganti sesuai dengan
-        pertambahan minusnya.
+        Penerapan kacamata untuk minus bagi orang dengan wajah berbentuk hati lebih tepat dengan lensa persegi maupun persegi panjang. Saran untuk pemilik wajah seperti ini amat tidak dianjurkan memilih kacamata yang membuat kesan kening terlalu lebar karena tidak akan bagus dilihat orang. Orang yang menderita rabun jauh maupun dekat setiap beberapa waktu harus rajin memeriksakan mata untuk mengetahui apakah minusnya bertambah atau tidak. Jika bertambah maka lensa harus diganti sesuai dengan pertambahan minusnya.
       </p>
     </div>
   </div>
@@ -111,8 +97,6 @@ comments: true
       alt="Berbagai Material Kacamata Minus yang Wajib Kamu Ketahui"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -149,6 +133,7 @@ comments: true
         <em>(Optikal Bahari)</em>
       </p>
     </div>
+
   </div>
 </div>
 

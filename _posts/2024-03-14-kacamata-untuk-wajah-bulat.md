@@ -26,8 +26,6 @@ comments: true
       alt="Panduan Memilih Kacamata untuk Wajah Bulat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -76,8 +74,6 @@ comments: true
       alt="Kacamata Yang Cocok Untuk Wajah Bulat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -179,8 +175,6 @@ comments: true
       alt="Bagaimana Lensa Photochromic Bekerja?"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -229,8 +223,6 @@ comments: true
       alt="Keuntungan Menggunakan Lensa Photochromic"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -277,8 +269,6 @@ comments: true
       alt="Keuntungan Menggunakan Lensa Photochromic"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -326,8 +316,6 @@ comments: true
       alt="Kunjungi Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

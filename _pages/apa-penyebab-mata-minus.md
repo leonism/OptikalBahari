@@ -26,8 +26,6 @@ comments: false
       alt="Apa Yang Dimaksud Dengan Mata Minus?"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -51,8 +49,6 @@ comments: false
       alt="Penyebab Mata Minus"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -88,8 +84,6 @@ comments: false
       alt="Gejala Umum Mata Minus"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

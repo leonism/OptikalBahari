@@ -26,8 +26,6 @@ comments: false
       alt="Periksa Mata Gratis Terdekat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -87,8 +85,6 @@ comments: false
       alt="Periksa Mata Cepat & Akurat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -124,8 +120,6 @@ comments: false
       alt="Proses Pertama: Menggunakan Autorefractometer"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -163,8 +157,6 @@ comments: false
       alt="Proses Kedua: Menggunakan Alat Phoropter"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -204,8 +196,6 @@ comments: false
       alt="Kunjungi Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

@@ -74,8 +74,6 @@ comments: false
       alt="Periksa Mata Cepat & Akurat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -109,8 +107,6 @@ comments: false
       alt="Proses Pertama: Autorefractometer"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -142,8 +138,6 @@ comments: false
       alt="Proses Kedua: Phoropter"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -177,8 +171,6 @@ comments: false
       alt="Kunjungi Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

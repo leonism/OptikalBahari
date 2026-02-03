@@ -27,8 +27,6 @@ permalink: /style-kacamata-bulat-selebriti-korea-selatan/
       alt="style-kacamata-bulat-ala-selebriti-korea-selatan"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -49,6 +47,7 @@ permalink: /style-kacamata-bulat-selebriti-korea-selatan/
       Jika tujuannya untuk melindungi dari sinar matahari maka sebaiknya gunakan lensa besar.
       </p>
     </div>
+
   </div>
 </div>
 
@@ -65,8 +64,6 @@ permalink: /style-kacamata-bulat-selebriti-korea-selatan/
       alt="style-kacamata-bulat-ala-selebriti-korea-selatan"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -75,18 +72,10 @@ permalink: /style-kacamata-bulat-selebriti-korea-selatan/
         Berbagai Style Kacamata Bulat yang Perlu Kamu Ketahui
       </h3>
       <p class="card-text text-start">
-        Kamu yang ingin tampil simple dengan kacamata berbentuk bulat bisa menggunakan kacamata dengan frame dari plastik.
-        Untuk warna lensanya memilih warna cokelat sepertinya merupakan keputusan tepat. Tidak terlalu pekat dengan nuansa
-        hitam dan tidak terlalu monoton juga dengan kesan warna bening. Kamu juga bisa memilih kacamata full metal yang terkesan
-        old school, namun banyak digemari para milenial saat ini. Dulu kacamata ini identik dengan nenek-nenek dan kakek-kakek.
-        Namun, percayalah ketika dikenakan di wajahmu kesannya akan berbeda. Bisa jadi karena tidak adanya keriput.
+        Kamu yang ingin tampil simple dengan kacamata berbentuk bulat bisa menggunakan kacamata dengan frame dari plastik. Untuk warna lensanya memilih warna cokelat sepertinya merupakan keputusan tepat. Tidak terlalu pekat dengan nuansa hitam dan tidak terlalu monoton juga dengan kesan warna bening. Kamu juga bisa memilih kacamata full metal yang terkesan old school, namun banyak digemari para milenial saat ini. Dulu kacamata ini identik dengan nenek-nenek dan kakek-kakek. Namun, percayalah ketika dikenakan di wajahmu kesannya akan berbeda. Bisa jadi karena tidak adanya keriput.
       </p>
       <p class="card-text text-start">
-        Bentuk kacamata dengan nuansa bulat lainnya digunakan untuk melindungi mata dari paparan sinar UVA dan UVB matahari.
-          Kamu bisa memilih model kacamata yang tepat dengan desain frame full metal tipis. Kacamata ini bisa menunjang segala
-          aktivitas Kamu di luar ruangan ketika siang hari. Memilih menggunakan kacamata bulat full frame juga bisa menjadi referensi
-          agar Kamu nyaman dan tampil modis, meskipun kacamata yang digunakan adalah kacamata bantu. Kamu bisa memilih frame full plastik
-          atau setengah plastik dan setengahnya lagi berbahan metal untuk menunjang penampilan.
+        Bentuk kacamata dengan nuansa bulat lainnya digunakan untuk melindungi mata dari paparan sinar UVA dan UVB matahari. Kamu bisa memilih model kacamata yang tepat dengan desain frame full metal tipis. Kacamata ini bisa menunjang segala aktivitas Kamu di luar ruangan ketika siang hari. Memilih menggunakan kacamata bulat full frame juga bisa menjadi referensi agar Kamu nyaman dan tampil modis, meskipun kacamata yang digunakan adalah kacamata bantu. Kamu bisa memilih frame full plastik atau setengah plastik dan setengahnya lagi berbahan metal untuk menunjang penampilan.
       </p>
     </div>
   </div>
@@ -105,8 +94,6 @@ permalink: /style-kacamata-bulat-selebriti-korea-selatan/
       alt="style-kacamata-bulat-ala-selebriti-korea-selatan"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -115,24 +102,13 @@ permalink: /style-kacamata-bulat-selebriti-korea-selatan/
         Stylish ala Selebriti Korea Selatan dengan Kacamata Bulat
       </h3>
       <p class="card-text text-start">
-        Beberapa selebriti Korea Selatan tampil cantik serta tampan mengenakan kacamata berbentuk bulat. Di antaranya ada Bae
-          Suzy yang tidak ragu menggunakan kacamata berlensa bening dan tanpa polesan make up. Mantan Lee Min Ho ini sukses
-          membuat iri para wanita karena cantik meskipun tanpa make up.
-        Bukan hanya netizen Indonesia yang dibuat jatuh cinta dengan tren kacamata berbentuk bulat. Namun, netizen Korea
-          Selatan juga demikian. Berbagai model kacamata berbentuk bulat, seperti kacamata dengan nuansa vintage dan kacamata
-          bulat ini biasa biasa digunakan orang-orang Korea Selatan untuk menunjang penampilan.
+        Beberapa selebriti Korea Selatan tampil cantik serta tampan mengenakan kacamata berbentuk bulat. Di antaranya ada Bae Suzy yang tidak ragu menggunakan kacamata berlensa bening dan tanpa polesan make up. Mantan Lee Min Ho ini sukses membuat iri para wanita karena cantik meskipun tanpa make up. Bukan hanya netizen Indonesia yang dibuat jatuh cinta dengan tren kacamata berbentuk bulat. Namun, netizen Korea Selatan juga demikian. Berbagai model kacamata berbentuk bulat, seperti kacamata dengan nuansa vintage dan kacamata bulat ini biasa biasa digunakan orang-orang Korea Selatan untuk menunjang penampilan.
       </p>
       <p class="card-text text-start">
-        Tidak sedikit juga orang-orang Korea Selatan yang menggunakan kacamata bundar dengan frame tipis di seluruh sisinya.
-          Pada bagian gagang, tidak terdapat aksen macam-macam, hanya metal tipis saja. Pada saat melihat ke lensa, nampak
-          pantulan benda di depan kacamata dengan begitu jelas.
-        Pastikan Kamu melakukan perawatan kacamata dengan benar agar kacamata nampak selalu bersih. Terutama pada area lensa,
-          jangan asal menggunakan lap sebab kesalahan itu berdampak buruk terhadap lensa. Bisa menyebabkan lecet hingga daya
-          lihat lensa menjadi buram.
+        Tidak sedikit juga orang-orang Korea Selatan yang menggunakan kacamata bundar dengan frame tipis di seluruh sisinya. Pada bagian gagang, tidak terdapat aksen macam-macam, hanya metal tipis saja. Pada saat melihat ke lensa, nampak pantulan benda di depan kacamata dengan begitu jelas. Pastikan Kamu melakukan perawatan kacamata dengan benar agar kacamata nampak selalu bersih. Terutama pada area lensa, jangan asal menggunakan lap sebab kesalahan itu berdampak buruk terhadap lensa. Bisa menyebabkan lecet hingga daya lihat lensa menjadi buram.
       </p>
       <p class="card-text text-start">
-        Pemilihan kacamata untuk berbagai bentuk wajah memang berbeda-beda. Apa pun bentuk kacamata yang sedang Kamu cari untuk
-          melindungi dan mempertajam pandangan mata, kunjungi web OPTIKAL BAHARI dan follow fanpage kami
+        Pemilihan kacamata untuk berbagai bentuk wajah memang berbeda-beda. Apa pun bentuk kacamata yang sedang Kamu cari untuk melindungi dan mempertajam pandangan mata, kunjungi web OPTIKAL BAHARI dan follow fanpage kami
         <a
           href="https://www.facebook.com/optikalbahari"
           id="FBClick"

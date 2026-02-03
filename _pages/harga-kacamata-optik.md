@@ -28,8 +28,6 @@ comments: false
       alt="Buka Rahasia: Harga Kacamata Optik yang Memikat Hati di Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -63,8 +61,6 @@ comments: false
       alt="Koleksi Kacamata yang Luar Biasa di Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -98,8 +94,6 @@ comments: false
       alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -131,8 +125,6 @@ comments: false
       alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -164,8 +156,6 @@ comments: false
       alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -197,8 +187,6 @@ comments: false
       alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -230,8 +218,6 @@ comments: false
       alt="Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

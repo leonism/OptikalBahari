@@ -27,8 +27,6 @@ comments: false
       alt="kjp-optikalbahari.webp"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -63,8 +61,6 @@ comments: false
       alt="Optikal Bahari & Program Kartu Jakarta Pintar (KJP)"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -99,8 +95,6 @@ comments: false
       alt="kjp-optikalbahari.webp"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

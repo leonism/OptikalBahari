@@ -44,8 +44,6 @@ comments: true
       alt="aturan-disaat-pandemi"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -75,8 +73,6 @@ comments: true
       alt="protokol covid"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

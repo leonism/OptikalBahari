@@ -26,8 +26,6 @@ comments: true
       alt="Panduan Memilih Kacamata untuk Wajah Bulat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -82,8 +80,6 @@ comments: true
       alt="Panduan Memilih Kacamata untuk Wajah Bulat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -123,8 +119,6 @@ comments: true
       alt="Panduan Memilih Kacamata untuk Wajah Bulat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

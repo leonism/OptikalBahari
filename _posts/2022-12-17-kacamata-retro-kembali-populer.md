@@ -26,8 +26,6 @@ comments: true
       alt="Kacamata Reto dan vintage"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -78,8 +76,6 @@ comments: true
       alt="Kacamata Reto dan vintage"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -127,8 +123,6 @@ comments: true
       alt="Padukan Kacamata Retro Dengan Gaya Anda"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

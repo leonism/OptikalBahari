@@ -26,8 +26,6 @@ comments: true
       alt="Perawatan Kacamata Anak"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -66,8 +64,6 @@ comments: true
       alt="Kelebihan Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -149,8 +145,6 @@ comments: true
       alt="Pemilihan Material Kacamata"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -198,8 +192,6 @@ comments: true
       alt="Jaga Kebersihan Kacamata Anak"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>
@@ -237,8 +229,6 @@ comments: true
       alt="Rutin Melakukan Kunjungan Ke Optik"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top img-fluid"
       />
     </picture>

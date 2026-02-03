@@ -27,8 +27,6 @@ comments: false
       alt="Kenapa Kacamata Anak Penting untuk Kesehatan Mata Si Kecil?"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -58,8 +56,6 @@ comments: false
       alt="Tips Memilih Kacamata Anak yang Cocok dengan Gaya dan Kebutuhan Si Kecil"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -89,8 +85,6 @@ comments: false
       alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -120,8 +114,6 @@ comments: false
       alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -151,8 +143,6 @@ comments: false
       alt="Kunjungi Optikal Bahari Sekarang untuk Menemukan Kacamata Anak yang Tepat"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

@@ -28,8 +28,6 @@ comments: false
       alt="Layanan Optik Terbaik Di Jakarta"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -56,8 +54,6 @@ comments: false
       alt="Segera Kunjungi Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

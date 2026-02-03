@@ -28,8 +28,6 @@ comments: false
       alt="bandar-udara-kemayoran"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -56,8 +54,6 @@ comments: false
       alt="jalan h jiung"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -84,8 +80,6 @@ comments: false
       alt="bandar-udara-kemayoran-80an.webp"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

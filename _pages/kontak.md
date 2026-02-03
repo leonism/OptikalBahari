@@ -27,8 +27,6 @@ comments: false
       alt="Hubungi Optikal Bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>

@@ -26,8 +26,6 @@ comments: false
       alt="cicilan-kacamata optikal bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -86,8 +84,6 @@ comments: false
       alt="cicilan-kacamata optikal bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -137,8 +133,6 @@ comments: false
       alt="cicilan-kacamata optikal bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -219,8 +213,6 @@ comments: false
       alt="cicilan-kacamata optikal bahari"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
