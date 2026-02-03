@@ -47,19 +47,16 @@ permalink: /privacy-policy/
     width="768"
     height="512"
     class="card-img-top"
-    /> </picture> <div class="card-body"> <h3 class="card-title"> Privacy Policy
-for Optikal Bahari </h3> <p class="card-text text-left"> At Optikal Bahari,
-accessible from {{ site.url }}, one of our main priorities is the
-privacy of our visitors. This Privacy Policy document contains types of
-information that is collected and recorded by Optikal Bahari and how we use it.
-If you have additional questions or require more information about our Privacy
-Policy, do not hesitate to contact us. </p> <p class="card-text text-left"> This
-Privacy Policy applies only to our online activities and is valid for visitors
-to our website with regards to the information that they shared and/or collect
-in Optikal Bahari. This policy is not applicable to any information collected
-offline or via channels other than this website. Our Privacy Policy was created
-with the help of the Privacy Policy Generator and the Free Privacy Policy
-Generator. </p> <h3 class="card-title"> Consent </h3>
+    /> </picture> <div class="card-body"> <h3 class="card-title"> Privacy Policy for Optikal Bahari
+</h3> <p class="card-text text-left"> At Optikal Bahari, accessible from {{ site.url }}, one of our
+main priorities is the privacy of our visitors. This Privacy Policy document contains types of
+information that is collected and recorded by Optikal Bahari and how we use it. If you have
+additional questions or require more information about our Privacy Policy, do not hesitate to
+contact us. </p> <p class="card-text text-left"> This Privacy Policy applies only to our online
+activities and is valid for visitors to our website with regards to the information that they shared
+and/or collect in Optikal Bahari. This policy is not applicable to any information collected offline
+or via channels other than this website. Our Privacy Policy was created with the help of the Privacy
+Policy Generator and the Free Privacy Policy Generator. </p> <h3 class="card-title"> Consent </h3>
 
 <p class="card-text text-left"> By using our website, you hereby consent to our
 Privacy Policy and agree to its terms. </p> <h3 class="card-title">Information

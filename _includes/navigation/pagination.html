@@ -1,63 +1,71 @@
 <!-- Pagination Navigation -->
-<nav aria-label="Page Navigation" class="mt-5">
-    <ul class="pagination justify-content-center">
-        <!-- Previous Button -->
-        {% if paginator.previous_page %}
-        <li class="page-item">
-            <a class="page-link"
-                href="{{ paginator.previous_page_path | relative_url }}"
-                title="{{ Navigate to previous page paginator.previous_page_path | relative_url }}"
-                aria-label="Previous Page">
-                « Prev
-            </a>
-        </li>
-        {% else %}
-        <li class="page-item disabled">
-            <span class="page-link">« Prev</span>
-        </li>
-        {% endif %}
+<nav aria-label='Page Navigation' class='mt-5'>
+  <ul class='pagination justify-content-center'>
+    <!-- Previous Button -->
+    {% if paginator.previous_page %}
+      <li class='page-item'>
+        <a
+          class='page-link'
+          href='{{ paginator.previous_page_path | relative_url }}'
+          title='{{ Navigate to previous page paginator.previous_page_path | relative_url }}'
+          aria-label='Previous Page'
+        >
+          « Prev
+        </a>
+      </li>
+    {% else %}
+      <li class='page-item disabled'>
+        <span class='page-link'>« Prev</span>
+      </li>
+    {% endif %}
 
-        <!-- Page Numbers -->
-        {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-            <li class="page-item active">
-                <span class="page-link">{{ page }}</span>
-            </li>
-            {% else %}
-            <li class="page-item">
-                {% if page == 1 %}
-                <!-- Link to the first page (posts index) -->
-                <a class="page-link"
-                    href="{{ '/posts/' | relative_url }}"
-                    title="{{ Navigate to previous page '/posts/' | relative_url }}">
-                    {{ page }}
-                </a>
-                {% else %}
-                <!-- Link to subsequent pages using the passed include.paginate_path -->
-                <a class="page-link"
-                    href="{{ include.paginate_path | relative_url | replace: ':num', page }}"
-                    title="{{ Navigate to previous page include.paginate_path | relative_url | replace: ':num', page }}">
-                    {{ page }}
-                </a>
-                {% endif %}
-            </li>
-            {% endif %}
-        {% endfor %}
-
-        <!-- Next Button -->
-        {% if paginator.next_page %}
-        <li class="page-item">
-            <a class="page-link"
-                href="{{ paginator.next_page_path | relative_url }}"
-                title="{{ Navigate to next page paginator.next_page_path | relative_url }}"
-                aria-label="Next">
-                Next »
+    <!-- Page Numbers -->
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <li class='page-item active'>
+          <span class='page-link'>{{ page }}</span>
+        </li>
+      {% else %}
+        <li class='page-item'>
+          {% if page == 1 %}
+            <!-- Link to the first page (posts index) -->
+            <a
+              class='page-link'
+              href='{{ '/posts/' | relative_url }}'
+              title='{{ Navigate to previous page '/posts/' | relative_url }}'
+            >
+              {{ page }}
             </a>
+          {% else %}
+            <!-- Link to subsequent pages using the passed include.paginate_path -->
+            <a
+              class='page-link'
+              href='{{ include.paginate_path | relative_url | replace: ':num', page }}'
+              title='{{ Navigate to previous page include.paginate_path | relative_url | replace: ':num', page }}'
+            >
+              {{ page }}
+            </a>
+          {% endif %}
         </li>
-        {% else %}
-        <li class="page-item disabled">
-            <span class="page-link">Next »</span>
-        </li>
-        {% endif %}
-    </ul>
+      {% endif %}
+    {% endfor %}
+
+    <!-- Next Button -->
+    {% if paginator.next_page %}
+      <li class='page-item'>
+        <a
+          class='page-link'
+          href='{{ paginator.next_page_path | relative_url }}'
+          title='{{ Navigate to next page paginator.next_page_path | relative_url }}'
+          aria-label='Next'
+        >
+          Next »
+        </a>
+      </li>
+    {% else %}
+      <li class='page-item disabled'>
+        <span class='page-link'>Next »</span>
+      </li>
+    {% endif %}
+  </ul>
 </nav>

@@ -61,8 +61,8 @@
    bundle exec jekyll serve --livereload
    ```
 
-3. **Add a new post**: Manually create `_posts/YYYY-MM-DD-title.md` or use a
-   plugin like `jekyll-compose`.
+3. **Add a new post**: Manually create `_posts/YYYY-MM-DD-title.md` or use a plugin like
+   `jekyll-compose`.
 
 4. **Build for production**:
    ```bash
@@ -73,8 +73,6 @@
 
 ### **Troubleshooting**
 
-- **"Command not found"**: Ensure Jekyll is installed
-  (`gem install jekyll bundler`).
+- **"Command not found"**: Ensure Jekyll is installed (`gem install jekyll bundler`).
 - **Dependency issues**: Use `bundle exec` prefix or run `bundle install`.
-- **Broken links**: Check with `jekyll doctor` (requires `jekyll-seo-tag`
-  plugin).
+- **Broken links**: Check with `jekyll doctor` (requires `jekyll-seo-tag` plugin).

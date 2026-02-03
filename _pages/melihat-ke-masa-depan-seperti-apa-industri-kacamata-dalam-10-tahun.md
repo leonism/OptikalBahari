@@ -14,6 +14,7 @@ background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_12
 permalink: /melihat-ke-masa-depan-seperti-apa-industri-kacamata-dalam-10-tahun/
 comments: false
 ---
+
 <div class="card shadow p-3 mb-5 bg-white rounded">
 <picture>
     <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />

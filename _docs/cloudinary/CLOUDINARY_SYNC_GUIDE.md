@@ -2,10 +2,9 @@
 
 ## Overview
 
-The enhanced `migrate_to_cloudinary.rb` script provides advanced bidirectional
-synchronization between your local Jekyll image assets and Cloudinary. This tool
-goes beyond simple uploading to offer intelligent conflict resolution, metadata
-tracking, and selective synchronization.
+The enhanced `migrate_to_cloudinary.rb` script provides advanced bidirectional synchronization
+between your local Jekyll image assets and Cloudinary. This tool goes beyond simple uploading to
+offer intelligent conflict resolution, metadata tracking, and selective synchronization.
 
 ## Features
 
@@ -93,8 +92,8 @@ ruby _scripts/migrate_to_cloudinary.rb --direction upload --conflict local --for
 
 ## Conflict Resolution
 
-When the same file exists both locally and remotely with different content or
-timestamps, the tool detects conflicts and offers resolution strategies:
+When the same file exists both locally and remotely with different content or timestamps, the tool
+detects conflicts and offers resolution strategies:
 
 ### Resolution Strategies
 
@@ -122,8 +121,7 @@ Choose resolution:
 
 ## File Organization
 
-The tool automatically organizes files into Cloudinary folders based on their
-local path:
+The tool automatically organizes files into Cloudinary folders based on their local path:
 
 | Local Path      | Cloudinary Folder             |
 | --------------- | ----------------------------- |
@@ -136,8 +134,7 @@ local path:
 
 ## Sync State Management
 
-The tool maintains a sync state file (`.cloudinary_sync_state.json`) that
-tracks:
+The tool maintains a sync state file (`.cloudinary_sync_state.json`) that tracks:
 
 - Last sync timestamp for each file
 - Local file checksums
@@ -160,8 +157,8 @@ After each sync operation, the tool generates several log files:
 
 ### Backup Files
 
-When files are overwritten during download, backups are created in `.backup/`
-subdirectories with timestamps.
+When files are overwritten during download, backups are created in `.backup/` subdirectories with
+timestamps.
 
 ## Best Practices
 
@@ -263,13 +260,13 @@ After syncing, use the Cloudinary integration in your Jekyll templates:
 
 ```liquid
 <!-- Using the cloudinary_url filter -->
-<img src="{{ '/assets/img/hero.jpg' | cloudinary_url }}" alt="Hero">
+<img src='{{ '/assets/img/hero.jpg' | cloudinary_url }}' alt='Hero'>
 
 <!-- Using the cloudinary tag -->
 {% cloudinary src='/assets/img/hero.jpg' width=800 height=400 %}
 
 <!-- Using presets -->
-<img src="{{ '/assets/img/hero.jpg' | cloudinary_preset: 'hero' }}" alt="Hero">
+<img src='{{ '/assets/img/hero.jpg' | cloudinary_preset: 'hero' }}' alt='Hero'>
 ```
 
 ## Security Considerations
@@ -297,6 +294,5 @@ For issues or questions:
 
 ---
 
-**Note**: This tool is designed for Jekyll projects with the Cloudinary
-integration. Ensure you have the proper Jekyll plugins and configuration in
-place before using the sync tool.
+**Note**: This tool is designed for Jekyll projects with the Cloudinary integration. Ensure you have
+the proper Jekyll plugins and configuration in place before using the sync tool.

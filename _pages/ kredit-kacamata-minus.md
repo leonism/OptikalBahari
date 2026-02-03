@@ -27,8 +27,6 @@ comments: false
       alt="tips-kacamata-2.webp"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
@@ -59,11 +57,10 @@ comments: false
       alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
       loading="lazy"
       decoding="async"
-      
-      
       class="card-img-top"
       />
     </picture>
+
   <div class="card-body">
     <h3 class="card-title">Kredit Kacamata Sesuai Kebutuhan</h3>
     <p class="card-text text-start">
@@ -91,8 +88,7 @@ comments: false
       alt="tips-kacamata-2.webp"
       loading="lazy"
       decoding="async"
-      
-      
+
       class="card-img-top"
       />
     </picture>
@@ -106,7 +102,7 @@ comments: false
           title="Facebook Page Optikal Bahari"
           class="FacebookPage">Facebook @optikalbahari</a>
         supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond yang lebih cepat, silahkan
-				menghubungi kami di nomor HP/WA ini
+    			menghubungi kami di nomor HP/WA ini
         <a
           href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
           id="WhatsAppClick"
@@ -115,6 +111,7 @@ comments: false
         <em>(Optikal Bahari)</em>
       </p>
     </div>
+
   </div>
 </div>
 

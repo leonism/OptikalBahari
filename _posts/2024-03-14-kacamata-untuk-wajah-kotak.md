@@ -14,6 +14,7 @@ tags: [lensa, produk]
 background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/vespa-girls/coverpage-vespa-girl
 comments: true
 ---
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <picture>

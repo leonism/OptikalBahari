@@ -1,88 +1,81 @@
-{% comment %} Cloudinary Image Include Usage: {% include cloudinary_image.html
-src="/assets/img/image.jpg" alt="Alt text" class="img-fluid" preset="hero" width="800" height="600"
-loading="lazy" %} Parameters: - src: Image path (required) - alt: Alt text (required) - class: CSS
-classes (optional) - preset: Cloudinary preset (thumbnail, card, hero, full) (optional) - width:
-Custom width (optional) - height: Custom height (optional) - loading: Loading attribute (lazy,
-eager) (optional, defaults to lazy) - responsive: Generate responsive srcset (true/false) (optional,
-defaults to true) {% endcomment %} {% assign image_src = include.src %} {% assign image_alt =
-include.alt | default: "" %} {% assign image_class = include.class | default: "img-fluid" %} {%
-assign image_loading = include.loading | default: "lazy" %} {% assign use_responsive =
-include.responsive | default: true %} {% comment %} Check if Cloudinary is enabled {% endcomment %}
-{% if site.cloudinary.enabled and site.image_optimization.use_cloudinary %} {% comment %} Use
-Cloudinary {% endcomment %} {% if include.preset %} {% assign cloudinary_url = image_src |
-cloudinary_preset: include.preset %} {% else %} {% assign transform_options = "" %} {% if
-include.width %}{% assign transform_options = transform_options | append: "width=" | append:
-include.width %} {% if include.height %}{% assign transform_options = transform_options | append:
-",height=" | append: include.height %}{% endif %} {% endif %} {% assign cloudinary_url = image_src |
-cloudinary_url %} {% endif %} {% if use_responsive %} {% assign srcset = image_src |
-cloudinary_responsive %}
-<img
-  src="{{ cloudinary_url }}"
-  srcset="{{ srcset }}"
-  sizes="(max-width: 400px) 100vw, (max-width: 800px) 50vw, 33vw"
-  alt="{{ image_alt }}"
-  class="{{ image_class }}"
-  loading="{{ image_loading }}"
-  decoding="async"
-  {%
-  if
-  include.width
-  %}width="{{ include.width }}"
-  {%
-  endif
-  %}
-  {%
-  if
-  include.height
-  %}height="{{ include.height }}"
-  {%
-  endif
-  %}
-/>
+{% comment %}
+  Cloudinary Image Include Usage: {% include cloudinary_image.html
+  src="/assets/img/image.jpg" alt="Alt text" class="img-fluid" preset="hero" width="800" height="600"
+  loading="lazy" %} Parameters: - src: Image path (required) - alt: Alt text (required) - class: CSS
+  classes (optional) - preset: Cloudinary preset (thumbnail, card, hero, full) (optional) - width:
+  Custom width (optional) - height: Custom height (optional) - loading: Loading attribute (lazy,
+  eager) (optional, defaults to lazy) - responsive: Generate responsive srcset (true/false) (optional,
+  defaults to true)
+{% endcomment %}
+{% assign image_src = include.src %}
+{% assign image_alt = include.alt | default: '' %}
+{% assign image_class = include.class | default: 'img-fluid' %}
+{% assign image_loading = include.loading | default: 'lazy' %}
+{% assign use_responsive = include.responsive | default: true %}
+{% comment %} Check if Cloudinary is enabled {% endcomment %}
+{% if site.cloudinary.enabled and site.image_optimization.use_cloudinary %}
+  {% comment %}
+    Use
+    Cloudinary
+  {% endcomment %}
+  {% if include.preset %}
+    {% assign cloudinary_url = image_src | cloudinary_preset: include.preset %}
+  {% else %}
+    {% assign transform_options = '' %}
+    {% if include.width %}
+      {% assign transform_options = transform_options | append: 'width=' | append: include.width %}
+      {% if include.height %}
+        {% assign transform_options = transform_options | append: ',height=' | append: include.height %}
+      {% endif %}
+    {% endif %}
+    {% assign cloudinary_url = image_src | cloudinary_url %}
+  {% endif %}
+  {% if use_responsive %}
+    {% assign srcset = image_src | cloudinary_responsive %}
+    <img
+      src='{{ cloudinary_url }}'
+      srcset='{{ srcset }}'
+      sizes='(max-width: 400px) 100vw, (max-width: 800px) 50vw, 33vw'
+      alt='{{ image_alt }}'
+      class='{{ image_class }}'
+      loading='{{ image_loading }}'
+      decoding='async'
+      {% if include.width %}
+        width='{{ include.width }}'
+      {% endif %}
+      {% if include.height %}
+        height='{{ include.height }}'
+      {% endif %}
+    >
+  {% else %}
+    <img
+      src='{{ cloudinary_url }}'
+      alt='{{ image_alt }}'
+      class='{{ image_class }}'
+      loading='{{ image_loading }}'
+      decoding='async'
+      {% if include.width %}
+        width='{{ include.width }}'
+      {% endif %}
+      {% if include.height %}
+        height='{{ include.height }}'
+      {% endif %}
+    >
+  {% endif %}
 {% else %}
-<img
-  src="{{ cloudinary_url }}"
-  alt="{{ image_alt }}"
-  class="{{ image_class }}"
-  loading="{{ image_loading }}"
-  decoding="async"
-  {%
-  if
-  include.width
-  %}width="{{ include.width }}"
-  {%
-  endif
-  %}
-  {%
-  if
-  include.height
-  %}height="{{ include.height }}"
-  {%
-  endif
-  %}
-/>
-{% endif %} {% else %} {% comment %} Fallback to local images {% endcomment %} {% assign local_url =
-image_src | relative_url %}
-<img
-  src="{{ local_url }}"
-  alt="{{ image_alt }}"
-  class="{{ image_class }}"
-  loading="{{ image_loading }}"
-  decoding="async"
-  {%
-  if
-  include.width
-  %}width="{{ include.width }}"
-  {%
-  endif
-  %}
-  {%
-  if
-  include.height
-  %}height="{{ include.height }}"
-  {%
-  endif
-  %}
-/>
-
+  {% comment %} Fallback to local images {% endcomment %}
+  {% assign local_url = image_src | relative_url %}
+  <img
+    src='{{ local_url }}'
+    alt='{{ image_alt }}'
+    class='{{ image_class }}'
+    loading='{{ image_loading }}'
+    decoding='async'
+    {% if include.width %}
+      width='{{ include.width }}'
+    {% endif %}
+    {% if include.height %}
+      height='{{ include.height }}'
+    {% endif %}
+  >
 {% endif %}

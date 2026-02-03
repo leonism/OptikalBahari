@@ -15,6 +15,7 @@ background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_12
 permalink: /tips-kacamata-untuk-wajah-bulat/
 comments: false
 ---
+
 <div class="card shadow p-3 bg-white mb-5">
   <picture>
     <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/tips-kacamata/tips-kacamata 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/tips-kacamata/tips-kacamata 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/tips-kacamata/tips-kacamata 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
