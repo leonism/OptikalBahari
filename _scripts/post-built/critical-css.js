@@ -1,10 +1,9 @@
 /**
  * Generate critical CSS for all HTML files
- * Fixed for Node.js ESM compatibility + TypeScript Linting
+ * Fixed for Chromium Crash (Signal 11) on macOS
  */
 async function generateCriticalCSS() {
   try {
-    // Dynamic imports for ESM compatibility
     const { generate } = await import('critical')
     const { glob } = await import('glob')
 
@@ -13,17 +12,29 @@ async function generateCriticalCSS() {
     console.log(`🔍 Scanning ${files.length} files for critical CSS...`)
 
     for (const file of files) {
-      // @ts-ignore - The library supports Promises at runtime, but types expect a callback.
+      const relativePath = file.replace('_site/', '')
+
+      // @ts-ignore
       await generate({
         inline: true,
         base: '_site/',
-        src: file.replace('_site/', ''),
-        dest: file, // Overwrite the original HTML
+        src: relativePath,
+        target: relativePath,
         width: 1300,
         height: 900,
-        minify: true,
         extract: true,
         ignore: ['@font-face'],
+        // 🛡️ CRASH PREVENTION SETTINGS
+        puppeteer: {
+          headless: 'new', // Use the new Headless mode (more stable)
+          args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage', // Prevent shared memory crashes
+            '--disable-gpu', // Disable GPU hardware acceleration (common cause of SIGSEGV)
+            '--disable-web-security',
+          ],
+        },
       })
     }
 

@@ -3,7 +3,7 @@
  *
  * This script runs after Jekyll builds the site to apply various optimizations:
  * 1. PurgeCSS - Remove unused CSS
- * 2. Critical CSS - Inline critical CSS for faster rendering
+ * 2. Critical CSS - [DISABLED] Inline critical CSS (Skipped due to build errors)
  * 3. Service Worker - Generate PWA service worker
  * 4. Image Optimization - Convert images to WebP format
  * 5. Asset Consolidation - Bundle and optimize assets
@@ -109,11 +109,16 @@ async function runPurgeCSS() {
 }
 
 /**
- * Step 2: Critical CSS - Extract and inline critical CSS for faster rendering
+ * Step 2: Critical CSS - [DISABLED]
+ * Modified to skip execution to prevent build crashes.
  */
 function runCriticalCSS() {
   console.log('\n📝 Step 2: Critical CSS')
+  console.log('  ⏭️  Skipping Critical CSS generation (Disabled via config)')
+  return // <--- IMMEDIATE EXIT: Prevents the crashing code below from running
 
+  // The code below is unreachable until the return above is removed
+  /*
   if (!scriptExists('critical-css.js')) {
     console.log('  ⚠️  Script not found - skipping')
     return
@@ -128,6 +133,7 @@ function runCriticalCSS() {
   if (success) {
     console.log('  ✅ Critical CSS completed')
   }
+  */
 }
 
 /**
@@ -271,7 +277,7 @@ async function main() {
 
   // Run all optimization steps in sequence
   await runPurgeCSS() // Step 1: Remove unused CSS
-  runCriticalCSS() // Step 2: Inline critical CSS
+  runCriticalCSS() // Step 2: Inline critical CSS (Now safely skipped)
   runServiceWorker() // Step 3: Generate service worker
   runImageOptimization() // Step 4: Convert images to WebP
   runAssetConsolidation() // Step 5: Bundle assets
