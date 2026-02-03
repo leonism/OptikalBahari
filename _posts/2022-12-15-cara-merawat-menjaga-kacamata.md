@@ -60,6 +60,8 @@ comments: true
     </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
@@ -77,7 +79,7 @@ comments: true
                 menyebabkan kabur atau distorsi pada pandangan. Jadi, pastikan untuk selalu mengganti lensa kacamata sesuai dengan saran
                 dokter atau optikus anda. Selain itu, gunakan juga kacamata pelindung atau kacamata hitam untuk melindungi mata dari
                 sinar matahari yang terlalu terik atau sinar UV-A dan UV-B yang dapat merusak mata.
-            </p>                
+            </p>
             <h3 class="card-title">
                 Gunakan Kacamata Dengan Ukuran Yang Sesuai
             </h3>
@@ -98,12 +100,14 @@ comments: true
                 dalam kotak pelindung atau kantung kacamata. Ini akan membantu mencegah kacamata Anda terkena benturan atau goresan
                 ketika tidak digunakan. Yang dapat menyebabkan kacamata Anda rusak atau bahkan retak.
             </p>
-            <p class="card-text text-start">Kamu perlu service kacamata dengan gratis, dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, 
+            <p class="card-text text-start">Kamu perlu service kacamata dengan gratis, dapatkan hanya di Optikal Bahari Kemayoran, Jakpus,
                 Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
-                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. 
+                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru.
                 Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
                 title="Call WhatsApp">+6281932235445</a>.<em>(Optikal Bahari)</em>
             </p>
         </div>
     </div>
 </div>
+
+{% include home/home-cards-benefit.html %}

@@ -92,6 +92,8 @@ comments: true
     </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
         <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp"
@@ -129,11 +131,7 @@ comments: true
                 dapatkan hanya di
                 Optikal Bahari Kemayoran yang berlokasi di Jakarta Pusat, Jln. Bendungan Jago No. 447 atau lihat di
                 website kami.
-                Kamu juga bisa bergabung dengan fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick"
-                    title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook
-                    @optikalbahari</a>@optikalbahari</a> supaya mengetahui update informasi terkait
-                jenis lensa progresif terbaru. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA
-                ini <a
+                Kamu juga bisa bergabung dengan fanpage <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> supaya mengetahui update informasi terkait jenis lensa progresif terbaru. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a
                     href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
                     id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.<em>(Optikal
                     Bahari)</em>
@@ -141,3 +139,5 @@ comments: true
         </div>
     </div>
 </div>
+
+{% include home/home-cards-glasses.html %}

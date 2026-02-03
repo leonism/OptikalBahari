@@ -51,6 +51,8 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
   <img itemprop="image" src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.webp"
     class="card-img-top" alt="Tips Memilih Kacamata bagi Pemula Berdasarkan Warna Rambut dan Mata">
@@ -76,6 +78,9 @@ comments: true
     </p>
   </div>
 </div>
+
+{% include home/home-cards-benefit.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
   <img itemprop="image" src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp"
     class="card-img-top" alt="Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat">
@@ -103,3 +108,5 @@ comments: true
     </p>
   </div>
 </div>
+
+{% include home/home-cards-glasses.html %}
