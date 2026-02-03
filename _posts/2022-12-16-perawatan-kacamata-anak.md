@@ -11,10 +11,9 @@ date: '2022-12-16 07:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, lensa]
-background: /assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/kacamata-anak-00/kacamata-anak-04
 comments: true
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp"

@@ -11,10 +11,9 @@ date: '2020-07-27 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Trend]
 tags: [layanan, optikal]
-background: /assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-13.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/eyewear-trend-awards/eyewear-trend-awards-13
 comments: true
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img

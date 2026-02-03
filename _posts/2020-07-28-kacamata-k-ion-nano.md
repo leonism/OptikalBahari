@@ -9,10 +9,9 @@ date: '2020-07-28 06:25:23 +0700'
 author: Optikal Bahari
 categories: [Trend]
 tags: [produk, kacamata]
-background: /assets/img/posts/kacamata-k-ion/kacamata-k-ion-00.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/kacamata-k-ion/kacamata-k-ion-00
 comments: true
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img

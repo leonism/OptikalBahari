@@ -12,11 +12,10 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata KJP, kemayoran, tanpa bunga, tanpa DP, bayar KJP]
-background: /assets/img/posts/malay-hijab-00/malay-hijab-01.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/malay-hijab-00/malay-hijab-01
 permalink: /optik-kacamata-kjp-kartu-jakarta-pintar/
 comments: false
 ---
-
 <div class="card shadow p-3 bg-white mb-5">
   <img
     data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"

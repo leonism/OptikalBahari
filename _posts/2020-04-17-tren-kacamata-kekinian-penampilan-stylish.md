@@ -11,10 +11,9 @@ date: '2020-05-27 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Trend]
 tags: [Lensa]
-background: /assets/img/posts/kacamata-stylish/kacamata-stylish-00.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/kacamata-stylish/kacamata-stylish-00
 comments: true
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img

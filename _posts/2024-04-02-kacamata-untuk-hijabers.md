@@ -11,10 +11,9 @@ date: '2024-04-02 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Tips]
 tags: [lensa, produk]
-background: /assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-01.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/hijabi-girls-01/kacamata-untuk-hijabers-01
 comments: true
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" }}"

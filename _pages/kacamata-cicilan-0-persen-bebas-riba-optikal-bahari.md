@@ -11,11 +11,10 @@ date: '2019-08-19 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/kacamata-model/female-glasses-00-min.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/kacamata-model/female-glasses-00-min
 permalink: /kacamata-cicilan-0-persen-bebas-riba-optikal-bahari/
 comments: false
 ---
-
 <div class="card shadow p-3 mb-5 bg-white rounded">
   <img
     itemprop="image"

@@ -10,11 +10,10 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [promo, discount, kacamata, lensa, bingkai]
-background: /assets/img/posts/beach-retro-girls/beach-retro-girls-03.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/beach-retro-girls/beach-retro-girls-03
 permalink: /jual-kacamata/
 comments: false
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-04.webp"

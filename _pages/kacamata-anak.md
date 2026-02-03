@@ -12,11 +12,10 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata anak, kacamata untuk anak, aksesoris kacamata anak]
-background: /assets/img/posts/kacamata-anak/kacamata-anak-00.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/kacamata-anak/kacamata-anak-00
 permalink: /kacamata-anak/
 comments: false
 ---
-
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"

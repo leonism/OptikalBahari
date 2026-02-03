@@ -10,11 +10,10 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Trend]
 tags: [layanan, optikal]
-background: /assets/img/posts/kpop-female-01/kpop-female-sunglasses-00.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/kpop-female-01/kpop-female-sunglasses-00
 permalink: /tips-kacamata/
 comments: false
 ---
-
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"

@@ -11,11 +11,10 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/029.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/029
 permalink: /tips-kacamata-untuk-wajah-bulat/
 comments: false
 ---
-
 <div class="card shadow p-3 bg-white mb-5">
   <img
     src="/assets/img/posts/tips-kacamata/tips-kacamata.webp"

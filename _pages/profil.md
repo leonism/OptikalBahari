@@ -12,12 +12,11 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/optikal-bahari-retro/optikal-bahari-retro-01.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/optikal-bahari-retro/optikal-bahari-retro-01
 thumbs: /assets/img/posts/optikal-bahari-retro/optikal-bahari-retro-01-min.webp
 permalink: /profil/
 comments: false
 ---
-
 <div class="card shadow p-3 bg-white mb-5">
   <img
     src="/assets/img/profil/bandar-udara-kemayoran.jpeg"

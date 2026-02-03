@@ -10,11 +10,10 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [promo, discount, kacamata, lensa, bingkai]
-background: /assets/img/posts/malay-hijab-01/malay-hijab-03.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/malay-hijab-01/malay-hijab-03
 permalink: /kenapa-optikal-bahari/
 comments: false
 ---
-
 <div class="card shadow p-3 bg-white mb-5">
   <img
     src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp" | relative_url }}"

@@ -12,11 +12,10 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata pria, kacamata untuk pria, aksesoris kacamata pria]
-background: /assets/img/posts/kacamata-pria/kacamata-pria-00.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/kacamata-pria/kacamata-pria-00
 permalink: /kacamata-pria/
 comments: false
 ---
-
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"

@@ -13,10 +13,9 @@ date: '2020-07-30 07:25:23 +0700'
 author: Optikal Bahari
 categories: [Trend]
 tags: [tips, kacamata, gaya, swag]
-background: /assets/img/posts/051.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/051
 comments: true
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img

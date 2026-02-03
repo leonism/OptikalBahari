@@ -11,10 +11,9 @@ date: '2020-07-29 07:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, gaya]
-background: /assets/img/posts/kacamata-korean-hijab/korean-hijab-optikal-bahari-05.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/kacamata-korean-hijab/korean-hijab-optikal-bahari-05
 comments: true
 ---
-
 <div class="card shadow p-3 bg-white mb-5">
   <img itemprop="image" src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp"
     class="card-img-top" alt="Tips Memilih Kacamata bagi Pemula dengan Menyesuaikan Bentuk Wajah dan Warna Kulit">

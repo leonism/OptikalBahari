@@ -11,10 +11,9 @@ date: '2020-02-09 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Tips]
 tags: [lensa, produk]
-background: /assets/img/posts/beach-girls-00/cover-page-kacamata-wajah-bulat.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/beach-girls-00/cover-page-kacamata-wajah-bulat
 comments: true
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img itemprop="image" data-src="/assets/img/posts/beach-girls-00/beach-girl-01.webp"

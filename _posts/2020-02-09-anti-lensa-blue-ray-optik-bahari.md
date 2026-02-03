@@ -10,10 +10,9 @@ date: '2020-02-09 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Lensa]
 tags: [lensa, produk]
-background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-13.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-13
 comments: true
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16.webp"

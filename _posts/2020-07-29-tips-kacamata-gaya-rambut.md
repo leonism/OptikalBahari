@@ -11,10 +11,9 @@ date: '2020-07-28 07:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [produk, kacamata, gaya, rambut]
-background: /assets/img/posts/french-girl/french-girl-07.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/french-girl/french-girl-07
 comments: true
 ---
-
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"

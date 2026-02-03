@@ -11,11 +11,10 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/bg-tips-trik.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/bg-tips-trik
 permalink: /tips-trik-kacamata/
 comments: false
 ---
-
 <!-- Section 1: Lensa -->
 <section id="posts-category-lensa">
   <div class="container">

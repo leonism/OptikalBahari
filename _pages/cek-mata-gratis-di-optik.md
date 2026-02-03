@@ -10,12 +10,11 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/011.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/011
 permalink: /cek-mata-gratis-di-optik/
 layout: page
 comments: false
 ---
-
 <div class="card shadow p-3 mb-5 bg-white rounded">
     <img src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}"
         class="card-img-top"

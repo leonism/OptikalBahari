@@ -11,11 +11,10 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: '/assets/img/bg-kontak-optikal-bahari.webp'
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/bg-kontak-optikal-bahari
 permalink: /kontak/
 comments: false
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img

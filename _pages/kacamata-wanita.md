@@ -12,11 +12,10 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata wanita, kacamata untuk wanita, aksesoris kacamata wanita]
-background: /assets/img/posts/whitesand-girls/whitesand-girls-00.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/whitesand-girls/whitesand-girls-00
 permalink: /kacamata-wanita/
 comments: false
 ---
-
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"

@@ -11,11 +11,10 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/beach-retro-girls/beach-retro-girls-022.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/beach-retro-girls/beach-retro-girls-022
 permalink: /beli-kacamata/
 comments: false
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-019.webp"

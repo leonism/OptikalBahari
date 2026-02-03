@@ -11,11 +11,10 @@ date: '2020-07-17 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Trend]
 tags: [layanan, optikal]
-background: /assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-00.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-00
 comments: true
 permalink: /style-kacamata-bulat-selebriti-korea-selatan/
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img

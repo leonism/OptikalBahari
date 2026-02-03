@@ -12,11 +12,10 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-00.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/harga-kacamata-optik/harga-kacamata-optik-00
 permalink: /harga-kacamata-optik-baca-autofokus-progresif/
 comments: false
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <img data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-01.webp"

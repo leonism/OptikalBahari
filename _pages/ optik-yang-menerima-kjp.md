@@ -11,11 +11,10 @@ date: '2019-08-19 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, fasilitas]
-background: /assets/img/bg-index-kjp.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/bg-index-kjp
 permalink: /optik-yang-menerima-kjp/
 comments: false
 ---
-
 <div class="card shadow p-3 bg-white mb-5">
   <img
     itemprop="image"

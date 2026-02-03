@@ -13,10 +13,9 @@ date: '2020-08-03 07:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, gaya, swag]
-background: /assets/img/posts/tipe-lensa/tipe-lensa-00.webp
+background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/tipe-lensa/tipe-lensa-00
 comments: true
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
