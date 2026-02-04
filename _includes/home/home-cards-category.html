@@ -1,149 +1,45 @@
-<section id="posts-category-lensa">
+{% assign categories = "Lensa,Info,Trend" | split: "," %}
+
+{% for category in categories %}
+<section id="posts-category-{{ category | downcase }}">
   <div class="card-deck mb-3">
     <div class="row">
-      {% for post in site.categories.Lensa limit: 3 %}
-      {% if forloop.index <= 1 %}
-      <div class="col-12 col-md-12 col-lg-4 mb-5">
-        {% else %}
-        <div class="col-12 col-md-6 col-lg-4 mb-5">
-          {% endif %}
-          <div class="card shadow p-0 bg-white rounded hover-zoomin">
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-              {% if post.background %}
+      {% for post in site.categories[category] limit: 3 %}
+      <div class="col-12 col-md-{% if forloop.index == 1 %}12{% else %}6{% endif %} col-lg-4 mb-5">
+        <div class="card shadow p-0 bg-white rounded hover-zoomin">
+          <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+            {% if post.background %}
               {% capture card_content %}
-              <img itemprop="image" src="{{ post.background }}" class="card-img-top img-fluid" alt="{{ post.title }}"
-                loading="lazy" decoding="async" width="400" height="250">
+                {% include cloudinary/cloudinary_image.html
+                    src=post.background
+                    alt=post.title
+                    class="card-img-top img-fluid"
+                    loading="lazy" %}
               {% endcapture %}
               {% include components/image-ratio.html ratio="16x9" content=card_content %}
-              {% endif %}
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-              <p class="card-text">
-                {{ post.description | strip_html | truncate: 100 }}.
-                <a class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none"
-                  href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                  Lebih Lanjut
-                </a>
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">
-                Posted by
-                {% if post.author %}
-                {{ post.author }}
-                {% else %}
-                {{ site.author }}
-                {% endif %}
-                on {{ post.date | date: '%B %d, %Y' }} &middot;
-                {% include postcards/read_time.html content=post.content %}
-              </small>
-            </div>
+            {% endif %}
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
+            <p class="card-text">
+              {{ post.description | strip_html | truncate: 100 }}.
+              <a class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none"
+                href="{{ post.url | relative_url }}" title="{{ post.title }}">
+                Lebih Lanjut
+              </a>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              Posted by {{ post.author | default: site.author }}
+              on {{ post.date | date: '%B %d, %Y' }} &middot;
+              {% include postcards/read_time.html content=post.content %}
+            </small>
           </div>
         </div>
-        {% endfor %}
       </div>
+      {% endfor %}
     </div>
+  </div>
 </section>
-
-
-<section id="posts-category-info">
-  <div class="card-deck mb-3">
-    <div class="row">
-      {% for post in site.categories.Info limit: 3 %}
-      {% if forloop.index <= 1 %}
-      <div class="col-12 col-md-12 col-lg-4 mb-5">
-        {% else %}
-        <div class="col-12 col-md-6 col-lg-4 mb-5">
-          {% endif %}
-          <div class="card shadow p-0 bg-white rounded hover-zoomin">
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-              {% if post.background %}
-              {% capture card_content %}
-              <img itemprop="image" src="{{ post.background }}" srcset="{{ post.background | srcset }}"
-                width="{{ post.background | width }}" height="{{ post.background | height }}"
-                class="card-img-top img-fluid" alt="{{ post.title }}"
-                loading="lazy" decoding="async">
-              {% endcapture %}
-              {% include components/image-ratio.html ratio="16x9" content=card_content %}
-              {% endif %}
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-              <p class="card-text">
-                {{ post.description | strip_html | truncate: 100 }}.
-                <a class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none"
-                  href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                  Lebih Lanjut
-                </a>
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">
-                Posted by
-                {% if post.author %}
-                {{ post.author }}
-                {% else %}
-                {{ site.author }}
-                {% endif %}
-                on {{ post.date | date: '%B %d, %Y' }} &middot;
-                {% include postcards/read_time.html content=post.content %}
-              </small>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-</section>
-
-
-<section id="posts-category-trend">
-  <div class="card-deck mb-3">
-    <div class="row">
-      {% for post in site.categories.Trend limit: 3 %}
-      {% if forloop.index <= 1 %}
-      <div class="col-12 col-md-12 col-lg-4 mb-5">
-        {% else %}
-        <div class="col-12 col-md-6 col-lg-4 mb-5">
-          {% endif %}
-          <div class="card shadow p-0 bg-white rounded hover-zoomin">
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-              {% if post.background %}
-              {% capture card_content %}
-              <img itemprop="image" src="{{ post.background }}" srcset="{{ post.background | srcset }}"
-                width="{{ post.background | width }}" height="{{ post.background | height }}"
-                class="card-img-top img-fluid" alt="{{ post.title }}"
-                loading="lazy" decoding="async">
-              {% endcapture %}
-              {% include components/image-ratio.html ratio="16x9" content=card_content %}
-              {% endif %}
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-              <p class="card-text">
-                {{ post.description | strip_html | truncate: 100 }}.
-                <a class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none"
-                  href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                  Lebih Lanjut
-                </a>
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">
-                Posted by
-                {% if post.author %}
-                {{ post.author }}
-                {% else %}
-                {{ site.author }}
-                {% endif %}
-                on {{ post.date | date: '%B %d, %Y' }} &middot;
-                {% include postcards/read_time.html content=post.content %}
-              </small>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-</section>
+{% endfor %}

@@ -140,3 +140,6 @@ node_modules/
 .agent
 *.log
 _backup
+
+# single file
+.smart_asset_cache.yml
