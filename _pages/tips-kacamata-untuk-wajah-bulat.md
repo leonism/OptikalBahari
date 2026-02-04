@@ -11,7 +11,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/029
+background: /assets/img/posts/029.webp
 permalink: /tips-kacamata-untuk-wajah-bulat/
 comments: false
 ---

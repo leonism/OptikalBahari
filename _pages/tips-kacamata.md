@@ -10,7 +10,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Trend]
 tags: [layanan, optikal]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/kpop-female-01/kpop-female-sunglasses-00
+background: /assets/img/posts/kpop-female-01/kpop-female-sunglasses-00.webp
 permalink: /tips-kacamata/
 comments: false
 ---

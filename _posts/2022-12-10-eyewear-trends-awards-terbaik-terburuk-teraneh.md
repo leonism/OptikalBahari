@@ -10,7 +10,7 @@ date: '2022-12-10 07:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, lensa]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/eyewear-trend-awards/eyewear-trend-awards-00
+background: /assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-00.webp
 comments: true
 ---
 <div class="card-deck mb-3">

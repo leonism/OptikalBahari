@@ -12,7 +12,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/malay-hijab-00/malay-hijab-03
+background: /assets/img/posts/malay-hijab-00/malay-hijab-03.webp
 permalink: /optik-terbaik-di-jakarta/
 layout: page
 comments: false

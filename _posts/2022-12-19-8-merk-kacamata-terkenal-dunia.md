@@ -10,7 +10,7 @@ date: '2022-12-19 07:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, lensa]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-43
+background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-43.webp
 comments: true
 permalink: /8-merk-kacamata-terkenal-dunia/
 ---

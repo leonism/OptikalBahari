@@ -11,7 +11,7 @@ date: '2020-02-09 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Tips]
 tags: [lensa, produk]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/vespa-girls/coverpage-vespa-girl
+background: /assets/img/posts/vespa-girls/coverpage-vespa-girl.webp
 comments: true
 ---
 <div class="card-deck mb-3">

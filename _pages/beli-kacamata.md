@@ -11,7 +11,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/beach-retro-girls/beach-retro-girls-022
+background: /assets/img/posts/beach-retro-girls/beach-retro-girls-022.webp
 permalink: /beli-kacamata/
 comments: false
 ---

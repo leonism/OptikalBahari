@@ -12,7 +12,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/optikal-bahari-retro/optikal-bahari-retro-01
+background: /assets/img/posts/optikal-bahari-retro/optikal-bahari-retro-01.webp
 thumbs: /assets/img/posts/optikal-bahari-retro/optikal-bahari-retro-01-min.webp
 permalink: /profil/
 comments: false

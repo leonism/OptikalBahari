@@ -10,7 +10,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata, blue ray, bluray]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/045
+background: /assets/img/posts/045.webp
 permalink: /kacamata-blueray/
 comments: false
 ---

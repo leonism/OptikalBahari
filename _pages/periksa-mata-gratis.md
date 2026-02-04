@@ -11,7 +11,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/eyewear-collection-00/eyewear-kuala-lumpur-min
+background: /assets/img/posts/eyewear-collection-00/eyewear-kuala-lumpur-min.webp
 permalink: /periksa-mata-gratis/
 comments: false
 ---

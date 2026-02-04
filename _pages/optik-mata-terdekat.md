@@ -10,7 +10,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kacamata, kemayoran, tanpa bunga, tanpa DB, bayar KJP]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/014
+background: /assets/img/posts/014.webp
 permalink: /optik-mata-terdekat/
 comments: false
 ---

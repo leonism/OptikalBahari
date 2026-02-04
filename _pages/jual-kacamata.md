@@ -10,7 +10,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [promo, discount, kacamata, lensa, bingkai]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/beach-retro-girls/beach-retro-girls-03
+background: /assets/img/posts/beach-retro-girls/beach-retro-girls-03.webp
 permalink: /jual-kacamata/
 comments: false
 ---

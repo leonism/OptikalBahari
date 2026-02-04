@@ -10,7 +10,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/harga-kacamata-optik/harga-kacamata-optik-19
+background: /assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-19.webp
 permalink: /lp/harga-kacamata-progresif/
 comments: false
 ---

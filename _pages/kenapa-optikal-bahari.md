@@ -10,7 +10,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [promo, discount, kacamata, lensa, bingkai]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/malay-hijab-01/malay-hijab-03
+background: /assets/img/posts/malay-hijab-01/malay-hijab-03.webp
 permalink: /kenapa-optikal-bahari/
 comments: false
 ---

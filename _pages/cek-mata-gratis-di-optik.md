@@ -10,7 +10,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/011
+background: /assets/img/posts/011.webp
 permalink: /cek-mata-gratis-di-optik/
 layout: page
 comments: false

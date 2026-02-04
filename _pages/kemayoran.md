@@ -10,7 +10,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [kemayoran, jakarta pusat, kacamata, lensa, bingkai]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/037
+background: /assets/img/posts/037.webp
 permalink: /kemayoran/
 comments: false
 ---

@@ -10,7 +10,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/028
+background: /assets/img/posts/028.webp
 permalink: /apa-penyebab-mata-minus/
 comments: false
 ---

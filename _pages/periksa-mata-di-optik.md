@@ -10,7 +10,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/posts/047
+background: /assets/img/posts/047.webp
 permalink: /periksa-mata-di-optik/
 comments: false
 ---

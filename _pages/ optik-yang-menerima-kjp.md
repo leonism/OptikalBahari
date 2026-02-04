@@ -11,7 +11,7 @@ date: '2019-08-19 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, fasilitas]
-background: https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_1200/bg-index-kjp
+background: /assets/img/bg-index-kjp.webp
 permalink: /optik-yang-menerima-kjp/
 comments: false
 ---
