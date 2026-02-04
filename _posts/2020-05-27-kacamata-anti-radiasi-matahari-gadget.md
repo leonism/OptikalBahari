@@ -14,6 +14,7 @@ tags: [layanan, optikal]
 background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-12.webp
 comments: true
 ---
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img
@@ -27,40 +28,16 @@ comments: true
         Mengenal Kacamata Anti Radiasi
       </h3>
       <p class="card-text text-start">
-        Ketika Anda memandang layar gadget atau duduk di depan komputer
-		sepanjang hari, mata Anda mungkin menjadi target paparan radiasi
-		elektromagnetik yang merugikan. Inilah mengapa kacamata anti radiasi
-		menjadi sahabat terbaik Anda dalam memastikan kesehatan mata tetap
-		terjaga. Namun, apa sebenarnya yang membuat kacamata ini begitu
-		istimewa? Mari kita temukan rahasia di balik kacamata anti radiasi dan
-		bagaimana kacamata ini tidak hanya melindungi mata Anda tetapi juga
-		menambah gaya Anda dengan Optikal Bahari.
+        Ketika Anda memandang layar gadget atau duduk di depan komputer sepanjang hari, mata Anda mungkin menjadi target paparan radiasi elektromagnetik yang merugikan. Inilah mengapa kacamata anti radiasi menjadi sahabat terbaik Anda dalam memastikan kesehatan mata tetap terjaga. Namun, apa sebenarnya yang membuat kacamata ini begitu istimewa? Mari kita temukan rahasia di balik kacamata anti radiasi dan bagaimana kacamata ini tidak hanya melindungi mata Anda tetapi juga menambah gaya Anda dengan Optikal Bahari.
       </p>
       <p class="card-text text-start">
-        Kacamata anti radiasi dirancang khusus untuk menyaring dan mengurangi
-		paparan radiasi elektromagnetik yang merugikan pada mata Anda. Dengan
-		teknologi terbaru, kacamata ini menawarkan lapisan perlindungan yang
-		efektif tanpa mengganggu penglihatan Anda. Dari sinar ultraviolet hingga
-		sinar biru yang berasal dari layar gadget, kacamata anti radiasi bekerja
-		secara efisien untuk menjaga mata Anda tetap aman dan nyaman.
+        Kacamata anti radiasi dirancang khusus untuk menyaring dan mengurangi paparan radiasi elektromagnetik yang merugikan pada mata Anda. Dengan teknologi terbaru, kacamata ini menawarkan lapisan perlindungan yang efektif tanpa mengganggu penglihatan Anda. Dari sinar ultraviolet hingga sinar biru yang berasal dari layar gadget, kacamata anti radiasi bekerja secara efisien untuk menjaga mata Anda tetap aman dan nyaman.
       </p>
       <p class="card-text text-start">
-        Tak perlu lagi mengorbankan gaya untuk mendapatkan perlindungan mata
-				yang baik. Kacamata anti radiasi dari Optikal Bahari bukan hanya alat
-				fungsional, tetapi juga pernyataan gaya yang kuat. Dengan desain yang
-				trendi dan bahan berkualitas tinggi, kacamata ini menawarkan kombinasi
-				sempurna antara perlindungan mata yang optimal dan penampilan yang
-				modis. Kini Anda bisa tetap tampil stylish sambil menjaga kesehatan mata
-				Anda.
+        Tak perlu lagi mengorbankan gaya untuk mendapatkan perlindungan mata yang baik. Kacamata anti radiasi dari Optikal Bahari bukan hanya alat fungsional, tetapi juga pernyataan gaya yang kuat. Dengan desain yang trendi dan bahan berkualitas tinggi, kacamata ini menawarkan kombinasi sempurna antara perlindungan mata yang optimal dan penampilan yang modis. Kini Anda bisa tetap tampil stylish sambil menjaga kesehatan mata Anda.
       </p>
       <p class="card-text text-start">
-        Setiap individu memiliki gaya dan kepribadian unik. Itulah mengapa
-				Optikal Bahari menawarkan berbagai pilihan desain dan gaya kacamata anti
-				radiasi yang bisa disesuaikan dengan preferensi pribadi Anda. Apakah
-				Anda mencari tampilan yang minimalis, retro, atau mewah, ada kacamata
-				anti radiasi yang cocok untuk Anda. Dengan begitu, Anda tidak hanya
-				melindungi mata Anda, tetapi juga mengekspresikan diri melalui gaya yang
-				Anda pilih.
+        Setiap individu memiliki gaya dan kepribadian unik. Itulah mengapa Optikal Bahari menawarkan berbagai pilihan desain dan gaya kacamata anti radiasi yang bisa disesuaikan dengan preferensi pribadi Anda. Apakah Anda mencari tampilan yang minimalis, retro, atau mewah, ada kacamata anti radiasi yang cocok untuk Anda. Dengan begitu, Anda tidak hanya melindungi mata Anda, tetapi juga mengekspresikan diri melalui gaya yang Anda pilih.
       </p>
     </div>
   </div>

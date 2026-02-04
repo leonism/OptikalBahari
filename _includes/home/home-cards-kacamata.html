@@ -5,14 +5,13 @@
       <div class="col-12 col-md-12 col-lg-4 mb-5">
         <div class="card shadow h-100 bg-white rounded hover-zoomin">
           <a href="{{ '/kacamata-wanita/' | relative_url }}" role="button" title="Koleksi Kacamata Wanita">
-            {% capture card_content %}
-              {% include cloudinary/cloudinary_image.html
-                  src="/assets/img/posts/whitesand-girls/whitesand-girls-00.webp"
-                  alt="Koleksi Kacamata Wanita"
-                  class="card-img-top"
-                  loading="lazy" %}
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+            <!-- Card:1 Kacamata Wanita -->
+            {% include cloudinary/card_image.html
+              src="assets/img/posts/whitesand-girls/whitesand-girls-00.webp"
+              alt="Koleksi Kacamata Wanita"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title align-middle">
@@ -29,14 +28,13 @@
       <div class="col-12 col-md-12 col-lg-4 mb-5">
         <div class="card shadow h-100 bg-white rounded hover-zoomin">
           <a href="{{ '/kacamata-pria/' | relative_url }}" role="button" title="Koleksi Kacamata Pria">
-            {% capture card_content %}
-              {% include cloudinary/cloudinary_image.html
-                  src="/assets/img/posts/kacamata-pria/kacamata-pria-00.webp"
-                  alt="Koleksi Kacamata Pria"
-                  class="card-img-top"
-                  loading="lazy" %}
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+            <!-- Card:1 Kacamata Pria -->
+            {% include cloudinary/card_image.html
+              src="assets/img/posts/kacamata-pria/kacamata-pria-00.webp"
+              alt="Koleksi Kacamata Pria"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title align-middle">
@@ -53,14 +51,13 @@
       <div class="col-12 col-md-12 col-lg-4 mb-5">
         <div class="card shadow h-100 bg-white rounded hover-zoomin">
           <a href="{{ '/kacamata-anak/' | relative_url }}" role="button" title="Kacamata Anak & Remaja">
-            {% capture card_content %}
-              {% include cloudinary/cloudinary_image.html
-                  src="/assets/img/posts/kacamata-anak/kacamata-anak-00.webp"
-                  alt="Kacamata Anak dan Remaja"
-                  class="card-img-top"
-                  loading="lazy" %}
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+            <!-- Card:1 Kacamata Anak -->
+            {% include cloudinary/card_image.html
+              src="assets/img/posts/kacamata-anak/kacamata-anak-00.webp"
+              alt="Koleksi Kacamata Anak"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title align-middle">

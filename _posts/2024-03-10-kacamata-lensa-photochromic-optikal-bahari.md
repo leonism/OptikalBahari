@@ -14,6 +14,7 @@ tags: [lensa, produk]
 background: /assets/img/posts/beach-retro-girls/beach-retro-girls-037.webp
 comments: true
 ---
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp"

@@ -10,6 +10,6 @@
   {{ include.content | replace: '<img ', '<img class="object-fit-cover w-100 h-100" ' }}
 </div> {% endcomment %}
 
-<div class="ratio ratio-{{ include.ratio }}">
+<div class="ratio ratio-{{ include.ratio }}" style="overflow: hidden;">
   {{ include.content }}
 </div>

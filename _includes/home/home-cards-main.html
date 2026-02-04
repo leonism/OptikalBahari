@@ -1,18 +1,15 @@
 <section id="KenapaOptikalBahari">
   <div class="card-deck mb-3">
     <div class="row">
-
+      <!-- Card:1 Periksa Mata Gratis !-->
       <div class="col-12 col-md-12 col-lg-4 mb-5">
         <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
           <a href="{{ '/periksa-mata-gratis/' | relative_url }}" role="button" title="Periksa Mata Gratis">
-            {% capture card_content %}
-              {% include cloudinary/cloudinary_image.html
-                  src="/assets/img/bg-about.webp"
-                  alt="Periksa Mata Gratis"
-                  class="card-img-top"
-                  loading="lazy" %}
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+            {% include cloudinary/card_image.html
+              src="assets/img/bg-about.webp"
+              alt="Periksa Mata Gratis"
+              ratio="16x9"
+              class="card-img-top" %}
           </a>
           <div class="card-body">
             <h5 class="card-title">
@@ -23,18 +20,16 @@
           </div>
         </div>
       </div>
-
+      <!-- Card:2 Kacamata Cicilan 0% !-->
       <div class="col-12 col-md-12 col-lg-4 mb-5">
         <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
           <a href="{{ '/kacamata-cicilan/' | relative_url }}" role="button" title="Kacamata Cicilan 0%">
-            {% capture card_content %}
-              {% include cloudinary/cloudinary_image.html
-                  src="/assets/img/bg-index-arch-1.webp"
-                  alt="Kacamata Cicilan 0%"
-                  class="card-img-top"
-                  loading="lazy" %}
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+            {% include cloudinary/card_image.html
+              src="assets/img/bg-index-arch-1.webp"
+              alt="Kacamata Cicilan 0%"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title">
@@ -45,18 +40,16 @@
           </div>
         </div>
       </div>
-
+      <!-- Card:3 Terima Pembayaran KJP !-->
       <div class="col-12 col-md-12 col-lg-4 mb-5">
         <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
           <a href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}" role="button" title="Menerima Pembayaran KJP">
-            {% capture card_content %}
-              {% include cloudinary/cloudinary_image.html
-                  src="/assets/img/bg-kjp.webp"
-                  alt="Terima Pembayaran KJP"
-                  class="card-img-top"
-                  loading="lazy" %}
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+            {% include cloudinary/card_image.html
+              src="assets/img/bg-kjp.webp"
+              alt="Terima Pembayaran KJP"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title">

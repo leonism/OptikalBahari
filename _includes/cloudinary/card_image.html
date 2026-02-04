@@ -1,0 +1,22 @@
+{% comment %}
+  Usage: {% include cloudinary/card_image.html src="assets/img/bg-about.webp" alt="Description" ratio="16x9" class="card-img-top" %}
+{% endcomment %}
+
+<div class="ratio ratio-{{ include.ratio | default: '16x9' }}" style="overflow: hidden; display: block;">
+  <picture>
+    <source
+      srcset="{{ include.src | cloudinary_url: 'w_400,f_avif,q_auto' }} 400w,
+              {{ include.src | cloudinary_url: 'w_800,f_avif,q_auto' }} 800w"
+      type="image/avif">
+    <source
+      srcset="{{ include.src | cloudinary_url: 'w_400,f_webp,q_auto' }} 400w,
+              {{ include.src | cloudinary_url: 'w_800,f_webp,q_auto' }} 800w"
+      type="image/webp">
+    <img
+      src="{{ include.src | cloudinary_url: 'w_800,q_auto,f_auto' }}"
+      alt="{{ include.alt }}"
+      class="{{ include.class }}"
+      loading="{{ include.loading | default: 'lazy' }}"
+      style="object-fit: cover; width: 100%; height: 100%;">
+  </picture>
+</div>
