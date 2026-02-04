@@ -19,12 +19,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/thug-life/thug-life-eyeglasss-04.webp"
-      src="/assets/img/posts/thug-life/thug-life-eyeglasss-04.webp"
-      class="card-img-top img-fluid"
-      alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren" />
+    {% include cloudinary/card_image.html src='assets/img/posts/thug-life/thug-life-eyeglasss-04.webp' alt='Gaya Kacamata Thug Life Buat Penampilan Makin Keren' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Gaya Kacamata Thug Life Buat Penampilan Makin Keren
@@ -61,13 +56,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/thug-life/thug-life-eyeglasss-05.webp"
-      src="/assets/img/posts/thug-life/thug-life-eyeglasss-05.webp"
-      class="card-img-top img-fluid"
-      title="Kacamata Thug Life"
-      alt="Kacamata Thug Life" />
+    {% include cloudinary/card_image.html src='assets/img/posts/thug-life/thug-life-eyeglasss-05.webp' alt='Kacamata Thug Life' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Kenali Makna Penamaannya Thug Life</h3>
       <p class="card-text text-start">
@@ -99,12 +88,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/thug-life/thug-life-eyeglasss-06.webp"
-      src="/assets/img/posts/thug-life/thug-life-eyeglasss-06.webp"
-      class="card-img-top img-fluid"
-      alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren" />
+    {% include cloudinary/card_image.html src='assets/img/posts/thug-life/thug-life-eyeglasss-06.webp' alt='Gaya Kacamata Thug Life Buat Penampilan Makin Keren' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Desain Thug Life Unik untuk Digunakan & Dipilih</h3>
       <p class="card-text text-start">
@@ -133,12 +117,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/thug-life/thug-life-eyeglasss-07.webp"
-      src="/assets/img/posts/thug-life/thug-life-eyeglasss-07.webp"
-      class="card-img-top img-fluid"
-      alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren" />
+    {% include cloudinary/card_image.html src='assets/img/posts/thug-life/thug-life-eyeglasss-07.webp' alt='Gaya Kacamata Thug Life Buat Penampilan Makin Keren' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">

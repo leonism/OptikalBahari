@@ -17,13 +17,7 @@ permalink: /kacamata-pria/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/kacamata-pria/kacamata-pria-01.webp"
-    src="/assets/img/posts/kacamata-pria/kacamata-pria-01.webp"
-    class="card-img-top"
-    title="Kacamata Pria Yang Cocok Dengan Gaya Anda"
-    alt="Kacamata Pria Yang Cocok Dengan Gaya Anda">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-pria/kacamata-pria-01.webp' alt='Kacamata Pria Yang Cocok Dengan Gaya Anda' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Pria Yang Cocok Dengan Gaya Anda
@@ -52,12 +46,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/kacamata-pria/kacamata-pria-03.webp"
-    src="/assets/img/posts/kacamata-pria/kacamata-pria-03.webp"
-    title="Kenali Tanda-tanda Kacamata Pria yang Perlu Diperbaiki"
-    class="card-img-top"
-    alt="Kenali Tanda-tanda Kacamata Pria yang Perlu Diperbaiki">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-pria/kacamata-pria-03.webp' alt='Kenali Tanda-tanda Kacamata Pria yang Perlu Diperbaiki' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Kenali Tanda-tanda Kacamata Pria yang Perlu Diperbaiki
@@ -90,12 +79,7 @@ comments: false
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/kacamata-pria/kacamata-pria-04.webp"
-    src="/assets/img/posts/kacamata-pria/kacamata-pria-04.webp"
-    title="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
-    class="card-img-top"
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-pria/kacamata-pria-04.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Menggunakan Kacamata Pria dengan Nyaman dan Aman
@@ -113,12 +97,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/kacamata-pria/kacamata-pria-05.webp"
-    src="/assets/img/posts/kacamata-pria/kacamata-pria-05.webp"
-    title="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
-    class="card-img-top"
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-pria/kacamata-pria-05.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Temukan Kacamata Pria yang Memancarkan Kepribadian Anda
@@ -138,12 +117,7 @@ comments: false
 {% include home/home-cards-glasses.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/kacamata-pria/kacamata-pria-02.webp"
-    src="/assets/img/posts/kacamata-pria/kacamata-pria-02.webp"
-    title="Kunjungi Optikal Bahari Segera"
-    class="card-img-top"
-    alt="Kunjungi Optikal Bahari Segera">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-pria/kacamata-pria-02.webp' alt='Kunjungi Optikal Bahari Segera' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Kunjungi Optikal Bahari Segera

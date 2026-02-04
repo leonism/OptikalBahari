@@ -16,11 +16,7 @@ comments: false
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-21.webp"
-      src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-21.webp"
-      class="card-img-top img-fluid"
-      alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!" />
+    {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-21.webp' alt='Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!
@@ -46,11 +42,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-21.webp"
-      src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-21.webp"
-      class="card-img-top img-fluid"
-      alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!" />
+    {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-21.webp' alt='Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Optikal Bahari
@@ -96,11 +88,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      data-src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-20.webp"
-      src="/assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-20.webp"
-      class="card-img-top img-fluid"
-      alt="Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!" />
+    {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-20.webp' alt='Lihat Jauh Buram? Baca Dekat Susah Fokus? Kacamata Progresif Solusinya!' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kunjungi Optikal Bahari Sekarang

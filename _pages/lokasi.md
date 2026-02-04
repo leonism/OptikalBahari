@@ -11,10 +11,7 @@ permalink: /lokasi/
 comments: false
 ---
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    src="/assets/img/profil/kemayoran-tempoe-doeloe.webp"
-    class="card-img-top"
-    alt="kemayoran tempoe doeloe">
+  {% include cloudinary/card_image.html src='assets/img/profil/kemayoran-tempoe-doeloe.webp' alt='kemayoran tempoe doeloe' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Biarkan Mata Anda Bersinar Bersama Optikal Bahari!

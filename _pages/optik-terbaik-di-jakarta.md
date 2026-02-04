@@ -18,12 +18,7 @@ layout: page
 comments: false
 ---
 <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-        itemprop="image"
-        src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}"
-        class="card-img-top"
-        title="Layanan Optik Terbaik Di Jakarta"
-        alt="Layanan Optik Terbaik Di Jakarta">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Layanan Optik Terbaik Di Jakarta' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
         <h3 class="card-title">
             Layanan Optik Terbaik Di Jakarta
@@ -38,12 +33,7 @@ comments: false
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            itemprop="image"
-            src="{{ "/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}"
-            title="Segera Kunjungi Optikal Bahari"
-            class="card-img-top"
-            alt="Segera Kunjungi Optikal Bahari">
+        {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
             <div class="card-body">
                 <h3 class="card-title">
                     Segera Kunjungi Optikal Bahari

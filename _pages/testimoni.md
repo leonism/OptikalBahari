@@ -16,13 +16,7 @@ comments: false
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp"
-      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp"
-      class="card-img-top"
-      title="Periksakan Mata Anda Secara Rutin"
-      alt="Periksakan Mata Anda Secara Rutin">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Periksakan Mata Anda Secara Rutin' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Testimoni Pelanggan dan Konsumen Kami: Bukti Kepercayaan dan Kepuasan
@@ -50,13 +44,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp"
-    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp"
-    class="card-img-top"
-    title="periksa-mata-gratis"
-    alt="Testimoni Konsumen Optikal Bahari">
+  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Testimoni Konsumen Optikal Bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Bukti Nyata Kepercayaan dan Kepuasan: Suara Pelanggan Optikal Bahari

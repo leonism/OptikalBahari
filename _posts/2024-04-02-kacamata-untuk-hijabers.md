@@ -16,12 +16,7 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" }}"
-      srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" | srcset }}"
-      width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" | width }}"
-      height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp" | height }}"
-      class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat">
+    {% include cloudinary/card_image.html src='' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kacamata untuk Hijabers: Solusi Fashionable dan Fungsional
@@ -59,11 +54,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" }}"
-      srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" | srcset }}"
-      width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" | width }}"
-      height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp" | height }}"
-      class="card-img-top img-fluid" alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari">
+    {% include cloudinary/card_image.html src='' alt='Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Trendy dan Timeless: Kacamata Hijab yang Cocok untuk Segala Acara
@@ -98,11 +89,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" }}"
-      srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" | srcset }}"
-      width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" | width }}"
-      height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp" | height }}"
-      class="card-img-top img-fluid" alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari">
+    {% include cloudinary/card_image.html src='' alt='Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kacamata Hijabers: Tips Berbelanja yang Bijak dan Menguntungkan
@@ -133,11 +120,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" }}"
-      srcset="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" | srcset }}"
-      width="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" | width }}"
-      height="{{ "/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp" | height }}"
-      class="card-img-top img-fluid" alt="Temukan Kacamata Hijab yang Cocok di Optikal Bahari">
+    {% include cloudinary/card_image.html src='' alt='Temukan Kacamata Hijab yang Cocok di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Temukan Kacamata Hijab yang Cocok di Optikal Bahari

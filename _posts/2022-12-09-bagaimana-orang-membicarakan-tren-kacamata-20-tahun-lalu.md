@@ -15,12 +15,7 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-01.webp"
-      src="/assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-01.webp"
-      class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    {% include cloudinary/card_image.html src='assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-01.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Trend Kacamata 20 Tahun Silam
@@ -54,12 +49,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-02.webp"
-      src="/assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-02.webp"
-      class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    {% include cloudinary/card_image.html src='assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-02.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Trend Kacamata Masa Sekarang

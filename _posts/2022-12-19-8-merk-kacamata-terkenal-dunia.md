@@ -16,11 +16,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" }}"
-      srcset="{{ "/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" | srcset }}"
-      width="{{ "/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" | width }}"
-      height="{{ "/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp" | height }}"
-      class="card-img-top img-fluid" alt="8 Merk Frame Kacamata Terkenal Dunia">
+    {% include cloudinary/card_image.html src='' alt='8 Merk Frame Kacamata Terkenal Dunia' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         8 Merk Frame Kacamata Terkenal Dunia
@@ -49,12 +45,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp" | height }}"
-      class="card-img-top img-fluid"
-      alt="Oakley adalah merk frame kacamata yang terkenal karena kualitas dan teknologi yang diaplikasikannya">
+    {% include cloudinary/card_image.html src='' alt='Oakley adalah merk frame kacamata yang terkenal karena kualitas dan teknologi yang diaplikasikannya' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Oakley
@@ -122,11 +113,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/rayban-aviator.webp" | height }}"
-      class="card-img-top img-fluid" alt="Ray-Ban adalah merk frame kacamata yang paling terkenal di dunia">
+    {% include cloudinary/card_image.html src='' alt='Ray-Ban adalah merk frame kacamata yang paling terkenal di dunia' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Ray-Ban
@@ -165,12 +152,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp" | height }}"
-      class="card-img-top img-fluid"
-      alt="Persol adalah merk frame kacamata asal Italia yang terkenal karena desainnya yang elegan dan klasik">
+    {% include cloudinary/card_image.html src='' alt='Persol adalah merk frame kacamata asal Italia yang terkenal karena desainnya yang elegan dan klasik' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Persol</h3>
       <p class="card-text text-start">
@@ -197,11 +179,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp" | height }}"
-      class="card-img-top img-fluid" alt="Model frame kacamata Prada yang paling terkenal adalah PR11RS dan PR01OS">
+    {% include cloudinary/card_image.html src='' alt='Model frame kacamata Prada yang paling terkenal adalah PR11RS dan PR01OS' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Prada</h3>
       <p class="card-text text-start">
@@ -226,11 +204,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp" | height }}"
-      class="card-img-top img-fluid" alt="Model frame kacamata Tom Ford yang paling terkenal adalah FT5179">
+    {% include cloudinary/card_image.html src='' alt='Model frame kacamata Tom Ford yang paling terkenal adalah FT5179' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Tom Ford</h3>
       <p class="card-text text-start">
@@ -251,12 +225,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp" | height }}"
-      class="card-img-top img-fluid"
-      alt="Merk kacamata asal Inggris ini terkenal dengan frame kacamatanya yang elegan dan berkualitas tinggi">
+    {% include cloudinary/card_image.html src='' alt='Merk kacamata asal Inggris ini terkenal dengan frame kacamatanya yang elegan dan berkualitas tinggi' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Burberry</h3>
       <p class="card-text text-start">
@@ -277,12 +246,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp" | height }}"
-      class="card-img-top img-fluid"
-      alt="Versace adalah merk frame kacamata yang terkenal dengan desainnya yang mewah dan eksklusif">
+    {% include cloudinary/card_image.html src='' alt='Versace adalah merk frame kacamata yang terkenal dengan desainnya yang mewah dan eksklusif' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Versace</h3>
       <p class="card-text text-start">
@@ -304,12 +268,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp" | height }}"
-      class="card-img-top img-fluid"
-      alt="Gucci adalah salah satu merk frame kacamata terbaik di dunia yang dikenal dengan desainnya yang mewah dan eksklusif">
+    {% include cloudinary/card_image.html src='' alt='Gucci adalah salah satu merk frame kacamata terbaik di dunia yang dikenal dengan desainnya yang mewah dan eksklusif' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Gucci
@@ -350,11 +309,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" src="{{ "/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" }}"
-      srcset="{{ "/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" | srcset }}"
-      width="{{ "/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" | width }}"
-      height="{{ "/assets/img/posts/eyewear-collection-00/eyewear-shanghai-min.webp" | height }}"
-      class="card-img-top img-fluid" alt="Segera Datangi Optikal Bahari">
+    {% include cloudinary/card_image.html src='' alt='Segera Datangi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Segera Datangi Optikal Bahari

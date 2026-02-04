@@ -16,12 +16,7 @@ comments: false
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.webp" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.webp" | relative_url }}"
-      class="card-img-top"
-      alt="Periksa Mata Gratis Terdekat">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.webp' alt='Periksa Mata Gratis Terdekat' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Temukan Periksa Mata Terdekat & Gratis
@@ -69,12 +64,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.webp" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.webp" | relative_url }}"
-      class="card-img-top"
-      alt="Periksa Mata Cepat & Akurat">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.webp' alt='Periksa Mata Cepat & Akurat' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Terdekat: Cepat, Akurat, dan Gratis!
@@ -98,12 +88,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.webp" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.webp" | relative_url }}"
-      class="card-img-top"
-      alt="Proses Pertama: Menggunakan Autorefractometer">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.webp' alt='Proses Pertama: Menggunakan Autorefractometer' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Langkah Awal: Pemeriksaan Mata Terdekat yang Praktis
@@ -129,12 +114,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.webp" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.webp" | relative_url }}"
-      class="card-img-top"
-      alt="Proses Kedua: Menggunakan Alat Phoropter">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.webp' alt='Proses Kedua: Menggunakan Alat Phoropter' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Langkah Berikutnya: Penggunaan Alat Phoropter Terdepan
@@ -162,12 +142,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.webp" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.webp" | relative_url }}"
-      class="card-img-top"
-      alt="Kunjungi Optikal Bahari">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Kunjungi Optikal Bahari

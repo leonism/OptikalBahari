@@ -1,60 +1,58 @@
 require 'fileutils'
+require 'pathname'
 
-# Directories to scan for <img> tags
+# Setup Root Path
+SCRIPT_PATH = Pathname.new(__FILE__).realpath
+PROJECT_ROOT = SCRIPT_PATH.dirname.parent.parent
 TARGET_DIRS = ['_posts', '_pages']
 
-def migrate_img_tags(content)
-  # Matches <img ... /> tags regardless of line breaks
-  img_regex = /<img\s+([^>]+?)\/?>/m
+def heal_malformed_include(raw_content)
+  # Extract attributes
+  attrs = {}
+  raw_content.scan(/([\w-]+)=['"]([^'"]*)['"]/).each { |k, v| attrs[k] = v }
 
-  content.gsub(img_regex) do |_match|
-    attributes = $1
+  src = attrs['src'] || ""
 
-    # 1. Extract the Source path
-    # Matches both: {{ '/path' | relative_url }} AND plain '/path'
-    src_match = attributes.match(/src=["'](?:\{\{\s*['"]?([^'"]+?)['"]?\s*\|\s*relative_url\s*\}\}|([^"']+))["']/)
-    final_src = src_match ? (src_match[1] || src_match[2]) : ""
+  # THE FIX: If the src is literally 'post.background', it cannot be used
+  # inside an include like a string. We need to either:
+  # 1. Convert it to a Liquid variable pass: src=post.background (no quotes)
+  # 2. Or, if it's meant to be a path, fix the string.
 
-    # 2. Extract Alt text (defaults to empty string)
-    alt_match = attributes.match(/alt=["']([^"']*)["']/)
-    final_alt = alt_match ? alt_match[1] : ""
+  is_variable = src.match?(/^(post|page|site)\./)
 
-    # 3. Extract Class (defaults to card-img-top)
-    class_match = attributes.match(/class=["']([^"']*)["']/)
-    final_class = class_match ? class_match[1] : "card-img-top"
+  final_src = src.gsub(/\{\{|\}\}|['"]|\|\s*relative_url/, '').strip
+  final_src = final_src.gsub(/^\//, '') # Remove leading slash
 
-    # 4. Clean the path: remove leading slash to match your Cloudinary folder structure
-    final_src = final_src.gsub(/^\//, '')
+  alt = (attrs['alt'] || "").strip
+  klass = (attrs['class'] || "card-img-top").strip
 
-    # Build the Liquid component output
-    # IMPORTANT: The filename 'cloudinary/card_image.html' MUST be on the same
-    # line as the opening '{% include' to prevent Jekyll IOErrors.
-    <<~LIQUID.strip
-      {% include cloudinary/card_image.html src="#{final_src}"
-         alt="#{final_alt}"
-         ratio="16x9"
-         class="#{final_class}" %}
-    LIQUID
+  # If it was a variable like post.background, we pass it WITHOUT quotes
+  if is_variable
+    "{% include cloudinary/card_image.html src=#{final_src} alt='#{alt}' ratio='16x9' class='#{klass}' %}"
+  else
+    "{% include cloudinary/card_image.html src='#{final_src}' alt='#{alt}' ratio='16x9' class='#{klass}' %}"
   end
 end
 
-puts "🚀 Starting HTML to Cloudinary Component migration..."
+puts "🚀 Healing malformed tags in #{PROJECT_ROOT}..."
 
-TARGET_DIRS.each do |dir|
-  Dir.glob("#{dir}/**/*.{md,markdown,html}").each do |file_path|
-    unless File.exist?(file_path)
-      puts "⏭️ Skipping missing file: #{file_path}"
-      next
+TARGET_DIRS.each do |dir_name|
+  dir_path = File.join(PROJECT_ROOT, dir_name)
+  next unless Dir.exist?(dir_path)
+
+  Dir.glob("#{dir_path}/**/*.{md,markdown,html}").each do |file_path|
+    content = File.read(file_path)
+
+    # Target existing broken includes
+    inc_regex = /\{%\s*include\s+cloudinary\/card_image\.html\s+([^%]+?)\s*%\}/m
+
+    new_content = content.gsub(inc_regex) do |match|
+      heal_malformed_include($1)
     end
 
-    original_content = File.read(file_path)
-    new_content = migrate_img_tags(original_content)
-
-    if original_content != new_content
+    if content != new_content
       File.write(file_path, new_content)
-      puts "✅ Converted tags in: #{file_path}"
+      puts "✅ Healed variable usage in: #{file_path.gsub(PROJECT_ROOT.to_s, '')}"
     end
   end
 end
-
-puts "🎉 Done! All <img> tags have been replaced with the Super Component."

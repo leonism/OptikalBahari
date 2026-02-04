@@ -15,12 +15,7 @@ permalink: /kacamata-kemayoran/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.webp"
-    class="card-img-top"
-    title="Optikal Bahari Dengan Pilihan Beragam Koleksi Kacamata & Lensa."
-    alt="Optikal Bahari Dengan Pilihan Beragam Koleksi Kacamata & Lensa.">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-cicilan/kacamata-cicilan.webp' alt='Optikal Bahari Dengan Pilihan Beragam Koleksi Kacamata & Lensa.' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Optikal Bahari Dengan Pilihan Beragam Koleksi Kacamata & Lensa.
@@ -41,10 +36,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/bg-about.webp"
-    class="card-img-top"
-    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+  {% include cloudinary/card_image.html src='assets/img/bg-about.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan
@@ -64,10 +56,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/bg-tips-kacamata.webp"
-    class="card-img-top"
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  {% include cloudinary/card_image.html src='assets/img/bg-tips-kacamata.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini

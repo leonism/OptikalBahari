@@ -17,11 +17,7 @@ permalink: /optik-kacamata-kjp-kartu-jakarta-pintar/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
-    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
-    class="card-img-top"
-    alt="kjp-optikalbahari.webp">
+  {% include cloudinary/card_image.html src='assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp' alt='kjp-optikalbahari.webp' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Menerima pembayaran dengan KJP (Kartu Jakarta Pintar) untuk Pembelian Kacamata & Lensa
@@ -44,11 +40,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
-    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
-    class="card-img-top"
-    alt="Optikal Bahari & Program Kartu Jakarta Pintar (KJP)">
+  {% include cloudinary/card_image.html src='assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp' alt='Optikal Bahari & Program Kartu Jakarta Pintar (KJP)' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan
@@ -71,11 +63,7 @@ comments: false
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/035.webp"
-    src="/assets/img/posts/035.webp"
-    class="card-img-top"
-    alt="kjp-optikalbahari.webp">
+  {% include cloudinary/card_image.html src='assets/img/posts/035.webp' alt='kjp-optikalbahari.webp' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini

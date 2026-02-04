@@ -17,13 +17,7 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/harajuku/female-harajuku-01.webp"
-      src="{{ "/assets/img/posts/harajuku/female-harajuku-01.webp" | relative_url }}"
-      class="card-img-top"
-      title="Gangguan Presbiopia & Jenis Lensa Progresif"
-      alt="Gangguan Presbiopia & Jenis Lensa Progresif">
+    {% include cloudinary/card_image.html src='assets/img/posts/harajuku/female-harajuku-01.webp' alt='Gangguan Presbiopia & Jenis Lensa Progresif' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Gangguan Presbiopia & Jenis Lensa Progresif</h3>
       <p class="card-text text-start">
@@ -49,15 +43,8 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/harajuku/female-harajuku-02.webp"
-      src="{{ "/assets/img/posts/harajuku/female-harajuku-02.webp" | relative_url }}"
-      class="card-img-top"
-      title="Jenis Lensa Progresif Nyaman Dipakai dan
-		Memiliki Tiga Titik Fokus"
-      alt="Jenis Lensa Progresif Nyaman Dipakai dan
-		Memiliki Tiga Titik Fokus">
+    {% include cloudinary/card_image.html src='assets/img/posts/harajuku/female-harajuku-02.webp' alt='Jenis Lensa Progresif Nyaman Dipakai dan
+		Memiliki Tiga Titik Fokus' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Jenis Lensa Progresif Nyaman Dipakai dan Memiliki Tiga Titik Fokus
@@ -92,14 +79,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/harajuku/female-harajuku-03.webp"
-      src="{{ "/assets/img/posts/harajuku/female-harajuku-03.webp" | relative_url }}"
-      class="card-img-top"
-      title="Model Jenis Lensa Progresif dan Cara
-		Pemakaiannya"
-      alt="Model Jenis Lensa Progresif dan Cara Pemakaiannya">
+    {% include cloudinary/card_image.html src='assets/img/posts/harajuku/female-harajuku-03.webp' alt='Model Jenis Lensa Progresif dan Cara Pemakaiannya' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Tipe Lensa Progresif dan Cara Pemakaiannya</h3>
       <p class="card-text text-start">

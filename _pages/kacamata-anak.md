@@ -17,13 +17,7 @@ permalink: /kacamata-anak/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/kacamata-anak/kacamata-anak-01.webp"
-    src="/assets/img/posts/kacamata-anak/kacamata-anak-01.webp"
-    class="card-img-top"
-    title="Kenapa Kacamata Anak Penting untuk Kesehatan Mata Si Kecil?"
-    alt="Kenapa Kacamata Anak Penting untuk Kesehatan Mata Si Kecil?">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak/kacamata-anak-01.webp' alt='Kenapa Kacamata Anak Penting untuk Kesehatan Mata Si Kecil?' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Kenapa Kacamata Anak Penting untuk Kesehatan Penglihatan Si Kecil?
@@ -41,12 +35,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/kacamata-anak/kacamata-anak-02.webp"
-    src="/assets/img/posts/kacamata-anak/kacamata-anak-02.webp"
-    class="card-img-top"
-    title="Tips Memilih Kacamata Anak yang Cocok dengan Gaya dan Kebutuhan Si Kecil"
-    alt="Tips Memilih Kacamata Anak yang Cocok dengan Gaya dan Kebutuhan Si Kecil">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak/kacamata-anak-02.webp' alt='Tips Memilih Kacamata Anak yang Cocok dengan Gaya dan Kebutuhan Si Kecil' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Tips Memilih Kacamata Anak yang Cocok dengan Gaya dan Kebutuhan Si Kecil
@@ -64,12 +53,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/kacamata-anak/kacamata-anak-03.webp"
-    src="/assets/img/posts/kacamata-anak/kacamata-anak-03.webp"
-    class="card-img-top"
-    title="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak/kacamata-anak-03.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Cara Mudah Mendapatkan Kacamata Anak dengan Cicilan Tanpa Bunga & Riba
@@ -87,12 +71,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/kacamata-anak/kacamata-anak-04.webp"
-    src="/assets/img/posts/kacamata-anak/kacamata-anak-04.webp"
-    class="card-img-top"
-    title="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini"
-    alt="Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak/kacamata-anak-04.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Tips Merawat dan Memperbaiki Kacamata Anak dengan Mudah
@@ -110,12 +89,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/kacamata-anak/kacamata-anak-05.webp"
-    src="/assets/img/posts/kacamata-anak/kacamata-anak-05.webp"
-    class="card-img-top"
-    title="Kunjungi Optikal Bahari Sekarang untuk Menemukan Kacamata Anak yang Tepat"
-    alt="Kunjungi Optikal Bahari Sekarang untuk Menemukan Kacamata Anak yang Tepat">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak/kacamata-anak-05.webp' alt='Kunjungi Optikal Bahari Sekarang untuk Menemukan Kacamata Anak yang Tepat' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Temukan Kacamata Anak yang Tepat Di Optikal Bahari

@@ -16,9 +16,7 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp"
-      src="{{ "/assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp" | relative_url }}" class="card-img-top"
-      title="Perawatan Kacamata Anak" alt="Perawatan Kacamata Anak">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp' alt='Perawatan Kacamata Anak' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Perawatan Kacamata Anak
@@ -45,9 +43,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp"
-      src="/assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp" class="card-img-top img-fluid"
-      alt="Kelebihan Optikal Bahari" title="Kelebihan Optikal Bahari" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp' alt='Kelebihan Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Optikal Bahari
@@ -117,9 +113,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp"
-      src="{{ "/assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp" | relative_url }}"
-      class="card-img-top img-fluid" title="Pemilihan Material Kacamata" alt="Pemilihan Material Kacamata">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp' alt='Pemilihan Material Kacamata' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Pemilihan Material Kacamata
@@ -155,9 +149,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp"
-      src="{{ "/assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp" | relative_url }}"
-      class="card-img-top img-fluid" title="Jaga Kebersihan Kacamata Anak" alt="Jaga Kebersihan Kacamata Anak">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp' alt='Jaga Kebersihan Kacamata Anak' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Jaga Kebersihan Kacamata Anak
@@ -183,10 +175,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp"
-      src="{{ "/assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp" | relative_url }}"
-      class="card-img-top img-fluid" title="Rutin Melakukan Kunjungan Ke Optik"
-      alt="Rutin Melakukan Kunjungan Ke Optik">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp' alt='Rutin Melakukan Kunjungan Ke Optik' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Rutin Melakukan Kunjungan Ke Optik

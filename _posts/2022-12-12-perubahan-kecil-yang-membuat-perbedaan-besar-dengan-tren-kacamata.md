@@ -14,12 +14,7 @@ comments: true
 ---
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-        itemprop="image"
-        data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-01.webp"
-        src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-01.webp"
-        class="card-img-top"
-        alt="tipe-lensa" />
+    {% include cloudinary/card_image.html src='assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-01.webp' alt='tipe-lensa' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
         <h3 class="card-title">
             Bereksperimen Dengan Berbagai Bentuk & Gaya
@@ -61,11 +56,7 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-02.webp"
-            src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-02.webp"
-            class="card-img-top"
-            alt="lensa-progresif.webp">
+        {% include cloudinary/card_image.html src='assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-02.webp' alt='lensa-progresif.webp' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">
                 Sentuhan Pribadi pada Bingkai Anda Sengan Sentuhan Detail
@@ -99,11 +90,7 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-03.webp"
-            src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-03.webp"
-            class="card-img-top"
-            alt="lensa-progresif.webp">
+        {% include cloudinary/card_image.html src='assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-03.webp' alt='lensa-progresif.webp' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">
                 Kenali Jenis Lensa Kacamata Terbaik, Lensa Tunggal dan Bifokal

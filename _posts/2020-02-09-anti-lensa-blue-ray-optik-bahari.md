@@ -15,9 +15,7 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16.webp" class="card-img-top img-fluid"
-      alt="Optikal Bahari: Solusi Kacamata Anti Radiasi Blue Ray" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16.webp' alt='Optikal Bahari: Solusi Kacamata Anti Radiasi Blue Ray' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Optikal Bahari: Solusi Kacamata Anti Radiasi Blue Ray
@@ -51,9 +49,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp" class="card-img-top img-fluid"
-      alt="Manfaat Kacamata Anti Radiasi Blue Ray dari Optikal Bahari" />
+    {% include cloudinary/card_image.html src='assets/img/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp' alt='Manfaat Kacamata Anti Radiasi Blue Ray dari Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Manfaat Kacamata Anti Radiasi Anti Blue Ray
@@ -140,9 +136,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp" class="card-img-top img-fluid"
-      alt="anti-blueray-uv-protection" />
+    {% include cloudinary/card_image.html src='assets/img/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp' alt='anti-blueray-uv-protection' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Keutamaan Kacamata Anti Blue-ray</h3>
       <p class="card-text text-start">

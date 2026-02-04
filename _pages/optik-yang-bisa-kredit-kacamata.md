@@ -14,10 +14,9 @@ background: /assets/img/posts/010.webp
 permalink: /optik-yang-bisa-kredit-kacamata/
 comments: false
 ---
+
 <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="tips-kacamata-2.webp">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Optik Yang Bisa Kredit Kacamata
@@ -38,7 +37,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
+		  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
         <h3 class="card-title">
           Segera Kunjungi Optikal Bahari
@@ -56,7 +55,7 @@ comments: false
         <div class="card shadow p-3 mb-5 bg-white rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a>
+                    {% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top' %}</a>
                 {% endif %}
             <div class="card-body">
                 <h5 class="card-title">

@@ -16,12 +16,7 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-stylish/kacamata-stylish-01.webp"
-      src="/assets/img/posts/kacamata-stylish/kacamata-stylish-01.webp"
-      class="card-img-top"
-      alt="kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-stylish/kacamata-stylish-01.webp' alt='kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Tren Kacamata Kekinian</h3>
       <p class="card-text text-start">
@@ -53,12 +48,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-stylish/kacamata-stylish-02.webp"
-      src="/assets/img/posts/kacamata-stylish/kacamata-stylish-02.webp"
-      class="card-img-top"
-      alt="kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-stylish/kacamata-stylish-02.webp' alt='kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Model Trendy Kacamata Terbaru</h3>
       <p class="card-text text-start">
@@ -91,12 +81,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-stylish/kacamata-stylish-03.webp"
-      src="/assets/img/posts/kacamata-stylish/kacamata-stylish-03.webp"
-      class="card-img-top"
-      alt="kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-stylish/kacamata-stylish-03.webp' alt='kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Merawat Kacamata Kekinian dengan Benar</h3>
       <p class="card-text text-start">

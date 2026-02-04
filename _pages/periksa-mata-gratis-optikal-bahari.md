@@ -14,13 +14,10 @@ background: /assets/img/posts/asian-eyewear-00/asian-eyewear-00.webp
 permalink: /periksa-mata-gratis-optikal-bahari/
 comments: false
 ---
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            itemprop="image"
-            src="{{ '/assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp' | relative_url }}"
-            class="card-img-top img-fluid"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa">
+        {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Periksa Mata Gratis Di Optikal Bahari
@@ -54,11 +51,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		<img
-            itemprop="image"
-            src="{{ '/assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp' | relative_url }}"
-            class="card-img-top img-fluid"
-            alt="Kenali Gangguan Mata Lebih Dini">
+		{% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp' alt='Kenali Gangguan Mata Lebih Dini' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Kenali Gangguan Mata Lebih Dini
@@ -96,11 +89,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		<img
-            itemprop="image"
-            src="{{ '/assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp' | relative_url }}"
-            class="card-img-top img-fluid"
-            alt="Segera Periksa Mata Anda">
+		{% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp' alt='Segera Periksa Mata Anda' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Segera Periksa Mata Anda
@@ -138,11 +127,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img
-            itemprop="image"
-            src="{{ '/assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp' | relative_url }}"
-            class="card-img-top img-fluid"
-            alt="Segera Kunjungi Optikal Bahari">
+		  {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Segera Kunjungi Optikal Bahari
@@ -162,9 +147,7 @@ comments: false
         <div class="card shadow p-3 mb-5 bg-white rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                    class="card-img-top"
-                    alt="{{ post.title }}">
+                    {% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top' %}
             </a>
                 {% endif %}
             <div class="card-body">

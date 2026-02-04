@@ -16,9 +16,7 @@ comments: true
 ---
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-10.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-10.webp" class="card-img-top"
-            title="Kacamata Reto dan vintage" alt="Kacamata Reto dan vintage">
+        {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-10.webp' alt='Kacamata Reto dan vintage' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">
                 Tren Retro & Vintage Yang Kembali Populer
@@ -57,9 +55,7 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-012.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-012.webp" class="card-img-top"
-            title="Padukan Dengan Bentuk Wajah Dan Warna Kulit" alt="Kacamata Reto dan vintage">
+        {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-012.webp' alt='Kacamata Reto dan vintage' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">
                 Padukan Dengan Bentuk Wajah Dan Warna Kulit
@@ -95,9 +91,7 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp" class="card-img-top"
-            title="Padukan Kacamata Retro Dengan Gaya Anda" alt="Padukan Kacamata Retro Dengan Gaya Anda">
+        {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp' alt='Padukan Kacamata Retro Dengan Gaya Anda' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">
                 Padukan Kacamata Retro Dengan Gaya Anda

@@ -16,12 +16,7 @@ permalink: /optik-yang-menerima-kjp/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
-    src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
-    class="card-img-top img-fluid"
-    alt="Program Kartu Jakarta Pintar (KJP)" />
+  {% include cloudinary/card_image.html src='assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp' alt='Program Kartu Jakarta Pintar (KJP)' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Optik KJP: Solusi Kacamata untuk Pemegang Kartu Jakarta Pintar (KJP)
@@ -49,12 +44,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
-      src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp"
-      class="card-img-top img-fluid"
-      alt="Program Kartu Jakarta Pintar (KJP)" />
+    {% include cloudinary/card_image.html src='assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp' alt='Program Kartu Jakarta Pintar (KJP)' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Pentingnya Kacamata dalam Gaya Hidup Modern
@@ -76,12 +66,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
-      src="/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp"
-      class="card-img-top img-fluid"
-      alt="Apa itu Lensa Photochromic?" />
+    {% include cloudinary/card_image.html src='assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp' alt='Apa itu Lensa Photochromic?' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Pembayaran dengan KJP

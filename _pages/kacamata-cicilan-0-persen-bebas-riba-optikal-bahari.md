@@ -16,12 +16,7 @@ permalink: /kacamata-cicilan-0-persen-bebas-riba-optikal-bahari/
 comments: false
 ---
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.webp"
-    src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.webp"
-    class="card-img-top"
-    alt="cicilan-kacamata optikal bahari" />
+  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Cicilan 0%: Solusi Cerdas untuk Kebutuhan Penglihatan Anda
@@ -68,12 +63,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp"
-    src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp"
-    class="card-img-top"
-    alt="cicilan-kacamata optikal bahari" />
+  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       5 Alasan Memilih Cicilan Kacamata 0% di Optikal Bahari di Optikal Bahari
@@ -111,12 +101,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.webp"
-    src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.webp"
-    class="card-img-top"
-    alt="cicilan-kacamata optikal bahari" />
+  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Tips Memilih Kacamata dengan Cicilan 0% di Optikal Bahari
@@ -185,12 +170,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp"
-    src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp"
-    class="card-img-top"
-    alt="cicilan-kacamata optikal bahari" />
+  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Kunjungi Langsung Optikal Bahari

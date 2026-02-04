@@ -15,12 +15,7 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-01.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-01.webp"
-      class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-01.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Trend Kacamata 20 Tahun Silam
@@ -48,12 +43,7 @@ comments: true
 </div>
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-02.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-02.webp"
-      class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-02.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Trend Teraneh Sepanjang Masa
@@ -78,12 +68,7 @@ comments: true
 </div>
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-03.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-03.webp"
-      class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-03.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Trend Kacamata Terburuk 20 Tahun Terakhir
@@ -112,12 +97,7 @@ comments: true
 </div>
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-04.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-04.webp"
-      class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-04.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Tren Yang Menarik dan Inovatif

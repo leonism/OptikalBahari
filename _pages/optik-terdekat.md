@@ -17,12 +17,7 @@ permalink: /optik-terdekat/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-01.webp"
-    class="card-img-top"
-    title="Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari"
-    alt="Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari">
+  {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-01.webp' alt='Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari!
@@ -43,11 +38,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-02.webp"
-    class="card-img-top"
-    alt="kacamata cicilan">
+  {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-02.webp' alt='kacamata cicilan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Optikal Bahari Memberikan Periksa Mata Gratis
@@ -64,12 +55,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-03.webp"
-    class="card-img-top"
-    title="Service & Reparasi Kacamata Gratis!"
-    alt="Service & Reparasi Kacamata Gratis!">
+  {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-03.webp' alt='Service & Reparasi Kacamata Gratis!' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Service & Reparasi Kacamata Gratis!
@@ -84,12 +70,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-04.webp"
-    class="card-img-top"
-    title="Tambahan Bonus Goodie Bag Menarik Optikal Bahari"
-    alt="Tambahan Bonus Goodie Bag Menarik Optikal Bahari">
+  {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-04.webp' alt='Tambahan Bonus Goodie Bag Menarik Optikal Bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Tambahan Bonus Goodie Bag Menarik Optikal Bahari
@@ -104,12 +85,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-05.webp"
-    class="card-img-top"
-    title="Berizin Dari DinKes & Kemenkes Republik Indonesia"
-    alt="Berizin Dari DinKes & Kemenkes Republik Indonesia">
+  {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-05.webp' alt='Berizin Dari DinKes & Kemenkes Republik Indonesia' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Berizin Dari DinKes & Kemenkes Republik Indonesia
@@ -124,12 +100,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-00.webp"
-    class="card-img-top"
-    title="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
-    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+  {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-00.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Optikal Bahari, Optik Terdekat Anda</h3>
     <p class="card-text text-start">

@@ -15,10 +15,7 @@ permalink: /kemayoran/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/posts/032.webp"
-    class="card-img-top"
-    alt="Kenapa Beli Kacamata Di Optikal Bahari?">
+  {% include cloudinary/card_image.html src='assets/img/posts/032.webp' alt='Kenapa Beli Kacamata Di Optikal Bahari?' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Kenapa Warga Kemayoran Cocok Beli Kacamata Di Optikal Bahari?
@@ -39,10 +36,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.webp"
-    class="card-img-top"
-    alt="Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.webp' alt='Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama
@@ -62,10 +56,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-7.webp"
-    class="card-img-top"
-    alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  {% include cloudinary/card_image.html src='assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-7.webp' alt='Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren' ratio='16x9' class='card-img-top' %}
 
   <div class="card-body">
     <h3 class="card-title">
@@ -87,10 +78,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/posts/005.webp"
-    class="card-img-top"
-    alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  {% include cloudinary/card_image.html src='assets/img/posts/005.webp' alt='Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Bisa Nyicil dan Bebas Riba di Tempat Jual Kacamata Keren Terbaik Ini

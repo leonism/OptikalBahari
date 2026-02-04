@@ -28,15 +28,7 @@ comments: false
     <!-- JPEG fallback -->
     <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
       " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-    <img
-      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14"
-      alt="Periksa Mata Gratis di Optikal Bahari"
-      loading="lazy"
-      decoding="async"
-      width="768"
-      height="512"
-      class="card-img-top img-fluid"
-      />
+    {% include cloudinary/card_image.html src='https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14' alt='Periksa Mata Gratis di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     </picture>
     <div class="card-body">
       <h3 class="card-title">
@@ -65,12 +57,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp"
-      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp"
-      class="card-img-top img-fluid"
-      alt="Periksa Mata Cepat & Akurat">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp' alt='Periksa Mata Cepat & Akurat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Cepat & Akurat
@@ -92,12 +79,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-    itemprop="image"
-    data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp"
-    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp"
-    class="card-img-top img-fluid"
-    alt="Proses Pertama: Autorefractometer">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp' alt='Proses Pertama: Autorefractometer' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Proses Pertama: Menggunakan Autorefractometer
@@ -117,12 +99,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp"
-      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp"
-      class="card-img-top img-fluid"
-      alt="Proses Kedua: Phoropter">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp' alt='Proses Kedua: Phoropter' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Proses Kedua: Menggunakan Alat Phoropter
@@ -144,12 +121,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webpp"
-      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp"
-      class="card-img-top img-fluid"
-      alt="Kunjungi Optikal Bahari">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webpp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kunjungi Optikal Bahari

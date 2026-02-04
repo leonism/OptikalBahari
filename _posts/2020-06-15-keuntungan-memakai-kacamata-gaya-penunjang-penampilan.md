@@ -17,11 +17,7 @@ permalink: /keuntungan-kacamata-gaya-penampilan/
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      data-src="/assets/img/posts/kacamata-kpop/kacamata-kpop-01.webp"
-      src="/assets/img/posts/kacamata-kpop/kacamata-kpop-01.webp"
-      class="card-img-top"
-      alt="/kacamata-trendy/kacamata-trendy">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-kpop/kacamata-kpop-01.webp' alt='/kacamata-trendy/kacamata-trendy' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Kacamata Gaya, Trendy dan Stylish
@@ -49,11 +45,7 @@ permalink: /keuntungan-kacamata-gaya-penampilan/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      data-src="/assets/img/posts/kacamata-kpop/kacamata-kpop-02.webp"
-      src="/assets/img/posts/kacamata-kpop/kacamata-kpop-02.webp"
-      class="card-img-top"
-      alt="/kacamata-trendy/kacamata-trendy">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-kpop/kacamata-kpop-02.webp' alt='/kacamata-trendy/kacamata-trendy' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Berbagai Model Kacamata Gaya yang Populer
@@ -80,11 +72,7 @@ permalink: /keuntungan-kacamata-gaya-penampilan/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      data-src="/assets/img/posts/kacamata-kpop/kacamata-kpop-03.webp"
-      src="/assets/img/posts/kacamata-kpop/kacamata-kpop-03.webp"
-      class="card-img-top"
-      alt="/kacamata-trendy/kacamata-trendy">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-kpop/kacamata-kpop-03.webp' alt='/kacamata-trendy/kacamata-trendy' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Mengenal Keuntungan Memakai Kacamata Gaya dan Fungsinya

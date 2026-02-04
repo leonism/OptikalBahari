@@ -16,10 +16,7 @@ permalink: /tips-kacamata-untuk-wajah-bulat/
 comments: false
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/posts/tips-kacamata/tips-kacamata.webp"
-    class="card-img-top"
-    alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren">
+  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata/tips-kacamata.webp' alt='Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Untuk Wajah Bulat

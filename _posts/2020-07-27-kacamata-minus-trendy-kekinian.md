@@ -16,12 +16,7 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-11.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-11.webp"
-      class="card-img-top"
-      alt="Kebutuhan Kacamata Minus" />
+    {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-11.webp' alt='Kebutuhan Kacamata Minus' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Kebutuhan Kacamata Minus
@@ -48,12 +43,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-12.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-12.webp"
-      class="card-img-top"
-      alt="Memilih Kacamata Minus Sesuai Bentuk Wajah" />
+    {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-12.webp' alt='Memilih Kacamata Minus Sesuai Bentuk Wajah' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Memilih Kacamata Minus Sesuai Bentuk Wajah
@@ -85,12 +75,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-10.webp"
-      src="/assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-10.webp"
-      class="card-img-top"
-      alt="Berbagai Material Kacamata Minus yang Wajib Kamu Ketahui" />
+    {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-10.webp' alt='Berbagai Material Kacamata Minus yang Wajib Kamu Ketahui' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Material Kacamata Minus yang Wajib Kamu Ketahui

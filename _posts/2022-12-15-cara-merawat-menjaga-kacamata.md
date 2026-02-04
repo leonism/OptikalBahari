@@ -15,12 +15,7 @@ comments: true
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01.webp"
-      src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01.webp"
-      class="card-img-top"
-      alt="kacamata-k-ion">
+    {% include cloudinary/card_image.html src='assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01.webp' alt='kacamata-k-ion' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Cara Merawat dan Menjaga Kacamata
@@ -63,12 +58,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02.webp"
-      src="/assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02.webp"
-      class="card-img-top"
-      alt="kacamata-k-ion">
+    {% include cloudinary/card_image.html src='assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02.webp' alt='kacamata-k-ion' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
             <h3 class="card-title">
                 Periksa Mata Anda Secara Berkala

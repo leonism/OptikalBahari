@@ -15,12 +15,7 @@ background: /assets/img/posts/french-girl/french-girl-07.webp
 comments: true
 ---
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/french-girl/french-girl-01.webp"
-    class="card-img-top"
-    src="/assets/img/posts/french-girl/french-girl-01.webp"
-    alt="Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren" />
+  {% include cloudinary/card_image.html src='assets/img/posts/french-girl/french-girl-01.webp' alt='Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Tips Memilih Kacamata Berdasarkan Rambut</h3>
     <p class="card-text text-start">
@@ -47,12 +42,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/french-girl/french-girl-02.webp"
-    class="card-img-top"
-    src="/assets/img/posts/french-girl/french-girl-02.webp"
-    class="card-img-top"
-    alt="Rambut Hitam atau Pirang, Terapkan Tips Memilih Kacamata Berdasarkan Rambut" />
+  {% include cloudinary/card_image.html src='assets/img/posts/french-girl/french-girl-02.webp' alt='Rambut Hitam atau Pirang, Terapkan Tips Memilih Kacamata Berdasarkan Rambut' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Rambut Hitam atau Pirang, Terapkan Tips Memilih Kacamata Berdasarkan
@@ -94,12 +84,7 @@ comments: true
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    data-src="/assets/img/posts/french-girl/french-girl-08.webp"
-    class="card-img-top"
-    src="/assets/img/posts/french-girl/french-girl-08.webp"
-    class="card-img-top"
-    alt="Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat" />
+  {% include cloudinary/card_image.html src='assets/img/posts/french-girl/french-girl-08.webp' alt='Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat

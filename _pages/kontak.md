@@ -17,10 +17,7 @@ comments: false
 ---
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp"
-      class="card-img-top"
-      alt="Hubungi Optikal Bahari">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp' alt='Hubungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Hubungi Optikal Bahari</h3>
       <p class="card-text text-start">
