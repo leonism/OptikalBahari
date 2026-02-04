@@ -24,7 +24,7 @@ comments: false
         {% if forloop.first %}
           <div class="col-12 col-md-12 col-lg-4 mb-5">
         {% else %}
-          <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="col-12 col-md-12 col-lg-4 mb-5">
         {% endif %}
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
@@ -77,7 +77,7 @@ comments: false
         {% if forloop.first %}
           <div class="col-12 col-md-12 col-lg-4 mb-5">
         {% else %}
-          <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="col-12 col-md-12 col-lg-4 mb-5">
         {% endif %}
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
@@ -130,7 +130,7 @@ comments: false
         {% if forloop.first %}
           <div class="col-12 col-md-12 col-lg-4 mb-5">
         {% else %}
-          <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="col-12 col-md-12 col-lg-4 mb-5">
         {% endif %}
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">

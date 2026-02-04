@@ -18,17 +18,17 @@ comments: false
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
         <picture>
-    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-    <img
-      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01"
-      alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
-      loading="lazy"
-      decoding="async"
-      class="card-img-top img-fluid"
-      />
-    </picture>
+            <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 1200w" type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
+            <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 1200w" type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
+            <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01 1200w" type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
+            <img
+            src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/posts/asian-eyewear-00/asian-eyewear-01"
+            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa"
+            loading="lazy"
+            decoding="async"
+            class="card-img-top img-fluid"
+            />
+        </picture>
         <div class="card-body">
             <h3 class="card-title">
                 Periksa Mata Gratis Di Optikal Bahari

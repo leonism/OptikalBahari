@@ -138,5 +138,8 @@ LICENSE
 # node modules
 node_modules/
 .agent
+
+# individual file
 *.log
 _backup
+.smart_asset_cache.yml
