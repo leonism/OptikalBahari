@@ -14,9 +14,10 @@ tags: [lensa, produk]
 background: /assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-01.webp
 comments: true
 ---
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary/card_image.html src='' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/card_image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp' alt='Kacamata untuk Hijabers: Solusi Fashionable dan Fungsional' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kacamata untuk Hijabers: Solusi Fashionable dan Fungsional
@@ -54,7 +55,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary/card_image.html src='' alt='Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/card_image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-03.webp' alt='Trendy dan Timeless: Kacamata Hijab yang Cocok untuk Segala Acara' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Trendy dan Timeless: Kacamata Hijab yang Cocok untuk Segala Acara
@@ -89,7 +90,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary/card_image.html src='' alt='Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/card_image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp' alt='Kacamata Hijabers: Tips Berbelanja yang Bijak dan Menguntungkan' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kacamata Hijabers: Tips Berbelanja yang Bijak dan Menguntungkan
@@ -120,7 +121,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary/card_image.html src='' alt='Temukan Kacamata Hijab yang Cocok di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/card_image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp' alt='Temukan Kacamata Hijab yang Cocok di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Temukan Kacamata Hijab yang Cocok di Optikal Bahari

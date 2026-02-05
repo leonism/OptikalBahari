@@ -1,44 +1,44 @@
 {%- comment -%}
-  UNIVERSAL CLOUDINARY COMPONENT
-  Accepts:
-  - src: The image path (Static string or dynamic variable)
-  - alt: Descriptive text (Optional, falls back to title)
-  - title: Fallback for alt text (Optional)
-  - ratio: CSS class for aspect ratio (Default: 16x9)
-  - class: Additional CSS classes (Default: card-img-top)
+  UNIVERSAL CLOUDINARY COMPONENT - STRETCH-FREE (NO SKELETON)
 {%- endcomment -%}
 
-{%- assign image_src = include.src -%}
-{%- assign image_alt = include.alt | default: include.title | default: site.title | escape -%}
-{%- assign image_class = include.class | default: "card-img-top" -%}
-{%- assign image_ratio = include.ratio | default: "16x9" -%}
+{%- if include.src -%}
+  {%- comment -%} 1. Path Sanitization (Handle leading slash) {%- endcomment -%}
+  {%- assign raw_src = include.src | strip -%}
+  {%- assign first_char = raw_src | slice: 0 -%}
+  {%- if first_char == "/" -%}
+    {%- assign clean_src = raw_src | slice: 1, raw_src.size -%}
+  {%- else -%}
+    {%- assign clean_src = raw_src -%}
+  {%- endif -%}
 
-{%- if image_src -%}
-<div class="image-ratio-wrapper {{ image_ratio }}">
-  <picture>
-    <source
-      srcset="{{ image_src | cloudinary_url: 'f_avif,q_auto,w_480' }} 480w,
-              {{ image_src | cloudinary_url: 'f_avif,q_auto,w_768' }} 768w,
-              {{ image_src | cloudinary_url: 'f_avif,q_auto,w_1200' }} 1200w"
-      type="image/avif"
-      sizes="(max-width: 768px) 100vw, 768px"
-    />
-    <source
-      srcset="{{ image_src | cloudinary_url: 'f_webp,q_auto,w_480' }} 480w,
-              {{ image_src | cloudinary_url: 'f_webp,q_auto,w_768' }} 768w,
-              {{ image_src | cloudinary_url: 'f_webp,q_auto,w_1200' }} 1200w"
-      type="image/webp"
-      sizes="(max-width: 768px) 100vw, 768px"
-    />
-    <img
-      src="{{ image_src | cloudinary_url: 'f_auto,q_auto,w_768' }}"
-      alt="{{ image_alt }}"
-      class="{{ image_class }}"
-      loading="lazy"
-      decoding="async"
-      width="768"
-      height="432"
-    />
-  </picture>
-</div>
+  {%- assign image_alt = include.alt | default: include.title | default: site.title | escape -%}
+  {%- assign image_class = include.class | default: "card-img-top" -%}
+  {%- assign image_ratio = include.ratio | default: "ratio-16x9" -%}
+
+  <div class="image-ratio-wrapper {{ image_ratio }}">
+    <picture>
+      {%- comment -%}
+        c_fill + h_XXX ensures Cloudinary sends a 16:9 file.
+        g_auto keeps the subject centered.
+      {%- endcomment -%}
+      <source
+        srcset="{{ clean_src | cloudinary_url: 'w_480,h_270,c_fill,g_auto' }} 480w,
+                {{ clean_src | cloudinary_url: 'w_768,h_432,c_fill,g_auto' }} 768w,
+                {{ clean_src | cloudinary_url: 'w_1200,h_675,c_fill,g_auto' }} 1200w"
+        type="image/webp"
+        sizes="(max-width: 768px) 100vw, 768px"
+      />
+      <img
+        src="{{ clean_src | cloudinary_url: 'w_768,h_432,c_fill,g_auto' }}"
+        alt="{{ image_alt }}"
+        class="{{ image_class }}"
+        style="object-fit: cover; object-position: center; width: 100%; height: 100%;"
+        loading="lazy"
+        decoding="async"
+        width="768"
+        height="432"
+      />
+    </picture>
+  </div>
 {%- endif -%}
