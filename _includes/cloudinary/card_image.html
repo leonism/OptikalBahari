@@ -1,22 +1,44 @@
-{% comment %}
-  Usage: {% include cloudinary/card_image.html src="assets/img/bg-about.webp" alt="Description" ratio="16x9" class="card-img-top" %}
-{% endcomment %}
+{%- comment -%}
+  UNIVERSAL CLOUDINARY COMPONENT
+  Accepts:
+  - src: The image path (Static string or dynamic variable)
+  - alt: Descriptive text (Optional, falls back to title)
+  - title: Fallback for alt text (Optional)
+  - ratio: CSS class for aspect ratio (Default: 16x9)
+  - class: Additional CSS classes (Default: card-img-top)
+{%- endcomment -%}
 
-<div class="ratio ratio-{{ include.ratio | default: '16x9' }}" style="overflow: hidden; display: block;">
+{%- assign image_src = include.src -%}
+{%- assign image_alt = include.alt | default: include.title | default: site.title | escape -%}
+{%- assign image_class = include.class | default: "card-img-top" -%}
+{%- assign image_ratio = include.ratio | default: "16x9" -%}
+
+{%- if image_src -%}
+<div class="image-ratio-wrapper {{ image_ratio }}">
   <picture>
     <source
-      srcset="{{ include.src | cloudinary_url: 'w_400,f_avif,q_auto' }} 400w,
-              {{ include.src | cloudinary_url: 'w_800,f_avif,q_auto' }} 800w"
-      type="image/avif">
+      srcset="{{ image_src | cloudinary_url: 'f_avif,q_auto,w_480' }} 480w,
+              {{ image_src | cloudinary_url: 'f_avif,q_auto,w_768' }} 768w,
+              {{ image_src | cloudinary_url: 'f_avif,q_auto,w_1200' }} 1200w"
+      type="image/avif"
+      sizes="(max-width: 768px) 100vw, 768px"
+    />
     <source
-      srcset="{{ include.src | cloudinary_url: 'w_400,f_webp,q_auto' }} 400w,
-              {{ include.src | cloudinary_url: 'w_800,f_webp,q_auto' }} 800w"
-      type="image/webp">
+      srcset="{{ image_src | cloudinary_url: 'f_webp,q_auto,w_480' }} 480w,
+              {{ image_src | cloudinary_url: 'f_webp,q_auto,w_768' }} 768w,
+              {{ image_src | cloudinary_url: 'f_webp,q_auto,w_1200' }} 1200w"
+      type="image/webp"
+      sizes="(max-width: 768px) 100vw, 768px"
+    />
     <img
-      src="{{ include.src | cloudinary_url: 'w_800,q_auto,f_auto' }}"
-      alt="{{ include.alt }}"
-      class="{{ include.class }}"
-      loading="{{ include.loading | default: 'lazy' }}"
-      style="object-fit: cover; width: 100%; height: 100%;">
+      src="{{ image_src | cloudinary_url: 'f_auto,q_auto,w_768' }}"
+      alt="{{ image_alt }}"
+      class="{{ image_class }}"
+      loading="lazy"
+      decoding="async"
+      width="768"
+      height="432"
+    />
   </picture>
 </div>
+{%- endif -%}
