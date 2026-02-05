@@ -34,3 +34,5 @@
 {% endif %}
 
 <meta property="og:site_name" content="{{ site.title }}" />
+{% assign logo_path = "assets/img/logo.webp" %}
+<meta property="og:logo" content="{{ logo_path | cloudinary_url: 'q_auto,f_png' | append: '.png' }}" />
