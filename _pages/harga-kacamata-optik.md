@@ -16,6 +16,7 @@ background: /assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-00.webp
 permalink: /harga-kacamata-optik-baca-autofokus-progresif/
 comments: false
 ---
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-01.webp' alt='Buka Rahasia: Harga Kacamata Optik yang Memikat Hati di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
@@ -178,7 +179,7 @@ comments: false
 					{{ post.description | strip_html | truncate: 100 }}
 					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
 						href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-						title="{{ post.title }}">Lebih Lanjut
+						title="{{ post.title }}"><i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
 					</a>
 				</p>
 			</div>

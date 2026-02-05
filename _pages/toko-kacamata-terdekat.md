@@ -14,6 +14,7 @@ background: /assets/img/posts/018.webp
 permalink: /toko-kacamata-terdekat/
 comments: false
 ---
+
 <div class="card shadow p-3 mb-5 bg-white rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
@@ -25,7 +26,7 @@ comments: false
             Memiliki kacamata merupakan kebutuhan bagi kebanyakan orang, terlebih bagi mereka yang memiliki kesulitan dalam melihat. Namun, membeli kacamata bukanlah sebuah keputusan yang mudah. Anda harus mempertimbangkan berbagai faktor seperti kebutuhan, gaya, dan harga. Namun, jangan khawatir, di Optikal Bahari, kami memiliki berbagai pilihan lensa dan frame yang dapat dipilih sesuai dengan kebutuhan dan keinginan Anda. Kami menawarkan harga yang terjangkau tanpa mengurangi kualitas produk yang kami tawarkan. Kami yakin bahwa kacamata yang kami tawarkan akan memenuhi kebutuhan dan keinginan Anda.
         </p>
         <p class="card-text text-start">
-            Selain itu, kami juga menawarkan layanan periksa mata gratis di Optikal Bahari, Kemayoran. Kacamata yang kami tawarkan juga dilengkapi dengan garansi, sehingga Anda tidak perlu khawatir jika terjadi masalah dengan kacamata Anda. Kami juga menawarkan pembayaran melalui cicilan dengan bunga 0% dan tanpa perlu menggunakan credit card. Segera hubungi kami untuk informasi lebih lanjut.
+            Selain itu, kami juga menawarkan layanan periksa mata gratis di Optikal Bahari, Kemayoran. Kacamata yang kami tawarkan juga dilengkapi dengan garansi, sehingga Anda tidak perlu khawatir jika terjadi masalah dengan kacamata Anda. Kami juga menawarkan pembayaran melalui cicilan dengan bunga 0% dan tanpa perlu menggunakan credit card. Segera hubungi kami untuk informasi <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut.
         </p>
     </div>
 </div>

@@ -6,7 +6,7 @@
       {% for post in site.categories[category] limit: 3 %}
       <div class="col-12 col-md-{% if forloop.index == 1 %}12{% else %}6{% endif %} col-lg-4 mb-5">
         <div class="card shadow p-0 bg-white rounded hover-zoomin">
-          <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+          <a href="{{ post.url | relative_url }}" title="{{ post.title }}" role="button">
             {% if post.background %}
               {% capture card_content %}
                 {% include cloudinary/cloudinary_image.html
@@ -24,7 +24,7 @@
               {{ post.description | strip_html | truncate: 100 }}.
               <a class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none"
                 href="{{ post.url | relative_url }}" title="{{ post.title }}">
-                Lebih Lanjut
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
               </a>
             </p>
           </div>

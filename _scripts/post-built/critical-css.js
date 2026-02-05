@@ -14,10 +14,9 @@ async function generateCriticalCSS() {
         inline: true,
         base: '_site/',
         src: file.replace('_site/', ''),
-        dest: file,
+        target: file.replace('_site/', ''),
         width: 1300,
         height: 900,
-        minify: true,
         extract: true,
         ignore: ['@font-face'],
       })

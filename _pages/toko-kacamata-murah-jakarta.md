@@ -14,6 +14,7 @@ background: /assets/img/posts/010.webp
 permalink: /toko-kacamata-murah-di-jakarta/
 comments: false
 ---
+
 <div class="card shadow p-3 mb-5 bg-white rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
@@ -23,7 +24,7 @@ comments: false
         </p>
         <p class="card-text text-start">
             Kami memiliki berbagai pilihan lensa dan frame yang dapat dipilih sesuai dengan kebutuhan dan keinginan Anda, dengan harga yang beragam. Namun, kualitas produk yang kami tawarkan tidak perlu diragukan lagi, kami yakin bahwa kacamata yang kami tawarkan akan memenuhi kebutuhan dan keinginan Anda.
-            Jangan lupa juga bahwasannya kami menawarkan layanan periksa mata gratis, kacamata bergaransi, bisa membayar melalui cicilan dengan bungan 0% dan tanpa credit card, segera hubungin kami untuk informasi lebih lanjut.
+            Jangan lupa juga bahwasannya kami menawarkan layanan periksa mata gratis, kacamata bergaransi, bisa membayar melalui cicilan dengan bungan 0% dan tanpa credit card, segera hubungin kami untuk informasi <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut.
         </p>
     </div>
 </div>

@@ -16,6 +16,7 @@ background: /assets/img/posts/kacamata-pria/kacamata-pria-00.webp
 permalink: /kacamata-pria/
 comments: false
 ---
+
 <div class="card shadow p-3 bg-white mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-pria/kacamata-pria-01.webp' alt='Kacamata Pria Yang Cocok Dengan Gaya Anda' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
@@ -58,7 +59,7 @@ comments: false
     </p>
     <p class="card-text text-start">
       Pertama, perhatikan apakah ada goresan atau retakan pada lensa atau bingkai kacamata Anda. Meskipun terlihat
-            kecil, goresan tersebut dapat mengganggu penglihatan Anda dan bahkan menyebabkan kerusakan lebih lanjut jika
+            kecil, goresan tersebut dapat mengganggu penglihatan Anda dan bahkan menyebabkan kerusakan <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut jika
             tidak segera diperbaiki. Layanan gratis service & reparasi kacamata dari Optikal Bahari dapat membantu
             mengatasi masalah ini dengan cepat dan efisien.
     </p>

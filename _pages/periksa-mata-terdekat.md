@@ -14,6 +14,7 @@ background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-37.web
 permalink: /periksa-mata-terdekat/
 comments: false
 ---
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.webp' alt='Periksa Mata Gratis Terdekat' ratio='16x9' class='card-img-top' %}
@@ -101,7 +102,7 @@ comments: false
       <p class="card-text text-start">
         Penggunaan
         <strong>autorefraktometer</strong>
-        memungkinkan kami untuk memberikan hasil pemeriksaan mata yang akurat dan obyektif dalam waktu singkat. Sebelum kami melakukan diagnosis lebih lanjut, kami mengumpulkan data yang komprehensif tentang kondisi penglihatan Anda. Dari hasil pengukuran refraktif mata, kami dapat mengidentifikasi masalah seperti rabun jauh, rabun dekat, dan
+        memungkinkan kami untuk memberikan hasil pemeriksaan mata yang akurat dan obyektif dalam waktu singkat. Sebelum kami melakukan diagnosis <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut, kami mengumpulkan data yang komprehensif tentang kondisi penglihatan Anda. Dari hasil pengukuran refraktif mata, kami dapat mengidentifikasi masalah seperti rabun jauh, rabun dekat, dan
         <em>astigmatisme</em>
         dengan tepat.
       </p>

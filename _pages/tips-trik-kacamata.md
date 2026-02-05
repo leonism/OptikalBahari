@@ -39,7 +39,7 @@ comments: false
                 <a class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none text-white"
                   href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
                   title="{{ post.title }}">
-                  Lebih Lanjut
+                  <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
                 </a>
               </p>
             </div>
@@ -87,7 +87,7 @@ comments: false
                 <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none text-white"
                   href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
                   title="{{ post.title }}">
-                  Lebih Lanjut
+                  <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
                 </a>
               </p>
             </div>
@@ -135,7 +135,7 @@ comments: false
                 <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none text-white"
                   href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
                   title="{{ post.title }}">
-                  Lebih Lanjut
+                  <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
                 </a>
               </p>
             </div>

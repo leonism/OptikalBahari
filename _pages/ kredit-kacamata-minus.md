@@ -60,7 +60,7 @@ comments: false
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">
-        Temukan solusi untuk membeli kacamata berkualitas dengan harga terjangkau hanya di Optikal Bahari. Kami menyediakan layanan pembelian kacamata dengan cara kredit, serta memiliki banyak pilihan lensa dan frame dengan harga yang terjangkau. Jangan ragu untuk datang ke Optikal Bahari di Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat atau hubungi kami untuk informasi lebih lanjut. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
+        Temukan solusi untuk membeli kacamata berkualitas dengan harga terjangkau hanya di Optikal Bahari. Kami menyediakan layanan pembelian kacamata dengan cara kredit, serta memiliki banyak pilihan lensa dan frame dengan harga yang terjangkau. Jangan ragu untuk datang ke Optikal Bahari di Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat atau hubungi kami untuk informasi <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
         <a
           href="https://www.facebook.com/optikalbahari"
           id="FBClick"

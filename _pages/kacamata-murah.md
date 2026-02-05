@@ -14,6 +14,7 @@ background: /assets/img/posts/sunglasses/optikal-bahari-sunglassses.webp
 permalink: /kacamata-murah/
 comments: false
 ---
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
@@ -93,7 +94,7 @@ comments: false
 					{{ post.description | strip_html | truncate: 100 }}
 					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
 						href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-						title="{{ post.title }}">Lebih Lanjut
+						title="{{ post.title }}"><i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
 					</a>
 				</p>
 			</div>
@@ -145,7 +146,7 @@ comments: false
 					{{ post.description | strip_html | truncate: 100 }}
 					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
 						href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-						title="{{ post.title }}">Lebih Lanjut
+						title="{{ post.title }}"><i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
 					</a>
 				</p>
 			</div>
