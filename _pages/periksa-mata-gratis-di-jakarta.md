@@ -14,6 +14,7 @@ background: /assets/img/posts/021.webp
 permalink: /periksa-mata-gratis-di-jakarta/
 comments: false
 ---
+
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
 		  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}

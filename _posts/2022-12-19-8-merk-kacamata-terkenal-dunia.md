@@ -38,46 +38,40 @@ permalink: /8-merk-kacamata-terkenal-dunia/
   <div class="card shadow p-3 mb-5 bg-white rounded">
     {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp' alt='Oakley adalah merk frame kacamata yang terkenal karena kualitas dan teknologi yang diaplikasikannya' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
-      <h3 class="card-title">
-        Oakley
-      </h3>
-      <p class="card-text text-start">
-        Oakley adalah merk frame kacamata yang terkenal karena kualitas dan teknologi yang diaplikasikannya. Merk ini menawarkan frame kacamata yang tahan lama dan nyaman digunakan dan dilengkapi dengan lensa yang memiliki perlindungan untuk radiasi Ultraviolet. Merk kacamata asal Amerika Serikat ini juga terkenal dengan deisgn yang unik dan inovatif. Beberapa model frame kacamata Oakley yang paling terkenal adalah <strong>Holbrook</strong>, <strong>Frogskins</strong>, dan <strong>Gascan</strong>.
-      </p>
-      <h5 class="card-title">
-        Holbrook
-      </h5>
-      <p class="card-text text-start">
-        Model Holbrook merupakan model frame kacamata yang terinspirasi dari gaya kacamata yang populer pada tahun 1950-an. Frame ini memiliki desain yang klasik dan elegan, dan cocok untuk digunakan oleh orang-orang yang menyukai gaya hidup yang lebih santai.
-      <ul>
-        <li>Desain abadi yang mengingatkan pada tahun 1950-an.</li>
-        <li>Estetika klasik dan elegan.</li>
-        <li>Ideal untuk individu yang menyukai gaya hidup santai.</li>
-      </ul>
-      </p>
-      <h5 class="card-title">Frogskins</h5>
-      <p class="card-text text-start">
-        Model Frogskins merupakan model frame kacamata yang terinspirasi dari tren fashion tahun 1980-an. Frame ini memiliki desain yang unik dan stylish, dan cocok untuk digunakan oleh orang-orang yang menyukai gaya hidup aktif.
-      </p>
-      <ul>
-        <li>Siluet yang berani dan terinspirasi gaya retro.</li>
-        <li>Dipopulerkan oleh ikon budaya pada tahun 1980-an.</li>
-        <li>Menampilkan gaya vintage dan khas.</li>
-      </ul>
-      <h5 class="card-title">
-        Gascan
-      </h5>
-      <p class="card-text text-start">
-        Model Gascan merupakan model frame kacamata yang terinspirasi dari frame kacamata yang digunakan oleh atlit profesional. Frame ini memiliki desain yang sporty dan cocok untuk digunakan oleh orang-orang yang menyukai gaya hidup modern.
-      </p>
-      <ul>
-        <li>Desain ramping dan kontemporer.</li>
-        <li>Menawarkan bidang pandang yang lebih luas.</li>
-        <li>Disukai oleh mereka yang mencari tampilan modern dan berkelas.</li>
-      </ul>
-      <p class="card-text text-start">
-        Kacamata hitam Oakley tidak hanya bergaya tetapi juga sangat fungsional, menjadikannya pilihan sempurna bagi individu yang mencari perlindungan mata superior dan performa luar biasa. Baik Anda seorang atlet, penggemar aktivitas luar ruangan, atau hanya seseorang yang menghargai kualitas dan gaya, Oakley memiliki kacamata hitam yang sesuai dengan kebutuhan Anda. Oakley juga menawarkan pilihan lensa dengan teknologi photocromic yang mampu mengubah warna lensa sesuai dengan cahaya yang masuk.
-      </p>
+      <h3 class="card-title">Oakley: Kacamata dengan Teknologi dan Gaya Futuristik</h3>
+        <p class="card-text text-start">
+          Oakley adalah merek kacamata premium asal Amerika Serikat yang dikenal karena pendekatan revolusionernya terhadap desain dan teknologi. Lebih dari sekadar aksesori fashion, setiap frame Oakley dibangun dengan ketahanan tinggi, kenyamanan ergonomis, dan dilengkapi dengan lensa berkualitas yang memberikan perlindungan 100% terhadap radiasi ultraviolet (UVA, UVB, dan UVC). Inovasi dan desainnya yang unik dan sering kali futuristik telah menjadikannya pilihan utama bagi atlet, penggemar aktivitas luar ruangan, dan pecinta gaya hidup modern. Di antara beragam koleksinya, tiga model frame paling ikonik adalah <strong>Holbrook</strong>, <strong>Frogskins</strong>, dan <strong>Gascan</strong>.
+        </p>
+        <h5 class="card-title">Holbrook: Nostalgia Klasik yang Tak Lekang Waktu</h5>
+        <p class="card-text text-start">
+          Model Holbrook menghidupkan kembali semangat gaya kacamata klasik dari era 1950-an dengan sentuhan modern. Frame ini menawarkan estetika yang abadi, elegan, dan serbaguna, cocok untuk melengkapi berbagai gaya sehari-hari dengan kesan santai namun berkelas.
+        </p>
+        <ul>
+          <li>Desain timeless yang terinspirasi dari era 1950-an.</li>
+          <li>Estetika klasik dan elegan yang mudah dipadukan.</li>
+          <li>Pilihan ideal untuk gaya kasual dan kehidupan sehari-hari yang santai.</li>
+        </ul>
+        <h5 class="card-title">Frogskins: Energi Retro dari Era 1980-an</h5>
+        <p class="card-text text-start">
+          Frogskins adalah perwujudan dari jiwa bebas dan tren fashion warna-warni tahun 1980-an. Dengan siluet yang berani dan karakter yang mencolok, frame ini dirancang untuk mereka yang ingin menonjolkan kepribadian dan gaya hidup aktif.
+        </p>
+        <ul>
+          <li>Siluet yang khas dan berani, terinspirasi gaya retro tahun 80-an.</li>
+          <li>Dipopulerkan oleh berbagai ikon budaya pop pada masanya.</li>
+          <li>Menampilkan identitas visual yang kuat dan penuh gaya vintage.</li>
+        </ul>
+        <h5 class="card-title">Gascan: Desain Sportif dan Performa Tinggi</h5>
+        <p class="card-text text-start">
+          Terinspirasi oleh dunia olahraga profesional, model Gascan menampilkan desain yang ramping, kokoh, dan penuh performa. Frame ini cocok untuk gaya hidup dinamis dan mereka yang mengutamakan fungsi serta tampilan modern yang penuh ketegasan.
+        </p>
+        <ul>
+          <li>Desain ramping, kontemporer, dan berstruktur kokoh.</li>
+          <li>Konstruksi yang menyatu menawarkan bidang pandang yang lebih luas.</li>
+          <li>Disukai oleh mereka yang menginginkan tampilan modern, sporty, dan berkarakter.</li>
+        </ul>
+        <p class="card-text text-start">
+          Kacamata Oakley secara konsisten menggabungkan gaya avant-garde dengan fungsionalitas teknologi tinggi, menjadikannya investasi bagi yang mengutamakan perlindungan mata superior dan performa visual optimal. Baik untuk kebutuhan atletik, petualangan luar ruangan, maupun ekspresi gaya personal, Oakley menawarkan solusi yang disesuaikan. Inovasinya meluas ke berbagai pilihan lensa, termasuk teknologi fotokromik yang secara otomatis menyesuaikan tingkat kegelapan lensa berdasarkan intensitas cahaya, serta lensa khusus untuk pengendara atau olahraga tertentu.
+        </p>
     </div>
   </div>
 </div>
@@ -109,7 +103,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/persol-714.webp' alt='Persol adalah merk frame kacamata asal Italia yang terkenal karena desainnya yang elegan dan klasik' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp' alt='Persol adalah merk frame kacamata asal Italia yang terkenal karena desainnya yang elegan dan klasik' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Persol</h3>
       <p class="card-text text-start">
@@ -126,7 +120,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/prada-11rs.webp' alt='Model frame kacamata Prada yang paling terkenal adalah PR11RS dan PR01OS' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp' alt='Model frame kacamata Prada yang paling terkenal adalah PR11RS dan PR01OS' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Prada</h3>
       <p class="card-text text-start">
@@ -141,7 +135,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/tomford-5179.webp' alt='Model frame kacamata Tom Ford yang paling terkenal adalah FT5179' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp' alt='Model frame kacamata Tom Ford yang paling terkenal adalah FT5179' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Tom Ford</h3>
       <p class="card-text text-start">
@@ -156,7 +150,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/burberry-102.webp' alt='Merk kacamata asal Inggris ini terkenal dengan frame kacamatanya yang elegan dan berkualitas tinggi' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp' alt='Merk kacamata asal Inggris ini terkenal dengan frame kacamatanya yang elegan dan berkualitas tinggi' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Burberry</h3>
       <p class="card-text text-start">
@@ -177,7 +171,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/versace-102.webp' alt='Versace adalah merk frame kacamata yang terkenal dengan desainnya yang mewah dan eksklusif' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp' alt='Versace adalah merk frame kacamata yang terkenal dengan desainnya yang mewah dan eksklusif' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Versace</h3>
       <p class="card-text text-start">
@@ -199,7 +193,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/gucci-102.webp' alt='Gucci adalah salah satu merk frame kacamata terbaik di dunia yang dikenal dengan desainnya yang mewah dan eksklusif' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp' alt='Gucci adalah salah satu merk frame kacamata terbaik di dunia yang dikenal dengan desainnya yang mewah dan eksklusif' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Gucci
