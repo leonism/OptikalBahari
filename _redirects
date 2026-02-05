@@ -11,13 +11,64 @@ http://www.optikalbahari.com/* https://www.optikalbahari.com/:splat 301
 # Redirect no-slash to slash for all primary pages
 
 /jenis-tipe-lensa-kacamata-terbaik /jenis-tipe-lensa-kacamata-terbaik/ 301
-/periksa-mata-gratis /periksa-mata-gratis/ 301
+/8-merk-kacamata-terkenal-dunia /8-merk-kacamata-terkenal-dunia/ 301
+/kacamata-retro-kembali-populer /kacamata-retro-kembali-populer/ 301
+/tips-kacamata-gaya-rambut /tips-kacamata-gaya-rambut/ 301
 /tips-kacamata /tips-kacamata/ 301
+/optik-periksa-mata-gratis-terdekat /optik-periksa-mata-gratis-terdekat/ 301
+/cara-merawat-menjaga-kacamata /cara-merawat-menjaga-kacamata/ 301
+/toko-kacamata /toko-kacamata/ 301
 /lokasi /lokasi/ 301
-/tentang /tentang/ 301
+/tips-kacamata-pemula-nyaman-dipakai /tips-kacamata-pemula-nyaman-dipakai/ 301
+/kacamata-cicilan /kacamata-cicilan/ 301
+/kredit-kacamata-terdekat /kredit-kacamata-terdekat/ 301
+/testimoni /testimoni/ 301
+/periksa-mata /periksa-mata/ 301
+/optikal-bahari-kjp-kartu-jakarta-pintar /optikal-bahari-kjp-kartu-jakarta-pintar/ 301
+/profil /profil/ 301
+/periksa-mata-di-optik /periksa-mata-di-optik/ 301
+/jenis-tipe-lensa-kacamata-terbaik /jenis-tipe-lensa-kacamata-terbaik/ 301
+/kacamata-minus-trendy-kekinian /kacamata-minus-trendy-kekinian/ 301
+/mengenal-lebih-dekat-jenis-lensa-progresif-untuk-penderita-presbiopia /mengenal-lebih -dekat-jenis-lensa-progresif-untuk-penderita-presbiopia/ 301
+/periksa-mata-gratis /periksa-mata-gratis/ 301
+/rekomendasi-optik-di-jakarta /rekomendasi-optik-di-jakarta/ 301
+/style-kacamata-bulat-selebriti-korea-selatan /style-kacamata-bulat-selebriti-korea-selatan/ 301
+/keuntungan-kacamata-gaya-penampilan /keuntungan-kacamata-gaya-penampilan/ 301
+/optik-kemayoran /optik-kemayoran/ 301
+/optik-kacamata-kjp-kartu-jakarta-pintar /optik-kacamata-kjp-kartu-jakarta-pintar/ 301
+/5-tanda-sudah-waktunya-kamu-ganti-lensa-kacamata /5-tanda-sudah-waktunya-kamu-ganti-lensa-kacamata/ 301
+/gaya-kacamata-thug-life /gaya-kacamata-thug-life/ 301
+/periksa-mata-terdekat-gratis-kemayoran /periksa-mata-terdekat-gratis-kemayoran/ 301
+/tips-kacamata-untuk-wajah-bulat /tips-kacamata-untuk-wajah-bulat/ 301
+/optik-terbaik-di-jakarta /optik-terbaik-di-jakarta/ 301
+/optik-terdekat /optik-terdekat/ 301
+/kenapa-optikal-bahari /kenapa-optikal-bahari/ 301
+/periksa-mata-terdekat /periksa-mata-terdekat/ 301
+/tips-trik-kacamata /tips-trik-kacamata/ 301
+/kacamata-anti-radiasi-matahari-gadget /kacamata-anti-radiasi-matahari-gadget/ 301
+/optik-murah-kemayoran /optik-murah-kemayoran/ 301
+/kebijakan-situs /kebijakan-situs/ 301
+/anti-lensa-blue-ray-optik-bahari /anti-lensa-blue-ray-optik-bahari/ 301
+/posts /posts/ 301
+/posts/index.html /posts/ 301
+/kacamata-k-ion-nano /kacamata-k-ion-nano/ 301
 /kontak /kontak/ 301
-/promo /promo/ 301
-/frame-kacamata-terbaru /frame-kacamata-terbaru/ 301
+/posts/posts/page/2/index.html /posts/ 301
+/optik-mata-terdekat /optik-mata-terdekat/ 301
+/toko-kacamata-terdekat /toko-kacamata-terdekat/ 301
+/optik-kacamata-terdekat /optik-kacamata-terdekat/ 301
+/www.optikalbahari.com/jenis-tipe-lensa-kacamata-terbaikokasi /lokasi/ 301
+/www.optikalbahari.com/profil /profil/ 301
+/kacamata-jelly /kacamata-jelly/ 301
+/tren-kacamata-kekinian-penampilan-stylish /tren-kacamata-kekinian-penampilan-stylish/ 301
+/model-kacamata /model-kacamata/ 301
+/kemayoran /kemayoran/ 301
+/periksa-mata-kemayoran /periksa-mata-kemayoran/ 301
+/lensa-photocromic-optik-bahari /lensa-photocromic-optik-bahari/ 301
+/kacamata-murah-jakarta /kacamata-murah-jakarta/ 301
+/kacamata-murah-di-jakarta /kacamata-murah-di-jakarta/ 301
+/melihat-ke-masa-depan-seperti-apa-industri-kacamata-dalam-10-tahun /melihat-ke-masa-depan-seperti-apa-industri-kacamata-dalam-10-tahun/ 301
+/perawatan-kacamata-anak /perawatan-kacamata-anak/ 301
 
 # --- 3. LEGACY & BROKEN PATH CLEANUP ---
 
@@ -28,9 +79,9 @@ http://www.optikalbahari.com/* https://www.optikalbahari.com/:splat 301
 
 # Redirect old SEO keywords to the current Jakarta landing page
 
-/optik-mata-terdekat /rekomendasi-optik-di-jakarta/ 301
-/toko-kacamata-terdekat /rekomendasi-optik-di-jakarta/ 301
-/optik-kacamata-terdekat /rekomendasi-optik-di-jakarta/ 301
+/optik-mata-terdekat /kenapa-optikal-bahari/ 301
+/toko-kacamata-terdekat /kenapa-optikal-bahari/ 301
+/optik-kacamata-terdekat /kenapa-optikal-bahari/ 301
 
 # --- 4. GLOBAL 404 FALLBACK ---
 

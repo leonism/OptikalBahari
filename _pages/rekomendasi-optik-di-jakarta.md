@@ -14,11 +14,12 @@ background: /assets/img/posts/015.webp
 permalink: /rekomendasi-optik-di-jakarta/
 comments: false
 ---
+
 <div class="card shadow p-3 bg-white mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-cicilan/kacamata-cicilan.webp' alt='kacamata cicilan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
-      Rekomenedasi Optik Di Jakarta Yang Terjangkau.
+      Rekomendasi Optik Di Jakarta Yang Terjangkau.
     </h3>
     <p class="card-text text-start">
       Kalo kamu kebetulan tinggal atau sedang berada di daerah Kemayoran atau sekitarnya, dan sedang mempertimbangkan utuk membeli Kacamata berhubung mungkin ukuran kamu sudah berubah atau butuh model baru karena model lama mungkin sudah bosan, mungkin boleh dicoba untuk mampir ke Optikal Bahari, di
