@@ -1,28 +1,37 @@
-/assets/*
-  Cache-Control: public, max-age=31536000, immutable
+# --- 1. DOMAIN & PROTOCOL CANONICALIZATION ---
 
-/*.css
-  Cache-Control: public, max-age=31536000, immutable
+# Redirect non-www to www (and force HTTPS)
 
-/*.js
-  Cache-Control: public, max-age=31536000, immutable
+http://optikalbahari.com/_ https://www.optikalbahari.com/:splat 301
+https://optikalbahari.com/_ https://www.optikalbahari.com/:splat 301
+http://www.optikalbahari.com/* https://www.optikalbahari.com/:splat 301
 
-/*.webp
-  Cache-Control: public, max-age=31536000, immutable
+# --- 2. TRAILING SLASH ENFORCEMENT ---
 
-/*.ico
-  Cache-Control: public, max-age=31536000, immutable
+# Redirect no-slash to slash for all primary pages
 
+/jenis-tipe-lensa-kacamata-terbaik /jenis-tipe-lensa-kacamata-terbaik/ 301
+/periksa-mata-gratis /periksa-mata-gratis/ 301
+/tips-kacamata /tips-kacamata/ 301
+/lokasi /lokasi/ 301
+/tentang /tentang/ 301
+/kontak /kontak/ 301
+/promo /promo/ 301
+/frame-kacamata-terbaru /frame-kacamata-terbaru/ 301
 
+# --- 3. LEGACY & BROKEN PATH CLEANUP ---
 
+# Fixes the double 'posts' folder from previous Jekyll build errors
 
-# Fix the broken nested loop URL found in your report
-/posts/posts/page/2/index.html  /blog/  301
+/posts/posts/page/2/index.html /blog/ 301
+/posts/posts/\* /blog/ 301
 
-# Fix the duplicate/old locations found in your report
-/optik-mata-terdekat  /rekomendasi-optik-di-jakarta/  301
-/toko-kacamata-terdekat  /rekomendasi-optik-di-jakarta/  301
-/optik-kacamata-terdekat  /rekomendasi-optik-di-jakarta/  301
+# Redirect old SEO keywords to the current Jakarta landing page
 
-# Ensure 404s are handled correctly (Jekyll default)
-/404.html  404
+/optik-mata-terdekat /rekomendasi-optik-di-jakarta/ 301
+/toko-kacamata-terdekat /rekomendasi-optik-di-jakarta/ 301
+/optik-kacamata-terdekat /rekomendasi-optik-di-jakarta/ 301
+
+# --- 4. GLOBAL 404 FALLBACK ---
+
+/\* /404.html 404
