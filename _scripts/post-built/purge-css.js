@@ -1,7 +1,5 @@
-const { PurgeCSS } = require('purgecss')
 const fs = require('fs-extra')
 const path = require('path')
-const glob = require('glob')
 
 const SITE_DIR = '_site'
 
@@ -9,6 +7,8 @@ async function runPurgeCSS() {
   console.log('🧹 Purging unused CSS...')
 
   try {
+    const { PurgeCSS } = await import('purgecss')
+    
     const purgecssResult = await new PurgeCSS().purge({
       content: [`${SITE_DIR}/**/*.html`, `${SITE_DIR}/**/*.js`],
       css: [`${SITE_DIR}/**/*.css`],

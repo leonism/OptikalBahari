@@ -1,6 +1,4 @@
 const fs = require('fs-extra');
-const glob = require('glob');
-const { minify } = require('html-minifier-terser');
 const path = require('path');
 
 const SITE_DIR = '_site';
@@ -8,7 +6,10 @@ const SITE_DIR = '_site';
 async function main() {
   console.log('🚀 Starting HTML minification...');
 
-  const htmlFiles = glob.sync(`${SITE_DIR}/**/*.html`);
+  const { glob } = await import('glob');
+  const { minify } = await import('html-minifier-terser');
+
+  const htmlFiles = await glob(`${SITE_DIR}/**/*.html`);
   let totalOriginalSize = 0;
   let totalMinifiedSize = 0;
 
