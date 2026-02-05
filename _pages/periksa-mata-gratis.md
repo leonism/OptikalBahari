@@ -18,18 +18,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <picture>
-    <!-- AVIF format -->
-    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
-      " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-    <!-- WEBP format -->
-    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
-      " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-    <!-- JPEG fallback -->
-    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
-      " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-    {% include cloudinary/card_image.html src='https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14' alt='Periksa Mata Gratis di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
-    </picture>
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp' alt='Periksa Mata Gratis di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Gratis

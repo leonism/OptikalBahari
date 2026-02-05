@@ -1,47 +1,44 @@
 {%- comment -%}
-  UNIVERSAL CLOUDINARY COMPONENT WITH SKELETON PRELOADER
+  UNIVERSAL CLOUDINARY COMPONENT
+  Accepts:
+  - src: The image path (Static string or dynamic variable)
+  - alt: Descriptive text (Optional, falls back to title)
+  - title: Fallback for alt text (Optional)
+  - ratio: CSS class for aspect ratio (Default: 16x9)
+  - class: Additional CSS classes (Default: card-img-top)
 {%- endcomment -%}
 
-{%- if include.src -%}
-  {%- comment -%} 1. Path Sanitization {%- endcomment -%}
-  {%- assign raw_src = include.src | strip -%}
-  {%- if raw_src startswith "/" -%}
-    {%- assign clean_src = raw_src | slice: 1, raw_src.size -%}
-  {%- else -%}
-    {%- assign clean_src = raw_src -%}
-  {%- endif -%}
+{%- assign image_src = include.src -%}
+{%- assign image_alt = include.alt | default: include.title | default: site.title | escape -%}
+{%- assign image_class = include.class | default: "card-img-top" -%}
+{%- assign image_ratio = include.ratio | default: "16x9" -%}
 
-  {%- comment -%} 2. Alt & Class defaults {%- endcomment -%}
-  {%- assign image_alt = include.alt | default: include.title | default: page.title | default: site.title | escape -%}
-  {%- assign image_class = include.class | default: "card-img-top" -%}
-  {%- assign image_ratio = include.ratio | default: "16x9" -%}
-
-  <div class="image-ratio-wrapper {{ image_ratio }} skeleton-loader" id="container-{{ clean_src | slugify }}">
-    <picture>
-      <source
-        srcset="{{ clean_src | cloudinary_url: 'f_avif,q_auto,w_480' }} 480w,
-                {{ clean_src | cloudinary_url: 'f_avif,q_auto,w_768' }} 768w,
-                {{ clean_src | cloudinary_url: 'f_avif,q_auto,w_1200' }} 1200w"
-        type="image/avif"
-        sizes="(max-width: 768px) 100vw, 768px"
-      />
-      <source
-        srcset="{{ clean_src | cloudinary_url: 'f_webp,q_auto,w_480' }} 480w,
-                {{ clean_src | cloudinary_url: 'f_webp,q_auto,w_768' }} 768w,
-                {{ clean_src | cloudinary_url: 'f_webp,q_auto,w_1200' }} 1200w"
-        type="image/webp"
-        sizes="(max-width: 768px) 100vw, 768px"
-      />
-      <img
-        src="{{ clean_src | cloudinary_url: 'f_auto,q_auto,w_768' }}"
-        alt="{{ image_alt }}"
-        class="{{ image_class }} img-loaded-hidden"
-        loading="lazy"
-        decoding="async"
-        width="768"
-        height="432"
-        onload="this.parentElement.parentElement.classList.remove('skeleton-loader'); this.classList.add('img-loaded-visible');"
-      />
-    </picture>
-  </div>
+{%- if image_src -%}
+<div class="image-ratio-wrapper {{ image_ratio }}">
+  <picture>
+    <source
+      srcset="{{ image_src | cloudinary_url: 'f_avif,q_auto,w_480' }} 480w,
+              {{ image_src | cloudinary_url: 'f_avif,q_auto,w_768' }} 768w,
+              {{ image_src | cloudinary_url: 'f_avif,q_auto,w_1200' }} 1200w"
+      type="image/avif"
+      sizes="(max-width: 768px) 100vw, 768px"
+    />
+    <source
+      srcset="{{ image_src | cloudinary_url: 'f_webp,q_auto,w_480' }} 480w,
+              {{ image_src | cloudinary_url: 'f_webp,q_auto,w_768' }} 768w,
+              {{ image_src | cloudinary_url: 'f_webp,q_auto,w_1200' }} 1200w"
+      type="image/webp"
+      sizes="(max-width: 768px) 100vw, 768px"
+    />
+    <img
+      src="{{ image_src | cloudinary_url: 'f_auto,q_auto,w_768' }}"
+      alt="{{ image_alt }}"
+      class="{{ image_class }}"
+      loading="lazy"
+      decoding="async"
+      width="768"
+      height="432"
+    />
+  </picture>
+</div>
 {%- endif -%}
