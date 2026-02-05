@@ -16,6 +16,7 @@ background: /assets/img/posts/kacamata-anak/kacamata-anak-00.webp
 permalink: /kacamata-anak/
 comments: false
 ---
+
 <div class="card shadow p-3 bg-white mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak/kacamata-anak-01.webp' alt='Kenapa Kacamata Anak Penting untuk Kesehatan Mata Si Kecil?' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
@@ -33,6 +34,8 @@ comments: false
     </p>
   </div>
 </div>
+
+{% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak/kacamata-anak-02.webp' alt='Tips Memilih Kacamata Anak yang Cocok dengan Gaya dan Kebutuhan Si Kecil' ratio='16x9' class='card-img-top' %}
@@ -70,6 +73,8 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak/kacamata-anak-04.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
@@ -88,6 +93,8 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-glasses.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak/kacamata-anak-05.webp' alt='Kunjungi Optikal Bahari Sekarang untuk Menemukan Kacamata Anak yang Tepat' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
@@ -101,12 +108,9 @@ comments: false
       Di Optikal Bahari, kami tidak hanya menawarkan kacamata anak yang fungsional, tetapi juga modis. Dari bingkai yang lucu dan berwarna hingga desain yang trendi dan stylish, Anda akan menemukan semua yang Anda butuhkan di toko kami. Selain itu, dengan garansi 1 tahun dan layanan perbaikan kacamata gratis yang kami sediakan, Anda dapat yakin bahwa kacamata anak Anda akan tetap dalam kondisi terbaik.
     </p>
     <p class="card-text text-start">
-      Jangan tunggu lagi, kunjungi Optikal Bahari sekarang untuk menemukan kacamata anak yang tepat untuk si kecil. Dapatkan pengalaman berbelanja yang menyenangkan dan berikan yang terbaik untuk kesehatan mata mereka. Tim kami siap membantu Anda menemukan kacamata yang sesuai dengan gaya, kebutuhan, dan anggaran Anda. Ayo, segera kunjungi toko kami dan buat si kecil merasa nyaman dan percaya diri dengan kacamata baru mereka.                              
-      Ayo kunjungi toko kami sekarang dan temukan kacamata anak impian buah hati Anda. Dapatkan garansi 1 tahun untuk setiap pembelian kacamata, serta layanan gratis service & reparasi untuk memastikan kacamata Anda tetap dalam kondisi terbaik.		                                                                             
-      Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
-      <a href="{{ "/lokasi/" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan                                                                                                                                                              
-            Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda.                                                                                                                                                              
-            Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+      Jangan tunggu lagi, kunjungi Optikal Bahari sekarang untuk menemukan kacamata anak yang tepat untuk si kecil. Dapatkan pengalaman berbelanja yang menyenangkan dan berikan yang terbaik untuk kesehatan mata mereka. Tim kami siap membantu Anda menemukan kacamata yang sesuai dengan gaya, kebutuhan, dan anggaran Anda. Ayo, segera kunjungi toko kami dan buat si kecil merasa nyaman dan percaya diri dengan kacamata baru mereka.
+      Ayo kunjungi toko kami sekarang dan temukan kacamata anak impian buah hati Anda. Dapatkan garansi 1 tahun untuk setiap pembelian kacamata, serta layanan gratis service & reparasi untuk memastikan kacamata Anda tetap dalam kondisi terbaik. Optikal Bahari siap membantu Anda menemukan kacamata anak yang tidak hanya memenuhi kebutuhan Anda, tetapi juga memancarkan gaya dan kepribadian Anda. Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
+      <a href="{{ "/lokasi/" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
       <a
         href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
         id="WhatsAppClick"

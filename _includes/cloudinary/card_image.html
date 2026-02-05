@@ -1,9 +1,8 @@
 {%- comment -%}
-  UNIVERSAL CLOUDINARY COMPONENT - STRETCH-FREE (NO SKELETON)
+  UNIVERSAL CLOUDINARY COMPONENT - AI ENHANCED
 {%- endcomment -%}
 
 {%- if include.src -%}
-  {%- comment -%} 1. Path Sanitization (Handle leading slash) {%- endcomment -%}
   {%- assign raw_src = include.src | strip -%}
   {%- assign first_char = raw_src | slice: 0 -%}
   {%- if first_char == "/" -%}
@@ -11,26 +10,28 @@
   {%- else -%}
     {%- assign clean_src = raw_src -%}
   {%- endif -%}
-
   {%- assign image_alt = include.alt | default: include.title | default: site.title | escape -%}
   {%- assign image_class = include.class | default: "card-img-top" -%}
   {%- assign image_ratio = include.ratio | default: "ratio-16x9" -%}
 
+  {%- comment -%}
+    AI TRANSFORMATION BUNDLE:
+    - c_fill,g_auto:subject: AI subject detection (finds glasses/faces)
+    - q_auto:good: AI-determined quality/size balance
+    - e_sharpen:100: AI enhancement for crisp details on eyewear
+  {%- endcomment -%}
+  {%- capture ai_params -%}c_fill,g_auto:subject,q_auto:good,e_sharpen:100{%- endcapture -%}
+
   <div class="image-ratio-wrapper {{ image_ratio }}">
     <picture>
-      {%- comment -%}
-        c_fill + h_XXX ensures Cloudinary sends a 16:9 file.
-        g_auto keeps the subject centered.
-      {%- endcomment -%}
       <source
-        srcset="{{ clean_src | cloudinary_url: 'w_480,h_270,c_fill,g_auto' }} 480w,
-                {{ clean_src | cloudinary_url: 'w_768,h_432,c_fill,g_auto' }} 768w,
-                {{ clean_src | cloudinary_url: 'w_1200,h_675,c_fill,g_auto' }} 1200w"
-        type="image/webp"
-        sizes="(max-width: 768px) 100vw, 768px"
+        srcset="{{ clean_src | cloudinary_url: ai_params | append: ',w_480,h_270' }} 480w,
+                {{ clean_src | cloudinary_url: ai_params | append: ',w_768,h_432' }} 768w,
+                {{ clean_src | cloudinary_url: ai_params | append: ',w_1200,h_675' }} 1200w"
+        type="image/avif"
       />
       <img
-        src="{{ clean_src | cloudinary_url: 'w_768,h_432,c_fill,g_auto' }}"
+        src="{{ clean_src | cloudinary_url: ai_params | append: ',w_768,h_432' }}"
         alt="{{ image_alt }}"
         class="{{ image_class }}"
         style="object-fit: cover; object-position: center; width: 100%; height: 100%;"
