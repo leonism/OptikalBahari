@@ -18,8 +18,7 @@ comments: false
       Biarkan Mata Anda Bersinar Bersama Optikal Bahari!
     </h3>
     <p class="card-text text-start">
-      Ingin kembali melihat dunia dengan jernih dan penuh warna? Bosan dengan kacamata yang berat dan memburam? Optikal Bahari ada untuk Anda!
-      <strong>Bukan cuma pemeriksaan mata gratis</strong>, kami menawarkan pengalaman lebih dari itu, bayangkan :
+      Ingin kembali melihat dunia dengan jernih dan penuh warna? Bosan dengan kacamata yang berat dan memburam? Optikal Bahari ada untuk Anda! <strong>Bukan cuma pemeriksaan mata gratis</strong>, kami menawarkan pengalaman lebih dari itu, bayangkan :
       <ul>
         <li>
           <strong>Senyum hangat</strong>

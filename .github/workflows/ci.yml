@@ -1,0 +1,23 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  build_and_verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Linter (Check JSDoc Errors)
+        run: npx eslint _scripts/post-built/post-build.js
+
+      - name: Build and Test Post-Build Script
+        run: |
+          # Mock a site directory for testing the script
+          mkdir _site
+          node _scripts/post-built/post-build.js
