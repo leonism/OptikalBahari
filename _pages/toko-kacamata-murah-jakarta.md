@@ -24,7 +24,7 @@ comments: false
         </p>
         <p class="card-text text-start">
             Kami memiliki berbagai pilihan lensa dan frame yang dapat dipilih sesuai dengan kebutuhan dan keinginan Anda, dengan harga yang beragam. Namun, kualitas produk yang kami tawarkan tidak perlu diragukan lagi, kami yakin bahwa kacamata yang kami tawarkan akan memenuhi kebutuhan dan keinginan Anda.
-            Jangan lupa juga bahwasannya kami menawarkan layanan periksa mata gratis, kacamata bergaransi, bisa membayar melalui cicilan dengan bungan 0% dan tanpa credit card, segera hubungin kami untuk informasi <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut.
+            Jangan lupa juga bahwasannya kami menawarkan layanan periksa mata gratis, kacamata bergaransi, bisa membayar melalui cicilan dengan bungan 0% dan tanpa credit card, segera hubungin kami untuk informasi lebih lanjut.
         </p>
     </div>
 </div>

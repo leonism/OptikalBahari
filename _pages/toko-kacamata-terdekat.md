@@ -26,7 +26,7 @@ comments: false
             Memiliki kacamata merupakan kebutuhan bagi kebanyakan orang, terlebih bagi mereka yang memiliki kesulitan dalam melihat. Namun, membeli kacamata bukanlah sebuah keputusan yang mudah. Anda harus mempertimbangkan berbagai faktor seperti kebutuhan, gaya, dan harga. Namun, jangan khawatir, di Optikal Bahari, kami memiliki berbagai pilihan lensa dan frame yang dapat dipilih sesuai dengan kebutuhan dan keinginan Anda. Kami menawarkan harga yang terjangkau tanpa mengurangi kualitas produk yang kami tawarkan. Kami yakin bahwa kacamata yang kami tawarkan akan memenuhi kebutuhan dan keinginan Anda.
         </p>
         <p class="card-text text-start">
-            Selain itu, kami juga menawarkan layanan periksa mata gratis di Optikal Bahari, Kemayoran. Kacamata yang kami tawarkan juga dilengkapi dengan garansi, sehingga Anda tidak perlu khawatir jika terjadi masalah dengan kacamata Anda. Kami juga menawarkan pembayaran melalui cicilan dengan bunga 0% dan tanpa perlu menggunakan credit card. Segera hubungi kami untuk informasi <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut.
+            Selain itu, kami juga menawarkan layanan periksa mata gratis di Optikal Bahari, Kemayoran. Kacamata yang kami tawarkan juga dilengkapi dengan garansi, sehingga Anda tidak perlu khawatir jika terjadi masalah dengan kacamata Anda. Kami juga menawarkan pembayaran melalui cicilan dengan bunga 0% dan tanpa perlu menggunakan credit card. Segera hubungi kami untuk informasi lebih lanjut.
         </p>
     </div>
 </div>

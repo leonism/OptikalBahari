@@ -58,10 +58,7 @@ comments: false
             kacamata Anda perlu diperbaiki.
     </p>
     <p class="card-text text-start">
-      Pertama, perhatikan apakah ada goresan atau retakan pada lensa atau bingkai kacamata Anda. Meskipun terlihat
-            kecil, goresan tersebut dapat mengganggu penglihatan Anda dan bahkan menyebabkan kerusakan <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut jika
-            tidak segera diperbaiki. Layanan gratis service & reparasi kacamata dari Optikal Bahari dapat membantu
-            mengatasi masalah ini dengan cepat dan efisien.
+      Pertama, perhatikan apakah ada goresan atau retakan pada lensa atau bingkai kacamata Anda. Meskipun terlihat kecil, goresan tersebut dapat mengganggu penglihatan Anda dan bahkan menyebabkan kerusakan lebih lanjut jika tidak segera diperbaiki. Layanan gratis service & reparasi kacamata dari Optikal Bahari dapat membantu mengatasi masalah ini dengan cepat dan efisien.
     </p>
     <p class="card-text text-start">
       Selain itu, perhatikan juga apakah kacamata Anda terasa longgar atau tidak pas dengan wajah Anda. Kacamata

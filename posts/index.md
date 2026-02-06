@@ -49,7 +49,7 @@ pagination:
                         </p>
                         <a class="btn btn-primary rounded-pill mt-3 text-white"
                             href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                            <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
+                            Lebih Lanjut
                         </a>
                     </div>
                     <div class="card-footer">
@@ -97,7 +97,7 @@ pagination:
                         </p>
                         <a class="btn btn-primary rounded-pill mt-3 text-white"
                             href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                            <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
+                            Lebih Lanjut
                         </a>
                     </div>
                     <div class="card-footer">
@@ -148,7 +148,7 @@ pagination:
                         </p>
                         <a class="btn btn-primary rounded-pill mt-3 text-white"
                             href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                            <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
+                            Lebih Lanjut
                         </a>
                     </div>
                     <div class="card-footer">

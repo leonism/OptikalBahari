@@ -20,7 +20,7 @@ comments: false
     <div class="card-body">
       <h3 class="card-title">Kredit Kacamata Terdekat</h3>
       <p class="card-text text-start">
-        Optikal Bahari merupakan optik terdekat dari Anda yang menyediakan layanan pembelian kacamata dengan cara kredit. Kami memiliki banyak pilihan lensa dan frame dengan harga terjangkau dan kualitas terbaik, yang dapat dibayar melalui cicilan dengan bunga 0% dan tanpa credit card. Selain itu, kami juga menyediakan layanan periksa mata gratis serta menawarkan kacamata bergaransi. Jangan ragu untuk datang ke Optikal Bahari di Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat atau hubungi kami untuk informasi <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut. Di Optikal Bahari, kamu bisa membeli kacamata dengan cara cicilan.
+        Optikal Bahari merupakan optik terdekat dari Anda yang menyediakan layanan pembelian kacamata dengan cara kredit. Kami memiliki banyak pilihan lensa dan frame dengan harga terjangkau dan kualitas terbaik, yang dapat dibayar melalui cicilan dengan bunga 0% dan tanpa credit card. Selain itu, kami juga menyediakan layanan periksa mata gratis serta menawarkan kacamata bergaransi. Jangan ragu untuk datang ke Optikal Bahari di Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat atau hubungi kami untuk informasi lebih lanjut. Di Optikal Bahari, kamu bisa membeli kacamata dengan cara cicilan.
 			</p>
 			<p class="card-text text-start">
 				Dengan cara ini, kamu tidak perlu mengeluarkan uang sekaligus untuk membeli kacamata yang kamu inginkan. Kamu bisa membelinya dengan menyicil dalam jangka waktu yang telah ditentukan. Dan yang lebih menarik lagi, di Optikal Bahari kamu bisa membeli kacamata dengan cicilan tanpa bunga.
