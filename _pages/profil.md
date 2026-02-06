@@ -7,7 +7,7 @@ description:
   terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh
   para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi
   selanjutnya dikeluarga kami.'
-keywords: 'Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
+keywords: 'Optikal Bahari, Optikal Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -17,12 +17,13 @@ thumbs: /assets/img/posts/optikal-bahari-retro/optikal-bahari-retro-01-min.webp
 permalink: /profil/
 comments: false
 ---
+
 <div class="card shadow p-3 bg-white mb-5">
   {% include cloudinary/card_image.html src='assets/img/profil/bandar-udara-kemayoran.jpeg' alt='bandar-udara-kemayoran' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Sejarah Berdirinya Optikal Bahari</h3>
     <p class="card-text text-start">
-      Berdiri sejak tahun 1978 di Jakarta Pusat, Optikal Bahari telah menjadi saksi bisu dari denyut perjalanan Jalan Bendungan Jago, Kemayoran. Bermula dari visi sederhana para orang tua kami, Optik Bahari tumbuh menjadi ikon yang mengakar kuat dalam sejarah masyarakat Kemayoran. Dan kini setelah lebih dari 40+ tahun, warisan itu terus hidup, diwariskan ke generasi berikutnya dalam keluarga kami.
+      Berdiri sejak tahun 1978 di Jakarta Pusat, Optikal Bahari telah menjadi saksi bisu dari denyut perjalanan Jalan Bendungan Jago, Kemayoran. Bermula dari visi sederhana para orang tua kami, Optikal Bahari tumbuh menjadi ikon yang mengakar kuat dalam sejarah masyarakat Kemayoran. Dan kini setelah lebih dari 40+ tahun, warisan itu terus hidup, diwariskan ke generasi berikutnya dalam keluarga kami.
     </p>
     <p class="card-text text-start">
       Optikal Bahari bukan sekadar toko kacamata. Kami adalah bagian tak terpisahkan dari cerita banyak keluarga di Kemayoran. Dari generasi sebelummya yang dilayani dengan penuh kehangatan oleh para orang tua kami, hingga kepada anak & cucu mereka yang masih setia mengunjungi, membawa kenangan dan kepercayaan yang sama. Setiap kacamata yang dihantarkan bukan hanya alat bantu penglihatan, tapi juga pengikat emosi antar generasi.

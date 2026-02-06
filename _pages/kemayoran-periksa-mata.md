@@ -5,7 +5,7 @@ subtitle: 'Periksa Mata Gratis di Optikal Bahari'
 description:
   Periksa mata gratis dengan sistem komputeriasi, bergaransi, banyak promo, sistem cicilan tanpa
   bunga dan terima KJP.
-keywords: 'Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
+keywords: 'Optikal Bahari, Optikal Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -14,6 +14,7 @@ background: /assets/img/posts/021.webp
 permalink: /periksa-mata-kemayoran/
 comments: false
 ---
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
   {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}

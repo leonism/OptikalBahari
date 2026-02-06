@@ -5,7 +5,7 @@ subtitle: Optikal Bahari Bisa Bayar Dengan Kartu Jakarta Pintar
 description:
   Temukan kacamata terbaik di Optikal Bahari! Gunakan KJP untuk pembayaran mudah. Jangan lewatkan
   penawaran eksklusif, kunjungi optikal Bahari segera
-keywords: 'Optik Bahari, KJP, Kartu Jaminan Pintar, Optik KJP'
+keywords: 'Optikal Bahari, KJP, Kartu Jaminan Pintar, Optik KJP'
 lang: id-ID
 date: '2019-08-19 08:25:23 +0700'
 author: Optikal Bahari
@@ -15,6 +15,7 @@ background: /assets/img/posts/malay-hijab-00/malay-hijab-01.webp
 permalink: /optikal-bahari-kjp-kartu-jakarta-pintar/
 comments: false
 ---
+
 <div class="card shadow p-3 bg-white mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp' alt='Program Kartu Jakarta Pintar (KJP)' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">

@@ -527,7 +527,7 @@ comments: true
         membantu anda dalam memilih kacamata dan lensa yang sesuai dengan
         kebutuhan penglihatan mata anda. Jika anda merasa memiliki masalah
         dengan penglihatan anda atau ingin melakukan pemeriksaan mata berkala,
-        jangan ragu untuk mengunjungi Optik Bahari dan kami siap membantu anda
+        jangan ragu untuk mengunjungi Optikal Bahari dan kami siap membantu anda
         dengan sepenuh hati. Punya pertanyaan lain sekitar Optikal Bahari,
         silahkan menghubungi kami di nomor HP/WA ini
         <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"

@@ -14,6 +14,7 @@ background: /assets/img/bg-post.webp
 permalink: /testimoni/
 comments: false
 ---
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Periksakan Mata Anda Secara Rutin' ratio='16x9' class='card-img-top' %}
@@ -56,7 +57,7 @@ comments: false
       Oleh karena itu, kami ingin mengucapkan terima kasih kepada seluruh pelanggan yang telah memberikan testimoni dan kepercayaannya kepada Optikal Bahari. Kami akan terus berusaha keras untuk memberikan pelayanan dan produk terbaik, demi menghadirkan senyuman dan kebahagiaan bagi setiap pelanggan yang datang kepada kami.
     </p>
     <p class="card-text text-start">
-      Testimoni-testimoni di atas merupakan bukti nyata dari kepercayaan dan kepuasan pelanggan terhadap Optikal Bahari. Kami berkomitmen untuk selalu memberikan pelayanan terbaik dan produk berkualitas tinggi kepada seluruh pelanggan. Jadi tunggu apalagi, segera datang ke Optik Bahari dan dapatkan banyak penawaran menarik untuk Kacamata & Produk Lensa anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini.
+      Testimoni-testimoni di atas merupakan bukti nyata dari kepercayaan dan kepuasan pelanggan terhadap Optikal Bahari. Kami berkomitmen untuk selalu memberikan pelayanan terbaik dan produk berkualitas tinggi kepada seluruh pelanggan. Jadi tunggu apalagi, segera datang ke Optikal Bahari dan dapatkan banyak penawaran menarik untuk Kacamata & Produk Lensa anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini.
       <a
         href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
         id="WhatsAppClick"

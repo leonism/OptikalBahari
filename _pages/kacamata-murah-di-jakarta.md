@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Kacamata Murah Hanya di Optik Bahari, Jakarta
-subtitle: 'Dan Dapatkan Periksa Mata Gratis Dengan Proses Kompterisasi'
+title: Kacamata Murah Hanya di Optikal Bahari, Jakarta
+subtitle:
+	'Kami menyediakan berbagai pilihan lensa & frame dengan harga terjangkau & kualitas terbaik.''
 description:
-  'Dapatkan kacamata murah di Jakarta hanya di Optikal Bahari. Kami menyediakan berbagai pilihan
-  lensa dan frame dengan harga terjangkau dan kualitas terbaik.'
+  'Dapatkan kacamata murah hanya di Optikal Bahari, Jakarta. Kami menyediakan berbagai pilihan lensa
+  & frame dengan harga terjangkau & kualitas terbaik.'
 keywords: 'Kacamata Murah, Kacamata, Murah, Jakarta'
 lang: id-ID
 author: Optikal Bahari
@@ -14,6 +15,7 @@ background: /assets/img/posts/049.webp
 permalink: /kacamata-murah-di-jakarta/
 comments: false
 ---
+
 <div class="card-deck mb-3">
 	<div class="card shadow p-3 mb-5 bg-white rounded">
 		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
@@ -62,32 +64,4 @@ comments: false
 	</div>
 </div>
 
-<section id="posts-category">
-	<div class="card-deck">
-		{% for post in site.categories.Lensa limit : 3 %}
-		<div class="card shadow p-3 mb-5 bg-white rounded">
-			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-				{% if page.background %}
-				{% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top' %}</a>
-			{% endif %}
-			<div class="card-body">
-				<h5 class="card-title">
-					{{ post.title }}
-				</h5>
-				<p class="card-text text-start">{{ post.description | strip_html | truncatewords: 20 }}.</p>
-				<p class="card-text text-start">
-					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-						>Selengkapnya</a
-					>
-				</p>
-			</div>
-			<div class="card-footer">
-				<small class="text-muted">
-					Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} on
-					{{ post.date | date: '%B %d, %Y' }} &middot; {% include postcards/read_time.html content=post.content %}
-				</small>
-			</div>
-		</div>
-		{% endfor %}
-	</div>
-</section>
+{% include home/home-cards-benefit.html %}

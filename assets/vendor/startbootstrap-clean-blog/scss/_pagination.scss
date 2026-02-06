@@ -17,7 +17,7 @@
 
 /* Normal page links */
 .page-link {
-  color: #fff; /* White text */
+  color: $white; /* White text */
   background-color: #dc4245; /* Red background */
   border: 1px solid #e9ecef; /* Gray border */
   border-radius: 4px; /* Slightly rounded corners */
@@ -32,7 +32,7 @@
 
 /* Hover state for clickable links */
 .page-item:not(.disabled) .page-link:hover {
-  color: #fff; /* White text on hover */
+  color: $white; /* White text on hover */
   background-color: #c23336; /* Darker red background on hover */
   border-color: #e9ecef; /* Darker gray border */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
@@ -41,7 +41,7 @@
 
 /* Active page (current page) */
 .page-item.active .page-link {
-  color: #fff; /* White text */
+  color: $white; /* White text */
   background-color: #c23336; /* Darker red background */
   border-color: #e9ecef; /* Darker gray border */
   font-weight: bold; /* Emphasize current page */

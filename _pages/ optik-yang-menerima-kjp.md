@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Optik Bahari, Solusi Kacamata untuk Pemegang Kartu Jakarta Pintar (KJP)
+title: Optikal Bahari, Solusi Kacamata untuk Pemegang Kartu Jakarta Pintar (KJP)
 subtitle: Optikal Bahari Bisa Bayar Dengan Kartu Jakarta Pintar
 description:
   Optikal Bahari Siap Melayani Anda, Gunakan KJP Untuk Belanja Kacamata Terbaik. Kunjungi Kami
   Sekarang & Rasakan Pengalaman Berbelanja Yang Menyenangkan
-keywords: 'Optik Bahari, KJP, Kartu Jaminan Pintar, Optik KJP'
+keywords: 'Optikal Bahari, KJP, Kartu Jaminan Pintar, Optik KJP'
 lang: id-ID
 date: '2019-08-19 08:25:23 +0700'
 author: Optikal Bahari
@@ -15,6 +15,7 @@ background: /assets/img/bg-index-kjp.webp
 permalink: /optik-yang-menerima-kjp/
 comments: false
 ---
+
 <div class="card shadow p-3 bg-white mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp' alt='Program Kartu Jakarta Pintar (KJP)' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
@@ -50,13 +51,13 @@ comments: false
         Pentingnya Kacamata dalam Gaya Hidup Modern
       </h3>
       <p class="card-text text-start">
-        Kacamata bukan lagi hanya aksesori fesyen; mereka telah menjadi kebutuhan utama, terutama bagi mereka yang menghadapi tantangan visual dalam era digital ini. Program Kartu Jakarta Pintar (KJP) dari Bank DKI menjadi solusi bagi banyak individu yang memerlukan kacamata namun mungkin menghadapi keterbatasan finansial. Di tengah perubahan gaya hidup dan tekanan visual modern, Optik Bahari hadir sebagai jawaban atas kebutuhan akan kacamata berkualitas dengan kemudahan pembayaran melalui KJP.
+        Kacamata bukan lagi hanya aksesori fesyen; mereka telah menjadi kebutuhan utama, terutama bagi mereka yang menghadapi tantangan visual dalam era digital ini. Program Kartu Jakarta Pintar (KJP) dari Bank DKI menjadi solusi bagi banyak individu yang memerlukan kacamata namun mungkin menghadapi keterbatasan finansial. Di tengah perubahan gaya hidup dan tekanan visual modern, Optikal Bahari hadir sebagai jawaban atas kebutuhan akan kacamata berkualitas dengan kemudahan pembayaran melalui KJP.
       </p>
       <p class="card-text text-start">
         Tidak bisa disangkal bahwa kacamata bukan hanya alat bantu penglihatan, tetapi juga bagian penting dari gaya hidup. Dalam dunia yang semakin terkoneksi dan dipenuhi dengan layar digital, kacamata telah menjadi kebutuhan yang tak terpisahkan bagi banyak orang, khususnya generasi muda yang terbiasa dengan gaya hidup digital. Namun, penggunaan gadget yang berlebihan juga telah menyebabkan penurunan kesehatan mata, mendorong banyak individu untuk mencari solusi dalam bentuk kacamata yang berkualitas.
       </p>
       <p class="card-text text-start">
-        Salah satu keuntungan utama berbelanja di Optik Bahari adalah kemudahan pembayaran melalui Kartu Jakarta Pintar (KJP) dari Bank DKI. Kami memahami bahwa banyak pelanggan kami yang memilih untuk menggunakan KJP sebagai metode pembayaran, dan kami dengan senang hati menerima metode pembayaran ini. Dengan demikian, pelanggan kami dapat dengan mudah mendapatkan kacamata berkualitas tanpa harus khawatir tentang keterbatasan finansial.
+        Salah satu keuntungan utama berbelanja di Optikal Bahari adalah kemudahan pembayaran melalui Kartu Jakarta Pintar (KJP) dari Bank DKI. Kami memahami bahwa banyak pelanggan kami yang memilih untuk menggunakan KJP sebagai metode pembayaran, dan kami dengan senang hati menerima metode pembayaran ini. Dengan demikian, pelanggan kami dapat dengan mudah mendapatkan kacamata berkualitas tanpa harus khawatir tentang keterbatasan finansial.
       </p>
     </div>
   </div>
@@ -82,7 +83,7 @@ comments: false
         </ul>
       </p>
       <p class="card-text text-start">
-        Jika Anda adalah pemegang Kartu Jakarta Pintar (KJP) dan memerlukan kacamata berkualitas, jangan ragu untuk mengunjungi Optik Bahari. Kami tidak hanya menyediakan kacamata dan layanan berkualitas, tetapi juga memahami kebutuhan unik Anda. Dengan kemudahan pembayaran melalui KJP dan berbagai penawaran spesial lainnya, Optik Bahari adalah destinasi terbaik untuk memenuhi kebutuhan kacamata Anda. Segera kunjungi Optikal Bahari di Kemayoran dan temukan kacamata yang sempurna untuk gaya hidup Anda. Optikal Bahari turut berpartisipasi untuk turut mensukseskan program KJP yang sedang digalakan oleh pemerintah dengan menerima bentuk pembayaran untuk pembelian kacamata dalam bentuk KJP di tempat kami Optik kami. Untuk informasi yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+        Jika Anda adalah pemegang Kartu Jakarta Pintar (KJP) dan memerlukan kacamata berkualitas, jangan ragu untuk mengunjungi Optikal Bahari. Kami tidak hanya menyediakan kacamata dan layanan berkualitas, tetapi juga memahami kebutuhan unik Anda. Dengan kemudahan pembayaran melalui KJP dan berbagai penawaran spesial lainnya, Optikal Bahari adalah destinasi terbaik untuk memenuhi kebutuhan kacamata Anda. Segera kunjungi Optikal Bahari di Kemayoran dan temukan kacamata yang sempurna untuk gaya hidup Anda. Optikal Bahari turut berpartisipasi untuk turut mensukseskan program KJP yang sedang digalakan oleh pemerintah dengan menerima bentuk pembayaran untuk pembelian kacamata dalam bentuk KJP di tempat kami Optik kami. Untuk informasi yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
         <a
           href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
           id="WhatsAppClick"
