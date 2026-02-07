@@ -1,32 +1,19 @@
 ---
 ---
 document.addEventListener('DOMContentLoaded', function() {
-  window.algoliaDebug = { status: 'started' };
+  const searchContainer = document.getElementById('algolia-search-container');
+  if (!searchContainer) return;
 
-  try {
-    // Check if Algolia configuration is present
-    // Credentials are injected by Jekyll via Liquid from _plugins/dotenv.rb
-
-    const searchContainer = document.getElementById('algolia-search-container');
-    if (!searchContainer) {
-      window.algoliaDebug.status = 'no_container';
-      return;
-    }
-    window.algoliaDebug.containerFound = true;
-
-    // Configuration from Jekyll Site Config (injected from ENV)
+  // Configuration from Jekyll Site Data (injected from ENV)
     const algoliaConfig = {
       appId: '{{ site.data.algolia_credentials.application_id }}',
       apiKey: '{{ site.data.algolia_credentials.search_only_api_key }}',
       indexName: '{{ site.data.algolia_credentials.index_name }}'
     };
 
-    window.algoliaDebug.config = algoliaConfig;
-
     // Check if credentials are placeholders or missing
     if (!algoliaConfig.appId || algoliaConfig.appId === 'YOUR_ALGOLIA_APP_ID') {
       console.warn('Algolia Search: Please configure your App ID and API Key in .env file');
-      window.algoliaDebug.status = 'missing_config';
       return;
     }
 
@@ -44,8 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     });
-
-    window.algoliaDebug.clientCreated = true;
 
     search.addWidgets([
       instantsearch.widgets.searchBox({
@@ -96,10 +81,4 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   search.start();
-    window.algoliaDebug.status = 'started_search';
-  } catch (e) {
-    window.algoliaDebug.error = e.message;
-    window.algoliaDebug.stack = e.stack;
-    console.error('Algolia Error:', e);
-  }
 });

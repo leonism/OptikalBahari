@@ -93,8 +93,8 @@ sass:
     - global-builtin
     - color-functions
 
-# Build Command
-build_command: "bundle exec jekyll build && npm _scripts/post-built/postbuild"
+# Build Command (for deployment reference)
+build_command: "bundle exec jekyll build && npm run postbuild"
 
 # Asset Processor Configuration
 asset_processor:
