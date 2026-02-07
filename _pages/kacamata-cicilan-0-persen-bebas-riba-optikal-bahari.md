@@ -17,7 +17,7 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.webp' alt='Kacamata Cicilan 0%: Solusi Cerdas untuk Kebutuhan Penglihatan Anda' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Cicilan 0%: Solusi Cerdas untuk Kebutuhan Penglihatan Anda
@@ -27,10 +27,8 @@ comments: false
       <strong>cicilan kacamata 0%</strong>,
       <strong>tanpa bunga</strong>,
       <strong>tanpa riba</strong>,
-      <strong>tidak mengunakan kartu kredit</strong>
-      maupun
-      <strong>kartu debit</strong>
-      dan tetap
+      <strong>tidak mengunakan kartu kredit</strong> maupun
+      <strong>kartu debit</strong> dan tetap
       <strong>bergaransi</strong>.
     </p>
     <p class="card-text text-start">

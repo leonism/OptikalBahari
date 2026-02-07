@@ -1,85 +1,98 @@
 ---
 permalink: /assets/js/algolia-search.js
 ---
-document.addEventListener('DOMContentLoaded', function() {
-  const searchContainer = document.getElementById('algolia-search-container');
-  if (!searchContainer) return;
+document.addEventListener('DOMContentLoaded', function() { const searchContainer = document.getElementById('algolia-search-container'); if (!searchContainer) return;
 
-  // Configuration from Jekyll Site Data (injected from ENV)
-    const algoliaConfig = {
-      appId: '{{ site.data.algolia_credentials.application_id }}',
-      apiKey: '{{ site.data.algolia_credentials.search_only_api_key }}',
-      indexName: '{{ site.data.algolia_credentials.index_name }}'
-    };
+// Configuration const algoliaConfig = { appId: '{{ site.data.algolia_credentials.application_id }}', apiKey: '{{ site.data.algolia_credentials.search_only_api_key }}', indexName: '{{ site.data.algolia_credentials.index_name }}', cloudinaryCloudName: '{{ site.data.cloudinary.cloud_name }}' };
 
-    // Check if credentials are placeholders or missing
-    if (!algoliaConfig.appId || algoliaConfig.appId === 'YOUR_ALGOLIA_APP_ID') {
-      console.warn('Algolia Search: Please configure your App ID and API Key in .env file');
-      return;
-    }
+if (!algoliaConfig.appId || algoliaConfig.appId === 'YOUR_ALGOLIA_APP_ID') { console.warn('Algolia Search: Credentials missing.'); return; }
 
-    const search = instantsearch({
-      indexName: algoliaConfig.indexName,
-      searchClient: algoliasearch(algoliaConfig.appId, algoliaConfig.apiKey),
-      searchFunction(helper) {
-        const container = document.querySelector('#hits');
-        if (helper.state.query) {
-          container.classList.add('has-results');
-          helper.search();
-        } else {
-          container.classList.remove('has-results');
-          container.innerHTML = '';
-        }
-      }
-    });
+// --- 1. Performance: Caching & Client Setup --- const algoliaClient = algoliasearch(algoliaConfig.appId, algoliaConfig.apiKey); // Custom Debounce Function const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func.apply(this, args), delay); }; };
 
-    search.addWidgets([
-      instantsearch.widgets.searchBox({
-      container: '#searchbox',
-      placeholder: 'Cari Optikal Bahari...',
-      showReset: true,
-      showSubmit: true,
-      showLoadingIndicator: true,
-      cssClasses: {
-        root: 'custom-search-box',
-        form: 'form-inline',
-        input: 'form-control form-control-sm rounded-pill border custom-search',
-        submit: 'btn btn-link search-btn',
-        reset: 'btn btn-link reset-btn'
-      }
-    })
-  ]);
+// Cloudinary Helper Function const getCloudinaryUrl = (path, params) => { if (!path) return ''; const cloudName = algoliaConfig.cloudinaryCloudName; if (!cloudName || cloudName === '') return path;
 
-  // Hits Widget
-  search.addWidgets([
-    instantsearch.widgets.hits({
-      container: '#hits',
-      templates: {
-        empty: '{% raw %}<div class="p-3 text-center text-muted">No results found for "<strong>{{query}}</strong>"</div>{% endraw %}',
-        item: `{% raw %}
-          <a href="{{url}}" class="result-item">
-            <h4>{{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}</h4>
-            <p>{{#helpers.snippet}}{ "attribute": "content" }{{/helpers.snippet}}</p>
-          </a>
-        {% endraw %}`
-      },
-      cssClasses: {
-        list: 'list-unstyled m-0',
-        item: 'border-bottom'
-      }
-    })
-  ]);
+let cleanPath = path.trim(); // Remove domain cleanPath = cleanPath.replace(/^https?:\/\/[^\/]+/, ''); // Remove /assets/img/ prefix (and any preceding path) cleanPath = cleanPath.replace(/^(.*\/)?assets\/img\//, ''); // Remove extension cleanPath = cleanPath.replace(/\.(jpg|jpeg|png|webp|gif|avif|svg)$/i, ''); // Remove leading slash cleanPath =
+cleanPath.replace(/^\//, '');
 
-  // Configure Hits to be hidden initially and handling styling
-  search.on('render', function() {
-    const hitsContainer = document.querySelector('#hits');
-    const searchInput = document.querySelector('.ais-SearchBox-input');
+return `https://res.cloudinary.com/${cloudName}/image/upload/${params}/${cleanPath}`; };
 
-    // Hide hits if input is empty (handled by searchFunction, but double check)
-    if (searchInput && searchInput.value.trim() === '') {
-      hitsContainer.classList.remove('has-results');
-    }
-  });
+const aiParams = "c_fill,g_auto:subject,q_auto:good,e_sharpen:100";
 
-  search.start();
-});
+// --- 2. InstantSearch Initialization --- const search = instantsearch({ indexName: algoliaConfig.indexName, searchClient: algoliaClient, searchFunction: function(helper) { const resultsWrapper = document.getElementById('search-results-wrapper'); const query = helper.state.query;
+
+if (query && query.trim() !== '') { // Debounced Search (100ms) if (!helper.debouncedSearch) { helper.debouncedSearch = debounce(() => { resultsWrapper.classList.add('show'); resultsWrapper.style.display = ''; // Clear inline style to let CSS take over helper.search(); }, 100); } helper.debouncedSearch(); } else {
+resultsWrapper.classList.remove('show'); } } });
+
+// --- 3. Widgets ---
+
+// Search Box search.addWidgets([ instantsearch.widgets.searchBox({ container: '#searchbox', placeholder: 'Cari Optikal Bahari...', showReset: true, showSubmit: true, showLoadingIndicator: true, cssClasses: { root: 'custom-search-box', form: 'form-inline', input: 'form-control form-control-sm rounded-pill border custom-search', submit: 'btn
+btn-link search-btn', reset: 'btn btn-link reset-btn' } }) ]);
+
+// Sorting search.addWidgets([ instantsearch.widgets.sortBy({ container: '#sort-by', items: [ { label: 'Best Match', value: algoliaConfig.indexName }, { label: 'Newest', value: `${algoliaConfig.indexName}_date_desc` }, { label: 'Oldest', value: `${algoliaConfig.indexName}_date_asc` }, { label: 'Title (A-Z)', value:
+`${algoliaConfig.indexName}_title_asc` }, { label: 'Title (Z-A)', value: `${algoliaConfig.indexName}_title_desc` } ], cssClasses: { select: 'form-control-sm border-0' } }) ]);
+
+// Stats search.addWidgets([ instantsearch.widgets.stats({ container: '#search-stats', templates: { text: `
+{% raw %}{{nbHits}} results ({{processingTimeMS}}ms){% endraw %}
+` } }) ]);
+
+// Hits with Cloudinary Integration search.addWidgets([ instantsearch.widgets.hits({ container: '#hits', cssClasses: { list: 'list-unstyled m-0', item: 'border-0 p-0' }, templates: { empty: '
+{% raw %}<div class="p-3 text-center text-muted">No results found for "<strong>{{query}}</strong>"</div>{% endraw %}
+', item: function(hit) { const background = hit.background || ''; const title = instantsearch.highlight({ attribute: 'title', hit }); const content = instantsearch.snippet({ attribute: 'content', hit }); const url = hit.url; let imageHtml = ''; if (background) { const src480 = getCloudinaryUrl(background, aiParams + ',w_480,h_270'); const src768 =
+getCloudinaryUrl(background, aiParams + ',w_768,h_432'); const src1200 = getCloudinaryUrl(background, aiParams + ',w_1200,h_675'); const fallbackSrc = getCloudinaryUrl(background, aiParams + ',w_768,h_432'); imageHtml = `
+<div class='image-ratio-wrapper ratio-16x9'>
+  <picture>
+    <source srcset='${src480} 480w, ${src768} 768w, ${src1200} 1200w' type='image/avif'>
+    <img
+      src='${fallbackSrc}'
+      alt='${hit.title}'
+      class='card-img-top'
+      style='object-fit: cover; object-position: center; width: 100%; height: 100%;'
+      loading='lazy'
+      decoding='async'
+      width='768'
+      height='432'
+      onload="this.classList.add('loaded')"
+      onerror="this.style.display='none'"
+    >
+  </picture>
+</div>
+`; } else { imageHtml = `
+<div class='w-100 h-100 bg-light d-flex align-items-center justify-content-center text-muted' style='min-height: 90px;'>
+  <i class='fas fa-image'></i>
+</div>
+`; }
+
+return `
+<a href='${url}' class='result-item' role='option'>
+  <div class='result-thumbnail'>
+    <div class='img-container'>${imageHtml}</div>
+  </div>
+  <div class='result-content'>
+    <h4>${title}</h4>
+    <p>${content}</p>
+  </div>
+</a>
+`; } } }) ]);
+
+// Pagination search.addWidgets([ instantsearch.widgets.pagination({ container: '#pagination', scrollTo: false, showFirst: false, showLast: false, padding: 1, totalPages: 5 }), instantsearch.widgets.configure({ hitsPerPage: 20 }) ]);
+
+// --- 4. Keyboard Navigation & Interaction --- let activeIndex = -1; const updateSelection = (items) => { items.forEach((item, index) => { if (index === activeIndex) { item.classList.add('selected'); item.setAttribute('aria-selected', 'true'); item.scrollIntoView({ block: 'nearest' }); } else { item.classList.remove('selected');
+item.setAttribute('aria-selected', 'false'); } }); };
+
+const handleKeyNavigation = (e) => { const resultsWrapper = document.getElementById('search-results-wrapper'); // Use class check instead of display style if (!resultsWrapper.classList.contains('show')) return;
+
+const items = document.querySelectorAll('.result-item'); if (items.length === 0) return;
+
+if (e.key === 'ArrowDown') { e.preventDefault(); activeIndex = (activeIndex + 1) % items.length; updateSelection(items); } else if (e.key === 'ArrowUp') { e.preventDefault(); activeIndex = (activeIndex - 1 + items.length) % items.length; updateSelection(items); } else if (e.key === 'Enter') { if (activeIndex >= 0 && items[activeIndex]) {
+e.preventDefault(); items[activeIndex].click(); } } else if (e.key === 'Escape') { e.preventDefault(); resultsWrapper.classList.remove('show'); document.querySelector('.ais-SearchBox-input').focus(); } };
+
+// --- 5. Click/Tap Outside Detection --- const handleClickOutside = (e) => { const resultsWrapper = document.getElementById('search-results-wrapper'); const searchBox = document.getElementById('searchbox'); // Check if click is outside both wrapper and search input if (resultsWrapper && searchBox && !resultsWrapper.contains(e.target) &&
+!searchBox.contains(e.target) && resultsWrapper.classList.contains('show')) { resultsWrapper.classList.remove('show'); } };
+
+// Re-open on focus if query exists const handleInputFocus = (e) => { if (e.target.matches('.ais-SearchBox-input')) { const resultsWrapper = document.getElementById('search-results-wrapper'); if (e.target.value.trim() !== '') { resultsWrapper.classList.add('show'); resultsWrapper.style.display = ''; } } };
+
+// Attach Listeners document.addEventListener('keydown', handleKeyNavigation); document.addEventListener('click', handleClickOutside); document.addEventListener('focusin', handleInputFocus);
+
+// Reset navigation on new results search.on('render', () => { activeIndex = -1; const list = document.querySelector('.ais-Hits-list'); if (list) list.setAttribute('role', 'listbox'); });
+
+// Start Search search.start(); });

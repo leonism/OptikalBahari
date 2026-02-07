@@ -11,6 +11,11 @@ Jekyll::Hooks.register :site, :post_read do |site|
     'index_name' => ENV['ALGOLIA_INDEX_NAME']
   }
 
+  # Inject Cloudinary credentials
+  site.data['cloudinary'] = {
+    'cloud_name' => ENV['CLOUDINARY_CLOUD_NAME']
+  }
+
   # Also keep standard algolia config for the plugin (backend)
   site.config['algolia'] ||= {}
 

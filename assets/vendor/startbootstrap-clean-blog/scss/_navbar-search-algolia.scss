@@ -4,7 +4,7 @@
 #algolia-search-container {
   width: 100%;
   max-width: 250px;
-  
+
   @media (max-width: 991.98px) {
     max-width: 100%;
     margin-top: 10px;
@@ -44,7 +44,7 @@
     background-color: $dark-bg;
     color: $light-text;
     border-color: $gray-700;
-    
+
     &:focus {
       border-color: lighten($primary, 10%);
     }
@@ -61,12 +61,12 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  
+
   svg {
     width: 14px;
     height: 14px;
     fill: $gray-600;
-    
+
     body.dark-mode & {
       fill: $gray-400;
     }
@@ -80,7 +80,7 @@
 .ais-SearchBox-reset {
   right: 35px; // Position next to submit button if both are visible
   display: none; // Hidden by default, shown by JS when typing
-  
+
   &[hidden="false"] {
     display: block;
   }
@@ -129,11 +129,11 @@
 
 .ais-Hits-item {
   border-bottom: 1px solid $gray-200;
-  
+
   &:last-child {
     border-bottom: none;
   }
-  
+
   body.dark-mode & {
     border-color: $gray-800;
   }
@@ -151,10 +151,10 @@
     text-decoration: none;
     color: $primary;
   }
-  
+
   body.dark-mode & {
     color: $light-text;
-    
+
     &:hover {
       background-color: $gray-800;
       color: $primary;
@@ -165,7 +165,7 @@
     font-size: 1rem;
     margin-bottom: 0.25rem;
     font-weight: 600;
-    
+
     em {
       font-style: normal;
       background-color: rgba($primary, 0.2);
@@ -178,14 +178,14 @@
     color: $gray-600;
     margin-bottom: 0;
     line-height: 1.4;
-    
+
     body.dark-mode & {
       color: $gray-400;
     }
-    
+
     em {
-      font-style: normal;
-      font-weight: bold;
+    font-style: normal;
+     font-weight: bold;
     }
   }
 }
