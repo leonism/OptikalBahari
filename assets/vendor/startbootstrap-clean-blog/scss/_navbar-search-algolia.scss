@@ -1,0 +1,204 @@
+// Algolia Search Styles
+
+// Search Container
+#algolia-search-container {
+  width: 100%;
+  max-width: 250px;
+  
+  @media (max-width: 991.98px) {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+}
+
+// Search Box Input Styling
+.ais-SearchBox-form {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.ais-SearchBox-input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  padding-right: 2.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: $gray-900;
+  background-color: $white;
+  background-clip: padding-box;
+  border: 1px solid $gray-300;
+  border-radius: 50rem; // Rounded pill shape
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &:focus {
+    color: $gray-900;
+    background-color: $white;
+    border-color: lighten($primary, 25%);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
+  }
+
+  // Dark mode support
+  body.dark-mode & {
+    background-color: $dark-bg;
+    color: $light-text;
+    border-color: $gray-700;
+    
+    &:focus {
+      border-color: lighten($primary, 10%);
+    }
+  }
+}
+
+.ais-SearchBox-submit,
+.ais-SearchBox-reset {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  
+  svg {
+    width: 14px;
+    height: 14px;
+    fill: $gray-600;
+    
+    body.dark-mode & {
+      fill: $gray-400;
+    }
+  }
+}
+
+.ais-SearchBox-submit {
+  right: 12px;
+}
+
+.ais-SearchBox-reset {
+  right: 35px; // Position next to submit button if both are visible
+  display: none; // Hidden by default, shown by JS when typing
+  
+  &[hidden="false"] {
+    display: block;
+  }
+}
+
+
+// Search Hits (Results) Dropdown
+.search-hits-container {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 350px;
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: $white;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 0.25rem;
+  z-index: 1000;
+  margin-top: 0.5rem;
+  display: none; // Hidden by default
+
+  &.has-results {
+    display: block;
+  }
+
+  @media (max-width: 991.98px) {
+    width: 100%;
+    position: static;
+    box-shadow: none !important;
+    border: none;
+    max-height: none;
+  }
+
+  // Dark mode support
+  body.dark-mode & {
+    background-color: $dark-bg;
+    border-color: $gray-700;
+  }
+}
+
+.ais-Hits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ais-Hits-item {
+  border-bottom: 1px solid $gray-200;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+  
+  body.dark-mode & {
+    border-color: $gray-800;
+  }
+}
+
+.result-item {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: $gray-900;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: $gray-100;
+    text-decoration: none;
+    color: $primary;
+  }
+  
+  body.dark-mode & {
+    color: $light-text;
+    
+    &:hover {
+      background-color: $gray-800;
+      color: $primary;
+    }
+  }
+
+  h4 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    
+    em {
+      font-style: normal;
+      background-color: rgba($primary, 0.2);
+      color: $primary;
+    }
+  }
+
+  p {
+    font-size: 0.85rem;
+    color: $gray-600;
+    margin-bottom: 0;
+    line-height: 1.4;
+    
+    body.dark-mode & {
+      color: $gray-400;
+    }
+    
+    em {
+      font-style: normal;
+      font-weight: bold;
+    }
+  }
+}
+
+// Pagination (if needed)
+.search-pagination-container {
+  display: none; // Usually we just show top hits in dropdown
+}
+
+// Loading State
+.ais-SearchBox-loadingIndicator {
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  transform: translateY(-50%);
+}

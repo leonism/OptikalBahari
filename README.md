@@ -216,3 +216,7 @@ npx prettier --write "**/*.md"
 npx prettier --check "**/*.{html,md}"
 npx prettier --write _includes/home/home-cards-main.html
 ```
+
+## Algolia Search
+
+This project supports Algolia Search. Please see [ALGOLIA_SETUP.md](ALGOLIA_SETUP.md) for configuration instructions.

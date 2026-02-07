@@ -24,6 +24,7 @@
     "cheerio": "^1.2.0",
     "clean-css": "^5.3.3",
     "critical": "^7.2.1",
+    "dotenv": "^17.2.4",
     "fs-extra": "^11.3.3",
     "glob": "^13.0.0",
     "html-minifier-terser": "^7.2.0",

@@ -114,6 +114,19 @@ function runCriticalCSS() {
 }
 
 /**
+ * Step 3: Inject Environment Variables
+ */
+async function runEnvInjection() {
+  console.log('\n🔑 Step 3: Environment Variable Injection')
+  try {
+    const injectEnv = require('./inject-env')
+    await injectEnv()
+  } catch (/** @type {any} */ error) {
+    console.error(`  ❌ Injection failed: ${error.message}`)
+  }
+}
+
+/**
  * Step 3: Service Worker
  */
 function runServiceWorker() {
@@ -195,6 +208,7 @@ async function main() {
 
   await runPurgeCSS()
   runCriticalCSS()
+  await runEnvInjection()
   runServiceWorker()
   runImageOptimization()
   runAssetConsolidation()

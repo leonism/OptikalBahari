@@ -98,6 +98,14 @@ build_command: "bundle exec jekyll build && bash _scripts/post-built/post-build.
 
 # Asset Processor Configuration
 asset_processor:
+
+# Algolia Search Configuration
+algolia:
+  # Credentials are loaded from environment variables (ALGOLIA_APPLICATION_ID, ALGOLIA_API_KEY)
+  # application_id: 'YOUR_ALGOLIA_APP_ID'
+  # search_only_api_key: 'YOUR_ALGOLIA_SEARCH_API_KEY'
+  # index_name: 'YOUR_ALGOLIA_INDEX_NAME'
+  index_name: 'optikal_bahari' # Set your index name here or via ENV
   performance:
     thread_pool_size: 1
     memory_limit: 536870912
