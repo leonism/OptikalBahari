@@ -7,16 +7,16 @@ document.addEventListener('DOMContentLoaded', function() { const searchContainer
 
 if (!algoliaConfig.appId || algoliaConfig.appId === 'YOUR_ALGOLIA_APP_ID') { console.warn('Algolia Search: Credentials missing.'); return; }
 
-// --- 1. Performance: Caching & Client Setup --- const algoliaClient = algoliasearch(algoliaConfig.appId, algoliaConfig.apiKey); // Custom Debounce Function const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func.apply(this, args), delay); }; };
-
-// Cloudinary Helper Function const getCloudinaryUrl = (path, params) => { if (!path) return ''; const cloudName = algoliaConfig.cloudinaryCloudName; if (!cloudName || cloudName === '') return path;
-
-let cleanPath = path.trim(); // Remove domain cleanPath = cleanPath.replace(/^https?:\/\/[^\/]+/, ''); // Remove /assets/img/ prefix (and any preceding path) cleanPath = cleanPath.replace(/^(.*\/)?assets\/img\//, ''); // Remove extension cleanPath = cleanPath.replace(/\.(jpg|jpeg|png|webp|gif|avif|svg)$/i, ''); // Remove leading slash cleanPath =
-cleanPath.replace(/^\//, '');
-
-return `https://res.cloudinary.com/${cloudName}/image/upload/${params}/${cleanPath}`; };
-
-const aiParams = "c_fill,g_auto:subject,q_auto:good,e_sharpen:100";
+// --- 1. Performance: Caching & Client Setup ---
+const algoliaClient = algoliasearch(algoliaConfig.appId, algoliaConfig.apiKey);
+// Custom Debounce Function
+const debounce = (func, delay) => {
+  let timeout;
+  return (...args) => {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => func.apply(this, args), delay);
+  };
+};
 
 // --- 2. InstantSearch Initialization --- const search = instantsearch({ indexName: algoliaConfig.indexName, searchClient: algoliaClient, searchFunction: function(helper) { const resultsWrapper = document.getElementById('hits'); const query = helper.state.query;
 
@@ -35,28 +35,26 @@ btn-link search-btn', reset: 'btn btn-link reset-btn' } }) ]);
 {% raw %}{{nbHits}} results ({{processingTimeMS}}ms){% endraw %}
 ` } }) ]);
 
-// Hits with Cloudinary Integration search.addWidgets([ instantsearch.widgets.hits({ container: '#hits', cssClasses: { list: 'list-unstyled m-0', item: 'border-0 p-0' }, templates: { empty: '
+// Hits
+search.addWidgets([
+  instantsearch.widgets.hits({ container: '#hits', cssClasses: { list: 'list-unstyled m-0', item: 'border-0 p-0' }, templates: { empty: '
 {% raw %}<div class="p-3 text-center text-muted">No results found for "<strong>{{query}}</strong>"</div>{% endraw %}
-', item: function(hit) { const background = hit.background || ''; const title = instantsearch.highlight({ attribute: 'title', hit }); const content = instantsearch.snippet({ attribute: 'content', hit }); const url = hit.url; let imageHtml = ''; if (background) { const src480 = getCloudinaryUrl(background, aiParams + ',w_480,h_270'); const src768 =
-getCloudinaryUrl(background, aiParams + ',w_768,h_432'); const src1200 = getCloudinaryUrl(background, aiParams + ',w_1200,h_675'); const fallbackSrc = getCloudinaryUrl(background, aiParams + ',w_768,h_432'); imageHtml = `
-<div class='image-ratio-wrapper ratio-16x9'>
-  <picture>
-    <source srcset='${src480} 480w, ${src768} 768w, ${src1200} 1200w' type='image/avif'>
-    <img
-      src='${fallbackSrc}'
-      alt='${hit.title}'
-      class='card-img-top'
-      style='object-fit: cover; object-position: center; width: 100%; height: 100%;'
-      loading='lazy'
-      decoding='async'
-      width='768'
-      height='432'
-      onload="this.classList.add('loaded')"
-      onerror="this.style.display='none'"
-    >
-  </picture>
-</div>
-`; } else { imageHtml = `
+', item: function(hit) { const background = hit.background || ''; const title = instantsearch.highlight({ attribute: 'title', hit }); const content = instantsearch.snippet({ attribute: 'content', hit }); const url = hit.url; let imageHtml = '';
+          if (background) {
+            imageHtml = `
+              <div class="image-ratio-wrapper ratio-16x9">
+                <img
+                  src="${background}"
+                  alt="${title}"
+                  class="card-img-top"
+                  style="object-fit: cover; object-position: center; width: 100%; height: 100%;"
+                  loading="lazy"
+                  onload="this.classList.add('loaded')"
+                  onerror="this.style.display='none'"
+                >
+              </div>
+            `;
+          } else { imageHtml = `
 <div class='w-100 h-100 bg-light d-flex align-items-center justify-content-center text-muted' style='min-height: 90px;'>
   <i class='fas fa-image'></i>
 </div>
