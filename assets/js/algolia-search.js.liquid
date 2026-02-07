@@ -18,10 +18,10 @@ return `https://res.cloudinary.com/${cloudName}/image/upload/${params}/${cleanPa
 
 const aiParams = "c_fill,g_auto:subject,q_auto:good,e_sharpen:100";
 
-// --- 2. InstantSearch Initialization --- const search = instantsearch({ indexName: algoliaConfig.indexName, searchClient: algoliaClient, searchFunction: function(helper) { const resultsWrapper = document.getElementById('search-results-wrapper'); const query = helper.state.query;
+// --- 2. InstantSearch Initialization --- const search = instantsearch({ indexName: algoliaConfig.indexName, searchClient: algoliaClient, searchFunction: function(helper) { const resultsWrapper = document.getElementById('hits'); const query = helper.state.query;
 
-if (query && query.trim() !== '') { // Debounced Search (100ms) if (!helper.debouncedSearch) { helper.debouncedSearch = debounce(() => { resultsWrapper.classList.add('show'); resultsWrapper.style.display = ''; // Clear inline style to let CSS take over helper.search(); }, 100); } helper.debouncedSearch(); } else {
-resultsWrapper.classList.remove('show'); } } });
+if (query && query.trim() !== '') { // Debounced Search (100ms) if (!helper.debouncedSearch) { helper.debouncedSearch = debounce(() => { resultsWrapper.classList.add('has-results'); resultsWrapper.style.display = ''; // Clear inline style to let CSS take over helper.search(); }, 100); } helper.debouncedSearch(); } else {
+resultsWrapper.classList.remove('has-results'); } } });
 
 // --- 3. Widgets ---
 
@@ -76,20 +76,75 @@ return `
 
 // Pagination search.addWidgets([ instantsearch.widgets.pagination({ container: '#pagination', scrollTo: false, showFirst: false, showLast: false, padding: 1, totalPages: 5 }), instantsearch.widgets.configure({ hitsPerPage: 20 }) ]);
 
-// --- 4. Keyboard Navigation & Interaction --- let activeIndex = -1; const updateSelection = (items) => { items.forEach((item, index) => { if (index === activeIndex) { item.classList.add('selected'); item.setAttribute('aria-selected', 'true'); item.scrollIntoView({ block: 'nearest' }); } else { item.classList.remove('selected');
-item.setAttribute('aria-selected', 'false'); } }); };
+// --- 4. Keyboard Navigation & Interaction ---
+    let activeIndex = -1;
+    const updateSelection = (items) => {
+      items.forEach((item, index) => {
+        if (index === activeIndex) {
+          item.classList.add('selected');
+          item.setAttribute('aria-selected', 'true');
+          item.scrollIntoView({ block: 'nearest' });
+        } else {
+          item.classList.remove('selected');
+          item.setAttribute('aria-selected', 'false');
+        }
+      });
+    };
 
-const handleKeyNavigation = (e) => { const resultsWrapper = document.getElementById('search-results-wrapper'); // Use class check instead of display style if (!resultsWrapper.classList.contains('show')) return;
+    const handleKeyNavigation = (e) => {
+      const resultsWrapper = document.getElementById('hits');
+      // Use class check instead of display style
+      if (!resultsWrapper.classList.contains('has-results')) return;
 
-const items = document.querySelectorAll('.result-item'); if (items.length === 0) return;
+      const items = document.querySelectorAll('.result-item');
+      if (items.length === 0) return;
 
-if (e.key === 'ArrowDown') { e.preventDefault(); activeIndex = (activeIndex + 1) % items.length; updateSelection(items); } else if (e.key === 'ArrowUp') { e.preventDefault(); activeIndex = (activeIndex - 1 + items.length) % items.length; updateSelection(items); } else if (e.key === 'Enter') { if (activeIndex >= 0 && items[activeIndex]) {
-e.preventDefault(); items[activeIndex].click(); } } else if (e.key === 'Escape') { e.preventDefault(); resultsWrapper.classList.remove('show'); document.querySelector('.ais-SearchBox-input').focus(); } };
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        activeIndex = (activeIndex + 1) % items.length;
+        updateSelection(items);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        activeIndex = (activeIndex - 1 + items.length) % items.length;
+        updateSelection(items);
+      } else if (e.key === 'Enter') {
+        if (activeIndex >= 0 && items[activeIndex]) {
+          e.preventDefault();
+          items[activeIndex].click();
+        }
+      } else if (e.key === 'Escape') {
+        e.preventDefault();
+        resultsWrapper.classList.remove('has-results');
+        document.querySelector('.ais-SearchBox-input').focus();
+      }
+    };
 
-// --- 5. Click/Tap Outside Detection --- const handleClickOutside = (e) => { const resultsWrapper = document.getElementById('search-results-wrapper'); const searchBox = document.getElementById('searchbox'); // Check if click is outside both wrapper and search input if (resultsWrapper && searchBox && !resultsWrapper.contains(e.target) &&
-!searchBox.contains(e.target) && resultsWrapper.classList.contains('show')) { resultsWrapper.classList.remove('show'); } };
+    // --- 5. Click/Tap Outside Detection ---
+    const handleClickOutside = (e) => {
+      const resultsWrapper = document.getElementById('hits');
+      const searchBox = document.getElementById('searchbox');
+      // Check if click is outside both wrapper and search input
+      if (
+        resultsWrapper &&
+        searchBox &&
+        !resultsWrapper.contains(e.target) &&
+        !searchBox.contains(e.target) &&
+        resultsWrapper.classList.contains('has-results')
+      ) {
+        resultsWrapper.classList.remove('has-results');
+      }
+    };
 
-// Re-open on focus if query exists const handleInputFocus = (e) => { if (e.target.matches('.ais-SearchBox-input')) { const resultsWrapper = document.getElementById('search-results-wrapper'); if (e.target.value.trim() !== '') { resultsWrapper.classList.add('show'); resultsWrapper.style.display = ''; } } };
+    // Re-open on focus if query exists
+    const handleInputFocus = (e) => {
+      if (e.target.matches('.ais-SearchBox-input')) {
+        const resultsWrapper = document.getElementById('hits');
+        if (e.target.value.trim() !== '') {
+          resultsWrapper.classList.add('has-results');
+          resultsWrapper.style.display = '';
+        }
+      }
+    };
 
 // Attach Listeners document.addEventListener('keydown', handleKeyNavigation); document.addEventListener('click', handleClickOutside); document.addEventListener('focusin', handleInputFocus);
 
