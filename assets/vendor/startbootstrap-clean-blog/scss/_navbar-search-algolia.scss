@@ -18,7 +18,8 @@
   width: 100%;
 }
 
-.ais-SearchBox-input {
+.ais-SearchBox-input,
+.custom-search {
   width: 100%;
   padding: 0.5rem 1rem;
   padding-right: 2.5rem;
@@ -52,7 +53,9 @@
 }
 
 .ais-SearchBox-submit,
-.ais-SearchBox-reset {
+.ais-SearchBox-reset,
+.search-btn,
+.reset-btn {
   position: absolute;
   right: 10px;
   top: 50%;
@@ -73,11 +76,13 @@
   }
 }
 
-.ais-SearchBox-submit {
+.ais-SearchBox-submit,
+.search-btn {
   right: 12px;
 }
 
-.ais-SearchBox-reset {
+.ais-SearchBox-reset,
+.reset-btn {
   right: 35px; // Position next to submit button if both are visible
   display: none; // Hidden by default, shown by JS when typing
 
