@@ -98,9 +98,6 @@ build_command: "bundle exec jekyll build && npm run postbuild"
 
 # Asset Processor Configuration
 asset_processor:
-
-# Algolia Search Configuration
-algolia:
   performance:
     thread_pool_size: 1
     memory_limit: 536870912

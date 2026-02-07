@@ -24,7 +24,7 @@ module AssetProcessor
         },
         'gzip' => {
           'enabled' => true,
-          'level' => Zlib::DEFAULT_COMPRESSION  # 1-9, higher = better compression
+          'level' => 6  # 1-9, higher = better compression
         },
         'min_file_size' => 2048,  # Only compress files larger than this (bytes)
         'file_types' => %w[.css .js .html .svg .txt .xml .json]
