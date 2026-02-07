@@ -15,15 +15,9 @@ background: /assets/img/posts/beach-retro-girls/beach-retro-girls-022.webp
 permalink: /beli-kacamata/
 comments: false
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-019.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-019.webp"
-            class="card-img-top img-fluid"
-            loading="lazy"
-            title="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
-            alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame">
+        {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-019.webp' alt='Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Beli Kacamata Murah & Terjangkau
@@ -42,13 +36,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-016.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-016.webp"
-            class="card-img-top img-fluid"
-            loading="lazy"
-            title="Periksa Mata & Service Gratis"
-            alt="Periksa Mata & Service Gratis">
+        {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-016.webp' alt='Periksa Mata & Service Gratis' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Periksa Mata & Service Gratis
@@ -73,13 +61,10 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-011.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-011.webp"
-            class="card-img-top img-fluid"
-            loading="lazy"
-            title="Kacamata Cicilan 0%"
-            alt="Kacamata Cicilan 0%">
+        {% include cloudinary/card_image.html src="assets/img/posts/beach-retro-girls/beach-retro-girls-011.webp"
+   alt="Kacamata Cicilan 0%"
+   ratio="16x9"
+   class="card-img-top img-fluid" %}
     <div class="card-body">
         <h3 class="card-title">
             Kacamata Cicilan 0%
@@ -94,15 +79,11 @@ comments: false
    </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-	    	<img
-                data-src="{{"/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" | relative_url }}"
-                src="{{"/assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp" | relative_url }}"
-                class="card-img-top img-fluid"
-                loading="lazy"
-                title="Kunjungi Optikal Bahari Sekarang"
-                alt="Kunjungi Optikal Bahari Sekarang">
+	    	{% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp' alt='Kunjungi Optikal Bahari Sekarang' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Kunjungi Optikal Bahari Sekarang
@@ -113,38 +94,3 @@ comments: false
         </div>
     </div>
 </div>
-
-<section id="posts-category">
-    <div class="card-deck">
-		{% for post in site.categories.Lensa limit : 3 %}
-        <div class="card shadow p-3 mb-5 bg-white rounded">
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top img-fluid"
-                    loading="lazy"
-                    alt="{{ post.title }}"></a>
-                {% endif %}
-            <div class="card-body">
-                <h5 class="card-title">
-                    {{ post.title }}
-                </h5>
-                <p class="card-text text-start">
-                    {{ post.description | strip_html | truncatewords: 20 }}.
-                </p>
-                <p class="card-text text-start">
-                    <a class="btn btn-primary rounded-pill text-decoration-none"
-                        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                        Selengkapnya
-                    </a>
-                </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">
-                    Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} on
-                    {{ post.date | date: '%B %d, %Y' }} &middot; {% include postcards/read_time.html content=post.content %}
-                </small>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</section>

@@ -5,7 +5,7 @@ subtitle: Optikal Bahari Bisa Bayar Dengan Kartu Jakarta Pintar
 description:
   Temukan kacamata terbaik di Optikal Bahari! Gunakan KJP untuk pembayaran mudah. Jangan lewatkan
   penawaran eksklusif, kunjungi optikal Bahari segera
-keywords: 'Optik Bahari, KJP, Kartu Jaminan Pintar, Optik KJP'
+keywords: 'Optikal Bahari, KJP, Kartu Jaminan Pintar, Optik KJP'
 lang: id-ID
 date: '2019-08-19 08:25:23 +0700'
 author: Optikal Bahari
@@ -17,14 +17,7 @@ comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Program Kartu Jakarta Pintar (KJP)"
-    loading="lazy"
-    width="600"
-    height="400">
+  {% include cloudinary/card_image.html src='assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp' alt='Program Kartu Jakarta Pintar (KJP)' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
     <h3 class="card-title">
       Program Kartu Jakarta Pintar (KJP)
@@ -41,15 +34,10 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Program Kartu Jakarta Pintar (KJP)"
-    loading="lazy"
-    width="600"
-    height="400">
+  {% include cloudinary/card_image.html src='assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp' alt='Program Kartu Jakarta Pintar (KJP)' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Beli Kacamata Dengan KJP (Kartu Jakarta Pintar)
@@ -65,15 +53,10 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/035.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Program Kartu Jakarta Pintar (KJP)"
-    loading="lazy"
-    width="600"
-    height="400">
+  {% include cloudinary/card_image.html src='assets/img/posts/035.webp' alt='Program Kartu Jakarta Pintar (KJP)' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Segera Kunjungi Optikal Bahari
@@ -103,3 +86,5 @@ comments: false
     </p>
   </div>
 </div>
+
+{% include home/home-cards-glasses.html %}

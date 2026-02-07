@@ -2,25 +2,15 @@
 layout: compress
 ---
 <!doctype html>
-<html lang='{{ page.lang }}'>
-  {% include head.html %}
-  <body>
-    {% include gtm/gtm-body.html %}
-    <main id='main-content'>
-      {{ content }}
-    </main>
-    {% include wa-body.html %}
-    {% include footer.html %}
-    {% include richsnippets/richsnippet-json-ld-article.json %}
-    {% include richsnippets/richsnippet-json-ld-articleNews.json %}
-    {% include richsnippets/richsnippet-json-ld-breadcrumb.json %}
-    {% include richsnippets/richsnippet-json-ld-faq.json %}
-    {% include richsnippets/richsnippet-json-ld-image.json %}
-    {% include richsnippets/richsnippet-json-ld-optician.json %}
-    {% include richsnippets/richsnippet-json-ld-org.json %}
-    {% include richsnippets/richsnippet-json-ld-structurepath.json %}
-    {% include richsnippets/richsnippet-json-ld-website.json %}
-    {% include richsnippets/richsnippet-json-ld-product.json %}
-    {% include scripts.html %}
-  </body>
+{% include head.html %}
+<body>
+  {% include gtm/gtm-body.html %}
+  <main id='main-content'>
+    {{ content }}
+  </main>
+  {% include wa-body.html %}
+  {% include footer.html %}
+  {% include scripts.html %}
+  {% include richsnippets.html %}
+</body>
 </html>

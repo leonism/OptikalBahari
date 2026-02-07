@@ -1,232 +1,72 @@
 <section id="KenapaOptikalBahari">
-  <div class="container">
+  <div class="card-deck mb-3">
     <div class="row">
-      <!-- Card 1: Kacamata Wanita -->
+
       <div class="col-12 col-md-12 col-lg-4 mb-5">
         <div class="card shadow h-100 bg-white rounded hover-zoomin">
-          <a
-            href="{{ '/kacamata-wanita/' | relative_url }}"
-            role="button"
-            title="Koleksi Kacamata Wanita"
-            alt="Koleksi Kacamata Wanita"
-          >
-            {% capture card_content %}
-            <picture>
-              <!-- AVIF format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/posts/whitesand-girls/whitesand-girls-00   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/posts/whitesand-girls/whitesand-girls-00   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/posts/whitesand-girls/whitesand-girls-00 1200w
-                "
-                type="image/avif"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- WEBP format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/posts/whitesand-girls/whitesand-girls-00   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/posts/whitesand-girls/whitesand-girls-00   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/posts/whitesand-girls/whitesand-girls-00 1200w
-                "
-                type="image/webp"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- JPEG fallback -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/posts/whitesand-girls/whitesand-girls-00   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/whitesand-girls/whitesand-girls-00   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/posts/whitesand-girls/whitesand-girls-00 1200w
-                "
-                type="image/jpeg"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- Final fallback with alt and lazy loading -->
-              <img
-                src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/posts/whitesand-girls/whitesand-girls-00"
-                alt="Koleksi Kacamata Wanita"
-                loading="lazy"
-                decoding="async"
-                width="768"
-                height="512"
-                class="card-img-top"
-              />
-            </picture>
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+          <a href="{{ '/kacamata-wanita/' | relative_url }}" title="Koleksi Kacamata Wanita" role="button">
+            <!-- Card:1 Kacamata Wanita -->
+            {% include cloudinary/card_image.html
+              src="assets/img/posts/whitesand-girls/whitesand-girls-00.webp"
+              alt="Koleksi Kacamata Wanita"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title align-middle">
-              <i class="fas fa-check text-green fas-1x"></i>
-              Kacamata Wanita
+              <i class="fa-solid fa-circle-check text-green"></i> Kacamata Wanita
             </h5>
             <p class="card-text">
-              Jelajahi koleksi kacamata wanita Optikal Bahari, manjakan diri Anda dengan beragam
-              koleksi terbaru kami.
+              Jelajahi koleksi kacamata wanita Optikal Bahari, manjakan diri Anda dengan beragam koleksi terbaru kami.
             </p>
-            <a
-              href="{{ '/kacamata-wanita/' | relative_url }}"
-              class="btn btn-primary rounded-pill text-white text-decoration-none"
-              role="button"
-              title="Jelajahi koleksi kacamata wanita Optikal Bahari, manjakan diri Anda dengan beragam koleksi terbaru kami."
-            >
-              Lebih Lanjut
-            </a>
+            <a href="{{ '/kacamata-wanita/' | relative_url }}" title="Koleksi Kacamata Wanita" class="btn btn-primary rounded-pill text-white text-decoration-none"><i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut</a>
           </div>
         </div>
       </div>
-      <!-- Card 2: Kacamata Pria -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
+
+      <div class="col-12 col-md-12 col-lg-4 mb-5">
         <div class="card shadow h-100 bg-white rounded hover-zoomin">
-          <a
-            href="{{ '/kacamata-pria/' | relative_url }}"
-            role="button"
-            title="Koleksi Kacamata Pria"
-            alt="Pria"
-          >
-            {% capture card_content %}
-            <picture>
-              <!-- AVIF format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/v1750519373/posts/kacamata-pria/kacamata-pria-00   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/v1750519373/posts/kacamata-pria/kacamata-pria-00   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/v1750519373/posts/kacamata-pria/kacamata-pria-00 1200w
-                "
-                type="image/avif"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-
-              <!-- WEBP format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/v1750519373/posts/kacamata-pria/kacamata-pria-00   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/v1750519373/posts/kacamata-pria/kacamata-pria-00   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/v1750519373/posts/kacamata-pria/kacamata-pria-00 1200w
-                "
-                type="image/webp"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-
-              <!-- JPEG fallback -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/v1750519373/posts/kacamata-pria/kacamata-pria-00   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/v1750519373/posts/kacamata-pria/kacamata-pria-00   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/v1750519373/posts/kacamata-pria/kacamata-pria-00 1200w
-                "
-                type="image/jpeg"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-
-              <!-- Final fallback with alt and lazy loading -->
-              <img
-                src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/v1750519373/posts/kacamata-pria/kacamata-pria-00"
-                alt="Koleksi Kacamata Pria"
-                loading="lazy"
-                decoding="async"
-                width="768"
-                height="512"
-                class="card-img-top"
-              />
-            </picture>
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+          <a href="{{ '/kacamata-pria/' | relative_url }}" title="Koleksi Kacamata Pria" role="button">
+            <!-- Card:2 Kacamata Pria -->
+            {% include cloudinary/card_image.html
+              src="assets/img/posts/kacamata-pria/kacamata-pria-00.webp"
+              alt="Koleksi Kacamata Pria"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title align-middle">
-              <i class="fas fa-check text-green fas-1x"></i>
-              Kacamata Pria
+              <i class="fa-solid fa-circle-check text-green"></i> Kacamata Pria
             </h5>
             <p class="card-text">
-              Kunjungi segera Optikal Bahari & jelajahi beragam koleksi kacamata pria terbaru impian
-              Anda.
+              Kunjungi segera Optikal Bahari & jelajahi beragam koleksi kacamata pria terbaru impian Anda.
             </p>
-            <a
-              href="{{ '/kacamata-pria/' | relative_url }}"
-              class="btn btn-primary rounded-pill text-white text-decoration-none"
-              role="button"
-              title="Kunjungi segera Optikal Bahari & jelajahi beragam koleksi kacamata pria terbaru impian Anda."
-            >
-              Lebih Lanjut
-            </a>
+            <a href="{{ '/kacamata-pria/' | relative_url }}" title="Koleksi Kacamata Pria" class="btn btn-primary rounded-pill text-white text-decoration-none"><i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut</a>
           </div>
         </div>
       </div>
-      <!-- Card 3: Kacamata Anak & Remaja -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
+
+      <div class="col-12 col-md-12 col-lg-4 mb-5">
         <div class="card shadow h-100 bg-white rounded hover-zoomin">
-          <a
-            href="{{ '/kacamata-anak/' | relative_url }}"
-            role="button"
-            title="Kacamata Anak & Remaja"
-          >
-            {% capture card_content %}
-            <picture>
-              <!-- AVIF format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/v1750519373/posts/kacamata-anak/kacamata-anak-00   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/v1750519373/posts/kacamata-anak/kacamata-anak-00   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/v1750519373/posts/kacamata-anak/kacamata-anak-00 1200w
-                "
-                type="image/avif"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-
-              <!-- WEBP format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/v1750519373/posts/kacamata-anak/kacamata-anak-00   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/v1750519373/posts/kacamata-anak/kacamata-anak-00   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/v1750519373/posts/kacamata-anak/kacamata-anak-00 1200w
-                "
-                type="image/webp"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-
-              <!-- JPEG fallback -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/v1750519373/posts/kacamata-anak/kacamata-anak-00   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/v1750519373/posts/kacamata-anak/kacamata-anak-00   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/v1750519373/posts/kacamata-anak/kacamata-anak-00 1200w
-                "
-                type="image/jpeg"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-
-              <!-- Final fallback with alt and lazy loading -->
-              <img
-                src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/v1750519373/posts/kacamata-anak/kacamata-anak-00"
-                alt="Kacamata Anak dan Remaja"
-                loading="lazy"
-                decoding="async"
-                width="768"
-                height="512"
-                class="card-img-top"
-              />
-            </picture>
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+          <a href="{{ '/kacamata-anak/' | relative_url }}" title="Kacamata Anak & Remaja" role="button">
+            <!-- Card:3 Kacamata Anak -->
+            {% include cloudinary/card_image.html
+              src="assets/img/posts/kacamata-anak/kacamata-anak-00.webp"
+              alt="Koleksi Kacamata Anak"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title align-middle">
-              <i class="fas fa-check text-green fas-1x"></i>
-              Kacamata Anak Remaja
+              <i class="fa-solid fa-circle-check text-green"></i> Kacamata Anak Remaja
             </h5>
             <p class="card-text">
-              Koleksi Kacamata Anak & Remaja Terbaru, Siap Menemani Buah Hati Anda Sekeluarga
+              Koleksi Kacamata Anak & Remaja Terbaru, Siap Menemani Buah Hati Anda Sekeluarga.
             </p>
-            <a
-              href="{{ '/kacamata-anak/' | relative_url }}"
-              class="btn btn-primary rounded-pill text-white text-decoration-none"
-              role="button"
-              title="Beragam Koleksi Kacamata Anak & Remaja Terbaru, Siap Menemani Keseharian Buah Hati Anda Sekeluarga"
-            >
-              Lebih Lanjut
-            </a>
+            <a href="{{ '/kacamata-anak/' | relative_url }}" title="Koleksi Kacamata Anak & Remaja" class="btn btn-primary rounded-pill text-white text-decoration-none"><i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut</a>
           </div>
         </div>
       </div>

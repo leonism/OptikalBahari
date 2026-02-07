@@ -15,13 +15,9 @@ background: /assets/img/posts/027.webp
 permalink: /kebijakan-situs/
 comments: false
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
-      class="card-img-top"
-      alt="Privacy & Policy, Kebijakan Penggunaan Situs">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp' alt='Privacy & Policy, Kebijakan Penggunaan Situs' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h2 class="card-title">
         Kebijakan Penggunaan Situs Optikal Bahari

@@ -17,12 +17,7 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.webp"
-    src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.webp"
-    class="card-img-top"
-    alt="cicilan-kacamata optikal bahari" />
+  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Cicilan 0%: Solusi Cerdas untuk Kebutuhan Penglihatan Anda
@@ -69,23 +64,18 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp"
-    src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp"
-    class="card-img-top"
-    alt="cicilan-kacamata optikal bahari" />
+  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       5 Alasan Memilih Cicilan Kacamata 0% di Optikal Bahari di Optikal Bahari
     </h3>
     <p class="card-text text-start">
       Memiliki kacamata baru dengan
-      <strong>cicilan 0% di Optik Bahari</strong>
+      <strong>cicilan 0% di Optikal Bahari</strong>
       bukan hanya soal penglihatan yang jernih, tetapi juga tentang sederet keuntungan yang tak terduga. Inilah 5 alasan mengapa cicilan kacamata 0% menjadi pilihan cerdas untuk Anda:
     </p>
     <p class="card-text text-start">
-      <strong>1. Bebas Beban Bunga dan Riba:</strong><br/>
+      <strong>1. Bebas Beban Bunga dan Riba:</strong><br />
       Hindari bunga yang memberatkan dan rasakan kemudahan syariah dengan program cicilan bebas bunga dan riba yang kami tawarkan. Nikmati ketenangan finansial sambil tampil gaya dan melihat dunia dengan lebih jelas.
     </p>
     <p class="card-text text-start">
@@ -98,7 +88,7 @@ comments: false
     </p>
     <p class="card-text text-start">
       <strong>4. Fleksibilitas Pembayaran:</strong><br/>
-      Optik Bahari menawarkan berbagai pilihan tenor cicilan yang dapat disesuaikan dengan kemampuan finansial Anda. Pilihlah tenor yang sesuai dan rasakan kemudahan mengatur pengeluaran bulanan.
+      Optikal Bahari menawarkan berbagai pilihan tenor cicilan yang dapat disesuaikan dengan kemampuan finansial Anda. Pilihlah tenor yang sesuai dan rasakan kemudahan mengatur pengeluaran bulanan.
     </p>
     <p class="card-text text-start">
       <strong>5. Tingkatkan Penampilan dan Kepercayaan Diri:</strong><br/>
@@ -106,24 +96,19 @@ comments: false
     </p>
     <p class="card-text text-start">
       <strong>Bonus:</strong>
-      Di Optik Bahari, Anda tidak hanya mendapatkan cicilan 0%, tetapi juga pelayanan terbaik dari para staf ahli kami yang akan membantu Anda memilih kacamata yang sesuai dengan kebutuhan dan gaya Anda.
+      Di Optikal Bahari, Anda tidak hanya mendapatkan cicilan 0%, tetapi juga pelayanan terbaik dari para staf ahli kami yang akan membantu Anda memilih kacamata yang sesuai dengan kebutuhan dan gaya Anda.
     </p>
   </div>
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.webp"
-    src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.webp"
-    class="card-img-top"
-    alt="cicilan-kacamata optikal bahari" />
+  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Tips Memilih Kacamata dengan Cicilan 0% di Optikal Bahari
     </h3>
     <p class="card-text text-start">
-      Memilih kacamata yang tepat tidak hanya bergantung pada gaya, tetapi juga untuk menunjang kesehatan mata Anda. Berikut beberapa tips untuk memilih kacamata dengan cicilan 0% di Optik Bahari:
+      Memilih kacamata yang tepat tidak hanya bergantung pada gaya, tetapi juga untuk menunjang kesehatan mata Anda. Berikut beberapa tips untuk memilih kacamata dengan cicilan 0% di Optikal Bahari:
     </p>
     <h5 class="card-title">
       1. Tentukan Kebutuhan dan Budget:
@@ -175,29 +160,24 @@ comments: false
       </ul>
     </p>
     <h5 class="card-title">
-      4. Konsultasikan dengan Staf Ahli Optik Bahari:
+      4. Konsultasikan dengan Staf Ahli Optikal Bahari:
     </h5>
     <p class="card-text text-start">
       Staf ahli kami siap membantu Anda memilih kacamata yang sesuai dengan resep dokter mata, bentuk wajah, gaya, dan budget Anda. Jangan ragu untuk berkonsultasi dan dapatkan rekomendasi terbaik. Cobalah beberapa frame kacamata yang berbeda untuk menemukan yang paling serasi dengan Anda. Ingat, kacamata yang tepat akan membuat Anda merasa percaya diri dan nyaman. Dengan mengikuti tips di atas, Anda bisa memilih kacamata yang tepat dan memanfaatkan
       <strong>program cicilan 0%</strong>
-      di Optik Bahari secara optimal. Dapatkan kacamata impian Anda tanpa mengkhawatirkan  biaya, dan rasakan pengalaman melihat dunia dengan lebih jernih dan penuh gaya!
+      di Optikal Bahari secara optimal. Dapatkan kacamata impian Anda tanpa mengkhawatirkan  biaya, dan rasakan pengalaman melihat dunia dengan lebih jernih dan penuh gaya!
     </p>
   </div>
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp"
-    src="/assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp"
-    class="card-img-top"
-    alt="cicilan-kacamata optikal bahari" />
+  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Kunjungi Langsung Optikal Bahari
     </h3>
     <p class="card-text text-start">
-      Silahkan datang dan konsultasikan langsung di Optik Bahari di jalan
+      Silahkan datang dan konsultasikan langsung di Optikal Bahari di jalan
       <a
         href="{{ "/lokasi/" | relative_url }}"
         title="Lokasi Optikal Bahari"

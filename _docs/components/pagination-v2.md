@@ -1,14 +1,12 @@
 # Updating to `jekyll-paginate-v2`
 
-Since we want to use `jekyll-paginate-v2` for pagination and keep our existing
-root `index.html` intact, we'll set up pagination in a subdirectory (e.g.,
-`/posts/`) as a separate page. This approach works around the limitation of the
-default `jekyll-paginate` plugin, which only paginates the root `index.html`,
-and leverages the more flexible `jekyll-paginate-v2` plugin, which supports
-pagination in subdirectories. However, note that `jekyll-paginate-v2` is not
-supported by GitHub Pages out of the box, so you'll need to generate the site
-locally and push the static files to your repository (more on this later).
-Here’s how to implement this:
+Since we want to use `jekyll-paginate-v2` for pagination and keep our existing root `index.html`
+intact, we'll set up pagination in a subdirectory (e.g., `/posts/`) as a separate page. This
+approach works around the limitation of the default `jekyll-paginate` plugin, which only paginates
+the root `index.html`, and leverages the more flexible `jekyll-paginate-v2` plugin, which supports
+pagination in subdirectories. However, note that `jekyll-paginate-v2` is not supported by GitHub
+Pages out of the box, so you'll need to generate the site locally and push the static files to your
+repository (more on this later). Here’s how to implement this:
 
 ## Step 1: Install `jekyll-paginate-v2`
 
@@ -26,8 +24,8 @@ Run `bundle install` to install it.
 
 ## Step 2: Configure `_config.yml`
 
-Add the pagination settings for `jekyll-paginate-v2`. Since we’re paginating in
-`/posts/`, configure it like this:
+Add the pagination settings for `jekyll-paginate-v2`. Since we’re paginating in `/posts/`, configure
+it like this:
 
 ```yaml
 # Site settings
@@ -47,15 +45,15 @@ pagination:
     after: 2 # Show 2 pages after current page in navigation
 ```
 
-Remove any `paginate` or `paginate_path` settings if they exist, as those are
-for `jekyll-paginate`, not v2.
+Remove any `paginate` or `paginate_path` settings if they exist, as those are for `jekyll-paginate`,
+not v2.
 
 ---
 
 ## Step 3: Create `posts/index.html`
 
-Create a file at `posts/index.html` (not in the root) with this content. This
-will be your paginated posts page:
+Create a file at `posts/index.html` (not in the root) with this content. This will be your paginated
+posts page:
 
 ```html
 ---
@@ -70,32 +68,55 @@ pagination:
   <div class="card-deckrow mb-3 card-deck">
     {% for post in paginator.posts limit:3 offset:0 %}
     <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
+      <a
+        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+        title="{{ post.title }}"
+      >
         {% if post.background %}
         <picture>
           <!-- AVIF format -->
           <source
-            srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w"
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+            "
             type="image/avif"
             sizes="(max-width: 768px) 100vw, 768px"
           />
 
           <!-- WEBP format -->
           <source
-            srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w"
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+            "
             type="image/webp"
             sizes="(max-width: 768px) 100vw, 768px"
           />
 
           <!-- JPEG fallback -->
           <source
-            srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w"
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+            "
             type="image/jpeg"
             sizes="(max-width: 768px) 100vw, 768px"
           />
 
           <!-- Final fallback with alt and lazy loading -->
-          <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5" alt="{{ post.title }}" loading="lazy" decoding="async" width="768" height="512" class="card-img-top img-fluid" />
+          <img
+            src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+            alt="{{ post.title }}"
+            loading="lazy"
+            decoding="async"
+            width="768"
+            height="512"
+            class="card-img-top img-fluid"
+          />
         </picture>
         {% endif %}
       </a>
@@ -103,11 +124,21 @@ pagination:
         <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
         <p class="card-text text-left">
           {{ post.description | strip_html | truncate: 100 }}
-          <a class="btn btn-primary rounded-pill mt-3" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
+          <a
+            class="btn btn-primary rounded-pill mt-3"
+            href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+          >
+            <i class="fa-solid fa-circle-arrow-right text-white"></i>
+            Lebih Lanjut
+          </a>
         </p>
       </div>
       <div class="card-footer">
-        <small class="text-muted">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}, on {{ post.date | date: '%b %d, %Y' }} · {% include postcards/read_time.html content=post.content %}</small>
+        <small class="text-muted">
+          Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}, on
+          {{ post.date | date: '%b %d, %Y' }} · {% include postcards/read_time.html
+          content=post.content %}
+        </small>
       </div>
     </div>
     {% endfor %}
@@ -119,32 +150,55 @@ pagination:
   <div class="card-deckrow mb-2 card-deck">
     {% for post in paginator.posts limit:3 offset:3 %}
     <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
+      <a
+        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+        title="{{ post.title }}"
+      >
         {% if post.background %}
         <picture>
           <!-- AVIF format -->
           <source
-            srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w"
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+            "
             type="image/avif"
             sizes="(max-width: 768px) 100vw, 768px"
           />
 
           <!-- WEBP format -->
           <source
-            srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w"
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+            "
             type="image/webp"
             sizes="(max-width: 768px) 100vw, 768px"
           />
 
           <!-- JPEG fallback -->
           <source
-            srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w"
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+            "
             type="image/jpeg"
             sizes="(max-width: 768px) 100vw, 768px"
           />
 
           <!-- Final fallback with alt and lazy loading -->
-          <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5" alt="{{ post.title }}" loading="lazy" decoding="async" width="768" height="512" class="card-img-top img-fluid" />
+          <img
+            src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+            alt="{{ post.title }}"
+            loading="lazy"
+            decoding="async"
+            width="768"
+            height="512"
+            class="card-img-top img-fluid"
+          />
         </picture>
         {% endif %}
       </a>
@@ -152,11 +206,21 @@ pagination:
         <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
         <p class="card-text text-left">
           {{ post.description | strip_html | truncate: 100 }}
-          <a class="btn btn-primary rounded-pill mt-3" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
+          <a
+            class="btn btn-primary rounded-pill mt-3"
+            href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+          >
+            <i class="fa-solid fa-circle-arrow-right text-white"></i>
+            Lebih Lanjut
+          </a>
         </p>
       </div>
       <div class="card-footer">
-        <small class="text-muted">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on {{ post.date | date: '%B %d, %Y' }} · {% include postcards/read_time.html content=post.content %}</small>
+        <small class="text-muted">
+          Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on
+          {{ post.date | date: '%B %d, %Y' }} · {% include postcards/read_time.html
+          content=post.content %}
+        </small>
       </div>
     </div>
     {% endfor %}
@@ -168,32 +232,55 @@ pagination:
   <div class="card-deckrow mb-2 card-deck">
     {% for post in paginator.posts limit:3 offset:6 %}
     <div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
-      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
+      <a
+        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+        title="{{ post.title }}"
+      >
         {% if post.background %}
         <picture>
           <!-- AVIF format -->
           <source
-            srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w"
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
+            "
             type="image/avif"
             sizes="(max-width: 768px) 100vw, 768px"
           />
 
           <!-- WEBP format -->
           <source
-            srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w"
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
+            "
             type="image/webp"
             sizes="(max-width: 768px) 100vw, 768px"
           />
 
           <!-- JPEG fallback -->
           <source
-            srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5 480w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5 768w, https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w"
+            srcset="
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5   480w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5   768w,
+              https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
+            "
             type="image/jpeg"
             sizes="(max-width: 768px) 100vw, 768px"
           />
 
           <!-- Final fallback with alt and lazy loading -->
-          <img src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5" alt="{{ post.title }}" loading="lazy" decoding="async" width="768" height="512" class="card-img-top img-fluid" />
+          <img
+            src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5"
+            alt="{{ post.title }}"
+            loading="lazy"
+            decoding="async"
+            width="768"
+            height="512"
+            class="card-img-top img-fluid"
+          />
         </picture>
         {% endif %}
       </a>
@@ -201,11 +288,21 @@ pagination:
         <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
         <p class="card-text text-left">
           {{ post.description | strip_html | truncate: 100 }}
-          <a class="btn btn-primary rounded-pill mt-3" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Lebih Lanjut</a>
+          <a
+            class="btn btn-primary rounded-pill mt-3"
+            href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+          >
+            <i class="fa-solid fa-circle-arrow-right text-white"></i>
+            Lebih Lanjut
+          </a>
         </p>
       </div>
       <div class="card-footer">
-        <small class="text-muted">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on {{ post.date | date: '%B %d, %Y' }} · {% include postcards/read_time.html content=post.content %}</small>
+        <small class="text-muted">
+          Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on
+          {{ post.date | date: '%B %d, %Y' }} · {% include postcards/read_time.html
+          content=post.content %}
+        </small>
       </div>
     </div>
     {% endfor %}
@@ -218,7 +315,11 @@ pagination:
     <!-- Previous Button -->
     {% if paginator.previous_page %}
     <li class="page-item">
-      <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
+      <a
+        class="page-link"
+        href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+        aria-label="Previous"
+      >
         <span aria-hidden="true">« Previous</span>
       </a>
     </li>
@@ -229,20 +330,27 @@ pagination:
     {% endif %}
 
     <!-- Page Numbers with Trail -->
-    {% if paginator.page_trail %} {% for trail in paginator.page_trail %} {% if trail.num == paginator.page %}
+    {% if paginator.page_trail %} {% for trail in paginator.page_trail %} {% if trail.num ==
+    paginator.page %}
     <li class="page-item active">
       <span class="page-link">{{ trail.num }}</span>
     </li>
     {% else %}
     <li class="page-item">
-      <a class="page-link" href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}">{{ trail.num }}</a>
+      <a class="page-link" href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}">
+        {{ trail.num }}
+      </a>
     </li>
     {% endif %} {% endfor %} {% endif %}
 
     <!-- Next Button -->
     {% if paginator.next_page %}
     <li class="page-item">
-      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
+      <a
+        class="page-link"
+        href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+        aria-label="Next"
+      >
         <span aria-hidden="true">Next »</span>
       </a>
     </li>
@@ -259,15 +367,13 @@ pagination:
 
 ### Key Points:
 
-- **Front Matter**: The `pagination: enabled: true` in the front matter tells
-  `jekyll-paginate-v2` to paginate this specific page.
-- **Permalinks**: The `permalink: /posts/` sets the base URL, and
-  `pagination.permalink` in `_config.yml` appends `/page/:num/` for subsequent
-  pages (e.g., `/posts/page/2/`).
-- **Offsets**: We use `limit` and `offset` to split the 9 posts into three
-  sections (0-2, 3-5, 6-8).
-- **Trail**: The `trail` setting in `_config.yml` limits the page numbers shown
-  in the navigation (e.g., showing 2 before and after the current page).
+- **Front Matter**: The `pagination: enabled: true` in the front matter tells `jekyll-paginate-v2`
+  to paginate this specific page.
+- **Permalinks**: The `permalink: /posts/` sets the base URL, and `pagination.permalink` in
+  `_config.yml` appends `/page/:num/` for subsequent pages (e.g., `/posts/page/2/`).
+- **Offsets**: We use `limit` and `offset` to split the 9 posts into three sections (0-2, 3-5, 6-8).
+- **Trail**: The `trail` setting in `_config.yml` limits the page numbers shown in the navigation
+  (e.g., showing 2 before and after the current page).
 
 ---
 
@@ -287,12 +393,12 @@ Since `jekyll-paginate-v2` isn’t supported by GitHub Pages:
 
 ## Step 5: Deploy to GitHub Pages
 
-GitHub Pages won’t run `jekyll-paginate-v2` during its build process, so you
-need to push the generated static files:
+GitHub Pages won’t run `jekyll-paginate-v2` during its build process, so you need to push the
+generated static files:
 
 1. Build the site locally: `bundle exec jekyll build`.
-2. Copy the contents of `_site/` to your repository’s root (or a branch like
-   `gh-pages` if you’re using that).
+2. Copy the contents of `_site/` to your repository’s root (or a branch like `gh-pages` if you’re
+   using that).
 3. Commit and push to GitHub:
 
    ```bash
@@ -301,8 +407,8 @@ need to push the generated static files:
    git push origin main  # or gh-pages
    ```
 
-4. Configure GitHub Pages to serve from the root or the `gh-pages` branch in
-   your repository settings.
+4. Configure GitHub Pages to serve from the root or the `gh-pages` branch in your repository
+   settings.
 
 ---
 
@@ -318,14 +424,13 @@ Update your root `index.html` to link to the new posts page, e.g.:
 
 ### Notes
 
-- **Post Count**: Ensure you have at least 10 posts to see pagination in action
-  (9 per page means page 2 appears with 10+ posts).
-- **GitHub Pages Limitation**: If you want GitHub Pages to build the site
-  automatically, you’re stuck with `jekyll-paginate` (root-only). Using
-  `jekyll-paginate-v2` requires this local build workflow or a CI setup (e.g.,
-  GitHub Actions).
-- **CI Option**: You could automate this with a GitHub Action to build and
-  deploy the `_site` folder—let me know if you’d like a workflow example!
+- **Post Count**: Ensure you have at least 10 posts to see pagination in action (9 per page means
+  page 2 appears with 10+ posts).
+- **GitHub Pages Limitation**: If you want GitHub Pages to build the site automatically, you’re
+  stuck with `jekyll-paginate` (root-only). Using `jekyll-paginate-v2` requires this local build
+  workflow or a CI setup (e.g., GitHub Actions).
+- **CI Option**: You could automate this with a GitHub Action to build and deploy the `_site`
+  folder—let me know if you’d like a workflow example!
 
 ---
 

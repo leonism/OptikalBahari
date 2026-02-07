@@ -14,15 +14,9 @@ background: /assets/img/posts/047.webp
 permalink: /periksa-mata-di-optik/
 comments: false
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp" | relative_url }}"
-      class="card-img-top"
-      title="Dapatkan Periksa Mata Gratis"
-      alt="tips-kacamata-2.webp">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Anda di Optik Secara Rutin
@@ -36,11 +30,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp" | relative_url }}"
-      class="card-img-top"
-      title="Hasil Pemeriksaan Cepat & Akurat"
-      alt="tips-kacamata-2.webp">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Hasil Pemeriksaan Cepat & Akurat
@@ -57,11 +47,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp" | relative_url }}"
-      class="card-img-top"
-      title="Menggunakan Alat Phoropter"
-      alt="tips-kacamata-2.webp">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Menggunakan Alat Phoropter
@@ -78,10 +64,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | relative_url }}"
-      class="card-img-top"
-      alt="tips-kacamata-2.webp">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Menggunakan Komputer
@@ -109,10 +92,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp" | relative_url }}"
-      class="card-img-top"
-      alt="tips-kacamata-2.webp">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Auto Lens Meter

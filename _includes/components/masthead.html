@@ -1,26 +1,38 @@
 {% if page.background %}
-<header class="masthead" style="background-image: url('{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}{% endif %}')">
-    <img src="{% if page.background contains 'http' %}{{ page.background }}{% else %}{{ page.background | prepend: site.baseurl | replace: '//', '/' }}
-    {% endif %}"
-    fetchpriority="high"
-    decoding="sync"
-    style="display: none"
-    alt="{% if page.title %}
-            {{ page.title }}
-              {% else %}
-            {{ site.title }}
-          {% endif %}"
-  />
-  {% else %}
+  <style>
+    :root {
+      /* Mobile Background (default) - 600px width */
+      --masthead-bg: url('{{ page.background | cloudinary_url: "w_600,q_auto,f_auto" }}');
+    }
+    @media (min-width: 768px) {
+      :root {
+        /* Tablet/Desktop Background - 1400px width */
+        --masthead-bg: url('{{ page.background | cloudinary_url: "w_1400,q_auto,f_auto" }}');
+      }
+    }
+    .masthead.responsive-bg {
+      background-image: var(--masthead-bg);
+    }
+  </style>
+
+  <header class="masthead responsive-bg">
+    {% comment %}
+      LCP Hint: We point to the 1400w version so the browser pre-warms the desktop link.
+    {% endcomment %}
+    <img src="{{ page.background | cloudinary_url: 'w_1400,q_auto,f_auto' }}"
+      fetchpriority="high"
+      decoding="sync"
+      style="display: none"
+      alt="{{ page.title | default: site.title }}" />
+{% else %}
   <header class="masthead">
-    {% endif %}
+{% endif %}
+
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>
-              {{ page.title }}
-            </h1>
+            <h1>{{ page.title }}</h1>
             {% if page.description %}
               <h2 class="subheading text-capitalize">
                 {{ page.description }}

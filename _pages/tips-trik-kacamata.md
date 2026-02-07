@@ -29,12 +29,7 @@ comments: false
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
               {% if post.background %}
-                <img
-                  itemprop="image"
-                  src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                  class="card-img-top img-fluid"
-                  loading="lazy"
-                  alt="{{ post.title }}" />
+                {% include cloudinary/cloudinary_image.html src=post.background alt=post.title class="card-img-top img-fluid" loading="lazy" %}
               {% endif %}
             </a>
             <div class="card-body">
@@ -82,12 +77,7 @@ comments: false
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
               {% if post.background %}
-                <img
-                  itemprop="image"
-                  src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                  class="card-img-top img-fluid"
-                  loading="lazy"
-                  alt="{{ post.title }}" />
+                {% include cloudinary/cloudinary_image.html src=post.background alt=post.title class="card-img-top img-fluid" loading="lazy" %}
               {% endif %}
             </a>
             <div class="card-body">
@@ -135,12 +125,7 @@ comments: false
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
               {% if post.background %}
-                <img
-                  itemprop="image"
-                  src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                  class="card-img-top img-fluid"
-                  loading="lazy"
-                  alt="{{ post.title }}" />
+                {% include cloudinary/cloudinary_image.html src=post.background alt=post.title class="card-img-top img-fluid" loading="lazy" %}
               {% endif %}
             </a>
             <div class="card-body">

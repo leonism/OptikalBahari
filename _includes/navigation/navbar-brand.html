@@ -1,46 +1,22 @@
 <a class="navbar-brand" href="{{ '/' | relative_url }}" title="{{ site.title | escape }}">
   <picture>
-    <!-- AVIF format -->
     <source
-      srcset="
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/icons/optikalbahari   480w,
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/icons/optikalbahari   768w,
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/icons/optikalbahari 1200w
-      "
-      type="image/avif"
-      sizes="(max-width: 768px) 100vw, 768px"
-    />
+      srcset="{{ 'assets/img/icons/optikalbahari.png' | cloudinary_url: 'w_30,f_avif,q_auto' }} 1x,
+              {{ 'assets/img/icons/optikalbahari.png' | cloudinary_url: 'w_60,f_avif,q_auto' }} 2x"
+      type="image/avif">
 
-    <!-- WEBP format -->
     <source
-      srcset="
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/icons/optikalbahari   480w,
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/icons/optikalbahari   768w,
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/icons/optikalbahari 1200w
-      "
-      type="image/webp"
-      sizes="(max-width: 768px) 100vw, 768px"
-    />
+      srcset="{{ 'assets/img/icons/optikalbahari.png' | cloudinary_url: 'w_30,f_webp,q_auto' }} 1x,
+              {{ 'assets/img/icons/optikalbahari.png' | cloudinary_url: 'w_60,f_webp,q_auto' }} 2x"
+      type="image/webp">
 
-    <!-- JPEG fallback -->
-    <source
-      srcset="
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/icons/optikalbahari   480w,
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/icons/optikalbahari   768w,
-        https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/icons/optikalbahari 1200w
-      "
-      type="image/jpeg"
-      sizes="(max-width: 768px) 100vw, 768px"
-    />
-
-    <!-- Final fallback with alt and lazy loading -->
     <img
-      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/icons/optikalbahari"
-      loading="lazy"
+      src="{{ 'assets/img/icons/optikalbahari.png' | cloudinary_url: 'w_30,q_auto,f_auto' }}"
       alt="{{ site.title | escape }}"
-      decoding="async"
       width="30"
       height="30"
+      fetchpriority="high"
+      class="d-inline-block align-top"
     />
   </picture>
   {{ site.title | escape }}

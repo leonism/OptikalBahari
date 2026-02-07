@@ -3,9 +3,13 @@
   Usage: {% include components/image-ratio.html ratio="16x9" background_color="bg-secondary-subtle" content="..." %}
 {% endcomment %}
 
-{% assign ratio = include.ratio | default: "16x9" %}
+{% comment %} {% assign ratio = include.ratio | default: "16x9" %}
 {% assign bg_color = include.background_color | default: "bg-secondary-subtle" %}
 
 <div class="ratio ratio-{{ ratio }} {{ bg_color }} placeholder-glow overflow-hidden">
   {{ include.content | replace: '<img ', '<img class="object-fit-cover w-100 h-100" ' }}
+</div> {% endcomment %}
+
+<div class="ratio ratio-{{ include.ratio }}" style="overflow: hidden;">
+  {{ include.content }}
 </div>

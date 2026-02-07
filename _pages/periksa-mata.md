@@ -18,18 +18,13 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp" | relative_url }}"
-      class="card-img-top"
-      title="periksa-mata-gratis"
-      alt="Periksa Mata Gratis Di Optikal Bahari">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Periksa Mata Gratis Di Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksakan Mata Anda Di Optik Secara Rutin
       </h3>
       <p class="card-text text-start">
-        Di Optikal Bahari, proses pemeriksaan mata akan melalui 2 tahapan. Tahapan pertama adalah melalui mesin autorefractometer atau yang biasa dikenal dengan alat pemeriksaan mata otomatis. Lebih lanjut, guna untuk lebih memastikan hasil pemeriksaan ditahapan pertama, ditahapan selanjutnya kami menggunakan alat Phoroptor, dimana didalam prosesnya pasien diminta untuk menyebutkan angka dan tulisan yang tertera dimedia gambar yang terpampang. Selanjutnya, staff kami akan melakukan pembandingan hasil dari proses sebelumnya. Hasil akhir dari pemeriksaan akan menjadi lebih akurat berhubung telah melalui 2 proses validasi langsung dari system dan pasiennya.
+        Di Optikal Bahari, proses pemeriksaan mata akan melalui 2 tahapan. Tahapan pertama adalah melalui mesin autorefractometer atau yang biasa dikenal dengan alat pemeriksaan mata otomatis. Guna untuk lebih memastikan hasil pemeriksaan ditahapan pertama, ditahapan selanjutnya kami menggunakan alat Phoroptor, dimana didalam prosesnya pasien diminta untuk menyebutkan angka dan tulisan yang tertera dimedia gambar yang terpampang. Selanjutnya, staff kami akan melakukan pembandingan hasil dari proses sebelumnya. Hasil akhir dari pemeriksaan akan menjadi lebih akurat berhubung telah melalui 2 proses validasi langsung dari system dan pasiennya.
       </p>
       <p class="card-text text-start">
         Dengan demikian, hasil dari pemeriksaan mata yang dilakukan di Optikal Bahari dijamin cepat, akurat, dan terpercaya. Selain daripada itu, kami juga menyediakan berbagai macam pilihan lensa dan frame yang sesuai dengan kebutuhan Anda sehari-hari. Jika setelah proses pemeriksaan mata Anda tedeteksi mengalami gangguan refraksi mata minus, plus, atau silinder, maka disarankan untuk Anda memakai kacamata agar dapat membantu penglihatan mata anda kembali.
@@ -40,12 +35,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp" | relative_url }}"
-      class="card-img-top"
-      title="periksa-mata-gratis"
-      alt="periksa-mata-gratis.webp">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp' alt='periksa-mata-gratis.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Cepat & Akurat
@@ -65,11 +55,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp" | relative_url }}"
-      class="card-img-top"
-      title="Periksa Mata Dengan Komputer"
-      alt="Periksa Mata Dengan Komputer">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp' alt='Periksa Mata Dengan Komputer' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Dengan Alat Komputer Digital
@@ -86,11 +72,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp" | relative_url }}"
-      class="card-img-top"
-      title="Menggunakan Alat Phoropter"
-      alt="Menggunakan Alat Phoropter">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp' alt='Menggunakan Alat Phoropter' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Alat Periksa Mata Phoropter
@@ -104,11 +86,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp" | relative_url }}"
-      class="card-img-top"
-      title="Autorefractometer atau Auto Lens Meter"
-      alt="Autorefractometer atau Auto Lens Meter">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp' alt='Autorefractometer atau Auto Lens Meter' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Alat Periksa Mata Autorefractometer atau Auto Lens Meter
@@ -122,11 +100,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp" | relative_url }}"
-      class="card-img-top"
-      title="Segera Kunjungi Optikal Bahari"
-      alt="Segera Kunjungi Optikal Bahari">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">

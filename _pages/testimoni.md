@@ -10,20 +10,14 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/bg-post.jpeg
+background: /assets/img/bg-post.webp
 permalink: /testimoni/
 comments: false
 ---
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp"
-      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp"
-      class="card-img-top"
-      title="Periksakan Mata Anda Secara Rutin"
-      alt="Periksakan Mata Anda Secara Rutin">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Periksakan Mata Anda Secara Rutin' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Testimoni Pelanggan dan Konsumen Kami: Bukti Kepercayaan dan Kepuasan
@@ -38,7 +32,7 @@ comments: false
           title="Optikal Bahari Google My Busiess Review Page"
           class="GoogleMyBusiness"
           id="OptikalBahariGMB">Google My Business Optikal Bahari</a>
-        dengan hasil 5 bintang dari 504 ulasan konsumen:
+        dengan hasil 5 bintang dari 511 ulasan konsumen:
       </p>
     </div>
   </div>
@@ -51,13 +45,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img
-    itemprop="image"
-    data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp"
-    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp"
-    class="card-img-top"
-    title="periksa-mata-gratis"
-    alt="Testimoni Konsumen Optikal Bahari">
+  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Testimoni Konsumen Optikal Bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Bukti Nyata Kepercayaan dan Kepuasan: Suara Pelanggan Optikal Bahari
@@ -69,7 +57,7 @@ comments: false
       Oleh karena itu, kami ingin mengucapkan terima kasih kepada seluruh pelanggan yang telah memberikan testimoni dan kepercayaannya kepada Optikal Bahari. Kami akan terus berusaha keras untuk memberikan pelayanan dan produk terbaik, demi menghadirkan senyuman dan kebahagiaan bagi setiap pelanggan yang datang kepada kami.
     </p>
     <p class="card-text text-start">
-      Testimoni-testimoni di atas merupakan bukti nyata dari kepercayaan dan kepuasan pelanggan terhadap Optikal Bahari. Kami berkomitmen untuk selalu memberikan pelayanan terbaik dan produk berkualitas tinggi kepada seluruh pelanggan. Jadi tunggu apalagi, segera datang ke Optik Bahari dan dapatkan banyak penawaran menarik untuk Kacamata & Produk Lensa anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini.
+      Testimoni-testimoni di atas merupakan bukti nyata dari kepercayaan dan kepuasan pelanggan terhadap Optikal Bahari. Kami berkomitmen untuk selalu memberikan pelayanan terbaik dan produk berkualitas tinggi kepada seluruh pelanggan. Jadi tunggu apalagi, segera datang ke Optikal Bahari dan dapatkan banyak penawaran menarik untuk Kacamata & Produk Lensa anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini.
       <a
         href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
         id="WhatsAppClick"

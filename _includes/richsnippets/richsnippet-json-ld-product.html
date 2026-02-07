@@ -1,0 +1,84 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Produk Periksa Mata dan Service Kacamata di Optikal Bahari",
+  "description": "Dapatkan pemeriksaan mata gratis, garansi 1 tahun, program cicilan tanpa bunga & riba, service & reparasi kacamata gratis, bisa bayar menggunakan KJP, tersertifikasi Dinkes & Kemenkes, dan bonus goodie bag di Optikal Bahari.",
+  {%- assign prod_image = "assets/img/bg-stories-index.jpeg" -%}
+  "image": "{{ prod_image | cloudinary_url: 'q_auto,f_jpg,w_1200' | append: '.jpg' }}",
+  "sku": "OB-SERVICE-001",
+  "mpn": "OB-SERVICE-001",
+  "brand": {
+    "@type": "Brand",
+    "name": "{{ site.title | escape }}"
+  },
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Ramdani Yusuf"
+    },
+    "datePublished": "2024-04-09",
+    "reviewBody": "Garansinya beneran lho, pelayanan baik dan ramah ngga nyesel deh kesini yuk cuzz yang lagi cari kacamata meluncurrr❤"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": 511
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "itemCondition": "https://schema.org/NewCondition",
+      "priceCurrency": "IDR",
+      "price": "0",
+      "priceValidUntil": "2026-12-31",
+      "availability": "https://schema.org/InStock",
+      "url": "{{ '/periksa-mata-gratis/' | prepend: site.baseurl | prepend: site.url }}",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "ID",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "returnFees": "https://schema.org/FreeReturn",
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "refundType": "https://schema.org/FullRefund",
+        "merchantReturnDays": 30
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "IDR"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "ID",
+          "addressRegion": "DKI Jakarta"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "unitCode": "DAY",
+            "minValue": 0,
+            "maxValue": 1
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "unitCode": "DAY",
+            "minValue": 1,
+            "maxValue": 3
+          }
+        }
+      }
+    }
+  ]
+}
+</script>

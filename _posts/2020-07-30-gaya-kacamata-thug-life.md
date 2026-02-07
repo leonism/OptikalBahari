@@ -19,12 +19,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/thug-life/thug-life-eyeglasss-04.webp"
-      src="/assets/img/posts/thug-life/thug-life-eyeglasss-04.webp"
-      class="card-img-top img-fluid"
-      alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren" />
+    {% include cloudinary/card_image.html src='assets/img/posts/thug-life/thug-life-eyeglasss-04.webp' alt='Gaya Kacamata Thug Life Buat Penampilan Makin Keren' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Gaya Kacamata Thug Life Buat Penampilan Makin Keren
@@ -32,7 +27,7 @@ comments: true
       <p class="card-text text-start">
         Tampil
         <em>swag</em>
-        atau keren dengan kacamata thug life sangat mungkin        
+        atau keren dengan kacamata thug life sangat mungkin
 				Kamu rasakan, bukan hanya melihat meme di berbagai media sosial. Pasti
 				tidak sedikit orang mengira kacamata ini hanya editan aplikasi di
 				komputer. Faktanya, di dunia nyata juga Kamu bisa tampil keren dengan
@@ -43,7 +38,7 @@ comments: true
 				kepala.
       </p>
       <p class="card-text text-start">
-        Apa arti thug life? Sederhananya kita rangkai dalam cerita. Misalkan ada        
+        Apa arti thug life? Sederhananya kita rangkai dalam cerita. Misalkan ada
 				seorang pemenang kuis ratusan juta untuk pertama kali. Ketika pertanyaan
 				terakhir, ia menggunakan bantuan dengan menelepon kerabat. Namun, orang
 				itu bukannya meminta bantuan malah memberi tahu bahwa ia akan
@@ -57,19 +52,15 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/thug-life/thug-life-eyeglasss-05.webp"
-      src="/assets/img/posts/thug-life/thug-life-eyeglasss-05.webp"
-      class="card-img-top img-fluid"
-      title="Kacamata Thug Life"
-      alt="Kacamata Thug Life" />
+    {% include cloudinary/card_image.html src='assets/img/posts/thug-life/thug-life-eyeglasss-05.webp' alt='Kacamata Thug Life' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Kenali Makna Penamaannya Thug Life</h3>
       <p class="card-text text-start">
-        Makna kata thug life sebenarnya terkesan sederhana jika diaplikasikan di        
+        Makna kata thug life sebenarnya terkesan sederhana jika diaplikasikan di
 				kehidupan nyata. Misal, ketika Kamu secara benar menjawab soal padahal
 				hanya asal-asalan atau ketika Kamu tepat menghentikan kendaraan sebelum
 				lampu merah. Penerapan kacamata model thug life bisa digunakan pada dua
@@ -80,7 +71,7 @@ comments: true
 				yang Kamu lakukan?
       </p>
       <p class="card-text text-start">
-        Penerapan kacamata thug life sepertinya sangat cocok untuk Kamu yang        
+        Penerapan kacamata thug life sepertinya sangat cocok untuk Kamu yang
 				ingin membuat konten youtube atau membuat skenario film. Tren bermain
 				tiktok juga sedang booming, siapa tahu Kamu membutuhkan kacamata satu
 				ini sebagai aksesoris atau pelengkap aksi main tiktok. Thug life
@@ -93,18 +84,15 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/thug-life/thug-life-eyeglasss-06.webp"
-      src="/assets/img/posts/thug-life/thug-life-eyeglasss-06.webp"
-      class="card-img-top img-fluid"
-      alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren" />
+    {% include cloudinary/card_image.html src='assets/img/posts/thug-life/thug-life-eyeglasss-06.webp' alt='Gaya Kacamata Thug Life Buat Penampilan Makin Keren' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Desain Thug Life Unik untuk Digunakan & Dipilih</h3>
       <p class="card-text text-start">
-        Desain kacamata dengan nuansa thug life identik dengan enam kota yang        
+        Desain kacamata dengan nuansa thug life identik dengan enam kota yang
 				menurun ke bawah di mana masing-masing dibagi menjadi dua. Tiga kotak
 				diletakan berdampingan seperti ada efek cermin. Kacamata ini tidak hanya
 				menawarkan warna hitam seperti yang dipertunjukan pada game, meme, atau
@@ -115,7 +103,7 @@ comments: true
 				kotak pada lensa kacamata thug life.
       </p>
       <p class="card-text text-start">
-        Desain ini menunjukan bahwa potongan keenam kotak tersebut merupakan        
+        Desain ini menunjukan bahwa potongan keenam kotak tersebut merupakan
 				potongan dari kacamata di sisi kanan dan sisi kiri. Yang mana jika
 				keenam potongan itu dipasangkan ke lensa, lensa kacamata akan utuh
 				membentuk kotak. Bentuk kacamata yang unik ini kiranya menjadi pusat
@@ -125,18 +113,15 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-glasses.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/thug-life/thug-life-eyeglasss-07.webp"
-      src="/assets/img/posts/thug-life/thug-life-eyeglasss-07.webp"
-      class="card-img-top img-fluid"
-      alt="Gaya Kacamata Thug Life Buat Penampilan Makin Keren" />
+    {% include cloudinary/card_image.html src='assets/img/posts/thug-life/thug-life-eyeglasss-07.webp' alt='Gaya Kacamata Thug Life Buat Penampilan Makin Keren' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">
-        Tidak heran jika kacamata ini disebut sebagai thug life karena dari segi        
+        Tidak heran jika kacamata ini disebut sebagai thug life karena dari segi
 				desainnya saja sudah dibuat untuk orang yang percaya dirinya tinggi.
 				Mungkin Kamu tertarik untuk memiliki kacamata ini? Kamu bisa
 				mendapatkannya di toko optic yang terpercaya. Kunjungi selalu web kami,
@@ -146,14 +131,14 @@ comments: true
 				warna lensa kacamata.
       </p>
       <p class="card-text text-start">
-        Jika kamu ingin mendapat kacamata terbaik, kunjungi toko OPTIKAL BAHARI        
+        Jika kamu ingin mendapat kacamata terbaik, kunjungi toko OPTIKAL BAHARI
 				di alamat Kemayoran, Jakpus, Jln. Bendungan Jago No. 447. Kamu juga bisa
 				mengunjungi website kami atau di fanpage
         <a
           href="https://www.facebook.com/optikalbahari"
           id="FBClick"
           title="Facebook Page Optikal Bahari"
-          class="FacebookPage">Facebook @optikalbahari</a>. Gunakan tips memilih kacamata bagi pemula seperti ini pasti akan        
+          class="FacebookPage">Facebook @optikalbahari</a>. Gunakan tips memilih kacamata bagi pemula seperti ini pasti akan
 				sangat bermanfaat bagi Kamu. Untuk respond yang lebih cepat, silahkan
 				menghubungi kami di nomor HP/WA ini
         <a

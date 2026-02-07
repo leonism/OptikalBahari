@@ -15,12 +15,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32.webp"
-      class="card-img-top"
-      alt="Apa Itu Lensa Photochromic?" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32.webp' alt='Apa Itu Lensa Photochromic?' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Apa Itu Lensa Photochromic?
@@ -55,14 +50,11 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29.webp"
-      class="card-img-top"
-      alt="Bagaimana Lensa Photochromic Bekerja?" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29.webp' alt='Bagaimana Lensa Photochromic Bekerja?' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Bagaimana Lensa Photochromic Bekerja?
@@ -105,14 +97,11 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25.webp"
-      class="card-img-top"
-      alt="Keuntungan Menggunakan Lensa Photochromic" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Keuntungan Menggunakan Lensa Photochromic</h3>
       <p class="card-text text-start">
@@ -162,12 +151,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24.webp"
-      class="card-img-top"
-      alt="Tips Memilih Lensa Photochromic yang Tepat" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24.webp' alt='Tips Memilih Lensa Photochromic yang Tepat' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Tips Memilih Lensa Photochromic yang Tepat</h3>
       <p class="card-text text-start">
@@ -215,12 +199,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp"
-      class="card-img-top"
-      alt="Perbedaan Lensa Photochromic dengan Lensa Biasa" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp' alt='Perbedaan Lensa Photochromic dengan Lensa Biasa' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Perbedaan Lensa Photochromic dengan Lensa Biasa
@@ -274,12 +253,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17.webp"
-      class="card-img-top"
-      alt="Apakah Lensa Photochromic Cocok untuk Anda?" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17.webp' alt='Apakah Lensa Photochromic Cocok untuk Anda?' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Apakah Lensa Photochromic Cocok untuk Anda?</h3>
       <p class="card-text text-start">
@@ -327,12 +301,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp"
-      class="card-img-top"
-      alt="Cara Merawat Lensa Photochromic dengan Baik" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp' alt='Cara Merawat Lensa Photochromic dengan Baik' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Cara Merawat Lensa Photochromic dengan Baik</h3>
       <p class="card-text text-start">
@@ -379,12 +348,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17.webp"
-      class="card-img-top"
-      alt="Cara Merawat Lensa Photochromic dengan Baik" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp' alt='Cara Merawat Lensa Photochromic dengan Baik' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Kenapa Memilih Optikal Bahari untuk Lensa Photochromic Anda?
@@ -431,71 +395,11 @@ comments: true
   </div>
 </div>
 
-<div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp"
-      class="card-img-top"
-      alt="Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik untuk Gaya Anda?" />
-    <div class="card-body">
-      <h3 class="card-title">
-        Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik
-        untuk Gaya Anda?
-      </h3>
-      <p class="card-text text-start">
-        Lensa photochromic dari Optikal Bahari adalah pilihan yang sempurna
-        untuk menambahkan sentuhan gaya dan fungsionalitas pada penampilan Anda.
-        Dengan koleksi lensa photochromic terbaru yang tersedia, Anda dapat
-        menemukan pilihan yang sesuai dengan gaya dan kebutuhan Anda dengan
-        mudah. Dari gaya klasik hingga tren terbaru, Optikal Bahari memiliki
-        semua yang Anda butuhkan untuk tampil bergaya di setiap kesempatan.
-      </p>
-      <p class="card-text text-start">
-        Selain itu, lensa photochromic dari Optikal Bahari menawarkan kenyamanan
-        dan perlindungan maksimal bagi mata Anda. Didesain dengan teknologi
-        terkini, lensa ini dapat menyesuaikan diri secara otomatis dengan
-        perubahan cahaya, memberikan perlindungan terhadap sinar UV yang
-        berbahaya, dan mengurangi silau untuk pengalaman visual yang nyaman dan
-        aman di segala kondisi pencahayaan.
-      </p>
-      <p class="card-text text-start">
-        Optikal Bahari juga menawarkan berbagai pilihan frame kacamata yang
-        modis dan trendi untuk melengkapi lensa photochromic Anda. Dari desain
-        klasik hingga yang paling modern, Anda dapat menemukan frame yang cocok
-        dengan gaya dan kepribadian Anda. Dengan kombinasi frame kacamata yang
-        stylish dan lensa photochromic yang fungsional, Anda akan tampil memukau
-        di setiap kesempatan.
-      </p>
-      <p class="card-text text-start">
-        Selain itu, dengan layanan pelanggan yang ramah dan profesional, Optikal
-        Bahari siap membantu Anda dalam setiap langkah pembelian Anda. Tim
-        mereka terlatih untuk memberikan saran dan bantuan yang Anda butuhkan,
-        mulai dari pemilihan lensa hingga perawatan kacamata Anda. Dengan
-        Optikal Bahari, Anda tidak hanya mendapatkan produk berkualitas tinggi,
-        tetapi juga pengalaman berbelanja yang menyenangkan dan memuaskan.
-      </p>
-      <p class="card-text text-start">
-        Optikal Bahari menawarkan berbagai promo dan penawaran menarik untuk
-        para pelanggannya. Dari diskon khusus hingga program cicilan tanpa
-        bunga, Optikal Bahari selalu berusaha memberikan nilai tambah bagi para
-        pelanggan mereka. Dengan Optikal Bahari, Anda dapat memiliki keyakinan
-        penuh bahwa Anda mendapatkan produk optik terbaik dengan harga yang
-        terjangkau.
-      </p>
-    </div>
-  </div>
-</div>
+{% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp"
-      src="/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp"
-      class="card-img-top"
-      alt="Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik untuk Gaya Anda?" />
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp' alt='Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik untuk Gaya Anda?' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik untuk Gaya Anda?

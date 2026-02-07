@@ -11,33 +11,14 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/eyewear-collection-00/eyewear-kuala-lumpur-min.webp
+background: /assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-09.webp
 permalink: /periksa-mata-gratis/
 comments: false
 ---
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <picture>
-    <!-- AVIF format -->
-    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
-      " type="image/avif" sizes="(max-width: 768px) 100vw, 768px" />
-    <!-- WEBP format -->
-    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
-      " type="image/webp" sizes="(max-width: 768px) 100vw, 768px" />
-    <!-- JPEG fallback -->
-    <source srcset="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 480w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 768w,https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14 1200w
-      " type="image/jpeg" sizes="(max-width: 768px) 100vw, 768px" />
-    <img
-      src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14"
-      alt="Periksa Mata Gratis di Optikal Bahari"
-      loading="lazy"
-      decoding="async"
-      width="768"
-      height="512"
-      class="card-img-top img-fluid"
-      />
-    </picture>
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp' alt='Periksa Mata Gratis di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Gratis
@@ -61,14 +42,11 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp"
-      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp"
-      class="card-img-top img-fluid"
-      alt="Periksa Mata Cepat & Akurat">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp' alt='Periksa Mata Cepat & Akurat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Cepat & Akurat
@@ -86,16 +64,11 @@ comments: false
   </div>
 </div>
 
-{% include home/home-cards-main.html %}
+{% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-    itemprop="image"
-    data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp"
-    src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp"
-    class="card-img-top img-fluid"
-    alt="Proses Pertama: Autorefractometer">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp' alt='Proses Pertama: Autorefractometer' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Proses Pertama: Menggunakan Autorefractometer
@@ -115,12 +88,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp"
-      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp"
-      class="card-img-top img-fluid"
-      alt="Proses Kedua: Phoropter">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp' alt='Proses Kedua: Phoropter' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Proses Kedua: Menggunakan Alat Phoropter
@@ -138,16 +106,11 @@ comments: false
   </div>
 </div>
 
-{% include home/home-cards-benefit.html %}
+{% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webpp"
-      src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp"
-      class="card-img-top img-fluid"
-      alt="Kunjungi Optikal Bahari">
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kunjungi Optikal Bahari
@@ -156,7 +119,7 @@ comments: false
         Sudah menjadi komitmen kami untuk selalu memberikan pelayanan terbaik kepada konsumen kami. Silahkan kunjungi ke Optikal Bahari dan konsultasikan keluhan yang dirasakan yang berhubungan terhadap daya penglihatan anda. Sangat penting untuk melakukan pemeriksaan mata secara berkala untuk mengetahui kemungkinan adanya masalah pada penglihatan anda. Kami di Optikal Bahari menyediakan layanan pemeriksaan mata yang terpercaya dan akurat dengan menggunakan alat-alat modern dengan teknologi terbaru.
       </p>
       <p class="card-text text-start">
-        Optikal Bahari juga menyediakan berbagai pilihan kacamata dengan berbagai merk ternama yang sesuai dengan kebutuhan anda. Kami juga memiliki tim optometris yang terlatih dan berpengalaman yang siap membantu anda dalam memilih kacamata dan lensa yang sesuai dengan kebutuhan penglihatan mata anda. Jika anda merasa memiliki masalah dengan penglihatan anda atau ingin melakukan pemeriksaan mata berkala, jangan ragu untuk mengunjungi Optik Bahari dan kami siap membantu anda dengan sepenuh hati. Punya pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan Page</a> kami. <em>(Optikal Bahari)</em>
+        Optikal Bahari juga menyediakan berbagai pilihan kacamata dengan berbagai merk ternama yang sesuai dengan kebutuhan anda. Kami juga memiliki tim optometris yang terlatih dan berpengalaman yang siap membantu anda dalam memilih kacamata dan lensa yang sesuai dengan kebutuhan penglihatan mata anda. Jika anda merasa memiliki masalah dengan penglihatan anda atau ingin melakukan pemeriksaan mata berkala, jangan ragu untuk mengunjungi Optikal Bahari dan kami siap membantu anda dengan sepenuh hati. Punya pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau kunjungi <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fan Page</a> kami. <em>(Optikal Bahari)</em>
       </p>
     </div>
   </div>

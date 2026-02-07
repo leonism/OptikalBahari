@@ -17,13 +17,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            itemprop="image"
-            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp"
-            class="card-img-top img-fluid"
-            title="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
-            alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame">
+        {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Kacamata Murah & Terjangkau
@@ -42,13 +36,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            itemprop="image"
-            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp"
-            class="card-img-top img-fluid"
-            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
+        {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
             <div class="card-body">
                 <h3 class="card-title">
                     Periksa Mata & Service Gratis
@@ -73,13 +61,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            itemprop="image"
-            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp"
-            src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp"
-            class="card-img-top img-fluid"
-            title="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame"
-            alt="Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame">
+        {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Kacamata Cicilan 0%
@@ -101,10 +83,7 @@ comments: false
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 				title="{{ post.title }}">
 				{% if page.background %}
-				<img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-					class="card-img-top img-fluid"
-					loading="lazy"
-					alt="{{ post.title }}" />
+				{% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top img-fluid' %}
 			</a>
 			{% endif %}
 			<div class="card-body">
@@ -133,12 +112,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img
-            itemprop="image"
-            data-src="/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp"
-            src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}"
-            class="card-img-top"
-            alt="tips-kacamata-2.webp">
+		  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
             <div class="card-body">
                 <h3 class="card-title">
                     Kunjungi Optikal Bahari
@@ -161,10 +135,7 @@ comments: false
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 				title="{{ post.title }}">
 				{% if page.background %}
-				<img itemprop="image" src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-					class="card-img-top img-fluid"
-					loading="lazy"
-					alt="{{ post.title }}" />
+				{% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top img-fluid' %}
 			</a>
 			{% endif %}
 			<div class="card-body">

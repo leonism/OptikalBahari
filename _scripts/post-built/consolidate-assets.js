@@ -1,33 +1,34 @@
 const fs = require('fs-extra')
 const path = require('path')
-const glob = require('glob')
-const cheerio = require('cheerio')
-const CleanCSS = require('clean-css')
-const Terser = require('terser')
-const yargs = require('yargs/yargs')
-const { hideBin } = require('yargs/helpers')
-
-const argv = yargs(hideBin(process.argv))
-  .option('dry-run', {
-    alias: 'd',
-    type: 'boolean',
-    description: 'Run without making changes',
-  })
-  .option('verbose', {
-    alias: 'v',
-    type: 'boolean',
-    description: 'Enable verbose logging',
-  }).argv
-
-const SITE_DIR = '_site'
-const ASSETS_DIR = path.join(SITE_DIR, 'assets')
-const DIST_DIR = path.join(ASSETS_DIR, 'dist')
-
-const log = (msg) => console.log(`[Consolidate] ${msg}`)
-const debug = (msg) => argv.verbose && console.log(`[Consolidate] [DEBUG] ${msg}`)
-const error = (msg) => console.error(`[Consolidate] [ERROR] ${msg}`)
 
 async function main() {
+  const { glob } = await import('glob')
+  const cheerio = await import('cheerio')
+  const { minify: terserMinify } = await import('terser')
+  const { default: yargs } = await import('yargs/yargs')
+  const { hideBin } = await import('yargs/helpers')
+  const CleanCSS = require('clean-css')
+
+  const argv = yargs(hideBin(process.argv))
+    .option('dry-run', {
+      alias: 'd',
+      type: 'boolean',
+      description: 'Run without making changes',
+    })
+    .option('verbose', {
+      alias: 'v',
+      type: 'boolean',
+      description: 'Enable verbose logging',
+    }).argv
+
+  const SITE_DIR = '_site'
+  const ASSETS_DIR = path.join(SITE_DIR, 'assets')
+  const DIST_DIR = path.join(ASSETS_DIR, 'dist')
+
+  const log = (msg) => console.log(`[Consolidate] ${msg}`)
+  const debug = (msg) => argv.verbose && console.log(`[Consolidate] [DEBUG] ${msg}`)
+  const error = (msg) => console.error(`[Consolidate] [ERROR] ${msg}`)
+
   try {
     log('Starting asset consolidation...')
 
@@ -41,7 +42,7 @@ async function main() {
     }
 
     // 2. Find HTML Files
-    const htmlFiles = glob.sync(`${SITE_DIR}/**/*.html`)
+    const htmlFiles = await glob(`${SITE_DIR}/**/*.html`)
     if (htmlFiles.length === 0) {
       log('No HTML files found. Exiting.')
       return
@@ -62,7 +63,7 @@ async function main() {
     $('link[rel="stylesheet"], link[rel="preload"][as="style"]').each((i, el) => {
       const href = $(el).attr('href')
       if (href && isLocalAsset(href)) {
-        const resolved = resolvePath(href)
+        const resolved = resolvePath(href, SITE_DIR)
         if (!cssFiles.includes(resolved)) {
           cssFiles.push(resolved)
         }
@@ -75,7 +76,7 @@ async function main() {
       $noscript('link[rel="stylesheet"]').each((j, link) => {
         const href = $(link).attr('href')
         if (href && isLocalAsset(href)) {
-          const resolved = resolvePath(href)
+          const resolved = resolvePath(href, SITE_DIR)
           if (!cssFiles.includes(resolved)) {
             cssFiles.push(resolved)
           }
@@ -87,7 +88,7 @@ async function main() {
     $('script[src]').each((i, el) => {
       const src = $(el).attr('src')
       if (src && isLocalAsset(src)) {
-        jsFiles.push(resolvePath(src))
+        jsFiles.push(resolvePath(src, SITE_DIR))
       }
     })
 
@@ -173,7 +174,7 @@ async function main() {
       const originalSize = Buffer.byteLength(combinedJs, 'utf8')
 
       try {
-        const result = await Terser.minify(combinedJs, {
+        const result = await terserMinify(combinedJs, {
           compress: {
             drop_console: true, // Remove console logs
             drop_debugger: true,
@@ -210,7 +211,7 @@ async function main() {
       if (cssFiles.length > 0) {
         const cssLinks = $page('link[rel="stylesheet"], link[rel="preload"][as="style"]').filter((i, el) => {
           const href = $page(el).attr('href')
-          return href && cssFiles.includes(resolvePath(href))
+          return href && cssFiles.includes(resolvePath(href, SITE_DIR))
         })
 
         const noscriptsToRemove = []
@@ -233,7 +234,7 @@ async function main() {
           const firstLink = cssLinks.first()
           firstLink.before('<link rel="stylesheet" href="/assets/dist/styles.min.css">')
           cssLinks.remove()
-          $(noscriptsToRemove).remove()
+          $page(noscriptsToRemove).remove()
           modified = true
         }
       }
@@ -242,7 +243,7 @@ async function main() {
       if (jsFiles.length > 0) {
         const jsScripts = $page('script[src]').filter((i, el) => {
           const src = $page(el).attr('src')
-          return src && jsFiles.includes(resolvePath(src))
+          return src && jsFiles.includes(resolvePath(src, SITE_DIR))
         })
 
         if (jsScripts.length > 0) {
@@ -272,7 +273,7 @@ function isLocalAsset(url) {
   return true
 }
 
-function resolvePath(url) {
+function resolvePath(url, SITE_DIR) {
   let cleanUrl = url.split('?')[0]
   if (cleanUrl.startsWith('/')) {
     return path.join(SITE_DIR, cleanUrl)

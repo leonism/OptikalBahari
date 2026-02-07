@@ -12,15 +12,9 @@ tags: [tips, kacamata, lensa]
 background: /assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-00.webp
 comments: true
 ---
-
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-        itemprop="image"
-        data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-01.webp"
-        src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-01.webp"
-        class="card-img-top"
-        alt="tipe-lensa" />
+    {% include cloudinary/card_image.html src='assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-01.webp' alt='tipe-lensa' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
         <h3 class="card-title">
             Bereksperimen Dengan Berbagai Bentuk & Gaya
@@ -58,13 +52,11 @@ comments: true
     </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-02.webp"
-            src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-02.webp"
-            class="card-img-top"
-            alt="lensa-progresif.webp">
+        {% include cloudinary/card_image.html src='assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-02.webp' alt='lensa-progresif.webp' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">
                 Sentuhan Pribadi pada Bingkai Anda Sengan Sentuhan Detail
@@ -94,13 +86,11 @@ comments: true
     </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            data-src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-03.webp"
-            src="/assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-03.webp"
-            class="card-img-top"
-            alt="lensa-progresif.webp">
+        {% include cloudinary/card_image.html src='assets/img/posts/lady-in-eyeglasses/lady-in-eyeglasses-03.webp' alt='lensa-progresif.webp' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">
                 Kenali Jenis Lensa Kacamata Terbaik, Lensa Tunggal dan Bifokal
@@ -122,10 +112,12 @@ comments: true
             </p>
             <p class="card-text text-start">
                 Kamu perlu segera memiliki kacamata dengan lensa progresif ini jika mengalami gangguan presbiopia. Dapatkan hanya di Optikal Bahari Kemayoran, Jakpus, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
-                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @@optikalbahari</a> supaya mendapaatkan update informasi terkait jenis lensa progresif terbaru. Untuk
+                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> supaya mendapatkan update informasi terkait jenis lensa progresif terbaru. Untuk
                 respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall"
                 title="Call WhatsApp">+6281932235445</a>. <em>(Optikal Bahari)</em>
             </p>
         </div>
     </div>
 </div>
+
+{% include home/home-cards-glasses.html %}

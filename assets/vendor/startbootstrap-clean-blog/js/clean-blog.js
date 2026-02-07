@@ -1,44 +1,102 @@
-;(function (a) {
+(function () {
   'use strict'
-  a('body')
-    .on('input propertychange', '.floating-label-form-group', function (b) {
-      a(this).toggleClass('floating-label-form-group-with-value', !!a(b.target).val())
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const mainNav = document.querySelector('#mainNav')
+    if (!mainNav) return
+
+    // Floating label form group handling
+    document.body.addEventListener('input', function (e) {
+      if (e.target.closest('.floating-label-form-group')) {
+        const group = e.target.closest('.floating-label-form-group')
+        if (e.target.value.length > 0) {
+          group.classList.add('floating-label-form-group-with-value')
+        } else {
+          group.classList.remove('floating-label-form-group-with-value')
+        }
+      }
     })
-    .on('focus', '.floating-label-form-group', function () {
-      a(this).addClass('floating-label-form-group-with-focus')
+
+    document.body.addEventListener('focusin', function (e) {
+      if (e.target.closest('.floating-label-form-group')) {
+        const group = e.target.closest('.floating-label-form-group')
+        group.classList.add('floating-label-form-group-with-focus')
+      }
     })
-    .on('blur', '.floating-label-form-group', function () {
-      a(this).removeClass('floating-label-form-group-with-focus')
+
+    document.body.addEventListener('focusout', function (e) {
+      if (e.target.closest('.floating-label-form-group')) {
+        const group = e.target.closest('.floating-label-form-group')
+        group.classList.remove('floating-label-form-group-with-focus')
+      }
     })
-  let b = a('#mainNav').height()
-  ;(a(window).on('scroll', { previousTop: 0 }, function () {
-    let c = a(window).scrollTop()
-    ;(c < this.previousTop
-      ? 0 < c && a('#mainNav').hasClass('is-fixed')
-        ? a('#mainNav').addClass('is-visible')
-        : a('#mainNav').removeClass('is-visible is-fixed')
-      : (a('#mainNav').removeClass('is-visible'),
-        c > b && !a('#mainNav').hasClass('is-fixed') && a('#mainNav').addClass('is-fixed')),
-      (this.previousTop = c))
-  }),
-    a(document).ready(function () {
-      a(document).click(function (b) {
-        let c = a('.navbar-toggler'),
-          d = a('.navbar-collapse'),
-          e = a('#search-google')
-        c.is(b.target) ||
-          d.is(b.target) ||
-          0 !== d.has(b.target).length ||
-          e.is(b.target) ||
-          0 !== e.has(b.target).length ||
-          !d.hasClass('show') ||
-          c.click()
+
+    // Navigation scroll handling
+    let previousTop = 0
+    const navHeight = mainNav.offsetHeight
+
+    window.addEventListener('scroll', function () {
+      const currentTop = window.scrollY
+      
+      if (currentTop < previousTop) {
+        // Scrolling Up
+        if (currentTop > 0 && mainNav.classList.contains('is-fixed')) {
+          mainNav.classList.add('is-visible')
+        } else {
+          mainNav.classList.remove('is-visible', 'is-fixed')
+        }
+      } else {
+        // Scrolling Down
+        mainNav.classList.remove('is-visible')
+        if (currentTop > navHeight && !mainNav.classList.contains('is-fixed')) {
+          mainNav.classList.add('is-fixed')
+        }
+      }
+      previousTop = currentTop
+    })
+
+    // Click outside to close navbar
+    document.addEventListener('click', function (e) {
+      const toggler = document.querySelector('.navbar-toggler')
+      const collapse = document.querySelector('.navbar-collapse')
+      const search = document.querySelector('#search-google')
+
+      if (!toggler || !collapse) return
+
+      const isClickInsideToggler = toggler.contains(e.target)
+      const isClickInsideCollapse = collapse.contains(e.target)
+      const isClickInsideSearch = search && (search.contains(e.target) || search === e.target)
+
+      if (!isClickInsideToggler && !isClickInsideCollapse && !isClickInsideSearch && collapse.classList.contains('show')) {
+        // Simulate a click on the toggler to close it using Bootstrap's native behavior
+        // Or directly use Bootstrap's collapse API if available, but clicking the toggler is safer for compatibility
+        toggler.click()
+      }
+    })
+
+    // Theme toggle handling
+    const themeToggle = document.querySelector('#themeToggle')
+    const currentTheme = localStorage.getItem('theme')
+
+    if (currentTheme === 'dark') {
+      document.body.classList.add('dark-mode')
+      // Also set the attribute for bootstrap or other CSS that might use it
+      document.body.setAttribute('data-bs-theme', 'dark')
+      if (themeToggle) themeToggle.checked = true
+    }
+
+    if (themeToggle) {
+      themeToggle.addEventListener('change', function () {
+        if (this.checked) {
+          document.body.classList.add('dark-mode')
+          document.body.setAttribute('data-bs-theme', 'dark')
+          localStorage.setItem('theme', 'dark')
+        } else {
+          document.body.classList.remove('dark-mode')
+          document.body.removeAttribute('data-bs-theme')
+          localStorage.setItem('theme', 'light')
+        }
       })
-      const b = localStorage.getItem('theme')
-      ;('dark' === b && (a('body').addClass('dark-mode'), a('#themeToggle').prop('checked', !0)),
-        a('#themeToggle').on('change', function () {
-          ;(a('body').toggleClass('dark-mode'),
-            localStorage.setItem('theme', a(this).is(':checked') ? 'dark' : 'light'))
-        }))
-    }))
-})(jQuery)
+    }
+  })
+})()

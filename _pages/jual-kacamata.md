@@ -14,15 +14,9 @@ background: /assets/img/posts/beach-retro-girls/beach-retro-girls-03.webp
 permalink: /jual-kacamata/
 comments: false
 ---
-
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-04.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-04.webp"
-            class="card-img-top img-fluid"
-            loading="lazy"
-            title="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame"
-            alt="Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame">
+        {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-04.webp' alt='Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Jual Kacamata Murah & Terjangkau
@@ -41,12 +35,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-05.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-05.webp"
-            class="card-img-top img-fluid"
-            loading="lazy"
-            title="Periksa Mata & Service Gratis"
-            alt="Periksa Mata & Service Gratis">
+        {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-05.webp' alt='Periksa Mata & Service Gratis' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Periksa Mata & Service Gratis
@@ -71,12 +60,10 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-08.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-08.webp"
-            class="card-img-top img-fluid"
-            loading="lazy"
-            title="Kacamata Cicilan 0%"
-            alt="Kacamata Cicilan 0%">
+        {% include cloudinary/card_image.html src="assets/img/posts/beach-retro-girls/beach-retro-girls-08.webp"
+   alt="Kacamata Cicilan 0%"
+   ratio="16x9"
+   class="card-img-top img-fluid" %}
     <div class="card-body">
         <h3 class="card-title">
             Kacamata Cicilan 0%
@@ -93,12 +80,10 @@ comments: false
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img data-src="/assets/img/posts/beach-retro-girls/beach-retro-girls-029.webp"
-            src="/assets/img/posts/beach-retro-girls/beach-retro-girls-029.webp"
-            class="card-img-top img-fluid"
-            loading="lazy"
-            title="Kunjungi Optikal Bahari Sekarang%"
-            alt="Kunjungi Optikal Bahari Sekarang%">
+        {% include cloudinary/card_image.html src="assets/img/posts/beach-retro-girls/beach-retro-girls-029.webp"
+   alt="Kunjungi Optikal Bahari Sekarang%"
+   ratio="16x9"
+   class="card-img-top img-fluid" %}
         <div class="card-body">
             <h3 class="card-title">
                 Kunjungi Optikal Bahari Sekarang
@@ -116,9 +101,7 @@ comments: false
         <div class="card shadow p-3 mb-5 bg-white rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top img-fluid"
-                    loading="lazy"
-                    alt="{{ post.title }}"></a>
+                    {% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top img-fluid' %}</a>
                 {% endif %}
             <div class="card-body">
                 <h5 class="card-title">

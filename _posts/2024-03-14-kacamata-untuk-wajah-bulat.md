@@ -17,9 +17,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/beach-girls-00/beach-girl-01.webp"
-      src="/assets/img/posts/beach-girls-00/beach-girl-01.webp" class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-01.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Panduan Memilih Kacamata untuk Wajah Bulat</h3>
       <p class="card-text text-start">
@@ -56,9 +54,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/beach-girls-00/beach-girl-02.webp"
-      src="/assets/img/posts/beach-girls-00/beach-girl-02.webp" class="card-img-top img-fluid"
-      alt="Kacamata Yang Cocok Untuk Wajah Bulat" />
+    {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-02.webp' alt='Kacamata Yang Cocok Untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Kacamata Untuk Wajah Bulat Di Optikal Bahari
@@ -144,11 +140,11 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/beach-girls-00/beach-girl-03.webp"
-      src="/assets/img/posts/beach-girls-00/beach-girl-03.webp" class="card-img-top img-fluid"
-      alt="Bagaimana Lensa Photochromic Bekerja?" />
+    {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-03.webp' alt='Bagaimana Lensa Photochromic Bekerja?' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Menyesuaikan Bentuk dan Frame Kacamata: Tips Memilih Kacamata yang Tepat
@@ -185,9 +181,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/beach-girls-00/beach-girl-04.webp"
-      src="/assets/img/posts/beach-girls-00/beach-girl-04.webp" class="card-img-top img-fluid"
-      alt="Keuntungan Menggunakan Lensa Photochromic" />
+    {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-04.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Memperhatikan Proporsi dan Ukuran Frame: Kunci Sukses Memilih Kacamata
@@ -222,9 +216,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/beach-girls-00/beach-girl-05.webp"
-      src="/assets/img/posts/beach-girls-00/beach-girl-05.webp" class="card-img-top img-fluid"
-      alt="Keuntungan Menggunakan Lensa Photochromic" />
+    {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-05.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Temukan Kacamata Idealmu di Optikal Bahari!</h3>
       <p class="card-text text-start">
@@ -256,11 +248,11 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-glasses.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="{{ "/assets/img/posts/beach-girls-00/beach-girl-06.webp" | relative_url }}"
-      src="{{ "/assets/img/posts/beach-girls-00/beach-girl-06.webp" | relative_url }}" class="card-img-top"
-      alt="Kunjungi Optikal Bahari">
+    {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-06.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">
@@ -280,7 +272,7 @@ comments: true
         membantu anda dalam memilih kacamata dan lensa yang sesuai dengan
         kebutuhan penglihatan mata anda. Jika anda merasa memiliki masalah
         dengan penglihatan anda atau ingin melakukan pemeriksaan mata berkala,
-        jangan ragu untuk mengunjungi Optik Bahari dan kami siap membantu anda
+        jangan ragu untuk mengunjungi Optikal Bahari dan kami siap membantu anda
         dengan sepenuh hati. Punya pertanyaan lain sekitar Optikal Bahari,
         silahkan menghubungi kami di nomor HP/WA ini
         <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"

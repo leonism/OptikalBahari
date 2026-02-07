@@ -1,87 +1,105 @@
 require 'cloudinary'
 require 'cloudinary/utils'
 
+# --- LOAD .ENV FOR LOCAL DEVELOPMENT ---
+begin
+  require 'dotenv'
+  Dotenv.load
+rescue LoadError
+  # Dotenv not installed or not needed (e.g., in Production/Cloudflare)
+end
+
+# --- GLOBAL CONFIGURATION ---
+# This ensures the Cloudinary Gem is ready the moment Jekyll starts.
+Cloudinary.config(
+  cloud_name: ENV['CLOUDINARY_CLOUD_NAME'],
+  api_key:    ENV['CLOUDINARY_API_KEY'],
+  api_secret: ENV['CLOUDINARY_API_SECRET'],
+  secure:     true
+)
+
 module Jekyll
   module CloudinaryFilters
     def cloudinary_url(input, options = {})
       return input if input.nil? || input.empty?
 
-      # Initialize Cloudinary if not already done
-      unless @cloudinary_initialized
-        Cloudinary.config(
-          cloud_name: ENV['CLOUDINARY_CLOUD_NAME'],
-          api_key: ENV['CLOUDINARY_API_KEY'],
-          api_secret: ENV['CLOUDINARY_API_SECRET'],
-          secure: true
-        )
-        @cloudinary_initialized = true
-      end
-
-      # Extract public_id from local path
+      # Extract the clean Public ID
       public_id = extract_public_id(input)
 
       # Default transformations
-      default_options = {
-        quality: 'auto',
-        fetch_format: 'auto',
-        dpr: 'auto'
+      transformation_options = {
+        "quality"      => 'auto',
+        "fetch_format" => 'auto',
+        "dpr"          => 'auto'
       }
 
-      # Merge with provided options
-      transformation_options = default_options.merge(options)
+      # Convert String options from Liquid (e.g., 'w_800,c_fill') into a Hash
+      if options.is_a?(String)
+        parsed_options = {}
+        options.split(',').each do |pair|
+          parts = pair.strip.split('_', 2)
+          next unless parts.length == 2
 
-      # Generate Cloudinary URL
-      Cloudinary::Utils.cloudinary_url(public_id, transformation_options)
-    end
-
-    def cloudinary_responsive(input, options = {})
-      return input if input.nil? || input.empty?
-
-      # Generate responsive breakpoints
-      breakpoints = [
-        { width: 400, suffix: 'sm' },
-        { width: 800, suffix: 'md' },
-        { width: 1200, suffix: 'lg' }
-      ]
-
-      srcset_urls = breakpoints.map do |bp|
-        url = cloudinary_url(input, options.merge(width: bp[:width]))
-        "#{url} #{bp[:width]}w"
+          key, value = parts[0], parts[1]
+          case key
+          when 'w'  then parsed_options["width"] = value
+          when 'h'  then parsed_options["height"] = value
+          when 'c'  then parsed_options["crop"] = value
+          when 'q'  then parsed_options["quality"] = value
+          when 'f'  then parsed_options["fetch_format"] = value
+          when 'g'  then parsed_options["gravity"] = value
+          when 'r'  then parsed_options["radius"] = value
+          when 'e'  then parsed_options["effect"] = value
+          when 'bo' then parsed_options["border"] = value
+          end
+        end
+        transformation_options.merge!(parsed_options)
+      elsif options.is_a?(Hash)
+        transformation_options.merge!(options.transform_keys(&:to_s))
       end
 
-      srcset_urls.join(', ')
-    end
-
-    def cloudinary_preset(input, preset)
-      return input if input.nil? || input.empty?
-
-      presets = {
-        'thumbnail' => { width: 200, height: 200, crop: 'fill', gravity: 'auto' },
-        'card' => { width: 400, height: 300, crop: 'fill', gravity: 'auto' },
-        'hero' => { width: 1200, height: 600, crop: 'fill', gravity: 'auto' },
-        'full' => { width: 1920 }
-      }
-
-      preset_options = presets[preset] || {}
-      cloudinary_url(input, preset_options)
+      # Generate the final URL
+      Cloudinary::Utils.cloudinary_url(public_id, transformation_options)
+    rescue => e
+      # If configuration is missing or API fails, log it and return original path
+      puts "⚠️ Cloudinary Error for #{input}: #{e.message}"
+      input
     end
 
     private
 
     def extract_public_id(input)
-      # Remove leading slash and assets/img/ prefix
-      public_id = input.gsub(/^\/?assets\/img\//, '')
-      # Remove file extension
-      public_id = public_id.gsub(/\.[^.]+$/, '')
-      # Return the path as-is since folder structure is handled by Cloudinary folders
-      public_id
+      return "" if input.nil?
+
+      # 1. Force string and clean whitespace
+      id = input.to_s.strip
+
+      # 2. Strip Cloudinary domain & versioning if a full URL was passed
+      # Matches: https://res.cloudinary.com/cloud/image/upload/v12345/
+      id = id.gsub(/https:\/\/res\.cloudinary\.com\/[^\/]+\/image\/upload\/(v\d+\/)?/, '')
+
+      # 3. Strip leading slashes
+      id = id.gsub(/^\//, '')
+
+      # 4. Strip common Jekyll/Local prefixes aggressively
+      # This removes 'assets/img/' regardless of what comes before it
+      id = id.gsub(/^(.*\/)?assets\/img\//, '')
+
+      # 5. Strip all common image file extensions
+      id = id.gsub(/\.(jpg|jpeg|png|webp|gif|avif|svg)$/i, '')
+
+      # 6. Final safety: remove any remaining leading slashes
+      id = id.gsub(/^\//, '')
+
+      id
     end
   end
 end
 
+# Register the Filter
 Liquid::Template.register_filter(Jekyll::CloudinaryFilters)
 
-# Cloudinary Tag for more complex usage
+# Cloudinary Tag for complex usage: {% cloudinary src="/assets/img/photo.jpg" w=800 %}
 module Jekyll
   class CloudinaryTag < Liquid::Tag
     def initialize(tag_name, markup, tokens)
@@ -90,36 +108,17 @@ module Jekyll
     end
 
     def render(context)
-      # Parse parameters
       params = parse_params(@markup)
-      src = params['src'] || params.keys.first
+      src = params.delete('src') || params.keys.first
 
       return '' if src.nil? || src.empty?
 
-      # Remove quotes if present
+      # Clean quotes from source
       src = src.gsub(/["']/, '')
 
-      # Extract transformation options
-      options = params.reject { |k, v| k == 'src' }
-
-      # Convert string values to appropriate types
-      options = options.transform_values do |value|
-        case value
-        when /^\d+$/
-          value.to_i
-        when 'true'
-          true
-        when 'false'
-          false
-        else
-          value.gsub(/["']/, '')
-        end
-      end
-
-      # Generate Cloudinary URL
-      cloudinary_url = Jekyll::CloudinaryFilters.new.cloudinary_url(src, options)
-
-      cloudinary_url
+      # Access the filter logic by extending a new object
+      filter = Object.new.extend(Jekyll::CloudinaryFilters)
+      filter.cloudinary_url(src, params)
     end
 
     private
@@ -129,15 +128,10 @@ module Jekyll
       markup.scan(/([\w-]+)=(["']?)([^"'\s]+)\2/) do |key, quote, value|
         params[key] = value
       end
-
-      # Handle the case where src is provided without key=value format
-      if params.empty? && !markup.empty?
-        params[markup] = true
-      end
-
       params
     end
   end
 end
 
+# Register the Tag
 Liquid::Template.register_tag('cloudinary', Jekyll::CloudinaryTag)

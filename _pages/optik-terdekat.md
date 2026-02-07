@@ -18,12 +18,7 @@ comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-01.webp"
-    class="card-img-top"
-    title="Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari"
-    alt="Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari">
+  {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-01.webp' alt='Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari!
@@ -44,11 +39,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-02.webp"
-    class="card-img-top"
-    alt="kacamata cicilan">
+  {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-02.webp' alt='kacamata cicilan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Optikal Bahari Memberikan Periksa Mata Gratis
@@ -65,12 +56,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-03.webp"
-    class="card-img-top"
-    title="Service & Reparasi Kacamata Gratis!"
-    alt="Service & Reparasi Kacamata Gratis!">
+  {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-03.webp' alt='Service & Reparasi Kacamata Gratis!' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Service & Reparasi Kacamata Gratis!
@@ -85,12 +71,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-04.webp"
-    class="card-img-top"
-    title="Tambahan Bonus Goodie Bag Menarik Optikal Bahari"
-    alt="Tambahan Bonus Goodie Bag Menarik Optikal Bahari">
+  {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-04.webp' alt='Tambahan Bonus Goodie Bag Menarik Optikal Bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Tambahan Bonus Goodie Bag Menarik Optikal Bahari
@@ -105,12 +86,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-05.webp"
-    class="card-img-top"
-    title="Berizin Dari DinKes & Kemenkes Republik Indonesia"
-    alt="Berizin Dari DinKes & Kemenkes Republik Indonesia">
+  {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-05.webp' alt='Berizin Dari DinKes & Kemenkes Republik Indonesia' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Berizin Dari DinKes & Kemenkes Republik Indonesia
@@ -125,18 +101,12 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="/assets/img/posts/malay-hijab-00/malay-hijab-00.webp"
-    class="card-img-top"
-    title="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
-    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+  {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-00.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Optikal Bahari, Optik Terdekat Anda</h3>
     <p class="card-text text-start">
       Optikal Bahari merupakan optik yang terdekat dari Anda, kami menyediakan layanan periksa mata gratis serta memiliki banyak pilihan lensa dan frame dengan harga terjangkau dan kualitas terbaik. Kami juga menawarkan kacamata bergaransi, yang dapat dibayar melalui
-      <a href="{{ "/kacamata-cicilan/" | relative_url }}" title="Optikal Bahari, kacamata cicilan dengan bunga 0%">cicilan dengan bunga 0%</a>
-      dan tanpa credit card. Jangan ragu untuk mengunjungi kami di Bendungan Jago Kemayoran, Jakarta Pusat, atau hubungi kami untuk informasi lebih lanjut.
+      <a href="{{ "/kacamata-cicilan/" | relative_url }}" title="Optikal Bahari, kacamata cicilan dengan bunga 0%">cicilan dengan bunga 0%</a> dan tanpa credit card. Jangan ragu untuk mengunjungi kami di Bendungan Jago Kemayoran, Jakarta Pusat, atau hubungi kami untuk informasi lebih lanjut.
     </p>
     <p class="card-text text-start">
       Jangan lupa juga untuk mengikuti layanan periksa mata gratis yang kami berikan. Kami yakin koleksi kacamata yang kami tawarkan akan memenuhi kebutuhan dan selera keinginan Anda, dengan harga yang terjangkau dan kualitas terbaik. Segera kunjungi Optikal Bahari untuk memperoleh kemudahan dalam memiliki kacamata idaman Anda. Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di

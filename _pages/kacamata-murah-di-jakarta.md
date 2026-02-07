@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Kacamata Murah Hanya di Optik Bahari, Jakarta
-subtitle: 'Dan Dapatkan Periksa Mata Gratis Dengan Proses Kompterisasi'
+title: Kacamata Murah Hanya di Optikal Bahari, Jakarta
+subtitle:
+  Kami menyediakan berbagai pilihan lensa & frame dengan harga terjangkau & kualitas terbaik.
 description:
-  'Dapatkan kacamata murah di Jakarta hanya di Optikal Bahari. Kami menyediakan berbagai pilihan
-  lensa dan frame dengan harga terjangkau dan kualitas terbaik.'
-keywords: 'Kacamata Murah, Kacamata, Murah, Jakarta'
+  Dapatkan kacamata murah hanya di Optikal Bahari, Jakarta. Kami menyediakan berbagai pilihan lensa
+  & frame dengan harga terjangkau & kualitas terbaik.
+keywords: Kacamata Murah, Kacamata, Murah, Jakarta
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -17,18 +18,87 @@ comments: false
 
 <div class="card-deck mb-3">
 	<div class="card shadow p-3 mb-5 bg-white rounded">
-		<img
-			src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' | relative_url }}"
-			class="card-img-top"
-			alt="tips-kacamata-2.webp"
-		/>
+		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Kacamata Murah Jakarta Berkualitas Tanpa Ribet' ratio='16x9' class='card-img-top' %}
 		<div class="card-body">
-			<h3 class="card-title">Kacamata Murah Di Jakarta</h3>
+			<h3 class="card-title">Kacamata Murah Berkualitas Tanpa Ribet Di Jakarta</h3>
 			<p class="card-text text-start">
-				Jika Anda sedang mencari kacamata dengan harga terjangkau di Jakarta, datanglah ke Optikal Bahari. Kami memiliki berbagai pilihan lensa dan frame dengan harga yang terjangkau, namun tidak mengurangi kualitas produk yang kami tawarkan. Kami yakin bahwa kacamata yang kami tawarkan akan memenuhi kebutuhan dan keinginan Anda. Jangan ragu untuk datang dan melihat sendiri pilihan kacamata yang kami tawarkan di Optikal Bahari.
+				Mencari kacamata murah dan terjangkau di Jakarta yang tetap stylish serta nyaman dipakai sehari-hari kini bukan lagi hal sulit. Optikal Bahari hadir sebagai solusi terbaik bagi Anda yang ingin tampil percaya diri tanpa harus menguras budget. Kami menyediakan beragam pilihan frame kekinian dengan desain modern, mulai dari yang minimalis hingga fashionable, lengkap dengan pilihan lensa minus, plus, silinder, hingga anti radiasi yang cocok untuk kebutuhan digital sehari-hari.
 			</p>
 			<p class="card-text text-start">
-				Kami juga selalu memberikan pelayanan terbaik kepada pelanggan kami, dengan tim optisien yang terlatih dan profesional yang siap membantu Anda memilih kacamata yang tepat sesuai kebutuhan dan keinginan Anda. Kami selalu memberikan yang terbaik untuk memastikan bahwa Anda mendapatkan kacamata yang terbaik yang akan membantu Anda dalam kegiatan sehari-hari. Jadi, jangan ragu untuk datang ke Optikal Bahari dan dapatkan kacamata murah di Jakarta dengan kualitas terbaik hanya di sini.
+				Tidak hanya fokus pada harga terjangkau, Optikal Bahari juga memahami pentingnya kualitas dan kenyamanan dalam memilih kacamata. Setiap produk yang kami tawarkan dirancang menggunakan material yang ringan namun kokoh, sehingga nyaman digunakan dalam waktu lama. Dengan koleksi yang selalu diperbarui mengikuti tren terbaru, Anda bisa mendapatkan kacamata murah di Jakarta yang tetap mendukung gaya hidup aktif dan modern.
+			</p>
+			<p class="card-text text-start">
+				Sebagai optik terpercaya di Jakarta Pusat, kami selalu mengutamakan kepuasan pelanggan melalui pelayanan profesional dan produk berkualitas. Setiap kacamata terjangkau yang tersedia telah melalui standar kualitas tinggi untuk memastikan ketajaman penglihatan dan daya tahan maksimal. Tidak heran jika banyak pelanggan setia memilih Optikal Bahari sebagai tempat favorit untuk membeli kacamata murah namun berkualitas di Jakarta.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="card-deck mb-3">
+	<div class="card shadow p-3 mb-5 bg-white rounded">
+		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='Pilihan Frame Trendy untuk Gen Z & Milenial' ratio='16x9' class='card-img-top' %}
+		<div class="card-body">
+			<h3 class="card-title">Pilihan Frame Trendy untuk Gen Z & Milenial</h3>
+			<p class="card-text text-start">
+				Di Optikal Bahari, kacamata murah tidak pernah berarti ketinggalan zaman atau terlihat biasa saja. Kami selalu menghadirkan koleksi frame modern yang mengikuti tren terbaru, mulai dari model minimalis yang elegan, oversized yang bold dan stylish, hingga desain retro yang kembali populer di media sosial. Semua pilihan ini dirancang untuk menunjang penampilan Anda agar tetap fashionable di berbagai kesempatan.
+			</p>
+			<p class="card-text text-start">
+				Kami percaya bahwa kacamata adalah bagian dari identitas dan gaya hidup, bukan sekadar alat bantu penglihatan. Oleh karena itu, setiap koleksi kacamata murah Jakarta yang kami tawarkan dipilih dengan cermat agar nyaman dipakai sekaligus mendukung aktivitas harian, baik untuk bekerja, belajar, maupun bersantai bersama teman. Material ringan dan desain ergonomis membuat kacamata tetap nyaman digunakan sepanjang hari.
+			</p>
+			<p class="card-text text-start">
+				Dengan variasi warna dan desain yang lengkap, Anda bebas menyesuaikan kacamata sesuai kepribadian dan gaya Anda. Mulai dari tampilan profesional untuk kantor, kasual untuk kuliah, hingga trendi untuk hangout, semuanya tersedia dengan harga kacamata murah Jakarta yang ramah di kantong. Di Optikal Bahari, Anda bisa tampil stylish tanpa harus mengorbankan kualitas dan kenyamanan.
+			</p>
+    	</div>
+    </div>
+
+</div>
+
+<div class="card-deck mb-3">
+	<div class="card shadow p-3 mb-5 bg-white rounded">
+		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-7.webp' alt='Pemeriksaan Mata Gratis & Teknologi Modern' ratio='16x9' class='card-img-top' %}
+		<div class="card-body">
+			<h3 class="card-title">Pemeriksaan Mata Gratis & Teknologi Modern</h3>
+			<p class="card-text text-start">
+				Salah satu keunggulan utama Optikal Bahari adalah layanan pemeriksaan mata gratis yang menggunakan teknologi digital terkini untuk hasil yang lebih akurat. Proses pemeriksaan dilakukan dengan cepat dan efisien, tanpa antrean panjang yang melelahkan, sehingga sangat cocok bagi Anda yang memiliki jadwal padat namun tetap ingin menjaga kesehatan mata secara rutin.
+			</p>
+			<p class="card-text text-start">
+				Dengan dukungan peralatan modern, setiap hasil pemeriksaan dapat memberikan gambaran kondisi mata secara detail dan presisi. Tim optisien profesional kami akan menjelaskan hasilnya dengan jelas serta membantu menentukan jenis lensa yang paling sesuai dengan kebutuhan penglihatan Anda, baik untuk rabun jauh, rabun dekat, silinder, maupun perlindungan dari paparan cahaya biru.
+			</p>
+			<p class="card-text text-start">
+				Tidak hanya untuk pembelian kacamata baru, pemeriksaan rutin ini juga penting untuk memantau perubahan kondisi mata dan memastikan Anda selalu mendapatkan resep mata yang akurat. Dengan layanan pemeriksaan mata gratis, Optikal Bahari berkomitmen untuk mendukung kesehatan penglihatan komunitas di Jakarta dan sekitarnya secara berkelanjutan.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="card-deck mb-3">
+	<div class="card shadow p-3 mb-5 bg-white rounded">
+		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8.webp' alt='Kacamata Murah Bisa Dicicil Tanpa Ribet' ratio='16x9' class='card-img-top' %}
+		<div class="card-body">
+			<h3 class="card-title">Kacamata Murah Bisa Dicicil Tanpa Ribet</h3>
+			<p class="card-text text-start">
+				Memiliki kacamata murah Jakarta kini semakin mudah tanpa harus mengganggu kondisi keuangan Anda. Di Optikal Bahari, kami menghadirkan <a href="{{ '/kacamata-cicilan/' | relative_url }}" title="kacamata cicilan"> program cicilan </a> ringan dengan bunga 0% dan tanpa kartu kredit, sehingga Anda bisa langsung membawa pulang kacamata baru tanpa perlu membayar penuh di awal. Solusi ini sangat cocok bagi Anda yang ingin tampil stylish sekaligus menjaga kesehatan mata dengan cara yang lebih fleksibel.
+    	</p>
+			<p class="card-text text-start">
+				Program cicilan ini dirancang sederhana, cepat, dan transparan, tanpa proses rumit yang menyulitkan pelanggan. Dengan pilihan tenor yang ringan, Anda dapat menyesuaikan pembayaran sesuai kemampuan, sehingga membeli kacamata murah di Jakarta tetap terasa nyaman dan aman. Semua informasi biaya dijelaskan secara jelas sejak awal agar tidak ada kejutan di kemudian hari.
+			</p>
+    	<p class="card-text text-start">
+				Tidak hanya itu, Optikal Bahari juga menerima <a href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}" title="bayar kacamata dengan KJP">pembayaran melalui KJP</a>, untuk mendukung kebutuhan pelajar dan mahasiswa. Dengan fasilitas ini, siapa pun tetap bisa mendapatkan kacamata murah berkualitas tinggi tanpa harus khawatir soal biaya. Kami percaya bahwa penglihatan yang sehat seharusnya dapat diakses oleh semua kalangan dengan mudah.
+    	</p>
+    </div>
+  </div>
+</div>
+
+<div class="card-deck mb-3">
+	<div class="card shadow p-3 mb-5 bg-white rounded">
+		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp' alt='Optik Terdekat di Kemayoran Jakarta Pusat' ratio='16x9' class='card-img-top' %}
+		<div class="card-body">
+			<h3 class="card-title">Optik Terdekat di Kemayoran Jakarta Pusat</h3>
+			<p class="card-text text-start">
+				Berlokasi strategis di Kemayoran, Jakarta Pusat, Optikal Bahari mudah dijangkau dari berbagai area. Jika Anda mencari optik terdekat dengan koleksi kacamata murah Jakarta lengkap, tempat kami adalah jawabannya. Pelayanan ramah dan suasana nyaman membuat pengalaman belanja kacamata jadi lebih menyenangkan.
+			</p>
+			<p class="card-text text-start">
+				Jangan ragu untuk datang langsung atau hubungi kami via WhatsApp untuk konsultasi cepat. Dengan kombinasi harga terjangkau, kualitas premium, dan layanan profesional, Optikal Bahari siap menjadi partner terbaik Anda dalam menjaga kesehatan mata dan gaya hidup modern.
 			</p>
 		</div>
 	</div>
@@ -38,15 +108,11 @@ comments: false
 
 <div class="card-deck mb-3">
 	<div class="card shadow p-3 mb-5 bg-white rounded">
-		<img
-			src="{{ '/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' | relative_url }}"
-			class="card-img-top"
-			alt="tips-kacamata-2.webp"
-		/>
+		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
 		<div class="card-body">
 			<h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
 			<p class="card-text text-start">
-				Jangan lewatkan kesempatan untuk memeriksa mata Anda secara gratis di Optikal Bahari di Kemayoran. Kami menyediakan pilihan pembayaran cicilan dengan harga yang terjangkau, bunga 0%, dan tidak memerlukan Credit Card. Kami juga menerima Program KJP. Jadi, jangan ragu untuk datang ke Optikal Bahari dan periksa keadaan mata Anda sekarang juga. Kami siap membantu Anda dalam merawat mata dan memenuhi kebutuhan kacamata Anda.
+				Jangan lewatkan kesempatan untuk memeriksa mata Anda secara gratis di Optikal Bahari di Kemayoran. Kami menyediakan pilihan pembayaran cicilan dengan harga yang terjangkau, bunga 0%, dan tidak memerlukan Credit Card. Kami juga menerima Program KJP. Jadi, jangan ragu untuk datang ke Optikal Bahari and periksa keadaan mata Anda sekarang juga. Kami siap membantu Anda dalam merawat mata and memenuhi kebutuhan kacamata Anda.
 			</p>
 			<p class="card-text text-start">
 				Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
@@ -71,36 +137,4 @@ comments: false
 	</div>
 </div>
 
-<section id="posts-category">
-	<div class="card-deck">
-		{% for post in site.categories.Lensa limit : 3 %}
-		<div class="card shadow p-3 mb-5 bg-white rounded">
-			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-				{% if page.background %}
-				<img
-					src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-					class="card-img-top"
-					alt="{{ post.title }}"
-			/></a>
-			{% endif %}
-			<div class="card-body">
-				<h5 class="card-title">
-					{{ post.title }}
-				</h5>
-				<p class="card-text text-start">{{ post.description | strip_html | truncatewords: 20 }}.</p>
-				<p class="card-text text-start">
-					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-						>Selengkapnya</a
-					>
-				</p>
-			</div>
-			<div class="card-footer">
-				<small class="text-muted">
-					Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} on
-					{{ post.date | date: '%B %d, %Y' }} &middot; {% include postcards/read_time.html content=post.content %}
-				</small>
-			</div>
-		</div>
-		{% endfor %}
-	</div>
-</section>
+{% include home/home-cards-benefit.html %}

@@ -1,5 +1,5 @@
 <section id="KenapaOptikalBahari">
-  <div class="container">
+  <div class="card-deck mb-3">
     <div class="row">
       <!-- Card 1: Testimoni Pelanggan-->
       <div class="col-12 col-md-12 col-lg-4 mb-5">
@@ -9,55 +9,16 @@
             role="button"
             title="Testimoni Pelanggan"
           >
-            {% capture card_content %}
-            <picture>
-              <!-- AVIF format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-index-arch-5   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-index-arch-5   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-index-arch-5 1200w
-                "
-                type="image/avif"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- WEBP format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-index-arch-5   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-index-arch-5   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-index-arch-5 1200w
-                "
-                type="image/webp"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- JPEG fallback -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-index-arch-5   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-index-arch-5   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-index-arch-5 1200w
-                "
-                type="image/jpeg"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- Final fallback with alt and lazy loading -->
-              <img
-                src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/bg-index-arch-5"
-                alt="Testimoni Pelanggan"
-                loading="lazy"
-                decoding="async"
-                width="768"
-                height="512"
-                class="card-img-top"
-              />
-            </picture>
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+            {% include cloudinary/card_image.html
+              src="assets/img/bg-index-arch-5.webp"
+              alt="Testimoni Pelanggan"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
+              <i class="fa-solid fa-circle-check text-green"></i>
               Testimoni Pelanggan
             </h5>
             <p class="card-text">
@@ -66,9 +27,9 @@
             <a
               href="{{ '/testimoni/' | relative_url }}"
               class="btn btn-primary rounded-pill text-white text-white"
-              title="Periksa Mata Gratis"
+              title="Testimoni Pelanggan"
             >
-              Lebih Lanjut
+              <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
             </a>
           </div>
         </div>
@@ -81,65 +42,27 @@
             role="button"
             title="Kenapa Optikal Bahari"
           >
-            {% capture card_content %}
-            <picture>
-              <!-- AVIF format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/bg-periksa-mata   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/bg-periksa-mata   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/bg-periksa-mata 1200w
-                "
-                type="image/avif"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- WEBP format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/bg-periksa-mata   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/bg-periksa-mata   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/bg-periksa-mata 1200w
-                "
-                type="image/webp"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- JPEG fallback -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/bg-periksa-mata   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/bg-periksa-mata   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/bg-periksa-mata 1200w
-                "
-                type="image/jpeg"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- Final fallback with alt and lazy loading -->
-              <img
-                src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/bg-periksa-mata"
-                alt="Kenapa Optikal Bahari"
-                loading="lazy"
-                decoding="async"
-                width="768"
-                height="512"
-                class="card-img-top"
-              />
-            </picture>
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+            {% include cloudinary/card_image.html
+              src="assets/img/bg-periksa-mata.webp"
+              alt="Kenapa Optikal Bahari"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
+              <i class="fa-solid fa-circle-check text-green"></i>
               Kenapa Optikal Bahari
             </h5>
             <p class="card-text">
-              Beli Kacamata Nyicil tanpa DP, tanpa bunga, aman denda, tanpa riba.
+              Tempat Jual Kacamata Keren, Terbaik, Tanpa Ribet dan Gak Pake Lama
             </p>
             <a
               href="{{ '/kenapa-optikal-bahari/' | relative_url }}"
               class="btn btn-primary rounded-pill text-white text-white"
+              title="Kenapa Optikal Bahari"
             >
-              Lebih Lanjut
+              <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
             </a>
           </div>
         </div>
@@ -152,63 +75,25 @@
             role="button"
             title="Lokasi Optikal Bahari"
           >
-            {% capture card_content %}
-            <picture>
-              <!-- AVIF format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_480/splash-screen/bg-splash-post-05   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_768/splash-screen/bg-splash-post-05   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_avif,w_1200/splash-screen/bg-splash-post-05 1200w
-                "
-                type="image/avif"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- WEBP format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_480/splash-screen/bg-splash-post-05   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_768/splash-screen/bg-splash-post-05   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_webp,w_1200/splash-screen/bg-splash-post-05 1200w
-                "
-                type="image/webp"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- JPEG fallback -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_480/splash-screen/bg-splash-post-05   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_768/splash-screen/bg-splash-post-05   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_jpg,w_1200/splash-screen/bg-splash-post-05 1200w
-                "
-                type="image/jpeg"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- Final fallback with alt and lazy loading -->
-              <img
-                src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto,f_auto,w_768/splash-screen/bg-splash-post-05"
-                alt="Lokasi Optikal Bahari"
-                loading="lazy"
-                decoding="async"
-                width="768"
-                height="512"
-                class="card-img-top"
-              />
-            </picture>
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+            {% include cloudinary/card_image.html
+              src="assets/img/splash-screen/bg-splash-post-05.webp"
+              alt="Lokasi Optikal Bahari"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
+              <i class="fa-solid fa-circle-check text-green"></i>
               Lokasi Optikal Bahari
             </h5>
             <p class="card-text">Segera rencanakan kunjungan anda ke Optikal Bahari.</p>
             <a
               href="{{ '/lokasi/' | relative_url }}"
               class="btn btn-primary rounded-pill text-white text-white"
+              title="Lokasi Optikal Bahari"
             >
-              Lebih Lanjut
+              <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
             </a>
           </div>
         </div>

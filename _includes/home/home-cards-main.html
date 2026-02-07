@@ -1,215 +1,62 @@
 <section id="KenapaOptikalBahari">
-  <div class="container">
+  <div class="card-deck mb-3">
     <div class="row">
-      <!-- Card 1: Periksa Mata -->
+      <!-- Card:1 Periksa Mata Gratis !-->
       <div class="col-12 col-md-12 col-lg-4 mb-5">
         <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a
-            href="{{ '/periksa-mata-gratis/' | relative_url }}"
-            role="button"
-            title="Periksa Mata Gratis"
-          >
-            {% capture card_content %}
-            <picture>
-              <!-- AVIF format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480/v1750519373/bg-about   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768/v1750519373/bg-about   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200/v1750519373/bg-about 1200w
-                "
-                type="image/avif"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- WEBP format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480/v1750519373/bg-about   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768/v1750519373/bg-about   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200/v1750519373/bg-about 1200w
-                "
-                type="image/webp"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- JPEG fallback -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480/v1750519373/bg-about   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-about   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200/v1750519373/bg-about 1200w
-                "
-                type="image/jpeg"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- Final fallback with alt and lazy loading -->
-              <img
-                src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-about"
-                alt="Periksa Mata Gratis"
-                loading="lazy"
-                decoding="async"
-                width="768"
-                height="512"
-                class="card-img-top"
-              />
-            </picture>
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+          <a href="{{ '/periksa-mata-gratis/' | relative_url }}" title="Periksa Mata Gratis" role="button" title="Periksa Mata Gratis">
+            {% include cloudinary/card_image.html
+              src="assets/img/bg-about.webp"
+              alt="Periksa Mata Gratis"
+              ratio="16x9"
+              class="card-img-top" %}
           </a>
           <div class="card-body">
             <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Periksa Mata Gratis
+              <i class="fa-solid fa-circle-check text-green"></i> Periksa Mata Gratis
             </h5>
-            <p class="card-text">
-              Lakukan pemeriksaan mata secara teratur untuk penglihatan yang optimal.
-            </p>
-            <a
-              href="{{ '/periksa-mata-gratis/' | relative_url }}"
-              class="btn btn-primary rounded-pill text-white text-white"
-              title="Periksa Mata Gratis"
-            >
-              Lebih Lanjut
-            </a>
+            <p class="card-text">Lakukan pemeriksaan mata secara teratur untuk penglihatan yang optimal.</p>
+            <a href="{{ '/periksa-mata-gratis/' | relative_url }}" title="Periksa Mata Gratis" class="btn btn-primary rounded-pill text-white"><i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut</a>
           </div>
         </div>
       </div>
-      <!-- Card 2: Kacamata Cicilan 0% -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
+      <!-- Card:2 Kacamata Cicilan 0% !-->
+      <div class="col-12 col-md-12 col-lg-4 mb-5">
         <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a
-            href="{{ '/kacamata-cicilan/' | relative_url }}"
-            role="button"
-            title="Kacamata Cicilan 0%"
-          >
-            {% capture card_content %}
-            <picture>
-              <!-- AVIF format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480,dpr_auto/v1750519373/bg-index-arch-1   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768,dpr_auto/v1750519373/bg-index-arch-1   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-                "
-                type="image/avif"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- WEBP format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480,dpr_auto/v1750519373/bg-index-arch-1   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768,dpr_auto/v1750519373/bg-index-arch-1   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-                "
-                type="image/webp"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- JPEG fallback -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480,dpr_auto/v1750519373/bg-index-arch-1   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/bg-index-arch-1   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200,dpr_auto/v1750519373/bg-index-arch-1 1200w
-                "
-                type="image/jpeg"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- Final fallback with alt and lazy loading -->
-              <img
-                src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768,dpr_auto/v1750519373/bg-index-arch-1"
-                alt="Kacamata Cicilan 0%"
-                loading="lazy"
-                decoding="async"
-                width="768"
-                height="512"
-                class="card-img-top"
-              />
-            </picture>
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+          <a href="{{ '/kacamata-cicilan/' | relative_url }}" title="Kacamata Cicilan 0%" role="button" title="Kacamata Cicilan 0%">
+            {% include cloudinary/card_image.html
+              src="assets/img/bg-index-arch-1.webp"
+              alt="Kacamata Cicilan 0%"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Kacamata Cicilan 0%
+              <i class="fa-solid fa-circle-check text-green"></i> Kacamata Cicilan 0%
             </h5>
-            <p class="card-text">
-              Beli Kacamata Nyicil tanpa DP, tanpa bunga, aman denda, tanpa riba.
-            </p>
-            <a
-              href="{{ '/kacamata-cicilan/' | relative_url }}"
-              class="btn btn-primary rounded-pill text-white text-white"
-            >
-              Lebih Lanjut
-            </a>
+            <p class="card-text">Beli Kacamata Nyicil tanpa DP, tanpa bunga, aman denda, tanpa riba.</p>
+            <a href="{{ '/kacamata-cicilan/' | relative_url }}" title="Kacamata Cicilan 0%" class="btn btn-primary rounded-pill text-white"><i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut</a>
           </div>
         </div>
       </div>
-      <!-- Card 3: Terima Pembayaran KJP -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
+      <!-- Card:3 Terima Pembayaran KJP !-->
+      <div class="col-12 col-md-12 col-lg-4 mb-5">
         <div class="card shadow h-100 p-0 bg-white rounded hover-zoomin">
-          <a
-            href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}"
-            role="button"
-            title="Menerima Pembayaran KJP"
-          >
-            {% capture card_content %}
-            <picture>
-              <!-- AVIF format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_480/v1750519373/bg-kjp   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_768/v1750519373/bg-kjp   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_avif,w_1200/v1750519373/bg-kjp 1200w
-                "
-                type="image/avif"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- WEBP format -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_480/v1750519373/bg-kjp   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_768/v1750519373/bg-kjp   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_webp,w_1200/v1750519373/bg-kjp 1200w
-                "
-                type="image/webp"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- JPEG fallback -->
-              <source
-                srcset="
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_480/v1750519373/bg-kjp   480w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-kjp   768w,
-                  https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_1200/v1750519373/bg-kjp 1200w
-                "
-                type="image/jpeg"
-                sizes="(max-width: 768px) 100vw, 768px"
-              />
-              <!-- Final fallback with alt and lazy loading -->
-              <img
-                src="https://res.cloudinary.com/divkqrf7k/image/upload/q_auto:eco,f_jpg,w_768/v1750519373/bg-kjp"
-                alt="Terima Pembayaran KJP"
-                loading="lazy"
-                decoding="async"
-                width="768"
-                height="512"
-                class="card-img-top"
-              />
-            </picture>
-            {% endcapture %}
-            {% include components/image-ratio.html ratio="16x9" content=card_content %}
+          <a href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}" role="button" title="Menerima Pembayaran KJP">
+            {% include cloudinary/card_image.html
+              src="assets/img/bg-kjp.webp"
+              alt="Terima Pembayaran KJP"
+              ratio="16x9"
+              class="card-img-top"
+              loading="lazy" %}
           </a>
           <div class="card-body">
             <h5 class="card-title">
-              <i class="fas fa-check text-green"></i>
-              Terima Pembayaran KJP
+              <i class="fa-solid fa-circle-check text-green"></i> Terima Pembayaran KJP
             </h5>
             <p class="card-text">Kami menerima pembayaran kacamata dengan Kartu Jakarta Pintar.</p>
-            <a
-              href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}"
-              class="btn btn-primary rounded-pill text-white text-white"
-            >
-              Lebih Lanjut
-            </a>
+            <a href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}" title="Menerima Pembayaran KJP" class="btn btn-primary rounded-pill text-white"><i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut</a>
           </div>
         </div>
       </div>

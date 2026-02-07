@@ -16,13 +16,7 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image"
-            src="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" }}"
-            srcset="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" | srcset }}"
-            width="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" | width }}"
-            height="{{ "assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp" | height }}"
-            class="card-img-top img-fluid"
-            alt="Kacamata Hitam Wanita">
+        {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp' alt='Trendsetter Kacamata Hitam Wanita: Kenali Gaya yang Lagi Hits' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Trendsetter Kacamata Hitam Wanita: Kenali Gaya yang Lagi Hits
@@ -60,14 +54,7 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img
-            itemprop="image"
-            src="{{" /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" }}"
-            srcset="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" | srcset }}"
-            width="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" | width }}"
-            height="{{ "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp" | height }}"
-            class="card-img-top img-fluid"
-            alt="Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi">
+        {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp' alt='Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi
@@ -101,16 +88,8 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="{{"
-        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
-        }}" srcset="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
-        | srcset }}" width="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
-        | width }}" height="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp"
-        | height }}" class="card-img-top img-fluid" alt="Kacamata Hitam Wanita:
-        Solusi Gaya yang Menawan di Segala Kondisi">
+        {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp' alt='Kacamata Hitam Wanita:
+        Solusi Gaya yang Menawan di Segala Kondisi' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Tren Kacamata Wanita Terkini yang Harus Anda Coba
@@ -142,18 +121,12 @@ comments: true
     </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="{{"
-        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
-        }}" srcset="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
-        | srcset }}" width="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
-        | width }}" height="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp"
-        | height }}" class="card-img-top img-fluid" alt="Cara Merawat Kacamata
-        Wanita agar Tetap Awet dan Tampak Baru">
+        {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp' alt='Cara Merawat Kacamata
+        Wanita agar Tetap Awet dan Tampak Baru' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru
@@ -183,18 +156,11 @@ comments: true
     </div>
 </div>
 
+{% include home/home-cards-glasses.html %}
+
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <img itemprop="image" src="{{"
-        /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
-        }}" srcset="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
-        | srcset }}" width="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
-        | width }}" height="{{
-        "/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp"
-        | height }}" class="card-img-top img-fluid" alt="Cara Merawat Kacamata
-        Wanita agar Tetap Awet dan Tampak Baru">
+        {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp' alt='Temukan Kacamata Wanita Impian Anda di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Temukan Kacamata Wanita Impian Anda di Optikal Bahari

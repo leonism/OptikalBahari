@@ -16,16 +16,8 @@ background: /assets/img/posts/whitesand-girls/whitesand-girls-00.webp
 permalink: /kacamata-wanita/
 comments: false
 ---
-
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/whitesand-girls/whitesand-girls-01.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Periksakan Mata Anda Secara Rutin"
-    loading="lazy"
-    width="600"
-    height="400">
+  {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-01.webp' alt='Periksakan Mata Anda Secara Rutin' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Mengapa Kacamata Wanita Adalah Aksesori Fashion Penting
@@ -42,15 +34,10 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/whitesand-girls/whitesand-girls-02.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
-    loading="lazy"
-    width="600"
-    height="400">
+  {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-02.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Bagaimana Memilih Kacamata Wanita yang Cocok untuk Anda
@@ -68,14 +55,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/whitesand-girls/whitesand-girls-03.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan"
-    loading="lazy"
-    width="600"
-    height="400">
+  {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-03.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Tren Kacamata Wanita Terkini yang Harus Anda Coba
@@ -92,15 +72,10 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-glasses.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/whitesand-girls/whitesand-girls-04.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru"
-    loading="lazy"
-    width="600"
-    height="400">
+  {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-04.webp' alt='Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru
@@ -117,15 +92,10 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    itemprop="image"
-    src="{{ '/assets/img/posts/whitesand-girls/whitesand-girls-05.webp' | relative_url }}"
-    class="card-img-top img-fluid"
-    alt="Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru"
-    loading="lazy"
-    width="600"
-    height="400">
+  {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-05.webp' alt='Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Temukan Kacamata Wanita Impian Anda di Optikal Bahari!

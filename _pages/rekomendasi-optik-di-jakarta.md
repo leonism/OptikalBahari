@@ -16,13 +16,10 @@ comments: false
 ---
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/posts/kacamata-cicilan/kacamata-cicilan.webp"
-    class="card-img-top"
-    alt="kacamata cicilan">
+  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-cicilan/kacamata-cicilan.webp' alt='kacamata cicilan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
-      Rekomenedasi Optik Di Jakarta Yang Terjangkau.
+      Rekomendasi Optik Di Jakarta Yang Terjangkau.
     </h3>
     <p class="card-text text-start">
       Kalo kamu kebetulan tinggal atau sedang berada di daerah Kemayoran atau sekitarnya, dan sedang mempertimbangkan utuk membeli Kacamata berhubung mungkin ukuran kamu sudah berubah atau butuh model baru karena model lama mungkin sudah bosan, mungkin boleh dicoba untuk mampir ke Optikal Bahari, di
@@ -41,10 +38,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 bg-white mb-5">
-  <img
-    src="/assets/img/bg-about.webp"
-    class="card-img-top"
-    alt="Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan">
+  {% include cloudinary/card_image.html src='assets/img/bg-about.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan</h3>
     <p class="card-text text-start">

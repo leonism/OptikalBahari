@@ -17,9 +17,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/vespa-girls/vespa-girl-06.webp"
-      src="/assets/img/posts/vespa-girls/vespa-girl-06.webp" class="card-img-top img-fluid"
-      alt="Panduan Memilih Kacamata untuk Wajah Bulat" />
+    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-06.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Pentingnya Memilih Kacamata yang Sesuai untuk Wajah Kotak
@@ -57,9 +55,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/vespa-girls/vespa-girl-07.webp"
-      src="/assets/img/posts/vespa-girls/vespa-girl-07.webp" class="card-img-top img-fluid"
-      alt="Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari" />
+    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-07.webp' alt='Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari
@@ -145,11 +141,11 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/vespa-girls/vespa-girl-08.webp"
-      src="/assets/img/posts/vespa-girls/vespa-girl-08.webp" class="card-img-top img-fluid"
-      alt="Cara Memilih Frame Kacamata yang Cocok untuk Wajah Kotak" />
+    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-08.webp' alt='Cara Memilih Frame Kacamata yang Cocok untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Cara Memilih Frame Kacamata yang Cocok untuk Wajah Kotak
@@ -185,9 +181,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/vespa-girls/vespa-girl-09.webp"
-      src="/assets/img/posts/vespa-girls/vespa-girl-09.webp" class="card-img-top img-fluid"
-      alt="Fitur Kacamata yang Harus Diperhatikan untuk Wajah Kotak" />
+    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-09.webp' alt='Fitur Kacamata yang Harus Diperhatikan untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Fitur Kacamata yang Harus Diperhatikan untuk Wajah Kotak
@@ -230,9 +224,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/vespa-girls/vespa-girl-10.webp"
-      src="/assets/img/posts/vespa-girls/vespa-girl-10.webp" class="card-img-top img-fluid"
-      alt="Stylish dengan Kacamata Optikal Bahari untuk Wajah Kotak" />
+    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-10.webp' alt='Stylish dengan Kacamata Optikal Bahari untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Stylish dengan Kacamata Optikal Bahari untuk Wajah Kotak
@@ -263,9 +255,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/vespa-girls/vespa-girl-14.webp"
-      src="/assets/img/posts/vespa-girls/vespa-girl-14.webp" class="card-img-top img-fluid"
-      alt="Kacamata yang Sesuai untuk Wajah Kotak" />
+    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-14.webp' alt='Kacamata yang Sesuai untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Kacamata yang Sesuai untuk Wajah Kotak</h3>
       <p class="card-text text-start">
@@ -301,9 +291,7 @@ comments: true
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="/assets/img/posts/vespa-girls/vespa-girl-15.webp"
-      src="/assets/img/posts/vespa-girls/vespa-girl-15.webp" class="card-img-top img-fluid"
-      alt="Kacamata yang Cocok untuk Wajah Kotak" />
+    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-15.webp' alt='Kacamata yang Cocok untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Kacamata yang Cocok untuk Wajah Kotak</h3>
       <p class="card-text text-start">
@@ -335,11 +323,11 @@ comments: true
   </div>
 </div>
 
+{% include home/home-cards-glasses.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img itemprop="image" data-src="{{ "/assets/img/posts/vespa-girls/vespa-girl-17.webp" | relative_url }}"
-      src="{{ "/assets/img/posts/vespa-girls/vespa-girl-17.webp" | relative_url }}" class="card-img-top"
-      alt="Kunjungi Optikal Bahari">
+    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-17.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">
@@ -359,7 +347,7 @@ comments: true
         membantu anda dalam memilih kacamata dan lensa yang sesuai dengan
         kebutuhan penglihatan mata anda. Jika anda merasa memiliki masalah
         dengan penglihatan anda atau ingin melakukan pemeriksaan mata berkala,
-        jangan ragu untuk mengunjungi Optik Bahari dan kami siap membantu anda
+        jangan ragu untuk mengunjungi Optikal Bahari dan kami siap membantu anda
         dengan sepenuh hati. Punya pertanyaan lain sekitar Optikal Bahari,
         silahkan menghubungi kami di nomor HP/WA ini
         <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"

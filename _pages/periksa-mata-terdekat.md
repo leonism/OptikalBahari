@@ -17,12 +17,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.webp" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.webp" | relative_url }}"
-      class="card-img-top"
-      alt="Periksa Mata Gratis Terdekat">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.webp' alt='Periksa Mata Gratis Terdekat' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Temukan Periksa Mata Terdekat & Gratis
@@ -70,12 +65,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.webp" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.webp" | relative_url }}"
-      class="card-img-top"
-      alt="Periksa Mata Cepat & Akurat">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.webp' alt='Periksa Mata Cepat & Akurat' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Terdekat: Cepat, Akurat, dan Gratis!
@@ -99,12 +89,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.webp" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.webp" | relative_url }}"
-      class="card-img-top"
-      alt="Proses Pertama: Menggunakan Autorefractometer">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.webp' alt='Proses Pertama: Menggunakan Autorefractometer' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Langkah Awal: Pemeriksaan Mata Terdekat yang Praktis
@@ -130,12 +115,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.webp" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.webp" | relative_url }}"
-      class="card-img-top"
-      alt="Proses Kedua: Menggunakan Alat Phoropter">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.webp' alt='Proses Kedua: Menggunakan Alat Phoropter' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Langkah Berikutnya: Penggunaan Alat Phoropter Terdepan
@@ -163,12 +143,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-    <img
-      itemprop="image"
-      data-src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.webp" | relative_url }}"
-      src="{{"/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.webp" | relative_url }}"
-      class="card-img-top"
-      alt="Kunjungi Optikal Bahari">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Kunjungi Optikal Bahari
@@ -179,7 +154,7 @@ comments: false
         dari lokasi Anda. Kesehatan mata Anda adalah prioritas kami. Kunjungi Optikal Bahari dan temukan kemudahan periksa mata gratis yang kami tawarkan. Kami memahami pentingnya periksa mata terdekat secara berkala untuk memastikan kualitas penglihatan Anda. Dengan alat-alat canggih dan teknologi terbaru, kami siap memberikan pemeriksaan mata yang akurat dan terpercaya.
       </p>
       <p class="card-text text-start">
-        Optikal Bahari juga menyediakan berbagai pilihan kacamata dengan berbagai merk ternama yang sesuai dengan kebutuhan anda. Kami juga memiliki tim optometris yang terlatih dan berpengalaman yang siap membantu anda dalam memilih kacamata dan lensa yang sesuai dengan kebutuhan penglihatan mata anda. Jika anda merasa memiliki masalah dengan penglihatan anda atau ingin melakukan pemeriksaan mata berkala, jangan ragu untuk mengunjungi Optik Bahari dan kami siap membantu anda dengan sepenuh hati. Punya pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi kami di nomor HP/WA ini
+        Optikal Bahari juga menyediakan berbagai pilihan kacamata dengan berbagai merk ternama yang sesuai dengan kebutuhan anda. Kami juga memiliki tim optometris yang terlatih dan berpengalaman yang siap membantu anda dalam memilih kacamata dan lensa yang sesuai dengan kebutuhan penglihatan mata anda. Jika anda merasa memiliki masalah dengan penglihatan anda atau ingin melakukan pemeriksaan mata berkala, jangan ragu untuk mengunjungi Optikal Bahari dan kami siap membantu anda dengan sepenuh hati. Punya pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi kami di nomor HP/WA ini
         <a
           href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
           id="WhatsAppClick"

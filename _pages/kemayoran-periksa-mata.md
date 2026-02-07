@@ -5,7 +5,7 @@ subtitle: 'Periksa Mata Gratis di Optikal Bahari'
 description:
   Periksa mata gratis dengan sistem komputeriasi, bergaransi, banyak promo, sistem cicilan tanpa
   bunga dan terima KJP.
-keywords: 'Optikal Bahari, Optik Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
+keywords: 'Optikal Bahari, Optikal Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
 author: Optikal Bahari
 categories: [Info]
@@ -17,7 +17,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-  <img itemprop="image" src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
+  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Periksa Mata Gratis, Cepat & Akurat</h3>
       <p class="card-text text-start">Sering mengalami gangguan penglihatan setelah lama didepan monitor atau laptop anda setelah seharian bekerja di kantor? Atau sering menghabiskan waktu dan berlama-lama didepan handphone bermain game? Atau mungkin kamu yang suka drama korea dan suka bagadang nonton serie kesukaan kamu? Semua aktifitas tadi bisa menyebabkan turunnya daya penglihatan kamu. Di Optikal Bahari kami mempunyai layanan gratis untuk periksa mata kamu dengan secara cepat dan akurat. Berikut tiga alasan utama kenapa kamu harus datang ke Optikal Bahari selain dari pemeriksaan mata kamu yang kami berikan secara gratis.</p>
@@ -29,7 +29,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 bg-white rounded">
-		  <img src="{{"/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp" | relative_url }}" class="card-img-top" alt="tips-kacamata-2.webp">
+		  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
@@ -46,7 +46,7 @@ comments: false
         <div class="card shadow p-3 mb-5 bg-white rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
-                    <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="{{ post.title }}"></a>
+                    {% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top' %}</a>
                 {% endif %}
             <div class="card-body">
                 <h5 class="card-title">
