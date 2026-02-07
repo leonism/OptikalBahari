@@ -72,7 +72,9 @@ module AssetProcessor
     }.freeze
 
     def initialize(site_config = {})
-      @config = deep_merge(DEFAULT_CONFIG, site_config.fetch('asset_processor', {}))
+      # Handle case where asset_processor key exists but is nil in config
+      user_config = site_config.fetch('asset_processor', {}) || {}
+      @config = deep_merge(DEFAULT_CONFIG, user_config)
       validate_config!
     end
 

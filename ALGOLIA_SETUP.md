@@ -55,7 +55,7 @@ npm run postbuild
 Or using the convenience script (if available):
 
 ```bash
-bash _scripts/post-built/post-build.sh
+bash _scripts/post-built/post-build.js
 ```
 
 ---

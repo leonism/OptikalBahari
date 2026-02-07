@@ -206,6 +206,7 @@ build_command:
 - JEKYLL_ENV=production bundle exec jekyll build --verbose && bash _scripts/post-built/post-build.sh
 - JEKYLL_ENV=production bundle exec jekyll build --verbose && npm run postbuild
 - JEKYLL_ENV=development bundle exec jekyll serve --verbose --watch --incremental
+- bundle exec jekyll algolia
 ```
 
 ### Code Formating Command

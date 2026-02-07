@@ -1,44 +1,54 @@
+---
+---
 document.addEventListener('DOMContentLoaded', function() {
-  // Check if Algolia configuration is present
-  // In a real implementation, you might fetch these from a config object injected by Jekyll
-  // For now, we check if the containers exist
-  
-  const searchContainer = document.getElementById('algolia-search-container');
-  if (!searchContainer) return;
+  window.algoliaDebug = { status: 'started' };
 
-  // Configuration from environment variables
-  const algoliaConfig = {
-    appId: process.env.ALGOLIA_APP_ID,
-    apiKey: process.env.ALGOLIA_SEARCH_API_KEY,
-    indexName: process.env.ALGOLIA_INDEX_NAME
-  };
+  try {
+    // Check if Algolia configuration is present
+    // Credentials are injected by Jekyll via Liquid from _plugins/dotenv.rb
 
-  // Check if credentials are placeholders or missing
-  if (!algoliaConfig.appId || algoliaConfig.appId === 'YOUR_ALGOLIA_APP_ID') {
-    console.warn('Algolia Search: Please configure your App ID and API Key in assets/js/algolia-search.js or _config.yml');
-    // Optional: Render a warning in the UI for development
-    // document.getElementById('searchbox').innerHTML = '<small class="text-danger">Algolia not configured</small>';
-    return;
-  }
-
-  const search = instantsearch({
-    indexName: algoliaConfig.indexName,
-    searchClient: algoliasearch(algoliaConfig.appId, algoliaConfig.apiKey),
-    searchFunction(helper) {
-      const container = document.querySelector('#hits');
-      if (helper.state.query) {
-        container.classList.add('has-results');
-        helper.search();
-      } else {
-        container.classList.remove('has-results');
-        container.innerHTML = ''; // Clear results when query is empty
-      }
+    const searchContainer = document.getElementById('algolia-search-container');
+    if (!searchContainer) {
+      window.algoliaDebug.status = 'no_container';
+      return;
     }
-  });
+    window.algoliaDebug.containerFound = true;
 
-  // Search Box Widget
-  search.addWidgets([
-    instantsearch.widgets.searchBox({
+    // Configuration from Jekyll Site Config (injected from ENV)
+    const algoliaConfig = {
+      appId: '{{ site.data.algolia_credentials.application_id }}',
+      apiKey: '{{ site.data.algolia_credentials.search_only_api_key }}',
+      indexName: '{{ site.data.algolia_credentials.index_name }}'
+    };
+
+    window.algoliaDebug.config = algoliaConfig;
+
+    // Check if credentials are placeholders or missing
+    if (!algoliaConfig.appId || algoliaConfig.appId === 'YOUR_ALGOLIA_APP_ID') {
+      console.warn('Algolia Search: Please configure your App ID and API Key in .env file');
+      window.algoliaDebug.status = 'missing_config';
+      return;
+    }
+
+    const search = instantsearch({
+      indexName: algoliaConfig.indexName,
+      searchClient: algoliasearch(algoliaConfig.appId, algoliaConfig.apiKey),
+      searchFunction(helper) {
+        const container = document.querySelector('#hits');
+        if (helper.state.query) {
+          container.classList.add('has-results');
+          helper.search();
+        } else {
+          container.classList.remove('has-results');
+          container.innerHTML = '';
+        }
+      }
+    });
+
+    window.algoliaDebug.clientCreated = true;
+
+    search.addWidgets([
+      instantsearch.widgets.searchBox({
       container: '#searchbox',
       placeholder: 'Cari Optikal Bahari...',
       showReset: true,
@@ -59,13 +69,13 @@ document.addEventListener('DOMContentLoaded', function() {
     instantsearch.widgets.hits({
       container: '#hits',
       templates: {
-        empty: '<div class="p-3 text-center text-muted">No results found for "<strong>{{query}}</strong>"</div>',
-        item: `
+        empty: '{% raw %}<div class="p-3 text-center text-muted">No results found for "<strong>{{query}}</strong>"</div>{% endraw %}',
+        item: `{% raw %}
           <a href="{{url}}" class="result-item">
             <h4>{{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}</h4>
             <p>{{#helpers.snippet}}{ "attribute": "content" }{{/helpers.snippet}}</p>
           </a>
-        `
+        {% endraw %}`
       },
       cssClasses: {
         list: 'list-unstyled m-0',
@@ -78,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
   search.on('render', function() {
     const hitsContainer = document.querySelector('#hits');
     const searchInput = document.querySelector('.ais-SearchBox-input');
-    
+
     // Hide hits if input is empty (handled by searchFunction, but double check)
     if (searchInput && searchInput.value.trim() === '') {
       hitsContainer.classList.remove('has-results');
@@ -86,4 +96,10 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   search.start();
+    window.algoliaDebug.status = 'started_search';
+  } catch (e) {
+    window.algoliaDebug.error = e.message;
+    window.algoliaDebug.stack = e.stack;
+    console.error('Algolia Error:', e);
+  }
 });

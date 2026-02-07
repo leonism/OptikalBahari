@@ -18,4 +18,5 @@ group :jekyll_plugins do
   gem "dotenv", "~> 3.1"
   gem "jekyll-minifier", "~> 0.1.10"
   gem "colorize", "~> 1.1"
+  gem "jekyll-algolia", "~> 1.7"
 end
