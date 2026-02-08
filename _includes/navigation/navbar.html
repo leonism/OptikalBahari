@@ -5,25 +5,30 @@
       {% include navigation/navbar-brand.html %}
     </div>
 
-    <!-- Toggle Button for Mobile Navigation -->
-    {% include navigation/navbar-toggler.html %}
+    <!-- Right Side Actions (Always Visible) -->
+    <div class="navbar-actions-group d-flex align-items-center order-lg-3">
+      <!-- Theme Toggle -->
+      {% include navigation/navbar-theme-toggle.html %}
+
+      <!-- Search (Always Visible) -->
+      {% if site.algolia.application_id %}
+        {% include navigation/navbar-search-algolia.html %}
+      {% else %}
+        <div class="navbar-search-placeholder">
+          {% include navigation/navbar-search-google.html %}
+        </div>
+      {% endif %}
+
+      <!-- Toggle Button for Mobile Navigation -->
+      {% include navigation/navbar-toggler.html %}
+    </div>
 
     <!-- Navbar Content Wrapper -->
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <!-- 2. Links & Theme Toggle Area (Center Aligned) -->
+    <div class="collapse navbar-collapse order-lg-2" id="navbarResponsive">
+      <!-- 2. Links Area (Center Aligned) -->
       <ul class="navbar-nav mx-auto align-items-center clearfix">
         {% include navigation/navbar-links.html %}
-        {% include navigation/navbar-theme-toggle.html %}
       </ul>
-
-      <!-- 3. Search Field Area (Right Aligned) -->
-      <div class="navbar-search-area">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            {% include navigation/navbar-search-google.html %}
-          </li>
-        </ul>
-      </div>
     </div>
   </div>
 </nav>

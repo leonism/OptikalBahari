@@ -1,7 +1,6 @@
 ---
 layout: compress
 ---
-<!doctype html>
 {% include head.html %}
 <body>
   {% include gtm/gtm-body.html %}
@@ -9,6 +8,9 @@ layout: compress
     {{ content }}
   </main>
   {% include wa-body.html %}
+  {% if site.algolia.application_id %}
+  {% include navigation/navbar-overlay-algolia.html %}
+  {% endif %}
   {% include footer.html %}
   {% include scripts.html %}
   {% include richsnippets.html %}

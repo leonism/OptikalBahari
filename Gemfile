@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.4.1"
 gem 'concurrent-ruby', '~> 1.2'
+gem 'json', '2.18.1'
+gem 'google-protobuf', '4.33.5'
 gem "csv"
 gem "base64"
 gem 'brotli'
@@ -18,4 +20,5 @@ group :jekyll_plugins do
   gem "dotenv", "~> 3.1"
   gem "jekyll-minifier", "~> 0.1.10"
   gem "colorize", "~> 1.1"
+  gem "jekyll-algolia", "~> 1.7"
 end

@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Pertama Di Kemayoran, Terpercaya Sejak 1978
-descriptions:
+subtitle:
   Optik Pertama & Terpercaya di Kemayoran. Periksa & Service Mata Gratis, Kacamata Cicilan,
   Bergaransi, Tanpa Credit Card, Tanpa Bunga, Aman Riba & Menerima KJP
+description:
+  Periksa Mata & Service Kacamata Gratis, Garansi, Cicilan 0%, Aman Riba, Tanpa Denda, Izin Dinkes/Kemenkes & Terima KJP. Pertama & Terpercaya Sejak 1978.
 keywords:
   Optikal Bahari, Kemayoran, Periksa Mata Gratis, Optik, Bendungan Jago, Optik KJP, Kacamata Cicilan
 lang: id-ID

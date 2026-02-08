@@ -195,3 +195,55 @@ jekyll-minifier:
     - "*.min.js"
     - "*.min.css"
     - "assets/vendor/**/*"
+
+# Algolia Search Configuration
+algolia:
+  application_id: <%= ENV['ALGOLIA_APPLICATION_ID'] %>
+  index_name: <%= ENV['ALGOLIA_INDEX_NAME'] %>
+  search_only_api_key: <%= ENV['ALGOLIA_SEARCH_API_KEY'] %>
+  nodes_to_index: "p,h1,h2,h3,h4,h5,h6"
+  files_to_exclude:
+    - _pages/404.md
+    - _pages/sitemap.xml
+    - index.html
+  extensions_to_index:
+    - html
+    - md
+  settings:
+    attributesToRetrieve:
+      - title
+      - subtitle
+      - description
+      - excerpt
+      - content
+      - url
+      - date
+      - categories
+      - tags
+      - author
+      - image
+      - header_image
+      - background
+    searchableAttributes:
+      - title
+      - excerpt
+      - content
+      - tags
+      - categories
+      - author
+    attributesForFaceting:
+      - searchable(categories)
+      - searchable(tags)
+      - searchable(author)
+      - searchable(date)
+    customRanking:
+      - desc(date)
+    attributesToHighlight:
+      - title
+      - excerpt
+      - content
+    attributesToSnippet:
+      - excerpt:50
+      - content:50
+    hitsPerPage: 10
+    maxValuesPerFacet: 20

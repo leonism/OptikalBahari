@@ -11,13 +11,13 @@ date: '2019-08-19 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/posts/kacamata-model/female-glasses-00-min.webp
+background: /assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp
 permalink: /kacamata-cicilan-0-persen-bebas-riba-optikal-bahari/
 comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-01.webp' alt='Kacamata Cicilan 0%: Solusi Cerdas untuk Kebutuhan Penglihatan Anda' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Cicilan 0%: Solusi Cerdas untuk Kebutuhan Penglihatan Anda
@@ -63,6 +63,8 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card shadow p-3 mb-5 bg-white rounded">
   {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
@@ -100,6 +102,8 @@ comments: false
     </p>
   </div>
 </div>
+
+{% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
   {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
@@ -170,6 +174,8 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-glasses.html %}
+
 <div class="card shadow p-3 mb-5 bg-white rounded">
   {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp' alt='cicilan-kacamata optikal bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
@@ -204,4 +210,3 @@ comments: false
     </p>
   </div>
 </div>
-{% include home/home-cards-main.html %}

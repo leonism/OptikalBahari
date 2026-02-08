@@ -1,16 +1,19 @@
+<!doctype html>
 <html lang='{{ page.lang }}'>
 <head>
-  {% include cards/card-meta.html %}
-  {% include cards/card-seo.html %}
-  {% include cards/card-twitter.html %}
-  {% include cards/card-fb.html %}
-  {% include cards/card-og.html %}
+  {% include meta/card-meta.html %}
+  {% include meta/meta-seo.html %}
+  {% include meta/meta-twitter.html %}
+  {% include meta/meta-fb.html %}
+  {% include meta/meta-og.html %}
   {% include fonts.html %}
   <link rel="preload" href="{{ '/assets/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome-free-7.1.0-web/css/all.min.css' | relative_url }}" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="{{ '/assets/vendor/instant-search/satellite-min.css' | relative_url }}" media="print" onload="this.media='all'">
   <noscript>
     <link rel="stylesheet" href="{{ '/assets/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome-free-7.1.0-web/css/all.min.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/vendor/instant-search/satellite-min.css' | relative_url }}">
   </noscript>
   <style>
     {% capture include_scss %}
