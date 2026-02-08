@@ -216,7 +216,7 @@
                   </div>
                   <div class="hit-content">
                     <h3 class="hit-title">${components.Highlight({ hit, attribute: 'title' })}</h3>
-                    <p class="hit-excerpt">${hit._snippetResult?.excerpt?.value ? excerpt : hit._snippetResult?.content?.value ? content : fallbackDescription}</p>
+                    <p class="hit-excerpt">${hit._snippetResult && hit._snippetResult.excerpt && hit._snippetResult.excerpt.value ? excerpt : hit._snippetResult && hit._snippetResult.content && hit._snippetResult.content.value ? content : fallbackDescription}</p>
                   </div>
                 </a>
               </article>
