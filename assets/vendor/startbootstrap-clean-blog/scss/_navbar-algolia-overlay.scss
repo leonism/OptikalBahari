@@ -26,10 +26,10 @@
   }
 
   @media (max-width: 768px) {
-    padding: 12px 12px; // More space for content
+    padding: 0.5rem; // Reduced to 0.5rem as requested
     background: rgba($black, 0.6);
     .algolia-search-container {
-      max-height: calc(100vh - 24px);
+      max-height: 80vh; // Reduced by ~20%
       border-radius: 12px;
     }
   }
@@ -61,6 +61,10 @@
   display: flex;
   align-items: center;
   gap: 16px;
+
+  @media (max-width: 768px) {
+    padding: 0.75rem; // Reduced to 0.75rem
+  }
 
   .search-input-wrapper {
     position: relative;
@@ -119,6 +123,12 @@
       background: rgba($black, 0.2);
       color: $black;
     }
+
+    @media (max-width: 768px) {
+      width: 44px;
+      height: 44px;
+      margin-left: 0;
+    }
   }
 
   [data-bs-theme="dark"] .search-clear-btn {
@@ -154,6 +164,13 @@
     color: $black;
     transform: rotate(90deg);
   }
+
+  @media (max-width: 768px) {
+    width: 44px; // Minimum touch target
+    height: 44px;
+    top: 10px;
+    right: 10px;
+  }
 }
 
 [data-bs-theme="dark"] .search-close-btn {
@@ -170,6 +187,10 @@
   padding: 0 24px 16px;
   border-bottom: 1px solid rgba($black, 0.05);
   margin-bottom: 16px;
+
+  @media (max-width: 768px) {
+    padding: 0 0.75rem 0.75rem;
+  }
 }
 
 [data-bs-theme="dark"] .algolia-search-controls {
@@ -318,7 +339,7 @@
   scrollbar-width: thin;
 
   @media (max-width: 768px) {
-    padding: 0 12px 16px; // Less horizontal padding on mobile
+    padding: 0 0.75rem 0.75rem; // Reduced padding
   }
 
   &::-webkit-scrollbar {
@@ -529,10 +550,10 @@
   }
 
   .ais-Pagination-item--selected .ais-Pagination-link {
-    background-color: $primary !important;
+    background-color: rgba($primary, 0.1) !important;
     border-color: $primary !important;
-    color: #ffffff !important; // Force white text
-    box-shadow: 0 4px 10px rgba($primary, 0.3);
+    color: $gray-700 !important;
+    box-shadow: none;
     pointer-events: none;
   }
 }
@@ -555,10 +576,10 @@
     }
 
     .ais-Pagination-item--selected .ais-Pagination-link {
-      background-color: $dark-link !important;
+      background-color: rgba($dark-link, 0.2) !important;
       border-color: $dark-link !important;
-      color: #ffffff !important;
-      box-shadow: 0 0 15px rgba($dark-link, 0.4);
+      color: rgba($white, 0.8) !important;
+      box-shadow: none;
       pointer-events: none;
     }
   }

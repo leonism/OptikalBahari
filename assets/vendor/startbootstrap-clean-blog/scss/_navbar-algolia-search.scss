@@ -115,13 +115,13 @@ body:not(.dark-mode) .navbar-actions-group .toggle-icon {
 [data-bs-theme="dark"] .navbar-actions-group {
   .toggle-icon {
     .fa-circle {
-      color: lighten($dark-accent, 15%) !important; // Match design system circle
+      color: lighten($dark-accent, 25%) !important; // Increased brightness by 10% for better contrast
     }
     .fa-stack-1x,
     .search-icon-inner,
     .light-icon,
     .dark-icon {
-      color: white !important;
+      color: $gray-800 !important;
     }
   }
 

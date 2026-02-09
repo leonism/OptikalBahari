@@ -2,12 +2,12 @@
   <style>
     :root {
       /* Mobile Background (default) - 600px width */
-      --masthead-bg: url('{{ page.background | cloudinary_url: "e_blur:2000,c_fill,w_1200,h_600,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
+      --masthead-bg: url('{{ page.background | cloudinary_url: "c_fill,w_1200,h_600,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
     }
     @media (min-width: 768px) {
       :root {
         /* Tablet/Desktop Background - 1400px width */
-        --masthead-bg: url('{{ page.background | cloudinary_url: "e_blur:2000,c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
+        --masthead-bg: url('{{ page.background | cloudinary_url: "c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
       }
     }
     .masthead.responsive-bg {
@@ -19,7 +19,7 @@
     {% comment %}
       LCP Hint: We point to the 1400w version so the browser pre-warms the desktop link.
     {% endcomment %}
-    <img src="{{ page.background | cloudinary_url: 'e_blur:2000,c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20' }}"
+    <img src="{{ page.background | cloudinary_url: 'c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20' }}"
       fetchpriority="high"
       decoding="sync"
       style="display: none"
