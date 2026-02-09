@@ -26,11 +26,11 @@
   }
 
   @media (max-width: 768px) {
-    padding: 24px 16px; // Exclusive feeling margin on mobile
-    background: rgba($black, 0.5);
+    padding: 12px 12px; // More space for content
+    background: rgba($black, 0.6);
     .algolia-search-container {
-      max-height: calc(100vh - 48px);
-      border-radius: 16px;
+      max-height: calc(100vh - 24px);
+      border-radius: 12px;
     }
   }
 }
@@ -81,12 +81,16 @@
     flex: 1;
     border: none !important;
     background: transparent !important;
-    font-size: 1.25rem !important;
-    padding: 12px 0 !important;
+    font-size: 1.1rem !important; // Slightly smaller base font
+    padding: 10px 0 !important;
     outline: none !important;
     box-shadow: none !important;
     color: inherit;
     &::placeholder { color: $gray-400; }
+
+    @media (max-width: 768px) {
+      font-size: 1rem !important; // Smaller on mobile
+    }
     &::-webkit-search-decoration,
     &::-webkit-search-cancel-button,
     &::-webkit-search-results-button,
@@ -313,6 +317,10 @@
   overflow-y: auto;
   scrollbar-width: thin;
 
+  @media (max-width: 768px) {
+    padding: 0 12px 16px; // Less horizontal padding on mobile
+  }
+
   &::-webkit-scrollbar {
     width: 6px;
   }
@@ -382,6 +390,11 @@
     text-decoration: none;
     color: inherit;
   }
+
+  @media (max-width: 768px) {
+    padding: 8px; // Smaller padding on mobile
+    gap: 12px;
+  }
 }
 
 .hit-image {
@@ -394,6 +407,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    width: 60px; // Smaller image on mobile
+    height: 60px;
+  }
 
   img {
     width: 100%;
@@ -423,6 +441,10 @@
   line-height: 1.4;
   color: inherit;
 
+  @media (max-width: 768px) {
+    font-size: 0.95rem; // Slightly smaller on mobile
+  }
+
   mark {
     background: rgba($primary, 0.2);
     color: inherit;
@@ -441,6 +463,12 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   line-height: 1.5;
+
+  @media (max-width: 768px) {
+    font-size: 0.8rem; // Smaller text on mobile
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+  }
 
   mark {
     background: rgba($primary, 0.2);
@@ -481,21 +509,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 40px;
-    height: 40px;
+    min-width: 36px; // Slightly smaller
+    height: 36px;
     border-radius: 8px;
     background-color: $white !important;
-    border: 1px solid $gray-400 !important;
-    color: $gray-800 !important;
+    border: 1px solid $gray-300 !important;
+    color: $gray-700 !important;
     text-decoration: none !important;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 600;
     transition: all 0.2s ease;
 
     &:hover {
-      background-color: $primary !important;
+      background-color: rgba($primary, 0.1) !important;
       border-color: $primary !important;
-      color: $white !important;
+      color: $primary !important;
       text-decoration: none !important;
     }
   }
@@ -503,8 +531,9 @@
   .ais-Pagination-item--selected .ais-Pagination-link {
     background-color: $primary !important;
     border-color: $primary !important;
-    color: $white !important;
-    box-shadow: 0 4px 10px rgba($primary, 0.2);
+    color: #ffffff !important; // Force white text
+    box-shadow: 0 4px 10px rgba($primary, 0.3);
+    pointer-events: none;
   }
 }
 
@@ -515,13 +544,13 @@
 
     .ais-Pagination-link {
       background-color: rgba($white, 0.05) !important;
-      border-color: rgba($white, 0.2) !important;
-      color: #ffffff !important;
+      border-color: rgba($white, 0.1) !important;
+      color: rgba($white, 0.8) !important;
 
       &:hover {
-        background-color: $dark-link !important;
+        background-color: rgba($dark-link, 0.1) !important;
         border-color: $dark-link !important;
-        color: #ffffff !important;
+        color: $dark-link !important;
       }
     }
 
@@ -530,6 +559,7 @@
       border-color: $dark-link !important;
       color: #ffffff !important;
       box-shadow: 0 0 15px rgba($dark-link, 0.4);
+      pointer-events: none;
     }
   }
 

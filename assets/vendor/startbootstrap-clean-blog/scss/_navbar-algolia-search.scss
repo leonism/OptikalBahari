@@ -4,8 +4,12 @@
 .navbar-actions-group {
   display: flex !important;
   align-items: center !important; // Vertically align with "LOKASI" and other nav links
-  gap: 12px !important;
+  gap: 12px !important; // Balanced gap for desktop
   height: 100% !important;
+
+  @media (max-width: 991px) {
+    gap: 6px !important; // Smaller gap on mobile
+  }
 
   // Reset all containers inside this group
   .btn-search-trigger,
@@ -49,8 +53,12 @@
     // The background circle
     .fa-circle {
       color: white !important;
-      font-size: 32px !important; // Takes up the full container height
+      font-size: 32px !important;
       z-index: 1 !important;
+
+      @media (max-width: 991px) {
+        color: $gray-100 !important; // Non-white background on mobile light mode
+      }
     }
 
     // The inner symbols (Moon, Sun, Search)
