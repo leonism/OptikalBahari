@@ -189,7 +189,7 @@ module AssetProcessor
     end
 
     def scan_file_content(file_path)
-      content = File.read(file_path)
+      content = File.read(file_path).scrub
 
       @asset_patterns.each do |pattern|
         content.scan(pattern) do |match|
@@ -441,7 +441,7 @@ module AssetProcessor
       return [] unless File.exist?(file_path)
 
       compressed_files = []
-      original_content = File.read(file_path)
+      original_content = File.binread(file_path)
 
       # Use configurable thread pool for compression
       thread_pool_size = [@config.get('performance.compression_thread_pool_size'), 1].max
@@ -460,7 +460,7 @@ module AssetProcessor
               window: window
             )
             brotli_path = "#{file_path}.br"
-            File.write(brotli_path, brotli_content)
+            File.binwrite(brotli_path, brotli_content)
             File.basename(brotli_path)
           rescue => e
             puts "Warning: Brotli compression failed for #{file_path}: #{e.message}" if @config.get('output.verbose')
@@ -476,7 +476,7 @@ module AssetProcessor
             level = @config.get('compression.gzip.level')
             gzip_content = Zlib::Deflate.deflate(original_content, level)
             gzip_path = "#{file_path}.gz"
-            File.write(gzip_path, gzip_content)
+            File.binwrite(gzip_path, gzip_content)
             File.basename(gzip_path)
           rescue => e
             puts "Warning: Gzip compression failed for #{file_path}: #{e.message}" if @config.get('output.verbose')
