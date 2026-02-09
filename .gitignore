@@ -143,3 +143,4 @@ _backup
 
 # single file
 .smart_asset_cache.yml
+_algolia_api_key
