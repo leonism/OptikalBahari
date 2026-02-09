@@ -138,7 +138,7 @@ module AssetProcessor
     end
 
     def analyze_usage
-      puts "🔍 Analyzing asset usage with custom configuration..." if @config.get('output.verbose')
+      puts "  [ANALYSIS] Analyzing asset usage with custom configuration..." if @config.get('output.verbose')
 
       # Add critical assets immediately
       @critical_assets.each { |asset| @used_assets.add(asset) }
@@ -154,7 +154,7 @@ module AssetProcessor
       # Parallel file scanning for better performance
       scan_files_parallel
 
-      puts "📊 Found #{@used_assets.size} referenced assets" if @config.get('output.verbose')
+      puts "[STATS] Found #{@used_assets.size} referenced assets" if @config.get('output.verbose')
       @used_assets.to_a
     end
 
@@ -295,7 +295,7 @@ module AssetProcessor
 
     def process
       start_time = Time.now
-      puts "🚀 Starting configurable asset processing..." if @config.get('output.verbose')
+      puts "[BUILD] Starting configurable asset processing..." if @config.get('output.verbose')
 
       # Fast usage analysis with configuration
       analyzer = FastUsageAnalyzer.new(@site_dir, @config)
@@ -319,7 +319,7 @@ module AssetProcessor
     private
 
     def process_assets_parallel(used_assets)
-      puts "⚡ Processing #{used_assets.size} assets with custom settings..." if @config.get('output.verbose')
+      puts "[PROCESS] Processing #{used_assets.size} assets with custom settings..." if @config.get('output.verbose')
 
       # Filter existing assets first
       existing_assets = used_assets.select do |asset_path|
@@ -531,7 +531,7 @@ module AssetProcessor
     def update_html_references_fast
       return if @manifest.empty?
 
-      puts "🔄 Updating asset references in HTML files..." if @config.get('output.verbose')
+      puts "[UPDATE] Updating asset references in HTML files..." if @config.get('output.verbose')
 
       html_files = Dir.glob(File.join(@site_dir, '**', '*.html'))
 
@@ -593,16 +593,16 @@ module AssetProcessor
     end
 
     def display_stats
-      puts "\n📈 Configurable Asset Processing Complete!"
-      puts "═" * 60
-      puts "📁 Processed: #{@stats[:processed]} files"
-      puts "⏭️  Skipped: #{@stats[:skipped]} files (unchanged)"
-      puts "🔗 Hashed: #{@stats[:hashed]} files"
-      puts "🗜️  Compressed: #{@stats[:compressed]} files"
-      puts "⚡ Processing time: #{@stats[:processing_time].round(2)}s"
-      puts "✅ Manifest saved with #{@manifest.size} asset mappings"
-      puts "🔧 Configuration: #{@config.get('compression.brotli.quality')} Brotli quality, #{@config.get('compression.gzip.level')} Gzip level"
-      puts "═" * 60
+      puts "\n[STATS] Configurable Asset Processing Complete!"
+      puts "=" * 60
+      puts "Processed: #{@stats[:processed]} files"
+      puts "Skipped: #{@stats[:skipped]} files (unchanged)"
+      puts "Hashed: #{@stats[:hashed]} files"
+      puts "Compressed: #{@stats[:compressed]} files"
+      puts "Processing time: #{@stats[:processing_time].round(2)}s"
+      puts "[OK] Manifest saved with #{@manifest.size} asset mappings"
+      puts "[CONFIG] Configuration: #{@config.get('compression.brotli.quality')} Brotli quality, #{@config.get('compression.gzip.level')} Gzip level"
+      puts "=" * 60
     end
   end
 end
@@ -616,7 +616,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
     processor = AssetProcessor::TurboProcessor.new(site)
     processor.process
   rescue Exception => e
-    puts "\n❌ Asset Processor Failed!"
+    puts "\n[ERROR] Asset Processor Failed!"
     puts "Error: #{e.message}"
     puts "Backtrace:"
     puts e.backtrace.join("\n")

@@ -62,7 +62,7 @@ module Jekyll
       Cloudinary::Utils.cloudinary_url(public_id, transformation_options)
     rescue => e
       # If configuration is missing or API fails, log it and return original path
-      puts "⚠️ Cloudinary Error for #{input}: #{e.message}"
+      puts "[WARNING] Cloudinary Error for #{input}: #{e.message}"
       input
     end
 

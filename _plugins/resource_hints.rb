@@ -22,7 +22,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
       end
     end
   rescue => e
-    puts "\n❌ Resource Hints Plugin Failed!"
+    puts "\n[ERROR] Resource Hints Plugin Failed!"
     puts "Error: #{e.message}"
     puts "Backtrace:"
     puts e.backtrace.join("\n")
