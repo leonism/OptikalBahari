@@ -8,6 +8,7 @@ require 'thread'
 require 'concurrent-ruby'
 require 'digest'
 require 'json'
+require 'time'
 
 module AssetProcessor
   # Configuration class to handle all user-configurable options
@@ -625,23 +626,4 @@ Jekyll::Hooks.register :site, :post_write do |site|
 end
 
 
-class FastUsageAnalyzer
-  def initialize
-    @asset_patterns = [
-      /href=["']([^"']*\.(?:css|js|webp|jpg|jpeg|png|gif|svg|ico|woff|woff2|ttf|eot))["']/i,
-      /src=["']([^"']*\.(?:js|webp|jpg|jpeg|png|gif|svg|ico))["']/i,
-      /data-src=["']([^"']*\.(?:webp|jpg|jpeg|png|gif|svg))["']/i,
-      /url\(["']?([^"')]*\.(?:css|js|webp|jpg|jpeg|png|gif|svg|ico|woff|woff2|ttf|eot))["']?\)/i,
-      /@import\s+["']([^"']*\.css)["']/i
-    ]
-
-    # Add HTML files for compression
-    @html_pattern = /\.html$/i
-    @directories = ['/assets/', '/css/', '/js/', '/']
-  end
-
-  def should_compress_html?(file_path)
-    return false unless @html_pattern.match?(file_path)
-    File.size(file_path) > 2048 # Only compress HTML files > 2KB
-  end
-end
+# End of Compression Plugin

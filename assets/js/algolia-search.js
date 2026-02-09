@@ -85,7 +85,7 @@
     // Setup keyboard shortcuts
     setupKeyboardShortcuts()
 
-    console.log('✅ Algolia search initialized successfully (v1.3.1)')
+    console.log('\u2705 Algolia search initialized successfully (v1.3.1)')
   }
 
   /**

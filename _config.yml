@@ -195,6 +195,7 @@ jekyll-minifier:
     - "*.min.js"
     - "*.min.css"
     - "assets/vendor/**/*"
+    - "assets/js/algolia-search.js"
 
 # Algolia Search Configuration
 algolia:
