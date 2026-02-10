@@ -63,7 +63,7 @@ async function main() {
     $('link[rel="stylesheet"], link[rel="preload"][as="style"]').each((i, el) => {
       const href = $(el).attr('href')
       if (href && isLocalAsset(href)) {
-        const resolved = resolvePath(href, SITE_DIR)
+        const resolved = resolvePath(href, indexFile, SITE_DIR)
         if (!cssFiles.includes(resolved)) {
           cssFiles.push(resolved)
         }
@@ -76,7 +76,7 @@ async function main() {
       $noscript('link[rel="stylesheet"]').each((j, link) => {
         const href = $(link).attr('href')
         if (href && isLocalAsset(href)) {
-          const resolved = resolvePath(href, SITE_DIR)
+          const resolved = resolvePath(href, indexFile, SITE_DIR)
           if (!cssFiles.includes(resolved)) {
             cssFiles.push(resolved)
           }
@@ -88,7 +88,7 @@ async function main() {
     $('script[src]').each((i, el) => {
       const src = $(el).attr('src')
       if (src && isLocalAsset(src)) {
-        jsFiles.push(resolvePath(src, SITE_DIR))
+        jsFiles.push(resolvePath(src, indexFile, SITE_DIR))
       }
     })
 
@@ -211,7 +211,7 @@ async function main() {
       if (cssFiles.length > 0) {
         const cssLinks = $page('link[rel="stylesheet"], link[rel="preload"][as="style"]').filter((i, el) => {
           const href = $page(el).attr('href')
-          return href && cssFiles.includes(resolvePath(href, SITE_DIR))
+          return href && cssFiles.includes(resolvePath(href, file, SITE_DIR))
         })
 
         const noscriptsToRemove = []
@@ -243,7 +243,7 @@ async function main() {
       if (jsFiles.length > 0) {
         const jsScripts = $page('script[src]').filter((i, el) => {
           const src = $page(el).attr('src')
-          return src && jsFiles.includes(resolvePath(src, SITE_DIR))
+          return src && jsFiles.includes(resolvePath(src, file, SITE_DIR))
         })
 
         if (jsScripts.length > 0) {
@@ -254,9 +254,13 @@ async function main() {
         }
       }
 
-      if (modified && !argv.dryRun) {
-        await fs.writeFile(file, $page.html())
-        debug(`Updated ${file}`)
+      if (modified) {
+        if (!argv.dryRun) {
+          await fs.writeFile(file, $page.html())
+          debug(`Updated ${file}`)
+        } else {
+          debug(`[DRY RUN] Would update ${file}`)
+        }
       }
     }
 
@@ -273,12 +277,12 @@ function isLocalAsset(url) {
   return true
 }
 
-function resolvePath(url, SITE_DIR) {
+function resolvePath(url, sourceFile, siteDir) {
   let cleanUrl = url.split('?')[0]
   if (cleanUrl.startsWith('/')) {
-    return path.join(SITE_DIR, cleanUrl)
+    return path.join(siteDir, cleanUrl)
   } else {
-    return path.join(SITE_DIR, cleanUrl)
+    return path.join(path.dirname(sourceFile), cleanUrl)
   }
 }
 
