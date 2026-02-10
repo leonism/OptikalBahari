@@ -24,22 +24,13 @@ comments: false
       Kacamata Pria Yang Cocok Dengan Gaya Anda
     </h3>
     <p class="card-text text-start">
-      Pernahkah Anda merasa bingung saat memilih kacamata pria yang sesuai dengan gaya Anda? Tenang, Optikal Bahari hadir untuk membantu Anda menemukan kacamata yang tepat! Dengan koleksi yang beragam, mulai dari yang
-      klasik hingga yang trendi, Anda pasti akan menemukan kacamata yang memancarkan kepribadian Anda.
+      Pernahkah Anda merasa bingung saat memilih kacamata pria yang sesuai dengan gaya Anda? Tenang, Optikal Bahari hadir untuk membantu Anda menemukan kacamata yang tepat! Dengan koleksi yang beragam, mulai dari yang klasik hingga yang trendi, Anda pasti akan menemukan kacamata yang memancarkan kepribadian Anda.
     </p>
     <p class="card-text text-start">
-      Ketika mencari kacamata pria, pertimbangkanlah gaya Anda sehari-hari. Apakah Anda lebih suka tampilan yang
-            elegan dan formal, atau lebih menyukai gaya yang santai dan kasual? Dengan memahami gaya Anda, Anda dapat
-            mempersempit pilihan kacamata yang sesuai dengan kepribadian Anda. Optikal Bahari juga menawarkan kacamata
-            pria dari berbagai merek terkemuka, sehingga Anda dapat memilih yang paling cocok dengan preferensi Anda.
-            Dari kacamata dengan desain minimalis hingga yang penuh dengan detail, setiap pasangan kacamata dijamin
-            memberikan sentuhan unik pada gaya Anda.
+      Ketika mencari kacamata pria, pertimbangkanlah gaya Anda sehari-hari. Apakah Anda lebih suka tampilan yang elegan dan formal, atau lebih menyukai gaya yang santai dan kasual? Dengan memahami gaya Anda, Anda dapat mempersempit pilihan kacamata yang sesuai dengan kepribadian Anda. Optikal Bahari juga menawarkan kacamata pria dari berbagai merek terkemuka, sehingga Anda dapat memilih yang paling cocok dengan preferensi Anda. Dari kacamata dengan desain minimalis hingga yang penuh dengan detail, setiap pasangan kacamata dijamin memberikan sentuhan unik pada gaya Anda.
     </p>
     <p class="card-text text-start">
-      Jangan lupa untuk mempertimbangkan juga faktor kenyamanan dan keamanan saat memilih kacamata pria. Pastikan
-            kacamata Anda pas dengan ukuran wajah dan tidak menyebabkan ketidaknyamanan saat digunakan dalam aktivitas
-            sehari-hari. Dengan garansi 1 tahun dari Optikal Bahari, Anda dapat menggunakan kacamata pria Anda dengan
-            percaya diri dan tenang, tanpa khawatir tentang kerusakan atau masalah lainnya.
+      Jangan lupa untuk mempertimbangkan juga faktor kenyamanan dan keamanan saat memilih kacamata pria. Pastikan kacamata Anda pas dengan ukuran wajah dan tidak menyebabkan ketidaknyamanan saat digunakan dalam aktivitas sehari-hari. Dengan garansi 1 tahun dari Optikal Bahari, Anda dapat menggunakan kacamata pria Anda denganpercaya diri dan tenang, tanpa khawatir tentang kerusakan atau masalah lainnya.
     </p>
   </div>
 </div>
@@ -53,9 +44,7 @@ comments: false
       Kenali Tanda-tanda Kacamata Pria yang Perlu Diperbaiki
     </h3>
     <p class="card-text text-start">
-      Apakah kacamata pria Anda mulai terasa tidak nyaman atau tampak rusak? Jangan biarkan masalah tersebut
-            mengganggu kenyamanan dan gaya Anda! Ada beberapa tanda yang perlu Anda perhatikan untuk mengetahui apakah
-            kacamata Anda perlu diperbaiki.
+      Apakah kacamata pria Anda mulai terasa tidak nyaman atau tampak rusak? Jangan biarkan masalah tersebut mengganggu kenyamanan dan gaya Anda! Ada beberapa tanda yang perlu Anda perhatikan untuk mengetahui apakah kacamata Anda perlu diperbaiki.
     </p>
     <p class="card-text text-start">
       Pertama, perhatikan apakah ada goresan atau retakan pada lensa atau bingkai kacamata Anda. Meskipun terlihat kecil, goresan tersebut dapat mengganggu penglihatan Anda dan bahkan menyebabkan kerusakan lebih lanjut jika tidak segera diperbaiki. Layanan gratis service & reparasi kacamata dari Optikal Bahari dapat membantu mengatasi masalah ini dengan cepat dan efisien.

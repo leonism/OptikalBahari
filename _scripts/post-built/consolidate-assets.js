@@ -59,29 +59,40 @@ async function main() {
     const cssFiles = []
     const jsFiles = []
 
-    // Find CSS
-    $('link[rel="stylesheet"], link[rel="preload"][as="style"]').each((i, el) => {
-      const href = $(el).attr('href')
+    // Helper to process CSS hrefs
+    const processCssHref = (href) => {
       if (href && isLocalAsset(href)) {
         const resolved = resolvePath(href, indexFile, SITE_DIR)
-        if (!cssFiles.includes(resolved)) {
+        // Skip if it is the consolidated file itself (to avoid loop if it exists)
+        if (resolved.endsWith('styles.min.css')) return
+
+        const exists = fs.existsSync(resolved)
+        debug(`[Analysis] href: ${href} -> resolved: ${resolved} -> exists: ${exists}`)
+        if (exists && !cssFiles.includes(resolved)) {
           cssFiles.push(resolved)
         }
       }
+    }
+
+    // Find CSS
+    $('link[rel="stylesheet"], link[rel="preload"][as="style"]').each((i, el) => {
+      const href = $(el).attr('href')
+      processCssHref(href)
     })
 
     // Also check noscript tags
     $('noscript').each((i, el) => {
-      const $noscript = cheerio.load($(el).html())
-      $noscript('link[rel="stylesheet"]').each((j, link) => {
-        const href = $(link).attr('href')
-        if (href && isLocalAsset(href)) {
-          const resolved = resolvePath(href, indexFile, SITE_DIR)
-          if (!cssFiles.includes(resolved)) {
-            cssFiles.push(resolved)
+      const html = $(el).html()
+      // Simple regex to find hrefs in link tags within noscript
+      const matches = html.match(/href=["']([^"']+)["']/g)
+      if (matches) {
+        matches.forEach((match) => {
+          const href = match.replace(/href=["']|["']/g, '')
+          if (href.endsWith('.css')) {
+            processCssHref(href)
           }
-        }
-      })
+        })
+      }
     })
 
     // Find JS
@@ -243,7 +254,17 @@ async function main() {
       if (jsFiles.length > 0) {
         const jsScripts = $page('script[src]').filter((i, el) => {
           const src = $page(el).attr('src')
-          return src && jsFiles.includes(resolvePath(src, file, SITE_DIR))
+          if (!src) return false
+          
+          const resolved = resolvePath(src, file, SITE_DIR)
+          
+          // Match known source files
+          if (jsFiles.includes(resolved)) return true
+          
+          // Match existing consolidated file
+          if (src.includes('scripts.min.js')) return true
+          
+          return false
         })
 
         if (jsScripts.length > 0) {

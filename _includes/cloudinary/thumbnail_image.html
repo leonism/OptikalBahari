@@ -1,0 +1,44 @@
+{%- comment -%}
+  STRICT THUMBNAIL COMPONENT - OPTIKAL BAHARI
+  Optimized for Algolia results and blog grids.
+  Goal: Minimize file size (~10kb) while keeping the full image visible.
+{%- endcomment -%}
+
+{%- if include.src -%}
+  {%- assign raw_src = include.src | strip -%}
+  {%- assign first_char = raw_src | slice: 0 -%}
+
+  {%- if first_char == "/" -%}
+    {%- assign clean_src = raw_src | slice: 1, raw_src.size -%}
+  {%- else -%}
+    {%- assign clean_src = raw_src -%}
+  {%- endif -%}
+
+  {%- assign image_alt = include.alt | default: include.title | default: site.title | escape -%}
+  {%- assign image_class = include.class | default: "card-img-top" -%}
+  {%- assign image_ratio = include.ratio | default: "ratio-16x9" -%}
+
+  {%- comment -%}
+    REGULAR IMAGE STRATEGY:
+    - c_limit: Resizes the image to fit within bounds without cropping out parts.
+    - w_400,h_225: Standard 16:9 thumbnail size.
+    - q_auto:eco: Aggressive compression to reach ~10kb.
+    - f_auto: Modern AVIF/WebP delivery.
+    - e_sharpen:60: Keeps details sharp at low quality.
+  {%- endcomment -%}
+
+  {%- capture thumb_params -%}c_limit,w_400,h_225,q_auto:eco,f_auto,e_sharpen:60{%- endcapture -%}
+
+  <div class="image-ratio-wrapper {{ image_ratio }}">
+    <img
+      src="{{ clean_src | cloudinary_url: thumb_params }}"
+      alt="{{ image_alt }}"
+      class="{{ image_class }}"
+      style="object-fit: cover; object-position: center; width: 100%; height: 100%;"
+      loading="lazy"
+      decoding="async"
+      width="400"
+      height="225"
+    />
+  </div>
+{%- endif -%}

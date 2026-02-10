@@ -10,7 +10,7 @@ and provides a better user experience.
 
 ## Location
 
-**File:** `_includes/components/image-ratio.html`
+**File:** `_includes/cloudinary/image-ratio.html`
 
 ---
 
@@ -64,7 +64,7 @@ Use this component whenever you have:
 {% capture card_content %}
 <img src="/path/to/image.jpg" alt="Description" loading="lazy" />
 {% endcapture %}
-{% include components/image-ratio.html ratio="16x9" content=card_content %}
+{% include cloudinary/image-ratio.html ratio="16x9" content=card_content %}
 ```
 
 ### With Picture Element (Recommended)
@@ -84,14 +84,14 @@ Use this component whenever you have:
   />
 </picture>
 {% endcapture %}
-{% include components/image-ratio.html ratio="16x9" content=card_content %}
+{% include cloudinary/image-ratio.html ratio="16x9" content=card_content %}
 ```
 
 ### With Custom Background Color
 
 ```liquid
 {%
-  include components/image-ratio.html
+  include cloudinary/image-ratio.html
   ratio="16x9"
   background_color="bg-primary-subtle"
   content=card_content
@@ -268,7 +268,7 @@ sufficient resolution:
 ```liquid
 <!-- Image is 1200x800 (3:2 ratio) -->
 <!-- Use 16x9 for slight crop, or create custom ratio -->
-{% include components/image-ratio.html ratio="16x9" content=card_content %}
+{% include cloudinary/image-ratio.html ratio="16x9" content=card_content %}
 ```
 
 ### Background Color Shows
@@ -315,7 +315,7 @@ URL is valid.
   />
 </picture>
 {% endcapture %}
-{% include components/image-ratio.html ratio="16x9" content=card_content %}
+{% include cloudinary/image-ratio.html ratio="16x9" content=card_content %}
 ```
 
 ### Example 2: Square Profile Image
@@ -330,14 +330,14 @@ URL is valid.
   height="400"
 />
 {% endcapture %}
-{% include components/image-ratio.html ratio="1x1" content=profile_content %}
+{% include cloudinary/image-ratio.html ratio="1x1" content=profile_content %}
 ```
 
 ### Example 3: Custom Background
 
 ```liquid
 {%
-  include components/image-ratio.html
+  include cloudinary/image-ratio.html
   ratio="21x9"
   background_color="bg-dark"
   content=hero_content
