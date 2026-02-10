@@ -29,7 +29,7 @@
     padding: 0.5rem; // Reduced to 0.5rem as requested
     background: rgba($black, 0.6);
     .algolia-search-container {
-      max-height: 80vh; // Reduced by ~20%
+      max-height: 70vh; // Reduced by ~20%
       border-radius: 12px;
     }
   }
@@ -125,9 +125,20 @@
     }
 
     @media (max-width: 768px) {
-      width: 44px;
-      height: 44px;
-      margin-left: 0;
+      width: 32px; // Reduced visual size
+      height: 32px;
+      margin-left: 8px;
+      position: relative;
+
+      // Ensure 44x44px touch target
+      &::after {
+        content: '';
+        position: absolute;
+        top: -6px;
+        left: -6px;
+        right: -6px;
+        bottom: -6px;
+      }
     }
   }
 
@@ -166,11 +177,21 @@
   }
 
   @media (max-width: 768px) {
-    width: 44px; // Minimum touch target
-    height: 44px;
-    top: 10px;
-    right: 10px;
-  }
+      width: 32px; // Reduced visual size
+      height: 32px;
+      top: 10px;
+      right: 10px;
+
+      // Ensure 44x44px touch target
+      &::after {
+        content: '';
+        position: absolute;
+        top: -6px;
+        left: -6px;
+        right: -6px;
+        bottom: -6px;
+      }
+    }
 }
 
 [data-bs-theme="dark"] .search-close-btn {
