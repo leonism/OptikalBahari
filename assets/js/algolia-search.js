@@ -19,13 +19,24 @@
    * @property {number} hitsPerPage
    */
 
-  /** @type {AlgoliaConfig} */
-  const CONFIG = /** @type {any} */ (window).ALGOLIA_CONFIG || {
-    appId: '',
-    apiKey: '',
-    indexName: '',
-    hitsPerPage: 10,
+  /**
+   * Retrieve Algolia configuration from window or meta tags
+   * @returns {AlgoliaConfig}
+   */
+  function getAlgoliaConfig() {
+    const windowConfig = /** @type {any} */ (window).ALGOLIA_CONFIG
+    if (windowConfig) return windowConfig
+
+    return {
+      appId: document.querySelector('meta[name="algolia-app-id"]')?.getAttribute('content') || '',
+      apiKey: document.querySelector('meta[name="algolia-api-key"]')?.getAttribute('content') || '',
+      indexName: document.querySelector('meta[name="algolia-index-name"]')?.getAttribute('content') || '',
+      hitsPerPage: parseInt(document.querySelector('meta[name="algolia-hits-per-page"]')?.getAttribute('content') || '10', 10),
+    }
   }
+
+  /** @type {AlgoliaConfig} */
+  const CONFIG = getAlgoliaConfig()
 
   /**
    * @typedef {Object} DOMElements
@@ -370,12 +381,27 @@
   function setupEventListeners() {
     // Open search overlay
     if (DOM.trigger) {
-      DOM.trigger.addEventListener('click', openSearchOverlay)
+      DOM.trigger.addEventListener('click', (e) => {
+        e.preventDefault()
+        openSearchOverlay()
+      })
+      // Safari/iOS support
+      DOM.trigger.addEventListener(
+        'touchstart',
+        (e) => {
+          if (e.cancelable) e.preventDefault()
+          openSearchOverlay()
+        },
+        { passive: false }
+      )
     }
 
     // Close search overlay
     if (DOM.closeBtn) {
-      DOM.closeBtn.addEventListener('click', closeSearchOverlay)
+      DOM.closeBtn.addEventListener('click', (e) => {
+        e.preventDefault()
+        closeSearchOverlay()
+      })
     }
 
     // Close on backdrop click

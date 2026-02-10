@@ -25,5 +25,12 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}" />
   <link rel="sitemap" type="application/xml" title="{{ site.title | escape }}" href="{{ '/sitemap.xml' | relative_url }}" />
   <link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/img/icons/favicon.ico' | relative_url }}" />
+  <!-- Algolia Config Meta Tags -->
+  {% if site.algolia.application_id %}
+  <meta name="algolia-app-id" content="{{ site.algolia.application_id }}">
+  <meta name="algolia-api-key" content="{{ site.algolia.search_only_api_key }}">
+  <meta name="algolia-index-name" content="{{ site.algolia.index_name }}">
+  <meta name="algolia-hits-per-page" content="{{ site.algolia.hitsPerPage | default: 10 }}">
+  {% endif %}
   {% include gtm/gtm-head.html %}
 </head>
