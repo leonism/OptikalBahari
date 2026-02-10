@@ -125,19 +125,20 @@
     }
 
     @media (max-width: 768px) {
-      width: 32px; // Reduced visual size
-      height: 32px;
+      width: 28px; // Even smaller visual size inside input
+      height: 28px;
       margin-left: 8px;
       position: relative;
+      flex-shrink: 0;
 
-      // Ensure 44x44px touch target
+      // Ensure 44x44px touch target centered on the 28px button
       &::after {
         content: '';
         position: absolute;
-        top: -6px;
-        left: -6px;
-        right: -6px;
-        bottom: -6px;
+        top: -8px; // (44-28)/2 = 8px
+        left: -8px;
+        right: -8px;
+        bottom: -8px;
       }
     }
   }
@@ -177,19 +178,23 @@
   }
 
   @media (max-width: 768px) {
-      width: 32px; // Reduced visual size
-      height: 32px;
-      top: 10px;
-      right: 10px;
+      position: relative; // Reset from absolute to flow in flex container
+      top: auto;
+      right: auto;
+      width: 36px; // Reduced visual size
+      height: 36px;
+      flex-shrink: 0; // Prevent shrinking
+      margin-left: 0; // Handled by parent gap
+      background: transparent; // Cleaner look on mobile
 
       // Ensure 44x44px touch target
       &::after {
         content: '';
         position: absolute;
-        top: -6px;
-        left: -6px;
-        right: -6px;
-        bottom: -6px;
+        top: -4px; // (44-36)/2 = 4px padding equivalent
+        left: -4px;
+        right: -4px;
+        bottom: -4px;
       }
     }
 }
