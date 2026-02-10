@@ -593,21 +593,21 @@
     border-top-color: rgba($white, 0.1);
 
     .ais-Pagination-link {
-      background-color: rgba($white, 0.05) !important;
-      border-color: rgba($white, 0.1) !important;
-      color: rgba($white, 0.8) !important;
+      background-color: $white !important;
+      border-color: $white !important;
+      color: $black !important;
 
       &:hover {
-        background-color: rgba($dark-link, 0.1) !important;
-        border-color: $dark-link !important;
-        color: $dark-link !important;
+        background-color: darken($white, 10%) !important;
+        border-color: darken($white, 10%) !important;
+        color: $black !important;
       }
     }
 
     .ais-Pagination-item--selected .ais-Pagination-link {
-      background-color: rgba($dark-link, 0.2) !important;
-      border-color: $dark-link !important;
-      color: rgba($white, 0.8) !important;
+      background-color: $primary !important;
+      border-color: $primary !important;
+      color: $white !important;
       box-shadow: none;
       pointer-events: none;
     }
