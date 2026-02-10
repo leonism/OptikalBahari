@@ -194,7 +194,32 @@
            */
           item(hit, { html, components }) {
             // Determine image URL - support multiple common frontmatter fields
-            const imageUrl = hit.image || hit.header_image || hit.background || hit.thumbnail || hit.preview_image || ''
+            const rawImageUrl = hit.image || hit.header_image || hit.background || hit.thumbnail || hit.preview_image || ''
+
+            // Cloudinary Thumbnail Logic (Ported from _includes/cloudinary/thumbnail_image.html)
+            const getCloudinaryUrl = (url) => {
+              if (!url) return ''
+              const cloudName = 'divkqrf7k'
+              const params = 'c_limit,w_400,h_225,q_auto:eco,f_auto,e_sharpen:60'
+              let id = url
+
+              // Handle full URLs
+              if (id.startsWith('http')) {
+                // If it's not our cloud, return original
+                if (!id.includes(cloudName)) return id
+                // Strip domain and version
+                id = id.replace(new RegExp(`^https?://res\\.cloudinary\\.com/${cloudName}/image/upload/(v\\d+/)?`), '')
+              }
+
+              // Common cleanups matching Ruby plugin
+              id = id.replace(/^\//, '') // Strip leading slash
+              id = id.replace(/^(.*\/)?assets\/img\//, '') // Strip assets/img/
+              id = id.replace(/\.(jpg|jpeg|png|webp|gif|avif|svg)$/i, '') // Strip extension
+
+              return `https://res.cloudinary.com/${cloudName}/image/upload/${params}/${id}`
+            }
+
+            const imageUrl = getCloudinaryUrl(rawImageUrl)
 
             // Determine excerpt/description with broad fallbacks
             const excerpt = components.Snippet({ hit, attribute: 'excerpt' })
@@ -210,6 +235,10 @@
                           src="${imageUrl}"
                           alt="${hit.title || 'Article'}"
                           loading="lazy"
+                          decoding="async"
+                          width="400"
+                          height="225"
+                          style="object-fit: cover; width: 100%; height: 100%;"
                           onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2280%22%20height%3D%2280%22%20viewBox%3D%220%200%2080%2080%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3f4f6%22%2F%3E%3Cpath%20d%3D%22M40%2030v20M30%2040h20%22%20stroke%3D%22%239ca3af%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E'"
                         />`
                       : html`<i class="fas fa-image"></i>`}

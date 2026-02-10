@@ -118,6 +118,7 @@
     padding: 0;
     margin-left: 10px;
     transition: all 0.2s ease;
+    line-height: 1; // Ensure vertical centering of icon
 
     &:hover {
       background: rgba($black, 0.2);
@@ -170,6 +171,8 @@
   z-index: 10;
   transition: all 0.2s ease;
   color: $gray-600;
+  padding: 0;
+  line-height: 1;
 
   &:hover {
     background: rgba($black, 0.1);
