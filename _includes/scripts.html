@@ -12,6 +12,7 @@
 </script>
 <!-- Algolia Search Scripts -->
 {% if site.algolia.application_id %}
+{% if jekyll.environment == "development" %}
 <script data-cfasync="false">
   window.ALGOLIA_CONFIG = {
     appId: "{{ site.algolia.application_id }}",
@@ -30,6 +31,7 @@
   data-cfasync="false"
   src="{{'/assets/vendor/startbootstrap-clean-blog/js/instantsearch.js' | relative_url }}?v={{ site.time | date: '%s' }}">
 </script>
+{% endif %}
 <script
   defer
   data-cfasync="false"

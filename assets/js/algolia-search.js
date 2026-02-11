@@ -46,8 +46,28 @@
     }
   }
 
+  function getAlgoliaConfig() {
+    const windowConfig = /** @type {any} */ (window).ALGOLIA_CONFIG
+    if (windowConfig) {
+      Logger.log('Configuration loaded from window object')
+      return windowConfig
+    }
+
+    Logger.log('Proxy configuration loaded.')
+    return {
+      // Dummy values, as these are now handled server-side by the proxy
+      appId: 'DUMMY_APP_ID',
+      apiKey: 'DUMMY_API_KEY',
+      indexName: 'prod_optikalbahari', // This can be hardcoded or passed if not sensitive
+      hitsPerPage: 10, // Default value, can be adjusted
+    }
+  }
+
   /** @type {AlgoliaConfig} */
   const CONFIG = getAlgoliaConfig()
+
+  // Define the endpoint for the Cloudflare Pages Function proxy
+  const ALGOLIA_PROXY_URL = '/api/algolia-search'
 
   /**
    * @typedef {Object} DOMElements
@@ -93,12 +113,6 @@
    */
   function init() {
     Logger.log('Initializing...')
-
-    // Check if Algolia configuration exists
-    if (!CONFIG.appId || CONFIG.appId === '') {
-      Logger.warn('Configuration missing. Search disabled.')
-      return
-    }
 
     // Cache DOM elements
     cacheDOMElements()
@@ -151,18 +165,38 @@
   function initializeAlgolia() {
     try {
       const _window = /** @type {any} */ (window)
-      if (typeof _window.algoliasearch === 'undefined' || typeof _window.instantsearch === 'undefined') {
-        throw new Error('Algolia libraries not loaded. Check script includes.')
+      if (typeof _window.instantsearch === 'undefined') {
+        throw new Error('InstantSearch library not loaded. Check script includes.')
       }
 
-      Logger.log('Connecting to Algolia index:', CONFIG.indexName)
+      if (_window.ALGOLIA_CONFIG) {
+        // Local development environment
+        Logger.log('Connecting to Algolia directly (local development).')
+        searchClient = _window.algoliasearch(CONFIG.appId, CONFIG.apiKey)
+      } else {
+        // Production environment (proxy)
+        Logger.log('Connecting to Algolia via proxy.')
+        searchClient = {
+          async search(requests) {
+            const response = await fetch(ALGOLIA_PROXY_URL, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ requests }),
+            })
 
-      // Create search client
-      searchClient = _window.algoliasearch(CONFIG.appId, CONFIG.apiKey)
+            if (!response.ok) {
+              throw new Error(`Algolia proxy failed with status: ${response.status}`)
+            }
+            return response.json()
+          },
+        }
+      }
 
       // Initialize InstantSearch
       search = _window.instantsearch({
-        indexName: CONFIG.indexName,
+        indexName: CONFIG.indexName, // Use the non-sensitive indexName
         searchClient: searchClient,
         routing: false,
         /** @param {any} helper */
