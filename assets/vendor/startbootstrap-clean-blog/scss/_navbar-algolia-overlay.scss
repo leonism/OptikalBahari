@@ -595,26 +595,27 @@
     .ais-Pagination-link {
       background-color: $white !important;
       border-color: $white !important;
-      color: $black !important;
+      color: #000 !important; // Hardcoded black for maximum contrast
 
       &:hover {
-        background-color: darken($white, 10%) !important;
-        border-color: darken($white, 10%) !important;
-        color: $black !important;
+        background-color: #e9ecef !important; // Light gray
+        border-color: #e9ecef !important;
+        color: #000 !important;
       }
     }
 
-    .ais-Pagination-item--selected .ais-Pagination-link {
+    .ais-Pagination-item--selected .ais-Pagination-link,
+    .ais-Pagination-item--active .ais-Pagination-link {
       background-color: #dc3545 !important;
       border-color: #dc3545 !important;
-      color: $white !important;
+      color: #fff !important;
       box-shadow: none;
       pointer-events: none;
 
       &:hover {
         background-color: #dc3545 !important;
         border-color: #dc3545 !important;
-        color: $white !important;
+        color: #fff !important;
       }
     }
   }
