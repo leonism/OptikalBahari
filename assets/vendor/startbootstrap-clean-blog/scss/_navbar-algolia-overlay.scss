@@ -606,15 +606,15 @@
 
     .ais-Pagination-item--selected .ais-Pagination-link,
     .ais-Pagination-item--active .ais-Pagination-link {
-      background-color: #dc3545 !important;
-      border-color: #dc3545 !important;
+      background-color: #b02a37 !important; // Darker red for WCAG AA compliance (4.5:1+)
+      border-color: #b02a37 !important;
       color: #fff !important;
       box-shadow: none;
       pointer-events: none;
 
       &:hover {
-        background-color: #dc3545 !important;
-        border-color: #dc3545 !important;
+        background-color: #b02a37 !important;
+        border-color: #b02a37 !important;
         color: #fff !important;
       }
     }

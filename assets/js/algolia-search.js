@@ -3,13 +3,20 @@
  * Provides overlay search with filtering, sorting, and responsive design
  *
  * @author Optikal Bahari Development Team
- * @version 1.3.1
+ * @version 1.4.0
  */
 
 /* global algoliasearch, instantsearch */
 
 ;(function () {
   'use strict'
+
+  // Logger utility for consistent debugging
+  const Logger = {
+    log: (msg, ...args) => console.log(`[Algolia] ${msg}`, ...args),
+    warn: (msg, ...args) => console.warn(`[Algolia] ⚠️ ${msg}`, ...args),
+    error: (msg, ...args) => console.error(`[Algolia] ❌ ${msg}`, ...args),
+  }
 
   /**
    * @typedef {Object} AlgoliaConfig
@@ -25,8 +32,12 @@
    */
   function getAlgoliaConfig() {
     const windowConfig = /** @type {any} */ (window).ALGOLIA_CONFIG
-    if (windowConfig) return windowConfig
+    if (windowConfig) {
+      Logger.log('Configuration loaded from window object')
+      return windowConfig
+    }
 
+    Logger.log('Configuration loaded from meta tags (fallback)')
     return {
       appId: document.querySelector('meta[name="algolia-app-id"]')?.getAttribute('content') || '',
       apiKey: document.querySelector('meta[name="algolia-api-key"]')?.getAttribute('content') || '',
@@ -69,12 +80,23 @@
   let selectedHitIndex = -1
 
   /**
+   * Detect Safari browser
+   * @returns {boolean}
+   */
+  function isSafari() {
+    const ua = navigator.userAgent.toLowerCase()
+    return ua.indexOf('safari') !== -1 && ua.indexOf('chrome') === -1
+  }
+
+  /**
    * Initialize the search functionality
    */
   function init() {
+    Logger.log('Initializing...')
+
     // Check if Algolia configuration exists
     if (!CONFIG.appId || CONFIG.appId === '') {
-      console.warn('Algolia configuration not found. Search disabled.')
+      Logger.warn('Configuration missing. Search disabled.')
       return
     }
 
@@ -82,8 +104,12 @@
     cacheDOMElements()
 
     // Verify required DOM elements exist
-    if (!DOM.overlay || !DOM.trigger) {
-      console.warn('Required DOM elements not found. Search disabled.')
+    if (!DOM.overlay) {
+      Logger.error('Search overlay element (#algolia-search-overlay) not found!')
+      return
+    }
+    if (!DOM.trigger) {
+      Logger.error('Search trigger element (#algolia-search-trigger) not found!')
       return
     }
 
@@ -96,7 +122,13 @@
     // Setup keyboard shortcuts
     setupKeyboardShortcuts()
 
-    console.log('\u2705 Algolia search initialized successfully (v1.3.1)')
+    // Safari-specific adjustments
+    if (isSafari()) {
+      Logger.log('Safari detected. Applying compatibility fixes.')
+      applySafariFixes()
+    }
+
+    Logger.log('Initialization complete.')
   }
 
   /**
@@ -120,8 +152,10 @@
     try {
       const _window = /** @type {any} */ (window)
       if (typeof _window.algoliasearch === 'undefined' || typeof _window.instantsearch === 'undefined') {
-        throw new Error('Algolia libraries not loaded')
+        throw new Error('Algolia libraries not loaded. Check script includes.')
       }
+
+      Logger.log('Connecting to Algolia index:', CONFIG.indexName)
 
       // Create search client
       searchClient = _window.algoliasearch(CONFIG.appId, CONFIG.apiKey)
@@ -159,8 +193,9 @@
 
       // Start search
       search.start()
+      Logger.log('InstantSearch started')
     } catch (error) {
-      console.error('Failed to initialize Algolia:', error)
+      Logger.error('Failed to initialize Algolia:', error)
     }
   }
 
@@ -376,32 +411,30 @@
   }
 
   /**
-   * Setup event listeners
+   * Setup event listeners with robust error handling
    */
   function setupEventListeners() {
     // Open search overlay
     if (DOM.trigger) {
-      DOM.trigger.addEventListener('click', (e) => {
-        e.preventDefault()
+      const openHandler = (e) => {
+        Logger.log('Search trigger activated', e.type)
+        if (e.cancelable) e.preventDefault()
         openSearchOverlay()
-      })
-      // Safari/iOS support
-      DOM.trigger.addEventListener(
-        'touchstart',
-        (e) => {
-          if (e.cancelable) e.preventDefault()
-          openSearchOverlay()
-        },
-        { passive: false }
-      )
+      }
+
+      DOM.trigger.addEventListener('click', openHandler)
+      // Redundant event for Safari/Mobile
+      DOM.trigger.addEventListener('touchstart', openHandler, { passive: false })
     }
 
     // Close search overlay
     if (DOM.closeBtn) {
-      DOM.closeBtn.addEventListener('click', (e) => {
-        e.preventDefault()
+      const closeHandler = (e) => {
+        if (e.cancelable) e.preventDefault()
         closeSearchOverlay()
-      })
+      }
+      DOM.closeBtn.addEventListener('click', closeHandler)
+      DOM.closeBtn.addEventListener('touchstart', closeHandler, { passive: false })
     }
 
     // Close on backdrop click
@@ -466,6 +499,19 @@
   }
 
   /**
+   * Apply specific fixes for Safari
+   */
+  function applySafariFixes() {
+    // 1. Force cursor pointer on trigger to ensure tap highlight works
+    if (DOM.trigger) {
+      DOM.trigger.style.cursor = 'pointer'
+    }
+
+    // 2. Add empty onclick to body to enable delegation if needed
+    document.body.setAttribute('onclick', 'void(0)')
+  }
+
+  /**
    * Update the visual selection of a hit
    * @param {number} index
    */
@@ -508,6 +554,7 @@
    * Open search overlay
    */
   function openSearchOverlay() {
+    Logger.log('Opening search overlay')
     if (!DOM.overlay) return
 
     DOM.overlay.classList.add('active')
@@ -527,6 +574,7 @@
    * Close search overlay
    */
   function closeSearchOverlay() {
+    Logger.log('Closing search overlay')
     if (!DOM.overlay) return
 
     DOM.overlay.classList.remove('active')

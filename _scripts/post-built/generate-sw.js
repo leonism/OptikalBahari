@@ -5,6 +5,8 @@ async function main() {
     globDirectory: '_site/',
     globPatterns: ['**/*.{html,js,css,webp,jpg,jpeg,png,svg,woff,woff2}'],
     swDest: '_site/sw.js',
+    clientsClaim: true,
+    skipWaiting: true,
     runtimeCaching: [
       {
         urlPattern: /^https:\/\/res\.cloudinary\.com\//,
