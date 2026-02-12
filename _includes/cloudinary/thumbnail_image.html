@@ -1,7 +1,7 @@
 {%- comment -%}
-  STRICT THUMBNAIL COMPONENT - OPTIKAL BAHARI
+  STRICT THUMBNAIL COMPONENT - BLUR-UP VERSION
   Optimized for Algolia results and blog grids.
-  Goal: Minimize file size (~10kb) while keeping the full image visible.
+  Goal: Minimize file size while providing a premium loading experience.
 {%- endcomment -%}
 
 {%- if include.src -%}
@@ -19,26 +19,30 @@
   {%- assign image_ratio = include.ratio | default: "ratio-16x9" -%}
 
   {%- comment -%}
-    REGULAR IMAGE STRATEGY:
-    - c_limit: Resizes the image to fit within bounds without cropping out parts.
-    - w_400,h_225: Standard 16:9 thumbnail size.
-    - q_auto:eco: Aggressive compression to reach ~10kb.
-    - f_auto: Modern AVIF/WebP delivery.
-    - e_sharpen:60: Keeps details sharp at low quality.
+    THUMBNAIL PARAMS:
+    - c_limit: No cropping, fits within 400x225.
+    - q_auto:eco: Targeted for ~10kb total payload.
   {%- endcomment -%}
-
   {%- capture thumb_params -%}c_limit,w_400,h_225,q_auto:eco,f_auto,e_sharpen:60{%- endcapture -%}
 
-  <div class="image-ratio-wrapper {{ image_ratio }}">
+  {%- comment -%}
+    ULTRA-LIGHT PLACEHOLDER:
+    - w_10: Tiny 10px width.
+    - e_blur:1000: Maximum blur.
+  {%- endcomment -%}
+  {%- capture placeholder_params -%}c_limit,w_10,e_blur:1000,q_auto:low,f_auto{%- endcapture -%}
+  {%- assign lqp_url = clean_src | cloudinary_url: placeholder_params -%}
+
+  <div class="image-ratio-wrapper {{ image_ratio }} blur-up-container" style="background-image: url('{{ lqp_url }}'); background-size: cover; background-position: center;">
     <img
       src="{{ clean_src | cloudinary_url: thumb_params }}"
       alt="{{ image_alt }}"
-      class="{{ image_class }}"
-      style="object-fit: cover; object-position: center; width: 100%; height: 100%;"
+      class="{{ image_class }} blur-target"
       loading="lazy"
       decoding="async"
       width="400"
       height="225"
+      onload="this.classList.add('loaded');"
     />
   </div>
 {%- endif -%}
