@@ -10,7 +10,7 @@ description:
   Anda
 keywords: Optikal Bahari, Optik, Kacamata, Kemayoran, Bendungan Jago
 permalink: /posts/
-background: /assets/img/bg-splash-index-01.webp
+background: /assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp
 pagination:
   enabled: true # Enable pagination for this page
   permalink: 'page/:num/'

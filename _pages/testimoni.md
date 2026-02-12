@@ -10,7 +10,7 @@ lang: id-ID
 author: Optikal Bahari
 categories: [Info]
 tags: [layanan, optikal]
-background: /assets/img/bg-post.webp
+background: /assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-013.webp
 permalink: /testimoni/
 comments: false
 ---

@@ -200,9 +200,9 @@ jekyll-minifier:
 
 # Algolia Search Configuration (non sensitive API information)
 algolia:
-  application_id: "UWA3AQQKJK"
-  index_name: "prod_optikalbahari"
-  search_only_api_key: "eb94f493bf5806e0348677836f46bfd1"
+  application_id: <%= ENV['ALGOLIA_APPLICATION_ID'] %>
+  index_name: <%= ENV['ALGOLIA_INDEX_NAME'] %>
+  search_only_api_key: <%= ENV['ALGOLIA_SEARCH_API_KEY'] %>
   nodes_to_index: "p,h1,h2,h3,h4,h5,h6"
   files_to_exclude:
     - _pages/404.md
