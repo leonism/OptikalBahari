@@ -6,60 +6,61 @@
     :root {
       --masthead-bg-mobile: url('{{ page.background | cloudinary_url: "c_fill,w_1200,h_600,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
       --masthead-bg-desktop: url('{{ page.background | cloudinary_url: "c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
-      --masthead-dim: brightness(1) contrast(1); /* Default: Bright */
     }
 
-    /* 1. If System is Dark, set to Dim */
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --masthead-dim: brightness(0.7) contrast(1.1);
-      }
-    }
-
-    /* 2. FORCE Bright if user manually selects Light Mode */
-    [data-theme="light"] :root,
-    .light-mode :root {
-      --masthead-dim: brightness(1) contrast(1) !important;
-    }
-
-    /* 3. FORCE Dim if user manually selects Dark Mode */
-    [data-theme="dark"] :root,
-    .dark-mode :root {
-      --masthead-dim: brightness(0.7) contrast(1.1) !important;
-    }
-
+    /* 1. Base Placeholder State */
     .masthead.blur-up {
       position: relative;
       background-image: url('{{ placeholder_url }}');
       background-size: cover;
       background-position: center;
-      /* Filter now reacts to the variables above */
-      filter: var(--masthead-dim);
-      transition: background-image 0.8s ease-in-out, filter 0.5s ease-in-out;
-      overflow: hidden;
+      transition: background-image 0.8s ease-in-out;
+      overflow: hidden; /* Contains the shimmer */
     }
 
-    /* Shimmer and other styles remain the same... */
+    /* 2. The Shimmer Animation Overlay */
     .masthead.blur-up::before {
       content: "";
       position: absolute;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: linear-gradient(90deg, rgba(255,255,255,0) 0, rgba(255,255,255,0.05) 20%, rgba(255,255,255,0.1) 60%, rgba(255,255,255,0));
+      background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0,
+        rgba(255, 255, 255, 0.1) 20%,
+        rgba(255, 255, 255, 0.2) 60%,
+        rgba(255, 255, 255, 0)
+      );
       background-size: 200% 100%;
       animation: mastheadShimmer 2s infinite;
       z-index: 1;
       transition: opacity 0.5s ease-out;
     }
 
-    @keyframes mastheadShimmer { to { background-position: -200% 0; } }
+    @keyframes mastheadShimmer {
+      to { background-position: -200% 0; }
+    }
 
-    .masthead.is-loaded { background-image: var(--masthead-bg-mobile); }
-    .masthead.is-loaded::before { opacity: 0; pointer-events: none; }
+    /* 3. Loaded State: Switch Background & Hide Shimmer */
+    .masthead.is-loaded {
+      background-image: var(--masthead-bg-mobile);
+    }
+
+    .masthead.is-loaded::before {
+      opacity: 0; /* Fades the shimmer away */
+      pointer-events: none;
+    }
 
     @media (min-width: 768px) {
-      .masthead.is-loaded { background-image: var(--masthead-bg-desktop); }
+      .masthead.is-loaded {
+        background-image: var(--masthead-bg-desktop);
+      }
     }
-    .masthead .container { position: relative; z-index: 2; }
+
+    /* Ensure content stays above the shimmer */
+    .masthead .container {
+      position: relative;
+      z-index: 2;
+    }
   </style>
 
   <header class="masthead blur-up responsive-bg" id="masthead-header">
@@ -67,9 +68,24 @@
       fetchpriority="high"
       decoding="async"
       style="display: none"
-      alt="{{ page.title }}"
+      alt=""
       onload="document.getElementById('masthead-header').classList.add('is-loaded');" />
 {% else %}
   <header class="masthead">
 {% endif %}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1 class="text-white">{{ page.title }}</h1>
+            {% if page.description %}
+              <h2 class="subheading text-capitalize text-white">
+                {{ page.description }}
+              </h2>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
 </header>
