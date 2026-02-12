@@ -17,7 +17,7 @@
 
 // Global Image Dark Mode Dimming
 [data-bs-theme="dark"] body img {
-  filter: brightness(30%); // Adjusted to 30% for a darker dimming effect
+  filter: brightness(30%) !important; // Applied with !important for precedence
 }
 
 /* ---------------------------------------- */
@@ -262,7 +262,7 @@ body.dark-mode {
   }
 
   img {
-    filter: brightness(30%); // Adjusted to 30% for a darker dimming effect
+    filter: brightness(30%) !important; // Applied with !important for precedence
   }
 
   // In dark mode, show the dark search icon and hide the light one.
