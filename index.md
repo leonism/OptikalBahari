@@ -16,8 +16,8 @@ tags: [layanan, optikal]
 background: /assets/img/splash-screen/bg-splash-post-03.jpg
 ---
 
-{% include navigation/navbar.html %}
-{% include cloudinary/masthead.html %}
+{% include navigation/navbar.html %} {% include cloudinary/masthead.html %}
+
 <div class="container">
   <div class="row">
     <div class="col-lg-10 col-md-10 mx-auto">

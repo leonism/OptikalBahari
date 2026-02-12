@@ -1,5 +1,5 @@
 {%- comment -%}
-  UNIVERSAL CLOUDINARY COMPONENT - SKELETON ENHANCED
+  UNIVERSAL CLOUDINARY COMPONENT - BLUR-UP ENHANCED
 {%- endcomment -%}
 
 {%- if include.src -%}
@@ -10,13 +10,22 @@
   {%- else -%}
     {%- assign clean_src = raw_src -%}
   {%- endif -%}
+
   {%- assign image_alt = include.alt | default: include.title | default: site.title | escape -%}
-  {%- assign image_class = include.class | default: "card-img-top" -%}
   {%- assign image_ratio = include.ratio | default: "ratio-16x9" -%}
 
+  {%- comment -%} High Quality Params {%- endcomment -%}
   {%- capture ai_params -%}c_fill,g_auto:subject,q_auto:good,e_sharpen:100{%- endcapture -%}
 
-  <div class="image-ratio-wrapper {{ image_ratio }} loading-skeleton">
+  {%- comment -%}
+    Low Quality Placeholder (LQP):
+    30px width, high blur, and auto-format to keep it ~1kb
+  {%- endcomment -%}
+  {%- capture lqp_params -%}c_fill,g_auto:subject,w_30,e_blur:1000,q_auto:low{%- endcapture -%}
+  {%- assign placeholder_url = clean_src | cloudinary_url: lqp_params -%}
+
+  <div class="image-ratio-wrapper {{ image_ratio }} blur-up-container" style="background-image: url('{{ placeholder_url }}'); background-size: cover;">
+
     <picture>
       <source
         srcset="{{ clean_src | cloudinary_url: ai_params | append: ',w_480,h_270' }} 480w,
@@ -26,13 +35,12 @@
       <img
         src="{{ clean_src | cloudinary_url: ai_params | append: ',w_768,h_432' }}"
         alt="{{ image_alt }}"
-        class="{{ image_class }} transition-opacity"
-        style="object-fit: cover; object-position: center; width: 100%; height: 100%; opacity: 0;"
+        class="blur-target"
         loading="lazy"
         decoding="async"
         width="768"
         height="432"
-        onload="this.style.opacity='1'; this.parentElement.classList.remove('loading-skeleton');"
+        onload="this.classList.add('loaded');"
       />
     </picture>
   </div>

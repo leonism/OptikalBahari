@@ -1,29 +1,51 @@
 {% if page.background %}
+  {%- comment -%}
+    1. GENERATE THE ULTRA-LOW-RES PLACEHOLDER (LQP)
+    We use 50px width and high blur. It's roughly 1-2kb.
+  {%- endcomment -%}
+  {%- capture lqp_params -%}c_fill,w_50,h_25,g_auto,e_blur:1000,q_auto:low,f_auto{%- endcapture -%}
+  {%- assign placeholder_url = page.background | cloudinary_url: lqp_params -%}
+
   <style>
     :root {
-      /* Mobile Background (default) - 600px width */
-      --masthead-bg: url('{{ page.background | cloudinary_url: "c_fill,w_1200,h_600,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
+      /* Mobile Background */
+      --masthead-bg-mobile: url('{{ page.background | cloudinary_url: "c_fill,w_1200,h_600,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
+      /* Desktop Background */
+      --masthead-bg-desktop: url('{{ page.background | cloudinary_url: "c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
     }
+
+    /* The Placeholder State */
+    .masthead.blur-up {
+      position: relative;
+      background-image: url('{{ placeholder_url }}');
+      background-size: cover;
+      background-position: center;
+      transition: background-image 0.6s ease-in-out;
+    }
+
+    /* The Loaded State - We use a class triggered by JS */
+    .masthead.is-loaded {
+      background-image: var(--masthead-bg-mobile);
+    }
+
     @media (min-width: 768px) {
-      :root {
-        /* Tablet/Desktop Background - 1400px width */
-        --masthead-bg: url('{{ page.background | cloudinary_url: "c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
+      .masthead.is-loaded {
+        background-image: var(--masthead-bg-desktop);
       }
-    }
-    .masthead.responsive-bg {
-      background-image: var(--masthead-bg);
     }
   </style>
 
-  <header class="masthead responsive-bg">
+  <header class="masthead blur-up responsive-bg" id="masthead-header">
     {% comment %}
-      LCP Hint: We point to the 1400w version so the browser pre-warms the desktop link.
+      THE "LOADER" IMAGE:
+      Hidden from view, but used to trigger the CSS change once the high-res file is cached.
     {% endcomment %}
     <img src="{{ page.background | cloudinary_url: 'c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20' }}"
       fetchpriority="high"
-      decoding="sync"
+      decoding="async"
       style="display: none"
-      alt="{{ page.title | default: site.title }}" />
+      alt=""
+      onload="document.getElementById('masthead-header').classList.add('is-loaded');" />
 {% else %}
   <header class="masthead">
 {% endif %}
@@ -32,9 +54,9 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ page.title }}</h1>
+            <h1 class="text-white shadow-sm">{{ page.title }}</h1>
             {% if page.description %}
-              <h2 class="subheading text-capitalize">
+              <h2 class="subheading text-capitalize text-white shadow-sm">
                 {{ page.description }}
               </h2>
             {% endif %}
