@@ -4,8 +4,8 @@
 
   <style>
     :root {
-      --masthead-bg-mobile: url('{{ page.background | cloudinary_url: "c_fill,w_1200,h_600,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
-      --masthead-bg-desktop: url('{{ page.background | cloudinary_url: "c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
+      --masthead-bg-mobile: url('{{ page.background | cloudinary_url: "c_fill,w_1200,h_600,g_auto,q_auto:eco,f_auto,e_brightness:20" }}');
+      --masthead-bg-desktop: url('{{ page.background | cloudinary_url: "c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:20" }}');
     }
 
     /* 1. Base Placeholder State */
@@ -64,7 +64,7 @@
   </style>
 
   <header class="masthead blur-up responsive-bg" id="masthead-header">
-    <img src="{{ page.background | cloudinary_url: 'c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20' }}"
+    <img src="{{ page.background | cloudinary_url: 'c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:20' }}"
       fetchpriority="high"
       decoding="async"
       style="display: none"
