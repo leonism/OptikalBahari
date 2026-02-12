@@ -1,0 +1,22 @@
+/* Normal State */
+.blur-up-container.dark-dim {
+  transition: filter 0.3s ease-in-out;
+}
+
+/* System Dark Mode Detection */
+@media (prefers-color-scheme: dark) {
+  .blur-up-container.dark-dim {
+    filter: brightness(0.8) contrast(1.1);
+  }
+
+  /* Optional: Make it even dimmer when hovered so it "pops" back to life */
+  .blur-up-container.dark-dim:hover {
+    filter: brightness(1) contrast(1);
+  }
+}
+
+/* If you use a class-based toggle (e.g., <body class="dark-mode">) */
+[data-theme="dark"] .dark-dim,
+.dark-mode .dark-dim {
+  filter: brightness(0.8) contrast(1.1);
+}

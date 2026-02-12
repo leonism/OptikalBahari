@@ -1,5 +1,5 @@
 {%- comment -%}
-  UNIVERSAL CLOUDINARY COMPONENT - BLUR-UP ENHANCED
+  UNIVERSAL CLOUDINARY COMPONENT - BLUR-UP + DARK MODE DIM
 {%- endcomment -%}
 
 {%- if include.src -%}
@@ -14,17 +14,12 @@
   {%- assign image_alt = include.alt | default: include.title | default: site.title | escape -%}
   {%- assign image_ratio = include.ratio | default: "ratio-16x9" -%}
 
-  {%- comment -%} High Quality Params {%- endcomment -%}
   {%- capture ai_params -%}c_fill,g_auto:subject,q_auto:good,e_sharpen:100{%- endcapture -%}
-
-  {%- comment -%}
-    Low Quality Placeholder (LQP):
-    30px width, high blur, and auto-format to keep it ~1kb
-  {%- endcomment -%}
   {%- capture lqp_params -%}c_fill,g_auto:subject,w_30,e_blur:1000,q_auto:low{%- endcapture -%}
   {%- assign placeholder_url = clean_src | cloudinary_url: lqp_params -%}
 
-  <div class="image-ratio-wrapper {{ image_ratio }} blur-up-container" style="background-image: url('{{ placeholder_url }}'); background-size: cover;">
+  {%- comment -%} Added 'dark-dim' class to the wrapper {%- endcomment -%}
+  <div class="image-ratio-wrapper {{ image_ratio }} blur-up-container dark-dim" style="background-image: url('{{ placeholder_url }}'); background-size: cover;">
 
     <picture>
       <source

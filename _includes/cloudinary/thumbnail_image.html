@@ -1,13 +1,11 @@
 {%- comment -%}
-  STRICT THUMBNAIL COMPONENT - BLUR-UP VERSION
-  Optimized for Algolia results and blog grids.
-  Goal: Minimize file size while providing a premium loading experience.
+  STRICT THUMBNAIL COMPONENT - BLUR-UP + DARK MODE DIM
+  Optimized for Algolia results and blog grids with dark mode support.
 {%- endcomment -%}
 
 {%- if include.src -%}
   {%- assign raw_src = include.src | strip -%}
   {%- assign first_char = raw_src | slice: 0 -%}
-
   {%- if first_char == "/" -%}
     {%- assign clean_src = raw_src | slice: 1, raw_src.size -%}
   {%- else -%}
@@ -18,22 +16,48 @@
   {%- assign image_class = include.class | default: "card-img-top" -%}
   {%- assign image_ratio = include.ratio | default: "ratio-16x9" -%}
 
-  {%- comment -%}
-    THUMBNAIL PARAMS:
-    - c_limit: No cropping, fits within 400x225.
-    - q_auto:eco: Targeted for ~10kb total payload.
-  {%- endcomment -%}
   {%- capture thumb_params -%}c_limit,w_400,h_225,q_auto:eco,f_auto,e_sharpen:60{%- endcapture -%}
-
-  {%- comment -%}
-    ULTRA-LIGHT PLACEHOLDER:
-    - w_10: Tiny 10px width.
-    - e_blur:1000: Maximum blur.
-  {%- endcomment -%}
   {%- capture placeholder_params -%}c_limit,w_10,e_blur:1000,q_auto:low,f_auto{%- endcapture -%}
   {%- assign lqp_url = clean_src | cloudinary_url: placeholder_params -%}
 
-  <div class="image-ratio-wrapper {{ image_ratio }} blur-up-container" style="background-image: url('{{ lqp_url }}'); background-size: cover; background-position: center;">
+  <style>
+    /* Scope the dark mode filter to this specific component */
+    .thumb-container {
+      --thumb-filter: brightness(1) contrast(1);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .thumb-container {
+        --thumb-filter: brightness(0.85) contrast(1.1);
+      }
+    }
+
+    .thumb-container.blur-up-container {
+      position: relative;
+      overflow: hidden;
+      background-image: url('{{ lqp_url }}');
+      background-size: cover;
+      background-position: center;
+      filter: var(--thumb-filter);
+      transition: filter 0.4s ease-in-out;
+    }
+
+    .thumb-container .blur-target {
+      opacity: 0;
+      filter: blur(5px);
+      transition: opacity 0.5s ease-out, filter 0.5s ease-out;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    .thumb-container .blur-target.loaded {
+      opacity: 1;
+      filter: blur(0);
+    }
+  </style>
+
+  <div class="image-ratio-wrapper {{ image_ratio }} blur-up-container thumb-container">
     <img
       src="{{ clean_src | cloudinary_url: thumb_params }}"
       alt="{{ image_alt }}"
