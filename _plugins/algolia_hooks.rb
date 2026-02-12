@@ -1,5 +1,11 @@
 require 'jekyll-algolia'
 
+# Compatibility for Algolia indexing in CI/CD environments
+# jekyll-algolia expects ALGOLIA_API_KEY, but we might have ALGOLIA_ADMIN_API_KEY
+if ENV['ALGOLIA_ADMIN_API_KEY'] && !ENV['ALGOLIA_API_KEY']
+  ENV['ALGOLIA_API_KEY'] = ENV['ALGOLIA_ADMIN_API_KEY']
+end
+
 # Custom hooks for Algolia indexing
 module Jekyll
   module Algolia

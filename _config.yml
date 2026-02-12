@@ -67,7 +67,7 @@ exclude:
 pagination:
   enabled: true
   per_page: 9
-  pabundle exec jekyll serveginate_path: "/posts/page/:num/"
+  paginate_path: "/posts/page/:num/"
   title: ":title - Page :num"
   sort_field: "date"
   sort_reverse: true
@@ -95,7 +95,7 @@ sass:
     - color-functions
 
 # Build Command
-build_command: "bundle exec jekyll build && bash _scripts/post-built/post-build.sh"
+build_command: "bundle exec jekyll build && npm run _scripts/shell/post-build.js"
 
 # Asset Processor Configuration
 asset_processor:

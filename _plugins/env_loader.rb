@@ -5,22 +5,17 @@ Encoding.default_internal = Encoding::UTF_8
 require 'dotenv'
 require 'erb'
 
-# Load .env variables
+# Load .env variables immediately when plugin is required
 Dotenv.load
 
+# Bridge ALGOLIA_ADMIN_API_KEY to ALGOLIA_API_KEY for jekyll-algolia compatibility
+# This ensures that if the user defines ALGOLIA_ADMIN_API_KEY, it's also available as ALGOLIA_API_KEY
+ENV['ALGOLIA_API_KEY'] ||= ENV['ALGOLIA_ADMIN_API_KEY']
+
 module Jekyll
-  class EnvLoader < Generator
-    safe true
-    priority :highest
-
-    def generate(site)
-      # Recursively process the config hash to evaluate ERB-like ENV placeholders
-      process_config(site.config)
-    end
-
-    private
-
-    def process_config(config)
+  module EnvLoader
+    # Process the config hash to evaluate ERB-like ENV placeholders
+    def self.process_config(config)
       config.each do |key, value|
         if value.is_a?(Hash)
           process_config(value)
@@ -30,7 +25,7 @@ module Jekyll
       end
     end
 
-    def evaluate_value(value)
+    def self.evaluate_value(value)
       # Handle <%= ENV['VAR'] %>
       if value.match?(/<%=\s*ENV\[['"](.+)['"]\]\s*%>/)
         var_name = value.match(/<%=\s*ENV\[['"](.+)['"]\]\s*%>/)[1]
@@ -40,4 +35,10 @@ module Jekyll
       value
     end
   end
+end
+
+# Use a hook that runs earlier than Generators
+# after_init is called right after the Site object is initialized
+Jekyll::Hooks.register :site, :after_init do |site|
+  Jekyll::EnvLoader.process_config(site.config)
 end
