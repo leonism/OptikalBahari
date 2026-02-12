@@ -29,7 +29,12 @@ comments: false
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
               {% if post.background %}
-                {% include cloudinary/cloudinary_image.html src=post.background alt=post.title class="card-img-top img-fluid" loading="lazy" %}
+                {% include cloudinary/thumbnail_image.html
+                  src=post.background
+                  alt=post.title
+                  class="card-img-top"
+                  ratio="16x9"
+                  loading="lazy" %}
               {% endif %}
             </a>
             <div class="card-body">
@@ -77,7 +82,12 @@ comments: false
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
               {% if post.background %}
-                {% include cloudinary/cloudinary_image.html src=post.background alt=post.title class="card-img-top img-fluid" loading="lazy" %}
+                {% include cloudinary/thumbnail_image.html
+                  src=post.background
+                  alt=post.title
+                  class="card-img-top"
+                  ratio="16x9"
+                  loading="lazy" %}
               {% endif %}
             </a>
             <div class="card-body">
@@ -124,9 +134,12 @@ comments: false
         {% endif %}
           <div class="card shadow p-0 bg-white rounded hover-zoomin">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-              {% if post.background %}
-                {% include cloudinary/cloudinary_image.html src=post.background alt=post.title class="card-img-top img-fluid" loading="lazy" %}
-              {% endif %}
+              {% include cloudinary/thumbnail_image.html
+                  src=post.background
+                  alt=post.title
+                  class="card-img-top"
+                  ratio="16x9"
+                  loading="lazy" %}
             </a>
             <div class="card-body">
               <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
