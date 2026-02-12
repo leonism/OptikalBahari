@@ -19,7 +19,7 @@
           <div class="card-body">
             <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
             <p class="card-text">
-              {{ post.description | strip_html | truncate: 100 }}.
+              {{ post.description | strip_html | truncate: 105 }}.
               <a class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none"
                 href="{{ post.url | relative_url }}" title="{{ post.title }}">
                 <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut

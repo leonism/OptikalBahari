@@ -1,19 +1,56 @@
 // Global Resets & Base Styles
-
-// Reset default browser styles
 html,
 body {
   margin: 0;
   padding: 0;
-}
-
-body {
   font-size: 16px;
   background-color: $light-bg;
   color: $light-text;
   @include serif-font;
-
   transition: background-color 0.3s, color 0.3s;
+
+}
+
+/* ---------------------------------------- */
+/*        Light Mode Default Styles         */
+/* ---------------------------------------- */
+body {
+  background-color: $light-bg;
+  color: $light-text;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+
+  a {
+    color: $light-link;
+    &:hover {
+      color: darken($light-link, 10%);
+    }
+  }
+
+  .navbar-light {
+    background-color: $light-bg;
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: $light-text;
+    }
+  }
+
+  .card-body {
+    background-color: $white;
+    color: $light-text;
+  }
+
+  footer {
+    background-color: #f1f1f1;
+    color: $light-text;
+    a {
+      color: $light-link;
+      &:hover {
+        color: darken($light-link, 10%);
+      }
+    }
+  }
 }
 
 // Global Dark Mode Body Override
@@ -67,17 +104,6 @@ a {
   &:focus,
   &:hover {
     color: darken($light-link, 10%);
-    // color: $primary; // From _global.scss, preferring light-link for consistency
-  }
-}
-
-// Dark Mode Link Overrides
-[data-bs-theme="dark"] body {
-  a {
-    color: $dark-link;
-    &:hover {
-      color: lighten($dark-link, 15%);
-    }
   }
 }
 
@@ -113,7 +139,12 @@ img::-moz-selection {
   background: transparent;
 }
 
-// Global Image Dark Mode Dimming
-[data-bs-theme="dark"] body img {
-  filter: brightness(80%); // Adjusted from 50% to 80% for better visibility
+// Dark Mode Link Overrides
+[data-bs-theme="dark"] body {
+  a {
+    color: $dark-link;
+    &:hover {
+      color: lighten($dark-link, 15%);
+    }
+  }
 }
