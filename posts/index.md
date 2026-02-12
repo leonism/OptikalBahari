@@ -29,7 +29,7 @@ pagination:
                           CALL THE ELITE THUMBNAIL COMPONENT
                           This uses the c_limit, q_auto:eco logic we built.
                         {%- endcomment -%}
-                        {% include cloudinary/card_image.html
+                        {% include cloudinary/thumbnail_image.html
                            src=post.background
                            alt=post.title
                            ratio="ratio-16x9"
@@ -68,7 +68,7 @@ pagination:
                           CALL THE ELITE THUMBNAIL COMPONENT
                           This uses the c_limit, q_auto:eco logic we built.
                         {%- endcomment -%}
-                        {% include cloudinary/card_image.html
+                        {% include cloudinary/thumbnail_image.html
                            src=post.background
                            alt=post.title
                            ratio="ratio-16x9"
@@ -107,7 +107,7 @@ pagination:
                           CALL THE ELITE THUMBNAIL COMPONENT
                           This uses the c_limit, q_auto:eco logic we built.
                         {%- endcomment -%}
-                        {% include cloudinary/card_image.html
+                        {% include cloudinary/thumbnail_image.html
                            src=post.background
                            alt=post.title
                            ratio="ratio-16x9"
