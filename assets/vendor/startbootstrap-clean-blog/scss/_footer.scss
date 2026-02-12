@@ -1,9 +1,10 @@
 /* ===============================
    **Footer Base Styling**
    =============================== */
+
 footer {
   padding: 10px 0 40px; /* Padding for spacing */
-  background-color: #f7f7f7; /* Light neutral background */
+  background-color: $light-footer; /* Light neutral background */
   border-top: 1px solid #d8d8d8; /* Subtle border for separation */
   font-family: 'Arial', sans-serif; /* Clean typography */
   filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3)); /* Bolder shadow for depth */
@@ -13,6 +14,7 @@ footer {
 /* ===============================
    **Inline List Styling**
    =============================== */
+
 footer .list-inline {
   margin: 0;
   padding: 0;
@@ -93,13 +95,6 @@ footer .copyright.list-unstyled a:hover {
   color: #ed4833; /* Bold hover color */
   transform: translateY(-5px); /* Lift effect */
 }
-
-/* ===============================
-   **Badge Styling**
-   =============================== */
-// footer .badge {
-//   // Styles here if any
-// }
 
 /* ===============================
    **Dark Mode Overrides**

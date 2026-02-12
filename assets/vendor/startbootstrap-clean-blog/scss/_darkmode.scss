@@ -18,11 +18,6 @@
 /* ---------------------------------------- */
 /*           Theme Variables              */
 /* ---------------------------------------- */
-// Light mode colors:
-$light-bg: #ffffff;
-$light-text: #333333;
-$light-link: #007bff;
-$light-badge-text: #ffffff;
 
 // Dark Mode Variables:
 $dark-bg: #141d2b; // Primary dark background
@@ -39,6 +34,7 @@ $dark-ripple: #1a2332; // Ripple effect color
 /* ---------------------------------------- */
 /*        Light Mode Default Styles         */
 /* ---------------------------------------- */
+
 body {
   background-color: $light-bg;
   color: $light-text;
@@ -100,26 +96,6 @@ body {
   .navbar .nav-item .fas.fa-search.dark-icon {
     display: none;
     color: $dark-accent;
-  }
-}
-
-/* ---------------------------------------- */
-/*      Masthead Background Dimming         */
-/* ---------------------------------------- */
-.masthead {
-  position: relative;
-  z-index: 1;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0);
-    transition: background 0.3s ease;
-    z-index: -1;
   }
 }
 
@@ -521,149 +497,3 @@ body {
   padding: 0;
 }
 
-/* ---------------------------------------- */
-/*           Base Navbar Styling            */
-/* ---------------------------------------- */
-#mainNav {
-  margin: 0;
-  position: absolute;
-  top: 0; // Flush with the top
-  background-color: white;
-  @include sans-serif-font; // Assumes a mixin defined elsewhere
-  width: 100%;
-  z-index: 1000;
-  transition: all 0.3s ease-in-out;
-  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
-  backdrop-filter: blur(200px) saturate(160%);
-  -webkit-backdrop-filter: blur(200px) saturate(160%);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-  .navbar-brand {
-    margin: 0;
-    font-weight: 900;
-    letter-spacing: -2px;
-    word-spacing: -2px;
-    color: $gray-900; // Assumes variable defined elsewhere
-    font-smooth: antialiased;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  .navbar-toggler {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: antialiased;
-  }
-
-  .navbar-toggler-icon {
-    font-size: 12px;
-    font-weight: 900;
-    padding: 10px;
-    text-transform: uppercase;
-    color: $gray-900; // Assumes variable defined elsewhere
-    border: none;
-    font-smooth: antialiased;
-  }
-
-  .navbar-nav {
-    > li.nav-item {
-      > a {
-        font-size: 12px;
-        font-weight: 800;
-        letter-spacing: 1px;
-        word-spacing: 1px;
-        text-transform: uppercase;
-        padding: 10px 15px;
-        color: $gray-800; // Assumes variable defined elsewhere
-        transition: all 0.3s ease;
-        font-smooth: antialiased;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-
-        &:hover {
-          color: $primary; // Assumes variable defined elsewhere
-          transform: translateY(-2px);
-          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-      }
-    }
-  }
-
-  @media (max-width: 991.98px) {
-    &.is-fixed {
-      position: fixed;
-      top: 0;
-      background-color: white;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    &.is-visible {
-      transform: translateY(0);
-    }
-  }
-
-  @media (min-width: 992px) {
-    border-bottom: 1px solid transparent;
-    background: transparent;
-
-    .navbar-brand {
-      padding: 10px 20px;
-      color: $white;
-      &:focus,
-      &:hover {
-        color: fade-out($white, 0.1);
-        transform: translateY(-2px);
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      }
-    }
-
-    .navbar-nav {
-      > li.nav-item {
-        > a {
-          padding: 10px 20px;
-          color: $white;
-          &:focus,
-          &:hover {
-            color: fade-out($white, 0.1);
-            transform: translateY(-2px);
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-          }
-        }
-      }
-    }
-
-    &.is-fixed {
-      position: fixed;
-      top: -70px;
-      transition: transform 0.2s;
-      border-bottom: 1px solid darken($white, 0.05);
-      background-color: fade-out($white, 0.1);
-
-      .navbar-brand {
-        color: $gray-900;
-        &:focus,
-        &:hover {
-          color: $primary;
-          transform: translateY(-2px);
-          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-      }
-
-      .navbar-nav {
-        > li.nav-item {
-          > a {
-            color: $gray-900;
-            &:focus,
-            &:hover {
-              color: $primary;
-              transform: translateY(-2px);
-              text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            }
-          }
-        }
-      }
-    }
-
-    &.is-visible {
-      transform: translate3d(0, 100%, 0);
-    }
-  }
-}

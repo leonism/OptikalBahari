@@ -20,14 +20,13 @@
 @import 'darkmode.scss';
 @import 'badges.scss';
 @import 'buttons.scss';
-@import "navbar-base";
 @import "navbar-accessibility";
 @import "navbar-search";
 @import "navbar-algolia-search";
 @import "navbar-algolia-overlay";
 @import "navbar-toggle";
 @import "navbar-theme-dark";
-@import "navbar-main";
-@import "navbar-responsive";
+@import "navbar-mainNav";
+// @import "navbar-responsive";
 // @import "shimmer"
 // @import "contact.scss";
