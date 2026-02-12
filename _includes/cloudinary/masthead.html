@@ -1,31 +1,53 @@
 {% if page.background %}
-  {%- comment -%}
-    1. GENERATE THE ULTRA-LOW-RES PLACEHOLDER (LQP)
-    We use 50px width and high blur. It's roughly 1-2kb.
-  {%- endcomment -%}
   {%- capture lqp_params -%}c_fill,w_50,h_25,g_auto,e_blur:1000,q_auto:low,f_auto{%- endcapture -%}
   {%- assign placeholder_url = page.background | cloudinary_url: lqp_params -%}
 
   <style>
     :root {
-      /* Mobile Background */
       --masthead-bg-mobile: url('{{ page.background | cloudinary_url: "c_fill,w_1200,h_600,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
-      /* Desktop Background */
       --masthead-bg-desktop: url('{{ page.background | cloudinary_url: "c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20" }}');
     }
 
-    /* The Placeholder State */
+    /* 1. Base Placeholder State */
     .masthead.blur-up {
       position: relative;
       background-image: url('{{ placeholder_url }}');
       background-size: cover;
       background-position: center;
-      transition: background-image 0.6s ease-in-out;
+      transition: background-image 0.8s ease-in-out;
+      overflow: hidden; /* Contains the shimmer */
     }
 
-    /* The Loaded State - We use a class triggered by JS */
+    /* 2. The Shimmer Animation Overlay */
+    .masthead.blur-up::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0,
+        rgba(255, 255, 255, 0.1) 20%,
+        rgba(255, 255, 255, 0.2) 60%,
+        rgba(255, 255, 255, 0)
+      );
+      background-size: 200% 100%;
+      animation: mastheadShimmer 2s infinite;
+      z-index: 1;
+      transition: opacity 0.5s ease-out;
+    }
+
+    @keyframes mastheadShimmer {
+      to { background-position: -200% 0; }
+    }
+
+    /* 3. Loaded State: Switch Background & Hide Shimmer */
     .masthead.is-loaded {
       background-image: var(--masthead-bg-mobile);
+    }
+
+    .masthead.is-loaded::before {
+      opacity: 0; /* Fades the shimmer away */
+      pointer-events: none;
     }
 
     @media (min-width: 768px) {
@@ -33,18 +55,23 @@
         background-image: var(--masthead-bg-desktop);
       }
     }
+
+    /* Ensure content stays above the shimmer */
+    .masthead .container {
+      position: relative;
+      z-index: 2;
+    }
   </style>
 
   <header class="masthead blur-up responsive-bg" id="masthead-header">
-    {% comment %}
-      THE "LOADER" IMAGE:
-      Hidden from view, but used to trigger the CSS change once the high-res file is cached.
-    {% endcomment %}
     <img src="{{ page.background | cloudinary_url: 'c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto,e_brightness:-30,e_contrast:20' }}"
       fetchpriority="high"
       decoding="async"
       style="display: none"
-      alt=""
+      alt="{{ page.title }}
+            {% if page.description %}
+              {{ page.description }}
+            {% endif %}"
       onload="document.getElementById('masthead-header').classList.add('is-loaded');" />
 {% else %}
   <header class="masthead">
