@@ -22,41 +22,30 @@ pagination:
         <div class="row">
             {% assign posts = paginator.posts | slice: 0, 3 %}
             {% for post in posts %}
-            <div
-                class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
+            <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
                 <div class="card shadow p-0 bg-white rounded hover-zoomin">
-                    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                        {% if post.background contains 'http' %}
-                        <img
-                            itemprop="image"
-                            src="{{ post.background }}"
-                            class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
-                        {% else %}
-                        <img
-                            itemprop="image"
-                            src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                            class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
-                        {% endif %}
+                    <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+                        {%- comment -%}
+                          CALL THE ELITE THUMBNAIL COMPONENT
+                          This uses the c_limit, q_auto:eco logic we built.
+                        {%- endcomment -%}
+                        {% include cloudinary/card_image.html
+                           src=post.background
+                           alt=post.title
+                           ratio="ratio-16x9"
+                        %}
                     </a>
                     <div class="card-body">
-                        <h5 class="card-title">
-                            {{ post.title | truncate: 50 }}
-                        </h5>
-                        <p class="card-text">
-                            {{ post.description | strip_html | truncate: 100 }}
-                        </p>
-                        <a class="btn btn-primary rounded-pill mt-3 text-white"
-                            href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                        <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
+                        <p class="card-text">{{ post.description | strip_html | truncate: 100 }}</p>
+                        <a class="btn btn-primary rounded-pill mt-3 text-white" href="{{ post.url | relative_url }}">
                             Lebih Lanjut
                         </a>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">
-                                Posted by {{ post.author | default: site.author }}, on
-                                {{ post.date | date: '%b %d, %Y' }} ·
-                                {% include postcards/read_time.html content=post.content %}
+                            Posted by {{ post.author | default: site.author }}, on {{ post.date | date: '%b %d, %Y' }} ·
+                            {% include postcards/read_time.html content=post.content %}
                         </small>
                     </div>
                 </div>
@@ -72,37 +61,29 @@ pagination:
         <div class="row">
             {% assign posts = paginator.posts | slice: 3, 3 %}
             {% for post in posts %}
-            <div
-                class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
+            <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
                 <div class="card shadow p-0 bg-white rounded hover-zoomin">
-                    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                        {% if post.background contains 'http' %}
-                        <img
-                            itemprop="image"
-                            src="{{ post.background }}"
-                            class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
-                        {% else %}
-                        <img
-                            itemprop="image"
-                            src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                            class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
-                        {% endif %}
+                    <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+                        {%- comment -%}
+                          CALL THE ELITE THUMBNAIL COMPONENT
+                          This uses the c_limit, q_auto:eco logic we built.
+                        {%- endcomment -%}
+                        {% include cloudinary/card_image.html
+                           src=post.background
+                           alt=post.title
+                           ratio="ratio-16x9"
+                        %}
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
-                        <p class="card-text">
-                            {{ post.description | strip_html | truncate: 100 }}
-                        </p>
-                        <a class="btn btn-primary rounded-pill mt-3 text-white"
-                            href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                        <p class="card-text">{{ post.description | strip_html | truncate: 100 }}</p>
+                        <a class="btn btn-primary rounded-pill mt-3 text-white" href="{{ post.url | relative_url }}">
                             Lebih Lanjut
                         </a>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Posted by {{ post.author | default: site.author }}, on
-                            {{ post.date | date: '%b %d, %Y' }} ·
+                        <small class="text-muted">
+                            Posted by {{ post.author | default: site.author }}, on {{ post.date | date: '%b %d, %Y' }} ·
                             {% include postcards/read_time.html content=post.content %}
                         </small>
                     </div>
@@ -114,46 +95,34 @@ pagination:
 </section>
 
 <!-- Section 3: Last 3 posts -->
-<section id="posts-category-section-3">
+<section id="posts-category-section-2">
     <div class="container">
         <div class="row">
             {% assign posts = paginator.posts | slice: 6, 3 %}
             {% for post in posts %}
-            <div
-                class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
+            <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
                 <div class="card shadow p-0 bg-white rounded hover-zoomin">
-                    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                        {% if post.background contains 'http' %}
-                            <img
-                                itemprop="image"
-                                imgsrc="{{ post.background }}"
-                                src="{{ post.background }}"
-                                class="card-img-top img-fluid"
-                                alt="{{ post.title }}" />
-                            {% else %}
-                            <img
-                                itemprop="image"
-                                imgsrc="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                                src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                                class="card-img-top img-fluid"
-                                alt="{{ post.title }}" />
-                        {% endif %}
+                    <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+                        {%- comment -%}
+                          CALL THE ELITE THUMBNAIL COMPONENT
+                          This uses the c_limit, q_auto:eco logic we built.
+                        {%- endcomment -%}
+                        {% include cloudinary/card_image.html
+                           src=post.background
+                           alt=post.title
+                           ratio="ratio-16x9"
+                        %}
                     </a>
                     <div class="card-body">
-                        <h5 class="card-title">
-                            {{ post.title | truncate: 50 }}
-                        </h5>
-                        <p class="card-text">
-                            {{ post.description | strip_html | truncate: 100 }}
-                        </p>
-                        <a class="btn btn-primary rounded-pill mt-3 text-white"
-                            href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                        <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
+                        <p class="card-text">{{ post.description | strip_html | truncate: 100 }}</p>
+                        <a class="btn btn-primary rounded-pill mt-3 text-white" href="{{ post.url | relative_url }}">
                             Lebih Lanjut
                         </a>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Posted by {{ post.author | default: site.author }}, on
-                            {{ post.date | date: '%b %d, %Y' }} ·
+                        <small class="text-muted">
+                            Posted by {{ post.author | default: site.author }}, on {{ post.date | date: '%b %d, %Y' }} ·
                             {% include postcards/read_time.html content=post.content %}
                         </small>
                     </div>
