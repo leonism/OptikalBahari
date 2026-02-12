@@ -28,8 +28,8 @@
   #mainNav.is-fixed {
     @media (max-width: 991.98px) {
       background-color: rgba($dark-accent, 0.85) !important;
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(50px);
+      -webkit-backdrop-filter: blur(50px);
     }
   }
 
@@ -81,7 +81,7 @@
         height: 24px;
         font-size: 0.75rem;
         margin-left: 6px;
-        
+
         // Maintain 44x44px touch target
         &::after {
           content: '';

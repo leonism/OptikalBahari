@@ -81,8 +81,16 @@ def index_to_algolia
   print_info('This may take a few minutes depending on content size...')
   puts
 
-  # Set environment variables for jekyll-algolia
-  ENV['ALGOLIA_API_KEY'] = ENV['ALGOLIA_ADMIN_API_KEY']
+  # Set environment variables for jekyll-algolia if not already set
+  # Prioritize ALGOLIA_API_KEY, then fallback to ALGOLIA_ADMIN_API_KEY
+  algolia_key = ENV['ALGOLIA_API_KEY'] || ENV['ALGOLIA_ADMIN_API_KEY']
+
+  if algolia_key.nil? || algolia_key.empty?
+    print_error('No Algolia API key found (tried ALGOLIA_API_KEY and ALGOLIA_ADMIN_API_KEY)')
+    exit 1
+  end
+
+  ENV['ALGOLIA_API_KEY'] = algolia_key
 
   # Run Algolia indexing
   success = system('bundle exec jekyll algolia')
