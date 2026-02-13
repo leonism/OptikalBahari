@@ -142,7 +142,7 @@
       position: fixed;
       top: -70px;
       transition: transform 0.2s;
-      border-bottom: 1px solid darken($white, 0.05);
+      // border-bottom: 1px solid darken($white, 0.05);
       background-color: fade-out($white, 0.1);
 
       .navbar-brand {

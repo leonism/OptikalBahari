@@ -1,126 +1,93 @@
+// =============================
+// FLOATING BUTTON
+// =============================
+
 .floatingWhatsApp {
-	position: fixed;
-	width: 60px;
-	height: 60px;
-	bottom: 20px;
-	right: 20px;
-	background-color: $green !important;
-	color: $white;
-	border-radius: 50px;
-	text-align: center;
-	font-size: 30px;
-	box-shadow: 2px 2px 3px #999;
-	z-index: 100;
-	text-align: center;
-}
-.my-float {
-	margin-top: 10px;
-}
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 
-.greenBg {
-  background-color: $green !important;
-}
-
-/* Override hover state */
-.floatingWhatsApp:hover {
-  background-color: $green !important; /* Change hover background color */
-  color: $white !important; /* Ensure text color remains white */
-}
-
-.whatsApp-button {
-  height: 60px;
   width: 60px;
-  border-radius: 100px;
-  position: relative; /* Ensure the ripple spans are positioned relative to this container */
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $green;
+  color: $white;
+
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+  text-decoration: none;
+  z-index: 1050;
+
+  position: fixed;
+  overflow: visible;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.whatsApp-button i {
-  font-size: 30px;
+.floatingWhatsApp:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
 }
 
-.whatsApp-button .ripple {
+.floatingWhatsApp .icon {
+  position: relative;
+  z-index: 2;
+}
+
+// =============================
+// RIPPLE EFFECT
+// =============================
+
+.floatingWhatsApp .ripple {
   position: absolute;
   width: 160px;
   height: 160px;
-  z-index: -1;
-  left: 50%;
-  top: 50%;
+
+  background-color: rgba(37, 211, 102, 0.4);
+
+  border-radius: 50%;
   opacity: 0;
-  margin: -80px 0 0 -80px;
-  border-radius: 100px;
-  -webkit-animation: ripple 1.8s infinite;
-  animation: ripple 1.8s normal;
+
+  animation: ripple 1.8s infinite;
 }
 
-@-webkit-keyframes ripple {
-  0% {
-    opacity: 1;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
+.floatingWhatsApp .ripple:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.floatingWhatsApp .ripple:nth-child(3) {
+  animation-delay: 0.6s;
 }
 
 @keyframes ripple {
   0% {
-    opacity: 1;
-    -webkit-transform: scale(0);
     transform: scale(0);
+    opacity: 0.8;
   }
   100% {
-    opacity: 0;
-    -webkit-transform: scale(1);
     transform: scale(1);
+    opacity: 0;
   }
 }
 
-.whatsApp-button .ripple:nth-child(2) {
-  animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
-}
+// =============================
+// DARK MODE (Bootstrap 5.3)
+// =============================
 
-.whatsApp-button .ripple:nth-child(3) {
-  animation-delay: 0.6s;
-  -webkit-animation-delay: 0.6s;
-}
+[data-bs-theme="dark"] {
 
-/* Add hover effect */
-.whatsApp-button:hover .ripple {
-  -webkit-animation: ripple 1.8s infinite;
-  animation: ripple 1.8s infinite;
-}
-
-.whatsApp-button:hover .ripple:nth-child(2) {
-  animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
-}
-
-.whatsApp-button:hover .ripple:nth-child(3) {
-  animation-delay: 0.6s;
-  -webkit-animation-delay: 0.6s;
-}
-
-
-// Dark Mode Button Overrides
-[data-bs-theme="dark"] body {
-  .ripple.greenBg {
-    background-color: $dark-ripple;
+  .floatingWhatsApp {
+    background-color: $dark-accent;
     color: $dark-text;
-    &:hover {
-      background-color: lighten($dark-ripple, 10%);
-    }
   }
-	.floatingWhatsApp {
-    &.whatsApp-button {
-      background-color: $dark-button;
-      color: $dark-text;
-      &:hover {
-        background-color: lighten($dark-button, 10%);
-      }
-    }
+
+  .floatingWhatsApp .ripple {
+    background-color: $dark-ripple;
   }
+
 }

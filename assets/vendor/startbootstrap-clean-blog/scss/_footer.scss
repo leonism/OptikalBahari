@@ -5,7 +5,7 @@
 footer {
   padding: 10px 0 40px; /* Padding for spacing */
   background-color: $light-footer; /* Light neutral background */
-  border-top: 1px solid #d8d8d8; /* Subtle border for separation */
+  border-top: 1px solid $dark-border; /* Subtle border for separation */
   font-family: 'Arial', sans-serif; /* Clean typography */
   filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3)); /* Bolder shadow for depth */
   box-shadow: rgba(20, 20, 20, 0.06) 0px 2px 4px 0px inset; /* Inset shadow for depth */

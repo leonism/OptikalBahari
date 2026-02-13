@@ -25,6 +25,28 @@
     .algolia-search-container { transform: translateY(0) scale(1); }
   }
 
+  // Algolia Search Dark Mode Enhancements
+  .algolia-search-overlay {
+    .search-clear-btn {
+      @media (max-width: 768px) {
+        width: 24px;
+        height: 24px;
+        font-size: 0.75rem;
+        margin-left: 6px;
+
+        // Maintain 44x44px touch target
+        &::after {
+          content: '';
+          position: absolute;
+          top: -10px;
+          bottom: -10px;
+          left: -10px;
+          right: -10px;
+        }
+      }
+    }
+  }
+
   @media (max-width: 768px) {
     padding: 0.5rem; // Reduced to 0.5rem as requested
     background: rgba($black, 0.6);
