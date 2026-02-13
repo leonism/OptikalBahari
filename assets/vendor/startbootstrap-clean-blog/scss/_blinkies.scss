@@ -78,29 +78,3 @@
   animation-delay: 0.6s;
   -webkit-animation-delay: 0.6s;
 }
-
-.floatingWhatsApp {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 10px;
-  right: 10px;
-  background-color: #25d366;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
-  z-index: 100;
-  text-align: center;
-}
-
-/* Override hover state */
-.floatingWhatsApp:hover {
-  background-color: #25d366 !important; /* Change hover background color */
-  color: #fff !important; /* Ensure text color remains white */
-}
-
-.my-float {
-  margin-top: 10px;
-}

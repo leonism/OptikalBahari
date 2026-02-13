@@ -16,15 +16,3 @@
     }
   }
 }
-
-// Dark Mode Button Overrides
-[data-bs-theme="dark"] body {
-  // Ripple greenBg (Moved from _navbar.scss dump)
-  .ripple.greenBg {
-    background-color: $dark-ripple;
-    color: $dark-text;
-    &:hover {
-      background-color: lighten($dark-ripple, 10%);
-    }
-  }
-}

@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-  gap: 4px; /* Spacing between items */
+  gap: 2px; /* Spacing between items */
   padding: 10px 0; /* Add some vertical padding */
 }
 
@@ -18,7 +18,7 @@
 /* Normal page links */
 .page-link {
   color: $white; /* White text */
-  background-color: #dc4245; /* Red background */
+  background-color: $red; /* Red background */
   border: 1px solid #e9ecef; /* Gray border */
   border-radius: 4px; /* Slightly rounded corners */
   padding: 6px 12px; /* Smaller padding for mobile */

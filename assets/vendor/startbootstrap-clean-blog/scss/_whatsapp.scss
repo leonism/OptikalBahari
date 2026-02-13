@@ -16,3 +16,26 @@
 .my-float {
 	margin-top: 10px;
 }
+
+/* Override hover state */
+.floatingWhatsApp:hover {
+  background-color: #25d366 !important; /* Change hover background color */
+  color: #fff !important; /* Ensure text color remains white */
+}
+
+.my-float {
+  margin-top: 10px;
+}
+
+
+// Dark Mode Button Overrides
+[data-bs-theme="dark"] body {
+  // Ripple greenBg (Moved from _navbar.scss dump)
+  .ripple.greenBg {
+    background-color: $dark-ripple;
+    color: $dark-text;
+    &:hover {
+      background-color: lighten($dark-ripple, 10%);
+    }
+  }
+}
