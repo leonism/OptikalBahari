@@ -14,3 +14,57 @@
 // i.fas {
 //   color: #dbd6d6; /* Subtle gray; adjust to your theme */
 // }
+
+/* ---------------------------------------- */
+/*  Toggle Icon Visibility & Positioning      */
+/*   (Using Font Awesome Stacking)            */
+/* ---------------------------------------- */
+/*
+  The theme toggle switch uses a container with the class "toggle-icon" that
+  employs Font Awesome stacking. Inside the container:
+    - The background circle (<i class="fas fa-circle fa-stack-2x"></i>) is fixed
+      at 14px, white, and vertically aligned.
+    - The overlay icons (<i class="fas fa-sun fa-stack-1x light-icon"></i> and
+      <i class="fas fa-moon fa-stack-1x dark-icon"></i>) are set at 12px and swapped
+      based on the active mode.
+
+  Requirements:
+    • In light mode, display the moon icon (dark-icon) using a dark color for contrast.
+    • In dark mode, display the sun icon (light-icon) using white for contrast.
+*/
+.toggle-icon {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.toggle-icon > i.fa-circle.fa-stack-2x {
+  color: white;
+  font-size: 25px !important;
+  line-height: 14px;
+  vertical-align: middle;
+}
+
+.toggle-icon > i.fa-stack-1x {
+  color: $dark-card-body;
+  font-size: 16px !important;
+  line-height: 14px;
+  vertical-align: middle;
+}
+
+/* In light mode: show the moon icon (dark-icon) and hide the sun icon */
+body:not(.dark-mode) .toggle-icon .dark-icon {
+  display: inline-block;
+  color: $light-text; // Dark gray for contrast
+}
+body:not(.dark-mode) .toggle-icon .light-icon {
+  display: none;
+}
+
+/* In dark mode: show the sun icon (light-icon) and hide the moon icon */
+body.dark-mode .toggle-icon .light-icon {
+  display: inline-block;
+  color: white; // White for contrast
+}
+body.dark-mode .toggle-icon .dark-icon {
+  display: none;
+}

@@ -5,7 +5,6 @@
 @import 'post.scss';
 @import 'footer.scss';
 @import 'whatsapp.scss';
-@import 'lazyload.scss';
 @import 'videos.scss';
 @import 'blinkies.scss';
 @import 'overlapping.scss';
@@ -20,6 +19,7 @@
 @import 'darkmode.scss';
 @import 'badges.scss';
 @import 'buttons.scss';
+@import "navbar";
 @import "navbar-accessibility";
 @import "navbar-search";
 @import "navbar-algolia-search";
@@ -27,6 +27,8 @@
 @import "navbar-toggle";
 @import "navbar-theme-dark";
 @import "navbar-mainNav";
-@import "navbar";
+
+
 // @import "shimmer"
 // @import "contact.scss";
+// @import 'lazyload.scss';
