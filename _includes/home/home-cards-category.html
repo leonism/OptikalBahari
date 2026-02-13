@@ -9,10 +9,11 @@
           <a href="{{ post.url | relative_url }}" title="{{ post.title }}" role="button">
             {% if post.background %}
               {% capture card_content %}
-                {% include cloudinary/cloudinary_image.html
+                {% include cloudinary/thumbnail_image.html
                     src=post.background
                     alt=post.title
-                    class="card-img-top img-fluid"
+                    class="card-img-top"
+                    ratio="16x9"
                     loading="lazy" %}
               {% endcapture %}
               {% include cloudinary/image-ratio.html ratio="16x9" content=card_content %}
