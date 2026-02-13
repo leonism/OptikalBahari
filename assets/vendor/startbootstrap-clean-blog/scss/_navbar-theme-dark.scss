@@ -28,8 +28,8 @@
   #mainNav.is-fixed {
     @media (max-width: 991.98px) {
       background-color: rgba($dark-accent, 0.85) !important;
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(30px);
+      -webkit-backdrop-filter: blur(30px);
     }
   }
 

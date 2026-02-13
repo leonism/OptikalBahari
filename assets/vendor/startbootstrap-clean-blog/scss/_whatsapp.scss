@@ -2,10 +2,10 @@
 	position: fixed;
 	width: 60px;
 	height: 60px;
-	bottom: 10px;
-	right: 10px;
-	background-color: #25d366;
-	color: #fff;
+	bottom: 20px;
+	right: 20px;
+	background-color: $green !important;
+	color: $white;
 	border-radius: 50px;
 	text-align: center;
 	font-size: 30px;
@@ -24,7 +24,7 @@
 /* Override hover state */
 .floatingWhatsApp:hover {
   background-color: $green !important; /* Change hover background color */
-  color: #fff !important; /* Ensure text color remains white */
+  color: $white !important; /* Ensure text color remains white */
 }
 
 .whatsApp-button {
