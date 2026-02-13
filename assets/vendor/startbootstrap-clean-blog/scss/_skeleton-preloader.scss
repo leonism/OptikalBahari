@@ -1,0 +1,36 @@
+/* 1. The Aspect Ratio Wrapper */
+.image-ratio-wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f0f0f0; /* Fallback background */
+}
+
+/* Aspect Ratio Utilities */
+.ratio-16x9 { aspect-ratio: 16 / 9; }
+.ratio-4x3  { aspect-ratio: 4 / 3; }
+.ratio-1x1  { aspect-ratio: 1 / 1; }
+
+/* 2. The Skeleton Pulse Animation */
+.loading-skeleton {
+  background: linear-gradient(
+    90deg,
+    #f0f0f0 25%,
+    #e0e0e0 50%,
+    #f0f0f0 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  overflow: hidden;
+}
+
+@keyframes skeleton-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* 3. The Smooth Fade-in */
+.transition-opacity {
+  transition: opacity 0.4s ease-in-out;
+}
