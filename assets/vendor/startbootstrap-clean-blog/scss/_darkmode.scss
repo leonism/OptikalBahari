@@ -1,107 +1,7 @@
-/*
-  =============================================================================
-  SCSS File – Alternative Dark Mode Variant (Based on #141D2B and #1A2332)
-  =============================================================================
-  This file defines styles for both light and dark modes—including global elements
-  (body, navbar, cards, footer, search form, etc.) and the theme toggle switch.
-
-  For dark mode we use an alternative palette inspired by the two colors:
-    • Primary background: #141D2B
-    • Accent: #1A2332
-
-  Complementary colors are chosen for text, links, and buttons to ensure good contrast.
-  The theme toggle uses Font Awesome stacking with a 14px white background circle and
-  12px overlay icons.
-  =============================================================================
-*/
-
-/* ---------------------------------------- */
-/*           Theme Variables              */
-/* ---------------------------------------- */
-
-// Dark Mode Variables:
-$dark-bg: #141d2b; // Primary dark background
-$dark-accent: #1a2332; // Accent color for dark mode components
-$dark-text: #d0d0d0; // Light gray text for good contrast
-$dark-link: #77b1d1; // Muted blue tone for dark mode links
-$dark-button: #111927; // Button background (using accent)
-$dark-card: #1a2332; // Card background color
-$dark-card-body: #162033; // A slightly lighter tone for card bodies
-$dark-footer-bg: #141d2b; // Footer background same as dark background
-$dark-footer-accent: #d0d0d0; // Footer link color in dark mode
-$dark-ripple: #1a2332; // Ripple effect color
-
-/* ---------------------------------------- */
-/*        Light Mode Default Styles         */
-/* ---------------------------------------- */
-
-body {
-  background-color: $light-bg;
-  color: $light-text;
-  transition:
-    background-color 0.3s,
-    color 0.3s;
-
-  a {
-    color: $light-link;
-    &:hover {
-      color: darken($light-link, 10%);
-    }
-  }
-
-  .navbar-light {
-    background-color: $light-bg;
-    .navbar-brand,
-    .navbar-nav .nav-link {
-      color: $light-text;
-    }
-  }
-
-  .card-body {
-    background-color: #fff;
-    color: $light-text;
-  }
-
-  footer {
-    background-color: #f1f1f1;
-    color: $light-text;
-    a {
-      color: $light-link;
-      &:hover {
-        color: darken($light-link, 10%);
-      }
-    }
-  }
-
-  // Global Search Icon Styling
-  .navbar .nav-item form {
-    position: relative;
-    width: 200px;
-  }
-  .navbar .nav-item .form-control.custom-search {
-    padding-right: 2.5rem !important;
-    width: 100%;
-  }
-  .navbar .nav-item .search-icon-container {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none;
-  }
-  .navbar .nav-item .fas.fa-search.light-icon {
-    display: inline;
-    color: $dark-accent;
-  }
-  .navbar .nav-item .fas.fa-search.dark-icon {
-    display: none;
-    color: $dark-accent;
-  }
-}
-
 /* ---------------------------------------- */
 /*         Dark Mode Overrides              */
 /* ---------------------------------------- */
+
 body.dark-mode {
   background-color: $dark-bg;
   color: $dark-text;
@@ -496,4 +396,3 @@ body {
   margin: 0;
   padding: 0;
 }
-
