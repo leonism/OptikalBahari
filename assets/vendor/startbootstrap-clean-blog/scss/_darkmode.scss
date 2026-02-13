@@ -116,24 +116,6 @@ body.dark-mode {
     }
   }
 
-  .floatingWhatsApp {
-    &.intro-banner-vdo-play-btn {
-      background-color: $dark-button;
-      color: $dark-text;
-      &:hover {
-        background-color: lighten($dark-button, 10%);
-      }
-    }
-  }
-
-  .ripple.greenBg {
-    background-color: $dark-ripple;
-    color: $dark-text;
-    &:hover {
-      background-color: lighten($dark-ripple, 10%);
-    }
-  }
-
   footer {
     background: $dark-footer-bg;
     color: $dark-text;

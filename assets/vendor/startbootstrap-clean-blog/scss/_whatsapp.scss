@@ -17,25 +17,110 @@
 	margin-top: 10px;
 }
 
+.greenBg {
+  background-color: $green !important;
+}
+
 /* Override hover state */
 .floatingWhatsApp:hover {
-  background-color: #25d366 !important; /* Change hover background color */
+  background-color: $green !important; /* Change hover background color */
   color: #fff !important; /* Ensure text color remains white */
 }
 
-.my-float {
-  margin-top: 10px;
+.whatsApp-button {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  position: relative; /* Ensure the ripple spans are positioned relative to this container */
+}
+
+.whatsApp-button i {
+  font-size: 30px;
+}
+
+.whatsApp-button .ripple {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+  margin: -80px 0 0 -80px;
+  border-radius: 100px;
+  -webkit-animation: ripple 1.8s infinite;
+  animation: ripple 1.8s normal;
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes ripple {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.whatsApp-button .ripple:nth-child(2) {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+
+.whatsApp-button .ripple:nth-child(3) {
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+}
+
+/* Add hover effect */
+.whatsApp-button:hover .ripple {
+  -webkit-animation: ripple 1.8s infinite;
+  animation: ripple 1.8s infinite;
+}
+
+.whatsApp-button:hover .ripple:nth-child(2) {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+
+.whatsApp-button:hover .ripple:nth-child(3) {
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
 }
 
 
 // Dark Mode Button Overrides
 [data-bs-theme="dark"] body {
-  // Ripple greenBg (Moved from _navbar.scss dump)
   .ripple.greenBg {
     background-color: $dark-ripple;
     color: $dark-text;
     &:hover {
       background-color: lighten($dark-ripple, 10%);
+    }
+  }
+	.floatingWhatsApp {
+    &.whatsApp-button {
+      background-color: $dark-button;
+      color: $dark-text;
+      &:hover {
+        background-color: lighten($dark-button, 10%);
+      }
     }
   }
 }
