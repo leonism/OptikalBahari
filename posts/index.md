@@ -26,19 +26,12 @@ pagination:
                 class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
                 <div class="card shadow p-0 bg-white rounded hover-zoomin">
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                        {% if post.background contains 'http' %}
-                        <img
-                            itemprop="image"
-                            src="{{ post.background }}"
+                        {%- include cloudinary/thumbnail_image.html
+                            src=post.background
+                            alt=post.title
                             class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
-                        {% else %}
-                        <img
-                            itemprop="image"
-                            src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                            class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
-                        {% endif %}
+                            ratio="ratio-16x9"
+                        -%}
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">
@@ -76,19 +69,12 @@ pagination:
                 class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
                 <div class="card shadow p-0 bg-white rounded hover-zoomin">
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                        {% if post.background contains 'http' %}
-                        <img
-                            itemprop="image"
-                            src="{{ post.background }}"
+                        {%- include cloudinary/thumbnail_image.html
+                            src=post.background
+                            alt=post.title
                             class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
-                        {% else %}
-                        <img
-                            itemprop="image"
-                            src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                            class="card-img-top img-fluid"
-                            alt="{{ post.title }}" />
-                        {% endif %}
+                            ratio="ratio-16x9"
+                        -%}
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
@@ -123,21 +109,12 @@ pagination:
                 class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
                 <div class="card shadow p-0 bg-white rounded hover-zoomin">
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                        {% if post.background contains 'http' %}
-                            <img
-                                itemprop="image"
-                                imgsrc="{{ post.background }}"
-                                src="{{ post.background }}"
-                                class="card-img-top img-fluid"
-                                alt="{{ post.title }}" />
-                            {% else %}
-                            <img
-                                itemprop="image"
-                                imgsrc="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                                src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}"
-                                class="card-img-top img-fluid"
-                                alt="{{ post.title }}" />
-                        {% endif %}
+                        {%- include cloudinary/thumbnail_image.html
+                            src=post.background
+                            alt=post.title
+                            class="card-img-top img-fluid"
+                            ratio="ratio-16x9"
+                        -%}
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">

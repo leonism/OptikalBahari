@@ -8,15 +8,12 @@
         <div class="card shadow p-0 bg-white rounded hover-zoomin">
           <a href="{{ post.url | relative_url }}" title="{{ post.title }}" role="button">
             {% if post.background %}
-              {% capture card_content %}
                 {% include cloudinary/thumbnail_image.html
                     src=post.background
                     alt=post.title
                     class="card-img-top"
                     ratio="16x9"
                     loading="lazy" %}
-              {% endcapture %}
-              {% include cloudinary/image-ratio.html ratio="16x9" content=card_content %}
             {% endif %}
           </a>
           <div class="card-body">

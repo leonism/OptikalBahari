@@ -30,6 +30,37 @@
   100% { background-position: -200% 0; }
 }
 
+/* The container that holds the blur effect */
+.blur-up-container {
+  position: relative;
+  overflow: hidden;
+  background-color: #f0f0f0; /* The base color before anything loads */
+}
+
+/* The initial blurry state of the image */
+.blur-up-container img.loading {
+  filter: blur(20px);
+  transform: scale(1.1); /* Prevents white "edges" caused by the blur */
+}
+
+/* The state after the image loads */
+.blur-up-container img.loaded {
+  filter: blur(0);
+  transform: scale(1);
+  transition: filter 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* Optional: Overlay a very tiny low-res image if your component supports it */
+.blur-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
 /* 3. The Smooth Fade-in */
 .transition-opacity {
   transition: opacity 0.4s ease-in-out;
