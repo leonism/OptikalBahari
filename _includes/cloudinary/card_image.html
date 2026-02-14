@@ -1,22 +1,27 @@
 {%- comment -%}
-  UNIVERSAL CLOUDINARY COMPONENT - SKELETON ENHANCED
+  UNIVERSAL CLOUDINARY COMPONENT - SKELETON & BLUR-UP ENHANCED
 {%- endcomment -%}
 
 {%- if include.src -%}
   {%- assign raw_src = include.src | strip -%}
   {%- assign first_char = raw_src | slice: 0 -%}
+
   {%- if first_char == "/" -%}
     {%- assign clean_src = raw_src | slice: 1, raw_src.size -%}
   {%- else -%}
     {%- assign clean_src = raw_src -%}
   {%- endif -%}
+
   {%- assign image_alt = include.alt | default: include.title | default: site.title | escape -%}
   {%- assign image_class = include.class | default: "card-img-top" -%}
   {%- assign image_ratio = include.ratio | default: "ratio-16x9" -%}
 
   {%- capture ai_params -%}c_fill,g_auto:subject,q_auto:good,e_sharpen:100{%- endcapture -%}
 
-  <div class="image-ratio-wrapper {{ image_ratio }} loading-skeleton">
+  {%- comment -%}
+    Added 'blur-up-container' and 'dark-mode-dim' for SCSS targeting
+  {%- endcomment -%}
+  <div class="image-ratio-wrapper {{ image_ratio }} loading-skeleton blur-up-container dark-mode-dim">
     <picture>
       <source
         srcset="{{ clean_src | cloudinary_url: ai_params | append: ',w_480,h_270' }} 480w,
@@ -26,13 +31,14 @@
       <img
         src="{{ clean_src | cloudinary_url: ai_params | append: ',w_768,h_432' }}"
         alt="{{ image_alt }}"
-        class="{{ image_class }} transition-opacity"
-        style="object-fit: cover; object-position: center; width: 100%; height: 100%; opacity: 0;"
+        {% comment %} Added 'loading' class for the blur-up CSS logic {% endcomment %}
+        class="{{ image_class }} blur-target transition-opacity loading"
+        style="object-fit: cover; object-position: center; width: 100%; height: 100%; opacity: 50;"
         loading="lazy"
         decoding="async"
         width="768"
         height="432"
-        onload="this.style.opacity='1'; this.parentElement.classList.remove('loading-skeleton');"
+        onload="this.style.opacity='1'; this.classList.remove('loading'); this.classList.add('loaded'); this.parentElement.classList.remove('loading-skeleton');"
       />
     </picture>
   </div>

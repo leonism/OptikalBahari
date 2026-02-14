@@ -55,8 +55,11 @@ $danger: $red !default;
 $light: $gray-100 !default;
 $dark: $gray-800 !default;
 
-//Enables predefined border-radius styles on various components.
+// Enables predefined border-radius styles on various components.
 $enable-rounded: true;
 $enable-responsive-font-sizes: true;
 $enable-gradients: true;
 $enable-shadows: true;
+
+// Images goes dimming off, during dark mode
+$img-dark-dim: brightness(50%);

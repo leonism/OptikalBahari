@@ -223,7 +223,7 @@ body.dark-mode {
   }
 
   img {
-    filter: brightness(50%);
+    filter: brightness(80%);
   }
 
   // In dark mode, show the dark search icon and hide the light one.
@@ -247,7 +247,7 @@ body.dark-mode {
   // overide the .card .bg-white for the dark mode class in the hardcoded html
   .card.bg-white {
     background-color: $dark-bg !important; /* Dark background color */
-    color: #ffffff; /* Adjust text color for better contrast */
+    color: $white; /* Adjust text color for better contrast */
   }
 
   // Theme Toggle Icon Overrides
@@ -276,6 +276,16 @@ body.dark-mode {
 }
 
 // Global Image Dark Mode Dimming
-[data-bs-theme="dark"] body img {
-  filter: brightness(80%); // Adjusted from 50% to 80% for better visibility
+[data-bs-theme="dark"] body {
+  img {
+    filter: $img-dark-dim;
+  }
+
+  .image-ratio-wrapper,
+  .blur-up-container {
+    filter: $img-dark-dim;
+    img {
+      filter: none !important;
+    }
+  }
 }
