@@ -13,8 +13,9 @@ tags: [tips, kacamata, lensa]
 background: /assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-00.webp
 comments: true
 ---
+
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-01.webp' alt='kacamata-k-ion' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -57,7 +58,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-02.webp' alt='kacamata-k-ion' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
             <h3 class="card-title">

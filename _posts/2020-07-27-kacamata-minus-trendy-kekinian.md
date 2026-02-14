@@ -16,7 +16,7 @@ comments: true
 ---
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-11.webp' alt='Kebutuhan Kacamata Minus' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -43,7 +43,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-12.webp' alt='Memilih Kacamata Minus Sesuai Bentuk Wajah' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -75,7 +75,7 @@ comments: true
 {% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-10.webp' alt='Berbagai Material Kacamata Minus yang Wajib Kamu Ketahui' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">

@@ -16,7 +16,7 @@ comments: false
 ---
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
@@ -35,7 +35,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
             <div class="card-body">
                 <h3 class="card-title">
@@ -60,7 +60,7 @@ comments: false
 {% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
@@ -79,7 +79,7 @@ comments: false
 <section id="posts-category1">
 	<div class="card-deckrow mb-3 card-deck">
 		{% for post in site.categories.Lensa limit : 3 %}
-		<div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+		<div class="card shadow p-0 mb-3  rounded hover-zoomin">
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 				title="{{ post.title }}">
 				{% if page.background %}
@@ -111,7 +111,7 @@ comments: false
 </section>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
 		  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
             <div class="card-body">
                 <h3 class="card-title">
@@ -131,7 +131,7 @@ comments: false
 <section id="posts-category1">
 	<div class="card-deckrow mb-3 card-deck">
 		{% for post in site.categories.Lensa limit : 3 %}
-		<div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+		<div class="card shadow p-0 mb-3  rounded hover-zoomin">
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 				title="{{ post.title }}">
 				{% if page.background %}

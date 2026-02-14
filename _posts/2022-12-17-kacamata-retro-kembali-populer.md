@@ -14,8 +14,9 @@ tags: [tips, kacamata, lensa]
 background: /assets/img/posts/beach-retro-girls/beach-retro-girls-00.webp
 comments: true
 ---
+
 <div class="card-deck mb-3">
-    <div class="card shadow p-3 mb-5 bg-white rounded">
+    <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-10.webp' alt='Kacamata Reto dan vintage' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">
@@ -54,7 +55,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-    <div class="card shadow p-3 mb-5 bg-white rounded">
+    <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-012.webp' alt='Kacamata Reto dan vintage' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">
@@ -90,7 +91,7 @@ comments: true
 {% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
-    <div class="card shadow p-3 mb-5 bg-white rounded">
+    <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp' alt='Padukan Kacamata Retro Dengan Gaya Anda' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">

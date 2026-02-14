@@ -13,8 +13,9 @@ tags: [lensa, produk]
 background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-13.webp
 comments: true
 ---
+
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-16.webp' alt='Optikal Bahari: Solusi Kacamata Anti Radiasi Blue Ray' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -48,7 +49,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp' alt='Manfaat Kacamata Anti Radiasi Blue Ray dari Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -135,7 +136,7 @@ comments: true
 {% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts//kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp' alt='anti-blueray-uv-protection' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Keutamaan Kacamata Anti Blue-ray</h3>

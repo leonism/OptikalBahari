@@ -14,7 +14,7 @@ comments: true
 ---
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-32.webp' alt='Apa Itu Lensa Photochromic?' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -53,7 +53,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-29.webp' alt='Bagaimana Lensa Photochromic Bekerja?' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -100,7 +100,7 @@ comments: true
 {% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-25.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Keuntungan Menggunakan Lensa Photochromic</h3>
@@ -150,7 +150,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-24.webp' alt='Tips Memilih Lensa Photochromic yang Tepat' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Tips Memilih Lensa Photochromic yang Tepat</h3>
@@ -198,7 +198,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp' alt='Perbedaan Lensa Photochromic dengan Lensa Biasa' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -252,7 +252,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-17.webp' alt='Apakah Lensa Photochromic Cocok untuk Anda?' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Apakah Lensa Photochromic Cocok untuk Anda?</h3>
@@ -300,7 +300,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp' alt='Cara Merawat Lensa Photochromic dengan Baik' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Cara Merawat Lensa Photochromic dengan Baik</h3>
@@ -347,7 +347,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-20.webp' alt='Cara Merawat Lensa Photochromic dengan Baik' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -398,7 +398,7 @@ comments: true
 {% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-18.webp' alt='Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik untuk Gaya Anda?' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">

@@ -24,7 +24,7 @@ pagination:
             {% for post in posts %}
             <div
                 class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
-                <div class="card shadow p-0 bg-white rounded hover-zoomin">
+                <div class="card shadow p-0 rounded hover-zoomin">
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
                         {%- include cloudinary/thumbnail_image.html
                             src=post.background
@@ -67,7 +67,7 @@ pagination:
             {% for post in posts %}
             <div
                 class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
-                <div class="card shadow p-0 bg-white rounded hover-zoomin">
+                <div class="card shadow p-0 rounded hover-zoomin">
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
                         {%- include cloudinary/thumbnail_image.html
                             src=post.background
@@ -107,7 +107,7 @@ pagination:
             {% for post in posts %}
             <div
                 class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
-                <div class="card shadow p-0 bg-white rounded hover-zoomin">
+                <div class="card shadow p-0 rounded hover-zoomin">
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
                         {%- include cloudinary/thumbnail_image.html
                             src=post.background

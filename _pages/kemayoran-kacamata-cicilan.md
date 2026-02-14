@@ -20,7 +20,7 @@ comments: false
 <!-- @format -->
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
   {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Kacamata Yang Bisa Di Cicil</h3>
@@ -32,7 +32,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
 		  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
@@ -47,7 +47,7 @@ comments: false
 <section id="posts-category">
     <div class="card-deck">
 		{% for post in site.categories.Lensa limit : 3 %}
-        <div class="card shadow p-3 mb-5 bg-white rounded">
+        <div class="card shadow p-3 mb-5 rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
                     {% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top' %}</a>

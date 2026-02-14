@@ -16,7 +16,7 @@ comments: true
 ---
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-01.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Panduan Memilih Kacamata untuk Wajah Bulat</h3>
@@ -53,7 +53,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-02.webp' alt='Kacamata Yang Cocok Untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -143,7 +143,7 @@ comments: true
 {% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-03.webp' alt='Bagaimana Lensa Photochromic Bekerja?' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -180,7 +180,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-04.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -215,7 +215,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-05.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Temukan Kacamata Idealmu di Optikal Bahari!</h3>
@@ -251,7 +251,7 @@ comments: true
 {% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-06.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Kunjungi Optikal Bahari</h3>

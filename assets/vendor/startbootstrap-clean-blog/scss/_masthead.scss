@@ -18,37 +18,27 @@
   }
 }
 
-// Masthead Background Image Dimming (New Addition)
-.masthead {
-  position: relative;
-  z-index: 1;
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0);
-    transition: background 0.3s ease;
-    z-index: -1;
-  }
+//   // Masthead Background Image Dimming (New Addition)
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: rgba(0, 0, 0, 0);
+//     transition: background 0.3s ease;
+//     z-index: -1;
+//   }
+// }
 
-  // Masthead Dark Mode Overlay (New Addition)
+body.dark-mode {
   .masthead::before {
     background: rgba(0, 0, 0, 0.8); // 80% dim overlay
   }
-
-  a {
-    color: $dark-link;
-    &:hover {
-      color: lighten($dark-link, 15%);
-    }
-  }
 }
 
-/** @format */
-// Styling for the masthead
+/** @format */// Styling for the masthead
 header.masthead {
   // TIP: Background images are set within the HTML using inline CSS!
   margin-bottom: 30px;

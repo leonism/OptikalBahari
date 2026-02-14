@@ -14,8 +14,9 @@ background: /assets/img/posts/028.webp
 permalink: /apa-penyebab-mata-minus/
 comments: false
 ---
+
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp' alt='Apa Yang Dimaksud Dengan Mata Minus?' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Apa Yang Dimaksud Dengan Mata Minus?</h3>
@@ -27,7 +28,7 @@ comments: false
 
 {% include home/home-cards-main.html %}
 
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp' alt='Penyebab Mata Minus' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Faktor Penyebab Mata Minus?</h3>
@@ -51,7 +52,7 @@ comments: false
 
 {% include home/home-cards-benefit.html %}
 
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
       {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp' alt='Gejala Umum Mata Minus' ratio='16x9' class='card-img-top' %}
       <div class="card-body">
         <h3 class="card-title">Gejala Umum Mata Minus</h3>

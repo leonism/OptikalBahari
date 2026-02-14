@@ -26,3 +26,13 @@
     }
   }
 }
+
+body.dark-mode {
+  .navbar .nav-item .fas.fa-search.light-icon {
+    display: none;
+  }
+  .navbar .nav-item .fas.fa-search.dark-icon {
+    display: inline;
+    color: $dark-text;
+  }
+}

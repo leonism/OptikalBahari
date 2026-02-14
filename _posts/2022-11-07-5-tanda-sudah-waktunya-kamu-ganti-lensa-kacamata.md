@@ -14,8 +14,9 @@ tags: [tips, kacamata, lensa]
 background: /assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-09.webp
 comments: true
 ---
+
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-10.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <p class="card-text text-start">
@@ -53,7 +54,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-    <div class="card shadow p-3 mb-5 bg-white rounded">
+    <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-11.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
             <div class="card-body">
                 <h5 class="card-title">

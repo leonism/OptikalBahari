@@ -95,3 +95,43 @@ img::-moz-selection {
   color: $white;
   background: transparent;
 }
+
+// Global Body Dark Mode
+body.dark-mode {
+  background-color: $dark-bg;
+  color: $dark-text;
+
+  a {
+    color: $dark-link;
+    &:hover {
+      color: lighten($dark-link, 15%);
+    }
+  }
+
+  img {
+    filter: brightness(80%);
+  }
+}
+
+// Global Image Dark Mode Dimming
+body.dark-mode,
+[data-bs-theme="dark"] body {
+  img {
+    filter: $img-dark-dim;
+  }
+
+  .image-ratio-wrapper,
+  .blur-up-container {
+    filter: $img-dark-dim;
+    img {
+      filter: none !important;
+    }
+  }
+
+  a {
+    color: $dark-link;
+    &:hover {
+      color: lighten($dark-link, 15%);
+    }
+  }
+}

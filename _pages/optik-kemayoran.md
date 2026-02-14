@@ -18,7 +18,8 @@ background: /assets/img/posts/045.webp
 permalink: /optik-kemayoran/
 comments: false
 ---
-<div class="card shadow p-3 bg-white mb-5">
+
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-cicilan/kacamata-cicilan.webp' alt='kacamata cicilan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -43,7 +44,7 @@ comments: false
 
 {% include home/home-cards-main.html %}
 
-<div class="card shadow p-3 bg-white mb-5">
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/bg-about.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -67,7 +68,7 @@ comments: false
 
 {% include home/home-cards-benefit.html %}
 
-<div class="card shadow p-3 bg-white mb-5">
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">

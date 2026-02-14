@@ -16,7 +16,7 @@ comments: false
 ---
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.webp' alt='Periksa Mata Gratis Terdekat' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -64,7 +64,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.webp' alt='Periksa Mata Cepat & Akurat' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -88,7 +88,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.webp' alt='Proses Pertama: Menggunakan Autorefractometer' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -114,7 +114,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.webp' alt='Proses Kedua: Menggunakan Alat Phoropter' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -142,7 +142,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">

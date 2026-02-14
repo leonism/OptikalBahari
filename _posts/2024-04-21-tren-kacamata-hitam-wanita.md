@@ -15,7 +15,7 @@ comments: true
 ---
 
 <div class="card-deck mb-3">
-    <div class="card shadow p-3 mb-5 bg-white rounded">
+    <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp' alt='Trendsetter Kacamata Hitam Wanita: Kenali Gaya yang Lagi Hits' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
@@ -53,7 +53,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-    <div class="card shadow p-3 mb-5 bg-white rounded">
+    <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-03.webp' alt='Kacamata Hitam Wanita: Solusi Gaya yang Menawan di Segala Kondisi' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
@@ -87,7 +87,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-    <div class="card shadow p-3 mb-5 bg-white rounded">
+    <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-04.webp' alt='Kacamata Hitam Wanita:
         Solusi Gaya yang Menawan di Segala Kondisi' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
@@ -124,7 +124,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-    <div class="card shadow p-3 mb-5 bg-white rounded">
+    <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-05.webp' alt='Cara Merawat Kacamata
         Wanita agar Tetap Awet dan Tampak Baru' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
@@ -159,7 +159,7 @@ comments: true
 {% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
-    <div class="card shadow p-3 mb-5 bg-white rounded">
+    <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-06.webp' alt='Temukan Kacamata Wanita Impian Anda di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">

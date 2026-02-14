@@ -16,7 +16,7 @@ comments: true
 ---
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp' alt='Apa itu Lensa Photochromic?' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Apa itu Lensa Photochromic?</h3>
@@ -53,7 +53,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-037.webp' alt='Manfaat Kacamata & Lensa Photochromic' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Manfaat Kacamata & Lensa Photochromic</h3>
@@ -141,7 +141,7 @@ comments: true
 {% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-027.webp' alt='Bagaimana Lensa Photochromic Bekerja?' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Bagaimana Lensa Photochromic Bekerja?</h3>
@@ -184,7 +184,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-028.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Keuntungan Menggunakan Lensa Photochromic</h3>
@@ -245,7 +245,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-029.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -295,7 +295,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-030.webp' alt='Mengapa Lensa Photochromic dari Optikal Bahari adalah Pilihan Terbaik untuk Gaya Anda?' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -347,7 +347,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-031.webp' alt='Menemukan Gayamu dengan Lensa Photochromic dari Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -401,7 +401,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-036.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -454,7 +454,7 @@ comments: true
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-033.webp' alt='Temukan Kacamata Paling Tren dan Eksklusif di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -506,7 +506,7 @@ comments: true
 {% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-034.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Kunjungi Optikal Bahari</h3>

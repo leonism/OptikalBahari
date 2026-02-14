@@ -16,7 +16,7 @@ comments: false
 ---
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
@@ -50,7 +50,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
 		{% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp' alt='Kenali Gangguan Mata Lebih Dini' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
@@ -88,7 +88,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
 		{% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp' alt='Segera Periksa Mata Anda' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
@@ -126,7 +126,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
 		  {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
@@ -144,7 +144,7 @@ comments: false
 <section id="posts-category">
     <div class="card-deck">
 		{% for post in site.categories.Lensa limit : 3 %}
-        <div class="card shadow p-3 mb-5 bg-white rounded">
+        <div class="card shadow p-3 mb-5 rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
                     {% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top' %}

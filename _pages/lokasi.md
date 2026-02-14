@@ -11,7 +11,7 @@ permalink: /lokasi/
 comments: false
 ---
 
-<div class="card shadow p-3 mb-5 bg-white rounded">
+<div class="card shadow p-3 mb-5 rounded">
   {% include cloudinary/card_image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-07.webp' alt='kemayoran tempoe doeloe' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">

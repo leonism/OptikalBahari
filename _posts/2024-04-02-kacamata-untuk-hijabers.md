@@ -16,7 +16,7 @@ comments: true
 ---
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-02.webp' alt='Kacamata untuk Hijabers: Solusi Fashionable dan Fungsional' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -54,7 +54,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-03.webp' alt='Trendy dan Timeless: Kacamata Hijab yang Cocok untuk Segala Acara' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -89,7 +89,7 @@ comments: true
 {% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-04.webp' alt='Kacamata Hijabers: Tips Berbelanja yang Bijak dan Menguntungkan' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -120,7 +120,7 @@ comments: true
 {% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-05.webp' alt='Temukan Kacamata Hijab yang Cocok di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">

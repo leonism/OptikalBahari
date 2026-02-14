@@ -1,10 +1,22 @@
 // Cards
+.card {
+  .card-body {
+    background-color: $light-card;
+    color: $light-text;
+  }
+  .card-deck {
+    background-color: $light-bg;
+    color: $light-text;
+  }
+}
+
+body.dark-mode {
   .card {
-    background-color: $dark-accent;
+    background-color: $dark-bg;
     color: $dark-text;
     border-color: lighten($dark-accent, 5%);
     .card-body {
-      background-color: $dark-card-body;
+      background-color: $dark-bg;
       color: $dark-text;
       h1,
       h2,
@@ -24,13 +36,17 @@
         }
       }
     }
+    .card-deck {
+      background-color: $dark-bg;
+      color: $light-text;
+    }
     .card-footer {
       background-color: $dark-accent;
       color: $dark-text;
       border-top: 1px solid lighten($dark-accent, 10%);
+      .text-muted {
+        color: rgba($dark-text, 0.8) !important;
+      }
     }
-    .card-body {
-    background-color: #f8f9fa;
-    color: $light-text;
   }
 }

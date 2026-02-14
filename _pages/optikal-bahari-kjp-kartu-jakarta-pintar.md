@@ -16,7 +16,7 @@ permalink: /optikal-bahari-kjp-kartu-jakarta-pintar/
 comments: false
 ---
 
-<div class="card shadow p-3 bg-white mb-5">
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-01.webp' alt='Program Kartu Jakarta Pintar (KJP)' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
     <h3 class="card-title">
@@ -36,7 +36,7 @@ comments: false
 
 {% include home/home-cards-main.html %}
 
-<div class="card shadow p-3 bg-white mb-5">
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/optikal-bahari-kjp/kjp-optikalbahari-02.webp' alt='Program Kartu Jakarta Pintar (KJP)' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -55,7 +55,7 @@ comments: false
 
 {% include home/home-cards-benefit.html %}
 
-<div class="card shadow p-3 bg-white mb-5">
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/035.webp' alt='Program Kartu Jakarta Pintar (KJP)' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">

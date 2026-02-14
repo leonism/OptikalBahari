@@ -15,8 +15,9 @@ background: /assets/img/posts/beach-retro-girls/beach-retro-girls-022.webp
 permalink: /beli-kacamata/
 comments: false
 ---
+
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-019.webp' alt='Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
@@ -35,7 +36,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-016.webp' alt='Periksa Mata & Service Gratis' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
@@ -60,7 +61,7 @@ comments: false
 {% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src="assets/img/posts/beach-retro-girls/beach-retro-girls-011.webp"
    alt="Kacamata Cicilan 0%"
    ratio="16x9"
@@ -82,7 +83,7 @@ comments: false
 {% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
-    <div class="card shadow p-3 mb-5 bg-white rounded">
+    <div class="card shadow p-3 mb-5 rounded">
 	    	{% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp' alt='Kunjungi Optikal Bahari Sekarang' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">

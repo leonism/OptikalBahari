@@ -16,7 +16,8 @@ background: /assets/img/posts/whitesand-girls/whitesand-girls-00.webp
 permalink: /kacamata-wanita/
 comments: false
 ---
-<div class="card shadow p-3 bg-white mb-5">
+
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-01.webp' alt='Periksakan Mata Anda Secara Rutin' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -36,7 +37,7 @@ comments: false
 
 {% include home/home-cards-main.html %}
 
-<div class="card shadow p-3 bg-white mb-5">
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-02.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -54,7 +55,7 @@ comments: false
   </div>
 </div>
 
-<div class="card shadow p-3 bg-white mb-5">
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-03.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -74,7 +75,7 @@ comments: false
 
 {% include home/home-cards-glasses.html %}
 
-<div class="card shadow p-3 bg-white mb-5">
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-04.webp' alt='Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -94,7 +95,7 @@ comments: false
 
 {% include home/home-cards-benefit.html %}
 
-<div class="card shadow p-3 bg-white mb-5">
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-05.webp' alt='Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">

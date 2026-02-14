@@ -14,8 +14,9 @@ tags: [layanan, optikal]
 background: /assets/img/posts/005.webp
 comments: true
 ---
+
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     <div class="video-responsive">
       <iframe
         width="560"
@@ -47,7 +48,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     <div class="card-body">
       <h3 class="card-title">
         Penerapan Protokol Kesehatan

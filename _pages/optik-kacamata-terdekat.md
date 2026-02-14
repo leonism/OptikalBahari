@@ -16,7 +16,8 @@ background: /assets/img/posts/kpop-female-03/kpop-female-00.webp
 permalink: /optik-kacamata-terdekat/
 comments: false
 ---
-<div class="card shadow p-3 bg-white mb-5">
+
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kpop-female-03/kpop-female-01.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -35,7 +36,7 @@ comments: false
 
 {% include home/home-cards-main.html %}
 
-<div class="card shadow p-3 bg-white mb-5">
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kpop-female-03/kpop-female-02.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan</h3>
@@ -46,7 +47,7 @@ comments: false
   </div>
 </div>
 
-<div class="card shadow p-3 bg-white mb-5">
+<div class="card shadow p-3  mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kpop-female-03/kpop-female-03.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini</h3>

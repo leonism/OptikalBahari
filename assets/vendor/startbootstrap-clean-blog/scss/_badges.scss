@@ -19,3 +19,10 @@ body.dark-mode .badge.badge-pill.badge-danger.light-icon {
 body.dark-mode .badge.badge-pill.badge-danger.dark-icon {
   display: inline;
 }
+
+body.dark-mode {
+  .badge-danger {
+    background-color: #9e2a2f;
+    color: $dark-text;
+  }
+}

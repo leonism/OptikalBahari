@@ -2,7 +2,7 @@
   <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
     {% for post in site.categories.Lensa limit : 3 %}
     <div class="col">
-      <div class="card h-100 shadow p-0 bg-white rounded hover-zoomin">
+      <div class="card h-100 shadow p-0 rounded hover-zoomin">
         <a
           href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
           title="{{ post.title }}"
@@ -17,7 +17,7 @@
             loading="lazy"
             decoding="async"
             width="400"
-            height="250"  
+            height="250"
           />
           {% endcapture %}
           {% include cloudinary/image-ratio.html ratio="16x9" content=card_content %}
@@ -56,7 +56,7 @@
   <div class="row row-cols-1 row-cols-md-3 g-4 mb-2">
     {% for post in site.categories.Info limit : 3 %}
     <div class="col">
-      <div class="card h-100 shadow p-0 bg-white rounded hover-zoomin">
+      <div class="card h-100 shadow p-0 rounded hover-zoomin">
         <a
           href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
           title="{{ post.title }}"
@@ -106,7 +106,7 @@
   <div class="row row-cols-1 row-cols-md-3 g-4 mb-2">
     {% for post in site.categories.Trend limit : 3 %}
     <div class="col">
-      <div class="card h-100 shadow p-0 bg-white rounded hover-zoomin">
+      <div class="card h-100 shadow p-0 rounded hover-zoomin">
       <a
         href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
         title="{{ post.title }}"

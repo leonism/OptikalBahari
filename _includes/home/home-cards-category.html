@@ -5,7 +5,7 @@
     <div class="row">
       {% for post in site.categories[category] limit: 3 %}
       <div class="col-12 col-md-{% if forloop.index == 1 %}12{% else %}6{% endif %} col-lg-4 mb-5">
-        <div class="card shadow p-0 bg-white rounded hover-zoomin">
+        <div class="card shadow p-0 rounded hover-zoomin">
           <a href="{{ post.url | relative_url }}" title="{{ post.title }}" role="button">
             {% if post.background %}
                 {% include cloudinary/thumbnail_image.html

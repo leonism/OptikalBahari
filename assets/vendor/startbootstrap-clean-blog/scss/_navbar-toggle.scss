@@ -28,3 +28,19 @@
     }
   }
 }
+
+body.dark-mode {
+  // Theme Toggle Icon Overrides
+  .toggle-icon {
+    .fa-circle.fa-stack-2x {
+      // Lightened background circle for contrast against the dark navbar
+      color: lighten($dark-accent, 15%);
+    }
+    .light-icon {
+      color: $warning; // Sun icon
+    }
+    .dark-icon {
+      color: $dark-text; // Moon icon
+    }
+  }
+}

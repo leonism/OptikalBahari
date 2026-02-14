@@ -14,8 +14,9 @@ tags: [Lensa]
 background: /assets/img/posts/kacamata-stylish/kacamata-stylish-00.webp
 comments: true
 ---
+
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-stylish/kacamata-stylish-01.webp' alt='kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Tren Kacamata Kekinian</h3>
@@ -47,7 +48,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-stylish/kacamata-stylish-02.webp' alt='kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Model Trendy Kacamata Terbaru</h3>
@@ -80,7 +81,7 @@ comments: true
 {% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/kacamata-stylish/kacamata-stylish-03.webp' alt='kacamata-trend-stylish-kekinian-kacamata-trend-stylish-kekinian' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Merawat Kacamata Kekinian dengan Benar</h3>

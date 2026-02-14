@@ -42,8 +42,8 @@
   }
 }
 
-// Dark Mode Navbar Overrides
-[data-bs-theme="dark"] body {
+body.dark-mode {
+  // Dark Mode Navbar Overrides
   .navbar {
     background-color: $dark-accent !important;
     .navbar-brand,
@@ -61,17 +61,8 @@
       }
     }
     .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23d1d1d1' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23D0D0D0' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
-  }
-
-  // Search Icon Overrides
-  .navbar-search-area .nav-item .fas.fa-search.light-icon {
-    display: none;
-  }
-  .navbar-search-area .nav-item .fas.fa-search.dark-icon {
-    display: inline;
-    color: $dark-text;
   }
 
   // Toggle switch and icons (Navbar scoped)
@@ -105,7 +96,7 @@
   }
 }
 
-[data-bs-theme="dark"] body .form-check-label {
+body.dark-mode .form-check-label {
   .light-icon {
     display: none;
   }

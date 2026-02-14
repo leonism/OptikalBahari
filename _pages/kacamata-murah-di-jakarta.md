@@ -17,7 +17,7 @@ comments: false
 ---
 
 <div class="card-deck mb-3">
-	<div class="card shadow p-3 mb-5 bg-white rounded">
+	<div class="card shadow p-3 mb-5 rounded">
 		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Kacamata Murah Jakarta Berkualitas Tanpa Ribet' ratio='16x9' class='card-img-top' %}
 		<div class="card-body">
 			<h3 class="card-title">Kacamata Murah Berkualitas Tanpa Ribet Di Jakarta</h3>
@@ -35,7 +35,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-	<div class="card shadow p-3 mb-5 bg-white rounded">
+	<div class="card shadow p-3 mb-5 rounded">
 		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='Pilihan Frame Trendy untuk Gen Z & Milenial' ratio='16x9' class='card-img-top' %}
 		<div class="card-body">
 			<h3 class="card-title">Pilihan Frame Trendy untuk Gen Z & Milenial</h3>
@@ -54,7 +54,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-	<div class="card shadow p-3 mb-5 bg-white rounded">
+	<div class="card shadow p-3 mb-5 rounded">
 		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-7.webp' alt='Pemeriksaan Mata Gratis & Teknologi Modern' ratio='16x9' class='card-img-top' %}
 		<div class="card-body">
 			<h3 class="card-title">Pemeriksaan Mata Gratis & Teknologi Modern</h3>
@@ -72,7 +72,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-	<div class="card shadow p-3 mb-5 bg-white rounded">
+	<div class="card shadow p-3 mb-5 rounded">
 		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8.webp' alt='Kacamata Murah Bisa Dicicil Tanpa Ribet' ratio='16x9' class='card-img-top' %}
 		<div class="card-body">
 			<h3 class="card-title">Kacamata Murah Bisa Dicicil Tanpa Ribet</h3>
@@ -90,7 +90,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-	<div class="card shadow p-3 mb-5 bg-white rounded">
+	<div class="card shadow p-3 mb-5 rounded">
 		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp' alt='Optik Terdekat di Kemayoran Jakarta Pusat' ratio='16x9' class='card-img-top' %}
 		<div class="card-body">
 			<h3 class="card-title">Optik Terdekat di Kemayoran Jakarta Pusat</h3>
@@ -107,7 +107,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-	<div class="card shadow p-3 mb-5 bg-white rounded">
+	<div class="card shadow p-3 mb-5 rounded">
 		{% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
 		<div class="card-body">
 			<h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>

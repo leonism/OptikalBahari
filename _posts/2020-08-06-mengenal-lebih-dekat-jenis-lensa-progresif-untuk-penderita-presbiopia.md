@@ -15,8 +15,9 @@ tags: [tips, kacamata, lensa]
 background: /assets/img/posts/harajuku/female-harajuku-00.webp
 comments: true
 ---
+
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/harajuku/female-harajuku-01.webp' alt='Gangguan Presbiopia & Jenis Lensa Progresif' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Gangguan Presbiopia & Jenis Lensa Progresif</h3>
@@ -42,7 +43,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/harajuku/female-harajuku-02.webp' alt='Jenis Lensa Progresif Nyaman Dipakai dan
 		Memiliki Tiga Titik Fokus' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
@@ -78,7 +79,7 @@ comments: true
 {% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/harajuku/female-harajuku-03.webp' alt='Model Jenis Lensa Progresif dan Cara Pemakaiannya' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Tipe Lensa Progresif dan Cara Pemakaiannya</h3>

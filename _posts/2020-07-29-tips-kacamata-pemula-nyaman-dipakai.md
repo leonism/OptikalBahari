@@ -16,7 +16,7 @@ comments: true
 ---
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-02.webp' alt='Tips Memilih Kacamata bagi Pemula dengan Menyesuaikan Bentuk Wajah dan Warna Kulit' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -55,7 +55,7 @@ comments: true
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 bg-white mb-5">
+  <div class="card shadow p-3  mb-5">
     {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-03.webp' alt='Tips Memilih Kacamata bagi Pemula Berdasarkan Warna Rambut dan Mata' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -84,7 +84,7 @@ comments: true
 {% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 bg-white mb-5">
+  <div class="card shadow p-3  mb-5">
     {% include cloudinary/card_image.html src='assets/img/posts/tips-kacamata-kpop/tips-kacamata-pemula-nyaman-dipakai-04.webp' alt='Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">

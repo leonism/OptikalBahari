@@ -2,6 +2,7 @@
 @import 'mixins.scss';
 @import 'base.scss';
 @import 'masthead.scss';
+@import 'cards.scss';
 @import 'post.scss';
 @import 'footer.scss';
 @import 'whatsapp.scss';
@@ -15,7 +16,6 @@
 @import 'icons.scss';
 @import 'logo.scss';
 @import 'headings.scss';
-@import 'darkmode.scss';
 @import 'badges.scss';
 @import 'buttons.scss';
 @import "navbar";
@@ -27,8 +27,3 @@
 @import "navbar-theme-dark";
 @import "navbar-mainNav";
 @import "skeleton-preloader";
-
-// @import "shimmer"
-// @import "contact.scss";
-// @import 'lazyload.scss';
-// @import 'blinkies.scss';

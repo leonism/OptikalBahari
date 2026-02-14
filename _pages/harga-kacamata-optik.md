@@ -18,7 +18,7 @@ comments: false
 ---
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-01.webp' alt='Buka Rahasia: Harga Kacamata Optik yang Memikat Hati di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
             <h3 class="card-title">
@@ -40,7 +40,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-02.webp' alt='Koleksi Kacamata yang Luar Biasa di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
@@ -62,7 +62,7 @@ comments: false
 {% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-03.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
@@ -82,7 +82,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
             {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-11.webp' alt='Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
@@ -102,7 +102,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
 		  {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-12.webp' alt='Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
@@ -122,7 +122,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
 		  {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-07.webp' alt='Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
@@ -142,7 +142,7 @@ comments: false
 </div>
 
 <div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 bg-white rounded">
+  <div class="card shadow p-3 mb-5 rounded">
 		  {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-08.webp' alt='Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
@@ -164,7 +164,7 @@ comments: false
 <section id="posts-category1">
 	<div class="card-deckrow mb-3 card-deck">
 		{% for post in site.categories.Lensa limit : 3 %}
-		<div class="card shadow p-0 mb-3 bg-white rounded hover-zoomin">
+		<div class="card shadow p-0 mb-3  rounded hover-zoomin">
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 				title="{{ post.title }}">
 				{% if page.background %}

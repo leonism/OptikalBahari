@@ -16,3 +16,22 @@
     }
   }
 }
+
+body.dark-mode {
+  .btn-primary {
+    background-color: $dark-button;
+    border-color: lighten($dark-button, 10%);
+    &:hover {
+      background-color: lighten($dark-button, 10%);
+      border-color: lighten($dark-button, 10%);
+    }
+    &.rounded-pill {
+      background-color: $dark-button;
+      color: $dark-text;
+      &:hover {
+        background-color: lighten($dark-button, 15%);
+        color: lighten($dark-text, 5%);
+      }
+    }
+  }
+}
