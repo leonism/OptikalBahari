@@ -4,11 +4,11 @@
 .navbar-actions-group {
   display: flex !important;
   align-items: center !important; // Vertically align with "LOKASI" and other nav links
-  gap: 12px !important; // Balanced gap for desktop
+  gap: 15px !important; // Balanced gap for desktop
   height: 100% !important;
 
   @media (max-width: 991px) {
-    gap: 6px !important; // Smaller gap on mobile
+    gap: 9px !important; // Smaller gap on mobile
   }
 
   // Reset all containers inside this group
