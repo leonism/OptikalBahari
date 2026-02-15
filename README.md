@@ -212,9 +212,7 @@ build_command:
 - npm install && JEKYLL_ENV=production bundle exec jekyll build --verbose && bundle exec jekyll algolia
 - npm install && JEKYLL_ENV=production bundle exec jekyll build --verbose && npm run postbuild && bundle exec jekyll algolia
 - npm install && JEKYLL_ENV=production bundle exec jekyll serve --verbose && npm run postbuild && bundle exec jekyll algolia
-
 - JEKYLL_ENV=production bundle exec jekyll build --verbose && npm run postbuild && bundle exec jekyll algolia
-
 - JEKYLL_ENV=production bundle exec jekyll serve --verbose && npm run postbuild && bundle exec jekyll algolia
 ```
 
