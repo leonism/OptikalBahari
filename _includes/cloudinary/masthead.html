@@ -1,21 +1,29 @@
 {% if page.background %}
+  {%- comment -%} MODIFIED: Generate ultra-tiny placeholder for the dreamy bloom effect {%- endcomment -%}
+  {%- assign lqp_url = page.background | cloudinary_url: 'c_fill,w_30,h_15,e_blur:1000,q_auto:low,f_auto' -%}
+
   <style>
     :root {
-      /* Mobile Background (default) - 600px width */
-      --masthead-bg: url('{{ page.background | cloudinary_url: 'c_fill,w_1200,h_600,g_auto,q_auto:eco,f_auto' }}');
+      /* Mobile Background (default) - 1200px width */
+      --masthead-bg: url('{{ page.background | cloudinary_url: "c_fill,w_1200,h_600,g_auto,q_auto:eco,f_auto" }}');
+      /* MODIFIED: Placeholder for dreamy start */
+      --masthead-placeholder: url('{{ lqp_url }}');
     }
     @media (min-width: 768px) {
       :root {
         /* Tablet/Desktop Background - 1400px width */
-        --masthead-bg: url('{{ page.background | cloudinary_url: 'c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto' }}');
+        --masthead-bg: url('{{ page.background | cloudinary_url: "c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto" }}');
       }
     }
+    /* MODIFIED: Applied placeholder and transition class */
     .masthead.responsive-bg {
-      background-image: var(--masthead-bg);
+      background-image: var(--masthead-placeholder);
+      background-size: cover;
     }
   </style>
 
-  <header class="masthead responsive-bg">
+  {%- comment -%} MODIFIED: Added 'dreamy-load' class and an onload trigger on the hidden image to signal completion {%- endcomment -%}
+  <header class="masthead responsive-bg dreamy-load" id="masthead-hdr">
     {% comment %}
       LCP Hint: We point to the 1400w version so the browser pre-warms the desktop link.
     {% endcomment %}
@@ -23,7 +31,8 @@
       fetchpriority="high"
       decoding="sync"
       style="display: none"
-      alt="{{ page.title | default: site.title }}" />
+      alt="{{ page.title | default: site.title }}"
+      onload="document.getElementById('masthead-hdr').classList.add('is-loaded');" />
 {% else %}
   <header class="masthead">
 {% endif %}

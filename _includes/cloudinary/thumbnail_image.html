@@ -30,7 +30,7 @@
     - w_10: Tiny 10px width.
     - e_blur:1000: Maximum blur.
   {%- endcomment -%}
-  {%- capture placeholder_params -%}c_limit,w_10,e_blur:1000,q_auto:low,f_auto{%- endcapture -%}
+  {%- capture placeholder_params -%}c_limit,w_50,e_blur:1000,q_auto:low,f_auto{%- endcapture -%}
   {%- assign lqp_url = clean_src | cloudinary_url: placeholder_params -%}
 
   <div class="image-ratio-wrapper {{ image_ratio }} blur-up-container" style="background-image: url('{{ lqp_url }}'); background-size: cover; background-position: center;">
