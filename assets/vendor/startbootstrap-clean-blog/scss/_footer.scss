@@ -4,6 +4,7 @@
 
 footer {
   padding: 10px 0 40px; /* Padding for spacing */
+  color: $dark-text; /* Neutral text color */
   background-color: $light-footer; /* Light neutral background */
   border-top: 1px solid $dark-border; /* Subtle border for separation */
   font-family: 'Arial', sans-serif; /* Clean typography */
@@ -20,8 +21,8 @@ footer .list-inline {
   padding: 0;
   display: flex;
   justify-content: center; /* Center align items */
-  gap: 10px; /* Space between items */
-  margin-bottom: 20px; /* Spacing below the list */
+  gap: 5px; /* Space between items */
+  margin-bottom: 10px; /* Spacing below the list */
 }
 
 /* ===============================
@@ -39,7 +40,7 @@ footer .list-inline-item a {
 }
 
 footer .list-inline-item a:hover {
-  color: #ed4833; /* Bold hover color */
+  color: $red; /* Bold hover color */
   transform: translateY(-5px); /* Lift effect */
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Stronger shadow on hover */
 }
@@ -61,7 +62,7 @@ footer .copyright {
   font-size: 14px; /* Font size */
   margin-bottom: 0; /* No extra space below */
   text-align: center; /* Center align text */
-  color: #6c757d; /* Neutral text color */
+  color: $dark-footer-copyright; /* Neutral text color */
   font-family: 'Arial', sans-serif; /* Consistent typography */
   letter-spacing: normal; /* Natural spacing */
 }
