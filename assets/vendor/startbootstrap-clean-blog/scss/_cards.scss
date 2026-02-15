@@ -1,10 +1,22 @@
 // Cards
 .card {
+  .card-deck {
+    background-color: $light-bg;
+    color: $light-text;
+  }
   .card-body {
     background-color: $light-card;
     color: $light-text;
   }
-  .card-deck {
+  .card-title {
+    color: $light-text;
+    font-size: 19px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  .card-footer {
     background-color: $light-bg;
     color: $light-text;
   }
