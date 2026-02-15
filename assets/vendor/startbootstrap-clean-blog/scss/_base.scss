@@ -109,7 +109,7 @@ body.dark-mode {
   }
 
   img {
-    filter: brightness(80%);
+    filter: $img-dark-dim;
   }
 }
 

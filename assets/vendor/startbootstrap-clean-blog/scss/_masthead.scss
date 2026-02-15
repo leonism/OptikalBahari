@@ -66,35 +66,12 @@
 }
 
 /* ---------------------------------------- */
-/* Dark Mode Transitions            */
-/* ---------------------------------------- */
-body.dark-mode {
-  .masthead::before {
-    background: rgba(0, 0, 0, 0.8); // 80% dim overlay
-  }
-
-  /* MODIFIED: Keep headings "Lit" (Glow effect) */
-  .page-heading h1,
-  .post-heading h1,
-  .site-heading h1,
-  .subheading {
-    color: #ffffff !important;
-    // Stronger text shadow to create a 'lit' effect against the dimmed background
-    text-shadow:
-      0 0 15px rgba(255, 255, 255, 0.2),
-      4px 4px 6px rgba(0, 0, 0, 0.9) !important;
-    opacity: 1 !important;
-  }
-}
-
-/* ---------------------------------------- */
 /* Original Heading Typography       */
 /* ---------------------------------------- */
 header.masthead {
   .page-heading,
   .site-heading {
     text-align: center;
-
     h1 {
       margin-top: 400px;
       font-size: 35px;
@@ -106,9 +83,14 @@ header.masthead {
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       font-stretch: condensed;
+      text-shadow:
+      0 0 15px rgba(255, 255, 255, 0.2),
+      4px 4px 6px rgba(0, 0, 0, 0.9) !important;
+      opacity: 1 !important;
     }
 
     .subheading {
+      margin-top: 10px;
       font-size: 22px;
       font-weight: 350;
       line-height: 0.95;
@@ -181,4 +163,27 @@ header.masthead .overlay {
   background-color: $gray-900;
   opacity: 0.5;
   z-index: 0;
+}
+
+
+/* ---------------------------------------- */
+/* Dark Mode Transitions            */
+/* ---------------------------------------- */
+body.dark-mode {
+  .masthead::before {
+    background: rgba(0, 0, 0, 0.8); // 80% dim overlay
+  }
+
+  /* MODIFIED: Keep headings "Lit" (Glow effect) */
+  .page-heading h1,
+  .post-heading h1,
+  .site-heading h1,
+  .subheading {
+    color: $white !important;
+    // Stronger text shadow to create a 'lit' effect against the dimmed background
+    text-shadow:
+      0 0 15px rgba(255, 255, 255, 0.2),
+      4px 4px 6px rgba(0, 0, 0, 0.9) !important;
+    opacity: 1 !important;
+  }
 }
