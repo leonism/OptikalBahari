@@ -94,7 +94,7 @@ async function runPurgeCSS() {
  */
 function runCriticalCSS() {
   console.log('\n📝 Step 2: Critical CSS')
-  const ENABLE_CRITICAL = false
+  const ENABLE_CRITICAL = true
 
   if (!ENABLE_CRITICAL) {
     console.log('  ℹ️  Critical CSS deactivated - skipping')
@@ -193,11 +193,11 @@ async function main() {
   console.log('='.repeat(60))
   const startTime = Date.now()
 
+  runAssetConsolidation()
   await runPurgeCSS()
   runCriticalCSS()
   runServiceWorker()
   runImageOptimization()
-  runAssetConsolidation()
   generateSRIHashes()
   runHTMLMinification()
 

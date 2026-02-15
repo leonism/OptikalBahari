@@ -9,7 +9,7 @@ async function main() {
   const { hideBin } = await import('yargs/helpers')
   const CleanCSS = require('clean-css')
 
-  const argv = yargs(hideBin(process.argv))
+  const argv = await yargs(hideBin(process.argv))
     .option('dry-run', {
       alias: 'd',
       type: 'boolean',
@@ -25,8 +25,11 @@ async function main() {
   const ASSETS_DIR = path.join(SITE_DIR, 'assets')
   const DIST_DIR = path.join(ASSETS_DIR, 'dist')
 
+  /** @param {string} msg */
   const log = (msg) => console.log(`[Consolidate] ${msg}`)
+  /** @param {string} msg */
   const debug = (msg) => argv.verbose && console.log(`[Consolidate] [DEBUG] ${msg}`)
+  /** @param {string} msg */
   const error = (msg) => console.error(`[Consolidate] [ERROR] ${msg}`)
 
   try {
@@ -56,10 +59,13 @@ async function main() {
     const indexContent = await fs.readFile(indexFile, 'utf8')
     const $ = cheerio.load(indexContent)
 
+    /** @type {string[]} */
     const cssFiles = []
+    /** @type {string[]} */
     const jsFiles = []
 
     // Helper to process CSS hrefs
+    /** @param {string | undefined} href */
     const processCssHref = (href) => {
       if (href && isLocalAsset(href)) {
         const resolved = resolvePath(href, indexFile, SITE_DIR)
@@ -84,14 +90,16 @@ async function main() {
     $('noscript').each((i, el) => {
       const html = $(el).html()
       // Simple regex to find hrefs in link tags within noscript
-      const matches = html.match(/href=["']([^"']+)["']/g)
-      if (matches) {
-        matches.forEach((match) => {
-          const href = match.replace(/href=["']|["']/g, '')
-          if (href.endsWith('.css')) {
-            processCssHref(href)
-          }
-        })
+      if (html) {
+        const matches = html.match(/href=["']([^"']+)["']/g)
+        if (matches) {
+          matches.forEach((match) => {
+            const href = match.replace(/href=["']|["']/g, '')
+            if (href.endsWith('.css')) {
+              processCssHref(href)
+            }
+          })
+        }
       }
     })
 
@@ -137,7 +145,7 @@ async function main() {
           })
 
           rawCss += rebasedContent + '\n'
-        } catch (e) {
+        } catch (/** @type {any} */ e) {
           error(`Failed to read CSS file: ${file} - ${e.message}`)
         }
       }
@@ -157,6 +165,21 @@ async function main() {
         output.warnings.forEach((w) => debug(`CleanCSS Warning: ${w}`))
       }
       finalCss = output.styles
+
+      // 4.1 Ensure font-display: swap is present in all @font-face rules
+      if (finalCss.includes('@font-face')) {
+        log('Ensuring font-display: swap in all @font-face rules...')
+        finalCss = finalCss.replace(/@font-face\s*{([^}]+)}/g, (match, contents) => {
+          if (contents.includes('font-display')) {
+            // Replace existing font-display value with swap
+            return `@font-face{${contents.replace(/font-display\s*:\s*([^;]+)/, 'font-display:swap')}}`
+          } else {
+            // Add font-display: swap if missing
+            return `@font-face{font-display:swap;${contents}}`
+          }
+        })
+      }
+
       const minifiedSize = Buffer.byteLength(finalCss, 'utf8')
       const saved = originalSize - minifiedSize
       const savedPercent = originalSize > 0 ? ((saved / originalSize) * 100).toFixed(2) : 0
@@ -177,7 +200,7 @@ async function main() {
         try {
           const content = await fs.readFile(file, 'utf8')
           combinedJs += content + ';\n'
-        } catch (e) {
+        } catch (/** @type {any} */ e) {
           error(`Failed to read JS file: ${file} - ${e.message}`)
         }
       }
@@ -193,7 +216,7 @@ async function main() {
           mangle: true,
         })
 
-        if (result.error) throw result.error
+        if (!result.code) throw new Error('Minification failed')
 
         const minifiedSize = Buffer.byteLength(result.code, 'utf8')
         const saved = originalSize - minifiedSize
@@ -205,7 +228,7 @@ async function main() {
           await fs.writeFile(path.join(DIST_DIR, 'scripts.min.js'), result.code)
           log(`Written scripts.min.js to ${DIST_DIR}`)
         }
-      } catch (e) {
+      } catch (/** @type {any} */ e) {
         error(`Terser Minification Failed: ${e.message}`)
       }
     }
@@ -222,18 +245,21 @@ async function main() {
       if (cssFiles.length > 0) {
         const cssLinks = $page('link[rel="stylesheet"], link[rel="preload"][as="style"]').filter((i, el) => {
           const href = $page(el).attr('href')
-          return href && cssFiles.includes(resolvePath(href, file, SITE_DIR))
+          return !!(href && cssFiles.includes(resolvePath(href, file, SITE_DIR)))
         })
 
+        /** @type {any[]} */
         const noscriptsToRemove = []
         $page('noscript').each((i, el) => {
           const html = $page(el).html()
           let hasBundled = false
-          for (const cssFile of cssFiles) {
-            const filename = path.basename(cssFile)
-            if (html.includes(filename)) {
-              hasBundled = true
-              break
+          if (html) {
+            for (const cssFile of cssFiles) {
+              const filename = path.basename(cssFile)
+              if (html.includes(filename)) {
+                hasBundled = true
+                break
+              }
             }
           }
           if (hasBundled) {
@@ -243,7 +269,12 @@ async function main() {
 
         if (cssLinks.length > 0) {
           const firstLink = cssLinks.first()
-          firstLink.before('<link rel="stylesheet" href="/assets/dist/styles.min.css">')
+          // Use non-blocking loading pattern
+          const nonBlockingCss = `
+<link rel="preload" href="/assets/dist/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/assets/dist/styles.min.css"></noscript>`.trim()
+
+          firstLink.before(nonBlockingCss)
           cssLinks.remove()
           $page(noscriptsToRemove).remove()
           modified = true
@@ -255,15 +286,15 @@ async function main() {
         const jsScripts = $page('script[src]').filter((i, el) => {
           const src = $page(el).attr('src')
           if (!src) return false
-          
+
           const resolved = resolvePath(src, file, SITE_DIR)
-          
+
           // Match known source files
           if (jsFiles.includes(resolved)) return true
-          
+
           // Match existing consolidated file
           if (src.includes('scripts.min.js')) return true
-          
+
           return false
         })
 
@@ -286,18 +317,28 @@ async function main() {
     }
 
     log('Consolidation complete.')
-  } catch (e) {
+  } catch (/** @type {any} */ e) {
     error(`Fatal Error: ${e.stack}`)
     process.exit(1)
   }
 }
 
+/**
+ * @param {string} url
+ * @returns {boolean}
+ */
 function isLocalAsset(url) {
   if (url.match(/^https?:\/\//)) return false
   if (url.match(/^\/\//)) return false
   return true
 }
 
+/**
+ * @param {string} url
+ * @param {string} sourceFile
+ * @param {string} siteDir
+ * @returns {string}
+ */
 function resolvePath(url, sourceFile, siteDir) {
   let cleanUrl = url.split('?')[0]
   if (cleanUrl.startsWith('/')) {
