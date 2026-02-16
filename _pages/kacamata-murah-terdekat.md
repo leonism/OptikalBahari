@@ -73,9 +73,9 @@ comments: false
 			</a>
 			{% endif %}
 			<div class="card-body">
-				<h5 class="card-title">
+				<h3 class="card-title">
 					{{ post.title }}
-				</h5>
+				</h3>
 				<p class="card-text text-start">{{ post.description | strip_html | truncatewords: 20 }}.</p>
 				<p class="card-text text-start">
 					<a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"

@@ -87,9 +87,9 @@ comments: false
 			</a>
 			{% endif %}
 			<div class="card-body">
-				<h5 class="card-title">
+				<h3 class="card-title">
 					{{ post.title | truncate: 50 }}
-				</h5>
+				</h3>
 				<p class="card-text text-start">
 					{{ post.description | strip_html | truncate: 100 }}
 					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
@@ -139,9 +139,9 @@ comments: false
 			</a>
 			{% endif %}
 			<div class="card-body">
-				<h5 class="card-title">
+				<h3 class="card-title">
 					{{ post.title | truncate: 50 }}
-				</h5>
+				</h3>
 				<p class="card-text text-start">
 					{{ post.description | strip_html | truncate: 100 }}
 					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
