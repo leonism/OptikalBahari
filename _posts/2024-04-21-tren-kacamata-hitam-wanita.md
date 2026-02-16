@@ -10,7 +10,7 @@ date: '2024-04-21 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Info]
 tags: [lensa, produk]
-background: /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-01.webp
+background: /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-12.webp
 comments: true
 ---
 
