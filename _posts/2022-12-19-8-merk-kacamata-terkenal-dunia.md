@@ -42,7 +42,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
         <p class="card-text text-start">
           Oakley adalah merek kacamata premium asal Amerika Serikat yang dikenal karena pendekatan revolusionernya terhadap desain dan teknologi. Lebih dari sekadar aksesori fashion, setiap frame Oakley dibangun dengan ketahanan tinggi, kenyamanan ergonomis, dan dilengkapi dengan lensa berkualitas yang memberikan perlindungan 100% terhadap radiasi ultraviolet (UVA, UVB, dan UVC). Inovasi dan desainnya yang unik dan sering kali futuristik telah menjadikannya pilihan utama bagi atlet, penggemar aktivitas luar ruangan, dan pecinta gaya hidup modern. Di antara beragam koleksinya, tiga model frame paling ikonik adalah <strong>Holbrook</strong>, <strong>Frogskins</strong>, dan <strong>Gascan</strong>.
         </p>
-        <h5 class="card-title">Holbrook: Nostalgia Klasik yang Tak Lekang Waktu</h5>
+        <h3 class="card-title">Holbrook: Nostalgia Klasik yang Tak Lekang Waktu</h3>
         <p class="card-text text-start">
           Model Holbrook menghidupkan kembali semangat gaya kacamata klasik dari era 1950-an dengan sentuhan modern. Frame ini menawarkan estetika yang abadi, elegan, dan serbaguna, cocok untuk melengkapi berbagai gaya sehari-hari dengan kesan santai namun berkelas.
         </p>
@@ -51,7 +51,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
           <li>Estetika klasik dan elegan yang mudah dipadukan.</li>
           <li>Pilihan ideal untuk gaya kasual dan kehidupan sehari-hari yang santai.</li>
         </ul>
-        <h5 class="card-title">Frogskins: Energi Retro dari Era 1980-an</h5>
+        <h3 class="card-title">Frogskins: Energi Retro dari Era 1980-an</h3>
         <p class="card-text text-start">
           Frogskins adalah perwujudan dari jiwa bebas dan tren fashion warna-warni tahun 1980-an. Dengan siluet yang berani dan karakter yang mencolok, frame ini dirancang untuk mereka yang ingin menonjolkan kepribadian dan gaya hidup aktif.
         </p>
@@ -60,7 +60,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
           <li>Dipopulerkan oleh berbagai ikon budaya pop pada masanya.</li>
           <li>Menampilkan identitas visual yang kuat dan penuh gaya vintage.</li>
         </ul>
-        <h5 class="card-title">Gascan: Desain Sportif dan Performa Tinggi</h5>
+        <h3 class="card-title">Gascan: Desain Sportif dan Performa Tinggi</h3>
         <p class="card-text text-start">
           Terinspirasi oleh dunia olahraga profesional, model Gascan menampilkan desain yang ramping, kokoh, dan penuh performa. Frame ini cocok untuk gaya hidup dinamis dan mereka yang mengutamakan fungsi serta tampilan modern yang penuh ketegasan.
         </p>

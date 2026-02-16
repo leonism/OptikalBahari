@@ -114,9 +114,9 @@ comments: false
     <p class="card-text text-start">
       Memilih kacamata yang tepat tidak hanya bergantung pada gaya, tetapi juga untuk menunjang kesehatan mata Anda. Berikut beberapa tips untuk memilih kacamata dengan cicilan 0% di Optikal Bahari:
     </p>
-    <h5 class="card-title">
+    <h3 class="card-title">
       1. Tentukan Kebutuhan dan Budget:
-    </h5>
+    </h3>
     <p class="card-text text-start">
       <ul>
         <li>
@@ -129,9 +129,9 @@ comments: false
         </li>
       </ul>
     </p>
-    <h5 class="card-title">
+    <h3 class="card-title">
       2. Pilih Frame yang Sesuai:
-    </h5>
+    </h3>
     <p class="card-text text-start">
       <ul>
         <li>
@@ -148,9 +148,9 @@ comments: false
         </li>
       </ul>
     </p>
-    <h5 class="card-title">
+    <h3 class="card-title">
       3. Pilih Lensa yang Tepat:
-    </h5>
+    </h3>
     <p class="card-text text-start">
       <ul>
         <li>
@@ -163,9 +163,9 @@ comments: false
         </li>
       </ul>
     </p>
-    <h5 class="card-title">
+    <h3 class="card-title">
       4. Konsultasikan dengan Staf Ahli Optikal Bahari:
-    </h5>
+    </h3>
     <p class="card-text text-start">
       Staf ahli kami siap membantu Anda memilih kacamata yang sesuai dengan resep dokter mata, bentuk wajah, gaya, dan budget Anda. Jangan ragu untuk berkonsultasi dan dapatkan rekomendasi terbaik. Cobalah beberapa frame kacamata yang berbeda untuk menemukan yang paling serasi dengan Anda. Ingat, kacamata yang tepat akan membuat Anda merasa percaya diri dan nyaman. Dengan mengikuti tips di atas, Anda bisa memilih kacamata yang tepat dan memanfaatkan
       <strong>program cicilan 0%</strong>

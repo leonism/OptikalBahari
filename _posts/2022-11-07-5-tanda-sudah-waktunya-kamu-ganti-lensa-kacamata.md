@@ -24,25 +24,25 @@ comments: true
             ataupun astigmatisme bahkan perlu memeriksakan matanya tidak hanya satu kali. Dengan begitu, menggunakan kacamata resep dokter saja tidak cukup.
             Kacamata perlu diganti secara berkala, menyesuaikan kondisi mata penderitanya. Namun, mungkin kita pernah bertanya-tanya kapan sebaiknya mengganti lensa kacamata.
             Meskipun sering dirawat dan dibersihkan, akan ada saatnya lensa kacamata perlu diganti. Selain karena ada kerusakan pada lensa, sebab-sebab lainnya juga dapat menandakan bahwa lensa kacamata harus segera diganti. Melansir Eye See Mag, Rabu (26/10/2022) berikut 5 tanda kacamata anda perlu segera diganti:</p>
-        <h5 class="card-title">
+        <h3 class="card-title">
             1. Sakit Kepala dan Mata Lelah
-        </h5>
+        </h3>
         <p class="card-text text-start">
             Mungkin banyak kalian pengguna kacamata yang merasakan sakit di kepala dan berpikir itu hanya sakit kepala sederhana yang akan berlalu. Akan tetapi, kemudian sakit kepala itu terus datang kembali.
             Apalagi saat kamu memakai kacamata. Selain itu, kamu juga merasakan sesuatu yang baru seperti mata yang mulai merasa lelah. Mata lelah merupakan kondisi yang dirasakan akibat penggunaan mata yang intens.
             Ini juga bisa disebabkan oleh beberapa faktor, misalnya membaca atau bekerja di depan komputer. Jika kamu memiliki dua gejala ini, mungkin karena kacamata kamu sudah tidak tepat. Tidak perlu mencari lagi
             penyebabnya atau berasumsi. Ketika kamu mulai merasa ada gejala tersebut, saatnya untuk pergi ke ahli kacamata.
         </p>
-        <h5 class="card-title">
+        <h3 class="card-title">
             2. Pandangan Menjadi Sering Kabur
-        </h5>
+        </h3>
         <p class="card-text text-start">
             Ketika sering merasa penglihatan menjadi kabur saat memakai kacamata, itu tidak bisa dibiarkan begitu saja. Penglihatan kabur saat kamu memakai kacamata bisa jadi karena kelelahan, atau bisa juga karena lensa yang ternodai.
             Ketika permukaan lensa menjadi cukup rusak, itu dapat mengubah penglihatan kamu. Intinya, kaca tidak lagi tembus pandang sehingga sudah waktunya untuk menggantinya agar dapat melihat dengan jelas.
         </p>
-        <h5 class="card-title">
+        <h3 class="card-title">
             3. Sulit Melihat pada Malam Hari
-        </h5>
+        </h3>
         <p class="card-text text-start">
             Jika sering keluar malam dan merasa penglihatan memudar, sebaiknya lakukan pemeriksaan mata. Ini dapat menjadi tanda bahwa kacamata perlu diganti. Penglihatan memudar ini dapat berbahaya, seperti ketika sedang membawa kendaraan. Selain itu,
             penglihatan yang menurun di malam hari juga bisa merupakan tanda awal penyakit katarak.
@@ -57,16 +57,16 @@ comments: true
     <div class="card shadow p-3 mb-5 rounded">
         {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-11.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
             <div class="card-body">
-                <h5 class="card-title">
+                <h3 class="card-title">
                     4. Masalah Ketika Membaca
-                </h5>
+                </h3>
                 <p class="card-text text-start">
                     Apakah kamu harus melepas kacamata ketika sedang membaca? Kacamata kamu seharusnya membantu untuk membaca. Jadi, jika melepasnya membantu kamu untuk melihat lebih baik, maka ada sesuatu yang tidak benar dan mungkin itu karena lensanya. Untuk
                     memastikannya, segeralah periksa ke ahli mata.
                 </p>
-                <h5 class="card-title">
+                <h3 class="card-title">
                     5. Lensa Tergores
-                </h5>
+                </h3>
                 <p class="card-text text-start">
                     Jika kamu berpikir bahwa tidak perlu mengganti kacamata karena beberapa goresan pada lensa, perlu kamu ketahui bahwa goresan tersebut tidak boleh diremehkan.
                     Kamu mungkin tidak menyadarinya, tetapi goresan secara tidak sadar akan mengganggu mata karena penglihatan akan mencoba untuk fokus pada goresan tersebut. Kamu juga harus tahu bahwa goresan mengubah bagaimana cara lensa bekerja dan mengurangi

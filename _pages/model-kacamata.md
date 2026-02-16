@@ -51,9 +51,9 @@ comments: false
                     {% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top' %}</a>
                 {% endif %}
             <div class="card-body">
-                <h5 class="card-title">
+                <h3 class="card-title">
                     {{ post.title }}
-                </h5>
+                </h3>
                 <p class="card-text text-start">
                     {{ post.description | strip_html | truncatewords: 20 }}.
                 </p>

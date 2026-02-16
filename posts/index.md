@@ -34,9 +34,9 @@ pagination:
                         -%}
                     </a>
                     <div class="card-body">
-                        <h5 class="card-title">
+                        <h3 class="card-title">
                             {{ post.title | truncate: 50 }}
-                        </h5>
+                        </h3>
                         <p class="card-text">
                             {{ post.description | strip_html | truncate: 100 }}
                         </p>
@@ -77,7 +77,7 @@ pagination:
                         -%}
                     </a>
                     <div class="card-body">
-                        <h5 class="card-title">{{ post.title | truncate: 50 }}</h5>
+                        <h3 class="card-title">{{ post.title | truncate: 50 }}</h3>
                         <p class="card-text">
                             {{ post.description | strip_html | truncate: 100 }}
                         </p>
@@ -117,9 +117,9 @@ pagination:
                         -%}
                     </a>
                     <div class="card-body">
-                        <h5 class="card-title">
+                        <h3 class="card-title">
                             {{ post.title | truncate: 50 }}
-                        </h5>
+                        </h3>
                         <p class="card-text">
                             {{ post.description | strip_html | truncate: 100 }}
                         </p>
