@@ -16,7 +16,7 @@ comments: true
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-02.webp' alt='Trendsetter Kacamata Hitam Wanita: Kenali Gaya yang Lagi Hits' ratio='16x9' class='card-img-top img-fluid' %}
+        {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-11.webp' alt='Trendsetter Kacamata Hitam Wanita: Kenali Gaya yang Lagi Hits' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Trendsetter Kacamata Hitam Wanita: Kenali Gaya yang Lagi Hits
