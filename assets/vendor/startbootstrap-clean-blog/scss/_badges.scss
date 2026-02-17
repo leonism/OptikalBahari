@@ -1,28 +1,14 @@
 /* ---------------------------------------- */
 /*            Badge Fixes                   */
 /* ---------------------------------------- */
-.badge.badge-pill.badge-danger.light-icon {
-  background-color: #dc3545;
-  color: $light-badge-text;
-}
-
-.badge.badge-pill.badge-danger.dark-icon {
-  background-color: #77b1d2;
-  color: $dark-text;
-  display: none;
-}
-
-body.dark-mode .badge.badge-pill.badge-danger.light-icon {
-  display: none;
-}
-
-body.dark-mode .badge.badge-pill.badge-danger.dark-icon {
-  display: inline;
+.badge-danger {
+  background-color: $red !important;
+  color: $white !important;
 }
 
 body.dark-mode {
   .badge-danger {
-    background-color: #9e2a2f;
-    color: $dark-text;
+    background-color: darken($red, 10%) !important;
+    color: $white !important;
   }
 }

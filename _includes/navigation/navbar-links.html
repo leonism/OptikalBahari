@@ -3,7 +3,8 @@
     class="nav-link"
     href="{{ '/posts/' | relative_url }}"
     aria-label="Berita Optikal Bahari">
-    Berita
+    <i class="fas fa-newspaper nav-icon d-lg-none"></i>
+    <span>Berita</span>
   </a>
 </li>
 <li class="nav-item">
@@ -12,7 +13,8 @@
     href="{{ '/periksa-mata-gratis/' | relative_url }}"
     aria-label="Periksa Mata Gratis"
   >
-    Periksa Mata
+    <i class="fas fa-eye nav-icon d-lg-none"></i>
+    <span>Periksa Mata</span>
   </a>
 </li>
 <li class="nav-item">
@@ -21,7 +23,8 @@
     href="{{ '/tips-trik-kacamata/' | relative_url }}"
     aria-label="Tips & Trik Kacamata"
   >
-    Tips & Trik
+    <i class="fas fa-lightbulb nav-icon d-lg-none"></i>
+    <span>Tips & Trik</span>
   </a>
 </li>
 <li class="nav-item">
@@ -30,12 +33,16 @@
     href="{{ '/testimoni/' | relative_url }}"
     aria-label="Testimoni Optikal Bahari"
   >
-    Testimoni
-    <span class="badge badge-pill badge-danger ms-2">New</span>
+    <div class="d-flex align-items-center">
+      <i class="fas fa-comment-alt nav-icon d-lg-none"></i>
+      <span>Testimoni</span>
+      <span class="badge badge-pill badge-danger ms-2">New</span>
+    </div>
   </a>
 </li>
 <li class="nav-item">
   <a class="nav-link" href="{{ '/lokasi/' | relative_url }}" aria-label="Lokasi Optikal Bahari">
-    Lokasi
+    <i class="fas fa-map-marker-alt nav-icon d-lg-none"></i>
+    <span>Lokasi</span>
   </a>
 </li>

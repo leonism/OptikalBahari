@@ -187,20 +187,21 @@
 
 
     // Theme toggle handling
-    /** @type {HTMLInputElement | null} */
-    const themeToggle = document.querySelector('#themeToggle')
+    const themeToggles = document.querySelectorAll('input[name="themeToggle"], #themeToggle')
     const currentTheme = localStorage.getItem('theme')
 
     if (currentTheme === 'dark') {
       document.body.classList.add('dark-mode')
-      // Also set the attribute for bootstrap or other CSS that might use it
       document.documentElement.setAttribute('data-bs-theme', 'dark')
-      if (themeToggle) themeToggle.checked = true
+      themeToggles.forEach(toggle => {
+        if (toggle instanceof HTMLInputElement) toggle.checked = true
+      })
     }
 
-    if (themeToggle) {
-      themeToggle.addEventListener('change', function () {
-        if (themeToggle.checked) {
+    themeToggles.forEach(toggle => {
+      toggle.addEventListener('change', function () {
+        const isChecked = toggle instanceof HTMLInputElement && toggle.checked
+        if (isChecked) {
           document.body.classList.add('dark-mode')
           document.documentElement.setAttribute('data-bs-theme', 'dark')
           localStorage.setItem('theme', 'dark')
@@ -209,7 +210,14 @@
           document.documentElement.removeAttribute('data-bs-theme')
           localStorage.setItem('theme', 'light')
         }
+
+        // Sync all togglers
+        themeToggles.forEach(otherToggle => {
+          if (otherToggle !== toggle && otherToggle instanceof HTMLInputElement) {
+            otherToggle.checked = isChecked
+          }
+        })
       })
-    }
+    })
   })
 })()
