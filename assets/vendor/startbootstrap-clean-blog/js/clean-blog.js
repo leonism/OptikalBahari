@@ -153,6 +153,7 @@
     })
 
     // Handle window resize - close menu if resized to desktop
+    /** @type {any} */
     let resizeTimer
     window.addEventListener('resize', function () {
       clearTimeout(resizeTimer)
