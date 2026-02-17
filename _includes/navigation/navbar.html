@@ -23,8 +23,44 @@
       {% include navigation/navbar-toggler.html %}
     </div>
 
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+
     <!-- Navbar Content Wrapper -->
     <div class="collapse navbar-collapse order-lg-2" id="navbarResponsive">
+      <!-- Close Button for Mobile (Only visible on mobile) -->
+      <button class="mobile-menu-close d-lg-none" id="mobileMenuClose" aria-label="Close navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Mobile Menu Header (Logo + Brand) - Only visible on mobile -->
+      <div class="mobile-menu-header d-lg-none">
+        <picture>
+          <source
+            srcset="{{ 'assets/img/icons/optikalbahari.png' | cloudinary_url: 'w_40,f_avif,q_auto' }} 1x,
+                    {{ 'assets/img/icons/optikalbahari.png' | cloudinary_url: 'w_80,f_avif,q_auto' }} 2x"
+            type="image/avif">
+
+          <source
+            srcset="{{ 'assets/img/icons/optikalbahari.png' | cloudinary_url: 'w_40,f_webp,q_auto' }} 1x,
+                    {{ 'assets/img/icons/optikalbahari.png' | cloudinary_url: 'w_80,f_webp,q_auto' }} 2x"
+            type="image/webp">
+
+          <img
+            src="{{ 'assets/img/icons/optikalbahari.png' | cloudinary_url: 'w_40,q_auto,f_auto' }}"
+            alt="{{ site.title | escape }}"
+            width="40"
+            height="40"
+            loading="lazy"
+            class="mobile-menu-logo"
+          />
+        </picture>
+        <span class="mobile-menu-brand">{{ site.title | escape }}</span>
+      </div>
+
       <!-- 2. Links Area (Center Aligned) -->
       <ul class="navbar-nav mx-auto align-items-center clearfix">
         {% include navigation/navbar-links.html %}

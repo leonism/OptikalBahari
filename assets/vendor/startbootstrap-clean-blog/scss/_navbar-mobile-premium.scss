@@ -1,0 +1,324 @@
+// Premium Mobile Navigation - Sliding from Right
+// This file handles the mobile navigation menu that slides in from the right side
+
+// Mobile Menu Overlay (backdrop)
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+              visibility 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 999;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+// Mobile Navigation Styles
+@media (max-width: 991.98px) {
+  #mainNav {
+    .navbar-collapse {
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      width: 80%;
+      max-width: 400px;
+      background: linear-gradient(135deg,
+        rgba(255, 255, 255, 0.98) 0%,
+        rgba(248, 249, 250, 0.98) 100%);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      box-shadow: -8px 0 32px rgba(0, 0, 0, 0.15);
+      transform: translateX(100%);
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      z-index: 1000;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 0;
+
+      // Smooth scrolling
+      -webkit-overflow-scrolling: touch;
+
+      // Custom scrollbar
+      &::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.05);
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 3px;
+
+        &:hover {
+          background: rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      // Active state - slide in
+      &.show {
+        transform: translateX(0);
+      }
+
+      // Collapsing animation
+      &.collapsing {
+        height: 100vh !important;
+        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    }
+
+    // Close button styling
+    .mobile-menu-close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 44px;
+      height: 44px;
+      border: none;
+      background: rgba(0, 0, 0, 0.05);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      z-index: 1001;
+
+      svg {
+        color: $gray-900;
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.1);
+        transform: rotate(90deg);
+
+        svg {
+          transform: scale(1.1);
+        }
+      }
+
+      &:active {
+        transform: rotate(90deg) scale(0.95);
+      }
+    }
+
+    // Mobile menu header (Logo + Brand)
+    .mobile-menu-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 30px 30px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      margin-bottom: 20px;
+      opacity: 0;
+      animation: fadeInDown 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.1s forwards;
+
+      .mobile-menu-logo {
+        margin-bottom: 12px;
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
+      }
+
+      .mobile-menu-brand {
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+        color: $gray-900;
+        text-align: center;
+        font-smooth: antialiased;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    }
+
+    // Navigation links container
+    .navbar-nav {
+      padding: 0 30px 30px;
+      text-align: left;
+      align-items: flex-start !important;
+
+      .nav-item {
+        width: 100%;
+        margin: 0;
+        opacity: 0;
+        transform: translateX(30px);
+        animation: slideInRight 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+
+        // Staggered animation for each item
+        @for $i from 1 through 10 {
+          &:nth-child(#{$i}) {
+            animation-delay: #{0.05 + ($i * 0.05)}s;
+          }
+        }
+
+        .nav-link {
+          padding: 18px 20px;
+          font-size: 16px;
+          font-weight: 700;
+          letter-spacing: 0.5px;
+          color: $gray-900;
+          border-radius: 12px;
+          margin-bottom: 8px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          position: relative;
+          overflow: hidden;
+
+          // Hover effect background
+          &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg,
+              rgba($primary, 0.1) 0%,
+              rgba($primary, 0.05) 100%);
+            transform: translateX(-100%);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: -1;
+          }
+
+          &:hover {
+            color: $primary;
+            transform: translateX(8px);
+            padding-left: 28px;
+
+            &::before {
+              transform: translateX(0);
+            }
+          }
+
+          &:active {
+            transform: translateX(8px) scale(0.98);
+          }
+
+          // Badge styling for mobile
+          .badge {
+            font-size: 10px;
+            padding: 4px 8px;
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Slide in animation keyframes
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+// Fade in down animation for mobile menu header
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Dark mode support
+[data-bs-theme="dark"] {
+  @media (max-width: 991.98px) {
+    #mainNav {
+      .navbar-collapse {
+        background: linear-gradient(135deg,
+          rgba(33, 37, 41, 0.98) 0%,
+          rgba(23, 27, 31, 0.98) 100%);
+        box-shadow: -8px 0 32px rgba(0, 0, 0, 0.5);
+
+        &::-webkit-scrollbar-track {
+          background: rgba(255, 255, 255, 0.05);
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background: rgba(255, 255, 255, 0.2);
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.3);
+          }
+        }
+      }
+
+      .mobile-menu-close {
+        background: rgba(255, 255, 255, 0.1);
+
+        svg {
+          color: $white;
+        }
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.15);
+        }
+      }
+
+      .mobile-menu-header {
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+
+        .mobile-menu-brand {
+          color: $white;
+        }
+      }
+
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            color: $white;
+
+            &::before {
+              background: linear-gradient(135deg,
+                rgba($primary, 0.2) 0%,
+                rgba($primary, 0.1) 100%);
+            }
+
+            &:hover {
+              color: lighten($primary, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .mobile-menu-overlay {
+    background: rgba(0, 0, 0, 0.8);
+  }
+}
+
+// Prevent body scroll when menu is open
+body.mobile-menu-open {
+  overflow: hidden;
+
+  @media (min-width: 992px) {
+    overflow: auto;
+  }
+}

@@ -80,6 +80,111 @@
       }
     })
 
+    // Premium Mobile Navigation Handling
+    const mobileMenuOverlay = document.querySelector('#mobileMenuOverlay')
+    const mobileMenuClose = document.querySelector('#mobileMenuClose')
+    const navbarCollapse = document.querySelector('#navbarResponsive')
+    const navbarToggler = document.querySelector('.navbar-toggler')
+
+    // Function to open mobile menu
+    function openMobileMenu() {
+      if (mobileMenuOverlay) {
+        mobileMenuOverlay.classList.add('active')
+      }
+      document.body.classList.add('mobile-menu-open')
+    }
+
+    // Function to close mobile menu
+    function closeMobileMenu() {
+      if (mobileMenuOverlay) {
+        mobileMenuOverlay.classList.remove('active')
+      }
+      document.body.classList.remove('mobile-menu-open')
+
+      // Close the Bootstrap collapse
+      if (navbarToggler instanceof HTMLElement && navbarCollapse?.classList.contains('show')) {
+        navbarToggler.click()
+      }
+    }
+
+    // Listen for Bootstrap collapse events
+    if (navbarCollapse) {
+      navbarCollapse.addEventListener('show.bs.collapse', function () {
+        // Only apply mobile menu behavior on mobile screens
+        if (window.innerWidth < 992) {
+          openMobileMenu()
+        }
+      })
+
+      navbarCollapse.addEventListener('hide.bs.collapse', function () {
+        if (window.innerWidth < 992) {
+          closeMobileMenu()
+        }
+      })
+    }
+
+    // Close button click handler
+    if (mobileMenuClose) {
+      mobileMenuClose.addEventListener('click', function (e) {
+        e.preventDefault()
+        e.stopPropagation()
+        closeMobileMenu()
+      })
+    }
+
+    // Overlay click handler
+    if (mobileMenuOverlay) {
+      mobileMenuOverlay.addEventListener('click', function () {
+        closeMobileMenu()
+      })
+    }
+
+    // Close menu when clicking on nav links (mobile only)
+    const navLinks = document.querySelectorAll('#navbarResponsive .nav-link')
+    navLinks.forEach(function (link) {
+      link.addEventListener('click', function () {
+        if (window.innerWidth < 992) {
+          // Small delay to allow navigation to start
+          setTimeout(function () {
+            closeMobileMenu()
+          }, 300)
+        }
+      })
+    })
+
+    // Handle window resize - close menu if resized to desktop
+    let resizeTimer
+    window.addEventListener('resize', function () {
+      clearTimeout(resizeTimer)
+      resizeTimer = setTimeout(function () {
+        if (window.innerWidth >= 992 && navbarCollapse?.classList.contains('show')) {
+          closeMobileMenu()
+        }
+      }, 250)
+    })
+
+    // Prevent scroll on body when menu is open (additional safety)
+    if (navbarCollapse) {
+      const observer = new MutationObserver(function (mutations) {
+        mutations.forEach(function (mutation) {
+          if (mutation.attributeName === 'class') {
+            const isOpen = navbarCollapse.classList.contains('show')
+            if (isOpen && window.innerWidth < 992) {
+              document.body.style.overflow = 'hidden'
+            } else {
+              document.body.style.overflow = ''
+            }
+          }
+        })
+      })
+
+      observer.observe(navbarCollapse, {
+        attributes: true,
+        attributeFilter: ['class']
+      })
+    }
+
+
     // Theme toggle handling
     /** @type {HTMLInputElement | null} */
     const themeToggle = document.querySelector('#themeToggle')
