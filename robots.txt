@@ -17,6 +17,15 @@ Disallow: /cgi-bin/
 Disallow: /cdn-cgi/
 
 # ==========================================
+# ROBOTS.TXT for https://www.optikalbahari.com
+# Strategy: Open Access for AI Training Data
+# ==========================================
+
+User-Agent: *
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+Allow: /
+
+# ==========================================
 # SITEMAP
 # ==========================================
 Sitemap: {{ site.url }}/sitemap.xml
