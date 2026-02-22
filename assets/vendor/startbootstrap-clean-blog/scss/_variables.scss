@@ -23,7 +23,8 @@ $green: #0db434 !default;
 $teal: #0085a1 !default;
 $cyan: #17a2b8 !default;
 $red: #ed4833 !default;
-$redLips: #ed4833 !default;
+$redLips: #f0442d !default;
+$redBahari: #DC4245 !default;
 
 // Light Theme variables
 $light-bg: #ffffff;
@@ -32,6 +33,10 @@ $light-link: #007bff;
 $light-card: #f8f9fa;
 $light-badge-text: #ffffff;
 $light-footer: #f7f7f7; // Light neutral background
+
+// Image Overlay Gradients
+$gradient-light: linear-gradient(180deg, rgba(147, 118, 70, 0) 4.5%, rgba(121, 90, 74, 0.33) 34.5%, #462252 100%);
+$gradient-dark: linear-gradient(180deg, rgba(20, 29, 43, 0.10), rgba(20, 29, 43, 0.95));
 
 // Dark Mode Variables:
 $dark-bg: #141d2b; // Primary dark background

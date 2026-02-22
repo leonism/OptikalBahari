@@ -171,7 +171,7 @@ header.masthead .overlay {
 /* ---------------------------------------- */
 body.dark-mode {
   .masthead::before {
-    background: rgba(0, 0, 0, 0.8); // 80% dim overlay
+    background: rgba(0, 0, 0, 0.8); // 20% dim overlay
   }
 
   /* MODIFIED: Keep headings "Lit" (Glow effect) */

@@ -3,14 +3,14 @@
   margin: 0;
   position: absolute;
   top: 0;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.85);
   @include sans-serif-font;
   width: 100%;
   z-index: 1000;
   transition: all 0.3s ease-in-out;
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
-  backdrop-filter: blur(200px) saturate(160%);
-  -webkit-backdrop-filter: blur(200px) saturate(160%);
+  backdrop-filter: blur(15px) saturate(160%);
+  -webkit-backdrop-filter: blur(15px) saturate(160%);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   .navbar-brand {
@@ -68,7 +68,9 @@
     &.is-fixed {
       position: fixed;
       top: 0;
-      background-color: white;
+      background-color: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(15px) saturate(160%);
+      -webkit-backdrop-filter: blur(15px) saturate(160%);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
@@ -174,6 +176,20 @@
 
     &.is-visible {
       transform: translate3d(0, 100%, 0);
+    }
+  }
+}
+
+body.dark-mode {
+  #mainNav {
+    background-color: rgba(26, 35, 50, 0.85) !important;
+    &.is-fixed {
+      background-color: rgba(26, 35, 50, 0.85) !important;
+    }
+    @media (min-width: 992px) {
+      &.is-fixed {
+        background-color: rgba(26, 35, 50, 0.85) !important;
+      }
     }
   }
 }
