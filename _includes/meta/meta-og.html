@@ -4,7 +4,14 @@
   {% assign type = 'website' %}
 {% endif %}
 
-<meta property="og:type" content="{{ type }}" />
+<meta
+  property="og:type"
+  content="{{ type }}"
+/>
+<meta
+  property="og:locale"
+  content="{{ page.lang }}"
+/>
 <meta
   property="og:url"
   content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"

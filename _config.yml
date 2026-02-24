@@ -95,7 +95,7 @@ sass:
     - color-functions
 
 # Build Command
-build_command: "bundle exec jekyll build && bash _scripts/post-built/post-build.sh"
+# build_command: "bundle exec jekyll build && bash _scripts/post-built/post-build.sh"
 
 # Asset Processor Configuration
 asset_processor:
