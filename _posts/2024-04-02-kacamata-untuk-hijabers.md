@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Panduan Memilih Kacamata Hijabers yang Tepat
-subtitle: Optikal Bahari hadir untuk membantu kamu mengenali karakteristik wajahmu
+subtitle:
+  'Temukan kacamata untuk hijabers yang pas dengan panduan ini. Dapatkan tips dan trik untuk tampil
+  modis dengan kacamata hijab yang sesuai dengan gayamu'
 description:
   'Temukan kacamata untuk hijabers yang pas dengan panduan ini. Dapatkan tips dan trik untuk tampil
   modis dengan kacamata hijab yang sesuai dengan gayamu. Baca sekarang di Optikal Bahari'

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: '8 Merk Frame Kacamata Terkenal Dunia'
-subtitle: Kita Kulik Habis Semuanya Disini
+subtitle:
+  'Fakta menarik dan pastinya unik dari 8 merk frame kacamata yang terkenal dan terbagus di dunia
+  dirangkum oleh team Optikal Bahari'
 description:
   'Fakta menarik dan pastinya unik dari 8 merk frame kacamata yang terkenal dan terbagus di dunia
   dirangkum oleh team Optikal Bahari'

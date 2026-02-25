@@ -1,9 +1,12 @@
 ---
 layout: post
-title: Tren Kacamata Hitam Wanita, Wajib Dimiliki
-subtitle: Gaya Terkini Kacamata Hitam Wanita yang Bikin Kamu Kepincut
-description: 'Temukan tren terkini kacamata hitam wanita & solusi gaya dari Optikal Bahari. Dapatkan pemeriksaan mata
-gratis & koleksi kacamata berkualitas.'
+title: 'Tren Kacamata Hitam Wanita, Wajib Dimiliki'
+subtitle:
+  'Temukan tren terkini kacamata hitam wanita & solusi gaya dari Optikal Bahari. Dapatkan
+  pemeriksaan mata gratis & koleksi kacamata berkualitas'
+description:
+  'Temukan tren terkini kacamata hitam wanita & solusi gaya dari Optikal Bahari. Dapatkan
+  pemeriksaan mata gratis & koleksi kacamata berkualitas'
 keywords: 'kacamata hitam wanita, trend kacamata hitam wanita, koleksi kacamata hitam'
 lang: id-ID
 date: '2024-04-21 08:25:23 +0700'

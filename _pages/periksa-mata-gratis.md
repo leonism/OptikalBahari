@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Periksa Mata Gratis Di Optikal Bahari
-subtitle: Disarankan Untuk Melakukan Pemeriksaan Mata Setiap 6 Bulan Sekali
+subtitle:
+  'Periksa mata gratis, 2 tahapan pemeriksaaan, bergaransi, pembayaran cicilan 0%, menerima Program
+  KJP, kunjungi segera Optikal Bahari'
 description:
-  Periksa mata gratis, 2 tahapan pemeriksaaan, bergaransi, pembayaran cicilan 0%, menerima Program
-  KJP, kunjungi segera Optikal Bahari.
+  'Periksa mata gratis, 2 tahapan pemeriksaaan, bergaransi, pembayaran cicilan 0%, menerima Program
+  KJP, kunjungi segera Optikal Bahari'
 keywords:
   'Periksa Mata, Periksa Mata Gratis, Periksa Mata Gratis Jakarta, Periksa Mata Jakarta Pusat'
 lang: id-ID

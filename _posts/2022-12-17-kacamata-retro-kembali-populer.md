@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Kacamata Retro Mengapa Tren ini Kembali Populer?
-subtitle: Berpadu Padan Dengan Gaya Unik Anda
-description: "Kacamata retro, mengapa tren ini kembali populer dan bagaimana cara memadukannya dengan gaya keseharian
-Anda? Berikut
-adalah tips and trik dalam penerapannya"
+subtitle:
+  'Kacamata retro, mengapa tren ini kembali populer dan bagaimana cara memadukannya dengan gaya
+  keseharian Anda? Berikut adalah tips and trik dalam penerapannya'
+description:
+  'Kacamata retro, mengapa tren ini kembali populer dan bagaimana cara memadukannya dengan gaya
+  keseharian Anda? Berikut adalah tips and trik dalam penerapannya'
 keywords: 'kacamata retro, kacamata vintage, gaya retro dan vintage'
 lang: id-ID
 date: '2022-12-17 07:25:23 +0700'

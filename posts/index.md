@@ -18,45 +18,43 @@ pagination:
 
 <!-- Section 1: First 3 posts -->
 <section id="posts-category-section-1">
-    <div class="container container-overlap">
         <div class="row">
-            {% assign posts = paginator.posts | slice: 0, 3 %}
-            {% for post in posts %}
-            <div
-                class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
-                <div class="card shadow p-0 rounded hover-zoomin">
-                    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                        {%- include cloudinary/thumbnail_image.html
-                            src=post.background
-                            alt=post.title
-                            class="card-img-top img-fluid"
-                            ratio="ratio-16x9"
-                        -%}
-                    </a>
-                    <div class="card-body">
-                        <h3 class="card-title">
-                            {{ post.title | truncate: 50 }}
-                        </h3>
-                        <p class="card-text">
-                            {{ post.description | strip_html | truncate: 120 }}
-                        </p>
-                        <a class="btn btn-primary rounded-pill mt-3 text-white"
-                            href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                            Lebih Lanjut
+                {% assign posts = paginator.posts | slice: 0, 3 %}
+                {% for post in posts %}
+                <div
+                    class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
+                    <div class="card shadow p-0 rounded hover-zoomin">
+                        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
+                            {%- include cloudinary/thumbnail_image.html
+                                src=post.background
+                                alt=post.title
+                                class="card-img-top img-fluid"
+                                ratio="ratio-16x9"
+                            -%}
                         </a>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">
-                                Posted by {{ post.author | default: site.author }}, on
-                                {{ post.date | date: '%b %d, %Y' }} ·
-                                {% include postcards/read_time.html content=post.content %}
-                        </small>
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                {{ post.title | truncate: 50 }}
+                            </h3>
+                            <p class="card-text">
+                                {{ post.description | strip_html | truncate: 120 }}
+                            </p>
+                            <a class="btn btn-primary rounded-pill mt-3 text-white"
+                                href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                                Lebih Lanjut
+                            </a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                    Posted by {{ post.author | default: site.author }}, on
+                                    {{ post.date | date: '%b %d, %Y' }} ·
+                                    {% include postcards/read_time.html content=post.content %}
+                            </small>
+                        </div>
                     </div>
                 </div>
-            </div>
-            {% endfor %}
+                {% endfor %}
         </div>
-    </div>
 </section>
 
 {% include home/home-cards-main.html %}
@@ -65,38 +63,38 @@ pagination:
 <section id="posts-category-section-2">
     <div class="container">
         <div class="row">
-            {% assign posts = paginator.posts | slice: 3, 3 %}
-            {% for post in posts %}
-            <div
-                class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
-                <div class="card shadow p-0 rounded hover-zoomin">
-                    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                        {%- include cloudinary/thumbnail_image.html
-                            src=post.background
-                            alt=post.title
-                            class="card-img-top img-fluid"
-                            ratio="ratio-16x9"
-                        -%}
-                    </a>
-                    <div class="card-body">
-                        <h3 class="card-title">{{ post.title | truncate: 50 }}</h3>
-                        <p class="card-text">
-                            {{ post.description | strip_html | truncate: 120 }}
-                        </p>
-                        <a class="btn btn-primary rounded-pill mt-3 text-white"
-                            href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                            Lebih Lanjut
+                {% assign posts = paginator.posts | slice: 3, 3 %}
+                {% for post in posts %}
+                <div
+                    class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
+                    <div class="card shadow p-0 rounded hover-zoomin">
+                        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
+                            {%- include cloudinary/thumbnail_image.html
+                                src=post.background
+                                alt=post.title
+                                class="card-img-top img-fluid"
+                                ratio="ratio-16x9"
+                            -%}
                         </a>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Posted by {{ post.author | default: site.author }}, on
-                            {{ post.date | date: '%b %d, %Y' }} ·
-                            {% include postcards/read_time.html content=post.content %}
-                        </small>
+                        <div class="card-body">
+                            <h3 class="card-title">{{ post.title | truncate: 50 }}</h3>
+                            <p class="card-text">
+                                {{ post.description | strip_html | truncate: 120 }}
+                            </p>
+                            <a class="btn btn-primary rounded-pill mt-3 text-white"
+                                href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                                Lebih Lanjut
+                            </a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Posted by {{ post.author | default: site.author }}, on
+                                {{ post.date | date: '%b %d, %Y' }} ·
+                                {% include postcards/read_time.html content=post.content %}
+                            </small>
+                        </div>
                     </div>
                 </div>
-            </div>
-            {% endfor %}
+                {% endfor %}
         </div>
     </div>
 </section>
@@ -107,44 +105,43 @@ pagination:
 <section id="posts-category-section-3">
     <div class="container">
         <div class="row">
-            {% assign posts = paginator.posts | slice: 6, 3 %}
-            {% for post in posts %}
-            <div
-                class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
-                <div class="card shadow p-0 rounded hover-zoomin">
-                    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                        {%- include cloudinary/thumbnail_image.html
-                            src=post.background
-                            alt=post.title
-                            class="card-img-top img-fluid"
-                            ratio="ratio-16x9"
-                        -%}
-                    </a>
-                    <div class="card-body">
-                        <h3 class="card-title">
-                            {{ post.title | truncate: 50 }}
-                        </h3>
-                        <p class="card-text">
-                            {{ post.description | strip_html | truncate: 120 }}
-                        </p>
-                        <a class="btn btn-primary rounded-pill mt-3 text-white"
-                            href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                            Lebih Lanjut
+                {% assign posts = paginator.posts | slice: 6, 3 %}
+                {% for post in posts %}
+                <div
+                    class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
+                    <div class="card shadow p-0 rounded hover-zoomin">
+                        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
+                            {%- include cloudinary/thumbnail_image.html
+                                src=post.background
+                                alt=post.title
+                                class="card-img-top img-fluid"
+                                ratio="ratio-16x9"
+                            -%}
                         </a>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Posted by {{ post.author | default: site.author }}, on
-                            {{ post.date | date: '%b %d, %Y' }} ·
-                            {% include postcards/read_time.html content=post.content %}
-                        </small>
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                {{ post.title | truncate: 50 }}
+                            </h3>
+                            <p class="card-text">
+                                {{ post.description | strip_html | truncate: 120 }}
+                            </p>
+                            <a class="btn btn-primary rounded-pill mt-3 text-white"
+                                href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                                Lebih Lanjut
+                            </a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Posted by {{ post.author | default: site.author }}, on
+                                {{ post.date | date: '%b %d, %Y' }} ·
+                                {% include postcards/read_time.html content=post.content %}
+                            </small>
+                        </div>
                     </div>
                 </div>
-            </div>
-            {% endfor %}
+                {% endfor %}
         </div>
     </div>
 </section>
 
 {% include home/home-cards-glasses.html %}
-
 {% include navigation/pagination.html paginate_path="/posts/page/:num/" %}

@@ -81,7 +81,7 @@
     "*.md": "markdown",
     "*.markdown": "jekyll",
     "*.liquid": "jekyll",
-    "*.html": "html"
+    "*.html": "liquid"
   },
   "emmet.includeLanguages": {
     "jekyll": "html",
