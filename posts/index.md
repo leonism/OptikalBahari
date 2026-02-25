@@ -38,7 +38,7 @@ pagination:
                             {{ post.title | truncate: 50 }}
                         </h3>
                         <p class="card-text">
-                            {{ post.description | strip_html | truncate: 100 }}
+                            {{ post.description | strip_html | truncate: 120 }}
                         </p>
                         <a class="btn btn-primary rounded-pill mt-3 text-white"
                             href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -81,7 +81,7 @@ pagination:
                     <div class="card-body">
                         <h3 class="card-title">{{ post.title | truncate: 50 }}</h3>
                         <p class="card-text">
-                            {{ post.description | strip_html | truncate: 100 }}
+                            {{ post.description | strip_html | truncate: 120 }}
                         </p>
                         <a class="btn btn-primary rounded-pill mt-3 text-white"
                             href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -125,7 +125,7 @@ pagination:
                             {{ post.title | truncate: 50 }}
                         </h3>
                         <p class="card-text">
-                            {{ post.description | strip_html | truncate: 100 }}
+                            {{ post.description | strip_html | truncate: 120 }}
                         </p>
                         <a class="btn btn-primary rounded-pill mt-3 text-white"
                             href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">

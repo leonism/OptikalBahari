@@ -18,7 +18,7 @@ comments: false
 
 <!-- Section 1: Lensa -->
 <section id="posts-category-lensa">
-  <div class="container">
+  <div class="container container-overlap">
     <div class="row">
       {% for post in site.categories.Lensa limit:3 offset:0 %}
         {% if forloop.first %}
@@ -35,7 +35,7 @@ comments: false
             <div class="card-body">
               <h3 class="card-title">{{ post.title | truncate: 50 }}</h3>
               <p class="card-text text-start">
-                {{ post.description | strip_html | truncate: 100 }}
+                {{ post.description | strip_html | truncate: 120 }}
                 <a class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none text-white"
                   href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
                   title="{{ post.title }}">
@@ -83,7 +83,7 @@ comments: false
             <div class="card-body">
               <h3 class="card-title">{{ post.title | truncate: 50 }}</h3>
               <p class="card-text text-start">
-                {{ post.description | strip_html | truncate: 100 }}
+                {{ post.description | strip_html | truncate: 120 }}
                 <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none text-white"
                   href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
                   title="{{ post.title }}">
@@ -131,7 +131,7 @@ comments: false
             <div class="card-body">
               <h3 class="card-title">{{ post.title | truncate: 50 }}</h3>
               <p class="card-text text-start">
-                {{ post.description | strip_html | truncate: 100 }}
+                {{ post.description | strip_html | truncate: 120 }}
                 <a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none text-white"
                   href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
                   title="{{ post.title }}">

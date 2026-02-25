@@ -91,7 +91,7 @@ comments: false
 					{{ post.title | truncate: 50 }}
 				</h3>
 				<p class="card-text text-start">
-					{{ post.description | strip_html | truncate: 100 }}
+					{{ post.description | strip_html | truncate: 120 }}
 					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
 						href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 						title="{{ post.title }}">Lebih Lanjut
@@ -143,7 +143,7 @@ comments: false
 					{{ post.title | truncate: 50 }}
 				</h3>
 				<p class="card-text text-start">
-					{{ post.description | strip_html | truncate: 100 }}
+					{{ post.description | strip_html | truncate: 120 }}
 					<a class="btn btn-primary rounded-pill mt-3 align-text-bottom text-decoration-none"
 						href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 						title="{{ post.title }}">Lebih Lanjut

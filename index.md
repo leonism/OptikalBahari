@@ -18,7 +18,7 @@ background: /assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-014.webp
 
 {% include navigation/navbar.html %}
 {% include cloudinary/masthead.html %}
-<div class="container">
+<div class="container container-overlap">
   <div class="row">
     <div class="col-lg-10 col-md-10 mx-auto">
       {% include home/home-cards-main.html %}
