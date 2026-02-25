@@ -18,7 +18,7 @@ pagination:
 
 <!-- Section 1: First 3 posts -->
 <section id="posts-category-section-1">
-    <div class="container">
+    <div class="container container-overlap">
         <div class="row">
             {% assign posts = paginator.posts | slice: 0, 3 %}
             {% for post in posts %}
