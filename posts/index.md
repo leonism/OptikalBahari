@@ -59,6 +59,8 @@ pagination:
     </div>
 </section>
 
+{% include home/home-cards-main.html %}
+
 <!-- Section 2: Next 3 posts -->
 <section id="posts-category-section-2">
     <div class="container">
@@ -98,6 +100,8 @@ pagination:
         </div>
     </div>
 </section>
+
+{% include home/home-cards-benefit.html %}
 
 <!-- Section 3: Last 3 posts -->
 <section id="posts-category-section-3">
@@ -140,5 +144,7 @@ pagination:
         </div>
     </div>
 </section>
+
+{% include home/home-cards-glasses.html %}
 
 {% include navigation/pagination.html paginate_path="/posts/page/:num/" %}

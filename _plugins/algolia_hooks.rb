@@ -1,4 +1,4 @@
-require 'jekyll-algolia'
+ require 'jekyll-algolia'
 
 # Custom hooks for Algolia indexing
 module Jekyll
