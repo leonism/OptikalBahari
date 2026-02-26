@@ -31,11 +31,14 @@
     - e_blur:1000: Maximum blur.
   {%- endcomment -%}
   {%- capture placeholder_params -%}c_limit,w_50,e_blur:1000,q_auto:low,f_auto{%- endcapture -%}
-  {%- assign lqp_url = clean_src | cloudinary_url: placeholder_params -%}
+
+  {%- comment -%} UPDATE: Replaced standard Cloudinary domain with custom proxy domain {%- endcomment -%}
+  {%- assign lqp_url = clean_src | cloudinary_url: placeholder_params | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' -%}
 
   <div class="image-ratio-wrapper {{ image_ratio }} blur-up-container" style="background-image: url('{{ lqp_url }}'); background-size: cover; background-position: center;">
+    {%- comment -%} UPDATE: Applied domain replacement filter to the main image source {%- endcomment -%}
     <img
-      src="{{ clean_src | cloudinary_url: thumb_params }}"
+      src="{{ clean_src | cloudinary_url: thumb_params | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }}"
       alt="{{ image_alt }}"
       class="{{ image_class }} blur-target transition-opacity loading"
       style="object-fit: cover; object-position: center; width: 100%; height: 100%; opacity: 50;"

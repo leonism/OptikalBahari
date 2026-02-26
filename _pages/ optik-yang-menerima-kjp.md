@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Optikal Bahari, Solusi Kacamata untuk Pemegang Kartu Jakarta Pintar (KJP)
-subtitle: Optikal Bahari Bisa Bayar Dengan Kartu Jakarta Pintar
+subtitle:
+  'Optikal Bahari Siap Melayani Anda, Gunakan KJP Untuk Belanja Kacamata Terbaik. Kunjungi Kami
+  Sekarang & Rasakan Pengalaman Berbelanja Yang Menyenangkan'
 description:
-  Optikal Bahari Siap Melayani Anda, Gunakan KJP Untuk Belanja Kacamata Terbaik. Kunjungi Kami
-  Sekarang & Rasakan Pengalaman Berbelanja Yang Menyenangkan
+  'Optikal Bahari Siap Melayani Anda, Gunakan KJP Untuk Belanja Kacamata Terbaik. Kunjungi Kami
+  Sekarang & Rasakan Pengalaman Berbelanja Yang Menyenangkan'
 keywords: 'Optikal Bahari, KJP, Kartu Jaminan Pintar, Optik KJP'
 lang: id-ID
 date: '2019-08-19 08:25:23 +0700'
