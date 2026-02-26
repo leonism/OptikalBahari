@@ -1,7 +1,11 @@
-{%- comment -%} Determine and sanitize the image path {%- endcomment -%}
+{%- comment -%}
+  Determine and sanitize the image path
+{%- endcomment -%}
 {% assign schema_image = page.image.path | default: page.background %}
   {% if schema_image %}
-  {%- comment -%} UPDATE: Applied custom domain replacement filter {%- endcomment -%}
+  {%- comment -%}
+    UPDATE: Applied custom domain replacement filter
+  {%- endcomment -%}
   {% assign final_schema_image = schema_image | cloudinary_url: 'q_auto,f_jpg,w_1200' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: ".jpg" %}
 {% else %}
   {% assign final_schema_image = site.og_image | prepend: site.baseurl | prepend: site.url %}
