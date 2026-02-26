@@ -2,7 +2,7 @@
   {
     "@context": "http://schema.org",
     "@type": "Organization",
-    "image": "{{ site.url }} {{ page.background }}",
+    "image": "{{ page.background | cloudinary_url: 'q_auto,f_jpg' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' }}",
     "url": "{{ site.url }}",
     "sameAs": [
       "https://www.facebook.com/OptikalBahari",
@@ -11,12 +11,14 @@
       "https://www.instagram.com/optikalbahari/",
       "https://twitter.com/OptikalBahari"
     ],
-    "logo": "{{ 'assets/optikalbahari.png' | cloudinary_url: 'q_auto,f_png' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ 'assets/img/icons/optikalbahari.png' | cloudinary_url: 'q_auto,f_png' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.png' }}",
+      "width": 600,
+      "height": 60
+    },
     "name": {{ site.author_name | jsonify }},
-    "description": "{% if page.description.size > 10 %} {{ page.description | truncate: 160 }}
-  {% else %}
-    {{ site.description | truncate: 160 }}
-    {% endif %}",
+    "description": "{% if page.description.size > 10 %} {{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}",
     "email": "optikalbahari@gmail.com",
     "address": {
       "@type": "PostalAddress",
