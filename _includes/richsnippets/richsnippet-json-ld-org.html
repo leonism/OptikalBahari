@@ -11,7 +11,7 @@
       "https://www.instagram.com/optikalbahari/",
       "https://twitter.com/OptikalBahari"
     ],
-    "logo": "{{ site.url }} /assets/optikalbahari.png",
+    "logo": "{{ 'assets/optikalbahari.png' | cloudinary_url: 'q_auto,f_png' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }}",
     "name": {{ site.author_name | jsonify }},
     "description": "{% if page.description.size > 10 %} {{ page.description | truncate: 160 }}
   {% else %}

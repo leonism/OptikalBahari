@@ -18,14 +18,14 @@
       "name": {{ site.author_name | jsonify }},
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ 'assets/apple-icon-180x180.png' | cloudinary_url: 'q_auto,f_png' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }}",
+        "url": "{{ 'assets/apple-icon-180x180.png' | cloudinary_url: 'q_auto,f_png' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' }}",
         "width": 180,
         "height": 180
       }
     },
     "image": [{%- assign first_image = true -%}{%- for file in site.static_files -%}{%- if file.path contains 'assets/img/posts/' -%}{%- assign ext = file.extname | downcase -%}{%- if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.webp' -%}{%- unless first_image -%},{%- endunless -%}"{{ file.path | replace_first: '/', '' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }}"{%- assign first_image = false -%}
-      {%- endif -%}
-      {%- endif -%}
-      {%- endfor -%}]
-  }
+    {%- endif -%}
+    {%- endif -%}
+    {%- endfor -%}]
+}
 </script>

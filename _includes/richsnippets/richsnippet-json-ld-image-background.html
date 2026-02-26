@@ -2,7 +2,7 @@
   UPDATE: Generate Cloudinary URL with Custom Domain for Schema
 {%- endcomment -%}
 
-{% assign schema_img_url = page.background | cloudinary_url: 'q_auto,f_jpg' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' %}
+{% assign schema_img_url = page.background | cloudinary_url: 'q_auto,f_jpg' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' %}
 
 <script type="application/ld+json">
   {
