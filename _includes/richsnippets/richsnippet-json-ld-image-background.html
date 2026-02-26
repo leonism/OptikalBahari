@@ -11,7 +11,7 @@
     "contentUrl": "{{ schema_img_url }}",
     "license": "{{ site.url }}",
     "acquireLicensePage": "{{ site.url }}",
-    "creditText": "{{ page.author_name }}",
+    "creditText": {{ site.author_name | jsonify }},
     "creator": {
       "@type": "Person",
       "name": "{{ page.author }}"

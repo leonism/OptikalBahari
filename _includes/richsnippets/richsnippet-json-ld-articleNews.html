@@ -12,7 +12,8 @@
         {% if site.author %}
           "author" : {
             "@type": "Person",
-            "name": "{{ site.author }}"
+            "name": "{{ site.author }}",
+            "url": "{{ site.url }}"
           },
           {% endif %}
           {% if site.date %}
@@ -21,4 +22,3 @@
             "dateModified": "{{ site_modified | date: "%Y-%m-%d" }}"
           }
 </script>
-
