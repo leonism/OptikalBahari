@@ -9,7 +9,8 @@
       "creditText": {{ site.author_name | jsonify }},
       "creator": {
             "@type": "Organization",
-            "name": {{ site.author_name | jsonify }}
+            "name": {{ site.author_name | jsonify }},
+            "url": "{{ site.url }}"
         },
         "uploadDate": {{ page.date | jsonify }},
         "dateCreated": {{ page.date | jsonify }},

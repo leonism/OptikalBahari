@@ -1,30 +1,30 @@
 <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "image": "{{ site.url }}{{ page.background }}",
-  "url": "https://www.optikalbahari.com",
-  "sameAs": [
-    "https://www.facebook.com/OptikalBahari",
-    "https://id.pinterest.com/optikalbahari/",
-    "https://www.youtube.com/@optikalbahari/",
-    "https://www.instagram.com/optikalbahari/",
-    "https://twitter.com/OptikalBahari"
-  ],
-  "logo": "{{ site.url }}/assets/optikalbahari.png",
-  "name": {{ site.author_name | jsonify }},
-  "description": "{% if page.description.size > 10 %} {{ page.description | truncate: 160 }}
-    {% else %}
-      {{ site.description | truncate: 160 }}
-  {% endif %}",
-  "email": "optikalbahari@gmail.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Jalan Bendungan Jago No.447",
-    "addressLocality": "Utan Panjang, Kemayoran",
-    "addressRegion": "Jakarta Pusat",
-    "addressCountry": "ID",
-    "postalCode": "10650"
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "image": "{{ site.url }} {{ page.background }}",
+    "url": "{{ site.url }}",
+    "sameAs": [
+      "https://www.facebook.com/OptikalBahari",
+      "https://id.pinterest.com/optikalbahari/",
+      "https://www.youtube.com/@optikalbahari/",
+      "https://www.instagram.com/optikalbahari/",
+      "https://twitter.com/OptikalBahari"
+    ],
+    "logo": "{{ site.url }} /assets/optikalbahari.png",
+    "name": {{ site.author_name | jsonify }},
+    "description": "{% if page.description.size > 10 %} {{ page.description | truncate: 160 }}
+  {% else %}
+    {{ site.description | truncate: 160 }}
+    {% endif %}",
+    "email": "optikalbahari@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jalan Bendungan Jago No.447",
+      "addressLocality": "Utan Panjang, Kemayoran",
+      "addressRegion": "Jakarta Pusat",
+      "addressCountry": "ID",
+      "postalCode": "10650"
+    }
   }
-}
 </script>
