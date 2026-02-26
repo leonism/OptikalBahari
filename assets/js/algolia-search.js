@@ -13,8 +13,20 @@
 
   // Logger utility for consistent debugging
   const Logger = {
+    /**
+     * @param {any} msg
+     * @param {...any} args
+     */
     log: (msg, ...args) => console.log(`[Algolia] ${msg}`, ...args),
+    /**
+     * @param {any} msg
+     * @param {...any} args
+     */
     warn: (msg, ...args) => console.warn(`[Algolia] ⚠️ ${msg}`, ...args),
+    /**
+     * @param {any} msg
+     * @param {...any} args
+     */
     error: (msg, ...args) => console.error(`[Algolia] ❌ ${msg}`, ...args),
   }
 
@@ -243,6 +255,7 @@
             const rawImageUrl = hit.image || hit.header_image || hit.background || hit.thumbnail || hit.preview_image || ''
 
             // Cloudinary Thumbnail Logic (Ported from _includes/cloudinary/thumbnail_image.html)
+            /** @param {string} url */
             const getCloudinaryUrl = (url) => {
               if (!url) return ''
               const cloudName = 'divkqrf7k'
@@ -416,6 +429,7 @@
   function setupEventListeners() {
     // Open search overlay
     if (DOM.trigger) {
+      /** @param {Event} e */
       const openHandler = (e) => {
         Logger.log('Search trigger activated', e.type)
         if (e.cancelable) e.preventDefault()
@@ -429,6 +443,7 @@
 
     // Close search overlay
     if (DOM.closeBtn) {
+      /** @param {Event} e */
       const closeHandler = (e) => {
         if (e.cancelable) e.preventDefault()
         closeSearchOverlay()
