@@ -259,15 +259,16 @@
             const getCloudinaryUrl = (url) => {
               if (!url) return ''
               const cloudName = 'divkqrf7k'
+              const customDomain = 'assets.optikalbahari.com'
               const params = 'c_limit,w_400,h_225,q_auto:eco,f_auto,e_sharpen:60'
               let id = url
 
               // Handle full URLs
               if (id.startsWith('http')) {
                 // If it's not our cloud, return original
-                if (!id.includes(cloudName)) return id
+                if (!id.includes(cloudName) && !id.includes(customDomain)) return id
                 // Strip domain and version
-                id = id.replace(new RegExp(`^https?://res\\.cloudinary\\.com/${cloudName}/image/upload/(v\\d+/)?`), '')
+                id = id.replace(new RegExp(`^https?://(res\\.cloudinary\\.com/${cloudName}|${customDomain.replace(/\./g, '\\.')})/image/upload/(v\\d+/)?`), '')
               }
 
               // Common cleanups matching Ruby plugin
@@ -275,7 +276,7 @@
               id = id.replace(/^(.*\/)?assets\/img\//, '') // Strip assets/img/
               id = id.replace(/\.(jpg|jpeg|png|webp|gif|avif|svg)$/i, '') // Strip extension
 
-              return `https://res.cloudinary.com/${cloudName}/image/upload/${params}/${id}`
+              return `https://${customDomain}/image/upload/${params}/${id}`
             }
 
             const imageUrl = getCloudinaryUrl(rawImageUrl)
