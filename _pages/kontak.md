@@ -88,22 +88,22 @@ comments: false
 function sendToWhatsApp(event) {
   event.preventDefault(); // Prevents the page from reloading
 
-  // 1. Get your specific WhatsApp number (Must include 62, no + or 0)
-  const waNumber = "6281932235445"; // <-- CHANGE THIS TO YOUR ACTUAL WA NUMBER
+  // 1. Get your specific WhatsApp number
+  var waNumber = "6281932235445";
 
   // 2. Gather the data
-  const name = document.getElementById('wa-name').value;
-  const needs = document.getElementById('wa-needs').value;
-  const message = document.getElementById('wa-message').value;
+  var name = document.getElementById('wa-name').value;
+  var needs = document.getElementById('wa-needs').value;
+  var message = document.getElementById('wa-message').value;
 
-  // 3. Format the text for WhatsApp
-  const waText = `Halo Optikal Bahari, saya ${name}.\n\nSaya ingin: *${needs}*\n\nDetail:\n${message}`;
+  // 3. Format the text for WhatsApp (Old-school ES5 string concatenation)
+  var waText = "Halo Optikal Bahari, saya " + name + ".\n\nSaya ingin: *" + needs + "*\n\nDetail:\n" + message;
 
   // 4. Encode the text so spaces and enters work in the URL
-  const encodedText = encodeURIComponent(waText);
+  var encodedText = encodeURIComponent(waText);
 
   // 5. Open WhatsApp in a new tab
-  const waURL = `https://wa.me/${waNumber}?text=${encodedText}`;
+  var waURL = "https://wa.me/" + waNumber + "?text=" + encodedText;
   window.open(waURL, '_blank');
 }
 </script>
