@@ -86,23 +86,13 @@ comments: false
 
 <script>
 function sendToWhatsApp(event) {
-  event.preventDefault(); // Prevents the page from reloading
-
-  // 1. Get your specific WhatsApp number
+  event.preventDefault();
   var waNumber = "6281932235445";
-
-  // 2. Gather the data
   var name = document.getElementById('wa-name').value;
   var needs = document.getElementById('wa-needs').value;
   var message = document.getElementById('wa-message').value;
-
-  // 3. Format the text for WhatsApp (Old-school ES5 string concatenation)
   var waText = "Halo Optikal Bahari, saya " + name + ".\n\nSaya ingin: *" + needs + "*\n\nDetail:\n" + message;
-
-  // 4. Encode the text so spaces and enters work in the URL
   var encodedText = encodeURIComponent(waText);
-
-  // 5. Open WhatsApp in a new tab
   var waURL = "https://wa.me/" + waNumber + "?text=" + encodedText;
   window.open(waURL, '_blank');
 }
