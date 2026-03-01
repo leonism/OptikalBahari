@@ -4,6 +4,11 @@
   margin-top: -60px; /* Adjusting overlapping on mobile */
 
   @media only screen and (min-width: 768px) {
-    margin-top: -120px; /* Adjusting overlapping on desktop */
+    /*
+     * To make this overlap closer to the subtitle <h2>, we reduced
+     * 'padding-bottom' of .page-heading in _masthead.scss (from 200px to 100px).
+     * Now this margin-top will visibly bring the cards closer to the text!
+     */
+    margin-top: -110px;
   }
 }
