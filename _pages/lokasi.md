@@ -12,13 +12,14 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5 rounded">
-  {% include cloudinary/card_image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-07.webp' alt='kemayoran tempoe doeloe' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/card_image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-07.webp' alt='Bendungan Jago 447, Kemayoran Jakarta Pusat' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Biarkan Mata Anda Bersinar Bersama Optikal Bahari!
     </h3>
     <p class="card-text text-start">
-      Ingin kembali melihat dunia dengan jernih dan penuh warna? Bosan dengan kacamata yang berat dan memburam? Optikal Bahari ada untuk Anda! <strong>Bukan cuma pemeriksaan mata gratis</strong>, kami menawarkan pengalaman lebih dari itu, bayangkan :
+      Ingin kembali melihat dunia dengan jernih dan penuh warna? Bosan dengan kacamata yang berat dan memburam? Optikal Bahari ada untuk Anda! <strong>Bukan cuma pemeriksaan mata gratis
+      </strong>, kami menawarkan pengalaman lebih dari itu, bayangkan :
       <ul>
         <li>
           <strong>Senyum hangat</strong>
@@ -71,7 +72,8 @@ comments: false
           style="border:0;"
           allowfullscreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
     </div>
   </div>

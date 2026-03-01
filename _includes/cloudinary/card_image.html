@@ -22,23 +22,18 @@
   {%- endcomment -%}
   <div class="image-ratio-wrapper {{ image_ratio }} loading-skeleton blur-up-container dark-mode-dim">
     <picture>
-        {%- comment -%} UPDATE: Applied domain replacement filter to both srcset URLs {%- endcomment -%}
-      <source srcset="{{ clean_src | cloudinary_url: ai_params | append: ',w_480,h_270' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }} 480w,
-                {{ clean_src | cloudinary_url: ai_params | append: ',w_768,h_432' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }} 768w" type="image/avif" />
-        {%- comment -%} UPDATE: Applied domain replacement filter to the main image source {%- endcomment -%}
+        {%- comment -%}
+          UPDATE: Applied domain replacement filter to both srcset URLs
+        {%- endcomment -%}
+      <source srcset="
+        {{ clean_src | cloudinary_url: ai_params | append: ',w_480,h_270' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }} 480w,
+        {{ clean_src | cloudinary_url: ai_params | append: ',w_768,h_432' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }} 768w" type="image/avif" />
+        {%- comment -%}
+          UPDATE: Applied domain replacement filter to the main image source
+        {%- endcomment -%}
       <img
         src="{{ clean_src | cloudinary_url: ai_params | append: ',w_768,h_432' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }}"
         alt="{{ image_alt }}"
-        {% comment %}
-        Added
-        'loading'
-        class
-        for
-        the
-        blur-up
-        CSS
-        logic
-        {% endcomment %}
         class="{{ image_class }} blur-target transition-opacity loading"
         style="object-fit: cover; object-position: center; width: 100%; height: 100%; opacity: 50;"
         loading="lazy"
@@ -47,5 +42,8 @@
         height="432"
         onload="this.style.opacity='1'; this.classList.remove('loading'); this.classList.add('loaded'); this.parentElement.classList.remove('loading-skeleton');" />
     </picture>
+  {%- comment -%}
+    Added: 'loading' class for the blur-up CSS logic
+  {%- endcomment -%}
   </div>
 {%- endif -%}

@@ -10,12 +10,13 @@
     "@type": "ImageObject",
     "contentUrl": "{{ schema_img_url }}",
     "license": "{{ site.url }}",
+    "copyrightNotice": "{{ site.author }}",
     "acquireLicensePage": "{{ site.url }}",
     "creditText": {{ site.author_name | jsonify }},
     "creator": {
       "@type": "Person",
-      "name": "{{ page.author }}"
-    },
-    "copyrightNotice": "{{ page.author }}"
+      "name": "{{ site.author }}",
+      "url": "{{ site.url }}"
+    }
   }
 </script>
