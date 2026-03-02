@@ -4,7 +4,7 @@
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "{{ site.url }}{{ page.url }}"
+      "@id": "{{ site.url }} {{ page.url }}"
     },
     "headline": {{ page.title | jsonify }},
     "creditText": {{ site.author_name | jsonify }},
@@ -16,36 +16,28 @@
     "publisher": {
       "@type": "Organization",
       "name": {{ site.author_name | jsonify }},
+      "url": "{{ site.url }}",
       "logo": {
         "@type": "ImageObject",
         {%- comment -%}
-          NOTE: Appended .png here because f_png is specified.
-          This is the ONLY place 'append' is used.
-        {%- endcomment -%}
-        "url": "{{ 'assets/img/icons/apple-icon-180x180.png' | cloudinary_url: 'q_auto,f_png' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.png' }}",
-        "width": 180,
-        "height": 180
-      }
-    },
-    "image": [
-      {%- assign first_image = true -%}
-      {%- for file in site.static_files -%}
-        {%- if file.path contains 'assets/img/posts/' -%}
-          {%- assign ext = file.extname | downcase -%}
-          {%- if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.webp' -%}
-            {%- comment -%}
-              JSON Comma Logic
+          NOTE : Appended.png here because f_png is specified.This is the ONLY place "append" is used.
+          {%- endcomment -%}
+          "url": "{{ 'assets/img/icons/apple-icon-180x180.png' | cloudinary_url: 'q_auto,f_png' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.png' }}",
+          "width": 180,
+          "height": 180
+        }
+      },
+      "image": [{%- assign first_image = true -%}{%- for file in site.static_files -%}{%- if file.path contains 'assets/img/posts/' -%}{%- assign ext = file.extname | downcase -%}
+        {%- if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.webp' -%}
+          {%- comment -%}
+            JSON Comma Logic
             {%- endcomment -%}
-            {%- unless first_image -%},{%- endunless -%}
-            {%- comment -%}
-              NOTE: No 'append' filter here.
-              Only optimization and custom domain replacement.
-            {%- endcomment -%}
-            "{{ file.path | replace_first: '/', '' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.png' }}"
-            {%- assign first_image = false -%}
-          {%- endif -%}
-        {%- endif -%}
-      {%- endfor -%}
-    ]
-  }
+            {%- unless first_image -%},{%- endunless -%}{%- comment -%}
+              NOTE : No "append" filter here.Only optimization and custom domain replacement.
+              {%- endcomment -%}
+              "{{ file.path | replace_first: '/', '' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.png' }}"{%- assign first_image = false -%}
+              {%- endif -%}
+              {%- endif -%}
+              {%- endfor -%}]
+          }
 </script>

@@ -3,12 +3,12 @@
 {%- endcomment -%}
 {% assign schema_image = page.image.path | default: page.background %}
 
-{% if schema_image %}
+  {% if schema_image %}
   {%- comment -%}
     UPDATE: Applied custom domain replacement filter
   {%- endcomment -%}
   {% assign final_schema_image = schema_image | cloudinary_url: 'q_auto,f_jpg,w_1200' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: ".jpg" %}
-{% else %}
+  {% else %}
   {%- comment -%} Fallback to default site image {%- endcomment -%}
   {% assign final_schema_image = site.og_image | prepend: site.baseurl | prepend: site.url %}
 {% endif %}
@@ -37,6 +37,9 @@
         "image": "{{ final_schema_image }}",
         "alternativeHeadline": "{{ page.title | escape }}",
         "contentUrl": "{{ final_schema_image }}",
+        "copyrightNotice": "{{ site.url }}",
+        "isBasedOn": "{{ final_schema_image }}",
+        "isBasedOnUrl": "{{ final_schema_image }}",
         "thumbnailUrl": "{{ final_schema_image }}",
         "inLanguage": "{{ page.lang | default: 'id-ID' }}",
         "keywords": "{{ page.keywords | default: site.keywords | escape }}",

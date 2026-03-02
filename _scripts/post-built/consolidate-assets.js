@@ -1,3 +1,4 @@
+// Dependencies
 const fs = require('fs-extra')
 const path = require('path')
 
@@ -21,6 +22,7 @@ async function main() {
       description: 'Enable verbose logging',
     }).argv
 
+  // Constants
   const SITE_DIR = '_site'
   const ASSETS_DIR = path.join(SITE_DIR, 'assets')
   const DIST_DIR = path.join(ASSETS_DIR, 'dist')
