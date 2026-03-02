@@ -15,10 +15,12 @@ async function generateCriticalCSS() {
         base: '_site/',
         src: file.replace('_site/', ''),
         target: file.replace('_site/', ''),
-        width: 1300,
-        height: 900,
         extract: true,
         ignore: ['@font-face'],
+        dimensions: [
+          { width: 375, height: 667 }, // Mobile
+          { width: 1300, height: 900 }, // Desktop
+        ],
       })
     }
 
