@@ -231,6 +231,9 @@ algolia:
       - tags
       - categories
       - author
+      - unordered(custom_ranking.heading)
+      - unordered(description)
+      - unordered(headings)
     attributesForFaceting:
       - searchable(categories)
       - searchable(tags)
