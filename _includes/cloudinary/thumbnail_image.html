@@ -8,15 +8,15 @@
   {%- assign raw_src = include.src | strip -%}
   {%- assign first_char = raw_src | slice: 0 -%}
 
-  {%- if first_char == "/" -%}
+  {%- if first_char == '/' -%}
     {%- assign clean_src = raw_src | slice: 1, raw_src.size -%}
   {%- else -%}
     {%- assign clean_src = raw_src -%}
   {%- endif -%}
 
   {%- assign image_alt = include.alt | default: include.title | default: site.title | escape -%}
-  {%- assign image_class = include.class | default: "card-img-top" -%}
-  {%- assign image_ratio = include.ratio | default: "ratio-16x9" -%}
+  {%- assign image_class = include.class | default: 'card-img-top' -%}
+  {%- assign image_ratio = include.ratio | default: 'ratio-16x9' -%}
 
   {%- comment -%}
     THUMBNAIL PARAMS:
@@ -35,18 +35,18 @@
   {%- comment -%} UPDATE: Replaced standard Cloudinary domain with custom proxy domain {%- endcomment -%}
   {%- assign lqp_url = clean_src | cloudinary_url: placeholder_params | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' -%}
 
-  <div class="image-ratio-wrapper {{ image_ratio }} blur-up-container" style="background-image: url('{{ lqp_url }}'); background-size: cover; background-position: center;">
+  <div class='image-ratio-wrapper {{ image_ratio }} blur-up-container' style="background-image: url('{{ lqp_url }}'); background-size: cover; background-position: center;">
     {%- comment -%} UPDATE: Applied domain replacement filter to the main image source {%- endcomment -%}
     <img
-      src="{{ clean_src | cloudinary_url: thumb_params | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }}"
-      alt="{{ image_alt }}"
-      class="{{ image_class }} blur-target transition-opacity loading"
-      style="object-fit: cover; object-position: center; width: 100%; height: 100%; opacity: 50;"
-      loading="lazy"
-      decoding="async"
-      width="200"
-      height="120"
+      src='{{ clean_src | cloudinary_url: thumb_params | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }}'
+      alt='{{ image_alt }}'
+      class='{{ image_class }} blur-target transition-opacity loading'
+      style='object-fit: cover; object-position: center; width: 100%; height: 100%; opacity: 50;'
+      loading='lazy'
+      decoding='async'
+      width='200'
+      height='120'
       onload="this.classList.add('loaded');"
-    />
+    >
   </div>
 {%- endif -%}

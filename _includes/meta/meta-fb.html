@@ -1,18 +1,18 @@
 {%- comment -%} Determine the best image source {%- endcomment -%}
 {% assign fb_image = page.image.path | default: page.background %}
 
-  {% if fb_image %}
+{% if fb_image %}
   {%- comment -%}
     1. Generate Cloudinary URL with crop and extension
     2. Append .jpg to satisfy strict scrapers
   {%- endcomment -%}
   {%- comment -%} UPDATE: Applied custom domain replacement filter {%- endcomment -%}
-  {% assign final_fb_image = fb_image | cloudinary_url: 'q_auto,f_jpg,w_1200,h_630,c_fill' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: ".jpg" %}
+  {% assign final_fb_image = fb_image | cloudinary_url: 'q_auto,f_jpg,w_1200,h_630,c_fill' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' %}
 
-  <meta property="og:image" content="{{ final_fb_image }}" />
-  <meta property="og:image:secure_url" content="{{ final_fb_image }}" />
-  <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="{{ page.title | default: site.title | escape }}" />
+  <meta property='og:image' content='{{ final_fb_image }}'>
+  <meta property='og:image:secure_url' content='{{ final_fb_image }}'>
+  <meta property='og:image:type' content='image/jpeg'>
+  <meta property='og:image:width' content='1200'>
+  <meta property='og:image:height' content='630'>
+  <meta property='og:image:alt' content='{{ page.title | default: site.title | escape }}'>
 {% endif %}

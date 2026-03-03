@@ -1,29 +1,38 @@
 {% if post.background %}
-<picture>
-  <source
-    srcset="{{ post.background | cloudinary_url: 'w_400,f_avif,q_auto' }} 400w,
-            {{ post.background | cloudinary_url: 'w_800,f_avif,q_auto' }} 800w,
-            {{ post.background | cloudinary_url: 'w_1200,f_avif,q_auto' }} 1200w"
-    type="image/avif"
-    sizes="(max-width: 768px) 100vw, 1200px">
+  <picture>
+    <source
+      srcset='
+        {{ post.background | cloudinary_url: 'w_400,f_avif,q_auto' }} 400w,
+        {{ post.background | cloudinary_url: 'w_800,f_avif,q_auto' }} 800w,
+        {{ post.background | cloudinary_url: 'w_1200,f_avif,q_auto' }} 1200w
+      '
+      type='image/avif'
+      sizes='(max-width: 768px) 100vw, 1200px'
+    >
 
-  <source
-    srcset="{{ post.background | cloudinary_url: 'w_400,f_webp,q_auto' }} 400w,
-            {{ post.background | cloudinary_url: 'w_800,f_webp,q_auto' }} 800w,
-            {{ post.background | cloudinary_url: 'w_1200,f_webp,q_auto' }} 1200w"
-    type="image/webp"
-    sizes="(max-width: 768px) 100vw, 1200px">
+    <source
+      srcset='
+        {{ post.background | cloudinary_url: 'w_400,f_webp,q_auto' }} 400w,
+        {{ post.background | cloudinary_url: 'w_800,f_webp,q_auto' }} 800w,
+        {{ post.background | cloudinary_url: 'w_1200,f_webp,q_auto' }} 1200w
+      '
+      type='image/webp'
+      sizes='(max-width: 768px) 100vw, 1200px'
+    >
 
-  <img
-    itemprop="image"
-    src="{{ post.background | cloudinary_url: 'w_1200,q_auto' }}"
-    srcset="{{ post.background | cloudinary_url: 'w_400,q_auto' }} 400w,
-            {{ post.background | cloudinary_url: 'w_800,q_auto' }} 800w,
-            {{ post.background | cloudinary_url: 'w_1200,q_auto' }} 1200w"
-    class="card-img-top img-fluid"
-    loading="lazy"
-    alt="{{ post.title }}"
-    width="1200"
-    height="675">
-</picture>
+    <img
+      itemprop='image'
+      src='{{ post.background | cloudinary_url: 'w_1200,q_auto' }}'
+      srcset='
+        {{ post.background | cloudinary_url: 'w_400,q_auto' }} 400w,
+        {{ post.background | cloudinary_url: 'w_800,q_auto' }} 800w,
+        {{ post.background | cloudinary_url: 'w_1200,q_auto' }} 1200w
+      '
+      class='card-img-top img-fluid'
+      loading='lazy'
+      alt='{{ post.title }}'
+      width='1200'
+      height='675'
+    >
+  </picture>
 {% endif %}

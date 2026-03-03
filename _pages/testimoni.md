@@ -2,7 +2,8 @@
 layout: page
 title: Testimoni Pelanggan, Bukti Kepercayaan dan Kepuasan
 subtitle:
-  'Berikut adalah sebagian dari testimoni & review yang diberikan oleh para pelanggan setia kami di halaman Google My Business Optikal Bahari sebagai referensi'
+  'Berikut adalah sebagian dari testimoni & review yang diberikan oleh para pelanggan setia kami di
+  halaman Google My Business Optikal Bahari sebagai referensi'
 description:
   'Berikut adalah sebagian dari testimoni & review yang diberikan oleh para pelanggan setia kami di
   halaman Google My Business Optikal Bahari sebagai referensi'

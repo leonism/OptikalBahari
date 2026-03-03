@@ -6,16 +6,16 @@ lang: id-ID
 description: 'Berita seputaran perkembangan produk dan layanan terbaru dari Optikal Bahari'
 keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Optik, Kacamata, Gratis'
 ---
-
 {% include navigation/navbar.html %}
 {% include cloudinary/masthead.html %}
-  <div class="container container-overlap">
-    <div class="row">
-      <div class="col-lg-10 col-md-10 mx-auto">
-        {{ content }}
-      </div>
+<div class='container container-overlap'>
+  <div class='row'>
+    <div class='col-lg-10 col-md-10 mx-auto'>
+      {{ content }}
     </div>
-    {% comment %} {% if page.comments %}
+  </div>
+  {% comment %}
+    {% if page.comments %}
       <div
         class="fb-comments"
         data-href="{{ site.url }}{{ page.url }}"
@@ -24,31 +24,33 @@ keywords: 'Berita, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Op
         style="margin: 0 auto"
       >
       </div>
-    {% endif %} {% endcomment %}
-    <div class="clearfix">
-      {% if page.previous.url %}
+    {% endif %}
+  {% endcomment %}
+  <div class='clearfix'>
+    {% if page.previous.url %}
       <a
-        class="btn btn-primary float-start"
-        href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
-        data-bs-toggle="tooltip"
-        data-placement="top"
-        title="{{ page.previous.title }}"
+        class='btn btn-primary float-start'
+        href='{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}'
+        data-bs-toggle='tooltip'
+        data-placement='top'
+        title='{{ page.previous.title }}'
       >
         &larr; Prev
-        <span class="d-none d-md-inline">Post</span>
+        <span class='d-none d-md-inline'>Post</span>
       </a>
-      {% endif %} {% if page.next.url %}
+    {% endif %}
+    {% if page.next.url %}
       <a
-        class="btn btn-primary float-end"
-        href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
-        data-bs-toggle="tooltip"
-        data-placement="top"
-        title="{{ page.next.title }}"
+        class='btn btn-primary float-end'
+        href='{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}'
+        data-bs-toggle='tooltip'
+        data-placement='top'
+        title='{{ page.next.title }}'
       >
         Next
-        <span class="d-none d-md-inline">Post</span>
+        <span class='d-none d-md-inline'>Post</span>
         &rarr;
       </a>
-      {% endif %}
-    </div>
+    {% endif %}
   </div>
+</div>

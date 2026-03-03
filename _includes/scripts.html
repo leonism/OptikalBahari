@@ -1,38 +1,38 @@
 <script
   defer
-  src="{{'/assets/vendor/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js' | relative_url }}">
-</script>
+  src='{{'/assets/vendor/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js' | relative_url }}'
+></script>
 <script
   defer
-  src="{{'/assets/vendor/startbootstrap-clean-blog/js/clean-blog.js' | relative_url }}">
-</script>
+  src='{{'/assets/vendor/startbootstrap-clean-blog/js/clean-blog.js' | relative_url }}'
+></script>
 <script
   defer
-  src="{{'/assets/js/scripts.js' | relative_url }}">
-</script>
+  src='{{'/assets/js/scripts.js' | relative_url }}'
+></script>
 <!-- Algolia Search Scripts -->
 {% if site.algolia.application_id %}
-<script data-cfasync="false">
-  window.ALGOLIA_CONFIG = {
-    appId: "{{ site.algolia.application_id }}",
-    apiKey: "{{ site.algolia.search_only_api_key }}",
-    indexName: "{{ site.algolia.index_name }}",
-    hitsPerPage: Number("{{ site.algolia.hitsPerPage | default: 10 }}")
-  };
-</script>
-<script
-  defer
-  data-cfasync="false"
-  src="{{'/assets/vendor/startbootstrap-clean-blog/js/algoliasearch-lite.umd.js' | relative_url }}?v={{ site.time | date: '%s' }}">
-</script>
-<script
-  defer
-  data-cfasync="false"
-  src="{{'/assets/vendor/startbootstrap-clean-blog/js/instantsearch.js' | relative_url }}?v={{ site.time | date: '%s' }}">
-</script>
-<script
-  defer
-  data-cfasync="false"
-  src="{{'/assets/js/algolia-search.js' | relative_url }}?v={{ site.time | date: '%s' }}">
-</script>
+  <script data-cfasync='false'>
+    window.ALGOLIA_CONFIG = {
+      appId: '{{ site.algolia.application_id }}',
+      apiKey: '{{ site.algolia.search_only_api_key }}',
+      indexName: '{{ site.algolia.index_name }}',
+      hitsPerPage: Number('{{ site.algolia.hitsPerPage | default: 10 }}'),
+    }
+  </script>
+  <script
+    defer
+    data-cfasync='false'
+    src='{{'/assets/vendor/startbootstrap-clean-blog/js/algoliasearch-lite.umd.js' | relative_url }}?v={{ site.time | date: '%s' }}'
+  ></script>
+  <script
+    defer
+    data-cfasync='false'
+    src='{{'/assets/vendor/startbootstrap-clean-blog/js/instantsearch.js' | relative_url }}?v={{ site.time | date: '%s' }}'
+  ></script>
+  <script
+    defer
+    data-cfasync='false'
+    src='{{'/assets/js/algolia-search.js' | relative_url }}?v={{ site.time | date: '%s' }}'
+  ></script>
 {% endif %}

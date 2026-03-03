@@ -3,54 +3,54 @@
 {%- endcomment -%}
 {% assign schema_image = page.image.path | default: page.background %}
 
-  {% if schema_image %}
+{% if schema_image %}
   {%- comment -%}
     UPDATE: Applied custom domain replacement filter
   {%- endcomment -%}
-  {% assign final_schema_image = schema_image | cloudinary_url: 'q_auto,f_jpg,w_1200' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: ".jpg" %}
-  {% else %}
+  {% assign final_schema_image = schema_image | cloudinary_url: 'q_auto,f_jpg,w_1200' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' %}
+{% else %}
   {%- comment -%} Fallback to default site image {%- endcomment -%}
   {% assign final_schema_image = site.og_image | prepend: site.baseurl | prepend: site.url %}
 {% endif %}
 
-<script type="application/ld+json" class="schemantra">
-    {
-        "@context": "https://schema.org",
-        "@type": "ImageObject",
-        "isFamilyFriendly": true,
-        "license": "{{ site.url }}/license",
-        "acquireLicensePage": "{{ site.url }}/license",
-        "creditText": "{{ site.author }}",
-        "creator": {
-            "@type": "Organization",
-            "url": "{{ site.url }}",
-            "name": "{{ site.author }}"
-        },
-        "uploadDate": "{{ page.date | date_to_xmlschema }}",
-        "dateCreated": "{{ page.date | date_to_xmlschema }}",
-        "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-        "description": "{{ page.description | default: site.description | strip_html | truncate: 160 | escape }}",
-        "alternateName": "{{ page.title | escape }}",
-        "caption": "{{ page.title | escape }}",
-        "embedUrl": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "headline": "{{ page.title | escape }}",
-        "image": "{{ final_schema_image }}",
-        "alternativeHeadline": "{{ page.title | escape }}",
-        "contentUrl": "{{ final_schema_image }}",
-        "copyrightNotice": "{{ site.url }}",
-        "isBasedOn": "{{ final_schema_image }}",
-        "isBasedOnUrl": "{{ final_schema_image }}",
-        "thumbnailUrl": "{{ final_schema_image }}",
-        "inLanguage": "{{ page.lang | default: 'id-ID' }}",
-        "keywords": "{{ page.keywords | default: site.keywords | escape }}",
-        "interactionStatistic": {
-            "@type": "InteractionCounter",
-            "interactionType": {
-                "@type": "http://schema.org/ViewAction"
-            },
-            "userInteractionCount": "{{ page.views | default: 0 }}"
-        },
-        "license": "{{ site.url }}/license",
-        "copyrightNotice": "© {{ 'now' | date: '%Y' }} {{ site.author }}"
-    }
+<script type='application/ld+json' class='schemantra'>
+  {
+    "@context": "https://schema.org",
+    "@type": "ImageObject",
+    "isFamilyFriendly": true,
+    "license": "{{ site.url }}/license",
+    "acquireLicensePage": "{{ site.url }}/license",
+    "creditText": "{{ site.author }}",
+    "creator": {
+      "@type": "Organization",
+      "url": "{{ site.url }}",
+      "name": "{{ site.author }}"
+    },
+    "uploadDate": "{{ page.date | date_to_xmlschema }}",
+    "dateCreated": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+    "description": "{{ page.description | default: site.description | strip_html | truncate: 160 | escape }}",
+    "alternateName": "{{ page.title | escape }}",
+    "caption": "{{ page.title | escape }}",
+    "embedUrl": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+    "headline": "{{ page.title | escape }}",
+    "image": "{{ final_schema_image }}",
+    "alternativeHeadline": "{{ page.title | escape }}",
+    "contentUrl": "{{ final_schema_image }}",
+    "copyrightNotice": "{{ site.url }}",
+    "isBasedOn": "{{ final_schema_image }}",
+    "isBasedOnUrl": "{{ final_schema_image }}",
+    "thumbnailUrl": "{{ final_schema_image }}",
+    "inLanguage": "{{ page.lang | default: 'id-ID' }}",
+    "keywords": "{{ page.keywords | default: site.keywords | escape }}",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "http://schema.org/ViewAction"
+      },
+      "userInteractionCount": "{{ page.views | default: 0 }}"
+    },
+    "license": "{{ site.url }}/license",
+    "copyrightNotice": "© {{ 'now' | date: '%Y' }} {{ site.author }}"
+  }
 </script>

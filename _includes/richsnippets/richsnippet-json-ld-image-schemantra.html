@@ -1,57 +1,57 @@
-<script type="application/ld+json" class="schemantra">
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "ImageObject",
-      "isFamilyFriendly": true,
+<script type='application/ld+json' class='schemantra'>
+  {
+    "@context": "https://schema.org",
+    "@type": "ImageObject",
+    "@id": "ImageObject",
+    "isFamilyFriendly": true,
+    "license": "{{ site.url }}",
+    "acquireLicensePage": "{{ site.url }}",
+    "creditText": {{ site.author_name | jsonify }},
+    "creator": {
+          "@type": "Organization",
+          "name": {{ site.author_name | jsonify }},
+          "url": "{{ site.url }}"
+      },
+      "uploadDate": {{ page.date | jsonify }},
+      "dateCreated": {{ page.date | jsonify }},
+      "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+      "abstract": "{% if page.description.size > 10 %}
+          {{ page.description | truncate: 160 }}
+            {% else %}
+          {{ site.description | truncate: 160 }}
+            {% endif %}",
+      "alternateName": {{ page.title | strip | jsonify }},
+      "caption": {{ page.title | jsonify }},
+      "embedUrl": "{{ site.url }}{{ page.url }}",
+      "headline": {{ page.title | jsonify }},
+      "identifier": "{{ site.url }}",
+      "image": "{{ schema_img_url }}",
+      "alternativeHeadline": {{ page.title | jsonify }},
+      "archivedAt": "{{ site.url }}{{ page.url }}",
+      "citation": "{% if page.description.size > 10 %}
+        {{ page.description | truncate: 160 }}
+            {% else %}
+        {{ site.description | truncate: 160 }}
+            {% endif %}",
+      "contentUrl": "{{ schema_img_url }}",
+      "copyrightNotice": "{{ site.url }}",
+      "description": "{% if page.description.size > 10 %}
+        {{ page.description | truncate: 160 }}
+            {% else %}
+        {{ site.description | truncate: 160 }}
+            {% endif %}",
+      "embeddedTextCaption": "{% if page.description.size > 10 %}
+          {{ page.description | truncate: 160 }}
+            {% else %}
+          {{ site.description | truncate: 160 }}
+            {% endif %}",
+      "isBasedOn": "{{ schema_img_url }}",
+      "isBasedOnUrl": "{{ schema_img_url }}",
+      "inLanguage": "{{ page.lang }}",
+      "isPartOf": "{{ site.url }}",
       "license": "{{ site.url }}",
-      "acquireLicensePage": "{{ site.url }}",
-      "creditText": {{ site.author_name | jsonify }},
-      "creator": {
-            "@type": "Organization",
-            "name": {{ site.author_name | jsonify }},
-            "url": "{{ site.url }}"
-        },
-        "uploadDate": {{ page.date | jsonify }},
-        "dateCreated": {{ page.date | jsonify }},
-        "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
-        "abstract": "{% if page.description.size > 10 %}
-            {{ page.description | truncate: 160 }}
-              {% else %}
-            {{ site.description | truncate: 160 }}
-              {% endif %}",
-        "alternateName": {{ page.title | strip | jsonify }},
-        "caption": {{ page.title | jsonify }},
-        "embedUrl": "{{ site.url }}{{ page.url }}",
-        "headline": {{ page.title | jsonify }},
-        "identifier": "{{ site.url }}",
-        "image": "{{ schema_img_url }}",
-        "alternativeHeadline": {{ page.title | jsonify }},
-        "archivedAt": "{{ site.url }}{{ page.url }}",
-        "citation": "{% if page.description.size > 10 %}
-          {{ page.description | truncate: 160 }}
-              {% else %}
-          {{ site.description | truncate: 160 }}
-              {% endif %}",
-        "contentUrl": "{{ schema_img_url }}",
-        "copyrightNotice": "{{ site.url }}",
-        "description": "{% if page.description.size > 10 %}
-          {{ page.description | truncate: 160 }}
-              {% else %}
-          {{ site.description | truncate: 160 }}
-              {% endif %}",
-        "embeddedTextCaption": "{% if page.description.size > 10 %}
-            {{ page.description | truncate: 160 }}
-              {% else %}
-            {{ site.description | truncate: 160 }}
-              {% endif %}",
-        "isBasedOn": "{{ schema_img_url }}",
-        "isBasedOnUrl": "{{ schema_img_url }}",
-        "inLanguage": "{{ page.lang }}",
-        "isPartOf": "{{ site.url }}",
-        "license": "{{ site.url }}",
-        "mainEntityOfPage": {{ site.author_name | jsonify }},
-        "keywords": "{{ page.keywords normalize_whitespace | truncate: 160 | escape }}",
-        "thumbnailUrl": "{{ schema_img_url }}"
-    }
+      "mainEntityOfPage": {{ site.author_name | jsonify }},
+      "keywords": "{{ page.keywords normalize_whitespace | truncate: 160 | escape }}",
+      "thumbnailUrl": "{{ schema_img_url }}"
+  }
 </script>

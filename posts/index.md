@@ -3,11 +3,11 @@ layout: page
 lang: id-ID
 title: Seputaran Trend Kacamata Beserta Tips & Triks
 subtitle:
-  Artikel Terdini & Terkini Seputaran Info, Trend Kacamata, Kesehatan Mata, Tips & Trik Hanya Untuk
-  Anda
+  'Artikel Terdini & Terkini Seputaran Info, Trend Kacamata, Kesehatan Mata, Tips & Trik Hanya Untuk
+  Anda'
 description:
-  Artikel Terdini & Terkini Seputaran Info, Trend Kacamata, Kesehatan Mata, Tips & Trik Hanya Untuk
-  Anda
+  'Artikel Terdini & Terkini Seputaran Info, Trend Kacamata, Kesehatan Mata, Tips & Trik Hanya Untuk
+  Anda'
 keywords: Optikal Bahari, Optik, Kacamata, Kemayoran, Bendungan Jago
 permalink: /posts/
 background: /assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-010.webp

@@ -1,20 +1,3 @@
-// /* Space out icons and text */
-// i.fas {
-//   margin-right: 5px; /* Adds space after each icon */
-//   margin-left: 5px;  /* Adds space before each icon */
-// }
-
-// /* Shrink the separator icon if needed */
-// i.fa-circle {
-//   font-size: 0.3em; /* Makes it smaller */
-//   vertical-align: middle; /* Aligns it with text */
-// }
-
-// /* Optional: Color the icons */
-// i.fas {
-//   color: #dbd6d6; /* Subtle gray; adjust to your theme */
-// }
-
 /* ---------------------------------------- */
 /*  Toggle Icon Visibility & Positioning      */
 /*   (Using Font Awesome Stacking)            */
@@ -32,6 +15,7 @@
     • In light mode, display the moon icon (dark-icon) using a dark color for contrast.
     • In dark mode, display the sun icon (light-icon) using white for contrast.
 */
+
 .toggle-icon {
   font-size: 14px;
   margin-top: 10px;
@@ -51,20 +35,20 @@
   vertical-align: middle;
 }
 
+/* In dark mode: show the sun icon (light-icon) and hide the moon icon */
+body.dark-mode .toggle-icon .light-icon {
+  display: inline-block;
+  color: $white; // White for contrast
+}
+body.dark-mode .toggle-icon .dark-icon {
+  display: none;
+}
+
 /* In light mode: show the moon icon (dark-icon) and hide the sun icon */
 body:not(.dark-mode) .toggle-icon .dark-icon {
   display: inline-block;
   color: $light-text; // Dark gray for contrast
 }
 body:not(.dark-mode) .toggle-icon .light-icon {
-  display: none;
-}
-
-/* In dark mode: show the sun icon (light-icon) and hide the moon icon */
-body.dark-mode .toggle-icon .light-icon {
-  display: inline-block;
-  color: white; // White for contrast
-}
-body.dark-mode .toggle-icon .dark-icon {
   display: none;
 }

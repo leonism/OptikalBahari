@@ -1,8 +1,8 @@
 <!-- _includes/post-card.html -->
-<div class="card shadow p-0  hover-zoomin">
+<div class='card shadow p-0  hover-zoomin'>
   <a
-    href="{{ include.post.url | prepend: site.baseurl | replace: '//', '/' }}"
-    title="{{ include.post.title }}"
+    href='{{ include.post.url | prepend: site.baseurl | replace: '//', '/' }}'
+    title='{{ include.post.title }}'
   >
     {% if include.post.background %}
       {% capture card_content %}
@@ -20,24 +20,30 @@
       {% include cloudinary/image-ratio.html ratio="16x9" content=card_content %}
     {% endif %}
   </a>
-  <div class="card-body">
-    <h3 class="card-title">{{ include.post.title | truncate: 50 }}</h3>
-    <p class="card-text text-start">
+  <div class='card-body'>
+    <h3 class='card-title'>{{ include.post.title | truncate: 50 }}</h3>
+    <p class='card-text text-start'>
       {{ include.post.description | strip_html | truncate: 100 }}
       <a
-        class="btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none"
-        href="{{ include.post.url | prepend: site.baseurl | replace: '//', '/' }}"
-        title="{{ include.post.title }}"
+        class='btn btn-primary rounded-pill text-white mt-3 align-text-bottom text-decoration-none'
+        href='{{ include.post.url | prepend: site.baseurl | replace: '//', '/' }}'
+        title='{{ include.post.title }}'
       >
-        <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
+        <i class='fa-solid fa-circle-arrow-right text-white'></i>
+        Lebih Lanjut
       </a>
     </p>
   </div>
-  <div class="card-footer">
-    <small class="text-muted">
-      Posted by {% if include.post.author %} {{ include.post.author }} {% else %} {{ site.author }}
-      {% endif %} on {{ include.post.date | date: '%B %d, %Y' }} · {% include
-      postcards/read_time.html content=include.post.content %}
+  <div class='card-footer'>
+    <small class='text-muted'>
+      Posted by
+      {% if include.post.author %}
+        {{ include.post.author }}
+      {% else %}
+        {{ site.author }}
+      {% endif %}
+      on {{ include.post.date | date: '%B %d, %Y' }} ·
+      {% include postcards/read_time.html content=include.post.content %}
     </small>
   </div>
 </div>
