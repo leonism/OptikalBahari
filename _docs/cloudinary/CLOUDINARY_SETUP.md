@@ -1,15 +1,14 @@
 # Cloudinary Integration for Optikal Bahari
 
-This guide explains how to set up and use Cloudinary for image management in the
-Optikal Bahari Jekyll site.
+This guide explains how to set up and use Cloudinary for image management in the Optikal Bahari
+Jekyll site.
 
 ## Overview
 
 Cloudinary provides:
 
 - **Cloud Storage**: Store images in the cloud instead of your repository
-- **Automatic Optimization**: Automatic format conversion (WebP, AVIF) and
-  quality optimization
+- **Automatic Optimization**: Automatic format conversion (WebP, AVIF) and quality optimization
 - **Responsive Images**: Generate multiple sizes for different devices
 - **Fast CDN**: Global content delivery network for faster loading
 - **Transformations**: Resize, crop, and apply effects on-the-fly
@@ -111,11 +110,13 @@ This will:
 Use the responsive image include for best results:
 
 ```liquid
-{% include cloudinary_image.html
-   src="/assets/img/hero-image.jpg"
-   alt="Hero image description"
-   preset="hero"
-   class="img-fluid rounded" %}
+{%
+  include cloudinary_image.html
+  src="/assets/img/hero-image.jpg"
+  alt="Hero image description"
+  preset="hero"
+  class="img-fluid rounded"
+%}
 ```
 
 #### Include Parameters
@@ -222,8 +223,7 @@ Edit `_config_cloudinary.yml` to customize:
 
 For issues with:
 
-- **Cloudinary service**: Check
-  [Cloudinary documentation](https://cloudinary.com/documentation)
+- **Cloudinary service**: Check [Cloudinary documentation](https://cloudinary.com/documentation)
 - **Jekyll integration**: Review the plugin code in `_plugins/cloudinary.rb`
 - **Site-specific issues**: Check the generated log files
 

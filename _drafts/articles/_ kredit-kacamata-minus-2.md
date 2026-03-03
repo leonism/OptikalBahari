@@ -53,6 +53,7 @@ comments: false
     height="512"
     class="card-img-top"
     /> </picture> <div class="card-body"> <h3 class="card-title">Kredit Kacamata Minus</h3>
+
 <p class="card-text text-left"> Apakah penglihatan anda mulai terganggu? Mulai sering mengalami
 pandangan kabur dan kurang jelas? Banyak hal yang bisa menyebabkan penurunan kualitas penglihatan
 anda, mulai dari terlalu seringnya dihadapan monitor, terlalu sering main game di handphone, sampai
@@ -156,6 +157,7 @@ kamu pada saat ini. </p> </div>
     class="card-img-top"
     title="kredit kacamata minus di Optikal Bahari"
     /> </picture> <div class="card-body"> <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
+
 <p class="card-text text-left"> Temukan solusi untuk membeli kacamata berkualitas dengan harga
 terjangkau hanya di Optikal Bahari. Kami menyediakan layanan pembelian kacamata dengan cara kredit,
 serta memiliki banyak pilihan lensa dan frame dengan harga yang terjangkau. Jangan ragu untuk datang

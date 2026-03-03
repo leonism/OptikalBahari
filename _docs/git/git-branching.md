@@ -77,5 +77,4 @@ git push -u origin dev
 4. Click **"New Pull Request"**.
 5. Choose "dev" as the source branch and "master" as the target.
 6. Add a title and description, then click **"Create Pull Request"**.
-7. Once reviewed, click **"Merge Pull Request"** and delete the "dev" branch if
-   no longer needed.
+7. Once reviewed, click **"Merge Pull Request"** and delete the "dev" branch if no longer needed.

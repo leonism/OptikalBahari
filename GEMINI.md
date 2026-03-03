@@ -2,9 +2,14 @@
 
 ## Project Overview
 
-This project is a static website for **Optikal Bahari**, an optical store based in Kemayoran, Jakarta. It is built using **Jekyll**, a Ruby-based static site generator. The site provides information about eye exams, glasses, contact lenses, and includes a blog with articles related to eye health and eyewear trends.
+This project is a static website for **Optikal Bahari**, an optical store based in Kemayoran,
+Jakarta. It is built using **Jekyll**, a Ruby-based static site generator. The site provides
+information about eye exams, glasses, contact lenses, and includes a blog with articles related to
+eye health and eyewear trends.
 
-The codebase is customized from the "Clean Blog" Jekyll theme, utilizing Bootstrap for styling and Liquid for templating. It features extensive optimizations for performance, including asset compression (Brotli/Gzip) and minification.
+The codebase is customized from the "Clean Blog" Jekyll theme, utilizing Bootstrap for styling and
+Liquid for templating. It features extensive optimizations for performance, including asset
+compression (Brotli/Gzip) and minification.
 
 ## Tech Stack
 
@@ -81,7 +86,8 @@ bundle exec jekyll build && bash _scripts/post-built/post-build.sh
   - SCSS files are located in `_sass/` or `assets/css/` (check `assets/main.scss`).
   - Use Bootstrap classes where applicable.
 - **Assets:**
-  - Images are often managed via Cloudinary (check `_plugins/cloudinary.rb` and `_docs/CLOUDINARY_*.md`).
+  - Images are often managed via Cloudinary (check `_plugins/cloudinary.rb` and
+    `_docs/CLOUDINARY_*.md`).
   - Local assets should be optimized.
 - **Performance:**
   - The project uses `smart_asset_cache.yml` and extensive compression settings in `_config.yml`.
