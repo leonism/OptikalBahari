@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Optik Periksa Mata Gratis Terdekat
-subtitle: Segera Periksakan Mata Anda
+subtitle:
+  'Memberikan Layanan Periksa Mata Gratis Hanya di Optikal Bahari. Kami menyediakan kacamata
+  cicilan, harga murah, Bunga 0%, tanpa Credit Card dan menerima KJP'
 description:
   'Memberikan Layanan Periksa Mata Gratis Hanya di Optikal Bahari. Kami menyediakan kacamata
   cicilan, harga murah, Bunga 0%, tanpa Credit Card dan menerima KJP'
@@ -30,6 +32,8 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-main.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
@@ -45,6 +49,8 @@ comments: false
   </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
     {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
@@ -56,6 +62,8 @@ comments: false
     </div>
   </div>
 </div>
+
+{% include home/home-cards-glasses.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">

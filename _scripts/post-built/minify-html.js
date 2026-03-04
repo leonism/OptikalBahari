@@ -21,7 +21,7 @@ async function main() {
 
       const minifiedHtml = await minify(originalHtml, {
         collapseWhitespace: true,
-        collapseInlineTagWhitespace: true,
+        collapseInlineTagWhitespace: false,
         removeComments: true,
         minifyCSS: true,
         minifyJS: true,
@@ -29,6 +29,7 @@ async function main() {
         removeScriptTypeAttributes: true,
         removeStyleLinkTypeAttributes: true,
         useShortDoctype: true,
+        minifyURLs: true,
         removeAttributeQuotes: true,
       })
 

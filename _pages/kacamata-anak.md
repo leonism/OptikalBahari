@@ -5,8 +5,8 @@ subtitle:
   'Temukan Kacamata Anak Terkini & Berkualitas di Optikal Bahari, Dapatkan Periksa Mata Gratis,
   Cicilan 0% & Garansi Kacamata 1 Tahun'
 description:
-  Panduan Lengkap Memilih Kacamata Anak Terbaik di Optikal Bahari. Dapatkan Konsultasi Gratis,
-  Bergaransi, & Layanan Perbaikan Kacamata Gratis.
+  'Panduan Lengkap Memilih Kacamata Anak Terbaik di Optikal Bahari. Dapatkan Konsultasi Gratis,
+  Bergaransi, & Layanan Perbaikan Kacamata Gratis.'
 keywords: 'kacamata anak, kacamata untuk anak, kacamata cicilan, cicilan 0%'
 lang: id-ID
 author: Optikal Bahari
