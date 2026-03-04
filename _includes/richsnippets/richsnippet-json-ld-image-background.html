@@ -1,22 +1,99 @@
 {%- comment -%}
-  UPDATE: Generate Cloudinary URL with Custom Domain for Schema
+  UPDATE: The Ultimate "Catch-All" Image Schema
+  Collects all images across the page (front matter + body content),
+  removes duplicates, and generates a Cloudinary-optimized JSON-LD Array.
 {%- endcomment -%}
 
-{% assign schema_img_url = page.background | cloudinary_url: 'q_auto,f_jpg' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' %}
+{%- assign all_page_images = "" | split: "" -%}
 
+{%- comment -%} 1. Catch Front Matter Images {%- endcomment -%}
+{%- if page.background -%}
+  {%- assign all_page_images = all_page_images | push: page.background -%}
+{%- endif -%}
+
+{%- if page.image.path -%}
+  {%- assign all_page_images = all_page_images | push: page.image.path -%}
+{%- elsif page.image -%}
+  {%- assign all_page_images = all_page_images | push: page.image -%}
+{%- endif -%}
+
+{%- comment -%} 2. Catch Front Matter Arrays (e.g., galleries) {%- endcomment -%}
+{%- if page.images -%}
+  {%- for img in page.images -%}
+    {%- assign all_page_images = all_page_images | push: img -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- comment -%} 3. MAGIC: Extract all images inside the actual post content! {%- endcomment -%}
+{%- assign src_splits = page.content | split: 'src="' -%}
+{%- for split_part in src_splits -%}
+  {%- if forloop.first -%}{%- continue -%}{%- endif -%}
+  {%- comment -%} Grab everything up to the next quote {%- endcomment -%}
+  {%- assign extracted_img = split_part | split: '"' | first -%}
+  {%- assign all_page_images = all_page_images | push: extracted_img -%}
+{%- endfor -%}
+
+{%- comment -%} 4. Remove duplicates so Google doesn't see repeated schemas {%- endcomment -%}
+{%- assign final_images = all_page_images | uniq -%}
+
+{%- comment -%} 5. Output as a JSON Array [ {...}, {...} ] {%- endcomment -%}
+{%- if final_images.size > 0 -%}
 <script type='application/ld+json'>
-  {
-    "@context": "https://schema.org/",
-    "@type": "ImageObject",
-    "contentUrl": "{{ schema_img_url }}",
-    "license": "{{ site.url }}",
-    "copyrightNotice": "{{ site.author }}",
-    "acquireLicensePage": "{{ site.url }}",
-    "creditText": {{ site.author_name | jsonify }},
-    "creator": {
-      "@type": "Person",
-      "name": "{{ site.author }}",
-      "url": "{{ site.url }}"
+[
+  {%- assign is_first_item = true -%}
+  {%- for raw_img in final_images -%}
+
+    {%- comment -%} Skip base64 strings or empty values {%- endcomment -%}
+    {%- if raw_img == blank or raw_img contains 'data:image' -%}
+      {%- continue -%}
+    {%- endif -%}
+
+    {%- comment -%} Clean the path for Cloudinary {%- endcomment -%}
+    {%- assign clean_img = raw_img | replace_first: '/', '' | strip -%}
+    {%- assign schema_img_url = clean_img | cloudinary_url: 'q_auto,f_jpg' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' -%}
+
+    {%- comment -%} Safe comma logic to prevent JSON parsing errors {%- endcomment -%}
+    {%- unless is_first_item -%},{%- endunless -%}
+
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "{{ schema_img_url }}",
+      "license": "{{ site.url }}/license",
+      "copyrightNotice": "{{ site.author | default: site.author_name }}",
+      "acquireLicensePage": "{{ site.url }}/license",
+      "creditText": {{ site.author_name | jsonify }},
+      "creator": {
+        "@type": "Person",
+        "name": "{{ site.author | default: site.author_name }}",
+        "url": "{{ site.url }}"
+      }
     }
-  }
+    {%- assign is_first_item = false -%}
+  {%- endfor -%}
+]
 </script>
+{%- endif -%}
+
+{%- comment -%}
+  UPDATE: Generate Cloudinary URL with Custom Domain for Schema
+
+  {% assign schema_img_url = page.background | cloudinary_url: 'q_auto,f_jpg' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' %}
+
+  <script type='application/ld+json'>
+  {
+  "@context": "https://schema.org/",
+  "@type": "ImageObject",
+  "contentUrl": "{{ schema_img_url }}",
+  "license": "{{ site.url }}",
+  "copyrightNotice": "{{ site.author }}",
+  "acquireLicensePage": "{{ site.url }}",
+  "creditText": {{ site.author_name | jsonify }},
+  "creator": {
+  "@type": "Person",
+  "name": "{{ site.author }}",
+  "url": "{{ site.url }}"
+  }
+  }
+  </script>
+{%- endcomment -%}

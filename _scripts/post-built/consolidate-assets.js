@@ -108,7 +108,8 @@ async function main() {
     // Find JS
     $('script[src]').each((i, el) => {
       const src = $(el).attr('src')
-      if (src && isLocalAsset(src)) {
+      const dataMerge = $(el).attr('data-merge')
+      if (src && isLocalAsset(src) && dataMerge !== 'false') {
         jsFiles.push(resolvePath(src, indexFile, SITE_DIR))
       }
     })
@@ -341,7 +342,7 @@ async function main() {
     setTimeout(fireGTM, 3500);
   }
 </script>`.trim()
-          $page('body').append('\\n' + lazyGTM + '\\n')
+          $page('body').append('\n' + lazyGTM + '\n')
           $page(el).remove()
         })
         modified = true
