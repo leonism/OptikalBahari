@@ -1,13 +1,16 @@
 ---
 layout: post
 title: Kelebihan Lensa Photochromic & Transisi
-subtitle: 'Temukan keunggulan lensa photochromic yang menggelapkan spektrum cahaya UV'
-description: 'Temukan keunggulan lensa photochromic yang menggelapkan spektrum cahaya UV'
+subtitle:
+  'Butuh kacamata yang otomatis gelap di luar? Lensa photocromic Optikal Bahari memberi kenyamanan visual dan perlindungan UV tanpa ganti kacamata.'
+description:
+  'Kenali kelebihan lensa photochromic: otomatis menyesuaikan cahaya, melindungi dari sinar UV, dan membuat kacamata lebih praktis untuk aktivitas sehari-hari.'
 keywords: 'Lensa Photochromic, Lensa Blueray, Photocromic, Blueray'
 lang: id-ID
 date: '2020-01-15 08:25:23 +0700'
 author: Optikal Bahari
 categories: [Lensa]
+tags: [tips, kacamata, lensa]
 tags: [layanan, optikal]
 background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-35.webp
 comments: true

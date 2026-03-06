@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Optik Terdekat Di Kemayoran, Jakarta Pusat
+title: Optik Kemayoran Jakarta - Toko Kacamata & Periksa Mata Gratis
 subtitle:
-  'Optik Berlokasi di Kemayoran Jakarta Pusat, melayani periksa mata gratis dan cicilan dengan berbagai pilihan bingkai & frame kacamata.'
+  'Butuh optik di Kemayoran? Kunjungi Optikal Bahari di Jl. Bendungan Jago. Periksa mata gratis,
+  banyak pilihan frame & lensa, bisa cicilan tanpa bunga.'
 description:
-  'Optik Berlokasi di Kemayoran Jakarta Pusat, melayani periksa mata gratis dan cicilan dengan berbagai pilihan bingkai & frame kacamata.'
+  'Butuh optik di Kemayoran? Kunjungi Optikal Bahari di Jl. Bendungan Jago. Periksa mata gratis,
+  banyak pilihan frame & lensa, bisa cicilan tanpa bunga.'
 keywords:
   'optik kemayoran, kacamata kemayoran, kacamata cicialn, kacamata murah, tanpa bunga, tanpa DP,
   bayar KJP'

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Optik Terdekat, Lokasi Di Kemayoran Jakarta Pusat
+title: Optik Terdekat di Kemayoran Jakarta Pusat & Periksa Mata Gratis
 subtitle:
-  'Berlokasi di Kemayoran Jakarta Pusat, Optikal Bahari melayanani periksa mata gratis, dengan
-  berbagai pilihan bingkai dan lensa kacamata.'
+  'Butuh optik terdekat di Jakarta? Kunjungi Optikal Bahari di Kemayoran. Periksa mata gratis,
+  banyak pilihan frame & lensa, bisa cicilan tanpa kartu kredit.'
 description:
   'Berlokasi di Kemayoran Jakarta Pusat, Optikal Bahari melayanani periksa mata gratis, dengan
   berbagai pilihan bingkai dan lensa kacamata.'
