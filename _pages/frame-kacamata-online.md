@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Frame Kacamata Online Di Kemayoran
-subtitle: Frame & Kacamata Terabru, Murah Dan Terjangkau
+subtitle:
+  'Dapatkan koleksi Frame Kacamata Minus dan Frame bingkai kacamata, mulai harga murah sampai dengan
+  harga menengah ke atas'
 description:
-  Dapatkan koleksi Frame Kacamata Minus dan Frame bingkai kacamata, mulai harga murah sampai dengan
-  harga menengah ke atas.
+  'Dapatkan koleksi Frame Kacamata Minus dan Frame bingkai kacamata, mulai harga murah sampai dengan
+  harga menengah ke atas'
 keywords:
   'frame kacamata online, frame murah, kacamata, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
