@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Melihat Ke Masa Depan Seperti Apa Industri Kacamata Dalam 10 Tahun?
-subtitle: 'Berikut Beberapa Penjelasannya'
+subtitle:
+  'Melihat Lebih Dalam Ke Masa Depan, Seperti Apa Industri Kacamata Dalam 10 Tahun Dari Sekarang? Apa Saja Yang Bakalan Berubah, dan Bagaimana Beradaptasi?'
 description:
-  Melihat Lebih Dalam Ke Masa Depan, Seperti Apa Industri Kacamata Dalam 10 Tahun Dari Sekarang? Apa
-  Saja Yang Bakalan Berubah, dan Bagaimana Beradaptasi?
+  'Melihat Lebih Dalam Ke Masa Depan, Seperti Apa Industri Kacamata Dalam 10 Tahun Dari Sekarang? Apa Saja Yang Bakalan Berubah, dan Bagaimana Beradaptasi?'
 keywords: Ganti kacamata, Kacamata baru, Kapan ganti kacamata
 lang: id-ID
 author: Optikal Bahari

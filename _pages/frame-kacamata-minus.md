@@ -2,9 +2,11 @@
 layout: page
 title: Frame Kacamata Minus Di Kemayoran, Murah & Terjangkau
 subtitle:
-  'Frame Kacamata Minus dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas'
+  'Frame Kacamata Minus dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah
+  ke atas'
 description:
-  'Frame Kacamata Minus dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas
+  'Frame Kacamata Minus dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah
+  ke atas'
 keywords:
   'frame kacamata minus, frame murah, kacamata, sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID

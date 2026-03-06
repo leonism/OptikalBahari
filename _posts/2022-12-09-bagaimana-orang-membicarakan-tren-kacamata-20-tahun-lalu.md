@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Bagaimana Tren Kacamata 20 Tahun Lalu?"
-subtitle: Perjalanan Kembali ke Masa Lalu
-description: "Temukan bagaimana banyak orang membicarakan tren kacamata pada 20 tahun lalu dan bagaimana perkembangan desain & gaya
-kacamata sepanjang waktu di artikel ini"
+subtitle:
+  'Temukan bagaimana banyak orang membicarakan tren kacamata pada 20 tahun lalu dan bagaimana perkembangan desain & gaya kacamata sepanjang waktu di artikel ini'
+description:
+  'Temukan bagaimana banyak orang membicarakan tren kacamata pada 20 tahun lalu dan bagaimana perkembangan desain & gaya kacamata sepanjang waktu di artikel ini'
 keywords: 'tren kacamata, tren kacamata 2023, tren, kacamata'
 lang: id-ID
 date: '2022-12-09 07:25:23 +0700'

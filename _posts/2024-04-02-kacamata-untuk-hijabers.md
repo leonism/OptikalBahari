@@ -2,11 +2,9 @@
 layout: post
 title: Panduan Memilih Kacamata Hijabers yang Tepat
 subtitle:
-  'Temukan kacamata untuk hijabers yang pas dengan panduan ini. Dapatkan tips dan trik untuk tampil
-  modis dengan kacamata hijab yang sesuai dengan gayamu'
+  'Temukan kacamata untuk hijabers yang pas dengan panduan ini. Dapatkan tips dan trik untuk tampil modis dengan kacamata hijab yang sesuai dengan gayamu. Baca sekarang di Optikal Bahari'
 description:
-  'Temukan kacamata untuk hijabers yang pas dengan panduan ini. Dapatkan tips dan trik untuk tampil
-  modis dengan kacamata hijab yang sesuai dengan gayamu. Baca sekarang di Optikal Bahari'
+  'Temukan kacamata untuk hijabers yang pas dengan panduan ini. Dapatkan tips dan trik untuk tampil modis dengan kacamata hijab yang sesuai dengan gayamu. Baca sekarang di Optikal Bahari'
 keywords: 'kacamata untuk hijabers, kacamata hijabers, kacamata hijab'
 lang: id-ID
 date: '2024-04-02 08:25:23 +0700'

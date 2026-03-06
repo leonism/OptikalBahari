@@ -1,12 +1,10 @@
 ---
 layout: page
 title: Sekapur Sirih
-subtitle: 'Dan Dengarkan Kami Bercerita'
+subtitle:
+  'Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi selanjutnya dikeluarga kami.'
 description:
-  'Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak
-  terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh
-  para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi
-  selanjutnya dikeluarga kami.'
+  'Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi selanjutnya dikeluarga kami.'
 keywords: 'Optikal Bahari, Optikal Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
 author: Optikal Bahari

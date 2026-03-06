@@ -2,11 +2,9 @@
 layout: page
 title: Frame Kacamata Murah Di Kemayoran, Optikal Bahari Bendungan Jago Jakarta Pusat
 subtitle:
-  'Frame Kacamata Minus dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah
-  ke atas'
+  'Optikal Bahari menawarkan Frame & Lensa Kacamata Berkualitas Dengan Harga Terbaik. Jangan Lewatkan Kesempatan Untuk Berkunjung ke Optikal Bahari.'
 description:
-  'Optikal Bahari menawarkan Frame & Lensa Kacamata Berkualitas Dengan Harga Terbaik. Jangan
-  Lewatkan Kesempatan Untuk Berkunjung ke Optikal Bahari.'
+  'Optikal Bahari menawarkan Frame & Lensa Kacamata Berkualitas Dengan Harga Terbaik. Jangan Lewatkan Kesempatan Untuk Berkunjung ke Optikal Bahari.'
 keywords: 'kacamata murah, frame mura, kacamata, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
 author: Optikal Bahari

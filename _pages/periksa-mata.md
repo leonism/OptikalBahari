@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Periksa Mata Di Optikal Bahari, Gratis Tanpa Biaya
-subtitle: Segera Periksa Mata Anda
+subtitle:
+  'Dapatkan periksa mata gratis dengan komputer, menerima KJP, bergaransi, cicilan 0%, tanpa credit card, tanpa denda, aman tanpa bunga & riba.'
 description:
-  Dapatkan periksa mata gratis dengan komputer, menerima KJP, bergaransi, cicilan 0%, tanpa credit
-  card, tanpa denda, aman tanpa bunga & riba.
+  'Dapatkan periksa mata gratis dengan komputer, menerima KJP, bergaransi, cicilan 0%, tanpa credit card, tanpa denda, aman tanpa bunga & riba.'
 keywords:
   'Periksa Mata, Periksa Mata Di Optik, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
 lang: id-ID

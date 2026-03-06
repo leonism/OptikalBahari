@@ -2,10 +2,9 @@
 layout: page
 title: Privacy & Policy, Kebijakan Penggunaan Situs
 subtitle:
-  Kami sangat menghargai privasi Anda dan komitmen kami untuk melindungi informasi pribadi Anda
+  'Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan membagikan informasi pribadi Anda saat Anda menggunakan layanan kami.'
 description:
-  Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan membagikan
-  informasi pribadi Anda saat Anda menggunakan layanan kami.
+  'Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan membagikan informasi pribadi Anda saat Anda menggunakan layanan kami.'
 keywords: 'Privacy policy, Kebijakan Situs, Kebijakan Penggunaan'
 lang: id-ID
 author: Optikal Bahari

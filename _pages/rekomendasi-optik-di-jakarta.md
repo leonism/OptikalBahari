@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Optikal Bahari, Rekomendasi Optik Terbaik Di Jakarta
-subtitle: Periksa Mata Gratis, Menerima KJP, Bergaransi & Cicilan Bunga 0%
+subtitle:
+  'Berlokasi di Kemayoran Jakarta Pusat, Optikal Bahari melayanani periksa mata gratis, dengan berbagai pilihan bingkai dan frame kacamata.'
 description:
-  Berlokasi di Kemayoran Jakarta Pusat, Optikal Bahari melayanani periksa mata gratis, dengan
-  berbagai pilihan bingkai dan frame kacamata.
+  'Berlokasi di Kemayoran Jakarta Pusat, Optikal Bahari melayanani periksa mata gratis, dengan berbagai pilihan bingkai dan frame kacamata.'
 keywords: 'kacamata, kemayoran, kacamata cicialn, kacamata murah, tanpa bunga, tanpa DP, bayar KJP'
 lang: id-ID
 author: Optikal Bahari

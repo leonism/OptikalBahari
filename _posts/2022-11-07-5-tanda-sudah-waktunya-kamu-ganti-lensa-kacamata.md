@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 5 Tanda Sudah Waktunya Kamu Ganti Lensa Kacamata
-subtitle: Mau Tau Tanda Tandanya?
+subtitle:
+  'Kacamata perlu diganti secara berkala, menyesuaikan kondisi mata penderitanya. Namun, mungkin kita pernah bertanya-tanya kapan sebaiknya mengganti lensa kacamata.'
 description:
-  Kacamata perlu diganti secara berkala, menyesuaikan kondisi mata penderitanya. Namun, mungkin kita
-  pernah bertanya-tanya kapan sebaiknya mengganti lensa kacamata.
+  'Kacamata perlu diganti secara berkala, menyesuaikan kondisi mata penderitanya. Namun, mungkin kita pernah bertanya-tanya kapan sebaiknya mengganti lensa kacamata.'
 keywords: 'ganti kacamata, ganti lensa, kacamata, kacamata hitam'
 lang: id-ID
 date: '2022-11-07 07:25:23 +0700'

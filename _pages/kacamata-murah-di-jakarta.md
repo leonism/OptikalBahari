@@ -2,10 +2,9 @@
 layout: page
 title: Kacamata Murah Hanya di Optikal Bahari, Jakarta
 subtitle:
-  Kami menyediakan berbagai pilihan lensa & frame dengan harga terjangkau & kualitas terbaik.
+  'Dapatkan kacamata murah hanya di Optikal Bahari, Jakarta. Kami menyediakan berbagai pilihan lensa & frame dengan harga terjangkau & kualitas terbaik.'
 description:
-  Dapatkan kacamata murah hanya di Optikal Bahari, Jakarta. Kami menyediakan berbagai pilihan lensa
-  & frame dengan harga terjangkau & kualitas terbaik.
+  'Dapatkan kacamata murah hanya di Optikal Bahari, Jakarta. Kami menyediakan berbagai pilihan lensa & frame dengan harga terjangkau & kualitas terbaik.'
 keywords: Kacamata Murah, Kacamata, Murah, Jakarta
 lang: id-ID
 author: Optikal Bahari

@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Cara Merawat dan Menjaga Kacamata
-subtitle: Tips dan Triks dalam Menjaga Kacamata.
-description: "Temukan cara mudah merawat dan menjaga kacamata agar tetap terjaga dan berkualitas dengan tips dari kami. Jaga
-kesehatan mata Anda dengan perawatan yang tepat"
+subtitle:
+  'Temukan cara mudah merawat dan menjaga kacamata agar tetap terjaga dan berkualitas dengan tips dari kami. Jaga kesehatan mata Anda dengan perawatan yang tepat'
+description:
+  'Temukan cara mudah merawat dan menjaga kacamata agar tetap terjaga dan berkualitas dengan tips dari kami. Jaga kesehatan mata Anda dengan perawatan yang tepat'
 keywords: 'merawat kacamata, kacamata awet, kacamata terjaga'
 lang: id-ID
 date: '2022-12-15 07:25:23 +0700'

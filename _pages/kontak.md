@@ -2,11 +2,9 @@
 layout: page
 title: Hubungi Kontak Kami
 subtitle:
-  'Hubungi Kami Melalui Kontak Ini, Atau Untuk Respond Lebih Cepat, Silahkan MenghubungiKami Melalui
-  WhatsApp Kami'
+  'Hubungi Kami Melalui Kontak Ini, Atau Untuk Respond Lebih Cepat, Silahkan Menghubungi Kami Melalui WhatsApp Kami'
 description:
-  'Hubungi Kami Melalui Kontak Ini, Atau Untuk Respond Lebih Cepat, Silahkan Menghubungi Kami
-  Melalui WhatsApp Kami'
+  'Hubungi Kami Melalui Kontak Ini, Atau Untuk Respond Lebih Cepat, Silahkan Menghubungi Kami Melalui WhatsApp Kami'
 keywords:
   'Lokasi, Bendungan Jago No 447, Optikal Bahari, Kemayoran, Optikal, Optik, Kacamata, Gratis'
 lang: id-ID

@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Eyewear Awards, Terbaik, Terburuk & Teraneh"
-subtitle: Hal yang menarik dalam Tren Kacamata
-description: "Ikuti perkembangan trend kacamata: terbaik, terburuk dan teraneh di 2022 hanya di Optikal Bahari. Kunjungi situs
-kami untuk mengetahui Eyewear Trends Awards"
+subtitle:
+  'Ikuti perkembangan trend kacamata: terbaik, terburuk dan teraneh di 2022 hanya di Optikal Bahari. Kunjungi situs kami untuk mengetahui Eyewear Trends Awards'
+description:
+  'Ikuti perkembangan trend kacamata: terbaik, terburuk dan teraneh di 2022 hanya di Optikal Bahari. Kunjungi situs kami untuk mengetahui Eyewear Trends Awards'
 keywords: 'tren kacamata, tren kacamata 2023, tren, kacamata'
 lang: id-ID
 date: '2022-12-10 07:25:23 +0700'

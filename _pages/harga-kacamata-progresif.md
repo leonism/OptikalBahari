@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Harga Kacamata Progresif, Terbaik & Termurah Di Jakarta
-subtitle: 'Rahasia Tersembunyi di Balik Kacamata Berkualitas di Optikal Bahari'
+subtitle:
+  'Dapatkan Harga Progresif Murah, Periksa Mata & Service Gratis, Kacamata Cicilan 0%, Bergaransi & Terima KJP'
 description:
-  Dapatkan Harga Progresif Murah, Periksa Mata & Service Gratis, Kacamata Cicilan 0%, Bergaransi &
-  Terima KJP
+  'Dapatkan Harga Progresif Murah, Periksa Mata & Service Gratis, Kacamata Cicilan 0%, Bergaransi & Terima KJP'
 keywords: 'harga kacamata progresif, harga kacamata baca'
 lang: id-ID
 author: Optikal Bahari

@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Periksa mata gratis di Jakarta
-subtitle: 'Periksa mata gratis di Jakarta'
+subtitle:
+  'Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame kacamata dari mulai harga yang terjangkau sampai dengan harga menengah ke atas, dengan fasilitas cicilan tanpa bunga'
 description:
-  Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame kacamata dari mulai harga
-  yang terjangkau sampai dengan harga menengah ke atas, dengan fasilitas cicilan tanpa bunga
+  'Di Optikal Bahari kami menyediakan beragam jenis tipe Lensa dan Frame kacamata dari mulai harga yang terjangkau sampai dengan harga menengah ke atas, dengan fasilitas cicilan tanpa bunga'
 keywords: 'periksa mata, periksa mata gratis, periksa mata jakarta'
 lang: id-ID
 author: Optikal Bahari

@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Inovasi Kacamata K Ion Nano Untuk Anda
-subtitle: Solusi Peduli Kesehatan Mata
+subtitle:
+  'Inovasi kacamata k ion saat ini dipercaya mampu membantu penglihatan mata dan dapat membuat mata lebih sehat melalui jalan terapi.'
 description:
-  Inovasi kacamata k ion saat ini dipercaya mampu membantu penglihatan mata dan dapat membuat mata
-  lebih sehat melalui jalan terapi.
+  'Inovasi kacamata k ion saat ini dipercaya mampu membantu penglihatan mata dan dapat membuat mata lebih sehat melalui jalan terapi.'
 keywords: 'K ion, Kacamata, Kacamata K ion nano, kacamata murah'
 lang: id-ID
 date: '2020-07-28 06:25:23 +0700'
