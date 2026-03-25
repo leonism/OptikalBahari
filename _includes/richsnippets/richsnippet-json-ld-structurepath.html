@@ -8,7 +8,7 @@
       {
         "@type": "ListItem", "position": 1,
         "name": "{{ site.title | default: "Home" }}",
-        "item": "{{ site.url }}"
+        "item": "{{ site.url }}{{ site.baseurl }}/"
         {% for crumb in crumbs offset: 1 %}
       },
       {

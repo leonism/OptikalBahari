@@ -2,33 +2,25 @@
   {
     "@context": "https://schema.org",
     "@type": "Optician",
-    "image": ["{{ 'assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.webp' }}", "{{ 'assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.webp' }}", "{{ 'assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.webp' }}", "{{ 'assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.webp' }}"],
-    "priceRange": "$",
-    "telephone": "+6281932235445",
     "name": "{{ site.title }}",
-    "url": "{{ site.url }}",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "telephone": "+6281932235445",
+    "priceRange": "$$",
     "currenciesAccepted": "IDR",
     "paymentAccepted": "Cash, Debit Card, NFC, QRIS",
+    "image": [
+      "https://assets.optikalbahari.com/image/upload/q_auto,f_auto/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp",
+      "https://assets.optikalbahari.com/image/upload/q_auto,f_auto/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.webp",
+      "https://assets.optikalbahari.com/image/upload/q_auto,f_auto/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp",
+      "https://assets.optikalbahari.com/image/upload/q_auto,f_auto/assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp"
+    ],
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Bendungan Jago No 447",
-      "addressLocality": "Utan Panjang, Kemayoran",
-      "addressRegion": "Jakarta Pusat",
+      "streetAddress": "Jl. Bendungan Jago No.447, RW.1, Utan Panjang, Kec. Kemayoran",
+      "addressLocality": "Kota Jakarta Pusat",
+      "addressRegion": "Daerah Khusus Ibukota Jakarta",
       "postalCode": "10650",
       "addressCountry": "ID"
-    },
-    "review": {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Organization",
-        "url": "{{ site.url }}",
-        "name": "Optikal Bahari"
-      }
     },
     "geo": {
       "@type": "GeoCoordinates",
@@ -37,31 +29,27 @@
     },
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "504"
+      "ratingValue": "5.0",
+      "reviewCount": "512"
+    },
+    "review": {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Optikal Bahari",
+        "url": "{{ site.url }}{{ site.baseurl }}/"
+      }
     },
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday"],
-        "opens": "09:00",
-        "closes": "22:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
-        "closes": "22:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "09:00",
-        "closes": "22:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Sunday",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         "opens": "09:00",
         "closes": "22:00"
       }
