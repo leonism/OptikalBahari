@@ -11,7 +11,10 @@
   </a>
   <p class="post-meta">
     Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} on
-    {{ post.date | date: '%B %d, %Y' }} &middot; {% include postcards/read_time.html content=post.content %}
+    <time datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date: '%B %d, %Y' }}
+    </time>
+    &middot; {% include postcards/read_time.html content=post.content %}
   </p>
 </article>
 <hr>

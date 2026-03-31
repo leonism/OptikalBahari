@@ -42,8 +42,10 @@
       {% else %}
         {{ site.author }}
       {% endif %}
-      on {{ include.post.date | date: '%B %d, %Y' }} ·
-      {% include postcards/read_time.html content=include.post.content %}
+      on <time datetime="{{ include.post.date | date_to_xmlschema }}">
+        {{ include.post.date | date: '%B %d, %Y' }}
+      </time>
+      · {% include postcards/read_time.html content=include.post.content %}
     </small>
   </div>
 </div>
