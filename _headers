@@ -23,21 +23,8 @@
   Cache-Control: public, max-age=31536000, immutable
 
 # ---------------------------------------------------------
-# 3. Global Security Headers applied to ALL routes
+# 3. Cache & SW Logic
 # ---------------------------------------------------------
-
-/*
-
-  X-Content-Type-Options: nosniff
-  X-Frame-Options: DENY
-  X-XSS-Protection: 1; mode=block
-  Referrer-Policy: strict-origin-when-cross-origin
-
-# ---------------------------------------------------------
-# 4. All everything else!
-# ---------------------------------------------------------
-
-/*
 
 /sw.js
   Cache-Control: private, no-cache, no-store, must-revalidate

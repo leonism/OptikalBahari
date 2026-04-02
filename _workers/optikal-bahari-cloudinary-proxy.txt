@@ -1,0 +1,32 @@
+export default {
+  async fetch(request, env, ctx) {
+    const url = new URL(request.url);
+
+    // CONFIGURATION
+    const CLOUD_NAME = "divkqrf7k"; // Your Cloudinary Cloud Name
+    const TARGET_HOST = "res.cloudinary.com";
+
+    // 1. Block requests to the root (optional security)
+    if (url.pathname === "/" || url.pathname === "") {
+      return new Response("Assets Server", { status: 200 });
+    }
+
+    // 2. Construct the Target URL
+    // Incoming: https://assets.optikalbahari.com/image/upload/v1/sample.jpg
+    // Target:   https://res.cloudinary.com/divkqrf7k/image/upload/v1/sample.jpg
+    // logic: We simply prepend your cloud name to the path.
+
+    const targetUrl = `https://${TARGET_HOST}/${CLOUD_NAME}${url.pathname}${url.search}`;
+
+    // 3. Fetch the image from Cloudinary
+    // We pass the original request headers to preserve cache behaviors
+    const imageResponse = await fetch(targetUrl, {
+      headers: request.headers,
+      method: request.method
+    });
+
+    // 4. Return the image to the user
+    // We create a new response to ensure the headers are clean and correct for your domain
+    return new Response(imageResponse.body, imageResponse);
+  }
+};
