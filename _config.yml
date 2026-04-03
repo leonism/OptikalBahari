@@ -64,11 +64,11 @@ exclude:
   - cache
   - _responsive
 
-# Pagination for jekyll-paginate-v2
+# Pagination for jekyll-paginate-v2 for posts
 pagination:
   enabled: true
   per_page: 9
-  pabundle exec jekyll serveginate_path: "/posts/page/:num/"
+  paginate_path: "/posts/page/:num/"
   title: ":title - Page :num"
   sort_field: "date"
   sort_reverse: true
@@ -95,15 +95,21 @@ sass:
     - global-builtin
     - color-functions
 
+# Virtual Collection for Reviews
+collections:
+  reviews:
+    output: false # We don't need individual pages for each review
+  reviews_per_page: 12 # Configurable number of reviews per page
+
 # Asset Processor Configuration
 asset_processor:
   performance:
-    thread_pool_size: 1
+    thread_pool_size: 4
     memory_limit: 536870912
     use_mmap: false
     batch_size: 100
-    html_thread_pool_size: 1
-    compression_thread_pool_size: 1
+    html_thread_pool_size: 4
+    compression_thread_pool_size: 4
     enable_caching: true
     cache_file: .smart_asset_cache.yml
   output:
@@ -119,7 +125,7 @@ asset_processor:
     enabled: true
     brotli:
       enabled: true
-      quality: 10
+      quality: 9
       window: 22
     gzip:
       enabled: true

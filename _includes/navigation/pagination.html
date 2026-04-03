@@ -31,8 +31,8 @@
             <!-- Link to the first page (posts index) -->
             <a
               class='btn btn-primary rounded-pill mx-1 text-white'
-              href='{{ '/posts/' | relative_url }}'
-              title='{{ Navigate to previous page '/posts/' | relative_url }}'
+              href='{{ include.base_url | default: "/posts/" | relative_url }}'
+              title='Navigate to page {{ include.base_url | default: "/posts/" | relative_url }}'
             >
               {{ page }}
             </a>
@@ -56,7 +56,7 @@
         <a
           class='btn btn-primary rounded-pill mx-1 text-white'
           href='{{ paginator.next_page_path | relative_url }}'
-          title='{{ Navigate to next page paginator.next_page_path | relative_url }}'
+          title='Navigate to next page {{ paginator.next_page_path | relative_url }}'
           aria-label='Next'
         >
           Next »

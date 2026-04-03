@@ -1,0 +1,122 @@
+{
+  "samples/cloudinary-logo-vector.svg": {
+    "last_synced_at": "2026-04-03T13:44:34+07:00",
+    "local_checksum": "d9b09926bc7ec6dce566881720702ac5a1d1d681d0500894293c36b1817f3c45",
+    "remote_version": 1772430983,
+    "remote_public_id": "samples/cloudinary-logo-vector"
+  },
+  "samples/radial.avif": {
+    "last_synced_at": "2026-04-03T13:44:35+07:00",
+    "local_checksum": "b8db3539ca2f381f556470d6740ec1470d2c522ca8c1df09fe27a4ac60ed045b",
+    "remote_version": 1772430983,
+    "remote_public_id": "samples/radial"
+  },
+  "samples/paper.png": {
+    "last_synced_at": "2026-04-03T13:44:36+07:00",
+    "local_checksum": "305209882388d1c6f9b9237d379ee399c537f98fc451db435d1829d4067216a8",
+    "remote_version": 1772430983,
+    "remote_public_id": "samples/paper"
+  },
+  "main-sample.png": {
+    "last_synced_at": "2026-04-03T13:44:38+07:00",
+    "local_checksum": "99bb64aa88b3b790dfd60f2536686472443d6b8c9b507a4732b25b2f699c84ee",
+    "remote_version": 1772430983,
+    "remote_public_id": "main-sample"
+  },
+  "samples/waves.png": {
+    "last_synced_at": "2026-04-03T13:44:40+07:00",
+    "local_checksum": "a3636239016798b4250f9e05309cd4ffc0f6a9941440574857f977c30251de72",
+    "remote_version": 1772430983,
+    "remote_public_id": "samples/waves"
+  },
+  "samples/radial_02.png": {
+    "last_synced_at": "2026-04-03T13:44:40+07:00",
+    "local_checksum": "5ffe5a9b9185c080a3df9e99ba03658bda96fc93fe96bf0fd27c68c88cad3a90",
+    "remote_version": 1772430983,
+    "remote_public_id": "samples/radial_02"
+  },
+  "samples/canvas.jpg": {
+    "last_synced_at": "2026-04-03T13:44:41+07:00",
+    "local_checksum": "935ba4f8ba3412e34da0ce4f2ebc78fdd249ad0b01245053d97fd5b0dd59c0c2",
+    "remote_version": 1772430983,
+    "remote_public_id": "samples/canvas"
+  },
+  "samples/zoom.avif": {
+    "last_synced_at": "2026-04-03T13:44:42+07:00",
+    "local_checksum": "f132915b773624215b1f3463a7d26c8a63351814ba9fc606ef25d25add0e206d",
+    "remote_version": 1772430983,
+    "remote_public_id": "samples/zoom"
+  },
+  "samples/smile.jpg": {
+    "last_synced_at": "2026-04-03T13:44:43+07:00",
+    "local_checksum": "4611d7d283cc5129ee749867036aa068e3bdf39a9b0d15a9f13e644b3a3c1758",
+    "remote_version": 1772087212,
+    "remote_public_id": "samples/smile"
+  },
+  "samples/shoe.jpg": {
+    "last_synced_at": "2026-04-03T13:44:44+07:00",
+    "local_checksum": "17dad6d8573f2e99277b06c91fc3baf1e5fab5dbd943f1e5abb011e68eeaf71e",
+    "remote_version": 1772087212,
+    "remote_public_id": "samples/shoe"
+  },
+  "samples/man-on-a-street.jpg": {
+    "last_synced_at": "2026-04-03T13:44:46+07:00",
+    "local_checksum": "148c17ec305c96f855beb116af11c29363cca91ad35beea00f4c0cfd09e8d980",
+    "remote_version": 1772087212,
+    "remote_public_id": "samples/man-on-a-street"
+  },
+  "samples/two-ladies.jpg": {
+    "last_synced_at": "2026-04-03T13:44:46+07:00",
+    "local_checksum": "a58e172bc908bb12de6e06397995ced5a490d2e16364dbc7e772b3941a943c1f",
+    "remote_version": 1772087212,
+    "remote_public_id": "samples/two-ladies"
+  },
+  "samples/woman-on-a-football-field.jpg": {
+    "last_synced_at": "2026-04-03T13:44:47+07:00",
+    "local_checksum": "0b4da187eb6760338ff6b4432162af9138b49762dd6a20738498916eda645718",
+    "remote_version": 1772087212,
+    "remote_public_id": "samples/woman-on-a-football-field"
+  },
+  "samples/upscale-face-1.jpg": {
+    "last_synced_at": "2026-04-03T13:44:48+07:00",
+    "local_checksum": "aee58198f7948a2ea1c677645776d016872ca55be7f6b37d5e19d0b6741faf43",
+    "remote_version": 1772087212,
+    "remote_public_id": "samples/upscale-face-1"
+  },
+  "samples/chair.png": {
+    "last_synced_at": "2026-04-03T13:44:49+07:00",
+    "local_checksum": "7e4b9c5e1a6046728e35ae6f8e6ba4e33a37101f3b1eea419cc961f8d3a91f87",
+    "remote_version": 1772087212,
+    "remote_public_id": "samples/chair"
+  },
+  "samples/man-portrait.jpg": {
+    "last_synced_at": "2026-04-03T13:44:50+07:00",
+    "local_checksum": "39fb7d2809a676f6f1a8cd53d780eca8d8525494885164b40d843e54d11c717e",
+    "remote_version": 1772087212,
+    "remote_public_id": "samples/man-portrait"
+  },
+  "samples/ecommerce/shoes.png": {
+    "last_synced_at": "2026-04-03T13:44:51+07:00",
+    "local_checksum": "2b32342dd49e267359731c658d39f8926d5c42960dbedea196dbf47297b0a19a",
+    "remote_version": 1772087212,
+    "remote_public_id": "samples/ecommerce/shoes"
+  },
+  "samples/logo.png": {
+    "last_synced_at": "2026-04-03T13:44:52+07:00",
+    "local_checksum": "daba93c7b3f3bb9daca83210855386a17a2ed58ed429ad96291e48fe7a2dda63",
+    "remote_version": 1772087212,
+    "remote_public_id": "samples/logo"
+  },
+  "samples/coffee.jpg": {
+    "last_synced_at": "2026-04-03T13:44:53+07:00",
+    "local_checksum": "3b71fdc39331ce19ba805deeaa9e4b284e77c2a6bc95133434120b12571adebf",
+    "remote_version": 1772087212,
+    "remote_public_id": "samples/coffee"
+  },
+  "samples/outdoor-woman.jpg": {
+    "last_synced_at": "2026-04-03T13:44:53+07:00",
+    "local_checksum": "4f3b9a464bac8c2aa58f2a2ce92ebf20f5a8d4bbaf6ec2b152683336c3b8275e",
+    "remote_version": 1772087212,
+    "remote_public_id": "samples/outdoor-woman"
+  }
+}
