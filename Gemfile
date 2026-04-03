@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.4.1"
 gem 'concurrent-ruby', '~> 1.2'
-gem 'json', '2.18.1'
+gem 'json', '2.19.2'
 gem 'google-protobuf', '4.33.5'
 gem "csv"
 gem "base64"
