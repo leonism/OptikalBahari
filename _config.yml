@@ -49,6 +49,15 @@ jekyll_admin:
     - configuration
   homepage: "pages"
 
+# Built-in Collections
+collections:
+  posts:
+    output: true
+    permalink: /posts/:title/
+  reviews:
+    output: true # Required for jekyll-paginate-v2 in some environments
+    permalink: /reviews/:title/ # Dummy permalink, we won't use individual pages
+
 # Build Settings
 include: ["_pages", "_redirects", "_headers"]
 destination: _site
@@ -68,7 +77,8 @@ exclude:
 pagination:
   enabled: true
   per_page: 9
-  pabundle exec jekyll serveginate_path: "/posts/page/:num/"
+  permalink: "/page/:num/"
+  paginate_path: "/posts/page/:num/"
   title: ":title - Page :num"
   sort_field: "date"
   sort_reverse: true
@@ -195,6 +205,7 @@ jekyll-minifier:
     - "*.min.css"
     - "assets/vendor/**/*"
     - "assets/js/algolia-search.js"
+    - "assets/js/lazyLoad.js"
 
 # Algolia Search Configuration
 algolia:

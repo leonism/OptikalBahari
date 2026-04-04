@@ -1,13 +1,15 @@
 <title>
   {% if page.title and page.title != 'Home' %}
-    {{ page.title | strip_html | truncate: 43 }} -
+    {{ page.title | strip_html | truncate: 43 }}{% if paginator.page > 1 %} - Page {{ paginator.page }}{% endif %} -
   {% endif %}
   {{ site.title }}
 </title>
 <meta
   name='description'
   content='
-    {% if page.description.size > 10 %}
+    {% if paginator.page > 1 %}
+    Halaman {{ paginator.page }} - {{ page.description | truncate: 140 }}
+    {% elsif page.description.size > 10 %}
     {{ page.description | truncate: 160 }}
     	{% else %}
     {{ site.description | truncate: 160 }}

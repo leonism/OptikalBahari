@@ -5,6 +5,7 @@
   "main": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "fetchreviews": "node _scripts/json-fetch/fetch_reviews.mjs",
     "postbuild": "node _scripts/post-built/post-build.js"
   },
   "repository": {

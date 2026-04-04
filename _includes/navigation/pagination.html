@@ -7,7 +7,7 @@
         <a
           class='btn btn-primary rounded-pill mx-1 text-white'
           href='{{ paginator.previous_page_path | relative_url }}'
-          title='{{ Navigate to previous page paginator.previous_page_path | relative_url }}'
+          title='Navigate to previous page'
           aria-label='Previous Page'
         >
           « Prev
@@ -15,40 +15,56 @@
       </li>
     {% else %}
       <li class='page-item disabled'>
-        <span class='btn btn-primary rounded-pill mx-1 disabled'>« Prev</span>
+        <span class='btn btn-primary rounded-pill mx-1 disabled text-white'>« Prev</span>
       </li>
     {% endif %}
 
     <!-- Page Numbers -->
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <li class='page-item active'>
-          <span class='btn btn-primary rounded-pill mx-1 active text-white'>{{ page }}</span>
-        </li>
-      {% else %}
-        <li class='page-item'>
-          {% if page == 1 %}
-            <!-- Link to the first page (posts index) -->
-            <a
-              class='btn btn-primary rounded-pill mx-1 text-white'
-              href='{{ '/posts/' | relative_url }}'
-              title='{{ Navigate to previous page '/posts/' | relative_url }}'
-            >
-              {{ page }}
-            </a>
+    {% if paginator.page_trail %}
+      {% for trail in paginator.page_trail %}
+        <li class='page-item {% if trail.num == paginator.page %}active{% endif %}'>
+          {% if trail.num == paginator.page %}
+            <span class='btn btn-primary rounded-pill mx-1 active text-white'>{{ trail.num }}</span>
           {% else %}
-            <!-- Link to subsequent pages using the passed include.paginate_path -->
             <a
               class='btn btn-primary rounded-pill mx-1 text-white'
-              href='{{ include.paginate_path | relative_url | replace: ':num', page }}'
-              title='{{ Navigate to previous page include.paginate_path | relative_url | replace: ':num', page }}'
+              href='{{ trail.path | relative_url }}'
+              title='Navigate to page {{ trail.num }}'
             >
-              {{ page }}
+              {{ trail.num }}
             </a>
           {% endif %}
         </li>
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
+    {% else %}
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <li class='page-item active'>
+            <span class='btn btn-primary rounded-pill mx-1 active text-white'>{{ page }}</span>
+          </li>
+        {% else %}
+          <li class='page-item'>
+            {% if page == 1 %}
+              <a
+                class='btn btn-primary rounded-pill mx-1 text-white'
+                href='{{ include.base_url | default: "/posts/" | relative_url }}'
+                title='Navigate to first page'
+              >
+                {{ page }}
+              </a>
+            {% else %}
+              <a
+                class='btn btn-primary rounded-pill mx-1 text-white'
+                href='{{ include.paginate_path | relative_url | replace: ":num", page }}'
+                title='Navigate to page {{ page }}'
+              >
+                {{ page }}
+              </a>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
 
     <!-- Next Button -->
     {% if paginator.next_page %}
@@ -56,7 +72,7 @@
         <a
           class='btn btn-primary rounded-pill mx-1 text-white'
           href='{{ paginator.next_page_path | relative_url }}'
-          title='{{ Navigate to next page paginator.next_page_path | relative_url }}'
+          title='Navigate to next page'
           aria-label='Next'
         >
           Next »
@@ -64,7 +80,7 @@
       </li>
     {% else %}
       <li class='page-item disabled'>
-        <span class='btn btn-primary rounded-pill mx-1 disabled'>Next »</span>
+        <span class='btn btn-primary rounded-pill mx-1 disabled text-white'>Next »</span>
       </li>
     {% endif %}
   </ul>

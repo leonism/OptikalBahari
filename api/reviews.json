@@ -1,0 +1,21 @@
+---
+layout: null
+permalink: /api/reviews.json
+---
+[
+  {% for review_hash in site.data.reviews %}
+    {% assign review = review_hash[1] %}
+    {
+      "name": {{ review.name | jsonify }},
+      "reviewerPhotoUrl": {{ review.reviewerPhotoUrl | jsonify }},
+      "text": {{ review.text | jsonify }},
+      "stars": {{ review.stars | jsonify }},
+      "publishedAtDate": {{ review.publishedAtDate | jsonify }},
+      "publishAt": {{ review.publishAt | jsonify }},
+      "reviewUrl": {{ review.reviewUrl | jsonify }},
+      "reviewImageUrls": {{ review.reviewImageUrls | jsonify }},
+      "totalScore": {{ review.totalScore | jsonify }},
+      "reviewsCount": {{ review.reviewsCount | jsonify }}
+    }{% if forloop.last == false %},{% endif %}
+  {% endfor %}
+]
