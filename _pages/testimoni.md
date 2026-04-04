@@ -42,7 +42,7 @@ comments: false
 
 <!-- Sorting Controls -->
 <div class="d-flex justify-content-between align-items-center mb-4">
-  <h4 class="card-title">Ulasan Pelanggan</h4>
+  <!-- <h4 class="card-title">Ulasan Pelanggan</h4> -->
   <div class="dropdown">
     <button class="btn btn-outline-secondary dropdown-toggle rounded-pill px-4 py-2" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: 600;">
       <i class="fa-solid fa-sort me-2"></i> Urutkan
@@ -52,6 +52,7 @@ comments: false
       <li><a class="dropdown-item" href="#" data-sort="date-asc">Terlama</a></li>
       <li><a class="dropdown-item" href="#" data-sort="rating-desc">Rating Tertinggi</a></li>
       <li><a class="dropdown-item" href="#" data-sort="rating-asc">Rating Terendah</a></li>
+      <li><a class="dropdown-item" href="#" data-sort="with-photos">Dengan Photo</a></li>
     </ul>
   </div>
 </div>

@@ -132,17 +132,18 @@ function openReviewModal(index) {
   }
 
   // Avatar
-  const avatarHtml = photoUrl && photoUrl !== 'null'
-    ? `<img src="${photoUrl}" alt="${name}" class="rounded-circle" width="48" height="48" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+  const avatarHtml =
+    photoUrl && photoUrl !== 'null'
+      ? `<img src="${photoUrl}" alt="${name}" class="rounded-circle" width="48" height="48" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
        <div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size: 1.2rem; font-weight: bold; display: none !important;">${initials}</div>`
-    : `<div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size: 1.2rem; font-weight: bold;">${initials}</div>`
+      : `<div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size: 1.2rem; font-weight: bold;">${initials}</div>`
 
   // Images - Click to open original
   let imagesHtml = ''
   const imageUrls = Array.isArray(review.reviewImageUrls) ? review.reviewImageUrls : []
   if (imageUrls.length > 0) {
     imagesHtml = `<div class="review-modal-images mt-3">
-      ${imageUrls.map(url => `<a href="${url}" target="_blank" rel="noopener noreferrer"><img src="${url}" class="img-fluid rounded mb-2" alt="Review Image"></a>`).join('')}
+      ${imageUrls.map((url) => `<a href="${url}" target="_blank" rel="noopener noreferrer"><img src="${url}" class="img-fluid rounded mb-2" alt="Review Image"></a>`).join('')}
     </div>`
   }
 
@@ -155,9 +156,9 @@ function openReviewModal(index) {
           <div class="small text-muted">reviewed <span style="color: #1976d2;">Bahari Optical</span></div>
         </div>
       </div>
-      <div class="mb-3">${starsHtml}</div>
+      <div class="mb-2">${starsHtml}</div>
       <div class="review-modal-text text-muted" style="font-size: 1rem; line-height: 1.6;">
-        ${review.text || ''}
+        ${review.text ? review.text : '<em>Customer left rating star only</em>'}
       </div>
       ${imagesHtml}
       <div class="mt-4 pt-3 border-top">
@@ -203,10 +204,10 @@ async function fetchReviews() {
 
     // Format score with .0 suffix for visual consistency
     const firstScore = data[0] ? (parseFloat(data[0].totalScore) || 5.0).toFixed(1) : '5.0'
-    
+
     // Sort by Date (Newest) initially and render
     sortReviews('date-desc')
-    
+
     // UI state success is handled by renderReviews internally via its called path
     setUIState('success')
     renderReviews(firstScore)
@@ -230,24 +231,35 @@ function sortReviews(sortType, event) {
     if (btn) btn.innerHTML = `<i class="fas fa-sort me-2"></i> ${event.target.innerText}`
   }
 
-  // Perform sorting on a copy of the reviews array
-  currentSortedReviews = [...allReviews].sort((a, b) => {
-    const timeA = a.publishedAtDate ? new Date(a.publishedAtDate).getTime() : 0
-    const timeB = b.publishedAtDate ? new Date(b.publishedAtDate).getTime() : 0
+  // Handle "With Photos" filter separately as it changes the base array
+  if (sortType === 'with-photos') {
+    currentSortedReviews = allReviews.filter((r) => Array.isArray(r.reviewImageUrls) && r.reviewImageUrls.length > 0)
+    // Default to date-desc for photo view
+    currentSortedReviews.sort((a, b) => {
+      const timeA = a.publishedAtDate ? new Date(a.publishedAtDate).getTime() : 0
+      const timeB = b.publishedAtDate ? new Date(b.publishedAtDate).getTime() : 0
+      return timeB - timeA
+    })
+  } else {
+    // Perform sorting on the full reviews array
+    currentSortedReviews = [...allReviews].sort((a, b) => {
+      const timeA = a.publishedAtDate ? new Date(a.publishedAtDate).getTime() : 0
+      const timeB = b.publishedAtDate ? new Date(b.publishedAtDate).getTime() : 0
 
-    switch (sortType) {
-      case 'date-desc':
-        return timeB - timeA
-      case 'date-asc':
-        return timeA - timeB
-      case 'rating-desc':
-        return (b.stars || 0) - (a.stars || 0)
-      case 'rating-asc':
-        return (a.stars || 0) - (b.stars || 0)
-      default:
-        return 0
-    }
-  })
+      switch (sortType) {
+        case 'date-desc':
+          return timeB - timeA
+        case 'date-asc':
+          return timeA - timeB
+        case 'rating-desc':
+          return (b.stars || 0) - (a.stars || 0)
+        case 'rating-asc':
+          return (a.stars || 0) - (b.stars || 0)
+        default:
+          return 0
+      }
+    })
+  }
 
   // Reset to first page whenever sorting changes
   currentPage = 1
@@ -346,16 +358,20 @@ function createReviewCardTemplate(review) {
   const charLimit = 200
   let displayBodyHtml = ''
 
-  if (fullText.length > charLimit) {
-    const visibleText = fullText.substring(0, charLimit)
-    const hiddenText = fullText.substring(charLimit)
-    displayBodyHtml = `
-      ${visibleText}<span class="dots">...</span>
-      <span class="more-text d-none">${hiddenText}</span>
-      <button onclick="toggleReadMore(this)" class="btn btn-link p-0 ms-1" style="font-size: 0.9rem; text-decoration:none; color: #1976d2; vertical-align: baseline;">See more</button>
-    `
+  if (fullText) {
+    if (fullText.length > charLimit) {
+      const visibleText = fullText.substring(0, charLimit)
+      const hiddenText = fullText.substring(charLimit)
+      displayBodyHtml = `
+        ${visibleText}<span class="dots">...</span>
+        <span class="more-text d-none">${hiddenText}</span>
+        <button onclick="toggleReadMore(this)" class="btn btn-link p-0 ms-1" style="font-size: 0.9rem; text-decoration:none; color: #1976d2; vertical-align: baseline;">See more</button>
+      `
+    } else {
+      displayBodyHtml = fullText
+    }
   } else {
-    displayBodyHtml = fullText
+    displayBodyHtml = '<em class="opacity-75">Customer left rating star only</em>'
   }
 
   // Find index of this review in the currentSortedReviews array
