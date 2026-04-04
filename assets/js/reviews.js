@@ -201,10 +201,15 @@ async function fetchReviews() {
 
     allReviews = data
 
+    // Format score with .0 suffix for visual consistency
+    const firstScore = data[0] ? (parseFloat(data[0].totalScore) || 5.0).toFixed(1) : '5.0'
+    
     // Sort by Date (Newest) initially and render
     sortReviews('date-desc')
-
+    
+    // UI state success is handled by renderReviews internally via its called path
     setUIState('success')
+    renderReviews(firstScore)
   } catch (error) {
     console.error('Testimonial error:', error)
     setUIState('error')
@@ -270,8 +275,9 @@ function goToPage(page, event) {
 
 /**
  * Main rendering function to build the review grid HTML
+ * @param {string} [customScore]
  */
-function renderReviews() {
+function renderReviews(customScore) {
   const gridEl = document.getElementById('reviews-grid')
   if (!gridEl) return
 
@@ -284,7 +290,7 @@ function renderReviews() {
 
   // 1. Add Summary Card (Only on the first page)
   if (currentPage === 1 && currentSortedReviews.length > 0) {
-    const score = currentSortedReviews[0].totalScore || '5.0'
+    const score = customScore || (currentSortedReviews[0].totalScore ? parseFloat(currentSortedReviews[0].totalScore).toFixed(1) : '5.0')
     gridEl.innerHTML += createSummaryCardTemplate(score)
   }
 
@@ -304,12 +310,17 @@ function renderReviews() {
  */
 
 function createSummaryCardTemplate(score) {
-  const stars = '<i class="fas fa-star fs-4"></i>'.repeat(Math.round(parseFloat(score)))
   return `
     <div class="masonry-item review-card-animation">
-      <div class="card h-100 p-4 text-center" style="background-color: #ffffff;">
-        <h2 class="display-3 mb-2" style="font-weight:700; color:#5f6368;">${score}</h2>
-        <div class="mb-3 text-warning">${stars}</div>
+      <div class="card h-100 p-4 text-center shadow-sm" style="background-color: #ffffff;">
+        <h2 class="display-3 mb-2" style="font-weight:800; color:#1976d2;">${score}</h2>
+        <div class="mb-3 text-warning">
+          <i class="fa-solid fa-star fs-4"></i>
+          <i class="fa-solid fa-star fs-4"></i>
+          <i class="fa-solid fa-star fs-4"></i>
+          <i class="fa-solid fa-star fs-4"></i>
+          <i class="fa-solid fa-star fs-4"></i>
+        </div>
         <h5 class="card-title" style="font-weight: 700; color: #5f6368;">Google Overall Rating<br>Bahari Optical</h5>
       </div>
     </div>`
@@ -327,7 +338,7 @@ function createReviewCardTemplate(review) {
   const stars = review.stars || 5
   let starsHtml = ''
   for (let i = 1; i <= 5; i++) {
-    starsHtml += i <= stars ? '<i class="fas fa-star" style="color: #ff9800;"></i>' : '<i class="far fa-star" style="color: #ff9800;"></i>'
+    starsHtml += i <= stars ? '<i class="fa-solid fa-star" style="color: #ff9800;"></i>' : '<i class="fa-regular fa-star" style="color: #ff9800;"></i>'
   }
 
   // Review Text Truncation

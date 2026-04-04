@@ -306,7 +306,7 @@
                           style="object-fit: cover; width: 100%; height: 100%;"
                           onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2280%22%20height%3D%2280%22%20viewBox%3D%220%200%2080%2080%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3f4f6%22%2F%3E%3Cpath%20d%3D%22M40%2030v20M30%2040h20%22%20stroke%3D%22%239ca3af%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E'"
                         />`
-                      : html`<i class="fas fa-image"></i>`}
+                      : html`<i class="fa-solid fa-image"></i>`}
                   </div>
                   <div class="hit-content">
                     <h3 class="hit-title">${components.Highlight({ hit, attribute: 'title' })}</h3>
@@ -323,7 +323,7 @@
           empty(results, { html }) {
             return html`
               <div class="search-empty-state text-center py-5">
-                <i class="fas fa-search fa-3x mb-3 opacity-25"></i>
+                <i class="fa-solid fa-search fa-3x mb-3 opacity-25"></i>
                 <h3 class="h5">Tidak ada hasil ditemukan</h3>
                 <p class="text-muted small">Coba ubah kata kunci pencarian Anda.</p>
               </div>
@@ -349,8 +349,8 @@
         scrollTo: false,
         padding: 1,
         templates: {
-          previous: '<i class="fas fa-chevron-left" aria-hidden="true"></i>',
-          next: '<i class="fas fa-chevron-right" aria-hidden="true"></i>',
+          previous: '<i class="fa-solid fa-chevron-left" aria-hidden="true"></i>',
+          next: '<i class="fa-solid fa-chevron-right" aria-hidden="true"></i>',
         },
       }),
     ])

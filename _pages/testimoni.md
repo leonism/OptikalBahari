@@ -45,7 +45,7 @@ comments: false
   <h4 class="card-title">Ulasan Pelanggan</h4>
   <div class="dropdown">
     <button class="btn btn-outline-secondary dropdown-toggle rounded-pill px-4 py-2" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: 600;">
-      <i class="fas fa-sort me-2"></i> Urutkan
+      <i class="fa-solid fa-sort me-2"></i> Urutkan
     </button>
     <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0" aria-labelledby="sortDropdown" id="sort-options">
       <li><a class="dropdown-item" href="#" data-sort="date-desc">Terbaru</a></li>
@@ -65,7 +65,7 @@ comments: false
 </div>
 
 <div id="reviews-error" class="alert alert-danger text-center py-4 d-none" role="alert">
-  <i class="fas fa-exclamation-triangle fa-2x mb-3"></i>
+  <i class="fa-solid fa-triangle-exclamation fa-2x mb-3"></i>
   <h5>Maaf, Terjadi Kesalahan</h5>
   <p>Gagal memuat data ulasan. Silakan coba muat ulang halaman.</p>
   <button class="btn btn-danger mt-2 rounded-pill px-4" id="retry-fetch">Coba Lagi</button>

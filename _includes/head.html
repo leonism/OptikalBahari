@@ -7,14 +7,9 @@
   {% include meta/meta-fb.html %}
   {% include meta/meta-og.html %}
   {% include fonts.html %}
-  <link rel="preload" href="{{ '/assets/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome-free-7.1.0-web/css/all.min.css' | relative_url }}" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="{{ '/assets/vendor/instant-search/satellite-min.css' | relative_url }}" media="print" onload="this.media='all'">
-  <noscript>
-    <link rel="stylesheet" href="{{ '/assets/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome-free-7.1.0-web/css/all.min.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/vendor/instant-search/satellite-min.css' | relative_url }}">
-  </noscript>
+  <link rel="stylesheet" href="{{ '/assets/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome-free-7.1.0-web/css/all.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/vendor/instant-search/satellite-min.css' | relative_url }}">
   <style>
     {% capture include_scss %}
       {% include critical.scss %}
