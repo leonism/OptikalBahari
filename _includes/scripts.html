@@ -2,6 +2,9 @@
 <script defer src='{{'/assets/vendor/startbootstrap-clean-blog/js/clean-blog.js' | relative_url }}'></script>
 <script defer src='{{'/assets/js/scripts.js' | relative_url }}'></script>
 <script defer src='{{'/assets/js/lazyLoad.js' | relative_url }}'></script>
+{% if page.url == '/testimoni/' %}
+<script defer src='{{'/assets/js/reviews.js' | relative_url }}'></script>
+{% endif %}
 <!-- Algolia Search Scripts -->
 {% if site.algolia.application_id %}
   <script data-cfasync='false'>

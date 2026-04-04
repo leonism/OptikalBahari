@@ -17,14 +17,16 @@ function initializeLazyLoading() {
           const img = entry.target
 
           // Restore the original src from the data-src attribute
-          if (img.dataset.src) {
-            img.src = img.dataset.src
+          const dataSrc = img.getAttribute('data-src')
+          if (dataSrc) {
+            img.setAttribute('src', dataSrc)
             img.removeAttribute('data-src') // Clean up
           }
 
           // Restore the srcset from the data-srcset attribute
-          if (img.dataset.srcset) {
-            img.srcset = img.dataset.srcset
+          const dataSrcset = img.getAttribute('data-srcset')
+          if (dataSrcset) {
+            img.setAttribute('srcset', dataSrcset)
             img.removeAttribute('data-srcset') // Clean up
           }
 
@@ -37,16 +39,22 @@ function initializeLazyLoading() {
 
     // Observe each image
     images.forEach((image) => {
-      // Store the original src in a data-src attribute
-      if (image.src && !image.dataset.src) {
-        image.dataset.src = image.src // Save the original src
-        image.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' // Placeholder
+      // Store the original src in a data-src attribute if not already done
+      const currentSrc = image.getAttribute('src')
+      const dataSrc = image.getAttribute('data-src')
+      const placeholder = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'
+
+      if (currentSrc && !dataSrc && currentSrc !== placeholder) {
+        image.setAttribute('data-src', currentSrc) // Save the original src
+        image.setAttribute('src', placeholder) // Placeholder
       }
 
-      // Store the original srcset in a data-srcset attribute
-      if (image.srcset && !image.dataset.srcset) {
-        image.dataset.srcset = image.srcset // Save the original srcset
-        image.srcset = '' // Clear the srcset
+      // Store the original srcset in a data-srcset attribute if not already done
+      const currentSrcset = image.getAttribute('srcset')
+      const dataSrcset = image.getAttribute('data-srcset')
+      if (currentSrcset && !dataSrcset) {
+        image.setAttribute('data-srcset', currentSrcset) // Save the original srcset
+        image.setAttribute('srcset', '') // Clear the srcset
       }
 
       observer.observe(image)
