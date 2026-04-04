@@ -454,18 +454,18 @@ function setUIState(state) {
   const dNone = 'd-none'
 
   // Reset all
-  els.loading?.classList.add(dNone)
-  els.error?.classList.add(dNone)
-  els.gridWrapper?.classList.add(dNone)
-  els.paginationWrapper?.classList.add(dNone)
+  if (els.loading) els.loading.classList.add(dNone)
+  if (els.error) els.error.classList.add(dNone)
+  if (els.gridWrapper) els.gridWrapper.classList.add(dNone)
+  if (els.paginationWrapper) els.paginationWrapper.classList.add(dNone)
 
   if (state === 'loading') {
-    els.loading?.classList.remove(dNone)
+    if (els.loading) els.loading.classList.remove(dNone)
   } else if (state === 'success') {
-    els.gridWrapper?.classList.remove(dNone)
-    els.paginationWrapper?.classList.remove(dNone)
+    if (els.gridWrapper) els.gridWrapper.classList.remove(dNone)
+    if (els.paginationWrapper) els.paginationWrapper.classList.remove(dNone)
   } else if (state === 'error') {
-    els.error?.classList.remove(dNone)
+    if (els.error) els.error.classList.remove(dNone)
   }
 }
 

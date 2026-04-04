@@ -50,11 +50,16 @@
     }
 
     Logger.log('Configuration loaded from meta tags (fallback)')
+    const appIdEl = document.querySelector('meta[name="algolia-app-id"]')
+    const apiKeyEl = document.querySelector('meta[name="algolia-api-key"]')
+    const indexNameEl = document.querySelector('meta[name="algolia-index-name"]')
+    const hitsPerPageEl = document.querySelector('meta[name="algolia-hits-per-page"]')
+
     return {
-      appId: document.querySelector('meta[name="algolia-app-id"]')?.getAttribute('content') || '',
-      apiKey: document.querySelector('meta[name="algolia-api-key"]')?.getAttribute('content') || '',
-      indexName: document.querySelector('meta[name="algolia-index-name"]')?.getAttribute('content') || '',
-      hitsPerPage: parseInt(document.querySelector('meta[name="algolia-hits-per-page"]')?.getAttribute('content') || '10', 10),
+      appId: appIdEl ? appIdEl.getAttribute('content') || '' : '',
+      apiKey: apiKeyEl ? apiKeyEl.getAttribute('content') || '' : '',
+      indexName: indexNameEl ? indexNameEl.getAttribute('content') || '' : '',
+      hitsPerPage: parseInt((hitsPerPageEl ? hitsPerPageEl.getAttribute('content') : '10') || '10', 10),
     }
   }
 
