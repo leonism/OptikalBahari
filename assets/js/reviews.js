@@ -31,7 +31,7 @@ let currentSortedReviews = [] // Reviews currently filtered/sorted
 let currentPage = 1 // Active pagination page
 // --- Configuration ---
 const CONFIG = {
-  itemsPerPage: 12, // Reduced for faster initial render
+  itemsPerPage: 20, // Default items per page
   charLimit: 200,
   imageSizes: {
     avatar: 48, // Aggressive compression for 48px display
@@ -74,6 +74,40 @@ function setupEventListeners() {
   if (retryBtn) {
     retryBtn.addEventListener('click', fetchReviews)
   }
+
+  // Items per page selection
+  const limitOptions = document.getElementById('limit-options')
+  if (limitOptions) {
+    limitOptions.addEventListener('click', (e) => {
+      const target = e.target
+      if (target instanceof HTMLElement && target.classList.contains('dropdown-item')) {
+        e.preventDefault()
+        const limit = target.getAttribute('data-limit')
+        if (limit) {
+          setLimit(parseInt(limit), e)
+        }
+      }
+    })
+  }
+}
+
+/**
+ * Updates the number of items displayed per page
+ * @param {number} limit
+ * @param {Event} [event]
+ */
+function setLimit(limit, event) {
+  if (event) event.preventDefault()
+  CONFIG.itemsPerPage = limit
+  currentPage = 1 // Reset to first page
+
+  // Update dropdown button text
+  const btn = document.getElementById('limitDropdown')
+  if (btn) {
+    btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.5rem;"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line><line x1="9" y1="3" x2="9" y2="21"></line></svg> Tampilkan: ${limit}`
+  }
+
+  renderReviews()
 }
 
 /**
@@ -241,7 +275,7 @@ function sortReviews(sortType, event) {
   // Update dropdown button text dynamically
   if (event && event.target instanceof HTMLElement) {
     const btn = document.getElementById('sortDropdown')
-    if (btn) btn.innerHTML = `<i class="fas fa-sort me-2"></i> ${event.target.innerText}`
+    if (btn) btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.5rem;"><line x1="21" y1="6" x2="3" y2="6"></line><line x1="17" y1="12" x2="7" y2="12"></line><line x1="12" y1="18" x2="12" y2="18"></line></svg> ${event.target.innerText}`
   }
 
   // Handle "With Photos" filter separately as it changes the base array
@@ -339,12 +373,12 @@ function createSummaryCardTemplate(score) {
     <div class="masonry-item review-card-animation">
       <div class="card h-100 p-4 text-center shadow-sm" style="background-color:#ffffff;">
         <h2 class="display-3 mb-1" style="font-weight:800; color:#1976d2;">${score}</h2>
-        <div class="mb-0 text-warning">
-          <i class="fa-solid fa-star fs-4"></i>
-          <i class="fa-solid fa-star fs-4"></i>
-          <i class="fa-solid fa-star fs-4"></i>
-          <i class="fa-solid fa-star fs-4"></i>
-          <i class="fa-solid fa-star fs-4"></i>
+        <div class="mb-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffc107" viewBox="0 0 16 16" style="margin: 0 2px;"><path d="M3.612 15.443c-.387.197-.85-.121-.756-.546l.83-4.73L.413 6.705c-.324-.314-.154-.876.288-.937l4.872-.708L7.433.647a.78.78 0 0 1 1.396 0l2.164 4.413 4.871.708c.442.061.612.623.288.937l-3.522 3.356.83 4.73c.094.425-.369.743-.756.546l-4.248-2.232-4.248 2.232z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffc107" viewBox="0 0 16 16" style="margin: 0 2px;"><path d="M3.612 15.443c-.387.197-.85-.121-.756-.546l.83-4.73L.413 6.705c-.324-.314-.154-.876.288-.937l4.872-.708L7.433.647a.78.78 0 0 1 1.396 0l2.164 4.413 4.871.708c.442.061.612.623.288.937l-3.522 3.356.83 4.73c.094.425-.369.743-.756.546l-4.248-2.232-4.248 2.232z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffc107" viewBox="0 0 16 16" style="margin: 0 2px;"><path d="M3.612 15.443c-.387.197-.85-.121-.756-.546l.83-4.73L.413 6.705c-.324-.314-.154-.876.288-.937l4.872-.708L7.433.647a.78.78 0 0 1 1.396 0l2.164 4.413 4.871.708c.442.061.612.623.288.937l-3.522 3.356.83 4.73c.094.425-.369.743-.756.546l-4.248-2.232-4.248 2.232z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffc107" viewBox="0 0 16 16" style="margin: 0 2px;"><path d="M3.612 15.443c-.387.197-.85-.121-.756-.546l.83-4.73L.413 6.705c-.324-.314-.154-.876.288-.937l4.872-.708L7.433.647a.78.78 0 0 1 1.396 0l2.164 4.413 4.871.708c.442.061.612.623.288.937l-3.522 3.356.83 4.73c.094.425-.369.743-.756.546l-4.248-2.232-4.248 2.232z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffc107" viewBox="0 0 16 16" style="margin: 0 2px;"><path d="M3.612 15.443c-.387.197-.85-.121-.756-.546l.83-4.73L.413 6.705c-.324-.314-.154-.876.288-.937l4.872-.708L7.433.647a.78.78 0 0 1 1.396 0l2.164 4.413 4.871.708c.442.061.612.623.288.937l-3.522 3.356.83 4.73c.094.425-.369.743-.756.546l-4.248-2.232-4.248 2.232z"/></svg>
         </div>
         <h5 class="card-title mt-1" style="font-weight: 700; color: #5f6368;">Google Overall Rating<br>Bahari Optical</h5>
       </div>
@@ -363,7 +397,11 @@ function createReviewCardTemplate(review) {
   const stars = review.stars || 5
   let starsHtml = ''
   for (let i = 1; i <= 5; i++) {
-    starsHtml += i <= stars ? '<i class="fa-solid fa-star" style="color:#ff9800;"></i>' : '<i class="fa-regular fa-star" style="color: #ff9800;"></i>'
+    const starColor = '#ff9800'
+    const isFilled = i <= stars
+    starsHtml += isFilled 
+      ? `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="${starColor}" viewBox="0 0 16 16" style="margin-right: 2px;"><path d="M3.612 15.443c-.387.197-.85-.121-.756-.546l.83-4.73L.413 6.705c-.324-.314-.154-.876.288-.937l4.872-.708L7.433.647a.78.78 0 0 1 1.396 0l2.164 4.413 4.871.708c.442.061.612.623.288.937l-3.522 3.356.83 4.73c.094.425-.369.743-.756.546l-4.248-2.232-4.248 2.232z"/></svg>`
+      : `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="${starColor}" viewBox="0 0 16 16" style="margin-right: 2px;"><path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957-2.928-2.787 4.077-.58 1.826-3.71 1.826 3.71 4.077.58-2.928 2.787.694 3.957-3.685-1.894z"/></svg>`
   }
 
   // Review Text Truncation
@@ -478,7 +516,7 @@ function renderPagination() {
   // First page ellipsis
   if (start > 1) {
     html += `<li class="page-item"><a class="btn btn-primary rounded-pill mx-1 text-white" href="#" onclick="goToPage(1, event)">1</a></li>`
-    if (start > 2) html += `<li class="page-item disabled"><span class="btn btn-primary rounded-pill mx-1 text-white bg-transparent border-0 opacity-50">...</span></li>`
+    if (start > 2) html += `<li class="page-item disabled"><span class="btn btn-primary rounded-pill mx-1 text-secondary bg-transparent border-0 opacity-50">...</span></li>`
   }
 
   // Numbered pages
@@ -489,7 +527,7 @@ function renderPagination() {
 
   // Last page ellipsis
   if (end < totalPages) {
-    if (end < totalPages - 1) html += `<li class="page-item disabled"><span class="btn btn-primary rounded-pill mx-1 text-white bg-transparent border-0 opacity-50">...</span></li>`
+    if (end < totalPages - 1) html += `<li class="page-item disabled"><span class="btn btn-primary rounded-pill mx-1 text-secondary bg-transparent border-0 opacity-50">...</span></li>`
     html += `<li class="page-item"><a class="btn btn-primary rounded-pill mx-1 text-white" href="#" onclick="goToPage(${totalPages}, event)">${totalPages}</a></li>`
   }
 

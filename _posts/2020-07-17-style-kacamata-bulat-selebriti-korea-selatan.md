@@ -2,9 +2,11 @@
 layout: post
 title: Style Kacamata Bulat ala Selebriti Korea Selatan
 subtitle:
-  'Style Kacamata Bulat ala Selebriti Korea Selatan, hadir dengan berbagai model dan kerap digunakan oleh selebriti KPop.'
+  'Style Kacamata Bulat ala Selebriti Korea Selatan, hadir dengan berbagai model & kerap digunakan
+  oleh selebriti Korean Pop Star'
 description:
-  'Style Kacamata Bulat ala Selebriti Korea Selatan, hadir dengan berbagai model dan kerap digunakan oleh selebriti KPop.'
+  'Tampil ikonik dengan kacamata bulat ala idol K-Pop. Tersedia dalam berbagai pilihan model yang
+  jadi andalan selebriti Korea Selatan!'
 keywords: 'Kacamata Bulat, Oppa, Trend, Korea, Korsel'
 lang: id-ID
 date: '2020-07-17 08:25:23 +0700'
@@ -12,7 +14,7 @@ author: Optikal Bahari
 categories: [Trend]
 tags: [layanan, optikal]
 background: /assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-00.webp
-comments: true
+comments: false
 permalink: /style-kacamata-bulat-selebriti-korea-selatan/
 ---
 
@@ -22,18 +24,10 @@ permalink: /style-kacamata-bulat-selebriti-korea-selatan/
     <div class="card-body">
       <h3 class="card-title">Trend Kacamata K-Pop</h3>
       <p class="card-text text-start">
-        Style kacamata bulat pernah booming pada masanya kemudian tergeser oleh kacamata kotak. Namun, kini seiring zaman
-      berjalan kacamata berbentuk bulat kembali digemari millenial. Apalagi role modelnya para idola negeri ginseng, Korea
-      Selatan yang percaya diri menggunakan kacamata berbentuk bulat. Orang yang menggunakan kacamata bisa dengan berbagai alasan.
-      Bisa karena memang penglihatannya kurang seperti minus atau plus, bisa juga karena ingin melindungi mata dari radiasi, dan
-      juga karena mengikuti tren. Ketiga alasan tersebut berhak menentukan bentuk kacamata yang dikenakan, salah satunya berbentuk bulat.
+        Style kacamata bulat pernah booming pada masanya kemudian tergeser oleh kacamata kotak. Namun, kini seiring zaman berjalan kacamata berbentuk bulat kembali digemari millenial. Apalagi role modelnya para idola negeri ginseng, Korea Selatan yang percaya diri menggunakan kacamata berbentuk bulat. Orang yang menggunakan kacamata bisa dengan berbagai alasan. Bisa karena memang penglihatannya kurang seperti minus atau plus, bisa juga karena ingin melindungi mata dari radiasi, dan juga karena mengikuti tren. Ketiga alasan tersebut berhak menentukan bentuk kacamata yang dikenakan, salah satunya berbentuk bulat.
       </p>
       <p class="card-text text-start">
-        Pemasangan kacamata berbentuk bulat pada masing-masing orang akan menampilkan kesan dan aura berbeda. Ada yang menjadi
-      terlihat serius dan ada yang justru terlihat sebaliknya. Ada yang bentuk wajahnya semakin bulat dan ada yang bentuk
-      wajahnya tidak begitu lonjong karena efek lensa tersebut. Bentuk dan ukuran kacamata bundar beragam, ada yang hanya mencukupi area
-      mata dan ada juga yang hingga menyentuh dekat lubang hidung. Pemilihan ukuran kacamata ini bergantung selera dan kebutuhan.
-      Jika tujuannya untuk melindungi dari sinar matahari maka sebaiknya gunakan lensa besar.
+        Pemasangan kacamata berbentuk bulat pada masing-masing orang akan menampilkan kesan dan aura berbeda. Ada yang menjadi terlihat serius dan ada yang justru terlihat sebaliknya. Ada yang bentuk wajahnya semakin bulat dan ada yang bentuk wajahnya tidak begitu lonjong karena efek lensa tersebut. Bentuk dan ukuran kacamata bundar beragam, ada yang hanya mencukupi area mata dan ada juga yang hingga menyentuh dekat lubang hidung. Pemilihan ukuran kacamata ini bergantung selera dan kebutuhan. Jika tujuannya untuk melindungi dari sinar matahari maka sebaiknya gunakan lensa besar.
       </p>
     </div>
   </div>
