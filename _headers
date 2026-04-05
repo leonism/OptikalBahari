@@ -1,10 +1,49 @@
 # ---------------------------------------------------------
-# 3. Global Security Headers applied to ALL routes
+# 1. HTML Pages: Always check for fresh content
 # ---------------------------------------------------------
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
 
-/*
--   X-Content-Type-Options: nosniff
--   X-Frame-Options: DENY
--   X-XSS-Protection: 1; mode=block
--   Referrer-Policy: strict-origin-when-cross-origin
-+   # These are now handled by the Worker for consistency
+# ---------------------------------------------------------
+# 2. Static Assets: Cache aggressively for 1 year
+# ---------------------------------------------------------
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+/*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+/*.jpeg
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+/*.avif
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+/*.ico
+  Cache-Control: public, max-age=31536000, immutable
+
+# ---------------------------------------------------------
+# 3. Special Files
+# ---------------------------------------------------------
+/sw.js
+  Cache-Control: private, no-cache, no-store, must-revalidate
