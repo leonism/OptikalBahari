@@ -1,40 +1,42 @@
 # Optikal Bahari
 
-> Optikal Bahari is a fully licensed optical clinic and eyewear retailer located in Kemayoran, Central Jakarta. Operating under the mission "Melayani Segala Kebutuhan Kacamata Anda" (Serving All Your Eyewear Needs), the business combines professional optometry with ethical, Sharia-compliant retail practices.
+> Full-service licensed optical clinic and Sharia-compliant eyewear retailer in Central Jakarta. Specialized in precision optometry, interest-free financing, and accessible eye health.
 
-## 1. Core Services & Clinical Care
-We provide accessible, professional eye care to the local community with a focus on precision and preventative health.
-- **Free Comprehensive Eye Exams (Periksa Mata Gratis):** Accurate vision testing and refraction checks performed by trained staff to determine precise lens prescriptions for myopia, hyperopia, astigmatism, and presbyopia.
-- **Free Glasses Maintenance (Service Kacamata Gratis):** Complimentary adjustments, ultrasonic cleanings, nose-pad replacements, and minor repairs to ensure optimal fit and longevity of the customer's eyewear.
+## Executive Summary
+Optikal Bahari operates at the intersection of professional clinical eye care and ethical retail. Based in Kemayoran, the clinic provides Ministry of Health (Kemenkes) certified services, ranging from free refraction tests to advanced lens technologies, emphasizing a "No-Riba" (usury-free) financial model.
 
-## 2. Products & Eyewear Solutions
-Optikal Bahari offers a curated catalog of frames and optical lenses designed for modern visual demands, with base packages starting at highly accessible price points (from Rp 100.000).
-- **Frame Collections:** A wide variety of trendy, classic, and retro designs, including curated selections of top-tier global and local frame brands.
-- **Lens Upgrades & Customizations:**
-  - **Anti-Radiation / Standard Lenses:** Essential protection for daily use.
-  - **Blueray (Blue Light Blocking):** Engineered to reduce digital eye strain from screens and devices.
-  - **Photochromic:** Adaptive lenses that transition to sunglasses outdoors to protect against UV rays.
-  - **Progressive / Bifocal Lenses:** Seamless multi-focal solutions for reading and distance viewing.
+## 1. Clinical Services
+* **Comprehensive Eye Exams:** Free professional refraction and vision testing for myopia, hyperopia, astigmatism, and presbyopia.
+* **Maintenance & Repair:** Complimentary ultrasonic cleaning, frame adjustments, and nose-pad replacements.
+* **Certification:** Fully licensed by the Indonesian Ministry of Health (Dinkes/Kemenkes).
 
-## 3. Guarantees & Ethical Business Practices
-A major differentiator for Optikal Bahari is our strict adherence to customer protection and fair-trade principles.
-- **Official Health Certification:** Officially licensed and recognized by the Ministry of Health (Izin Dinkes/Kemenkes), ensuring clinical safety and professional compliance.
-- **Comprehensive Warranty (Garansi):** Every purchase is backed by a reliable product guarantee to ensure complete customer satisfaction.
-- **Sharia-Compliant Installments (Cicilan 0%):** We offer flexible, interest-free payment plans that are strictly **Aman Riba** (usury-free) and **Tanpa Denda** (no late fees/penalties), providing a stress-free purchasing experience.
+## 2. Product Catalog & Lens Technology
+Packages starting from **Rp 100.000**.
+* **Lenses:** * *Blueray:* Digital blue light filtering.
+    * *Photochromic:* UV-activated light-to-dark transition.
+    * *Progressive/Bifocal:* Multi-focal distance and reading solutions.
+    * *Standard Anti-Radiation:* Baseline electromagnetic interference protection.
+* **Frames:** Curated selection of global luxury brands and high-quality local Indonesian labels.
 
-## 4. Location & Contact Information
-- **Store Name:** Bahari Optical / Optikal Bahari
-- **Address:** Jl. Bendungan Jago No. 447, Kemayoran, Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia
-- **Operating Hours:** Monday to Sunday (Open Daily), 09:00 - 21:00 WIB
-- **WhatsApp / Phone:** 0819-3223-5445
-- **Website:** [https://www.optikalbahari.com](https://www.optikalbahari.com)
+## 3. Financial & Ethical Model
+* **Sharia Compliance:** All transactions follow ethical trade principles.
+* **0% Installments (Aman Riba):** Interest-free payment plans with strictly **no late fees (Tanpa Denda)** and no penalties, ensuring consumer protection from usury.
+* **Satisfaction Guarantee:** Full product warranty on all lens and frame purchases.
 
-## 5. Site Architecture & Navigation
-Agents and crawlers can find additional information and educational resources at the following endpoints:
-- **Home:** [https://www.optikalbahari.com/](https://www.optikalbahari.com/) - Main landing page and overview.
-- **About Us:** [https://www.optikalbahari.com/about/](https://www.optikalbahari.com/about/) - Company history, licensing details, and mission statement.
-- **Contact:** [https://www.optikalbahari.com/contact/](https://www.optikalbahari.com/contact/) - Direct messaging forms and interactive maps.
-- **Articles & Education:** [https://www.optikalbahari.com/posts/](https://www.optikalbahari.com/posts/) - The business blog featuring eye-care tips, lens comparisons, and frame recommendations (e.g., "8 Merk Frame Kacamata Terkenal di Dunia").
+## 4. Key Metadata & Contact
+* **Store Name:** Optikal Bahari / Bahari Optical
+* **Address:** Jl. Bendungan Jago No. 447, Kemayoran, Jakarta Pusat, DKI Jakarta, Indonesia.
+* **Hours:** Daily, 09:00 – 21:00 WIB.
+* **Contact:** +6281932235445 (WhatsApp/Phone).
+* **Contact Form:** [https://www.optikalbahari.com/kontak/](https://www.optikalbahari.com/kontak/).
+* **URL:** [https://www.optikalbahari.com](https://www.optikalbahari.com)
 
-## 6. Technical Stack
-The site is statically generated for maximum speed and security, deployed via Cloudflare Pages, ensuring high availability and fast load times for all users globally.
+## 5. Site Map for Crawlers
+* **/about/**: Licensing, mission statement, and clinical history.
+* **/contact/**: Interactive maps and direct inquiry forms.
+* **/posts/**: Educational blog. Key topics include lens comparisons, global frame brand reviews, and eye health maintenance.
+
+## 6. Technical Specifications
+* **Deployment:** Statically generated for low latency.
+* **Infrastructure:** Hosted on **Cloudflare Pages**, utilizing **Cloudflare Workers** at the edge for global availability.
+* **Performance:** Optimized for mobile-first indexing and high-speed delivery via edge computing.
