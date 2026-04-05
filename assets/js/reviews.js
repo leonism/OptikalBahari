@@ -31,13 +31,13 @@ let currentSortedReviews = [] // Reviews currently filtered/sorted
 let currentPage = 1 // Active pagination page
 // --- Configuration ---
 const CONFIG = {
-  itemsPerPage: 20, // Number of review cards per page
-  charLimit: 200, // Review text limit before showing "See more"
+  itemsPerPage: 12, // Reduced for faster initial render
+  charLimit: 200,
   imageSizes: {
-    avatar: 96, // Size for reviewer avatars (support for high-DPI)
-    thumbnail: 200, // Size for images in the multi-grid view
-    card: 600, // Size for single image cards
-    modal: 800, // Size for full images inside the modal
+    avatar: 48, // Aggressive compression for 48px display
+    thumbnail: 120, // Optimized for grid thumbs
+    card: 400, // Optimized for card view
+    modal: 640, // Optimized for modal view
   },
 }
 
@@ -138,7 +138,7 @@ function openReviewModal(index) {
   const stars = review.stars || 5
   let starsHtml = ''
   for (let i = 1; i <= 5; i++) {
-    starsHtml += i <= stars ? '<i class="fas fa-star" style="color: #ff9800;"></i>' : '<i class="far fa-star" style="color: #ff9800;"></i>'
+    starsHtml += i <= stars ? '<i class="fa-solid fa-star" style="color: #ff9800;"></i>' : '<i class="fa-regular fa-star" style="color: #ff9800;"></i>'
   }
 
   // Avatar URL Optimization
@@ -147,7 +147,7 @@ function openReviewModal(index) {
   // Avatar HTML Generation
   const avatarHtml =
     optimizedAvatarUrl && optimizedAvatarUrl !== 'null'
-      ? `<img src="${optimizedAvatarUrl}" alt="${name}" class="rounded-circle" width="48" height="48" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      ? `<img src="${optimizedAvatarUrl}" alt="${name}" class="rounded-circle" width="48" height="48" style="object-fit: cover; aspect-ratio: 1/1;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
       <div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size: 1.2rem; font-weight: bold; display: none !important;">${initials}</div>`
       : `<div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size: 1.2rem; font-weight: bold;">${initials}</div>`
 
@@ -415,7 +415,7 @@ function createReviewCardTemplate(review) {
   // Fallback for missing avatar photos
   const avatarHtml =
     optimizedAvatarUrl && optimizedAvatarUrl !== 'null'
-      ? `<img src="${optimizedAvatarUrl}" alt="${name}" class="rounded-circle" width="48" height="48" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      ? `<img src="${optimizedAvatarUrl}" alt="${name}" class="rounded-circle" width="48" height="48" style="object-fit: cover; aspect-ratio: 1/1;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
       <div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size:1.2rem; font-weight:bold; display:none !important;">
         ${initials}</div>`
       : `<div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size:1.2rem; font-weight:bold;">${initials}</div>`

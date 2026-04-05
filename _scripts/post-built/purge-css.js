@@ -13,7 +13,7 @@ async function runPurgeCSS() {
       content: [`${SITE_DIR}/**/*.html`, `${SITE_DIR}/**/*.js`],
       css: [`${SITE_DIR}/**/*.css`],
       safelist: {
-        standard: ['html', 'body'],
+        standard: ['html', 'body', 'fa-star', 'fa-solid', 'fa-regular', 'fas', 'far', 'rounded-circle', 'text-warning', 'text-muted', 'card', 'card-body', 'card-title', 'card-text'],
         deep: [
           /show$/,
           /fade$/,
@@ -51,6 +51,9 @@ async function runPurgeCSS() {
           /scrollbar/,
           // Font Awesome and Bootstrap specifics
           /^fa-/,
+          /^fas$/,
+          /^far$/,
+          /^fa$/,
           /^fs-/,
           /^ms-/,
           /^me-/,
@@ -58,6 +61,12 @@ async function runPurgeCSS() {
           /^mb-/,
           /^mx-/,
           /^my-/,
+          /^m-/,
+          /^pt-/,
+          /^pb-/,
+          /^ps-/,
+          /^pe-/,
+          /^p-/,
           /^d-/,
           /^text-/,
           /^bg-/,
@@ -65,6 +74,9 @@ async function runPurgeCSS() {
           /^masonry-/,
           /^fw-/,
           /^opacity-/,
+          /^rounded-/,
+          /^shadow-/,
+          /^border-/,
         ],
       },
     })
