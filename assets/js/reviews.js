@@ -29,7 +29,17 @@ let allReviews = [] // Raw storage for all fetched reviews
 /** @type {Review[]} */
 let currentSortedReviews = [] // Reviews currently filtered/sorted
 let currentPage = 1 // Active pagination page
-const ITEMS_PER_PAGE = 20 // Number of reviews per page
+// --- Configuration ---
+const CONFIG = {
+  itemsPerPage: 20, // Number of review cards per page
+  charLimit: 200, // Review text limit before showing "See more"
+  imageSizes: {
+    avatar: 96, // Size for reviewer avatars (support for high-DPI)
+    thumbnail: 200, // Size for images in the multi-grid view
+    card: 600, // Size for single image cards
+    modal: 800, // Size for full images inside the modal
+  },
+}
 
 /**
  * Initialize application on page load
@@ -132,7 +142,7 @@ function openReviewModal(index) {
   }
 
   // Avatar URL Optimization
-  const optimizedAvatarUrl = optimizeGoogleImageUrl(photoUrl || '', 96)
+  const optimizedAvatarUrl = optimizeGoogleImageUrl(photoUrl || '', CONFIG.imageSizes.avatar)
 
   // Avatar HTML Generation
   const avatarHtml =
@@ -146,7 +156,7 @@ function openReviewModal(index) {
   const imageUrls = Array.isArray(review.reviewImageUrls) ? review.reviewImageUrls : []
   if (imageUrls.length > 0) {
     imagesHtml = `<div class="review-modal-images mt-3">
-      ${imageUrls.map((url) => `<a href="${url}" target="_blank" rel="noopener noreferrer"><img src="${optimizeGoogleImageUrl(url, 800)}" class="img-fluid rounded mb-2" alt="Review Image"></a>`).join('')}
+      ${imageUrls.map((url) => `<a href="${url}" target="_blank" rel="noopener noreferrer"><img src="${optimizeGoogleImageUrl(url, CONFIG.imageSizes.modal)}" class="img-fluid rounded mb-2" alt="Review Image"></a>`).join('')}
     </div>`
   }
 
@@ -300,8 +310,8 @@ function renderReviews(customScore) {
   gridEl.innerHTML = ''
 
   // Calculate slice for current page
-  const start = (currentPage - 1) * ITEMS_PER_PAGE
-  const pageReviews = currentSortedReviews.slice(start, start + ITEMS_PER_PAGE)
+  const start = (currentPage - 1) * CONFIG.itemsPerPage
+  const pageReviews = currentSortedReviews.slice(start, start + CONFIG.itemsPerPage)
 
   // 1. Add Summary Card (Only on the first page)
   if (currentPage === 1 && currentSortedReviews.length > 0) {
@@ -358,7 +368,7 @@ function createReviewCardTemplate(review) {
 
   // Review Text Truncation
   const fullText = review.text || ''
-  const charLimit = 200
+  const charLimit = CONFIG.charLimit
   let displayBodyHtml = ''
 
   if (fullText) {
@@ -381,19 +391,19 @@ function createReviewCardTemplate(review) {
   const reviewIndex = currentSortedReviews.indexOf(review)
 
   // Optimize avatar and review images
-  const optimizedAvatarUrl = optimizeGoogleImageUrl(photoUrl || '', 96)
+  const optimizedAvatarUrl = optimizeGoogleImageUrl(photoUrl || '', CONFIG.imageSizes.avatar)
 
   // Review Images Handling
   let imagesHtml = ''
   const imageUrls = Array.isArray(review.reviewImageUrls) ? review.reviewImageUrls : []
 
   if (imageUrls.length === 1) {
-    const thumbUrl = optimizeGoogleImageUrl(imageUrls[0], 600)
+    const thumbUrl = optimizeGoogleImageUrl(imageUrls[0], CONFIG.imageSizes.card)
     imagesHtml = `<img src="${thumbUrl}" class="img-fluid rounded mt-2 mb-1 clickable-img" alt="Review Image" loading="lazy" style="width: 100%; max-height: 300px; object-fit: cover;" onclick="openReviewModal(${reviewIndex})">`
   } else if (imageUrls.length > 1) {
     const thumbnails = imageUrls
       .map((url) => {
-        const thumbUrl = optimizeGoogleImageUrl(url, 200) // Small square thumbs
+        const thumbUrl = optimizeGoogleImageUrl(url, CONFIG.imageSizes.thumbnail) // Small square thumbs
         return `<div class="review-thumbnail-wrapper" onclick="openReviewModal(${reviewIndex})">
           <img src="${thumbUrl}" class="rounded flex-shrink-0" alt="Review Image" loading="lazy">
         </div>`
@@ -446,7 +456,7 @@ function renderPagination() {
   const container = document.getElementById('reviews-pagination')
   if (!container) return
 
-  const totalPages = Math.ceil(currentSortedReviews.length / ITEMS_PER_PAGE)
+  const totalPages = Math.ceil(currentSortedReviews.length / CONFIG.itemsPerPage)
   if (totalPages <= 1) return (container.innerHTML = '')
 
   let html = ''
