@@ -6,6 +6,7 @@
 
 # ---------------------------------------------------------
 # 2. Static Assets: Cache aggressively for 1 year
+# (CSS, JavaScript, Images, Fonts)
 # ---------------------------------------------------------
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
@@ -19,6 +20,7 @@
 /*.woff2
   Cache-Control: public, max-age=31536000, immutable
 
+# Image Assets with CORS and Long Cache
 /*.png
   Cache-Control: public, max-age=31536000, immutable
   Access-Control-Allow-Origin: *
