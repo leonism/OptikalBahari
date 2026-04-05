@@ -131,11 +131,14 @@ function openReviewModal(index) {
     starsHtml += i <= stars ? '<i class="fas fa-star" style="color: #ff9800;"></i>' : '<i class="far fa-star" style="color: #ff9800;"></i>'
   }
 
-  // Avatar
+  // Avatar URL Optimization
+  const optimizedAvatarUrl = optimizeGoogleImageUrl(photoUrl || '', 96)
+
+  // Avatar HTML Generation
   const avatarHtml =
-    photoUrl && photoUrl !== 'null'
-      ? `<img src="${photoUrl}" alt="${name}" class="rounded-circle" width="48" height="48" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-       <div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size: 1.2rem; font-weight: bold; display: none !important;">${initials}</div>`
+    optimizedAvatarUrl && optimizedAvatarUrl !== 'null'
+      ? `<img src="${optimizedAvatarUrl}" alt="${name}" class="rounded-circle" width="48" height="48" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size: 1.2rem; font-weight: bold; display: none !important;">${initials}</div>`
       : `<div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size: 1.2rem; font-weight: bold;">${initials}</div>`
 
   // Images - Click to open original
@@ -143,7 +146,7 @@ function openReviewModal(index) {
   const imageUrls = Array.isArray(review.reviewImageUrls) ? review.reviewImageUrls : []
   if (imageUrls.length > 0) {
     imagesHtml = `<div class="review-modal-images mt-3">
-      ${imageUrls.map((url) => `<a href="${url}" target="_blank" rel="noopener noreferrer"><img src="${url}" class="img-fluid rounded mb-2" alt="Review Image"></a>`).join('')}
+      ${imageUrls.map((url) => `<a href="${url}" target="_blank" rel="noopener noreferrer"><img src="${optimizeGoogleImageUrl(url, 800)}" class="img-fluid rounded mb-2" alt="Review Image"></a>`).join('')}
     </div>`
   }
 
@@ -324,16 +327,16 @@ function renderReviews(customScore) {
 function createSummaryCardTemplate(score) {
   return `
     <div class="masonry-item review-card-animation">
-      <div class="card h-100 p-4 text-center shadow-sm" style="background-color: #ffffff;">
-        <h2 class="display-3 mb-2" style="font-weight:800; color:#1976d2;">${score}</h2>
-        <div class="mb-3 text-warning">
+      <div class="card h-100 p-4 text-center shadow-sm" style="background-color:#ffffff;">
+        <h2 class="display-3 mb-1" style="font-weight:800; color:#1976d2;">${score}</h2>
+        <div class="mb-0 text-warning">
           <i class="fa-solid fa-star fs-4"></i>
           <i class="fa-solid fa-star fs-4"></i>
           <i class="fa-solid fa-star fs-4"></i>
           <i class="fa-solid fa-star fs-4"></i>
           <i class="fa-solid fa-star fs-4"></i>
         </div>
-        <h5 class="card-title" style="font-weight: 700; color: #5f6368;">Google Overall Rating<br>Bahari Optical</h5>
+        <h5 class="card-title mt-1" style="font-weight: 700; color: #5f6368;">Google Overall Rating<br>Bahari Optical</h5>
       </div>
     </div>`
 }
@@ -350,7 +353,7 @@ function createReviewCardTemplate(review) {
   const stars = review.stars || 5
   let starsHtml = ''
   for (let i = 1; i <= 5; i++) {
-    starsHtml += i <= stars ? '<i class="fa-solid fa-star" style="color: #ff9800;"></i>' : '<i class="fa-regular fa-star" style="color: #ff9800;"></i>'
+    starsHtml += i <= stars ? '<i class="fa-solid fa-star" style="color:#ff9800;"></i>' : '<i class="fa-regular fa-star" style="color: #ff9800;"></i>'
   }
 
   // Review Text Truncation
@@ -371,50 +374,66 @@ function createReviewCardTemplate(review) {
       displayBodyHtml = fullText
     }
   } else {
-    displayBodyHtml = '<em class="opacity-75">Customer left rating star only</em>'
+    displayBodyHtml = '<em class="opacity-75">Customer only left rating star without comments.</em>'
   }
 
   // Find index of this review in the currentSortedReviews array
   const reviewIndex = currentSortedReviews.indexOf(review)
+
+  // Optimize avatar and review images
+  const optimizedAvatarUrl = optimizeGoogleImageUrl(photoUrl || '', 96)
 
   // Review Images Handling
   let imagesHtml = ''
   const imageUrls = Array.isArray(review.reviewImageUrls) ? review.reviewImageUrls : []
 
   if (imageUrls.length === 1) {
-    imagesHtml = `<img src="${imageUrls[0]}" class="img-fluid rounded mt-3 mb-2 clickable-img" alt="Review Image" loading="lazy" style="width: 100%; max-height: 300px; object-fit: cover;" onclick="openReviewModal(${reviewIndex})">`
+    const thumbUrl = optimizeGoogleImageUrl(imageUrls[0], 600)
+    imagesHtml = `<img src="${thumbUrl}" class="img-fluid rounded mt-2 mb-1 clickable-img" alt="Review Image" loading="lazy" style="width: 100%; max-height: 300px; object-fit: cover;" onclick="openReviewModal(${reviewIndex})">`
   } else if (imageUrls.length > 1) {
     const thumbnails = imageUrls
-      .map(
-        (url) =>
-          `<div class="review-thumbnail-wrapper" onclick="openReviewModal(${reviewIndex})">
-        <img src="${url}" class="rounded flex-shrink-0" alt="Review Image" loading="lazy">
-      </div>`
-      )
+      .map((url) => {
+        const thumbUrl = optimizeGoogleImageUrl(url, 200) // Small square thumbs
+        return `<div class="review-thumbnail-wrapper" onclick="openReviewModal(${reviewIndex})">
+          <img src="${thumbUrl}" class="rounded flex-shrink-0" alt="Review Image" loading="lazy">
+        </div>`
+      })
       .join('')
-    imagesHtml = `<div class="d-flex flex-wrap gap-2 mt-3 mb-2 review-images-grid">${thumbnails}</div>`
+    imagesHtml = `<div class="d-flex flex-wrap gap-2 mt-2 mb-1 review-images-grid">${thumbnails}</div>`
   }
 
   // Fallback for missing avatar photos
   const avatarHtml =
-    photoUrl && photoUrl !== 'null'
-      ? `<img src="${photoUrl}" alt="${name}" class="rounded-circle" width="48" height="48" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-       <div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size: 1.2rem; font-weight: bold; display: none !important;">${initials}</div>`
-      : `<div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size: 1.2rem; font-weight: bold;">${initials}</div>`
+    optimizedAvatarUrl && optimizedAvatarUrl !== 'null'
+      ? `<img src="${optimizedAvatarUrl}" alt="${name}" class="rounded-circle" width="48" height="48" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size:1.2rem; font-weight:bold; display:none !important;">
+        ${initials}</div>`
+      : `<div class="rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; background-color: ${avatarColor}; font-size:1.2rem; font-weight:bold;">${initials}</div>`
 
   return `
     <div class="masonry-item review-card-animation">
-      <div class="card h-100 p-4" style="background-color: #ffffff; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+      <div class="card h-100 p-4" style="background-color:#ffffff; transition:transform 0.3s ease, box-shadow 0.3s ease;">
         <div class="d-flex align-items-center mb-2">
-          <div class="me-3">${avatarHtml}</div>
-          <div><h5 class="mb-0" style="color: #1976d2; font-weight: 700; font-size: 1.1rem;">${name}</h5></div>
+          <div class="me-3">
+            ${avatarHtml}
+          </div>
+          <div>
+            <h5 class="mb-0" style="color:#1976d2; font-weight:700; font-size:1.1rem;">
+              ${name}
+            </h5>
+          </div>
         </div>
-        <div class="mb-3">${starsHtml}</div>
-        <div class="card-text text-muted mb-2" style="font-size: 1rem; line-height: 1.5;">${displayBodyHtml}</div>
-        ${imagesHtml}
-        <div class="mt-auto pt-3">
-          <a href="${review.reviewUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-decoration-none d-flex align-items-center" style="color: #1976d2; font-size: 0.9rem;">
-            <img src="https://www.google.com/favicon.ico" width="24" height="24" class="me-2" alt="Google"> View on Google
+        <div class="mb-1">
+          ${starsHtml}
+        </div>
+        <div class="card-text text-muted mb-1" style="font-size:1rem; line-height:1.3;">
+          ${displayBodyHtml}
+        </div>
+          ${imagesHtml}
+        <div class="mt-auto pt-1">
+          <a href="${review.reviewUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-decoration-none d-flex align-items-center" style="color:#1976d2; font-size:0.9rem;">
+            <img src="https://www.google.com/favicon.ico" width="24" height="24" class="me-2" alt="Google">
+            View on Google
           </a>
         </div>
       </div>
@@ -517,4 +536,21 @@ function getAvatarColor(char) {
   const colors = ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4caf50', '#8bc34a', '#cddc39', '#ff9800', '#ff5722', '#795548', '#607d8b']
   const index = char.charCodeAt(0) % colors.length
   return colors[index]
+}
+
+/**
+ * Optimizes image URLs from Google domains by appending/replacing resizing parameters (e.g., =s400).
+ * @param {string} url
+ * @param {number} size
+ * @returns {string}
+ */
+function optimizeGoogleImageUrl(url, size) {
+  if (!url || typeof url !== 'string' || url === 'null') return url
+
+  // Only apply to Google domains that support resizing params
+  if (url.includes('googleusercontent.com') || url.includes('ggpht.com')) {
+    const cleanUrl = url.split('=')[0] // Strip any existing params
+    return `${cleanUrl}=s${size}-c` // Force requested size + crop for consistency
+  }
+  return url
 }

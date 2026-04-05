@@ -273,9 +273,7 @@ async function main() {
         if (cssLinks.length > 0) {
           const firstLink = cssLinks.first()
           // Use non-blocking loading pattern
-          const nonBlockingCss = `
-<link rel="preload" href="/assets/dist/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="/assets/dist/styles.min.css"></noscript>`.trim()
+          const nonBlockingCss = `<link rel="stylesheet" href="/assets/dist/styles.min.css">`
 
           firstLink.before(nonBlockingCss)
           cssLinks.remove()
