@@ -2,9 +2,11 @@
 layout: page
 title: Periksa Mata Gratis Hanya Di Optikal Bahari
 subtitle:
-  'Periksa Mata & Service Kacamata Gratis, Bergaransi 1 Tahun, Kredit/Cicilan Kacamata 0%, Menerima KJP, Pengalaman 40+ Tahun, Terpercaya Dari 1978'
+  'Periksa Mata & Service Kacamata Gratis, Bergaransi 1 Tahun, Kredit/Cicilan Kacamata 0%, Menerima
+  KJP, Pengalaman 40+ Tahun, Terpercaya Dari 1978'
 description:
-  'Periksa Mata & Service Kacamata Gratis, Bergaransi 1 Tahun, Kredit/Cicilan Kacamata 0%, Menerima KJP, Pengalaman 40+ Tahun, Terpercaya Dari 1978'
+  'Periksa Mata & Service Kacamata Gratis, Bergaransi 1 Tahun, Kredit/Cicilan Kacamata 0%, Menerima
+  KJP, Pengalaman 40+ Tahun, Terpercaya Dari 1978'
 keywords: 'periksa mata, periksa mata gratis, periksa mata jakarta, periksa mata & service gratis'
 lang: id-ID
 author: Optikal Bahari
@@ -20,28 +22,16 @@ comments: false
         {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
-                Periksa Mata Gratis Di Optikal Bahari
+                Periksa Mata Gratis Di Optikal Bahari: Solusi Visual Biar Mata Nggak Gampang Capek
             </h3>
             <p class="card-text text-start">
-                Di tengah perubahan zaman yang semakin digital, kesehatan mata menjadi perhatian utama. Layar gadget telah menjadi bagian tak terpisahkan dari kehidupan kita, dari pekerjaan hingga hiburan. Namun, sering terpaparnya mata pada layar dapat menimbulkan gangguan mata yang serius. Untuk menjaga kesehatan mata Anda dalam era digital ini, Optikal Bahari menawarkan <strong>periksa mata gratis</strong> serta solusi penglihatan terdepan.
+                Zaman sekarang, mata kita hampir nggak pernah istirahat dari layar. Mulai dari cek HP pas bangun tidur sampai lembur di depan laptop, semuanya bikin mata bekerja keras. Efeknya? Mata jadi gampang lelah dan penglihatan mulai terasa nggak tajam. Di <strong>Optikal Bahari</strong>, kami ingin bantu Anda tetap nyaman beraktivitas dengan layanan <strong>periksa mata gratis</strong>. Kami percaya, mata yang sehat adalah modal utama biar Anda tetap produktif tanpa gangguan di era digital ini.
             </p>
-            <h3 class="card-title">
-                1. Pemeriksaan Mata Menyeluruh
-            </h3>
             <p class="card-text text-start">
-                Optikal Bahari menawarkan layanan pemeriksaan mata gratis yang komprehensif dengan memanfaatkan teknologi terkini. Tim profesional kami akan melakukan evaluasi menyeluruh terhadap penglihatan mata Anda untuk mengidentifikasi gangguan atau masalah mata dengan tingkat akurasi yang tepat. Kami memastikan setiap detail pemeriksaaan diperhatikan dengan cermat demi pengliahtan mata Anda. Dengan pendekatan yang teliti dan perangkat mutakhir, kami berkomitmen untuk memberikan layanan pemeriksaan mata yang terbaik untuk Anda.
+                Layanan gratis kami bukan cuma sekadar tes baca huruf standar. Kami pakai alat digital terbaru untuk melihat kondisi mata Anda secara lebih detail, mulai dari seberapa fokus mata Anda sampai mendeteksi masalah kecil yang mungkin selama ini Anda abaikan. Pendekatan kami sangat personal; karena kami paham kebutuhan mata seorang supir yang seharian di jalan tentu beda dengan staf kantoran yang menghadap monitor. Kami cari solusi yang paling pas buat gaya hidup Anda di Jakarta yang serba cepat.
             </p>
-            <h3 class="card-title">
-                2. Layanan & Kualitas Terbaik
-            </h3>
             <p class="card-text text-start">
-                Tim Optikal Bahari terdiri dari sekelompok ahli optometris yang berpengalaman dan bersahabat. Kami telah lama berdedikasi dalam memberikan solusi terbaik untuk kebutuhan mata Anda. Dengan pendekatan yang ramah dan profesional, kami siap membantu Anda mencapai kesehatan mata yang optimal. Setiap langkah pelayanan kami didasarkan pada pengalaman dan pengetahuan yang luas, serta kepedulian yang tulus terhadap kesejahteraan penglihatan Anda.
-            </p>
-            <h3 class="card-title">
-                3. Koleksi Kacamata & Lensa Terlengkap
-            </h3>
-            <p class="card-text text-start">
-                Setelah proses pemeriksaan mata selesai, kami menawarkan beragam opsi kacamata & lensa berkualitas tinggi yang cocok dengan gaya hidup dan kebutuhan penglihatan Anda. Kami memahami bahwa setiap individu memiliki preferensi yang berbeda, itulah mengapa kami menyediakan berbagai pilihan produk yang dirancang untuk memenuhi kebutuhan Anda secara spesifik. Dengan memilih dari koleksi kami, Anda dapat menemukan kacamata yang tidak hanya memberikan koreksi penglihatan yang tepat, tetapi juga meningkatkan gaya dan kenyamanan Anda sehari-hari.
+                Tim kami terdiri dari para ahli yang enak diajak ngobrol dan sudah lama di bidang optik. Kami lebih suka menjelaskan kondisi mata Anda dengan bahasa yang santai dan mudah dimengerti, jadi Anda pulang bukan cuma bawa kacamata, tapi juga paham gimana cara jaga mata tetap sehat. Selain itu, Anda bebas pilih koleksi frame kami yang keren-keren, mulai dari model minimalis sampai tren <em>Asian Eyewear</em> yang pas banget di wajah orang Indonesia dengan pilihan lensa anti-radiasi atau progresif yang berkualitas.
             </p>
         </div>
    </div>
@@ -51,123 +41,61 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-		{% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp' alt='Kenali Gangguan Mata Lebih Dini' ratio='16x9' class='card-img-top img-fluid' %}
+        {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp' alt='Kenali Gangguan Mata Lebih Dini' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
-                Kenali Gangguan Mata Lebih Dini
+                Kenali Tanda Mata Bermasalah Sebelum Jadi Parah
             </h3>
             <p class="card-text text-start">
-                Gangguan mata seperti miopi atau mata minus dapat muncul pada siapa saja, tanpa memandang usia. Dalam era digital ini, di mana penggunaan layar gadget menjadi lebih intensif, penting untuk mengenali tanda-tanda gangguan mata lebih awal. Optikal Bahari ingin membantu Anda memahami gejala-gejala yang perlu diwaspadai:
+                Masalah mata kayak minus atau silinder itu nggak kenal umur, apalagi di tengah intensitas penggunaan gadget yang makin tinggi. Seringkali kita anggap remeh mata yang mulai buram atau perih, padahal itu tanda mata sedang minta bantuan. Misalnya, kalau Anda mulai merasa tulisan di papan jalan kelihatan blur atau berbayang, itu tanda fokus mata mulai berubah dan sebaiknya segera dicek agar aktivitas nggak keganggu.
             </p>
-            <h3 class="card-title">
-                1. Kesulitan Melihat dengan Jelas
-            </h3>
             <p class="card-text text-start">
-                Apabila Anda mulai menemui kesulitan dalam melihat objek atau teks dengan kejelasan yang memadai, terutama saat berada pada jarak yang cukup jauh, hal ini mungkin merupakan pertanda adanya masalah pada kesehatan mata Anda. Kondisi ini bisa merujuk kepada gangguan penglihatan seperti miopi atau hipermetropi. Penting untuk mengidentifikasi gejala tersebut secara dini dan berkonsultasi dengan ahli optometris untuk mendapatkan evaluasi dan perawatan yang sesuai demi menjaga kualitas penglihatan Anda.
+                Gejala lain yang sering muncul adalah mata perih, panas, atau sering pusing setelah lama main HP. Ini namanya <em>digital strain</em>—sinyal kalau otot mata sudah dipaksa kerja terlalu keras. Kadang, pandangan juga butuh waktu lama buat fokus pas pindah melihat dari jarak dekat ke jauh. Ini biasanya tanda otot fokus mulai kaku, entah karena silinder atau faktor usia. Alat digital kami bisa langsung memetakan masalah ini secara tepat agar resep lensanya pun benar-benar akurat.
             </p>
-            <h3 class="card-title">
-                2. Mata Lelah dan Perih
-            </h3>
             <p class="card-text text-start">
-                Apabila Anda kerap merasa mata Anda lelah, perih, atau bahkan mengalami sakit kepala setelah menggunakan layar gadget dalam jangka waktu yang cukup lama, hal tersebut dapat menjadi pertanda bahwa terdapat masalah pada kesehatan mata Anda. Gejala-gejala tersebut merupakan indikasi adanya ketegangan mata atau kelelahan visual yang perlu diperhatikan secara serius. Segera konsultasikan kondisi Anda dengan ahli optometris untuk mendapatkan evaluasi dan saran yang tepat demi menjaga kesehatan mata Anda.
-            </p>
-            <h3 class="card-title">
-                3. Pandangan Buram atau Kabur
-            </h3>
-            <p class="card-text text-start">
-                Ketika Anda mengalami pandangan yang buram atau kabur saat melihat objek, baik yang berjarak jauh maupun dekat, hal tersebut bisa menjadi tanda umum adanya gangguan pada mata seperti miopi atau hipermetropi. Gejala tersebut mengindikasikan bahwa fokus mata Anda terganggu, yang bisa disebabkan oleh ketidakmampuan mata untuk memfokuskan cahaya dengan tepat ke retina. Penting untuk segera mendapatkan pemeriksaan mata untuk diagnosis yang tepat dan penanganan yang sesuai.
-            </p>
-            <h3 class="card-title">
-                4. Sulit Melihat di Malam Hari
-            </h3>
-            <p class="card-text text-start">
-                Gangguan mata tidak hanya mempengaruhi kemampuan melihat dengan jelas pada kondisi normal, tetapi juga dapat menyulitkan ketika berada dalam lingkungan dengan pencahayaan rendah, seperti saat mengemudi di malam hari. Pada kondisi tersebut, gangguan mata seperti miopi atau hipermetropi dapat memperburuk penglihatan, menyebabkan kesulitan dalam membedakan objek dan merespons situasi di jalan. Oleh karena itu, penting untuk menjaga kesehatan mata dan mendapatkan penanganan yang tepat untuk menghindari risiko kecelakaan.
+                Jangan abaikan juga kalau Anda merasa nyetir malam jadi nggak nyaman karena lampu mobil dari depan kelihatan sangat silau. Gangguan mata seringnya makin terasa pas cahaya minim, dan ini bahaya buat keselamatan Anda di jalan raya. Memastikan mata tetap tajam itu wajib, jadi nggak ada salahnya mampir ke Optikal Bahari buat memastikan apakah ukuran kacamata Anda masih pas atau sudah saatnya perlu penyesuaian baru.
             </p>
         </div>
    </div>
 </div>
 
+{% include home/home-cards-benefit.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-		{% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp' alt='Segera Periksa Mata Anda' ratio='16x9' class='card-img-top img-fluid' %}
+        {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp' alt='Segera Periksa Mata Anda' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
-                Segera Periksa Mata Anda
+                Cara Gampang dan Simpel Periksa Mata di Optikal Bahari
             </h3>
             <p class="card-text text-start">
-                Jangan biarkan gangguan pada kesehatan mata memengaruhi kualitas hidup Anda. Segera atur jadwal untuk periksa mata secara gratis di Optikal Bahari dan temukan solusi terbaik untuk memperbaiki penglihatan Anda. Kami siap membantu Anda mencapai visi yang optimal dan meningkatkan kesehatan mata Anda.
+                Kami ingin proses menjaga kesehatan mata Anda jadi sesimpel mungkin. Nggak perlu nunggu keluhan parah, Anda bisa langsung hubungi tim kami lewat WhatsApp buat atur jadwal. Kami ingin sesi <strong>periksa mata gratis</strong> Anda berlangsung santai tanpa terburu-buru, jadi Anda punya waktu luang buat konsultasi soal semua masalah penglihatan harian yang dirasakan. Datang saja ke gerai kami, tim kami bakal menyambut dengan suasana hangat dan jauh dari kesan kaku.
             </p>
-            <h3>
-                1.Hubungi Kami
-            </h3>
             <p class="card-text text-start">
-                Untuk membuat janji periksa mata gratis, Anda dapat menghubungi tim kami melalui telepon atau email. Kami akan dengan senang hati membantu Anda menetapkan waktu yang sesuai dengan jadwal Anda. Tim Optikal Bahari siap memberikan layanan yang ramah dan profesional untuk memastikan bahwa Anda mendapatkan perawatan mata yang terbaik. Jangan ragu untuk menghubungi kami dan mulailah langkah pertama menuju kesehatan mata yang optimal hari ini.
+                Fase intinya adalah tes mata menggunakan rangkaian teknologi oftalmik canggih dan sistem komputerisasi buat dapat data objektif yang akurat. Setelah itu, kita bakal lanjut ke tes lensa manual buat memastikan Anda benar-benar nyaman dengan penglihatan baru Anda. Kami nggak bakal berhenti sampai Anda merasa pandangan sudah benar-benar jernih. Anda bakal dapat laporan lengkap dan rekomendasi lensa apa yang paling cocok dengan tuntutan profesi maupun hobi Anda.
             </p>
-            <h3 class="card-title">
-                2. Kunjungi Optikal Bahari
-            </h3>
             <p class="card-text text-start">
-                Kunjungi cabang Optikal Bahari terdekat dari lokasi Anda dan kunjungi kami langsung. Kami hadir untuk menyambut Anda dengan hangat dan memberikan pelayanan periksa mata gratis yang memperhatikan setiap detail. Tim kami yang berpengalaman akan memberikan perhatian penuh terhadap kebutuhan visual Anda, sehingga Anda dapat merasa nyaman dan yakin selama proses pemeriksaan. Jadilah bagian dari pengalaman yang luar biasa di Optikal Bahari dan temukan solusi terbaik untuk kesehatan mata Anda. Jangan ragu untuk menghubungi kami atau kunjungi Optikal Bahari sekarang juga.
-            </p>
-            <h3 class="card-title">
-                3. Jalani Pemeriksaan Mata
-            </h3>
-            <p class="card-text text-start">
-                Setelah Anda tiba di cabang kami, tim profesional kami akan menyambut Anda dengan ramah dan melakukan pemeriksaan mata secara komprehensif menggunakan teknologi canggih. Kami berkomitmen untuk memberikan pengalaman pemeriksaan mata yang terbaik, dengan memastikan setiap detail diperhatikan dengan seksama. Anda akan diberikan hasil pemeriksaan yang akurat dan rekomendasi yang tepat sesuai dengan kebutuhan perawatan mata Anda. Jadilah bagian dari pengalaman perawatan mata yang istimewa di Optikal Bahari dan percayakan kesehatan mata Anda kepada kami. Hubungi kami atau kunjungi Optikal Bahari sekarang.
-            </p>
-            <h3 class="card-title">
-                4. Temukan Solusi Terbaik
-            </h3>
-            <p class="card-text text-start">
-                Setelah pemeriksaan selesai, tim kami akan membantu Anda memilih kacamata yang sesuai dengan kebutuhan dan preferensi visual Anda. Kami menyediakan berbagai pilihan produk berkualitas tinggi yang dapat disesuaikan dengan gaya hidup Anda. Penglihatan mata Anda adalah prioritas kami. Jadwalkan periksa mata gratis Anda hari ini di Optikal Bahari dan temukan solusi terbaik untuk kebutuhan mata Anda. Kami berkomitmen untuk memberikan layanan terbaik dan membantu Anda menjaga kualitas penglihatan Anda dalam era digital ini. Hubungi kami atau kunjungi cabang Optikal Bahari terdekat Anda hari ini!
+                Selesai pemeriksaan, tim kami bakal bantu carikan kombinasi kacamata yang sesuai dengan preferensi gaya Anda. Mau yang minimalis buat kerja atau yang gaya buat nongkrong, kami sediakan berbagai pilihan produk berkualitas tinggi. Prioritas kami adalah Anda pulang dengan senyum puas dan penglihatan yang kembali tajam. Yuk, jadwalkan kunjungan Anda sekarang dan temukan solusi terbaik untuk kesehatan mata Anda dalam era digital ini.
             </p>
         </div>
    </div>
 </div>
 
+{% include home/home-cards-category.html %}
+
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-		  {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+          {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
-                Segera Kunjungi Optikal Bahari
+                Transformasi Pandangan Anda: Kunjungi Optikal Bahari Hari Ini!
             </h3>
             <p class="card-text text-start">
-                Jangan ragu untuk mempercayakan kesehatan mata Anda kepada Optikal Bahari. Dengan teknologi canggih dan tim profesional yang berpengalaman, kami siap memberikan Anda pengalaman pemeriksaan mata yang optimal. Kunjungi kami hari ini dan temukan solusi terbaik untuk kebutuhan mata Anda. Jadi tunggu apa lagi? Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
-                <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari"  class="FacebookPage">Facebook @optikalbahari</a> supaya selalu update informasi terkait layanan terbaru dari kami. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
-                <em>(Optikal Bahari)</em>
+                Jangan ragu buat serahkan urusan mata Anda ke kami. Dengan dukungan alat digital yang oke dan tim yang sudah berpengalaman bertahun-tahun, kami siap kasih hasil pemeriksaan yang paling akurat. Langsung saja mampir ke gerai kami di kawasan <strong>Bendungan Jago, Kemayoran, Jakarta Pusat</strong>. Kami hadir untuk menyambut Anda dengan pelayanan ramah dan memberikan solusi terbaik agar penglihatan Anda kembali optimal untuk beraktivitas seharian.
             </p>
-	    </div>
+            <p class="card-text text-start">
+                Di sini, ada banyak kemudahan dan harga yang masuk akal banget buat dapetin kacamata idaman Anda tanpa bikin kantong bolong. Biar nggak ketinggalan info promo terbaru, diskon menarik, atau tips kesehatan mata harian, yuk gabung ke komunitas kami di <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari"  class="FacebookPage">Facebook @optikalbahari</a>. Kalau butuh respon cepat, tanya stok frame, atau mau langsung <em>booking</em> jadwal periksa, silakan chat WhatsApp kami di <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>. Sampai ketemu di Optikal Bahari! <em>(Optikal Bahari)</em>
+            </p>
+        </div>
     </div>
 </div>
-
-<section id="posts-category">
-    <div class="card-deck">
-		{% for post in site.categories.Lensa limit : 3 %}
-        <div class="card shadow p-3 mb-5 rounded">
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                {% if page.background %}
-                    {% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top' %}
-            </a>
-                {% endif %}
-            <div class="card-body">
-                <h3 class="card-title">
-                    {{ post.title }}
-                </h3>
-                <p class="card-text text-start">
-                    {{ post.description | strip_html | truncatewords: 20 }}.
-                </p>
-                <p class="card-text text-start">
-                    <a class="btn btn-primary rounded-pill" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Selengkapnya</a>
-                </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">
-                    Posted by {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} on
-                    {{ post.date | date: '%B %d, %Y' }} &middot; {% include postcards/read_time.html content=post.content %}
-                </small>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</section>

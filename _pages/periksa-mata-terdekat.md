@@ -2,9 +2,11 @@
 layout: page
 title: Periksa Mata Gratis Terdekat Dari Lokasi Anda
 subtitle:
-  'Di Optikal Bahari, periksa mata dilakukan 2 kali, yang akan menjanjikan hasil yang lebih akurat & cepat, tanpa memakan waktu lama.'
+  'Di Optikal Bahari, periksa mata dilakukan 2 kali, yang akan menjanjikan hasil yang lebih akurat &
+  cepat, tanpa memakan waktu lama.'
 description:
-  'Di Optikal Bahari, periksa mata dilakukan 2 kali, yang akan menjanjikan hasil yang lebih akurat & cepat, tanpa memakan waktu lama.'
+  'Di Optikal Bahari, periksa mata dilakukan 2 kali, yang akan menjanjikan hasil yang lebih akurat &
+  cepat, tanpa memakan waktu lama.'
 keywords: 'Periksa Mata Terdekat, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
 lang: id-ID
 author: Optikal Bahari
@@ -17,47 +19,25 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.webp' alt='Periksa Mata Gratis Terdekat' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-38.webp' alt='Layanan periksa mata gratis terdekat di Optikal Bahari Kemayoran' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Temukan Periksa Mata Terdekat & Gratis
       </h3>
       <p class="card-text text-start">
-        Menurut studi dari para ahli medis, menjaga kesehatan mata adalah langkah yang sangat penting yang harus dilakukan secara teratur. Untuk memastikan kesehatan penglihatan Anda tetap optimal, kami mengundang Anda untuk menjalani
-        <strong>pemeriksaan mata</strong>
-        setiap enam bulan sekali. Jangan abaikan penglihatan mata Anda. Di Optikal Bahari, kami bersiap membantu Anda menjaga kualitas penglihatan dengan pemeriksaan berkualitas dan terdekat dengan Anda.
+        Menjaga kesehatan mata adalah investasi krusial yang seringkali terlupakan di tengah kesibukan harian. Berdasarkan studi medis, pemeriksaan rutin setiap enam bulan bukan sekadar anjuran, melainkan langkah preventif vital untuk memantau fluktuasi ketajaman penglihatan dan kesehatan retina. Jangan abaikan sinyal kelelahan pada mata Anda; segera jadwalkan kunjungan untuk memastikan pandangan Anda tetap jernih dan sehat.
       </p>
       <p class="card-text text-start">
-        Di Optikal Bahari, kami menyajikan pengalaman
-        <strong>pemeriksaan mata</strong>
-        yang mutakhir dan nyaman. Proses pemeriksaan kami lakukan secara digital dan terkomputerisasi untuk hasil yang lebih akurat, presisi, dan dapat dipercaya. Dengan teknologi terkini yang kami miliki, Anda dapat yakin bahwa kesehatan dan kualitas penglihatan mata Anda berada dalam kondisi optimal.
+        <strong>Optikal Bahari</strong> hadir sebagai solusi periksa mata terdekat yang mengedepankan teknologi mutakhir dan kenyamanan pasien. Kami menerapkan sistem pemeriksaan digital terkomputerisasi yang mampu menghasilkan data refraksi dengan tingkat presisi tinggi. Dengan dukungan infrastruktur modern ini, Anda dapat memiliki keyakinan penuh bahwa setiap diagnosis yang kami berikan didasarkan pada analisis teknologi yang akurat dan dapat dipercaya.
       </p>
       <p class="card-text text-start">
-        Apakah Anda sering merasa mata Anda tertekan ketika membaca? Atau mungkin Anda mengalami kesulitan dalam melihat objek yang jauh? Jangan anggap remeh gejala-gejala tersebut. Optikal Bahari siap membantu Anda dengan pemeriksaan mata yang tepat dan menyeluruh untuk menemukan solusi terbaik bagi masalah penglihatan Anda.
+        Apakah Anda sering merasakan ketegangan otot mata saat membaca teks di layar gawai? Atau mungkin objek di kejauhan mulai terlihat samar dan berbayang? Gejala-gejala seperti <em>digital eye strain</em> ini tidak boleh dianggap remeh. Tim kami siap melakukan pemeriksaan menyeluruh untuk mengidentifikasi apakah Anda memerlukan perlindungan tambahan, seperti lensa anti-radiasi, guna memitigasi dampak buruk paparan cahaya biru (blue light) terhadap mata Anda.
       </p>
       <p class="card-text text-start">
-        Kami menawarkan
-        <strong>pemeriksaan mata gratis</strong>
-        yang dilakukan dalam dua tahap untuk memastikan hasil yang akurat dan dapat dipercaya. Pada tahap pertama, kami menggunakan
-        <strong>autorefractometer
-        </strong>, sebuah alat modern yang memberikan hasil analisis awal secara otomatis. Alat ini akan mengukur kelainan refraksi mata seperti rabun jauh, rabun dekat, dan
-        <em>astigmatisme</em>.
+        Kami menawarkan layanan <strong>periksa mata gratis</strong> melalui dua tahap validasi ketat untuk menjamin kepuasan visual Anda. Tahap awal melibatkan penggunaan <strong>Autorefractometer</strong> digital yang secara otomatis memetakan kelainan refraksi dasar. Alat ini sangat efektif dalam mendeteksi derajat miopia (rabun jauh), hipermetropia (rabun dekat), hingga astigmatisme (silinder) dalam hitungan detik.
       </p>
       <p class="card-text text-start">
-        Pada tahap kedua, kami menggunakan
-        <strong>phoroptor</strong>, sebuah alat yang memungkinkan Anda untuk menjalani berbagai
-        <strong>tes penglihatan mata</strong>
-        secara langsung. Tes ini akan membantu optometris Optikal Bahari dalam mendiagnosa kondisi mata Anda dengan lebih presisi. Kombinasi dari
-        <strong>dua tahap
-        </strong>
-        ini akan memastikan bahwa Anda mendapatkan hasil
-        <strong>pemeriksaan mata</strong>
-        yang komprehensif dan akurat. Jangan ragu untuk mengunjungi Optikal Bahari untuk
-        <strong>periksa mata terdekat
-        </strong>
-        dan
-        <strong>gratis</strong>
-        Anda hari ini!
+        Selanjutnya, pada tahap kedua, kami menggunakan <strong>Phoropter</strong> untuk melakukan uji coba lensa secara subjektif. Di sinilah Anda dapat berinteraksi langsung untuk menentukan titik kenyamanan visual yang paling optimal. Kombinasi dua tahap pemeriksaan ini memastikan bahwa resep kacamata yang dihasilkan benar-benar sinkron dengan kebutuhan anatomi mata Anda. Kunjungi Optikal Bahari hari ini untuk pengalaman periksa mata yang profesional dan komprehensif.
       </p>
     </div>
   </div>
@@ -65,112 +45,86 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.webp' alt='Periksa Mata Cepat & Akurat' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-39.webp' alt='Pemeriksaan mata cepat akurat dan tepercaya' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Terdekat: Cepat, Akurat, dan Gratis!
       </h3>
       <p class="card-text text-start">
-        Seiring dengan kemajuan teknologi, proses pemeriksaan penglihatan mata menjadi lebih cepat & akurat. Di Optikal Bahari, kami memastikan bahwa proses pemeriksaan mata Anda tidak hanya cepat, tetapi juga memberikan hasil yang presisi dan dipercaya. Dengan bantuan optometris kami yang ahli, Anda akan merasa semakin percaya diri setelah melakukan pemeriksaan penglihatan mata Anda.
+        Di era transformasi digital, kecepatan dan akurasi adalah standar utama dalam layanan kesehatan mata. Optikal Bahari mengintegrasikan perangkat optik terbaru untuk memastikan proses refraksi berjalan efisien tanpa mengurangi ketelitian diagnosis. Dengan bantuan tim optometris yang berlisensi dan berpengalaman, Anda akan mendapatkan penjelasan mendalam mengenai kondisi mata Anda, sehingga Anda merasa lebih percaya diri dalam mengambil keputusan terkait alat bantu penglihatan.
       </p>
       <p class="card-text text-start">
-        Optikal Bahari bukan hanya tempat untuk
-        <strong>periksa mata gratis</strong>, tapi juga sebagai destinasi utama untuk menemukan kacamata yang sesuai. Optometris kami akan dengan senang hati membimbing Anda dalam memilih kacamata yang tidak hanya memenuhi kebutuhan penglihatan Anda, tetapi juga sejalan dengan gaya dan kebutuhan sehari-hari Anda. Nikmati momen menyenangkan dan bermanfaat saat memilih kacamata Anda di Optikal Bahari.
+        Lebih dari sekadar pusat periksa mata gratis, Optikal Bahari adalah destinasi gaya hidup bagi para pencinta kacamata. Kami percaya bahwa kacamata adalah perpaduan antara fungsi medis dan pernyataan gaya pribadi. Optometris kami tidak hanya fokus pada angka resep, tetapi juga berperan sebagai konsultan mode yang akan membimbing Anda memilih frame yang selaras dengan bentuk wajah dan kebutuhan mobilitas harian Anda, menjadikan proses memilih kacamata sebagai momen yang menyenangkan.
       </p>
       <p class="card-text text-start">
-        Beragam jenis lensa, mulai dari
-        <em>anti-refleksi</em>
-        hingga perlindungan sinar
-        <em>ultraviolet</em>, kami memiliki solusi untuk semua kebutuhan penglihatan Anda. Optikal Bahari tidak hanya memberikan saran tentang perawatan mata dan penggunaan kacamata yang tepat, tetapi juga memberikan edukasi tentang cara merawat kacamata dengan benar. Kunjungi kami sekarang dan temukan cara terbaik untuk merawat dan melindungi penglihatan Anda. Jangan lewatkan kesempatan untuk menjaga penglihtan Anda dengan Optikal Bahari.
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.webp' alt='Proses Pertama: Menggunakan Autorefractometer' ratio='16x9' class='card-img-top' %}
-    <div class="card-body">
-      <h3 class="card-title">
-        Langkah Awal: Pemeriksaan Mata Terdekat yang Praktis
-      </h3>
-      <p class="card-text text-start">
-        Di Optikal Bahari, kami memahami betapa pentingnya memulai proses pemeriksaan mata dengan tepat. Itulah mengapa kami menggunakan
-        <strong>autorefraktometer</strong>
-        sebagai langkah pertama yang efisien dan objektif. Dengan menggunakan alat ini, kami dapat dengan cepat menilai tingkat kesalahan refraktif mata dan melihat bagaimana mata merefleksikan fokus cahaya. Setiap detil dipelajari dengan teliti untuk memastikan akurasi pemeriksaan mata yang tinggi.
-      </p>
-      <p class="card-text text-start">
-        Penggunaan
-        <strong>autorefraktometer</strong>
-        memungkinkan kami untuk memberikan hasil pemeriksaan mata yang akurat dan obyektif dalam waktu singkat. Sebelum kami melakukan diagnosis lebih lanjut, kami mengumpulkan data yang komprehensif tentang kondisi penglihatan Anda. Dari hasil pengukuran refraktif mata, kami dapat mengidentifikasi masalah seperti rabun jauh, rabun dekat, dan
-        <em>astigmatisme</em>
-        dengan tepat.
-      </p>
-      <p class="card-text text-start">
-        Selain memberikan informasi tentang kondisi mata, autorefraktometer juga membantu kami menentukan lensa yang paling sesuai untuk Anda. Dengan demikian, Anda dapat yakin bahwa resep yang kami berikan akan memberikan hasil penglihatan yang optimal. Kami percaya bahwa pemeriksaan mata yang efisien adalah kunci untuk memberikan layanan terbaik kepada Anda. Dengan menggunakan teknologi terkini dalam pemeriksaan mata, kami tidak hanya menghemat waktu Anda tetapi juga memberikan hasil yang akurat dan dapat diandalkan. Jadwalkan pemeriksaan mata gratis Anda hari ini di Optikal Bahari dan temukan perawatan mata yang sesuai dengan kebutuhan Anda.
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.webp' alt='Proses Kedua: Menggunakan Alat Phoropter' ratio='16x9' class='card-img-top' %}
-    <div class="card-body">
-      <h3 class="card-title">
-        Langkah Berikutnya: Penggunaan Alat Phoropter Terdepan
-      </h3>
-      <p class="card-text text-start">
-        Pada langkah berikutnya, Optikal Bahari memanfaatkan teknologi terkini dalam bentuk phoropter. Dengan proses pemeriksaan yang tepat dan cepat, kami menjamin hasil yang optimal demi kenyamanan dan kepercayaan Anda. Di sinilah peran Optikal Bahari sebagai opsi
-        <strong>periksa mata terdekat</strong>
-        menjadi begitu penting.
-      </p>
-      <p class="card-text text-start">
-        Phoropter memberikan pengalaman yang unik dan informatif. Anda dapat langsung merasakan perbedaan ketajaman penglihatan dengan berbagai ukuran lensa. Ini bukan sekadar pemeriksaan, tetapi pengalaman interaktif yang memberi Anda kontrol.
-      </p>
-      <p class="card-text text-start">
-        Ketika Anda melangkah ke dalam
-        <a href="{{ "/lokasi/" | relative_url }}" title="lokasi Optikal Bahari">lokasi Optikal Bahari</a>, kami tidak hanya menawarkan produk & layanan, tetapi juga sebuah pengalaman yang memikat. Optikal Bahari akan dengan senang hati membantu proses pemilihan kacamata dan lensa dengan penuh perhatian dan keahlian. Kami memahami bahwa setiap individu memiliki kebutuhan yang unik, dan itulah mengapa kami berkomitmen untuk memberikan solusi yang sesuai dengan kebutuhan.
-      </p>
-      <p class="card-text text-start">
-        Jangan lewatkan kesempatan untuk menjelajahi berbagai pilihan kacamata dan lensa di Optikal Bahari. Temukan gaya yang mencerminkan kepribadian dan memberikan kenyamanan maksimal dalam aktivitas sehari-hari. Kunjungi kami hari ini dan rasakan sendiri betapa menyenangkan dan bermanfaatnya pengalaman
-        <strong>periksa mata gratis</strong>
-        beserta memilih kacamata atau lensa di Optikal Bahari.
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="card-deck mb-3">
-  <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
-    <div class="card-body">
-      <h3 class="card-title">
-        Kunjungi Optikal Bahari
-      </h3>
-      <p class="card-text text-start">
-        Kami berkomitmen untuk memberikan pelayanan terbaik kepada Anda. Temukan solusi untuk keluhan penglihatan di Optikal Bahari, tempat
-        <strong>periksa mata terdekat</strong>
-        dari lokasi Anda. Kesehatan mata Anda adalah prioritas kami. Kunjungi Optikal Bahari dan temukan kemudahan periksa mata gratis yang kami tawarkan. Kami memahami pentingnya periksa mata terdekat secara berkala untuk memastikan kualitas penglihatan Anda. Dengan alat-alat canggih dan teknologi terbaru, kami siap memberikan pemeriksaan mata yang akurat dan terpercaya.
-      </p>
-      <p class="card-text text-start">
-        Optikal Bahari juga menyediakan berbagai pilihan kacamata dengan berbagai merk ternama yang sesuai dengan kebutuhan anda. Kami juga memiliki tim optometris yang terlatih dan berpengalaman yang siap membantu anda dalam memilih kacamata dan lensa yang sesuai dengan kebutuhan penglihatan mata anda. Jika anda merasa memiliki masalah dengan penglihatan anda atau ingin melakukan pemeriksaan mata berkala, jangan ragu untuk mengunjungi Optikal Bahari dan kami siap membantu anda dengan sepenuh hati. Punya pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi kami di nomor HP/WA ini
-        <a
-          href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
-          id="WhatsAppClick"
-          class="WhatsAppCall"
-          title="Call WhatsApp">+6281932235445</a>
-        atau kunjungi
-        <a
-          href="https://www.facebook.com/optikalbahari"
-          id="FBClick"
-          title="Facebook Page Optikal Bahari"
-          class="FacebookPage">Facebook Fan</a>
-        Page kami.
-        <em>(Optikal Bahari)</em>
+        Kami menyediakan portofolio lensa yang sangat beragam, mulai dari fitur <em>anti-reflective coating</em> hingga proteksi maksimal terhadap radiasi sinar ultraviolet (UV). Optikal Bahari berkomitmen memberikan edukasi preventif mengenai cara merawat lensa agar tetap awet dan jernih. Dengan pengetahuan yang tepat tentang pemeliharaan kacamata, Anda dapat melindungi investasi penglihatan Anda untuk jangka panjang. Jangan lewatkan kesempatan untuk mengoptimalkan kesehatan mata Anda bersama kami.
       </p>
     </div>
   </div>
 </div>
 
 {% include home/home-cards-main.html %}
+
+<div class="card-deck mb-3">
+  <div class="card shadow p-3 mb-5 rounded">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-40.webp' alt='Proses awal periksa mata dengan Autorefractometer' ratio='16x9' class='card-img-top' %}
+    <div class="card-body">
+      <h3 class="card-title">
+        Langkah Awal: Pemeriksaan Mata Terdekat yang Praktis
+      </h3>
+      <p class="card-text text-start">
+        Ketepatan diagnosis dimulai dari langkah pertama yang solid. Di Optikal Bahari, kami mengawali proses pemeriksaan menggunakan <strong>Autorefractometer</strong> sebagai instrumen penilaian objektif yang sangat efisien. Alat ini bekerja dengan sistem sensor cahaya inframerah untuk mengevaluasi bagaimana retina Anda memfokuskan cahaya, memungkinkan kami mendapatkan data awal yang sangat mendetail mengenai kondisi optik mata Anda tanpa perlu prosedur yang memakan waktu lama.
+      </p>
+      <p class="card-text text-start">
+        Penggunaan teknologi autorefraksi ini memberikan keunggulan berupa hasil yang objektif dan bebas dari bias manusia di tahap awal. Sebelum melangkah ke diagnosis final, data komprehensif mengenai status refraktif Anda dikumpulkan secara teliti. Hal ini sangat membantu tim kami dalam mengidentifikasi kelainan mata secara instan, sehingga penanganan untuk masalah penglihatan seperti miopia maupun astigmatisme dapat dilakukan dengan lebih terarah dan tepat sasaran.
+      </p>
+      <p class="card-text text-start">
+        Selain sebagai alat pemetaan, data dari autorefractometer menjadi landasan penting bagi kami untuk merekomendasikan jenis lensa yang paling sesuai dengan gaya hidup Anda. Kami percaya bahwa efisiensi adalah kunci pelayanan terbaik; dengan teknologi terkini, kami menghemat waktu Anda sekaligus memberikan hasil yang sangat dapat diandalkan. Segera jadwalkan periksa mata gratis Anda dan rasakan transformasi penglihatan yang didukung oleh sains dan teknologi optik terdepan.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="card-deck mb-3">
+  <div class="card shadow p-3 mb-5 rounded">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-41.webp' alt='Tes penglihatan interaktif dengan Phoropter' ratio='16x9' class='card-img-top' %}
+    <div class="card-body">
+      <h3 class="card-title">
+        Langkah Berikutnya: Penggunaan Alat Phoropter Terdepan
+      </h3>
+      <p class="card-text text-start">
+        Memasuki tahap kedua, Optikal Bahari memanfaatkan <strong>Phoropter</strong>, sebuah instrumen presisi yang menjadi standar emas dalam dunia pemeriksaan mata profesional. Melalui alat ini, proses penyempurnaan resep dilakukan dengan membandingkan berbagai lensa korektif secara bergantian. Kami memastikan setiap transisi lensa dilakukan dengan cermat demi menjamin kenyamanan visual yang maksimal, mempertegas posisi kami sebagai pilihan periksa mata terdekat yang berkualitas.
+      </p>
+      <p class="card-text text-start">
+        Pemeriksaan dengan Phoropter menawarkan pengalaman yang sangat interaktif dan informatif bagi pasien. Anda memiliki kontrol penuh untuk merasakan langsung peningkatan ketajaman pandangan pada setiap opsi lensa yang ditawarkan. Ini merupakan momen krusial untuk memastikan bahwa kacamata baru Anda nantinya tidak hanya jernih untuk melihat jarak jauh, tetapi juga nyaman digunakan untuk aktivitas membaca maupun bekerja di depan komputer dalam durasi lama.
+      </p>
+      <p class="card-text text-start">
+        Saat Anda berkunjung ke <strong><a href="{{ "/lokasi/" | relative_url }}" title="lokasi Optikal Bahari">lokasi Optikal Bahari</a></strong>, Anda tidak hanya mendapatkan layanan optik biasa, melainkan sebuah pengalaman konsultasi yang personal. Kami memahami bahwa setiap mata memiliki karakteristik unik, oleh karena itu perhatian penuh terhadap detail adalah komitmen kami. Tim kami akan membimbing Anda melalui proses pemilihan lensa progresif, bifokal, atau lensa anti-radiasi dengan penjelasan yang mudah dipahami dan edukatif.
+      </p>
+      <p class="card-text text-start">
+        Eksplorasi koleksi frame kami yang luas, mulai dari desain klasik hingga tren optical fashion terbaru yang sedang hits dunia. Temukan bingkai kacamata yang tidak hanya menunjang penampilan, tetapi juga memberikan ergonomi maksimal untuk penggunaan harian. Jadikan kunjungan Anda ke Optikal Bahari sebagai langkah nyata dalam merawat indra penglihatan Anda dengan cara yang menyenangkan, modern, dan tentunya bermanfaat bagi kualitas hidup Anda.
+      </p>
+    </div>
+  </div>
+</div>
+
+{% include home/home-cards-benefit.html %}
+
+<div class="card-deck mb-3">
+  <div class="card shadow p-3 mb-5 rounded">
+    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-42.webp' alt='Kunjungi Optikal Bahari Kemayoran Jakarta Pusat' ratio='16x9' class='card-img-top' %}
+    <div class="card-body">
+      <h3 class="card-title">
+        Kunjungi Optikal Bahari
+      </h3>
+      <p class="card-text text-start">
+        Kami berdedikasi penuh untuk memberikan standar pelayanan optik terbaik bagi Anda. Jika Anda mencari solusi atas keluhan mata lelah atau pandangan kabur, Optikal Bahari adalah destinasi periksa mata terdekat yang siap membantu. Dengan memprioritaskan kesehatan visual pelanggan, kami menawarkan fasilitas pemeriksaan tanpa biaya sebagai bentuk komitmen nyata kami. Kami mengerti bahwa deteksi dini melalui alat-alat canggih adalah kunci utama untuk menjaga kualitas hidup yang lebih baik melalui penglihatan yang optimal.
+      </p>
+      <p class="card-text text-start">
+        Di Optikal Bahari, tersedia berbagai pilihan kacamata dari merk ternama dunia yang selaras dengan perkembangan fashion optik global. Tim optometris kami yang berpengalaman selalu siap memberikan asistensi dalam memilih lensa kontak maupun kacamata yang paling sesuai dengan kebutuhan medis dan estetika Anda. Jangan ragu untuk berkonsultasi mengenai keluhan Anda; kami siap melayani dengan sepenuh hati. Hubungi layanan pelanggan kami melalui WhatsApp di <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a> atau ikuti kami di <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook Fanpage Optikal Bahari</a> untuk informasi promo terbaru. <em>(Optikal Bahari)</em>
+      </p>
+    </div>
+  </div>
+</div>
+
+{% include home/home-cards-category.html %}
