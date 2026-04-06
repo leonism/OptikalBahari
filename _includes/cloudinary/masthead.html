@@ -1,13 +1,13 @@
 {% if page.background %}
   {%- comment -%} MODIFIED: Generate ultra-tiny placeholder for the dreamy bloom effect {%- endcomment -%}
   {%- comment -%} UPDATE: Replaced standard Cloudinary domain with custom proxy domain {%- endcomment -%}
-  {%- assign lqp_url = page.background | cloudinary_url: 'c_fill,w_10,h_10,e_blur:1000,q_auto:low,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' -%}
+  {%- assign lqp_url = page.background | cloudinary_url: 'c_fill,w_10,h_10,e_blur:1000,q_auto:low,f_avif' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' -%}
 
   <style>
     :root {
       /* Mobile Background (default) - 1200px width */
       /* UPDATE: Applied domain replacement filter */
-      --masthead-bg: url('{{ page.background | cloudinary_url: "c_fill,w_1200,h_600,g_auto,q_auto:eco,f_auto" | replace: "https://res.cloudinary.com/divkqrf7k", "https://assets.optikalbahari.com" }}');
+      --masthead-bg: url('{{ page.background | cloudinary_url: "c_fill,w_1200,h_600,g_auto,q_auto:eco,f_avif" | replace: "https://res.cloudinary.com/divkqrf7k", "https://assets.optikalbahari.com" }}');
       /* MODIFIED: Placeholder for dreamy start */
       --masthead-placeholder: url('{{ lqp_url }}');
     }
@@ -15,7 +15,7 @@
       :root {
         /* Tablet/Desktop Background - 1400px width */
         /* UPDATE: Applied domain replacement filter */
-        --masthead-bg: url('{{ page.background | cloudinary_url: "c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto" | replace: "https://res.cloudinary.com/divkqrf7k", "https://assets.optikalbahari.com" }}');
+        --masthead-bg: url('{{ page.background | cloudinary_url: "c_fill,w_1400,h_700,g_auto,q_auto:eco,f_avif" | replace: "https://res.cloudinary.com/divkqrf7k", "https://assets.optikalbahari.com" }}');
       }
     }
     /* MODIFIED: Applied placeholder and transition class */
@@ -33,7 +33,7 @@
       LCP Hint: We point to the 1400w version so the browser pre-warms the desktop link.
     {% endcomment %}
     {%- comment -%} UPDATE: Applied domain replacement filter to the LCP image source {%- endcomment -%}
-    <img src="{{ page.background | cloudinary_url: 'c_fill,w_1400,h_700,g_auto,q_auto:eco,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }}"
+    <img src="{{ page.background | cloudinary_url: 'c_fill,w_1400,h_700,g_auto,q_auto:eco,f_avif' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }}"
       fetchpriority="high"
       decoding="sync"
       style="display: none"
