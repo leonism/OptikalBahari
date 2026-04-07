@@ -25,7 +25,7 @@ into CSS files involves several steps. Here's a detailed explanation of the flow
 filepath: /Volumes/DATA/Jekyll/OptikalBahari/assets/main.scss
 ```
 
-```scss
+```markdown
 ---
 ---
 

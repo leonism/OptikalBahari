@@ -15,10 +15,13 @@ compression (Brotli/Gzip) and minification.
 
 - **Static Site Generator:** Jekyll (v4.4.1)
 - **Language:** Ruby, Liquid (Templating), SCSS/Sass (Styling)
-- **Framework:** Bootstrap (inferred from theme origin)
-- **Asset Management:** Cloudinary (for images), local assets in `assets/`
+- **Framework:** Bootstrap 5 (with premium custom SCSS)
+- **Asset Management:** Cloudinary (Production) / Local (Development) hybrid
+- **Search Engine:** Algolia InstantSearch (with local JS libraries)
+- **Data Pipeline:** Apify (Reviews Scraper) -> Cloudflare KV/Worker -> Jekyll Build
 - **Key Plugins:**
-  - `jekyll-paginate-v2` (Pagination)
+  - `jekyll-paginate-v2` (Advanced Pagination for posts and reviews)
+  - `jekyll-algolia` (Search indexing)
   - `jekyll-seo-tag` (SEO)
   - `jekyll-sitemap` (Sitemap generation)
   - `jekyll-minifier` (HTML/JS/CSS minification)
@@ -30,6 +33,7 @@ compression (Brotli/Gzip) and minification.
 
 - Ruby (check version with `ruby -v` or `.ruby-version`)
 - Bundler (`gem install bundler`)
+- Environment variables in `.env` (Cloudinary, Algolia, etc.)
 
 ### Development Commands
 
@@ -51,6 +55,17 @@ compression (Brotli/Gzip) and minification.
   bundle exec jekyll clean
   ```
 
+### Maintenance Commands
+
+- **Index Search Content:**
+  ```bash
+  ruby _scripts/algolia/algolia-index.rb
+  ```
+- **Migrate Images to Cloudinary:**
+  ```bash
+  ruby _scripts/migrate_to_cloudinary.rb
+  ```
+
 ### Production Build
 
 To build the site for production (enables optimizations and minification):
@@ -67,28 +82,68 @@ bundle exec jekyll build && bash _scripts/post-built/post-build.sh
 
 ## Project Structure
 
-- **`_config.yml`**: Main configuration file (site settings, plugins, build options).
-- **`_posts/`**: Blog posts (Markdown). Naming convention: `YYYY-MM-DD-title.md`.
+- **`_config.yml`**: Main configuration (site settings, plugins, search attributes).
+- **`_posts/`**: Blog posts (Markdown). Naming: `YYYY-MM-DD-title.md`.
 - **`_pages/`**: Static pages (Markdown).
 - **`_drafts/`**: Unpublished posts.
-- **`_layouts/`**: HTML templates (`default.html`, `post.html`, `page.html`, etc.).
-- **`_includes/`**: Reusable partials (header, footer, navigation).
-- **`assets/`**: CSS, JS, images, and fonts.
-- **`_plugins/`**: Custom Ruby plugins (`cloudinary.rb`, `compression.rb`, etc.).
-- **`_docs/`**: Project documentation (Jekyll commands, Cloudinary setup, etc.).
+- **`_layouts/`**: HTML templates (`default`, `post`, `page`, `testimoni`).
+- **`_includes/`**: Reusable partials (header, footer, navigation, search).
+  - `_includes/cloudinary/`: Cloudinary-specific components.
+- **`_plugins/`**: Custom Ruby logic.
+  - `fetch_reviews.rb`: Injects remote Google reviews into site collections.
+  - `algolia_hooks.rb`: Customizes indexing for search.
+- **`_scripts/`**: Automation scripts (algolia, building, cleanup).
+- **`_docs/`**: Deep-dive documentation for integrations.
+- **`assets/`**: Styles (SCSS), Scripts (JS), and original images.
+
+## Third-Party Services Implementation
+
+### 1. Cloudinary Integration
+
+- **Purpose**: Automatic image optimization, responsive resizing, and AVIF/WebP delivery.
+- **Usage**:
+  - Use `{% include cloudinary_image.html %}` for most images.
+  - Use `{{ path | cloudinary_url }}` for backgrounds.
+- **Environment**: Automatically switches to local assets in `development` mode for speed.
+
+### 2. Algolia Search
+
+- **Trigger**: `Cmd/Ctrl + K` or search icon in navbar.
+- **Features**: Instant overlay modal, rich results with thumbnails, and category/tag filtering.
+- **Maintenance**: Must run `algolia-index.rb` whenever content changes to sync the index.
+
+### 3. Automated Google Reviews
+
+- **Pipeline**: Apify Scraper -> Cloudflare KV -> Jekyll Plugin.
+- **Display**: Virtual collection `reviews` is generated at build time.
+- **Location**: Managed in `/testimoni/` with Masonry grid layout.
+
+## Advanced Components
+
+### jekyll-paginate-v2
+
+- Used for paginating both blog posts and Google reviews.
+- Supports pagination in subdirectories (e.g., `/testimoni/page/2/`).
+- **Note**: Requires local build or CI pipeline as GitHub Pages doesn't support the V2 plugin.
+
+### Image Ratio Wrapper (`image-ratio.html`)
+
+- **Location**: `_includes/cloudinary/image-ratio.html`.
+- **Function**: Reserves space for images using Bootstrap `.ratio` to prevent **Cumulative Layout
+  Shift (CLS)**.
+- **Usage**: Mandatory for all card images and hero banners to maintain Core Web Vitals.
 
 ## Development Conventions
 
 - **Content:**
-  - Pages should generally be placed in `_pages/` and included via `_config.yml` settings.
-  - Posts go in `_posts/` with standard Jekyll front matter.
+  - Pages go in `_pages/`, posts in `_posts/` with standard front matter.
+  - Reviews are fetched dynamically; do not edit review markdown files directly.
 - **Styling:**
-  - SCSS files are located in `_sass/` or `assets/css/` (check `assets/main.scss`).
-  - Use Bootstrap classes where applicable.
+  - Standard SCSS in `_sass/`. Custom premium styles in `_navbar-search-algolia.scss`.
+  - Use Bootstrap utility classes for layout (e.g., `.ratio`, `.object-fit-cover`).
 - **Assets:**
-  - Images are often managed via Cloudinary (check `_plugins/cloudinary.rb` and
-    `_docs/CLOUDINARY_*.md`).
-  - Local assets should be optimized.
+  - Always provide `alt` tags and `width`/`height` for images.
+  - Use the `image-ratio.html` component for all featured images.
 - **Performance:**
-  - The project uses `smart_asset_cache.yml` and extensive compression settings in `_config.yml`.
-  - Ensure any new assets or plugins do not negatively impact site speed (Lighthouse/PageSpeed).
+  - The site targets **100/100 Lighthouse scores**.
+  - Always verify CLS and LCP after adding new visual components.

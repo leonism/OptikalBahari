@@ -38,7 +38,7 @@ git push -u origin dev
 
 Once you’ve finished making changes in the "dev" branch:
 
-1. Ensure you're on the "master" branch:
+1. Ensure you're on the "main" branch:
 
 ```sh
 git checkout master

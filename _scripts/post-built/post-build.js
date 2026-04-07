@@ -184,6 +184,25 @@ function runHTMLMinification() {
   runCommand('node _scripts/post-built/minify-html.js', 'HTML minification')
 }
 
+/**
+ * Step 8: Font Subsetting
+ * Scans used FA icon classes and creates minimal woff2 files via pyftsubset.
+ */
+async function runFontSubsetting() {
+  console.log('\n🔤 Step 8: Font Subsetting')
+  if (!scriptExists('subset-fonts.js')) {
+    console.log('  ⚠️  subset-fonts.js not found - skipping')
+    return
+  }
+  try {
+    const subsetFonts = require('./subset-fonts')
+    await subsetFonts()
+    console.log('  ✅ Font Subsetting completed')
+  } catch (/** @type {any} */ error) {
+    console.error(`  ❌ Font Subsetting failed: ${error.message}`)
+  }
+}
+
 // ============================================================================
 // MAIN EXECUTION
 // ============================================================================
@@ -200,6 +219,7 @@ async function main() {
   runImageOptimization()
   generateSRIHashes()
   runHTMLMinification()
+  await runFontSubsetting()
 
   const duration = ((Date.now() - startTime) / 1000).toFixed(2)
   console.log('\n' + '='.repeat(60))

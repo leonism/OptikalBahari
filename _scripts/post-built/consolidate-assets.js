@@ -154,20 +154,45 @@ async function main() {
       }
 
       const originalSize = Buffer.byteLength(rawCss, 'utf8')
-      // Use level 1 optimization to avoid stripping @font-face rules
-      // Disable rebasing since we did it manually
+      // Level 2 enables structural optimisations: merging duplicate rules,
+      // removing redundant selectors, and collapsing shorthand properties.
+      // rebase:false because we already rebased URLs manually above.
       const output = new CleanCSS({
-        level: 1,
+        level: {
+          1: {
+            all: true,
+            specialComments: 'none',   // strip ALL comments
+            removeWhitespace: true,
+          },
+          2: {
+            all: true,
+            mergeAdjacentRules: true,     // merge adjacent rules with matching selectors
+            mergeIntoShorthands: true,    // e.g. border-* → border:
+            mergeMedia: true,             // merge identical @media blocks
+            mergeNonAdjacentRules: true,  // more aggressive dedup
+            mergeSemantically: false,     // keep semantic correctness
+            overrideProperties: true,     // remove overridden props
+            removeEmpty: true,            // remove empty rules
+            reduceNonAdjacentRules: true,
+            removeDuplicateFontRules: true,
+            removeDuplicateMediaBlocks: true,
+            removeDuplicateRules: true,
+            removeUnusedAtRules: false,   // PurgeCSS handles this
+            restructureRules: false,      // off to avoid selector reorder bugs
+          },
+        },
         rebase: false,
       }).minify(rawCss)
+      // Note: CleanCSS.minify() is synchronous; the cast below satisfies TS overload resolution.
+      const syncOutput = /** @type {import('clean-css').Output} */ (output)
 
-      if (output.errors.length > 0) {
-        output.errors.forEach((e) => error(`CleanCSS Error: ${e}`))
+      if (syncOutput.errors.length > 0) {
+        syncOutput.errors.forEach((/** @type {string} */ e) => error(`CleanCSS Error: ${e}`))
       }
-      if (output.warnings.length > 0) {
-        output.warnings.forEach((w) => debug(`CleanCSS Warning: ${w}`))
+      if (syncOutput.warnings.length > 0) {
+        syncOutput.warnings.forEach((/** @type {string} */ w) => debug(`CleanCSS Warning: ${w}`))
       }
-      finalCss = output.styles
+      finalCss = syncOutput.styles
 
       // 4.1 Ensure font-display: swap is present in all @font-face rules
       if (finalCss.includes('@font-face')) {
@@ -192,6 +217,8 @@ async function main() {
       if (!argv.dryRun) {
         await fs.writeFile(path.join(DIST_DIR, 'styles.min.css'), finalCss)
         log(`Written styles.min.css to ${DIST_DIR}`)
+        // Pre-compress for instant Brotli/Gzip serving
+        await preCompress(path.join(DIST_DIR, 'styles.min.css'))
       }
     }
 
@@ -213,10 +240,31 @@ async function main() {
       try {
         const result = await terserMinify(combinedJs, {
           compress: {
-            drop_console: true, // Remove console logs
+            passes: 3,             // multiple compression passes
+            drop_console: true,
             drop_debugger: true,
+            pure_getters: true,    // getters with no side-effects can be removed
+            unsafe: true,          // enable unsafe optimizations (safe for our code)
+            unsafe_arrows: true,   // simplify arrow functions
+            unsafe_methods: true,
+            unsafe_proto: true,
+            booleans_as_integers: false, // keep booleans as-is for safety
+            hoist_funs: true,      // hoist function declarations
+            hoist_vars: false,
+            collapse_vars: true,
+            reduce_vars: true,
+            dead_code: true,       // remove dead code
+            keep_fargs: false,     // remove unused arguments
           },
-          mangle: true,
+          mangle: {
+            toplevel: true,        // mangle top-level names (big win for self-contained code)
+            properties: false,     // keep property names (avoids runtime breakage)
+          },
+          module: false,
+          format: {
+            comments: false,       // strip all comments
+            ascii_only: true,      // ASCII-only output (safe for older servers)
+          },
         })
 
         if (!result.code) throw new Error('Minification failed')
@@ -230,9 +278,50 @@ async function main() {
         if (!argv.dryRun) {
           await fs.writeFile(path.join(DIST_DIR, 'scripts.min.js'), result.code)
           log(`Written scripts.min.js to ${DIST_DIR}`)
+          // Pre-compress the JS bundle for instant Brotli/Gzip serving
+          await preCompress(path.join(DIST_DIR, 'scripts.min.js'))
         }
       } catch (/** @type {any} */ e) {
         error(`Terser Minification Failed: ${e.message}`)
+      }
+    }
+
+    // 5b. Separately minify page-specific JS (reviews, algolia) that are
+    // already excluded from the main bundle via data-merge='false'.
+    // These get their own optimized versions alongside the originals.
+    const pageSpecificFiles = [
+      path.join(SITE_DIR, 'assets/js/reviews.js'),
+      path.join(SITE_DIR, 'assets/js/algolia-search.js'),
+    ]
+    for (const srcFile of pageSpecificFiles) {
+      if (!fs.existsSync(srcFile)) continue
+      try {
+        const rawJs = await fs.readFile(srcFile, 'utf8')
+        const beforeSize = Buffer.byteLength(rawJs, 'utf8')
+        const minResult = await terserMinify(rawJs, {
+          compress: {
+            passes: 2,
+            drop_console: true,
+            drop_debugger: true,
+            pure_getters: true,
+            collapse_vars: true,
+            reduce_vars: true,
+            dead_code: true,
+          },
+          mangle: { toplevel: false },
+          format: { comments: false, ascii_only: true },
+        })
+        if (minResult.code) {
+          await fs.writeFile(srcFile, minResult.code)
+          const afterSize = Buffer.byteLength(minResult.code, 'utf8')
+          const pct = (((beforeSize - afterSize) / beforeSize) * 100).toFixed(1)
+          log(`Re-minified ${path.basename(srcFile)}: ${(beforeSize/1024).toFixed(1)} KB → ${(afterSize/1024).toFixed(1)} KB (${pct}%)`)
+          if (!argv.dryRun) {
+            await preCompress(srcFile)
+          }
+        }
+      } catch (/** @type {any} */ e) {
+        error(`Failed to re-minify ${path.basename(srcFile)}: ${e.message}`)
       }
     }
 
@@ -360,6 +449,37 @@ async function main() {
   } catch (/** @type {any} */ e) {
     error(`Fatal Error: ${e.stack}`)
     process.exit(1)
+  }
+}
+
+/**
+ * Pre-compress a file with both Brotli and Gzip so the server can
+ * serve the compressed variant without runtime encoding overhead.
+ * @param {string} filePath
+ */
+async function preCompress(filePath) {
+  const zlib = require('zlib')
+  const { promisify } = require('util')
+  const brotliCompress = promisify(zlib.brotliCompress)
+  const gzip = promisify(zlib.gzip)
+
+  try {
+    const content = await fs.readFile(filePath)
+
+    const br = await brotliCompress(content, {
+      params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 11 }, // max quality
+    })
+    await fs.writeFile(`${filePath}.br`, br)
+
+    const gz = await gzip(content, { level: zlib.constants.Z_BEST_COMPRESSION })
+    await fs.writeFile(`${filePath}.gz`, gz)
+
+    const origKB = (content.length / 1024).toFixed(1)
+    const brKB = (br.length / 1024).toFixed(1)
+    const gzKB = (gz.length / 1024).toFixed(1)
+    console.log(`[Consolidate] 📦 Compressed ${path.basename(filePath)}: ${origKB} KB | br:${brKB} KB | gz:${gzKB} KB`)
+  } catch (/** @type {any} */ e) {
+    console.warn(`[Consolidate] ⚠️  pre-compress failed for ${filePath}: ${e.message}`)
   }
 }
 
