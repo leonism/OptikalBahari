@@ -1,6 +1,8 @@
 <title>
   {% if page.title and page.title != 'Home' %}
-    {{ page.title | strip_html | truncate: 43 }}{% if paginator.page > 1 %} - Page {{ paginator.page }}{% endif %} -
+    {{ page.title | strip_html | truncate: 43 }}
+    {% if paginator.page > 1 %}- Page {{ paginator.page }}{% endif %}
+    -
   {% endif %}
   {{ site.title }}
 </title>

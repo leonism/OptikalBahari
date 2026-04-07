@@ -2,9 +2,11 @@
 layout: page
 title: Frame Kacamata Di Kemayoran, Bendungan Jago JakPus
 subtitle:
-  'Koleksi Frame Kacamata Minus dan Frame Kacamata Baca, Mulai Harga Murah Sampai Dengan Harga Menengah ke Atas.'
+  'Koleksi Frame Kacamata Minus dan Frame Kacamata Baca, Mulai Harga Murah Sampai Dengan Harga
+  Menengah ke Atas.'
 description:
-  'Koleksi Frame Kacamata Minus dan Frame Kacamata Baca, Mulai Harga Murah Sampai Dengan Harga Menengah ke Atas.'
+  'Koleksi Frame Kacamata Minus dan Frame Kacamata Baca, Mulai Harga Murah Sampai Dengan Harga
+  Menengah ke Atas.'
 keywords: 'frame kacamata, frame murah, kacamata, frame kacamata murah'
 lang: id-ID
 author: Optikal Bahari

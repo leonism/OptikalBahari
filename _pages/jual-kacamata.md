@@ -2,9 +2,11 @@
 layout: page
 title: Jual Kacamata Murah, Periksa Mata & Service Kacamata Gratis
 subtitle:
-  'Optikal Bahari Menjual Berbagai Pilihan Kacamata Yang Sesuai Dengan Kebutuhan & Budget Anda, Kunjungi Optikal Bahari Segera.'
+  'Optikal Bahari Menjual Berbagai Pilihan Kacamata Yang Sesuai Dengan Kebutuhan & Budget Anda,
+  Kunjungi Optikal Bahari Segera.'
 description:
-  'Optikal Bahari Menjual Berbagai Pilihan Kacamata Yang Sesuai Dengan Kebutuhan & Budget Anda, Kunjungi Optikal Bahari Segera.'
+  'Optikal Bahari Menjual Berbagai Pilihan Kacamata Yang Sesuai Dengan Kebutuhan & Budget Anda,
+  Kunjungi Optikal Bahari Segera.'
 keywords: 'optikal bahari, kemayoran, kacamata, info'
 lang: id-ID
 author: Optikal Bahari

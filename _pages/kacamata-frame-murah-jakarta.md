@@ -2,9 +2,11 @@
 layout: page
 title: Kacamata & Frame Murah Di Jakarta, Model & Desain Terbaru
 subtitle:
-  'Butuh Lensa atau Frame kacamata? Optikal Bahari memiliki koleksi lengkap dengan harga terbaik. Segera kunjungi toko kami untuk penawaran eksklusif.'
+  'Butuh Lensa atau Frame kacamata? Optikal Bahari memiliki koleksi lengkap dengan harga terbaik.
+  Segera kunjungi toko kami untuk penawaran eksklusif.'
 description:
-  'Butuh Lensa atau Frame kacamata? Optikal Bahari memiliki koleksi lengkap dengan harga terbaik. Segera kunjungi toko kami untuk penawaran eksklusif.'
+  'Butuh Lensa atau Frame kacamata? Optikal Bahari memiliki koleksi lengkap dengan harga terbaik.
+  Segera kunjungi toko kami untuk penawaran eksklusif.'
 keywords: 'kacamata murah, frame murah, kacamata cicilan'
 lang: id-ID
 author: Optikal Bahari

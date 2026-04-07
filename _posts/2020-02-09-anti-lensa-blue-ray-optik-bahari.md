@@ -2,9 +2,11 @@
 layout: post
 title: 'Kacamata Anti Blue-ray UV Protection Glasses'
 subtitle:
-  'Kacamata anti radiasi Blue Ray kami diformulasikan secara khusus untuk menghadang paparan sinar biru berbahaya dari layar gadget, komputer, dan perangkat elektronik lainnya'
+  'Kacamata anti radiasi Blue Ray kami diformulasikan secara khusus untuk menghadang paparan sinar
+  biru berbahaya dari layar gadget, komputer, dan perangkat elektronik lainnya'
 description:
-  'Kacamata anti radiasi Blue Ray kami diformulasikan secara khusus untuk menghadang paparan sinar biru berbahaya dari layar gadget, komputer, dan perangkat elektronik lainnya'
+  'Kacamata anti radiasi Blue Ray kami diformulasikan secara khusus untuk menghadang paparan sinar
+  biru berbahaya dari layar gadget, komputer, dan perangkat elektronik lainnya'
 keywords: 'lensa blueray, lensa bluray, blueray, blu ray, lensa anti blueray, kacamata andi blueray'
 lang: id-ID
 date: '2020-02-09 08:25:23 +0700'

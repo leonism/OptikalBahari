@@ -2,9 +2,11 @@
 layout: page
 title: Periksa Mata Gratis, Kemayoran Jakarta Pusat
 subtitle:
-  'Dapatkan Periksa mata gratis di Optikal Bahari dengan alat komputer, hanya di Optikal Bahari, kami menerima Program KJP dan ada program cicilan menarik 0%.'
+  'Dapatkan Periksa mata gratis di Optikal Bahari dengan alat komputer, hanya di Optikal Bahari,
+  kami menerima Program KJP dan ada program cicilan menarik 0%.'
 description:
-  'Dapatkan Periksa mata gratis di Optikal Bahari dengan alat komputer, hanya di Optikal Bahari, kami menerima Program KJP dan ada program cicilan menarik 0%.'
+  'Dapatkan Periksa mata gratis di Optikal Bahari dengan alat komputer, hanya di Optikal Bahari,
+  kami menerima Program KJP dan ada program cicilan menarik 0%.'
 keywords: 'Periksa Mata, Periksa Mata Gratis, Periksakan Mata Anda Secara Rutin'
 lang: id-ID
 author: Optikal Bahari

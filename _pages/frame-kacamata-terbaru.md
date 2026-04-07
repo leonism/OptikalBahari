@@ -2,9 +2,11 @@
 layout: page
 title: Frame Kacamata Terbaru Di Kemayoran
 subtitle:
-  'Dapatkan koleksi Lensa Terbaru dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas.'
+  'Dapatkan koleksi Lensa Terbaru dan Frame bingkai kacamata, mulai harga murah sampai dengan harga
+  menengah ke atas.'
 description:
-  'Dapatkan koleksi Lensa Terbaru dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas.'
+  'Dapatkan koleksi Lensa Terbaru dan Frame bingkai kacamata, mulai harga murah sampai dengan harga
+  menengah ke atas.'
 keywords: 'kacamata murah, frame murah, kacamata, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
 author: Optikal Bahari

@@ -2,9 +2,11 @@
 layout: page
 title: Optik Kacamata Terdekat, Gratis Periksa Mata & Bergaransi
 subtitle:
-  'Optik Kacamata Terdekat, Gratis Periksa Mata & Bergaransi. Segera datang ke Optikal Bahari dan dapatkan Layanan Periksa Mata Gratis dan Garansi.'
+  'Optik Kacamata Terdekat, Gratis Periksa Mata & Bergaransi. Segera datang ke Optikal Bahari dan
+  dapatkan Layanan Periksa Mata Gratis dan Garansi.'
 description:
-  'Optik Kacamata Terdekat, Gratis Periksa Mata & Bergaransi. Segera datang ke Optikal Bahari dan dapatkan Layanan Periksa Mata Gratis dan Garansi.'
+  'Optik Kacamata Terdekat, Gratis Periksa Mata & Bergaransi. Segera datang ke Optikal Bahari dan
+  dapatkan Layanan Periksa Mata Gratis dan Garansi.'
 keywords:
   'optika kacamata terdekat, kacamata, KJP, kartu jakarta pintar, kemayoran, kacamata cicialn,
   kacamata murah, tanpa bunga, tanpa DP, bayar KJP'

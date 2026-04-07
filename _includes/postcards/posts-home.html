@@ -26,7 +26,8 @@
             <small class='text-muted'>
               Posted by
               {% if post.author %}{{ post.author }} {% else %} {{ site.author }}{% endif %}
-              on <time datetime="{{ post.date | date_to_xmlschema }}">
+              on
+              <time datetime='{{ post.date | date_to_xmlschema }}'>
                 {{ post.date | date: '%B %d, %Y' }}
               </time>
               &middot;

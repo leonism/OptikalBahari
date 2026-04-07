@@ -2,9 +2,11 @@
 layout: page
 title: Optik Mata Terdekat, Lokasi Di Kemayoran, Jakarta Pusat
 subtitle:
-  'Ciptakan gaya unik Anda dengan Optikal Bahari. Nikmati pemeriksaan mata gratis & jelajahi berbagai pilihan bingkai di toko kami di Kemayoran Jakarta Pusat'
+  'Ciptakan gaya unik Anda dengan Optikal Bahari. Nikmati pemeriksaan mata gratis & jelajahi
+  berbagai pilihan bingkai di toko kami di Kemayoran Jakarta Pusat'
 description:
-  'Ciptakan gaya unik Anda dengan Optikal Bahari. Nikmati pemeriksaan mata gratis & jelajahi berbagai pilihan bingkai di toko kami di Kemayoran Jakarta Pusat'
+  'Ciptakan gaya unik Anda dengan Optikal Bahari. Nikmati pemeriksaan mata gratis & jelajahi
+  berbagai pilihan bingkai di toko kami di Kemayoran Jakarta Pusat'
 keywords: 'kacamata, kemayoran, kacamata cicialn, kacamata murah, tanpa bunga, tanpa DP, bayar KJP'
 lang: id-ID
 author: Optikal Bahari

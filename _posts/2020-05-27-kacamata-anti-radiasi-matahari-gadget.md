@@ -2,9 +2,11 @@
 layout: post
 title: 'Kacamata Anti Radiasi Lindungi Dari Matahari'
 subtitle:
-  'Dengan desain yang trendi dan bahan berkualitas tinggi, kacamata ini menawarkan kombinasi sempurna antara perlindungan mata yang optimal dan penampilan yang modis.'
+  'Dengan desain yang trendi dan bahan berkualitas tinggi, kacamata ini menawarkan kombinasi
+  sempurna antara perlindungan mata yang optimal dan penampilan yang modis.'
 description:
-  'Dengan desain yang trendi dan bahan berkualitas tinggi, kacamata ini menawarkan kombinasi sempurna antara perlindungan mata yang optimal dan penampilan yang modis.'
+  'Dengan desain yang trendi dan bahan berkualitas tinggi, kacamata ini menawarkan kombinasi
+  sempurna antara perlindungan mata yang optimal dan penampilan yang modis.'
 keywords: 'Kacamata Anti Radiasi, Kacamata Aman Gadget'
 lang: id-ID
 date: '2020-05-27 08:25:23 +0700'

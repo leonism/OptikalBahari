@@ -2,9 +2,11 @@
 layout: page
 title: Jual Kacamata Murah Di Jakarta Model & Desain Terbaru
 subtitle:
-  'Temukan beragam Lensa & Frame di Optikal Bahari. Mulai dari harga terjangkau hingga menengah ke atas. Kunjungi Optikal Bahari sekarang'
+  'Temukan beragam Lensa & Frame di Optikal Bahari. Mulai dari harga terjangkau hingga menengah ke
+  atas. Kunjungi Optikal Bahari sekarang'
 description:
-  'Temukan beragam Lensa & Frame di Optikal Bahari. Mulai dari harga terjangkau hingga menengah ke atas. Kunjungi Optikal Bahari sekarang'
+  'Temukan beragam Lensa & Frame di Optikal Bahari. Mulai dari harga terjangkau hingga menengah ke
+  atas. Kunjungi Optikal Bahari sekarang'
 keywords: 'kacamata murah, frame murah, kacamata cicilan'
 lang: id-ID
 author: Optikal Bahari

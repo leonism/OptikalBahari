@@ -2,9 +2,11 @@
 layout: post
 title: 'Perubahan Kecil Yang Membuat Tren Kacamata'
 subtitle:
-  'Tren lain yang perlu dipertimbangkan adalah menambahkan sentuhan pribadi pada bingkai Anda dengan detail atau ukiran khusus'
+  'Tren lain yang perlu dipertimbangkan adalah menambahkan sentuhan pribadi pada bingkai Anda dengan
+  detail atau ukiran khusus'
 description:
-  'Tren lain yang perlu dipertimbangkan adalah menambahkan sentuhan pribadi pada bingkai Anda dengan detail atau ukiran khusus'
+  'Tren lain yang perlu dipertimbangkan adalah menambahkan sentuhan pribadi pada bingkai Anda dengan
+  detail atau ukiran khusus'
 keywords: 'tren kacamata, tren kacamata 2023, tren, kacamata'
 lang: id-ID
 date: '2022-12-12 07:25:23 +0700'

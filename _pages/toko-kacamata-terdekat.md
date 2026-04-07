@@ -2,9 +2,11 @@
 layout: page
 title: Toko Kacamata Terdekat
 subtitle:
-  'Toko Kacamata Terdekat Kami, Menawarkan Berbagai Pilihan Lensa dan Frame dengan Harga Terjangkau, Sementara Tetap Memberikan Pelayanan Terbaik Untuk Konsumen Kami'
+  'Toko Kacamata Terdekat Kami, Menawarkan Berbagai Pilihan Lensa dan Frame dengan Harga Terjangkau,
+  Sementara Tetap Memberikan Pelayanan Terbaik Untuk Konsumen Kami'
 description:
-  'Toko Kacamata Terdekat Kami, Menawarkan Berbagai Pilihan Lensa dan Frame dengan Harga Terjangkau, Sementara Tetap Memberikan Pelayanan Terbaik Untuk Konsumen Kami'
+  'Toko Kacamata Terdekat Kami, Menawarkan Berbagai Pilihan Lensa dan Frame dengan Harga Terjangkau,
+  Sementara Tetap Memberikan Pelayanan Terbaik Untuk Konsumen Kami'
 keywords: 'toko kacamata terdekat, toko, kacamata, toko kacamata'
 lang: id-ID
 author: Optikal Bahari

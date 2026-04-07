@@ -2,9 +2,11 @@
 layout: page
 title: Model Kacamata Terbaru Di Kemayoran, Optikal Bahari Bendungan Jago Jakarta Pusat
 subtitle:
-  'Dapatkan koleksi model kacamata terbaru dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas.'
+  'Dapatkan koleksi model kacamata terbaru dan Frame bingkai kacamata, mulai harga murah sampai
+  dengan harga menengah ke atas.'
 description:
-  'Dapatkan koleksi model kacamata terbaru dan Frame bingkai kacamata, mulai harga murah sampai dengan harga menengah ke atas.'
+  'Dapatkan koleksi model kacamata terbaru dan Frame bingkai kacamata, mulai harga murah sampai
+  dengan harga menengah ke atas.'
 keywords: 'kacamata murah, frame murah, kacamata, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
 author: Optikal Bahari

@@ -2,9 +2,13 @@
 layout: post
 title: Mengenal Lensa Progresif untuk Penderita Presbiopia
 subtitle:
-  'Lensa progresif setidak memiliki kenyamanan ketika kamu pakai untuk kegiatan sehari-hari. Ketika kamu mengalihkan pandangan dari jarak dekat ke jarak jauh, mata tidak akan merasakan nyeri atau sejenisnya.'
+  'Lensa progresif setidak memiliki kenyamanan ketika kamu pakai untuk kegiatan sehari-hari. Ketika
+  kamu mengalihkan pandangan dari jarak dekat ke jarak jauh, mata tidak akan merasakan nyeri atau
+  sejenisnya.'
 description:
-  'Lensa progresif setidak memiliki kenyamanan ketika kamu pakai untuk kegiatan sehari-hari. Ketika kamu mengalihkan pandangan dari jarak dekat ke jarak jauh, mata tidak akan merasakan nyeri atau sejenisnya.'
+  'Lensa progresif setidak memiliki kenyamanan ketika kamu pakai untuk kegiatan sehari-hari. Ketika
+  kamu mengalihkan pandangan dari jarak dekat ke jarak jauh, mata tidak akan merasakan nyeri atau
+  sejenisnya.'
 keywords: 'Lensa Progresif, Penderita Presbiopia, tipe lensa kacamata'
 lang: id-ID
 date: '2020-08-06 07:25:23 +0700'
