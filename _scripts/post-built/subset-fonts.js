@@ -346,6 +346,9 @@ async function main() {
     warn(`_site directory not found at ${ABS_SITE_DIR}. Skipping font subsetting.`)
     return
   }
+
+  // Diagnostic: see what's actually in _site
+  debugListFiles(ABS_SITE_DIR)
   if (!isPyftsubsetAvailable()) {
     const isCI = !!process.env.CI || !!process.env.CF_PAGES
     if (isCI) {
@@ -423,14 +426,25 @@ async function main() {
     if (!fs.existsSync(srcFile)) {
       // Fallback: subset the _site copy itself
       if (!fs.existsSync(destFile)) {
-        warn(`Source not found: ${srcFile}`)
+        warn(`Source not found: ${srcFile} (tried dest: ${destFile})`)
         continue
       }
     }
 
     const src = fs.existsSync(srcFile) ? srcFile : destFile
-    const beforeSize = fs.existsSync(destFile) ? fs.statSync(destFile).size : 0
+    
+    // Ensure destFile exists in _site even if Jekyll skipped it
+    if (!fs.existsSync(destFile)) {
+      if (fs.existsSync(srcFile)) {
+        log(`Copying ${filename} to ${ABS_DIST_WEBFONTS}...`)
+        fs.copySync(srcFile, destFile)
+      } else {
+        warn(`Unable to find ${filename} anywhere. Skipping.`)
+        continue
+      }
+    }
 
+    const beforeSize = fs.statSync(destFile).size
     const ok = subsetFont(src, destFile, unicodes)
     if (ok && beforeSize > 0) {
       totalSaved += beforeSize - fs.statSync(destFile).size
@@ -438,6 +452,20 @@ async function main() {
   }
 
   log(`Font subsetting complete. Total saved: ${(totalSaved / 1024).toFixed(1)} KB`)
+}
+
+/** 
+ * Debug utility to log files in a directory
+ * @param {string} dir 
+ */
+function debugListFiles(dir) {
+  if (!fs.existsSync(dir)) return
+  const files = fs.readdirSync(dir)
+  log(`Debug: ${dir} contains ${files.length} items: ${files.slice(0, 10).join(', ')}`)
+  for (const f of files.slice(0, 5)) {
+    const full = path.join(dir, f)
+    if (fs.statSync(full).isDirectory()) debugListFiles(full)
+  }
 }
 
 if (require.main === module) {
