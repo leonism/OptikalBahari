@@ -224,6 +224,9 @@ function buildUnicodeList(usedIconNames, iconMap, alwaysInclude, brandsOnly) {
  * @param {string} unicodes  comma-separated U+ list
  */
 function subsetFont(srcWoff2, destWoff2, unicodes) {
+  // Ensure destination directory exists (prevents FileNotFoundError in pyftsubset)
+  fs.ensureDirSync(path.dirname(destWoff2))
+
   const tmp = `${destWoff2}.tmp`
   const args = [
     srcWoff2,
@@ -273,9 +276,19 @@ function subsetFont(srcWoff2, destWoff2, unicodes) {
 // Main
 // ---------------------------------------------------------------------------
 
+let isRunning = false
+
 async function main() {
+  if (isRunning) return
+  isRunning = true
+
   log('Starting Font Awesome subsetting...')
 
+  // Ensure _site directory exists
+  if (!fs.existsSync(SITE_DIR)) {
+    warn(`_site directory not found at ${path.resolve(SITE_DIR)}. Skipping font subsetting.`)
+    return
+  }
   if (!isPyftsubsetAvailable()) {
     const isCI = !!process.env.CI || !!process.env.CF_PAGES
     if (isCI) {
@@ -300,8 +313,8 @@ async function main() {
   }
 
   // 1. Collect all HTML + JS files to scan
-  const htmlFiles = await glob(`${SITE_DIR}/**/*.html`, { absolute: false })
-  const jsFiles = await glob(`${SITE_DIR}/**/*.js`, { absolute: false })
+  const htmlFiles = await glob(`${SITE_DIR}/**/*.html`, { absolute: false, cwd: process.cwd() })
+  const jsFiles = await glob(`${SITE_DIR}/**/*.js`, { absolute: false, cwd: process.cwd() })
   const allFiles = [...htmlFiles, ...jsFiles]
 
   log(`Scanning ${htmlFiles.length} HTML + ${jsFiles.length} JS files for icon usage...`)
