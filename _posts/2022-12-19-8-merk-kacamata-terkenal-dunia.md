@@ -66,7 +66,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
       </ul>
       <h3 class="card-title">Gascan: Kacamata Sporty untuk Performa Maksimal</h3>
       <p class="card-text text-start">
-        Untuk Anda yang aktif dan dinamis, <strong>Oakley Gascan</strong> menawarkan desain sporty dengan performa tinggi. Frame ini dirancang dengan struktur yang kuat dan tampilan modern yang tegas, memberikan perlindungan optimal sekaligus meningkatkan kenyamanan visual saat beraktivitas di luar ruangan.
+        Untuk Anda yang aktif dan dinamis, <strong>Oakley Gascan</strong> menawarkan desain sporty dengan performa tinggi. Frame ini dirancang dengan struktur yang kuat and tampilan modern yang tegas, memberikan perlindungan optimal sekaligus meningkatkan kenyamanan visual saat beraktivitas di luar ruangan.
       </p>
       <ul>
         <li>Desain sporty modern dengan struktur kokoh dan maskulin.</li>
@@ -90,7 +90,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
         Ray-Ban: Ikon Kacamata Klasik yang Tak Pernah Lekang oleh Waktu
       </h3>
       <p class="card-text text-start">
-        Dalam industri <strong>kacamata branded</strong>, <strong>Ray-Ban</strong> merupakan salah satu merk frame kacamata paling terkenal di dunia. Diperkenalkan pertama kali pada tahun 1936 oleh Bausch & Lomb, Ray-Ban telah menjadi simbol gaya klasik yang konsisten relevan dan lekang akan waktu Dikenal dengan desain ikonik serta kualitas lensa yang unggul, Ray-Ban juga menghadirkan teknologi <em>polarized lenses</em> yang efektif mengurangi pantulan cahaya dan meningkatkan kenyamanan visual, terutama untuk aktivitas luar ruangan dan berkendara.
+        Dalam industri <strong>kacamata branded</strong>, <strong>Ray-Ban</strong> merupakan salah satu merk frame kacamata paling terkenal di dunia. Diperkenalkan pertama kali pada tahun 1936 oleh Bausch & Lomb, Ray-Ban telah menjadi simbol gaya klasik yang konsisten relevan dan lekang akan waktu. Dikenal dengan desain ikonik serta kualitas lensa yang unggul, Ray-Ban juga menghadirkan teknologi <em>polarized lenses</em> yang efektif mengurangi pantulan cahaya dan meningkatkan kenyamanan visual, terutama untuk aktivitas luar ruangan dan berkendara.
       </p>
       <p class="card-text text-start">
         Berikut ini adalah beberapa <strong>model frame kacamata Ray-Ban paling populer</strong> yang telah menjadi standar dalam dunia fashion eyewear. Setiap model menawarkan karakteristik unik yang dapat disesuaikan dengan bentuk wajah, kebutuhan aktivitas, serta gaya personal Anda.
@@ -150,7 +150,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
       <ul>
         <li>Desain lipat (foldable) yang praktis dan travel-friendly.</li>
         <li>Gaya klasik vintage yang elegan dan berkelas.</li>
-        <li>Cocok untuk gaya formal, profesional, dan smart casual.</li>
+        <li>Cocok untuk gaya formal, profesional, and smart casual.</li>
       </ul>
       <h3 class="card-title">Persol 649: Kacamata Klasik dengan Karakter Ikonik</h3>
       <p class="card-text text-start">
@@ -179,7 +179,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
     <div class="card-body">
       <h3 class="card-title">Prada: Kacamata Mewah dengan Desain Fashion Forward</h3>
       <p class="card-text text-start">
-        Dalam kategori <strong>kacamata branded premium</strong>, <strong>Prada</strong> dikenal sebagai salah satu merk asal Italia yang menghadirkan perpaduan sempurna antara fashion high-end dan inovasi desain. Sebagai rumah mode global, Prada tidak hanya fokus pada estetika, tetapi juga pada kualitas material dan detail craftsmanship yang tinggi. Setiap frame kacamata Prada dirancang untuk mencerminkan karakter modern, elegan, dan eksklusif, menjadikannya pilihan ideal bagi Anda yang ingin tampil standout dengan gaya yang berkelas.
+        Dalam kategori <strong>kacamata branded premium</strong>, <strong>Prada</strong> dikenal sebagai salah satu merk asal Italia yang menghadirkan perpaduan sempurna antara fashion high-end and inovasi desain. Sebagai rumah mode global, Prada tidak hanya fokus pada estetika, tetapi juga pada kualitas material dan detail craftsmanship yang tinggi. Setiap frame kacamata Prada dirancang untuk mencerminkan karakter modern, elegan, dan eksklusif, menjadikannya pilihan ideal bagi Anda yang ingin tampil standout dengan gaya yang berkelas.
       </p>
       <p class="card-text text-start">
         Dengan pendekatan desain yang berani dan progresif, Prada berhasil menciptakan koleksi eyewear yang tidak hanya mengikuti tren, tetapi juga membentuk arah fashion itu sendiri. Frame yang dihasilkan sering kali memiliki siluet unik, permainan bentuk geometris, serta sentuhan artistik yang memberikan identitas kuat pada setiap model.
@@ -224,7 +224,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
         Dalam dunia <strong>kacamata branded premium</strong>, <strong>Tom Ford</strong> dikenal sebagai simbol kemewahan modern dengan karakter desain yang kuat, maskulin, dan sophisticated. Brand yang didirikan oleh desainer legendaris ini menghadirkan koleksi eyewear yang tidak hanya berfungsi sebagai pelindung mata, tetapi juga sebagai pernyataan gaya yang tegas dan berkelas. Dengan material berkualitas tinggi serta detail desain yang presisi, Tom Ford menjadi pilihan utama bagi profesional dan fashion enthusiast yang mengutamakan tampilan eksklusif.
       </p>
       <p class="card-text text-start">
-        Ciri khas utama kacamata Tom Ford terletak pada detail “T” metal yang ikonik di bagian frame, yang menjadi identitas visual brand ini. Selain itu, siluet desainnya cenderung clean, bold, dan refined, sehingga mudah dipadukan dengan berbagai gaya, mulai dari formal hingga smart casual.
+        Ciri khas utama kacamata Tom Ford terletak pada detail “T” metal yang ikonik di bagian frame, yang menjadi identitas visual brand ini. Selain itu, siluet desainnya cenderung clean, bold, dan refined, sehingga mudah dipadukan with berbagai gaya, mulai dari formal hingga smart casual.
       </p>
       <p class="card-text text-start">
         Berikut ini adalah salah satu <strong>model frame kacamata Tom Ford paling populer</strong> yang banyak diminati karena desainnya yang timeless dan fleksibel untuk berbagai kebutuhan.
@@ -302,7 +302,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
     <div class="card-body">
       <h3 class="card-title">Versace: Kacamata Mewah dengan Desain Bold dan Ikonik</h3>
       <p class="card-text text-start">
-        Dalam dunia <strong>kacamata branded luxury</strong>, <strong>Versace</strong> dikenal sebagai simbol kemewahan, keberanian, dan ekspresi gaya yang kuat. Brand asal Italia ini menghadirkan koleksi eyewear dengan desain yang bold, eksklusif, dan penuh karakter, menjadikannya pilihan utama bagi mereka yang ingin tampil standout dan percaya diri. Dengan sentuhan khas seperti logo Medusa dan detail emas yang mencolok, Versace berhasil menciptakan identitas visual yang langsung dikenali.
+        Dalam dunia <strong>kacamata branded luxury</strong>, <strong>Versace</strong> dikenal sebagai simbol kemewahan, keberanian, dan ekspresi gaya yang kuat. Brand asal Italia ini menghadirkan koleksi eyewear dengan desain yang bold, eksklusif, dan penuh karakter, menjadikannya pilihan utama bagi mereka yang ingin tampil standout and percaya diri. Dengan sentuhan khas seperti logo Medusa dan detail emas yang mencolok, Versace berhasil menciptakan identitas visual yang langsung dikenali.
       </p>
       <p class="card-text text-start">
         Tidak hanya mengedepankan estetika, Versace juga memastikan setiap frame dibuat dari material berkualitas tinggi dengan standar craftsmanship premium. Desainnya yang tegas dan artistik menjadikan kacamata Versace tidak sekadar aksesori, tetapi juga statement fashion yang mencerminkan gaya hidup mewah dan modern.
@@ -388,7 +388,8 @@ permalink: /8-merk-kacamata-terkenal-dunia/
         <li>Nyaman digunakan untuk aktivitas luar ruangan maupun berkendara.</li>
       </ul>
       <p class="card-text text-start">
-        Dengan kombinasi desain ikonik, kualitas premium, dan inovasi teknologi, Gucci menjadi salah satu rekomendasi terbaik dalam kategori <strong>merk kacamata mewah dan fashionable<strong>. Bagi Anda yang ingin tampil percaya diri dengan gaya yang berani dan elegan, kacamata Gucci adalah pilihan tepat untuk meningkatkan penampilan sekaligus memberikan perlindungan optimal bagi mata Anda.
+        Dengan kombinasi desain ikonik, kualitas premium, dan inovasi teknologi, Gucci menjadi salah satu rekomendasi terbaik dalam kategori <strong>merk kacamata mewah dan fashionable
+        </strong>. Bagi Anda yang ingin tampil percaya diri dengan gaya yang berani dan elegan, kacamata Gucci adalah pilihan tepat untuk meningkatkan penampilan sekaligus memberikan perlindungan optimal bagi mata Anda.
       </p>
     </div>
   </div>
@@ -396,10 +397,10 @@ permalink: /8-merk-kacamata-terkenal-dunia/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp' alt='Segera Datangi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
-        Segera Datangi Optikal Bahari
+        Segera Kunjungi Optikal Bahari
       </h3>
       <p class="card-text text-start">
         Itulah <strong>8 merk frame kacamata yang bagus dan terkenal di dunia</strong>. Dan jika Anda ingin memiliki kacamata dengan kualitas terbaik dan terpercaya, Anda bisa mempertimbangkan merk-merk tersebut sebagai pilihan. Selalu pastikan untuk memeriksakan kacamata Anda ke Optikal Bahari untuk memastikan kebutuhan dan kondisi mata Anda terpenuhi dengan baik.

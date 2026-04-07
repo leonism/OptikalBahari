@@ -41,11 +41,33 @@ const FONT_FILES = {
 
 // Brand icon names (will be mapped to fa-brands-400 font file)
 const BRAND_ICONS = new Set([
-  'facebook', 'facebook-f', 'facebook-square', 'instagram', 'instagram-square',
-  'twitter', 'twitter-square', 'x-twitter', 'youtube', 'youtube-square',
-  'pinterest', 'pinterest-p', 'pinterest-square', 'google', 'google-plus',
-  'linkedin', 'linkedin-in', 'github', 'github-square', 'tiktok', 'whatsapp',
-  'telegram', 'reddit', 'reddit-square', 'snapchat', 'vimeo', 'vimeo-square',
+  'facebook',
+  'facebook-f',
+  'facebook-square',
+  'instagram',
+  'instagram-square',
+  'twitter',
+  'twitter-square',
+  'x-twitter',
+  'youtube',
+  'youtube-square',
+  'pinterest',
+  'pinterest-p',
+  'pinterest-square',
+  'google',
+  'google-plus',
+  'linkedin',
+  'linkedin-in',
+  'github',
+  'github-square',
+  'tiktok',
+  'whatsapp',
+  'telegram',
+  'reddit',
+  'reddit-square',
+  'snapchat',
+  'vimeo',
+  'vimeo-square',
 ])
 
 // Always include these glyphs even if not found via scanning
@@ -101,9 +123,9 @@ const ALWAYS_INCLUDE = {
 // Utilities
 // ---------------------------------------------------------------------------
 
-/** @param {string} msg */ const log  = (msg) => console.log(`[FontSubset] ${msg}`)
+/** @param {string} msg */ const log = (msg) => console.log(`[FontSubset] ${msg}`)
 /** @param {string} msg */ const warn = (msg) => console.warn(`[FontSubset] ⚠️  ${msg}`)
-/** @param {string} msg */ const err  = (msg) => console.error(`[FontSubset] ❌ ${msg}`)
+/** @param {string} msg */ const err = (msg) => console.error(`[FontSubset] ❌ ${msg}`)
 
 function isPyftsubsetAvailable() {
   try {
@@ -163,7 +185,6 @@ function parseIconMap(cssPath) {
   return map
 }
 
-
 /**
  * Scan all HTML and JS in _site for used fa-* class names.
  * Returns Set<string> of bare icon names (e.g. "circle-arrow-right").
@@ -175,11 +196,46 @@ function scanUsedIcons(files) {
   const re = /\bfa-([\w-]+)/g
   // Style class words to skip (not icon names)
   const SKIP = new Set([
-    'solid','regular','brands','fa','stack','stack-1x','stack-2x','lg','sm','xs',
-    '1x','2x','3x','4x','5x','6x','7x','8x','9x','10x','inverse','fw','spin',
-    'pulse','rotate-90','rotate-180','rotate-270','flip-horizontal','flip-vertical',
-    'flip-both','border','pull-left','pull-right','beat','shake','bounce','fade',
-    'spin-pulse','beat-fade','flip',
+    'solid',
+    'regular',
+    'brands',
+    'fa',
+    'stack',
+    'stack-1x',
+    'stack-2x',
+    'lg',
+    'sm',
+    'xs',
+    '1x',
+    '2x',
+    '3x',
+    '4x',
+    '5x',
+    '6x',
+    '7x',
+    '8x',
+    '9x',
+    '10x',
+    'inverse',
+    'fw',
+    'spin',
+    'pulse',
+    'rotate-90',
+    'rotate-180',
+    'rotate-270',
+    'flip-horizontal',
+    'flip-vertical',
+    'flip-both',
+    'border',
+    'pull-left',
+    'pull-right',
+    'beat',
+    'shake',
+    'bounce',
+    'fade',
+    'spin-pulse',
+    'beat-fade',
+    'flip',
   ])
   for (const file of files) {
     try {
@@ -233,11 +289,11 @@ function subsetFont(srcWoff2, destWoff2, unicodes) {
     `--unicodes=${unicodes}`,
     `--output-file=${tmp}`,
     '--flavor=woff2',
-    '--with-zopfli',           // maximum Brotli compression
-    '--desubroutinize',        // reduces CFF table size
-    '--no-hinting',            // strip hinting for web
-    '--layout-features=*',     // keep all OT features
-    '--name-IDs=*',            // keep all name records
+    '--with-zopfli', // maximum Brotli compression
+    '--desubroutinize', // reduces CFF table size
+    '--no-hinting', // strip hinting for web
+    '--layout-features=*', // keep all OT features
+    '--name-IDs=*', // keep all name records
   ]
 
   const result = spawnSync('pyftsubset', args, { stdio: ['ignore', 'pipe', 'pipe'] })
@@ -259,11 +315,7 @@ function subsetFont(srcWoff2, destWoff2, unicodes) {
   if (newSize < origSize) {
     fs.moveSync(tmp, destWoff2, { overwrite: true })
     const saved = ((origSize - newSize) / 1024).toFixed(1)
-    log(
-      `${path.basename(destWoff2)}: ${(origSize / 1024).toFixed(1)} KB → ` +
-      `${(newSize / 1024).toFixed(1)} KB  (saved ${saved} KB / ` +
-      `${(((origSize - newSize) / origSize) * 100).toFixed(1)}%)`
-    )
+    log(`${path.basename(destWoff2)}: ${(origSize / 1024).toFixed(1)} KB → ` + `${(newSize / 1024).toFixed(1)} KB  (saved ${saved} KB / ` + `${(((origSize - newSize) / origSize) * 100).toFixed(1)}%)`)
     return true
   } else {
     warn(`Subset of ${path.basename(srcWoff2)} is not smaller — keeping original.`)
@@ -282,11 +334,16 @@ async function main() {
   if (isRunning) return
   isRunning = true
 
+  const ROOT = process.cwd()
+  const ABS_SITE_DIR = path.resolve(ROOT, SITE_DIR)
+  const ABS_SOURCE_WEBFONTS = path.resolve(ROOT, SOURCE_WEBFONTS)
+  const ABS_DIST_WEBFONTS = path.resolve(ROOT, SITE_DIR, 'assets/vendor/fontawesome-free-7.1.0-web/webfonts')
+
   log('Starting Font Awesome subsetting...')
 
   // Ensure _site directory exists
-  if (!fs.existsSync(SITE_DIR)) {
-    warn(`_site directory not found at ${path.resolve(SITE_DIR)}. Skipping font subsetting.`)
+  if (!fs.existsSync(ABS_SITE_DIR)) {
+    warn(`_site directory not found at ${ABS_SITE_DIR}. Skipping font subsetting.`)
     return
   }
   if (!isPyftsubsetAvailable()) {
@@ -313,18 +370,19 @@ async function main() {
   }
 
   // 1. Collect all HTML + JS files to scan
-  const htmlFiles = await glob(`${SITE_DIR}/**/*.html`, { absolute: false, cwd: process.cwd() })
-  const jsFiles = await glob(`${SITE_DIR}/**/*.js`, { absolute: false, cwd: process.cwd() })
+  const { globSync } = require('glob')
+  const htmlFiles = globSync(`${ABS_SITE_DIR}/**/*.html`, { absolute: true, nodir: true })
+  const jsFiles = globSync(`${ABS_SITE_DIR}/**/*.js`, { absolute: true, nodir: true })
   const allFiles = [...htmlFiles, ...jsFiles]
 
-  log(`Scanning ${htmlFiles.length} HTML + ${jsFiles.length} JS files for icon usage...`)
+  log(`Scanning ${htmlFiles.length} HTML + ${jsFiles.length} JS files at ${ABS_SITE_DIR}...`)
 
   // 2. Scan for used icon names
   const usedIcons = scanUsedIcons(allFiles)
   log(`Found ${usedIcons.size} distinct icon names — parsing unicode codepoints...`)
 
   // 3. Parse FA7 unified CSS to get icon → { unicode, isBrand } mapping
-  const iconMap = parseIconMap(FA_CSS.all)
+  const iconMap = parseIconMap(path.resolve(ABS_SITE_DIR, 'assets/vendor/fontawesome-free-7.1.0-web/css/all.min.css'))
   log(`Parsed icon map — ${iconMap.size} icons found in FA7 CSS`)
 
   // Debug: show which used icons were resolved
@@ -359,12 +417,15 @@ async function main() {
     }
 
     const filename = `${FONT_FILES[/** @type {keyof typeof FONT_FILES} */ (face)]}.woff2`
-    const srcFile = path.join(SOURCE_WEBFONTS, filename)
-    const destFile = path.join(DIST_WEBFONTS, filename)
+    const srcFile = path.resolve(ABS_SOURCE_WEBFONTS, filename)
+    const destFile = path.resolve(ABS_DIST_WEBFONTS, filename)
 
     if (!fs.existsSync(srcFile)) {
       // Fallback: subset the _site copy itself
-      if (!fs.existsSync(destFile)) { warn(`Source not found: ${srcFile}`); continue }
+      if (!fs.existsSync(destFile)) {
+        warn(`Source not found: ${srcFile}`)
+        continue
+      }
     }
 
     const src = fs.existsSync(srcFile) ? srcFile : destFile
