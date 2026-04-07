@@ -277,8 +277,26 @@ async function main() {
   log('Starting Font Awesome subsetting...')
 
   if (!isPyftsubsetAvailable()) {
-    warn('pyftsubset not found. Run: pip install fonttools brotli')
-    return
+    const isCI = !!process.env.CI || !!process.env.CF_PAGES
+    if (isCI) {
+      warn('pyftsubset not found in CI — attempting automatic installation...')
+      try {
+        execSync('pip install --user fonttools brotli', { stdio: 'inherit' })
+        // Verify again after install
+        if (isPyftsubsetAvailable()) {
+          log('✅ Successfully installed fonttools and brotli')
+        } else {
+          throw new Error('pyftsubset still unavailable after pip install')
+        }
+      } catch (/** @type {any} */ e) {
+        warn(`Automatic installation failed: ${e.message}`)
+        warn('Please ensure "pip install fonttools brotli" is part of your build command if you want font optimizations.')
+        return
+      }
+    } else {
+      warn('pyftsubset not found. Run: pip install fonttools brotli')
+      return
+    }
   }
 
   // 1. Collect all HTML + JS files to scan
@@ -348,9 +366,11 @@ async function main() {
   log(`Font subsetting complete. Total saved: ${(totalSaved / 1024).toFixed(1)} KB`)
 }
 
-main().catch((e) => {
-  err(e.message)
-  process.exit(1)
-})
+if (require.main === module) {
+  main().catch((e) => {
+    err(e.message)
+    process.exit(1)
+  })
+}
 
 module.exports = main
