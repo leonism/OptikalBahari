@@ -405,7 +405,7 @@ permalink: /8-merk-kacamata-terkenal-dunia/
         Itulah <strong>8 merk frame kacamata yang bagus dan terkenal di dunia</strong>. Dan jika Anda ingin memiliki kacamata dengan kualitas terbaik dan terpercaya, Anda bisa mempertimbangkan merk-merk tersebut sebagai pilihan. Selalu pastikan untuk memeriksakan kacamata Anda ke Optikal Bahari untuk memastikan kebutuhan dan kondisi mata Anda terpenuhi dengan baik.
       </p>
       <p class="card-text text-start">
-        Kamu perlu referensi untuk kacamata keren tersebut diatas untuk kebutuhan keseharian kamu? Kamu bisa dapatkan hanya di Optikal Bahari Kemayoran yang berlokasi di Jakarta Pusat, Jln. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
+        Kamu perlu referensi untuk kacamata keren tersebut diatas untuk kebutuhan keseharian kamu? Kamu bisa dapatkan hanya di Optikal Bahari Kemayoran yang berlokasi di Jakarta Pusat, Jalan. Bendungan Jago No. 447 atau lihat di website kami. Kamu juga bisa bergabung dengan fanpage
         <a href="https://www.facebook.com/optikalbahari" id="FBClick" title="Facebook Page Optikal Bahari" class="FacebookPage">Facebook @optikalbahari</a> agar dapat mengetahui update informasi terkait jenis lensa lensa terbaru. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
         <a href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari" id="WhatsAppClick" class="WhatsAppCall" title="Call WhatsApp">+6281932235445</a>.
         <em>(Optikal Bahari)</em>
