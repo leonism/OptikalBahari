@@ -1,12 +1,11 @@
 <script>
-  (function (w, d, s, l, i) {
+  (function(w, d, s, l, i) {
     w[l] = w[l] || [];
     w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
     var f = d.getElementsByTagName(s)[0],
       j = d.createElement(s),
       dl = l != 'dataLayer' ? '&l=' + l : '';
     j.async = true;
-    // FIX: Just point to the file. The variables 'i' and 'dl' add the ID and dataLayer for you.
     j.src = '/proxy/gtm.js?id=' + i + dl;
     f.parentNode.insertBefore(j, f);
   })(window, document, 'script', 'dataLayer', 'GTM-KQQT22F');
