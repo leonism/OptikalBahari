@@ -2,9 +2,11 @@
 layout: post
 title: Tips Memilih Kacamata untuk Wajah Bulat
 subtitle:
-  'Temukan kacamata yang sempurna untuk wajah bulatmu dengan tips dari Optikal Bahari. Dapatkan pemeriksaan mata gratis dan koleksi kacamata terbaik di Jakarta.'
+  'Temukan kacamata yang sempurna untuk wajah bulatmu dengan tips dari Optikal Bahari. Dapatkan
+  pemeriksaan mata gratis dan koleksi kacamata terbaik di Jakarta.'
 description:
-  'Temukan kacamata yang sempurna untuk wajah bulatmu dengan tips dari Optikal Bahari. Dapatkan pemeriksaan mata gratis dan koleksi kacamata terbaik di Jakarta.'
+  'Temukan kacamata yang sempurna untuk wajah bulatmu dengan tips dari Optikal Bahari. Dapatkan
+  pemeriksaan mata gratis dan koleksi kacamata terbaik di Jakarta.'
 keywords: 'kacamata untuk Wajah Bulat, panduan kacamata, kacamata yang cocok untuk Wajah bulat'
 lang: id-ID
 date: '2020-02-09 08:25:23 +0700'
@@ -12,7 +14,7 @@ author: Optikal Bahari
 categories: [Tips]
 tags: [lensa, produk]
 background: /assets/img/posts/beach-girls-00/cover-page-kacamata-wajah-bulat.webp
-comments: true
+comments: false
 ---
 
 <div class="card-deck mb-3">

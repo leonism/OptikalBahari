@@ -14,8 +14,8 @@ author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, lensa]
 background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-43.webp
-comments: false
 permalink: /8-merk-kacamata-terkenal-dunia/
+comments: false
 ---
 
 <div class="card-deck mb-3">

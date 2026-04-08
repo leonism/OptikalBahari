@@ -2,9 +2,11 @@
 layout: post
 title: Tips Kacamata Berdasarkan Rambut Kekinian
 subtitle:
-  'Tips memilih kacamata berdasarkan rambut perlu disesuaikan dengan warna rambut Kamu, selain itu juga untuk keseimbangan dalam penampilan.'
+  'Tips memilih kacamata berdasarkan rambut perlu disesuaikan dengan warna rambut Kamu, selain itu
+  juga untuk keseimbangan dalam penampilan.'
 description:
-  'Tips memilih kacamata berdasarkan rambut perlu disesuaikan dengan warna rambut Kamu, selain itu juga untuk keseimbangan dalam penampilan.'
+  'Tips memilih kacamata berdasarkan rambut perlu disesuaikan dengan warna rambut Kamu, selain itu
+  juga untuk keseimbangan dalam penampilan.'
 keywords: 'tips, memilih, kacamata, rambut'
 lang: id-ID
 date: '2020-07-28 07:25:23 +0700'
@@ -12,7 +14,8 @@ author: Optikal Bahari
 categories: [Info]
 tags: [produk, kacamata, gaya, rambut]
 background: /assets/img/posts/french-girl/french-girl-07.webp
-comments: true
+permalink: /tips-kacamata-gaya-rambut/
+comments: false
 ---
 
 <div class="card shadow p-3  mb-5">

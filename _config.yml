@@ -129,7 +129,7 @@ asset_processor:
     enabled: true
     brotli:
       enabled: true
-      quality: 10
+      quality: 11
       window: 22
     gzip:
       enabled: true

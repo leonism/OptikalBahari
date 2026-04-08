@@ -2,9 +2,11 @@
 layout: post
 title: Kacamata Kekinian Membuat Penampilan Stylish Terus
 subtitle:
-  'Kacamata Kekinian lebih menekankan pada style fashion dibanding fungsi utamanya untuk menunjang penglihatan.'
+  'Kacamata Kekinian lebih menekankan pada style fashion dibanding fungsi utamanya untuk menunjang
+  penglihatan.'
 description:
-  'Kacamata Kekinian lebih menekankan pada style fashion dibanding fungsi utamanya untuk menunjang penglihatan.'
+  'Kacamata Kekinian lebih menekankan pada style fashion dibanding fungsi utamanya untuk menunjang
+  penglihatan.'
 keywords: 'Kacamata Keren, Gaya, Stylish, Trendy'
 lang: id-ID
 date: '2020-05-27 08:25:23 +0700'
@@ -12,7 +14,7 @@ author: Optikal Bahari
 categories: [Trend]
 tags: [Lensa]
 background: /assets/img/posts/kacamata-stylish/kacamata-stylish-00.webp
-comments: true
+comments: false
 ---
 
 <div class="card-deck mb-3">

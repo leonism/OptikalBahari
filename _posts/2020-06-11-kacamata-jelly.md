@@ -2,9 +2,11 @@
 layout: post
 title: Kacamata Jelly Buat Tampilan Makin Manis
 subtitle:
-  'Penggunaan kacamata model jelly terhadap kulit wajah orang Korea Selatan yang memang sangat cocok dengan kulit mereka.'
+  'Penggunaan kacamata model jelly terhadap kulit wajah orang Korea Selatan yang memang sangat cocok
+  dengan kulit mereka.'
 description:
-  'Penggunaan kacamata model jelly terhadap kulit wajah orang Korea Selatan yang memang sangat cocok dengan kulit mereka.'
+  'Penggunaan kacamata model jelly terhadap kulit wajah orang Korea Selatan yang memang sangat cocok
+  dengan kulit mereka.'
 keywords: 'Kacamata Bulat, Kpop, Kacamata Jelly, Oppa, Trend, Korea, Korsel'
 lang: id-ID
 date: '2020-06-11 08:25:23 +0700'
@@ -12,7 +14,7 @@ author: Optikal Bahari
 categories: [Trend]
 tags: [layanan, info, optikal]
 background: /assets/img/posts/kacamata-jelly/kacamata-jelly-00.webp
-comments: true
+comments: false
 ---
 
 <div class="card-deck mb-3">

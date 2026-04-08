@@ -2,9 +2,11 @@
 layout: post
 title: Tips Memilih Kacamata untuk Wajah Kotak
 subtitle:
-  'Temukan tips memilih kacamata yang cocok untuk wajah kotak Anda di Optikal Bahari. Dapatkan pelayanan gratis periksa mata, konsultasi, dan reparasi kacamata. Cicilan tanpa bunga & riba'
+  'Temukan tips memilih kacamata yang cocok untuk wajah kotak Anda di Optikal Bahari. Dapatkan
+  pelayanan gratis periksa mata, konsultasi, dan reparasi kacamata. Cicilan tanpa bunga & riba'
 description:
-  'Temukan tips memilih kacamata yang cocok untuk wajah kotak Anda di Optikal Bahari. Dapatkan pelayanan gratis periksa mata, konsultasi, dan reparasi kacamata. Cicilan tanpa bunga & riba'
+  'Temukan tips memilih kacamata yang cocok untuk wajah kotak Anda di Optikal Bahari. Dapatkan
+  pelayanan gratis periksa mata, konsultasi, dan reparasi kacamata. Cicilan tanpa bunga & riba'
 keywords: 'kacamata untuk Wajah kotak, panduan kacamata, kacamata yang cocok untuk Wajah kotak'
 lang: id-ID
 date: '2020-02-09 08:25:23 +0700'
@@ -12,7 +14,7 @@ author: Optikal Bahari
 categories: [Tips]
 tags: [lensa, produk]
 background: /assets/img/posts/vespa-girls/coverpage-vespa-girl.webp
-comments: true
+comments: false
 ---
 
 <div class="card-deck mb-3">

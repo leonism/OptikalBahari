@@ -13,7 +13,7 @@ categories: [Lensa]
 tags: [tips, kacamata, lensa]
 tags: [layanan, optikal]
 background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-35.webp
-comments: true
+comments: false
 ---
 
 <div class="card-deck mb-3">

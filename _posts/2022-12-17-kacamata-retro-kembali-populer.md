@@ -14,7 +14,7 @@ author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, lensa]
 background: /assets/img/posts/beach-retro-girls/beach-retro-girls-00.webp
-comments: true
+comments: false
 ---
 
 <div class="card-deck mb-3">

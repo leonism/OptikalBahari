@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Bagaimana Tren Kacamata 20 Tahun Lalu?"
+title: 'Bagaimana Tren Kacamata 20 Tahun Lalu?'
 subtitle:
-  'Temukan bagaimana banyak orang membicarakan tren kacamata pada 20 tahun lalu dan bagaimana perkembangan desain & gaya kacamata sepanjang waktu di artikel ini'
+  'Temukan bagaimana banyak orang membicarakan tren kacamata pada 20 tahun lalu dan bagaimana
+  perkembangan desain & gaya kacamata sepanjang waktu di artikel ini'
 description:
-  'Temukan bagaimana banyak orang membicarakan tren kacamata pada 20 tahun lalu dan bagaimana perkembangan desain & gaya kacamata sepanjang waktu di artikel ini'
+  'Temukan bagaimana banyak orang membicarakan tren kacamata pada 20 tahun lalu dan bagaimana
+  perkembangan desain & gaya kacamata sepanjang waktu di artikel ini'
 keywords: 'tren kacamata, tren kacamata 2023, tren, kacamata'
 lang: id-ID
 date: '2022-12-09 07:25:23 +0700'
@@ -12,7 +14,7 @@ author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, lensa]
 background: /assets/img/posts/trend-kacamata-20-tahun/trend-kacamata-20-tahun-00.webp
-comments: true
+comments: false
 ---
 
 <div class="card-deck mb-3">

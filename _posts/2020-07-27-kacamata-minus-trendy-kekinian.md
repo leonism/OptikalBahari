@@ -2,9 +2,11 @@
 layout: post
 title: Memilih Kacamata Minus, Agar Tampil Trendy & Kekinian
 subtitle:
-  'Temukan kacamata minus trendy & kekinian di Optikal Bahari. Ragam pilihan untuk penampilan stylishmu. Jelajahi koleksi kami sekarang!'
+  'Temukan kacamata minus trendy & kekinian di Optikal Bahari. Ragam pilihan untuk penampilan
+  stylishmu. Jelajahi koleksi kami sekarang!'
 description:
-  'Temukan kacamata minus trendy & kekinian di Optikal Bahari. Ragam pilihan untuk penampilan stylishmu. Jelajahi koleksi kami sekarang!'
+  'Temukan kacamata minus trendy & kekinian di Optikal Bahari. Ragam pilihan untuk penampilan
+  stylishmu. Jelajahi koleksi kami sekarang!'
 keywords: 'Gaya Kacamata, Kacamata Trendy, Kacamata Minus'
 lang: id-ID
 date: '2020-07-27 08:25:23 +0700'
@@ -12,7 +14,7 @@ author: Optikal Bahari
 categories: [Trend]
 tags: [layanan, optikal]
 background: /assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-13.webp
-comments: true
+comments: false
 ---
 
 <div class="card-deck mb-3">

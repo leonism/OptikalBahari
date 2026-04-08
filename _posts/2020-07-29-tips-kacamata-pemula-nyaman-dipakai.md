@@ -2,9 +2,11 @@
 layout: post
 title: Tips Memilih Kacamata Bagi Pemula yang Nyaman Dipakai
 subtitle:
-  'Kamu memerlukan tips memilih kacamata bagi pemula jika saat ini sedang bingung cara mencari kacamata yang sesuai dengan kemauan Kamu. keseimbangan dalam penampilan.'
+  'Kamu memerlukan tips memilih kacamata bagi pemula jika saat ini sedang bingung cara mencari
+  kacamata yang sesuai dengan kemauan Kamu. keseimbangan dalam penampilan.'
 description:
-  'Kamu memerlukan tips memilih kacamata bagi pemula jika saat ini sedang bingung cara mencari kacamata yang sesuai dengan kemauan Kamu. keseimbangan dalam penampilan.'
+  'Kamu memerlukan tips memilih kacamata bagi pemula jika saat ini sedang bingung cara mencari
+  kacamata yang sesuai dengan kemauan Kamu. keseimbangan dalam penampilan.'
 keywords: 'tips, memilih, kacamata, pemula, newbie'
 lang: id-ID
 date: '2020-07-29 07:25:23 +0700'
@@ -12,7 +14,8 @@ author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, gaya]
 background: /assets/img/posts/kacamata-korean-hijab/korean-hijab-optikal-bahari-05.webp
-comments: true
+permalink: /tips-kacamata-pemula-nyaman-dipakai/
+comments: false
 ---
 
 <div class="card-deck mb-3">

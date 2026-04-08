@@ -2,9 +2,11 @@
 layout: post
 title: 'Perawatan Kacamata Anak: Apa yang Perlu Anda Ketahui'
 subtitle:
-  'Perawatan kacamata untuk anak-anak merupakan hal yang sangat penting untuk diperhatikan, terutama jika anak Anda memiliki masalah pada mata seperti rabun jauh atau dekat.'
+  'Perawatan kacamata untuk anak-anak merupakan hal yang sangat penting untuk diperhatikan, terutama
+  jika anak Anda memiliki masalah pada mata seperti rabun jauh atau dekat.'
 description:
-  'Perawatan kacamata untuk anak-anak merupakan hal yang sangat penting untuk diperhatikan, terutama jika anak Anda memiliki masalah pada mata seperti rabun jauh atau dekat.'
+  'Perawatan kacamata untuk anak-anak merupakan hal yang sangat penting untuk diperhatikan, terutama
+  jika anak Anda memiliki masalah pada mata seperti rabun jauh atau dekat.'
 keywords: 'kacamata anak, merawat kacamata, kacamata awet, kacamata terjaga'
 lang: id-ID
 date: '2022-12-16 07:25:23 +0700'
@@ -12,7 +14,7 @@ author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, lensa]
 background: /assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp
-comments: true
+comments: false
 ---
 
 <div class="card-deck mb-3">
