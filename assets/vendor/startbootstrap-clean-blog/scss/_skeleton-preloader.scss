@@ -12,65 +12,61 @@
 .ratio-4x3  { aspect-ratio: 4 / 3; }
 .ratio-1x1  { aspect-ratio: 1 / 1; }
 
-/* 2. The Skeleton Pulse Animation */
+/* 2. The Skeleton Shimmer Animation Logic */
+@keyframes skeleton-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Base mixin for shimmer effect */
+%skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    #e2e8f0 25%,
+    #f8fafc 50%,
+    #e2e8f0 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 2s infinite ease-in-out;
+  border-radius: 4px;
+}
+
+/* Dark mode version */
+%skeleton-shimmer-dark {
+  background: linear-gradient(
+    90deg,
+    #2c323f 25%,
+    #3f4656 50%,
+    #2c323f 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 2s infinite ease-in-out;
+}
+
 .loading-skeleton {
   position: relative;
   overflow: hidden;
-  background-color: #f0f0f0;
   z-index: 1;
-}
 
-.loading-skeleton::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translateX(-100%);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0) 0,
-    rgba(255, 255, 255, 0.2) 20%,
-    rgba(255, 255, 255, 0.5) 60%,
-    rgba(255, 255, 255, 0)
-  );
-  animation: skeleton-shimmer 2s infinite;
-}
-
-body.dark-mode .loading-skeleton {
-  background-color: #2c2c2c;
-}
-
-body.dark-mode .loading-skeleton::after {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0) 0,
-    rgba(255, 255, 255, 0.03) 20%,
-    rgba(255, 255, 255, 0.07) 60%,
-    rgba(255, 255, 255, 0)
-  );
-}
-
-@keyframes skeleton-shimmer {
-  100% {
-    transform: translateX(100%);
-  }
-}
-
-/* 3. Smart Skeleton Masking (App-like content placeholders) */
-/* When an element with loading-skeleton contains these tags, they turn into placeholders */
-.loading-skeleton {
-  /* EXCLUSION: h1 and h2 are kept above the shimmer */
-  h1, h2 {
+  h1, h2, .navbar a, .navbar button, .navbar-brand, .navbar-toggler {
     position: relative;
-    z-index: 2; /* Sit above the ::after shimmer */
+    z-index: 2;
     background: transparent !important;
+    color: inherit !important;
+    pointer-events: auto !important;
+    user-select: auto !important;
+    visibility: visible !important;
+    display: inherit !important;
+    min-height: auto !important;
+    width: auto !important;
+    max-width: none !important;
+    margin-bottom: inherit !important;
   }
+  
   h3, h4, h5, h6,
   p,
-  a,
-  .btn,
+  a:not(.navbar a),
+  .btn:not(.navbar .btn),
   .card-title,
   .card-text,
   .hit-title,
@@ -78,44 +74,53 @@ body.dark-mode .loading-skeleton::after {
   .hit-image i,
   .badge,
   .list-inline-item,
-  .copyright li {
+  .copyright li,
+  &.thumbnail-image,
+  &.card-img-top,
+  &.hit-image {
+    @extend %skeleton-shimmer;
     color: transparent !important;
-    background-color: #e2e8f0 !important;
-    border-color: #e2e8f0 !important;
-    border-radius: 4px !important;
+    border-color: transparent !important;
     pointer-events: none;
     user-select: none;
-    display: block; /* Default to block for better layout stability */
+    display: block;
     min-height: 1.25em;
     width: 100%;
     max-width: 100%;
     margin-bottom: 0.75rem;
 
-    /* Icons and small elements */
-    i, img, span {
+    /* Icons and small elements (hidden during shimmer) */
+    i:not(.navbar i), img:not(.blur-target), span:not(.navbar span) {
         visibility: hidden !important;
     }
   }
 
-  /* Specific sizing and display for inline-ish elements */
-  a, .btn, .badge, .list-inline-item {
+  /* Specific sizing for images to prevent collapse */
+  &.hit-image, &.card-img-top, &.thumbnail-image {
+    aspect-ratio: 16 / 9;
+    min-height: 120px;
+    object-fit: cover;
+  }
+
+  /* Sizing and display refinements */
+  a:not(.navbar a), .btn:not(.navbar .btn), .badge, .list-inline-item {
     display: inline-block;
     width: auto;
     min-width: 80px;
   }
-
+  
   h3 { width: 70%; min-height: 1.5rem; }
   h4, h5, h6 { width: 50%; }
   p { width: 100%; }
   .btn { min-width: 120px; min-height: 2.5rem; border-radius: 50px !important; }
 }
 
-/* Dark Mode Support for Smart Masking */
+/* Dark Mode Overrides */
 body.dark-mode .loading-skeleton {
   h3, h4, h5, h6,
   p,
-  a,
-  .btn,
+  a:not(.navbar a),
+  .btn:not(.navbar .btn),
   .card-title,
   .card-text,
   .hit-title,
@@ -123,13 +128,15 @@ body.dark-mode .loading-skeleton {
   .hit-image i,
   .badge,
   .list-inline-item,
-  .copyright li {
-    background-color: #3d3d3d !important;
-    border-color: #3d3d3d !important;
+  .copyright li,
+  &.thumbnail-image,
+  &.card-img-top,
+  &.hit-image {
+    @extend %skeleton-shimmer-dark;
   }
 }
 
-/* The container that holds the blur effect */
+/* 3. The container that holds the blur effect */
 .blur-up-container {
 img.loading {
     opacity: 0;

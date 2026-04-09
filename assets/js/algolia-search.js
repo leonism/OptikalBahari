@@ -299,12 +299,13 @@
                       ? html`<img
                           src="${imageUrl}"
                           alt="${hit.title || 'Article'}"
+                          class="blur-target"
                           loading="lazy"
                           decoding="async"
                           width="400"
                           height="225"
-                          style="object-fit: cover; width: 100%; height: 100%; opacity: 0; transition: opacity 0.5s ease;"
-                          onload="this.style.opacity='1'; this.parentElement.classList.remove('loading-skeleton');"
+                          style="object-fit: cover; width: 100%; height: 100%; transition: opacity 0.5s ease;"
+                          onload="this.parentElement.classList.remove('loading-skeleton'); this.style.opacity='1';"
                           onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2280%22%20height%3D%2280%22%20viewBox%3D%220%200%2080%2080%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3f4f6%22%2F%3E%3Cpath%20d%3D%22M40%2030v20M30%2040h20%22%20stroke%3D%22%239ca3af%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E'; this.parentElement.classList.remove('loading-skeleton');"
                         />`
                       : html`<i class="fa-solid fa-image"></i>`}
