@@ -81,7 +81,6 @@
     })
 
     // Theme toggle handling
-    /** @type {HTMLInputElement | null} */
     const themeToggle = document.querySelector('#themeToggle')
     const currentTheme = localStorage.getItem('theme')
 
@@ -89,10 +88,12 @@
       document.body.classList.add('dark-mode')
       // Also set the attribute for bootstrap or other CSS that might use it
       document.documentElement.setAttribute('data-bs-theme', 'dark')
-      if (themeToggle) themeToggle.checked = true
+      if (themeToggle instanceof HTMLInputElement) {
+        themeToggle.checked = true
+      }
     }
 
-    if (themeToggle) {
+    if (themeToggle instanceof HTMLInputElement) {
       themeToggle.addEventListener('change', function () {
         if (themeToggle.checked) {
           document.body.classList.add('dark-mode')

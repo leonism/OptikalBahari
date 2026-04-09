@@ -39,15 +39,14 @@ comments: false
     </div>
   </div>
 </div>
-
 <!-- Sorting Controls -->
 <div class="d-flex justify-content-between align-items-center mb-4">
   <!-- <h4 class="card-title">Ulasan Pelanggan</h4> -->
   <div class="d-flex flex-wrap gap-2">
     <!-- Items Per Page Dropdown -->
     <div class="dropdown">
-      <button class="btn btn-outline-secondary dropdown-toggle rounded-pill px-4 py-2" type="button" id="limitDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: 600; display: inline-flex; align-items: center;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.5rem;"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+      <button class="btn btn-outline-secondary dropdown-toggle rounded-pill btn-testimonial-control" type="button" id="limitDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line><line x1="9" y1="3" x2="9" y2="21"></line></svg>
         Tampilkan: 20
       </button>
       <ul class="dropdown-menu shadow-sm border-0" aria-labelledby="limitDropdown" id="limit-options">
@@ -58,11 +57,10 @@ comments: false
         <li><a class="dropdown-item" href="#" data-limit="50">50</a></li>
       </ul>
     </div>
-
     <!-- Sorting Controls -->
     <div class="dropdown">
-      <button class="btn btn-outline-secondary dropdown-toggle rounded-pill px-4 py-2" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: 600; display: inline-flex; align-items: center;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.5rem;"><line x1="21" y1="6" x2="3" y2="6"></line><line x1="17" y1="12" x2="7" y2="12"></line><line x1="12" y1="18" x2="12" y2="18"></line></svg>
+      <button class="btn btn-outline-secondary dropdown-toggle rounded-pill btn-testimonial-control" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="21" y1="6" x2="3" y2="6"></line><line x1="17" y1="12" x2="7" y2="12"></line><line x1="12" y1="18" x2="12" y2="18"></line></svg>
         Urutkan
       </button>
       <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0" aria-labelledby="sortDropdown" id="sort-options">
@@ -73,37 +71,43 @@ comments: false
         <li><a class="dropdown-item" href="#" data-sort="with-photos">Dengan Photo</a></li>
       </ul>
     </div>
-
   </div>
 </div>
-
 <!-- Loading & Error States -->
-<div id="reviews-loading" class="text-center py-5">
-  <div class="spinner-border text-danger" role="status" style="width: 3rem; height: 3rem;">
-    <span class="visually-hidden">Memuat...</span>
+<div id="reviews-loading" class="py-2">
+  <div class="masonry-grid review-skeleton">
+    {% for i in (1..6) %}
+    <div class="masonry-item">
+      <div class="card h-100 p-4 border-0 shadow-sm">
+        <div class="d-flex align-items-center mb-3">
+          <div class="skeleton-block skeleton-avatar me-3"></div>
+          <div class="skeleton-block skeleton-title"></div>
+        </div>
+        <div class="skeleton-block skeleton-stars"></div>
+        <div class="skeleton-block skeleton-text"></div>
+        <div class="skeleton-block skeleton-text"></div>
+        <div class="skeleton-block skeleton-text"></div>
+      </div>
+    </div>
+    {% endfor %}
   </div>
-  <p class="mt-3 text-muted">Sedang memuat ulasan pelanggan...</p>
 </div>
-
 <div id="reviews-error" class="alert alert-danger text-center py-4 d-none" role="alert">
   <i class="fa-solid fa-triangle-exclamation fa-2x mb-3"></i>
   <h5>Maaf, Terjadi Kesalahan</h5>
   <p>Gagal memuat data ulasan. Silakan coba muat ulang halaman.</p>
   <button class="btn btn-danger mt-2 rounded-pill px-4" id="retry-fetch">Coba Lagi</button>
 </div>
-
 <!-- Reviews Container -->
 <div class="review-masonry-container mb-5 d-none" id="reviews-container-wrapper">
   <div class="masonry-grid" id="reviews-grid">
   </div>
 </div>
-
 <!-- Pagination Container -->
 <nav aria-label="Review pagination" class="mb-5 mt-4 d-none" id="reviews-pagination-container">
   <ul class="pagination justify-content-center" id="reviews-pagination">
   </ul>
 </nav>
-
 <div class="card p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Testimoni Konsumen Optikal Bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">

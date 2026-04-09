@@ -123,6 +123,63 @@ body.dark-mode {
   }
 }
 
+/* Review Skeleton Preloader */
+.review-skeleton {
+  .skeleton-block {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s infinite;
+    border-radius: 4px;
+  }
+  
+  .skeleton-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  
+  .skeleton-title {
+    height: 1.2rem;
+    width: 60%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skeleton-stars {
+    height: 1rem;
+    width: 40%;
+    margin-bottom: 1rem;
+  }
+  
+  .skeleton-text {
+    height: 0.85rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    &:last-child {
+      width: 70%;
+    }
+  }
+}
+
+.btn-testimonial-control {
+  font-weight: 600;
+  display: inline-flex !important;
+  align-items: center;
+  font-size: 0.85rem !important;
+  padding: 0.4rem 1rem !important;
+
+  @media (min-width: 768px) {
+    font-size: 1rem !important;
+    padding: 0.5rem 1.5rem !important;
+  }
+  
+  svg {
+    margin-right: 0.4rem;
+    @media (min-width: 768px) {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
 body.dark-mode {
   .masonry-item .card {
     background-color: $dark-card !important;
@@ -136,5 +193,10 @@ body.dark-mode {
     h5 {
       color: lighten($dark-link, 15%) !important;
     }
+  }
+
+  .review-skeleton .skeleton-block {
+    background: linear-gradient(90deg, #2c2c2c 25%, #3d3d3d 50%, #2c2c2c 75%);
+    background-size: 200% 100%;
   }
 }

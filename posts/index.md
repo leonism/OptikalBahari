@@ -144,4 +144,5 @@ pagination:
 </section>
 
 {% include home/home-cards-glasses.html %}
+
 {% include navigation/pagination.html paginate_path="/posts/page/:num/" %}

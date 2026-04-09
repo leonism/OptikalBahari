@@ -35,4 +35,14 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.blur-target').forEach(function (img) {
     imageObserver.observe(img)
   })
+
+  // Global Skeleton Cleanup
+  // Removes loading-skeleton from any element once the window is fully loaded
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      document.querySelectorAll('.loading-skeleton, .review-skeleton').forEach(function (el) {
+        el.classList.remove('loading-skeleton', 'review-skeleton')
+      })
+    }, 500) // Small delay to let the shimmer be seen and then fade out
+  })
 })
