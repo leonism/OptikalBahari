@@ -72,7 +72,8 @@
   position: relative; // For absolute close button
 }
 
-[data-bs-theme="dark"] .algolia-search-container {
+[data-bs-theme="dark"] .algolia-search-container,
+body.dark-mode .algolia-search-container {
   background: $dark-footer-bg;
   color: $dark-text;
   border: 1px solid rgba($white, 0.1);
@@ -111,8 +112,14 @@
     padding: 10px 0 !important;
     outline: none !important;
     box-shadow: none !important;
-    color: inherit;
+    color: $gray-900 !important;
     &::placeholder { color: $gray-400; }
+
+    [data-bs-theme="dark"] &,
+    body.dark-mode & {
+      color: $white !important;
+      &::placeholder { color: rgba($white, 0.4); }
+    }
 
     @media (max-width: 768px) {
       font-size: 1rem !important; // Smaller on mobile
@@ -403,8 +410,15 @@
   }
 }
 
-[data-bs-theme="dark"] .algolia-search-body::-webkit-scrollbar-thumb {
-  background: $dark-footer-bg;
+[data-bs-theme="dark"] .algolia-search-body,
+body.dark-mode .algolia-search-body {
+  background: $dark-bg !important;
+  color: $dark-text;
+}
+
+[data-bs-theme="dark"] .algolia-search-body::-webkit-scrollbar-thumb,
+body.dark-mode .algolia-search-body::-webkit-scrollbar-thumb {
+  background: rgba($white, 0.1);
 }
 
 .search-stats {
@@ -430,61 +444,65 @@
   }
 }
 
-[data-bs-theme="dark"] .search-hit {
-  background: $dark-footer-bg;
-  border-color: rgba($white, 0.05);
+[data-bs-theme="dark"], body.dark-mode {
+  .search-hit, .search-hit-item {
+    background: $dark-card-body !important;
+    border-color: rgba($white, 0.05) !important;
 
-  &:hover, &.selected {
-    background: lighten($dark-footer-bg, 3%);
-    border-color: $dark-link;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  }
+    &:hover, &.selected {
+      background: lighten($dark-card-body, 3%) !important;
+      border-color: $dark-link !important;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important; // Stronger dark shadow
+    }
 
-  .hit-title {
-    color: white !important;
-  }
+    .hit-title, .hit-title * {
+      color: $white !important;
+    }
 
-  .hit-excerpt {
-    color: $dark-text !important;
+    .hit-excerpt, .hit-excerpt * {
+      color: $dark-text !important;
+    }
+    
+    // Ensure all internal hit content is visible
+    .hit-content * {
+      background: transparent !important;
+    }
   }
 }
 
 
 .hit-link {
   display: flex;
-  padding: 12px;
+  flex-direction: row !important; // Forced row layout as requested
+  padding: 16px;
   gap: 16px;
   text-decoration: none;
   color: inherit;
-  align-items: center;
+  align-items: flex-start;
 
   &:hover {
     text-decoration: none;
     color: inherit;
   }
 
-  @media (max-width: 768px) {
-    padding: 8px; // Smaller padding on mobile
+  @media (max-width: 576px) {
+    padding: 12px;
     gap: 12px;
   }
 }
 
 .hit-image {
   flex-shrink: 0;
-  width: 80px;
-  height: 80px;
+  width: 80px !important; // Fixed width to allow text next to it
+  height: 80px !important;
   border-radius: 8px;
   overflow: hidden;
   background: $gray-100;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  @media (max-width: 768px) {
-    width: 60px; // Smaller image on mobile
-    height: 60px;
-  }
-
+  position: relative;
+  
   img {
     width: 100%;
     height: 100%;
@@ -504,17 +522,20 @@
 .hit-content {
   flex: 1;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hit-title {
-  font-size: 1.05rem;
-  font-weight: 600;
-  margin-bottom: 4px;
-  line-height: 1.4;
-  color: inherit;
-
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: $gray-900 !important;
+  line-height: 1.3;
+  
   @media (max-width: 768px) {
-    font-size: 0.95rem; // Slightly smaller on mobile
+    font-size: 1rem;
   }
 
   mark {
@@ -526,20 +547,19 @@
 }
 
 .hit-excerpt {
-  font-size: 0.9rem;
-  color: $gray-600;
-  margin-bottom: 0;
+  font-size: 0.875rem;
+  color: $gray-600 !important;
+  line-height: 1.5;
   display: -webkit-box;
-  line-clamp: 2;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  line-height: 1.5;
 
   @media (max-width: 768px) {
     font-size: 0.8rem; // Smaller text on mobile
-    line-clamp: 3;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
   }
 
   mark {
@@ -548,10 +568,6 @@
     padding: 0 2px;
     border-radius: 2px;
   }
-}
-
-[data-bs-theme="dark"] .hit-excerpt {
-  color: $gray-400;
 }
 
 .search-pagination {
@@ -611,43 +627,114 @@
 
 // Dark Mode Overrides
 [data-bs-theme="dark"], body.dark-mode {
+  // Override Algolia Library CSS Variables (Highest Priority)
+  --ais-hits-background-color: transparent;
+  --ais-body-background-color: transparent;
+  --ais-background-color: transparent;
+  --ais-hit-background-color: transparent;
+  --ais-pagination-item-active-background-color: #b02a37;
+
+  // Colors for Dark Mode results
+  .hit-title, 
+  .hit-title *,
+  .hit-excerpt,
+  .hit-excerpt * {
+    color: $white !important;
+  }
+  
   .search-pagination {
-    border-top-color: rgba($white, 0.1);
+    border-top-color: rgba($white, 0.1) !important;
 
+    // Ultra-specific "Everything-is-Dark" logic for pagination
+    #algolia-pagination,
+    #algolia-pagination *,
+    .ais-Pagination-item,
     .ais-Pagination-link {
-      background-color: $white !important;
-      border-color: $white !important;
-      color: #000 !important; // Hardcoded black for maximum contrast
-
-      &:hover {
-        background-color: #e9ecef !important; // Light gray
-        border-color: #e9ecef !important;
-        color: #000 !important;
-      }
+      background: transparent !important;
+      background-color: transparent !important;
+      border-color: rgba($white, 0.1) !important;
+      color: $white !important;
     }
 
-    .ais-Pagination-item--selected .ais-Pagination-link,
-    .ais-Pagination-item--active .ais-Pagination-link {
-      background-color: #b02a37 !important; // Darker red for WCAG AA compliance (4.5:1+)
-      border-color: #b02a37 !important;
-      color: #fff !important;
-      box-shadow: none;
-      pointer-events: none;
+    #algolia-pagination .ais-Pagination-link {
+      background: #1e293b !important; // Forced solid dark background
+      min-width: 40px;
+      height: 40px;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+    }
 
-      &:hover {
-        background-color: #b02a37 !important;
-        border-color: #b02a37 !important;
-        color: #fff !important;
-      }
+    #algolia-pagination .ais-Pagination-item--selected .ais-Pagination-link,
+    #algolia-pagination .ais-Pagination-item--active .ais-Pagination-link {
+       background: $primary !important;
+       border-color: $primary !important;
+       color: $white !important;
+       box-shadow: 0 0 15px rgba($primary, 0.5) !important;
     }
   }
 
+  // Remove duplicate/layering shadows from library elements
+  .ais-Hits-item, 
+  .ais-Hits-list {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  // Ultra-aggressive specificity Fix for the "White Box"
+  &, 
+  #algolia-search-overlay,
+  #algolia-hits,
+  #algolia-hits *,
   .algolia-search-body,
   .search-results,
   .ais-Hits,
-  .ais-Hits-list {
-    background-color: $dark-footer-bg !important;
-    background: $dark-footer-bg !important;
+  .ais-Hits-list,
+  .ais-Hits-item,
+  .search-hits-list {
+    background-color: $dark-bg !important;
+    background: $dark-bg !important;
+    border-color: rgba($white, 0.05) !important;
+  }
+
+  .search-results {
+    background-color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+
+    .ais-Hits-list {
+      background: transparent !important;
+      background-color: transparent !important;
+    }
+
+    // Styling for individual hit links inside the hits
+    .search-hit a, .hit-link {
+        color: $white !important;
+        background: transparent !important;
+    }
+  }
+
+  // Ensure stats and pagination are themed correctly
+  #algolia-stats, .search-stats, #algolia-pagination {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: rgba($dark-text, 0.8) !important;
+  }
+
+  .algolia-search-footer {
+    background: rgba($white, 0.02) !important;
+    border-top-color: rgba($white, 0.1) !important;
+  }
+
+  .keyboard-shortcuts kbd {
+    background: #333 !important;
+    border-color: #444 !important;
+    box-shadow: 0 2px 0 #111 !important;
+    color: #eee !important;
   }
 }
 
@@ -656,7 +743,7 @@
   background: rgba($black, 0.02);
   border-top: 1px solid rgba($black, 0.05);
   display: flex;
-  justify-content: space-between; // Changed to space-between to prevent overlapping
+  justify-content: space-between;
   align-items: center;
   gap: 16px;
   flex-wrap: wrap;
@@ -666,11 +753,6 @@
     text-align: center;
     gap: 12px;
   }
-}
-
-[data-bs-theme="dark"] .algolia-search-footer {
-  background: rgba($white, 0.02);
-  border-top-color: rgba($white, 0.1);
 }
 
 .keyboard-shortcuts {
@@ -692,50 +774,10 @@
   }
 }
 
-[data-bs-theme="dark"] {
-  .search-results {
-    background: transparent; // Let the container handle the background
-    border-radius: 12px;
-
-    // Target the Algolia generated list container
-    .ais-Hits-list {
-      background: transparent;
-      padding: 0;
-      margin: 0;
-      list-style: none;
-    }
-
-    // Styling for the "No results" state
-    .search-empty-state {
-      background: $dark-footer-bg;
-      border: 1px solid rgba($white, 0.05);
-      border-radius: 16px;
-      padding: 3rem 1rem;
-
-      i { color: $dark-link; opacity: 0.4 !important; }
-      h3 { color: white; }
-      p { color: $dark-text; }
-    }
-  }
-
-  // Ensure the stats text is visible
-  .search-stats {
-    color: rgba($dark-text, 0.6);
-    .search-time { color: rgba($dark-text, 0.4); }
-  }
-}
-
-[data-bs-theme="dark"] .keyboard-shortcuts kbd {
-  background: #333;
-  border-color: #444;
-  box-shadow: 0 2px 0 #111;
-  color: #eee;
-}
-
 .powered-by {
   display: flex;
   align-items: center;
-  gap: 12px; // Increased gap to prevent overlap
+  gap: 12px;
   font-size: 0.75rem;
   color: $gray-400;
   text-decoration: none !important;
@@ -752,12 +794,12 @@
   }
 
   .algolia-logo {
-    color: #003dff; // Algolia Blue
+    color: #003dff;
     opacity: 0.8;
     transition: opacity 0.2s;
     width: 60px;
     height: auto;
-    display: block; // Ensure it doesn't wrap oddly
+    display: block;
   }
 
   &:hover .algolia-logo {
@@ -765,6 +807,15 @@
   }
 }
 
-[data-bs-theme="dark"] .powered-by .algolia-logo {
-  color: #5468ff;
+[data-bs-theme="dark"], body.dark-mode {
+  .powered-by .algolia-logo {
+    color: #5468ff;
+  }
+
+  mark, .ais-Highlight-highlighted {
+    background: rgba($dark-link, 0.4) !important;
+    color: $white !important;
+    border-radius: 2px;
+    padding: 0 2px;
+  }
 }

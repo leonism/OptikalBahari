@@ -116,7 +116,8 @@
 }
 
 /* Dark Mode Overrides */
-body.dark-mode .loading-skeleton {
+[data-bs-theme="dark"], body.dark-mode {
+  .loading-skeleton {
   h3, h4, h5, h6,
   p,
   a:not(.navbar a),
@@ -133,7 +134,9 @@ body.dark-mode .loading-skeleton {
   &.card-img-top,
   &.hit-image {
     @extend %skeleton-shimmer-dark;
+    background-color: rgba($white, 0.05) !important;
   }
+}
 }
 
 /* 3. The container that holds the blur effect */

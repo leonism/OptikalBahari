@@ -287,14 +287,12 @@
             const imageUrl = getCloudinaryUrl(rawImageUrl)
 
             // Determine excerpt/description with broad fallbacks
-            const excerpt = components.Snippet({ hit, attribute: 'excerpt' })
-            const content = components.Snippet({ hit, attribute: 'content' })
             const fallbackDescription = hit.description || hit.subtitle || hit.summary || ''
 
             return html`
               <article class="search-hit" data-hit-url="${hit.url}">
                 <a href="${hit.url}" class="hit-link">
-                  <div class="hit-image loading-skeleton">
+                  <div class="hit-image">
                     ${imageUrl
                       ? html`<img
                           src="${imageUrl}"
@@ -305,14 +303,18 @@
                           width="400"
                           height="225"
                           style="object-fit: cover; width: 100%; height: 100%; transition: opacity 0.5s ease;"
-                          onload="this.parentElement.classList.remove('loading-skeleton'); this.style.opacity='1';"
-                          onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2280%22%20height%3D%2280%22%20viewBox%3D%220%200%2080%2080%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3f4f6%22%2F%3E%3Cpath%20d%3D%22M40%2030v20M30%2040h20%22%20stroke%3D%22%239ca3af%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E'; this.parentElement.classList.remove('loading-skeleton');"
                         />`
                       : html`<i class="fa-solid fa-image"></i>`}
                   </div>
                   <div class="hit-content">
-                    <h3 class="hit-title">${components.Highlight({ hit, attribute: 'title' })}</h3>
-                    <p class="hit-excerpt">${hit._snippetResult && hit._snippetResult.excerpt && hit._snippetResult.excerpt.value ? excerpt : hit._snippetResult && hit._snippetResult.content && hit._snippetResult.content.value ? content : fallbackDescription}</p>
+                    <h3 class="hit-title">
+                      ${components.Highlight({ hit, attribute: 'title' })}
+                    </h3>
+                    <p class="hit-excerpt">
+                      ${hit._snippetResult && hit._snippetResult.excerpt 
+                        ? components.Snippet({ hit, attribute: 'excerpt' }) 
+                        : fallbackDescription}
+                    </p>
                   </div>
                 </a>
               </article>
