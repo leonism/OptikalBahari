@@ -1,42 +1,7 @@
 /* global bootstrap */
 
 document.addEventListener('DOMContentLoaded', function () {
-  // Initialize Bootstrap tooltips
-  /** @type {HTMLElement[]} */
-  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-
-  // @ts-ignore
-  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    // @ts-ignore
-    return new bootstrap.Tooltip(tooltipTriggerEl)
-  })
-
-  // Load images as you scroll (Intersection Observer)
-  var observerOptions = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.1,
-  }
-
-  var imageObserver = new IntersectionObserver(function (entries, observer) {
-    entries.forEach(function (entry) {
-      if (entry.isIntersecting) {
-        var img = entry.target
-        // Added a slight delay for a smoother premium feel
-        setTimeout(function () {
-          img.classList.remove('loading')
-          img.classList.add('loaded')
-        }, 150)
-        observer.unobserve(img)
-      }
-    })
-  }, observerOptions)
-
-  document.querySelectorAll('.blur-target').forEach(function (img) {
-    imageObserver.observe(img)
-  })
-
-  // --- Site-Wide Skeleton Cleanup ---
+  // --- 1. Site-Wide Skeleton Cleanup (PRIORITY #1) ---
   // We want to clear skeletons as soon as the page is "visually ready"
   // Primary: window.load (all assets)
   // Fallback: 2 seconds (safe window for structural paint)
@@ -47,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Give a tiny moment for the shimmer to feel intentional
     setTimeout(function () {
-      const selectors = '.loading-skeleton, .review-skeleton, .masthead.loading-skeleton'
+      var selectors = '.loading-skeleton, .review-skeleton, .masthead.loading-skeleton'
       document.querySelectorAll(selectors).forEach(function (el) {
         el.classList.remove('loading-skeleton', 'review-skeleton')
         // Special case for masthead
@@ -58,5 +23,53 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Bind to both for maximum reliability
   window.addEventListener('load', clearSkeletons)
-  setTimeout(clearSkeletons, 2000) // Much faster fallback for mobile visibility
+  setTimeout(clearSkeletons, 1800) // Slightly faster fallback for mobile visibility
+
+  // --- 2. Initialize Bootstrap tooltips ---
+  try {
+    /** @type {HTMLElement[]} */
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    
+    // @ts-ignore
+    if (typeof bootstrap !== 'undefined' && bootstrap.Tooltip) {
+      tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+        // @ts-ignore
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+    }
+  } catch (e) {
+    console.warn('Tooltip initialization failed', e)
+  }
+
+  // --- 3. Intersection Observer (Lazy Loading Elements) ---
+  if ('IntersectionObserver' in window) {
+    var observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1,
+    }
+
+    var imageObserver = new IntersectionObserver(function (entries, observer) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          var img = entry.target
+          setTimeout(function () {
+            img.classList.remove('loading')
+            img.classList.add('loaded')
+          }, 150)
+          observer.unobserve(img)
+        }
+      })
+    }, observerOptions)
+
+    document.querySelectorAll('.blur-target').forEach(function (img) {
+      imageObserver.observe(img)
+    })
+  } else {
+    // Fallback for older browsers
+    document.querySelectorAll('.blur-target').forEach(function (img) {
+      img.classList.remove('loading')
+      img.classList.add('loaded')
+    })
+  }
 })
