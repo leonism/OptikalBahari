@@ -28,7 +28,7 @@
   </style>
 
   {%- comment -%} MODIFIED: Added 'dreamy-load' class and an onload trigger on the hidden image to signal completion {%- endcomment -%}
-  <header class="masthead responsive-bg dreamy-load" id="masthead-hdr">
+  <header class="masthead responsive-bg dreamy-load loading-skeleton" id="masthead-hdr">
     {% comment %}
       LCP Hint: We point to the 1400w version so the browser pre-warms the desktop link.
     {% endcomment %}
@@ -38,9 +38,9 @@
       decoding="sync"
       style="display: none"
       alt="{{ page.title | default: site.title }}"
-      onload="document.getElementById('masthead-hdr').classList.add('is-loaded');" />
+      onload="document.getElementById('masthead-hdr').classList.add('is-loaded'); this.parentElement.classList.remove('loading-skeleton');" />
 {% else %}
-  <header class="masthead">
+  <header class="masthead loading-skeleton" id="masthead-hdr">
 {% endif %}
 
     <div class="container">

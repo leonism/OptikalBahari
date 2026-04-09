@@ -58,6 +58,75 @@ body.dark-mode .loading-skeleton::after {
   }
 }
 
+/* 3. Smart Skeleton Masking (App-like content placeholders) */
+/* When an element with loading-skeleton contains these tags, they turn into placeholders */
+.loading-skeleton {
+  /* EXCLUSION: h1 and h2 are kept above the shimmer */
+  h1, h2 {
+    position: relative;
+    z-index: 2; /* Sit above the ::after shimmer */
+    background: transparent !important;
+  }
+  h3, h4, h5, h6,
+  p,
+  .btn,
+  .card-title,
+  .card-text,
+  .hit-title,
+  .hit-excerpt,
+  .hit-image i,
+  .badge,
+  .list-inline-item,
+  .copyright li {
+    color: transparent !important;
+    background-color: #e2e8f0 !important;
+    border-color: #e2e8f0 !important;
+    border-radius: 4px !important;
+    pointer-events: none;
+    user-select: none;
+    display: block; /* Default to block for better layout stability */
+    min-height: 1.25em;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0.75rem;
+
+    /* Icons and small elements */
+    i, img, span {
+        visibility: hidden !important;
+    }
+  }
+
+  /* Specific sizing and display for inline-ish elements */
+  .btn, .badge, .list-inline-item {
+    display: inline-block;
+    width: auto;
+    min-width: 80px;
+  }
+
+  h3 { width: 70%; min-height: 1.5rem; }
+  h4, h5, h6 { width: 50%; }
+  p { width: 100%; }
+  .btn { min-width: 120px; min-height: 2.5rem; border-radius: 50px !important; }
+}
+
+/* Dark Mode Support for Smart Masking */
+body.dark-mode .loading-skeleton {
+  h3, h4, h5, h6,
+  p,
+  .btn,
+  .card-title,
+  .card-text,
+  .hit-title,
+  .hit-excerpt,
+  .hit-image i,
+  .badge,
+  .list-inline-item,
+  .copyright li {
+    background-color: #3d3d3d !important;
+    border-color: #3d3d3d !important;
+  }
+}
+
 /* The container that holds the blur effect */
 .blur-up-container {
 img.loading {
