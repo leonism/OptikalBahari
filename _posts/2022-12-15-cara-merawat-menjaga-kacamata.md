@@ -14,6 +14,7 @@ author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, lensa]
 background: /assets/img/posts/colorful-lady-sunglasses/colorful-lady-sunglasses-00.webp
+permalink: /cara-merawat-menjaga-kacamata/
 comments: false
 ---
 

@@ -14,6 +14,7 @@ author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, lensa]
 background: /assets/img/posts/beach-retro-girls/beach-retro-girls-00.webp
+permalink: /kacamata-retro-kembali-populer/
 comments: false
 ---
 

@@ -14,6 +14,7 @@ author: Optikal Bahari
 categories: [Trend]
 tags: [layanan, optikal]
 background: /assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-13.webp
+permalink: /kacamata-minus-trendy-kekinian/
 comments: false
 ---
 

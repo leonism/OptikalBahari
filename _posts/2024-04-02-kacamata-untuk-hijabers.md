@@ -14,6 +14,7 @@ author: Optikal Bahari
 categories: [Tips]
 tags: [lensa, produk]
 background: /assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-01.webp
+permalink: /kacamata-untuk-hijabers/
 comments: false
 ---
 

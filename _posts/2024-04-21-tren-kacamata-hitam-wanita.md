@@ -14,6 +14,7 @@ author: Optikal Bahari
 categories: [Info]
 tags: [lensa, produk]
 background: /assets/img/posts/kacamata-hitam-wanita/kacamata-hitam-wanita-12.webp
+permalink: /tren-kacamata-hitam-wanita/
 comments: false
 ---
 
