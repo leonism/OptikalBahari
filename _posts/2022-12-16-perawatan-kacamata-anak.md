@@ -14,6 +14,7 @@ author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, lensa]
 background: /assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp
+permalink: /perawatan-kacamata-anak/
 comments: false
 ---
 

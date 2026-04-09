@@ -16,6 +16,7 @@ author: Optikal Bahari
 categories: [Info]
 tags: [tips, kacamata, lensa]
 background: /assets/img/posts/harajuku/female-harajuku-00.webp
+permalink: /mengenal-lebih-dekat-jenis-lensa-progresif-untuk-penderita-presbiopia/
 comments: false
 ---
 

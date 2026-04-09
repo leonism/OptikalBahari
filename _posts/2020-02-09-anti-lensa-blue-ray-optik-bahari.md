@@ -14,6 +14,7 @@ author: Optikal Bahari
 categories: [Lensa]
 tags: [lensa, produk]
 background: /assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-13.webp
+permalink: /anti-lensa-blue-ray-optik-bahari/
 comments: false
 ---
 
