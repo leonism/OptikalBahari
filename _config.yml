@@ -204,8 +204,6 @@ jekyll-minifier:
     - "*.min.js"
     - "*.min.css"
     - "assets/vendor/**/*"
-    # - "assets/js/algolia-search.js"
-    - "assets/js/lazyLoad.js"
 
 # Algolia Search Configuration
 algolia:
