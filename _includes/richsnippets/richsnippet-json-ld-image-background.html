@@ -49,8 +49,13 @@
     {%- endif -%}
 
     {%- comment -%} Clean the path for Cloudinary {%- endcomment -%}
-    {%- assign clean_img = raw_img | replace_first: '/', '' | strip -%}
+    {%- assign clean_img = raw_img | remove_first: site.url | remove_first: 'https://www.optikalbahari.com' | replace_first: '/', '' | strip -%}
     {%- assign schema_img_url = clean_img | cloudinary_url: 'q_auto,f_jpg' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' -%}
+
+    {%- comment -%} Ensure Absolute URL for Google {%- endcomment -%}
+    {%- unless schema_img_url contains 'https://' -%}
+      {%- assign schema_img_url = "https://assets.optikalbahari.com/" | append: schema_img_url -%}
+    {%- endunless -%}
 
     {%- comment -%} Safe comma logic to prevent JSON parsing errors {%- endcomment -%}
     {%- unless is_first_item -%},{%- endunless -%}
@@ -58,15 +63,19 @@
     {
       "@context": "https://schema.org/",
       "@type": "ImageObject",
+      "url": "{{ schema_img_url }}",
       "contentUrl": "{{ schema_img_url }}",
-      "license": "{{ site.url }}/license",
+      "width": 1200,
+      "height": 1200,
+      "encodingFormat": "image/jpeg",
+      "license": "{{ site.url }}/kebijakan-situs/",
       "copyrightNotice": "{{ site.author | default: site.author_name }}",
-      "acquireLicensePage": "{{ site.url }}/license",
+      "acquireLicensePage": "{{ site.url }}/kebijakan-situs/",
       "creditText": {{ site.author_name | jsonify }},
       "creator": {
         "@type": "Person",
         "name": "{{ site.author | default: site.author_name }}",
-        "url": "{{ site.url }}"
+        "url": "{{ site.url }}/profil/"
       }
     }
     {%- assign is_first_item = false -%}
