@@ -74,26 +74,3 @@
 ]
 </script>
 {%- endif -%}
-
-{%- comment -%}
-  UPDATE: Generate Cloudinary URL with Custom Domain for Schema
-
-  {% assign schema_img_url = page.background | cloudinary_url: 'q_auto,f_jpg' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' %}
-
-  <script type='application/ld+json'>
-  {
-  "@context": "https://schema.org/",
-  "@type": "ImageObject",
-  "contentUrl": "{{ schema_img_url }}",
-  "license": "{{ site.url }}",
-  "copyrightNotice": "{{ site.author }}",
-  "acquireLicensePage": "{{ site.url }}",
-  "creditText": {{ site.author_name | jsonify }},
-  "creator": {
-  "@type": "Person",
-  "name": "{{ site.author }}",
-  "url": "{{ site.url }}"
-  }
-  }
-  </script>
-{%- endcomment -%}
