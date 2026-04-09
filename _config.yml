@@ -53,7 +53,8 @@ jekyll_admin:
 collections:
   posts:
     output: true
-    permalink: /posts/:title/
+    # permalink: /posts/:title/
+    permalink: /:title/
   reviews:
     output: true # Required for jekyll-paginate-v2 in some environments
     permalink: /reviews/:title/ # Dummy permalink, we won't use individual pages
