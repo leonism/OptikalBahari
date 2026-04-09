@@ -36,13 +36,27 @@ document.addEventListener('DOMContentLoaded', function () {
     imageObserver.observe(img)
   })
 
-  // Global Skeleton Cleanup
-  // Removes loading-skeleton from any element once the window is fully loaded
-  window.addEventListener('load', function () {
+  // --- Site-Wide Skeleton Cleanup ---
+  // We want to clear skeletons as soon as the page is "visually ready"
+  // Primary: window.load (all assets)
+  // Fallback: 2 seconds (safe window for structural paint)
+  var skeletonsCleared = false
+  var clearSkeletons = function () {
+    if (skeletonsCleared) return
+    skeletonsCleared = true
+
+    // Give a tiny moment for the shimmer to feel intentional
     setTimeout(function () {
-      document.querySelectorAll('.loading-skeleton, .review-skeleton').forEach(function (el) {
+      const selectors = '.loading-skeleton, .review-skeleton, .masthead.loading-skeleton'
+      document.querySelectorAll(selectors).forEach(function (el) {
         el.classList.remove('loading-skeleton', 'review-skeleton')
+        // Special case for masthead
+        if (el.id === 'masthead-hdr') el.classList.add('is-loaded')
       })
-    }, 500) // Small delay to let the shimmer be seen and then fade out
-  })
+    }, 400)
+  }
+
+  // Bind to both for maximum reliability
+  window.addEventListener('load', clearSkeletons)
+  setTimeout(clearSkeletons, 2000) // Much faster fallback for mobile visibility
 })
