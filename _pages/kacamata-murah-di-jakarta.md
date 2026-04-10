@@ -39,7 +39,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='Pilihan Frame Trendy untuk Gen Z & Milenial' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp' alt='Pilihan Frame Trendy untuk Gen Z & Milenial' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Pilihan Frame Trendy untuk Gen Z & Milenial</h3>
       <p class="card-text text-start">
@@ -59,4 +59,32 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-7.webp' alt='Pemeriksaan Mata Gratis & Teknologi Modern'
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
+    <div class="card-body">
+      <h3 class="card-title">
+        Segera Kunjungi Optikal Bahari
+      </h3>
+      <p class="card-text text-start">
+        Jangan tunda lagi kesehatan mata Anda, segera
+        <a href="{{ "/lokasi/" | relative_url }}" title="lokasi Optikal Bahari">kunjungi Optikal Bahari</a>
+        dan buktikan sendiri mengapa kami menjadi rujukan utama <strong>kacamata murah jakarta</strong>. Tim optometris profesional kami siap membantu Anda mencocokkan <strong>kacamata</strong> dengan anatomi wajah, profesi, dan anggaran Anda. Ratusan pelanggan setia telah membuktikan kualitas produk kami melalui berbagai
+        <a href="{{ "/testimoni/" | relative_url }}" title="testimoni positive">testimoni positive</a>. Dapatkan <strong>kacamata murah</strong> impian Anda hari ini juga dengan penawaran harga terbaik. Punya pertanyaan seputar ketersediaan merk, lensa, atau promo? Silahkan hubungi spesialis kami di nomor WhatsApp
+        <a
+          href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
+          id="WhatsAppClick"
+          class="WhatsAppCall"
+          title="Call WhatsApp">+6281932235445</a>
+        atau bergabunglah bersama komunitas digital kami di
+        <a
+          href="https://www.facebook.com/optikalbahari"
+          id="FBClick"
+          title="Facebook Page Optikal Bahari"
+          class="FacebookPage">Facebook Fan</a>
+        Page kami.
+        <em>(Optikal Bahari)</em>
+      </p>
+    </div>
+  </div>
+</div>
+
+{% include home/home-cards-glasses.html %}

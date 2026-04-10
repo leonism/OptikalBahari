@@ -47,13 +47,9 @@ comments: false
         Kelebihan Optikal Bahari
       </h3>
       <p class="card-text text-start">
-        <strong>Periksa Mata GRATIS</strong>.
-                    Optikal Bahari mengerti bahwa penglihatan yang jernih adalah kunci produktivitas. Sebagai spesialis penyedia <strong>kacamata murah jakarta</strong>, kami menawarkan fasilitas
-        <a href="{{ "/periksa-mata-gratis/" | relative_url }}" title="Periksa Mata Gratis">periksa mata gratis</a>
-        yang dilakukan dengan
-        <strong>dua tahapan</strong>
-        klinis terstandarisasi untuk memastikan hasil yang akurat. Tahap pertama memanfaatkan
-        <strong>autorefractometer</strong> komputerisasi untuk mendeteksi kelainan refraksi secara otomatis. Tahap kedua dilanjutkan dengan <strong>phoroptor</strong> yang membantu optometris kami mendiagnosis dan menetapkan resep <strong>kacamata</strong> Anda dengan presisi tinggi.
+        <strong>Periksa Mata GRATIS</strong>. Optikal Bahari mengerti bahwa penglihatan yang jernih adalah kunci produktivitas. Sebagai spesialis penyedia <strong>kacamata murah jakarta</strong>, kami menawarkan fasilitas
+        <a href="{{ "/periksa-mata-gratis/" | relative_url }}" title="Periksa Mata Gratis">periksa mata gratis</a> yang dilakukan dengan <strong>dua tahapan</strong> klinis terstandarisasi untuk memastikan hasil yang akurat. Tahap pertama memanfaatkan <strong>autorefractometer
+        </strong> komputerisasi untuk mendeteksi kelainan refraksi secara otomatis. Tahap kedua dilanjutkan dengan <strong>phoroptor</strong> yang membantu optometris kami mendiagnosis dan menetapkan resep <strong>kacamata</strong> Anda dengan presisi tinggi.
       </p>
       <p class="card-text text-start">
         <strong>Service & Reparasi Kacamata GRATIS</strong>.
@@ -84,7 +80,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='Jual Kacamata Murah Di Jakarta Model & Desain Terbaru' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Segera Kunjungi Optikal Bahari
