@@ -18,7 +18,7 @@ permalink: /tips-kacamata-gaya-rambut/
 comments: false
 ---
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/french-girl/french-girl-01.webp' alt='Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Tips Memilih Kacamata Berdasarkan Rambut</h3>
@@ -45,7 +45,7 @@ comments: false
 
 {% include home/home-cards-main.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/french-girl/french-girl-02.webp' alt='Rambut Hitam atau Pirang, Terapkan Tips Memilih Kacamata Berdasarkan Rambut' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -87,7 +87,7 @@ comments: false
 
 {% include home/home-cards-benefit.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/french-girl/french-girl-08.webp' alt='Tips Memilih Kacamata Berdasarkan Rambut Berwarna Cokelat' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">

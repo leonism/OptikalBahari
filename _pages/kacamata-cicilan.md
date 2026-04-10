@@ -17,85 +17,64 @@ permalink: /kacamata-cicilan/
 comments: false
 ---
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-01/malay-hijab-01.webp' alt='kacamata cicilan' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
     <h3 class="card-title">
       Kacamata Cicilan Tanpa Bunga
     </h3>
     <p class="card-text text-start">
-      Kamu punya gangguan penglihatan dan butuh kacamata, sedang mencari
-      <strong>kacamata yang bisa nyicil</strong>? Selamat kamu berada di tempat yang tepat. Optikal Bahari adalah salah satu tempat terbaik untuk kamu yang sedang membutuhkan kacamata. Apalagi di sini kamu bisa membeli sebuah kacamata meski harus menyicil.
+      Apakah Anda mengalami gangguan penglihatan namun terhalang oleh *budget* untuk membeli lensa baru? Jika Anda sedang mencari solusi <strong>kacamata cicilan</strong>, Anda telah datang ke tempat yang tepat. Optikal Bahari adalah destinasi utama bagi Anda yang membutuhkan lensa korektif berkualitas tinggi. Kabar baiknya, di sini Anda bisa langsung membawa pulang kacamata idaman dengan skema <strong>cicilan ringan</strong> yang sangat bersahabat bagi kantong.
     </p>
     <p class="card-text text-start">
-      Kacamata pada dasarnya memiliki harga yang bervariasi tergantung bentuk, model, kualitas dan bahannya. Harganya bisa mulai dari puluhan ribu hingga jutaan rupiah dan tentu ini akan sangat menyebalkan jika kamu membutuhkan sebuah kacamata, apalagi untuk memperbaiki penglihatan yang kurang jelas karena adanya gangguan.
+      Kami mengerti bahwa harga optik sangat bervariasi, mulai dari puluhan ribu hingga jutaan rupiah, tergantung pada kualitas lensa dan material <em>frame</em>-nya. Biaya yang tinggi tentu bisa menjadi kendala saat Anda sangat mendesak membutuhkan koreksi visual. Oleh karena itu, kami memberikan kemudahan pembayaran <strong>tanpa bunga</strong> agar produktivitas dan kesehatan mata Anda tidak perlu ditunda lagi karena masalah biaya.
     </p>
     <p class="card-text text-start">
-      Tenang saja, di sini kamu bisa membeli sebuah kacamata impian tanpa pikir panjang. Kamu bisa mencicil kacamata yang kamu inginkan saat ini. Dan tidak hanya itu saja, hanya di Optikal Bahari kamu bisa mendapatkan
-      <strong>periksa mata gratis</strong>
-      dengan komputer,
-      <strong>cicilan tanpa credit card</strong>
-      dan dengan
-      <strong>jaminan garansi 100%</strong>
-      diganti.
+      Kini, Anda tidak perlu lagi berpikir panjang untuk mengganti lensa yang buram. Nikmati fasilitas <strong>bunga 0% tanpa DP</strong> untuk setiap pembelian produk optik unggulan kami. Hebatnya lagi, proses pengajuannya sangatlah praktis karena transaksi di tempat kami sepenuhnya <strong>tanpa credit card</strong>. Tidak berhenti di situ, Optikal Bahari juga memanjakan Anda dengan fasilitas <strong>periksa mata gratis</strong> menggunakan alat terkomputerisasi dan jaminan garansi ganti baru 100%.
     </p>
   </div>
 </div>
 
 {% include home/home-cards-main.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
     {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-01/malay-hijab-02.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Cicilan Sesuai Kebutuhan
     </h3>
     <p class="card-text text-start">
-      Supaya kamu tidak kesulitan melunasi
-      <strong>kacamata impian</strong>, ada baiknya jika kamu memilih sebuah kacamata sesuai kebutuhan. Maksudnya bagaimana? Tentu pilih kacamata karena kamu memang membutuhkannya. Jangan tertarik karena modelnya atau warnanya yang keren namun fungsinya tidak sesuai kebutuhanmu saat ini. Misalnya, kamu sedang menderita
-      <strong>presbiopia</strong>
-      maka pilih kacamata dengan
-      <strong>lensa progresif</strong>
-      atau
-      <strong>trifokal</strong>. Jangan memilih lensa tunggal meskipun bentuknya keren dan menarik, ini sama saja kamu membeli sesuatu yang tidak kamu butuhkan. Apalagi lensa tunggal tidak bisa membantu memperbaiki penglihatan penderita presbiopia.
+      Meskipun kami menawarkan opsi <strong>cicilan ringan</strong>, hal terpenting dalam berbelanja optik adalah memilih lensa dan <em>frame</em> yang benar-benar sesuai dengan fungsi medisnya. Jangan hanya tergiur oleh model trendi jika spesifikasinya tidak menjawab keluhan refraksi Anda. Sebagai contoh, jika Anda mengalami <strong>presbiopia</strong> (mata tua), pastikan Anda memanfaatkan program <strong>kacamata cicilan</strong> ini untuk mengambil <strong>lensa progresif</strong> atau trifokal. Jangan memaksakan diri mencicil lensa tunggal hanya karena bingkainya menarik, sebab itu tidak akan membantu memperbaiki fokus penglihatan Anda.
     </p>
     <p class="card-text text-start">
-      Ketika kamu beli kacamata yang bisa nyicil, tentu kamu juga harus pahami risiko apa saja nantinya. Ada banyak sekali faktor risiko yang akan terjadi ketika kamu salah membeli sebuah kacamata, atau tidak mampu melunasinya. Karena itu, penting sekali memperhatikan risiko apa saja yang akan terjadi. Karena itu, setidaknya pilihlah kacamata dengan bijak dan benar. Pilih kacamata hanya karena kamu membutuhkan benda tersebut untuk membantu penglihatan. Biasanya pihak optik juga akan meminta sebuah jaminan jika kamu ingin membelinya secara nyicil, misalnya
-      <strong>fotocopy KTP</strong>
-      atau tanda pengenal yang lain.
+      Dengan sistem pembayaran <strong>tanpa bunga</strong>, kami ingin memastikan Anda terhindar dari risiko finansial di masa mendatang. Berbelanjalah secara bijak dengan mengutamakan fungsi korektif dari alat bantu penglihatan tersebut. Kami telah menyederhanakan seluruh prosedur, sehingga Anda dapat menikmati promo <strong>bunga 0% tanpa DP</strong> ini cukup dengan menyerahkan persyaratan standar administratif seperti <strong>fotocopy KTP</strong>. Skema yang bisa diakses <strong>tanpa credit card</strong> ini dirancang murni untuk mempercepat pemulihan kualitas visual Anda.
     </p>
   </div>
 </div>
 
 {% include home/home-cards-benefit.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
     {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-01/malay-hijab-03.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Aman Dari Riba Ketika Cicil Kacamata
     </h3>
     <p class="card-text text-start">
-      Ini adalah salah satu keunikan jika kamu membeli kacamata di Optikal Bahari, yaitu
-      <strong>aman dari riba</strong>
-      atau DP. Biasanya sistem cicil akan dibebankan sebuah bunga yang mesti kamu bayarkan. Namun di sini kamu bisa bernafas dengan lega,
-      <strong>tidak ada sistem bunga</strong>
-      yang akan kamu terima. Keunikan yang ada di sini tentu tujuannya adalah untuk memberikan kemudahan kepada setiap orang. Apalagi kacamata adalah benda penting bagi seseorang yang mengalami gangguan penglihatan. Jelas kami tidak ingin kamu mendapatkan masalah tambahan karena harus membayar sejumlah bunga dari cicilan kacamata tersebut.
+      Keunggulan mutlak berbelanja di Optikal Bahari adalah transaksi yang syar'i dan <strong>aman dari riba</strong>. Berbeda dengan skema kredit di luaran sana, program <strong>kacamata cicilan</strong> kami benar-benar <strong>tanpa bunga</strong> sepeser pun. Anda bisa merencanakan keuangan dengan tenang karena kami menerapkan kebijakan <strong>bunga 0% tanpa DP</strong>. Misi kami sangat tulus: memberikan akses kesehatan mata yang setara bagi semua lapisan masyarakat melalui program <strong>cicilan ringan</strong>, tanpa pernah memberikan beban tambahan berupa denda atau sistem bunga yang mencekik.
     </p>
     <p class="card-text text-start">
-      Satu hal lagi yang sangat penting ketika kamu beli kacamata yang bisa nyicil di Optikal Bahari adalah menentukan pilihan. Maksudnya adalah kamu sudah mengetahui kacamata seperti apa yang kamu butuhkan dari rumah. Ini bertujuan untuk menghindari kacamata secara impulsif, atau tidak pasti. Misalnya, ketika kamu mengalami
-      <strong>rabun dekat</strong>
-      maka tentukan kacamata dengan lensa apa yang sesuai. Jika tidak tahu, maka kamu bisa tanya kepada staff optik supaya diberikan informasi. Jadi kamu perlu membeli sebuah kacamata dari segi fungsi terlebih dahulu sebelum melihat bentuknya.
+      Sebelum Anda memutuskan untuk mengambil fasilitas <strong>tanpa credit card</strong> ini, kami sangat menyarankan Anda untuk meriset keluhan mata Anda sejak dari rumah. Tujuannya agar transaksi <strong>kacamata cicilan</strong> Anda tidak bersifat impulsif. Misalnya, untuk keluhan <strong>rabun dekat</strong>, pastikan Anda berkonsultasi terlebih dahulu dengan staf kami untuk mendapatkan rekomendasi lensa baca yang presisi. Dengan memprioritaskan fungsi di atas estetika, cicilan <strong>tanpa bunga</strong> yang Anda tunaikan akan terasa sangat sepadan dengan kesehatan visual yang Anda peroleh.
     </p>
     <p class="card-text text-start">
-      Silahkan datang untuk berkonsultasi secara langsung di Optikal Bahari yang berlokasi di
-      <a href="{{ "/lokasi/" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, staff ramah kami akan siap menjawab semua pertanyaan anda. Untuk respond yang lebih cepat, silahkan menghubungi kami di nomor HP/WA ini
+      Segera konsultasikan kebutuhan refraksi Anda secara langsung di Optikal Bahari yang berlokasi di
+      <a href="{{ "/lokasi/" | relative_url }}" title="Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat">Jalan Bendungan Jago No 447, Kemayoran Jakarta Pusat</a>, di mana staf profesional kami siap memandu Anda mendapatkan program <strong>bunga 0% tanpa DP</strong> terbaik. Untuk respons yang lebih cepat mengenai prosedur <strong>cicilan ringan</strong> ini, silakan menghubungi kami di nomor HP/WA
       <a
         href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
         id="WhatsAppClick"
         class="WhatsAppCall"
         title="Call WhatsApp">+6281932235445</a>
-      atau kunjungi
+      atau ikuti <em>update</em> dan promosi terbaru kami di
       <a
         href="https://www.facebook.com/optikalbahari"
         id="FBClick"

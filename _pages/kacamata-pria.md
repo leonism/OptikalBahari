@@ -2,9 +2,11 @@
 layout: page
 title: Gaya Kacamata Pria Terbaik Hanya di Optikal Bahari
 subtitle:
-  'Panduan untuk menemukan kacamata pria terbaik di Optikal Bahari, Periksa & Service Kacamata Gratis, Garansi 1 Tahun & Menerima Pembayaran KJP'
+  'Panduan untuk menemukan kacamata pria terbaik di Optikal Bahari, Periksa & Service Kacamata
+  Gratis, Garansi 1 Tahun & Menerima Pembayaran KJP'
 description:
-  'Panduan untuk menemukan kacamata pria terbaik di Optikal Bahari, Periksa & Service Kacamata Gratis, Garansi 1 Tahun & Menerima Pembayaran KJP'
+  'Panduan untuk menemukan kacamata pria terbaik di Optikal Bahari, Periksa & Service Kacamata
+  Gratis, Garansi 1 Tahun & Menerima Pembayaran KJP'
 keywords: 'kacamata pria, kacamata cicilan, tanpa credit card, bunga 0% tanpa DP, cicilan ringan'
 lang: id-ID
 author: Optikal Bahari
@@ -15,7 +17,7 @@ permalink: /kacamata-pria/
 comments: false
 ---
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-pria/kacamata-pria-01.webp' alt='Kacamata Pria Yang Cocok Dengan Gaya Anda' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -35,7 +37,7 @@ comments: false
 
 {% include home/home-cards-main.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-pria/kacamata-pria-03.webp' alt='Kenali Tanda-tanda Kacamata Pria yang Perlu Diperbaiki' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -63,7 +65,7 @@ comments: false
 
 {% include home/home-cards-benefit.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-pria/kacamata-pria-04.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -81,7 +83,7 @@ comments: false
   </div>
 </div>
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-pria/kacamata-pria-05.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -101,7 +103,7 @@ comments: false
 
 {% include home/home-cards-glasses.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-pria/kacamata-pria-02.webp' alt='Kunjungi Optikal Bahari Segera' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">

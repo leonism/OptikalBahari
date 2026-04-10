@@ -2,9 +2,11 @@
 layout: page
 title: Jual Kacamata Murah Di Jakarta Model & Desain Terbaru
 subtitle:
-  'Temukan beragam Lensa & Frame di Optikal Bahari. Mulai dari harga terjangkau hingga menengah ke atas. Kunjungi Optikal Bahari sekarang'
+  'Temukan beragam Lensa & Frame di Optikal Bahari. Mulai dari harga terjangkau hingga menengah ke
+  atas. Kunjungi Optikal Bahari sekarang'
 description:
-  'Temukan beragam Lensa & Frame di Optikal Bahari. Mulai dari harga terjangkau hingga menengah ke atas. Kunjungi Optikal Bahari sekarang'
+  'Temukan beragam Lensa & Frame di Optikal Bahari. Mulai dari harga terjangkau hingga menengah ke
+  atas. Kunjungi Optikal Bahari sekarang'
 keywords: 'kacamata murah, frame murah, kacamata cicilan'
 lang: id-ID
 author: Optikal Bahari
@@ -17,24 +19,25 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Jual Kacamata Murah Di Jakarta Model & Desain Terbaru' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Kacamata Murah Dan Terjangkau
       </h3>
       <p class="card-text text-start">
-        Jika Anda mencari kacamata murah di Jakarta, maka Anda bisa mengunjungi Optikal Bahari. Kami menyediakan beragam pilihan kacamata dengan harga terjangkau yang cocok untuk setiap kebutuhan dan gaya. Kami juga menyediakan layanan Periksa Mata Gratis agar Anda dapat memastikan kondisi mata dan penglihatan Anda selalu dalam keadaan yang optimal. Selain itu, kami juga menyediakan pembayaran secara cicilan dan pembayaran menggunakan KJP, sehingga membeli kacamata di Optikal Bahari semakin mudah dan terjangkau. Jangan ragu untuk mengunjungi kami dan temui staff ramah kami yang siap membantu Anda dengan sepenuh hati.
+        Sedang mencari pusat <strong>kacamata murah jakarta</strong> dengan kualitas premium? Optikal Bahari adalah destinasi utama Anda. Kami mengerti bahwa menemukan <strong>kacamata murah</strong> yang awet dan tidak murahan bisa menjadi tantangan tersendiri. Oleh karena itu, kami menghadirkan koleksi <strong>kacamata</strong> lengkap dengan desain kekinian yang pas untuk setiap gaya dan kebutuhan visual Anda. Nikmati juga fasilitas Periksa Mata Gratis untuk memastikan ketajaman penglihatan Anda tetap optimal. Belanja optik kini makin ringan berkat opsi cicilan dan kemudahan pembayaran via KJP. Kunjungi store kami dan rasakan pelayanan sepenuh hati dari staf ahli kami.
       </p>
       <p class="card-text text-start">
-        Selain itu, di Optikal Bahari kami juga menyediakan beragam pilihan lensa dan frame kacamata dengan harga yang terjangkau. Kami mengerti bahwa membeli kacamata bukanlah hal yang murah, oleh karena itu kami memberikan layanan pembayaran dengan cicilan yang memudahkan Anda dalam membeli kacamata yang diinginkan. Jika Anda membutuhkan kacamata namun tidak memiliki uang yang cukup, kami juga menerima pembayaran menggunakan KJP untuk membantu Anda. Jadi, jangan ragu untuk mengunjungi Optikal Bahari dan temui staff ramah kami yang siap membantu Anda dengan sepenuh hati.
+        Sebagai rekomendasi toko <strong>kacamata murah jakarta</strong> yang terpercaya, Optikal Bahari menghadirkan variasi lensa dan frame yang dirancang untuk kenyamanan maksimal tanpa menguras dompet. Memiliki <strong>kacamata</strong> baru kini bukan lagi hal yang memberatkan secara finansial. Kami memfasilitasi Anda dengan sistem pembayaran cicilan yang sangat fleksibel. Bahkan, bagi Anda yang membutuhkan <strong>kacamata murah</strong> namun budget sedang terbatas, kami melayani pembayaran menggunakan KJP dengan proses yang mudah. Misi kami adalah memastikan setiap orang memiliki akses ke penglihatan yang lebih baik.
       </p>
       <p class="card-text text-start">
-        Kami juga menyediakan berbagai jenis lensa, mulai dari lensa koreksi, lensa anti radiasi, hingga lensa multifocal. Lengkap dengan berbagai macam pilihan frame kacamata dengan desain yang trendy dan sesuai dengan kebutuhan Anda. Koleksi frame kacamata kami dari berbagai merk terkenal, seperti Ray-Ban, Oakley, Prada, dan lainnya. Jika Anda memiliki masalah penglihatan seperti rabun jauh, rabun dekat, atau
-        <em>astigmatisme</em>, kami juga menyediakan layanan pembuatan lensa koreksi yang sesuai dengan kebutuhan Anda. Kami menggunakan alat yang canggih dan teknologi terbaru untuk membuat lensa yang tepat sesuai dengan ukuran mata dan kebutuhan Anda.
+        Koleksi <strong>kacamata</strong> kami mencakup berbagai varian lensa terbaik—mulai dari lensa koreksi minus/silinder, lensa anti radiasi blueray, hingga lensa multifocal. Padukan lensa Anda dengan ratusan pilihan frame <strong>kacamata murah</strong> maupun <em>branded</em> yang selalu <em>up-to-date</em>. Kami menghadirkan merk-merk populer seperti Ray-Ban, Oakley, Prada, dan banyak lagi dengan harga kompetitif di kelas <strong>kacamata murah jakarta</strong>. Jika Anda memiliki keluhan rabun jauh, dekat, atau <em>astigmatisme</em>, laboratorium optik kami menggunakan mesin faset canggih berteknologi tinggi untuk memastikan pemotongan lensa yang sangat presisi sesuai spesifikasi mata Anda.
       </p>
     </div>
   </div>
 </div>
+
+{% include home/home-cards-main.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
@@ -45,44 +48,39 @@ comments: false
       </h3>
       <p class="card-text text-start">
         <strong>Periksa Mata GRATIS</strong>.
-                    Optikal Bahari memahami pentingnya penglihatan yang jelas bagi kehidupan Anda. Oleh karena itu, kami menawarkan
+                    Optikal Bahari mengerti bahwa penglihatan yang jernih adalah kunci produktivitas. Sebagai spesialis penyedia <strong>kacamata murah jakarta</strong>, kami menawarkan fasilitas
         <a href="{{ "/periksa-mata-gratis/" | relative_url }}" title="Periksa Mata Gratis">periksa mata gratis</a>
         yang dilakukan dengan
         <strong>dua tahapan</strong>
-        untuk memastikan hasil yang akurat dan terpercaya. Tahap pertama menggunakan
-        <strong>autorefractometer</strong>
-        untuk mengukur kelainan refraksi mata Anda secara otomatis. Tahap kedua menggunakan
-        <strong>phoroptor</strong>
-        untuk membantu optometrist kami mendiagnosis kondisi mata dengan lebih tepat.
+        klinis terstandarisasi untuk memastikan hasil yang akurat. Tahap pertama memanfaatkan
+        <strong>autorefractometer</strong> komputerisasi untuk mendeteksi kelainan refraksi secara otomatis. Tahap kedua dilanjutkan dengan <strong>phoroptor</strong> yang membantu optometris kami mendiagnosis dan menetapkan resep <strong>kacamata</strong> Anda dengan presisi tinggi.
       </p>
       <p class="card-text text-start">
         <strong>Service & Reparasi Kacamata GRATIS</strong>.
-                    Jangan buang dulu kacamata rusak Anda. Di Optikal Bahari, kami menawarkan layanan service & reparasi kacamata GRATIS! Dengan layanan ini, kacamata kesayangan Anda akan selalu terjaga dalam kondisi prima dan tetap stylish. Jadi, tak perlu khawatir lagi tentang kacamata yang rusak
-                    atau tidak nyaman. Percayakan perbaikan kacamata Anda kepada kami, dan nikmati pengalaman menggunakan kacamata yang terasa seperti baru kembali. Kunjungi Optikal Bahari dan rasakan sendiri kualitas layanan untuk kenyamanan dan gaya Anda!
+        Jangan buru-buru membuang frame lama Anda meski sedang berniat mencari <strong>kacamata murah</strong> yang baru. Di Optikal Bahari, kami menyediakan layanan cuci, setel, dan reparasi <strong>kacamata</strong> secara GRATIS! Layanan purnajual ini memastikan <strong>kacamata</strong> kesayangan Anda kembali nyaman, presisi, dan proporsional saat dipakai. Serahkan perbaikan kacamata Anda pada ahlinya, dan rasakan kenyamanan optik layaknya frame baru tanpa biaya tambahan. Ini adalah wujud komitmen kami sebagai pusat <strong>kacamata murah jakarta</strong> dengan layanan kelas satu.
       </p>
       <p class="card-text text-start">
         <strong>Garansi 1 Tahun untuk Kacamata Kamu</strong>.
-                    Kami sepenuhnya memahami kekhawatiran Anda terhadap kemungkinan kerusakan kacamata. Namun, di Optikal Bahari, kami memberikan solusi yang menguntungkan. Setiap pembelian kacamata dijamin dengan garansi selama 1 tahun penuh. Dengan demikian, Anda dapat mengenakan kacamata dengan penuh keyakinan dan kenyamanan, tanpa perlu khawatir tentang kerusakan atau masalah lainnya. Rasakan kebebasan dan kepercayaan diri dalam setiap langkah Anda, karena di Optikal Bahari, kualitas dan layanan yang terjamin merupakan prioritas kami.
+        Kami paham bahwa durabilitas adalah pertimbangan utama saat membeli <strong>kacamata murah</strong>. Itulah sebabnya Optikal Bahari memberikan jaminan ketenangan pikiran melalui garansi <em>coating</em> lensa dan sparepart selama 1 tahun penuh. Setiap <strong>kacamata</strong> yang Anda bawa pulang telah melewati proses <em>Quality Control</em> yang ketat. Beraktivitaslah dengan penuh rasa aman, karena investasi Anda pada <strong>kacamata murah jakarta</strong> di tempat kami selalu dilindungi oleh komitmen purnajual yang nyata dan profesional.
       </p>
       <p class="card-text text-start">
         <strong>Cicilan 0%, Tanpa Bunga & Riba</strong>.
-                    Optikal Bahari mengubah konsep membeli kacamata menjadi lebih terjangkau dan mudah. Melalui program
-        <a href="{{ "/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan 0%, tanpa bunga & riba">kacamata cicilan 0%, tanpa bunga & riba</a>, Anda dapat memiliki kacamata impian tanpa membebani dompet Anda. Ini adalah solusi yang sempurna bagi siapa pun yang ingin tampil kece tanpa harus khawatir tentang masalah keuangan. Jadi, jangan ragu lagi untuk merencanakan kunjungan ke Optikal Bahari dan temukan kacamata yang Anda idamkan dengan cara yang lebih hemat dan mudah!
+        Membeli <strong>kacamata</strong> premium kini terasa seringan membeli <strong>kacamata murah</strong>. Optikal Bahari menghadirkan terobosan finansial melalui program <a href="{{ "/kacamata-cicilan/" | relative_url }}" title="kacamata cicilan 0%, tanpa bunga & riba">kacamata cicilan 0%, tanpa bunga & riba</a>. Skema ini dirancang khusus agar Anda bisa segera memiliki lensa dan frame idaman tanpa mengganggu arus kas bulanan. Tampil profesional dan tetap <em>stylish</em> kini bisa diwujudkan dengan cerdas bersama pusat <strong>kacamata murah jakarta</strong> yang mengerti kebutuhan Anda!
       </p>
       <p class="card-text text-start">
         <strong>Bayar Pakai KJP? Tentu Bisa.</strong>
-        Pemilik Kartu Jakarta Pintar (KJP), dengarkan berita baik ini! Sekarang, gunakan
-        <a href="{{ "/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="KJP Anda untuk membayar kacamata di Optikal Bahari">KJP Anda untuk membayar kacamata di Optikal Bahari</a>. Bayangkan, tak perlu lagi memikirkan uang jajan, Anda dapat tampil stylish dengan kacamata baru tanpa beban. Optikal Bahari memberikan aksesibilitas yang luar biasa, sehingga Anda dapat mengekspresikan gaya Anda tanpa hambatan finansial. Jangan sia-siakan kesempatan ini, segera manfaatkan KJP dan dapatkan kacamata impian di Optikal Bahari untuk penampilan yang semakin memukau.
+        Kabar gembira bagi pemegang Kartu Jakarta Pintar (KJP)! Maksimalkan fasilitas pendidikan Anda dengan menggunakan
+        <a href="{{ "/optikal-bahari-kjp-kartu-jakarta-pintar/" | relative_url }}" title="KJP Anda untuk membayar kacamata di Optikal Bahari">KJP Anda untuk membayar kacamata di Optikal Bahari</a>. Kebutuhan visual anak usia sekolah kini dapat terpenuhi dengan deretan <strong>kacamata murah jakarta</strong> yang trendi, tangguh, dan sangat terjangkau. Optikal Bahari mendukung penuh akses penglihatan yang lebih baik bagi pelajar agar dapat belajar secara optimal. Jangan lewatkan kemudahan memiliki <strong>kacamata murah</strong> bersubsidi di Optikal Bahari.
       </p>
       <p class="card-text text-start">
         <strong>Optikal Bahari Bersertifikat Dari Dinkes & Kemenkes</strong>.
-                    Penglihatan mata adalah prioritas utama kami di Optikal Bahari. Kami telah memperoleh izin resmi dari Dinas Kesehatan & Kementerian Kesehatan Republik Indonesia, hal ini bentuk komitmen kami terhadap standar penglihatan mata yang tinggi. Dengan izin ini Anda dapat sepenuhnya percaya pada layanan dan produk kami. Jangan ragu untuk periksa mata Anda di Optikal Bahari, dimana penglihatan mata bukan hanya menjadi komitmen, tetapi juga gaya hidup yang menawan. Percayakan urusan penglihatan Anda kepada Optikal Bahari dan nikmati pengalaman pemeriksaan mata yang eksklusif dan memuaskan.
+        Mencari <strong>kacamata murah jakarta</strong> tidak boleh sampai mengorbankan standar kesehatan optik Anda. Optikal Bahari beroperasi secara legal dengan izin resmi dan sertifikasi dari Dinas Kesehatan & Kementerian Kesehatan Republik Indonesia. Izin praktik ini adalah bukti integritas kami dalam meracik <strong>kacamata</strong> sesuai standar medis. Percayakan solusi visual Anda kepada tenaga ahli tersertifikasi kami, dan nikmati perpaduan sempurna antara <strong>kacamata murah</strong> berkualitas dengan prosedur klinis yang terjamin aman.
       </p>
     </div>
   </div>
 </div>
 
-{% include home/home-cards-main.html %}
+{% include home/home-cards-benefit.html %}
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
@@ -92,17 +90,16 @@ comments: false
         Segera Kunjungi Optikal Bahari
       </h3>
       <p class="card-text text-start">
-        Jangan tunggu lagi, segera
+        Jangan tunda lagi kesehatan mata Anda, segera
         <a href="{{ "/lokasi/" | relative_url }}" title="lokasi Optikal Bahari">kunjungi Optikal Bahari</a>
-        dan rasakan pengalaman memilih kacamata terbaik untuk Anda. Tim profesional kami siap membantu Anda menemukan kacamata yang sesuai dengan gaya, kebutuhan, dan anggaran Anda. Banyak konsumen kami telah memberikan
-        <a href="{{ "/testimoni/" | relative_url }}" title="testimoni positive">testimoni positive</a>
-        tentang layanan Optikal Bahari. Dapatkan kacamata impian Anda dengan harga terbaik, segera kunjungi Optikal Bahari dan temukan rahasia di balik penawaran luar biasa kami. Punya pertanyaan lain sekitar Optikal Bahari, silahkan menghubungi kami di nomor HP/WA ini
+        dan buktikan sendiri mengapa kami menjadi rujukan utama <strong>kacamata murah jakarta</strong>. Tim optometris profesional kami siap membantu Anda mencocokkan <strong>kacamata</strong> dengan anatomi wajah, profesi, dan anggaran Anda. Ratusan pelanggan setia telah membuktikan kualitas produk kami melalui berbagai
+        <a href="{{ "/testimoni/" | relative_url }}" title="testimoni positive">testimoni positive</a>. Dapatkan <strong>kacamata murah</strong> impian Anda hari ini juga dengan penawaran harga terbaik. Punya pertanyaan seputar ketersediaan merk, lensa, atau promo? Silahkan hubungi spesialis kami di nomor WhatsApp
         <a
           href="https://api.whatsapp.com/send?phone=6281932235445&text=Hallo%2C+saya+butuh+informasi+lebih+lanjut+mengenai+Optikal+Bahari"
           id="WhatsAppClick"
           class="WhatsAppCall"
           title="Call WhatsApp">+6281932235445</a>
-        atau kunjungi
+        atau bergabunglah bersama komunitas digital kami di
         <a
           href="https://www.facebook.com/optikalbahari"
           id="FBClick"
@@ -114,3 +111,5 @@ comments: false
     </div>
   </div>
 </div>
+
+{% include home/home-cards-glasses.html %}

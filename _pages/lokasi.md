@@ -39,6 +39,9 @@ comments: false
           <strong>Program cicilan ringan yang tak memberatkan</strong>, serta pembayaran melalui KJP untuk kemudahan Anda
         </li>
         <li>
+          <strong>Garansi 1 Tahun</strong>, setiap pembeli kacamata di Optikal Bahari mendapatkan garansi selama satu tahun dari pembelian.
+        </li>
+        <li>
           <strong>Service kacamata profesional</strong>
           untuk menjaga kacamata Anda tetap awet dan nyaman.
         </li>

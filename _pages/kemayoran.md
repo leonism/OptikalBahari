@@ -2,9 +2,11 @@
 layout: page
 title: Warga Kemayoran Harus Beli Kacamata di Optikal Bahari?
 subtitle:
-  'Berikut alasan Beberapa Alasan Kenapa Warga Kemayoran Harus Beli Kacamata Di Optikal Bahari Saja Dan Bukan Di Tempat Optik yang lain.'
+  'Berikut alasan Beberapa Alasan Kenapa Warga Kemayoran Harus Beli Kacamata Di Optikal Bahari Saja
+  Dan Bukan Di Tempat Optik yang lain.'
 description:
-  'Berikut alasan Beberapa Alasan Kenapa Warga Kemayoran Harus Beli Kacamata Di Optikal Bahari Saja Dan Bukan Di Tempat Optik yang lain.'
+  'Berikut alasan Beberapa Alasan Kenapa Warga Kemayoran Harus Beli Kacamata Di Optikal Bahari Saja
+  Dan Bukan Di Tempat Optik yang lain.'
 keywords: 'optikal bahari, kemayoran, kacamata, info'
 lang: id-ID
 author: Optikal Bahari
@@ -15,7 +17,7 @@ permalink: /kemayoran/
 comments: false
 ---
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/032.webp' alt='Kenapa Beli Kacamata Di Optikal Bahari?' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -36,7 +38,7 @@ comments: false
   </div>
 </div>
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/kacamata-trend-stylish-kekinian/kacamata-trend-stylish-kekinian.webp' alt='Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -56,7 +58,7 @@ comments: false
 
 {% include home/home-cards-main.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/style-kacamata-bulat-ala-selebriti-korea-selatan/style-kacamata-bulat-ala-selebriti-korea-selatan-7.webp' alt='Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren' ratio='16x9' class='card-img-top' %}
 
   <div class="card-body">
@@ -78,7 +80,7 @@ comments: false
   </div>
 </div>
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/005.webp' alt='Tips Memilih Kacamata Sesuai Wajah Supaya Terlihat Keren' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">

@@ -2,9 +2,11 @@
 layout: page
 title: Gaya Kacamata Wanita Terbaik Hanya di Optikal Bahari
 subtitle:
-  'Temukan kacamata wanita terkini dan berkualitas di Optikal Bahari. Dapatkan periksa mata gratis, cicilan 0%, dan garansi 1 tahun. Kunjungi kami sekarang.'
+  'Temukan kacamata wanita terkini dan berkualitas di Optikal Bahari. Dapatkan periksa mata gratis,
+  cicilan 0%, dan garansi 1 tahun. Kunjungi kami sekarang.'
 description:
-  'Temukan kacamata wanita terkini dan berkualitas di Optikal Bahari. Dapatkan periksa mata gratis, cicilan 0%, dan garansi 1 tahun. Kunjungi kami sekarang.'
+  'Temukan kacamata wanita terkini dan berkualitas di Optikal Bahari. Dapatkan periksa mata gratis,
+  cicilan 0%, dan garansi 1 tahun. Kunjungi kami sekarang.'
 keywords: 'kacamata cicilan, tanpa bunga, tanpa credit card, bunga 0% tanpa DP, cicilan ringan'
 lang: id-ID
 author: Optikal Bahari
@@ -15,7 +17,7 @@ permalink: /kacamata-wanita/
 comments: false
 ---
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-01.webp' alt='Periksakan Mata Anda Secara Rutin' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -35,7 +37,7 @@ comments: false
 
 {% include home/home-cards-main.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-02.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -53,7 +55,7 @@ comments: false
   </div>
 </div>
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-03.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -73,7 +75,7 @@ comments: false
 
 {% include home/home-cards-glasses.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-04.webp' alt='Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -93,7 +95,7 @@ comments: false
 
 {% include home/home-cards-benefit.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/whitesand-girls/whitesand-girls-05.webp' alt='Cara Merawat Kacamata Wanita agar Tetap Awet dan Tampak Baru' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">

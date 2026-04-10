@@ -2,9 +2,11 @@
 layout: page
 title: Mamfaat Kacamata Blueray
 subtitle:
-  'Dapatkan Kacamata Bluray hanya di Optikal Bahari dengan berbagai macam diskon dan layanan extra tambahan lainnya, kunjungi segera Optikal Bahari.'
+  'Dapatkan Kacamata Bluray hanya di Optikal Bahari dengan berbagai macam diskon dan layanan extra
+  tambahan lainnya, kunjungi segera Optikal Bahari.'
 description:
-  'Dapatkan Kacamata Bluray hanya di Optikal Bahari dengan berbagai macam diskon dan layanan extra tambahan lainnya, kunjungi segera Optikal Bahari.'
+  'Dapatkan Kacamata Bluray hanya di Optikal Bahari dengan berbagai macam diskon dan layanan extra
+  tambahan lainnya, kunjungi segera Optikal Bahari.'
 keywords: 'blue ray, blueray, kacamata blue ray'
 lang: id-ID
 author: Optikal Bahari
@@ -15,7 +17,7 @@ permalink: /kacamata-blueray/
 comments: false
 ---
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/048.webp' alt='kacamata cicilan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -39,7 +41,7 @@ comments: false
 
 {% include home/home-cards-main.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/049.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Dalam Berbagai Model & Desain</h3>
@@ -57,7 +59,7 @@ comments: false
 
 {% include home/home-cards-benefit.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/050.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>

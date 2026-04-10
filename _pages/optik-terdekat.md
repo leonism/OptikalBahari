@@ -19,7 +19,7 @@ permalink: /optik-terdekat/
 comments: false
 ---
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-01.webp' alt='Optik Terdekat Jakarta: Percayakan Kebutuhan Kacamata Anda pada Optikal Bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -40,7 +40,7 @@ comments: false
 
 {% include home/home-cards-main.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-02.webp' alt='kacamata cicilan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -59,7 +59,7 @@ comments: false
 
 {% include home/home-cards-benefit.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-03.webp' alt='Service & Reparasi Kacamata Gratis!' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -76,7 +76,7 @@ comments: false
 
 {% include home/home-cards-glasses.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-04.webp' alt='Tambahan Bonus Goodie Bag Menarik Optikal Bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -91,7 +91,7 @@ comments: false
   </div>
 </div>
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-05.webp' alt='Berizin Dari DinKes & Kemenkes Republik Indonesia' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
@@ -106,7 +106,7 @@ comments: false
   </div>
 </div>
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/posts/malay-hijab-00/malay-hijab-00.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Optikal Bahari, Optik Terdekat Anda</h3>

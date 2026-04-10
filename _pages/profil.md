@@ -2,9 +2,15 @@
 layout: page
 title: Sekapur Sirih
 subtitle:
-  'Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi selanjutnya dikeluarga kami.'
+  'Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak
+  terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh
+  para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi
+  selanjutnya dikeluarga kami.'
 description:
-  'Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi selanjutnya dikeluarga kami.'
+  'Berdiri semenjak tahun 1978 di Jakarta Pusat, Optikal Bahari merupakan salah satu icon yang tidak
+  terpisahkan dari sejarah Jalan Bendungan Jago di Kemayoran. Optikal Bahari pertama di dirikan oleh
+  para orang tua kami 40 tahun yang telah lalu, dan sekarang telah diteruskan ke generasi
+  selanjutnya dikeluarga kami.'
 keywords: 'Optikal Bahari, Optikal Bahari, Sejarah Optik, Kemayoran, Bendungan Jago, Benjo'
 lang: id-ID
 author: Optikal Bahari
@@ -16,7 +22,7 @@ permalink: /profil/
 comments: false
 ---
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/profil/bandar-udara-kemayoran.jpeg' alt='bandar-udara-kemayoran' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Sejarah Berdirinya Optikal Bahari</h3>
@@ -31,7 +37,7 @@ comments: false
 
 {% include home/home-cards-main.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/profil/jalan-h-jiung.webp' alt='jalan h jiung' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Transformasi Dari Masa Ke Masa</h3>
@@ -46,7 +52,7 @@ comments: false
 
 {% include home/home-cards-benefit.html %}
 
-<div class="card shadow p-3  mb-5">
+<div class="card shadow p-3 mb-5">
   {% include cloudinary/card_image.html src='assets/img/profil/bandar-udara-kemayoran-80an.webp' alt='bandar-udara-kemayoran-80an.webp' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Menjadi Bagian dari Sejarah Kemayoran</h3>
