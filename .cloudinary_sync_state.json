@@ -6,7 +6,7 @@
     "remote_public_id": "samples/cloudinary-logo-vector"
   },
   "samples/radial.avif": {
-    "last_synced_at": "2026-04-11T07:14:45+07:00",
+    "last_synced_at": "2026-04-11T09:33:39+07:00",
     "local_checksum": "b8db3539ca2f381f556470d6740ec1470d2c522ca8c1df09fe27a4ac60ed045b",
     "remote_version": 1772430983,
     "remote_public_id": "samples/radial"
@@ -42,7 +42,7 @@
     "remote_public_id": "samples/canvas"
   },
   "samples/zoom.avif": {
-    "last_synced_at": "2026-04-11T07:14:45+07:00",
+    "last_synced_at": "2026-04-11T09:33:39+07:00",
     "local_checksum": "f132915b773624215b1f3463a7d26c8a63351814ba9fc606ef25d25add0e206d",
     "remote_version": 1772430983,
     "remote_public_id": "samples/zoom"
@@ -123,6 +123,12 @@
     "last_synced_at": "2026-04-11T07:06:26+07:00",
     "local_checksum": "d82aa924c98dd04a03c5d4c77dd860e2a3db98a5eb82fad092021f6c4fcc57f6",
     "remote_version": 1750719203,
+    "remote_public_id": "posts/kpop-female-01/kpop-female-sunglasses-00"
+  },
+  "posts/kpop-female-01/kpop-female-sunglasses-00.jpg": {
+    "last_synced_at": "2026-04-11T09:33:39+07:00",
+    "local_checksum": "fc5db5fcd161285945315f64bf57c7170e2204f958ede52c2ee44431f954bbf1",
+    "remote_version": 1775874820,
     "remote_public_id": "posts/kpop-female-01/kpop-female-sunglasses-00"
   }
 }

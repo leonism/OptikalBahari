@@ -27,6 +27,6 @@
 {% endif %}
 
 <meta property='og:site_name' content='{{ site.title }}'>
-{% assign logo_path = 'assets/img/logo.webp' %}
+{% assign logo_path = 'assets/img/logo.jpg' %}
 {%- comment -%} UPDATE: Applied custom domain replacement filter {%- endcomment -%}
 <meta property='og:logo' content='{{ logo_path | cloudinary_url: 'q_auto,f_png' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.png' }}'>

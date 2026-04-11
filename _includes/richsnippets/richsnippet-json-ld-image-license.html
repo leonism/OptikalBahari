@@ -27,7 +27,7 @@
           "height": 180
         }
       },
-      "image": [{%- assign first_image = true -%}{%- for file in site.static_files -%}{%- if file.path contains 'assets/img/posts/' -%}{%- assign ext = file.extname | downcase -%}{%- if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.webp' -%}
+      "image": [{%- assign first_image = true -%}{%- for file in site.static_files -%}{%- if file.path contains 'assets/img/posts/' -%}{%- assign ext = file.extname | downcase -%}{%- if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.jpg' -%}
           {%- comment -%}
             JSON Comma Logic
             {%- endcomment -%}
