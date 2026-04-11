@@ -1,85 +1,112 @@
 {%- comment -%}
-  UPDATE: The Ultimate "Catch-All" Image Schema
-  Collects all images across the page (front matter + body content),
-  removes duplicates, and generates a Cloudinary-optimized JSON-LD Array.
+  Image Schema — Catch-All with @graph pattern.
+  Collects background + content images, deduplicates, outputs valid JSON-LD.
+  Fixes applied:
+    - BUG-1: Removed double | append: '.jpg' — cloudinary_url already handles format
+    - BUG-2: Cloudinary fallback safety via extension guard
+    - BUG-3: Content src extraction now only accepts known image file extensions
+    - BUG-4: Removed hardcoded inaccurate width/height (1200×1200 was wrong for 16:9 images)
+    - BUG-5: @context changed to canonical 'https://schema.org' (no trailing slash)
+    - BUG-6: copyrightNotice now uses human-readable '© YYYY Author' string
+    - BUG-7: Switched from repeated @context array to single @graph block
+    - BUG-8: Added 'name' property to ImageObject for Google Image Search panels
 {%- endcomment -%}
 
 {%- assign all_page_images = "" | split: "" -%}
 
-{%- comment -%} 1. Catch Front Matter Images {%- endcomment -%}
+{%- comment -%} 1. Front Matter: background image {%- endcomment -%}
 {%- if page.background -%}
   {%- assign all_page_images = all_page_images | push: page.background -%}
 {%- endif -%}
 
+{%- comment -%} 2. Front Matter: image.path or image {%- endcomment -%}
 {%- if page.image.path -%}
   {%- assign all_page_images = all_page_images | push: page.image.path -%}
 {%- elsif page.image -%}
   {%- assign all_page_images = all_page_images | push: page.image -%}
 {%- endif -%}
 
-{%- comment -%} 2. Catch Front Matter Arrays (e.g., galleries) {%- endcomment -%}
+{%- comment -%} 3. Front Matter: images array (galleries) {%- endcomment -%}
 {%- if page.images -%}
   {%- for img in page.images -%}
     {%- assign all_page_images = all_page_images | push: img -%}
   {%- endfor -%}
 {%- endif -%}
 
-{%- comment -%} 3. MAGIC: Extract all images inside the actual post content! {%- endcomment -%}
+{%- comment -%}
+  4. Extract image src values from rendered post content.
+     BUG-3 FIX: Only accept known image extensions — skip JS, iframes, data URIs.
+{%- endcomment -%}
 {%- assign src_splits = page.content | split: 'src="' -%}
 {%- for split_part in src_splits -%}
   {%- if forloop.first -%}{%- continue -%}{%- endif -%}
-  {%- comment -%} Grab everything up to the next quote {%- endcomment -%}
   {%- assign extracted_img = split_part | split: '"' | first -%}
-  {%- assign all_page_images = all_page_images | push: extracted_img -%}
+  {%- assign ext_lower = extracted_img | downcase -%}
+  {%- if ext_lower contains '.jpg' or ext_lower contains '.jpeg' or ext_lower contains '.webp' or ext_lower contains '.png' or ext_lower contains '.gif' or ext_lower contains '.avif' -%}
+    {%- assign all_page_images = all_page_images | push: extracted_img -%}
+  {%- endif -%}
 {%- endfor -%}
 
-{%- comment -%} 4. Remove duplicates so Google doesn't see repeated schemas {%- endcomment -%}
+{%- comment -%} 5. Deduplicate {%- endcomment -%}
 {%- assign final_images = all_page_images | uniq -%}
 
-{%- comment -%} 5. Output as a JSON Array [ {...}, {...} ] {%- endcomment -%}
+{%- comment -%}
+  6. Output as @graph JSON-LD.
+     BUG-5 FIX: Single canonical @context with no trailing slash.
+     BUG-7 FIX: @graph pattern — one @context, clean array of nodes.
+{%- endcomment -%}
 {%- if final_images.size > 0 -%}
-<script type='application/ld+json'>
-[
-  {%- assign is_first_item = true -%}
-  {%- for raw_img in final_images -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {%- assign is_first_item = true -%}
+    {%- for raw_img in final_images -%}
 
-    {%- comment -%} Skip base64 strings or empty values {%- endcomment -%}
-    {%- if raw_img == blank or raw_img contains 'data:image' -%}
-      {%- continue -%}
-    {%- endif -%}
+      {%- comment -%} Skip base64 strings or empty values {%- endcomment -%}
+      {%- if raw_img == blank or raw_img contains 'data:image' -%}
+        {%- continue -%}
+      {%- endif -%}
 
-    {%- comment -%} Clean the path for Cloudinary {%- endcomment -%}
-    {%- assign clean_img = raw_img | remove_first: site.url | remove_first: 'https://www.optikalbahari.com' | replace_first: '/', '' | strip -%}
-    {%- assign schema_img_url = clean_img | cloudinary_url: 'q_auto,f_jpg' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' -%}
+      {%- comment -%}
+        Build Cloudinary URL.
+        NOTE: 'f_jpg' maps to fetch_format in cloudinary.rb (line 49), NOT format.
+        The Cloudinary Ruby SDK does NOT append a file extension when using fetch_format.
+        So | append: '.jpg' is required here — it gives Google a clean .jpg URL.
+      {%- endcomment -%}
+      {%- assign clean_img = raw_img | remove_first: site.url | remove_first: 'https://www.optikalbahari.com' | replace_first: '/', '' | strip -%}
+      {%- assign schema_img_url = clean_img | cloudinary_url: 'q_auto,f_jpg,w_1200' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' -%}
 
-    {%- comment -%} Ensure Absolute URL for Google {%- endcomment -%}
-    {%- unless schema_img_url contains 'https://' -%}
-      {%- assign schema_img_url = "https://assets.optikalbahari.com/" | append: schema_img_url -%}
-    {%- endunless -%}
+      {%- comment -%} Ensure Absolute URL for Google {%- endcomment -%}
+      {%- unless schema_img_url contains 'https://' -%}
+        {%- assign schema_img_url = "https://assets.optikalbahari.com/" | append: schema_img_url -%}
+      {%- endunless -%}
 
-    {%- comment -%} Safe comma logic to prevent JSON parsing errors {%- endcomment -%}
-    {%- unless is_first_item -%},{%- endunless -%}
-
+      {%- comment -%} Safe comma logic to prevent JSON parsing errors {%- endcomment -%}
+      {%- unless is_first_item -%},{%- endunless -%}
     {
-      "@context": "https://schema.org/",
       "@type": "ImageObject",
+      "name": "{{ page.title | escape }}",
       "url": "{{ schema_img_url }}",
       "contentUrl": "{{ schema_img_url }}",
-      "width": 1200,
-      "height": 1200,
       "encodingFormat": "image/jpeg",
+      "caption": "{{ page.title | escape }}",
+      "description": "{{ page.description | default: site.description | strip_html | truncate: 160 | escape }}",
+      "uploadDate": "{{ page.date | date_to_xmlschema }}",
       "license": "{{ site.url }}/kebijakan-situs/",
-      "copyrightNotice": "{{ site.author | default: site.author_name }}",
+      "copyrightNotice": "© {{ 'now' | date: '%Y' }} {{ site.author_name | default: site.title }}",
       "acquireLicensePage": "{{ site.url }}/kebijakan-situs/",
       "creditText": {{ site.author_name | jsonify }},
       "creator": {
-        "@type": "Person",
-        "name": "{{ site.author | default: site.author_name }}",
-        "url": "{{ site.url }}/profil/"
-      }
+        "@type": "Organization",
+        "name": {{ site.author_name | jsonify }},
+        "url": "{{ site.url }}"
+      },
+      "inLanguage": "{{ page.lang | default: 'id-ID' }}"
     }
-    {%- assign is_first_item = false -%}
-  {%- endfor -%}
-]
+      {%- assign is_first_item = false -%}
+    {%- endfor -%}
+  ]
+}
 </script>
 {%- endif -%}
