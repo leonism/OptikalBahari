@@ -42,8 +42,10 @@ comments: false
           <strong>Garansi 1 Tahun</strong>, setiap pembeli kacamata di Optikal Bahari mendapatkan garansi selama satu tahun dari pembelian.
         </li>
         <li>
-          <strong>Service kacamata profesional</strong>
-          untuk menjaga kacamata Anda tetap awet dan nyaman.
+          <strong>Goodie Bag Exclusive</strong>, berisi hardcase untuk melindungi kacamata, cairan pembersih kacamata dan lap microfiber, melengkapi pembelian anda.
+        </li>
+        <li>
+          <strong>Service kacamata profesional gratis</strong> untuk menjaga kacamata Anda tetap awet dan nyaman.
         </li>
       </ul>
     </p>
