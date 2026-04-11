@@ -1,70 +1,53 @@
 <script type='application/ld+json'>
-  [
-    {
-      "@context": "https://schema.org",
-      "@type": "Optician",
-      "name": "Optikal Bahari",
-      "image": ["{{ 'assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' }}", "{{ 'assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' }}", "{{ 'assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' }}", "{{ 'assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.jpg' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' }}"],
-      "@id": "{{ site.url }}",
-      "url": "{{ site.url }}",
-      "telephone": "+6281932235445",
-      "priceRange": "$",
-      "currenciesAccepted": "IDR",
-      "paymentAccepted": "Cash, Debit Card, NFC, QRIS",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Jalan Bendungan Jago No 447, Kemayoran",
-        "addressLocality": "Jakarta Pusat",
-        "postalCode": "10650",
-        "addressCountry": "ID"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": -6.1619969,
-        "longitude": 106.857886
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "opens": "08:30",
-        "closes": "22:00"
-      },
-      "sameAs": [
-        "https://www.facebook.com/optikalbahari",
-        "https://twitter.com/optikalbahari",
-        "https://id.pinterest.com/optikalbahari",
-        "https://www.youtube.com/@optikalbahari",
-        "{{ site.url }}"
-      ]
+  {
+    "@context": "https://schema.org",
+    "@type": "Optician",
+    "name": "Optikal Bahari",
+    "@id": "{{ site.url }}",
+    "url": "{{ site.url }}",
+    "telephone": "+6281932235445",
+    "priceRange": "$",
+    "currenciesAccepted": "IDR",
+    "paymentAccepted": "Cash, Debit Card, NFC, QRIS",
+    "image": [
+      "{{ 'assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.jpg' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' }}",
+      "{{ 'assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-2.jpg' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' }}",
+      "{{ 'assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.jpg' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' }}",
+      "{{ 'assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.jpg' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' }}",
+      "{{ 'assets/img/bg-index.jpg' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' }}"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jalan Bendungan Jago No 447, Kemayoran",
+      "addressLocality": "Jakarta Pusat",
+      "postalCode": "10650",
+      "addressCountry": "ID"
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "Optician",
-      "name": "Optikal Bahari",
-      "image": "{{ 'assets/img/bg-index.jpg' | cloudinary_url: 'q_auto,f_auto' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' | append: '.jpg' }}",
-      "telephone": "+6281932235445",
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "opens": "08:30",
-        "closes": "22:00"
-      }
-    }
-  ]
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -6.1619969,
+      "longitude": 106.857886
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "08:30",
+      "closes": "22:00"
+    },
+    "sameAs": [
+      "https://www.facebook.com/optikalbahari",
+      "https://x.com/optikalbahari",
+      "https://id.pinterest.com/optikalbahari",
+      "https://www.youtube.com/@optikalbahari",
+      "{{ site.url }}"
+    ]
+  }
 </script>

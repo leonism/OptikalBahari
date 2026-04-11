@@ -8,7 +8,7 @@
 <meta property='og:locale' content='{{ page.lang | default: 'id_ID' }}'>
 <meta property='og:url' content='{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}'>
 <meta property='og:title' content='{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}'>
-<meta property='og:description' content='{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}'>
+<meta property='og:description' content='{% if page.description %}{{ page.description | strip_html | truncate: 140 | escape }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 | escape }}{% else %}{{ site.description | escape }}{% endif %}'>
 
 {%- comment -%} Determine the best image source {%- endcomment -%}
 {% assign seo_image = page.image.path | default: page.background %}

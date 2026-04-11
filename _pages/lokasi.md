@@ -11,7 +11,6 @@ lang: id-ID
 background: /assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-06.webp
 comments: false
 permalink: /lokasi/
-comments: false
 ---
 
 <div class="card shadow p-3 mb-5 rounded">
@@ -74,6 +73,7 @@ comments: false
     <div class="container-fluid">
       <div class="map-responsive">
         <iframe
+          title="Peta Lokasi Optikal Bahari - Jl. Bend. Jago No.447, Kemayoran, Jakarta Pusat"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7666623127143!2d106.85569731476888!3d-6.161996895538745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5a43786850d%3A0x9802c727c074ae8c!2sBahari%20Optical!5e0!3m2!1sen!2sid!4v1671236028422!5m2!1sen!2sid"
           width="600"
           height="450"

@@ -1,10 +1,9 @@
-<footer class="loading-skeleton">
+<footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-8 mx-auto mb-0">
-        <!-- icons collections !-->
-        <small>
-        <ul class="list-inline text-center">
+      <div class="col-lg-8 col-md-8 mx-auto mb-0 footer-sm-text">
+        <!-- Social Icons -->
+        <ul class="list-inline text-center footer-social">
           {% if site.instagram_username %}
             <li class="list-inline-item">
               <a href="https://instagram.com/{{ site.instagram_username }}" title="{{ site.instagram_username }}'s Instagram">
@@ -27,7 +26,7 @@
           {% endif %}
           {% if site.twitter_username %}
             <li class="list-inline-item">
-              <a href="https://twitter.com/{{ site.twitter_username }}" title="{{ site.twitter_username }}'s Twitter">
+              <a href="https://x.com/{{ site.twitter_username }}" title="{{ site.twitter_username }}'s X (Twitter)">
                 <span class="icon-stack">
                   {% include icons/icon-circle.html class="icon-stack-bg" %}
                   {% include icons/icon-twitter.html class="icon-stack-fg" %}
@@ -56,58 +55,54 @@
             </li>
           {% endif %}
         </ul>
-        </small>
-        <!-- links collections !-->
-        <small>
-          <ul class="copyright text-muted list-unstyled">
-            <li>
-              <a href="{{ '/profil/' | relative_url }}" title="Profil Optikal Bahari">Profil</a> &#183;
-            </li>
-            <li>
-              <a href="{{ '/testimoni/' | relative_url }}" title="Testimoni">Testimoni
-                <!-- Light mode badge -->
-                <span class="badge badge-pill badge-danger light-icon">New</span>
-                <!-- Dark mode badge -->
-                <span class="badge badge-pill badge-danger dark-icon">New</span>
-              </a> &#183;
-            </li>
-            <li>
-              <a href="{{ '/kacamata-cicilan/' | relative_url }}" title="Kacamata Cicilan">Cicilan</a> &#183;
-            </li>
-            <li>
-              <a href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}" title="Kartu Jakarta Pintar">KJP</a> &#183;
-            </li>
-            <li>
-              <a href="{{ '/lokasi/' | relative_url }}" title="Lokasi Optikal Bahari">Lokasi</a> &#183;
-            </li>
-            <li>
-              <a href="{{ '/kontak/' | relative_url }}" title="Kontak Optikal Bahari">Kontak</a> &#183;
-            </li>
-            <li>
-              <a href="{{ '/kebijakan-situs/' | relative_url }}" title="Kebijakan Situs">Kebijakan Situs</a> &#183;
-            </li>
-            <li>
-              <a href="{{ '/kenapa-optikal-bahari/' | relative_url }}" title="Kenapa Optikal Bahari">Kenapa Optikal Bahari</a>
-            </li>
-          </ul>
-        </small>
-          <ul class="copyright text-muted list-unstyled">
-            <li>
-              <a href="http://bit.ly/3VchsB7" title="Check out Optikal Bahari ⭐⭐⭐⭐⭐ (SEJAK 1978) OPTIK TERDEKAT REKOMENDASI on Google!">
-                Check out Optikal Bahari ⭐⭐⭐⭐⭐ (SEJAK 1978) OPTIK TERDEKAT REKOMENDASI on Google!
-              </a>
-            </li>
-          </ul>
-        </small>
-        <!-- copyright !-->
-          <ul class="copyright text-muted list-unstyled">
-            <li>
-              <a href="{{ '/' | relative_url }}" title="Hak Cipta &copy; {{ site.author }} {{ 'now' | date: '%Y' }}">
-                Hak Cipta &copy; {{ site.author }} {{ 'now' | date: '%Y' }}
-              </a>
-            </li>
-          </ul>
-        </small>
+
+        <!-- Footer Navigation Links -->
+        <ul class="copyright text-muted list-unstyled footer-nav">
+          <li>
+            <a href="{{ '/profil/' | relative_url }}" title="Profil Optikal Bahari">Profil</a> &#183;
+          </li>
+          <li>
+            <a href="{{ '/testimoni/' | relative_url }}" title="Testimoni">Testimoni
+              <!-- Light mode badge -->
+              <span class="badge badge-pill badge-danger light-icon">New</span>
+              <!-- Dark mode badge -->
+              <span class="badge badge-pill badge-danger dark-icon">New</span>
+            </a> &#183;
+          </li>
+          <li>
+            <a href="{{ '/kacamata-cicilan/' | relative_url }}" title="Kacamata Cicilan">Cicilan</a> &#183;
+          </li>
+          <li>
+            <a href="{{ '/optikal-bahari-kjp-kartu-jakarta-pintar/' | relative_url }}" title="Kartu Jakarta Pintar">KJP</a> &#183;
+          </li>
+          <li>
+            <a href="{{ '/lokasi/' | relative_url }}" title="Lokasi Optikal Bahari">Lokasi</a> &#183;
+          </li>
+          <li>
+            <a href="{{ '/kontak/' | relative_url }}" title="Kontak Optikal Bahari">Kontak</a> &#183;
+          </li>
+          <li>
+            <a href="{{ '/kebijakan-situs/' | relative_url }}" title="Kebijakan Situs">Kebijakan Situs</a> &#183;
+          </li>
+          <li>
+            <a href="{{ '/kenapa-optikal-bahari/' | relative_url }}" title="Kenapa Optikal Bahari">Kenapa Optikal Bahari</a>
+          </li>
+        </ul>
+
+        <!-- Google Review Link -->
+        <ul class="copyright text-muted list-unstyled footer-review">
+          <li>
+            <a href="http://bit.ly/3VchsB7" title="Check out Optikal Bahari on Google!">
+              Check out Optikal Bahari ⭐⭐⭐⭐⭐ (SEJAK 1978) OPTIK TERDEKAT REKOMENDASI on Google!
+            </a>
+          </li>
+        </ul>
+
+        <!-- Copyright -->
+        <p class="copyright text-muted text-center">
+          Hak Cipta &copy; {{ site.author }} {{ 'now' | date: '%Y' }}
+        </p>
+
       </div>
     </div>
   </div>

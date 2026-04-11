@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang='{{ page.lang }}'>
+<html lang='{{ page.lang | default: "id-ID" }}'>
 <head>
   {% include meta/card-meta.html %}
   {% include meta/meta-seo.html %}
@@ -15,6 +15,9 @@
     {% endcapture %}
     {{ include_scss | scssify }}
   </style>
+  {%- if page.background -%}
+  <link rel="preload" as="image" href="{{ page.background | cloudinary_url: 'c_fill,w_1200,h_600,g_auto,q_auto:eco,f_avif' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }}" fetchpriority="high">
+  {%- endif -%}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}" />
   <link rel="sitemap" type="application/xml" title="{{ site.title | escape }}" href="{{ '/sitemap.xml' | relative_url }}" />
