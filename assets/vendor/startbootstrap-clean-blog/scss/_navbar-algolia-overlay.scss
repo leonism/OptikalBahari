@@ -100,6 +100,15 @@ body.dark-mode .algolia-search-container {
     width: 100%;
   }
 
+  // Constrain the inline search icon inside the input wrapper
+  .search-input-icon {
+    width: 20px !important;
+    height: 20px !important;
+    flex-shrink: 0;
+    color: $gray-400;
+    margin-right: 10px;
+  }
+
   [data-bs-theme="dark"] .search-input-wrapper {
     background: rgba($white, 0.05);
   }
@@ -798,12 +807,13 @@ body.dark-mode .algolia-search-body::-webkit-scrollbar-thumb {
   }
 
   .algolia-logo {
-    color: #003dff;
-    opacity: 0.8;
+    opacity: 0.85;
     transition: opacity 0.2s;
-    width: 60px;
-    height: auto;
+    height: 14px;
+    width: auto;
     display: block;
+    // The SVG has embedded .cls-1 (blue) for the box icon — inherits naturally
+    // The text paths use currentColor which follows the parent .powered-by color
   }
 
   &:hover .algolia-logo {

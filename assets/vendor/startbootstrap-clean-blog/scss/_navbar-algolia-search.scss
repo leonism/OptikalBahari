@@ -3,12 +3,12 @@
 // Unified Action Group Styling (Search + Toggle + Burger)
 .navbar-actions-group {
   display: flex !important;
-  align-items: center !important; // Vertically align with "LOKASI" and other nav links
-  gap: 12px !important; // Balanced gap for desktop
+  align-items: center !important;
+  gap: 16px !important; // Even spacing between theme, search, and burger
   height: 100% !important;
 
   @media (max-width: 991px) {
-    gap: 6px !important; // Smaller gap on mobile
+    gap: 12px !important; // Consistent gap on mobile too
   }
 
   // Reset all containers inside this group
@@ -29,7 +29,7 @@
     cursor: pointer !important;
   }
 
-  // Ultra-precise centering using Grid for the Font Awesome stack
+  // Ultra-precise centering using Grid for the icon stack
   .toggle-icon {
     display: grid !important;
     place-items: center !important; // Perfectly center everything in the grid cell
@@ -40,8 +40,8 @@
     position: relative !important;
     transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
 
-    // Both icons (the circle and the symbol) occupy the exact same center point
-    i {
+    // Both SVGs occupy the exact same center point
+    svg {
       grid-area: 1 / 1 !important;
       margin: 0 !important;
       padding: 0 !important;
@@ -50,24 +50,26 @@
       justify-content: center !important;
     }
 
-    // The background circle
-    .fa-circle {
-      color: white !important;
-      font-size: 32px !important;
+    // The background circle — match footer icon circle color
+    .icon-stack-bg {
+      color: $dark-accent !important; // #1a2332 — same as footer social icon circles
+      width: 32px !important;
+      height: 32px !important;
       z-index: 1 !important;
 
       @media (max-width: 991px) {
-        color: $gray-100 !important; // Non-white background on mobile light mode
+        color: darken($dark-accent, 5%) !important;
       }
     }
 
     // The inner symbols (Moon, Sun, Search)
-    .fa-stack-1x,
+    .icon-stack-fg,
     .search-icon-inner,
     .light-icon,
     .dark-icon {
-      color: $gray-800 !important;
-      font-size: 16px !important; // 50% of the circle size
+      color: $white !important; // White on dark circle background
+      width: 16px !important; // 50% of the circle size
+      height: 16px !important;
       z-index: 2 !important;
       transition: color 0.2s ease !important;
     }
@@ -77,19 +79,21 @@
     .dark-icon { display: flex !important; }
   }
 
-  // Shared Hover Interaction
+  // Shared Hover Interaction (transform only — color handled per-mode below)
   .btn-search-trigger:hover .toggle-icon,
   .form-check-label:hover .toggle-icon {
     transform: translateY(-2px) !important;
-    .search-icon-inner,
-    .light-icon,
-    .dark-icon {
-      color: $primary !important;
-    }
   }
 
-  // Desktop Burger removal
+  // Desktop Burger removal + consistent sizing on mobile
   .navbar-toggler {
+    width: 32px !important;  // Match icon circle size
+    height: 32px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
     @media (min-width: 992px) {
       display: none !important;
     }
@@ -106,32 +110,63 @@ body.dark-mode .navbar-actions-group .toggle-icon {
   .dark-icon { display: none !important; }
 }
 
+// Light Mode: white translucent circle, dark icon for contrast
 body:not(.dark-mode) .navbar-actions-group .toggle-icon {
+  .icon-stack-bg {
+    color: rgba(255, 255, 255, 0.85) !important; // Translucent white
+  }
+  .icon-stack-fg,
+  .search-icon-inner,
+  .light-icon,
+  .dark-icon {
+    color: $gray-800 !important; // Dark icon on white circle
+  }
   .light-icon { display: none !important; }
   .dark-icon { display: flex !important; }
 }
 
-// Dark Mode Precision Overrides
-[data-bs-theme="dark"] .navbar-actions-group {
-  .toggle-icon {
-    .fa-circle {
-      color: lighten($dark-accent, 25%) !important; // Increased brightness by 10% for better contrast
+// Light Mode Hover
+body:not(.dark-mode) .navbar-actions-group {
+  .btn-search-trigger:hover .toggle-icon,
+  .form-check-label:hover .toggle-icon {
+    .icon-stack-bg {
+      color: rgba(255, 255, 255, 1) !important; // Fully opaque white on hover
     }
-    .fa-stack-1x,
+    .icon-stack-fg,
     .search-icon-inner,
     .light-icon,
     .dark-icon {
-      color: $gray-800 !important;
+      color: $gray-900 !important; // Deeper icon on hover
+    }
+  }
+}
+
+// Dark Mode Precision Overrides
+[data-bs-theme="dark"] .navbar-actions-group,
+body.dark-mode .navbar-actions-group {
+  .toggle-icon {
+    .icon-stack-bg {
+      color: lighten($dark-accent, 18%) !important; // Slightly brighter in dark mode
+    }
+    .icon-stack-fg,
+    .search-icon-inner,
+    .light-icon,
+    .dark-icon {
+      color: $white !important;
     }
   }
 
   // Dark Mode Hover
   .btn-search-trigger:hover .toggle-icon,
   .form-check-label:hover .toggle-icon {
+    .icon-stack-bg {
+      color: lighten($dark-accent, 28%) !important;
+    }
+    .icon-stack-fg,
     .search-icon-inner,
     .light-icon,
     .dark-icon {
-      color: $dark-link !important;
+      color: $white !important;
     }
   }
 }

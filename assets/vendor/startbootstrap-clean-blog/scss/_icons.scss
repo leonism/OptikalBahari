@@ -1,15 +1,58 @@
+/* ========================================== */
+/*  Custom Icon Stack System                   */
+/*  Replaces Font Awesome fa-stack utility     */
+/* ========================================== */
+
+/* Base stack container — positions children via absolute */
+.icon-stack {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+
+  svg {
+    position: absolute;
+    display: block;
+  }
+}
+
+/* Background layer: fills the container */
+.icon-stack-bg {
+  width: 100%;
+  height: 100%;
+  color: currentColor;
+}
+
+/* Foreground layer: 50% of container, centered */
+.icon-stack-fg {
+  width: 50%;
+  height: 50%;
+  color: #fff; /* override per context (dark mode) */
+}
+
+/* Generic inline icon sizing (replaces stand-alone <i> tags) */
+.icon-inline {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  fill: currentColor;
+  overflow: visible;
+}
+
 /* ---------------------------------------- */
 /*  Toggle Icon Visibility & Positioning      */
-/*   (Using Font Awesome Stacking)            */
+/*   (Custom Icon Stack - No Font Awesome)   */
 /* ---------------------------------------- */
 /*
   The theme toggle switch uses a container with the class "toggle-icon" that
-  employs Font Awesome stacking. Inside the container:
-    - The background circle (<i class="fas fa-circle fa-stack-2x"></i>) is fixed
-      at 14px, white, and vertically aligned.
-    - The overlay icons (<i class="fas fa-sun fa-stack-1x light-icon"></i> and
-      <i class="fas fa-moon fa-stack-1x dark-icon"></i>) are set at 12px and swapped
-      based on the active mode.
+  uses the custom .icon-stack system. Inside the container:
+    - The background circle (.icon-stack-bg) is fixed at 14px, white, vertically aligned.
+    - The overlay icons (.icon-stack-fg with .light-icon/.dark-icon) are set at 12px
+      and swapped based on the active mode.
 
   Requirements:
     • In light mode, display the moon icon (dark-icon) using a dark color for contrast.
@@ -21,16 +64,18 @@
   margin-top: 10px;
 }
 
-.toggle-icon > i.fa-circle.fa-stack-2x {
-  color: white;
-  font-size: 25px !important;
+.toggle-icon .icon-stack-bg {
+  color: rgba(255, 255, 255, 0.85); // Light mode: translucent white
+  width: 25px;
+  height: 25px;
   line-height: 14px;
   vertical-align: middle;
 }
 
-.toggle-icon > i.fa-stack-1x {
-  color: $dark-card-body;
-  font-size: 16px !important;
+.toggle-icon .icon-stack-fg {
+  color: $gray-800; // Dark icon on light circle
+  width: 16px;
+  height: 16px;
   line-height: 14px;
   vertical-align: middle;
 }

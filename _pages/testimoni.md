@@ -40,14 +40,13 @@ comments: false
   </div>
 </div>
 <!-- Sorting Controls -->
-<div class="d-flex justify-content-between align-items-center mb-4">
-  <!-- <h4 class="card-title">Ulasan Pelanggan</h4> -->
-  <div class="d-flex flex-wrap gap-2">
+<div class="d-flex justify-content-center align-items-center mb-4">
+  <div class="d-flex flex-nowrap gap-2 align-items-center filter-controls">
     <!-- Items Per Page Dropdown -->
     <div class="dropdown">
       <button class="btn btn-outline-secondary dropdown-toggle rounded-pill btn-testimonial-control" type="button" id="limitDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line><line x1="9" y1="3" x2="9" y2="21"></line></svg>
-        Tampilkan: 20
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+        <span class="limit-label">Tampilkan: 20</span>
       </button>
       <ul class="dropdown-menu shadow-sm border-0" aria-labelledby="limitDropdown" id="limit-options">
         <li><a class="dropdown-item" href="#" data-limit="10">10</a></li>
@@ -60,8 +59,8 @@ comments: false
     <!-- Sorting Controls -->
     <div class="dropdown">
       <button class="btn btn-outline-secondary dropdown-toggle rounded-pill btn-testimonial-control" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="21" y1="6" x2="3" y2="6"></line><line x1="17" y1="12" x2="7" y2="12"></line><line x1="12" y1="18" x2="12" y2="18"></line></svg>
-        Urutkan
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="21" y1="6" x2="3" y2="6"></line><line x1="17" y1="12" x2="7" y2="12"></line><line x1="12" y1="18" x2="12" y2="18"></line></svg>
+        <span class="sort-label">Terbaru</span>
       </button>
       <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0" aria-labelledby="sortDropdown" id="sort-options">
         <li><a class="dropdown-item" href="#" data-sort="date-desc">Terbaru</a></li>
@@ -93,7 +92,7 @@ comments: false
   </div>
 </div>
 <div id="reviews-error" class="alert alert-danger text-center py-4 d-none" role="alert">
-  <i class="fa-solid fa-triangle-exclamation fa-2x mb-3"></i>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:2em;height:2em;display:block;margin:0 auto 0.75rem" aria-hidden="true" focusable="false"><path fill="currentColor" d="M256 0c14.7 0 28.2 8.1 35.2 21l216 400c6.7 12.4 6.4 27.4-.8 39.5S486.1 480 472 480L40 480c-14.1 0-27.2-7.4-34.4-19.5s-7.5-27.1-.8-39.5l216-400c7-12.9 20.5-21 35.2-21zm0 352a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm0-192c-18.2 0-32.7 15.5-31.4 33.7l7.4 104c.9 12.5 11.4 22.3 23.9 22.3 12.6 0 23-9.7 23.9-22.3l7.4-104c1.3-18.2-13.1-33.7-31.4-33.7z"/></svg>
   <h5>Maaf, Terjadi Kesalahan</h5>
   <p>Gagal memuat data ulasan. Silakan coba muat ulang halaman.</p>
   <button class="btn btn-danger mt-2 rounded-pill px-4" id="retry-fetch">Coba Lagi</button>

@@ -6,10 +6,10 @@
     aria-label='Toggle between light and dark mode'
   >
   <label class='form-check-label p-0 m-0 cursor-pointer' for='themeToggle'>
-    <span class='fa-stack toggle-icon' aria-hidden='true'>
-      <i class='fas fa-circle fa-stack-2x'></i>
-      <i class='fas fa-sun fa-stack-1x light-icon'></i>
-      <i class='fas fa-moon fa-stack-1x dark-icon'></i>
+    <span class='icon-stack toggle-icon' aria-hidden='true'>
+      {% include icons/icon-circle.html class="icon-stack-bg" %}
+      {% include icons/icon-sun.html class="icon-stack-fg light-icon" %}
+      {% include icons/icon-moon.html class="icon-stack-fg dark-icon" %}
     </span>
   </label>
 </div>

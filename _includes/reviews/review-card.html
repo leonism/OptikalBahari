@@ -1,9 +1,9 @@
 <div class="card shadow-sm review-card">
   <div class="card-body d-flex flex-column">
     <div class="d-flex align-items-center mb-3">
-      <img src="{{ include.review.reviewerPhotoUrl }}" 
-           class="rounded-circle me-3 lazy-loading" 
-           alt="{{ include.review.name }}" 
+      <img src="{{ include.review.reviewerPhotoUrl }}"
+           class="rounded-circle me-3 lazy-loading"
+           alt="{{ include.review.name }}"
            style="width: 45px; height: 45px; object-fit: cover;"
            loading="lazy"
            onerror="this.src='https://ui-avatars.com/api/?name={{ include.review.name | url_encode }}&background=random'">
@@ -12,9 +12,9 @@
         <div class="review-stars">
           {% for i in (1..5) %}
             {% if i <= include.review.stars %}
-              <i class="fas fa-star" style="color: #fbbc04; font-size: 0.85rem;"></i>
+              {% include icons/icon-star-solid.html class="icon-inline" style="color: #fbbc04; font-size: 0.85rem;" %}
             {% else %}
-              <i class="far fa-star" style="color: #fbbc04; font-size: 0.85rem;"></i>
+              {% include icons/icon-star-regular.html class="icon-inline" style="color: #fbbc04; font-size: 0.85rem;" %}
             {% endif %}
           {% endfor %}
           <small class="text-muted ms-1" style="font-size: 0.75rem;">
@@ -23,7 +23,7 @@
         </div>
       </div>
     </div>
-    
+
     {% if include.review.text and include.review.text != "" %}
       <p class="card-text text-muted mb-3" style="font-size: 0.95rem; line-height: 1.5;">
         {{ include.review.text | truncate: 500 }}
@@ -36,9 +36,9 @@
 
     {% if include.review.reviewImageUrls and include.review.reviewImageUrls.size > 0 %}
       <div class="review-images mt-auto mb-3">
-        <img src="{{ include.review.reviewImageUrls[0] }}" 
-             class="img-fluid rounded lazy-loading" 
-             alt="Review by {{ include.review.name }}" 
+        <img src="{{ include.review.reviewImageUrls[0] }}"
+             class="img-fluid rounded lazy-loading"
+             alt="Review by {{ include.review.name }}"
              style="max-height: 250px; width: 100%; object-fit: cover;"
              loading="lazy">
       </div>
@@ -53,8 +53,8 @@
 
     <div class="mt-auto border-top pt-2">
       <a href="{{ include.review.reviewUrl }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none d-flex align-items-center justify-content-between" style="font-size: 0.85rem; color: #c23336;">
-        <span><i class="fab fa-google me-2"></i> View on Google</span>
-        <i class="fas fa-external-link-alt" style="font-size: 0.7rem;"></i>
+        <span>{% include icons/icon-google.html class="icon-inline me-2" %} View on Google</span>
+        {% include icons/icon-external-link.html class="icon-inline" style="font-size: 0.7rem;" %}
       </a>
     </div>
   </div>

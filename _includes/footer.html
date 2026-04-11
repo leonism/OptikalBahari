@@ -8,9 +8,9 @@
           {% if site.instagram_username %}
             <li class="list-inline-item">
               <a href="https://instagram.com/{{ site.instagram_username }}" title="{{ site.instagram_username }}'s Instagram">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                <span class="icon-stack">
+                  {% include icons/icon-circle.html class="icon-stack-bg" %}
+                  {% include icons/icon-instagram.html class="icon-stack-fg" %}
                 </span>
               </a>
             </li>
@@ -18,9 +18,9 @@
           {% if site.pinterest_username %}
             <li class="list-inline-item">
               <a href="https://id.pinterest.com/{{ site.pinterest_username }}" title="{{ site.pinterest_username }}'s Pinterest">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-pinterest fa-stack-1x fa-inverse"></i>
+                <span class="icon-stack">
+                  {% include icons/icon-circle.html class="icon-stack-bg" %}
+                  {% include icons/icon-pinterest.html class="icon-stack-fg" %}
                 </span>
               </a>
             </li>
@@ -28,9 +28,9 @@
           {% if site.twitter_username %}
             <li class="list-inline-item">
               <a href="https://twitter.com/{{ site.twitter_username }}" title="{{ site.twitter_username }}'s Twitter">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                <span class="icon-stack">
+                  {% include icons/icon-circle.html class="icon-stack-bg" %}
+                  {% include icons/icon-twitter.html class="icon-stack-fg" %}
                 </span>
               </a>
             </li>
@@ -38,9 +38,9 @@
           {% if site.facebook_username %}
             <li class="list-inline-item">
               <a href="https://www.facebook.com/{{ site.facebook_username }}" title="{{ site.facebook_username }}'s Facebook">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                <span class="icon-stack">
+                  {% include icons/icon-circle.html class="icon-stack-bg" %}
+                  {% include icons/icon-facebook-f.html class="icon-stack-fg" %}
                 </span>
               </a>
             </li>
@@ -48,9 +48,9 @@
           {% if site.youtube_username %}
             <li class="list-inline-item">
               <a href="https://www.youtube.com/@optikalbahari" title="Optikal Bahari's YouTube">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                <span class="icon-stack">
+                  {% include icons/icon-circle.html class="icon-stack-bg" %}
+                  {% include icons/icon-youtube.html class="icon-stack-fg" %}
                 </span>
               </a>
             </li>

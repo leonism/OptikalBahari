@@ -160,23 +160,61 @@ body.dark-mode {
   }
 }
 
+.filter-controls {
+  max-width: 100%;
+
+  // Ensure both buttons fit without wrapping at any screen size
+  .dropdown {
+    flex-shrink: 0;
+  }
+}
+
 .btn-testimonial-control {
   font-weight: 600;
   display: inline-flex !important;
   align-items: center;
-  font-size: 0.85rem !important;
-  padding: 0.4rem 1rem !important;
+  gap: 0.3rem;
+  white-space: nowrap;        // Never wrap the button itself
+  overflow: hidden;           // Clip internally
+
+  // Mobile-first: compact size
+  font-size: 0.75rem !important;
+  padding: 0.35rem 0.65rem !important;
+
+  @media (min-width: 480px) {
+    font-size: 0.82rem !important;
+    padding: 0.4rem 0.9rem !important;
+  }
 
   @media (min-width: 768px) {
-    font-size: 1rem !important;
-    padding: 0.5rem 1.5rem !important;
+    font-size: 0.9rem !important;
+    padding: 0.45rem 1.2rem !important;
   }
-  
+
   svg {
-    margin-right: 0.4rem;
-    @media (min-width: 768px) {
-      margin-right: 0.5rem;
-    }
+    flex-shrink: 0; // Icon never shrinks
+  }
+}
+
+// Truncate long sort labels (e.g. "Rating Terendah", "Dengan Photo")
+// so they never push the button wider than its container
+.sort-label,
+.limit-label {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+
+  // Very tight budget on small phones: max ~90px for sort label
+  max-width: 90px;
+
+  @media (min-width: 400px) {
+    max-width: 120px;
+  }
+
+  @media (min-width: 576px) {
+    max-width: none; // No truncation needed on wider screens
   }
 }
 

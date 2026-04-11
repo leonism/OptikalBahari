@@ -45,13 +45,13 @@ footer .list-inline-item a:hover {
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Stronger shadow on hover */
 }
 
-footer .list-inline-item .fa-stack {
+footer .list-inline-item .icon-stack {
   transition:
     transform 0.3s ease,
     color 0.3s ease; /* Smooth transitions */
 }
 
-footer .list-inline-item .fa-stack:hover {
+footer .list-inline-item .icon-stack:hover {
   transform: scale(1.3); /* Slightly enlarge on hover */
 }
 
@@ -149,18 +149,17 @@ body.dark-mode {
 
     .list-inline-item a {
       color: $dark-link;
-      .fa-stack.fa-lg {
-        color: $dark-text;
-        .fa-circle.fa-stack-2x {
+      .icon-stack {
+        .icon-stack-bg {
           color: $dark-accent;
         }
-        .fa-stack-1x {
+        .icon-stack-fg {
           color: $dark-link;
         }
       }
       &:hover {
         color: lighten($dark-link, 15%);
-        .fa-circle.fa-stack-2x {
+        .icon-stack-bg {
           color: lighten($dark-accent, 10%);
         }
       }
@@ -201,12 +200,11 @@ body.dark-mode {
   }
 
   // Global Social Icon stack override (if used outside footer)
-  .fa-stack.fa-lg {
-    color: $dark-text;
-    .fa-circle.fa-stack-2x {
+  .icon-stack {
+    .icon-stack-bg {
       color: $dark-accent;
     }
-    .fa-stack-1x {
+    .icon-stack-fg {
       color: $dark-link;
     }
   }

@@ -32,17 +32,17 @@
               href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
               title="{{ post.title }}"
             >
-              <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
+              {% include icons/icon-circle-arrow-right.html class="icon-inline text-white" %} Lebih Lanjut
             </a>
           </p>
         </div>
         <div class="card-footer">
           <small class="text-muted">
-            <i class="fas fa-user"></i>
+            {% include icons/icon-user.html class="icon-inline" %}
             {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %}
-            <i class="fas fa-calendar-day"></i>
+            {% include icons/icon-calendar-day.html class="icon-inline" %}
             {{ post.date | date: '%B %d, %Y' }}
-            <i class="fas fa-circle"></i>
+            {% include icons/icon-circle.html class="icon-inline" %}
             {% include postcards/read_time.html content=post.content %}
           </small>
         </div>
@@ -82,17 +82,17 @@
               href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
               title="{{ post.title }}"
             >
-              <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
+              {% include icons/icon-circle-arrow-right.html class="icon-inline text-white" %} Lebih Lanjut
             </a>
           </p>
         </div>
         <div class="card-footer">
           <small class="text-muted">
-            <i class="fas fa-user"></i>
+            {% include icons/icon-user.html class="icon-inline" %}
             {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %}
-            <i class="fas fa-calendar-day"></i>
+            {% include icons/icon-calendar-day.html class="icon-inline" %}
             {{ post.date | date: '%B %d, %Y' }}
-            <i class="fas fa-circle"></i>
+            {% include icons/icon-circle.html class="icon-inline" %}
             {% include postcards/read_time.html content=post.content %}
           </small>
         </div>
@@ -132,17 +132,17 @@
             href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
             title="{{ post.title }}"
           >
-            <i class="fa-solid fa-circle-arrow-right text-white"></i> Lebih Lanjut
+            {% include icons/icon-circle-arrow-right.html class="icon-inline text-white" %} Lebih Lanjut
           </a>
         </p>
       </div>
       <div class="card-footer">
         <small class="text-muted">
-          <i class="fas fa-user"></i>
+          {% include icons/icon-user.html class="icon-inline" %}
           {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %}
-          <i class="fas fa-calendar-day"></i>
+          {% include icons/icon-calendar-day.html class="icon-inline" %}
           {{ post.date | date: '%B %d, %Y' }}
-          <i class="fas fa-circle"></i>
+          {% include icons/icon-circle.html class="icon-inline" %}
           {% include postcards/read_time.html content=post.content %}
         </small>
       </div>
