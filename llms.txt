@@ -1,3 +1,8 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
 # Optikal Bahari
 
 > Full-service licensed optical clinic and Sharia-compliant eyewear retailer in Central Jakarta. Specialized in precision optometry, interest-free financing, and accessible eye health.
@@ -28,8 +33,8 @@ Packages starting from **Rp 100.000**.
 * **Address:** Jl. Bendungan Jago No. 447, Kemayoran, Jakarta Pusat, DKI Jakarta, Indonesia.
 * **Hours:** Daily, 09:00 – 21:00 WIB.
 * **Contact:** +6281932235445 (WhatsApp/Phone).
-* **Contact Form:** [https://www.optikalbahari.com/kontak/](https://www.optikalbahari.com/kontak/).
-* **URL:** [https://www.optikalbahari.com](https://www.optikalbahari.com)
+* **Contact Form:** [{{ site.url }}/kontak/]({{ site.url }}/kontak/).
+* **URL:** [{{ site.url }}]({{ site.url }})
 
 ## 5. Site Map for Crawlers
 * **/about/**: Licensing, mission statement, and clinical history.
@@ -40,3 +45,14 @@ Packages starting from **Rp 100.000**.
 * **Deployment:** Statically generated for low latency.
 * **Infrastructure:** Hosted on **Cloudflare Pages**, utilizing **Cloudflare Workers** at the edge for global availability.
 * **Performance:** Optimized for mobile-first indexing and high-speed delivery via edge computing.
+
+## 7. Content Index (Markdown Mirrors)
+
+### Blog Posts
+{% for post in site.posts %}* [{{ post.title }}]({{ site.url }}{{ post.url }}index.md)
+{% endfor %}
+### Pages
+{% assign mirror_pages = site.pages | where_exp: "p", "p.layout != nil and p.title != nil and p.url != '/llms.txt' and p.url != '/404.html' and p.url != '/sitemap.xml' and p.url != '/feed.xml' and p.url != '/robots.txt'" %}{% for page in mirror_pages %}{% assign pg_url = page.url | replace: 'index.html', '' %}{% unless pg_url contains '.xml' or pg_url contains '.txt' or pg_url contains '.json' %}* [{{ page.title }}]({{ site.url }}{{ pg_url }}index.md)
+{% endunless %}{% endfor %}
+### Full Documentation
+* [llms-full.txt]({{ site.url }}/llms-full.txt)
