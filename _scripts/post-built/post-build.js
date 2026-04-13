@@ -223,7 +223,7 @@ function runAssetCompression() {
     } else {
       console.log(`  ℹ️  Zstd CLI not found; skipped individual .zst asset generation`)
     }
-  } catch (error) {
+  } catch (/** @type {any} */ error) {
     console.error(`  ❌ Asset compression failed: ${error.message}`)
   }
 }
@@ -263,7 +263,7 @@ function runArchiveGeneration() {
     } else {
       console.log(`  ⚠️ Tar command not found. Skipping archiving.`)
     }
-  } catch(error) {
+  } catch (/** @type {any} */ error) {
      console.error(`  ❌ Archive generation failed: ${error.message}`)
   }
 }
