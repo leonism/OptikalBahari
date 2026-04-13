@@ -71,9 +71,16 @@ module Jekyll
 
       def build_mirror_content(doc, site)
         frontmatter = build_frontmatter(doc, site)
-        body = extract_body(doc)
+        body = extract_body(doc, site)
 
-        "#{frontmatter}\n\n#{body}\n"
+        title = doc.data["title"]
+        desc = doc.data["description"]
+
+        heading_block = ""
+        heading_block += "# #{title}\n\n" if title && !title.to_s.empty?
+        heading_block += "## #{desc}\n\n" if desc && !desc.to_s.empty?
+
+        "#{frontmatter}\n\n#{heading_block}#{body}\n"
       end
 
       def build_frontmatter(doc, site)
@@ -99,30 +106,31 @@ module Jekyll
         lines.join("\n")
       end
 
-      def extract_body(doc)
+      def extract_body(doc, site)
         raw = doc.content.to_s
-        html_to_markdown(raw)
+        base_url = site.config['url'].to_s.chomp('/')
+        html_to_markdown(raw, base_url)
       end
 
-      def html_to_markdown(html)
+      def html_to_markdown(html, base_url)
         require 'nokogiri'
         doc = Nokogiri::HTML.fragment(html)
-        
+
         # Remove script and style completely
         doc.css('script, style').remove
-        
-        text = process_node(doc)
+
+        text = process_node(doc, base_url)
         text.gsub(/\n{3,}/, "\n\n").strip
       end
 
-      def process_node(node)
+      def process_node(node, base_url)
         return node.text if node.text?
-        
+
         text = ""
         node.children.each do |child|
-          text += process_node(child)
+          text += process_node(child, base_url)
         end
-        
+
         case node.name.downcase
         when 'h1' then "\n# #{text.strip}\n\n"
         when 'h2' then "\n## #{text.strip}\n\n"
@@ -141,11 +149,17 @@ module Jekyll
           end
         when 'pre' then "\n```\n#{text.strip}\n```\n\n"
         when 'hr' then "\n---\n\n"
-        when 'a' 
+        when 'a'
           href = node['href']
+          if href && href.start_with?('/') && !href.start_with?('//')
+            href = "#{base_url}#{href}"
+          end
           href ? "[#{text.strip}](#{href})" : text
         when 'img'
           src = node['src'] || node['data-src'] || ''
+          if src && src.start_with?('/') && !src.start_with?('//')
+            src = "#{base_url}#{src}"
+          end
           alt = node['alt'] || ''
           title = node['title'] ? " \"#{node['title']}\"" : ""
           src.empty? ? "" : "![#{alt}](#{src}#{title})"
