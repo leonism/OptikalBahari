@@ -80,6 +80,27 @@ module Jekyll
         heading_block += "# #{title}\n\n" if title && !title.to_s.empty?
         heading_block += "## #{desc}\n\n" if desc && !desc.to_s.empty?
 
+        url = doc.url.to_s.chomp("index.html")
+        url = "/#{url}" unless url.start_with?("/")
+        url = "#{url}/" unless url.end_with?("/")
+        
+        if url == "/testimoni/"
+          reviews = site.data["reviews_list"] || site.data["reviews"] || []
+          if reviews.any?
+            body += "\n\n### Semua Ulasan Pelanggan\n\n"
+            reviews.each do |r|
+              stars = r["stars"] || 5
+              name = r["name"] || "Pelanggan"
+              date = r["publishAt"] || ""
+              text = r["text"] || ""
+              next if text.to_s.strip.empty?
+
+              body += "**#{name}** (#{stars}/5 Bintang) - *#{date}*\n"
+              body += "> #{text.strip.gsub("\n", "\n> ")}\n\n"
+            end
+          end
+        end
+
         "#{frontmatter}\n\n#{heading_block}#{body}\n"
       end
 

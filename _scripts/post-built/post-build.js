@@ -184,6 +184,90 @@ function runHTMLMinification() {
   runCommand('node _scripts/post-built/minify-html.js', 'HTML minification')
 }
 
+/**
+ * Step 8: Asset Pre-Compression
+ */
+function runAssetCompression() {
+  console.log('\n🗜️  Step 8: Asset Pre-Compression (.gz, .br, .zst)')
+  const zlib = require('zlib')
+  try {
+    const textAssets = glob.sync(`${SITE_DIR}/**/*.{html,css,js,json,xml,txt,md,svg}`)
+    let gzCount = 0, brCount = 0, zstCount = 0
+
+    for (const file of textAssets) {
+      if (file.endsWith('.gz') || file.endsWith('.br') || file.endsWith('.zst')) continue
+
+      const content = fs.readFileSync(file)
+      
+      // Gzip
+      fs.writeFileSync(`${file}.gz`, zlib.gzipSync(content, { level: 9 }))
+      gzCount++
+      
+      // Brotli
+      fs.writeFileSync(`${file}.br`, zlib.brotliCompressSync(content, { 
+        params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 11 } 
+      }))
+      brCount++
+      
+      // Zstd
+      if (isCommandAvailable('zstd -V')) {
+        try {
+          execSync(`zstd -qf -19 "${file}" -o "${file}.zst"`, { stdio: 'ignore' })
+          zstCount++
+        } catch(e) {}
+      }
+    }
+    console.log(`  ✅ Generated ${gzCount} Gzip & Brotli pre-compressed assets`)
+    if (zstCount > 0) {
+      console.log(`  ✅ Generated ${zstCount} Zstd pre-compressed assets`)
+    } else {
+      console.log(`  ℹ️  Zstd CLI not found; skipped individual .zst asset generation`)
+    }
+  } catch (error) {
+    console.error(`  ❌ Asset compression failed: ${error.message}`)
+  }
+}
+
+/**
+ * Step 9: Build Archiving
+ */
+function runArchiveGeneration() {
+  console.log('\n📦 Step 9: Build Archiving (*.tar.gz, *.tar.br, *.tar.zst)')
+  try {
+    if (isCommandAvailable('tar --version') || isCommandAvailable('tar -c')) {
+      // 1. tar.gz
+      execSync(`tar -czf _site.tar.gz ${SITE_DIR}`, { stdio: 'ignore' })
+      console.log(`  ✅ Generated _site.tar.gz`)
+
+      // Intermediate uncompressed tar for deriving Brotli & Zstd
+      execSync(`tar -cf _site.tar ${SITE_DIR}`, { stdio: 'ignore' })
+      const tarContent = fs.readFileSync('_site.tar')
+      
+      // 2. tar.br
+      const zlib = require('zlib')
+      fs.writeFileSync('_site.tar.br', zlib.brotliCompressSync(tarContent, { 
+        params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 11 } 
+      }))
+      console.log(`  ✅ Generated _site.tar.br`)
+      
+      // 3. tar.zst
+      if (isCommandAvailable('zstd -V')) {
+        execSync(`zstd -qf -19 _site.tar -o _site.tar.zst`, { stdio: 'ignore' })
+        console.log(`  ✅ Generated _site.tar.zst`)
+      } else {
+        console.log(`  ℹ️  Zstd CLI not found; skipped _site.tar.zst archive generation`)
+      }
+      
+      // Cleanup
+      if (fs.existsSync('_site.tar')) fs.unlinkSync('_site.tar')
+    } else {
+      console.log(`  ⚠️ Tar command not found. Skipping archiving.`)
+    }
+  } catch(error) {
+     console.error(`  ❌ Archive generation failed: ${error.message}`)
+  }
+}
+
 // ============================================================================
 // MAIN EXECUTION
 // ============================================================================
@@ -200,6 +284,10 @@ async function main() {
   runImageOptimization()
   generateSRIHashes()
   runHTMLMinification()
+  
+  // NEW STEPS:
+  runAssetCompression()
+  runArchiveGeneration()
 
   const duration = ((Date.now() - startTime) / 1000).toFixed(2)
   console.log('\n' + '='.repeat(60))
