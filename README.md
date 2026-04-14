@@ -225,4 +225,5 @@ npx prettier --write .
 npx prettier --write "**/*.md"
 npx prettier --check "**/*.{html,md}"
 npx prettier --write _includes/home/home-cards-main.html
+npx prettier --write _includes/home/home-cards-main.html
 ```
