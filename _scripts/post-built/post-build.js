@@ -1,21 +1,47 @@
 /**
  * Post-Build Optimization Script
- * Updated to resolve TypeScript/JSDoc type checking warnings
+ * Refactored to only focus on essential pipelines: Consolidation -> Purge CSS -> Compression
  */
 
 const fs = require('fs-extra')
 const path = require('path')
 const { execSync } = require('child_process')
-const crypto = require('crypto')
+const zlib = require('zlib')
+const { promisify } = require('util')
 const glob = require('glob')
 
 // Constants
 const SITE_DIR = '_site'
 const SCRIPTS_DIR = '_scripts/post-built'
 
-// ============================================================================
-// UTILITY FUNCTIONS
-// ============================================================================
+const colors = {
+  reset: '\x1b[0m',
+  cyan: '\x1b[36m',
+  green: '\x1b[32m',
+  yellow: '\x1b[33m',
+  red: '\x1b[31m',
+  magenta: '\x1b[35m',
+  dim: '\x1b[2m',
+  bold: '\x1b[1m'
+}
+
+/**
+ * Displays a colorful CLI progress bar
+ * @param {number} current
+ * @param {number} total
+ * @param {string} taskName
+ */
+function printProgress(current, total, taskName) {
+  const width = 30;
+  const percentage = Math.floor((current / total) * 100);
+  const filled = Math.floor((width * current) / total);
+  const bar = '█'.repeat(filled) + '░'.repeat(Math.max(0, width - filled));
+  
+  process.stdout.write(`\r  ${colors.magenta}[${bar}]${colors.reset} ${colors.cyan}${percentage}%${colors.reset} | ${colors.dim}${taskName}${colors.reset}`);
+  if (current === total) {
+    process.stdout.write('\n');
+  }
+}
 
 /**
  * @param {string} packageName
@@ -58,11 +84,11 @@ function isCommandAvailable(command) {
  */
 function runCommand(command, description) {
   try {
-    console.log(`  Running: ${description}...`)
+    console.log(`  ${colors.dim}Running: ${description}...${colors.reset}`)
     execSync(command, { stdio: 'inherit' })
     return true
   } catch (/** @type {any} */ error) {
-    console.error(`  ❌ Error in ${description}: ${error.message}`)
+    console.error(`  ${colors.red}❌ Error in ${description}: ${error.message}${colors.reset}`)
     return false
   }
 }
@@ -71,117 +97,90 @@ function runCommand(command, description) {
 // OPTIMIZATION STEPS
 // ============================================================================
 
-/**
- * Step 1: PurgeCSS
- */
+function runAssetConsolidation() {
+  console.log(`\n${colors.yellow}📦 Step 1/3: Asset Consolidation${colors.reset}`)
+  if (!scriptExists('consolidate-assets.js')) return
+  runCommand(`node ${path.join(SCRIPTS_DIR, 'consolidate-assets.js')}`, 'Asset consolidation')
+}
+
 async function runPurgeCSS() {
-  console.log('\n📦 Step 1: PurgeCSS')
+  console.log(`\n${colors.yellow}🧹 Step 2/3: Purge Unused CSS${colors.reset}`)
   if (!scriptExists('purge-css.js') || !isPackageAvailable('purgecss')) {
-    console.log('  ⚠️  Required assets missing - skipping')
+    console.log(`  ${colors.red}⚠️  Required assets missing - skipping${colors.reset}`)
     return
   }
   try {
     const runPurgeCSS = require('./purge-css')
     await runPurgeCSS()
-    console.log('  ✅ PurgeCSS completed')
+    console.log(`  ${colors.green}✅ PurgeCSS completed${colors.reset}`)
   } catch (/** @type {any} */ error) {
-    console.error(`  ❌ PurgeCSS failed: ${error.message}`)
+    console.error(`  ${colors.red}❌ PurgeCSS failed: ${error.message}${colors.reset}`)
   }
 }
 
-/**
- * Step 2: Critical CSS
- */
-function runCriticalCSS() {
-  console.log('\n📝 Step 2: Critical CSS')
-  const ENABLE_CRITICAL = true
-
-  if (!ENABLE_CRITICAL) {
-    console.log('  ℹ️  Critical CSS deactivated - skipping')
-    return
-  }
-
-  if (!scriptExists('critical-css.js') || !isPackageAvailable('critical')) {
-    console.log('  ⚠️  Critical CSS assets missing - skipping')
-    return
-  }
+async function runAssetCompression() {
+  console.log(`\n${colors.yellow}🗜️  Step 3/3: Asset Compression (.br, .zst)${colors.reset}`)
+  const brotliCompress = promisify(zlib.brotliCompress)
 
   try {
-    runCommand('node _scripts/post-built/critical-css.js', 'Critical CSS extraction')
-  } catch (/** @type {any} */ error) {
-    console.log('  ⚠️  Critical CSS failed but continuing: ' + error.message)
-  }
-}
+    // Only compress HTML, CSS, JS, SVG, XML (avoid JSON to reduce build time)
+    const textAssets = glob.sync(`${SITE_DIR}/**/*.{html,css,js,xml,svg}`)
+    let brCount = 0, zstCount = 0
+    let current = 0
+    const total = textAssets.length
 
-/**
- * Step 3: Service Worker
- */
-function runServiceWorker() {
-  console.log('\n⚙️  Step 3: Service Worker')
-  if (!scriptExists('generate-sw.js') || !isPackageAvailable('workbox-build')) {
-    return
-  }
-  runCommand('node _scripts/post-built/generate-sw.js', 'Service worker generation')
-}
+    if (total === 0) {
+      console.log(`  ${colors.dim}No assets found to compress.${colors.reset}`)
+      return
+    }
 
-/**
- * Step 4: Image Optimization
- */
-function runImageOptimization() {
-  console.log('\n🖼️  Step 4: Image Optimization')
-  if (!isCommandAvailable('cwebp -version')) return
-  try {
-    const images = glob.sync(`${SITE_DIR}/**/*.{jpg,jpeg,png}`)
-    for (const img of images) {
-      const webp = img.replace(/\.(jpg|jpeg|png)$/, '.webp')
-      if (fs.existsSync(webp)) continue
+    if (isCommandAvailable('zstd -V')) {
       try {
-        execSync(`cwebp -q 85 "${img}" -o "${webp}"`, { stdio: 'ignore' })
-      } catch (e) {}
+        console.log(`  ${colors.dim}Running Zstd compression concurrently...${colors.reset}`)
+        const chunkSize = 200;
+        for (let i = 0; i < total; i += chunkSize) {
+          const chunk = textAssets.slice(i, i + chunkSize);
+          const validAssets = chunk.filter(f => !f.endsWith('.br') && !f.endsWith('.zst'));
+          if (validAssets.length === 0) continue;
+          
+          const args = validAssets.map(f => `"${f}"`).join(' ');
+          execSync(`zstd -qf -19 -T0 --rm=false ${args}`, { stdio: 'ignore' })
+          zstCount += validAssets.length;
+        }
+      } catch(e) {}
+    }
+
+    console.log(`  ${colors.dim}Running Brotli compression concurrently...${colors.reset}`)
+    const concurrency = 50;
+    for (let i = 0; i < total; i += concurrency) {
+      const chunk = textAssets.slice(i, i + concurrency);
+      
+      await Promise.all(chunk.map(async (file) => {
+        if (file.endsWith('.br') || file.endsWith('.zst')) {
+          current++;
+          return;
+        }
+        
+        try {
+          const content = await fs.readFile(file)
+          const compressed = await brotliCompress(content, { 
+            params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 9 } // Level 9 is faster but still great
+          })
+          await fs.writeFile(`${file}.br`, compressed)
+          brCount++
+        } catch(e) {}
+        current++;
+        printProgress(current, total, `Compressing files...`)
+      }));
+    }
+
+    console.log(`  ${colors.green}✅ Generated ${brCount} Brotli assets${colors.reset}`)
+    if (zstCount > 0) {
+      console.log(`  ${colors.green}✅ Generated ${zstCount} Zstd assets${colors.reset}`)
     }
   } catch (/** @type {any} */ error) {
-    console.error(`  ❌ Image optimization failed: ${error.message}`)
+    console.error(`  ${colors.red}❌ Asset compression failed: ${error.message}${colors.reset}`)
   }
-}
-
-/**
- * Step 5: Asset Consolidation
- */
-function runAssetConsolidation() {
-  console.log('\n📦 Step 5: Asset Consolidation')
-  if (!scriptExists('consolidate-assets.js')) return
-  runCommand('node _scripts/post-built/consolidate-assets.js', 'Asset consolidation')
-}
-
-/**
- * Step 6: SRI Hashes
- */
-function generateSRIHashes() {
-  console.log('\n🔐 Step 6: SRI Hashes')
-  try {
-    const assets = glob.sync(`${SITE_DIR}/**/*.{css,js}`)
-    const integrityFile = path.join(SITE_DIR, 'integrity.txt')
-    fs.ensureDirSync(path.dirname(integrityFile))
-    fs.writeFileSync(integrityFile, '')
-    for (const file of assets) {
-      const content = fs.readFileSync(file)
-      const hash = crypto.createHash('sha384').update(content).digest('base64')
-      const relativePath = path.relative(SITE_DIR, file)
-      fs.appendFileSync(integrityFile, `${relativePath}: sha384-${hash}\n`)
-    }
-  } catch (/** @type {any} */ error) {
-    console.error(`  ❌ SRI hash generation failed: ${error.message}`)
-    process.exit(1)
-  }
-}
-
-/**
- * Step 7: HTML Minification
- */
-function runHTMLMinification() {
-  console.log('\n📄 Step 7: HTML Minification')
-  if (!scriptExists('minify-html.js')) return
-  runCommand('node _scripts/post-built/minify-html.js', 'HTML minification')
 }
 
 // ============================================================================
@@ -189,24 +188,33 @@ function runHTMLMinification() {
 // ============================================================================
 
 async function main() {
-  console.log('🚀 Starting Post-Build Optimizations')
-  console.log('='.repeat(60))
+  console.log(`\n${colors.cyan}${colors.bold}🚀 Starting Post-Build Optimizations${colors.reset}`)
+  console.log(colors.dim + '='.repeat(60) + colors.reset)
   const startTime = Date.now()
 
+  // 1. Combine JS/CSS first so we apply PurgeCSS accurately to the combined CSS.
   runAssetConsolidation()
+  
+  // 2. Run PurgeCSS on the final styles.min.css only
   await runPurgeCSS()
+<<<<<<< HEAD
   // runCriticalCSS()
   // runServiceWorker()
   // runImageOptimization()
   // generateSRIHashes()
   // runHTMLMinification()
+=======
+  
+  // 3. Compress final files into formats natively requested by CF and high-end clients
+  await runAssetCompression()
+>>>>>>> 5623a5997c9d07fc824cb9b1473c966989c6720f
 
   const duration = ((Date.now() - startTime) / 1000).toFixed(2)
-  console.log('\n' + '='.repeat(60))
-  console.log(`✅ Post-Build Optimizations Complete! (${duration}s)`)
+  console.log('\n' + colors.dim + '='.repeat(60) + colors.reset)
+  console.log(`${colors.green}🎉 Post-Build Optimizations Complete! (${duration}s)${colors.reset}\n`)
 }
 
 main().catch((/** @type {any} */ error) => {
-  console.error('\n❌ Fatal error during post-build:', error.message)
+  console.error(`\n${colors.red}❌ Fatal error during post-build: ${error.message}${colors.reset}`)
   process.exit(1)
 })
