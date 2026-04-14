@@ -110,8 +110,8 @@ body.dark-mode .navbar-actions-group .toggle-icon {
   .dark-icon { display: none !important; }
 }
 
-// Light Mode: white translucent circle, dark icon for contrast
-body:not(.dark-mode) .navbar-actions-group .toggle-icon {
+// Light Mode (Default Base Style): white translucent circle, dark icon for contrast
+.navbar-actions-group .toggle-icon {
   .icon-stack-bg {
     color: rgba(255, 255, 255, 0.85) !important; // Translucent white
   }
@@ -125,8 +125,8 @@ body:not(.dark-mode) .navbar-actions-group .toggle-icon {
   .dark-icon { display: flex !important; }
 }
 
-// Light Mode Hover
-body:not(.dark-mode) .navbar-actions-group {
+// Light Mode Hover (Default Base)
+.navbar-actions-group {
   .btn-search-trigger:hover .toggle-icon,
   .form-check-label:hover .toggle-icon {
     .icon-stack-bg {
