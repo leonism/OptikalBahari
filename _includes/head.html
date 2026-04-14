@@ -19,6 +19,7 @@
   <link rel="preload" as="image" href="{{ page.background | cloudinary_url: 'c_fill,w_1200,h_600,g_auto,q_auto:eco,f_avif' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' }}" fetchpriority="high">
   {%- endif -%}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="text/markdown" href="{{ page.url | append: 'index.md' | absolute_url }}" title="Markdown version">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}" />
   <link rel="sitemap" type="application/xml" title="{{ site.title | escape }}" href="{{ '/sitemap.xml' | relative_url }}" />
   <link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/img/icons/favicon.ico' | relative_url }}" />
