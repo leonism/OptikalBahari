@@ -11,7 +11,7 @@ async function runPurgeCSS() {
     
     const purgecssResult = await new PurgeCSS().purge({
       content: [`${SITE_DIR}/**/*.html`, `${SITE_DIR}/**/*.js`],
-      css: [`${SITE_DIR}/**/*.css`],
+      css: [`${SITE_DIR}/assets/dist/styles.min.css`],
       safelist: {
         standard: ['html', 'body', 'fa-star', 'fa-solid', 'fa-regular', 'fas', 'far', 'rounded-circle', 'text-warning', 'text-muted', 'card', 'card-body', 'card-title', 'card-text'],
         deep: [
@@ -49,6 +49,16 @@ async function runPurgeCSS() {
           /visually-hidden/,
           /pointer/,
           /scrollbar/,
+          /dark-mode/,
+          /data-bs-theme/,
+          /icon-stack/,
+          /toggle-icon/,
+          /light-icon/,
+          /dark-icon/,
+          /navbar-actions-group/,
+          /btn-search-trigger/,
+          /is-fixed/,
+          /is-visible/,
           // Font Awesome and Bootstrap specifics
           /^fa-/,
           /^fas$/,

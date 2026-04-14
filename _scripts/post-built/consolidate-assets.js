@@ -356,6 +356,25 @@ async function main() {
       }
     }
 
+    // 7. Cleanup Orphaned Source Files
+    log('Cleaning up orphaned source assets...')
+    const allMergedFiles = [...cssFiles, ...jsFiles]
+    let deletedCount = 0
+    for (const file of allMergedFiles) {
+      if (!fs.existsSync(file)) continue
+      
+      try {
+        if (!argv.dryRun) {
+          await fs.unlink(file)
+        }
+        deletedCount++
+        debug(`Deleted orphaned file: ${file}`)
+      } catch (/** @type {any} */ e) {
+        debug(`Failed to delete orphaned file ${file}: ${e.message}`)
+      }
+    }
+    log(`Removed ${deletedCount} orphaned source files to reduce deployment size.`)
+
     log('Consolidation complete.')
   } catch (/** @type {any} */ e) {
     error(`Fatal Error: ${e.stack}`)

@@ -89,11 +89,11 @@ body.dark-mode .toggle-icon .dark-icon {
   display: none;
 }
 
-/* In light mode: show the moon icon (dark-icon) and hide the sun icon */
-body:not(.dark-mode) .toggle-icon .dark-icon {
+/* In light mode (Default base): show the moon icon (dark-icon) and hide the sun icon */
+.toggle-icon .dark-icon {
   display: inline-block;
   color: $light-text; // Dark gray for contrast
 }
-body:not(.dark-mode) .toggle-icon .light-icon {
+.toggle-icon .light-icon {
   display: none;
 }

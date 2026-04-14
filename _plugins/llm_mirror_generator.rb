@@ -80,6 +80,27 @@ module Jekyll
         heading_block += "# #{title}\n\n" if title && !title.to_s.empty?
         heading_block += "## #{desc}\n\n" if desc && !desc.to_s.empty?
 
+        url = doc.url.to_s.chomp("index.html")
+        url = "/#{url}" unless url.start_with?("/")
+        url = "#{url}/" unless url.end_with?("/")
+        
+        if url == "/testimoni/"
+          reviews = site.data["reviews_list"] || site.data["reviews"] || []
+          if reviews.any?
+            body += "\n\n### Semua Ulasan Pelanggan\n\n"
+            reviews.each do |r|
+              stars = r["stars"] || 5
+              name = r["name"] || "Pelanggan"
+              date = r["publishAt"] || ""
+              text = r["text"] || ""
+              next if text.to_s.strip.empty?
+
+              body += "**#{name}** (#{stars}/5 Bintang) - *#{date}*\n"
+              body += "> #{text.strip.gsub("\n", "\n> ")}\n\n"
+            end
+          end
+        end
+
         "#{frontmatter}\n\n#{heading_block}#{body}\n"
       end
 
@@ -123,15 +144,19 @@ module Jekyll
         text.gsub(/\n{3,}/, "\n\n").strip
       end
 
-      def process_node(node, base_url)
-        return node.text if node.text?
-
-        text = ""
-        node.children.each do |child|
-          text += process_node(child, base_url)
+      def process_node(node, base_url, in_pre = false)
+        if node.text?
+          return node.text if in_pre
+          return node.text.gsub(/\s+/, ' ')
         end
 
-        case node.name.downcase
+        text = ""
+        is_pre = in_pre || (node.name&.downcase == 'pre')
+        node.children.each do |child|
+          text += process_node(child, base_url, is_pre)
+        end
+
+        case node.name&.downcase
         when 'h1' then "\n# #{text.strip}\n\n"
         when 'h2' then "\n## #{text.strip}\n\n"
         when 'h3' then "\n### #{text.strip}\n\n"
@@ -142,7 +167,7 @@ module Jekyll
         when 'em', 'i' then "*#{text.strip}*"
         when 'blockquote' then "\n> #{text.strip.gsub("\n", "\n> ")}\n\n"
         when 'code'
-          if node.parent&.name&.downcase == 'pre'
+          if is_pre
             text
           else
             "`#{text.strip}`"
@@ -151,8 +176,32 @@ module Jekyll
         when 'hr' then "\n---\n\n"
         when 'a'
           href = node['href']
-          if href && href.start_with?('/') && !href.start_with?('//')
-            href = "#{base_url}#{href}"
+          if href
+            if href.start_with?('/') && !href.start_with?('//')
+              href = "#{base_url}#{href}"
+            end
+            
+            if href.start_with?(base_url)
+              parts = href.split('#', 2)
+              url_no_hash = parts[0]
+              hash = parts[1]
+              
+              q_parts = url_no_hash.split('?', 2)
+              base_path = q_parts[0]
+              query = q_parts[1]
+              
+              if base_path == base_url
+                 base_path = "#{base_url}/index.md"
+              elsif base_path.end_with?('/')
+                 base_path = "#{base_path}index.md"
+              elsif !base_path.match?(/\.[a-zA-Z0-9]+$/)
+                 base_path = "#{base_path}/index.md"
+              end
+              
+              href = base_path
+              href += "?#{query}" if query
+              href += "##{hash}" if hash
+            end
           end
           href ? "[#{text.strip}](#{href})" : text
         when 'img'
