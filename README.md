@@ -216,6 +216,8 @@ build_command:
 - JEKYLL_ENV=production bundle exec jekyll serve --verbose && npm run postbuild && bundle exec jekyll algolia
 - npm install && JEKYLL_ENV=production bundle exec jekyll serve --verbose && npm run postbuild
 - npm run fetchreviews && npm install && JEKYLL_ENV=production bundle exec jekyll build --verbose && npm run postbuild && bundle exec jekyll algolia
+- JEKYLL_ENV=production && bundle exec jekyll clean && bundle exec jekyll build && npm run postbuild && bundle exec jekyll serve
+- export JEKYLL_ENV=production && bundle exec jekyll clean && bundle exec jekyll build && npm run postbuild && bundle exec jekyll serve --no-build
 ```
 
 ### Code Formating Command
@@ -226,4 +228,39 @@ npx prettier --write "**/*.md"
 npx prettier --check "**/*.{html,md}"
 npx prettier --write _includes/home/home-cards-main.html
 npx prettier --write _includes/home/home-cards-main.html
+```
+
+I've identified that the issue where Jekyll production build output files are not being minified is
+due to how the environment variable is being set and the subsequent jekyll serve command.
+Specifically:
+
+1. Environment Variable Export: Using JEKYLL_ENV=production && ... in many shells (like Bash or Zsh)
+   sets the variable for the current shell session but does not export it to sub-processes like
+   bundle exec jekyll build. This causes Jekyll to default to the development environment, which
+   skips minification.
+2. Overwriting Build: The final bundle exec jekyll serve command in your sequence rebuilds the site
+   in development mode by default, overwriting the minified production files that were just
+   generated.
+
+Recommended Fix
+
+To properly build and serve your production site with minification, use the following command
+sequence:
+
+`export JEKYLL_ENV=production && bundle exec jekyll clean && bundle exec jekyll build && npm run postbuild && bundle exec jekyll serve --no-build`
+
+Alternatively, you can add a production build script to your `package.json` to simplify this:
+
+```json
+"scripts": {
+"build:prod": "export JEKYLL_ENV=production && bundle exec jekyll clean && bundle exec jekyll build && npm run postbuild --skip-initial-build"
+}
+
+Technical Findings
+
+* HTML Minification: Handled by the compress_html layout (_layouts/compress.html), which explicitly ignores local and development environments based on your _config.yml settings.
+* JS/CSS Minification: Handled by the jekyll-minifier plugin and further optimized/consolidated by the npm run postbuild script (_scripts/post-built/consolidate-assets.js). These also depend on the production environment to be fully effective.
+* Asset Consolidation: The postbuild script successfully merges and minifies CSS/JS into assets/dist/styles.min.css and assets/dist/scripts.min.js, and then runs PurgeCSS to remove unused styles.
+
+I have verified that running the build with export JEKYLL_ENV=production correctly produces minified HTML, CSS, and JS files.
 ```
