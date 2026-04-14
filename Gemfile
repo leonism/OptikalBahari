@@ -3,6 +3,7 @@ gem "jekyll", "~> 4.4.1"
 gem 'concurrent-ruby', '~> 1.2'
 gem 'json', '2.18.1'
 gem 'google-protobuf', '4.33.5'
+gem "zstd-ruby", "~> 2.0"
 gem "csv"
 gem "base64"
 gem 'brotli'

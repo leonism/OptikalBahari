@@ -195,11 +195,11 @@ async function main() {
 
   runAssetConsolidation()
   await runPurgeCSS()
-  runCriticalCSS()
-  runServiceWorker()
-  runImageOptimization()
-  generateSRIHashes()
-  runHTMLMinification()
+  // runCriticalCSS()
+  // runServiceWorker()
+  // runImageOptimization()
+  // generateSRIHashes()
+  // runHTMLMinification()
 
   const duration = ((Date.now() - startTime) / 1000).toFixed(2)
   console.log('\n' + '='.repeat(60))
