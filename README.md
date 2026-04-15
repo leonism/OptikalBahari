@@ -247,7 +247,8 @@ Recommended Fix
 To properly build and serve your production site with minification, use the following command
 sequence:
 
-`export JEKYLL_ENV=production && bundle exec jekyll clean && bundle exec jekyll build && npm run postbuild && bundle exec jekyll serve --no-build`
+- `export JEKYLL_ENV=production && bundle exec jekyll clean && bundle exec jekyll build && npm run postbuild && bundle exec jekyll serve --no-build`
+- `npm install && bundle exec jekyll clean && JEKYLL_ENV=production bundle exec jekyll build && npm run postbuild`
 
 Alternatively, you can add a production build script to your `package.json` to simplify this:
 
