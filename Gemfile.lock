@@ -166,6 +166,7 @@ GEM
     verbal_expressions (0.1.5)
     webrick (1.9.2)
     zlib (3.2.2)
+    zstd-ruby (2.0.6)
 
 PLATFORMS
   ruby
@@ -193,6 +194,7 @@ DEPENDENCIES
   jekyll-sitemap (~> 1.4)
   json (= 2.18.1)
   zlib
+  zstd-ruby
 
 BUNDLED WITH
    2.6.5

@@ -7,6 +7,7 @@ gem "csv"
 gem "base64"
 gem 'brotli'
 gem "zlib"
+gem 'zstd-ruby'
 gem 'fiddle'
 
 group :jekyll_plugins do
