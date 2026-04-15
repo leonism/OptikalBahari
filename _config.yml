@@ -91,12 +91,12 @@ pagination:
 compress_html:
   clippings: all
   comments: all
-  endings: all
+  endings: []
   ignore:
     envs: [local, development]
   blanklines: false
   profile: false
-  startings: [html, head, body]
+  startings: []
 
 # CSS Compression
 sass:
@@ -199,7 +199,7 @@ jekyll-minifier:
   html:
     enable: true
     remove_comments: true
-    compress: true
+    compress: false
     preserve_line_breaks: false
   exclude:
     - "*.min.js"
