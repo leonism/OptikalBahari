@@ -6,6 +6,7 @@ async function main() {
   const { glob } = await import('glob')
   const cheerio = await import('cheerio')
   const { minify: terserMinify } = await import('terser')
+  const { minify: htmlMinify } = await import('html-minifier-terser')
   const { default: yargs } = await import('yargs/yargs')
   const { hideBin } = await import('yargs/helpers')
   const CleanCSS = require('clean-css')
@@ -346,13 +347,34 @@ async function main() {
         modified = true
       }
 
-      if (modified) {
-        if (!argv.dryRun) {
-          await fs.writeFile(file, $page.html())
-          debug(`Updated ${file}`)
-        } else {
-          debug(`[DRY RUN] Would update ${file}`)
+      // Always minify the HTML if not in dry-run, to ensure consistency
+      if (!argv.dryRun) {
+        try {
+          const processedHtml = $page.html()
+          const minifiedHtml = await htmlMinify(processedHtml, {
+            collapseWhitespace: true,
+            removeComments: true,
+            minifyJS: true,
+            minifyCSS: true,
+            removeAttributeQuotes: false,
+            removeRedundantAttributes: true,
+            useShortDoctype: true,
+            removeEmptyAttributes: true,
+            removeOptionalTags: false
+          })
+          await fs.writeFile(file, minifiedHtml)
+          if (modified) debug(`Updated and minified ${file}`)
+          else debug(`Minified ${file}`)
+        } catch (/** @type {any} */ e) {
+          error(`Failed to minify ${file}: ${e.message}`)
+          // Fallback to writing non-minified if minification fails
+          if (modified) {
+            await fs.writeFile(file, $page.html())
+            debug(`Updated (failed to minify) ${file}`)
+          }
         }
+      } else if (modified) {
+        debug(`[DRY RUN] Would update and minify ${file}`)
       }
     }
 

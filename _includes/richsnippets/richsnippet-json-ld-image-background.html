@@ -35,7 +35,7 @@
 
 {%- comment -%}
   4. Extract image src values from rendered post content.
-     BUG-3 FIX: Only accept known image extensions — skip JS, iframes, data URIs.
+  BUG-3 FIX: Only accept known image extensions — skip JS, iframes, data URIs.
 {%- endcomment -%}
 {%- assign src_splits = page.content | split: 'src="' -%}
 {%- for split_part in src_splits -%}
@@ -52,8 +52,8 @@
 
 {%- comment -%}
   6. Output as @graph JSON-LD.
-     BUG-5 FIX: Single canonical @context with no trailing slash.
-     BUG-7 FIX: @graph pattern — one @context, clean array of nodes.
+  BUG-5 FIX: Single canonical @context with no trailing slash.
+  BUG-7 FIX: @graph pattern — one @context, clean array of nodes.
 {%- endcomment -%}
 {%- if final_images.size > 0 -%}
 <script type="application/ld+json">
@@ -62,8 +62,9 @@
   "@graph": [
     {%- assign is_first_item = true -%}
     {%- for raw_img in final_images -%}
-
-      {%- comment -%} Skip base64 strings or empty values {%- endcomment -%}
+      {%- comment -%}
+        Skip base64 strings or empty values
+      {%- endcomment -%}
       {%- if raw_img == blank or raw_img contains 'data:image' -%}
         {%- continue -%}
       {%- endif -%}
