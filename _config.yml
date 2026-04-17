@@ -128,6 +128,7 @@ asset_processor:
     zero_copy: true
   compression:
     enabled: true
+<<<<<<< HEAD
     brotli:
       enabled: true
       quality: 11
@@ -141,6 +142,11 @@ asset_processor:
       level: 3
 =======
       level: 19
+>>>>>>> stable-0.4.6
+=======
+    brotli: { enabled: true, quality: 11, window: 22 }
+    gzip: { enabled: true, level: 8 }
+    zstd: { enabled: true, level: 19 }
 >>>>>>> stable-0.4.6
     chunk_size: 65536
     min_file_size: 1024
