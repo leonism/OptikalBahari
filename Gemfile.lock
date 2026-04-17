@@ -165,12 +165,7 @@ GEM
     uri (1.1.1)
     verbal_expressions (0.1.5)
     webrick (1.9.2)
-<<<<<<< HEAD
-    zlib (3.2.2)
-    zstd-ruby (2.0.6)
-=======
     zlib (3.2.3)
->>>>>>> stable-0.4.6
 
 PLATFORMS
   ruby
