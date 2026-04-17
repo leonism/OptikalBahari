@@ -1,5 +1,3 @@
-@import "variables";
-
 // Unified Action Group Styling (Search + Toggle + Burger)
 .navbar-actions-group {
   display: flex !important;
@@ -50,24 +48,21 @@
       justify-content: center !important;
     }
 
-    // The background circle — match footer icon circle color
+    // The background circle — light mode default: translucent white
     .icon-stack-bg {
-      color: $dark-accent !important; // #1a2332 — same as footer social icon circles
+      color: rgba(255, 255, 255, 0.85) !important;
       width: 32px !important;
       height: 32px !important;
       z-index: 1 !important;
-
-      @media (max-width: 991px) {
-        color: darken($dark-accent, 5%) !important;
-      }
     }
 
     // The inner symbols (Moon, Sun, Search)
+    // Light mode default: dark icon on white circle
     .icon-stack-fg,
     .search-icon-inner,
     .light-icon,
     .dark-icon {
-      color: $white !important; // White on dark circle background
+      color: $gray-800 !important; // Dark icon on white circle (light mode default)
       width: 16px !important; // 50% of the circle size
       height: 16px !important;
       z-index: 2 !important;
@@ -111,10 +106,8 @@ body.dark-mode .navbar-actions-group .toggle-icon {
 }
 
 // Light Mode (Default Base Style): white translucent circle, dark icon for contrast
+// NOTE: .icon-stack-bg color is now set in the base block above to avoid specificity conflicts.
 .navbar-actions-group .toggle-icon {
-  .icon-stack-bg {
-    color: rgba(255, 255, 255, 0.85) !important; // Translucent white
-  }
   .icon-stack-fg,
   .search-icon-inner,
   .light-icon,

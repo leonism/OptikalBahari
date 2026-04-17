@@ -91,12 +91,12 @@ pagination:
 compress_html:
   clippings: all
   comments: all
-  endings: all
+  endings: []
   ignore:
     envs: [local, development]
   blanklines: false
   profile: false
-  startings: [html, head, body]
+  startings: []
 
 # CSS Compression
 sass:
@@ -137,7 +137,11 @@ asset_processor:
       level: 8
     zstd:
       enabled: true
+<<<<<<< HEAD
       level: 3
+=======
+      level: 19
+>>>>>>> stable-0.4.6
     chunk_size: 65536
     min_file_size: 1024
     file_types:
@@ -179,8 +183,13 @@ asset_processor:
       - .eot
   analysis:
     critical_assets:
-      - assets/main.css
-      - assets/js/app.js
+      - assets/js/scripts.js
+      - assets/vendor/bootstrap-5.3.8-dist/css/bootstrap-grid.min.css
+      - assets/vendor/bootstrap-5.3.8-dist/css/bootstrap-reboot.min.css
+      - assets/vendor/bootstrap-5.3.8-dist/css/bootstrap-utilities.min.css
+      - assets/vendor/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js
+      - assets/vendor/startbootstrap-clean-blog/js/clean-blog.js
+      - assets/vendor/instant-search/satellite-min.css
     scan_directories:
       - assets
       - css

@@ -19,7 +19,7 @@ group :jekyll_plugins do
   gem "jekyll-image-size", "~> 1.2.1"
   gem "cloudinary", "~> 2.3.1"
   gem "dotenv", "~> 3.1"
-  gem "jekyll-minifier", "~> 0.1.10"
+  gem "jekyll-minifier", "~> 0.2.0"
   gem "colorize", "~> 1.1"
   gem "jekyll-algolia", "~> 1.7"
 end

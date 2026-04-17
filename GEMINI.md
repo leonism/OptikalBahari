@@ -62,7 +62,7 @@ JEKYLL_ENV=production bundle exec jekyll build
 _Note: The `_config.yml` defines a custom build command that also runs a post-build script:_
 
 ```bash
-bundle exec jekyll build && bash _scripts/post-built/post-build.sh
+JEKYLL_ENV=production bundle exec jekyll build && npm run postbuild
 ```
 
 ## Project Structure
@@ -86,8 +86,7 @@ bundle exec jekyll build && bash _scripts/post-built/post-build.sh
   - SCSS files are located in `_sass/` or `assets/css/` (check `assets/main.scss`).
   - Use Bootstrap classes where applicable.
 - **Assets:**
-  - Images are often managed via Cloudinary (check `_plugins/cloudinary.rb` and
-    `_docs/CLOUDINARY_*.md`).
+  - Images are managed via Cloudinary (check `_plugins/cloudinary.rb` and `_docs/CLOUDINARY_*.md`).
   - Local assets should be optimized.
 - **Performance:**
   - The project uses `smart_asset_cache.yml` and extensive compression settings in `_config.yml`.
