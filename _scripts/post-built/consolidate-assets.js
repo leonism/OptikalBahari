@@ -55,12 +55,14 @@ async function main() {
     }
     log(`Found ${htmlFiles.length} HTML files.`)
 
-    // 3. Global Asset Discovery (Scan ALL HTML files to catch everything)
+    // 3. Global Asset Discovery
     log('Discovering assets across all pages...')
     /** @type {Set<string>} */
     const cssFilesSet = new Set()
     /** @type {Set<string>} */
     const jsFilesSet = new Set()
+    /** @type {Set<string>} */
+    const keepFilesSet = new Set() // Assets referenced but explicitly excluded from merge
 
     for (const file of htmlFiles) {
       const content = await fs.readFile(file, 'utf8')
@@ -72,26 +74,36 @@ async function main() {
         if (href && isLocalAsset(href)) {
           const resolved = resolvePath(href, file, SITE_DIR)
           if (resolved.endsWith('styles.min.css')) return
-          if (fs.existsSync(resolved)) cssFilesSet.add(resolved)
+          
+          if ($(el).attr('data-merge') === 'false') {
+            keepFilesSet.add(resolved)
+          } else if (fs.existsSync(resolved)) {
+            cssFilesSet.add(resolved)
+          }
         }
       })
 
       // Find JS
       $('script[src]').each((i, el) => {
         const src = $(el).attr('src')
-        const dataMerge = $(el).attr('data-merge')
-        if (src && isLocalAsset(src) && dataMerge !== 'false') {
+        if (src && isLocalAsset(src)) {
           const resolved = resolvePath(src, file, SITE_DIR)
           if (resolved.endsWith('scripts.min.js')) return
-          if (fs.existsSync(resolved)) jsFilesSet.add(resolved)
+          
+          if ($(el).attr('data-merge') === 'false') {
+            keepFilesSet.add(resolved)
+          } else if (fs.existsSync(resolved)) {
+            jsFilesSet.add(resolved)
+          }
         }
       })
     }
 
     const cssFiles = Array.from(cssFilesSet)
     const jsFiles = Array.from(jsFilesSet)
+    const keepFiles = Array.from(keepFilesSet)
 
-    log(`Identified ${cssFiles.length} CSS files and ${jsFiles.length} JS files to merge.`)
+    log(`Identified ${cssFiles.length} CSS and ${jsFiles.length} JS files to merge. Keeping ${keepFiles.length} files as-is.`)
 
     // 4. Process CSS
     let finalCss = ''
@@ -101,49 +113,33 @@ async function main() {
       for (const file of cssFiles) {
         try {
           const content = await fs.readFile(file, 'utf8')
-
           // Rebase URLs
           const rebasedContent = content.replace(/url\s*\((?:'|")?([^\)'"]+)(?:'|")?\)/g, (match, url) => {
             url = url.trim()
             if (url.startsWith('data:') || url.startsWith('http') || url.startsWith('//') || url.startsWith('/')) {
               return match
             }
-
             const sourceDir = path.dirname(file)
             const absoluteTarget = path.resolve(sourceDir, url)
             let newUrl = path.relative(DIST_DIR, absoluteTarget)
             newUrl = newUrl.split(path.sep).join('/')
-
             return `url('${newUrl}')`
           })
-
           rawCss += rebasedContent + '\n'
         } catch (/** @type {any} */ e) {
-          error(`Failed to read CSS file: ${file} - ${e.message}`)
+          error(`Failed to read CSS file: ${file}`)
         }
       }
-
-      const originalSize = Buffer.byteLength(rawCss, 'utf8')
       const output = new CleanCSS({ level: 1, rebase: false }).minify(rawCss)
       finalCss = output.styles
-
-      // Font-display swap
       if (finalCss.includes('@font-face')) {
         finalCss = finalCss.replace(/@font-face\s*{([^}]+)}/g, (match, contents) => {
-          if (contents.includes('font-display')) {
-            return `@font-face{${contents.replace(/font-display\s*:\s*([^;]+)/, 'font-display:swap')}}`
-          } else {
-            return `@font-face{font-display:swap;${contents}}`
-          }
+          return contents.includes('font-display') ? 
+            `@font-face{${contents.replace(/font-display\s*:\s*([^;]+)/, 'font-display:swap')}}` : 
+            `@font-face{font-display:swap;${contents}}`
         })
       }
-
-      const minifiedSize = Buffer.byteLength(finalCss, 'utf8')
-      log(`CSS Optimization: ${(originalSize / 1024).toFixed(2)} KB -> ${(minifiedSize / 1024).toFixed(2)} KB`)
-
-      if (!argv.dryRun) {
-        await fs.writeFile(path.join(DIST_DIR, 'styles.min.css'), finalCss)
-      }
+      if (!argv.dryRun) await fs.writeFile(path.join(DIST_DIR, 'styles.min.css'), finalCss)
     }
 
     // 5. Process JS
@@ -155,161 +151,109 @@ async function main() {
           const content = await fs.readFile(file, 'utf8')
           combinedJs += content + ';\n'
         } catch (/** @type {any} */ e) {
-          error(`Failed to read JS file: ${file} - ${e.message}`)
+          error(`Failed to read JS file: ${file}`)
         }
       }
-
-      const originalSize = Buffer.byteLength(combinedJs, 'utf8')
       try {
         const result = await terserMinify(combinedJs, {
           compress: { drop_console: true, drop_debugger: true },
           mangle: true,
         })
-
-        if (result.code) {
-          const minifiedSize = Buffer.byteLength(result.code, 'utf8')
-          log(`JS Optimization: ${(originalSize / 1024).toFixed(2)} KB -> ${(minifiedSize / 1024).toFixed(2)} KB`)
-
-          if (!argv.dryRun) {
-            await fs.writeFile(path.join(DIST_DIR, 'scripts.min.js'), result.code)
-          }
-        }
+        if (result.code && !argv.dryRun) await fs.writeFile(path.join(DIST_DIR, 'scripts.min.js'), result.code)
       } catch (/** @type {any} */ e) {
         error(`Terser Minification Failed: ${e.message}`)
       }
     }
 
-    // 6. Update HTML References
-    log('Updating HTML references and minifying...')
+    // 6. Update HTML References and Minify
+    log('Updating HTML references and applying final minification...')
     for (const file of htmlFiles) {
       const originalHtml = await fs.readFile(file, 'utf8')
       const $page = cheerio.load(originalHtml)
       let modified = false
 
-      // Replace CSS
+      // Update CSS
       if (cssFiles.length > 0) {
         const cssLinks = $page('link[rel="stylesheet"], link[rel="preload"][as="style"]').filter((i, el) => {
           const href = $page(el).attr('href')
-          return !!(href && cssFiles.includes(resolvePath(href, file, SITE_DIR)))
+          if (!href || $page(el).attr('data-merge') === 'false') return false
+          const resolved = resolvePath(href, file, SITE_DIR)
+          return cssFiles.includes(resolved)
         })
-
         if (cssLinks.length > 0) {
-          const firstLink = cssLinks.first()
-          firstLink.before(`<link rel="stylesheet" href="/assets/dist/styles.min.css">`)
+          cssLinks.first().before(`<link rel="stylesheet" href="/assets/dist/styles.min.css">`)
           cssLinks.remove()
           modified = true
         }
       }
 
-      // Replace JS
+      // Update JS
       if (jsFiles.length > 0) {
         const jsScripts = $page('script[src]').filter((i, el) => {
           const src = $page(el).attr('src')
-          if (!src) return false
+          if (!src || $page(el).attr('data-merge') === 'false') return false
           const resolved = resolvePath(src, file, SITE_DIR)
           return jsFiles.includes(resolved) || src.includes('scripts.min.js')
         })
-
         if (jsScripts.length > 0) {
-          const lastScript = jsScripts.last()
-          lastScript.after('<script defer src="/assets/dist/scripts.min.js"></script>')
+          jsScripts.last().after('<script defer src="/assets/dist/scripts.min.js"></script>')
           jsScripts.remove()
           modified = true
         }
       }
 
-      // GTM Obfuscation & Lazy Loading
+      // GTM Fix
       const gtmScripts = $page('script:not([src])').filter((i, el) => {
         const content = $page(el).html()
         return !!(content && (content.includes('gtm.start') || content.includes('GTM-')))
       })
-
       if (gtmScripts.length > 0) {
         gtmScripts.each((i, el) => {
           let content = $page(el).html() || ''
           content = content.replace(/['"]https:\/\/www\.googletagmanager\.com\/gtm\.js\?id=['"]/g, "'https://www.google' + 'tagmanager.com/gtm.js?id='")
-          const lazyGTM = `
-<script>
-  let gtmFired = false;
-  function fireGTM() {
-    if (gtmFired) return;
-    gtmFired = true;
-    ${content}
-  }
-  ['scroll', 'mousemove', 'touchstart', 'keydown'].forEach(function(e) {
-    document.addEventListener(e, fireGTM, { passive: true, once: true });
-  });
-  if (window.requestIdleCallback) {
-    window.requestIdleCallback(function() { setTimeout(fireGTM, 3000); });
-  } else {
-    setTimeout(fireGTM, 3500);
-  }
-</script>`.trim()
+          const lazyGTM = `<script>let gtmFired=false;function fireGTM(){if(gtmFired)return;gtmFired=true;${content}}['scroll','mousemove','touchstart','keydown'].forEach(e=>document.addEventListener(e,fireGTM,{passive:true,once:true}));if(window.requestIdleCallback)window.requestIdleCallback(()=>setTimeout(fireGTM,3000));else setTimeout(fireGTM,3500);</script>`
           $page('body').append('\n' + lazyGTM + '\n')
           $page(el).remove()
         })
         modified = true
       }
 
-      // Minify HTML
       if (!argv.dryRun) {
         try {
-          const minifiedHtml = await htmlMinify($page.html(), {
+          const minified = await htmlMinify($page.html(), {
             collapseWhitespace: true,
             removeComments: true,
             minifyJS: true,
             minifyCSS: true,
-            removeRedundantAttributes: true,
             useShortDoctype: true,
             removeEmptyAttributes: true,
           })
-          await fs.writeFile(file, minifiedHtml)
+          await fs.writeFile(file, minified)
         } catch (/** @type {any} */ e) {
-          error(`Failed to minify ${file}: ${e.message}`)
           await fs.writeFile(file, $page.html())
         }
       }
     }
 
-    // 7. Extended Cleanup & Pruning
-    log('Cleaning up orphaned source assets...')
-    const allMergedFiles = [...cssFiles, ...jsFiles]
+    // 7. Surgical Cleanup
+    log('Cleaning up consolidated assets...')
     let deletedCount = 0
-
-    // Phase 1: Delete merged files and their sidecars
-    for (const file of allMergedFiles) {
+    // Only delete files that were actually merged and aren't in the keep list
+    const filesToDelete = [...cssFiles, ...jsFiles].filter(f => !keepFilesSet.has(f))
+    
+    for (const file of filesToDelete) {
       const sidecars = [file, `${file}.br`, `${file}.gz`, `${file}.zst`]
       for (const sidecar of sidecars) {
         if (fs.existsSync(sidecar)) {
           try {
             if (!argv.dryRun) await fs.unlink(sidecar)
             deletedCount++
-          } catch (e) {}
+          } catch (/** @type {any} */ e) {}
         }
       }
     }
 
-    // Phase 2: Sweep and remove remaining original files that were missed but should have been merged
-    // (e.g., unhashed versions left behind by AssetProcessor)
-    const assetsToPrune = await glob(`${SITE_DIR}/assets/**/*.{css,js}`)
-    for (const file of assetsToPrune) {
-      const relative = path.relative(SITE_DIR, file)
-      // Never delete the consolidated results
-      if (relative.startsWith('assets/dist/')) continue
-      
-      try {
-        if (!argv.dryRun) {
-          await fs.unlink(file)
-          // Also try to delete compressed versions
-          for (const ext of ['.br', '.gz', '.zst']) {
-            if (fs.existsSync(`${file}${ext}`)) await fs.unlink(`${file}${ext}`)
-          }
-        }
-        deletedCount++
-      } catch (e) {}
-    }
-
-    log(`Removed ${deletedCount} source/extra asset files.`)
+    log(`Removed ${deletedCount} merged asset files.`)
     log('Consolidation complete.')
   } catch (/** @type {any} */ e) {
     error(`Fatal Error: ${e.stack}`)
@@ -322,9 +266,7 @@ async function main() {
  * @returns {boolean}
  */
 function isLocalAsset(url) {
-  if (url.match(/^https?:\/\//)) return false
-  if (url.match(/^\/\//)) return false
-  return true
+  return !url.match(/^https?:\/\//) && !url.match(/^\/\//)
 }
 
 /**
@@ -335,13 +277,7 @@ function isLocalAsset(url) {
  */
 function resolvePath(url, sourceFile, siteDir) {
   let cleanUrl = url.split('?')[0]
-  if (cleanUrl.startsWith('/')) {
-    // If it starts with /, it is relative to site root
-    return path.join(siteDir, cleanUrl)
-  } else {
-    // Otherwise it is relative to the current file
-    return path.join(path.dirname(sourceFile), cleanUrl)
-  }
+  return cleanUrl.startsWith('/') ? path.join(siteDir, cleanUrl) : path.join(path.dirname(sourceFile), cleanUrl)
 }
 
 main()
