@@ -218,7 +218,8 @@ build_command:
 - npm run fetchreviews && npm install && JEKYLL_ENV=production bundle exec jekyll build --verbose && npm run postbuild && bundle exec jekyll algolia
 - JEKYLL_ENV=production && bundle exec jekyll clean && bundle exec jekyll build && npm run postbuild && bundle exec jekyll serve
 - export JEKYLL_ENV=production && bundle exec jekyll clean && bundle exec jekyll build && npm run postbuild && bundle exec jekyll serve --no-build
-- export JEKYLL_ENV=production && bundle exec jekyll clean && bundle exec jekyll build && npm run postbuild && bundle exec jekyll serve -e production --watch --incremental --port 4000
+- export JEKYLL_ENV=production && bundle exec jekyll clean && bundle exec jekyll build && npm run postbuild && bundle exec jekyll serve --watch --incremental --port 4000
+- export JEKYLL_ENV=production && bundle exec jekyll clean && bundle exec jekyll build && npm run postbuild && bundle exec jekyll serve --watch --incremental --port 4000
 ```
 
 ### Code Formating Command
