@@ -4,7 +4,6 @@ require 'set'
 require 'fileutils'
 require 'zlib'
 require 'brotli'
-require 'zstd-ruby'
 require 'thread'
 require 'concurrent-ruby'
 require 'digest'
@@ -30,14 +29,9 @@ module AssetProcessor
         },
         'zstd' => {
           'enabled' => true,
-<<<<<<< HEAD
-          'level' => 3  # 1-22, higher = better compression
-        },
-=======
           'level' => 19  # 1-19, higher = better compression
         },
         'chunk_size' => 65536,
->>>>>>> stable-0.4.6
         'min_file_size' => 2048,  # Only compress files larger than this (bytes)
         'file_types' => %w[.css .js .html .svg .txt .xml .json]
       },
@@ -121,9 +115,6 @@ module AssetProcessor
 
       gzip_level = get('compression.gzip.level')
       raise "Gzip level must be between 1-9" if gzip_level && (gzip_level < 1 || gzip_level > 9)
-
-      zstd_level = get('compression.zstd.level')
-      raise "Zstd level must be between 1-22" if zstd_level && (zstd_level < 1 || zstd_level > 22)
 
       # Validate thread pool sizes
       thread_size = get('performance.thread_pool_size')
@@ -501,17 +492,6 @@ module AssetProcessor
         end
       end
 
-<<<<<<< HEAD
-      # Configurable Zstd compression
-      if @config.enabled?('compression.zstd')
-        futures << Concurrent::Future.execute(executor: thread_pool) do
-          begin
-            level = @config.get('compression.zstd.level')
-            zstd_content = Zstd.compress(original_content, level: level)
-            zstd_path = "#{file_path}.zst"
-            File.binwrite(zstd_path, zstd_content)
-            File.basename(zstd_path)
-=======
       # Configurable Zstd compression (using system command)
       if @config.enabled?('compression.zstd') && zstd_available?
         futures << Concurrent::Future.execute(executor: thread_pool) do
@@ -521,7 +501,6 @@ module AssetProcessor
             # Using system call for zstd since we don't have the gem in Gemfile
             system("zstd -qf -#{level} -T0 \"#{file_path}\" -o \"#{zstd_path}\"")
             File.exist?(zstd_path) ? File.basename(zstd_path) : nil
->>>>>>> stable-0.4.6
           rescue => e
             puts "Warning: Zstd compression failed for #{file_path}: #{e.message}" if @config.get('output.verbose')
             nil
@@ -552,7 +531,7 @@ module AssetProcessor
           hashed_path = @manifest[original_path]
           full_hashed_path = File.join(@site_dir, hashed_path)
 
-          [full_hashed_path, "#{full_hashed_path}.br", "#{full_hashed_path}.gz", "#{full_hashed_path}.zst"].each do |file|
+          [full_hashed_path, "#{full_hashed_path}.br", "#{full_hashed_path}.gz"].each do |file|
             File.delete(file) if File.exist?(file)
           end
 
@@ -645,7 +624,7 @@ module AssetProcessor
       puts "Compressed: #{@stats[:compressed]} files"
       puts "Processing time: #{@stats[:processing_time].round(2)}s"
       puts "[OK] Manifest saved with #{@manifest.size} asset mappings"
-      puts "[CONFIG] Configuration: #{@config.get('compression.brotli.quality')} Brotli quality, #{@config.get('compression.gzip.level')} Gzip level, #{@config.get('compression.zstd.level')} Zstd level"
+      puts "[CONFIG] Configuration: #{@config.get('compression.brotli.quality')} Brotli quality, #{@config.get('compression.gzip.level')} Gzip level"
       puts "=" * 60
     end
   end
