@@ -27,6 +27,11 @@ module AssetProcessor
           'enabled' => true,
           'level' => Zlib::DEFAULT_COMPRESSION  # 1-9, higher = better compression
         },
+        'zstd' => {
+          'enabled' => true,
+          'level' => 19  # 1-19, higher = better compression
+        },
+        'chunk_size' => 65536,
         'min_file_size' => 2048,  # Only compress files larger than this (bytes)
         'file_types' => %w[.css .js .html .svg .txt .xml .json]
       },
@@ -51,13 +56,11 @@ module AssetProcessor
       # Asset analysis settings
       'analysis' => {
         'critical_assets' => [
-          'assets/main.css',
           'assets/js/scripts.js',
-          'assets/vendor/bootstrap/css/bootstrap.min.css',
-          'assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
-          'assets/vendor/jquery/jquery.min.js',
-          'assets/vendor/fontawesome-free/css/all.min.css',
-          'assets/vendor/font-awesome-4.5.0/css/font-awesome.min.css',
+          'assets/vendor/bootstrap-5.3.8-dist/css/bootstrap-grid.min.css',
+          'assets/vendor/bootstrap-5.3.8-dist/css/bootstrap-reboot.min.css',
+          'assets/vendor/bootstrap-5.3.8-dist/css/bootstrap-utilities.min.css',
+          'assets/vendor/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js',
           'assets/vendor/startbootstrap-clean-blog/js/clean-blog.js'
         ],
         'scan_directories' => ['assets', 'css', 'js'],
@@ -138,7 +141,7 @@ module AssetProcessor
     end
 
     def analyze_usage
-      puts "  [ANALYSIS] Analyzing asset usage with custom configuration..." if @config.get('output.verbose')
+      puts "[ANALYSIS] Analyzing asset usage with custom configuration..." if @config.get('output.verbose')
 
       # Add critical assets immediately
       @critical_assets.each { |asset| @used_assets.add(asset) }
@@ -316,6 +319,10 @@ module AssetProcessor
       display_stats if @config.get('output.show_stats')
     end
 
+    def zstd_available?
+      @zstd_available ||= system('zstd -V > /dev/null 2>&1')
+    end
+
     private
 
     def process_assets_parallel(used_assets)
@@ -480,6 +487,22 @@ module AssetProcessor
             File.basename(gzip_path)
           rescue => e
             puts "Warning: Gzip compression failed for #{file_path}: #{e.message}" if @config.get('output.verbose')
+            nil
+          end
+        end
+      end
+
+      # Configurable Zstd compression (using system command)
+      if @config.enabled?('compression.zstd') && zstd_available?
+        futures << Concurrent::Future.execute(executor: thread_pool) do
+          begin
+            level = @config.get('compression.zstd.level') || 19
+            zstd_path = "#{file_path}.zst"
+            # Using system call for zstd since we don't have the gem in Gemfile
+            system("zstd -qf -#{level} -T0 \"#{file_path}\" -o \"#{zstd_path}\"")
+            File.exist?(zstd_path) ? File.basename(zstd_path) : nil
+          rescue => e
+            puts "Warning: Zstd compression failed for #{file_path}: #{e.message}" if @config.get('output.verbose')
             nil
           end
         end

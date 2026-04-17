@@ -135,6 +135,9 @@ asset_processor:
     gzip:
       enabled: true
       level: 8
+    zstd:
+      enabled: true
+      level: 19
     chunk_size: 65536
     min_file_size: 1024
     file_types:
@@ -176,8 +179,13 @@ asset_processor:
       - .eot
   analysis:
     critical_assets:
-      - assets/main.css
-      - assets/js/app.js
+      - assets/js/scripts.js
+      - assets/vendor/bootstrap-5.3.8-dist/css/bootstrap-grid.min.css
+      - assets/vendor/bootstrap-5.3.8-dist/css/bootstrap-reboot.min.css
+      - assets/vendor/bootstrap-5.3.8-dist/css/bootstrap-utilities.min.css
+      - assets/vendor/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js
+      - assets/vendor/startbootstrap-clean-blog/js/clean-blog.js
+      - assets/vendor/instant-search/satellite-min.css
     scan_directories:
       - assets
       - css
@@ -199,7 +207,7 @@ jekyll-minifier:
   html:
     enable: true
     remove_comments: true
-    compress: false
+    compress: true
     preserve_line_breaks: false
   exclude:
     - "*.min.js"

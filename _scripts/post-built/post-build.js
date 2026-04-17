@@ -135,19 +135,29 @@ async function runAssetCompression() {
     }
 
     if (isCommandAvailable('zstd -V')) {
-      try {
-        console.log(`  ${colors.dim}Running Zstd compression concurrently...${colors.reset}`)
-        const chunkSize = 200;
-        for (let i = 0; i < total; i += chunkSize) {
-          const chunk = textAssets.slice(i, i + chunkSize);
-          const validAssets = chunk.filter(f => !f.endsWith('.br') && !f.endsWith('.zst'));
-          if (validAssets.length === 0) continue;
-          
+      console.log(`  ${colors.dim}Running Zstd compression...${colors.reset}`)
+      const chunkSize = 50; // Smaller chunk size for better reliability
+      for (let i = 0; i < total; i += chunkSize) {
+        const chunk = textAssets.slice(i, i + chunkSize);
+        const validAssets = chunk.filter(f => !f.endsWith('.br') && !f.endsWith('.zst'));
+        if (validAssets.length === 0) continue;
+        
+        try {
           const args = validAssets.map(f => `"${f}"`).join(' ');
-          execSync(`zstd -qf -19 -T0 --rm=false ${args}`, { stdio: 'ignore' })
+          // Added --no-progress to keep logs clean, -19 for max compression
+          execSync(`zstd -qf -19 -T0 --no-progress ${args}`, { stdio: 'ignore' });
           zstCount += validAssets.length;
+        } catch (e) {
+          // Fallback to individual compression if batch fails
+          for (const asset of validAssets) {
+            try {
+              execSync(`zstd -qf -19 -T0 --no-progress "${asset}"`, { stdio: 'ignore' });
+              zstCount++;
+            } catch (err) {}
+          }
         }
-      } catch(e) {}
+        printProgress(i + chunk.length, total, `Zstd compressing...`);
+      }
     }
 
     console.log(`  ${colors.dim}Running Brotli compression concurrently...${colors.reset}`)
