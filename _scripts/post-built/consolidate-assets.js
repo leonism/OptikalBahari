@@ -31,7 +31,7 @@ async function main() {
   /** @param {string} msg */
   const log = (msg) => console.log(`[Consolidate] ${msg}`)
   /** @param {string} msg */
-  const debug = (msg) => argv.verbose && console.log(`[Consolidate] [DEBUG] ${msg}`)
+  const debug = (msg) => (argv.verbose || process.env.DEBUG) && console.log(`[Consolidate] [DEBUG] ${msg}`)
   /** @param {string} msg */
   const error = (msg) => console.error(`[Consolidate] [ERROR] ${msg}`)
 
@@ -55,69 +55,43 @@ async function main() {
     }
     log(`Found ${htmlFiles.length} HTML files.`)
 
-    // 3. Analyze Assets from index.html (Source of Truth for ordering)
-    const indexFile = htmlFiles.find((f) => f.endsWith('index.html')) || htmlFiles[0]
-    log(`Using ${indexFile} as the reference for asset discovery.`)
+    // 3. Global Asset Discovery (Scan ALL HTML files to catch everything)
+    log('Discovering assets across all pages...')
+    /** @type {Set<string>} */
+    const cssFilesSet = new Set()
+    /** @type {Set<string>} */
+    const jsFilesSet = new Set()
 
-    const indexContent = await fs.readFile(indexFile, 'utf8')
-    const $ = cheerio.load(indexContent)
+    for (const file of htmlFiles) {
+      const content = await fs.readFile(file, 'utf8')
+      const $ = cheerio.load(content)
 
-    /** @type {string[]} */
-    const cssFiles = []
-    /** @type {string[]} */
-    const jsFiles = []
-
-    // Helper to process CSS hrefs
-    /** @param {string | undefined} href */
-    const processCssHref = (href) => {
-      if (href && isLocalAsset(href)) {
-        const resolved = resolvePath(href, indexFile, SITE_DIR)
-        // Skip if it is the consolidated file itself (to avoid loop if it exists)
-        if (resolved.endsWith('styles.min.css')) return
-
-        const exists = fs.existsSync(resolved)
-        debug(`[Analysis] href: ${href} -> resolved: ${resolved} -> exists: ${exists}`)
-        if (exists && !cssFiles.includes(resolved)) {
-          cssFiles.push(resolved)
+      // Find CSS
+      $('link[rel="stylesheet"], link[rel="preload"][as="style"]').each((i, el) => {
+        const href = $(el).attr('href')
+        if (href && isLocalAsset(href)) {
+          const resolved = resolvePath(href, file, SITE_DIR)
+          if (resolved.endsWith('styles.min.css')) return
+          if (fs.existsSync(resolved)) cssFilesSet.add(resolved)
         }
-      }
+      })
+
+      // Find JS
+      $('script[src]').each((i, el) => {
+        const src = $(el).attr('src')
+        const dataMerge = $(el).attr('data-merge')
+        if (src && isLocalAsset(src) && dataMerge !== 'false') {
+          const resolved = resolvePath(src, file, SITE_DIR)
+          if (resolved.endsWith('scripts.min.js')) return
+          if (fs.existsSync(resolved)) jsFilesSet.add(resolved)
+        }
+      })
     }
 
-    // Find CSS
-    $('link[rel="stylesheet"], link[rel="preload"][as="style"]').each((i, el) => {
-      const href = $(el).attr('href')
-      processCssHref(href)
-    })
-
-    // Also check noscript tags
-    $('noscript').each((i, el) => {
-      const html = $(el).html()
-      // Simple regex to find hrefs in link tags within noscript
-      if (html) {
-        const matches = html.match(/href=["']([^"']+)["']/g)
-        if (matches) {
-          matches.forEach((match) => {
-            const href = match.replace(/href=["']|["']/g, '')
-            if (href.endsWith('.css')) {
-              processCssHref(href)
-            }
-          })
-        }
-      }
-    })
-
-    // Find JS
-    $('script[src]').each((i, el) => {
-      const src = $(el).attr('src')
-      const dataMerge = $(el).attr('data-merge')
-      if (src && isLocalAsset(src) && dataMerge !== 'false') {
-        jsFiles.push(resolvePath(src, indexFile, SITE_DIR))
-      }
-    })
+    const cssFiles = Array.from(cssFilesSet)
+    const jsFiles = Array.from(jsFilesSet)
 
     log(`Identified ${cssFiles.length} CSS files and ${jsFiles.length} JS files to merge.`)
-    debug(`CSS: ${JSON.stringify(cssFiles)}`)
-    debug(`JS: ${JSON.stringify(jsFiles)}`)
 
     // 4. Process CSS
     let finalCss = ''
@@ -135,17 +109,12 @@ async function main() {
               return match
             }
 
-            // Calculate new relative path
             const sourceDir = path.dirname(file)
             const absoluteTarget = path.resolve(sourceDir, url)
             let newUrl = path.relative(DIST_DIR, absoluteTarget)
-
-            // Normalize path separators for URL
             newUrl = newUrl.split(path.sep).join('/')
 
-            const replacement = `url('${newUrl}')`
-            debug(`Rebased: ${url} -> ${newUrl}`)
-            return replacement
+            return `url('${newUrl}')`
           })
 
           rawCss += rebasedContent + '\n'
@@ -155,44 +124,25 @@ async function main() {
       }
 
       const originalSize = Buffer.byteLength(rawCss, 'utf8')
-      // Use level 1 optimization to avoid stripping @font-face rules
-      // Disable rebasing since we did it manually
-      const output = new CleanCSS({
-        level: 1,
-        rebase: false,
-      }).minify(rawCss)
-
-      if (output.errors.length > 0) {
-        output.errors.forEach((e) => error(`CleanCSS Error: ${e}`))
-      }
-      if (output.warnings.length > 0) {
-        output.warnings.forEach((w) => debug(`CleanCSS Warning: ${w}`))
-      }
+      const output = new CleanCSS({ level: 1, rebase: false }).minify(rawCss)
       finalCss = output.styles
 
-      // 4.1 Ensure font-display: swap is present in all @font-face rules
+      // Font-display swap
       if (finalCss.includes('@font-face')) {
-        log('Ensuring font-display: swap in all @font-face rules...')
         finalCss = finalCss.replace(/@font-face\s*{([^}]+)}/g, (match, contents) => {
           if (contents.includes('font-display')) {
-            // Replace existing font-display value with swap
             return `@font-face{${contents.replace(/font-display\s*:\s*([^;]+)/, 'font-display:swap')}}`
           } else {
-            // Add font-display: swap if missing
             return `@font-face{font-display:swap;${contents}}`
           }
         })
       }
 
       const minifiedSize = Buffer.byteLength(finalCss, 'utf8')
-      const saved = originalSize - minifiedSize
-      const savedPercent = originalSize > 0 ? ((saved / originalSize) * 100).toFixed(2) : 0
-
-      log(`CSS Optimization: ${(originalSize / 1024).toFixed(2)} KB -> ${(minifiedSize / 1024).toFixed(2)} KB (Saved ${savedPercent}%)`)
+      log(`CSS Optimization: ${(originalSize / 1024).toFixed(2)} KB -> ${(minifiedSize / 1024).toFixed(2)} KB`)
 
       if (!argv.dryRun) {
         await fs.writeFile(path.join(DIST_DIR, 'styles.min.css'), finalCss)
-        log(`Written styles.min.css to ${DIST_DIR}`)
       }
     }
 
@@ -210,27 +160,19 @@ async function main() {
       }
 
       const originalSize = Buffer.byteLength(combinedJs, 'utf8')
-
       try {
         const result = await terserMinify(combinedJs, {
-          compress: {
-            drop_console: true, // Remove console logs
-            drop_debugger: true,
-          },
+          compress: { drop_console: true, drop_debugger: true },
           mangle: true,
         })
 
-        if (!result.code) throw new Error('Minification failed')
+        if (result.code) {
+          const minifiedSize = Buffer.byteLength(result.code, 'utf8')
+          log(`JS Optimization: ${(originalSize / 1024).toFixed(2)} KB -> ${(minifiedSize / 1024).toFixed(2)} KB`)
 
-        const minifiedSize = Buffer.byteLength(result.code, 'utf8')
-        const saved = originalSize - minifiedSize
-        const savedPercent = originalSize > 0 ? ((saved / originalSize) * 100).toFixed(2) : 0
-
-        log(`JS Optimization: ${(originalSize / 1024).toFixed(2)} KB -> ${(minifiedSize / 1024).toFixed(2)} KB (Saved ${savedPercent}%)`)
-
-        if (!argv.dryRun) {
-          await fs.writeFile(path.join(DIST_DIR, 'scripts.min.js'), result.code)
-          log(`Written scripts.min.js to ${DIST_DIR}`)
+          if (!argv.dryRun) {
+            await fs.writeFile(path.join(DIST_DIR, 'scripts.min.js'), result.code)
+          }
         }
       } catch (/** @type {any} */ e) {
         error(`Terser Minification Failed: ${e.message}`)
@@ -238,8 +180,7 @@ async function main() {
     }
 
     // 6. Update HTML References
-    log('Updating HTML references...')
-
+    log('Updating HTML references and minifying...')
     for (const file of htmlFiles) {
       const originalHtml = await fs.readFile(file, 'utf8')
       const $page = cheerio.load(originalHtml)
@@ -252,33 +193,10 @@ async function main() {
           return !!(href && cssFiles.includes(resolvePath(href, file, SITE_DIR)))
         })
 
-        /** @type {any[]} */
-        const noscriptsToRemove = []
-        $page('noscript').each((i, el) => {
-          const html = $page(el).html()
-          let hasBundled = false
-          if (html) {
-            for (const cssFile of cssFiles) {
-              const filename = path.basename(cssFile)
-              if (html.includes(filename)) {
-                hasBundled = true
-                break
-              }
-            }
-          }
-          if (hasBundled) {
-            noscriptsToRemove.push(el)
-          }
-        })
-
         if (cssLinks.length > 0) {
           const firstLink = cssLinks.first()
-          // Use non-blocking loading pattern
-          const nonBlockingCss = `<link rel="stylesheet" href="/assets/dist/styles.min.css">`
-
-          firstLink.before(nonBlockingCss)
+          firstLink.before(`<link rel="stylesheet" href="/assets/dist/styles.min.css">`)
           cssLinks.remove()
-          $page(noscriptsToRemove).remove()
           modified = true
         }
       }
@@ -288,16 +206,8 @@ async function main() {
         const jsScripts = $page('script[src]').filter((i, el) => {
           const src = $page(el).attr('src')
           if (!src) return false
-
           const resolved = resolvePath(src, file, SITE_DIR)
-
-          // Match known source files
-          if (jsFiles.includes(resolved)) return true
-
-          // Match existing consolidated file
-          if (src.includes('scripts.min.js')) return true
-
-          return false
+          return jsFiles.includes(resolved) || src.includes('scripts.min.js')
         })
 
         if (jsScripts.length > 0) {
@@ -308,9 +218,7 @@ async function main() {
         }
       }
 
-      // --------------------------------------------------------------------------
-      // Fix: Relocate and obfuscate GTM to fix PageSpeed Insights and Zaraz eager injection
-      // --------------------------------------------------------------------------
+      // GTM Obfuscation & Lazy Loading
       const gtmScripts = $page('script:not([src])').filter((i, el) => {
         const content = $page(el).html()
         return !!(content && (content.includes('gtm.start') || content.includes('GTM-')))
@@ -319,10 +227,7 @@ async function main() {
       if (gtmScripts.length > 0) {
         gtmScripts.each((i, el) => {
           let content = $page(el).html() || ''
-          // Obfuscate the gtm.js string to prevent Cloudflare edge proxies (like Zaraz)
-          // from eagerly detecting and moving it to the top of <head>
           content = content.replace(/['"]https:\/\/www\.googletagmanager\.com\/gtm\.js\?id=['"]/g, "'https://www.google' + 'tagmanager.com/gtm.js?id='")
-
           const lazyGTM = `
 <script>
   let gtmFired = false;
@@ -331,7 +236,6 @@ async function main() {
     gtmFired = true;
     ${content}
   }
-  // Load GTM strictly on user interaction or after a 3.5s delay to assure Perfect PageSpeed Score
   ['scroll', 'mousemove', 'touchstart', 'keydown'].forEach(function(e) {
     document.addEventListener(e, fireGTM, { passive: true, once: true });
   });
@@ -347,56 +251,65 @@ async function main() {
         modified = true
       }
 
-      // Always minify the HTML if not in dry-run, to ensure consistency
+      // Minify HTML
       if (!argv.dryRun) {
         try {
-          const processedHtml = $page.html()
-          const minifiedHtml = await htmlMinify(processedHtml, {
+          const minifiedHtml = await htmlMinify($page.html(), {
             collapseWhitespace: true,
             removeComments: true,
             minifyJS: true,
             minifyCSS: true,
-            removeAttributeQuotes: false,
             removeRedundantAttributes: true,
             useShortDoctype: true,
             removeEmptyAttributes: true,
-            removeOptionalTags: false
           })
           await fs.writeFile(file, minifiedHtml)
-          if (modified) debug(`Updated and minified ${file}`)
-          else debug(`Minified ${file}`)
         } catch (/** @type {any} */ e) {
           error(`Failed to minify ${file}: ${e.message}`)
-          // Fallback to writing non-minified if minification fails
-          if (modified) {
-            await fs.writeFile(file, $page.html())
-            debug(`Updated (failed to minify) ${file}`)
-          }
+          await fs.writeFile(file, $page.html())
         }
-      } else if (modified) {
-        debug(`[DRY RUN] Would update and minify ${file}`)
       }
     }
 
-    // 7. Cleanup Orphaned Source Files
+    // 7. Extended Cleanup & Pruning
     log('Cleaning up orphaned source assets...')
     const allMergedFiles = [...cssFiles, ...jsFiles]
     let deletedCount = 0
+
+    // Phase 1: Delete merged files and their sidecars
     for (const file of allMergedFiles) {
-      if (!fs.existsSync(file)) continue
+      const sidecars = [file, `${file}.br`, `${file}.gz`, `${file}.zst`]
+      for (const sidecar of sidecars) {
+        if (fs.existsSync(sidecar)) {
+          try {
+            if (!argv.dryRun) await fs.unlink(sidecar)
+            deletedCount++
+          } catch (e) {}
+        }
+      }
+    }
+
+    // Phase 2: Sweep and remove remaining original files that were missed but should have been merged
+    // (e.g., unhashed versions left behind by AssetProcessor)
+    const assetsToPrune = await glob(`${SITE_DIR}/assets/**/*.{css,js}`)
+    for (const file of assetsToPrune) {
+      const relative = path.relative(SITE_DIR, file)
+      // Never delete the consolidated results
+      if (relative.startsWith('assets/dist/')) continue
       
       try {
         if (!argv.dryRun) {
           await fs.unlink(file)
+          // Also try to delete compressed versions
+          for (const ext of ['.br', '.gz', '.zst']) {
+            if (fs.existsSync(`${file}${ext}`)) await fs.unlink(`${file}${ext}`)
+          }
         }
         deletedCount++
-        debug(`Deleted orphaned file: ${file}`)
-      } catch (/** @type {any} */ e) {
-        debug(`Failed to delete orphaned file ${file}: ${e.message}`)
-      }
+      } catch (e) {}
     }
-    log(`Removed ${deletedCount} orphaned source files to reduce deployment size.`)
 
+    log(`Removed ${deletedCount} source/extra asset files.`)
     log('Consolidation complete.')
   } catch (/** @type {any} */ e) {
     error(`Fatal Error: ${e.stack}`)
@@ -423,8 +336,10 @@ function isLocalAsset(url) {
 function resolvePath(url, sourceFile, siteDir) {
   let cleanUrl = url.split('?')[0]
   if (cleanUrl.startsWith('/')) {
+    // If it starts with /, it is relative to site root
     return path.join(siteDir, cleanUrl)
   } else {
+    // Otherwise it is relative to the current file
     return path.join(path.dirname(sourceFile), cleanUrl)
   }
 }

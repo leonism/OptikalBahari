@@ -251,6 +251,8 @@ sequence:
 
 - `export JEKYLL_ENV=production && bundle exec jekyll clean && bundle exec jekyll build && npm run postbuild && bundle exec jekyll serve --no-build`
 - `npm install && bundle exec jekyll clean && JEKYLL_ENV=production bundle exec jekyll build && npm run postbuild`
+- `npm run build:prod`
+- `bundle exec jekyll serve --skip-initial-build`
 
 Alternatively, you can add a production build script to your `package.json` to simplify this:
 

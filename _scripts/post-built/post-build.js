@@ -136,23 +136,24 @@ async function runAssetCompression() {
 
     if (isCommandAvailable('zstd -V')) {
       console.log(`  ${colors.dim}Running Zstd compression...${colors.reset}`)
-      const chunkSize = 50; // Smaller chunk size for better reliability
+      const chunkSize = 50; 
       for (let i = 0; i < total; i += chunkSize) {
         const chunk = textAssets.slice(i, i + chunkSize);
-        const validAssets = chunk.filter(f => !f.endsWith('.br') && !f.endsWith('.zst'));
+        // CRITICAL FIX: Only compress if file still exists (consolidation might have deleted it)
+        const validAssets = chunk.filter(f => fs.existsSync(f) && !f.endsWith('.br') && !f.endsWith('.zst'));
         if (validAssets.length === 0) continue;
         
         try {
           const args = validAssets.map(f => `"${f}"`).join(' ');
-          // Added --no-progress to keep logs clean, -19 for max compression
           execSync(`zstd -qf -19 -T0 --no-progress ${args}`, { stdio: 'ignore' });
           zstCount += validAssets.length;
         } catch (e) {
-          // Fallback to individual compression if batch fails
           for (const asset of validAssets) {
             try {
-              execSync(`zstd -qf -19 -T0 --no-progress "${asset}"`, { stdio: 'ignore' });
-              zstCount++;
+              if (fs.existsSync(asset)) {
+                execSync(`zstd -qf -19 -T0 --no-progress "${asset}"`, { stdio: 'ignore' });
+                zstCount++;
+              }
             } catch (err) {}
           }
         }
@@ -166,7 +167,8 @@ async function runAssetCompression() {
       const chunk = textAssets.slice(i, i + concurrency);
       
       await Promise.all(chunk.map(async (file) => {
-        if (file.endsWith('.br') || file.endsWith('.zst')) {
+        // CRITICAL FIX: Only compress if file still exists
+        if (!fs.existsSync(file) || file.endsWith('.br') || file.endsWith('.zst')) {
           current++;
           return;
         }
@@ -174,7 +176,7 @@ async function runAssetCompression() {
         try {
           const content = await fs.readFile(file)
           const compressed = await brotliCompress(content, { 
-            params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 9 } // Level 9 is faster but still great
+            params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 11 } // Max quality for production
           })
           await fs.writeFile(`${file}.br`, compressed)
           brCount++
