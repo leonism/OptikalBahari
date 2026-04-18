@@ -101,6 +101,82 @@ body.dark-mode {
   }
 }
 
+.owner-response {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  transition: all 0.3s ease;
+  margin-bottom: 1.25rem; // Space before the Google logo/link
+  border-radius: 0.5rem;
+
+  .response-header {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .toggle-arrow {
+      border: 1px solid #dee2e6;
+      border-radius: 50%;
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      background-color: #fff;
+      color: #5f6368;
+    }
+
+    &:hover .toggle-arrow {
+      background-color: #f0f0f0;
+      border-color: #ced4da;
+    }
+  }
+
+  .response-body {
+    transition: all 0.3s ease;
+    overflow: hidden;
+    max-height: 1000px;
+    opacity: 1;
+
+    &.collapsed {
+      max-height: 0;
+      opacity: 0;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+body.dark-mode {
+  .owner-response {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border-color: #2c3e50 !important;
+
+    .response-header {
+      span {
+        color: #e0e0e0 !important;
+      }
+      .toggle-arrow {
+        background-color: #1a2332;
+        border-color: #2c3e50;
+        color: #d0d0d0;
+      }
+      &:hover .toggle-arrow {
+        background-color: #2c3e50;
+      }
+    }
+
+    .response-body {
+      color: #b0b0b0 !important;
+    }
+  }
+}
+
 .masonry-item .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 .75rem 1.5rem rgba(0,0,0,.2)!important; // Slightly stronger on hover

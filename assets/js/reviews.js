@@ -21,6 +21,7 @@
  * @property {string[]} [reviewImageUrls]
  * @property {string} [reviewUrl]
  * @property {string} [totalScore]
+ * @property {string} [responseFromOwnerText]
  */
 
 // --- Global State ---
@@ -136,6 +137,31 @@ function toggleReadMore(btn) {
 }
 
 /**
+ * Toggles the visibility of the owner response
+ * @param {HTMLElement} btn
+ */
+function toggleOwnerResponse(btn) {
+  const container = btn.closest('.owner-response')
+  if (!container) return
+
+  const body = container.querySelector('.response-body')
+  const arrow = container.querySelector('.toggle-arrow')
+
+  if (body && arrow) {
+    const isHidden = body.classList.contains('collapsed')
+    if (isHidden) {
+      body.classList.remove('collapsed')
+      // SHOWN: Use Chevron Up icon
+      arrow.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>'
+    } else {
+      body.classList.add('collapsed')
+      // HIDDEN: Use Chevron Down icon
+      arrow.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>'
+    }
+  }
+}
+
+/**
  * Initializes and appends the review modal to the body
  */
 function initReviewModal() {
@@ -173,9 +199,10 @@ function openReviewModal(index) {
   const stars = review.stars || 5
   let starsHtml = ''
   for (let i = 1; i <= 5; i++) {
-    starsHtml += i <= stars
-      ? '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="width:1em;height:1em;color:#ff9800;fill:currentColor;vertical-align:-0.125em;margin-right:2px"><path fill="currentColor" d="M309.5-18.9c-4.1-8-12.4-13.1-21.4-13.1s-17.3 5.1-21.4 13.1L193.1 125.3 33.2 150.7c-8.9 1.4-16.3 7.7-19.1 16.3s-.5 18 5.8 24.4l114.4 114.5-25.2 159.9c-1.4 8.9 2.3 17.9 9.6 23.2s16.9 6.1 25 2L288.1 417.6 432.4 491c8 4.1 17.7 3.3 25-2s11-14.2 9.6-23.2L441.7 305.9 556.1 191.4c6.4-6.4 8.6-15.8 5.8-24.4s-10.1-14.9-19.1-16.3L383 125.3 309.5-18.9z"/></svg>'
-      : '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="width:1em;height:1em;color:#ff9800;fill:currentColor;vertical-align:-0.125em;margin-right:2px"><path fill="currentColor" d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg>'
+    starsHtml +=
+      i <= stars
+        ? '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="width:1em;height:1em;color:#ff9800;fill:currentColor;vertical-align:-0.125em;margin-right:2px"><path fill="currentColor" d="M309.5-18.9c-4.1-8-12.4-13.1-21.4-13.1s-17.3 5.1-21.4 13.1L193.1 125.3 33.2 150.7c-8.9 1.4-16.3 7.7-19.1 16.3s-.5 18 5.8 24.4l114.4 114.5-25.2 159.9c-1.4 8.9 2.3 17.9 9.6 23.2s16.9 6.1 25 2L288.1 417.6 432.4 491c8 4.1 17.7 3.3 25-2s11-14.2 9.6-23.2L441.7 305.9 556.1 191.4c6.4-6.4 8.6-15.8 5.8-24.4s-10.1-14.9-19.1-16.3L383 125.3 309.5-18.9z"/></svg>'
+        : '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="width:1em;height:1em;color:#ff9800;fill:currentColor;vertical-align:-0.125em;margin-right:2px"><path fill="currentColor" d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg>'
   }
 
   // Avatar URL Optimization
@@ -211,17 +238,26 @@ function openReviewModal(index) {
         ${review.text ? review.text : '<em>Customer left rating star only</em>'}
       </div>
       ${imagesHtml}
-      ${review.responseFromOwnerText ? `
-      <div class="mt-3 p-3 rounded-3" style="background-color: #f8f9fa; border-left: 4px solid #1976d2;">
-        <div class="d-flex align-items-center mb-1">
-          <img src="https://www.google.com/favicon.ico" width="16" height="16" class="me-2 opacity-75" alt="Google">
-          <span style="font-size: 0.85rem; font-weight: 700; color: #5f6368;">Response from owner</span>
+      ${
+        review.responseFromOwnerText
+          ? `
+      <div class="mt-4 owner-response rounded-3">
+        <div class="response-header p-3" onclick="toggleOwnerResponse(this)">
+          <div class="d-flex align-items-center">
+            <img src="/assets/img/logo.png" width="18" height="18" class="me-2" alt="Optikal Bahari Logo">
+            <span style="font-size: 0.85rem; font-weight: 700; color: #5f6368;">Response from owner</span>
+          </div>
+          <div class="toggle-arrow ms-2">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </div>
         </div>
-        <div class="text-muted" style="font-size: 0.95rem; line-height: 1.5;">
+        <div class="response-body collapsed p-3 pt-0 text-muted" style="font-size: 0.95rem; line-height: 1.5;">
           ${review.responseFromOwnerText}
         </div>
-      </div>` : ''}
-      <div class="mt-4 pt-3 border-top">
+      </div>`
+          : ''
+      }
+      <div class="mt-4 pt-3">
         <a href="${review.reviewUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-decoration-none d-flex align-items-center" style="color: #1976d2; font-size: 0.9rem;">
           <img src="https://www.google.com/favicon.ico" width="20" height="20" class="me-2" alt="Google"> View on Google
         </a>
@@ -415,7 +451,7 @@ function createReviewCardTemplate(review) {
   for (let i = 1; i <= 5; i++) {
     const starColor = '#ff9800'
     const isFilled = i <= stars
-    starsHtml += isFilled 
+    starsHtml += isFilled
       ? `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="${starColor}" viewBox="0 0 16 16" style="margin-right: 2px;"><path d="M3.612 15.443c-.387.197-.85-.121-.756-.546l.83-4.73L.413 6.705c-.324-.314-.154-.876.288-.937l4.872-.708L7.433.647a.78.78 0 0 1 1.396 0l2.164 4.413 4.871.708c.442.061.612.623.288.937l-3.522 3.356.83 4.73c.094.425-.369.743-.756.546l-4.248-2.232-4.248 2.232z"/></svg>`
       : `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="${starColor}" viewBox="0 0 16 16" style="margin-right: 2px;"><path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957-2.928-2.787 4.077-.58 1.826-3.71 1.826 3.71 4.077.58-2.928 2.787.694 3.957-3.685-1.894z"/></svg>`
   }
@@ -445,12 +481,17 @@ function createReviewCardTemplate(review) {
   let responseHtml = ''
   if (review.responseFromOwnerText) {
     responseHtml = `
-      <div class="mt-3 p-3 rounded-3" style="background-color: #f8f9fa; border-left: 4px solid #1976d2;">
-        <div class="d-flex align-items-center mb-1">
-          <img src="https://www.google.com/favicon.ico" width="16" height="16" class="me-2 opacity-75" alt="Google">
-          <span style="font-size: 0.85rem; font-weight: 700; color: #5f6368;">Response from owner</span>
+      <div class="mt-4 owner-response rounded-3">
+        <div class="response-header p-3" onclick="toggleOwnerResponse(this)">
+          <div class="d-flex align-items-center">
+            <img src="/assets/img/logo.png" width="18" height="18" class="me-2" alt="Optikal Bahari Logo">
+            <span style="font-size: 0.85rem; font-weight: 700; color: #5f6368;">Response from owner</span>
+          </div>
+          <div class="toggle-arrow ms-2">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </div>
         </div>
-        <div class="text-muted" style="font-size: 0.9rem; line-height: 1.4;">
+        <div class="response-body collapsed p-3 pt-0 text-muted" style="font-size: 0.9rem; line-height: 1.4;">
           ${review.responseFromOwnerText}
         </div>
       </div>
@@ -511,7 +552,7 @@ function createReviewCardTemplate(review) {
         </div>
           ${imagesHtml}
           ${responseHtml}
-        <div class="mt-auto pt-1">
+        <div class="mt-4 pt-2 mt-auto">
           <a href="${review.reviewUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-decoration-none d-flex align-items-center" style="color:#1976d2; font-size:0.9rem;">
             <img src="https://www.google.com/favicon.ico" width="24" height="24" class="me-2" alt="Google">
             View on Google
