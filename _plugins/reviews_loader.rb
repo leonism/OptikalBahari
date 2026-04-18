@@ -1,22 +1,35 @@
 Jekyll::Hooks.register :site, :post_read do |site|
   # Load individual reviews from _data/reviews folder
-  reviews_folder = site.data['reviews']
+  reviews_data = site.data['reviews']
   
-  if reviews_folder.is_a?(Hash)
+  # Get excluded review IDs from _config.yml
+  # Configuration format:
+  # reviews:
+  #   exclude_review_ids: ["ID1", "ID2"]
+  excluded_ids = site.config.dig('reviews', 'exclude_review_ids') || []
+  excluded_ids = [excluded_ids] if excluded_ids.is_a?(String)
+  excluded_ids = excluded_ids.map(&:to_s)
+  
+  reviews = if reviews_data.is_a?(Hash)
     # The 'reviews' entry in site.data will be a hash if loaded from a directory
     # where keys are filenames and values are the JSON content.
-    # We want a flat array sorted by date descending.
-    site.data['reviews_list'] = reviews_folder.values.sort_by { |r| 
-      r['publishedAtDate'] || r['publishAt'] || r['scrapedAt'] || ""
-    }.reverse
-  elsif site.data['reviews'].is_a?(Array)
+    reviews_data.values
+  elsif reviews_data.is_a?(Array)
     # Fallback to the main reviews.json if the folder isn't loaded correctly
-    site.data['reviews_list'] = site.data['reviews'].sort_by { |r| 
-      r['publishedAtDate'] || r['publishAt'] || r['scrapedAt'] || ""
-    }.reverse
+    reviews_data
   else
-    site.data['reviews_list'] = []
+    []
   end
+
+  # Filter out excluded reviews
+  unless excluded_ids.empty?
+    reviews = reviews.reject { |r| excluded_ids.include?(r['reviewId'].to_s) }
+  end
+
+  # Sort by date descending and standardize into reviews_list
+  site.data['reviews_list'] = reviews.sort_by { |r| 
+    r['publishedAtDate'] || r['publishAt'] || r['scrapedAt'] || ""
+  }.reverse
 
   Jekyll.logger.info "Reviews:", "Standardized #{site.data['reviews_list'].length} reviews into site.data.reviews_list"
 end

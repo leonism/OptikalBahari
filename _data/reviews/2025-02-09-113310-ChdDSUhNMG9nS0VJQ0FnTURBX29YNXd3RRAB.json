@@ -19,8 +19,8 @@
   "responseFromOwnerDate": "2025-04-05T16:17:17.000Z",
   "responseFromOwnerText": "Terima kasih reviewnya ka Andy Ryansyah 😊🙏",
   "reviewImageUrls": [
-    "https://lh3.googleusercontent.com/geougc-cs/ABOP9ps3-EiroWP6ZVcAmBXYx-Z4MFJv8jIQ_eBAjVAHCTHeuSqxJZ8566FMBOmsRe4Rxyr1HR_JL9_9wbJBEB6893FRlke1fGKv7JVG9bsOBIgbF3Tx9v69gp7Ocf0cxSZmPR8pS_U",
-    "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvDpOH0cMRMEQ7-EqHXHPtPDiaHmw5awQG3qfrTMLc79VQI4mEvf09qvY4BUWqCEGBzTyPhoLic_mbNMxB-SlQyvpv20UK-GuaUh2txU2tTUuYGbSgkrlfRlmNc4sNhpgkqSiEZEw"
+    "https://lh3.googleusercontent.com/geougc-cs/AMG9lESrUaP8JlEPJJ7s4dtthPcze3tTvA2qgbL8cLrfXkmB8S27KRqis-JI53PwVw1SvXRodlrPOyyFCnabm7PkgOufm8dWSZi1bXsYjnWgx5NfxXyw80Gv2X6iYBsFyqoIIY3y0bc",
+    "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQjt02ED7EVvb0BkSirlEU0tadD4PE82F5LTiIG7B-VkrdS-AVdJIUfQi6AdvpGPfPD5EU2ZKUn0FpR8FzLguWcnaOfDc9dxbiVHXHyBJA7FmZqwd1ytxdITjTKScYs4D8W85FZOg"
   ],
   "reviewContext": {},
   "reviewDetailedRating": {},
@@ -51,13 +51,14 @@
   "totalScore": 5,
   "permanentlyClosed": false,
   "temporarilyClosed": false,
-  "reviewsCount": 512,
+  "reviewsCount": 513,
   "url": "https://www.google.com/maps/search/?api=1&query=Optikal%20Bahari%20(Sejak%201978)%20Optik%20Terdekat%20Rekomendasi%20Untuk%20Anda&query_place_id=ChIJDYWGN6T1aS4RjK50wCfHApg",
   "price": null,
   "cid": "10953536217264991884",
   "fid": "0x2e69f5a43786850d:0x9802c727c074ae8c",
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqWeksysIXgnANPLEDF3Bl8sc4pD0C05qiLIKpp5uNKMkvlLJ7YD2yZaU9q5lqnu_64tHv_gV0SyfRXGbw34Bq4QO9jyCHDfdVzf4rw73VYqbECrslmjj_m9XmXcwgbxUaJs3VF=w408-h331-k-no",
-  "scrapedAt": "2026-04-02T14:10:03.956Z",
+  "hotelStars": null,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFt7sFTfvSHannvFwOd8JJtlEdlLycoIZAKrbDNR4MQApXAIBkF13feKGDE8t8ol-SL8vP2fjUZSWov6DT5JzQrr7XFyuBWYi4jV5A8igDi4ae5OBUVTqAqM1HU-_5rAvWpPAN-=w408-h331-k-no",
+  "scrapedAt": "2026-04-18T06:27:52.342Z",
   "language": "id",
   "kgmid": "/g/1tfljvsj"
 }

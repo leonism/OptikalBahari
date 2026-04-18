@@ -13,6 +13,7 @@ permalink: /api/reviews.json
       "publishAt": {{ review.publishAt | jsonify }},
       "reviewUrl": {{ review.reviewUrl | jsonify }},
       "reviewImageUrls": {{ review.reviewImageUrls | jsonify }},
+      "responseFromOwnerText": {{ review.responseFromOwnerText | jsonify }},
       "totalScore": {{ review.totalScore | jsonify }},
       "reviewsCount": {{ review.reviewsCount | jsonify }}
     }{% if forloop.last == false %},{% endif %}

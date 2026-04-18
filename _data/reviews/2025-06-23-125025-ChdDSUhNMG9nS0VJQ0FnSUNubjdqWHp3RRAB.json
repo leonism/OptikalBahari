@@ -19,9 +19,9 @@
   "responseFromOwnerDate": "2025-06-24T11:33:44.000Z",
   "responseFromOwnerText": "Terima Kasih Review nya ka Achmad Chudori 😊🙏",
   "reviewImageUrls": [
-    "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvA2oo4XK1ZpB5E8cT3xDgocBGGraVBZCd7NbMloF0fNFTZGAfsOb_4hQzFuZ8Zpt3kjAOQfMOHJms9WavJ_zttg6MdF6QiegUwEy-nETFbtfUBJKVmv0RdpADuqC_FLbWTaGkg",
-    "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptxRf7fYetdUvVns3HwOYzJ3eTHgDnn3PBSSGqeSegn1nmRsNvWisc2way39w_I3KNIn3Eg6eMij1A8we7qZT_hrZLpbMnHGXNFmpNTlfWsbZLIcFw_hwfOZWXvMcemc9Dl66uPrQ",
-    "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptJpR98rtAoPi_ONxSJMkoe_j1EQIQYpBojtBDm7s7nvgQWcKUG885tAgef5ODRChglifEO0flSpEFDgsMXRY6obGacet78I5ln4wPdbh-rRvkO94DL0tTX7iIWZHdXsJw2DDHS"
+    "https://lh3.googleusercontent.com/geougc-cs/AMG9lESBmC_CmRGHLoqunZlHGXU_N9HUumw_Gwxo3Zh0WEcBngyr2Y6A_ERTlOHteUvBZTR_D9Rot7R9swnohT6SGQsoodhkO-uyg-mmfo2meAQr7JjOg3s1Z_lzsUFSjxzCM6lRriGY",
+    "https://lh3.googleusercontent.com/geougc-cs/AMG9lET3zzhrsQ9QJ_YrjK5Pupwd9DNi0mWPlRSW4VfEH1vmpOsJlIvt6CwwhSHGXbx619cVYznkiebM21WcSeNUxwe-UCRjRynsB1Sa8_pI7vgbXQ5Jqw9u1A3ztaAlx6VSfgLs-IBr6Q",
+    "https://lh3.googleusercontent.com/geougc-cs/AMG9lETz4MG2IePpOW6HYmas2sp7yKV-RwNY2pI0C5qDrU38fzySvNibpPxudc0GtctM9RpzNbO-wlAM2dVIGr1Gw3CjG796WbjEoOwD3qJm7R-hhHE7aRah7ZqLX7GN0qWmEPVAphM6"
   ],
   "reviewContext": {},
   "reviewDetailedRating": {},
@@ -52,13 +52,14 @@
   "totalScore": 5,
   "permanentlyClosed": false,
   "temporarilyClosed": false,
-  "reviewsCount": 512,
+  "reviewsCount": 513,
   "url": "https://www.google.com/maps/search/?api=1&query=Optikal%20Bahari%20(Sejak%201978)%20Optik%20Terdekat%20Rekomendasi%20Untuk%20Anda&query_place_id=ChIJDYWGN6T1aS4RjK50wCfHApg",
   "price": null,
   "cid": "10953536217264991884",
   "fid": "0x2e69f5a43786850d:0x9802c727c074ae8c",
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqWeksysIXgnANPLEDF3Bl8sc4pD0C05qiLIKpp5uNKMkvlLJ7YD2yZaU9q5lqnu_64tHv_gV0SyfRXGbw34Bq4QO9jyCHDfdVzf4rw73VYqbECrslmjj_m9XmXcwgbxUaJs3VF=w408-h331-k-no",
-  "scrapedAt": "2026-04-02T14:10:03.956Z",
+  "hotelStars": null,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFt7sFTfvSHannvFwOd8JJtlEdlLycoIZAKrbDNR4MQApXAIBkF13feKGDE8t8ol-SL8vP2fjUZSWov6DT5JzQrr7XFyuBWYi4jV5A8igDi4ae5OBUVTqAqM1HU-_5rAvWpPAN-=w408-h331-k-no",
+  "scrapedAt": "2026-04-18T06:27:52.342Z",
   "language": "id",
   "kgmid": "/g/1tfljvsj"
 }

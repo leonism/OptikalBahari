@@ -93,10 +93,13 @@ module Jekyll
               name = r["name"] || "Pelanggan"
               date = r["publishAt"] || ""
               text = r["text"] || ""
+              response = r["responseFromOwnerText"]
               next if text.to_s.strip.empty?
 
               body += "**#{name}** (#{stars}/5 Bintang) - *#{date}*\n"
-              body += "> #{text.strip.gsub("\n", "\n> ")}\n\n"
+              body += "> #{text.strip.gsub("\n", "\n> ")}\n"
+              body += "> \n> **Respon Pemilik:** #{response.strip.gsub("\n", "\n> ")}\n" if response && !response.to_s.strip.empty?
+              body += "\n"
             end
           end
         end

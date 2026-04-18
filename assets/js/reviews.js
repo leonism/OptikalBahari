@@ -126,11 +126,11 @@ function toggleReadMore(btn) {
     if (moreText.classList.contains('d-none')) {
       moreText.classList.remove('d-none')
       dots.classList.add('d-none')
-      btn.innerText = 'See less'
+      btn.innerText = 'See Less'
     } else {
       moreText.classList.add('d-none')
       dots.classList.remove('d-none')
-      btn.innerText = 'See more'
+      btn.innerText = 'See More'
     }
   }
 }
@@ -211,6 +211,16 @@ function openReviewModal(index) {
         ${review.text ? review.text : '<em>Customer left rating star only</em>'}
       </div>
       ${imagesHtml}
+      ${review.responseFromOwnerText ? `
+      <div class="mt-3 p-3 rounded-3" style="background-color: #f8f9fa; border-left: 4px solid #1976d2;">
+        <div class="d-flex align-items-center mb-1">
+          <img src="https://www.google.com/favicon.ico" width="16" height="16" class="me-2 opacity-75" alt="Google">
+          <span style="font-size: 0.85rem; font-weight: 700; color: #5f6368;">Response from owner</span>
+        </div>
+        <div class="text-muted" style="font-size: 0.95rem; line-height: 1.5;">
+          ${review.responseFromOwnerText}
+        </div>
+      </div>` : ''}
       <div class="mt-4 pt-3 border-top">
         <a href="${review.reviewUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-decoration-none d-flex align-items-center" style="color: #1976d2; font-size: 0.9rem;">
           <img src="https://www.google.com/favicon.ico" width="20" height="20" class="me-2" alt="Google"> View on Google
@@ -422,13 +432,29 @@ function createReviewCardTemplate(review) {
       displayBodyHtml = `
         ${visibleText}<span class="dots">...</span>
         <span class="more-text d-none">${hiddenText}</span>
-        <button onclick="toggleReadMore(this)" class="btn btn-link p-0 ms-1" style="font-size: 0.9rem; text-decoration:none; color: #1976d2; vertical-align: baseline;">See more</button>
+        <button onclick="toggleReadMore(this)" class="btn btn-link p-0 ms-1" style="font-size: 0.9rem; text-decoration:none; color: #1976d2; vertical-align: baseline;">See More</button>
       `
     } else {
       displayBodyHtml = fullText
     }
   } else {
     displayBodyHtml = '<em class="opacity-75">Customer only left rating star without comments.</em>'
+  }
+
+  // Response from Owner
+  let responseHtml = ''
+  if (review.responseFromOwnerText) {
+    responseHtml = `
+      <div class="mt-3 p-3 rounded-3" style="background-color: #f8f9fa; border-left: 4px solid #1976d2;">
+        <div class="d-flex align-items-center mb-1">
+          <img src="https://www.google.com/favicon.ico" width="16" height="16" class="me-2 opacity-75" alt="Google">
+          <span style="font-size: 0.85rem; font-weight: 700; color: #5f6368;">Response from owner</span>
+        </div>
+        <div class="text-muted" style="font-size: 0.9rem; line-height: 1.4;">
+          ${review.responseFromOwnerText}
+        </div>
+      </div>
+    `
   }
 
   // Find index of this review in the currentSortedReviews array
@@ -484,6 +510,7 @@ function createReviewCardTemplate(review) {
           ${displayBodyHtml}
         </div>
           ${imagesHtml}
+          ${responseHtml}
         <div class="mt-auto pt-1">
           <a href="${review.reviewUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-decoration-none d-flex align-items-center" style="color:#1976d2; font-size:0.9rem;">
             <img src="https://www.google.com/favicon.ico" width="24" height="24" class="me-2" alt="Google">

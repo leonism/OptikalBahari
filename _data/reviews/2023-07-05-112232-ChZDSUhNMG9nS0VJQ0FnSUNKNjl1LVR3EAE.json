@@ -19,7 +19,7 @@
   "responseFromOwnerDate": "2023-07-05T11:34:30.000Z",
   "responseFromOwnerText": "Terima kasih reviewnya ka Fatimah Komala 🙏😊",
   "reviewImageUrls": [
-    "https://lh3.googleusercontent.com/geougc-cs/ABOP9pta-17a3dJuAybJQ9IwzV_fS7bthNpogSsjkWsDyPRmD9XcCkg4BS6w1O76CUgBDJ1byYmjEodjLLd3v9YU1q3nuMpKBgpz4twBeXZNBxTVHXFEb6SuQEzCJaV8iY-Ba8RGm5c"
+    "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQ7s3Jx9YdQEQQIIC40R1OP3XT81CturFpE0U3GyiLBN4aVUcVuUW261r0WQKVHUQlnyYq7gDfuM2SNNtRTOssj-NOvkfcWUypPo3eg9pP2byOxkeMMGNNYhiVGRBmSPAAV_MU"
   ],
   "reviewContext": {},
   "reviewDetailedRating": {},
@@ -50,13 +50,14 @@
   "totalScore": 5,
   "permanentlyClosed": false,
   "temporarilyClosed": false,
-  "reviewsCount": 512,
+  "reviewsCount": 513,
   "url": "https://www.google.com/maps/search/?api=1&query=Optikal%20Bahari%20(Sejak%201978)%20Optik%20Terdekat%20Rekomendasi%20Untuk%20Anda&query_place_id=ChIJDYWGN6T1aS4RjK50wCfHApg",
   "price": null,
   "cid": "10953536217264991884",
   "fid": "0x2e69f5a43786850d:0x9802c727c074ae8c",
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqWeksysIXgnANPLEDF3Bl8sc4pD0C05qiLIKpp5uNKMkvlLJ7YD2yZaU9q5lqnu_64tHv_gV0SyfRXGbw34Bq4QO9jyCHDfdVzf4rw73VYqbECrslmjj_m9XmXcwgbxUaJs3VF=w408-h331-k-no",
-  "scrapedAt": "2026-04-02T14:10:03.956Z",
+  "hotelStars": null,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFt7sFTfvSHannvFwOd8JJtlEdlLycoIZAKrbDNR4MQApXAIBkF13feKGDE8t8ol-SL8vP2fjUZSWov6DT5JzQrr7XFyuBWYi4jV5A8igDi4ae5OBUVTqAqM1HU-_5rAvWpPAN-=w408-h331-k-no",
+  "scrapedAt": "2026-04-18T06:27:52.342Z",
   "language": "id",
   "kgmid": "/g/1tfljvsj"
 }

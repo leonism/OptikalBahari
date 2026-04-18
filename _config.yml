@@ -59,6 +59,10 @@ collections:
     output: true # Required for jekyll-paginate-v2 in some environments
     permalink: /reviews/:title/ # Dummy permalink, we won't use individual pages
 
+# Review settings
+reviews:
+  exclude_review_ids: ["ChZDSUhNMG9nS0VJQ0FnSUN1OVpEbFp3EAE", "ChZDSUhNMG9nS0VJQ0FnSUNuanFxSU13EAE"] # List of reviewId values to exclude from the site
+
 # Build Settings
 include: ["_pages", "_redirects", "_headers"]
 destination: _site
