@@ -1,0 +1,285 @@
+Help me debug my https://www.optikalbahari.com/testimoni/ problems. The testimoni part supposed to
+be fetching my google business reviews updates and have them displayed at the website. Here's my
+tech-stacks:
+
+- Ruby/Jekyll
+- Apify+WebHook
+- Cloudflare Workers for fetching &
+- Cloudflare KV for Storage
+- And some homebrew Ruby Scripts & Pluigns,
+
+Here are the details :
+
+1. Built the apify scrapper to fetch my latest google business reviews 513 of them, here's how they
+   are being composed now
+   https://api.apify.com/v2/datasets/oOBk2iCIMNkYY5GbW/items?format=json&clean=true the dataset
+   name : oOBk2iCIMNkYY5GbW, so I know the scrapping process is working
+
+2. Have them combined with a apify web hook, so that it may be made available for further data
+   manipulation, with the following details :
+
+- url : https://optikal-bahari-reviews-api.gerryleonugroho.workers.dev/ as the destination
+- payload template :
+
+{ "userId": "{{userId}}", "createdAt": "{{createdAt}}", "eventType": "{{eventType}}", "datasetId":
+"{{resource.defaultDatasetId}}" }
+
+Saved and tested, got the following results :
+
+STATUS:
+Succeeded
+
+LAST ATTEMPT AT:
+2026-04-18 09:47:00
+
+NUMBER OF ATTEMPTS:
+1
+
+EVENT TYPE:
+Test
+
+## EVENT DATA
+
+3. Created a worker to fetch the json file, using the APIFY_TOKEN at the `Variables and Secrets` at cloudflare settings, as the following code
+
+export default { async fetch(request, env) { const url = new URL(request.url); const method =
+request.method;
+
+    // --- 1. RECEIVE WEBHOOK FROM APIFY (POST) ---
+    if (method === 'POST') {
+      try {
+        const body = await request.json();
+        // Apify sends the dataset ID in: resource.defaultDatasetId
+        const datasetId = body.resource?.defaultDatasetId;
+
+        if (!datasetId) return new Response("No datasetId found", { status: 400 });
+
+        // Fetch the actual data from Apify
+        // 2026 Best Practice: Use Bearer Token in headers for security
+        const apifyRes = await fetch(
+          `https://api.apify.com/v2/datasets/${datasetId}/items?clean=true&format=json`,
+          {
+            headers: { 'Authorization': `Bearer ${env.APIFY_TOKEN}` }
+          }
+        );
+
+        const reviewsData = await apifyRes.json();
+
+        // Store the raw JSON string in KV
+        await env.REVIEWS_KV.put("latest_reviews", JSON.stringify(reviewsData));
+
+        return new Response("KV Updated Successfully", { status: 200 });
+      } catch (err) {
+        return new Response(`Error: ${err.message}`, { status: 500 });
+      }
+    }
+
+    // --- 2. SERVE DATA TO JEKYLL (GET) ---
+    if (method === 'GET') {
+      const data = await env.REVIEWS_KV.get("latest_reviews");
+
+      if (!data) {
+        return new Response(JSON.stringify({ error: "No reviews found" }), {
+          status: 404,
+          headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" }
+        });
+      }
+
+      return new Response(data, {
+        headers: {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*" // Allows Jekyll build script to fetch it
+        }
+      });
+    }
+
+    return new Response("Method not allowed", { status: 405 });
+
+} };
+
+- have them binded to a Cloudflare KV, which I'll elaborate in the next sections
+- here's the result of the http GET from the workers :
+
+access-control-allow-credentials: true access-control-allow-origin: https://dash.cloudflare.com
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+cf-ray: 9ee0240a10979d20-sin connection: keep-alive content-length: 143 content-type: text/html
+date: sat, 18 apr 2026 02:11:46 gmt expires: thu, 01 jan 1970 00:00:01 gmt location:
+https://optikalbahari.cloudflareaccess.com/cdn-cgi/access/login/optikal-bahari-reviews-api.gerryleonugroho.workers.dev?kid=ab2d69125eef83a780e7ccf902fe27e40a7e77b85c6d94fc96b2712b20a20307&redirect_url=%2f&meta=eyjrawqioii2ytm3odg4oge1nzlinzawywuyzwixmmjmnde0ytqxndazodgzzdm3mwq5yzlkzdawzjdkywnlmtezntrjyzm1iiwiywxnijoiulmyntyilcj0exaioijkv1qifq.eyjzzxj2awnlx3rva2vux3n0yxr1cyi6zmfsc2usimlhdci6mtc3njq3odmwniwic2vydmljzv90b2tlbl9pzci6iiisimf1zci6imfimmq2oteynwvlzjgzytc4mgu3y2nmotayzmuyn2u0mge3ztc3yjg1yzzkotrmyzk2yji3mtjimjbhmjazmdcilcjob3n0bmftzsi6im9wdglrywwtymfoyxjplxjldmlld3mtyxbplmdlcnj5bgvvbnvncm9oby53b3jrzxjzlmrldiisimfwcf9zzxnzaw9ux2hhc2gioijhmdkxmmrmztc3nwzmzdbhndk0yjblzmiyzdi5ndq1mwnhnzhhotdmnty5mzcynzu4ywm5zjhlzgi5yznhzge2iiwibmjmijoxnzc2ndc4mza2lcjpc193yxjwijpmywxzzswiaxnfz2f0zxdhesi6zmfsc2usinr5cguioijtzxrhiiwicmvkaxjly3rfdxjsijoixc8ilcjtdgxzx2f1dggionsiy2vydf9pc3n1zxjfc2tpijoiiiwiy2vydf9wcmvzzw50zwqiomzhbhnllcjjzxj0x3nlcmlhbci6iiisimnlcnrfaxnzdwvyx2ruijoiiiwiyxv0af9zdgf0dxmioiiifswiyxv0af9zdgf0dxmioiiifq.rtwvwvxdrop13ftopr_nkvhvbmghxoewqqsebdoisvbarahnzg3u-ziz917cwegz2wn2ra2-3bd8nwna5dkvmpq8v3fp7fz8znppqszoztcibn0kjoxjp3gy0ju0aalkpl6xyinbnwd4si8opypwj7q3i3aseq3ecnyfj7tihp0c5z0smfl68idg8mgixywb-aslov_dbqpj1n18jdnsblhrufwngriscbbewy0q9mx-w8s7dfwlweshoxydf4yuvqkt3n4xweac1hetxftajh2huxt-g2yzquuoa-8s2tfepunvhhretjx9rkxlp4lephu2qgcydvawyzyyste0uw
+server: cloudflare set-cookie: cf_appsession=nb4186e8ce022bcf4; expires=sun, 19 apr 2026 02:11:46
+gmt; path=/; secure; httponly vary: accept-encoding
+
+4. Created Clouflare KV, as the following details :
+
+- KV : OPT_REVIEWS
+
+- I see the records being saved to the KV storage, so that would clarify that connection actually
+  working between apify and the cloudflare workers, through the APIFY_TOKEN. And I can see that the
+  reviews in the KV storage with the google reviews, but only 512 reviews, and currently apify
+  mentioned a new record has been stored, so now it's supposed to be 513.
+
+5. Created a jekyll scripts to fetch the json from url https://api.optikalbahari.com/ with
+   `fetch_reviews.rb` and save them as reviews.json file under the \_data directory
+
+#!/usr/bin/env ruby
+
+require 'net/http' require 'json' require 'fileutils' require 'time' require 'securerandom'
+
+require 'yaml'
+
+# Configuration
+
+API_URL = 'https://api.optikalbahari.com/' BASE_DIR = File.expand_path('../../', **dir**) # Root
+DATA_DIR = File.join(BASE_DIR, '\_data') REVIEWS_FILE = File.join(DATA_DIR, 'reviews.json')
+
+# We'll use individual JSONs in \_data/reviews
+
+INDIVIDUAL_REVIEWS_DIR = File.join(DATA_DIR, 'reviews') TIMESTAMP_FILE = File.join(DATA_DIR,
+'.reviews_timestamp') META_FILE = File.join(DATA_DIR, '.reviews_meta.json')
+
+# Default TTL: 24 hours (in seconds)
+
+DEFAULT*TTL = 24 * 60 \_ 60
+
+def should_force_fetch? return true if ENV['FORCE_FETCH'] == 'true' return true unless
+File.exist?(REVIEWS_FILE) && File.exist?(TIMESTAMP_FILE) last_fetch_content =
+File.read(TIMESTAMP_FILE).strip return true if last_fetch_content.empty? last_fetched_time =
+last_fetch_content.to_i ttl = ENV['REVIEWS_FETCH_TTL'] ? ENV['REVIEWS_FETCH_TTL'].to_i : DEFAULT_TTL
+(Time.now.to_i - last_fetched_time) > ttl end
+
+def split_reviews(reviews) puts "Splitting #{reviews.length} reviews into individual JSONs in
+#{INDIVIDUAL_REVIEWS_DIR}..."
+
+# Ensure target directory exists and is ready
+
+FileUtils.mkdir_p(INDIVIDUAL_REVIEWS_DIR)
+
+# Clean old reviews to avoid stale data
+
+FileUtils.rm_rf(Dir.glob("#{INDIVIDUAL_REVIEWS_DIR}/\*.json"))
+
+reviews.each do |review| # Generate unique filename based on timestamp publish_date_str =
+review['publishedAtDate'] || review['publishAt'] || review['scrapedAt']
+
+    begin
+      if publish_date_str
+        time = Time.parse(publish_date_str)
+        timestamp_str = time.strftime('%Y-%m-%d-%H%M%S')
+      else
+        timestamp_str = Time.now.strftime('%Y-%m-%d-%H%M%S')
+      end
+    rescue ArgumentError, TypeError
+      timestamp_str = publish_date_str.to_s.gsub(/[^0-9]/, '')[0..13] rescue Time.now.to_i.to_s
+    end
+
+    review_id = review['reviewId'] || review['cid'] || SecureRandom.hex(4)
+    filename = "#{timestamp_str}-#{review_id}.json"
+    filepath = File.join(INDIVIDUAL_REVIEWS_DIR, filename)
+
+    File.write(filepath, JSON.pretty_generate(review))
+
+end
+
+puts "Finished splitting reviews into #{INDIVIDUAL_REVIEWS_DIR}" end
+
+def process_data(body, raw_size) begin data = JSON.parse(body) rescue JSON::ParserError puts "Error:
+Failed to parse JSON response." exit 1 end
+
+unless data.is_a?(Array) # Handle cases where the response might be wrapped if data.is_a?(Hash) &&
+data.key?('reviews') && data['reviews'].is_a?(Array) data = data['reviews'] else puts "Error:
+Invalid data format. Expected an array of reviews." exit 1 end end
+
+# Ensure directories exist
+
+FileUtils.mkdir_p(DATA_DIR)
+
+# Save the full reviews file
+
+File.write(REVIEWS_FILE, JSON.pretty_generate(data)) File.write(TIMESTAMP_FILE, Time.now.to_i)
+
+# Save meta for change detection
+
+File.write(META_FILE, JSON.generate({ raw_size: raw_size, last_fetched: Time.now.iso8601, count:
+data.length }))
+
+puts "Successfully fetched #{data.length} reviews and saved to #{REVIEWS_FILE}"
+
+# Split into individual records
+
+split_reviews(data) end
+
+def run uri = URI(API_URL) puts "Checking for changes at #{API_URL}..."
+
+begin # 1. Detect Changes using Headers only (uncompressed size) Net::HTTP.start(uri.host, uri.port,
+use_ssl: (uri.scheme == 'https')) do |http| # We ask for identity encoding to ensure we get a
+Content-Length header # instead of Transfer-Encoding: chunked (which doesn't have size) request =
+Net::HTTP::Get.new(uri) request['Accept-Encoding'] = 'identity'
+
+      http.request(request) do |response|
+        unless response.is_a?(Net::HTTPSuccess)
+          puts "Error: Failed to connect. Status: #{response.code}"
+          exit 1
+        end
+
+        remote_raw_size = response['content-length'].to_i
+        local_meta = File.exist?(META_FILE) ? JSON.parse(File.read(META_FILE)) : {}
+
+        # Size-based Change Detection
+        if !local_meta.empty? && local_meta['raw_size'] == remote_raw_size && remote_raw_size > 0 && ENV['FORCE_FETCH'] != 'true'
+          # If size matches, it's NOT fresh. We only proceed if TTL expired.
+          if should_force_fetch?
+            puts "Size matches local record, but TTL expired. Proceeding anyway."
+          else
+            puts "No changes detected (Remote raw size: #{remote_raw_size} bytes). Skipping download."
+            return
+          end
+        else
+          puts "Changes detected or initial fetch. Remote raw size: #{remote_raw_size} bytes."
+        end
+
+        # 2. Proceed to Download (this time we allow gzip for performance/standard behavior)
+        puts "Downloading reviews..."
+        download_response = Net::HTTP.get_response(uri)
+
+        if download_response.is_a?(Net::HTTPSuccess)
+          process_data(download_response.body, remote_raw_size)
+        else
+          puts "Error: Failed to download reviews during second pass."
+          exit 1
+        end
+      end
+    end
+
+rescue => e puts "Error: #{e.message}" exit 1 end end
+
+# Execution
+
+run
+
+6. Created a jekyll plugin reviews_loader.rb, so it would update the views on jekyll each build
+
+Jekyll::Hooks.register :site, :post_read do |site|
+
+# Load individual reviews from \_data/reviews folder
+
+reviews_folder = site.data['reviews']
+
+if reviews_folder.is_a?(Hash) # The 'reviews' entry in site.data will be a hash if loaded from a
+directory # where keys are filenames and values are the JSON content. # We want a flat array sorted
+by date descending. site.data['reviews_list'] = reviews_folder.values.sort_by { |r|
+r['publishedAtDate'] || r['publishAt'] || r['scrapedAt'] || "" }.reverse elsif
+site.data['reviews'].is_a?(Array) # Fallback to the main reviews.json if the folder isn't loaded
+correctly site.data['reviews_list'] = site.data['reviews'].sort_by { |r| r['publishedAtDate'] ||
+r['publishAt'] || r['scrapedAt'] || "" }.reverse else site.data['reviews_list'] = [] end
+
+Jekyll.logger.info "Reviews:", "Standardized #{site.data['reviews_list'].length} reviews into
+site.data.reviews_list" end
+
+Now on to the questions:
+
+- My best bet, the pipeline somehow failed to communicate from apify webhook to the cloudflare
+  workers, before it's being sent to the cloudflare KV, could you elaborate more on this, even
+  better, ask me questions to clarify things before we move on!
+- Previously I had only 512 reviews, and now I got 513 reviews, but it wouldn't update the 1
+  additional reviews, could you elaborate more on this, even better, ask me questions to clarify
+  things before we move on!
+- Even better, how would you propose a better pipeline to achieve this?
