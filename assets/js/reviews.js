@@ -46,6 +46,9 @@ const CONFIG = {
  * Initialize application on page load
  */
 document.addEventListener('DOMContentLoaded', () => {
+  const container = document.getElementById('reviews-container-wrapper')
+  if (!container) return
+
   fetchReviews()
   setupEventListeners()
   initReviewModal()

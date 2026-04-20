@@ -6,54 +6,74 @@ layout: null
   Image Sitemap — Optikal Bahari
   Namespace : http://www.google.com/schemas/sitemap-image/1.1
   Spec      : https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps
-  Generated : Jekyll / Liquid at build time
-  Note      : <image:caption>, <image:title>, <image:geo_location>, and <image:license>
-              were removed by Google in May 2022 and are intentionally omitted.
-              Only the required <image:loc> tag is used inside each <image:image> block.
+  Notes     :
+    1. Only <image:loc> is included as per current Google requirements.
+    2. All images are proxied through https://assets.optikalbahari.com.
+    3. Scans front-matter 'background' AND 'include' calls within content.
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   {%- comment -%}
-    =========================================================
-    SECTION 1 — BLOG POSTS
-    Each post carries a `background:` front-matter key that
-    holds a local path like /assets/img/posts/…/photo.webp.
-    We convert it to a Cloudinary URL via the cloudinary_url
-    filter registered in _plugins/cloudinary.rb.
-    =========================================================
+    Combine posts and pages to process once
   {%- endcomment -%}
-  {%- for post in site.posts -%}
-    {%- if post.background and post.background != "" -%}
-      {%- assign image_url = post.background | cloudinary_url -%}
+  {%- assign items = site.posts | concat: site.pages -%}
+
+  {%- for item in items -%}
+    {%- if item.url contains ".xml" or item.url contains "404" -%}{%- continue -%}{%- endif -%}
+
+    {%- comment -%} Initialize list of images for this URL {%- endcomment -%}
+    {%- assign page_images = "" | split: "," -%}
+
+    {%- comment -%} 1. Check Masthead (Background) {%- endcomment -%}
+    {%- if item.background and item.background != "" -%}
+      {%- assign img = item.background | cloudinary_url: 'c_fill,w_1400,h_700,g_auto,q_auto:eco,f_avif' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' -%}
+      {%- assign page_images = page_images | push: img -%}
+    {%- endif -%}
+
+    {%- comment -%}
+      2. Scan Content for Cloudinary Includes
+      We look for 'include cloudinary/' segments.
+    {%- endcomment -%}
+    {%- assign content_parts = item.content | split: 'include cloudinary/' -%}
+    {%- for part in content_parts offset:1 -%}
+      {%- comment -%} Try to extract src between single or double quotes {%- endcomment -%}
+      {%- assign src_extract = "" -%}
+      {%- if part contains 'src="' -%}
+        {%- assign src_extract = part | split: 'src="' | last | split: '"' | first -%}
+      {%- elsif part contains "src='" -%}
+        {%- assign src_extract = part | split: "src='" | last | split: "'" | first -%}
+      {%- endif -%}
+
+      {%- if src_extract != "" -%}
+        {%- comment -%} Normalize path (remove leading slash) {%- endcomment -%}
+        {%- assign clean_src = src_extract -%}
+        {%- assign first_char = clean_src | slice: 0 -%}
+        {%- if first_char == "/" -%}
+          {%- assign clean_src = clean_src | slice: 1, clean_src.size -%}
+        {%- endif -%}
+
+        {%- comment -%} Determine transformation based on include type {%- endcomment -%}
+        {%- assign params = "c_fill,g_auto:subject,q_auto:good,e_sharpen:100,w_768,h_432" -%}
+        {%- if part contains "thumbnail_image.html" -%}
+          {%- assign params = "c_limit,w_400,h_225,q_auto:eco,f_avif,e_sharpen:60" -%}
+        {%- endif -%}
+
+        {%- assign img_url = clean_src | cloudinary_url: params | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' -%}
+        {%- assign page_images = page_images | push: img_url -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- if page_images.size > 0 -%}
   <url>
-    <loc>{{ site.url }}{{ post.url | replace: "index.html", "" }}</loc>
+    <loc>{{ site.url }}{{ item.url | replace: "index.html", "" }}</loc>
+    {%- for img in page_images -%}
     <image:image>
-      <image:loc>{{ image_url }}</image:loc>
+      <image:loc>{{ img | escape }}</image:loc>
     </image:image>
+    {%- endfor -%}
   </url>
     {%- endif -%}
-  {%- endfor -%}
-
-  {%- comment -%}
-    =========================================================
-    SECTION 2 — STATIC PAGES
-    Pages in _pages/ also use the `background:` key. We skip
-    sitemap-related XML pages and the 404 to avoid pollution.
-    =========================================================
-  {%- endcomment -%}
-  {%- for page in site.pages -%}
-    {%- unless page.url contains ".xml" or page.url contains "404" -%}
-      {%- if page.background and page.background != "" -%}
-        {%- assign page_image_url = page.background | cloudinary_url -%}
-  <url>
-    <loc>{{ site.url }}{{ page.url }}</loc>
-    <image:image>
-      <image:loc>{{ page_image_url }}</image:loc>
-    </image:image>
-  </url>
-      {%- endif -%}
-    {%- endunless -%}
   {%- endfor -%}
 
 </urlset>
