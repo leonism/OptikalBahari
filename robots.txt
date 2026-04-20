@@ -17,6 +17,7 @@ Disallow: /cgi-bin/
 Disallow: /cdn-cgi/
 
 # ==========================================
-# SITEMAP
+# SITEMAPS
 # ==========================================
 Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {{ site.url }}/sitemap-images.xml

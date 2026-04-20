@@ -1,0 +1,59 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Image Sitemap — Optikal Bahari
+  Namespace : http://www.google.com/schemas/sitemap-image/1.1
+  Spec      : https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps
+  Generated : Jekyll / Liquid at build time
+  Note      : <image:caption>, <image:title>, <image:geo_location>, and <image:license>
+              were removed by Google in May 2022 and are intentionally omitted.
+              Only the required <image:loc> tag is used inside each <image:image> block.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  {%- comment -%}
+    =========================================================
+    SECTION 1 — BLOG POSTS
+    Each post carries a `background:` front-matter key that
+    holds a local path like /assets/img/posts/…/photo.webp.
+    We convert it to a Cloudinary URL via the cloudinary_url
+    filter registered in _plugins/cloudinary.rb.
+    =========================================================
+  {%- endcomment -%}
+  {%- for post in site.posts -%}
+    {%- if post.background and post.background != "" -%}
+      {%- assign image_url = post.background | cloudinary_url -%}
+  <url>
+    <loc>{{ site.url }}{{ post.url | replace: "index.html", "" }}</loc>
+    <image:image>
+      <image:loc>{{ image_url }}</image:loc>
+    </image:image>
+  </url>
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- comment -%}
+    =========================================================
+    SECTION 2 — STATIC PAGES
+    Pages in _pages/ also use the `background:` key. We skip
+    sitemap-related XML pages and the 404 to avoid pollution.
+    =========================================================
+  {%- endcomment -%}
+  {%- for page in site.pages -%}
+    {%- unless page.url contains ".xml" or page.url contains "404" -%}
+      {%- if page.background and page.background != "" -%}
+        {%- assign page_image_url = page.background | cloudinary_url -%}
+  <url>
+    <loc>{{ site.url }}{{ page.url }}</loc>
+    <image:image>
+      <image:loc>{{ page_image_url }}</image:loc>
+    </image:image>
+  </url>
+      {%- endif -%}
+    {%- endunless -%}
+  {%- endfor -%}
+
+</urlset>
