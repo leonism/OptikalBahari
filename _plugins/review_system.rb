@@ -45,21 +45,17 @@ module Jekyll
       reviews = site.data['reviews_list']
       return unless reviews && reviews.is_a?(Array)
 
-      # Ensure destination directory exists
-      api_dir = File.join(site.dest, 'api', 'reviews')
-      FileUtils.mkdir_p(api_dir) unless File.directory?(api_dir)
-
       # A. Output individual reviews (for deep linking or on-demand fetch)
       reviews.each do |review|
         id = review['reviewId']
         next unless id
-        File.write(File.join(api_dir, "#{id}.json"), review.to_json)
+        site.pages << JsonPage.new(site, site.source, 'api/reviews', "#{id}.json", review)
       end
 
       # B. Output chunks (e.g., 20 reviews per file)
       chunk_size = 20
       reviews.each_slice(chunk_size).with_index(1) do |chunk, index|
-        File.write(File.join(api_dir, "chunk-#{index}.json"), chunk.to_json)
+        site.pages << JsonPage.new(site, site.source, 'api/reviews', "chunk-#{index}.json", chunk)
       end
 
       # C. Output a lightweight index (only ID, name, stars, date for sorting)
@@ -76,28 +72,29 @@ module Jekyll
           }
         }
       }
-      File.write(File.join(site.dest, 'api', 'reviews-index.json'), index_data.to_json)
+      site.pages << JsonPage.new(site, site.source, 'api', 'reviews-index.json', index_data)
 
-      # D. Output the full reviews list (Limited to 60 as per original legacy template)
-      full_list = reviews.take(60).map do |r|
-        {
-          'name'                  => r['name'],
-          'reviewId'              => r['reviewId'],
-          'reviewerPhotoUrl'      => r['reviewerPhotoUrl'],
-          'text'                  => r['text'],
-          'stars'                 => r['stars'],
-          'publishedAtDate'       => r['publishedAtDate'] || r['publishAt'] || r['scrapedAt'],
-          'reviewUrl'             => r['reviewUrl'],
-          'reviewImageUrls'       => r['reviewImageUrls'],
-          'responseFromOwnerText' => r['responseFromOwnerText'],
-          'totalScore'            => r['totalScore'],
-          'reviewsCount'          => r['reviewsCount']
-        }
-      end
-      reviews_json_path = File.join(site.dest, 'api', 'reviews.json')
-      File.write(reviews_json_path, full_list.to_json)
+      # NOTE: reviews.json is now handled by a source file at /api/reviews.json 
+      # for maximum reliability and ease of customization.
 
-      Jekyll.logger.info "Review API:", "Generated /api/reviews.json, index, and chunks in destination."
+      Jekyll.logger.info "Review API:", "Registered /api/reviews-index.json and detail chunks as Jekyll Pages."
+    end
+  end
+
+  # Helper class to create JSON pages dynamically
+  class JsonPage < Page
+    def initialize(site, base, dir, name, data)
+      @site = site
+      @base = base
+      @dir  = dir
+      @name = name
+
+      self.process(name)
+      self.data = {
+        'layout' => nil,
+        'content_type' => 'application/json'
+      }
+      self.content = data.to_json
     end
   end
 end
