@@ -9,6 +9,7 @@ const { execSync } = require('child_process')
 const zlib = require('zlib')
 const { promisify } = require('util')
 const glob = require('glob')
+const crypto = require('crypto')
 
 // Constants
 const SITE_DIR = '_site'
@@ -98,13 +99,13 @@ function runCommand(command, description) {
 // ============================================================================
 
 function runAssetConsolidation() {
-  console.log(`\n${colors.yellow}📦 Step 1/3: Asset Consolidation${colors.reset}`)
+  console.log(`\n${colors.yellow}📦 Step 1/5: Asset Consolidation${colors.reset}`)
   if (!scriptExists('consolidate-assets.js')) return
   runCommand(`node ${path.join(SCRIPTS_DIR, 'consolidate-assets.js')}`, 'Asset consolidation')
 }
 
 async function runPurgeCSS() {
-  console.log(`\n${colors.yellow}🧹 Step 2/3: Purge Unused CSS${colors.reset}`)
+  console.log(`\n${colors.yellow}🧹 Step 2/5: Purge Unused CSS${colors.reset}`)
   if (!scriptExists('purge-css.js') || !isPackageAvailable('purgecss')) {
     console.log(`  ${colors.red}⚠️  Required assets missing - skipping${colors.reset}`)
     return
@@ -119,7 +120,7 @@ async function runPurgeCSS() {
 }
 
 async function runAssetCompression() {
-  console.log(`\n${colors.yellow}🗜️  Step 3/3: Asset Compression (.br, .zst)${colors.reset}`)
+  console.log(`\n${colors.yellow}🗜️  Step 5/5: Asset Compression (.br, .zst)${colors.reset}`)
   const brotliCompress = promisify(zlib.brotliCompress)
 
   try {
@@ -195,6 +196,145 @@ async function runAssetCompression() {
   }
 }
 
+async function runCacheBusting() {
+  console.log(`\n${colors.yellow}🔗 Step 3/5: Cache Busting CSS/JS (Hashing)${colors.reset}`)
+  const distDir = path.join(SITE_DIR, 'assets', 'dist')
+  if (!fs.existsSync(distDir)) {
+    console.log(`  ${colors.dim}No dist directory found, skipping hashing.${colors.reset}`)
+    return
+  }
+
+  const assets = glob.sync(`${distDir}/**/*.{css,js}`)
+  /** @type {Record<string, string>} */
+  const manifest = {}
+
+  for (const asset of assets) {
+    // Skip already hashed files if this runs multiple times
+    const ext = path.extname(asset)
+    const base = path.basename(asset, ext)
+    if (base.match(/\.[a-f0-9]{10}$/)) continue
+    
+    try {
+      const content = fs.readFileSync(asset)
+      const hash = crypto.createHash('md5').update(content).digest('hex').substring(0, 10)
+      
+      const newName = `${base}.${hash}${ext}`
+      const newPath = path.join(distDir, newName)
+      
+      fs.renameSync(asset, newPath)
+      
+      const oldPublicPath = `/assets/dist/${path.basename(asset)}`
+      const newPublicPath = `/assets/dist/${newName}`
+      manifest[oldPublicPath] = newPublicPath
+      console.log(`  ${colors.dim}Hashed: ${path.basename(asset)} -> ${newName}${colors.reset}`)
+    } catch (/** @type {any} */ e) {
+      console.error(`  ${colors.red}❌ Failed to hash ${asset}: ${e.message}${colors.reset}`)
+    }
+  }
+
+  if (Object.keys(manifest).length === 0) {
+    console.log(`  ${colors.dim}No new assets to hash.${colors.reset}`)
+    return
+  }
+
+  const htmlFiles = glob.sync(`${SITE_DIR}/**/*.html`)
+  console.log(`  ${colors.dim}Updating references in ${htmlFiles.length} HTML files...${colors.reset}`)
+  
+  let updatedCount = 0
+  for (const file of htmlFiles) {
+    try {
+      let content = fs.readFileSync(file, 'utf8')
+      let changed = false
+      for (const [oldPath, newPath] of Object.entries(manifest)) {
+        if (content.includes(oldPath)) {
+          // Use regex to replace to ensure we only replace the exact path
+          const escapedOldPath = oldPath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+          content = content.replace(new RegExp(escapedOldPath, 'g'), newPath)
+          changed = true
+        }
+      }
+      if (changed) {
+        fs.writeFileSync(file, content)
+        updatedCount++
+      }
+    } catch (/** @type {any} */ e) {}
+  }
+  console.log(`  ${colors.green}✅ Cache busting complete (${updatedCount} HTML files updated)${colors.reset}`)
+}
+
+/**
+ * Image Cache Busting for Cloudinary
+ * Scans local images to generate hashes and updates Cloudinary URLs in HTML/CSS
+ */
+async function runImageCacheBusting() {
+  console.log(`\n${colors.yellow}🖼️  Step 4/5: Image Cache Busting (Cloudinary Hashing)${colors.reset}`)
+  const imgDir = path.join(SITE_DIR, 'assets', 'img')
+  if (!fs.existsSync(imgDir)) {
+    console.log(`  ${colors.dim}No img directory found, skipping image hashing.${colors.reset}`)
+    return
+  }
+
+  const imageFiles = glob.sync(`${imgDir}/**/*.{jpg,jpeg,png,webp,gif,avif,svg}`)
+  /** @type {Record<string, string>} */
+  const imageManifest = {}
+
+  for (const asset of imageFiles) {
+    try {
+      const content = fs.readFileSync(asset)
+      const hash = crypto.createHash('md5').update(content).digest('hex').substring(0, 10)
+      
+      // Get public ID by stripping imgDir and extension
+      let relativePath = path.relative(imgDir, asset).replace(/\\/g, '/')
+      const ext = path.extname(relativePath)
+      const publicId = relativePath.slice(0, -ext.length)
+      
+      imageManifest[publicId] = hash
+    } catch (/** @type {any} */ e) {
+      console.error(`  ${colors.red}❌ Failed to hash image ${asset}: ${e.message}${colors.reset}`)
+    }
+  }
+
+  if (Object.keys(imageManifest).length === 0) {
+    console.log(`  ${colors.dim}No images found to hash.${colors.reset}`)
+    return
+  }
+
+  console.log(`  ${colors.dim}Generated hashes for ${Object.keys(imageManifest).length} images${colors.reset}`)
+
+  // Update references in both HTML and CSS files
+  const filesToUpdate = glob.sync(`${SITE_DIR}/**/*.{html,css}`)
+  const baseUrl = 'https://assets.optikalbahari.com/image/upload/'
+  const escapedBase = baseUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  
+  let updatedFilesCount = 0
+  for (const file of filesToUpdate) {
+    try {
+      let content = fs.readFileSync(file, 'utf8')
+      let changed = false
+      
+      for (const [publicId, hash] of Object.entries(imageManifest)) {
+        const escapedId = publicId.replace(/\//g, '\\/')
+        // Match Cloudinary URL structure: base + transforms + (vNumber/)? + publicId
+        // Delimiters ensure we don't partially match public IDs
+        const regex = new RegExp(`(${escapedBase})([^"']*?)((?:v\\d+/)?${escapedId})(?=[./?"'\\s]|$)`, 'g')
+        
+        content = content.replace(regex, (match, base, transforms, versionAndId) => {
+          if (versionAndId.startsWith(`v${hash}/`)) return match
+          changed = true
+          return base + transforms + `v${hash}/${publicId}`
+        })
+      }
+
+      if (changed) {
+        fs.writeFileSync(file, content)
+        updatedFilesCount++
+      }
+    } catch (/** @type {any} */ e) {}
+  }
+  
+  console.log(`  ${colors.green}✅ Image cache busting complete (${updatedFilesCount} files updated)${colors.reset}`)
+}
+
 // ============================================================================
 // MAIN EXECUTION
 // ============================================================================
@@ -210,7 +350,13 @@ async function main() {
   // 2. Run PurgeCSS on the final styles.min.css only
   await runPurgeCSS()
   
-  // 3. Compress final files into formats natively requested by CF and high-end clients
+  // 3. Hash files for cache busting (CSS/JS)
+  await runCacheBusting()
+  
+  // 4. Hash images for cache busting (Cloudinary)
+  await runImageCacheBusting()
+  
+  // 5. Compress final files into formats natively requested by CF and high-end clients
   await runAssetCompression()
 
   const duration = ((Date.now() - startTime) / 1000).toFixed(2)
