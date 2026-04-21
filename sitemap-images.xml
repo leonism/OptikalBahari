@@ -2,15 +2,6 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Image Sitemap — Optikal Bahari
-  Namespace : http://www.google.com/schemas/sitemap-image/1.1
-  Spec      : https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps
-  Notes     :
-    1. Only <image:loc> is included as per current Google requirements.
-    2. All images are proxied through https://assets.optikalbahari.com.
-    3. Scans front-matter 'background' AND 'include' calls within content.
--->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
@@ -27,7 +18,7 @@ layout: null
 
     {%- comment -%} 1. Check Masthead (Background) {%- endcomment -%}
     {%- if item.background and item.background != "" -%}
-      {%- assign img = item.background | cloudinary_url: 'c_fill,w_1400,h_700,g_auto,q_auto:eco,f_avif' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' -%}
+      {%- assign img = item.background | cloudinary_url: 'c_fill,w_4200,h_2100,g_auto,q_auto:eco,f_avif' | replace: 'https://res.cloudinary.com/divkqrf7k', 'https://assets.optikalbahari.com' -%}
       {%- assign page_images = page_images | push: img -%}
     {%- endif -%}
 
