@@ -9,8 +9,6 @@
 
 /* Aspect Ratio Utilities */
 .ratio-16x9 { aspect-ratio: 16 / 9; }
-.ratio-4x3  { aspect-ratio: 4 / 3; }
-.ratio-1x1  { aspect-ratio: 1 / 1; }
 
 /* 2. The Skeleton Shimmer Animation Logic */
 @keyframes skeleton-shimmer {
@@ -168,15 +166,6 @@ img.loading {
 }
 
 /* Optional: Overlay a very tiny low-res image if your component supports it */
-.blur-placeholder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
 
 /* 3. The Smooth Fade-in & Dreamy Bloom Effect */
 .transition-opacity {

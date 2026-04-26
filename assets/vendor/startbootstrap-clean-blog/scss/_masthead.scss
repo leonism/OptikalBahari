@@ -51,9 +51,7 @@
     }
   }
 
-  .page-heading,
-  .post-heading,
-  .site-heading {
+  .page-heading {
     position: relative; // Ensure text stays above pseudo-elements
     z-index: 10;
     padding: 400px 0 50px 0;
@@ -69,8 +67,7 @@
 /* Original Heading Typography       */
 /* ---------------------------------------- */
 header.masthead {
-  .page-heading,
-  .site-heading {
+  .page-heading {
     text-align: center;
     h1 {
       margin-top: 400px;
@@ -108,47 +105,6 @@ header.masthead {
     }
   }
 
-  .post-heading {
-    text-align: center;
-
-    h1 {
-      font-size: 35px;
-    }
-
-    .meta,
-    .subheading {
-      line-height: 1.1;
-      display: block;
-    }
-
-    .subheading {
-      font-size: 24px;
-      font-weight: 600;
-      margin: 10px 0 30px;
-      @include sans-serif-font;
-    }
-
-    .meta {
-      font-size: 20px;
-      font-weight: 300;
-      font-style: italic;
-      @include serif-font;
-
-      a {
-        color: $white;
-      }
-    }
-
-    @media only screen and (min-width: 768px) {
-      h1 {
-        font-size: 55px;
-      }
-
-      .subheading {
-        font-size: 30px;
-      }
-    }
-  }
 }
 
 /* ---------------------------------------- */
@@ -176,8 +132,6 @@ body.dark-mode {
 
   /* MODIFIED: Keep headings "Lit" (Glow effect) */
   .page-heading h1,
-  .post-heading h1,
-  .site-heading h1,
   .subheading {
     color: $white !important;
     // Stronger text shadow to create a 'lit' effect against the dimmed background
