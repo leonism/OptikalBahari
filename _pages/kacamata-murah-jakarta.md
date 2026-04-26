@@ -19,7 +19,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Jual Kacamata Murah Di Jakarta Model & Desain Terbaru' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Jual Kacamata Murah Di Jakarta Model & Desain Terbaru' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Kacamata Murah Dan Terjangkau
@@ -41,7 +41,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp' alt='Kelebihan Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp' alt='Kelebihan Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Optikal Bahari
@@ -80,7 +80,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='Jual Kacamata Murah Di Jakarta Model & Desain Terbaru' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='Jual Kacamata Murah Di Jakarta Model & Desain Terbaru' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Segera Kunjungi Optikal Bahari

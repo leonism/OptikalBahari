@@ -19,7 +19,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card p-3 mb-5">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Periksakan Mata Anda Secara Rutin' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Periksakan Mata Anda Secara Rutin' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Testimoni Pelanggan dan Konsumen Kami: Bukti Kepercayaan dan Kepuasan
@@ -108,7 +108,7 @@ comments: false
   </ul>
 </nav>
 <div class="card p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Testimoni Konsumen Optikal Bahari' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Testimoni Konsumen Optikal Bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Bukti Nyata Kepercayaan dan Kepuasan: Suara Pelanggan Optikal Bahari

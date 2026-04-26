@@ -18,7 +18,7 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/048.webp' alt='kacamata cicilan' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/048.webp' alt='kacamata cicilan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Apa itu Kacamata Blue Ray
@@ -42,7 +42,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/049.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/049.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Dalam Berbagai Model & Desain</h3>
     <p class="card-text text-start">
@@ -60,7 +60,7 @@ comments: false
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/050.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/050.webp' alt='Aman dari Riba ketika Beli Kacamata yang Bisa Nyicil di Sini' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
     <p class="card-text text-start">

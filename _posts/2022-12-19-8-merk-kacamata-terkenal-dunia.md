@@ -20,7 +20,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp' alt='8 Merk Frame Kacamata Terkenal Dunia' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='/assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-15.webp' alt='8 Merk Frame Kacamata Terkenal Dunia' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         8 Merk Frame Kacamata Terkenal Dunia
@@ -37,7 +37,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp' alt='Oakley adalah merk frame kacamata terkenal dengan teknologi lensa canggih dan desain futuristik' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp' alt='Oakley adalah merk frame kacamata terkenal dengan teknologi lensa canggih dan desain futuristik' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Oakley: Kacamata dengan Teknologi Lensa Canggih & Desain Futuristik</h3>
       <p class="card-text text-start">
@@ -84,7 +84,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/rayban-aviator.webp' alt='Ray-Ban adalah merk kacamata terkenal dunia dengan desain klasik seperti Wayfarer, Aviator, dan Clubmaster' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='/assets/img/posts/eyewear-collection-00/rayban-aviator.webp' alt='Ray-Ban adalah merk kacamata terkenal dunia dengan desain klasik seperti Wayfarer, Aviator, dan Clubmaster' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Ray-Ban: Ikon Kacamata Klasik yang Tak Pernah Lekang oleh Waktu
@@ -131,7 +131,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp' alt='Persol adalah merk kacamata asal Italia dengan desain klasik elegan dan kualitas premium terbaik' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='/assets/img/posts/eyewear-collection-00/eyewear-seoul-min.webp' alt='Persol adalah merk kacamata asal Italia dengan desain klasik elegan dan kualitas premium terbaik' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Persol: Kacamata Elegan dengan Warisan Klasik Italia</h3>
       <p class="card-text text-start">
@@ -175,7 +175,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp' alt='Prada adalah merk kacamata premium asal Italia dengan desain mewah, elegan, dan modern' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='/assets/img/posts/eyewear-collection-00/eyewear-prada-min-00.webp' alt='Prada adalah merk kacamata premium asal Italia dengan desain mewah, elegan, dan modern' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Prada: Kacamata Mewah dengan Desain Fashion Forward</h3>
       <p class="card-text text-start">
@@ -217,7 +217,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp' alt='Tom Ford adalah merk kacamata premium dengan desain maskulin, elegan, dan eksklusif' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='/assets/img/posts/eyewear-collection-00/eyewear-tomford-00.webp' alt='Tom Ford adalah merk kacamata premium dengan desain maskulin, elegan, dan eksklusif' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Tom Ford: Kacamata Maskulin dengan Sentuhan Mewah dan Elegan</h3>
       <p class="card-text text-start">
@@ -250,7 +250,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp' alt='Burberry adalah merk kacamata asal Inggris dengan desain elegan, chic, dan kualitas premium' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='/assets/img/posts/eyewear-collection-00/eyewear-burberry-gigihadid-01.webp' alt='Burberry adalah merk kacamata asal Inggris dengan desain elegan, chic, dan kualitas premium' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Burberry: Kacamata Elegan dengan Sentuhan British Heritage</h3>
       <p class="card-text text-start">
@@ -298,7 +298,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp' alt='Versace adalah merk kacamata mewah dengan desain eksklusif, bold, dan berkarakter' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='/assets/img/posts/eyewear-collection-00/eyewear-versace-male-01.webp' alt='Versace adalah merk kacamata mewah dengan desain eksklusif, bold, dan berkarakter' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Versace: Kacamata Mewah dengan Desain Bold dan Ikonik</h3>
       <p class="card-text text-start">
@@ -346,7 +346,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp' alt='Gucci adalah merk kacamata mewah dengan desain eksklusif, stylish, dan berkualitas tinggi' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='/assets/img/posts/eyewear-collection-00/eyewear-parisian-min.webp' alt='Gucci adalah merk kacamata mewah dengan desain eksklusif, stylish, dan berkualitas tinggi' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Gucci: Kacamata Mewah dengan Sentuhan Fashion Ikonik
@@ -396,7 +396,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp' alt='Segera Datangi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='/assets/img/posts/eyewear-collection-00/eyewear-manhattan-00.webp' alt='Segera Datangi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Segera Datangi Optikal Bahari

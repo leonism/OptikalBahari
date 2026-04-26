@@ -20,7 +20,7 @@ comments: false
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-10.webp' alt='Kacamata Reto dan vintage' ratio='16x9' class='card-img-top' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-10.webp' alt='Kacamata Reto dan vintage' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">
                 Tren Retro & Vintage Yang Kembali Populer
@@ -59,7 +59,7 @@ comments: false
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-012.webp' alt='Kacamata Reto dan vintage' ratio='16x9' class='card-img-top' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-012.webp' alt='Kacamata Reto dan vintage' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">
                 Padukan Dengan Bentuk Wajah Dan Warna Kulit
@@ -95,7 +95,7 @@ comments: false
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp' alt='Padukan Kacamata Retro Dengan Gaya Anda' ratio='16x9' class='card-img-top' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-015.webp' alt='Padukan Kacamata Retro Dengan Gaya Anda' ratio='16x9' class='card-img-top' %}
         <div class="card-body">
             <h3 class="card-title">
                 Padukan Kacamata Retro Dengan Gaya Anda

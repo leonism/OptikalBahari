@@ -9,7 +9,7 @@
               <a href='{{ post.url | relative_url }}' title='{{ post.title }}' role='button'>
                 {% if post.background %}
                   {%
-                    include cloudinary/thumbnail_image.html
+                    include cloudinary/cloudinary-thumbnail-image.html
                     src=post.background
                     alt=post.title
                     class="card-img-top"

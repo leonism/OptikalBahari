@@ -18,7 +18,7 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/kacamata-cicilan/kacamata-cicilan.webp' alt='kacamata cicilan' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-cicilan/kacamata-cicilan.webp' alt='kacamata cicilan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Lokasi Kami Yang Mudah Di Jangkau Di Jalan Bendungan Jago.
@@ -41,7 +41,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/bg-about.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/bg-about.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan

@@ -21,7 +21,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Kredit Kacamata Minus</h3>
       <p class="card-text text-start">
@@ -40,7 +40,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-8.webp' alt='Pilih Beli Kacamata yang Bisa Nyicil Sesuai Kebutuhan' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Kredit Kacamata Sesuai Kebutuhan</h3>
     <p class="card-text text-start">
@@ -59,7 +59,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">

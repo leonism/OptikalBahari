@@ -17,7 +17,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp' alt='Privacy & Policy, Kebijakan Penggunaan Situs' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-14.webp' alt='Privacy & Policy, Kebijakan Penggunaan Situs' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h2 class="card-title">
         Kebijakan Penggunaan Situs Optikal Bahari

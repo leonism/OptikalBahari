@@ -19,7 +19,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa' ratio='16x9' class='card-img-top img-fluid' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-01.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Lensa' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Periksa Mata Gratis Di Optikal Bahari: Solusi Visual Biar Mata Nggak Gampang Capek
@@ -41,7 +41,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp' alt='Kenali Gangguan Mata Lebih Dini' ratio='16x9' class='card-img-top img-fluid' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-02.webp' alt='Kenali Gangguan Mata Lebih Dini' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Kenali Tanda Mata Bermasalah Sebelum Jadi Parah
@@ -63,7 +63,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp' alt='Segera Periksa Mata Anda' ratio='16x9' class='card-img-top img-fluid' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-03.webp' alt='Segera Periksa Mata Anda' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Cara Gampang dan Simpel Periksa Mata di Optikal Bahari
@@ -85,7 +85,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-          {% include cloudinary/card_image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+          {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/asian-eyewear-00/asian-eyewear-04.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Transformasi Pandangan Anda: Kunjungi Optikal Bahari Hari Ini!

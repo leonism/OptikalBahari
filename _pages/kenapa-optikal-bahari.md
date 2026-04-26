@@ -18,7 +18,7 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Autorefractometer atau Auto Lens Meter' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Autorefractometer atau Auto Lens Meter' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Tempat Jual Kacamata Keren Terbaik Tanpa Ribet dan Lama
@@ -35,7 +35,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Staff Ramah dan Banyak Pilihan
@@ -52,7 +52,7 @@ comments: false
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp' alt='Periksa Mata Dengan Komputer' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp' alt='Periksa Mata Dengan Komputer' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Bisa Nyicil, Tanpa Credit Card, Bunga 0% dan Bebas Riba</h3>
     <p class="card-text text-start">

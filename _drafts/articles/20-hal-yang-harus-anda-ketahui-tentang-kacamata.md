@@ -16,7 +16,7 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5 bg-white rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Kacamata Murah Jakarta Berkualitas Tanpa Ribet' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Kacamata Murah Jakarta Berkualitas Tanpa Ribet' ratio='16x9' class='card-img-top' %}
 <div class="card-body">
     <h3 class="card-title">20 Hal Yang Harus Anda Ketahui Tentang Kacamata</h3>
     <p class="card-text text-left">

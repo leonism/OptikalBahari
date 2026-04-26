@@ -37,7 +37,7 @@ comments: false
         50 persen di setiap lokasi yang dibuka. Juga harus memastikan adanya jaga jarak di semua tempat yang diizinkan dibuka.
       </p>
       <p class="card-text text-start">
-        {% include cloudinary/card_image.html src='assets/img/posts/pandemi/aturan-pandemi.webp' alt='aturan-disaat-pandemi' ratio='16x9' class='card-img-top' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/pandemi/aturan-pandemi.webp' alt='aturan-disaat-pandemi' ratio='16x9' class='card-img-top' %}
       </p>
       <p class="card-text text-start">
         Optikal Bahari tetap berkomitmen untuk dapat memberikan layanan yang terbaik dan terdepan kepada para konsumennya, dengan tetap mematuhi aturan pemerintah tersebut. Semua pengunjung akan mendapatkan penerapan yang sama, seperti diharuskan membersihkan
@@ -55,7 +55,7 @@ comments: false
       <h3 class="card-title">
         Penerapan Protokol Kesehatan
       </h3>
-      {% include cloudinary/card_image.html src='assets/img/posts/pandemi/protokol-covid.webp' alt='protokol covid' ratio='16x9' class='card-img-top' %}
+      {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/pandemi/protokol-covid.webp' alt='protokol covid' ratio='16x9' class='card-img-top' %}
       <p class="card-text text-start">
         Jadi jangan khawatir untuk melakukan kunjungan ke Optikal Bahari karena kami tetap menerapkan protokol kesehatan dalam operasional
           usaha kami yang sesuai dengan aturan tertulis dari pemerintah. Segera rencanakan kunjungan ke Optikal Bahari untuk pemeriksaan

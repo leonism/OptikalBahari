@@ -20,7 +20,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-019.webp' alt='Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-019.webp' alt='Kacamata Murah, Periksa Mata Gratis & Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Beli Kacamata Murah & Terjangkau
@@ -39,7 +39,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-016.webp' alt='Periksa Mata & Service Gratis' ratio='16x9' class='card-img-top img-fluid' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-016.webp' alt='Periksa Mata & Service Gratis' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Periksa Mata & Service Gratis
@@ -64,7 +64,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src="assets/img/posts/beach-retro-girls/beach-retro-girls-011.webp"
+        {% include cloudinary/cloudinary-card-image.html src="assets/img/posts/beach-retro-girls/beach-retro-girls-011.webp"
    alt="Kacamata Cicilan 0%"
    ratio="16x9"
    class="card-img-top img-fluid" %}
@@ -86,7 +86,7 @@ comments: false
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 rounded">
-	    	{% include cloudinary/card_image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp' alt='Kunjungi Optikal Bahari Sekarang' ratio='16x9' class='card-img-top img-fluid' %}
+	    	{% include cloudinary/cloudinary-card-image.html src='assets/img/posts/beach-retro-girls/beach-retro-girls-025.webp' alt='Kunjungi Optikal Bahari Sekarang' ratio='16x9' class='card-img-top img-fluid' %}
         <div class="card-body">
             <h3 class="card-title">
                 Kunjungi Optikal Bahari Sekarang

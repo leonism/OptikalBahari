@@ -23,7 +23,7 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/profil/bandar-udara-kemayoran.jpeg' alt='bandar-udara-kemayoran' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/profil/bandar-udara-kemayoran.jpeg' alt='bandar-udara-kemayoran' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Sejarah Berdirinya Optikal Bahari</h3>
     <p class="card-text text-start">
@@ -38,7 +38,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/profil/jalan-h-jiung.webp' alt='jalan h jiung' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/profil/jalan-h-jiung.webp' alt='jalan h jiung' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Transformasi Dari Masa Ke Masa</h3>
     <p class="card-text text-start">
@@ -53,7 +53,7 @@ comments: false
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/profil/bandar-udara-kemayoran-80an.webp' alt='bandar-udara-kemayoran-80an.webp' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/profil/bandar-udara-kemayoran-80an.webp' alt='bandar-udara-kemayoran-80an.webp' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">Menjadi Bagian dari Sejarah Kemayoran</h3>
     <p class="card-text text-start">

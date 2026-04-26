@@ -19,7 +19,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-01.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/beach-girls-00/beach-girl-01.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Panduan Memilih Kacamata untuk Wajah Bulat</h3>
       <p class="card-text text-start">
@@ -56,7 +56,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-02.webp' alt='Kacamata Yang Cocok Untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/beach-girls-00/beach-girl-02.webp' alt='Kacamata Yang Cocok Untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Kacamata Untuk Wajah Bulat Di Optikal Bahari
@@ -146,7 +146,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-03.webp' alt='Bagaimana Lensa Photochromic Bekerja?' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/beach-girls-00/beach-girl-03.webp' alt='Bagaimana Lensa Photochromic Bekerja?' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Menyesuaikan Bentuk dan Frame Kacamata: Tips Memilih Kacamata yang Tepat
@@ -183,7 +183,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-04.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/beach-girls-00/beach-girl-04.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Memperhatikan Proporsi dan Ukuran Frame: Kunci Sukses Memilih Kacamata
@@ -218,7 +218,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-05.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/beach-girls-00/beach-girl-05.webp' alt='Keuntungan Menggunakan Lensa Photochromic' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Temukan Kacamata Idealmu di Optikal Bahari!</h3>
       <p class="card-text text-start">
@@ -254,7 +254,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/beach-girls-00/beach-girl-06.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/beach-girls-00/beach-girl-06.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">

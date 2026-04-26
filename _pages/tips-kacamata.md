@@ -18,7 +18,7 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp' alt='Pilih Kacamata Sesuaikan Dengan Bentuk Wajah' ratio='16x9' class='card-img-top img-fluid' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kpop-female-01/kpop-female-sunglasses-01.webp' alt='Pilih Kacamata Sesuaikan Dengan Bentuk Wajah' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Pilih Kacamata Sesuaikan Dengan Bentuk Wajah
@@ -32,7 +32,7 @@ comments: false
 {% include home/home-cards-main.html %}
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp' alt='Kacamata Untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kpop-female-01/kpop-female-sunglasses-02.webp' alt='Kacamata Untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Untuk Wajah Bulat
@@ -52,7 +52,7 @@ comments: false
 {% include home/home-cards-benefit.html %}
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp' alt='Kacamata Untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kpop-female-01/kpop-female-sunglasses-03.webp' alt='Kacamata Untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Untuk Wajah Kotak
@@ -70,7 +70,7 @@ comments: false
 </div>
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp' alt='Kacamata Untuk Wajah Segitiga dan Oval' ratio='16x9' class='card-img-top img-fluid' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kpop-female-01/kpop-female-sunglasses-04.webp' alt='Kacamata Untuk Wajah Segitiga dan Oval' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Kacamata Untuk Wajah Segitiga dan Oval
@@ -89,7 +89,7 @@ comments: false
 {% include home/home-cards-glasses.html %}
 
 <div class="card shadow p-3 mb-5">
-  {% include cloudinary/card_image.html src='assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kpop-female-01/kpop-female-sunglasses-05.webp' alt='Segera Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
   <div class="card-body">
     <h3 class="card-title">
       Segera Kunjungi Optikal Bahari

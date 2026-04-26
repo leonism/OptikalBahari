@@ -19,7 +19,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01.webp' alt='Mengenal Kacamata Anti Radiasi' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-01.webp' alt='Mengenal Kacamata Anti Radiasi' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Mengenal Kacamata Anti Radiasi
@@ -44,7 +44,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02.webp' alt='kacamata-anti-radiasi-matahari-gadget' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-02.webp' alt='kacamata-anti-radiasi-matahari-gadget' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Apa Yang Di Maksud Sinar Radiasi?</h3>
       <p class="card-text text-start">
@@ -77,7 +77,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03.webp' alt='kacamata-anti-radiasi-matahari-gadget' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-03.webp' alt='kacamata-anti-radiasi-matahari-gadget' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Kacamata Anti Radiasi untuk Setiap Kesempatan</h3>
       <p class="card-text text-start">
@@ -129,7 +129,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04.webp' alt='kacamata-anti-radiasi-matahari-gadget' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-04.webp' alt='kacamata-anti-radiasi-matahari-gadget' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Kacamata Anti Radiasi, Investasi untuk Gaya Hidup Modern
@@ -171,7 +171,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05.webp' alt='kacamata-anti-radiasi-matahari-gadget' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-05.webp' alt='kacamata-anti-radiasi-matahari-gadget' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Kacamata Anti Radiasi Yang Bermutu</h3>
       <p class="card-text text-start">
@@ -211,7 +211,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06.webp' alt='kacamata-anti-radiasi-matahari-gadget' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-06.webp' alt='kacamata-anti-radiasi-matahari-gadget' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Kacamata Anti Radiasi, Perlindungan Maksimal untuk Mata Anda
@@ -244,7 +244,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07.webp' alt='kacamata-anti-radiasi-matahari-gadget' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-anti-radiasi/kacamata-anti-radiasi-07.webp' alt='kacamata-anti-radiasi-matahari-gadget' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">

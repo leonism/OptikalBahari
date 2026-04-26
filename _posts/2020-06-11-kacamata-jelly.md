@@ -19,7 +19,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-jelly/kacamata-jelly-01.webp' alt='style-kacamata-bulat-ala-selebriti-korea-selatan' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-jelly/kacamata-jelly-01.webp' alt='style-kacamata-bulat-ala-selebriti-korea-selatan' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Style Kacamata Bulat ala Selebriti Korea Selatan
@@ -47,7 +47,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-jelly/kacamata-jelly-02.webp' alt='style-kacamata-bulat-ala-selebriti-korea-selatan' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-jelly/kacamata-jelly-02.webp' alt='style-kacamata-bulat-ala-selebriti-korea-selatan' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Tren Kacamata Jelly yang Mulai Populer Saat Ini
@@ -74,7 +74,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-jelly/kacamata-jelly-03.webp' alt='style-kacamata-bulat-ala-selebriti-korea-selatan' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-jelly/kacamata-jelly-03.webp' alt='style-kacamata-bulat-ala-selebriti-korea-selatan' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Percaya Diri dengan Kacamata Jelly Warna Terang

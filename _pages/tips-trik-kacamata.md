@@ -25,7 +25,7 @@ comments: false
             class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
             <div class="card shadow p-0 rounded hover-zoomin">
               <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                {%- include cloudinary/thumbnail_image.html
+                {%- include cloudinary/cloudinary-thumbnail-image.html
                     src=post.background
                     alt=post.title
                     class="card-img-top img-fluid"
@@ -64,7 +64,7 @@ comments: false
           <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
             <div class="card shadow p-0 rounded hover-zoomin">
               <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                {%- include cloudinary/thumbnail_image.html
+                {%- include cloudinary/cloudinary-thumbnail-image.html
                     src=post.background
                     alt=post.title
                     class="card-img-top img-fluid"
@@ -103,7 +103,7 @@ comments: false
           <div class="col-12 {% if forloop.index == 1 %}col-md-12 col-lg-4{% else %}col-md-6 col-lg-4{% endif %} mb-5">
             <div class="card shadow p-0 rounded hover-zoomin">
               <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ post.title }}">
-                {%- include cloudinary/thumbnail_image.html
+                {%- include cloudinary/cloudinary-thumbnail-image.html
                     src=post.background
                     alt=post.title
                     class="card-img-top img-fluid"

@@ -14,7 +14,7 @@ permalink: /lokasi/
 ---
 
 <div class="card shadow p-3 mb-5 rounded">
-  {% include cloudinary/card_image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-07.webp' alt='Bendungan Jago 447, Kemayoran Jakarta Pusat' ratio='16x9' class='card-img-top' %}
+  {% include cloudinary/cloudinary-card-image.html src='/assets/img/posts/hijabi-girls-01/kacamata-untuk-hijabers-07.webp' alt='Bendungan Jago 447, Kemayoran Jakarta Pusat' ratio='16x9' class='card-img-top' %}
   <div class="card-body">
     <h3 class="card-title">
       Biarkan Mata Anda Bersinar Bersama Optikal Bahari!

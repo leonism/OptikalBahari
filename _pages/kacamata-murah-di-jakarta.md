@@ -19,7 +19,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Kacamata Murah Jakarta Berkualitas Tanpa Ribet' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='Kacamata Murah Jakarta Berkualitas Tanpa Ribet' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Kacamata Murah Berkualitas Tanpa Ribet Di Jakarta</h3>
       <p class="card-text text-start">
@@ -39,7 +39,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp' alt='Pilihan Frame Trendy untuk Gen Z & Milenial' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp' alt='Pilihan Frame Trendy untuk Gen Z & Milenial' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Pilihan Frame Trendy untuk Gen Z & Milenial</h3>
       <p class="card-text text-start">
@@ -59,7 +59,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Segera Kunjungi Optikal Bahari

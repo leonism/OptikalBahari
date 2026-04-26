@@ -259,7 +259,7 @@
             // Determine image URL - support multiple common frontmatter fields
             const rawImageUrl = hit.image || hit.header_image || hit.background || hit.thumbnail || hit.preview_image || ''
 
-            // Cloudinary Thumbnail Logic (Ported from _includes/cloudinary/thumbnail_image.html)
+            // Cloudinary Thumbnail Logic (Ported from _includes/cloudinary/cloudinary-thumbnail-image.html)
             /** @param {string} url */
             const getCloudinaryUrl = (url) => {
               if (!url) return ''

@@ -20,7 +20,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Layanan pemeriksaan mata profesional di Optikal Bahari' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-4.webp' alt='Layanan pemeriksaan mata profesional di Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksakan Mata Anda Di Optik Secara Rutin
@@ -40,7 +40,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp' alt='Proses periksa mata cepat akurat Optikal Bahari' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-3.webp' alt='Proses periksa mata cepat akurat Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Cepat & Akurat
@@ -62,7 +62,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp' alt='Teknologi komputer digital pemeriksaan mata' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-10.webp' alt='Teknologi komputer digital pemeriksaan mata' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Periksa Mata Dengan Alat Komputer Digital
@@ -82,7 +82,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp' alt='Phoropter alat ukur refraksi mata profesional' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-12.webp' alt='Phoropter alat ukur refraksi mata profesional' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Alat Periksa Mata Phoropter
@@ -104,7 +104,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp' alt='Verifikasi lensa dengan Auto Lens Meter digital' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-11.webp' alt='Verifikasi lensa dengan Auto Lens Meter digital' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Alat Periksa Mata Autorefractometer atau Auto Lens Meter
@@ -124,7 +124,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp' alt='Lokasi Optikal Bahari Kemayoran Jakarta Pusat' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-6.webp' alt='Lokasi Optikal Bahari Kemayoran Jakarta Pusat' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">

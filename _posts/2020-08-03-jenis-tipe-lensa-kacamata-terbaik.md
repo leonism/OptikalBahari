@@ -23,7 +23,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/tipe-lensa/tipe-lensa-01.webp' alt='tipe-lensa' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/tipe-lensa/tipe-lensa-01.webp' alt='tipe-lensa' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Kenali Jenis Lensa Kacamata Terbaik, Lensa Tunggal dan Bifokal
@@ -51,7 +51,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/tipe-lensa/tipe-lensa-02.webp' alt='tipe-lensa' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/tipe-lensa/tipe-lensa-02.webp' alt='tipe-lensa' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Lensa Progresif dan Lensa Transisi Jadi Salah Satu Jenis Lensa Kacamata Terbaik</h3>
       <p class="card-text text-start">
@@ -86,7 +86,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/tipe-lensa/tipe-lensa-03.webp' alt='tipe-lensa' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/tipe-lensa/tipe-lensa-03.webp' alt='tipe-lensa' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Lensa Progresif dan Lensa Transisi Jadi Salah Satu Jenis Lensa Kacamata Terbaik</h3>
       <p class="card-text text-start">

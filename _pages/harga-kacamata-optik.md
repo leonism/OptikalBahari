@@ -19,7 +19,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-01.webp' alt='Buka Rahasia: Harga Kacamata Optik yang Memikat Hati di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-01.webp' alt='Buka Rahasia: Harga Kacamata Optik yang Memikat Hati di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
             <h3 class="card-title">
                 Harga Kacamata Optik yang Memikat Hati di Optikal Bahari
@@ -41,7 +41,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-02.webp' alt='Koleksi Kacamata yang Luar Biasa di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-02.webp' alt='Koleksi Kacamata yang Luar Biasa di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Koleksi Kacamata yang Luar Biasa di Optikal Bahari
@@ -63,7 +63,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-03.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-03.webp' alt='Periksa Mata Gratis dan Beragam Koleksi Kacamata & Frame' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Ini Rahasia Harga Kacamata Auto Fokus yang Membuat Anda Terkesima
@@ -83,7 +83,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-            {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-11.webp' alt='Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!' ratio='16x9' class='card-img-top img-fluid' %}
+            {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-11.webp' alt='Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!
@@ -103,7 +103,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-		  {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-12.webp' alt='Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!' ratio='16x9' class='card-img-top img-fluid' %}
+		  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-12.webp' alt='Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!
@@ -123,7 +123,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-		  {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-07.webp' alt='Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!' ratio='16x9' class='card-img-top img-fluid' %}
+		  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-07.webp' alt='Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Inilah yang Anda Cari! Temukan Berbagai Keuntungan dan Penawaran Spesial dari Optikal Bahari!
@@ -143,7 +143,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-		  {% include cloudinary/card_image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-08.webp' alt='Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!' ratio='16x9' class='card-img-top img-fluid' %}
+		  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/harga-kacamata-optik/harga-kacamata-optik-08.webp' alt='Terungkap! Harga Kacamata Progresif yang Menyelamatkan Mata Anda, Hanya di Optikal Bahari!' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <h3 class="card-title">
             Segera Kunjungi Optikal Bahari untuk Merasakan Kacamata Terbaik Dengan Harga Terjangkau
@@ -168,7 +168,7 @@ comments: false
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
 				title="{{ post.title }}">
 				{% if page.background %}
-				{% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top img-fluid' %}
+				{% include cloudinary/cloudinary-card-image.html src=post.background alt=post.title ratio='16x9' class='card-img-top img-fluid' %}
 			</a>
 			{% endif %}
 			<div class="card-body">

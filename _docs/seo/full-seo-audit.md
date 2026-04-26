@@ -124,7 +124,7 @@ Google's title display is approximately **60–70 characters** (pixel-based, rou
 
 ### H2 — `<h1>` Tag Renders `{{ page.title }}` Without Escaping
 
-**File:** `_includes/cloudinary/masthead.html` line 50
+**File:** `_includes/cloudinary/cloudinary-masthead.html` line 50
 
 ```html
 <h1>{{ page.title }}</h1>
@@ -143,7 +143,7 @@ No `| escape` filter. If a page title contains `&`, `<`, or `>` characters (whic
 
 ### H3 — `<h2>` Used for Page Subtitle in Masthead — Heading Hierarchy Skips Context
 
-**File:** `_includes/cloudinary/masthead.html` lines 52–59
+**File:** `_includes/cloudinary/cloudinary-masthead.html` lines 52–59
 
 The masthead uses `<h2>` for the subtitle immediately after `<h1>`. While the heading order is correct (h1 → h2), the subtitle is often the **same text as the description** (`page.description`). This means assistive technologies navigating by heading hear a heading that is identical to the meta description — a repeated content signal.
 
@@ -157,7 +157,7 @@ Google's structural heading analysis expects: `h1 → h2 (section) → h3 (sub-s
 
 ### H4 — Masthead LCP Image Uses Hidden `<img>` for Onload Trigger — Problematic for CWV
 
-**File:** `_includes/cloudinary/masthead.html` lines 36–41
+**File:** `_includes/cloudinary/cloudinary-masthead.html` lines 36–41
 
 ```html
 <img src="...1400w.avif" fetchpriority="high" decoding="sync"

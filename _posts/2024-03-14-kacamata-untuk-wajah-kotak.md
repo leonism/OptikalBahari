@@ -19,7 +19,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-06.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/vespa-girls/vespa-girl-06.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Pentingnya Memilih Kacamata yang Sesuai untuk Wajah Kotak
@@ -57,7 +57,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-07.webp' alt='Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/vespa-girls/vespa-girl-07.webp' alt='Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Kacamata Untuk Wajah Kotak Di Optikal Bahari
@@ -147,7 +147,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-08.webp' alt='Cara Memilih Frame Kacamata yang Cocok untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/vespa-girls/vespa-girl-08.webp' alt='Cara Memilih Frame Kacamata yang Cocok untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Cara Memilih Frame Kacamata yang Cocok untuk Wajah Kotak
@@ -183,7 +183,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-09.webp' alt='Fitur Kacamata yang Harus Diperhatikan untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/vespa-girls/vespa-girl-09.webp' alt='Fitur Kacamata yang Harus Diperhatikan untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Fitur Kacamata yang Harus Diperhatikan untuk Wajah Kotak
@@ -226,7 +226,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-10.webp' alt='Stylish dengan Kacamata Optikal Bahari untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/vespa-girls/vespa-girl-10.webp' alt='Stylish dengan Kacamata Optikal Bahari untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Stylish dengan Kacamata Optikal Bahari untuk Wajah Kotak
@@ -257,7 +257,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-14.webp' alt='Kacamata yang Sesuai untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/vespa-girls/vespa-girl-14.webp' alt='Kacamata yang Sesuai untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Kacamata yang Sesuai untuk Wajah Kotak</h3>
       <p class="card-text text-start">
@@ -293,7 +293,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-15.webp' alt='Kacamata yang Cocok untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/vespa-girls/vespa-girl-15.webp' alt='Kacamata yang Cocok untuk Wajah Kotak' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">Kacamata yang Cocok untuk Wajah Kotak</h3>
       <p class="card-text text-start">
@@ -329,7 +329,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/vespa-girls/vespa-girl-17.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/vespa-girls/vespa-girl-17.webp' alt='Kunjungi Optikal Bahari' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">

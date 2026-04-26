@@ -22,7 +22,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/harajuku/female-harajuku-01.webp' alt='Gangguan Presbiopia & Jenis Lensa Progresif' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/harajuku/female-harajuku-01.webp' alt='Gangguan Presbiopia & Jenis Lensa Progresif' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Gangguan Presbiopia & Jenis Lensa Progresif</h3>
       <p class="card-text text-start">
@@ -48,7 +48,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/harajuku/female-harajuku-02.webp' alt='Jenis Lensa Progresif Nyaman Dipakai dan
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/harajuku/female-harajuku-02.webp' alt='Jenis Lensa Progresif Nyaman Dipakai dan
 		Memiliki Tiga Titik Fokus' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
@@ -84,7 +84,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/harajuku/female-harajuku-03.webp' alt='Model Jenis Lensa Progresif dan Cara Pemakaiannya' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/harajuku/female-harajuku-03.webp' alt='Model Jenis Lensa Progresif dan Cara Pemakaiannya' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Tipe Lensa Progresif dan Cara Pemakaiannya</h3>
       <p class="card-text text-start">

@@ -19,7 +19,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-10.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-10.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
         <p class="card-text text-start">
             Bagi pengguna kacamata tentu benda yang satu ini sangat membantu keseharian kalian ya. Banyak orang yang penglihatannya terbantu dengan menggunakan kacamata. Gangguan penglihatan seperti rabun jauh, rabun dekat,
@@ -57,7 +57,7 @@ comments: false
 
 <div class="card-deck mb-3">
     <div class="card shadow p-3 mb-5 rounded">
-        {% include cloudinary/card_image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-11.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
+        {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/eyewear-trend-awards/eyewear-trend-awards-11.webp' alt='Panduan Memilih Kacamata untuk Wajah Bulat' ratio='16x9' class='card-img-top img-fluid' %}
             <div class="card-body">
                 <h3 class="card-title">
                     4. Masalah Ketika Membaca

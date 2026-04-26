@@ -16,7 +16,7 @@ comments: false
 ---
 
 <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-5.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Toko Kacamata Terdekat</h3>
       <p class="card-text text-start">
@@ -35,7 +35,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-		  {% include cloudinary/card_image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
+		  {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/periksa-mata/periksa-mata-gratis-optikal-bahari-9.webp' alt='tips-kacamata-2.webp' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">Segera Kunjungi Optikal Bahari</h3>
       <p class="card-text text-start">Jadi tunggu apa lagi? Jadi, jika Anda memiliki keluhan terkait penglihatan, tidak perlu khawatir lagi karena kami siap membantu mengecek dan memberikan saran terbaik bagi Anda. Segera kunjungi Optikal Bahari di Bendungan Jago Kemayoran, Jakarta Pusat. Dan dapatkan banyak kemudahan untuk memiliki kacamata idaman kamu dengan harga terjangkau. Untuk dapat info terbaru seputaran Promo yang kami berikan, kamu juga bisa bergabung dengan Fanpage
@@ -53,7 +53,7 @@ comments: false
         <div class="card shadow p-3 mb-5 rounded">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {% if page.background %}
-                    {% include cloudinary/card_image.html src=post.background alt=post.title ratio='16x9' class='card-img-top' %}</a>
+                    {% include cloudinary/cloudinary-card-image.html src=post.background alt=post.title ratio='16x9' class='card-img-top' %}</a>
                 {% endif %}
             <div class="card-body">
                 <h3 class="card-title">

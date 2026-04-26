@@ -28,9 +28,9 @@ def heal_malformed_include(raw_content)
 
   # If it was a variable like post.background, we pass it WITHOUT quotes
   if is_variable
-    "{% include cloudinary/card_image.html src=#{final_src} alt='#{alt}' ratio='16x9' class='#{klass}' %}"
+    "{% include cloudinary/cloudinary-card-image.html src=#{final_src} alt='#{alt}' ratio='16x9' class='#{klass}' %}"
   else
-    "{% include cloudinary/card_image.html src='#{final_src}' alt='#{alt}' ratio='16x9' class='#{klass}' %}"
+    "{% include cloudinary/cloudinary-card-image.html src='#{final_src}' alt='#{alt}' ratio='16x9' class='#{klass}' %}"
   end
 end
 

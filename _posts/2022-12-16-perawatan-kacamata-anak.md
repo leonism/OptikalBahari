@@ -20,7 +20,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp' alt='Perawatan Kacamata Anak' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-00.webp' alt='Perawatan Kacamata Anak' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Perawatan Kacamata Anak
@@ -47,7 +47,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp' alt='Kelebihan Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-04.webp' alt='Kelebihan Optikal Bahari' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Kelebihan Optikal Bahari
@@ -117,7 +117,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp' alt='Pemilihan Material Kacamata' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-01.webp' alt='Pemilihan Material Kacamata' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Pemilihan Material Kacamata
@@ -153,7 +153,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp' alt='Jaga Kebersihan Kacamata Anak' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-02.webp' alt='Jaga Kebersihan Kacamata Anak' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Jaga Kebersihan Kacamata Anak
@@ -179,7 +179,7 @@ comments: false
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp' alt='Rutin Melakukan Kunjungan Ke Optik' ratio='16x9' class='card-img-top img-fluid' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-anak-00/kacamata-anak-03.webp' alt='Rutin Melakukan Kunjungan Ke Optik' ratio='16x9' class='card-img-top img-fluid' %}
     <div class="card-body">
       <h3 class="card-title">
         Rutin Melakukan Kunjungan Ke Optik

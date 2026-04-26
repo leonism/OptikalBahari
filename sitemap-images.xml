@@ -46,7 +46,7 @@ layout: null
 
         {%- comment -%} Determine transformation based on include type {%- endcomment -%}
         {%- assign params = "c_fill,g_auto:subject,q_auto:good,e_sharpen:100,w_768,h_432" -%}
-        {%- if part contains "thumbnail_image.html" -%}
+        {%- if part contains "cloudinary-thumbnail-image.html" -%}
           {%- assign params = "c_limit,w_400,h_225,q_auto:eco,f_avif,e_sharpen:60" -%}
         {%- endif -%}
 

@@ -20,7 +20,7 @@ permalink: /keuntungan-kacamata-gaya-penampilan/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-kpop/kacamata-kpop-01.webp' alt='Kacamata Gaya, Trendy dan Stylish' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-kpop/kacamata-kpop-01.webp' alt='Kacamata Gaya, Trendy dan Stylish' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Kacamata Gaya, Trendy dan Stylish
@@ -43,7 +43,7 @@ permalink: /keuntungan-kacamata-gaya-penampilan/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-kpop/kacamata-kpop-02.webp' alt='Berbagai Model Kacamata Gaya yang Populer' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-kpop/kacamata-kpop-02.webp' alt='Berbagai Model Kacamata Gaya yang Populer' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Berbagai Model Kacamata Gaya yang Populer
@@ -66,7 +66,7 @@ permalink: /keuntungan-kacamata-gaya-penampilan/
 
 <div class="card-deck mb-3">
   <div class="card shadow p-3 mb-5 rounded">
-    {% include cloudinary/card_image.html src='assets/img/posts/kacamata-kpop/kacamata-kpop-03.webp' alt='Mengenal Keuntungan Memakai Kacamata Gaya dan Fungsinya' ratio='16x9' class='card-img-top' %}
+    {% include cloudinary/cloudinary-card-image.html src='assets/img/posts/kacamata-kpop/kacamata-kpop-03.webp' alt='Mengenal Keuntungan Memakai Kacamata Gaya dan Fungsinya' ratio='16x9' class='card-img-top' %}
     <div class="card-body">
       <h3 class="card-title">
         Mengenal Keuntungan Memakai Kacamata Gaya dan Fungsinya
