@@ -72,4 +72,82 @@ document.addEventListener('DOMContentLoaded', function () {
       img.classList.add('loaded')
     })
   }
+
+  // --- 4. WebMCP Integration ---
+  if (typeof navigator !== 'undefined' && navigator.modelContext && typeof navigator.modelContext.registerTool === 'function') {
+    try {
+      var webmcpAbortController = new AbortController();
+      
+      // Register a tool to fetch page content in Markdown format
+      navigator.modelContext.registerTool({
+        name: 'get_page_markdown',
+        description: 'Fetch the raw markdown content of any page or post on Optikal Bahari by path.',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            path: {
+              type: 'string',
+              description: 'The path of the page or post to fetch (e.g., "/", "/about/").'
+            }
+          },
+          required: ['path']
+        },
+        execute: async function(params) {
+          try {
+            var path = params.path || '/';
+            // We implemented markdown negotiation in Cloudflare middleware
+            var res = await fetch(path, { headers: { 'Accept': 'text/markdown' } });
+            if (!res.ok) {
+              return 'Error: Failed to fetch ' + path + ' (Status: ' + res.status + ')';
+            }
+            var text = await res.text();
+            return text;
+          } catch (e) {
+            return 'Error: ' + e.toString();
+          }
+        }
+      }, { signal: webmcpAbortController.signal });
+
+    } catch (e) {
+      console.warn('WebMCP initialization failed', e);
+    }
+  } else if (typeof navigator !== 'undefined' && navigator.modelContext && typeof navigator.modelContext.provideContext === 'function') {
+    // Fallback for an alternative proposed API signature (provideContext)
+    try {
+      navigator.modelContext.provideContext({
+        tools: [
+          {
+            name: 'get_page_markdown',
+            description: 'Fetch the raw markdown content of any page or post on Optikal Bahari by path.',
+            inputSchema: {
+              type: 'object',
+              properties: {
+                path: {
+                  type: 'string',
+                  description: 'The path of the page or post to fetch (e.g., "/", "/about/").'
+                }
+              },
+              required: ['path']
+            },
+            execute: async function(params) {
+              try {
+                var path = params.path || '/';
+                var res = await fetch(path, { headers: { 'Accept': 'text/markdown' } });
+                if (!res.ok) {
+                  return { error: 'Failed to fetch ' + path + ' (Status: ' + res.status + ')' };
+                }
+                var text = await res.text();
+                return { text: text };
+              } catch (e) {
+                return { error: e.toString() };
+              }
+            }
+          }
+        ]
+      });
+    } catch (e) {
+      console.warn('WebMCP provideContext failed', e);
+    }
+  }
+
 })
