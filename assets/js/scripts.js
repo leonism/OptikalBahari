@@ -74,12 +74,13 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // --- 4. WebMCP Integration ---
-  if (typeof navigator !== 'undefined' && navigator.modelContext && typeof navigator.modelContext.registerTool === 'function') {
+  var nav = /** @type {any} */ (navigator);
+  if (typeof nav !== 'undefined' && nav.modelContext && typeof nav.modelContext.registerTool === 'function') {
     try {
       var webmcpAbortController = new AbortController();
       
       // Register a tool to fetch page content in Markdown format
-      navigator.modelContext.registerTool({
+      nav.modelContext.registerTool({
         name: 'get_page_markdown',
         description: 'Fetch the raw markdown content of any page or post on Optikal Bahari by path.',
         inputSchema: {
@@ -92,6 +93,9 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           required: ['path']
         },
+        /**
+         * @param {any} params
+         */
         execute: async function(params) {
           try {
             var path = params.path || '/';
@@ -103,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
             var text = await res.text();
             return text;
           } catch (e) {
-            return 'Error: ' + e.toString();
+            return 'Error: ' + String(e);
           }
         }
       }, { signal: webmcpAbortController.signal });
@@ -111,10 +115,10 @@ document.addEventListener('DOMContentLoaded', function () {
     } catch (e) {
       console.warn('WebMCP initialization failed', e);
     }
-  } else if (typeof navigator !== 'undefined' && navigator.modelContext && typeof navigator.modelContext.provideContext === 'function') {
+  } else if (typeof nav !== 'undefined' && nav.modelContext && typeof nav.modelContext.provideContext === 'function') {
     // Fallback for an alternative proposed API signature (provideContext)
     try {
-      navigator.modelContext.provideContext({
+      nav.modelContext.provideContext({
         tools: [
           {
             name: 'get_page_markdown',
@@ -129,6 +133,9 @@ document.addEventListener('DOMContentLoaded', function () {
               },
               required: ['path']
             },
+            /**
+             * @param {any} params
+             */
             execute: async function(params) {
               try {
                 var path = params.path || '/';
@@ -139,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 var text = await res.text();
                 return { text: text };
               } catch (e) {
-                return { error: e.toString() };
+                return { error: String(e) };
               }
             }
           }
