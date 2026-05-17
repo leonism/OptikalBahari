@@ -1,0 +1,25 @@
+{
+  "linkset": [
+    {
+      "anchor": "/api/reviews.json",
+      "rel": "service-doc",
+      "href": "/llms.txt"
+    },
+    {
+      "anchor": "/",
+      "rel": "service-doc",
+      "href": "/llms.txt"
+    },
+    {
+      "anchor": "/",
+      "rel": "sitemap",
+      "href": "/sitemap.xml"
+    },
+    {
+      "anchor": "/feed.xml",
+      "rel": "alternate",
+      "type": "application/rss+xml",
+      "href": "/feed.xml"
+    }
+  ]
+}

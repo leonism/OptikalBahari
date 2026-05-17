@@ -1,8 +1,22 @@
 # ---------------------------------------------------------
 # 1. HTML Pages: Always check for fresh content
 # ---------------------------------------------------------
+/
+  Link: </llms.txt>; rel="service-doc"
+  Link: </sitemap.xml>; rel="sitemap"
+  Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </.well-known/oauth-protected-resource>; rel="service-desc"
+  Link: </.well-known/agent-card.json>; rel="agent-card"
+  Link: </.well-known/agent-skills/index.json>; rel="agent-skills"
+
 /*.html
   Cache-Control: public, max-age=0, must-revalidate
+  Link: </llms.txt>; rel="service-doc"
+  Link: </sitemap.xml>; rel="sitemap"
+  Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </.well-known/oauth-protected-resource>; rel="service-desc"
+  Link: </.well-known/agent-card.json>; rel="agent-card"
+  Link: </.well-known/agent-skills/index.json>; rel="agent-skills"
 
 # ---------------------------------------------------------
 # 2. Static Assets: Cache aggressively for 1 year
@@ -47,5 +61,25 @@
 # ---------------------------------------------------------
 # 3. Special Files
 # ---------------------------------------------------------
+/.well-known/api-catalog
+  Content-Type: application/linkset+json
+  Access-Control-Allow-Origin: *
+
+/.well-known/oauth-protected-resource
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
+
+/.well-known/mcp/server-card.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
+
+/.well-known/agent-card.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
+
+/.well-known/agent-skills/index.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
+
 /sw.js
   Cache-Control: private, no-cache, no-store, must-revalidate

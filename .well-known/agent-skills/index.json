@@ -1,0 +1,33 @@
+{
+  "$schema": "./index.schema.json",
+  "skills": [
+    {
+      "name": "Service Documentation",
+      "type": "documentation",
+      "description": "Comprehensive LLM-friendly documentation for Optikal Bahari's clinical services and business model.",
+      "url": "https://www.optikalbahari.com/llms.txt",
+      "digest": "11a5d9a305b903e269e2cdc3a4c27045489186b2483b1f7fd816a588035e1975"
+    },
+    {
+      "name": "API Discovery",
+      "type": "api-catalog",
+      "description": "Standardized index for discovering the site's APIs and health endpoints.",
+      "url": "https://www.optikalbahari.com/.well-known/api-catalog",
+      "digest": "b2f6dbad9a61abe149d819951a861d63f4904979dc531205db726aa95c6e8ec7"
+    },
+    {
+      "name": "MCP Server",
+      "type": "mcp-server",
+      "description": "Model Context Protocol server for programmatic interaction with site data and tools.",
+      "url": "https://www.optikalbahari.com/.well-known/mcp/server-card.json",
+      "digest": "0e937c782f3e17f3529251ef74ab1864dabdb65e4419a5fecb03129ad5ae795a"
+    },
+    {
+      "name": "Agent Identity",
+      "type": "agent-card",
+      "description": "A2A Agent Card for agent-to-agent discovery and collaboration.",
+      "url": "https://www.optikalbahari.com/.well-known/agent-card.json",
+      "digest": "f0ed76dd063edeb8a0aac2dcaa6d1d99af52b99434173d796e97b7fcf9e65784"
+    }
+  ]
+}

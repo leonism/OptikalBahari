@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "humanReadableId": "optikalbahari/site-agent",
+  "name": "Optikal Bahari Site Agent",
+  "description": "Assistant for Optikal Bahari, providing eye health info, clinical services details, and customer testimonials.",
+  "agentVersion": "1.0.0",
+  "url": "https://www.optikalbahari.com/api/mcp",
+  "documentationUrl": "https://www.optikalbahari.com/llms.txt",
+  "capabilities": {
+    "a2aVersion": "1.0",
+    "mcpVersion": "1.0",
+    "supportedMessageParts": ["text/plain", "application/json", "text/markdown"]
+  },
+  "authSchemes": [
+    {
+      "scheme": "bearer",
+      "description": "Public resources do not require authentication. Protected resources use JWT bearer tokens."
+    }
+  ],
+  "skills": [
+    {
+      "id": "fetch_reviews",
+      "name": "Fetch Reviews",
+      "description": "Fetches verified customer reviews and testimonials from the store."
+    },
+    {
+      "id": "get_clinical_info",
+      "name": "Get Clinical Info",
+      "description": "Provides details on refraction tests, frame adjustments, and lens technologies."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "resource": "https://www.optikalbahari.com",
+  "resource_name": "Optikal Bahari",
+  "authorization_servers": [],
+  "scopes_supported": [
+    "public"
+  ],
+  "bearer_methods_supported": [
+    "header"
+  ],
+  "resource_documentation": "https://www.optikalbahari.com/llms.txt"
+}
