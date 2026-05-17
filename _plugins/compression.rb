@@ -481,9 +481,10 @@ module AssetProcessor
         futures << Concurrent::Future.execute(executor: thread_pool) do
           begin
             level = @config.get('compression.gzip.level')
-            gzip_content = Zlib::Deflate.deflate(original_content, level)
             gzip_path = "#{file_path}.gz"
-            File.binwrite(gzip_path, gzip_content)
+            Zlib::GzipWriter.open(gzip_path, level) do |gz|
+              gz.write(original_content)
+            end
             File.basename(gzip_path)
           rescue => e
             puts "Warning: Gzip compression failed for #{file_path}: #{e.message}" if @config.get('output.verbose')
