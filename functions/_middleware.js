@@ -33,12 +33,12 @@ async function handleCompression(context) {
       if (compressedRes.ok) {
         // MUST use encodeBody: "manual" to tell Cloudflare Workers runtime that this stream
         // is ALREADY compressed, so it shouldn't strip the Content-Encoding header later.
-        const response = new Response(compressedRes.body, {
+        const response = new Response(compressedRes.body, /** @type {any} */ ({
           status: compressedRes.status,
           statusText: compressedRes.statusText,
           headers: new Headers(compressedRes.headers),
           encodeBody: "manual"
-        });
+        }));
         
         // Ensure the correct Content-Type is set for the underlying file type
         let contentType = "text/html; charset=utf-8";
@@ -95,6 +95,7 @@ async function handleMarkdownNegotiation(context) {
   }
   
   const response = await next();
+  /** @type {any} */
   const options = {
     status: response.status,
     statusText: response.statusText,
@@ -120,6 +121,7 @@ async function handleSecurityHeaders(context) {
     return response;
   }
 
+  /** @type {any} */
   const options = {
     status: response.status,
     statusText: response.statusText,
