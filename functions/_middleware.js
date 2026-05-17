@@ -103,6 +103,11 @@ async function handleSecurityHeaders(context) {
   newResponse.headers.set("Referrer-Policy", "strict-origin-when-cross-origin");
   newResponse.headers.set("Permissions-Policy", "geolocation=(), microphone=(), camera=()");
 
+  const url = new URL(context.request.url);
+  if (url.pathname === "/" || url.pathname === "/index.html") {
+    newResponse.headers.append("Link", '</llms.txt>; rel="service-doc"');
+  }
+
   const csp = [
     "default-src 'self'",
     "base-uri 'self'",
