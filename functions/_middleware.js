@@ -29,6 +29,16 @@ async function handleCompression(context) {
 
       if (compressedRes.ok) {
         const response = new Response(compressedRes.body, compressedRes);
+        
+        // Ensure the correct Content-Type is set for the underlying file type
+        let contentType = "text/html; charset=utf-8";
+        if (url.pathname.endsWith(".js")) contentType = "application/javascript; charset=utf-8";
+        else if (url.pathname.endsWith(".css")) contentType = "text/css; charset=utf-8";
+        else if (url.pathname.endsWith(".xml")) contentType = "application/xml; charset=utf-8";
+        else if (url.pathname.endsWith(".json")) contentType = "application/json; charset=utf-8";
+        else if (url.pathname.endsWith(".txt")) contentType = "text/plain; charset=utf-8";
+
+        response.headers.set("Content-Type", contentType);
         response.headers.set("Content-Encoding", type.encoding);
         response.headers.set("Vary", "Accept-Encoding");
         return response;
@@ -71,8 +81,9 @@ async function handleMarkdownNegotiation(context) {
   }
   
   const response = await next();
-  response.headers.append("Vary", "Accept");
-  return response;
+  const newResponse = new Response(response.body, response);
+  newResponse.headers.append("Vary", "Accept");
+  return newResponse;
 }
 
 /** @param {any} context */
@@ -112,4 +123,4 @@ async function handleSecurityHeaders(context) {
   return newResponse;
 }
 
-export const onRequest = [handleCompression, handleMarkdownNegotiation, handleSecurityHeaders];
+export const onRequest = [handleSecurityHeaders, handleMarkdownNegotiation, handleCompression];
