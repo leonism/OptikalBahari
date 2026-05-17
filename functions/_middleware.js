@@ -25,10 +25,20 @@ async function handleCompression(context) {
         : `${url.pathname}${type.extension}`;
 
       const compressedUrl = new URL(compressedPath, url.origin);
-      const compressedRes = await fetch(new Request(compressedUrl.toString(), request));
+      
+      // Do not pass the original request headers (like Accept-Encoding) to avoid Cloudflare Pages 
+      // attempting to double-compress the already compressed file.
+      const compressedRes = await fetch(new Request(compressedUrl.toString()));
 
       if (compressedRes.ok) {
-        const response = new Response(compressedRes.body, compressedRes);
+        // MUST use encodeBody: "manual" to tell Cloudflare Workers runtime that this stream
+        // is ALREADY compressed, so it shouldn't strip the Content-Encoding header later.
+        const response = new Response(compressedRes.body, {
+          status: compressedRes.status,
+          statusText: compressedRes.statusText,
+          headers: new Headers(compressedRes.headers),
+          encodeBody: "manual"
+        });
         
         // Ensure the correct Content-Type is set for the underlying file type
         let contentType = "text/html; charset=utf-8";
@@ -71,7 +81,11 @@ async function handleMarkdownNegotiation(context) {
       });
 
       if (mdResponse.ok) {
-        const newResponse = new Response(mdResponse.body, mdResponse);
+        const newResponse = new Response(mdResponse.body, {
+          status: mdResponse.status,
+          statusText: mdResponse.statusText,
+          headers: new Headers(mdResponse.headers)
+        });
         newResponse.headers.set("Content-Type", "text/markdown; charset=utf-8");
         newResponse.headers.set("x-markdown-tokens", "true");
         newResponse.headers.set("Vary", "Accept");
@@ -81,7 +95,17 @@ async function handleMarkdownNegotiation(context) {
   }
   
   const response = await next();
-  const newResponse = new Response(response.body, response);
+  const options = {
+    status: response.status,
+    statusText: response.statusText,
+    headers: new Headers(response.headers)
+  };
+  
+  if (response.headers.has("Content-Encoding")) {
+    options.encodeBody = "manual";
+  }
+  
+  const newResponse = new Response(response.body, options);
   newResponse.headers.append("Vary", "Accept");
   return newResponse;
 }
@@ -96,7 +120,17 @@ async function handleSecurityHeaders(context) {
     return response;
   }
 
-  const newResponse = new Response(response.body, response);
+  const options = {
+    status: response.status,
+    statusText: response.statusText,
+    headers: new Headers(response.headers)
+  };
+  
+  if (response.headers.has("Content-Encoding")) {
+    options.encodeBody = "manual";
+  }
+
+  const newResponse = new Response(response.body, options);
   newResponse.headers.set("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload");
   newResponse.headers.set("X-Frame-Options", "SAMEORIGIN");
   newResponse.headers.set("X-Content-Type-Options", "nosniff");
@@ -129,3 +163,4 @@ async function handleSecurityHeaders(context) {
 }
 
 export const onRequest = [handleSecurityHeaders, handleMarkdownNegotiation, handleCompression];
+
